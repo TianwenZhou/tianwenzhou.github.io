@@ -37,3 +37,4 @@ My research interest is deep learning and computer vision. I am currently workin
 - *2023.10 - Now*, Visiting Student in Yu Vision (YUV) Group, Great Bay University, China
 - *2023.05 - 2023.08*, Data Product Intern, Bytedance
 - *2023.01 - 2023.04*, Data Operation Intern, Didichuxing
+- *2022.11 - 2023.06*, Research Assistant, Beijing Normal University
