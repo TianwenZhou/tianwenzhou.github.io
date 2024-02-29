@@ -20,7 +20,7 @@ redirect_from:
 I am a Senior student in Beijing Normal University, an Intern Researcher in AI Lab, Research and Development Center, Sony(China), and a visiting student in the Great Bay University(GBU).
 
 
-My research interest deep learning and computer vision. I am currently working on Latent Diffusion Models(LDM) and Image Restoration(IR) tasks.
+My research interest is deep learning and computer vision. I am currently working on Latent Diffusion Models(LDM) and Image Restoration(IR) tasks.
 
 
 
