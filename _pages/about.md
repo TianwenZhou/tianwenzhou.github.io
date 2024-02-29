@@ -25,14 +25,15 @@ My research interest is deep learning and computer vision. I am currently workin
 
 
 # 🎖 Honors and Awards
-- *2023.12*, First-class academic scholarship 
+- *2023*, First-class academic scholarship 
 
 
 # 📖 Educations
 - *2020.09-2024.06*, Beijing Normal University(BNU), majoring in Mathematics and Applied Mathematics
 
 
-# 💻 Internships
+# 💻 Experiences
 - *2023.08 - Now*, Intern Researcher in Computer Vision, AI Lab, Research and Development Center, Sony(China)
+- *2023.10 - Now*, Visiting Student in Yu Vision (YUV) Group, Great Bay University, China
 - *2023.05 - 2023.08*, Data Product Intern, Bytedance
 - *2023.01 - 2023.04*, Data Operation Intern, Didichuxing
