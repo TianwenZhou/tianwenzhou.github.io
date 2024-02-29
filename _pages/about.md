@@ -29,7 +29,7 @@ My research interest deep learning and computer vision. I am currently working o
 
 
 # 📖 Educations
-- *2020.09-2024.06, Beijing Normal University(BNU), majoring in Mathematics and Applied Mathematics
+- *2020.09-2024.06*, Beijing Normal University(BNU), majoring in Mathematics and Applied Mathematics
 
 
 # 💻 Internships
