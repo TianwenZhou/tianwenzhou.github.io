@@ -17,10 +17,12 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Senior student in Beijing Normal University, an Intern Researcher in AI Lab, Research and Development Center, Sony(China), and a visiting student in the Great Bay University(GBU).
+I am a Senior student in Beijing Normal University majoring in Mathematics and Applied Mathematics, an Intern Researcher in AI Lab, Research and Development Center, Sony(China), and a visiting student in the Great Bay University(GBU).
 
 
-My research interest is deep learning and computer vision. I am currently working on Latent Diffusion Models(LDM) and Image Restoration(IR) tasks.
+My research interest includes deep learning and computer vision. I am currently working on Latent Diffusion Models(LDM) and Image Restoration(IR) tasks.
+
+Feel free to get in touch with me via tianwenzhou0521[at]gmail.com
 
 
 
