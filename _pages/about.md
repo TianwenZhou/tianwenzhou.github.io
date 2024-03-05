@@ -34,7 +34,7 @@ Feel free to get in touch with me via tianwenzhou0521[at]gmail.com
 
 # 📖 Educations
 - *2020.09-2024.06*, Bachelor's degree of science in **Mathematics and Applied Mathematics**, Beijing Normal University(BNU)
-- *2024.09-2025.09*(future), Master's degree of science in Artificial Intelligence and Sustainable Development, University College London(UCL)
+- *2024.09-2025.09*(future), Master's degree of science in **Artificial Intelligence and Sustainable Development**, University College London(UCL)
 
 
 # 💻 Experiences
