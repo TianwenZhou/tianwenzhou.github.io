@@ -26,7 +26,7 @@ Feel free to get in touch with me via tianwenzhou0521[at]gmail.com
 
 
 # 🎖 Honors and Awards
-- *2023*, First-class academic scholarship 
+- *2022-2023*, First-class academic scholarship 
 - *2022-2023*, First Class Reward-based Scholarship
 - *2021-2022, 2022-2023*, Class Outstanding Student
 
