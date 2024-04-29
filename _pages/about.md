@@ -26,15 +26,16 @@ Feel free to get in touch with me via tianwenzhou0521[at]gmail.com
 
 
 # 🎖 Honors and Awards
-- *2022-2023*, First-class academic scholarship 
+- *2024*, Out-standing Graduate
+- *2022-2023*, First-class Academic Scholarship 
 - *2022-2023*, First Class Reward-based Scholarship
 - *2021-2022, 2022-2023*, Class Outstanding Student
 
 
 
 # 📖 Educations
-- *2020.09-2024.06*, Bachelor's degree of science in **Mathematics and Applied Mathematics**, Beijing Normal University(BNU)
-- *2024.09-2025.09*(future), Master's degree of science in **Artificial Intelligence for Sustainable Development**, University College London(UCL)
+- *2020.09-2024.06*, Bachelor's degree of science in **Mathematics and Applied Mathematics**, School of Mathematical Science, Beijing Normal University(BNU)
+- *2024.09-2025.09*(future), Master's degree of science in **Artificial Intelligence for Sustainable Development**, School of Computer Science, University College London(UCL)
 
 
 # 💻 Experiences
@@ -44,3 +45,5 @@ Feel free to get in touch with me via tianwenzhou0521[at]gmail.com
 - *2023.05 - 2023.08*, Data Product Intern, Bytedance
 - *2023.01 - 2023.04*, Data Operation Intern, Didichuxing
 - *2022.11 - 2023.06*, Research Assistant, Beijing Normal University
+
+# 📒 Publications
