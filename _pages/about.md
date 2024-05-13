@@ -26,10 +26,10 @@ Feel free to get in touch with me via tianwenzhou0521[at]gmail.com
 
 
 # 🎖 Honors and Awards
-- *2024*, Out-standing Graduate
-- *2022-2023*, First-class Academic Scholarship 
-- *2022-2023*, First Class Reward-based Scholarship
-- *2021-2022, 2022-2023*, Class Outstanding Student
+- *2024*, Outstanding Graduate
+- *2022-2023*, First-Class Academic Scholarship 
+- *2022-2023*, First-Class Reward-based Scholarship
+- *2021-2022, 2022-2023*, Outstanding Student
 
 
 
@@ -41,7 +41,7 @@ Feel free to get in touch with me via tianwenzhou0521[at]gmail.com
 # 💻 Experiences
 - *2023.08 - Now*, Intern Researcher in Computer Vision, AI Lab, Research and Development Center, Sony(China)
 - *2023.10 - Now*, Visiting Student in Yu Vision (YUV) Group, Great Bay University, China
-- *2023.07 - 2023.08* Visiting Student in AIR Lab, Tsinghua University, China 
+- *2023.07 - 2023.08*, Visiting Student in AIR Lab, Tsinghua University, China 
 - *2023.05 - 2023.08*, Data Product Intern, Bytedance
 - *2023.01 - 2023.04*, Data Operation Intern, Didichuxing
 - *2022.11 - 2023.06*, Research Assistant, Beijing Normal University
