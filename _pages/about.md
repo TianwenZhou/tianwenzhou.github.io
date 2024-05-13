@@ -47,3 +47,6 @@ Feel free to get in touch with me via tianwenzhou0521[at]gmail.com
 - *2022.11 - 2023.06*, Research Assistant, Beijing Normal University
 
 # 📒 Publications
+[1]**Tianwen Zhou**, Qihao Duan and Zitong Yu. "**Difflare: Removing Image Lens Flare with Latent Diffusion Models.**" Under review for publication.
+
+# 🔬 Invention Patent
