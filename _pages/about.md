@@ -17,25 +17,24 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Senior student in Beijing Normal University majoring in Mathematics and Applied Mathematics, an Intern Researcher in AI Lab, Research and Development Center, Sony(China), and a visiting student in the Great Bay University(GBU). 
+I am a Senior student in Beijing Normal University majoring in Mathematics and Applied Mathematics, an Intern Researcher in AI Lab, Research and Development Center, Sony(China). I am a visiting student in the Great Bay University(GBU), working with "https://zitongyu.github.io". 
 
-My research interest includes deep learning and computer vision. I am currently working on Latent Diffusion Models(LDM) and Image Restoration(IR) tasks.
+My research interest includes deep learning and computer vision. I am currently working on Diffusion Models (DM) and Low-level Vision tasks.
 
 Feel free to get in touch with me via tianwenzhou0521[at]gmail.com
-
-
-
-# 🎖 Honors and Awards
-- *2024*, Outstanding Graduate
-- *2022-2023*, First-Class Academic Scholarship 
-- *2022-2023*, First-Class Reward-based Scholarship
-- *2021-2022, 2022-2023*, Outstanding Student
-
 
 
 # 📖 Educations
 - *2020.09-2024.06*, Bachelor's degree of science in **Mathematics and Applied Mathematics**, School of Mathematical Science, Beijing Normal University(BNU)
 - *2024.09-2025.09*(future), Master's degree of science in **Artificial Intelligence for Sustainable Development**, School of Computer Science, University College London(UCL)
+
+
+# 🎖 Honors and Awards
+- *2024*, Outstanding Graduate
+- *2024*, Outstanding Graduation Thesis
+- *2022-2023*, First-Class Academic Scholarship 
+- *2022-2023*, First-Class Reward-based Scholarship
+- *2021-2022, 2022-2023*, Outstanding Student
 
 
 # 💻 Experiences
