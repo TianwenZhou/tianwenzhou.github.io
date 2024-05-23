@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Senior student in Beijing Normal University majoring in Mathematics and Applied Mathematics, an Intern Researcher in AI Lab, Research and Development Center, Sony(China). I am a visiting student in the Great Bay University(GBU), working with [Zitong Yu](https://zitongyu.github.io).
+I am a Senior student in Beijing Normal University majoring in Mathematics and Applied Mathematics, an Intern Researcher in AI Lab, Research and Development Center, Sony(China). I am a visiting student in the Great Bay University(GBU), working with [Prof. Zitong Yu](https://zitongyu.github.io).
 
 My research interest includes deep learning and computer vision. I am currently working on Deep Learning and Low-level Vision tasks.
 
