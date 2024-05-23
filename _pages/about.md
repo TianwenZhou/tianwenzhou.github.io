@@ -54,4 +54,4 @@ Feel free to get in touch with me via tianwenzhou0521[at]gmail.com
 
 
 # 🔬 Invention Patents         
-* A method, device, system, and medium for image lens flare. (一种图像杂散光去除方法、装置、系统和介质)
+* A method, device, system, and medium for image lens flare removal. (一种图像杂散光去除方法、装置、系统和介质)
