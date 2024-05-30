@@ -17,10 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Senior student in Beijing Normal University majoring in Mathematics and Applied Mathematics. I am currently an intern researcher in AI Lab, Research and Development Center, Sony(China). I am a visiting student in the Great Bay University(GBU), working with [Prof. Zitong Yu](https://zitongyu.github.io). I was a research assistant in Intelligent Media Computer Laboratory, Beijing Normal University, working with [Prof. Hua Huang](https://vmcl.bnu.edu.cn/group/teacher/dcdaea79b5e54b75b532795109a85a34.htm). I am a member of Chinese Congress on Image and Graphics (CCIG)
-
-My research interest includes deep learning and computer vision. I am currently working on Deep Learning and Low-level Vision tasks.
-
+# 🎓 Bio.
+I am a Senior student in Beijing Normal University majoring in Mathematics and Applied Mathematics. I am currently an intern researcher in AI Lab, Research and Development Center, Sony(China). I am a visiting student in the Great Bay University(GBU), working with [Prof. Zitong Yu](https://zitongyu.github.io). I was a research assistant in Intelligent Media Computer Laboratory, Beijing Normal University, working with [Prof. Hua Huang](https://vmcl.bnu.edu.cn/group/teacher/dcdaea79b5e54b75b532795109a85a34.htm).\
+My research interest includes deep learning and computer vision. I am currently working on Deep Learning and Low-level Vision tasks.\
 Feel free to get in touch with me via tianwenzhou0521[at]gmail.com
 
 
@@ -30,8 +29,8 @@ Feel free to get in touch with me via tianwenzhou0521[at]gmail.com
 
 
 # 🎖 Honors and Awards
-- *2024*, Outstanding Graduate
-- *2024*, Outstanding Graduation Thesis
+- *2024*, Distinguished Graduates, (Top 5%)
+- *2024*, Distinguished Graduate Thesis Award, (Top 5%)
 - *2022-2023*, First-Class Academic Scholarship 
 - *2022-2023*, First-Class Reward-based Scholarship
 - *2021-2022, 2022-2023*, Outstanding Student
@@ -49,6 +48,9 @@ Feel free to get in touch with me via tianwenzhou0521[at]gmail.com
 [1]**Tianwen Zhou**, Qihao Duan and Zitong Yu. "**Difflare: Removing Image Lens Flare with Latent Diffusion Models.**" Under review for publication.
 
 # 📪 Academic Services
+**Congress Member**
+* Member of Chinese Congress on Image and Graphics (CCIG)
+  
 **Conference Reviewer** 
 *  British Machine Vision Conference (BMVC) 2024
 
