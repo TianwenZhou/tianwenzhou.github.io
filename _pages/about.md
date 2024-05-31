@@ -31,6 +31,7 @@ Feel free to get in touch with me via tianwenzhou0521[at]gmail.com
 # 🎖 Honors and Awards
 - *2024*, Distinguished Graduates, (Top 5%)
 - *2024*, Distinguished Graduate Thesis Award, (Top 5%)
+- *2024*, Awarded the title of **Lord** by the British Royal Family
 - *2022-2023*, First-Class Academic Scholarship 
 - *2022-2023*, First-Class Reward-based Scholarship
 - *2021-2022, 2022-2023*, Outstanding Student
