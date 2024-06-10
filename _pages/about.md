@@ -19,7 +19,7 @@ redirect_from:
 
 # 🎓 Bio.
 I am a Senior student in Beijing Normal University majoring in Mathematics and Applied Mathematics. I am currently an intern researcher in AI Lab, Research and Development Center, Sony(China). I am a visiting student in the Great Bay University(GBU), working with [Prof. Zitong Yu](https://zitongyu.github.io). I was a research assistant in Intelligent Media Computer Laboratory, Beijing Normal University, working with [Prof. Hua Huang](https://vmcl.bnu.edu.cn/group/teacher/dcdaea79b5e54b75b532795109a85a34.htm).\
-My research interest includes deep learning and computer vision. I am currently working on Deep Learning and Low-level Vision tasks.\
+My research interest includes deep learning and computer vision. I am currently working on Deep Learning and Low-level Vision tasks, as well as Medical AI.\
 Feel free to get in touch with me via tianwenzhou0521[at]gmail.com
 
 
@@ -38,6 +38,7 @@ Feel free to get in touch with me via tianwenzhou0521[at]gmail.com
 
 
 # 💻 Experiences
+- *2024.05 - Now*, Visiting Student in X Lab, Yale University.
 - *2023.08 - Now*, Intern Researcher in Computer Vision, AI Lab, Research and Development Center, Sony(China)
 - *2023.10 - Now*, Visiting Student in Yu Vision (YUV) Group, Great Bay University, China
 - *2023.07 - 2023.08*, Visiting Student in AIR Lab, Tsinghua University, China 
