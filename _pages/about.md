@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 🎓 Bio.
-I am a Senior student in Beijing Normal University majoring in Mathematics and Applied Mathematics. I am currently an intern researcher in AI Lab, Research and Development Center, Sony(China). I am a visiting student in Yale University, working with [Prof. Xiaofeng Liu](https://xliulab.mgh.harvard.edu/xiaofeng/). I am a visiting student in the Great Bay University(GBU), working with [Prof. Zitong Yu](https://zitongyu.github.io). I was a research assistant in Intelligent Media Computer Laboratory, Beijing Normal University, working with [Prof. Hua Huang](https://vmcl.bnu.edu.cn/group/teacher/dcdaea79b5e54b75b532795109a85a34.htm).\
+I am a post-graduate student in Department of Computer Science, University College London (UCL). I am currently an intern researcher in AI Lab, Research and Development Center, Sony(China). I am a visiting student in Yale University, working with [Prof. Xiaofeng Liu](https://xliulab.mgh.harvard.edu/xiaofeng/). I am a visiting student in the Great Bay University(GBU), working with [Prof. Zitong Yu](https://zitongyu.github.io). I was a research assistant in Intelligent Media Computer Laboratory, Beijing Normal University, working with [Prof. Hua Huang](https://vmcl.bnu.edu.cn/group/teacher/dcdaea79b5e54b75b532795109a85a34.htm).\
 My research interest includes deep learning and computer vision. I am currently working on Deep Learning and Low-level Vision tasks, as well as Medical AI.\
 Feel free to get in touch with me via tianwenzhou0521[at]gmail.com
 
