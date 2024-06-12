@@ -38,16 +38,19 @@ Feel free to get in touch with me via tianwenzhou0521[at]gmail.com
 
 
 # 💻 Experiences
-- *2024.05 - Now*, Visiting Student in X Lab, Yale University.
-- *2023.08 - Now*, Intern Researcher in Computer Vision, AI Lab, Research and Development Center, Sony(China)
-- *2023.10 - Now*, Visiting Student in Yu Vision (YUV) Group, Great Bay University, China
-- *2023.07 - 2023.08*, Visiting Student in AIR Lab, Tsinghua University, China 
-- *2023.05 - 2023.08*, Data Product Intern, Bytedance
-- *2023.01 - 2023.04*, Data Operation Intern, Didichuxing
-- *2022.11 - 2023.06*, Research Assistant, Beijing Normal University
+- *2024.05 - Now*, **Visiting Student** in Medical AI, X Lab, Yale Institute for Global Health, Yale University.
+- *2023.08 - Now*, **Intern Researcher** in Computer Vision, AI Lab, Research and Development Center, Sony(China)
+- *2023.10 - Now*, **Visiting Student** in Yu Vision (YUV) Group, Great Bay University, China
+- *2023.07 - 2023.08*, **Visiting Student** in NeRF & 3D Reconstruction, AIR Lab, Tsinghua University, China 
+- *2023.05 - 2023.08*, **Data Product Intern**, Bytedance
+- *2023.01 - 2023.04*, **Data Operation Intern**, Didichuxing
+- *2022.11 - 2023.06*, **Research Assistant** in Infrared Imaging, Intelligent Media Computer Laboratory, Beijing Normal University
 
 # 📒 Publications
-[1]**Tianwen Zhou**, Qihao Duan and Zitong Yu. "**Difflare: Removing Image Lens Flare with Latent Diffusion Models.**" Under review for publication.
+#: equal contribution *: corresponding author
+
+
+[1]**Tianwen Zhou**, Qihao Duan and Zitong Yu*. "**Difflare: Removing Image Lens Flare with Latent Diffusion Models.**" Under review for publication.
 
 # 📪 Academic Services
 **Congress Member**
