@@ -18,9 +18,9 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 🎓 Bio.
-I am a post-graduate student in Department of Computer Science, University College London (UCL). I am currently an intern researcher in AI Lab, Research and Development Center, Sony(China). I am a visiting student in Yale University, working with [Prof. Xiaofeng Liu](https://xliulab.mgh.harvard.edu/xiaofeng/). I am a visiting student in the Great Bay University(GBU), working with [Prof. Zitong Yu](https://zitongyu.github.io). I was a research assistant in Intelligent Media Computer Laboratory, Beijing Normal University, working with [Prof. Hua Huang](https://vmcl.bnu.edu.cn/group/teacher/dcdaea79b5e54b75b532795109a85a34.htm).\
-My research interest includes deep learning and computer vision. I am currently working on Deep Learning and Low-level Vision tasks, as well as Medical AI.\
-Feel free to get in touch with me via tianwenzhou0521[at]gmail.com
+Tianwen Zhou a post-graduate student in Department of Computer Science, University College London (UCL). He is currently an intern researcher in AI Lab, Research and Development Center, Sony(China). He is a visiting student in Yale University, working with [Prof. Xiaofeng Liu](https://xliulab.mgh.harvard.edu/xiaofeng/). He is a visiting student in the Great Bay University(GBU), working with [Prof. Zitong Yu](https://zitongyu.github.io). He was a research assistant in Intelligent Media Computer Laboratory, Beijing Normal University, working with [Prof. Hua Huang](https://vmcl.bnu.edu.cn/group/teacher/dcdaea79b5e54b75b532795109a85a34.htm).\
+His research interest includes deep learning and computer vision. He is currently working on Deep Learning and Low-level Vision tasks, as well as Medical AI.\
+Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com
 
 
 # 📖 Educations
@@ -38,7 +38,7 @@ Feel free to get in touch with me via tianwenzhou0521[at]gmail.com
 
 
 # 💻 Experiences
-- *2024.05 - Now*, **Visiting Student** in Medical AI, X Lab, Yale Institute for Global Health, Yale University.
+- *2024.05 - Now*, **Visiting Student** in Medical AI, X Lab, [Yale Institute for Global Health](https://medicine.yale.edu/), Yale University.
 - *2023.08 - Now*, **Intern Researcher** in Computer Vision, AI Lab, Research and Development Center, Sony(China)
 - *2023.10 - Now*, **Visiting Student** in Yu Vision (YUV) Group, Great Bay University, China
 - *2023.07 - 2023.08*, **Visiting Student** in NeRF & 3D Reconstruction, AIR Lab, Tsinghua University, China 
@@ -55,6 +55,7 @@ Feel free to get in touch with me via tianwenzhou0521[at]gmail.com
 # 📪 Academic Services
 **Congress Member**
 * Member of Chinese Congress on Image and Graphics (CCIG)
+* IEEE Student Member
   
 **Conference Reviewer** 
 *  British Machine Vision Conference (BMVC) 2024
