@@ -20,7 +20,7 @@ redirect_from:
 # 🎓 Bio.
 Tianwen Zhou a post-graduate student in Department of Computer Science, University College London (UCL). He is currently an intern researcher in AI Lab, Research and Development Center, Sony(China). He is a visiting student in Yale University, working with [Prof. Xiaofeng Liu](https://xliulab.mgh.harvard.edu/xiaofeng/). He is a visiting student in the Great Bay University(GBU), working with [Prof. Zitong Yu](https://zitongyu.github.io). He was a research assistant in Intelligent Media Computer Laboratory, Beijing Normal University, working with [Prof. Hua Huang](https://vmcl.bnu.edu.cn/group/teacher/dcdaea79b5e54b75b532795109a85a34.htm).\
 His research interest includes deep learning and computer vision. He is currently working on Deep Learning and Low-level Vision tasks, as well as Medical AI.\
-Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com
+Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com or tianwenzhou0521[at]ieee.org
 
 
 # 📖 Educations
@@ -32,16 +32,16 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com
 - *2024*, Distinguished Graduates, (Top 5%)
 - *2024*, Distinguished Graduate Thesis Award, (Top 5%)
 - *2024*, Awarded the title of **Lord** by the British Royal Family
-- *2022-2023*, First-Class Academic Scholarship 
-- *2022-2023*, First-Class Reward-based Scholarship
-- *2021-2022, 2022-2023*, Outstanding Student
+- *2022-2023*, First-Class Academic Scholarship (Top 10%)
+- *2022-2023*, First-Class Reward-based Scholarship (Top 10%)
+- *2021-2022, 2022-2023*, Outstanding Student (Top 10%)
 
 
 # 💻 Experiences
 - *2024.05 - Now*, **Visiting Student** in Medical AI, X Lab, [Yale Institute for Global Health](https://medicine.yale.edu/), Yale University.
-- *2023.08 - Now*, **Intern Researcher** in Computer Vision, AI Lab, Research and Development Center, Sony(China)
-- *2023.10 - Now*, **Visiting Student** in Yu Vision (YUV) Group, Great Bay University, China
-- *2023.07 - 2023.08*, **Visiting Student** in NeRF & 3D Reconstruction, AIR Lab, Tsinghua University, China 
+- *2023.08 - Now*, **Intern Researcher** in Computer Vision, [AI Lab](https://ai.sony/), Research and Development Center, Sony(China)
+- *2023.10 - Now*, **Visiting Student** in Low-level Vision and Multi-modal Learning ,Yu Vision (YUV) Group, Great Bay University, China
+- *2023.07 - 2023.08*, **Visiting Student** in NeRF & 3D Reconstruction, [AIR Lab](https://air.tsinghua.edu.cn/en/), Tsinghua University, China 
 - *2023.05 - 2023.08*, **Data Product Intern**, Bytedance
 - *2023.01 - 2023.04*, **Data Operation Intern**, Didichuxing
 - *2022.11 - 2023.06*, **Research Assistant** in Infrared Imaging, Intelligent Media Computer Laboratory, Beijing Normal University
