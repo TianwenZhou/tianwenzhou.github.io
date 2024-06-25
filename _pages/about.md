@@ -22,7 +22,7 @@ Tianwen Zhou a post-graduate student in Department of Computer Science, Universi
 His research interest includes deep learning and computer vision. He is currently working on Deep Learning and Low-level Vision tasks, as well as Medical AI.\
 Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com or tianwenzhou0521[at]ieee.org
 
-*Note: The one on the right side of the picture **with a tie** is Tianwen Zhou.*
+*Note: The one on the right side of the picture **with tie and glasses** is Tianwen Zhou.*
 
 # 📖 Educations
 - *2024.09-2025.09*(future), Master's degree of science in **Artificial Intelligence for Sustainable Development**, School of Computer Science, University College London(UCL)
