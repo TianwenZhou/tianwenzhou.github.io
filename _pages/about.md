@@ -60,7 +60,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
   
 **Conference Reviewer** 
 *  British Machine Vision Conference (BMVC) 2024
-
+* IEEE International Joint Conference on Biometrics (IJCB)
 
 # 🔬 Invention Patents         
 * A method, device, system, and storage medium for image lens flare removal. (一种图像杂散光去除方法、装置、系统和介质)
