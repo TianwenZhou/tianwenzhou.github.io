@@ -28,6 +28,8 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 - *2024.09-2025.09*(future), Master's degree of science in **Artificial Intelligence for Sustainable Development**, School of Computer Science, University College London(UCL)
 - *2020.09-2024.06*, Bachelor's degree of science in **Mathematics and Applied Mathematics**, School of Mathematical Science, Beijing Normal University(BNU)
 
+# 🔥 News
+* One of our work on low level vision (lens flare removal) is accepted by BMVC'24!
 
 # 🎖 Honors and Awards
 - *2024*, Distinguished Graduates, (Top 5%)
@@ -51,7 +53,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 #: equal contribution *: corresponding author
 
 
-[1]**Tianwen Zhou**, Qihao Duan and Zitong Yu*. "**Difflare: Removing Image Lens Flare with Latent Diffusion Models.**" Under review for publication.
+[1]**Tianwen Zhou**, Qihao Duan and Zitong Yu*. "**Difflare: Removing Image Lens Flare with Latent Diffusion Models.**". Accepted by British Machine Vision Conference (BMVC) 2024. 
 
 # 📪 Academic Services
 **Congress Member**
