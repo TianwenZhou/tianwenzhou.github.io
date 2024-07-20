@@ -29,7 +29,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 - *2020.09-2024.06*, Bachelor's degree of science in **Mathematics and Applied Mathematics**, School of Mathematical Science, Beijing Normal University(BNU)
 
 # 🔥 News
-* [2024.07] One of our work on low level vision (lens flare removal) is accepted by BMVC'24!
+* [2024.07] One paper is accepted by British Machine Vision Conference (BMVC 2024)! 
 
 # 🎖 Honors and Awards
 - *2024*, Distinguished Graduates, (Top 5%)
@@ -52,8 +52,18 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 # 📒 Publications
 #: equal contribution *: corresponding author
 
+<div class='paper-box'><div class='paper-box-image'><img src='images/Difflare.png' alt="sym" width="100%"></div>
+<div class='paper-box-text' markdown="1">
 
-[1]**Tianwen Zhou**, Qihao Duan and Zitong Yu*. "**Difflare: Removing Image Lens Flare with Latent Diffusion Models.**". Accepted by British Machine Vision Conference (BMVC) 2024. 
+**Difflare: Removing Image Lens Flare with Latent Diffusion Models**  
+<u>Tianwen Zhou<u>, Qihao Duan and Zitong Yu*.
+
+**<font color = "#224B8D">BMVC 2024</font>** \| [Paper](https://arxiv.org/abs/2310.01018) \| [Code](https://github.com/Algolzw/daclip-uir) \| [Project](https://algolzw.github.io/daclip-uir/index.html) <strong><span class='show_paper_citations' data='3WQTKocAAAAJ:WF5omc3nYNoC'></span></strong>
+- This work presents a degradation-aware vision-language model (DA-CLIP) for multi-task image restoration.
+- A controller predicts degradation types and also adapts the fixed CLIP image encoder to predict high-quality feature embeddings.
+</div>
+</div>
+
 
 # 📪 Academic Services
 **Congress Member**
