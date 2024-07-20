@@ -29,7 +29,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 - *2020.09-2024.06*, Bachelor's degree of science in **Mathematics and Applied Mathematics**, School of Mathematical Science, Beijing Normal University(BNU)
 
 # 🔥 News
-* One of our work on low level vision (lens flare removal) is accepted by BMVC'24!
+* [2024.07] One of our work on low level vision (lens flare removal) is accepted by BMVC'24!
 
 # 🎖 Honors and Awards
 - *2024*, Distinguished Graduates, (Top 5%)
