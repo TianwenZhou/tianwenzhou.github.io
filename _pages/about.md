@@ -78,5 +78,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 # 🔬 Invention Patents         
 * A method, device, system, and storage medium for image lens flare removal. (一种图像杂散光去除方法、装置、系统和介质)
 * A method, device, equipment and storage medium for generating medical image reports. (一种医学影像报告生成方法、装置、设备和储存介质)
+
+
 # 🛫️ Events
 * Will be attending [BMVC 2024,Glasgow, UK](https://bmvc2024.org/)
