@@ -58,7 +58,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 **Difflare: Removing Image Lens Flare with Latent Diffusion Models**  
 **Tianwen Zhou**, Qihao Duan and Zitong Yu*.
 
-**<font color = "#224B8D">BMVC 2024</font>** \| [Paper](https://arxiv.org/abs/2407.14746) \| [Code](https://github.com/TianwenZhou/Difflare) <strong><span class='show_paper_citations' data='3WQTKocAAAAJ:WF5omc3nYNoC'></span></strong>
+**<font color = "#224B8D">BMVC 2024 (Core A)</font>** \| [Paper](https://arxiv.org/abs/2407.14746) \| [Code](https://github.com/TianwenZhou/Difflare) <strong><span class='show_paper_citations' data='3WQTKocAAAAJ:WF5omc3nYNoC'></span></strong>
 - This work presents a novel paradigm for image lens flare removal.
 - We utilize both the physics prior of lens flare and the prior encapsulated in pre-trained Latent Diffusion Models (LDM).
 </div>
@@ -73,7 +73,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
   
 **Conference Reviewer** 
 *  British Machine Vision Conference (BMVC) 2024
-* IEEE International Joint Conference on Biometrics (IJCB)
+* IEEE International Joint Conference on Biometrics (IJCB) 2024
 
 # 🔬 Invention Patents         
 * A method, device, system, and storage medium for image lens flare removal. (一种图像杂散光去除方法、装置、系统和介质)
