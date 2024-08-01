@@ -69,6 +69,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 **Congress Member**
 * Member of Chinese Congress on Image and Graphics (CCIG)
 * IEEE Student Member
+* Member of British Machine Vision Association (BMVA) 
   
 **Conference Reviewer** 
 *  British Machine Vision Conference (BMVC) 2024
