@@ -25,7 +25,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 *Note: The one on the top of the picture **with tie and glasses** is Tianwen Zhou.*
 
 # 📖 Educations
-- *2024.09-2025.09*(future), Master's degree of science in **Artificial Intelligence for Sustainable Development**, School of Computer Science, University College London(UCL)
+- *2024.09-2025.09*(future), Master's degree of science in **Computer Graphics and Visual Imaging**, School of Computer Science, University College London(UCL)
 - *2020.09-2024.06*, Bachelor's degree of science in **Mathematics and Applied Mathematics**, School of Mathematical Science, Beijing Normal University(BNU)
 
 # 🔥 News
@@ -79,6 +79,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 * A method, device, system, and storage medium for image lens flare removal. (一种图像杂散光去除方法、装置、系统和介质)
 * A method, device, equipment and storage medium for generating medical image reports. (一种医学影像报告生成方法、装置、设备和储存介质)
 
-
+# 🧑‍🏫 Teaching
+* Will serve as Teaching Assistant(TA) in UCL Computer Science, 2025 Spring.
 # 🛫️ Events
 * Will be attending [BMVC 2024,Glasgow, UK](https://bmvc2024.org/)
