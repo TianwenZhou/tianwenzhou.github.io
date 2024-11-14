@@ -19,7 +19,7 @@ redirect_from:
 
 # 🎓 Bio
 Tianwen Zhou is a post-graduate student in Department of Computer Science, University College London (UCL), majoring in Computer Graphics, Vision and Imaging. He is currently an intern researcher in AI Lab, Research and Development Center, Sony(China). He is a visiting student in Yale University, working with [Prof. Xiaofeng Liu](https://xliulab.mgh.harvard.edu/xiaofeng/). He is a visiting student in the Great Bay University(GBU), working with [Prof. Zitong Yu](https://zitongyu.github.io). He was a research assistant in Intelligent Media Computer Laboratory, Beijing Normal University, working with [Prof. Hua Huang](https://vmcl.bnu.edu.cn/group/teacher/dcdaea79b5e54b75b532795109a85a34.htm).\
-His research interest includes Deep Learning and Computer Vision. He is currently working on Low-level Vision tasks,  Multimodal Learning, as well as Medical AI.\
+His research interest includes Deep Learning and Computer Vision. He is currently working on Computational Imaging, Low-level Vision tasks, Multimodal Learning, as well as Medical AI.\
 Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(preferred)* or tianwenzhou0521[at]ieee.org
 
 *Note: The one on the top of the picture **with tie and glasses** is Tianwen Zhou.*
