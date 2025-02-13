@@ -43,7 +43,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 # 💻 Experiences
 - *2024.05 - Now*, **Visiting Student** in Medical AI, X Lab, [Yale Institute for Global Health](https://medicine.yale.edu/), Yale University.
 - *2023.08 - Now*, **Intern Researcher** in Computer Vision, [AI Lab](https://ai.sony/), Research and Development Center, Sony(China)
-- *2023.10 - Now*, **Visiting Student** in Low-level Vision and Multi-modal Learning ,Yu Vision (YUV) Group, Great Bay University, China
+- *2023.10 - Now*, **Visiting Student** in Low-level Vision and Multi-modal Learning, Yu Vision (YUV) Group, Great Bay University, China
 - *2023.07 - 2023.08*, **Visiting Student** in NeRF & 3D Reconstruction, [AIR Lab](https://air.tsinghua.edu.cn/en/), Tsinghua University, China 
 - *2023.05 - 2023.08*, **Data Product Intern**, Bytedance
 - *2023.01 - 2023.04*, **Data Operation Intern**, Didichuxing
@@ -75,6 +75,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 * British Machine Vision Conference (BMVC) 2024
 * IEEE International Joint Conference on Biometrics (IJCB) 2024
 * IEEE International Conference on Multimedia and Expo (ICME) 2025
+* International Conference on Learning Representations (ICLR) 2025
 
 # 🔬 Invention Patents         
 * A method, device, system, and storage medium for image lens flare removal. (一种图像杂散光去除方法、装置、系统和介质)
