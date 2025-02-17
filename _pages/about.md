@@ -68,7 +68,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 **Difflare: Removing Image Lens Flare with Latent Diffusion Models**  
 **Tianwen Zhou**, Qihao Duan and Zitong Yu*.
 
-**<font color = "#224B8D">BMVC 2024 (Core A)</font>** \| [Paper](https://bmva-archive.org.uk/bmvc/2024/papers/Paper_437/paper.pdf) \| [Code](https://github.com/TianwenZhou/Difflare) \| [Video](https://www.youtube.com/watch?v=naYsWT7SOn0)  <strong><span class='show_paper_citations' data='3WQTKocAAAAJ:WF5omc3nYNoC'></span></strong>
+**<font color = "#224B8D">BMVC 2024 (Core A)</font>** \| [Paper](https://bmva-archive.org.uk/bmvc/2024/papers/Paper_437/paper.pdf) \| [Code](https://github.com/TianwenZhou/Difflare) \| [Video](https://www.youtube.com/watch?v=naYsWT7SOn0)  <strong><span class='show_paper_citations' data='Km1ZrkYAAAAJ:u-x6o8ySG0sC'></span></strong>
 - This work presents a novel paradigm for image lens flare removal.
 - We utilize both the physics prior of lens flare and the prior encapsulated in pre-trained Latent Diffusion Models (LDM).
 </div>
