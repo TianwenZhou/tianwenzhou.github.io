@@ -51,7 +51,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 
 # 📒 Publications
 #: equal contribution *: corresponding author
-<div class='paper-box'><div class='paper-box-image'><img src='../images/Difflare.png' alt="sym" width="100%"></div>
+<div class='paper-box'><div class='paper-box-image'><img src='../images/ProDehaze.png' alt="sym" width="100%"></div>
 <div class='paper-box-text' markdown="1">
 
 **ProDehaze: Prompting Diffusion Models TowardFaithful Image Dehazing**  
