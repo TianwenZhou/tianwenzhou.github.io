@@ -29,7 +29,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 - *2020.09-2024.06*, Bachelor's degree of science in **Mathematics and Applied Mathematics**, School of Mathematical Science, Beijing Normal University(BNU)
 
 # 🔥 News
-* [2024.07] One paper is accepted by British Machine Vision Conference (BMVC 2024)! 
+* [2024.07] One paper is accepted to British Machine Vision Conference (BMVC 2024)! 
 
 # 🎖 Honors and Awards
 - *2024*, Distinguished Graduates, (Top 5%)
