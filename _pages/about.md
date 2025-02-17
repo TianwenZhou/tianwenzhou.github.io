@@ -58,7 +58,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 **Tianwen Zhou**, Jing Wang, Songtao Wu and Kuanhong Xu*.
 
 **<font color = "#224B8D"></font>** \| [Paper] \| [Video]  <strong><span class='show_paper_citations' data='3WQTKocAAAAJ:WF5omc3nYNoC'></span></strong>
-Utilizes internal image priors to guide external priors from pretrained diffusion models, addressing hallucination issues in image dehazing.
+-Utilizes internal image priors to guide external priors from pretrained diffusion models, addressing hallucination issues in image dehazing.
 </div>
 </div>
 
