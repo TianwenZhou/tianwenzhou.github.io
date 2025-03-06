@@ -97,3 +97,31 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 
 # 🛫️ Events
 * Will be attending [BMVC 2024,Glasgow, UK](https://bmvc2024.org/)
+
+# 📚 Surveys
+
+Here are some of the surveys I have conducted:
+
+<div class='survey-box'>
+  <div class='survey-content'>
+    <div class='survey-icon'>📄</div>
+    <div class='survey-text'>
+      <h3>Summary of Diffusion Models in Video Generation: A Chronological Exploration</h3>
+      <p><strong>Tianwen Zhou</strong></p>
+      <p><span class='survey-year'>2024</span> | <a href="../images/Week33.pdf" class='survey-link'>Slides</a></p>
+      <p class='survey-description'>This survey covers the latest advancements in diffusion models for video generation, including early methods to state-of-the-art approaches.</p>
+    </div>
+  </div>
+</div>
+
+<div class='survey-box'>
+  <div class='survey-content'>
+    <div class='survey-icon'>📄</div>
+    <div class='survey-text'>
+      <h3>A Survey on Diffusion Model Through SDE</h3>
+      <p><strong>Tianwen Zhou</strong></p>
+      <p><span class='survey-year'>2024</span> | <a href="../images/Week6.pdf" class='survey-link'>Slides</a></p>
+      <p class='survey-description'>This survey explores diffusion models from the Stochastic Differential Equation (SDE) perspective.</p>
+    </div>
+  </div>
+</div>
