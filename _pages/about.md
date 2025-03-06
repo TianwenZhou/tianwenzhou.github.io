@@ -99,8 +99,9 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 <span class='anchor' id='events'></span>
 # 🛫️ Events
 * Will be attending [BMVC 2024,Glasgow, UK](https://bmvc2024.org/)
+
+
 <span class='anchor' id='surveys'></span>
-# 📚 Surveys
 
 # 📚 Surveys
 
