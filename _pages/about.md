@@ -24,6 +24,8 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 
 *Note: The one on the top of the picture **with tie and glasses** is Tianwen Zhou.*
 
+<span class='anchor' id='educations'></span>
+
 # 📖 Educations
 - *2024.09-2025.09*(future), Master's degree of science in **Computer Graphics, Vision and Imaging**, School of Computer Science, University College London(UCL)
 - *2020.09-2024.06*, Bachelor's degree of science in **Mathematics and Applied Mathematics**, School of Mathematical Science, Beijing Normal University(BNU)
@@ -94,9 +96,11 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 # 🧑‍🏫 Teaching
 * Will serve as Teaching Assistant(TA) in UCL Computer Science, 2025 Spring.
 
-
+<span class='anchor' id='events'></span>
 # 🛫️ Events
 * Will be attending [BMVC 2024,Glasgow, UK](https://bmvc2024.org/)
+<span class='anchor' id='surveys'></span>
+# 📚 Surveys
 
 # 📚 Surveys
 
@@ -104,7 +108,7 @@ Here are some of the surveys I have conducted:
 
 <div class='survey-box'>
   <div class='survey-content'>
-    <div class='survey-icon'>📄</div>
+    <div class='survey-icon'><img src="../images/survey-icon.png" alt="Survey Icon" width="40"></div> <!-- 替换为你的图片 -->
     <div class='survey-text'>
       <h3>Summary of Diffusion Models in Video Generation: A Chronological Exploration</h3>
       <p><strong>Tianwen Zhou</strong></p>
@@ -116,7 +120,7 @@ Here are some of the surveys I have conducted:
 
 <div class='survey-box'>
   <div class='survey-content'>
-    <div class='survey-icon'>📄</div>
+    <div class='survey-icon'><img src="../images/survey-icon.png" alt="Survey Icon" width="40"></div> <!-- 替换为你的图片 -->
     <div class='survey-text'>
       <h3>A Survey on Diffusion Model Through SDE</h3>
       <p><strong>Tianwen Zhou</strong></p>
