@@ -109,7 +109,6 @@ Here are some of the surveys I have conducted:
 
 <div class='survey-box'>
   <div class='survey-content'>
-    <div class='survey-icon'><img src="../images/survey-icon.png" alt="Survey Icon" width="40"></div> <!-- 替换为你的图片 -->
     <div class='survey-text'>
       <h3>Summary of Diffusion Models in Video Generation: A Chronological Exploration</h3>
       <p><strong>Tianwen Zhou</strong></p>
@@ -121,7 +120,6 @@ Here are some of the surveys I have conducted:
 
 <div class='survey-box'>
   <div class='survey-content'>
-    <div class='survey-icon'><img src="../images/survey-icon.png" alt="Survey Icon" width="40"></div> <!-- 替换为你的图片 -->
     <div class='survey-text'>
       <h3>A Survey on Diffusion Model Through SDE</h3>
       <p><strong>Tianwen Zhou</strong></p>
