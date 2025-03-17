@@ -90,8 +90,8 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 * International Conference on Learning Representations (ICLR) 2025
 
 # 🔬 Invention Patents         
-* A method, device, system, and storage medium for image lens flare removal. (一种图像杂散光去除方法、装置、系统和介质)
-* A method, device, equipment and storage medium for generating medical image reports. (一种医学影像报告生成方法、装置、设备和储存介质)
+* A method, device, system, and storage medium for image lens flare removal. (图像杂散光去除方法、装置、系统和介质, CN202410708197.8)
+* A method, device, equipment and storage medium for generating medical image reports. (医学影像报告生成方法、装置、设备和储存介质, CN202410761120.7)
 
 # 🧑‍🏫 Teaching
 * Will serve as Teaching Assistant(TA) in UCL Computer Science, 2025 Spring.
