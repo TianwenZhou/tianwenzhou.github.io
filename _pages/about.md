@@ -31,7 +31,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 - *2020.09-2024.06*, Bachelor's degree of science in **Mathematics and Applied Mathematics**, School of Mathematical Science, Beijing Normal University(BNU)
 
 # 🔥 News
-* [2025.03] Our paper _"ProDehaze: Prompting Diffusion Models TowardFaithful Image Dehazing"_ is accepted to IEEE International Conference on Multimedia&Expo (ICME 2025)!
+* [2025.03] Our paper _"ProDehaze: Prompting Diffusion Models Toward Faithful Image Dehazing"_ is accepted to IEEE International Conference on Multimedia&Expo (ICME 2025)!
 * [2024.07] Our paper _"Difflare: Removing Image Lens Flare with Latent Diffusion Models"_ is accepted to British Machine Vision Conference (BMVC 2024)! 
 
 # 🎖 Honors and Awards
@@ -44,9 +44,9 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 
 
 # 💻 Experiences
-- *2024.05 - Now*, **Visiting Student** in Medical AI, X Lab, [Yale Institute for Global Health](https://medicine.yale.edu/), Yale University.
+- *2024.05 - 2024.12*, **Visiting Student** in Medical AI, X Lab, [Yale Institute for Global Health](https://medicine.yale.edu/), Yale University.
 - *2023.08 - Now*, **Intern Researcher** in Computer Vision, [AI Lab](https://ai.sony/), Research and Development Center, Sony(China)
-- *2023.10 - Now*, **Visiting Student** in Low-level Vision and Multi-modal Learning, Yu Vision (YUV) Group, Great Bay University, China
+- *2023.10 - 2024.10*, **Visiting Student** in Low-level Vision and Multi-modal Learning, Yu Vision (YUV) Group, Great Bay University, China
 - *2023.07 - 2023.08*, **Visiting Student** in NeRF & 3D Reconstruction, [AIR Lab](https://air.tsinghua.edu.cn/en/), Tsinghua University, China 
 - *2023.05 - 2023.08*, **Data Product Intern**, Bytedance
 - *2023.01 - 2023.04*, **Data Operation Intern**, Didichuxing
@@ -57,7 +57,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 <div class='paper-box'><div class='paper-box-image'><img src='../images/ProDehaze.png' alt="sym" width="100%"></div>
 <div class='paper-box-text' markdown="1">
 
-**ProDehaze: Prompting Diffusion Models TowardFaithful Image Dehazing**  
+**ProDehaze: Prompting Diffusion Models Toward Faithful Image Dehazing**  
 **Tianwen Zhou**, Jing Wang, Songtao Wu and Kuanhong Xu*.
 
 **<font color = "#224B8D"> ICME 2025 (CCF-B)</font>**\| Paper(To be public soon) \| Code(To be public soon) \| Video(To be public soon)  <strong><span class='show_paper_citations' data='3WQTKocAAAAJ:WF5omc3nYNoC'></span></strong>
