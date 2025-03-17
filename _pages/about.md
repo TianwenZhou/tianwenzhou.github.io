@@ -31,7 +31,8 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 - *2020.09-2024.06*, Bachelor's degree of science in **Mathematics and Applied Mathematics**, School of Mathematical Science, Beijing Normal University(BNU)
 
 # 🔥 News
-* [2024.07] One paper is accepted to British Machine Vision Conference (BMVC 2024)! 
+* [2025.03] Our paper _"ProDehaze: Prompting Diffusion Models TowardFaithful Image Dehazing"_ is accepted to IEEE International Conference on Multimedia&Expo (ICME 2025)!
+* [2024.07] Our paper _"Difflare: Removing Image Lens Flare with Latent Diffusion Models"_ is accepted to British Machine Vision Conference (BMVC 2024)! 
 
 # 🎖 Honors and Awards
 - *2024*, Distinguished Graduates, (Top 5%)
@@ -59,7 +60,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 **ProDehaze: Prompting Diffusion Models TowardFaithful Image Dehazing**  
 **Tianwen Zhou**, Jing Wang, Songtao Wu and Kuanhong Xu*.
 
-**<font color = "#224B8D"> ICME 2025 (CCF-B)</font>**\| Paper(To be public soon) \| Video(To be public soon)  <strong><span class='show_paper_citations' data='3WQTKocAAAAJ:WF5omc3nYNoC'></span></strong>
+**<font color = "#224B8D"> ICME 2025 (CCF-B)</font>**\| Paper(To be public soon) \| Code(To be public soon) \| Video(To be public soon)  <strong><span class='show_paper_citations' data='3WQTKocAAAAJ:WF5omc3nYNoC'></span></strong>
 - Utilizes internal image priors to guide external priors from pretrained diffusion models, addressing hallucination issues in image dehazing.
 </div>
 </div>
