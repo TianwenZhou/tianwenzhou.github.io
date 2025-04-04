@@ -351,20 +351,27 @@ div.overlines {
 
     <h3>Structure-prompted Restorer (SPR)</h3>
     <p>Structure-prompted Restorer (SPR) utilizes high-frequency internal priors to guide the dehazing process. In the latent space of pretrained diffusion models, we extract high-frequency components using Haar Discrete Wavelet Transform (Haar DWT) and a learnable convolution kernel to generate a high-frequency feature <i>x<sub>high</sub></i>. This feature is concatenated with the input <i>x<sub>in</sub></i> and fed into the model as a conditioning signal <i>c<sub>f</sub></i> for improved dehazing. The model is fine-tuned using the objective function:</p>
- 
-    $L_{SPR} = E_{x{in}, t, c_f,\epsilon \sim N(0,1)} ||\epsilon - \epsilon_{\theta}(z_t, t, N(c_f))||^2$
-
+    
+    <div style="text-align:center;">
+      <p>
+        <i>$L_{SPR} = E_{x_{in}, t, c_f,\epsilon \sim N(0,1)} ||\epsilon - \epsilon_{\theta}(z_t, t, N(c_f))||^2$</i>
+      </p>
+    </div>
+    
     <p>Where $\epsilon_{\theta}$ is the pretrained denoising UNet, and $N$ is the trainable adaptor.</p>
-
+    
     <h3>Haze-aware Self-correcting Refiner (HCR)</h3>
     <p><strong>Haze-aware Self-correcting Refiner (HCR)</strong> introduces a self-correction mechanism to enhance dehazing fidelity by leveraging haze-aware priors. We incorporate self-attention (SA) blocks into the decoder, modulated by priors based on haze density. These priors focus on areas with thinner haze, while deprioritizing dense haze regions. We initialize the haze-aware prior using the Dark Channel Prior (DCP), and calculate the correlation map <i>M<sub>corr,l</sub></i> for interaction between haze-affected regions. We sparsify the map using a top-k selection to emphasize clearer areas. The mask is generated as follows:</p>
-    <pre>
-    M<sub>s</sub><sup>ij</sup> =
+    <div style="text-align:center;">
+        <p>   
+            <i>$M_s^{ij} =
     { 
-      -∞, & (i, j) ∈ I 
-      1 - M<sub>corr,ij</sub>, & (i, j) ∉ I
-    }
-    </pre>
+      -\infty, \& (i, j) \in I 
+      1 - M_{corr,ij}, & (i, j) \notin I
+    }$</i>
+    </p>
+    </div>
+
     <p>Where <i>I</i> is the set of indices corresponding to the top-k haze-affected regions, and <i>M<sub>corr</sub></i> is the correlation map. The sparsified mask <i>M<sub>s</sub></i> is then used to modulate the self-attention in the decoder.</p>
     
     <h3>Results</h3>
