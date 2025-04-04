@@ -362,17 +362,20 @@ div.overlines {
     
     <h3>Haze-aware Self-correcting Refiner (HCR)</h3>
     <p><strong>Haze-aware Self-correcting Refiner (HCR)</strong> introduces a self-correction mechanism to enhance dehazing fidelity by leveraging haze-aware priors. We incorporate self-attention (SA) blocks into the decoder, modulated by priors based on haze density. These priors focus on areas with thinner haze, while deprioritizing dense haze regions. We initialize the haze-aware prior using the Dark Channel Prior (DCP), and calculate the correlation map <i>M<sub>corr,l</sub></i> for interaction between haze-affected regions. We sparsify the map using a top-k selection to emphasize clearer areas. The mask is generated as follows:</p>
+    
     <div style="text-align:center;">
-        <p>   
-            <i>$M_s^{ij} =
-    { 
-      -\infty, \& (i, j) \in I 
-      1 - M_{corr,ij}, & (i, j) \notin I
-    }$</i>
-    </p>
+      <p>   
+        <i>
+          $M_s^{ij} =
+          \begin{cases}
+          -\infty, & (i, j) \in I \\
+          1 - M_{\text{corr},ij}, & (i, j) \notin I
+          \end{cases}$
+        </i>
+      </p>
     </div>
-
-    <p>Where <i>I</i> is the set of indices corresponding to the top-k haze-affected regions, and <i>M<sub>corr</sub></i> is the correlation map. The sparsified mask <i>M<sub>s</sub></i> is then used to modulate the self-attention in the decoder.</p>
+    
+    <p>Where $I$ is the set of indices corresponding to the top-k haze-affected regions, and $M_corr$ is the correlation map. The sparsified mask $M_s$ is then used to modulate the self-attention in the decoder.</p>
     
     <h3>Results</h3>
     <figure  style="grid-column: text">
