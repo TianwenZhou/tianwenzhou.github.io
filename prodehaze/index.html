@@ -351,9 +351,9 @@ div.overlines {
 
     <h3>Structure-prompted Restorer (SPR)</h3>
     <p>Structure-prompted Restorer (SPR) utilizes high-frequency internal priors to guide the dehazing process. In the latent space of pretrained diffusion models, we extract high-frequency components using Haar Discrete Wavelet Transform (Haar DWT) and a learnable convolution kernel to generate a high-frequency feature <i>x<sub>high</sub></i>. This feature is concatenated with the input <i>x<sub>in</sub></i> and fed into the model as a conditioning signal <i>c<sub>f</sub></i> for improved dehazing. The model is fine-tuned using the objective function:</p>
-    <pre>
+ 
     $L_{SPR} = E_{x{in}, t, c_f,\epsilon \sim N(0,1)} ||\epsilon - \epsilon_{\theta}(z_t, t, N(c_f))||^2$
-    </pre>
+
     <p>Where $\epsilon_{\theta}$ is the pretrained denoising UNet, and $N$ is the trainable adaptor.</p>
 
     <h3>Haze-aware Self-correcting Refiner (HCR)</h3>
