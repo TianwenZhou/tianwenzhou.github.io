@@ -82,13 +82,15 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 **Congress Member**
 * Member of Chinese Congress on Image and Graphics (CCIG)
 * IEEE Student Member
+* IEEE Signal Processing Society (SPS) Member
 * Member of British Machine Vision Association (BMVA) 
   
 **Conference Reviewer** 
-* British Machine Vision Conference (BMVC) 2024
-* IEEE International Joint Conference on Biometrics (IJCB) 2024
 * IEEE International Conference on Multimedia and Expo (ICME) 2025
 * International Conference on Learning Representations (ICLR) 2025
+* IEEE International Conference on Advanced Visual and Signal-Based Systems (AVSS) 2025
+* British Machine Vision Conference (BMVC) 2024
+* IEEE International Joint Conference on Biometrics (IJCB) 2024
 
 # 🔬 Invention Patents         
 * A method, device, system, and storage medium for image lens flare removal. (图像杂散光去除方法、装置、系统和介质, CN202410708197.8)
@@ -99,7 +101,8 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 
 <span class='anchor' id='events'></span>
 # 🛫️ Events
-* Will be attending [BMVC 2024,Glasgow, UK](https://bmvc2024.org/)
+* Will be attending [ICME 2025, Nantes, France](https://2025.ieeeicme.org/)
+* Attended [BMVC 2024, Glasgow, UK](https://bmvc2024.org/)
 
 
 <span class='anchor' id='surveys'></span>
