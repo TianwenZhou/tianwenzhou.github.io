@@ -44,7 +44,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 
 
 # 💻 Experiences
-- *2025.12 - * **Algorithm Engineer in Computer Vision**, Huawei Technologies Co. Ltd.
+- *2025.12 -* **Computer Vision Algorithm Engineer**, Huawei Technologies Co. Ltd.
 - *2024.05 - 2024.12*, **Visiting Student** in Medical AI, X Lab, [Yale Institute for Global Health](https://medicine.yale.edu/), Yale University.
 - *2023.08 - 2025.05*, **Intern Researcher** in Computer Vision, [AI Lab](https://ai.sony/), Research and Development Center, Sony(China)
 - *2023.10 - 2024.10*, **Visiting Student** in Low-level Vision and Multi-modal Learning, Yu Vision (YUV) Group, Great Bay University, China
