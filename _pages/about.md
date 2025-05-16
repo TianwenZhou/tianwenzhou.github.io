@@ -18,8 +18,8 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 🎓 Bio
-Tianwen Zhou is currently a computer vision algorithm engineer. He was a post-graduate student in Department of Computer Science, University College London (UCL), majoring in Computer Graphics, Vision and Imaging. He was an intern researcher in AI Lab, Research and Development Center, Sony(China). He was a visiting student in Yale University, working with [Prof. Xiaofeng Liu](https://xliulab.mgh.harvard.edu/xiaofeng/). He was a visiting student in the Great Bay University(GBU), working with [Prof. Zitong Yu](https://zitongyu.github.io). He was a research assistant in Intelligent Media Computer Laboratory, Beijing Normal University, working with [Prof. Hua Huang](https://vmcl.bnu.edu.cn/group/teacher/dcdaea79b5e54b75b532795109a85a34.htm).\
-His research interest includes Deep Learning and Computer Vision. He is currently working on Computational Imaging, Low-level Vision tasks, Multimodal Learning, as well as Medical AI.\
+Tianwen Zhou is currently an AI Researcher in Huawei Technology Ltd. He received Master's degree in Computer Graphics, Vision and Imaging from Department of Computer Science, University College London (UCL). He received Bachelor's degree in Mathematics and Applied Mathematics from Beijing Normal University.
+His research interest includes Deep Learning and Computer Vision. He is currently working on computational imaging, low-level vision tasks, multimodal learning, as well as medical AI.\
 Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(preferred)* or tianwenzhou0521[at]ieee.org
 
 *Note: The one on the top of the picture **with tie and glasses** is Tianwen Zhou.*
@@ -27,7 +27,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 <span class='anchor' id='educations'></span>
 
 # 📖 Educations
-- *2024.09-2025.09*(future), Master's degree of science in **Computer Graphics, Vision and Imaging**, School of Computer Science, University College London(UCL)
+- *2024.09-2025.09*, Master's degree of science in **Computer Graphics, Vision and Imaging**, School of Computer Science, University College London(UCL)
 - *2020.09-2024.06*, Bachelor's degree of science in **Mathematics and Applied Mathematics**, School of Mathematical Science, Beijing Normal University(BNU)
 
 # 🔥 News
@@ -44,7 +44,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 
 
 # 💻 Experiences
-- *2025.12 -* **Computer Vision Algorithm Engineer**, Huawei Technologies Co. Ltd.
+- *2025.09 -* **Computer Vision Algorithm Engineer**, Huawei Technologies Co. Ltd.
 - *2024.05 - 2024.12*, **Visiting Student** in Medical AI, X Lab, [Yale Institute for Global Health](https://medicine.yale.edu/), Yale University.
 - *2023.08 - 2025.05*, **Intern Researcher** in Computer Vision, [AI Lab](https://ai.sony/), Research and Development Center, Sony(China)
 - *2023.10 - 2024.10*, **Visiting Student** in Low-level Vision and Multi-modal Learning, Yu Vision (YUV) Group, Great Bay University, China
