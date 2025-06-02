@@ -31,6 +31,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 - *2020.09-2024.06*, Bachelor's degree of science in **Mathematics and Applied Mathematics**, School of Mathematical Science, Beijing Normal University(BNU)
 
 # 🔥 News
+* [2025.06] Our paper is awarded as the **Best Paper Candidate** of ICME 2025!
 * [2025.03] Our paper _"ProDehaze: Prompting Diffusion Models Toward Faithful Image Dehazing"_ is accepted to IEEE International Conference on Multimedia&Expo (ICME 2025) as **oral** presentation!
 * [2024.07] Our paper _"Difflare: Removing Image Lens Flare with Latent Diffusion Models"_ is accepted to British Machine Vision Conference (BMVC 2024)! 
 
@@ -61,7 +62,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 **ProDehaze: Prompting Diffusion Models Toward Faithful Image Dehazing**  
 **Tianwen Zhou**, Jing Wang, Songtao Wu and Kuanhong Xu*.
 
-**<font color = "#224B8D"> ICME 2025 (CCF-B, Core A) Oral</font>**\| [Paper](https://arxiv.org/abs/2503.17488) \| [Code](https://github.com/TianwenZhou/ProDehaze) \| [Project Page](https://zhoutianwen.com/prodehaze)  <strong><span class='show_paper_citations' data='3WQTKocAAAAJ:WF5omc3nYNoC'></span></strong>
+**<font color = "#224B8D"> ICME 2025 (CCF-B, Core A) Oral, Best Paper Nomination</font>**\| [Paper](https://arxiv.org/abs/2503.17488) \| [Code](https://github.com/TianwenZhou/ProDehaze) \| [Project Page](https://zhoutianwen.com/prodehaze)  <strong><span class='show_paper_citations' data='3WQTKocAAAAJ:WF5omc3nYNoC'></span></strong>
 - Utilizes internal image priors to guide external priors from pretrained diffusion models, addressing hallucination issues in image dehazing.
 </div>
 </div>
