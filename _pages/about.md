@@ -26,18 +26,20 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 
 <span class='anchor' id='educations'></span>
 
-# 📖 Educations
-- *2024.09-2025.09*, Master's degree of science in **Computer Graphics, Vision and Imaging**, School of Computer Science, University College London(UCL)
-- *2020.09-2024.06*, Bachelor's degree of science in **Mathematics and Applied Mathematics**, School of Mathematical Science, Beijing Normal University(BNU)
-
 # 🔥 News
+* [2025.08] I will be joining Huawei Technology Ltd. as an AI Researcher!
 * [2025.06] Our paper is awarded as the **Best Paper Candidate** of ICME 2025!
 * [2025.03] Our paper _"ProDehaze: Prompting Diffusion Models Toward Faithful Image Dehazing"_ is accepted to IEEE International Conference on Multimedia&Expo (ICME 2025) as **oral** presentation!
 * [2024.07] Our paper _"Difflare: Removing Image Lens Flare with Latent Diffusion Models"_ is accepted to British Machine Vision Conference (BMVC 2024)! 
 
+# 📖 Educations
+- *2024.09-2025.09*, Master's degree of science in **Computer Graphics, Vision and Imaging**, School of Computer Science, University College London(UCL)
+- *2020.09-2024.06*, Bachelor's degree of science in **Mathematics and Applied Mathematics**, School of Mathematical Science, Beijing Normal University(BNU)
+
 # 🎖 Honors and Awards
-- *2024*, Distinguished Graduates, (Top 5%)
-- *2024*, Distinguished Graduate Thesis Award, (Top 5%)
+- *2025*, Best Paper Candidate, ICME2025 (Top 1%)
+- *2024*, Distinguished Graduates (Top 5%)
+- *2024*, Distinguished Graduate Thesis Award (Top 5%)
 - *2024*, Awarded the title of **Lord** by the British Royal Family
 - *2022-2023*, First-Class Academic Scholarship (Top 10%)
 - *2022-2023*, First-Class Reward-based Scholarship (Top 10%)
@@ -90,6 +92,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 **Conference Reviewer** 
 * IEEE International Conference on Multimedia and Expo (ICME) 2025
 * International Conference on Learning Representations (ICLR) 2025
+* SciPy Proceedings 2025
 * IEEE International Conference on Advanced Visual and Signal-Based Systems (AVSS) 2025
 * British Machine Vision Conference (BMVC) 2024
 * IEEE International Joint Conference on Biometrics (IJCB) 2024
