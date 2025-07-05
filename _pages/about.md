@@ -19,7 +19,7 @@ redirect_from:
 
 # 🎓 Bio
 Tianwen Zhou is currently an AI Researcher in Huawei Technology Ltd. He received Master's degree in Computer Graphics, Vision and Imaging from Department of Computer Science, University College London (UCL). He received Bachelor's degree in Mathematics and Applied Mathematics from Beijing Normal University.
-His research interest includes Deep Learning and Computer Vision. He is currently working on computational imaging, low-level vision tasks, multimodal learning, as well as medical AI.\
+His research interest includes computer vision and multi-modal learning. He is currently working on computational imaging, low-level vision tasks, as well as medical AI.\
 Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(preferred)* or tianwenzhou0521[at]ieee.org
 
 *Note: The one on the top of the picture **with tie and glasses** is Tianwen Zhou.*
@@ -27,7 +27,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 <span class='anchor' id='educations'></span>
 
 # 🔥 News
-* [2025.08] I will be joining Huawei Technology Ltd. as an AI Researcher!
+* [2025.08] I will join Huawei Technology Ltd. as an AI Researcher!
 * [2025.06] Our paper is awarded as the **Best Paper Candidate** of ICME 2025!
 * [2025.03] Our paper _"ProDehaze: Prompting Diffusion Models Toward Faithful Image Dehazing"_ is accepted to IEEE International Conference on Multimedia&Expo (ICME 2025) as **oral** presentation!
 * [2024.07] Our paper _"Difflare: Removing Image Lens Flare with Latent Diffusion Models"_ is accepted to British Machine Vision Conference (BMVC 2024)! 
@@ -37,7 +37,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 - *2020.09-2024.06*, Bachelor's degree of science in **Mathematics and Applied Mathematics**, School of Mathematical Science, Beijing Normal University(BNU)
 
 # 🎖 Honors and Awards
-- *2025*, Best Paper Candidate, ICME2025 (Top 1%)
+- *2025*, Best Paper Nomination, ICME2025 (Top 1%)
 - *2024*, Distinguished Graduates (Top 5%)
 - *2024*, Distinguished Graduate Thesis Award (Top 5%)
 - *2024*, Awarded the title of **Lord** by the British Royal Family
@@ -47,7 +47,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 
 
 # 💻 Experiences
-- *2025.09 -* **Computer Vision Algorithm Engineer**, Huawei Technologies Co. Ltd.
+- *2025.08 -* **AI Researcher**, Huawei Technologies Co. Ltd.
 - *2024.05 - 2024.12*, **Visiting Student** in Medical AI, X Lab, [Yale Institute for Global Health](https://medicine.yale.edu/), Yale University.
 - *2023.08 - 2025.05*, **Intern Researcher** in Computer Vision, [AI Lab](https://ai.sony/), Research and Development Center, Sony(China)
 - *2023.10 - 2024.10*, **Visiting Student** in Low-level Vision and Multi-modal Learning, Yu Vision (YUV) Group, Great Bay University, China
@@ -98,7 +98,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 * IEEE International Joint Conference on Biometrics (IJCB) 2024
 
 # 🔬 Invention Patents         
-* A method, device, system, and storage medium for image lens flare removal, granted. (图像杂散光去除方法、装置、系统和介质, CN202410708197.8)
+* A method, device, system, and storage medium for image lens flare removal, granted. (图像杂散光去除方法、装置、系统和介质, CN118781007A)
 * A method, device, equipment and storage medium for generating medical image reports. (医学影像报告生成方法、装置、设备和储存介质, CN202410761120.7)
 
 # 🧑‍🏫 Teaching
@@ -106,7 +106,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 
 <span class='anchor' id='events'></span>
 # 🛫️ Events
-* Will be attending [ICME 2025, Nantes, France](https://2025.ieeeicme.org/)
+* Attended [ICME 2025, Nantes, France](https://2025.ieeeicme.org/)
 * Attended [BMVC 2024, Glasgow, UK](https://bmvc2024.org/)
 
 
