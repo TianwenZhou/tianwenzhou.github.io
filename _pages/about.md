@@ -26,11 +26,13 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 
 <span class='anchor' id='educations'></span>
 
-# 🔥 News
-* [2025.08] I will join Huawei Technology Ltd. as an AI Researcher!
-* [2025.06] Our paper is awarded as the **Best Paper Candidate** of ICME 2025!
-* [2025.03] Our paper _"ProDehaze: Prompting Diffusion Models Toward Faithful Image Dehazing"_ is accepted to IEEE International Conference on Multimedia&Expo (ICME 2025) as **oral** presentation!
-* [2024.07] Our paper _"Difflare: Removing Image Lens Flare with Latent Diffusion Models"_ is accepted to British Machine Vision Conference (BMVC 2024)! 
+🔥 News
+- [Sep 2025] I will be joining Huawei Technologies Co., Ltd. as an AI Researcher!
+- [Jun 2025] Our paper was selected as a Best Paper Candidate at ICME 2025!
+- [Mar 2025] Our paper "ProDehaze: Prompting Diffusion Models Toward Faithful Image Dehazing" was accepted to IEEE ICME 2025 as an oral presentation!
+- [Jul 2024] Our paper "Difflare: Removing Image Lens Flare with Latent Diffusion Models" was accepted to BMVC 2024!
+
+
 
 # 📖 Educations
 - *2024.09-2025.09*, Master's degree of science in **Computer Graphics, Vision and Imaging**, School of Computer Science, University College London(UCL)
@@ -47,7 +49,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 
 
 # 💻 Experiences
-- *2025.08 -* **AI Researcher**, Huawei Technologies Co. Ltd.
+- *2025.09 -* **AI Researcher**, Huawei Technologies Co. Ltd.
 - *2024.05 - 2024.12*, **Visiting Student** in Medical AI, X Lab, [Yale Institute for Global Health](https://medicine.yale.edu/), Yale University.
 - *2023.08 - 2025.05*, **Intern Researcher** in Computer Vision, [AI Lab](https://ai.sony/), Research and Development Center, Sony(China)
 - *2023.10 - 2024.10*, **Visiting Student** in Low-level Vision and Multi-modal Learning, Yu Vision (YUV) Group, Great Bay University, China
