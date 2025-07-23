@@ -98,6 +98,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 * IEEE International Conference on Advanced Visual and Signal-Based Systems (AVSS) 2025
 * British Machine Vision Conference (BMVC) 2024
 * IEEE International Joint Conference on Biometrics (IJCB) 2024
+* Neurips 25'
 
 # 🔬 Invention Patents         
 * A method, device, system, and storage medium for image lens flare removal, granted. (图像杂散光去除方法、装置、系统和介质, CN118781007A)
