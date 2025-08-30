@@ -27,7 +27,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 <span class='anchor' id='educations'></span>
 
 🔥 News
-- [Sep 2025] I will be joining Huawei Technologies Co., Ltd. as an AI Researcher!
+- [Sep 2025] I am joining Huawei Technologies Co., Ltd. as an AI Researcher!
 - [Jun 2025] Our paper was selected as a Best Paper Candidate at ICME 2025!
 - [Mar 2025] Our paper "ProDehaze: Prompting Diffusion Models Toward Faithful Image Dehazing" was accepted to IEEE ICME 2025 as an oral presentation!
 - [Jul 2024] Our paper "Difflare: Removing Image Lens Flare with Latent Diffusion Models" was accepted to BMVC 2024!
@@ -92,13 +92,13 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 * Member of British Machine Vision Association (BMVA) 
   
 **Conference Reviewer** 
-* IEEE International Conference on Multimedia and Expo (ICME) 2025
-* International Conference on Learning Representations (ICLR) 2025
-* SciPy Proceedings 2025
-* IEEE International Conference on Advanced Visual and Signal-Based Systems (AVSS) 2025
-* British Machine Vision Conference (BMVC) 2024
-* IEEE International Joint Conference on Biometrics (IJCB) 2024
-* Neurips 25'
+* IEEE International Conference on Multimedia and Expo (ICME) 25'
+* International Conference on Learning Representations (ICLR) 25'
+* SciPy Proceedings 25'
+* IEEE International Conference on Advanced Visual and Signal-Based Systems (AVSS) 25'
+* British Machine Vision Conference (BMVC) 24'
+* IEEE International Joint Conference on Biometrics (IJCB) 24'
+* Conference on Neural Information Processing Systems (NeurIPS) 25'
 
 # 🔬 Invention Patents         
 * A method, device, system, and storage medium for image lens flare removal, granted. (图像杂散光去除方法、装置、系统和介质, CN118781007A)
