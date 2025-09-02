@@ -42,7 +42,6 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 - *2025*, Best Paper Nomination, ICME2025 (Top 1%)
 - *2024*, Distinguished Graduates (Top 5%)
 - *2024*, Distinguished Graduate Thesis Award (Top 5%)
-- *2024*, Awarded the title of **Lord** by the British Royal Family
 - *2022-2023*, First-Class Academic Scholarship (Top 10%)
 - *2022-2023*, First-Class Reward-based Scholarship (Top 10%)
 - *2021-2022, 2022-2023*, Outstanding Student (Top 10%)
