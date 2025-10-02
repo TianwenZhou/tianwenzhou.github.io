@@ -62,6 +62,16 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 <div class='paper-box'><div class='paper-box-image'><img src='../images/ProDehaze.png' alt="sym" width="100%"></div>
 <div class='paper-box-text' markdown="1">
 
+**Editing physiological signals in videos using latent representations**
+**Tianwen Zhou**, Akshay Paruchuli, Josef Spjut, and Kaan Akşit.
+
+**<font color = "#224B8D">| [Paper](https://arxiv.org/abs/2509.25348) \|
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><img src='../images/Difflare.png' alt="sym" width="100%"></div>
+<div class='paper-box-text' markdown="1">
+
 **ProDehaze: Prompting Diffusion Models Toward Faithful Image Dehazing**  
 **Tianwen Zhou**, Jing Wang, Songtao Wu and Kuanhong Xu*.
 
