@@ -64,14 +64,14 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <img src='../images/PhysioLatent.png' alt='PhysioLatent' width='100%'>
+    <img src='../images/representative.png' alt='PhysioLatent' width='100%'>
   </div>
   <div class='paper-box-text' markdown='1'>
 
   **Editing Physiological Signals in Videos Using Latent Representations**  
   **Tianwen Zhou**, Akshay Paruchuli, Josef Spjut, and Kaan Akşit*.  
 
-  <font color='#224B8D'>[📄 Paper](https://arxiv.org/abs/2509.25348)</font>
+  [📄 Paper](https://arxiv.org/abs/2509.25348)
 
   </div>
 </div>
@@ -80,7 +80,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <img src='../images/Prodehaze.png' alt='ProDehaze' width='100%'>
+    <img src='../images/ProDehaze.png' alt='ProDehaze' width='100%'>
   </div>
   <div class='paper-box-text' markdown='1'>
 
