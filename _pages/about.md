@@ -27,7 +27,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 <span class='anchor' id='educations'></span>
 
 🔥 News
-- [Sep 2025] I am joining Huawei Technologies Co., Ltd. as an AI Researcher!
+- [Sep 2025] I joined Huawei Technologies Co., Ltd. as an AI Researcher!
 - [Jun 2025] Our paper was selected as a Best Paper Candidate at ICME 2025!
 - [Mar 2025] Our paper "ProDehaze: Prompting Diffusion Models Toward Faithful Image Dehazing" was accepted to IEEE ICME 2025 as an oral presentation!
 - [Jul 2024] Our paper "Difflare: Removing Image Lens Flare with Latent Diffusion Models" was accepted to BMVC 2024!
@@ -58,38 +58,63 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 - *2022.11 - 2023.06*, **Research Assistant** in Infrared Imaging, Intelligent Media Computer Laboratory, Beijing Normal University
 
 # 📒 Publications
-#: equal contribution *: corresponding author
-<div class='paper-box'><div class='paper-box-image'><img src='../images/ProDehaze.png' alt="sym" width="100%"></div>
-<div class='paper-box-text' markdown="1">
+(*: corresponding author, #: equal contribution)
 
-**Editing physiological signals in videos using latent representations**
-**Tianwen Zhou**, Akshay Paruchuli, Josef Spjut, and Kaan Akşit.
+---
 
-**<font color = "#224B8D">[Paper](https://arxiv.org/abs/2509.25348)
-</div>
-</div>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <img src='../images/PhysioLatent.png' alt='PhysioLatent' width='100%'>
+  </div>
+  <div class='paper-box-text' markdown='1'>
 
-<div class='paper-box'><div class='paper-box-image'><img src='../images/Physiolatent.png' alt="sym" width="100%"></div>
-<div class='paper-box-text' markdown="1">
+  **Editing Physiological Signals in Videos Using Latent Representations**  
+  **Tianwen Zhou**, Akshay Paruchuli, Josef Spjut, and Kaan Akşit*.  
 
-**ProDehaze: Prompting Diffusion Models Toward Faithful Image Dehazing**  
-**Tianwen Zhou**, Jing Wang, Songtao Wu and Kuanhong Xu*.
+  <font color='#224B8D'>[📄 Paper](https://arxiv.org/abs/2509.25348)</font>
 
-**<font color = "#224B8D"> ICME 2025 (CCF-B, Core A) Oral, Best Paper Nomination</font>**\| [Paper](https://arxiv.org/abs/2503.17488) \| [Code](https://github.com/TianwenZhou/ProDehaze) \| [Project Page](https://zhoutianwen.com/prodehaze)  <strong><span class='show_paper_citations' data='3WQTKocAAAAJ:WF5omc3nYNoC'></span></strong>
-- Utilizes internal image priors to guide external priors from pretrained diffusion models, addressing hallucination issues in image dehazing.
-</div>
+  </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><img src='../images/Difflare.png' alt="sym" width="100%"></div>
-<div class='paper-box-text' markdown="1">
+---
 
-**Difflare: Removing Image Lens Flare with Latent Diffusion Models**  
-**Tianwen Zhou**, Qihao Duan and Zitong Yu*.
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <img src='../images/Prodehaze.png' alt='ProDehaze' width='100%'>
+  </div>
+  <div class='paper-box-text' markdown='1'>
 
-**<font color = "#224B8D"> BMVC 2024 (Core A)</font>** \| [Paper](https://bmva-archive.org.uk/bmvc/2024/papers/Paper_437/paper.pdf) \| [Code](https://github.com/TianwenZhou/Difflare) \| [Video](https://www.youtube.com/watch?v=naYsWT7SOn0)  <strong><span class='show_paper_citations' data='Km1ZrkYAAAAJ:u-x6o8ySG0sC'></span></strong>
-- This work presents a novel paradigm for image lens flare removal.
-- We utilize both the physics prior of lens flare and the prior encapsulated in pre-trained Latent Diffusion Models (LDM).
+  **ProDehaze: Prompting Diffusion Models Toward Faithful Image Dehazing**  
+  **Tianwen Zhou**, Jing Wang, Songtao Wu, and Kuanhong Xu*.  
+
+  <font color='#224B8D'>**ICME 2025 (CCF-B, Core A) · Oral · Best Paper Nomination**</font>  
+  [📄 Paper](https://arxiv.org/abs/2503.17488) \| [💻 Code](https://github.com/TianwenZhou/ProDehaze) \| [🌐 Project Page](https://zhoutianwen.com/prodehaze)  
+  <strong><span class='show_paper_citations' data='3WQTKocAAAAJ:WF5omc3nYNoC'></span></strong>  
+
+  - Utilizes internal image priors to guide external priors from pretrained diffusion models, addressing hallucination issues in image dehazing.
+
+  </div>
 </div>
+
+---
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <img src='../images/Difflare.png' alt='Difflare' width='100%'>
+  </div>
+  <div class='paper-box-text' markdown='1'>
+
+  **Difflare: Removing Image Lens Flare with Latent Diffusion Models**  
+  **Tianwen Zhou**, Qihao Duan, and Zitong Yu*.  
+
+  <font color='#224B8D'>**BMVC 2024 (Core A)**</font>  
+  [📄 Paper](https://bmva-archive.org.uk/bmvc/2024/papers/Paper_437/paper.pdf) \| [💻 Code](https://github.com/TianwenZhou/Difflare) \| [🎥 Video](https://www.youtube.com/watch?v=naYsWT7SOn0)  
+  <strong><span class='show_paper_citations' data='Km1ZrkYAAAAJ:u-x6o8ySG0sC'></span></strong>  
+
+  - Proposes a novel paradigm for image lens flare removal.  
+  - Combines physics-based priors with knowledge from pre-trained Latent Diffusion Models (LDMs).
+
+  </div>
 </div>
 
 
