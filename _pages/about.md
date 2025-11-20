@@ -35,7 +35,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 
 
 # 📖 Educations
-- *2024.09-2025.09*, Master's degree of science in **Computer Graphics, Vision and Imaging**, School of Computer Science, University College London(UCL)
+- *2024.09-2025.09*, Master's degree of science in **Computer Graphics, Vision and Imaging** (Distinction), School of Computer Science, University College London(UCL)
 - *2020.09-2024.06*, Bachelor's degree of science in **Mathematics and Applied Mathematics**, School of Mathematical Science, Beijing Normal University(BNU)
 
 # 🎖 Honors and Awards
@@ -48,7 +48,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 
 
 # 💻 Experiences
-- *2025.09 -* **AI Researcher**, Huawei Technologies Co. Ltd.
+- *2025.09 -* **AI Researcher** in LLM, Data Storage R&D Dept, Huawei Technologies Co. Ltd.
 - *2024.05 - 2024.12*, **Visiting Student** in Medical AI, X Lab, [Yale Institute for Global Health](https://medicine.yale.edu/), Yale University.
 - *2023.08 - 2025.05*, **Intern Researcher** in Computer Vision, [AI Lab](https://ai.sony/), Research and Development Center, Sony(China)
 - *2023.10 - 2024.10*, **Visiting Student** in Low-level Vision and Multi-modal Learning, Yu Vision (YUV) Group, Great Bay University, China
@@ -87,7 +87,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
   **ProDehaze: Prompting Diffusion Models Toward Faithful Image Dehazing**  
   **Tianwen Zhou**, Jing Wang, Songtao Wu, and Kuanhong Xu*.  
 
-  <font color='#224B8D'>**ICME 2025 (CCF-B, Core A) · Oral · Best Paper Nomination**</font>  
+  <font color='#224B8D'>ICME 2025 (CCF-B, Core A) · Oral · Best Paper Nomination</font>  
   [📄 Paper](https://arxiv.org/abs/2503.17488) \| [💻 Code](https://github.com/TianwenZhou/ProDehaze) \| [🌐 Project Page](https://zhoutianwen.com/prodehaze)  
   <strong><span class='show_paper_citations' data='3WQTKocAAAAJ:WF5omc3nYNoC'></span></strong>  
 
@@ -107,7 +107,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
   **Difflare: Removing Image Lens Flare with Latent Diffusion Models**  
   **Tianwen Zhou**, Qihao Duan, and Zitong Yu*.  
 
-  <font color='#224B8D'>**BMVC 2024 (Core A)**</font>  
+  <font color='#224B8D'>BMVC 2024 (Core A)</font>  
   [📄 Paper](https://bmva-archive.org.uk/bmvc/2024/papers/Paper_437/paper.pdf) \| [💻 Code](https://github.com/TianwenZhou/Difflare) \| [🎥 Video](https://www.youtube.com/watch?v=naYsWT7SOn0)  
   <strong><span class='show_paper_citations' data='Km1ZrkYAAAAJ:u-x6o8ySG0sC'></span></strong>  
 
