@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 🎓 Bio
-Tianwen Zhou is currently an AI Researcher in Huawei Technology Ltd. He received Master's degree in Computer Graphics, Vision and Imaging from Department of Computer Science, University College London (UCL). He received Bachelor's degree in Mathematics and Applied Mathematics from Beijing Normal University.
+Tianwen Zhou is currently an AI Researcher in Data Storage Technical Research Dept, Huawei Technology Ltd. He received Master's degree in Computer Graphics, Vision and Imaging from Department of Computer Science, University College London (UCL). He received Bachelor's degree in Mathematics and Applied Mathematics from Beijing Normal University.
 His research interest includes computer vision and multi-modal learning. He is currently working on computational imaging, low-level vision tasks, as well as medical AI.\
 Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(preferred)* or tianwenzhou0521[at]ieee.org
 
@@ -48,7 +48,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 
 
 # 💻 Experiences
-- *2025.09 -* **AI Researcher** in LLM, Data Storage R&D Dept, Huawei Technologies Co. Ltd.
+- *2025.09 -* **AI Researcher** in LLM, Data Storage Technical Research Dept, Huawei Technologies Co. Ltd.
 - *2024.05 - 2024.12*, **Visiting Student** in Medical AI, X Lab, [Yale Institute for Global Health](https://medicine.yale.edu/), Yale University.
 - *2023.08 - 2025.05*, **Intern Researcher** in Computer Vision, [AI Lab](https://ai.sony/), Research and Development Center, Sony(China)
 - *2023.10 - 2024.10*, **Visiting Student** in Low-level Vision and Multi-modal Learning, Yu Vision (YUV) Group, Great Bay University, China
