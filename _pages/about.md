@@ -19,7 +19,7 @@ redirect_from:
 
 # 🎓 Bio
 Tianwen Zhou is currently an AI Researcher in Data Storage Technical Research Dept, Huawei Technology Ltd. He received Master's degree in Computer Graphics, Vision and Imaging from Department of Computer Science, University College London (UCL). He received Bachelor's degree in Mathematics and Applied Mathematics from Beijing Normal University.
-His research interest includes computer vision and multi-modal learning. He is currently working on computational imaging, low-level vision tasks, as well as medical AI.\
+His research interest includes computer vision and multi-modal learning. He is currently working on Multimodal Understanding, KV Storage, LLM Inference, Network Topology, and Computational Imaging.\
 Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(preferred)* or tianwenzhou0521[at]ieee.org
 
 *Note: The one on the top of the picture **with tie and glasses** is Tianwen Zhou.*
