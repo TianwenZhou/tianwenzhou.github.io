@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 🎓 Bio
-Tianwen Zhou is currently an AI Researcher in Data Storage Technical Research Dept, Huawei Technology Ltd. He received Master's degree in Computer Graphics, Vision and Imaging from Department of Computer Science, University College London (UCL). He received Bachelor's degree in Mathematics and Applied Mathematics from Beijing Normal University.
+Tianwen Zhou is currently an AI Researcher in Data Storage Technical Research Dept, Huawei Technology co. Ltd. He received Master's degree in Computer Graphics, Vision and Imaging from Department of Computer Science, University College London (UCL). He received Bachelor's degree in Mathematics and Applied Mathematics from Beijing Normal University.
 His research interest includes computer vision and multi-modal learning. He is currently working on Multimodal Understanding, KV Storage, LLM Inference, Network Topology, and Computational Imaging.\
 Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(preferred)* or tianwenzhou0521[at]ieee.org
 
@@ -126,8 +126,8 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 * Member of British Machine Vision Association (BMVA) 
   
 **Conference Reviewer** 
-* IEEE International Conference on Multimedia and Expo (ICME) 25'
-* International Conference on Learning Representations (ICLR) 25'
+* IEEE International Conference on Multimedia and Expo (ICME) 25',26'
+* International Conference on Learning Representations (ICLR) 25',26'
 * SciPy Proceedings 25'
 * IEEE International Conference on Advanced Visual and Signal-Based Systems (AVSS) 25'
 * British Machine Vision Conference (BMVC) 24'
@@ -136,10 +136,7 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 
 # 🔬 Invention Patents         
 * A method, device, system, and storage medium for image lens flare removal, granted. (图像杂散光去除方法、装置、系统和介质, CN118781007A)
-* A method, device, equipment and storage medium for generating medical image reports. (医学影像报告生成方法、装置、设备和储存介质, CN202410761120.7)
-
-# 🧑‍🏫 Teaching
-* Will serve as Teaching Assistant(TA) in UCL Computer Science, 2025 Spring.
+* A method, device, equipment and storage medium for generating medical image reports. (医学影像报告生成方法、装置、设备和储存)
 
 <span class='anchor' id='events'></span>
 # 🛫️ Events
@@ -149,28 +146,4 @@ Feel free to get in touch with Tianwen Zhou via tianwenzhou0521[at]gmail.com *(p
 
 <span class='anchor' id='surveys'></span>
 
-# 📚 Surveys
 
-Here are some of the surveys I have conducted:
-
-<div class='survey-box'>
-  <div class='survey-content'>
-    <div class='survey-text'>
-      <h3>Summary of Diffusion Models in Video Generation: A Chronological Exploration</h3>
-      <p><strong>Tianwen Zhou</strong></p>
-      <p><span class='survey-year'>2024</span> | <a href="../images/Week33.pdf" class='survey-link'>Slides</a></p>
-      <p class='survey-description'>This survey covers the latest advancements in diffusion models for video generation, including early methods to state-of-the-art approaches.</p>
-    </div>
-  </div>
-</div>
-
-<div class='survey-box'>
-  <div class='survey-content'>
-    <div class='survey-text'>
-      <h3>A Survey on Diffusion Model Through SDE</h3>
-      <p><strong>Tianwen Zhou</strong></p>
-      <p><span class='survey-year'>2024</span> | <a href="../images/Week6.pdf" class='survey-link'>Slides</a></p>
-      <p class='survey-description'>This survey explores diffusion models from the Stochastic Differential Equation (SDE) perspective.</p>
-    </div>
-  </div>
-</div>
