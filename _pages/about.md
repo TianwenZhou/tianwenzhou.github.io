@@ -26,6 +26,7 @@ He works on end-to-end acceleration of large-scale LLM inference, systematically
 <span class='anchor' id='educations'></span>
 
 🔥 News
+- [April 2026] Our paper "Editing Physiological Signals in Videos Using Latent Representations" was accepted to CVPR 2026 Workshop on Subtle Visual Computing!
 - [Sep 2025] I joined Huawei Technologies Co., Ltd. as an AI Researcher!
 - [Jun 2025] Our paper was selected as a Best Paper Candidate at ICME 2025!
 - [Mar 2025] Our paper "ProDehaze: Prompting Diffusion Models Toward Faithful Image Dehazing" was accepted to IEEE ICME 2025 as an oral presentation!
@@ -69,7 +70,8 @@ He works on end-to-end acceleration of large-scale LLM inference, systematically
 
   **Editing Physiological Signals in Videos Using Latent Representations**  
   **Tianwen Zhou**, Akshay Paruchuli, Josef Spjut, and Kaan Akşit*.  
-
+  
+<font color='#224B8D'>CVPR 2026 Workshop on Subtle Visual Computing</font>  
   [📄 Paper](https://arxiv.org/abs/2509.25348)
 
   </div>
