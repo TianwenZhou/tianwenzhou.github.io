@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-04-11T09:00:00.000Z",
+  "weather": {
+    "location": "上海",
+    "current": {
+      "temperature": 22,
+      "weatherCode": 2,
+      "windSpeed": 11
+    },
+    "today": {
+      "date": "2026-04-11",
+      "weatherCode": 2,
+      "description": "局部多云",
+      "max": 24,
+      "min": 18,
+      "precipitationProbability": 20
+    },
+    "forecast": [
+      {
+        "date": "2026-04-11",
+        "weatherCode": 2,
+        "description": "局部多云",
+        "max": 24,
+        "min": 18,
+        "precipitationProbability": 20
+      },
+      {
+        "date": "2026-04-12",
+        "weatherCode": 3,
+        "description": "阴天",
+        "max": 23,
+        "min": 17,
+        "precipitationProbability": 35
+      }
+    ]
+  },
+  "nbaNews": [
+    {
+      "title": "网站部署后，这里会显示当天抓取的 NBA 新闻",
+      "link": "https://www.espn.com/nba/",
+      "summary": "运行 `npm run generate:data` 后，脚本会把 ESPN 的最新 NBA RSS 新闻写入这个文件。",
+      "publishedAt": "2026-04-11T09:00:00.000Z"
+    }
+  ],
+  "aiPapers": [
+    {
+      "title": "网站部署后，这里会显示最新 AI 论文",
+      "summary": "脚本会从 arXiv 拉取最新的 cs.AI、cs.LG、cs.CL、cs.CV 论文并生成精简摘要。",
+      "link": "https://arxiv.org/",
+      "publishedAt": "2026-04-11T09:00:00.000Z",
+      "updatedAt": "2026-04-11T09:00:00.000Z",
+      "authors": [
+        "Agent"
+      ],
+      "categories": [
+        "cs.AI"
+      ]
+    }
+  ]
+}

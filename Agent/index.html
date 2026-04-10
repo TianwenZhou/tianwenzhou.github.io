@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Agent Daily Brief</title>
+    <meta
+      name="description"
+      content="每天查看 NBA 新闻、天气预报和人工智能论文进展。"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <p class="eyebrow">zhoutianwen.com/Agent</p>
+        <h1>你的每日情报站</h1>
+        <p class="hero-copy">
+          每天集中查看 NBA 新闻、天气预报和最新 AI 论文，不用来回切多个站点。
+        </p>
+        <div class="hero-meta">
+          <span id="generatedAt">正在读取今日摘要...</span>
+          <button id="refreshButton" type="button">重新加载</button>
+        </div>
+      </header>
+
+      <main class="grid">
+        <section class="panel panel-weather" aria-labelledby="weatherTitle">
+          <div class="panel-heading">
+            <div>
+              <p class="panel-kicker">Weather</p>
+              <h2 id="weatherTitle">天气预报</h2>
+            </div>
+            <span id="weatherLocation" class="panel-tag">--</span>
+          </div>
+          <div id="weatherCurrent" class="weather-current skeleton"></div>
+          <div id="weatherDaily" class="weather-daily"></div>
+        </section>
+
+        <section class="panel" aria-labelledby="newsTitle">
+          <div class="panel-heading">
+            <div>
+              <p class="panel-kicker">NBA</p>
+              <h2 id="newsTitle">最新新闻</h2>
+            </div>
+            <span class="panel-tag">Top 6</span>
+          </div>
+          <div id="nbaNews" class="news-list"></div>
+        </section>
+
+        <section class="panel panel-wide" aria-labelledby="papersTitle">
+          <div class="panel-heading">
+            <div>
+              <p class="panel-kicker">AI Papers</p>
+              <h2 id="papersTitle">最新论文进展</h2>
+            </div>
+            <span class="panel-tag">arXiv</span>
+          </div>
+          <div id="paperHighlights" class="paper-list"></div>
+        </section>
+      </main>
+    </div>
+
+    <template id="emptyStateTemplate">
+      <div class="empty-state">
+        <p>今天的内容还没准备好，请稍后再试。</p>
+      </div>
+    </template>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+  </html>

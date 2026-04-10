@@ -1,0 +1,10 @@
+{
+  "name": "agent-daily-brief",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate:data": "node scripts/generate-data.mjs",
+    "serve": "python -m http.server 4173"
+  }
+}
