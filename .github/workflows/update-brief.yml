@@ -23,9 +23,9 @@ jobs:
 
       - name: Generate daily data
         env:
-          WEATHER_LABEL: Shanghai
-          WEATHER_LATITUDE: "31.2304"
-          WEATHER_LONGITUDE: "121.4737"
+          WEATHER_LABEL: Beijing Haidian
+          WEATHER_LATITUDE: "39.9593"
+          WEATHER_LONGITUDE: "116.2981"
         run: node Agent/scripts/generate-data.mjs
 
       - name: Commit updated data

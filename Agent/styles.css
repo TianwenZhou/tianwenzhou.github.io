@@ -250,6 +250,39 @@ button {
   color: #fecaca;
 }
 
+.paper-section {
+  display: grid;
+  gap: 14px;
+  padding: 18px;
+  border-radius: 20px;
+  border: 1px solid rgba(148, 163, 184, 0.14);
+  background: rgba(2, 6, 23, 0.32);
+}
+
+.paper-section-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.paper-section-header h3 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.paper-section-header p {
+  margin-top: 6px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.paper-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 14px;
+}
+
 .skeleton {
   position: relative;
   overflow: hidden;

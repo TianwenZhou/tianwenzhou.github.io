@@ -1,60 +1,129 @@
 {
   "generatedAt": "2026-04-11T09:00:00.000Z",
   "weather": {
-    "location": "上海",
+    "location": "北京市海淀区",
     "current": {
-      "temperature": 22,
-      "weatherCode": 2,
-      "windSpeed": 11
+      "temperature": 18,
+      "weatherCode": 1,
+      "windSpeed": 14
     },
     "today": {
       "date": "2026-04-11",
-      "weatherCode": 2,
-      "description": "局部多云",
-      "max": 24,
-      "min": 18,
-      "precipitationProbability": 20
+      "weatherCode": 1,
+      "description": "基本晴",
+      "max": 22,
+      "min": 11,
+      "precipitationProbability": 5
     },
     "forecast": [
       {
         "date": "2026-04-11",
-        "weatherCode": 2,
-        "description": "局部多云",
-        "max": 24,
-        "min": 18,
-        "precipitationProbability": 20
+        "weatherCode": 1,
+        "description": "基本晴",
+        "max": 22,
+        "min": 11,
+        "precipitationProbability": 5
       },
       {
         "date": "2026-04-12",
-        "weatherCode": 3,
-        "description": "阴天",
-        "max": 23,
-        "min": 17,
-        "precipitationProbability": 35
+        "weatherCode": 2,
+        "description": "局部多云",
+        "max": 24,
+        "min": 13,
+        "precipitationProbability": 10
       }
     ]
   },
   "nbaNews": [
     {
-      "title": "网站部署后，这里会显示当天抓取的 NBA 新闻",
+      "title": "网站部署后，这里会显示每 4 小时自动抓取的 NBA 新闻",
       "link": "https://www.espn.com/nba/",
-      "summary": "运行 `npm run generate:data` 后，脚本会把 ESPN 的最新 NBA RSS 新闻写入这个文件。",
+      "summary": "运行工作流后，这里会刷新成 ESPN NBA RSS 的最新新闻摘要。",
       "publishedAt": "2026-04-11T09:00:00.000Z"
     }
   ],
-  "aiPapers": [
-    {
-      "title": "网站部署后，这里会显示最新 AI 论文",
-      "summary": "脚本会从 arXiv 拉取最新的 cs.AI、cs.LG、cs.CL、cs.CV 论文并生成精简摘要。",
-      "link": "https://arxiv.org/",
-      "publishedAt": "2026-04-11T09:00:00.000Z",
-      "updatedAt": "2026-04-11T09:00:00.000Z",
-      "authors": [
-        "Agent"
-      ],
-      "categories": [
-        "cs.AI"
-      ]
-    }
-  ]
+  "aiPapers": {
+    "sections": [
+      {
+        "id": "data-storage",
+        "title": "数据存储相关",
+        "description": "关注数据库、数据管理、向量检索与存储系统。",
+        "items": [
+          {
+            "title": "部署后这里会显示数据存储方向的新论文",
+            "summary": "工作流会从 arXiv 抓取与数据库、数据管理、向量数据库相关的最新论文。",
+            "link": "https://arxiv.org/",
+            "publishedAt": "2026-04-11T09:00:00.000Z",
+            "updatedAt": "2026-04-11T09:00:00.000Z",
+            "authors": [
+              "Agent"
+            ],
+            "categories": [
+              "cs.DB"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "computer-vision",
+        "title": "计算机视觉相关",
+        "description": "关注视觉理解、生成、检测和多模态视觉方向。",
+        "items": [
+          {
+            "title": "部署后这里会显示计算机视觉方向的新论文",
+            "summary": "工作流会从 arXiv 抓取计算机视觉与多模态视觉方向的新论文。",
+            "link": "https://arxiv.org/",
+            "publishedAt": "2026-04-11T09:00:00.000Z",
+            "updatedAt": "2026-04-11T09:00:00.000Z",
+            "authors": [
+              "Agent"
+            ],
+            "categories": [
+              "cs.CV"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "llm-memory",
+        "title": "大模型记忆库相关",
+        "description": "关注长短期记忆、RAG、memory bank 与知识增强。",
+        "items": [
+          {
+            "title": "部署后这里会显示大模型记忆库方向的新论文",
+            "summary": "工作流会抓取与 LLM memory、RAG、memory bank 相关的最新论文。",
+            "link": "https://arxiv.org/",
+            "publishedAt": "2026-04-11T09:00:00.000Z",
+            "updatedAt": "2026-04-11T09:00:00.000Z",
+            "authors": [
+              "Agent"
+            ],
+            "categories": [
+              "cs.CL"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "agents",
+        "title": "Agent 相关",
+        "description": "关注自主智能体、工具调用、多 Agent 协同。",
+        "items": [
+          {
+            "title": "部署后这里会显示 Agent 方向的新论文",
+            "summary": "工作流会抓取与 AI agent、LLM agent、tool use、planning 等相关的新论文。",
+            "link": "https://arxiv.org/",
+            "publishedAt": "2026-04-11T09:00:00.000Z",
+            "updatedAt": "2026-04-11T09:00:00.000Z",
+            "authors": [
+              "Agent"
+            ],
+            "categories": [
+              "cs.AI"
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

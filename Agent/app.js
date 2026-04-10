@@ -110,20 +110,13 @@ function renderNews(items) {
   });
 }
 
-function renderPapers(items) {
-  clearElement(dom.paperHighlights);
-  if (!items.length) {
-    renderEmpty(dom.paperHighlights);
-    return;
-  }
-
-  items.forEach((paper) => {
-    const node = document.createElement("article");
-    node.className = "paper-card";
-    node.innerHTML = `
+function renderPaperCard(paper) {
+  const authors = paper.authors.length ? paper.authors.join(" / ") : "作者信息待补充";
+  return `
+    <article class="paper-card">
       <div class="paper-meta">
         <span>${formatDateTime(paper.publishedAt)}</span>
-        <span>${paper.authors.join(" / ")}</span>
+        <span>${authors}</span>
       </div>
       <h3>${paper.title}</h3>
       <p class="paper-summary">${paper.summary}</p>
@@ -131,8 +124,40 @@ function renderPapers(items) {
         <span class="pill">${paper.categories.join(", ")}</span>
         <a href="${paper.link}" target="_blank" rel="noreferrer">查看论文</a>
       </footer>
+    </article>
+  `;
+}
+
+function renderPaperSections(sections) {
+  clearElement(dom.paperHighlights);
+
+  if (!sections.length) {
+    renderEmpty(dom.paperHighlights);
+    return;
+  }
+
+  sections.forEach((section) => {
+    const wrapper = document.createElement("section");
+    wrapper.className = "paper-section";
+
+    const body = section.items.length
+      ? section.items.map(renderPaperCard).join("")
+      : `<div class="empty-state"><p>这个板块暂时还没有抓到合适论文。</p></div>`;
+
+    wrapper.innerHTML = `
+      <header class="paper-section-header">
+        <div>
+          <h3>${section.title}</h3>
+          <p>${section.description}</p>
+        </div>
+        <span class="panel-tag">${section.items.length} 篇</span>
+      </header>
+      <div class="paper-grid">
+        ${body}
+      </div>
     `;
-    dom.paperHighlights.append(node);
+
+    dom.paperHighlights.append(wrapper);
   });
 }
 
@@ -140,7 +165,7 @@ function renderPage(data) {
   dom.generatedAt.textContent = `数据更新时间：${formatDateTime(data.generatedAt)}`;
   renderWeather(data.weather);
   renderNews(data.nbaNews);
-  renderPapers(data.aiPapers);
+  renderPaperSections(data.aiPapers.sections ?? []);
 }
 
 function renderError(message) {
