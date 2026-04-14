@@ -57,104 +57,145 @@ He works on end-to-end acceleration of large-scale LLM inference, systematically
 - *2023.01 - 2023.04*, **Data Operation Intern**, Didichuxing
 - *2022.11 - 2023.06*, **Research Assistant** in Infrared Imaging, Intelligent Media Computer Laboratory, Beijing Normal University
 
+# Publications
 
-# 📕Publications
+<h2 style="clear: both;">2026</h2>
 
+<div style="overflow: auto; margin-bottom: 2rem;">
+  <div style="float: left; width: 220px; margin-right: 20px;" class="boxed">
+    <img src="/images/representative.png" width="200" alt="PhysioLatent teaser">
+  </div>
 
-## 2026
+  <div>
+    <p style="margin-bottom: 0.4rem;"><strong>Editing Physiological Signals in Videos Using Latent Representations</strong></p>
 
-<div style="float: left; height:340px;" class="boxed">
-<img align="left" src="../images/representative.png" width="200" alt/>
+    <p style="margin: 0.3rem 0;">
+      <img src="/badges/cvpr_workshop.svg" alt="CVPR Workshop badge">
+    </p>
+
+    <p style="margin: 0.5rem 0;">
+      <a href="https://zhoutianwen.com">Tianwen Zhou</a>,
+      <a href="https://akshayparuchuri.github.io/">Akshay Paruchuri</a>,
+      <a href="https://josef.spjut.me/">Josef Spjut</a>,
+      and
+      <a href="https://kaanaksit.com">Kaan Akşit</a>
+    </p>
+
+    <p style="margin: 0.5rem 0;">
+      <a href="https://complightlab.com/publications/physiolatent/">Project site</a> |
+      <a href="https://arxiv.org/abs/2509.25348">Manuscript</a>
+    </p>
+
+    <!-- 如果这篇已经被 Scholar 收录，就把下面的 PAPER_ID 换掉；没收录就先删掉这一行 -->
+    <!-- <p style="margin: 0.5rem 0;"><strong>Citations:</strong> <span class='show_paper_citations' data='PAPER_ID_HERE'></span></p> -->
+
+    <details>
+      <summary>BibTeX</summary>
+      <pre><code>@inproceedings{zhou2026physiolatent,
+  title = {Editing Physiological Signals in Videos Using Latent Representations},
+  author = {Zhou, Tianwen and Paruchuri, Akshay and Spjut, Josef and Ak{\c{s}}it, Kaan},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, 2nd Workshop on Subtle Visual Computing (SVC)},
+  year = {2026}
+}</code></pre>
+    </details>
+  </div>
 </div>
 
-**Editing Physiological Signals in Videos Using Latent Representations**
+<div style="clear: both;"></div>
 
-<img src="../badges/cvpr_workshop.svg">
+<h2 style="clear: both;">2025</h2>
 
-[Tianwen Zhou](https://zhoutianwen.com),
-[Akshay Paruchuri](https://akshayparuchuri.github.io/),
-[Josef Spjut](https://josef.spjut.me/),
-and [Kaan Akşit](https://kaanaksit.com)
+<div style="overflow: auto; margin-bottom: 2rem;">
+  <div style="float: left; width: 220px; margin-right: 20px;" class="boxed">
+    <img src="/images/ProDehaze.png" width="200" alt="ProDehaze teaser">
+  </div>
 
-:material-web: [Project site](https://complightlab.com/publications/physiolatent/)  
-:material-newspaper-variant: [Manuscript](https://arxiv.org/abs/2509.25348)
+  <div>
+    <p style="margin-bottom: 0.4rem;"><strong>ProDehaze: Prompting Diffusion Models Toward Faithful Image Dehazing</strong></p>
 
-??? info ":material-tag-text: Bibtex"
-    ```
-    @inproceedings{zhou2026physiolatent,
-      title = {Editing Physiological Signals in Videos Using Latent Representations},
-      author = {Zhou, Tianwen and Paruchuri, Akshay and Spjut, Josef and Ak{\c{s}}it, Kaan},
-      booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, 2nd Workshop on Subtle Visual Computing (SVC)},
-      year = {2026}
-    }
-    ```
+    <p style="margin: 0.3rem 0;">
+      <img src="/badges/icme.svg" alt="ICME badge">
+      <span style="margin-left: 8px;">Oral · Best Paper Nomination</span>
+    </p>
 
-<br clear="left"/>
+    <p style="margin: 0.5rem 0;">
+      <a href="https://zhoutianwen.com">Tianwen Zhou</a>,
+      <a href="https://scholar.google.com/citations?user=Z5s5kw4AAAAJ&hl=en">Jing Wang</a>,
+      <a href="https://scholar.google.com/citations?user=JeMvxPwAAAAJ&hl=en">Songtao Wu</a>,
+      and
+      <a href="https://dblp.org/pid/126/4380.html">Kuanhong Xu</a>
+    </p>
 
+    <p style="margin: 0.5rem 0;">
+      <a href="https://zhoutianwen.com/prodehaze">Project site</a> |
+      <a href="https://arxiv.org/abs/2503.17488">Manuscript</a> |
+      <a href="https://github.com/TianwenZhou/ProDehaze">Code</a>
+    </p>
 
+    <p style="margin: 0.5rem 0;">
+      <strong>Citations:</strong>
+      <span class='show_paper_citations' data='3WQTKocAAAAJ:WF5omc3nYNoC'></span>
+    </p>
 
-## 2025
-
-<div style="float: left; height:340px;" class="boxed">
-<img align="left" src="../images/ProDehaze.png" width="200" alt/>
+    <details>
+      <summary>BibTeX</summary>
+      <pre><code>@inproceedings{zhou2025prodehaze,
+  title = {ProDehaze: Prompting Diffusion Models Toward Faithful Image Dehazing},
+  author = {Zhou, Tianwen and Wang, Jing and Wu, Songtao and Xu, Kuanhong},
+  booktitle = {IEEE International Conference on Multimedia and Expo (ICME)},
+  year = {2025}
+}</code></pre>
+    </details>
+  </div>
 </div>
 
-**ProDehaze: Prompting Diffusion Models Toward Faithful Image Dehazing**
+<div style="clear: both;"></div>
 
-<img src="../badges/icme.svg"> Oral · Best Paper Nomination
+<h2 style="clear: both;">2024</h2>
 
-[Tianwen Zhou](https://zhoutianwen.com),
-[Jing Wang](https://scholar.google.com/citations?user=Z5s5kw4AAAAJ&hl=en),
-[Songtao Wu](https://scholar.google.com/citations?user=JeMvxPwAAAAJ&hl=en),
-and [Kuanhong Xu](https://dblp.org/pid/126/4380.html)
+<div style="overflow: auto; margin-bottom: 2rem;">
+  <div style="float: left; width: 220px; margin-right: 20px;" class="boxed">
+    <img src="/images/Difflare.png" width="200" alt="Difflare teaser">
+  </div>
 
-:material-newspaper-variant: [Manuscript](https://arxiv.org/abs/2503.17488)  
-:material-file-code: [Code](https://github.com/TianwenZhou/ProDehaze)  
-:material-web: [Project site](https://zhoutianwen.com/prodehaze)
+  <div>
+    <p style="margin-bottom: 0.4rem;"><strong>Difflare: Removing Image Lens Flare with Latent Diffusion Models</strong></p>
 
-??? info ":material-tag-text: Bibtex"
-    ```
-    @inproceedings{zhou2025prodehaze,
-      title = {ProDehaze: Prompting Diffusion Models Toward Faithful Image Dehazing},
-      author = {Zhou, Tianwen and Wang, Jing and Wu, Songtao and Xu, Kuanhong},
-      booktitle = {IEEE International Conference on Multimedia and Expo (ICME)},
-      year = {2025}
-    }
-    ```
+    <p style="margin: 0.3rem 0;">
+      <img src="/badges/bmvc.svg" alt="BMVC badge">
+    </p>
 
-<br clear="left"/>
+    <p style="margin: 0.5rem 0;">
+      <a href="https://zhoutianwen.com">Tianwen Zhou</a>,
+      Qihao Duan,
+      and
+      <a href="https://zitongyu.github.io/">Zitong Yu</a>
+    </p>
 
+    <p style="margin: 0.5rem 0;">
+      <a href="https://bmva-archive.org.uk/bmvc/2024/papers/Paper_437/paper.pdf">Manuscript</a> |
+      <a href="https://github.com/TianwenZhou/Difflare">Code</a> |
+      <a href="https://www.youtube.com/watch?v=naYsWT7SOn0">Video</a>
+    </p>
 
+    <p style="margin: 0.5rem 0;">
+      <strong>Citations:</strong>
+      <span class='show_paper_citations' data='Km1ZrkYAAAAJ:u-x6o8ySG0sC'></span>
+    </p>
 
-## 2024
-
-<div style="float: left; height:340px;" class="boxed">
-<img align="left" src="../images/Difflare.png" width="200" alt/>
+    <details>
+      <summary>BibTeX</summary>
+      <pre><code>@inproceedings{zhou2024difflare,
+  title = {Difflare: Removing Image Lens Flare with Latent Diffusion Models},
+  author = {Zhou, Tianwen and Duan, Qihao and Yu, Zitong},
+  booktitle = {British Machine Vision Conference (BMVC)},
+  year = {2024}
+}</code></pre>
+    </details>
+  </div>
 </div>
 
-**Difflare: Removing Image Lens Flare with Latent Diffusion Models**
-
-<img src="../badges/bmvc.svg">
-
-[Tianwen Zhou](https://zhoutianwen.com),
-[Qihao Duan](#),
-and [Zitong Yu](https://zitongyu.github.io/)
-
-:material-newspaper-variant: [Manuscript](https://bmva-archive.org.uk/bmvc/2024/papers/Paper_437/paper.pdf)  
-:material-file-code: [Code](https://github.com/TianwenZhou/Difflare)  
-:material-video-account: [Video](https://www.youtube.com/watch?v=naYsWT7SOn0)
-
-??? info ":material-tag-text: Bibtex"
-    ```
-    @inproceedings{zhou2024difflare,
-      title = {Difflare: Removing Image Lens Flare with Latent Diffusion Models},
-      author = {Zhou, Tianwen and Duan, Qihao and Yu, Zitong},
-      booktitle = {British Machine Vision Conference (BMVC)},
-      year = {2024}
-    }
-    ```
-
-<br clear="left"/>
+<div style="clear: both;"></div>
 
 # 📪 Academic Services
 **Congress Member**
