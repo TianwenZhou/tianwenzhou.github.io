@@ -57,67 +57,104 @@ He works on end-to-end acceleration of large-scale LLM inference, systematically
 - *2023.01 - 2023.04*, **Data Operation Intern**, Didichuxing
 - *2022.11 - 2023.06*, **Research Assistant** in Infrared Imaging, Intelligent Media Computer Laboratory, Beijing Normal University
 
-# 📒 Publications
-(*: corresponding author, #: equal contribution)
 
----
+# 📕Publications
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <img src='../images/representative.png' alt='PhysioLatent' width='100%'>
-  </div>
-  <div class='paper-box-text' markdown='1'>
 
-  **Editing Physiological Signals in Videos Using Latent Representations**  
-  **Tianwen Zhou**, Akshay Paruchuli, Josef Spjut, and Kaan Akşit*.  
-  
-<font color='#224B8D'>CVPR 2026 Workshop on Subtle Visual Computing</font>  
-  [📄 Paper](https://arxiv.org/abs/2509.25348)
+## 2026
 
-  </div>
+<div style="float: left; height:340px;" class="boxed">
+<img align="left" src="../images/representative.png" width="200" alt/>
 </div>
 
----
+**Editing Physiological Signals in Videos Using Latent Representations**
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <img src='../images/ProDehaze.png' alt='ProDehaze' width='100%'>
-  </div>
-  <div class='paper-box-text' markdown='1'>
+<img src="../badges/cvpr_workshop.svg">
 
-  **ProDehaze: Prompting Diffusion Models Toward Faithful Image Dehazing**  
-  **Tianwen Zhou**, Jing Wang, Songtao Wu, and Kuanhong Xu*.  
+[Tianwen Zhou](https://zhoutianwen.com),
+[Akshay Paruchuri](https://akshayparuchuri.github.io/),
+[Josef Spjut](https://josef.spjut.me/),
+and [Kaan Akşit](https://kaanaksit.com)
 
-  <font color='#224B8D'>ICME 2025 (CCF-B, Core A) · Oral · Best Paper Nomination</font>  
-  [📄 Paper](https://arxiv.org/abs/2503.17488) \| [💻 Code](https://github.com/TianwenZhou/ProDehaze) \| [🌐 Project Page](https://zhoutianwen.com/prodehaze)  
-  <strong><span class='show_paper_citations' data='3WQTKocAAAAJ:WF5omc3nYNoC'></span></strong>  
+:material-web: [Project site](https://complightlab.com/publications/physiolatent/)  
+:material-newspaper-variant: [Manuscript](https://arxiv.org/abs/2509.25348)
 
-  - Utilizes internal image priors to guide external priors from pretrained diffusion models, addressing hallucination issues in image dehazing.
+??? info ":material-tag-text: Bibtex"
+    ```
+    @inproceedings{zhou2026physiolatent,
+      title = {Editing Physiological Signals in Videos Using Latent Representations},
+      author = {Zhou, Tianwen and Paruchuri, Akshay and Spjut, Josef and Ak{\c{s}}it, Kaan},
+      booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, 2nd Workshop on Subtle Visual Computing (SVC)},
+      year = {2026}
+    }
+    ```
 
-  </div>
+<br clear="left"/>
+
+
+
+## 2025
+
+<div style="float: left; height:340px;" class="boxed">
+<img align="left" src="../images/ProDehaze.png" width="200" alt/>
 </div>
 
----
+**ProDehaze: Prompting Diffusion Models Toward Faithful Image Dehazing**
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <img src='../images/Difflare.png' alt='Difflare' width='100%'>
-  </div>
-  <div class='paper-box-text' markdown='1'>
+<img src="../badges/icme.svg"> Oral · Best Paper Nomination
 
-  **Difflare: Removing Image Lens Flare with Latent Diffusion Models**  
-  **Tianwen Zhou**, Qihao Duan, and Zitong Yu*.  
+[Tianwen Zhou](https://zhoutianwen.com),
+[Jing Wang](https://scholar.google.com/citations?user=Z5s5kw4AAAAJ&hl=en),
+[Songtao Wu](https://scholar.google.com/citations?user=JeMvxPwAAAAJ&hl=en),
+and [Kuanhong Xu](https://dblp.org/pid/126/4380.html)
 
-  <font color='#224B8D'>BMVC 2024 (Core A)</font>  
-  [📄 Paper](https://bmva-archive.org.uk/bmvc/2024/papers/Paper_437/paper.pdf) \| [💻 Code](https://github.com/TianwenZhou/Difflare) \| [🎥 Video](https://www.youtube.com/watch?v=naYsWT7SOn0)  
-  <strong><span class='show_paper_citations' data='Km1ZrkYAAAAJ:u-x6o8ySG0sC'></span></strong>  
+:material-newspaper-variant: [Manuscript](https://arxiv.org/abs/2503.17488)  
+:material-file-code: [Code](https://github.com/TianwenZhou/ProDehaze)  
+:material-web: [Project site](https://zhoutianwen.com/prodehaze)
 
-  - Proposes a novel paradigm for image lens flare removal.  
-  - Combines physics-based priors with knowledge from pre-trained Latent Diffusion Models (LDMs).
+??? info ":material-tag-text: Bibtex"
+    ```
+    @inproceedings{zhou2025prodehaze,
+      title = {ProDehaze: Prompting Diffusion Models Toward Faithful Image Dehazing},
+      author = {Zhou, Tianwen and Wang, Jing and Wu, Songtao and Xu, Kuanhong},
+      booktitle = {IEEE International Conference on Multimedia and Expo (ICME)},
+      year = {2025}
+    }
+    ```
 
-  </div>
+<br clear="left"/>
+
+
+
+## 2024
+
+<div style="float: left; height:340px;" class="boxed">
+<img align="left" src="../images/Difflare.png" width="200" alt/>
 </div>
 
+**Difflare: Removing Image Lens Flare with Latent Diffusion Models**
+
+<img src="../badges/bmvc.svg">
+
+[Tianwen Zhou](https://zhoutianwen.com),
+[Qihao Duan](#),
+and [Zitong Yu](https://zitongyu.github.io/)
+
+:material-newspaper-variant: [Manuscript](https://bmva-archive.org.uk/bmvc/2024/papers/Paper_437/paper.pdf)  
+:material-file-code: [Code](https://github.com/TianwenZhou/Difflare)  
+:material-video-account: [Video](https://www.youtube.com/watch?v=naYsWT7SOn0)
+
+??? info ":material-tag-text: Bibtex"
+    ```
+    @inproceedings{zhou2024difflare,
+      title = {Difflare: Removing Image Lens Flare with Latent Diffusion Models},
+      author = {Zhou, Tianwen and Duan, Qihao and Yu, Zitong},
+      booktitle = {British Machine Vision Conference (BMVC)},
+      year = {2024}
+    }
+    ```
+
+<br clear="left"/>
 
 # 📪 Academic Services
 **Congress Member**
