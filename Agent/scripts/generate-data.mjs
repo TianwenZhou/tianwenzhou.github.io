@@ -19,10 +19,13 @@ const defaults = {
   newsFeeds: {
     domestic:
       process.env.DOMESTIC_NEWS_RSS_URL ??
-      "https://www.people.com.cn/rss/politics.xml",
-    international:
-      process.env.INTERNATIONAL_NEWS_RSS_URL ??
-      "https://www.people.com.cn/rss/world.xml",
+      "https://news.google.com/rss/search?q=(site:news.cn%20OR%20site:gov.cn%20OR%20site:people.com.cn)%20%E5%9B%BD%E5%86%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    internationalBbc:
+      process.env.INTERNATIONAL_BBC_RSS_URL ??
+      "https://feeds.bbci.co.uk/news/world/rss.xml",
+    internationalCnn:
+      process.env.INTERNATIONAL_CNN_RSS_URL ??
+      "https://news.google.com/rss/search?q=site:cnn.com%20world&hl=en-US&gl=US&ceid=US:en",
     nba:
       process.env.NBA_RSS_URL ??
       "https://www.espn.com/espn/rss/nba/news",
@@ -236,6 +239,19 @@ async function fetchRssFeed(url, limit, source) {
     .filter((item) => item.title && item.link);
 }
 
+async function fetchMergedRssFeeds(feeds, limit) {
+  const results = await Promise.allSettled(
+    feeds.map((feed) => fetchRssFeed(feed.url, feed.limit ?? limit, feed.source)),
+  );
+
+  return results
+    .filter((result) => result.status === "fulfilled")
+    .flatMap((result) => result.value)
+    .sort((left, right) => new Date(right.publishedAt) - new Date(left.publishedAt))
+    .filter((item, index, items) => items.findIndex((candidate) => candidate.link === item.link) === index)
+    .slice(0, limit);
+}
+
 function getGameStatus(status) {
   const state = status?.type?.state ?? "pre";
   const detail = status?.type?.shortDetail ?? status?.type?.detail ?? status?.type?.description ?? "";
@@ -414,8 +430,13 @@ async function main() {
     await Promise.allSettled([
       fetchWeather(),
       fetchSchedule(),
-      fetchRssFeed(defaults.newsFeeds.domestic, 5, "People.cn"),
-      fetchRssFeed(defaults.newsFeeds.international, 5, "People.cn"),
+      fetchMergedRssFeeds([
+        { url: defaults.newsFeeds.domestic, source: "Google News", limit: 8 },
+      ], 5),
+      fetchMergedRssFeeds([
+        { url: defaults.newsFeeds.internationalBbc, source: "BBC", limit: 5 },
+        { url: defaults.newsFeeds.internationalCnn, source: "CNN", limit: 5 },
+      ], 5),
       fetchNbaScoreboard(),
       fetchRssFeed(defaults.newsFeeds.nba, 6, "ESPN"),
     ]);

@@ -23,7 +23,7 @@ jobs:
 
       - name: Generate daily data
         env:
-          WEATHER_LABEL: Beijing Haidian
+          WEATHER_LABEL: 北京市海淀区
           WEATHER_LATITUDE: "39.9593"
           WEATHER_LONGITUDE: "116.2981"
           GOOGLE_CALENDAR_ID: "tianwenzhou0521@gmail.com"
