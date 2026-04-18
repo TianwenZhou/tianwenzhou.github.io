@@ -64,10 +64,10 @@
 
         <section class="widget-grid widget-grid-news">
           <section class="panel" aria-labelledby="domesticNewsTitle">
-            <div class="panel-heading">
+            <div class="panel-heading news-panel-heading">
               <div>
                 <p class="panel-kicker">China</p>
-                <h2 id="domesticNewsTitle">国内新闻</h2>
+                <h2 id="domesticNewsTitle" class="panel-title-line"><span class="panel-icon" aria-hidden="true">CN</span><span>国内新闻</span></h2>
               </div>
               <span class="panel-tag">Top 5</span>
             </div>
@@ -75,10 +75,10 @@
           </section>
 
           <section class="panel" aria-labelledby="internationalNewsTitle">
-            <div class="panel-heading">
+            <div class="panel-heading news-panel-heading">
               <div>
                 <p class="panel-kicker">World</p>
-                <h2 id="internationalNewsTitle">国外新闻</h2>
+                <h2 id="internationalNewsTitle" class="panel-title-line"><span class="panel-icon" aria-hidden="true">GL</span><span>国外新闻</span></h2>
               </div>
               <span class="panel-tag">Top 5</span>
             </div>
@@ -86,13 +86,14 @@
           </section>
 
           <section class="panel" aria-labelledby="nbaNewsTitle">
-            <div class="panel-heading">
+            <div class="panel-heading news-panel-heading">
               <div>
                 <p class="panel-kicker">NBA</p>
-                <h2 id="nbaNewsTitle">NBA 新闻</h2>
+                <h2 id="nbaNewsTitle" class="panel-title-line"><span class="panel-icon" aria-hidden="true">NBA</span><span>NBA 新闻</span></h2>
               </div>
               <span class="panel-tag">Top 6</span>
             </div>
+            <div id="nbaScoreboard" class="scoreboard-panel"></div>
             <div id="nbaNews" class="news-list"></div>
           </section>
         </section>

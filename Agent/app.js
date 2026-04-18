@@ -10,6 +10,7 @@ const dom = {
   schedulePanel: document.querySelector("#schedulePanel"),
   domesticNews: document.querySelector("#domesticNews"),
   internationalNews: document.querySelector("#internationalNews"),
+  nbaScoreboard: document.querySelector("#nbaScoreboard"),
   nbaNews: document.querySelector("#nbaNews"),
   paperHighlights: document.querySelector("#paperHighlights"),
   paperRotationLabel: document.querySelector("#paperRotationLabel"),
@@ -123,14 +124,72 @@ function renderNews(container, items) {
     node.href = item.link;
     node.target = "_blank";
     node.rel = "noreferrer";
+    const summary = item.summary ? `<p>${item.summary}</p>` : "";
     node.innerHTML = `
       <time datetime="${item.publishedAt}">${formatDateTime(item.publishedAt)}</time>
       <h3>${item.title}</h3>
-      <p>${item.summary}</p>
+      ${summary}
       <span class="news-source">${item.source ?? ""}</span>
     `;
     container.append(node);
   });
+}
+
+function formatGameTime(value) {
+  const date = new Date(value);
+  return new Intl.DateTimeFormat("zh-CN", {
+    month: "numeric",
+    day: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+    timeZone: "Asia/Shanghai",
+  }).format(date);
+}
+
+function renderNbaScoreboard(scoreboard) {
+  clearElement(dom.nbaScoreboard);
+
+  if (!scoreboard?.games?.length) {
+    dom.nbaScoreboard.innerHTML = `
+      <div class="empty-state neutral-state scoreboard-empty">
+        <p>????????? NBA ??????</p>
+      </div>
+    `;
+    return;
+  }
+
+  const wrapper = document.createElement("div");
+  wrapper.className = "scoreboard-list";
+  wrapper.innerHTML = scoreboard.games
+    .map(
+      (game) => `
+        <a class="scoreboard-card" href="${game.link}" target="_blank" rel="noreferrer">
+          <div class="scoreboard-card-top">
+            <span class="scoreboard-status scoreboard-status-${game.state}">${game.statusText}</span>
+            <span class="scoreboard-time">${game.state === "pre" ? formatGameTime(game.startTime) : game.detail}</span>
+          </div>
+          <div class="scoreboard-team-row">
+            <div class="scoreboard-team">
+              <img src="${game.awayTeam.logo}" alt="${game.awayTeam.abbreviation}" loading="lazy" />
+              <span>${game.awayTeam.abbreviation}</span>
+            </div>
+            <strong>${game.awayTeam.score}</strong>
+          </div>
+          <div class="scoreboard-team-row">
+            <div class="scoreboard-team">
+              <img src="${game.homeTeam.logo}" alt="${game.homeTeam.abbreviation}" loading="lazy" />
+              <span>${game.homeTeam.abbreviation}</span>
+            </div>
+            <strong>${game.homeTeam.score}</strong>
+          </div>
+          <p class="scoreboard-note">${game.note}</p>
+        </a>
+      `,
+    )
+    .join("");
+
+  dom.nbaScoreboard.append(wrapper);
 }
 
 function formatScheduleTime(value) {
@@ -244,6 +303,7 @@ function renderPage(data) {
   renderSchedule(data.schedule);
   renderNews(dom.domesticNews, data.news.domestic ?? []);
   renderNews(dom.internationalNews, data.news.international ?? []);
+  renderNbaScoreboard(data.nbaScoreboard);
   renderNews(dom.nbaNews, data.news.nba ?? []);
   renderPaperSections(data.aiPapers.sections ?? []);
 }
@@ -255,6 +315,8 @@ function renderError(message) {
   clearElement(dom.weatherDaily);
   renderEmpty(dom.domesticNews);
   renderEmpty(dom.internationalNews);
+  clearElement(dom.nbaScoreboard);
+  dom.nbaScoreboard.innerHTML = `<div class="empty-state"><p>${message}</p></div>`;
   renderEmpty(dom.nbaNews);
   renderEmpty(dom.paperHighlights);
 }

@@ -27,6 +27,9 @@ const defaults = {
       process.env.NBA_RSS_URL ??
       "https://www.espn.com/espn/rss/nba/news",
   },
+  nbaScoreboardUrl:
+    process.env.NBA_SCOREBOARD_URL ??
+    "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard",
   calendar: {
     calendarId: process.env.GOOGLE_CALENDAR_ID ?? "",
     icsUrl: process.env.GOOGLE_CALENDAR_ICS_URL ?? "",
@@ -105,6 +108,10 @@ function shortenSummary(text, maxLength = 140) {
     return "";
   }
 
+  if (/^null$/i.test(text.trim())) {
+    return "";
+  }
+
   if (text.length <= maxLength) {
     return text;
   }
@@ -128,6 +135,10 @@ async function fetchText(url) {
   } catch (error) {
     return fetchTextWithPowerShell(url, error);
   }
+}
+
+async function fetchJson(url) {
+  return JSON.parse(await fetchText(url));
 }
 
 async function fetchTextWithPowerShell(url, originalError) {
@@ -223,6 +234,71 @@ async function fetchRssFeed(url, limit, source) {
       };
     })
     .filter((item) => item.title && item.link);
+}
+
+function getGameStatus(status) {
+  const state = status?.type?.state ?? "pre";
+  const detail = status?.type?.shortDetail ?? status?.type?.detail ?? status?.type?.description ?? "";
+
+  if (state === "in") {
+    return {
+      state: "in",
+      label: "Live",
+      detail,
+    };
+  }
+
+  if (state === "post") {
+    return {
+      state: "post",
+      label: "Final",
+      detail,
+    };
+  }
+
+  return {
+    state: "pre",
+    label: "Scheduled",
+    detail,
+  };
+}
+
+async function fetchNbaScoreboard() {
+  const data = await fetchJson(defaults.nbaScoreboardUrl);
+  const games = (data.events ?? []).slice(0, 4).map((event) => {
+    const competition = event.competitions?.[0] ?? {};
+    const competitors = competition.competitors ?? [];
+    const homeTeam = competitors.find((team) => team.homeAway === "home");
+    const awayTeam = competitors.find((team) => team.homeAway === "away");
+    const status = getGameStatus(event.status ?? competition.status);
+
+    return {
+      id: event.id,
+      link:
+        event.links?.find((link) => link.href)?.href ??
+        `https://www.espn.com/nba/game/_/gameId/${event.id}`,
+      startTime: event.date,
+      state: status.state,
+      statusText: status.label,
+      detail: status.detail,
+      note: competition.notes?.[0]?.headline ?? event.name,
+      homeTeam: {
+        abbreviation: homeTeam?.team?.abbreviation ?? "HOME",
+        score: homeTeam?.score ?? "-",
+        logo: homeTeam?.team?.logo ?? "",
+      },
+      awayTeam: {
+        abbreviation: awayTeam?.team?.abbreviation ?? "AWAY",
+        score: awayTeam?.score ?? "-",
+        logo: awayTeam?.team?.logo ?? "",
+      },
+    };
+  });
+
+  return {
+    date: data.day?.date ?? new Date().toISOString().slice(0, 10),
+    games,
+  };
 }
 
 function getDaySeed(date) {
@@ -334,12 +410,13 @@ function buildPaperSections(date) {
 async function main() {
   const now = new Date();
 
-  const [weatherResult, scheduleResult, domesticResult, internationalResult, nbaResult] =
+  const [weatherResult, scheduleResult, domesticResult, internationalResult, nbaScoreboardResult, nbaResult] =
     await Promise.allSettled([
       fetchWeather(),
       fetchSchedule(),
       fetchRssFeed(defaults.newsFeeds.domestic, 5, "People.cn"),
       fetchRssFeed(defaults.newsFeeds.international, 5, "People.cn"),
+      fetchNbaScoreboard(),
       fetchRssFeed(defaults.newsFeeds.nba, 6, "ESPN"),
     ]);
 
@@ -367,6 +444,13 @@ async function main() {
       international: internationalResult.status === "fulfilled" ? internationalResult.value : [],
       nba: nbaResult.status === "fulfilled" ? nbaResult.value : [],
     },
+    nbaScoreboard:
+      nbaScoreboardResult.status === "fulfilled"
+        ? nbaScoreboardResult.value
+        : {
+            date: now.toISOString().slice(0, 10),
+            games: [],
+          },
     aiPapers: {
       rotationLabel: `Curated Rotation · ${now.toISOString().slice(0, 10)}`,
       sections: buildPaperSections(now),

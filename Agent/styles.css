@@ -105,6 +105,27 @@ p {
   font-size: 28px;
 }
 
+.panel-title-line {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.panel-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 38px;
+  height: 38px;
+  padding: 0 10px;
+  border-radius: 999px;
+  background: rgba(15, 108, 189, 0.14);
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
 .panel-subtitle {
   margin-top: 10px;
   color: var(--muted);
@@ -261,6 +282,13 @@ p {
   flex-direction: column;
 }
 
+.news-panel-heading {
+  padding: 14px 16px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(196, 215, 230, 0.6);
+}
+
 .widget-grid-news .news-list {
   flex: 1;
   min-height: 0;
@@ -286,6 +314,86 @@ p {
 
 .widget-grid-news .news-list::-webkit-scrollbar-thumb:hover {
   background: rgba(15, 108, 189, 0.5);
+}
+
+.scoreboard-panel {
+  margin-bottom: 14px;
+}
+
+.scoreboard-list {
+  display: grid;
+  gap: 10px;
+}
+
+.scoreboard-card {
+  display: grid;
+  gap: 10px;
+  padding: 14px;
+  border-radius: 18px;
+  border: 1px solid rgba(196, 215, 230, 0.6);
+  background: rgba(255, 255, 255, 0.78);
+}
+
+.scoreboard-card-top,
+.scoreboard-team-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.scoreboard-team {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  font-weight: 600;
+}
+
+.scoreboard-team img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  flex: 0 0 auto;
+}
+
+.scoreboard-status {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.scoreboard-status-pre {
+  background: rgba(15, 108, 189, 0.12);
+  color: var(--accent);
+}
+
+.scoreboard-status-in {
+  background: rgba(19, 124, 76, 0.12);
+  color: var(--success);
+}
+
+.scoreboard-status-post {
+  background: rgba(71, 85, 105, 0.12);
+  color: #334155;
+}
+
+.scoreboard-time,
+.scoreboard-note {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.scoreboard-note {
+  margin-top: 2px;
+}
+
+.widget-grid-news > .panel:last-child .news-list {
+  max-height: 250px;
 }
 
 .news-item,
