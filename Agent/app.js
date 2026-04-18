@@ -149,10 +149,19 @@ function formatScheduleTime(value) {
 function renderSchedule(schedule) {
   clearElement(dom.schedulePanel);
 
-  if (!schedule?.enabled || !schedule.items?.length) {
+  if (!schedule?.enabled) {
     dom.schedulePanel.innerHTML = `
       <div class="empty-state neutral-state">
-        <p>这里先给你留空。等你把 Google Calendar 的 ICS 链接或 Calendar ID 给我后，我就可以把日程接进来。</p>
+        <p>??????? Google Calendar ??????????</p>
+      </div>
+    `;
+    return;
+  }
+
+  if (!schedule.items?.length) {
+    dom.schedulePanel.innerHTML = `
+      <div class="empty-state neutral-state">
+        <p>Google Calendar ???????????????????????????????</p>
       </div>
     `;
     return;

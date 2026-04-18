@@ -1,10 +1,14 @@
+import { execFile } from "node:child_process";
 import { mkdir, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
+import { promisify } from "node:util";
 import { fileURLToPath } from "node:url";
 import { paperLibrary } from "./paper-library.mjs";
 
 const scriptDir = dirname(fileURLToPath(import.meta.url));
 const outputPath = resolve(scriptDir, "..", "data", "daily-brief.json");
+const execFileAsync = promisify(execFile);
+const userAgent = "AgentDailyBrief/1.0 (+https://zhoutianwen.com/Agent)";
 
 const defaults = {
   weather: {
@@ -15,10 +19,10 @@ const defaults = {
   newsFeeds: {
     domestic:
       process.env.DOMESTIC_NEWS_RSS_URL ??
-      "https://www.chinadaily.com.cn/rss/china_rss.xml",
+      "https://www.people.com.cn/rss/politics.xml",
     international:
       process.env.INTERNATIONAL_NEWS_RSS_URL ??
-      "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "https://www.people.com.cn/rss/world.xml",
     nba:
       process.env.NBA_RSS_URL ??
       "https://www.espn.com/espn/rss/nba/news",
@@ -109,17 +113,53 @@ function shortenSummary(text, maxLength = 140) {
 }
 
 async function fetchText(url) {
-  const response = await fetch(url, {
-    headers: {
-      "User-Agent": "AgentDailyBrief/1.0 (+https://zhoutianwen.com/Agent)",
-    },
-  });
+  try {
+    const response = await fetch(url, {
+      headers: {
+        "User-Agent": userAgent,
+      },
+    });
 
-  if (!response.ok) {
-    throw new Error(`Request failed for ${url}: ${response.status}`);
+    if (!response.ok) {
+      throw new Error(`Request failed for ${url}: ${response.status}`);
+    }
+
+    return response.text();
+  } catch (error) {
+    return fetchTextWithPowerShell(url, error);
   }
+}
 
-  return response.text();
+async function fetchTextWithPowerShell(url, originalError) {
+  const shell = process.platform === "win32" ? "powershell" : "pwsh";
+  const command =
+    "$ProgressPreference='SilentlyContinue';" +
+    "$headers=@{'User-Agent'='" +
+    userAgent.replace(/'/g, "''") +
+    "'};" +
+    `(Invoke-WebRequest -UseBasicParsing -Headers $headers -Uri '${url.replace(/'/g, "''")}').Content`;
+
+  try {
+    const { stdout } = await execFileAsync(shell, [
+      "-NoLogo",
+      "-NoProfile",
+      "-Command",
+      command,
+    ], {
+      encoding: "utf8",
+      maxBuffer: 10 * 1024 * 1024,
+    });
+
+    if (!stdout.trim()) {
+      throw new Error(`Empty response returned by ${shell} for ${url}`);
+    }
+
+    return stdout;
+  } catch (fallbackError) {
+    throw new Error(
+      `Request failed for ${url}: ${originalError instanceof Error ? originalError.message : String(originalError)}; ${shell} fallback failed: ${fallbackError instanceof Error ? fallbackError.message : String(fallbackError)}`,
+    );
+  }
 }
 
 async function fetchWeather() {
@@ -169,12 +209,17 @@ async function fetchRssFeed(url, limit, source) {
     .map((match) => {
       const block = match[1];
       const publishedRaw = pickTag(block, "pubDate");
+      const itemSource = pickTag(block, "source") || source;
+      const rawTitle = pickTag(block, "title");
+      const cleanTitle = itemSource && rawTitle.endsWith(` - ${itemSource}`)
+        ? rawTitle.slice(0, -(` - ${itemSource}`).length)
+        : rawTitle;
       return {
-        title: pickTag(block, "title"),
+        title: cleanTitle,
         link: pickTag(block, "link"),
         summary: shortenSummary(pickTag(block, "description")),
         publishedAt: publishedRaw ? new Date(publishedRaw).toISOString() : new Date().toISOString(),
-        source,
+        source: itemSource,
       };
     })
     .filter((item) => item.title && item.link);
@@ -293,8 +338,8 @@ async function main() {
     await Promise.allSettled([
       fetchWeather(),
       fetchSchedule(),
-      fetchRssFeed(defaults.newsFeeds.domestic, 5, "China Daily"),
-      fetchRssFeed(defaults.newsFeeds.international, 5, "BBC World"),
+      fetchRssFeed(defaults.newsFeeds.domestic, 5, "People.cn"),
+      fetchRssFeed(defaults.newsFeeds.international, 5, "People.cn"),
       fetchRssFeed(defaults.newsFeeds.nba, 6, "ESPN"),
     ]);
 

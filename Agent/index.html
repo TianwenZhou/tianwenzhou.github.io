@@ -14,31 +14,36 @@
     <div class="page-shell">
       <main class="dashboard">
         <section class="widget-grid widget-grid-top">
-          <section class="panel compact-panel" aria-labelledby="weatherTitle">
+          <section class="panel compact-panel panel-span-2" aria-labelledby="weatherTitle">
             <div class="panel-heading">
               <div>
-                <p class="panel-kicker">Weather</p>
-                <h2 id="weatherTitle">当前天气</h2>
+                <p class="panel-kicker">Weather & Clock</p>
+                <h2 id="weatherTitle">天气与时间</h2>
               </div>
-              <span id="weatherLocation" class="panel-tag">--</span>
+              <span class="panel-tag">Haidian · Asia/Shanghai</span>
             </div>
-            <div id="weatherCurrent" class="weather-current skeleton"></div>
-            <div id="weatherDaily" class="weather-daily"></div>
-          </section>
+            <div class="weather-time-grid">
+              <div class="weather-block">
+                <div class="weather-block-head">
+                  <h3>当前天气</h3>
+                  <span id="weatherLocation" class="panel-tag">--</span>
+                </div>
+                <div id="weatherCurrent" class="weather-current skeleton"></div>
+              </div>
 
-          <section class="panel compact-panel" aria-labelledby="clockTitle">
-            <div class="panel-heading">
-              <div>
-                <p class="panel-kicker">Clock</p>
-                <h2 id="clockTitle">当前时间</h2>
+              <div class="time-block">
+                <div class="time-block-head">
+                  <h3>当前时间</h3>
+                  <span class="panel-tag">北京时间</span>
+                </div>
+                <div class="time-panel">
+                  <p id="currentDate" class="time-date">--</p>
+                  <p id="currentTime" class="time-value">--:--:--</p>
+                  <p id="generatedAt" class="time-meta">数据更新时间：--</p>
+                </div>
               </div>
-              <span class="panel-tag">Asia/Shanghai</span>
             </div>
-            <div class="time-panel">
-              <p id="currentDate" class="time-date">--</p>
-              <p id="currentTime" class="time-value">--:--:--</p>
-              <p id="generatedAt" class="time-meta">数据更新时间：--</p>
-            </div>
+            <div id="weatherDaily" class="weather-daily"></div>
           </section>
 
           <section class="panel compact-panel" aria-labelledby="scheduleTitle">
