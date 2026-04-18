@@ -1,7 +1,10 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
+import { paperLibrary } from "./paper-library.mjs";
 
-const outputPath = resolve("Agent", "data", "daily-brief.json");
+const scriptDir = dirname(fileURLToPath(import.meta.url));
+const outputPath = resolve(scriptDir, "..", "data", "daily-brief.json");
 
 const defaults = {
   weather: {
@@ -9,40 +12,41 @@ const defaults = {
     longitude: Number.parseFloat(process.env.WEATHER_LONGITUDE ?? "116.2981"),
     label: process.env.WEATHER_LABEL ?? "北京市海淀区",
   },
-  nbaFeedUrl:
-    process.env.NBA_RSS_URL ?? "https://www.espn.com/espn/rss/nba/news",
+  newsFeeds: {
+    domestic:
+      process.env.DOMESTIC_NEWS_RSS_URL ??
+      "https://www.chinadaily.com.cn/rss/china_rss.xml",
+    international:
+      process.env.INTERNATIONAL_NEWS_RSS_URL ??
+      "http://feeds.bbci.co.uk/news/world/rss.xml",
+    nba:
+      process.env.NBA_RSS_URL ??
+      "https://www.espn.com/espn/rss/nba/news",
+  },
+  calendar: {
+    icsUrl: process.env.GOOGLE_CALENDAR_ICS_URL ?? "",
+    label: process.env.GOOGLE_CALENDAR_LABEL ?? "Google Calendar",
+  },
   paperSections: [
     {
       id: "data-storage",
       title: "数据存储相关",
-      description: "关注数据库、数据管理、向量检索与存储系统。",
-      query:
-        process.env.ARXIV_QUERY_DATA_STORAGE ??
-        'cat:cs.DB+OR+cat:cs.DC+OR+all:"vector database"+OR+all:"data management"',
+      description: "数据库、分布式存储、向量检索与存储系统方向的经典与高影响力论文。",
     },
     {
       id: "computer-vision",
       title: "计算机视觉相关",
-      description: "关注视觉理解、生成、检测和多模态视觉方向。",
-      query:
-        process.env.ARXIV_QUERY_CV ??
-        'cat:cs.CV+OR+all:"computer vision"+OR+all:"multimodal vision"',
+      description: "视觉基础模型、识别、检测、分割和多模态视觉方向的代表性论文。",
     },
     {
       id: "llm-memory",
       title: "大模型记忆库相关",
-      description: "关注长短期记忆、RAG、memory bank 与知识增强。",
-      query:
-        process.env.ARXIV_QUERY_LLM_MEMORY ??
-        'all:"large language model"+AND+(all:memory+OR+all:"memory bank"+OR+all:retrieval+OR+all:RAG)',
+      description: "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
     },
     {
       id: "agents",
       title: "Agent 相关",
-      description: "关注自主智能体、工具调用、多 Agent 协同。",
-      query:
-        process.env.ARXIV_QUERY_AGENT ??
-        '(all:agent+OR+all:"ai agent"+OR+all:"llm agent")+AND+(all:"large language model"+OR+all:tool+OR+all:planning)',
+      description: "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表性论文。",
     },
   ],
 };
@@ -91,21 +95,11 @@ function pickTag(block, tagName) {
   return match ? cleanHtml(match[1]) : "";
 }
 
-function pickAllTags(block, tagName) {
-  return [
-    ...block.matchAll(
-      new RegExp(`<${tagName}[^>]*>([\\s\\S]*?)<\\/${tagName}>`, "gi"),
-    ),
-  ].map((match) => cleanHtml(match[1]));
-}
+function shortenSummary(text, maxLength = 140) {
+  if (!text) {
+    return "";
+  }
 
-function pickCategoriesFromTerm(block) {
-  return [...block.matchAll(/<category[^>]*term="([^"]+)"/gi)].map((match) =>
-    cleanHtml(match[1]),
-  );
-}
-
-function shortenSummary(text, maxLength = 180) {
   if (text.length <= maxLength) {
     return text;
   }
@@ -167,73 +161,165 @@ async function fetchWeather() {
   };
 }
 
-async function fetchNbaNews() {
-  const xml = await fetchText(defaults.nbaFeedUrl);
+async function fetchRssFeed(url, limit, source) {
+  const xml = await fetchText(url);
   return [...xml.matchAll(/<item>([\s\S]*?)<\/item>/gi)]
-    .slice(0, 6)
+    .slice(0, limit)
     .map((match) => {
       const block = match[1];
+      const publishedRaw = pickTag(block, "pubDate");
       return {
         title: pickTag(block, "title"),
         link: pickTag(block, "link"),
-        summary: shortenSummary(pickTag(block, "description"), 160),
-        publishedAt: new Date(pickTag(block, "pubDate")).toISOString(),
+        summary: shortenSummary(pickTag(block, "description")),
+        publishedAt: publishedRaw ? new Date(publishedRaw).toISOString() : new Date().toISOString(),
+        source,
       };
     })
     .filter((item) => item.title && item.link);
 }
 
-async function fetchArxivSection(section) {
-  const url = new URL("https://export.arxiv.org/api/query");
-  url.searchParams.set("search_query", section.query);
-  url.searchParams.set("sortBy", "submittedDate");
-  url.searchParams.set("sortOrder", "descending");
-  url.searchParams.set("start", "0");
-  url.searchParams.set("max_results", "3");
+function getDaySeed(date) {
+  const dateKey = date.toISOString().slice(0, 10);
+  return Number.parseInt(dateKey.replaceAll("-", ""), 10);
+}
 
-  const xml = await fetchText(url);
-  const entries = [...xml.matchAll(/<entry>([\s\S]*?)<\/entry>/gi)].map(
-    (match) => match[1],
-  );
+function rotateItems(items, count, seed) {
+  if (!items.length) {
+    return [];
+  }
 
-  const items = entries.map((entry) => ({
-    title: pickTag(entry, "title"),
-    summary: shortenSummary(pickTag(entry, "summary"), 220),
-    link: pickTag(entry, "id"),
-    publishedAt: new Date(pickTag(entry, "published")).toISOString(),
-    updatedAt: new Date(pickTag(entry, "updated")).toISOString(),
-    authors: pickAllTags(entry, "name").slice(0, 4),
-    categories: pickCategoriesFromTerm(entry).slice(0, 3),
-  }));
+  const start = seed % items.length;
+  const rotated = items.slice(start).concat(items.slice(0, start));
+  return rotated.slice(0, Math.min(count, items.length));
+}
+
+function unfoldIcsLines(icsText) {
+  return icsText.replace(/\r?\n[ \t]/g, "");
+}
+
+function parseIcsDate(value) {
+  if (!value) {
+    return null;
+  }
+
+  if (/^\d{8}T\d{6}Z$/.test(value)) {
+    const normalized = `${value.slice(0, 4)}-${value.slice(4, 6)}-${value.slice(6, 8)}T${value.slice(9, 11)}:${value.slice(11, 13)}:${value.slice(13, 15)}Z`;
+    return new Date(normalized);
+  }
+
+  if (/^\d{8}T\d{6}$/.test(value)) {
+    const normalized = `${value.slice(0, 4)}-${value.slice(4, 6)}-${value.slice(6, 8)}T${value.slice(9, 11)}:${value.slice(11, 13)}:${value.slice(13, 15)}+08:00`;
+    return new Date(normalized);
+  }
+
+  if (/^\d{8}$/.test(value)) {
+    const normalized = `${value.slice(0, 4)}-${value.slice(4, 6)}-${value.slice(6, 8)}T00:00:00+08:00`;
+    return new Date(normalized);
+  }
+
+  return null;
+}
+
+function pickIcsValue(block, fieldName) {
+  const match = block.match(new RegExp(`^${fieldName}(?:;[^:\\n]*)?:(.+)$`, "m"));
+  return match ? cleanHtml(match[1]) : "";
+}
+
+async function fetchSchedule() {
+  const { icsUrl, label } = defaults.calendar;
+  if (!icsUrl) {
+    return {
+      enabled: false,
+      source: label,
+      items: [],
+    };
+  }
+
+  const icsText = unfoldIcsLines(await fetchText(icsUrl));
+  const now = new Date();
+
+  const items = [...icsText.matchAll(/BEGIN:VEVENT([\s\S]*?)END:VEVENT/g)]
+    .map((match) => {
+      const block = match[1];
+      const start = parseIcsDate(pickIcsValue(block, "DTSTART"));
+      const end = parseIcsDate(pickIcsValue(block, "DTEND"));
+      return {
+        title: pickIcsValue(block, "SUMMARY") || "未命名日程",
+        location: pickIcsValue(block, "LOCATION") || label,
+        start: start?.toISOString(),
+        end: end?.toISOString(),
+      };
+    })
+    .filter((item) => item.start && new Date(item.start) >= now)
+    .sort((a, b) => new Date(a.start) - new Date(b.start))
+    .slice(0, 5);
 
   return {
-    id: section.id,
-    title: section.title,
-    description: section.description,
-    items: items.filter((item) => item.title && item.link),
+    enabled: true,
+    source: label,
+    items,
   };
 }
 
-async function fetchAiPapers() {
-  const sections = await Promise.all(
-    defaults.paperSections.map((section) => fetchArxivSection(section)),
-  );
+function buildPaperSections(date) {
+  const seed = getDaySeed(date);
 
-  return { sections };
+  return defaults.paperSections.map((section, index) => {
+    const candidates = paperLibrary.filter((paper) => paper.sectionId === section.id);
+    const selected = rotateItems(candidates, 3, seed + index).map((paper, itemIndex) => ({
+      ...paper,
+      trackLabel: itemIndex === 0 ? "今日主推" : "轮换精选",
+    }));
+
+    return {
+      ...section,
+      rotationHint: `每日轮换 ${selected.length} 篇`,
+      items: selected,
+    };
+  });
 }
 
 async function main() {
-  const [weather, nbaNews, aiPapers] = await Promise.all([
-    fetchWeather(),
-    fetchNbaNews(),
-    fetchAiPapers(),
-  ]);
+  const now = new Date();
+
+  const [weatherResult, scheduleResult, domesticResult, internationalResult, nbaResult] =
+    await Promise.allSettled([
+      fetchWeather(),
+      fetchSchedule(),
+      fetchRssFeed(defaults.newsFeeds.domestic, 5, "China Daily"),
+      fetchRssFeed(defaults.newsFeeds.international, 5, "BBC World"),
+      fetchRssFeed(defaults.newsFeeds.nba, 6, "ESPN"),
+    ]);
 
   const payload = {
-    generatedAt: new Date().toISOString(),
-    weather,
-    nbaNews,
-    aiPapers,
+    generatedAt: now.toISOString(),
+    weather:
+      weatherResult.status === "fulfilled"
+        ? weatherResult.value
+        : {
+            location: defaults.weather.label,
+            current: { temperature: "--", weatherCode: 0, windSpeed: "--" },
+            today: { max: "--", min: "--", precipitationProbability: "--" },
+            forecast: [],
+          },
+    schedule:
+      scheduleResult.status === "fulfilled"
+        ? scheduleResult.value
+        : {
+            enabled: false,
+            source: defaults.calendar.label,
+            items: [],
+          },
+    news: {
+      domestic: domesticResult.status === "fulfilled" ? domesticResult.value : [],
+      international: internationalResult.status === "fulfilled" ? internationalResult.value : [],
+      nba: nbaResult.status === "fulfilled" ? nbaResult.value : [],
+    },
+    aiPapers: {
+      rotationLabel: `Curated Rotation · ${now.toISOString().slice(0, 10)}`,
+      sections: buildPaperSections(now),
+    },
   };
 
   await mkdir(dirname(outputPath), { recursive: true });

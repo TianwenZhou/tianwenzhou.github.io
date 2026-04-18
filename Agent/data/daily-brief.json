@@ -1,312 +1,436 @@
 {
-  "generatedAt": "2026-04-18T13:23:40.129Z",
+  "generatedAt": "2026-04-18T16:36:32.280Z",
   "weather": {
-    "location": "Beijing Haidian",
+    "location": "北京市海淀区",
     "current": {
-      "temperature": 22,
+      "temperature": 20,
       "weatherCode": 1,
-      "windSpeed": 11
+      "windSpeed": 6
     },
     "today": {
-      "date": "2026-04-18",
-      "weatherCode": 3,
-      "description": "阴天",
-      "max": 25,
-      "min": 14,
-      "precipitationProbability": 0
+      "date": "2026-04-19",
+      "weatherCode": 61,
+      "description": "小雨",
+      "max": 22,
+      "min": 11,
+      "precipitationProbability": 60
     },
     "forecast": [
-      {
-        "date": "2026-04-18",
-        "weatherCode": 3,
-        "description": "阴天",
-        "max": 25,
-        "min": 14,
-        "precipitationProbability": 0
-      },
       {
         "date": "2026-04-19",
         "weatherCode": 61,
         "description": "小雨",
         "max": 22,
         "min": 11,
-        "precipitationProbability": 58
+        "precipitationProbability": 60
       },
       {
         "date": "2026-04-20",
-        "weatherCode": 1,
-        "description": "基本晴",
+        "weatherCode": 0,
+        "description": "晴朗",
         "max": 23,
-        "min": 9,
+        "min": 8,
         "precipitationProbability": 0
       },
       {
         "date": "2026-04-21",
         "weatherCode": 3,
         "description": "阴天",
-        "max": 23,
-        "min": 10,
-        "precipitationProbability": 0
+        "max": 24,
+        "min": 11,
+        "precipitationProbability": 3
       },
       {
         "date": "2026-04-22",
         "weatherCode": 3,
         "description": "阴天",
         "max": 23,
-        "min": 11,
+        "min": 12,
+        "precipitationProbability": 5
+      },
+      {
+        "date": "2026-04-23",
+        "weatherCode": 1,
+        "description": "基本晴",
+        "max": 24,
+        "min": 10,
         "precipitationProbability": 3
       }
     ]
   },
-  "nbaNews": [
-    {
-      "title": "Suns end Warriors' season, await No. 1 Thunder",
-      "link": "https://www.espn.com/nba/story/_/id/48519075/suns-end-warriors-season-set-first-round-date-thunder",
-      "summary": "The Suns knocked out the Warriors 111-96 to secure the No. 8 seed and will face the top-seeded Thunder in the first round of the playoffs.",
-      "publishedAt": "2026-04-18T07:51:49.000Z"
-    },
-    {
-      "title": "Kerr on future: These jobs have 'expiration date'",
-      "link": "https://www.espn.com/nba/story/_/id/48519533/warriors-kerr-mull-future-knows-jobs-expiration-dates",
-      "summary": "Steve Kerr acknowledged his future with the Warriors was uncertain following a season-ending loss to the Suns, saying, \"When the run ends, sometimes it's time f...",
-      "publishedAt": "2026-04-18T07:51:49.000Z"
-    },
-    {
-      "title": "Magic, driven by 'urgency,' rip Hornets to advance",
-      "link": "https://www.espn.com/nba/story/_/id/48518420/magic-post-record-play-game-rout-hornets-get-east-8-seed",
-      "summary": "The Magic built a 35-point lead in the first half of their 121-90 rout of the Hornets and advanced to a first-round playoff matchup against the Pistons.",
-      "publishedAt": "2026-04-18T07:51:49.000Z"
-    },
-    {
-      "title": "Rockets list KD (knee) as questionable for Game 1",
-      "link": "https://www.espn.com/nba/story/_/id/48517626/rockets-list-kevin-durant-questionable-game-1-vs-lakers-right-knee-contusion",
-      "summary": "Kevin Durant sustained a right knee contusion during practice this week, but the Rockets are optimistic it will not be a significant issue during their first-ro...",
-      "publishedAt": "2026-04-18T07:51:49.000Z"
-    },
-    {
-      "title": "Frank: Clippers' goal remains to 'win with Kawhi'",
-      "link": "https://www.espn.com/nba/story/_/id/48515359/lawrence-frank-says-clippers-long-term-aim-remains-win-kawhi",
-      "summary": "LA Clippers president of basketball operations Lawrence Frank reaffirmed the team's commitment to Kawhi Leonard long-term at his end-of-season news conference F...",
-      "publishedAt": "2026-04-18T07:51:49.000Z"
-    },
-    {
-      "title": "'It's all basketball': LaMelo says no rift with Bam",
-      "link": "https://www.espn.com/nba/story/_/id/48514154/lamelo-says-no-rift-bam-glad-ok",
-      "summary": "LaMelo Ball of the Charlotte Hornets says he's relieved that Miami Heat star Bam Adebayo wasn't more hurt after the run-in with Ball in the second quarter.",
-      "publishedAt": "2026-04-18T07:51:49.000Z"
-    }
-  ],
+  "schedule": {
+    "enabled": false,
+    "source": "Google Calendar",
+    "items": []
+  },
+  "news": {
+    "domestic": [
+      {
+        "title": "Education, health fees among key concerns",
+        "link": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f29d4a3108bc8c6721a30.html",
+        "summary": "China to legislate on preschool education",
+        "publishedAt": "2017-12-12T00:59:00.000Z",
+        "source": "China Daily"
+      },
+      {
+        "title": "Education, health fees among key concerns",
+        "link": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f29d4a3108bc8c6721a30.html",
+        "summary": "China to legislate on preschool education",
+        "publishedAt": "2017-12-12T00:59:00.000Z",
+        "source": "China Daily"
+      },
+      {
+        "title": "International group praises green revival",
+        "link": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f2701a3108bc8c6721a16.html",
+        "summary": "A high-level international advisory body applauded China's efforts to improve the environment and suggested a 15-year strategy against pollu...",
+        "publishedAt": "2017-12-12T00:46:57.000Z",
+        "source": "China Daily"
+      },
+      {
+        "title": "International group praises green revival",
+        "link": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f2701a3108bc8c6721a16.html",
+        "summary": "A high-level international advisory body applauded China's efforts to improve the environment and suggested a 15-year strategy against pollu...",
+        "publishedAt": "2017-12-12T00:46:57.000Z",
+        "source": "China Daily"
+      },
+      {
+        "title": "Beijing, Moscow drill for potential missile warfare",
+        "link": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f25bda3108bc8c6721a0b.html",
+        "summary": "China and Russia kicked off their second joint computer-assisted anti-missile drill on Monday, a move experts said could deter potential mis...",
+        "publishedAt": "2017-12-12T00:41:33.000Z",
+        "source": "China Daily"
+      }
+    ],
+    "international": [],
+    "nba": [
+      {
+        "title": "NBA 2026 postseason preview: Matchups, biggest questions and what to know",
+        "link": "https://www.espn.com/nba/story/_/id/48447222/nba-playoffs-2026-preview-teams-postseason",
+        "summary": "Everything you need to know for the Thunder, Pistons, Spurs, Celtics and 16 other teams chasing the 2026 NBA title.",
+        "publishedAt": "2026-04-18T06:06:16.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "Raptors' Quickley (hamstring) out G1 vs. Cavs",
+        "link": "https://www.espn.com/nba/story/_/id/48522217/raptors-quickley-hamstring-miss-game-1-vs-cavaliers",
+        "summary": "Raptors guard Immanuel Quickley will miss Game 1 against the Cavaliers as he continues to recover from a hamstring injury, according to coac...",
+        "publishedAt": "2026-04-18T16:59:08.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "Suns end Warriors' season, await No. 1 Thunder",
+        "link": "https://www.espn.com/nba/story/_/id/48519075/suns-end-warriors-season-set-first-round-date-thunder",
+        "summary": "The Suns knocked out the Warriors 111-96 to secure the No. 8 seed and will face the top-seeded Thunder in the first round of the playoffs.",
+        "publishedAt": "2026-04-18T16:59:08.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "Kerr on future: These jobs have 'expiration date'",
+        "link": "https://www.espn.com/nba/story/_/id/48519533/warriors-kerr-mull-future-knows-jobs-expiration-dates",
+        "summary": "Steve Kerr acknowledged his future with the Warriors was uncertain following a season-ending loss to the Suns, saying, \"When the run ends, s...",
+        "publishedAt": "2026-04-18T16:59:08.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "Magic, driven by 'urgency,' rip Hornets to advance",
+        "link": "https://www.espn.com/nba/story/_/id/48518420/magic-post-record-play-game-rout-hornets-get-east-8-seed",
+        "summary": "The Magic built a 35-point lead in the first half of their 121-90 rout of the Hornets and advanced to a first-round playoff matchup against...",
+        "publishedAt": "2026-04-18T16:59:08.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "OKC remains title betting fave; Spurs, C's follow",
+        "link": "https://www.espn.com/espn/betting/story/_/id/48521772/thunder-remain-nba-title-betting-favorites-spurs-celtics-follow",
+        "summary": "The Thunder (+110) remain large betting favorites to repeat as NBA champions, but the betting public also likes the Spurs (+500) and Celtics...",
+        "publishedAt": "2026-04-18T16:59:08.000Z",
+        "source": "ESPN"
+      }
+    ]
+  },
   "aiPapers": {
+    "rotationLabel": "Curated Rotation · 2026-04-18",
     "sections": [
       {
         "id": "data-storage",
         "title": "数据存储相关",
-        "description": "关注数据库、数据管理、向量检索与存储系统。",
+        "description": "数据库、分布式存储、向量检索与存储系统方向的经典与高影响力论文。",
+        "rotationHint": "每日轮换 3 篇",
         "items": [
           {
-            "title": "Heuristic Search for Minimum-Distance Upper-Bound Witnesses in Quantum APM-LDPC Codes",
-            "summary": "This paper investigates certified upper bounds on the minimum distance of an explicit family of Calderbank-Shor-Steane quantum LDPC codes constructed from affine permutation matrices. All codes considered here have activ...",
-            "link": "http://arxiv.org/abs/2604.15307v1",
-            "publishedAt": "2026-04-16T17:59:44.000Z",
-            "updatedAt": "2026-04-16T17:59:44.000Z",
+            "id": "data-storage-3",
+            "sectionId": "data-storage",
+            "title": "Dynamo: Amazon's Highly Available Key-value Store",
             "authors": [
-              "Kenta Kasai"
+              "Giuseppe DeCandia",
+              "Deniz Hastorun",
+              "Madan Jampani",
+              "Gunavardhan Kakulapati"
             ],
+            "venue": "SOSP",
+            "year": 2007,
+            "quality": "顶会",
             "categories": [
-              "quant-ph",
-              "cs.IT"
-            ]
+              "key-value",
+              "distributed systems"
+            ],
+            "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
+            "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
+            "trackLabel": "今日主推"
           },
           {
-            "title": "Erdős's diameter conjecture for separated distances fails in high dimensions",
-            "summary": "Erdős asked whether every $n$-point set in Euclidean space whose $\\binom{n}{2}$ pairwise distances are mutually at least $1$ apart must have diameter at least $(1+o(1))n^2$. We disprove this statement by constructing for...",
-            "link": "http://arxiv.org/abs/2604.15305v1",
-            "publishedAt": "2026-04-16T17:59:17.000Z",
-            "updatedAt": "2026-04-16T17:59:17.000Z",
+            "id": "data-storage-4",
+            "sectionId": "data-storage",
+            "title": "Dremel: Interactive Analysis of Web-Scale Datasets",
             "authors": [
-              "Boon Suan Ho"
+              "Sergey Melnik",
+              "Andrey Gubarev",
+              "Jing Jing Long",
+              "Geoffrey Romer"
             ],
+            "venue": "VLDB",
+            "year": 2010,
+            "quality": "顶会",
             "categories": [
-              "math.CO",
-              "math.MG"
-            ]
+              "analytics",
+              "columnar"
+            ],
+            "link": "https://research.google/pubs/pub36632/",
+            "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
+            "trackLabel": "轮换精选"
           },
           {
-            "title": "Diagnosing LLM Judge Reliability: Conformal Prediction Sets and Transitivity Violations",
-            "summary": "LLM-as-judge frameworks are increasingly used for automatic NLG evaluation, yet their per-instance reliability remains poorly understood. We present a two-pronged diagnostic toolkit applied to SummEval: $\\textbf{(1)}$ a...",
-            "link": "http://arxiv.org/abs/2604.15302v1",
-            "publishedAt": "2026-04-16T17:58:21.000Z",
-            "updatedAt": "2026-04-16T17:58:21.000Z",
+            "id": "data-storage-5",
+            "sectionId": "data-storage",
+            "title": "The FAISS Library",
             "authors": [
-              "Manan Gupta",
-              "Dhruv Kumar"
+              "Jeff Johnson",
+              "Matthijs Douze",
+              "Herve Jegou"
             ],
+            "venue": "IEEE T-BD",
+            "year": 2021,
+            "quality": "高影响力",
             "categories": [
-              "cs.AI",
-              "cs.CL",
-              "cs.LG"
-            ]
+              "vector search",
+              "ANN"
+            ],
+            "link": "https://arxiv.org/abs/2401.08281",
+            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
       {
         "id": "computer-vision",
         "title": "计算机视觉相关",
-        "description": "关注视觉理解、生成、检测和多模态视觉方向。",
+        "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表性论文。",
+        "rotationHint": "每日轮换 3 篇",
         "items": [
           {
-            "title": "Bidirectional Cross-Modal Prompting for Event-Frame Asymmetric Stereo",
-            "summary": "Conventional frame-based cameras capture rich contextual information but suffer from limited temporal resolution and motion blur in dynamic scenes. Event cameras offer an alternative visual representation with higher dyn...",
-            "link": "http://arxiv.org/abs/2604.15312v1",
-            "publishedAt": "2026-04-16T17:59:58.000Z",
-            "updatedAt": "2026-04-16T17:59:58.000Z",
+            "id": "computer-vision-4",
+            "sectionId": "computer-vision",
+            "title": "Learning Transferable Visual Models From Natural Language Supervision",
             "authors": [
-              "Ninghui Xu",
-              "Fabio Tosi",
-              "Lihui Wang",
-              "Jiawei Han"
+              "Alec Radford",
+              "Jong Wook Kim",
+              "Chris Hallacy",
+              "Aditya Ramesh"
             ],
+            "venue": "ICML",
+            "year": 2021,
+            "quality": "顶会",
             "categories": [
-              "cs.CV"
-            ]
+              "vision-language",
+              "foundation model"
+            ],
+            "link": "https://arxiv.org/abs/2103.00020",
+            "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
+            "trackLabel": "今日主推"
           },
           {
-            "title": "LeapAlign: Post-Training Flow Matching Models at Any Generation Step by Building Two-Step Trajectories",
-            "summary": "This paper focuses on the alignment of flow matching models with human preferences. A promising way is fine-tuning by directly backpropagating reward gradients through the differentiable generation process of flow matchi...",
-            "link": "http://arxiv.org/abs/2604.15311v1",
-            "publishedAt": "2026-04-16T17:59:56.000Z",
-            "updatedAt": "2026-04-16T17:59:56.000Z",
+            "id": "computer-vision-5",
+            "sectionId": "computer-vision",
+            "title": "Segment Anything",
             "authors": [
-              "Zhanhao Liang",
-              "Tao Yang",
-              "Jie Wu",
-              "Chengjian Feng"
+              "Alexander Kirillov",
+              "Eric Mintun",
+              "Nikhila Ravi",
+              "Hanzi Mao"
             ],
+            "venue": "ICCV",
+            "year": 2023,
+            "quality": "顶会",
             "categories": [
-              "cs.CV"
-            ]
+              "segmentation",
+              "foundation model"
+            ],
+            "link": "https://arxiv.org/abs/2304.02643",
+            "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
+            "trackLabel": "轮换精选"
           },
           {
-            "title": "TokenLight: Precise Lighting Control in Images using Attribute Tokens",
-            "summary": "This paper presents a method for image relighting that enables precise and continuous control over multiple illumination attributes in a photograph. We formulate relighting as a conditional image generation task and intr...",
-            "link": "http://arxiv.org/abs/2604.15310v1",
-            "publishedAt": "2026-04-16T17:59:50.000Z",
-            "updatedAt": "2026-04-16T17:59:50.000Z",
+            "id": "computer-vision-6",
+            "sectionId": "computer-vision",
+            "title": "DINOv2: Learning Robust Visual Features without Supervision",
             "authors": [
-              "Sumit Chaturvedi",
-              "Yannick Hold-Geoffroy",
-              "Mengwei Ren",
-              "Jingyuan Liu"
+              "Maxime Oquab",
+              "Timothée Darcet",
+              "Théo Moutakanni",
+              "Huy V. Vo"
             ],
+            "venue": "arXiv / Meta",
+            "year": 2023,
+            "quality": "高影响力",
             "categories": [
-              "cs.CV",
-              "cs.GR"
-            ]
+              "self-supervised",
+              "representation"
+            ],
+            "link": "https://arxiv.org/abs/2304.07193",
+            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
       {
         "id": "llm-memory",
         "title": "大模型记忆库相关",
-        "description": "关注长短期记忆、RAG、memory bank 与知识增强。",
+        "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
+        "rotationHint": "每日轮换 3 篇",
         "items": [
           {
-            "title": "AD4AD: Benchmarking Visual Anomaly Detection Models for Safer Autonomous Driving",
-            "summary": "The reliability of a machine vision system for autonomous driving depends heavily on its training data distribution. When a vehicle encounters significantly different conditions, such as atypical obstacles, its perceptua...",
-            "link": "http://arxiv.org/abs/2604.15291v1",
-            "publishedAt": "2026-04-16T17:54:53.000Z",
-            "updatedAt": "2026-04-16T17:54:53.000Z",
+            "id": "llm-memory-5",
+            "sectionId": "llm-memory",
+            "title": "LongMem: Scaling Language Model Context with Memory-Augmented Retrieval",
             "authors": [
-              "Fabrizio Genilotti",
-              "Arianna Stropeni",
-              "Gionata Grotto",
-              "Francesco Borsatti"
+              "Zeqiu Wu",
+              "Yizhong Wang",
+              "Jiacheng Liu",
+              "Yelong Shen"
             ],
+            "venue": "ACL Findings",
+            "year": 2024,
+            "quality": "新近代表作",
             "categories": [
-              "cs.CV",
-              "cs.AI"
-            ]
+              "memory",
+              "long context"
+            ],
+            "link": "https://arxiv.org/abs/2306.07174",
+            "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
+            "trackLabel": "今日主推"
           },
           {
-            "title": "Enhancing Large Language Models with Retrieval Augmented Generation for Software Testing and Inspection Automation",
-            "summary": "In this paper, we focus on automating two of the widely used Verification and Validation (V&V) activities in the Software Development Lifecycle (SDLC): Software testing and software inspection (also known as review). Con...",
-            "link": "http://arxiv.org/abs/2604.15270v1",
-            "publishedAt": "2026-04-16T17:41:49.000Z",
-            "updatedAt": "2026-04-16T17:41:49.000Z",
+            "id": "llm-memory-6",
+            "sectionId": "llm-memory",
+            "title": "MemoRAG: Moving towards Next-Gen RAG Via Memory-Inspired Knowledge Discovery",
             "authors": [
-              "Zoe Fingleton",
-              "Nazanin Siavash",
-              "Armin Moin"
+              "Rulin Shao",
+              "Yue Liu",
+              "Shuo Wang",
+              "Yichi Zhang"
             ],
+            "venue": "arXiv",
+            "year": 2024,
+            "quality": "新近代表作",
             "categories": [
-              "cs.SE"
-            ]
+              "RAG",
+              "memory bank"
+            ],
+            "link": "https://arxiv.org/abs/2409.05591",
+            "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
+            "trackLabel": "轮换精选"
           },
           {
-            "title": "From Tokens to Steps: Verification-Aware Speculative Decoding for Efficient Multi-Step Reasoning",
-            "summary": "Speculative decoding (SD) accelerates large language model inference by allowing a lightweight draft model to propose outputs that a stronger target model verifies. However, its token-centric nature allows erroneous step...",
-            "link": "http://arxiv.org/abs/2604.15244v1",
-            "publishedAt": "2026-04-16T17:20:13.000Z",
-            "updatedAt": "2026-04-16T17:20:13.000Z",
+            "id": "llm-memory-1",
+            "sectionId": "llm-memory",
+            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
             "authors": [
-              "Kiran Purohit",
-              "Ramasuri Narayanam",
-              "Soumyabrata Pal"
+              "Patrick Lewis",
+              "Ethan Perez",
+              "Aleksandra Piktus",
+              "Fabio Petroni"
             ],
+            "venue": "NeurIPS",
+            "year": 2020,
+            "quality": "顶会",
             "categories": [
-              "cs.CL"
-            ]
+              "RAG",
+              "retrieval"
+            ],
+            "link": "https://arxiv.org/abs/2005.11401",
+            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
       {
         "id": "agents",
         "title": "Agent 相关",
-        "description": "关注自主智能体、工具调用、多 Agent 协同。",
+        "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表性论文。",
+        "rotationHint": "每日轮换 3 篇",
         "items": [
           {
-            "title": "Heuristic Search for Minimum-Distance Upper-Bound Witnesses in Quantum APM-LDPC Codes",
-            "summary": "This paper investigates certified upper bounds on the minimum distance of an explicit family of Calderbank-Shor-Steane quantum LDPC codes constructed from affine permutation matrices. All codes considered here have activ...",
-            "link": "http://arxiv.org/abs/2604.15307v1",
-            "publishedAt": "2026-04-16T17:59:44.000Z",
-            "updatedAt": "2026-04-16T17:59:44.000Z",
+            "id": "agents-6",
+            "sectionId": "agents",
+            "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
             "authors": [
-              "Kenta Kasai"
+              "John Yang",
+              "Carlos E. Jimenez",
+              "Alexander Wettig",
+              "Karthik Narasimhan"
             ],
+            "venue": "ICLR",
+            "year": 2025,
+            "quality": "新近代表作",
             "categories": [
-              "quant-ph",
-              "cs.IT"
-            ]
+              "software agent",
+              "benchmark"
+            ],
+            "link": "https://arxiv.org/abs/2405.15793",
+            "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
+            "trackLabel": "今日主推"
           },
           {
-            "title": "Erdős's diameter conjecture for separated distances fails in high dimensions",
-            "summary": "Erdős asked whether every $n$-point set in Euclidean space whose $\\binom{n}{2}$ pairwise distances are mutually at least $1$ apart must have diameter at least $(1+o(1))n^2$. We disprove this statement by constructing for...",
-            "link": "http://arxiv.org/abs/2604.15305v1",
-            "publishedAt": "2026-04-16T17:59:17.000Z",
-            "updatedAt": "2026-04-16T17:59:17.000Z",
+            "id": "agents-1",
+            "sectionId": "agents",
+            "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
             "authors": [
-              "Boon Suan Ho"
+              "Shunyu Yao",
+              "Jeffrey Zhao",
+              "Dian Yu",
+              "Nan Du"
             ],
+            "venue": "ICLR",
+            "year": 2023,
+            "quality": "顶会",
             "categories": [
-              "math.CO",
-              "math.MG"
-            ]
+              "agent",
+              "reasoning",
+              "tool use"
+            ],
+            "link": "https://arxiv.org/abs/2210.03629",
+            "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
+            "trackLabel": "轮换精选"
           },
           {
-            "title": "Diagnosing LLM Judge Reliability: Conformal Prediction Sets and Transitivity Violations",
-            "summary": "LLM-as-judge frameworks are increasingly used for automatic NLG evaluation, yet their per-instance reliability remains poorly understood. We present a two-pronged diagnostic toolkit applied to SummEval: $\\textbf{(1)}$ a...",
-            "link": "http://arxiv.org/abs/2604.15302v1",
-            "publishedAt": "2026-04-16T17:58:21.000Z",
-            "updatedAt": "2026-04-16T17:58:21.000Z",
+            "id": "agents-2",
+            "sectionId": "agents",
+            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
             "authors": [
-              "Manan Gupta",
-              "Dhruv Kumar"
+              "Timo Schick",
+              "Jane Dwivedi-Yu",
+              "Roberta Dessì",
+              "Ari Holtzman"
             ],
+            "venue": "NeurIPS",
+            "year": 2023,
+            "quality": "顶会",
             "categories": [
-              "cs.AI",
-              "cs.CL",
-              "cs.LG"
-            ]
+              "tool use",
+              "agent"
+            ],
+            "link": "https://arxiv.org/abs/2302.04761",
+            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
+            "trackLabel": "轮换精选"
           }
         ]
       }

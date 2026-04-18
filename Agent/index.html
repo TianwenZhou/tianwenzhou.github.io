@@ -2,62 +2,106 @@
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
-    <title>Agent Daily Brief</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agent Dashboard</title>
     <meta
       name="description"
-      content="每天查看 NBA 新闻、天气预报和人工智能论文进展。"
+      content="查看天气、时间、日程、新闻和高质量 AI 论文精选。"
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <div class="page-shell">
-      <header class="hero">
-        <p class="eyebrow">zhoutianwen.com/Agent</p>
-        <h1>你的每日情报站</h1>
-        <p class="hero-copy">
-          每 4 小时自动刷新一次，集中查看 NBA 新闻、北京市海淀区天气，以及你关注的 AI 论文方向。
-        </p>
-        <div class="hero-meta">
-          <span id="generatedAt">正在读取今日摘要...</span>
-          <button id="refreshButton" type="button">重新加载</button>
-        </div>
-      </header>
-
-      <main class="grid">
-        <section class="panel panel-weather" aria-labelledby="weatherTitle">
-          <div class="panel-heading">
-            <div>
-              <p class="panel-kicker">Weather</p>
-              <h2 id="weatherTitle">海淀区天气</h2>
+      <main class="dashboard">
+        <section class="widget-grid widget-grid-top">
+          <section class="panel compact-panel" aria-labelledby="weatherTitle">
+            <div class="panel-heading">
+              <div>
+                <p class="panel-kicker">Weather</p>
+                <h2 id="weatherTitle">当前天气</h2>
+              </div>
+              <span id="weatherLocation" class="panel-tag">--</span>
             </div>
-            <span id="weatherLocation" class="panel-tag">--</span>
-          </div>
-          <div id="weatherCurrent" class="weather-current skeleton"></div>
-          <div id="weatherDaily" class="weather-daily"></div>
+            <div id="weatherCurrent" class="weather-current skeleton"></div>
+            <div id="weatherDaily" class="weather-daily"></div>
+          </section>
+
+          <section class="panel compact-panel" aria-labelledby="clockTitle">
+            <div class="panel-heading">
+              <div>
+                <p class="panel-kicker">Clock</p>
+                <h2 id="clockTitle">当前时间</h2>
+              </div>
+              <span class="panel-tag">Asia/Shanghai</span>
+            </div>
+            <div class="time-panel">
+              <p id="currentDate" class="time-date">--</p>
+              <p id="currentTime" class="time-value">--:--:--</p>
+              <p id="generatedAt" class="time-meta">数据更新时间：--</p>
+            </div>
+          </section>
+
+          <section class="panel compact-panel" aria-labelledby="scheduleTitle">
+            <div class="panel-heading">
+              <div>
+                <p class="panel-kicker">Schedule</p>
+                <h2 id="scheduleTitle">我的日程</h2>
+              </div>
+              <span class="panel-tag">待配置</span>
+            </div>
+            <div id="schedulePanel" class="schedule-panel">
+              <div class="empty-state neutral-state">
+                <p>这里先给你留空。等你确定日程来源后，我们再接入 Google Calendar、Notion 或手写 JSON。</p>
+              </div>
+            </div>
+          </section>
         </section>
 
-        <section class="panel" aria-labelledby="newsTitle">
-          <div class="panel-heading">
-            <div>
-              <p class="panel-kicker">NBA</p>
-              <h2 id="newsTitle">最新新闻</h2>
+        <section class="widget-grid widget-grid-news">
+          <section class="panel" aria-labelledby="domesticNewsTitle">
+            <div class="panel-heading">
+              <div>
+                <p class="panel-kicker">China</p>
+                <h2 id="domesticNewsTitle">国内新闻</h2>
+              </div>
+              <span class="panel-tag">Top 5</span>
             </div>
-            <span class="panel-tag">Top 6</span>
-          </div>
-          <div id="nbaNews" class="news-list"></div>
+            <div id="domesticNews" class="news-list"></div>
+          </section>
+
+          <section class="panel" aria-labelledby="internationalNewsTitle">
+            <div class="panel-heading">
+              <div>
+                <p class="panel-kicker">World</p>
+                <h2 id="internationalNewsTitle">国外新闻</h2>
+              </div>
+              <span class="panel-tag">Top 5</span>
+            </div>
+            <div id="internationalNews" class="news-list"></div>
+          </section>
+
+          <section class="panel" aria-labelledby="nbaNewsTitle">
+            <div class="panel-heading">
+              <div>
+                <p class="panel-kicker">NBA</p>
+                <h2 id="nbaNewsTitle">NBA 新闻</h2>
+              </div>
+              <span class="panel-tag">Top 6</span>
+            </div>
+            <div id="nbaNews" class="news-list"></div>
+          </section>
         </section>
 
         <section class="panel panel-wide" aria-labelledby="papersTitle">
           <div class="panel-heading">
             <div>
-              <p class="panel-kicker">AI Papers</p>
-              <h2 id="papersTitle">论文进展分板块追踪</h2>
+              <p class="panel-kicker">Paper Picks</p>
+              <h2 id="papersTitle">高质量论文精选</h2>
+              <p class="panel-subtitle">
+                不再直接堆 arXiv 全量新稿，而是从你关心方向的顶会 / 高影响力论文池中按天轮换精选。
+              </p>
             </div>
-            <span class="panel-tag">4 Topics</span>
+            <span id="paperRotationLabel" class="panel-tag">Daily Rotation</span>
           </div>
           <div id="paperHighlights" class="paper-list"></div>
         </section>

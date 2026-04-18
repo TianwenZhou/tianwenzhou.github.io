@@ -5,9 +5,14 @@ const dom = {
   weatherLocation: document.querySelector("#weatherLocation"),
   weatherCurrent: document.querySelector("#weatherCurrent"),
   weatherDaily: document.querySelector("#weatherDaily"),
+  currentDate: document.querySelector("#currentDate"),
+  currentTime: document.querySelector("#currentTime"),
+  schedulePanel: document.querySelector("#schedulePanel"),
+  domesticNews: document.querySelector("#domesticNews"),
+  internationalNews: document.querySelector("#internationalNews"),
   nbaNews: document.querySelector("#nbaNews"),
   paperHighlights: document.querySelector("#paperHighlights"),
-  refreshButton: document.querySelector("#refreshButton"),
+  paperRotationLabel: document.querySelector("#paperRotationLabel"),
   emptyStateTemplate: document.querySelector("#emptyStateTemplate"),
 };
 
@@ -38,6 +43,7 @@ function formatDateTime(value) {
   return new Intl.DateTimeFormat("zh-CN", {
     dateStyle: "full",
     timeStyle: "short",
+    timeZone: "Asia/Shanghai",
   }).format(date);
 }
 
@@ -47,7 +53,23 @@ function formatDate(value) {
     month: "numeric",
     day: "numeric",
     weekday: "short",
+    timeZone: "Asia/Shanghai",
   }).format(date);
+}
+
+function renderClock() {
+  const now = new Date();
+  dom.currentDate.textContent = new Intl.DateTimeFormat("zh-CN", {
+    dateStyle: "full",
+    timeZone: "Asia/Shanghai",
+  }).format(now);
+  dom.currentTime.textContent = new Intl.DateTimeFormat("zh-CN", {
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hour12: false,
+    timeZone: "Asia/Shanghai",
+  }).format(now);
 }
 
 function clearElement(element) {
@@ -88,10 +110,10 @@ function renderWeather(weather) {
   });
 }
 
-function renderNews(items) {
-  clearElement(dom.nbaNews);
+function renderNews(container, items) {
+  clearElement(container);
   if (!items.length) {
-    renderEmpty(dom.nbaNews);
+    renderEmpty(container);
     return;
   }
 
@@ -105,21 +127,66 @@ function renderNews(items) {
       <time datetime="${item.publishedAt}">${formatDateTime(item.publishedAt)}</time>
       <h3>${item.title}</h3>
       <p>${item.summary}</p>
+      <span class="news-source">${item.source ?? ""}</span>
     `;
-    dom.nbaNews.append(node);
+    container.append(node);
   });
 }
 
+function formatScheduleTime(value) {
+  const date = new Date(value);
+  return new Intl.DateTimeFormat("zh-CN", {
+    month: "numeric",
+    day: "numeric",
+    weekday: "short",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+    timeZone: "Asia/Shanghai",
+  }).format(date);
+}
+
+function renderSchedule(schedule) {
+  clearElement(dom.schedulePanel);
+
+  if (!schedule?.enabled || !schedule.items?.length) {
+    dom.schedulePanel.innerHTML = `
+      <div class="empty-state neutral-state">
+        <p>这里先给你留空。等你把 Google Calendar 的 ICS 链接或 Calendar ID 给我后，我就可以把日程接进来。</p>
+      </div>
+    `;
+    return;
+  }
+
+  const list = document.createElement("div");
+  list.className = "schedule-list";
+  list.innerHTML = schedule.items
+    .map(
+      (item) => `
+        <article class="schedule-item">
+          <p class="schedule-time">${formatScheduleTime(item.start)}</p>
+          <h3>${item.title}</h3>
+          <p>${item.location ?? "Google Calendar"}</p>
+        </article>
+      `,
+    )
+    .join("");
+  dom.schedulePanel.append(list);
+}
+
 function renderPaperCard(paper) {
-  const authors = paper.authors.length ? paper.authors.join(" / ") : "作者信息待补充";
+  const authors = paper.authors?.length ? paper.authors.join(" / ") : "作者信息待补充";
+  const tags = [paper.venue, paper.year, paper.quality].filter(Boolean).join(" · ");
+
   return `
     <article class="paper-card">
       <div class="paper-meta">
-        <span>${formatDateTime(paper.publishedAt)}</span>
-        <span>${authors}</span>
+        <span>${paper.trackLabel ?? "精选推荐"}</span>
+        <span>${tags}</span>
       </div>
       <h3>${paper.title}</h3>
       <p class="paper-summary">${paper.summary}</p>
+      <p class="paper-authors">${authors}</p>
       <footer>
         <span class="pill">${paper.categories.join(", ")}</span>
         <a href="${paper.link}" target="_blank" rel="noreferrer">查看论文</a>
@@ -142,7 +209,7 @@ function renderPaperSections(sections) {
 
     const body = section.items.length
       ? section.items.map(renderPaperCard).join("")
-      : `<div class="empty-state"><p>这个板块暂时还没有抓到合适论文。</p></div>`;
+      : `<div class="empty-state"><p>这个板块今天还没有可展示的精选论文。</p></div>`;
 
     wrapper.innerHTML = `
       <header class="paper-section-header">
@@ -150,7 +217,7 @@ function renderPaperSections(sections) {
           <h3>${section.title}</h3>
           <p>${section.description}</p>
         </div>
-        <span class="panel-tag">${section.items.length} 篇</span>
+        <span class="panel-tag">${section.rotationHint ?? `${section.items.length} 篇`}</span>
       </header>
       <div class="paper-grid">
         ${body}
@@ -163,8 +230,12 @@ function renderPaperSections(sections) {
 
 function renderPage(data) {
   dom.generatedAt.textContent = `数据更新时间：${formatDateTime(data.generatedAt)}`;
+  dom.paperRotationLabel.textContent = data.aiPapers.rotationLabel ?? "Daily Rotation";
   renderWeather(data.weather);
-  renderNews(data.nbaNews);
+  renderSchedule(data.schedule);
+  renderNews(dom.domesticNews, data.news.domestic ?? []);
+  renderNews(dom.internationalNews, data.news.international ?? []);
+  renderNews(dom.nbaNews, data.news.nba ?? []);
   renderPaperSections(data.aiPapers.sections ?? []);
 }
 
@@ -173,6 +244,8 @@ function renderError(message) {
   dom.weatherCurrent.classList.remove("skeleton");
   dom.weatherCurrent.innerHTML = `<div class="error-state"><p>${message}</p></div>`;
   clearElement(dom.weatherDaily);
+  renderEmpty(dom.domesticNews);
+  renderEmpty(dom.internationalNews);
   renderEmpty(dom.nbaNews);
   renderEmpty(dom.paperHighlights);
 }
@@ -191,6 +264,6 @@ async function loadBrief() {
   }
 }
 
-dom.refreshButton.addEventListener("click", loadBrief);
-
+renderClock();
+setInterval(renderClock, 1000);
 loadBrief();
