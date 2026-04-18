@@ -26,6 +26,8 @@ jobs:
           WEATHER_LABEL: Beijing Haidian
           WEATHER_LATITUDE: "39.9593"
           WEATHER_LONGITUDE: "116.2981"
+          GOOGLE_CALENDAR_ID: "tianwenzhou0521@gmail.com"
+          GOOGLE_CALENDAR_LABEL: "Tianwen Zhou Calendar"
         run: node Agent/scripts/generate-data.mjs
 
       - name: Commit updated data

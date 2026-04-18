@@ -1,15 +1,15 @@
 :root {
-  color-scheme: dark;
-  --bg: #07111f;
-  --panel: rgba(12, 27, 45, 0.78);
-  --panel-soft: rgba(15, 23, 42, 0.72);
-  --panel-border: rgba(148, 163, 184, 0.18);
-  --text: #eef2ff;
-  --muted: #a5b4cc;
-  --accent: #7dd3fc;
+  color-scheme: light;
+  --bg: #dcecf8;
+  --panel: rgba(255, 255, 255, 0.76);
+  --panel-soft: rgba(255, 255, 255, 0.68);
+  --panel-border: rgba(255, 255, 255, 0.35);
+  --text: #10243c;
+  --muted: #516579;
+  --accent: #0f6cbd;
   --accent-strong: #38bdf8;
-  --success: #86efac;
-  --shadow: 0 20px 45px rgba(0, 0, 0, 0.22);
+  --success: #137c4c;
+  --shadow: 0 18px 42px rgba(18, 53, 86, 0.16);
 }
 
 * {
@@ -21,8 +21,9 @@ body {
   min-height: 100vh;
   font-family: "Segoe UI", Arial, sans-serif;
   background:
-    radial-gradient(circle at top, rgba(56, 189, 248, 0.18), transparent 35%),
-    linear-gradient(180deg, #08111d 0%, #030712 100%);
+    linear-gradient(180deg, rgba(245, 250, 255, 0.82), rgba(236, 245, 253, 0.9)),
+    url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80")
+      center / cover fixed no-repeat;
   color: var(--text);
 }
 
@@ -109,7 +110,7 @@ p {
   gap: 6px;
   padding: 8px 12px;
   border-radius: 999px;
-  background: rgba(125, 211, 252, 0.1);
+  background: rgba(15, 108, 189, 0.1);
   color: var(--accent);
   font-size: 13px;
   white-space: nowrap;
@@ -152,8 +153,8 @@ p {
 .forecast-card,
 .news-item,
 .paper-card {
-  border: 1px solid rgba(148, 163, 184, 0.14);
-  background: rgba(15, 23, 42, 0.58);
+  border: 1px solid rgba(196, 215, 230, 0.6);
+  background: rgba(255, 255, 255, 0.72);
   border-radius: 18px;
 }
 
@@ -243,6 +244,7 @@ p {
   margin-top: 12px;
   color: var(--accent);
   font-size: 13px;
+  font-weight: 600;
 }
 
 .paper-section {
@@ -250,8 +252,8 @@ p {
   gap: 14px;
   padding: 18px;
   border-radius: 20px;
-  border: 1px solid rgba(148, 163, 184, 0.14);
-  background: rgba(2, 6, 23, 0.32);
+  border: 1px solid rgba(196, 215, 230, 0.65);
+  background: rgba(255, 255, 255, 0.5);
 }
 
 .paper-section-header {
@@ -303,7 +305,7 @@ p {
   align-items: center;
   border-radius: 999px;
   padding: 6px 10px;
-  background: rgba(134, 239, 172, 0.1);
+  background: rgba(19, 124, 76, 0.12);
   color: var(--success);
   font-size: 13px;
 }
@@ -312,13 +314,13 @@ p {
 .error-state {
   padding: 18px;
   border-radius: 18px;
-  background: rgba(127, 29, 29, 0.18);
-  color: #fecaca;
+  background: rgba(183, 28, 28, 0.1);
+  color: #8a1c1c;
   line-height: 1.7;
 }
 
 .neutral-state {
-  background: rgba(15, 23, 42, 0.58);
+  background: rgba(255, 255, 255, 0.62);
   color: var(--muted);
 }
 

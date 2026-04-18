@@ -24,6 +24,7 @@ const defaults = {
       "https://www.espn.com/espn/rss/nba/news",
   },
   calendar: {
+    calendarId: process.env.GOOGLE_CALENDAR_ID ?? "",
     icsUrl: process.env.GOOGLE_CALENDAR_ICS_URL ?? "",
     label: process.env.GOOGLE_CALENDAR_LABEL ?? "Google Calendar",
   },
@@ -227,8 +228,13 @@ function pickIcsValue(block, fieldName) {
 }
 
 async function fetchSchedule() {
-  const { icsUrl, label } = defaults.calendar;
-  if (!icsUrl) {
+  const { icsUrl, calendarId, label } = defaults.calendar;
+  const effectiveIcsUrl =
+    icsUrl ||
+    (calendarId
+      ? `https://calendar.google.com/calendar/ical/${encodeURIComponent(calendarId)}/public/basic.ics`
+      : "");
+  if (!effectiveIcsUrl) {
     return {
       enabled: false,
       source: label,
@@ -236,7 +242,7 @@ async function fetchSchedule() {
     };
   }
 
-  const icsText = unfoldIcsLines(await fetchText(icsUrl));
+  const icsText = unfoldIcsLines(await fetchText(effectiveIcsUrl));
   const now = new Date();
 
   const items = [...icsText.matchAll(/BEGIN:VEVENT([\s\S]*?)END:VEVENT/g)]
