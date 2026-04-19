@@ -220,7 +220,8 @@ img {
 }
 
 .widget-grid-nba {
-  grid-template-columns: minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1.45fr) minmax(320px, 0.92fr);
+  align-items: start;
 }
 
 .panel {
@@ -846,15 +847,20 @@ img {
 }
 
 .widget-grid-nba > .panel {
-  min-height: 840px;
-  height: 840px;
+  min-height: 0;
+  height: auto;
   display: flex;
   flex-direction: column;
 }
 
-.nba-page-panel {
-  min-height: 1080px;
-  height: 1080px;
+.nba-score-panel,
+.nba-news-panel {
+  min-height: 0;
+}
+
+.nba-news-panel .premium-news-list {
+  overflow-y: visible;
+  padding-right: 0;
 }
 
 .news-panel-heading {

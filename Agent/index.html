@@ -8,7 +8,7 @@
       name="description"
       content="查看天气、时间、世界风景、新闻和高质量 AI 论文精选。"
     />
-    <link rel="stylesheet" href="./styles.css?v=20260420-2" />
+    <link rel="stylesheet" href="./styles.css?v=20260420-3" />
   </head>
   <body>
     <div class="page-shell">
@@ -182,7 +182,21 @@
 
           <section id="nbaView" class="dashboard-view" data-view="nba">
             <section class="widget-grid widget-grid-nba">
-              <section class="panel nba-page-panel" aria-labelledby="nbaNewsTitle">
+              <section class="panel nba-score-panel" aria-labelledby="nbaGamesTitle">
+                <div class="panel-heading news-panel-heading">
+                  <div>
+                    <p class="panel-kicker">NBA</p>
+                    <h2 id="nbaGamesTitle" class="panel-title-line">
+                      <span class="panel-icon" aria-hidden="true">NBA</span>
+                      <span>Games &amp; Leaders</span>
+                    </h2>
+                  </div>
+                  <span class="panel-tag">Live Board</span>
+                </div>
+                <div id="nbaScoreboard" class="scoreboard-panel"></div>
+              </section>
+
+              <section class="panel nba-news-panel" aria-labelledby="nbaNewsTitle">
                 <div class="panel-heading news-panel-heading">
                   <div>
                     <p class="panel-kicker">NBA</p>
@@ -193,7 +207,6 @@
                   </div>
                   <span class="panel-tag">Top 6</span>
                 </div>
-                <div id="nbaScoreboard" class="scoreboard-panel"></div>
                 <div id="nbaNews" class="news-list premium-news-list"></div>
               </section>
             </section>
