@@ -8,7 +8,7 @@
       name="description"
       content="查看天气、时间、世界风景、新闻和高质量 AI 论文精选。"
     />
-    <link rel="stylesheet" href="./styles.css?v=20260419-9" />
+    <link rel="stylesheet" href="./styles.css?v=20260419-10" />
   </head>
   <body>
     <div class="page-shell">
@@ -48,6 +48,29 @@
               </div>
             </div>
             <div id="weatherDaily" class="weather-daily"></div>
+            <div class="weather-calendars">
+              <section class="calendar-card" aria-labelledby="currentMonthTitle">
+                <div class="calendar-card-head">
+                  <div>
+                    <p class="calendar-kicker">Current Month</p>
+                    <h3 id="currentMonthTitle" class="calendar-title">本月日历</h3>
+                  </div>
+                  <span id="currentMonthLabel" class="calendar-badge">--</span>
+                </div>
+                <div id="currentMonthCalendar" class="calendar-grid"></div>
+              </section>
+
+              <section class="calendar-card" aria-labelledby="nextMonthTitle">
+                <div class="calendar-card-head">
+                  <div>
+                    <p class="calendar-kicker">Next Month</p>
+                    <h3 id="nextMonthTitle" class="calendar-title">下月日历</h3>
+                  </div>
+                  <span id="nextMonthLabel" class="calendar-badge">--</span>
+                </div>
+                <div id="nextMonthCalendar" class="calendar-grid"></div>
+              </section>
+            </div>
           </section>
 
           <div class="top-side-stack">
@@ -148,6 +171,6 @@
       </div>
     </template>
 
-    <script type="module" src="./app.js?v=20260419-7"></script>
+    <script type="module" src="./app.js?v=20260419-10"></script>
   </body>
 </html>

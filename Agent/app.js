@@ -12,6 +12,10 @@ const dom = {
   weatherRange: document.querySelector("#weatherRange"),
   weatherRain: document.querySelector("#weatherRain"),
   weatherDaily: document.querySelector("#weatherDaily"),
+  currentMonthLabel: document.querySelector("#currentMonthLabel"),
+  currentMonthCalendar: document.querySelector("#currentMonthCalendar"),
+  nextMonthLabel: document.querySelector("#nextMonthLabel"),
+  nextMonthCalendar: document.querySelector("#nextMonthCalendar"),
   currentDate: document.querySelector("#currentDate"),
   currentTime: document.querySelector("#currentTime"),
   featuredPlacePanel: document.querySelector("#featuredPlacePanel"),
@@ -29,6 +33,7 @@ const dom = {
 };
 
 let featuredPlaceTimer = null;
+let lastCalendarKey = "";
 
 const weatherCodeMap = {
   0: "晴朗",
@@ -142,6 +147,93 @@ function renderClock() {
     hour12: false,
     timeZone: "Asia/Shanghai",
   }).format(now);
+
+  const parts = getShanghaiDateParts(now);
+  const calendarKey = `${parts.year}-${parts.month}`;
+  if (calendarKey !== lastCalendarKey) {
+    renderCalendars(parts);
+    lastCalendarKey = calendarKey;
+  }
+}
+
+function getShanghaiDateParts(date = new Date()) {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Shanghai",
+    year: "numeric",
+    month: "numeric",
+    day: "numeric",
+  }).formatToParts(date);
+
+  return {
+    year: Number(parts.find((part) => part.type === "year")?.value),
+    month: Number(parts.find((part) => part.type === "month")?.value),
+    day: Number(parts.find((part) => part.type === "day")?.value),
+  };
+}
+
+function getMonthLabel(year, monthIndex) {
+  return new Intl.DateTimeFormat("zh-CN", {
+    year: "numeric",
+    month: "long",
+    timeZone: "Asia/Shanghai",
+  }).format(new Date(Date.UTC(year, monthIndex, 1, 12)));
+}
+
+function buildCalendarMonth(year, monthIndex, todayParts) {
+  const weekdayLabels = ["一", "二", "三", "四", "五", "六", "日"];
+  const firstWeekday = (new Date(Date.UTC(year, monthIndex, 1, 12)).getUTCDay() + 6) % 7;
+  const daysInMonth = new Date(Date.UTC(year, monthIndex + 1, 0, 12)).getUTCDate();
+  const cells = [];
+
+  weekdayLabels.forEach((label) => {
+    cells.push(`<span class="calendar-weekday">${label}</span>`);
+  });
+
+  for (let index = 0; index < 42; index += 1) {
+    const dayNumber = index - firstWeekday + 1;
+
+    if (dayNumber < 1 || dayNumber > daysInMonth) {
+      cells.push(`<span class="calendar-day is-empty"></span>`);
+      continue;
+    }
+
+    const isToday =
+      todayParts.year === year &&
+      todayParts.month === monthIndex + 1 &&
+      todayParts.day === dayNumber;
+    const weekday = (index % 7) + 1;
+    const classNames = [
+      "calendar-day",
+      isToday ? "is-today" : "",
+      weekday >= 6 ? "is-weekend" : "",
+    ]
+      .filter(Boolean)
+      .join(" ");
+
+    cells.push(`<span class="${classNames}">${dayNumber}</span>`);
+  }
+
+  return cells.join("");
+}
+
+function renderCalendars(todayParts) {
+  const currentMonthIndex = todayParts.month - 1;
+  const nextMonthIndex = currentMonthIndex === 11 ? 0 : currentMonthIndex + 1;
+  const nextMonthYear = currentMonthIndex === 11 ? todayParts.year + 1 : todayParts.year;
+
+  dom.currentMonthLabel.textContent = getMonthLabel(todayParts.year, currentMonthIndex);
+  dom.currentMonthCalendar.innerHTML = buildCalendarMonth(
+    todayParts.year,
+    currentMonthIndex,
+    todayParts,
+  );
+
+  dom.nextMonthLabel.textContent = getMonthLabel(nextMonthYear, nextMonthIndex);
+  dom.nextMonthCalendar.innerHTML = buildCalendarMonth(
+    nextMonthYear,
+    nextMonthIndex,
+    todayParts,
+  );
 }
 
 function clearElement(element) {
