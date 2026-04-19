@@ -241,10 +241,13 @@ function clearElement(element) {
 }
 
 function hashString(value) {
-  return [...value].reduce(
-    (result, character) => result * 31 + character.charCodeAt(0),
-    7,
-  );
+  let result = 7;
+
+  for (const character of value) {
+    result = ((result << 5) - result + character.codePointAt(0)) | 0;
+  }
+
+  return Math.abs(result);
 }
 
 function hasUsableNewsImage(url) {
@@ -268,7 +271,7 @@ function hasUsableNewsImage(url) {
 
 function pickNewsFallback(section, key) {
   const pool = newsFallbacks[section] ?? newsFallbacks.international;
-  return pool[Math.abs(hashString(key)) % pool.length];
+  return pool[hashString(key) % pool.length];
 }
 
 function getNewsBackground(section, item, index) {
