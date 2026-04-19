@@ -6,59 +6,59 @@
     <title>Agent Dashboard</title>
     <meta
       name="description"
-      content="查看天气、时间、日程、新闻和高质量 AI 论文精选。"
+      content="??????????????????? AI ?????"
     />
-    <link rel="stylesheet" href="./styles.css?v=20260419-1" />
+    <link rel="stylesheet" href="./styles.css?v=20260419-2" />
   </head>
   <body>
     <div class="page-shell">
       <main class="dashboard">
         <section class="widget-grid widget-grid-top">
           <section class="panel compact-panel panel-span-2" aria-labelledby="weatherTitle">
-            <div class="panel-heading">
+            <div class="panel-heading compact-heading">
               <div>
                 <p class="panel-kicker">Weather & Clock</p>
-                <h2 id="weatherTitle">天气与时间</h2>
+                <h2 id="weatherTitle">?????</h2>
               </div>
-              <span class="panel-tag">Haidian · Asia/Shanghai</span>
+              <span class="panel-tag">Haidian ? Asia/Shanghai</span>
             </div>
-            <div class="weather-time-grid">
-              <div class="weather-block">
-                <div class="weather-block-head">
-                  <h3>当前天气</h3>
+            <div id="weatherCurrent" class="weather-current weather-hero skeleton">
+              <div id="weatherVisual" class="weather-visual"></div>
+              <div class="weather-hero-body">
+                <div class="weather-hero-top">
+                  <span id="weatherCondition" class="weather-chip">--</span>
                   <span id="weatherLocation" class="panel-tag">--</span>
                 </div>
-                <div id="weatherCurrent" class="weather-current skeleton"></div>
-              </div>
-
-              <div class="time-block">
-                <div class="time-block-head">
-                  <h3>当前时间</h3>
-                  <span class="panel-tag">北京时间</span>
+                <div class="weather-hero-main">
+                  <div class="weather-hero-copy">
+                    <strong id="weatherTemperature">--?C</strong>
+                    <p id="weatherDescription">--</p>
+                  </div>
+                  <div class="weather-hero-clock">
+                    <p id="currentTime" class="time-value">--:--:--</p>
+                    <p id="currentDate" class="time-date">--</p>
+                    <p id="generatedAt" class="time-meta">???????--</p>
+                  </div>
                 </div>
-                <div class="time-panel">
-                  <p id="currentDate" class="time-date">--</p>
-                  <p id="currentTime" class="time-value">--:--:--</p>
-                  <p id="generatedAt" class="time-meta">数据更新时间：--</p>
+                <div class="weather-metrics">
+                  <span id="weatherWind">?? --</span>
+                  <span id="weatherRange">?? -- / --</span>
+                  <span id="weatherRain">?? --</span>
                 </div>
               </div>
             </div>
             <div id="weatherDaily" class="weather-daily"></div>
           </section>
 
-          <section class="panel compact-panel" aria-labelledby="scheduleTitle">
-            <div class="panel-heading">
+          <section class="panel compact-panel scenic-panel" aria-labelledby="featuredPlaceTitle">
+            <div class="panel-heading compact-heading">
               <div>
-                <p class="panel-kicker">Schedule</p>
-                <h2 id="scheduleTitle">我的日程</h2>
+                <p class="panel-kicker">Scenic View</p>
+                <h2 id="featuredPlaceTitle">????</h2>
               </div>
-              <span class="panel-tag">待配置</span>
+              <span class="panel-tag">Daily Escape</span>
             </div>
-            <div id="schedulePanel" class="schedule-panel">
-              <div class="empty-state neutral-state">
-                <p>这里先给你留空。等你确定日程来源后，我们再接入 Google Calendar、Notion 或手写 JSON。</p>
-              </div>
-            </div>
+            <div id="featuredPlacePanel" class="featured-place skeleton"></div>
           </section>
         </section>
 
@@ -67,34 +67,34 @@
             <div class="panel-heading news-panel-heading">
               <div>
                 <p class="panel-kicker">China</p>
-                <h2 id="domesticNewsTitle" class="panel-title-line"><span class="panel-icon" aria-hidden="true">CN</span><span>国内新闻</span></h2>
+                <h2 id="domesticNewsTitle" class="panel-title-line"><span class="panel-icon" aria-hidden="true">CN</span><span>????</span></h2>
               </div>
               <span class="panel-tag">Top 5</span>
             </div>
-            <div id="domesticNews" class="news-list"></div>
+            <div id="domesticNews" class="news-list premium-news-list"></div>
           </section>
 
           <section class="panel" aria-labelledby="internationalNewsTitle">
             <div class="panel-heading news-panel-heading">
               <div>
                 <p class="panel-kicker">World</p>
-                <h2 id="internationalNewsTitle" class="panel-title-line"><span class="panel-icon" aria-hidden="true">GL</span><span>国外新闻</span></h2>
+                <h2 id="internationalNewsTitle" class="panel-title-line"><span class="panel-icon" aria-hidden="true">GL</span><span>????</span></h2>
               </div>
               <span class="panel-tag">Top 5</span>
             </div>
-            <div id="internationalNews" class="news-list"></div>
+            <div id="internationalNews" class="news-list premium-news-list"></div>
           </section>
 
           <section class="panel" aria-labelledby="nbaNewsTitle">
             <div class="panel-heading news-panel-heading">
               <div>
                 <p class="panel-kicker">NBA</p>
-                <h2 id="nbaNewsTitle" class="panel-title-line"><span class="panel-icon" aria-hidden="true">NBA</span><span>NBA 新闻</span></h2>
+                <h2 id="nbaNewsTitle" class="panel-title-line"><span class="panel-icon" aria-hidden="true">NBA</span><span>NBA ??</span></h2>
               </div>
               <span class="panel-tag">Top 6</span>
             </div>
             <div id="nbaScoreboard" class="scoreboard-panel"></div>
-            <div id="nbaNews" class="news-list"></div>
+            <div id="nbaNews" class="news-list premium-news-list"></div>
           </section>
         </section>
 
@@ -102,9 +102,9 @@
           <div class="panel-heading">
             <div>
               <p class="panel-kicker">Paper Picks</p>
-              <h2 id="papersTitle">高质量论文精选</h2>
+              <h2 id="papersTitle">???????</h2>
               <p class="panel-subtitle">
-                不再直接堆 arXiv 全量新稿，而是从你关心方向的顶会 / 高影响力论文池中按天轮换精选。
+                ????? arXiv ???????????????? / ???????????????
               </p>
             </div>
             <span id="paperRotationLabel" class="panel-tag">Daily Rotation</span>
@@ -116,10 +116,10 @@
 
     <template id="emptyStateTemplate">
       <div class="empty-state">
-        <p>今天的内容还没准备好，请稍后再试。</p>
+        <p>?????????????????</p>
       </div>
     </template>
 
-    <script type="module" src="./app.js?v=20260419-1"></script>
+    <script type="module" src="./app.js?v=20260419-2"></script>
   </body>
 </html>

@@ -10,11 +10,74 @@ const outputPath = resolve(scriptDir, "..", "data", "daily-brief.json");
 const execFileAsync = promisify(execFile);
 const userAgent = "AgentDailyBrief/1.0 (+https://zhoutianwen.com/Agent)";
 
+const featuredPlaces = [
+  {
+    id: "hallstatt",
+    title: "?????",
+    location: "??? ? Hallstatt",
+    region: "Europe",
+    summary: "??????????????????????????????",
+    image: "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1400&q=80",
+    link: "https://en.wikipedia.org/wiki/Hallstatt",
+  },
+  {
+    id: "santorini",
+    title: "????",
+    location: "?? ? Santorini",
+    region: "Mediterranean",
+    summary: "????????????????????????????????",
+    image: "https://images.unsplash.com/photo-1469796466635-455ede028aca?auto=format&fit=crop&w=1400&q=80",
+    link: "https://en.wikipedia.org/wiki/Santorini",
+  },
+  {
+    id: "kyoto",
+    title: "????",
+    location: "?? ? ??",
+    region: "East Asia",
+    summary: "???????????????????????????????????????",
+    image: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1400&q=80",
+    link: "https://en.wikipedia.org/wiki/Arashiyama",
+  },
+  {
+    id: "banff",
+    title: "???",
+    location: "??? ? Banff",
+    region: "North America",
+    summary: "????????????????????????????????",
+    image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+    link: "https://en.wikipedia.org/wiki/Moraine_Lake",
+  },
+  {
+    id: "cappadocia",
+    title: "?????",
+    location: "??? ? Cappadocia",
+    region: "Middle East",
+    summary: "???????????????????????????????",
+    image: "https://images.unsplash.com/photo-1644331006861-6e1b0dc06405?auto=format&fit=crop&w=1400&q=80",
+    link: "https://en.wikipedia.org/wiki/Cappadocia",
+  },
+  {
+    id: "machu-picchu",
+    title: "????",
+    location: "?? ? Machu Picchu",
+    region: "South America",
+    summary: "???????????????????????????",
+    image: "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1400&q=80",
+    link: "https://en.wikipedia.org/wiki/Machu_Picchu",
+  },
+];
+
+const newsFallbackImages = {
+  domestic: "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1200&q=80",
+  international: "https://images.unsplash.com/photo-1521295121783-8a321d551ad2?auto=format&fit=crop&w=1200&q=80",
+  nba: "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1200&q=80",
+};
+
 const defaults = {
   weather: {
     latitude: Number.parseFloat(process.env.WEATHER_LATITUDE ?? "39.9593"),
     longitude: Number.parseFloat(process.env.WEATHER_LONGITUDE ?? "116.2981"),
-    label: process.env.WEATHER_LABEL ?? "北京市海淀区",
+    label: process.env.WEATHER_LABEL ?? "??????",
   },
   newsFeeds: {
     domestic:
@@ -33,55 +96,50 @@ const defaults = {
   nbaScoreboardUrl:
     process.env.NBA_SCOREBOARD_URL ??
     "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard",
-  calendar: {
-    calendarId: process.env.GOOGLE_CALENDAR_ID ?? "",
-    icsUrl: process.env.GOOGLE_CALENDAR_ICS_URL ?? "",
-    label: process.env.GOOGLE_CALENDAR_LABEL ?? "Google Calendar",
-  },
   paperSections: [
     {
       id: "data-storage",
-      title: "数据存储相关",
-      description: "数据库、分布式存储、向量检索与存储系统方向的经典与高影响力论文。",
+      title: "??????",
+      description: "????????????????????????????????",
     },
     {
       id: "computer-vision",
-      title: "计算机视觉相关",
-      description: "视觉基础模型、识别、检测、分割和多模态视觉方向的代表性论文。",
+      title: "???????",
+      description: "?????????????????????????????",
     },
     {
       id: "llm-memory",
-      title: "大模型记忆库相关",
-      description: "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
+      title: "????????",
+      description: "RAG????????????????????????",
     },
     {
       id: "agents",
-      title: "Agent 相关",
-      description: "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表性论文。",
+      title: "Agent ??",
+      description: "???????????? Agent ????? Agent ??????",
     },
   ],
 };
 
 const weatherCodeMap = {
-  0: "晴朗",
-  1: "基本晴",
-  2: "局部多云",
-  3: "阴天",
-  45: "有雾",
-  48: "雾凇",
-  51: "小毛毛雨",
-  53: "毛毛雨",
-  55: "强毛毛雨",
-  61: "小雨",
-  63: "中雨",
-  65: "大雨",
-  71: "小雪",
-  73: "中雪",
-  75: "大雪",
-  80: "阵雨",
-  81: "强阵雨",
-  82: "暴雨",
-  95: "雷暴",
+  0: "??",
+  1: "???",
+  2: "????",
+  3: "??",
+  45: "??",
+  48: "??",
+  51: "???",
+  53: "??",
+  55: "??",
+  61: "??",
+  63: "??",
+  65: "??",
+  71: "??",
+  73: "??",
+  75: "??",
+  80: "??",
+  81: "???",
+  82: "??",
+  95: "??",
 };
 
 function cleanHtml(value) {
@@ -100,26 +158,58 @@ function cleanHtml(value) {
 }
 
 function pickTag(block, tagName) {
-  const match = block.match(
-    new RegExp(`<${tagName}[^>]*>([\\s\\S]*?)<\\/${tagName}>`, "i"),
-  );
+  const match = block.match(new RegExp(`<${tagName}[^>]*>([\\s\\S]*?)<\\/${tagName}>`, "i"));
   return match ? cleanHtml(match[1]) : "";
 }
 
-function shortenSummary(text, maxLength = 140) {
+function pickAttribute(block, tagName, attributeName) {
+  const match = block.match(new RegExp(`<${tagName}[^>]*${attributeName}=["']([^"']+)["'][^>]*>`, "i"));
+  return match ? match[1].trim() : "";
+}
+
+function shortenSummary(text, maxLength = 150) {
   if (!text) {
     return "";
   }
 
-  if (/^null$/i.test(text.trim())) {
+  const normalized = text.trim();
+  if (!normalized || /^null$/i.test(normalized)) {
     return "";
   }
 
-  if (text.length <= maxLength) {
-    return text;
+  if (normalized.length <= maxLength) {
+    return normalized;
   }
 
-  return `${text.slice(0, maxLength).trim()}...`;
+  return `${normalized.slice(0, maxLength).trim()}...`;
+}
+
+function normalizeSummary(summary, title) {
+  if (!summary) {
+    return "";
+  }
+
+  const compactSummary = summary.replace(/\s+/g, " ").trim();
+  const compactTitle = title.replace(/\s+/g, " ").trim();
+  if (compactSummary === compactTitle) {
+    return "";
+  }
+
+  if (compactSummary.startsWith(compactTitle) && compactSummary.length <= compactTitle.length + 18) {
+    return "";
+  }
+
+  return compactSummary;
+}
+
+function extractImage(block) {
+  return (
+    pickAttribute(block, "media:content", "url") ||
+    pickAttribute(block, "media:thumbnail", "url") ||
+    pickAttribute(block, "enclosure", "url") ||
+    block.match(/<img[^>]+src=["']([^"']+)["']/i)?.[1] ||
+    ""
+  );
 }
 
 async function fetchText(url) {
@@ -154,15 +244,14 @@ async function fetchTextWithPowerShell(url, originalError) {
     `(Invoke-WebRequest -UseBasicParsing -Headers $headers -Uri '${url.replace(/'/g, "''")}').Content`;
 
   try {
-    const { stdout } = await execFileAsync(shell, [
-      "-NoLogo",
-      "-NoProfile",
-      "-Command",
-      command,
-    ], {
-      encoding: "utf8",
-      maxBuffer: 10 * 1024 * 1024,
-    });
+    const { stdout } = await execFileAsync(
+      shell,
+      ["-NoLogo", "-NoProfile", "-Command", command],
+      {
+        encoding: "utf8",
+        maxBuffer: 20 * 1024 * 1024,
+      },
+    );
 
     if (!stdout.trim()) {
       throw new Error(`Empty response returned by ${shell} for ${url}`);
@@ -198,7 +287,7 @@ async function fetchWeather() {
   const forecast = data.daily.time.map((date, index) => ({
     date,
     weatherCode: data.daily.weather_code[index],
-    description: weatherCodeMap[data.daily.weather_code[index]] ?? "天气更新中",
+    description: weatherCodeMap[data.daily.weather_code[index]] ?? "?????",
     max: Math.round(data.daily.temperature_2m_max[index]),
     min: Math.round(data.daily.temperature_2m_min[index]),
     precipitationProbability: data.daily.precipitation_probability_max[index],
@@ -216,6 +305,34 @@ async function fetchWeather() {
   };
 }
 
+async function fetchArticlePreview(url) {
+  try {
+    const html = await fetchText(url);
+    const image =
+      html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)/i)?.[1] ||
+      html.match(/<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)/i)?.[1] ||
+      "";
+    const description =
+      html.match(/<meta[^>]+property=["']og:description["'][^>]+content=["']([^"']+)/i)?.[1] ||
+      html.match(/<meta[^>]+name=["']description["'][^>]+content=["']([^"']+)/i)?.[1] ||
+      "";
+
+    return {
+      image: cleanHtml(image),
+      summary: shortenSummary(cleanHtml(description)),
+    };
+  } catch {
+    return {
+      image: "",
+      summary: "",
+    };
+  }
+}
+
+function getNewsFallbackImage(section) {
+  return newsFallbackImages[section] ?? newsFallbackImages.international;
+}
+
 async function fetchRssFeed(url, limit, source) {
   const xml = await fetchText(url);
   return [...xml.matchAll(/<item>([\s\S]*?)<\/item>/gi)]
@@ -228,10 +345,13 @@ async function fetchRssFeed(url, limit, source) {
       const cleanTitle = itemSource && rawTitle.endsWith(` - ${itemSource}`)
         ? rawTitle.slice(0, -(` - ${itemSource}`).length)
         : rawTitle;
+      const summary = normalizeSummary(shortenSummary(pickTag(block, "description")), cleanTitle);
+
       return {
         title: cleanTitle,
         link: pickTag(block, "link"),
-        summary: shortenSummary(pickTag(block, "description")),
+        summary,
+        image: extractImage(block),
         publishedAt: publishedRaw ? new Date(publishedRaw).toISOString() : new Date().toISOString(),
         source: itemSource,
       };
@@ -239,17 +359,41 @@ async function fetchRssFeed(url, limit, source) {
     .filter((item) => item.title && item.link);
 }
 
-async function fetchMergedRssFeeds(feeds, limit) {
+async function enrichNewsItems(items, section) {
+  const enriched = await Promise.all(
+    items.map(async (item) => {
+      if (item.image && item.summary) {
+        return item;
+      }
+
+      const preview = await fetchArticlePreview(item.link);
+      return {
+        ...item,
+        image: item.image || preview.image || getNewsFallbackImage(section),
+        summary: item.summary || preview.summary || "",
+      };
+    }),
+  );
+
+  return enriched.map((item) => ({
+    ...item,
+    image: item.image || getNewsFallbackImage(section),
+  }));
+}
+
+async function fetchMergedRssFeeds(feeds, limit, section) {
   const results = await Promise.allSettled(
     feeds.map((feed) => fetchRssFeed(feed.url, feed.limit ?? limit, feed.source)),
   );
 
-  return results
+  const merged = results
     .filter((result) => result.status === "fulfilled")
     .flatMap((result) => result.value)
     .sort((left, right) => new Date(right.publishedAt) - new Date(left.publishedAt))
     .filter((item, index, items) => items.findIndex((candidate) => candidate.link === item.link) === index)
     .slice(0, limit);
+
+  return enrichNewsItems(merged, section);
 }
 
 function getGameStatus(status) {
@@ -257,26 +401,14 @@ function getGameStatus(status) {
   const detail = status?.type?.shortDetail ?? status?.type?.detail ?? status?.type?.description ?? "";
 
   if (state === "in") {
-    return {
-      state: "in",
-      label: "Live",
-      detail,
-    };
+    return { state: "in", label: "Live", detail };
   }
 
   if (state === "post") {
-    return {
-      state: "post",
-      label: "Final",
-      detail,
-    };
+    return { state: "post", label: "Final", detail };
   }
 
-  return {
-    state: "pre",
-    label: "Scheduled",
-    detail,
-  };
+  return { state: "pre", label: "Scheduled", detail };
 }
 
 async function fetchNbaScoreboard() {
@@ -332,77 +464,8 @@ function rotateItems(items, count, seed) {
   return rotated.slice(0, Math.min(count, items.length));
 }
 
-function unfoldIcsLines(icsText) {
-  return icsText.replace(/\r?\n[ \t]/g, "");
-}
-
-function parseIcsDate(value) {
-  if (!value) {
-    return null;
-  }
-
-  if (/^\d{8}T\d{6}Z$/.test(value)) {
-    const normalized = `${value.slice(0, 4)}-${value.slice(4, 6)}-${value.slice(6, 8)}T${value.slice(9, 11)}:${value.slice(11, 13)}:${value.slice(13, 15)}Z`;
-    return new Date(normalized);
-  }
-
-  if (/^\d{8}T\d{6}$/.test(value)) {
-    const normalized = `${value.slice(0, 4)}-${value.slice(4, 6)}-${value.slice(6, 8)}T${value.slice(9, 11)}:${value.slice(11, 13)}:${value.slice(13, 15)}+08:00`;
-    return new Date(normalized);
-  }
-
-  if (/^\d{8}$/.test(value)) {
-    const normalized = `${value.slice(0, 4)}-${value.slice(4, 6)}-${value.slice(6, 8)}T00:00:00+08:00`;
-    return new Date(normalized);
-  }
-
-  return null;
-}
-
-function pickIcsValue(block, fieldName) {
-  const match = block.match(new RegExp(`^${fieldName}(?:;[^:\\n]*)?:(.+)$`, "m"));
-  return match ? cleanHtml(match[1]) : "";
-}
-
-async function fetchSchedule() {
-  const { icsUrl, calendarId, label } = defaults.calendar;
-  const effectiveIcsUrl =
-    icsUrl ||
-    (calendarId
-      ? `https://calendar.google.com/calendar/ical/${encodeURIComponent(calendarId)}/public/basic.ics`
-      : "");
-  if (!effectiveIcsUrl) {
-    return {
-      enabled: false,
-      source: label,
-      items: [],
-    };
-  }
-
-  const icsText = unfoldIcsLines(await fetchText(effectiveIcsUrl));
-  const now = new Date();
-
-  const items = [...icsText.matchAll(/BEGIN:VEVENT([\s\S]*?)END:VEVENT/g)]
-    .map((match) => {
-      const block = match[1];
-      const start = parseIcsDate(pickIcsValue(block, "DTSTART"));
-      const end = parseIcsDate(pickIcsValue(block, "DTEND"));
-      return {
-        title: pickIcsValue(block, "SUMMARY") || "未命名日程",
-        location: pickIcsValue(block, "LOCATION") || label,
-        start: start?.toISOString(),
-        end: end?.toISOString(),
-      };
-    })
-    .filter((item) => item.start && new Date(item.start) >= now)
-    .sort((a, b) => new Date(a.start) - new Date(b.start))
-    .slice(0, 5);
-
-  return {
-    enabled: true,
-    source: label,
-    items,
-  };
+function buildFeaturedPlace(date) {
+  return rotateItems(featuredPlaces, 1, getDaySeed(date))[0] ?? null;
 }
 
 function buildPaperSections(date) {
@@ -412,12 +475,12 @@ function buildPaperSections(date) {
     const candidates = paperLibrary.filter((paper) => paper.sectionId === section.id);
     const selected = rotateItems(candidates, 3, seed + index).map((paper, itemIndex) => ({
       ...paper,
-      trackLabel: itemIndex === 0 ? "今日主推" : "轮换精选",
+      trackLabel: itemIndex === 0 ? "????" : "????",
     }));
 
     return {
       ...section,
-      rotationHint: `每日轮换 ${selected.length} 篇`,
+      rotationHint: `???? ${selected.length} ?`,
       items: selected,
     };
   });
@@ -426,19 +489,18 @@ function buildPaperSections(date) {
 async function main() {
   const now = new Date();
 
-  const [weatherResult, scheduleResult, domesticResult, internationalResult, nbaScoreboardResult, nbaResult] =
+  const [weatherResult, domesticResult, internationalResult, nbaScoreboardResult, nbaResult] =
     await Promise.allSettled([
       fetchWeather(),
-      fetchSchedule(),
       fetchMergedRssFeeds([
         { url: defaults.newsFeeds.domestic, source: "Google News", limit: 8 },
-      ], 5),
+      ], 5, "domestic"),
       fetchMergedRssFeeds([
         { url: defaults.newsFeeds.internationalBbc, source: "BBC", limit: 5 },
         { url: defaults.newsFeeds.internationalCnn, source: "CNN", limit: 5 },
-      ], 5),
+      ], 5, "international"),
       fetchNbaScoreboard(),
-      fetchRssFeed(defaults.newsFeeds.nba, 6, "ESPN"),
+      fetchRssFeed(defaults.newsFeeds.nba, 6, "ESPN").then((items) => enrichNewsItems(items, "nba")),
     ]);
 
   const payload = {
@@ -452,14 +514,7 @@ async function main() {
             today: { max: "--", min: "--", precipitationProbability: "--" },
             forecast: [],
           },
-    schedule:
-      scheduleResult.status === "fulfilled"
-        ? scheduleResult.value
-        : {
-            enabled: false,
-            source: defaults.calendar.label,
-            items: [],
-          },
+    featuredPlace: buildFeaturedPlace(now),
     news: {
       domestic: domesticResult.status === "fulfilled" ? domesticResult.value : [],
       international: internationalResult.status === "fulfilled" ? internationalResult.value : [],
@@ -473,13 +528,14 @@ async function main() {
             games: [],
           },
     aiPapers: {
-      rotationLabel: `Curated Rotation · ${now.toISOString().slice(0, 10)}`,
+      rotationLabel: `Curated Rotation ? ${now.toISOString().slice(0, 10)}`,
       sections: buildPaperSections(now),
     },
   };
 
   await mkdir(dirname(outputPath), { recursive: true });
-  await writeFile(outputPath, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
+  await writeFile(outputPath, `${JSON.stringify(payload, null, 2)}
+`, "utf8");
   console.log(`Daily brief written to ${outputPath}`);
 }
 

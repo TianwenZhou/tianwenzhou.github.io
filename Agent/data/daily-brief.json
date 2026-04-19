@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-04-19T03:46:49.648Z",
+  "generatedAt": "2026-04-19T05:42:54.465Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 22,
+      "temperature": 21,
       "weatherCode": 3,
-      "windSpeed": 6
+      "windSpeed": 22
     },
     "today": {
       "date": "2026-04-19",
-      "weatherCode": 3,
-      "description": "阴天",
+      "weatherCode": 61,
+      "description": "??",
       "max": 23,
       "min": 11,
       "precipitationProbability": 68
@@ -18,8 +18,8 @@
     "forecast": [
       {
         "date": "2026-04-19",
-        "weatherCode": 3,
-        "description": "阴天",
+        "weatherCode": 61,
+        "description": "??",
         "max": 23,
         "min": 11,
         "precipitationProbability": 68
@@ -27,7 +27,7 @@
       {
         "date": "2026-04-20",
         "weatherCode": 0,
-        "description": "晴朗",
+        "description": "??",
         "max": 23,
         "min": 8,
         "precipitationProbability": 0
@@ -35,77 +35,95 @@
       {
         "date": "2026-04-21",
         "weatherCode": 3,
-        "description": "阴天",
-        "max": 23,
+        "description": "??",
+        "max": 24,
         "min": 11,
         "precipitationProbability": 0
       },
       {
         "date": "2026-04-22",
         "weatherCode": 3,
-        "description": "阴天",
+        "description": "??",
         "max": 22,
-        "min": 11,
+        "min": 10,
         "precipitationProbability": 0
       },
       {
         "date": "2026-04-23",
         "weatherCode": 1,
-        "description": "基本晴",
+        "description": "???",
         "max": 24,
-        "min": 10,
+        "min": 11,
         "precipitationProbability": 3
       }
     ]
   },
-  "schedule": {
-    "enabled": true,
-    "source": "Tianwen Zhou Calendar",
-    "items": []
+  "featuredPlace": {
+    "id": "banff",
+    "title": "???",
+    "location": "??? ? Banff",
+    "region": "North America",
+    "summary": "????????????????????????????????",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+    "link": "https://en.wikipedia.org/wiki/Moraine_Lake"
   },
   "news": {
     "domestic": [
       {
         "title": "北京延庆举办环长城越野赛 近两千名国内外跑者共赴春日长城之约",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5YUhmdGhtek1wYW5RTDF0REd3QzVCNU14VnkwRmlBZUdIaHBVNVV1aFowZzdVNjR5YmdRYzJZUHY2M1hSbFZsX0ZQajhOcTdVWThvSWxIcURmdVV3SS1ENmlxWmZLUWVC?oc=5",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5YUhmdGhtek1wYW5RTDF0REd3QzVCNU14VnkwRmlBZUdIaHBVNVV1aFowZzdVNjR5YmdRYzJZUHY2M1...",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5YUhmdGhtek1wYW5RTDF0REd3QzVCNU14VnkwRmlBZUdIaHBVNVV1aFowZzdVNjR5YmdRYzJZUHY2M1hSbFZsX0ZQ...",
+        "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
         "publishedAt": "2026-04-19T01:48:00.000Z",
         "source": "人民网"
       },
       {
         "title": "镜观中国·新华社国内新闻照片一周精选",
         "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE04bFRqbEZqREZlSURXQW5fdkVwVXZIcDRLLXM1X1AwR1pkdFI0NjNsT2ROX1VKcDduSFdwRW5fbi1pRVVnVUgzVHdJeEpjM196TWFpY0hxVEM0Y2t3bG5yZWx6OVdFNW11el9mMldwMFBvNlRpMUZ1VjF0czFKdWc?oc=5",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE04bFRqbEZqREZlSURXQW5fdkVwVXZIcDRLLXM1X1AwR1pkdFI0NjNsT2ROX1VKcDduSFdwRW5fbi1pRV...",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE04bFRqbEZqREZlSURXQW5fdkVwVXZIcDRLLXM1X1AwR1pkdFI0NjNsT2ROX1VKcDduSFdwRW5fbi1pRVVnVUgzVHdJ...",
+        "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
         "publishedAt": "2026-04-18T11:42:34.000Z",
         "source": "新华网"
       },
       {
+        "title": "探访国内首部多维度楼体沉浸式演艺《再回闽南》",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9RemdkRkVLR2gzeng1a0JCemJPT3lkSVRWY2pZYkg5dUxPWndXczI1emZHWFF5UnhadDhfOXp3SENkeWlBMUJaSG5tM1JCaktNdUtBcllNZzl0akVLMUpIMllNYXJyS1F3ZVE?oc=5",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE9RemdkRkVLR2gzeng1a0JCemJPT3lkSVRWY2pZYkg5dUxPWndXczI1emZHWFF5UnhadDhfOXp3SENkeWlBMUJaSG5t...",
+        "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+        "publishedAt": "2026-04-17T07:46:00.000Z",
+        "source": "人民网-福建频道"
+      },
+      {
         "title": "2026年一季度国内生产总值初步核算结果",
         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE95eW4xVGp5dHFXUDc4WGJ2eFlQN1paRzFfR2tKZ0JDMC1rc3VMRmFOYmVXeU94YU1Uc2dYUWtJV3N4Ny1CbS0wQjBQeHJ4bVcwTkk1N0didUxwMjNLdmFyY3MycF8zbExfUlBLVWUzNA?oc=5",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE95eW4xVGp5dHFXUDc4WGJ2eFlQN1paRzFfR2tKZ0JDMC1rc3VMRmFOYmVXeU94YU1Uc2dYUWtJV3N4Ny...",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE95eW4xVGp5dHFXUDc4WGJ2eFlQN1paRzFfR2tKZ0JDMC1rc3VMRmFOYmVXeU94YU1Uc2dYUWtJV3N4Ny1CbS0wQjBQ...",
+        "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
         "publishedAt": "2026-04-17T01:30:00.000Z",
         "source": "stats.gov.cn"
       },
       {
         "title": "昆明上榜“五一”假期国内机票热门目的地",
         "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE52clRDTWpNWUFyTExyUFV5QnZ0Q3lCaG42NDNSTFl2S3ZmSExwdjJlWGxDLThleXVJa0J4VTBJMWx4SVhocDBuTjJXUUUwX2FnaFpJUXgzbnlSeVdaS1Fxck1ObjE2UGhPYmNmd2tZXzlfYUZhVlRxT2tn?oc=5",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE52clRDTWpNWUFyTExyUFV5QnZ0Q3lCaG42NDNSTFl2S3ZmSExwdjJlWGxDLThleXVJa0J4VTBJMWx4SV...",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE52clRDTWpNWUFyTExyUFV5QnZ0Q3lCaG42NDNSTFl2S3ZmSExwdjJlWGxDLThleXVJa0J4VTBJMWx4SVhocDBuTjJX...",
+        "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
         "publishedAt": "2026-04-17T01:04:15.000Z",
         "source": "新华网云南"
-      },
-      {
-        "title": "国内生产总值同比增长5% 彰显强大韧性与旺盛活力 一季度国民经济实现良好开局",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORko3ZzNUMXdYY29OY0RMX2ZHU3d6OEZYOFFRUFpxQnpTcWZlaG01a1lvSDdqU0hhLXBodGh2MFJMaC1va2cwVnl5N1pPM1NXalF2TFB4UzROaXcxUG5XV2UyUTRvWVh2QUFpeExaVFdxODNnNG9Yd0g0OFBqVUJDcw?oc=5",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxORko3ZzNUMXdYY29OY0RMX2ZHU3d6OEZYOFFRUFpxQnpTcWZlaG01a1lvSDdqU0hhLXBodGh2MFJMaC...",
-        "publishedAt": "2026-04-17T00:17:00.000Z",
-        "source": "北京市人民政府网站"
       }
     ],
     "international": [
       {
+        "title": "Australia's most-decorated soldier vows to 'fight' war crime charges",
+        "link": "https://www.bbc.com/news/articles/cy91r7ww3weo?at_medium=RSS&at_campaign=rss",
+        "summary": "Ben Roberts-Smith has given his first statement since he was charged with five counts of the war crime of murder last week.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6206/live/a6297cb0-3ba7-11f1-879d-1b2f5c3919b8.jpg",
+        "publishedAt": "2026-04-19T05:12:40.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "How 24 hours of whiplash over the Strait of Hormuz unfolded",
         "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOVdhMmtxaE9LdEZEWkh1MVp5VXl0cUhWR2swSlIteVRxWUNjVzRCek1iVnVwT0ZFMjRJQzJJVDYzMGhnTjFadXJLVEl6RVlKaWZ0aC1XSVBDRDFNYVAza1YxYkhxUml0TDBlS0dPZDVyUWpxYjB6QW40RjhoTHBQY2RqM3NJSXZxUkE?oc=5",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxOOVdhMmtxaE9LdEZEWkh1MVp5VXl0cUhWR2swSlIteVRxWUNjVzRCek1iVnVwT0ZFMjRJQzJJVDYzMG...",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxOOVdhMmtxaE9LdEZEWkh1MVp5VXl0cUhWR2swSlIteVRxWUNjVzRCek1iVnVwT0ZFMjRJQzJJVDYzMGhnTjFadXJL...",
+        "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
         "publishedAt": "2026-04-18T21:56:01.000Z",
         "source": "CNN"
       },
@@ -113,20 +131,15 @@
         "title": "Mexico's Sheinbaum denies 'diplomatic crisis' with Spain after conquest row",
         "link": "https://www.bbc.com/news/articles/cp86r29l45go?at_medium=RSS&at_campaign=rss",
         "summary": "The Mexican president says there were never tension over Spainish colonisation, which had become a thorny issue.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f750/live/f7e22680-3b28-11f1-bdd4-fdf1a2a9ebde.jpg",
         "publishedAt": "2026-04-18T21:27:56.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Strait of Hormuz closed again, Iran says, as ships attacked",
-        "link": "https://www.bbc.com/news/articles/cx2631x6nelo?at_medium=RSS&at_campaign=rss",
-        "summary": "Iran is blaming a US blockade for the closure, saying it breaches the ceasefire reached between the two countries.",
-        "publishedAt": "2026-04-18T21:19:46.000Z",
         "source": "BBC"
       },
       {
         "title": "At least six killed in Kyiv as gunman opens fire and takes hostages",
         "link": "https://www.bbc.com/news/articles/cm25r1vkx4lo?at_medium=RSS&at_campaign=rss",
         "summary": "The attacker, who took hostages inside a supermarket, was killed after a shoot-out with police, officials say.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f579/live/9699abd0-3b4d-11f1-879d-1b2f5c3919b8.png",
         "publishedAt": "2026-04-18T18:09:57.000Z",
         "source": "BBC"
       },
@@ -134,51 +147,58 @@
         "title": "Pope says 'tyrants' speech was not aimed at Trump",
         "link": "https://www.bbc.com/news/articles/ce84j261kj1o?at_medium=RSS&at_campaign=rss",
         "summary": "The pontiff says his remarks have been misinterpreted after a spat with the US president.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/55fc/live/431c31e0-3b5b-11f1-8606-05fe34b06e1b.jpg",
         "publishedAt": "2026-04-18T16:44:39.000Z",
         "source": "BBC"
       }
     ],
     "nba": [
       {
-        "title": "Murray's FT dominance irks Wolves, lifts Nuggets",
-        "link": "https://www.espn.com/nba/story/_/id/48527044/murray-16-16-night-line-lifts-nuggets-game-1-win",
-        "summary": "Jamal Murray had a tremendous night at the free throw line, making all 16 of his attempts to carry the Nuggets past the Wolves in Game 1, du...",
-        "publishedAt": "2026-04-19T02:17:51.000Z",
+        "title": "Kennard, James team to upset Rockets in opener",
+        "link": "https://www.espn.com/nba/story/_/id/48528333/luke-kennard-lebron-james-team-upset-rockets-opener",
+        "summary": "Luke Kennard scored a career playoff-high 27 points, LeBron James had 19 points and 13 assists, and the short-handed Los Angeles Lakers capitalized on...",
+        "image": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0419%2Fr1645790_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-04-19T06:24:44.000Z",
         "source": "ESPN"
       },
       {
-        "title": "Durant out for G1 vs. Lakers with knee contusion",
-        "link": "https://www.espn.com/nba/story/_/id/48526113/rockets-kevin-durant-g1-vs-lakers-knee-contusion",
-        "summary": "Kevin Durant will miss the Houston Rockets' playoff opener against the Los Angeles Lakers with a knee injury.",
-        "publishedAt": "2026-04-19T02:17:51.000Z",
+        "title": "Murray's FT dominance irks Wolves, lifts Nuggets",
+        "link": "https://www.espn.com/nba/story/_/id/48527044/murray-16-16-night-line-lifts-nuggets-game-1-win",
+        "summary": "Jamal Murray had a tremendous night at the free throw line, making all 16 of his attempts to carry the Nuggets past the Wolves in Game 1, during which...",
+        "image": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0419%2Fr1645707_1024x576_16%2D9.jpg",
+        "publishedAt": "2026-04-19T06:24:44.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "Buoyed by Brunson, Knicks seal 'hard-fought win'",
+        "link": "https://www.espn.com/nba/story/_/id/48528923/jalen-brunson-nets-28-points-knicks-outlast-hawks-game-1",
+        "summary": "Jalen Brunson crossed the 20-point mark for the 38th time in a Knicks uniform, finishing with 28 on Saturday at Madison Square Garden, and New York po...",
+        "image": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0419%2Fr1645815_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-04-19T06:24:44.000Z",
         "source": "ESPN"
       },
       {
         "title": "Raps' Quickley (hamstring) misses G1 loss to Cavs",
         "link": "https://www.espn.com/nba/story/_/id/48522217/raptors-quickley-hamstring-miss-game-1-vs-cavaliers",
         "summary": "Raptors guard Immanuel Quickley missed Game 1's loss to the Cavaliers as he continues to recover from a hamstring injury.",
-        "publishedAt": "2026-04-19T02:17:51.000Z",
+        "image": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F1112%2Fr1414076_1024x576_16%2D9.jpg",
+        "publishedAt": "2026-04-19T06:24:44.000Z",
         "source": "ESPN"
       },
       {
         "title": "Spurs motivated, inspired by Popovich address",
         "link": "https://www.espn.com/nba/story/_/id/48522561/gregg-popovich-addresses-spurs-prior-playoff-series-vs-portland",
-        "summary": "Hall of Famer and former coach Gregg Popovich, who continues to rehab from a stroke, addressed the Spurs prior to their playoff series again...",
-        "publishedAt": "2026-04-19T02:17:51.000Z",
+        "summary": "Hall of Famer and former coach Gregg Popovich, who continues to rehab from a stroke, addressed the Spurs prior to their playoff series against the Tra...",
+        "image": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2025%2F0502%2Fr1487021_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-04-19T06:24:44.000Z",
         "source": "ESPN"
       },
       {
         "title": "Kerr on future: These jobs have 'expiration date'",
         "link": "https://www.espn.com/nba/story/_/id/48519533/warriors-kerr-mull-future-knows-jobs-expiration-dates",
-        "summary": "Steve Kerr acknowledged his future with the Warriors was uncertain following a season-ending loss to the Suns, saying, \"When the run ends, s...",
-        "publishedAt": "2026-04-19T02:17:51.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "OKC remains title betting fave; Spurs, C's follow",
-        "link": "https://www.espn.com/espn/betting/story/_/id/48521772/thunder-remain-nba-title-betting-favorites-spurs-celtics-follow",
-        "summary": "The Thunder (+110) remain large betting favorites to repeat as NBA champions, but the betting public also likes the Spurs (+500) and Celtics...",
-        "publishedAt": "2026-04-19T02:17:51.000Z",
+        "summary": "Steve Kerr acknowledged his future with the Warriors was uncertain following a season-ending loss to the Suns, saying, \"When the run ends, sometimes i...",
+        "image": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0418%2Fr1645401_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-04-19T06:24:44.000Z",
         "source": "ESPN"
       }
     ]
@@ -265,13 +285,13 @@
     ]
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-04-19",
+    "rotationLabel": "Curated Rotation ? 2026-04-19",
     "sections": [
       {
         "id": "data-storage",
-        "title": "数据存储相关",
-        "description": "数据库、分布式存储、向量检索与存储系统方向的经典与高影响力论文。",
-        "rotationHint": "每日轮换 3 篇",
+        "title": "??????",
+        "description": "????????????????????????????????",
+        "rotationHint": "???? 3 ?",
         "items": [
           {
             "id": "data-storage-4",
@@ -292,7 +312,7 @@
             ],
             "link": "https://research.google/pubs/pub36632/",
             "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
-            "trackLabel": "今日主推"
+            "trackLabel": "????"
           },
           {
             "id": "data-storage-5",
@@ -312,7 +332,7 @@
             ],
             "link": "https://arxiv.org/abs/2401.08281",
             "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "????"
           },
           {
             "id": "data-storage-6",
@@ -333,15 +353,15 @@
             ],
             "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
             "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "????"
           }
         ]
       },
       {
         "id": "computer-vision",
-        "title": "计算机视觉相关",
-        "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表性论文。",
-        "rotationHint": "每日轮换 3 篇",
+        "title": "???????",
+        "description": "?????????????????????????????",
+        "rotationHint": "???? 3 ?",
         "items": [
           {
             "id": "computer-vision-5",
@@ -362,7 +382,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.02643",
             "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
-            "trackLabel": "今日主推"
+            "trackLabel": "????"
           },
           {
             "id": "computer-vision-6",
@@ -383,7 +403,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.07193",
             "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "????"
           },
           {
             "id": "computer-vision-1",
@@ -404,15 +424,15 @@
             ],
             "link": "https://arxiv.org/abs/1512.03385",
             "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "????"
           }
         ]
       },
       {
         "id": "llm-memory",
-        "title": "大模型记忆库相关",
-        "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
-        "rotationHint": "每日轮换 3 篇",
+        "title": "????????",
+        "description": "RAG????????????????????????",
+        "rotationHint": "???? 3 ?",
         "items": [
           {
             "id": "llm-memory-6",
@@ -433,7 +453,7 @@
             ],
             "link": "https://arxiv.org/abs/2409.05591",
             "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
-            "trackLabel": "今日主推"
+            "trackLabel": "????"
           },
           {
             "id": "llm-memory-1",
@@ -454,7 +474,7 @@
             ],
             "link": "https://arxiv.org/abs/2005.11401",
             "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "????"
           },
           {
             "id": "llm-memory-2",
@@ -475,15 +495,15 @@
             ],
             "link": "https://arxiv.org/abs/2203.08913",
             "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "????"
           }
         ]
       },
       {
         "id": "agents",
-        "title": "Agent 相关",
-        "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表性论文。",
-        "rotationHint": "每日轮换 3 篇",
+        "title": "Agent ??",
+        "description": "???????????? Agent ????? Agent ??????",
+        "rotationHint": "???? 3 ?",
         "items": [
           {
             "id": "agents-1",
@@ -505,7 +525,7 @@
             ],
             "link": "https://arxiv.org/abs/2210.03629",
             "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
-            "trackLabel": "今日主推"
+            "trackLabel": "????"
           },
           {
             "id": "agents-2",
@@ -526,7 +546,7 @@
             ],
             "link": "https://arxiv.org/abs/2302.04761",
             "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "????"
           },
           {
             "id": "agents-3",
@@ -547,7 +567,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.03442",
             "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "????"
           }
         ]
       }

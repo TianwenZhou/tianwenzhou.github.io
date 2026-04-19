@@ -4,10 +4,17 @@ const dom = {
   generatedAt: document.querySelector("#generatedAt"),
   weatherLocation: document.querySelector("#weatherLocation"),
   weatherCurrent: document.querySelector("#weatherCurrent"),
+  weatherVisual: document.querySelector("#weatherVisual"),
+  weatherCondition: document.querySelector("#weatherCondition"),
+  weatherTemperature: document.querySelector("#weatherTemperature"),
+  weatherDescription: document.querySelector("#weatherDescription"),
+  weatherWind: document.querySelector("#weatherWind"),
+  weatherRange: document.querySelector("#weatherRange"),
+  weatherRain: document.querySelector("#weatherRain"),
   weatherDaily: document.querySelector("#weatherDaily"),
   currentDate: document.querySelector("#currentDate"),
   currentTime: document.querySelector("#currentTime"),
-  schedulePanel: document.querySelector("#schedulePanel"),
+  featuredPlacePanel: document.querySelector("#featuredPlacePanel"),
   domesticNews: document.querySelector("#domesticNews"),
   internationalNews: document.querySelector("#internationalNews"),
   nbaScoreboard: document.querySelector("#nbaScoreboard"),
@@ -18,26 +25,65 @@ const dom = {
 };
 
 const weatherCodeMap = {
-  0: "晴朗",
-  1: "基本晴",
-  2: "局部多云",
-  3: "阴天",
-  45: "有雾",
-  48: "雾凇",
-  51: "小毛毛雨",
-  53: "毛毛雨",
-  55: "强毛毛雨",
-  61: "小雨",
-  63: "中雨",
-  65: "大雨",
-  71: "小雪",
-  73: "中雪",
-  75: "大雪",
-  80: "阵雨",
-  81: "强阵雨",
-  82: "暴雨",
-  95: "雷暴",
+  0: "??",
+  1: "???",
+  2: "????",
+  3: "??",
+  45: "??",
+  48: "??",
+  51: "???",
+  53: "??",
+  55: "??",
+  61: "??",
+  63: "??",
+  65: "??",
+  71: "??",
+  73: "??",
+  75: "??",
+  80: "??",
+  81: "???",
+  82: "??",
+  95: "??",
 };
+
+const weatherVisuals = {
+  clear: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+  cloudy: "https://images.unsplash.com/photo-1499346030926-9a72daac6c63?auto=format&fit=crop&w=1200&q=80",
+  rain: "https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?auto=format&fit=crop&w=1200&q=80",
+  snow: "https://images.unsplash.com/photo-1483664852095-d6cc6870702d?auto=format&fit=crop&w=1200&q=80",
+  storm: "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1200&q=80",
+  fog: "https://images.unsplash.com/photo-1487621167305-5d248087c724?auto=format&fit=crop&w=1200&q=80",
+};
+
+const newsFallbacks = {
+  domestic: "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1200&q=80",
+  international: "https://images.unsplash.com/photo-1521295121783-8a321d551ad2?auto=format&fit=crop&w=1200&q=80",
+  nba: "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1200&q=80",
+};
+
+function getWeatherVisual(weatherCode) {
+  if ([45, 48].includes(weatherCode)) {
+    return weatherVisuals.fog;
+  }
+
+  if ([71, 73, 75].includes(weatherCode)) {
+    return weatherVisuals.snow;
+  }
+
+  if ([95].includes(weatherCode)) {
+    return weatherVisuals.storm;
+  }
+
+  if ([51, 53, 55, 61, 63, 65, 80, 81, 82].includes(weatherCode)) {
+    return weatherVisuals.rain;
+  }
+
+  if ([2, 3].includes(weatherCode)) {
+    return weatherVisuals.cloudy;
+  }
+
+  return weatherVisuals.clear;
+}
 
 function formatDateTime(value) {
   const date = new Date(value);
@@ -83,19 +129,15 @@ function renderEmpty(element) {
 }
 
 function renderWeather(weather) {
-  dom.weatherLocation.textContent = weather.location;
   dom.weatherCurrent.classList.remove("skeleton");
-  dom.weatherCurrent.innerHTML = `
-    <div>
-      <strong>${weather.current.temperature}°C</strong>
-      <p>${weatherCodeMap[weather.current.weatherCode] ?? "天气更新中"}</p>
-    </div>
-    <div>
-      <p>风速 ${weather.current.windSpeed} km/h</p>
-      <p>最高 ${weather.today.max}°C / 最低 ${weather.today.min}°C</p>
-      <p>降水概率 ${weather.today.precipitationProbability}%</p>
-    </div>
-  `;
+  dom.weatherLocation.textContent = weather.location;
+  dom.weatherCondition.textContent = weatherCodeMap[weather.current.weatherCode] ?? "?????";
+  dom.weatherTemperature.textContent = `${weather.current.temperature}?C`;
+  dom.weatherDescription.textContent = `${weatherCodeMap[weather.current.weatherCode] ?? "?????"} ? ????`;
+  dom.weatherWind.textContent = `?? ${weather.current.windSpeed} km/h`;
+  dom.weatherRange.textContent = `?? ${weather.today.max}? / ${weather.today.min}?`;
+  dom.weatherRain.textContent = `?? ${weather.today.precipitationProbability}%`;
+  dom.weatherVisual.style.backgroundImage = `linear-gradient(180deg, rgba(7, 25, 46, 0.10), rgba(7, 25, 46, 0.42)), url(${getWeatherVisual(weather.current.weatherCode)})`;
 
   clearElement(dom.weatherDaily);
   weather.forecast.forEach((day) => {
@@ -103,15 +145,40 @@ function renderWeather(weather) {
     node.className = "forecast-card";
     node.innerHTML = `
       <p class="date">${formatDate(day.date)}</p>
-      <div class="temp">${day.max}° / ${day.min}°</div>
-      <p>${weatherCodeMap[day.weatherCode] ?? "天气更新中"}</p>
-      <p>降水 ${day.precipitationProbability}%</p>
+      <div class="temp">${day.max}? / ${day.min}?</div>
+      <p>${weatherCodeMap[day.weatherCode] ?? "?????"}</p>
+      <p>?? ${day.precipitationProbability}%</p>
     `;
     dom.weatherDaily.append(node);
   });
 }
 
-function renderNews(container, items) {
+function renderFeaturedPlace(featuredPlace) {
+  clearElement(dom.featuredPlacePanel);
+
+  if (!featuredPlace) {
+    dom.featuredPlacePanel.innerHTML = `
+      <div class="empty-state neutral-state">
+        <p>????????????</p>
+      </div>
+    `;
+    return;
+  }
+
+  dom.featuredPlacePanel.classList.remove("skeleton");
+  dom.featuredPlacePanel.innerHTML = `
+    <a class="featured-place-card" href="${featuredPlace.link}" target="_blank" rel="noreferrer" style="background-image: linear-gradient(180deg, rgba(6, 16, 28, 0.08), rgba(6, 16, 28, 0.75)), url(${featuredPlace.image});">
+      <div class="featured-place-content">
+        <span class="featured-place-tag">${featuredPlace.region}</span>
+        <h3>${featuredPlace.title}</h3>
+        <p class="featured-place-location">${featuredPlace.location}</p>
+        <p class="featured-place-summary">${featuredPlace.summary}</p>
+      </div>
+    </a>
+  `;
+}
+
+function renderNews(container, items, section) {
   clearElement(container);
   if (!items.length) {
     renderEmpty(container);
@@ -120,16 +187,22 @@ function renderNews(container, items) {
 
   items.forEach((item) => {
     const node = document.createElement("a");
-    node.className = "news-item";
+    node.className = "news-item premium-news-card";
     node.href = item.link;
     node.target = "_blank";
     node.rel = "noreferrer";
     const summary = item.summary ? `<p>${item.summary}</p>` : "";
+    const image = item.image || newsFallbacks[section] || newsFallbacks.international;
+    node.style.backgroundImage = `linear-gradient(180deg, rgba(7, 17, 29, 0.18), rgba(7, 17, 29, 0.88)), url(${image})`;
     node.innerHTML = `
-      <time datetime="${item.publishedAt}">${formatDateTime(item.publishedAt)}</time>
-      <h3>${item.title}</h3>
-      ${summary}
-      <span class="news-source">${item.source ?? ""}</span>
+      <div class="news-card-topline">
+        <span class="news-source-badge">${item.source ?? "News"}</span>
+        <time datetime="${item.publishedAt}">${formatDateTime(item.publishedAt)}</time>
+      </div>
+      <div class="news-card-body">
+        <h3>${item.title}</h3>
+        ${summary}
+      </div>
     `;
     container.append(node);
   });
@@ -192,64 +265,14 @@ function renderNbaScoreboard(scoreboard) {
   dom.nbaScoreboard.append(wrapper);
 }
 
-function formatScheduleTime(value) {
-  const date = new Date(value);
-  return new Intl.DateTimeFormat("zh-CN", {
-    month: "numeric",
-    day: "numeric",
-    weekday: "short",
-    hour: "2-digit",
-    minute: "2-digit",
-    hour12: false,
-    timeZone: "Asia/Shanghai",
-  }).format(date);
-}
-
-function renderSchedule(schedule) {
-  clearElement(dom.schedulePanel);
-
-  if (!schedule?.enabled) {
-    dom.schedulePanel.innerHTML = `
-      <div class="empty-state neutral-state">
-        <p>??????? Google Calendar ??????????</p>
-      </div>
-    `;
-    return;
-  }
-
-  if (!schedule.items?.length) {
-    dom.schedulePanel.innerHTML = `
-      <div class="empty-state neutral-state">
-        <p>Google Calendar ???????????????????????????????</p>
-      </div>
-    `;
-    return;
-  }
-
-  const list = document.createElement("div");
-  list.className = "schedule-list";
-  list.innerHTML = schedule.items
-    .map(
-      (item) => `
-        <article class="schedule-item">
-          <p class="schedule-time">${formatScheduleTime(item.start)}</p>
-          <h3>${item.title}</h3>
-          <p>${item.location ?? "Google Calendar"}</p>
-        </article>
-      `,
-    )
-    .join("");
-  dom.schedulePanel.append(list);
-}
-
 function renderPaperCard(paper) {
-  const authors = paper.authors?.length ? paper.authors.join(" / ") : "作者信息待补充";
-  const tags = [paper.venue, paper.year, paper.quality].filter(Boolean).join(" · ");
+  const authors = paper.authors?.length ? paper.authors.join(" / ") : "???????";
+  const tags = [paper.venue, paper.year, paper.quality].filter(Boolean).join(" ? ");
 
   return `
     <article class="paper-card">
       <div class="paper-meta">
-        <span>${paper.trackLabel ?? "精选推荐"}</span>
+        <span>${paper.trackLabel ?? "????"}</span>
         <span>${tags}</span>
       </div>
       <h3>${paper.title}</h3>
@@ -257,7 +280,7 @@ function renderPaperCard(paper) {
       <p class="paper-authors">${authors}</p>
       <footer>
         <span class="pill">${paper.categories.join(", ")}</span>
-        <a href="${paper.link}" target="_blank" rel="noreferrer">查看论文</a>
+        <a href="${paper.link}" target="_blank" rel="noreferrer">????</a>
       </footer>
     </article>
   `;
@@ -277,7 +300,7 @@ function renderPaperSections(sections) {
 
     const body = section.items.length
       ? section.items.map(renderPaperCard).join("")
-      : `<div class="empty-state"><p>这个板块今天还没有可展示的精选论文。</p></div>`;
+      : `<div class="empty-state"><p>??????????????????</p></div>`;
 
     wrapper.innerHTML = `
       <header class="paper-section-header">
@@ -285,7 +308,7 @@ function renderPaperSections(sections) {
           <h3>${section.title}</h3>
           <p>${section.description}</p>
         </div>
-        <span class="panel-tag">${section.rotationHint ?? `${section.items.length} 篇`}</span>
+        <span class="panel-tag">${section.rotationHint ?? `${section.items.length} ?`}</span>
       </header>
       <div class="paper-grid">
         ${body}
@@ -297,14 +320,14 @@ function renderPaperSections(sections) {
 }
 
 function renderPage(data) {
-  dom.generatedAt.textContent = `数据更新时间：${formatDateTime(data.generatedAt)}`;
+  dom.generatedAt.textContent = `???????${formatDateTime(data.generatedAt)}`;
   dom.paperRotationLabel.textContent = data.aiPapers.rotationLabel ?? "Daily Rotation";
   renderWeather(data.weather);
-  renderSchedule(data.schedule);
-  renderNews(dom.domesticNews, data.news.domestic ?? []);
-  renderNews(dom.internationalNews, data.news.international ?? []);
+  renderFeaturedPlace(data.featuredPlace);
+  renderNews(dom.domesticNews, data.news.domestic ?? [], "domestic");
+  renderNews(dom.internationalNews, data.news.international ?? [], "international");
   renderNbaScoreboard(data.nbaScoreboard);
-  renderNews(dom.nbaNews, data.news.nba ?? []);
+  renderNews(dom.nbaNews, data.news.nba ?? [], "nba");
   renderPaperSections(data.aiPapers.sections ?? []);
 }
 
@@ -312,6 +335,8 @@ function renderError(message) {
   dom.generatedAt.textContent = message;
   dom.weatherCurrent.classList.remove("skeleton");
   dom.weatherCurrent.innerHTML = `<div class="error-state"><p>${message}</p></div>`;
+  dom.featuredPlacePanel.classList.remove("skeleton");
+  dom.featuredPlacePanel.innerHTML = `<div class="error-state"><p>${message}</p></div>`;
   clearElement(dom.weatherDaily);
   renderEmpty(dom.domesticNews);
   renderEmpty(dom.internationalNews);
@@ -331,7 +356,7 @@ async function loadBrief() {
     const data = await response.json();
     renderPage(data);
   } catch (error) {
-    renderError(`读取每日摘要失败：${error.message}`);
+    renderError(`?????????${error.message}`);
   }
 }
 
