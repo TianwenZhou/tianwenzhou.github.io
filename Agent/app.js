@@ -488,6 +488,60 @@ function formatGameTime(value) {
   }).format(date);
 }
 
+function renderTeamLeaderPanel(team) {
+  const leaders = team.leaders ?? [];
+
+  const body = leaders.length
+    ? leaders
+        .map((leader) => {
+          const summary = leader.summary
+            ? `<p class="team-leader-summary">${leader.summary}</p>`
+            : "";
+          const headshot = leader.headshot
+            ? `<img src="${leader.headshot}" alt="${leader.player}" loading="lazy" />`
+            : `<div class="team-leader-avatar-fallback">${leader.label}</div>`;
+          const badge = [leader.position, leader.jersey ? `#${leader.jersey}` : ""]
+            .filter(Boolean)
+            .join(" · ");
+
+          return `
+            <div class="team-leader-row">
+              <div class="team-leader-avatar">
+                ${headshot}
+              </div>
+              <div class="team-leader-copy">
+                <div class="team-leader-topline">
+                  <span class="team-leader-stat">${leader.label} ${leader.value}</span>
+                  <span class="team-leader-name">${leader.player}</span>
+                </div>
+                ${badge ? `<p class="team-leader-badge">${badge}</p>` : ""}
+                ${summary}
+              </div>
+            </div>
+          `;
+        })
+        .join("")
+    : `<div class="team-leader-empty">Team leader stats are not available yet.</div>`;
+
+  return `
+    <section class="team-leader-panel">
+      <div class="team-leader-header">
+        <div class="team-leader-team">
+          <img src="${team.logo}" alt="${team.abbreviation}" loading="lazy" />
+          <div>
+            <strong>${team.abbreviation}</strong>
+            <span>${team.displayName ?? team.abbreviation}</span>
+          </div>
+        </div>
+        <span class="team-leader-chip">Leaders</span>
+      </div>
+      <div class="team-leader-list">
+        ${body}
+      </div>
+    </section>
+  `;
+}
+
 function renderNbaScoreboard(scoreboard) {
   clearElement(dom.nbaScoreboard);
 
@@ -523,6 +577,10 @@ function renderNbaScoreboard(scoreboard) {
               <span>${game.homeTeam.abbreviation}</span>
             </div>
             <strong>${game.homeTeam.score}</strong>
+          </div>
+          <div class="scoreboard-leaders">
+            ${renderTeamLeaderPanel(game.awayTeam)}
+            ${renderTeamLeaderPanel(game.homeTeam)}
           </div>
           <p class="scoreboard-note">${game.note}</p>
         </a>

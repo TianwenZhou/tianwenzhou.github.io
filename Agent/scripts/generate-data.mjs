@@ -555,6 +555,47 @@ function getGameStatus(status) {
 
 async function fetchNbaScoreboard() {
   const data = await fetchJson(defaults.nbaScoreboardUrl);
+  const leaderOrder = ["pointsPerGame", "reboundsPerGame", "assistsPerGame"];
+
+  function getAthleteHeadshot(athlete) {
+    if (!athlete) {
+      return "";
+    }
+
+    if (typeof athlete.headshot === "string") {
+      return athlete.headshot;
+    }
+
+    return athlete.headshot?.href ?? "";
+  }
+
+  function formatTeamLeaders(competitor) {
+    const categories = competitor?.leaders ?? [];
+
+    return leaderOrder
+      .map((name) => categories.find((category) => category.name === name))
+      .filter(Boolean)
+      .map((category) => {
+        const leader = category.leaders?.[0];
+        const athlete = leader?.athlete ?? {};
+        return {
+          label:
+            leader?.mainStat?.label ??
+            category.shortDisplayName ??
+            category.abbreviation ??
+            category.displayName ??
+            "",
+          value: leader?.displayValue ?? leader?.mainStat?.value ?? "--",
+          player: athlete.displayName ?? athlete.shortName ?? "--",
+          position: athlete.position?.abbreviation ?? "",
+          jersey: athlete.jersey ?? "",
+          summary: leader?.summary ?? "",
+          headshot: getAthleteHeadshot(athlete),
+          link: athlete.links?.find((link) => link.href)?.href ?? "",
+        };
+      });
+  }
+
   const games = (data.events ?? []).slice(0, 4).map((event) => {
     const competition = event.competitions?.[0] ?? {};
     const competitors = competition.competitors ?? [];
@@ -574,13 +615,17 @@ async function fetchNbaScoreboard() {
       note: competition.notes?.[0]?.headline ?? event.name,
       homeTeam: {
         abbreviation: homeTeam?.team?.abbreviation ?? "HOME",
+        displayName: homeTeam?.team?.displayName ?? "Home Team",
         score: homeTeam?.score ?? "-",
         logo: homeTeam?.team?.logo ?? "",
+        leaders: formatTeamLeaders(homeTeam),
       },
       awayTeam: {
         abbreviation: awayTeam?.team?.abbreviation ?? "AWAY",
+        displayName: awayTeam?.team?.displayName ?? "Away Team",
         score: awayTeam?.score ?? "-",
         logo: awayTeam?.team?.logo ?? "",
+        leaders: formatTeamLeaders(awayTeam),
       },
     };
   });

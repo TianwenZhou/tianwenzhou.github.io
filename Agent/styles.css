@@ -852,6 +852,11 @@ img {
   flex-direction: column;
 }
 
+.nba-page-panel {
+  min-height: 1080px;
+  height: 1080px;
+}
+
 .news-panel-heading {
   position: sticky;
   top: 0;
@@ -1037,6 +1042,137 @@ img {
   height: 24px;
   object-fit: contain;
   flex: 0 0 auto;
+}
+
+.scoreboard-leaders {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.team-leader-panel {
+  display: grid;
+  gap: 10px;
+  padding: 12px;
+  border-radius: 16px;
+  background: rgba(244, 249, 253, 0.92);
+  border: 1px solid rgba(196, 215, 230, 0.7);
+}
+
+.team-leader-header,
+.team-leader-team,
+.team-leader-topline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.team-leader-team {
+  justify-content: flex-start;
+  min-width: 0;
+}
+
+.team-leader-team img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  flex: 0 0 auto;
+}
+
+.team-leader-team div {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+}
+
+.team-leader-team strong {
+  font-size: 14px;
+}
+
+.team-leader-team span,
+.team-leader-badge,
+.team-leader-summary,
+.team-leader-empty {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.team-leader-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: rgba(15, 108, 189, 0.1);
+  color: var(--accent);
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.team-leader-list {
+  display: grid;
+  gap: 8px;
+}
+
+.team-leader-row {
+  display: grid;
+  grid-template-columns: 38px minmax(0, 1fr);
+  gap: 10px;
+  align-items: start;
+}
+
+.team-leader-avatar {
+  width: 38px;
+  height: 38px;
+}
+
+.team-leader-avatar img,
+.team-leader-avatar-fallback {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.team-leader-avatar img {
+  object-fit: cover;
+  border: 1px solid rgba(196, 215, 230, 0.7);
+  background: rgba(255, 255, 255, 0.86);
+}
+
+.team-leader-avatar-fallback {
+  display: grid;
+  place-items: center;
+  background: rgba(15, 108, 189, 0.12);
+  color: var(--accent);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.team-leader-copy {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+}
+
+.team-leader-topline {
+  align-items: baseline;
+}
+
+.team-leader-stat {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text);
+  white-space: nowrap;
+}
+
+.team-leader-name {
+  min-width: 0;
+  text-align: right;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
 }
 
 .scoreboard-status {
@@ -1274,6 +1410,10 @@ img {
   .widget-grid-nba > .panel {
     min-height: auto;
     height: auto;
+  }
+
+  .scoreboard-leaders {
+    grid-template-columns: 1fr;
   }
 
   .premium-news-list {
