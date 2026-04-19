@@ -24,6 +24,8 @@ const dom = {
   emptyStateTemplate: document.querySelector("#emptyStateTemplate"),
 };
 
+let featuredPlaceTimer = null;
+
 const weatherCodeMap = {
   0: "晴朗",
   1: "基本晴",
@@ -62,12 +64,21 @@ const weatherVisuals = {
 };
 
 const newsFallbacks = {
-  domestic:
+  domestic: [
     "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1200&q=80",
-  international:
+    "https://images.unsplash.com/photo-1514565131-fce0801e5785?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1547981609-4b6bf67db1a0?auto=format&fit=crop&w=1200&q=80",
+  ],
+  international: [
     "https://images.unsplash.com/photo-1521295121783-8a321d551ad2?auto=format&fit=crop&w=1200&q=80",
-  nba:
+    "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1200&q=80",
+  ],
+  nba: [
     "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1519861531473-9200262188bf?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1574623452334-1e0ac2b3ccb4?auto=format&fit=crop&w=1200&q=80",
+  ],
 };
 
 function getWeatherVisual(weatherCode) {
@@ -132,6 +143,48 @@ function clearElement(element) {
   element.innerHTML = "";
 }
 
+function hashString(value) {
+  return [...value].reduce(
+    (result, character) => result * 31 + character.charCodeAt(0),
+    7,
+  );
+}
+
+function hasUsableNewsImage(url) {
+  if (!url) {
+    return false;
+  }
+
+  try {
+    const parsed = new URL(url);
+    const host = parsed.hostname.toLowerCase();
+    return (
+      /^https?:$/.test(parsed.protocol) &&
+      !host.includes("googleusercontent.com") &&
+      !host.includes("gstatic.com") &&
+      !host.includes("news.google.com")
+    );
+  } catch {
+    return false;
+  }
+}
+
+function pickNewsFallback(section, key) {
+  const pool = newsFallbacks[section] ?? newsFallbacks.international;
+  return pool[Math.abs(hashString(key)) % pool.length];
+}
+
+function getNewsBackground(section, item, index) {
+  if (hasUsableNewsImage(item.image)) {
+    return item.image;
+  }
+
+  return pickNewsFallback(
+    section,
+    `${section}-${index}-${item.title}-${item.source ?? ""}`,
+  );
+}
+
 function renderEmpty(element) {
   clearElement(element);
   element.append(dom.emptyStateTemplate.content.cloneNode(true));
@@ -163,10 +216,15 @@ function renderWeather(weather) {
   });
 }
 
-function renderFeaturedPlace(featuredPlace) {
+function renderFeaturedPlace(featuredPlaces) {
+  if (featuredPlaceTimer) {
+    clearInterval(featuredPlaceTimer);
+    featuredPlaceTimer = null;
+  }
+
   clearElement(dom.featuredPlacePanel);
 
-  if (!featuredPlace) {
+  if (!featuredPlaces?.length) {
     dom.featuredPlacePanel.innerHTML = `
       <div class="empty-state neutral-state">
         <p>今天的世界风景还在路上。</p>
@@ -177,21 +235,57 @@ function renderFeaturedPlace(featuredPlace) {
 
   dom.featuredPlacePanel.classList.remove("skeleton");
   dom.featuredPlacePanel.innerHTML = `
-    <a
-      class="featured-place-card"
-      href="${featuredPlace.link}"
-      target="_blank"
-      rel="noreferrer"
-      style="background-image: linear-gradient(180deg, rgba(6, 16, 28, 0.04), rgba(6, 16, 28, 0.78)), url(${featuredPlace.image});"
-    >
+    <a class="featured-place-card" target="_blank" rel="noreferrer">
       <div class="featured-place-content">
-        <span class="featured-place-tag">${featuredPlace.region}</span>
-        <h3>${featuredPlace.title}</h3>
-        <p class="featured-place-location">${featuredPlace.location}</p>
-        <p class="featured-place-summary">${featuredPlace.summary}</p>
+        <span class="featured-place-tag" id="featuredPlaceRegion">--</span>
+        <h3 id="featuredPlaceName">--</h3>
+        <p class="featured-place-location" id="featuredPlaceLocation">--</p>
+        <p class="featured-place-summary" id="featuredPlaceSummary">--</p>
+        <div class="featured-place-footer">
+          <span class="featured-place-rotation">每 8 秒自动切换</span>
+          <div class="featured-place-dots" id="featuredPlaceDots"></div>
+        </div>
       </div>
     </a>
   `;
+
+  const card = dom.featuredPlacePanel.querySelector(".featured-place-card");
+  const region = dom.featuredPlacePanel.querySelector("#featuredPlaceRegion");
+  const name = dom.featuredPlacePanel.querySelector("#featuredPlaceName");
+  const location = dom.featuredPlacePanel.querySelector("#featuredPlaceLocation");
+  const summary = dom.featuredPlacePanel.querySelector("#featuredPlaceSummary");
+  const dots = dom.featuredPlacePanel.querySelector("#featuredPlaceDots");
+  let activeIndex = 0;
+
+  function renderSlide(index) {
+    const place = featuredPlaces[index];
+    card.href = place.link;
+    card.style.backgroundImage = `linear-gradient(180deg, rgba(6, 16, 28, 0.08), rgba(6, 16, 28, 0.82)), url(${place.image})`;
+    region.textContent = place.region;
+    name.textContent = place.title;
+    location.textContent = place.location;
+    summary.textContent = place.summary;
+    dots.innerHTML = featuredPlaces
+      .map(
+        (_, dotIndex) =>
+          `<span class="featured-place-dot${
+            dotIndex === index ? " is-active" : ""
+          }"></span>`,
+      )
+      .join("");
+    card.classList.remove("is-entering");
+    void card.offsetWidth;
+    card.classList.add("is-entering");
+  }
+
+  renderSlide(activeIndex);
+
+  if (featuredPlaces.length > 1) {
+    featuredPlaceTimer = window.setInterval(() => {
+      activeIndex = (activeIndex + 1) % featuredPlaces.length;
+      renderSlide(activeIndex);
+    }, 8000);
+  }
 }
 
 function renderNews(container, items, section) {
@@ -201,7 +295,7 @@ function renderNews(container, items, section) {
     return;
   }
 
-  items.forEach((item) => {
+  items.forEach((item, index) => {
     const node = document.createElement("a");
     node.className = "news-item premium-news-card";
     node.href = item.link;
@@ -209,7 +303,7 @@ function renderNews(container, items, section) {
     node.rel = "noreferrer";
 
     const summary = item.summary ? `<p>${item.summary}</p>` : "";
-    const image = item.image || newsFallbacks[section] || newsFallbacks.international;
+    const image = getNewsBackground(section, item, index);
     node.style.backgroundImage = `linear-gradient(180deg, rgba(7, 17, 29, 0.18), rgba(7, 17, 29, 0.90)), url(${image})`;
     node.innerHTML = `
       <div class="news-card-topline">
@@ -340,7 +434,10 @@ function renderPage(data) {
   dom.generatedAt.textContent = `数据更新时间：${formatDateTime(data.generatedAt)}`;
   dom.paperRotationLabel.textContent = data.aiPapers.rotationLabel ?? "Daily Rotation";
   renderWeather(data.weather);
-  renderFeaturedPlace(data.featuredPlace);
+  renderFeaturedPlace(
+    data.featuredPlaces ??
+      (data.featuredPlace ? [data.featuredPlace] : []),
+  );
   renderNews(dom.domesticNews, data.news.domestic ?? [], "domestic");
   renderNews(dom.internationalNews, data.news.international ?? [], "international");
   renderNbaScoreboard(data.nbaScoreboard);
@@ -349,6 +446,11 @@ function renderPage(data) {
 }
 
 function renderError(message) {
+  if (featuredPlaceTimer) {
+    clearInterval(featuredPlaceTimer);
+    featuredPlaceTimer = null;
+  }
+
   dom.generatedAt.textContent = message;
   dom.weatherCurrent.classList.remove("skeleton");
   dom.weatherCurrent.innerHTML = `<div class="error-state"><p>${message}</p></div>`;

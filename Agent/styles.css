@@ -60,6 +60,11 @@ img {
   gap: 24px;
 }
 
+.widget-grid-top {
+  grid-template-columns: minmax(0, 1.55fr) minmax(320px, 0.95fr);
+  align-items: stretch;
+}
+
 .widget-grid-news {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   align-items: stretch;
@@ -93,9 +98,20 @@ img {
 
 .scenic-heading {
   position: absolute;
-  inset: 28px 28px auto 28px;
+  inset: 20px 20px auto 20px;
   z-index: 2;
   margin: 0;
+}
+
+.scenic-heading .panel-kicker,
+.scenic-heading h2,
+.scenic-heading .panel-tag {
+  color: #f7fbff;
+}
+
+.scenic-heading .panel-tag {
+  background: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .panel-kicker {
@@ -261,19 +277,30 @@ img {
   position: relative;
   padding: 0;
   overflow: hidden;
+  min-height: 0;
 }
 
 .featured-place-hero {
-  min-height: clamp(460px, 78vh, 860px);
+  min-height: clamp(340px, 44vh, 420px);
+  height: 100%;
 }
 
 .featured-place-card {
   position: relative;
   display: block;
-  min-height: inherit;
+  min-height: 100%;
   height: 100%;
   background-position: center;
   background-size: cover;
+  transition: transform 240ms ease;
+}
+
+.featured-place-card:hover {
+  transform: scale(1.012);
+}
+
+.featured-place-card.is-entering {
+  animation: featured-place-fade 520ms ease;
 }
 
 .featured-place-card::before {
@@ -297,11 +324,11 @@ img {
 
 .featured-place-content {
   position: absolute;
-  inset: auto 34px 34px 34px;
+  inset: auto 24px 24px 24px;
   z-index: 1;
   display: grid;
-  gap: 12px;
-  max-width: min(620px, 100%);
+  gap: 10px;
+  max-width: min(520px, 100%);
   color: #f7fbff;
 }
 
@@ -320,20 +347,52 @@ img {
 }
 
 .featured-place-card h3 {
-  font-size: clamp(40px, 6vw, 68px);
+  font-size: clamp(30px, 3.2vw, 42px);
   line-height: 1.02;
 }
 
 .featured-place-location {
-  font-size: 16px;
+  font-size: 15px;
   color: rgba(245, 251, 255, 0.84);
 }
 
 .featured-place-summary {
-  max-width: 540px;
-  line-height: 1.8;
-  font-size: 16px;
+  max-width: 52ch;
+  line-height: 1.72;
+  font-size: 15px;
   color: rgba(245, 251, 255, 0.92);
+}
+
+.featured-place-footer {
+  margin-top: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+}
+
+.featured-place-rotation {
+  color: rgba(247, 251, 255, 0.82);
+  font-size: 13px;
+}
+
+.featured-place-dots {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.featured-place-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.18);
+}
+
+.featured-place-dot.is-active {
+  width: 22px;
+  background: rgba(255, 255, 255, 0.96);
 }
 
 .panel-title-line {
@@ -432,8 +491,10 @@ img {
   padding: 18px;
   border-radius: 22px;
   overflow: hidden;
+  background-color: #10263b;
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   color: #f8fbff;
   transform: translateY(0) scale(1);
   transition:
@@ -702,7 +763,23 @@ img {
   }
 }
 
+@keyframes featured-place-fade {
+  from {
+    opacity: 0.4;
+    transform: scale(1.02);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 @media (max-width: 1180px) {
+  .widget-grid-top {
+    grid-template-columns: 1fr;
+  }
+
   .weather-hero {
     grid-template-columns: 1fr;
   }
@@ -741,11 +818,11 @@ img {
 
 @media (max-width: 768px) {
   .featured-place-hero {
-    min-height: 420px;
+    min-height: 360px;
   }
 
   .featured-place-card h3 {
-    font-size: clamp(34px, 8vw, 52px);
+    font-size: clamp(30px, 8vw, 44px);
   }
 
   .featured-place-content {
@@ -770,7 +847,8 @@ img {
 
   .weather-hero-top,
   .weather-metrics,
-  .news-card-topline {
+  .news-card-topline,
+  .featured-place-footer {
     flex-direction: column;
     align-items: flex-start;
   }

@@ -8,62 +8,58 @@
       name="description"
       content="查看天气、时间、世界风景、新闻和高质量 AI 论文精选。"
     />
-    <link rel="stylesheet" href="./styles.css?v=20260419-4" />
+    <link rel="stylesheet" href="./styles.css?v=20260419-5" />
   </head>
   <body>
     <div class="page-shell">
       <main class="dashboard">
-        <section
-          class="panel panel-wide compact-weather-panel"
-          aria-labelledby="weatherTitle"
-        >
-          <div class="panel-heading compact-heading">
-            <div>
-              <p class="panel-kicker">Weather & Clock</p>
-              <h2 id="weatherTitle">天气与时间</h2>
+        <section class="widget-grid widget-grid-top">
+          <section class="panel compact-weather-panel" aria-labelledby="weatherTitle">
+            <div class="panel-heading compact-heading">
+              <div>
+                <p class="panel-kicker">Weather & Clock</p>
+                <h2 id="weatherTitle">天气与时间</h2>
+              </div>
+              <span class="panel-tag">Haidian · Asia/Shanghai</span>
             </div>
-            <span class="panel-tag">Haidian · Asia/Shanghai</span>
-          </div>
-          <div id="weatherCurrent" class="weather-current weather-hero skeleton">
-            <div id="weatherVisual" class="weather-visual"></div>
-            <div class="weather-hero-body">
-              <div class="weather-hero-top">
-                <span id="weatherCondition" class="weather-chip">--</span>
-                <span id="weatherLocation" class="panel-tag">--</span>
-              </div>
-              <div class="weather-hero-main">
-                <div class="weather-hero-copy">
-                  <strong id="weatherTemperature">--°C</strong>
-                  <p id="weatherDescription">--</p>
+            <div id="weatherCurrent" class="weather-current weather-hero skeleton">
+              <div id="weatherVisual" class="weather-visual"></div>
+              <div class="weather-hero-body">
+                <div class="weather-hero-top">
+                  <span id="weatherCondition" class="weather-chip">--</span>
+                  <span id="weatherLocation" class="panel-tag">--</span>
                 </div>
-                <div class="weather-hero-clock">
-                  <p id="currentTime" class="time-value">--:--:--</p>
-                  <p id="currentDate" class="time-date">--</p>
-                  <p id="generatedAt" class="time-meta">数据更新时间：--</p>
+                <div class="weather-hero-main">
+                  <div class="weather-hero-copy">
+                    <strong id="weatherTemperature">--°C</strong>
+                    <p id="weatherDescription">--</p>
+                  </div>
+                  <div class="weather-hero-clock">
+                    <p id="currentTime" class="time-value">--:--:--</p>
+                    <p id="currentDate" class="time-date">--</p>
+                    <p id="generatedAt" class="time-meta">数据更新时间：--</p>
+                  </div>
                 </div>
-              </div>
-              <div class="weather-metrics">
-                <span id="weatherWind">风速 --</span>
-                <span id="weatherRange">气温 -- / --</span>
-                <span id="weatherRain">降水 --</span>
+                <div class="weather-metrics">
+                  <span id="weatherWind">风速 --</span>
+                  <span id="weatherRange">气温 -- / --</span>
+                  <span id="weatherRain">降水 --</span>
+                </div>
               </div>
             </div>
-          </div>
-          <div id="weatherDaily" class="weather-daily"></div>
-        </section>
+            <div id="weatherDaily" class="weather-daily"></div>
+          </section>
 
-        <section
-          class="panel panel-wide scenic-hero-panel"
-          aria-labelledby="featuredPlaceTitle"
-        >
-          <div class="panel-heading scenic-heading">
-            <div>
-              <p class="panel-kicker">Daily Escape</p>
-              <h2 id="featuredPlaceTitle">世界名胜</h2>
+          <section class="panel scenic-hero-panel" aria-labelledby="featuredPlaceTitle">
+            <div class="panel-heading scenic-heading">
+              <div>
+                <p class="panel-kicker">Daily Escape</p>
+                <h2 id="featuredPlaceTitle">世界名胜</h2>
+              </div>
+              <span class="panel-tag">Auto Carousel</span>
             </div>
-            <span class="panel-tag">Auto Rotation</span>
-          </div>
-          <div id="featuredPlacePanel" class="featured-place-hero skeleton"></div>
+            <div id="featuredPlacePanel" class="featured-place-hero skeleton"></div>
+          </section>
         </section>
 
         <section class="widget-grid widget-grid-news">
@@ -133,6 +129,6 @@
       </div>
     </template>
 
-    <script type="module" src="./app.js?v=20260419-4"></script>
+    <script type="module" src="./app.js?v=20260419-5"></script>
   </body>
 </html>

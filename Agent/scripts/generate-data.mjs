@@ -154,7 +154,6 @@ const weatherCodeMap = {
 function cleanHtml(value) {
   return value
     .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
-    .replace(/<[^>]+>/g, " ")
     .replace(/&amp;/g, "&")
     .replace(/&lt;/g, "<")
     .replace(/&gt;/g, ">")
@@ -162,6 +161,8 @@ function cleanHtml(value) {
     .replace(/&#39;/g, "'")
     .replace(/&apos;/g, "'")
     .replace(/&#x27;/g, "'")
+    .replace(/&nbsp;/g, " ")
+    .replace(/<[^>]+>/g, " ")
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -207,13 +208,23 @@ function normalizeSummary(summary, title) {
 
   const compactSummary = summary.replace(/\s+/g, " ").trim();
   const compactTitle = title.replace(/\s+/g, " ").trim();
+  const lowerSummary = compactSummary.toLowerCase();
+  if (
+    (lowerSummary.includes("comprehensive up-to-date news coverage") &&
+      lowerSummary.includes("google news")) ||
+    compactSummary.includes("完整、最新的新闻报道") ||
+    compactSummary.includes("Google 新闻")
+  ) {
+    return "";
+  }
+
   if (compactSummary === compactTitle) {
     return "";
   }
 
   if (
     compactSummary.startsWith(compactTitle) &&
-    compactSummary.length <= compactTitle.length + 18
+    compactSummary.length <= compactTitle.length + 32
   ) {
     return "";
   }
@@ -221,14 +232,34 @@ function normalizeSummary(summary, title) {
   return compactSummary;
 }
 
+function hasUsableNewsImage(url) {
+  if (!url) {
+    return false;
+  }
+
+  try {
+    const parsed = new URL(url);
+    const host = parsed.hostname.toLowerCase();
+    return (
+      /^https?:$/.test(parsed.protocol) &&
+      !host.includes("googleusercontent.com") &&
+      !host.includes("gstatic.com") &&
+      !host.includes("news.google.com")
+    );
+  } catch {
+    return false;
+  }
+}
+
 function extractImage(block) {
-  return (
+  const candidate =
     pickAttribute(block, "media:content", "url") ||
     pickAttribute(block, "media:thumbnail", "url") ||
     pickAttribute(block, "enclosure", "url") ||
     block.match(/<img[^>]+src=["']([^"']+)["']/i)?.[1] ||
-    ""
-  );
+    "";
+
+  return hasUsableNewsImage(candidate) ? candidate : "";
 }
 
 async function fetchText(url) {
@@ -352,7 +383,7 @@ async function fetchArticlePreview(url) {
       "";
 
     return {
-      image: cleanHtml(image),
+      image: hasUsableNewsImage(cleanHtml(image)) ? cleanHtml(image) : "",
       summary: shortenSummary(cleanHtml(description)),
     };
   } catch {
@@ -402,22 +433,22 @@ async function fetchRssFeed(url, limit, source) {
 async function enrichNewsItems(items, section) {
   const enriched = await Promise.all(
     items.map(async (item) => {
-      if (item.image && item.summary) {
+      if (hasUsableNewsImage(item.image) && item.summary) {
         return item;
       }
 
       const preview = await fetchArticlePreview(item.link);
       return {
         ...item,
-        image: item.image || preview.image || getNewsFallbackImage(section),
-        summary: item.summary || preview.summary || "",
+        image: preview.image || item.image || "",
+        summary: normalizeSummary(item.summary || preview.summary || "", item.title),
       };
     }),
   );
 
   return enriched.map((item) => ({
     ...item,
-    image: item.image || getNewsFallbackImage(section),
+    image: hasUsableNewsImage(item.image) ? item.image : "",
   }));
 }
 
@@ -520,6 +551,10 @@ function buildFeaturedPlace(date) {
   return rotateItems(featuredPlaces, 1, getDaySeed(date))[0] ?? null;
 }
 
+function buildFeaturedPlaceCarousel(date) {
+  return rotateItems(featuredPlaces, featuredPlaces.length, getDaySeed(date));
+}
+
 function buildPaperSections(date) {
   const seed = getDaySeed(date);
 
@@ -572,6 +607,8 @@ async function main() {
     ),
   ]);
 
+  const featuredPlaceCarousel = buildFeaturedPlaceCarousel(now);
+
   const payload = {
     generatedAt: now.toISOString(),
     weather:
@@ -583,7 +620,8 @@ async function main() {
             today: { max: "--", min: "--", precipitationProbability: "--" },
             forecast: [],
           },
-    featuredPlace: buildFeaturedPlace(now),
+    featuredPlace: featuredPlaceCarousel[0] ?? buildFeaturedPlace(now),
+    featuredPlaces: featuredPlaceCarousel,
     news: {
       domestic: domesticResult.status === "fulfilled" ? domesticResult.value : [],
       international:
