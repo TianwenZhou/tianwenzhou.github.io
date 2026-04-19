@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" role="img" aria-label="Animated cloudy weather">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#7da3c4"/>
+      <stop offset="100%" stop-color="#b7c9d8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="640" fill="url(#sky)"/>
+  <circle cx="620" cy="120" r="72" fill="#fff8cc" fill-opacity="0.26"/>
+  <g fill="#eef4f8">
+    <g transform="translate(-80 0)">
+      <animateTransform attributeName="transform" type="translate" values="-80 0;34 0;-80 0" dur="20s" repeatCount="indefinite"/>
+      <ellipse cx="240" cy="220" rx="102" ry="48"/>
+      <ellipse cx="332" cy="205" rx="78" ry="42"/>
+      <ellipse cx="156" cy="232" rx="74" ry="34"/>
+    </g>
+    <g transform="translate(0 12)">
+      <animateTransform attributeName="transform" type="translate" values="0 12;-42 12;0 12" dur="18s" repeatCount="indefinite"/>
+      <ellipse cx="505" cy="248" rx="120" ry="54"/>
+      <ellipse cx="610" cy="236" rx="82" ry="40"/>
+      <ellipse cx="406" cy="262" rx="84" ry="34"/>
+    </g>
+    <g transform="translate(-20 18)" fill="#dae5ed">
+      <animateTransform attributeName="transform" type="translate" values="-20 18;48 18;-20 18" dur="15s" repeatCount="indefinite"/>
+      <ellipse cx="292" cy="362" rx="142" ry="58"/>
+      <ellipse cx="442" cy="348" rx="98" ry="44"/>
+      <ellipse cx="172" cy="374" rx="92" ry="40"/>
+    </g>
+  </g>
+</svg>

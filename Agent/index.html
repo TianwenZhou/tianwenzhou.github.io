@@ -8,7 +8,7 @@
       name="description"
       content="查看天气、时间、世界风景、新闻和高质量 AI 论文精选。"
     />
-    <link rel="stylesheet" href="./styles.css?v=20260419-13" />
+    <link rel="stylesheet" href="./styles.css?v=20260420-1" />
   </head>
   <body>
     <div class="page-shell">
@@ -32,8 +32,14 @@
                 <strong>News</strong>
               </span>
             </button>
-            <button class="sidebar-link" type="button" data-view-target="papers">
+            <button class="sidebar-link" type="button" data-view-target="nba">
               <span class="sidebar-link-kicker">03</span>
+              <span class="sidebar-link-copy">
+                <strong>NBA</strong>
+              </span>
+            </button>
+            <button class="sidebar-link" type="button" data-view-target="papers">
+              <span class="sidebar-link-kicker">04</span>
               <span class="sidebar-link-copy">
                 <strong>Papers</strong>
               </span>
@@ -53,7 +59,14 @@
                   <span class="panel-tag">Haidian / Asia/Shanghai</span>
                 </div>
                 <div id="weatherCurrent" class="weather-current weather-hero skeleton">
-                  <div id="weatherVisual" class="weather-visual"></div>
+                  <div class="weather-visual">
+                    <img
+                      id="weatherVisual"
+                      class="weather-visual-media"
+                      alt="Weather animation"
+                      loading="eager"
+                    />
+                  </div>
                   <div class="weather-hero-body">
                     <div class="weather-hero-top">
                       <span id="weatherCondition" class="weather-chip">--</span>
@@ -164,8 +177,12 @@
                 </div>
                 <div id="internationalNews" class="news-list premium-news-list"></div>
               </section>
+            </section>
+          </section>
 
-              <section class="panel" aria-labelledby="nbaNewsTitle">
+          <section id="nbaView" class="dashboard-view" data-view="nba">
+            <section class="widget-grid widget-grid-nba">
+              <section class="panel nba-page-panel" aria-labelledby="nbaNewsTitle">
                 <div class="panel-heading news-panel-heading">
                   <div>
                     <p class="panel-kicker">NBA</p>
@@ -207,6 +224,6 @@
       </div>
     </template>
 
-    <script type="module" src="./app.js?v=20260419-13"></script>
+    <script type="module" src="./app.js?v=20260420-1"></script>
   </body>
 </html>

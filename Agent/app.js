@@ -36,7 +36,7 @@ const dom = {
 
 let featuredPlaceTimer = null;
 let lastCalendarKey = "";
-const availableViews = new Set(["home", "news", "papers"]);
+const availableViews = new Set(["home", "news", "nba", "papers"]);
 
 const weatherCodeMap = {
   0: "晴朗",
@@ -61,18 +61,12 @@ const weatherCodeMap = {
 };
 
 const weatherVisuals = {
-  clear:
-    "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-  cloudy:
-    "https://images.unsplash.com/photo-1499346030926-9a72daac6c63?auto=format&fit=crop&w=1200&q=80",
-  rain:
-    "https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?auto=format&fit=crop&w=1200&q=80",
-  snow:
-    "https://images.unsplash.com/photo-1483664852095-d6cc6870702d?auto=format&fit=crop&w=1200&q=80",
-  storm:
-    "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1200&q=80",
-  fog:
-    "https://images.unsplash.com/photo-1487621167305-5d248087c724?auto=format&fit=crop&w=1200&q=80",
+  clear: "./assets/weather/clear.svg",
+  cloudy: "./assets/weather/cloudy.svg",
+  rain: "./assets/weather/rain.svg",
+  snow: "./assets/weather/snow.svg",
+  storm: "./assets/weather/storm.svg",
+  fog: "./assets/weather/fog.svg",
 };
 
 const newsFallbacks = {
@@ -347,7 +341,8 @@ function renderWeather(weather) {
   dom.weatherWind.textContent = `风速 ${weather.current.windSpeed} km/h`;
   dom.weatherRange.textContent = `气温 ${weather.today.max}° / ${weather.today.min}°`;
   dom.weatherRain.textContent = `降水 ${weather.today.precipitationProbability}%`;
-  dom.weatherVisual.style.backgroundImage = `linear-gradient(180deg, rgba(7, 25, 46, 0.10), rgba(7, 25, 46, 0.42)), url(${getWeatherVisual(weather.current.weatherCode)})`;
+  dom.weatherVisual.src = getWeatherVisual(weather.current.weatherCode);
+  dom.weatherVisual.alt = `${condition} animation`;
 
   clearElement(dom.weatherDaily);
   weather.forecast.forEach((day) => {

@@ -215,8 +215,12 @@ img {
 }
 
 .widget-grid-news {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   align-items: stretch;
+}
+
+.widget-grid-nba {
+  grid-template-columns: minmax(0, 1fr);
 }
 
 .panel {
@@ -367,8 +371,15 @@ img {
 .weather-visual {
   position: relative;
   min-height: 220px;
-  background-position: center;
-  background-size: cover;
+  overflow: hidden;
+}
+
+.weather-visual-media {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 220px;
+  object-fit: cover;
 }
 
 .weather-visual::after {
@@ -834,6 +845,13 @@ img {
   flex-direction: column;
 }
 
+.widget-grid-nba > .panel {
+  min-height: 840px;
+  height: 840px;
+  display: flex;
+  flex-direction: column;
+}
+
 .news-panel-heading {
   position: sticky;
   top: 0;
@@ -1200,7 +1218,7 @@ img {
   }
 
   .sidebar-nav {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .sidebar-link {
@@ -1244,7 +1262,16 @@ img {
     grid-template-columns: 1fr;
   }
 
+  .widget-grid-nba {
+    grid-template-columns: 1fr;
+  }
+
   .widget-grid-news > .panel {
+    min-height: auto;
+    height: auto;
+  }
+
+  .widget-grid-nba > .panel {
     min-height: auto;
     height: auto;
   }

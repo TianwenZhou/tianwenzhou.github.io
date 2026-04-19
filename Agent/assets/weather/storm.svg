@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" role="img" aria-label="Animated stormy weather">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#273548"/>
+      <stop offset="100%" stop-color="#55657c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="640" fill="url(#sky)"/>
+  <g fill="#bcc7d2">
+    <ellipse cx="240" cy="202" rx="128" ry="58"/>
+    <ellipse cx="364" cy="188" rx="94" ry="46"/>
+    <ellipse cx="140" cy="220" rx="90" ry="36"/>
+    <ellipse cx="560" cy="228" rx="146" ry="62"/>
+    <ellipse cx="688" cy="210" rx="90" ry="42"/>
+    <ellipse cx="434" cy="248" rx="100" ry="38"/>
+  </g>
+  <g stroke="#7fdfff" stroke-linecap="round" stroke-width="7" opacity="0.55">
+    <g transform="translate(0 -20)">
+      <animateTransform attributeName="transform" type="translate" values="0 -20;0 36;0 -20" dur="1.4s" repeatCount="indefinite"/>
+      <line x1="196" y1="278" x2="180" y2="334"/>
+      <line x1="300" y1="306" x2="284" y2="362"/>
+      <line x1="402" y1="282" x2="386" y2="338"/>
+      <line x1="514" y1="308" x2="498" y2="364"/>
+      <line x1="626" y1="286" x2="610" y2="342"/>
+    </g>
+  </g>
+  <polygon points="432,248 380,382 448,382 402,520 532,336 456,336 500,248" fill="#fff1a8">
+    <animate attributeName="opacity" values="0;0;1;0.25;1;0" keyTimes="0;0.5;0.56;0.62;0.68;1" dur="3.2s" repeatCount="indefinite"/>
+  </polygon>
+  <rect width="800" height="640" fill="#ffffff" opacity="0">
+    <animate attributeName="opacity" values="0;0;0.18;0;0.1;0" keyTimes="0;0.5;0.56;0.62;0.68;1" dur="3.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>

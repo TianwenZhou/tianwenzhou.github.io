@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" role="img" aria-label="Animated clear weather">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#58c6ff"/>
+      <stop offset="100%" stop-color="#8be1ff"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#fff9c4" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#fff9c4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="640" fill="url(#sky)"/>
+  <ellipse cx="580" cy="150" rx="170" ry="170" fill="url(#glow)">
+    <animate attributeName="rx" values="150;178;150" dur="5.5s" repeatCount="indefinite"/>
+    <animate attributeName="ry" values="150;178;150" dur="5.5s" repeatCount="indefinite"/>
+  </ellipse>
+  <g transform="translate(0 8)">
+    <animateTransform attributeName="transform" type="translate" values="0 8;0 -8;0 8" dur="7s" repeatCount="indefinite"/>
+    <circle cx="570" cy="150" r="62" fill="#ffd54f"/>
+    <g stroke="#ffe082" stroke-linecap="round" stroke-width="10">
+      <line x1="570" y1="44" x2="570" y2="10"/>
+      <line x1="570" y1="290" x2="570" y2="256"/>
+      <line x1="464" y1="150" x2="430" y2="150"/>
+      <line x1="710" y1="150" x2="676" y2="150"/>
+      <line x1="495" y1="75" x2="468" y2="48"/>
+      <line x1="645" y1="225" x2="672" y2="252"/>
+      <line x1="495" y1="225" x2="468" y2="252"/>
+      <line x1="645" y1="75" x2="672" y2="48"/>
+    </g>
+  </g>
+  <g fill="#ffffff" fill-opacity="0.8">
+    <g transform="translate(-30 0)">
+      <animateTransform attributeName="transform" type="translate" values="-30 0;30 0;-30 0" dur="18s" repeatCount="indefinite"/>
+      <ellipse cx="170" cy="185" rx="70" ry="34"/>
+      <ellipse cx="238" cy="180" rx="52" ry="28"/>
+      <ellipse cx="122" cy="195" rx="50" ry="24"/>
+    </g>
+    <g transform="translate(14 0)">
+      <animateTransform attributeName="transform" type="translate" values="14 0;-20 0;14 0" dur="22s" repeatCount="indefinite"/>
+      <ellipse cx="260" cy="265" rx="80" ry="36"/>
+      <ellipse cx="336" cy="255" rx="56" ry="30"/>
+      <ellipse cx="198" cy="274" rx="54" ry="24"/>
+    </g>
+  </g>
+</svg>

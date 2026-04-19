@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" role="img" aria-label="Animated rainy weather">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#526a83"/>
+      <stop offset="100%" stop-color="#8fa4b8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="640" fill="url(#sky)"/>
+  <g fill="#dfe8f1">
+    <ellipse cx="270" cy="188" rx="118" ry="52"/>
+    <ellipse cx="378" cy="170" rx="86" ry="44"/>
+    <ellipse cx="168" cy="204" rx="86" ry="38"/>
+    <ellipse cx="544" cy="222" rx="132" ry="58"/>
+    <ellipse cx="664" cy="206" rx="90" ry="44"/>
+    <ellipse cx="430" cy="242" rx="92" ry="36"/>
+  </g>
+  <g stroke="#8ee6ff" stroke-linecap="round" stroke-width="8">
+    <g transform="translate(0 -40)">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;0 40;0 -40" dur="1.6s" repeatCount="indefinite"/>
+      <line x1="150" y1="270" x2="134" y2="326"/>
+      <line x1="220" y1="300" x2="204" y2="356"/>
+      <line x1="292" y1="280" x2="276" y2="336"/>
+      <line x1="362" y1="316" x2="346" y2="372"/>
+      <line x1="438" y1="286" x2="422" y2="342"/>
+      <line x1="516" y1="322" x2="500" y2="378"/>
+      <line x1="596" y1="290" x2="580" y2="346"/>
+      <line x1="674" y1="326" x2="658" y2="382"/>
+    </g>
+    <g transform="translate(24 -86)" opacity="0.82">
+      <animateTransform attributeName="transform" type="translate" values="24 -86;24 8;24 -86" dur="1.2s" repeatCount="indefinite"/>
+      <line x1="186" y1="286" x2="170" y2="340"/>
+      <line x1="258" y1="318" x2="242" y2="372"/>
+      <line x1="334" y1="286" x2="318" y2="340"/>
+      <line x1="410" y1="318" x2="394" y2="372"/>
+      <line x1="484" y1="286" x2="468" y2="340"/>
+      <line x1="560" y1="318" x2="544" y2="372"/>
+      <line x1="634" y1="286" x2="618" y2="340"/>
+    </g>
+  </g>
+</svg>
