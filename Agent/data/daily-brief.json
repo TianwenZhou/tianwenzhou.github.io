@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-19T16:30:13.050Z",
+  "generatedAt": "2026-04-19T16:48:51.617Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
       "temperature": 10,
       "weatherCode": 0,
-      "windSpeed": 18
+      "windSpeed": 17
     },
     "today": {
       "date": "2026-04-20",
@@ -199,19 +199,19 @@
         "source": "BBC"
       },
       {
+        "title": "Bodies of 50 infants dumped at Trinidad graveyard",
+        "link": "https://www.bbc.com/news/articles/ce8jl1271pjo?at_medium=RSS&at_campaign=rss",
+        "summary": "Police say a preliminary investigation shows it may be a case of an \"unlawful disposal of unclaimed corpses\".",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f7b2/live/e7799a40-3bbd-11f1-a8e7-7d83213cdc89.jpg",
+        "publishedAt": "2026-04-19T07:49:45.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "Pope says 'tyrants' speech was not aimed at Trump",
         "link": "https://www.bbc.com/news/articles/ce84j261kj1o?at_medium=RSS&at_campaign=rss",
         "summary": "The pontiff says his remarks have been misinterpreted after a spat with the US president.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/55fc/live/431c31e0-3b5b-11f1-8606-05fe34b06e1b.jpg",
         "publishedAt": "2026-04-19T07:47:35.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Australia's most-decorated soldier vows to fight war crime charges",
-        "link": "https://www.bbc.com/news/articles/cy91r7ww3weo?at_medium=RSS&at_campaign=rss",
-        "summary": "Ben Roberts-Smith has given his first statement since he was charged with five counts of the war crime of murder last week.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a112/live/db9993e0-3bc4-11f1-879d-1b2f5c3919b8.jpg",
-        "publishedAt": "2026-04-19T05:12:40.000Z",
         "source": "BBC"
       }
     ],
@@ -267,344 +267,2400 @@
     ]
   },
   "nbaScoreboard": {
-    "date": "2026-04-19",
+    "date": "2026-04-20",
+    "currentIndex": 4,
+    "days": [
+      {
+        "date": "2026-04-16",
+        "games": []
+      },
+      {
+        "date": "2026-04-17",
+        "games": [
+          {
+            "id": "401866758",
+            "link": "https://www.espn.com/nba/game/_/gameId/401866758/hornets-magic",
+            "startTime": "2026-04-17T23:30Z",
+            "state": "post",
+            "statusText": "Final",
+            "detail": "Final",
+            "note": "NBA Play-In - East - 8th Seed Game",
+            "homeTeam": {
+              "abbreviation": "ORL",
+              "displayName": "Orlando Magic",
+              "score": "121",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png",
+              "leaderContext": "Game Leaders",
+              "leaders": [
+                {
+                  "label": "PTS",
+                  "value": "25",
+                  "player": "Paolo Banchero",
+                  "position": "F",
+                  "jersey": "5",
+                  "summary": "9/17 FG, 5/8 FT",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432573.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4432573/paolo-banchero"
+                },
+                {
+                  "label": "REB",
+                  "value": "7",
+                  "player": "Franz Wagner",
+                  "position": "F",
+                  "jersey": "22",
+                  "summary": "7 DREB, 0 OREB",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4566434.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4566434/franz-wagner"
+                },
+                {
+                  "label": "AST",
+                  "value": "6",
+                  "player": "Paolo Banchero",
+                  "position": "F",
+                  "jersey": "5",
+                  "summary": "2 TO, 33 MIN",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432573.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4432573/paolo-banchero"
+                }
+              ]
+            },
+            "awayTeam": {
+              "abbreviation": "CHA",
+              "displayName": "Charlotte Hornets",
+              "score": "90",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png",
+              "leaderContext": "Game Leaders",
+              "leaders": [
+                {
+                  "label": "PTS",
+                  "value": "23",
+                  "player": "LaMelo Ball",
+                  "position": "G",
+                  "jersey": "1",
+                  "summary": "7/17 FG, 6/6 FT",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432816.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4432816/lamelo-ball"
+                },
+                {
+                  "label": "REB",
+                  "value": "8",
+                  "player": "Moussa Diabate",
+                  "position": "F",
+                  "jersey": "14",
+                  "summary": "7 DREB, 1 OREB",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433249.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4433249/moussa-diabate"
+                },
+                {
+                  "label": "AST",
+                  "value": "5",
+                  "player": "LaMelo Ball",
+                  "position": "G",
+                  "jersey": "1",
+                  "summary": "3 TO, 25 MIN",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432816.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4432816/lamelo-ball"
+                }
+              ]
+            }
+          },
+          {
+            "id": "401866759",
+            "link": "https://www.espn.com/nba/game/_/gameId/401866759/warriors-suns",
+            "startTime": "2026-04-18T02:00Z",
+            "state": "post",
+            "statusText": "Final",
+            "detail": "Final",
+            "note": "NBA Play-In - West - 8th Seed Game",
+            "homeTeam": {
+              "abbreviation": "PHX",
+              "displayName": "Phoenix Suns",
+              "score": "111",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png",
+              "leaderContext": "Game Leaders",
+              "leaders": [
+                {
+                  "label": "PTS",
+                  "value": "36",
+                  "player": "Jalen Green",
+                  "position": "G",
+                  "jersey": "4",
+                  "summary": "14/20 FG, 0/0 FT",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4437244.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4437244/jalen-green"
+                },
+                {
+                  "label": "REB",
+                  "value": "9",
+                  "player": "Jordan Goodwin",
+                  "position": "G",
+                  "jersey": "23",
+                  "summary": "5 DREB, 4 OREB",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278402.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4278402/jordan-goodwin"
+                },
+                {
+                  "label": "AST",
+                  "value": "8",
+                  "player": "Devin Booker",
+                  "position": "G",
+                  "jersey": "1",
+                  "summary": "1 TO, 42 MIN",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3136193.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3136193/devin-booker"
+                }
+              ]
+            },
+            "awayTeam": {
+              "abbreviation": "GS",
+              "displayName": "Golden State Warriors",
+              "score": "96",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png",
+              "leaderContext": "Game Leaders",
+              "leaders": [
+                {
+                  "label": "PTS",
+                  "value": "23",
+                  "player": "Brandin Podziemski",
+                  "position": "G",
+                  "jersey": "2",
+                  "summary": "9/17 FG, 2/3 FT",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4709138.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4709138/brandin-podziemski"
+                },
+                {
+                  "label": "REB",
+                  "value": "10",
+                  "player": "Brandin Podziemski",
+                  "position": "G",
+                  "jersey": "2",
+                  "summary": "7 DREB, 3 OREB",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4709138.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4709138/brandin-podziemski"
+                },
+                {
+                  "label": "AST",
+                  "value": "6",
+                  "player": "Draymond Green",
+                  "position": "F",
+                  "jersey": "23",
+                  "summary": "5 TO, 36 MIN",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/6589.png",
+                  "link": "https://www.espn.com/nba/player/_/id/6589/draymond-green"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-04-18",
+        "games": [
+          {
+            "id": "401869187",
+            "link": "https://www.espn.com/nba/game/_/gameId/401869187/raptors-cavaliers",
+            "startTime": "2026-04-18T17:00Z",
+            "state": "post",
+            "statusText": "Final",
+            "detail": "Final",
+            "note": "East 1st Round - Game 1",
+            "homeTeam": {
+              "abbreviation": "CLE",
+              "displayName": "Cleveland Cavaliers",
+              "score": "126",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png",
+              "leaderContext": "Game Leaders",
+              "leaders": [
+                {
+                  "label": "PTS",
+                  "value": "32",
+                  "player": "Donovan Mitchell",
+                  "position": "G",
+                  "jersey": "45",
+                  "summary": "11/20 FG, 6/7 FT",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3908809.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3908809/donovan-mitchell"
+                },
+                {
+                  "label": "REB",
+                  "value": "7",
+                  "player": "Evan Mobley",
+                  "position": "C",
+                  "jersey": "4",
+                  "summary": "5 DREB, 2 OREB",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432158.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4432158/evan-mobley"
+                },
+                {
+                  "label": "AST",
+                  "value": "10",
+                  "player": "James Harden",
+                  "position": "G",
+                  "jersey": "1",
+                  "summary": "4 TO, 33 MIN",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3992.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3992/james-harden"
+                }
+              ]
+            },
+            "awayTeam": {
+              "abbreviation": "TOR",
+              "displayName": "Toronto Raptors",
+              "score": "113",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/tor.png",
+              "leaderContext": "Game Leaders",
+              "leaders": [
+                {
+                  "label": "PTS",
+                  "value": "24",
+                  "player": "RJ Barrett",
+                  "position": "F",
+                  "jersey": "9",
+                  "summary": "7/13 FG, 7/9 FT",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4395625.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4395625/rj-barrett"
+                },
+                {
+                  "label": "REB",
+                  "value": "8",
+                  "player": "Sandro Mamukelashvili",
+                  "position": "F",
+                  "jersey": "54",
+                  "summary": "5 DREB, 3 OREB",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278580.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4278580/sandro-mamukelashvili"
+                },
+                {
+                  "label": "AST",
+                  "value": "7",
+                  "player": "Scottie Barnes",
+                  "position": "F",
+                  "jersey": "4",
+                  "summary": "5 TO, 32 MIN",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433134.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4433134/scottie-barnes"
+                }
+              ]
+            }
+          },
+          {
+            "id": "401869188",
+            "link": "https://www.espn.com/nba/game/_/gameId/401869188/timberwolves-nuggets",
+            "startTime": "2026-04-18T19:30Z",
+            "state": "post",
+            "statusText": "Final",
+            "detail": "Final",
+            "note": "West 1st Round - Game 1",
+            "homeTeam": {
+              "abbreviation": "DEN",
+              "displayName": "Denver Nuggets",
+              "score": "116",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
+              "leaderContext": "Game Leaders",
+              "leaders": [
+                {
+                  "label": "PTS",
+                  "value": "30",
+                  "player": "Jamal Murray",
+                  "position": "G",
+                  "jersey": "27",
+                  "summary": "7/22 FG, 16/16 FT",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3936299.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3936299/jamal-murray"
+                },
+                {
+                  "label": "REB",
+                  "value": "13",
+                  "player": "Nikola Jokic",
+                  "position": "C",
+                  "jersey": "15",
+                  "summary": "12 DREB, 1 OREB",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3112335.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3112335/nikola-jokic"
+                },
+                {
+                  "label": "AST",
+                  "value": "11",
+                  "player": "Nikola Jokic",
+                  "position": "C",
+                  "jersey": "15",
+                  "summary": "5 TO, 40 MIN",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3112335.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3112335/nikola-jokic"
+                }
+              ]
+            },
+            "awayTeam": {
+              "abbreviation": "MIN",
+              "displayName": "Minnesota Timberwolves",
+              "score": "105",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
+              "leaderContext": "Game Leaders",
+              "leaders": [
+                {
+                  "label": "PTS",
+                  "value": "22",
+                  "player": "Anthony Edwards",
+                  "position": "G",
+                  "jersey": "5",
+                  "summary": "7/19 FG, 6/7 FT",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4594268.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4594268/anthony-edwards"
+                },
+                {
+                  "label": "REB",
+                  "value": "10",
+                  "player": "Rudy Gobert",
+                  "position": "C",
+                  "jersey": "27",
+                  "summary": "7 DREB, 3 OREB",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3032976.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3032976/rudy-gobert"
+                },
+                {
+                  "label": "AST",
+                  "value": "7",
+                  "player": "Anthony Edwards",
+                  "position": "G",
+                  "jersey": "5",
+                  "summary": "3 TO, 38 MIN",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4594268.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4594268/anthony-edwards"
+                }
+              ]
+            }
+          },
+          {
+            "id": "401869189",
+            "link": "https://www.espn.com/nba/game/_/gameId/401869189/hawks-knicks",
+            "startTime": "2026-04-18T22:00Z",
+            "state": "post",
+            "statusText": "Final",
+            "detail": "Final",
+            "note": "East 1st Round - Game 1",
+            "homeTeam": {
+              "abbreviation": "NY",
+              "displayName": "New York Knicks",
+              "score": "113",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
+              "leaderContext": "Game Leaders",
+              "leaders": [
+                {
+                  "label": "PTS",
+                  "value": "28",
+                  "player": "Jalen Brunson",
+                  "position": "G",
+                  "jersey": "11",
+                  "summary": "9/22 FG, 7/8 FT",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3934672/jalen-brunson"
+                },
+                {
+                  "label": "REB",
+                  "value": "14",
+                  "player": "Josh Hart",
+                  "position": "G",
+                  "jersey": "3",
+                  "summary": "14 DREB, 0 OREB",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3062679.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3062679/josh-hart"
+                },
+                {
+                  "label": "AST",
+                  "value": "7",
+                  "player": "Jalen Brunson",
+                  "position": "G",
+                  "jersey": "11",
+                  "summary": "2 TO, 36 MIN",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3934672/jalen-brunson"
+                }
+              ]
+            },
+            "awayTeam": {
+              "abbreviation": "ATL",
+              "displayName": "Atlanta Hawks",
+              "score": "102",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png",
+              "leaderContext": "Game Leaders",
+              "leaders": [
+                {
+                  "label": "PTS",
+                  "value": "26",
+                  "player": "CJ McCollum",
+                  "position": "G",
+                  "jersey": "3",
+                  "summary": "11/20 FG, 0/2 FT",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2490149.png",
+                  "link": "https://www.espn.com/nba/player/_/id/2490149/cj-mccollum"
+                },
+                {
+                  "label": "REB",
+                  "value": "9",
+                  "player": "Dyson Daniels",
+                  "position": "G",
+                  "jersey": "5",
+                  "summary": "8 DREB, 1 OREB",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4869342.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4869342/dyson-daniels"
+                },
+                {
+                  "label": "AST",
+                  "value": "11",
+                  "player": "Dyson Daniels",
+                  "position": "G",
+                  "jersey": "5",
+                  "summary": "2 TO, 36 MIN",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4869342.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4869342/dyson-daniels"
+                }
+              ]
+            }
+          },
+          {
+            "id": "401869190",
+            "link": "https://www.espn.com/nba/game/_/gameId/401869190/rockets-lakers",
+            "startTime": "2026-04-19T00:30Z",
+            "state": "post",
+            "statusText": "Final",
+            "detail": "Final",
+            "note": "West 1st Round - Game 1",
+            "homeTeam": {
+              "abbreviation": "LAL",
+              "displayName": "Los Angeles Lakers",
+              "score": "107",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+              "leaderContext": "Game Leaders",
+              "leaders": [
+                {
+                  "label": "PTS",
+                  "value": "27",
+                  "player": "Luke Kennard",
+                  "position": "G",
+                  "jersey": "10",
+                  "summary": "9/13 FG, 4/6 FT",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3913174.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3913174/luke-kennard"
+                },
+                {
+                  "label": "REB",
+                  "value": "11",
+                  "player": "Deandre Ayton",
+                  "position": "C",
+                  "jersey": "5",
+                  "summary": "8 DREB, 3 OREB",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278129.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4278129/deandre-ayton"
+                },
+                {
+                  "label": "AST",
+                  "value": "13",
+                  "player": "LeBron James",
+                  "position": "F",
+                  "jersey": "23",
+                  "summary": "2 TO, 38 MIN",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/1966.png",
+                  "link": "https://www.espn.com/nba/player/_/id/1966/lebron-james"
+                }
+              ]
+            },
+            "awayTeam": {
+              "abbreviation": "HOU",
+              "displayName": "Houston Rockets",
+              "score": "98",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/hou.png",
+              "leaderContext": "Game Leaders",
+              "leaders": [
+                {
+                  "label": "PTS",
+                  "value": "19",
+                  "player": "Alperen Sengun",
+                  "position": "C",
+                  "jersey": "28",
+                  "summary": "6/19 FG, 7/9 FT",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4871144.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4871144/alperen-sengun"
+                },
+                {
+                  "label": "REB",
+                  "value": "12",
+                  "player": "Jabari Smith Jr.",
+                  "position": "F",
+                  "jersey": "10",
+                  "summary": "7 DREB, 5 OREB",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432639.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4432639/jabari-smith-jr"
+                },
+                {
+                  "label": "AST",
+                  "value": "8",
+                  "player": "Reed Sheppard",
+                  "position": "G",
+                  "jersey": "15",
+                  "summary": "4 TO, 36 MIN",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4711272.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4711272/reed-sheppard"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-04-19",
+        "games": [
+          {
+            "id": "401869191",
+            "link": "https://www.espn.com/nba/game/_/gameId/401869191/76ers-celtics",
+            "startTime": "2026-04-19T17:00Z",
+            "state": "pre",
+            "statusText": "Scheduled",
+            "detail": "4/19 - 1:00 PM EDT",
+            "note": "East 1st Round - Game 1",
+            "homeTeam": {
+              "abbreviation": "BOS",
+              "displayName": "Boston Celtics",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "28.7",
+                  "player": "Jaylen Brown",
+                  "position": "G",
+                  "jersey": "7",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3917376.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3917376/jaylen-brown"
+                },
+                {
+                  "label": "RPG",
+                  "value": "8.4",
+                  "player": "Neemias Queta",
+                  "position": "C",
+                  "jersey": "88",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397424.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4397424/neemias-queta"
+                },
+                {
+                  "label": "APG",
+                  "value": "5.4",
+                  "player": "Derrick White",
+                  "position": "G",
+                  "jersey": "9",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3078576.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3078576/derrick-white"
+                }
+              ]
+            },
+            "awayTeam": {
+              "abbreviation": "PHI",
+              "displayName": "Philadelphia 76ers",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "28.3",
+                  "player": "Tyrese Maxey",
+                  "position": "G",
+                  "jersey": "0",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431678.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4431678/tyrese-maxey"
+                },
+                {
+                  "label": "RPG",
+                  "value": "8.4",
+                  "player": "Andre Drummond",
+                  "position": "C",
+                  "jersey": "1",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/6585.png",
+                  "link": "https://www.espn.com/nba/player/_/id/6585/andre-drummond"
+                },
+                {
+                  "label": "APG",
+                  "value": "6.6",
+                  "player": "Tyrese Maxey",
+                  "position": "G",
+                  "jersey": "0",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431678.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4431678/tyrese-maxey"
+                }
+              ]
+            }
+          },
+          {
+            "id": "401869192",
+            "link": "https://www.espn.com/nba/game/_/gameId/401869192/suns-thunder",
+            "startTime": "2026-04-19T19:30Z",
+            "state": "pre",
+            "statusText": "Scheduled",
+            "detail": "4/19 - 3:30 PM EDT",
+            "note": "West 1st Round - Game 1",
+            "homeTeam": {
+              "abbreviation": "OKC",
+              "displayName": "Oklahoma City Thunder",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "31.1",
+                  "player": "Shai Gilgeous-Alexander",
+                  "position": "G",
+                  "jersey": "2",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278073.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4278073/shai-gilgeous-alexander"
+                },
+                {
+                  "label": "RPG",
+                  "value": "8.9",
+                  "player": "Chet Holmgren",
+                  "position": "C",
+                  "jersey": "7",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433255.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4433255/chet-holmgren"
+                },
+                {
+                  "label": "APG",
+                  "value": "6.6",
+                  "player": "Shai Gilgeous-Alexander",
+                  "position": "G",
+                  "jersey": "2",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278073.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4278073/shai-gilgeous-alexander"
+                }
+              ]
+            },
+            "awayTeam": {
+              "abbreviation": "PHX",
+              "displayName": "Phoenix Suns",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "26.1",
+                  "player": "Devin Booker",
+                  "position": "G",
+                  "jersey": "1",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3136193.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3136193/devin-booker"
+                },
+                {
+                  "label": "RPG",
+                  "value": "7.9",
+                  "player": "Mark Williams",
+                  "position": "C",
+                  "jersey": "15",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4701232.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4701232/mark-williams"
+                },
+                {
+                  "label": "APG",
+                  "value": "6.0",
+                  "player": "Devin Booker",
+                  "position": "G",
+                  "jersey": "1",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3136193.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3136193/devin-booker"
+                }
+              ]
+            }
+          },
+          {
+            "id": "401869193",
+            "link": "https://www.espn.com/nba/game/_/gameId/401869193/magic-pistons",
+            "startTime": "2026-04-19T22:30Z",
+            "state": "pre",
+            "statusText": "Scheduled",
+            "detail": "4/19 - 6:30 PM EDT",
+            "note": "East 1st Round - Game 1",
+            "homeTeam": {
+              "abbreviation": "DET",
+              "displayName": "Detroit Pistons",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "23.9",
+                  "player": "Cade Cunningham",
+                  "position": "G",
+                  "jersey": "2",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432166.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4432166/cade-cunningham"
+                },
+                {
+                  "label": "RPG",
+                  "value": "10.5",
+                  "player": "Jalen Duren",
+                  "position": "C",
+                  "jersey": "0",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433621.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4433621/jalen-duren"
+                },
+                {
+                  "label": "APG",
+                  "value": "9.9",
+                  "player": "Cade Cunningham",
+                  "position": "G",
+                  "jersey": "2",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432166.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4432166/cade-cunningham"
+                }
+              ]
+            },
+            "awayTeam": {
+              "abbreviation": "ORL",
+              "displayName": "Orlando Magic",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "22.2",
+                  "player": "Paolo Banchero",
+                  "position": "F",
+                  "jersey": "5",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432573.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4432573/paolo-banchero"
+                },
+                {
+                  "label": "RPG",
+                  "value": "8.4",
+                  "player": "Paolo Banchero",
+                  "position": "F",
+                  "jersey": "5",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432573.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4432573/paolo-banchero"
+                },
+                {
+                  "label": "APG",
+                  "value": "5.5",
+                  "player": "Jalen Suggs",
+                  "position": "G",
+                  "jersey": "4",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432165.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4432165/jalen-suggs"
+                }
+              ]
+            }
+          },
+          {
+            "id": "401869194",
+            "link": "https://www.espn.com/nba/game/_/gameId/401869194/trail-blazers-spurs",
+            "startTime": "2026-04-20T01:00Z",
+            "state": "pre",
+            "statusText": "Scheduled",
+            "detail": "4/19 - 9:00 PM EDT",
+            "note": "West 1st Round - Game 1",
+            "homeTeam": {
+              "abbreviation": "SA",
+              "displayName": "San Antonio Spurs",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "25.0",
+                  "player": "Victor Wembanyama",
+                  "position": "F",
+                  "jersey": "1",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
+                  "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
+                },
+                {
+                  "label": "RPG",
+                  "value": "11.5",
+                  "player": "Victor Wembanyama",
+                  "position": "F",
+                  "jersey": "1",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
+                  "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
+                },
+                {
+                  "label": "APG",
+                  "value": "7.4",
+                  "player": "Stephon Castle",
+                  "position": "G",
+                  "jersey": "5",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4845367.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4845367/stephon-castle"
+                }
+              ]
+            },
+            "awayTeam": {
+              "abbreviation": "POR",
+              "displayName": "Portland Trail Blazers",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "24.2",
+                  "player": "Deni Avdija",
+                  "position": "F",
+                  "jersey": "8",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683021.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4683021/deni-avdija"
+                },
+                {
+                  "label": "RPG",
+                  "value": "11.6",
+                  "player": "Donovan Clingan",
+                  "position": "C",
+                  "jersey": "23",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105565.png",
+                  "link": "https://www.espn.com/nba/player/_/id/5105565/donovan-clingan"
+                },
+                {
+                  "label": "APG",
+                  "value": "6.7",
+                  "player": "Deni Avdija",
+                  "position": "F",
+                  "jersey": "8",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683021.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4683021/deni-avdija"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-04-20",
+        "games": [
+          {
+            "id": "401869369",
+            "link": "https://www.espn.com/nba/game/_/gameId/401869369/raptors-cavaliers",
+            "startTime": "2026-04-20T23:00Z",
+            "state": "pre",
+            "statusText": "Scheduled",
+            "detail": "4/20 - 7:00 PM EDT",
+            "note": "East 1st Round - Game 2",
+            "homeTeam": {
+              "abbreviation": "CLE",
+              "displayName": "Cleveland Cavaliers",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "27.9",
+                  "player": "Donovan Mitchell",
+                  "position": "G",
+                  "jersey": "45",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3908809.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3908809/donovan-mitchell"
+                },
+                {
+                  "label": "RPG",
+                  "value": "9.0",
+                  "player": "Evan Mobley",
+                  "position": "C",
+                  "jersey": "4",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432158.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4432158/evan-mobley"
+                },
+                {
+                  "label": "APG",
+                  "value": "5.7",
+                  "player": "Donovan Mitchell",
+                  "position": "G",
+                  "jersey": "45",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3908809.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3908809/donovan-mitchell"
+                }
+              ]
+            },
+            "awayTeam": {
+              "abbreviation": "TOR",
+              "displayName": "Toronto Raptors",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "21.5",
+                  "player": "Brandon Ingram",
+                  "position": "F",
+                  "jersey": "3",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3913176.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3913176/brandon-ingram"
+                },
+                {
+                  "label": "RPG",
+                  "value": "7.5",
+                  "player": "Scottie Barnes",
+                  "position": "F",
+                  "jersey": "4",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433134.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4433134/scottie-barnes"
+                },
+                {
+                  "label": "APG",
+                  "value": "5.9",
+                  "player": "Scottie Barnes",
+                  "position": "F",
+                  "jersey": "4",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433134.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4433134/scottie-barnes"
+                }
+              ]
+            }
+          },
+          {
+            "id": "401869387",
+            "link": "https://www.espn.com/nba/game/_/gameId/401869387/hawks-knicks",
+            "startTime": "2026-04-21T00:00Z",
+            "state": "pre",
+            "statusText": "Scheduled",
+            "detail": "4/20 - 8:00 PM EDT",
+            "note": "East 1st Round - Game 2",
+            "homeTeam": {
+              "abbreviation": "NY",
+              "displayName": "New York Knicks",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "26.0",
+                  "player": "Jalen Brunson",
+                  "position": "G",
+                  "jersey": "11",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3934672/jalen-brunson"
+                },
+                {
+                  "label": "RPG",
+                  "value": "11.9",
+                  "player": "Karl-Anthony Towns",
+                  "position": "C",
+                  "jersey": "32",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3136195.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3136195/karl-anthony-towns"
+                },
+                {
+                  "label": "APG",
+                  "value": "6.8",
+                  "player": "Jalen Brunson",
+                  "position": "G",
+                  "jersey": "11",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3934672/jalen-brunson"
+                }
+              ]
+            },
+            "awayTeam": {
+              "abbreviation": "ATL",
+              "displayName": "Atlanta Hawks",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "22.5",
+                  "player": "Jalen Johnson",
+                  "position": "F",
+                  "jersey": "1",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4701230.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4701230/jalen-johnson"
+                },
+                {
+                  "label": "RPG",
+                  "value": "10.3",
+                  "player": "Jalen Johnson",
+                  "position": "F",
+                  "jersey": "1",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4701230.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4701230/jalen-johnson"
+                },
+                {
+                  "label": "APG",
+                  "value": "7.9",
+                  "player": "Jalen Johnson",
+                  "position": "F",
+                  "jersey": "1",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4701230.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4701230/jalen-johnson"
+                }
+              ]
+            }
+          },
+          {
+            "id": "401869395",
+            "link": "https://www.espn.com/nba/game/_/gameId/401869395/timberwolves-nuggets",
+            "startTime": "2026-04-21T02:30Z",
+            "state": "pre",
+            "statusText": "Scheduled",
+            "detail": "4/20 - 10:30 PM EDT",
+            "note": "West 1st Round - Game 2",
+            "homeTeam": {
+              "abbreviation": "DEN",
+              "displayName": "Denver Nuggets",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "27.7",
+                  "player": "Nikola Jokic",
+                  "position": "C",
+                  "jersey": "15",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3112335.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3112335/nikola-jokic"
+                },
+                {
+                  "label": "RPG",
+                  "value": "12.9",
+                  "player": "Nikola Jokic",
+                  "position": "C",
+                  "jersey": "15",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3112335.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3112335/nikola-jokic"
+                },
+                {
+                  "label": "APG",
+                  "value": "10.7",
+                  "player": "Nikola Jokic",
+                  "position": "C",
+                  "jersey": "15",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3112335.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3112335/nikola-jokic"
+                }
+              ]
+            },
+            "awayTeam": {
+              "abbreviation": "MIN",
+              "displayName": "Minnesota Timberwolves",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "28.8",
+                  "player": "Anthony Edwards",
+                  "position": "G",
+                  "jersey": "5",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4594268.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4594268/anthony-edwards"
+                },
+                {
+                  "label": "RPG",
+                  "value": "11.5",
+                  "player": "Rudy Gobert",
+                  "position": "C",
+                  "jersey": "27",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3032976.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3032976/rudy-gobert"
+                },
+                {
+                  "label": "APG",
+                  "value": "5.0",
+                  "player": "Julius Randle",
+                  "position": "F",
+                  "jersey": "30",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3064514.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3064514/julius-randle"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-04-21",
+        "games": [
+          {
+            "id": "401869396",
+            "link": "https://www.espn.com/nba/game/_/gameId/401869396/76ers-celtics",
+            "startTime": "2026-04-21T23:00Z",
+            "state": "pre",
+            "statusText": "Scheduled",
+            "detail": "4/21 - 7:00 PM EDT",
+            "note": "East 1st Round - Game 2",
+            "homeTeam": {
+              "abbreviation": "BOS",
+              "displayName": "Boston Celtics",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "28.7",
+                  "player": "Jaylen Brown",
+                  "position": "G",
+                  "jersey": "7",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3917376.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3917376/jaylen-brown"
+                },
+                {
+                  "label": "RPG",
+                  "value": "8.4",
+                  "player": "Neemias Queta",
+                  "position": "C",
+                  "jersey": "88",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397424.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4397424/neemias-queta"
+                },
+                {
+                  "label": "APG",
+                  "value": "5.4",
+                  "player": "Derrick White",
+                  "position": "G",
+                  "jersey": "9",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3078576.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3078576/derrick-white"
+                }
+              ]
+            },
+            "awayTeam": {
+              "abbreviation": "PHI",
+              "displayName": "Philadelphia 76ers",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "28.3",
+                  "player": "Tyrese Maxey",
+                  "position": "G",
+                  "jersey": "0",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431678.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4431678/tyrese-maxey"
+                },
+                {
+                  "label": "RPG",
+                  "value": "8.4",
+                  "player": "Andre Drummond",
+                  "position": "C",
+                  "jersey": "1",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/6585.png",
+                  "link": "https://www.espn.com/nba/player/_/id/6585/andre-drummond"
+                },
+                {
+                  "label": "APG",
+                  "value": "6.6",
+                  "player": "Tyrese Maxey",
+                  "position": "G",
+                  "jersey": "0",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431678.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4431678/tyrese-maxey"
+                }
+              ]
+            }
+          },
+          {
+            "id": "401869378",
+            "link": "https://www.espn.com/nba/game/_/gameId/401869378/trail-blazers-spurs",
+            "startTime": "2026-04-22T00:00Z",
+            "state": "pre",
+            "statusText": "Scheduled",
+            "detail": "4/21 - 8:00 PM EDT",
+            "note": "West 1st Round - Game 2",
+            "homeTeam": {
+              "abbreviation": "SA",
+              "displayName": "San Antonio Spurs",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "25.0",
+                  "player": "Victor Wembanyama",
+                  "position": "F",
+                  "jersey": "1",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
+                  "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
+                },
+                {
+                  "label": "RPG",
+                  "value": "11.5",
+                  "player": "Victor Wembanyama",
+                  "position": "F",
+                  "jersey": "1",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
+                  "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
+                },
+                {
+                  "label": "APG",
+                  "value": "7.4",
+                  "player": "Stephon Castle",
+                  "position": "G",
+                  "jersey": "5",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4845367.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4845367/stephon-castle"
+                }
+              ]
+            },
+            "awayTeam": {
+              "abbreviation": "POR",
+              "displayName": "Portland Trail Blazers",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "24.2",
+                  "player": "Deni Avdija",
+                  "position": "F",
+                  "jersey": "8",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683021.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4683021/deni-avdija"
+                },
+                {
+                  "label": "RPG",
+                  "value": "11.6",
+                  "player": "Donovan Clingan",
+                  "position": "C",
+                  "jersey": "23",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105565.png",
+                  "link": "https://www.espn.com/nba/player/_/id/5105565/donovan-clingan"
+                },
+                {
+                  "label": "APG",
+                  "value": "6.7",
+                  "player": "Deni Avdija",
+                  "position": "F",
+                  "jersey": "8",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683021.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4683021/deni-avdija"
+                }
+              ]
+            }
+          },
+          {
+            "id": "401869397",
+            "link": "https://www.espn.com/nba/game/_/gameId/401869397/rockets-lakers",
+            "startTime": "2026-04-22T02:30Z",
+            "state": "pre",
+            "statusText": "Scheduled",
+            "detail": "4/21 - 10:30 PM EDT",
+            "note": "West 1st Round - Game 2",
+            "homeTeam": {
+              "abbreviation": "LAL",
+              "displayName": "Los Angeles Lakers",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "20.9",
+                  "player": "LeBron James",
+                  "position": "F",
+                  "jersey": "23",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/1966.png",
+                  "link": "https://www.espn.com/nba/player/_/id/1966/lebron-james"
+                },
+                {
+                  "label": "RPG",
+                  "value": "8.0",
+                  "player": "Deandre Ayton",
+                  "position": "C",
+                  "jersey": "5",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278129.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4278129/deandre-ayton"
+                },
+                {
+                  "label": "APG",
+                  "value": "7.2",
+                  "player": "LeBron James",
+                  "position": "F",
+                  "jersey": "23",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/1966.png",
+                  "link": "https://www.espn.com/nba/player/_/id/1966/lebron-james"
+                }
+              ]
+            },
+            "awayTeam": {
+              "abbreviation": "HOU",
+              "displayName": "Houston Rockets",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "20.4",
+                  "player": "Alperen Sengun",
+                  "position": "C",
+                  "jersey": "28",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4871144.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4871144/alperen-sengun"
+                },
+                {
+                  "label": "RPG",
+                  "value": "8.9",
+                  "player": "Alperen Sengun",
+                  "position": "C",
+                  "jersey": "28",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4871144.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4871144/alperen-sengun"
+                },
+                {
+                  "label": "APG",
+                  "value": "6.2",
+                  "player": "Alperen Sengun",
+                  "position": "C",
+                  "jersey": "28",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4871144.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4871144/alperen-sengun"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-04-22",
+        "games": [
+          {
+            "id": "401869411",
+            "link": "https://www.espn.com/nba/game/_/gameId/401869411/magic-pistons",
+            "startTime": "2026-04-22T23:00Z",
+            "state": "pre",
+            "statusText": "Scheduled",
+            "detail": "4/22 - 7:00 PM EDT",
+            "note": "East 1st Round - Game 2",
+            "homeTeam": {
+              "abbreviation": "DET",
+              "displayName": "Detroit Pistons",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "23.9",
+                  "player": "Cade Cunningham",
+                  "position": "G",
+                  "jersey": "2",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432166.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4432166/cade-cunningham"
+                },
+                {
+                  "label": "RPG",
+                  "value": "10.5",
+                  "player": "Jalen Duren",
+                  "position": "C",
+                  "jersey": "0",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433621.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4433621/jalen-duren"
+                },
+                {
+                  "label": "APG",
+                  "value": "9.9",
+                  "player": "Cade Cunningham",
+                  "position": "G",
+                  "jersey": "2",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432166.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4432166/cade-cunningham"
+                }
+              ]
+            },
+            "awayTeam": {
+              "abbreviation": "ORL",
+              "displayName": "Orlando Magic",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "22.2",
+                  "player": "Paolo Banchero",
+                  "position": "F",
+                  "jersey": "5",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432573.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4432573/paolo-banchero"
+                },
+                {
+                  "label": "RPG",
+                  "value": "8.4",
+                  "player": "Paolo Banchero",
+                  "position": "F",
+                  "jersey": "5",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432573.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4432573/paolo-banchero"
+                },
+                {
+                  "label": "APG",
+                  "value": "5.5",
+                  "player": "Jalen Suggs",
+                  "position": "G",
+                  "jersey": "4",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432165.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4432165/jalen-suggs"
+                }
+              ]
+            }
+          },
+          {
+            "id": "401869368",
+            "link": "https://www.espn.com/nba/game/_/gameId/401869368/suns-thunder",
+            "startTime": "2026-04-23T01:30Z",
+            "state": "pre",
+            "statusText": "Scheduled",
+            "detail": "4/22 - 9:30 PM EDT",
+            "note": "West 1st Round - Game 2",
+            "homeTeam": {
+              "abbreviation": "OKC",
+              "displayName": "Oklahoma City Thunder",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "31.1",
+                  "player": "Shai Gilgeous-Alexander",
+                  "position": "G",
+                  "jersey": "2",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278073.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4278073/shai-gilgeous-alexander"
+                },
+                {
+                  "label": "RPG",
+                  "value": "8.9",
+                  "player": "Chet Holmgren",
+                  "position": "C",
+                  "jersey": "7",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433255.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4433255/chet-holmgren"
+                },
+                {
+                  "label": "APG",
+                  "value": "6.6",
+                  "player": "Shai Gilgeous-Alexander",
+                  "position": "G",
+                  "jersey": "2",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278073.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4278073/shai-gilgeous-alexander"
+                }
+              ]
+            },
+            "awayTeam": {
+              "abbreviation": "PHX",
+              "displayName": "Phoenix Suns",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "26.1",
+                  "player": "Devin Booker",
+                  "position": "G",
+                  "jersey": "1",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3136193.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3136193/devin-booker"
+                },
+                {
+                  "label": "RPG",
+                  "value": "7.9",
+                  "player": "Mark Williams",
+                  "position": "C",
+                  "jersey": "15",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4701232.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4701232/mark-williams"
+                },
+                {
+                  "label": "APG",
+                  "value": "6.0",
+                  "player": "Devin Booker",
+                  "position": "G",
+                  "jersey": "1",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3136193.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3136193/devin-booker"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-04-23",
+        "games": [
+          {
+            "id": "401869389",
+            "link": "https://www.espn.com/nba/game/_/gameId/401869389/knicks-hawks",
+            "startTime": "2026-04-23T23:00Z",
+            "state": "pre",
+            "statusText": "Scheduled",
+            "detail": "4/23 - 7:00 PM EDT",
+            "note": "East 1st Round - Game 3",
+            "homeTeam": {
+              "abbreviation": "ATL",
+              "displayName": "Atlanta Hawks",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "22.5",
+                  "player": "Jalen Johnson",
+                  "position": "F",
+                  "jersey": "1",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4701230.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4701230/jalen-johnson"
+                },
+                {
+                  "label": "RPG",
+                  "value": "10.3",
+                  "player": "Jalen Johnson",
+                  "position": "F",
+                  "jersey": "1",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4701230.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4701230/jalen-johnson"
+                },
+                {
+                  "label": "APG",
+                  "value": "7.9",
+                  "player": "Jalen Johnson",
+                  "position": "F",
+                  "jersey": "1",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4701230.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4701230/jalen-johnson"
+                }
+              ]
+            },
+            "awayTeam": {
+              "abbreviation": "NY",
+              "displayName": "New York Knicks",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "26.0",
+                  "player": "Jalen Brunson",
+                  "position": "G",
+                  "jersey": "11",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3934672/jalen-brunson"
+                },
+                {
+                  "label": "RPG",
+                  "value": "11.9",
+                  "player": "Karl-Anthony Towns",
+                  "position": "C",
+                  "jersey": "32",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3136195.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3136195/karl-anthony-towns"
+                },
+                {
+                  "label": "APG",
+                  "value": "6.8",
+                  "player": "Jalen Brunson",
+                  "position": "G",
+                  "jersey": "11",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3934672/jalen-brunson"
+                }
+              ]
+            }
+          },
+          {
+            "id": "401869375",
+            "link": "https://www.espn.com/nba/game/_/gameId/401869375/cavaliers-raptors",
+            "startTime": "2026-04-24T00:00Z",
+            "state": "pre",
+            "statusText": "Scheduled",
+            "detail": "4/23 - 8:00 PM EDT",
+            "note": "East 1st Round - Game 3",
+            "homeTeam": {
+              "abbreviation": "TOR",
+              "displayName": "Toronto Raptors",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "21.5",
+                  "player": "Brandon Ingram",
+                  "position": "F",
+                  "jersey": "3",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3913176.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3913176/brandon-ingram"
+                },
+                {
+                  "label": "RPG",
+                  "value": "7.5",
+                  "player": "Scottie Barnes",
+                  "position": "F",
+                  "jersey": "4",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433134.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4433134/scottie-barnes"
+                },
+                {
+                  "label": "APG",
+                  "value": "5.9",
+                  "player": "Scottie Barnes",
+                  "position": "F",
+                  "jersey": "4",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433134.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4433134/scottie-barnes"
+                }
+              ]
+            },
+            "awayTeam": {
+              "abbreviation": "CLE",
+              "displayName": "Cleveland Cavaliers",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "27.9",
+                  "player": "Donovan Mitchell",
+                  "position": "G",
+                  "jersey": "45",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3908809.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3908809/donovan-mitchell"
+                },
+                {
+                  "label": "RPG",
+                  "value": "9.0",
+                  "player": "Evan Mobley",
+                  "position": "C",
+                  "jersey": "4",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432158.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4432158/evan-mobley"
+                },
+                {
+                  "label": "APG",
+                  "value": "5.7",
+                  "player": "Donovan Mitchell",
+                  "position": "G",
+                  "jersey": "45",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3908809.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3908809/donovan-mitchell"
+                }
+              ]
+            }
+          },
+          {
+            "id": "401869398",
+            "link": "https://www.espn.com/nba/game/_/gameId/401869398/nuggets-timberwolves",
+            "startTime": "2026-04-24T01:30Z",
+            "state": "pre",
+            "statusText": "Scheduled",
+            "detail": "4/23 - 9:30 PM EDT",
+            "note": "West 1st Round - Game 3",
+            "homeTeam": {
+              "abbreviation": "MIN",
+              "displayName": "Minnesota Timberwolves",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "28.8",
+                  "player": "Anthony Edwards",
+                  "position": "G",
+                  "jersey": "5",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4594268.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4594268/anthony-edwards"
+                },
+                {
+                  "label": "RPG",
+                  "value": "11.5",
+                  "player": "Rudy Gobert",
+                  "position": "C",
+                  "jersey": "27",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3032976.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3032976/rudy-gobert"
+                },
+                {
+                  "label": "APG",
+                  "value": "5.0",
+                  "player": "Julius Randle",
+                  "position": "F",
+                  "jersey": "30",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3064514.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3064514/julius-randle"
+                }
+              ]
+            },
+            "awayTeam": {
+              "abbreviation": "DEN",
+              "displayName": "Denver Nuggets",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "27.7",
+                  "player": "Nikola Jokic",
+                  "position": "C",
+                  "jersey": "15",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3112335.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3112335/nikola-jokic"
+                },
+                {
+                  "label": "RPG",
+                  "value": "12.9",
+                  "player": "Nikola Jokic",
+                  "position": "C",
+                  "jersey": "15",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3112335.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3112335/nikola-jokic"
+                },
+                {
+                  "label": "APG",
+                  "value": "10.7",
+                  "player": "Nikola Jokic",
+                  "position": "C",
+                  "jersey": "15",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3112335.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3112335/nikola-jokic"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-04-24",
+        "games": [
+          {
+            "id": "401869404",
+            "link": "https://www.espn.com/nba/game/_/gameId/401869404/celtics-76ers",
+            "startTime": "2026-04-24T23:00Z",
+            "state": "pre",
+            "statusText": "Scheduled",
+            "detail": "4/24 - 7:00 PM EDT",
+            "note": "East 1st Round - Game 3",
+            "homeTeam": {
+              "abbreviation": "PHI",
+              "displayName": "Philadelphia 76ers",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "28.3",
+                  "player": "Tyrese Maxey",
+                  "position": "G",
+                  "jersey": "0",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431678.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4431678/tyrese-maxey"
+                },
+                {
+                  "label": "RPG",
+                  "value": "8.4",
+                  "player": "Andre Drummond",
+                  "position": "C",
+                  "jersey": "1",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/6585.png",
+                  "link": "https://www.espn.com/nba/player/_/id/6585/andre-drummond"
+                },
+                {
+                  "label": "APG",
+                  "value": "6.6",
+                  "player": "Tyrese Maxey",
+                  "position": "G",
+                  "jersey": "0",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431678.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4431678/tyrese-maxey"
+                }
+              ]
+            },
+            "awayTeam": {
+              "abbreviation": "BOS",
+              "displayName": "Boston Celtics",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "28.7",
+                  "player": "Jaylen Brown",
+                  "position": "G",
+                  "jersey": "7",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3917376.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3917376/jaylen-brown"
+                },
+                {
+                  "label": "RPG",
+                  "value": "8.4",
+                  "player": "Neemias Queta",
+                  "position": "C",
+                  "jersey": "88",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397424.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4397424/neemias-queta"
+                },
+                {
+                  "label": "APG",
+                  "value": "5.4",
+                  "player": "Derrick White",
+                  "position": "G",
+                  "jersey": "9",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3078576.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3078576/derrick-white"
+                }
+              ]
+            }
+          },
+          {
+            "id": "401869400",
+            "link": "https://www.espn.com/nba/game/_/gameId/401869400/lakers-rockets",
+            "startTime": "2026-04-25T00:00Z",
+            "state": "pre",
+            "statusText": "Scheduled",
+            "detail": "4/24 - 8:00 PM EDT",
+            "note": "West 1st Round - Game 3",
+            "homeTeam": {
+              "abbreviation": "HOU",
+              "displayName": "Houston Rockets",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "20.4",
+                  "player": "Alperen Sengun",
+                  "position": "C",
+                  "jersey": "28",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4871144.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4871144/alperen-sengun"
+                },
+                {
+                  "label": "RPG",
+                  "value": "8.9",
+                  "player": "Alperen Sengun",
+                  "position": "C",
+                  "jersey": "28",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4871144.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4871144/alperen-sengun"
+                },
+                {
+                  "label": "APG",
+                  "value": "6.2",
+                  "player": "Alperen Sengun",
+                  "position": "C",
+                  "jersey": "28",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4871144.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4871144/alperen-sengun"
+                }
+              ]
+            },
+            "awayTeam": {
+              "abbreviation": "LAL",
+              "displayName": "Los Angeles Lakers",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "20.9",
+                  "player": "LeBron James",
+                  "position": "F",
+                  "jersey": "23",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/1966.png",
+                  "link": "https://www.espn.com/nba/player/_/id/1966/lebron-james"
+                },
+                {
+                  "label": "RPG",
+                  "value": "8.0",
+                  "player": "Deandre Ayton",
+                  "position": "C",
+                  "jersey": "5",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278129.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4278129/deandre-ayton"
+                },
+                {
+                  "label": "APG",
+                  "value": "7.2",
+                  "player": "LeBron James",
+                  "position": "F",
+                  "jersey": "23",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/1966.png",
+                  "link": "https://www.espn.com/nba/player/_/id/1966/lebron-james"
+                }
+              ]
+            }
+          },
+          {
+            "id": "401869382",
+            "link": "https://www.espn.com/nba/game/_/gameId/401869382/spurs-trail-blazers",
+            "startTime": "2026-04-25T02:30Z",
+            "state": "pre",
+            "statusText": "Scheduled",
+            "detail": "4/24 - 10:30 PM EDT",
+            "note": "West 1st Round - Game 3",
+            "homeTeam": {
+              "abbreviation": "POR",
+              "displayName": "Portland Trail Blazers",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "24.2",
+                  "player": "Deni Avdija",
+                  "position": "F",
+                  "jersey": "8",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683021.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4683021/deni-avdija"
+                },
+                {
+                  "label": "RPG",
+                  "value": "11.6",
+                  "player": "Donovan Clingan",
+                  "position": "C",
+                  "jersey": "23",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105565.png",
+                  "link": "https://www.espn.com/nba/player/_/id/5105565/donovan-clingan"
+                },
+                {
+                  "label": "APG",
+                  "value": "6.7",
+                  "player": "Deni Avdija",
+                  "position": "F",
+                  "jersey": "8",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683021.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4683021/deni-avdija"
+                }
+              ]
+            },
+            "awayTeam": {
+              "abbreviation": "SA",
+              "displayName": "San Antonio Spurs",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "25.0",
+                  "player": "Victor Wembanyama",
+                  "position": "F",
+                  "jersey": "1",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
+                  "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
+                },
+                {
+                  "label": "RPG",
+                  "value": "11.5",
+                  "player": "Victor Wembanyama",
+                  "position": "F",
+                  "jersey": "1",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
+                  "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
+                },
+                {
+                  "label": "APG",
+                  "value": "7.4",
+                  "player": "Stephon Castle",
+                  "position": "G",
+                  "jersey": "5",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4845367.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4845367/stephon-castle"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
     "games": [
       {
-        "id": "401869191",
-        "link": "https://www.espn.com/nba/game/_/gameId/401869191/76ers-celtics",
-        "startTime": "2026-04-19T17:00Z",
+        "id": "401869369",
+        "link": "https://www.espn.com/nba/game/_/gameId/401869369/raptors-cavaliers",
+        "startTime": "2026-04-20T23:00Z",
         "state": "pre",
         "statusText": "Scheduled",
-        "detail": "4/19 - 1:00 PM EDT",
-        "note": "East 1st Round - Game 1",
+        "detail": "4/20 - 7:00 PM EDT",
+        "note": "East 1st Round - Game 2",
         "homeTeam": {
-          "abbreviation": "BOS",
-          "displayName": "Boston Celtics",
+          "abbreviation": "CLE",
+          "displayName": "Cleveland Cavaliers",
           "score": "0",
-          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
+          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+          "leaderContext": "Season Leaders",
           "leaders": [
             {
               "label": "PPG",
-              "value": "28.7",
-              "player": "Jaylen Brown",
+              "value": "27.9",
+              "player": "Donovan Mitchell",
               "position": "G",
-              "jersey": "7",
+              "jersey": "45",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3917376.png",
-              "link": "https://www.espn.com/nba/player/_/id/3917376/jaylen-brown"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3908809.png",
+              "link": "https://www.espn.com/nba/player/_/id/3908809/donovan-mitchell"
             },
             {
               "label": "RPG",
-              "value": "8.4",
-              "player": "Neemias Queta",
+              "value": "9.0",
+              "player": "Evan Mobley",
               "position": "C",
-              "jersey": "88",
+              "jersey": "4",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397424.png",
-              "link": "https://www.espn.com/nba/player/_/id/4397424/neemias-queta"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432158.png",
+              "link": "https://www.espn.com/nba/player/_/id/4432158/evan-mobley"
             },
             {
               "label": "APG",
-              "value": "5.4",
-              "player": "Derrick White",
+              "value": "5.7",
+              "player": "Donovan Mitchell",
               "position": "G",
-              "jersey": "9",
+              "jersey": "45",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3078576.png",
-              "link": "https://www.espn.com/nba/player/_/id/3078576/derrick-white"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3908809.png",
+              "link": "https://www.espn.com/nba/player/_/id/3908809/donovan-mitchell"
             }
           ]
         },
         "awayTeam": {
-          "abbreviation": "PHI",
-          "displayName": "Philadelphia 76ers",
+          "abbreviation": "TOR",
+          "displayName": "Toronto Raptors",
           "score": "0",
-          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
+          "leaderContext": "Season Leaders",
           "leaders": [
             {
               "label": "PPG",
-              "value": "28.3",
-              "player": "Tyrese Maxey",
-              "position": "G",
-              "jersey": "0",
+              "value": "21.5",
+              "player": "Brandon Ingram",
+              "position": "F",
+              "jersey": "3",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431678.png",
-              "link": "https://www.espn.com/nba/player/_/id/4431678/tyrese-maxey"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3913176.png",
+              "link": "https://www.espn.com/nba/player/_/id/3913176/brandon-ingram"
             },
             {
               "label": "RPG",
-              "value": "8.4",
-              "player": "Andre Drummond",
-              "position": "C",
-              "jersey": "1",
+              "value": "7.5",
+              "player": "Scottie Barnes",
+              "position": "F",
+              "jersey": "4",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/6585.png",
-              "link": "https://www.espn.com/nba/player/_/id/6585/andre-drummond"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433134.png",
+              "link": "https://www.espn.com/nba/player/_/id/4433134/scottie-barnes"
             },
             {
               "label": "APG",
-              "value": "6.6",
-              "player": "Tyrese Maxey",
-              "position": "G",
-              "jersey": "0",
+              "value": "5.9",
+              "player": "Scottie Barnes",
+              "position": "F",
+              "jersey": "4",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431678.png",
-              "link": "https://www.espn.com/nba/player/_/id/4431678/tyrese-maxey"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433134.png",
+              "link": "https://www.espn.com/nba/player/_/id/4433134/scottie-barnes"
             }
           ]
         }
       },
       {
-        "id": "401869192",
-        "link": "https://www.espn.com/nba/game/_/gameId/401869192/suns-thunder",
-        "startTime": "2026-04-19T19:30Z",
+        "id": "401869387",
+        "link": "https://www.espn.com/nba/game/_/gameId/401869387/hawks-knicks",
+        "startTime": "2026-04-21T00:00Z",
         "state": "pre",
         "statusText": "Scheduled",
-        "detail": "4/19 - 3:30 PM EDT",
-        "note": "West 1st Round - Game 1",
+        "detail": "4/20 - 8:00 PM EDT",
+        "note": "East 1st Round - Game 2",
         "homeTeam": {
-          "abbreviation": "OKC",
-          "displayName": "Oklahoma City Thunder",
+          "abbreviation": "NY",
+          "displayName": "New York Knicks",
           "score": "0",
-          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
+          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+          "leaderContext": "Season Leaders",
           "leaders": [
             {
               "label": "PPG",
-              "value": "31.1",
-              "player": "Shai Gilgeous-Alexander",
+              "value": "26.0",
+              "player": "Jalen Brunson",
               "position": "G",
-              "jersey": "2",
+              "jersey": "11",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278073.png",
-              "link": "https://www.espn.com/nba/player/_/id/4278073/shai-gilgeous-alexander"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
+              "link": "https://www.espn.com/nba/player/_/id/3934672/jalen-brunson"
             },
             {
               "label": "RPG",
-              "value": "8.9",
-              "player": "Chet Holmgren",
+              "value": "11.9",
+              "player": "Karl-Anthony Towns",
               "position": "C",
-              "jersey": "7",
+              "jersey": "32",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433255.png",
-              "link": "https://www.espn.com/nba/player/_/id/4433255/chet-holmgren"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3136195.png",
+              "link": "https://www.espn.com/nba/player/_/id/3136195/karl-anthony-towns"
             },
             {
               "label": "APG",
-              "value": "6.6",
-              "player": "Shai Gilgeous-Alexander",
+              "value": "6.8",
+              "player": "Jalen Brunson",
               "position": "G",
-              "jersey": "2",
+              "jersey": "11",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278073.png",
-              "link": "https://www.espn.com/nba/player/_/id/4278073/shai-gilgeous-alexander"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
+              "link": "https://www.espn.com/nba/player/_/id/3934672/jalen-brunson"
             }
           ]
         },
         "awayTeam": {
-          "abbreviation": "PHX",
-          "displayName": "Phoenix Suns",
+          "abbreviation": "ATL",
+          "displayName": "Atlanta Hawks",
           "score": "0",
-          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
+          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
+          "leaderContext": "Season Leaders",
           "leaders": [
             {
               "label": "PPG",
-              "value": "26.1",
-              "player": "Devin Booker",
-              "position": "G",
+              "value": "22.5",
+              "player": "Jalen Johnson",
+              "position": "F",
               "jersey": "1",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3136193.png",
-              "link": "https://www.espn.com/nba/player/_/id/3136193/devin-booker"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4701230.png",
+              "link": "https://www.espn.com/nba/player/_/id/4701230/jalen-johnson"
             },
             {
               "label": "RPG",
+              "value": "10.3",
+              "player": "Jalen Johnson",
+              "position": "F",
+              "jersey": "1",
+              "summary": "",
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4701230.png",
+              "link": "https://www.espn.com/nba/player/_/id/4701230/jalen-johnson"
+            },
+            {
+              "label": "APG",
               "value": "7.9",
-              "player": "Mark Williams",
+              "player": "Jalen Johnson",
+              "position": "F",
+              "jersey": "1",
+              "summary": "",
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4701230.png",
+              "link": "https://www.espn.com/nba/player/_/id/4701230/jalen-johnson"
+            }
+          ]
+        }
+      },
+      {
+        "id": "401869395",
+        "link": "https://www.espn.com/nba/game/_/gameId/401869395/timberwolves-nuggets",
+        "startTime": "2026-04-21T02:30Z",
+        "state": "pre",
+        "statusText": "Scheduled",
+        "detail": "4/20 - 10:30 PM EDT",
+        "note": "West 1st Round - Game 2",
+        "homeTeam": {
+          "abbreviation": "DEN",
+          "displayName": "Denver Nuggets",
+          "score": "0",
+          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
+          "leaderContext": "Season Leaders",
+          "leaders": [
+            {
+              "label": "PPG",
+              "value": "27.7",
+              "player": "Nikola Jokic",
               "position": "C",
               "jersey": "15",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4701232.png",
-              "link": "https://www.espn.com/nba/player/_/id/4701232/mark-williams"
-            },
-            {
-              "label": "APG",
-              "value": "6.0",
-              "player": "Devin Booker",
-              "position": "G",
-              "jersey": "1",
-              "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3136193.png",
-              "link": "https://www.espn.com/nba/player/_/id/3136193/devin-booker"
-            }
-          ]
-        }
-      },
-      {
-        "id": "401869193",
-        "link": "https://www.espn.com/nba/game/_/gameId/401869193/magic-pistons",
-        "startTime": "2026-04-19T22:30Z",
-        "state": "pre",
-        "statusText": "Scheduled",
-        "detail": "4/19 - 6:30 PM EDT",
-        "note": "East 1st Round - Game 1",
-        "homeTeam": {
-          "abbreviation": "DET",
-          "displayName": "Detroit Pistons",
-          "score": "0",
-          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
-          "leaders": [
-            {
-              "label": "PPG",
-              "value": "23.9",
-              "player": "Cade Cunningham",
-              "position": "G",
-              "jersey": "2",
-              "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432166.png",
-              "link": "https://www.espn.com/nba/player/_/id/4432166/cade-cunningham"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3112335.png",
+              "link": "https://www.espn.com/nba/player/_/id/3112335/nikola-jokic"
             },
             {
               "label": "RPG",
-              "value": "10.5",
-              "player": "Jalen Duren",
+              "value": "12.9",
+              "player": "Nikola Jokic",
               "position": "C",
-              "jersey": "0",
+              "jersey": "15",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433621.png",
-              "link": "https://www.espn.com/nba/player/_/id/4433621/jalen-duren"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3112335.png",
+              "link": "https://www.espn.com/nba/player/_/id/3112335/nikola-jokic"
             },
             {
               "label": "APG",
-              "value": "9.9",
-              "player": "Cade Cunningham",
-              "position": "G",
-              "jersey": "2",
+              "value": "10.7",
+              "player": "Nikola Jokic",
+              "position": "C",
+              "jersey": "15",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432166.png",
-              "link": "https://www.espn.com/nba/player/_/id/4432166/cade-cunningham"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3112335.png",
+              "link": "https://www.espn.com/nba/player/_/id/3112335/nikola-jokic"
             }
           ]
         },
         "awayTeam": {
-          "abbreviation": "ORL",
-          "displayName": "Orlando Magic",
+          "abbreviation": "MIN",
+          "displayName": "Minnesota Timberwolves",
           "score": "0",
-          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png",
+          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
+          "leaderContext": "Season Leaders",
           "leaders": [
             {
               "label": "PPG",
-              "value": "22.2",
-              "player": "Paolo Banchero",
-              "position": "F",
-              "jersey": "5",
-              "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432573.png",
-              "link": "https://www.espn.com/nba/player/_/id/4432573/paolo-banchero"
-            },
-            {
-              "label": "RPG",
-              "value": "8.4",
-              "player": "Paolo Banchero",
-              "position": "F",
-              "jersey": "5",
-              "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432573.png",
-              "link": "https://www.espn.com/nba/player/_/id/4432573/paolo-banchero"
-            },
-            {
-              "label": "APG",
-              "value": "5.5",
-              "player": "Jalen Suggs",
+              "value": "28.8",
+              "player": "Anthony Edwards",
               "position": "G",
-              "jersey": "4",
+              "jersey": "5",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432165.png",
-              "link": "https://www.espn.com/nba/player/_/id/4432165/jalen-suggs"
-            }
-          ]
-        }
-      },
-      {
-        "id": "401869194",
-        "link": "https://www.espn.com/nba/game/_/gameId/401869194/trail-blazers-spurs",
-        "startTime": "2026-04-20T01:00Z",
-        "state": "pre",
-        "statusText": "Scheduled",
-        "detail": "4/19 - 9:00 PM EDT",
-        "note": "West 1st Round - Game 1",
-        "homeTeam": {
-          "abbreviation": "SA",
-          "displayName": "San Antonio Spurs",
-          "score": "0",
-          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
-          "leaders": [
-            {
-              "label": "PPG",
-              "value": "25.0",
-              "player": "Victor Wembanyama",
-              "position": "F",
-              "jersey": "1",
-              "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
-              "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4594268.png",
+              "link": "https://www.espn.com/nba/player/_/id/4594268/anthony-edwards"
             },
             {
               "label": "RPG",
               "value": "11.5",
-              "player": "Victor Wembanyama",
-              "position": "F",
-              "jersey": "1",
-              "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
-              "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
-            },
-            {
-              "label": "APG",
-              "value": "7.4",
-              "player": "Stephon Castle",
-              "position": "G",
-              "jersey": "5",
-              "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4845367.png",
-              "link": "https://www.espn.com/nba/player/_/id/4845367/stephon-castle"
-            }
-          ]
-        },
-        "awayTeam": {
-          "abbreviation": "POR",
-          "displayName": "Portland Trail Blazers",
-          "score": "0",
-          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
-          "leaders": [
-            {
-              "label": "PPG",
-              "value": "24.2",
-              "player": "Deni Avdija",
-              "position": "F",
-              "jersey": "8",
-              "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683021.png",
-              "link": "https://www.espn.com/nba/player/_/id/4683021/deni-avdija"
-            },
-            {
-              "label": "RPG",
-              "value": "11.6",
-              "player": "Donovan Clingan",
+              "player": "Rudy Gobert",
               "position": "C",
-              "jersey": "23",
+              "jersey": "27",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105565.png",
-              "link": "https://www.espn.com/nba/player/_/id/5105565/donovan-clingan"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3032976.png",
+              "link": "https://www.espn.com/nba/player/_/id/3032976/rudy-gobert"
             },
             {
               "label": "APG",
-              "value": "6.7",
-              "player": "Deni Avdija",
+              "value": "5.0",
+              "player": "Julius Randle",
               "position": "F",
-              "jersey": "8",
+              "jersey": "30",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683021.png",
-              "link": "https://www.espn.com/nba/player/_/id/4683021/deni-avdija"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3064514.png",
+              "link": "https://www.espn.com/nba/player/_/id/3064514/julius-randle"
             }
           ]
         }

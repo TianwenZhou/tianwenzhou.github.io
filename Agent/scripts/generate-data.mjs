@@ -553,86 +553,191 @@ function getGameStatus(status) {
   return { state: "pre", label: "Scheduled", detail };
 }
 
-async function fetchNbaScoreboard() {
-  const data = await fetchJson(defaults.nbaScoreboardUrl);
-  const leaderOrder = ["pointsPerGame", "reboundsPerGame", "assistsPerGame"];
+const nbaLeaderSlots = [
+  { names: ["pointsPerGame", "points"], fallbackLabel: "PTS" },
+  { names: ["reboundsPerGame", "rebounds"], fallbackLabel: "REB" },
+  { names: ["assistsPerGame", "assists"], fallbackLabel: "AST" },
+];
+const nbaScheduleRadius = 4;
+const nbaSummaryCache = new Map();
 
-  function getAthleteHeadshot(athlete) {
-    if (!athlete) {
-      return "";
-    }
-
-    if (typeof athlete.headshot === "string") {
-      return athlete.headshot;
-    }
-
-    return athlete.headshot?.href ?? "";
+function getAthleteHeadshot(athlete) {
+  if (!athlete) {
+    return "";
   }
 
-  function formatTeamLeaders(competitor) {
-    const categories = competitor?.leaders ?? [];
-
-    return leaderOrder
-      .map((name) => categories.find((category) => category.name === name))
-      .filter(Boolean)
-      .map((category) => {
-        const leader = category.leaders?.[0];
-        const athlete = leader?.athlete ?? {};
-        return {
-          label:
-            leader?.mainStat?.label ??
-            category.shortDisplayName ??
-            category.abbreviation ??
-            category.displayName ??
-            "",
-          value: leader?.displayValue ?? leader?.mainStat?.value ?? "--",
-          player: athlete.displayName ?? athlete.shortName ?? "--",
-          position: athlete.position?.abbreviation ?? "",
-          jersey: athlete.jersey ?? "",
-          summary: leader?.summary ?? "",
-          headshot: getAthleteHeadshot(athlete),
-          link: athlete.links?.find((link) => link.href)?.href ?? "",
-        };
-      });
+  if (typeof athlete.headshot === "string") {
+    return athlete.headshot;
   }
 
-  const games = (data.events ?? []).slice(0, 4).map((event) => {
-    const competition = event.competitions?.[0] ?? {};
-    const competitors = competition.competitors ?? [];
-    const homeTeam = competitors.find((team) => team.homeAway === "home");
-    const awayTeam = competitors.find((team) => team.homeAway === "away");
-    const status = getGameStatus(event.status ?? competition.status);
+  return athlete.headshot?.href ?? "";
+}
 
-    return {
-      id: event.id,
-      link:
-        event.links?.find((link) => link.href)?.href ??
-        `https://www.espn.com/nba/game/_/gameId/${event.id}`,
-      startTime: event.date,
-      state: status.state,
-      statusText: status.label,
-      detail: status.detail,
-      note: competition.notes?.[0]?.headline ?? event.name,
-      homeTeam: {
-        abbreviation: homeTeam?.team?.abbreviation ?? "HOME",
-        displayName: homeTeam?.team?.displayName ?? "Home Team",
-        score: homeTeam?.score ?? "-",
-        logo: homeTeam?.team?.logo ?? "",
-        leaders: formatTeamLeaders(homeTeam),
-      },
-      awayTeam: {
-        abbreviation: awayTeam?.team?.abbreviation ?? "AWAY",
-        displayName: awayTeam?.team?.displayName ?? "Away Team",
-        score: awayTeam?.score ?? "-",
-        logo: awayTeam?.team?.logo ?? "",
-        leaders: formatTeamLeaders(awayTeam),
-      },
-    };
-  });
+function formatLeaderCategories(categories) {
+  return nbaLeaderSlots
+    .map((slot) =>
+      (categories ?? []).find((category) => slot.names.includes(category.name)),
+    )
+    .filter(Boolean)
+    .map((category) => {
+      const leader = category.leaders?.[0];
+      const athlete = leader?.athlete ?? {};
+      return {
+        label:
+          leader?.mainStat?.label ??
+          category.shortDisplayName ??
+          category.abbreviation ??
+          category.displayName ??
+          "",
+        value: leader?.displayValue ?? leader?.mainStat?.value ?? "--",
+        player: athlete.displayName ?? athlete.shortName ?? "--",
+        position: athlete.position?.abbreviation ?? "",
+        jersey: athlete.jersey ?? "",
+        summary: leader?.summary ?? "",
+        headshot: getAthleteHeadshot(athlete),
+        link: athlete.links?.find((link) => link.href)?.href ?? "",
+      };
+    });
+}
+
+function getDateKeyInTimeZone(date, timeZone = "Asia/Shanghai") {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(date);
+
+  const year = parts.find((part) => part.type === "year")?.value ?? "0000";
+  const month = parts.find((part) => part.type === "month")?.value ?? "01";
+  const day = parts.find((part) => part.type === "day")?.value ?? "01";
+
+  return `${year}-${month}-${day}`;
+}
+
+function addDaysToDateKey(dateKey, offset) {
+  const [year, month, day] = dateKey.split("-").map(Number);
+  const value = new Date(Date.UTC(year, month - 1, day, 12));
+  value.setUTCDate(value.getUTCDate() + offset);
+  return value.toISOString().slice(0, 10);
+}
+
+function toEspnDate(dateKey) {
+  return dateKey.replaceAll("-", "");
+}
+
+function buildNbaDateWindow(todayKey) {
+  return Array.from({ length: nbaScheduleRadius * 2 + 1 }, (_, index) =>
+    addDaysToDateKey(todayKey, index - nbaScheduleRadius),
+  );
+}
+
+async function fetchNbaGameLeaders(eventId) {
+  if (nbaSummaryCache.has(eventId)) {
+    return nbaSummaryCache.get(eventId);
+  }
+
+  const promise = fetchJson(
+    `https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=${eventId}`,
+  )
+    .then((summary) =>
+      Object.fromEntries(
+        (summary.leaders ?? []).map((team) => [
+          team.team?.abbreviation,
+          {
+            displayName: team.team?.displayName ?? "",
+            logo: team.team?.logo ?? team.team?.logos?.[0]?.href ?? "",
+            leaderContext: "Game Leaders",
+            leaders: formatLeaderCategories(team.leaders),
+          },
+        ]),
+      ),
+    )
+    .catch(() => null);
+
+  nbaSummaryCache.set(eventId, promise);
+  return promise;
+}
+
+async function buildNbaGame(event) {
+  const competition = event.competitions?.[0] ?? {};
+  const competitors = competition.competitors ?? [];
+  const homeTeam = competitors.find((team) => team.homeAway === "home");
+  const awayTeam = competitors.find((team) => team.homeAway === "away");
+  const status = getGameStatus(event.status ?? competition.status);
+
+  const game = {
+    id: event.id,
+    link:
+      event.links?.find((link) => link.href)?.href ??
+      `https://www.espn.com/nba/game/_/gameId/${event.id}`,
+    startTime: event.date,
+    state: status.state,
+    statusText: status.label,
+    detail: status.detail,
+    note: competition.notes?.[0]?.headline ?? event.name,
+    homeTeam: {
+      abbreviation: homeTeam?.team?.abbreviation ?? "HOME",
+      displayName: homeTeam?.team?.displayName ?? "Home Team",
+      score: homeTeam?.score ?? "-",
+      logo: homeTeam?.team?.logo ?? "",
+      leaderContext: "Season Leaders",
+      leaders: formatLeaderCategories(homeTeam?.leaders),
+    },
+    awayTeam: {
+      abbreviation: awayTeam?.team?.abbreviation ?? "AWAY",
+      displayName: awayTeam?.team?.displayName ?? "Away Team",
+      score: awayTeam?.score ?? "-",
+      logo: awayTeam?.team?.logo ?? "",
+      leaderContext: "Season Leaders",
+      leaders: formatLeaderCategories(awayTeam?.leaders),
+    },
+  };
+
+  if (status.state !== "pre") {
+    const liveLeaders = await fetchNbaGameLeaders(event.id);
+
+    if (liveLeaders?.[game.homeTeam.abbreviation]) {
+      game.homeTeam = {
+        ...game.homeTeam,
+        ...liveLeaders[game.homeTeam.abbreviation],
+      };
+    }
+
+    if (liveLeaders?.[game.awayTeam.abbreviation]) {
+      game.awayTeam = {
+        ...game.awayTeam,
+        ...liveLeaders[game.awayTeam.abbreviation],
+      };
+    }
+  }
+
+  return game;
+}
+
+async function fetchNbaScheduleDay(dateKey) {
+  const data = await fetchJson(
+    `${defaults.nbaScoreboardUrl}?dates=${toEspnDate(dateKey)}`,
+  );
+  const games = await Promise.all((data.events ?? []).map(buildNbaGame));
 
   return {
-    date: data.day?.date ?? new Date().toISOString().slice(0, 10),
+    date: data.day?.date ?? dateKey,
     games,
+  };
+}
+
+async function fetchNbaScoreboard(referenceDate = new Date()) {
+  const todayKey = getDateKeyInTimeZone(referenceDate);
+  const dateWindow = buildNbaDateWindow(todayKey);
+  const days = await Promise.all(dateWindow.map(fetchNbaScheduleDay));
+  const currentIndex = dateWindow.findIndex((dateKey) => dateKey === todayKey);
+
+  return {
+    date: todayKey,
+    currentIndex,
+    days,
+    games: days[currentIndex]?.games ?? [],
   };
 }
 

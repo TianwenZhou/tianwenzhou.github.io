@@ -863,6 +863,10 @@ img {
   padding-right: 0;
 }
 
+.nba-score-panel .scoreboard-panel {
+  margin-bottom: 0;
+}
+
 .news-panel-heading {
   position: sticky;
   top: 0;
@@ -1011,6 +1015,93 @@ img {
 .scoreboard-panel {
   flex: 0 0 auto;
   margin-bottom: 14px;
+}
+
+.nba-schedule-board {
+  display: grid;
+  gap: 14px;
+}
+
+.nba-schedule-nav {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 12px;
+  align-items: start;
+}
+
+.nba-schedule-meta {
+  display: grid;
+  gap: 10px;
+}
+
+.nba-schedule-kicker {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.nba-schedule-meta h3 {
+  font-size: 20px;
+}
+
+.nba-schedule-days {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 2px;
+}
+
+.nba-schedule-days::-webkit-scrollbar {
+  height: 8px;
+}
+
+.nba-schedule-days::-webkit-scrollbar-thumb {
+  background: rgba(15, 108, 189, 0.22);
+  border-radius: 999px;
+}
+
+.nba-schedule-arrow,
+.nba-day-pill {
+  appearance: none;
+  border: 1px solid rgba(196, 215, 230, 0.72);
+  background: rgba(255, 255, 255, 0.88);
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+}
+
+.nba-schedule-arrow {
+  min-width: 72px;
+  padding: 11px 14px;
+  border-radius: 14px;
+  font-weight: 600;
+}
+
+.nba-schedule-arrow:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.nba-day-pill {
+  flex: 0 0 auto;
+  padding: 9px 13px;
+  border-radius: 999px;
+  white-space: nowrap;
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    background 180ms ease;
+}
+
+.nba-day-pill:hover,
+.nba-schedule-arrow:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 14px 24px rgba(12, 35, 58, 0.1);
+}
+
+.nba-day-pill.is-active {
+  border-color: transparent;
+  background: linear-gradient(135deg, rgba(15, 108, 189, 0.96), rgba(56, 189, 248, 0.88));
+  color: #f8fbff;
 }
 
 .scoreboard-list {
@@ -1420,6 +1511,14 @@ img {
 
   .scoreboard-leaders {
     grid-template-columns: 1fr;
+  }
+
+  .nba-schedule-nav {
+    grid-template-columns: 1fr;
+  }
+
+  .nba-schedule-arrow {
+    min-width: 0;
   }
 
   .premium-news-list {
