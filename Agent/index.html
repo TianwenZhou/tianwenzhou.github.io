@@ -8,161 +8,201 @@
       name="description"
       content="查看天气、时间、世界风景、新闻和高质量 AI 论文精选。"
     />
-    <link rel="stylesheet" href="./styles.css?v=20260419-11" />
+    <link rel="stylesheet" href="./styles.css?v=20260419-12" />
   </head>
   <body>
     <div class="page-shell">
-      <main class="dashboard">
-        <section class="widget-grid widget-grid-top">
-          <section class="panel compact-weather-panel" aria-labelledby="weatherTitle">
-            <div class="panel-heading compact-heading">
-              <div>
-                <p class="panel-kicker">Weather & Clock</p>
-                <h2 id="weatherTitle">天气与时间</h2>
-              </div>
-              <span class="panel-tag">Haidian · Asia/Shanghai</span>
-            </div>
-            <div id="weatherCurrent" class="weather-current weather-hero skeleton">
-              <div id="weatherVisual" class="weather-visual"></div>
-              <div class="weather-hero-body">
-                <div class="weather-hero-top">
-                  <span id="weatherCondition" class="weather-chip">--</span>
-                  <span id="weatherLocation" class="panel-tag">--</span>
-                </div>
-                <div class="weather-hero-main">
-                  <div class="weather-hero-copy">
-                    <strong id="weatherTemperature">--°C</strong>
-                    <p id="weatherDescription">--</p>
-                  </div>
-                  <div class="weather-hero-clock">
-                    <p id="currentTime" class="time-value">--:--:--</p>
-                    <p id="currentDate" class="time-date">--</p>
-                    <p id="generatedAt" class="time-meta">数据更新时间：--</p>
-                  </div>
-                </div>
-                <div class="weather-metrics">
-                  <span id="weatherWind">风速 --</span>
-                  <span id="weatherRange">气温 -- / --</span>
-                  <span id="weatherRain">降水 --</span>
-                </div>
-              </div>
-            </div>
-            <div id="weatherDaily" class="weather-daily"></div>
-            <div class="weather-calendars">
-              <section class="calendar-card" aria-labelledby="currentMonthTitle">
-                <div class="calendar-card-head">
+      <div class="app-layout">
+        <aside class="sidebar" aria-label="Primary">
+          <div class="sidebar-brand">
+            <p class="sidebar-kicker">Agent</p>
+            <h1>Dashboard</h1>
+            <p class="sidebar-copy">Switch between home, news, and paper picks.</p>
+          </div>
+
+          <nav class="sidebar-nav" aria-label="Dashboard Sections">
+            <button class="sidebar-link is-active" type="button" data-view-target="home">
+              <span class="sidebar-link-kicker">01</span>
+              <span class="sidebar-link-copy">
+                <strong>Home</strong>
+                <span>Weather, scenic view, classic quote</span>
+              </span>
+            </button>
+            <button class="sidebar-link" type="button" data-view-target="news">
+              <span class="sidebar-link-kicker">02</span>
+              <span class="sidebar-link-copy">
+                <strong>News</strong>
+                <span>China, world, and NBA coverage</span>
+              </span>
+            </button>
+            <button class="sidebar-link" type="button" data-view-target="papers">
+              <span class="sidebar-link-kicker">03</span>
+              <span class="sidebar-link-copy">
+                <strong>Papers</strong>
+                <span>Curated AI paper rotation</span>
+              </span>
+            </button>
+          </nav>
+        </aside>
+
+        <main class="dashboard">
+          <section id="homeView" class="dashboard-view is-active" data-view="home">
+            <section class="widget-grid widget-grid-top">
+              <section class="panel compact-weather-panel" aria-labelledby="weatherTitle">
+                <div class="panel-heading compact-heading">
                   <div>
-                    <p class="calendar-kicker">Current Month</p>
-                    <h3 id="currentMonthTitle" class="calendar-title">本月日历</h3>
+                    <p class="panel-kicker">Weather & Clock</p>
+                    <h2 id="weatherTitle">Weather &amp; Time</h2>
                   </div>
-                  <span id="currentMonthLabel" class="calendar-badge">--</span>
+                  <span class="panel-tag">Haidian / Asia/Shanghai</span>
                 </div>
-                <div id="currentMonthCalendar" class="calendar-grid"></div>
+                <div id="weatherCurrent" class="weather-current weather-hero skeleton">
+                  <div id="weatherVisual" class="weather-visual"></div>
+                  <div class="weather-hero-body">
+                    <div class="weather-hero-top">
+                      <span id="weatherCondition" class="weather-chip">--</span>
+                      <span id="weatherLocation" class="panel-tag">--</span>
+                    </div>
+                    <div class="weather-hero-main">
+                      <div class="weather-hero-copy">
+                        <strong id="weatherTemperature">--&deg;C</strong>
+                        <p id="weatherDescription">--</p>
+                      </div>
+                      <div class="weather-hero-clock">
+                        <p id="currentTime" class="time-value">--:--:--</p>
+                        <p id="currentDate" class="time-date">--</p>
+                        <p id="generatedAt" class="time-meta">Updated: -</p>
+                      </div>
+                    </div>
+                    <div class="weather-metrics">
+                      <span id="weatherWind">Wind --</span>
+                      <span id="weatherRange">Temp -- / --</span>
+                      <span id="weatherRain">Rain --</span>
+                    </div>
+                  </div>
+                </div>
+                <div id="weatherDaily" class="weather-daily"></div>
+                <div class="weather-calendars">
+                  <section class="calendar-card" aria-labelledby="currentMonthTitle">
+                    <div class="calendar-card-head">
+                      <div>
+                        <p class="calendar-kicker">Current Month</p>
+                        <h3 id="currentMonthTitle" class="calendar-title">This Month</h3>
+                      </div>
+                      <span id="currentMonthLabel" class="calendar-badge">--</span>
+                    </div>
+                    <div id="currentMonthCalendar" class="calendar-grid"></div>
+                  </section>
+
+                  <section class="calendar-card" aria-labelledby="nextMonthTitle">
+                    <div class="calendar-card-head">
+                      <div>
+                        <p class="calendar-kicker">Next Month</p>
+                        <h3 id="nextMonthTitle" class="calendar-title">Next Month</h3>
+                      </div>
+                      <span id="nextMonthLabel" class="calendar-badge">--</span>
+                    </div>
+                    <div id="nextMonthCalendar" class="calendar-grid"></div>
+                  </section>
+                </div>
               </section>
 
-              <section class="calendar-card" aria-labelledby="nextMonthTitle">
-                <div class="calendar-card-head">
-                  <div>
-                    <p class="calendar-kicker">Next Month</p>
-                    <h3 id="nextMonthTitle" class="calendar-title">下月日历</h3>
+              <div class="top-side-stack">
+                <section class="panel scenic-hero-panel" aria-labelledby="featuredPlaceTitle">
+                  <div class="panel-heading scenic-heading">
+                    <div>
+                      <p class="panel-kicker">Daily Escape</p>
+                      <h2 id="featuredPlaceTitle">Scenic View</h2>
+                    </div>
+                    <span class="panel-tag">Auto Carousel</span>
                   </div>
-                  <span id="nextMonthLabel" class="calendar-badge">--</span>
+                  <div id="featuredPlacePanel" class="featured-place-hero skeleton"></div>
+                </section>
+
+                <section class="panel quote-panel" aria-labelledby="classicQuoteTitle">
+                  <div class="panel-heading compact-heading">
+                    <div>
+                      <p class="panel-kicker">Classic Lines</p>
+                      <h2 id="classicQuoteTitle">Classic Quote</h2>
+                    </div>
+                    <span class="panel-tag">Daily Quote</span>
+                  </div>
+                  <div id="classicQuoteCard" class="quote-card skeleton">
+                    <p id="classicQuoteText" class="quote-text">--</p>
+                    <div class="quote-meta">
+                      <p id="classicQuoteSource" class="quote-source">--</p>
+                      <p id="classicQuoteNote" class="quote-note">--</p>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </section>
+          </section>
+
+          <section id="newsView" class="dashboard-view" data-view="news">
+            <section class="widget-grid widget-grid-news">
+              <section class="panel" aria-labelledby="domesticNewsTitle">
+                <div class="panel-heading news-panel-heading">
+                  <div>
+                    <p class="panel-kicker">China</p>
+                    <h2 id="domesticNewsTitle" class="panel-title-line">
+                      <span class="panel-icon" aria-hidden="true">CN</span>
+                      <span>China News</span>
+                    </h2>
+                  </div>
+                  <span class="panel-tag">Top 5</span>
                 </div>
-                <div id="nextMonthCalendar" class="calendar-grid"></div>
+                <div id="domesticNews" class="news-list premium-news-list"></div>
               </section>
-            </div>
-          </section>
 
-          <div class="top-side-stack">
-            <section class="panel scenic-hero-panel" aria-labelledby="featuredPlaceTitle">
-              <div class="panel-heading scenic-heading">
-                <div>
-                  <p class="panel-kicker">Daily Escape</p>
-                  <h2 id="featuredPlaceTitle">世界名胜</h2>
+              <section class="panel" aria-labelledby="internationalNewsTitle">
+                <div class="panel-heading news-panel-heading">
+                  <div>
+                    <p class="panel-kicker">World</p>
+                    <h2 id="internationalNewsTitle" class="panel-title-line">
+                      <span class="panel-icon" aria-hidden="true">GL</span>
+                      <span>World News</span>
+                    </h2>
+                  </div>
+                  <span class="panel-tag">Top 5</span>
                 </div>
-                <span class="panel-tag">Auto Carousel</span>
-              </div>
-              <div id="featuredPlacePanel" class="featured-place-hero skeleton"></div>
+                <div id="internationalNews" class="news-list premium-news-list"></div>
+              </section>
+
+              <section class="panel" aria-labelledby="nbaNewsTitle">
+                <div class="panel-heading news-panel-heading">
+                  <div>
+                    <p class="panel-kicker">NBA</p>
+                    <h2 id="nbaNewsTitle" class="panel-title-line">
+                      <span class="panel-icon" aria-hidden="true">NBA</span>
+                      <span>NBA News</span>
+                    </h2>
+                  </div>
+                  <span class="panel-tag">Top 6</span>
+                </div>
+                <div id="nbaScoreboard" class="scoreboard-panel"></div>
+                <div id="nbaNews" class="news-list premium-news-list"></div>
+              </section>
             </section>
+          </section>
 
-            <section class="panel quote-panel" aria-labelledby="classicQuoteTitle">
-              <div class="panel-heading compact-heading">
+          <section id="papersView" class="dashboard-view" data-view="papers">
+            <section class="panel panel-wide" aria-labelledby="papersTitle">
+              <div class="panel-heading">
                 <div>
-                  <p class="panel-kicker">Classic Lines</p>
-                  <h2 id="classicQuoteTitle">名著摘抄</h2>
+                  <p class="panel-kicker">Paper Picks</p>
+                  <h2 id="papersTitle">Curated Papers</h2>
+                  <p class="panel-subtitle">
+                    Curated from landmark conferences and influential work instead of a raw arXiv firehose.
+                  </p>
                 </div>
-                <span class="panel-tag">Daily Quote</span>
+                <span id="paperRotationLabel" class="panel-tag">Daily Rotation</span>
               </div>
-              <div id="classicQuoteCard" class="quote-card skeleton">
-                <p id="classicQuoteText" class="quote-text">--</p>
-                <div class="quote-meta">
-                  <p id="classicQuoteSource" class="quote-source">--</p>
-                  <p id="classicQuoteNote" class="quote-note">--</p>
-                </div>
-              </div>
+              <div id="paperHighlights" class="paper-list"></div>
             </section>
-          </div>
-        </section>
-
-        <section class="widget-grid widget-grid-news">
-          <section class="panel" aria-labelledby="domesticNewsTitle">
-            <div class="panel-heading news-panel-heading">
-              <div>
-                <p class="panel-kicker">China</p>
-                <h2 id="domesticNewsTitle" class="panel-title-line">
-                  <span class="panel-icon" aria-hidden="true">CN</span>
-                  <span>国内新闻</span>
-                </h2>
-              </div>
-              <span class="panel-tag">Top 5</span>
-            </div>
-            <div id="domesticNews" class="news-list premium-news-list"></div>
           </section>
-
-          <section class="panel" aria-labelledby="internationalNewsTitle">
-            <div class="panel-heading news-panel-heading">
-              <div>
-                <p class="panel-kicker">World</p>
-                <h2 id="internationalNewsTitle" class="panel-title-line">
-                  <span class="panel-icon" aria-hidden="true">GL</span>
-                  <span>国外新闻</span>
-                </h2>
-              </div>
-              <span class="panel-tag">Top 5</span>
-            </div>
-            <div id="internationalNews" class="news-list premium-news-list"></div>
-          </section>
-
-          <section class="panel" aria-labelledby="nbaNewsTitle">
-            <div class="panel-heading news-panel-heading">
-              <div>
-                <p class="panel-kicker">NBA</p>
-                <h2 id="nbaNewsTitle" class="panel-title-line">
-                  <span class="panel-icon" aria-hidden="true">NBA</span>
-                  <span>NBA 新闻</span>
-                </h2>
-              </div>
-              <span class="panel-tag">Top 6</span>
-            </div>
-            <div id="nbaScoreboard" class="scoreboard-panel"></div>
-            <div id="nbaNews" class="news-list premium-news-list"></div>
-          </section>
-        </section>
-
-        <section class="panel panel-wide" aria-labelledby="papersTitle">
-          <div class="panel-heading">
-            <div>
-              <p class="panel-kicker">Paper Picks</p>
-              <h2 id="papersTitle">高质量论文精选</h2>
-              <p class="panel-subtitle">
-                不再直接堆 arXiv 全量新稿，而是从你关心方向的顶会 / 高影响力论文池中按天轮换精选。
-              </p>
-            </div>
-            <span id="paperRotationLabel" class="panel-tag">Daily Rotation</span>
-          </div>
-          <div id="paperHighlights" class="paper-list"></div>
-        </section>
-      </main>
+        </main>
+      </div>
     </div>
 
     <template id="emptyStateTemplate">
@@ -171,6 +211,6 @@
       </div>
     </template>
 
-    <script type="module" src="./app.js?v=20260419-11"></script>
+    <script type="module" src="./app.js?v=20260419-12"></script>
   </body>
 </html>

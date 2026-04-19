@@ -29,11 +29,14 @@ const dom = {
   nbaNews: document.querySelector("#nbaNews"),
   paperHighlights: document.querySelector("#paperHighlights"),
   paperRotationLabel: document.querySelector("#paperRotationLabel"),
+  viewButtons: Array.from(document.querySelectorAll("[data-view-target]")),
+  views: Array.from(document.querySelectorAll("[data-view]")),
   emptyStateTemplate: document.querySelector("#emptyStateTemplate"),
 };
 
 let featuredPlaceTimer = null;
 let lastCalendarKey = "";
+const availableViews = new Set(["home", "news", "papers"]);
 
 const weatherCodeMap = {
   0: "晴朗",
@@ -234,6 +237,43 @@ function renderCalendars(todayParts) {
     nextMonthIndex,
     todayParts,
   );
+}
+
+function getRequestedView() {
+  const hashView = window.location.hash.replace("#", "").toLowerCase();
+  return availableViews.has(hashView) ? hashView : "home";
+}
+
+function setActiveView(viewName, { updateHash = true } = {}) {
+  const safeView = availableViews.has(viewName) ? viewName : "home";
+
+  dom.viewButtons.forEach((button) => {
+    const isActive = button.dataset.viewTarget === safeView;
+    button.classList.toggle("is-active", isActive);
+    button.setAttribute("aria-pressed", String(isActive));
+  });
+
+  dom.views.forEach((view) => {
+    view.classList.toggle("is-active", view.dataset.view === safeView);
+  });
+
+  if (updateHash) {
+    window.history.replaceState(null, "", `#${safeView}`);
+  }
+}
+
+function setupViewNavigation() {
+  dom.viewButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      setActiveView(button.dataset.viewTarget);
+    });
+  });
+
+  window.addEventListener("hashchange", () => {
+    setActiveView(getRequestedView(), { updateHash: false });
+  });
+
+  setActiveView(getRequestedView(), { updateHash: false });
 }
 
 function clearElement(element) {
@@ -604,6 +644,7 @@ async function loadBrief() {
   }
 }
 
+setupViewNavigation();
 renderClock();
 setInterval(renderClock, 1000);
 loadBrief();
