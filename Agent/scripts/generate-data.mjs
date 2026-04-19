@@ -73,6 +73,65 @@ const featuredPlaces = [
   },
 ];
 
+const classicQuotes = [
+  {
+    id: "analects-learning",
+    text: "学而不思则罔，思而不学则殆。",
+    source: "《论语》",
+    author: "孔子",
+    note: "提醒自己既要输入，也要沉淀，不要只忙不想。",
+  },
+  {
+    id: "taoteching-accumulate",
+    text: "合抱之木，生于毫末；九层之台，起于累土。",
+    source: "《道德经》",
+    author: "老子",
+    note: "再大的目标，也要拆成今天能推进的一小步。",
+  },
+  {
+    id: "taoteching-self",
+    text: "知人者智，自知者明；胜人者有力，自胜者强。",
+    source: "《道德经》",
+    author: "老子",
+    note: "比起和别人比较，更重要的是把自己的节奏稳住。",
+  },
+  {
+    id: "zhuangzi-time",
+    text: "人生天地之间，若白驹之过隙，忽然而已。",
+    source: "《庄子》",
+    author: "庄周",
+    note: "事情很多的时候，更值得把注意力放在真正重要的事上。",
+  },
+  {
+    id: "dream-red-mansions",
+    text: "世事洞明皆学问，人情练达即文章。",
+    source: "《红楼梦》",
+    author: "曹雪芹",
+    note: "技术之外，理解人和场景，往往更能拉开差距。",
+  },
+  {
+    id: "mencius-perseverance",
+    text: "虽千万人，吾往矣。",
+    source: "《孟子》",
+    author: "孟子",
+    note: "认准方向之后，关键是稳稳地往前走。",
+  },
+  {
+    id: "records-historical",
+    text: "桃李不言，下自成蹊。",
+    source: "《史记》",
+    author: "司马迁",
+    note: "真正有分量的作品，本身就会替你说话。",
+  },
+  {
+    id: "chuci-seek",
+    text: "路漫漫其修远兮，吾将上下而求索。",
+    source: "《离骚》",
+    author: "屈原",
+    note: "长期主义最难，但也最值得。",
+  },
+];
+
 const newsFallbackImages = {
   domestic:
     "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1400&q=80",
@@ -555,6 +614,10 @@ function buildFeaturedPlaceCarousel(date) {
   return rotateItems(featuredPlaces, featuredPlaces.length, getDaySeed(date));
 }
 
+function buildClassicQuote(date) {
+  return rotateItems(classicQuotes, 1, getDaySeed(date))[0] ?? null;
+}
+
 function buildPaperSections(date) {
   const seed = getDaySeed(date);
 
@@ -620,6 +683,7 @@ async function main() {
             today: { max: "--", min: "--", precipitationProbability: "--" },
             forecast: [],
           },
+    classicQuote: buildClassicQuote(now),
     featuredPlace: featuredPlaceCarousel[0] ?? buildFeaturedPlace(now),
     featuredPlaces: featuredPlaceCarousel,
     news: {

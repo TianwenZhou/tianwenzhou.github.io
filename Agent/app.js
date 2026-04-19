@@ -15,6 +15,10 @@ const dom = {
   currentDate: document.querySelector("#currentDate"),
   currentTime: document.querySelector("#currentTime"),
   featuredPlacePanel: document.querySelector("#featuredPlacePanel"),
+  classicQuoteCard: document.querySelector("#classicQuoteCard"),
+  classicQuoteText: document.querySelector("#classicQuoteText"),
+  classicQuoteSource: document.querySelector("#classicQuoteSource"),
+  classicQuoteNote: document.querySelector("#classicQuoteNote"),
   domesticNews: document.querySelector("#domesticNews"),
   internationalNews: document.querySelector("#internationalNews"),
   nbaScoreboard: document.querySelector("#nbaScoreboard"),
@@ -66,8 +70,9 @@ const weatherVisuals = {
 const newsFallbacks = {
   domestic: [
     "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1514565131-fce0801e5785?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1547981609-4b6bf67db1a0?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1508804052814-cd3ba865a116?auto=format&fit=crop&w=1200&q=80",
   ],
   international: [
     "https://images.unsplash.com/photo-1521295121783-8a321d551ad2?auto=format&fit=crop&w=1200&q=80",
@@ -175,6 +180,13 @@ function pickNewsFallback(section, key) {
 }
 
 function getNewsBackground(section, item, index) {
+  if (section === "domestic") {
+    return pickNewsFallback(
+      section,
+      `${item.source ?? "domestic"}-${index}-${item.title}`,
+    );
+  }
+
   if (hasUsableNewsImage(item.image)) {
     return item.image;
   }
@@ -214,6 +226,21 @@ function renderWeather(weather) {
     `;
     dom.weatherDaily.append(node);
   });
+}
+
+function renderClassicQuote(classicQuote) {
+  dom.classicQuoteCard.classList.remove("skeleton");
+
+  if (!classicQuote) {
+    dom.classicQuoteText.textContent = "今天的摘抄还在整理中。";
+    dom.classicQuoteSource.textContent = "名著摘抄";
+    dom.classicQuoteNote.textContent = "稍后会自动补上。";
+    return;
+  }
+
+  dom.classicQuoteText.textContent = `“${classicQuote.text}”`;
+  dom.classicQuoteSource.textContent = `${classicQuote.source} · ${classicQuote.author}`;
+  dom.classicQuoteNote.textContent = classicQuote.note;
 }
 
 function renderFeaturedPlace(featuredPlaces) {
@@ -434,6 +461,7 @@ function renderPage(data) {
   dom.generatedAt.textContent = `数据更新时间：${formatDateTime(data.generatedAt)}`;
   dom.paperRotationLabel.textContent = data.aiPapers.rotationLabel ?? "Daily Rotation";
   renderWeather(data.weather);
+  renderClassicQuote(data.classicQuote);
   renderFeaturedPlace(
     data.featuredPlaces ??
       (data.featuredPlace ? [data.featuredPlace] : []),
@@ -454,6 +482,8 @@ function renderError(message) {
   dom.generatedAt.textContent = message;
   dom.weatherCurrent.classList.remove("skeleton");
   dom.weatherCurrent.innerHTML = `<div class="error-state"><p>${message}</p></div>`;
+  dom.classicQuoteCard.classList.remove("skeleton");
+  dom.classicQuoteCard.innerHTML = `<div class="error-state"><p>${message}</p></div>`;
   dom.featuredPlacePanel.classList.remove("skeleton");
   dom.featuredPlacePanel.innerHTML = `<div class="error-state"><p>${message}</p></div>`;
   clearElement(dom.weatherDaily);
