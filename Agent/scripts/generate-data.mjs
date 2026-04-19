@@ -13,71 +13,80 @@ const userAgent = "AgentDailyBrief/1.0 (+https://zhoutianwen.com/Agent)";
 const featuredPlaces = [
   {
     id: "hallstatt",
-    title: "?????",
-    location: "??? ? Hallstatt",
+    title: "哈尔施塔特",
+    location: "奥地利 · Hallstatt",
     region: "Europe",
-    summary: "??????????????????????????????",
-    image: "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1400&q=80",
+    summary: "湖光山色与尖顶小镇交错在一起，像一张被晨雾轻轻擦亮的明信片。",
+    image:
+      "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1800&q=80",
     link: "https://en.wikipedia.org/wiki/Hallstatt",
   },
   {
     id: "santorini",
-    title: "????",
-    location: "?? ? Santorini",
+    title: "圣托里尼",
+    location: "希腊 · Santorini",
     region: "Mediterranean",
-    summary: "????????????????????????????????",
-    image: "https://images.unsplash.com/photo-1469796466635-455ede028aca?auto=format&fit=crop&w=1400&q=80",
+    summary: "蓝白山城贴着火山海岸线展开，黄昏时分的光线尤其适合短暂逃离现实。",
+    image:
+      "https://images.unsplash.com/photo-1469796466635-455ede028aca?auto=format&fit=crop&w=1800&q=80",
     link: "https://en.wikipedia.org/wiki/Santorini",
   },
   {
     id: "kyoto",
-    title: "????",
-    location: "?? ? ??",
+    title: "岚山竹林",
+    location: "日本 · 京都",
     region: "East Asia",
-    summary: "???????????????????????????????????????",
-    image: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1400&q=80",
+    summary: "风穿过竹林时像是一种很轻的回声，适合放在忙碌工作日的一角，让页面有一点呼吸感。",
+    image:
+      "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1800&q=80",
     link: "https://en.wikipedia.org/wiki/Arashiyama",
   },
   {
     id: "banff",
-    title: "???",
-    location: "??? ? Banff",
+    title: "梦莲湖",
+    location: "加拿大 · Banff",
     region: "North America",
-    summary: "????????????????????????????????",
-    image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+    summary: "冰川湖水像调过色的蓝宝石，雪山和松林把整个画面压得既安静又辽阔。",
+    image:
+      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=80",
     link: "https://en.wikipedia.org/wiki/Moraine_Lake",
   },
   {
     id: "cappadocia",
-    title: "?????",
-    location: "??? ? Cappadocia",
+    title: "卡帕多奇亚",
+    location: "土耳其 · Cappadocia",
     region: "Middle East",
-    summary: "???????????????????????????????",
-    image: "https://images.unsplash.com/photo-1644331006861-6e1b0dc06405?auto=format&fit=crop&w=1400&q=80",
+    summary: "热气球、岩柱和柔和晨光一起出现的时候，会有一种很梦境的秩序感。",
+    image:
+      "https://images.unsplash.com/photo-1644331006861-6e1b0dc06405?auto=format&fit=crop&w=1800&q=80",
     link: "https://en.wikipedia.org/wiki/Cappadocia",
   },
   {
     id: "machu-picchu",
-    title: "????",
-    location: "?? ? Machu Picchu",
+    title: "马丘比丘",
+    location: "秘鲁 · Machu Picchu",
     region: "South America",
-    summary: "???????????????????????????",
-    image: "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1400&q=80",
+    summary: "云雾、山脊和古城石墙叠在一起，自带一种很强的历史纵深。",
+    image:
+      "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1800&q=80",
     link: "https://en.wikipedia.org/wiki/Machu_Picchu",
   },
 ];
 
 const newsFallbackImages = {
-  domestic: "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1200&q=80",
-  international: "https://images.unsplash.com/photo-1521295121783-8a321d551ad2?auto=format&fit=crop&w=1200&q=80",
-  nba: "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1200&q=80",
+  domestic:
+    "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1400&q=80",
+  international:
+    "https://images.unsplash.com/photo-1521295121783-8a321d551ad2?auto=format&fit=crop&w=1400&q=80",
+  nba:
+    "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1400&q=80",
 };
 
 const defaults = {
   weather: {
     latitude: Number.parseFloat(process.env.WEATHER_LATITUDE ?? "39.9593"),
     longitude: Number.parseFloat(process.env.WEATHER_LONGITUDE ?? "116.2981"),
-    label: process.env.WEATHER_LABEL ?? "??????",
+    label: process.env.WEATHER_LABEL ?? "北京市海淀区",
   },
   newsFeeds: {
     domestic:
@@ -99,47 +108,47 @@ const defaults = {
   paperSections: [
     {
       id: "data-storage",
-      title: "??????",
-      description: "????????????????????????????????",
+      title: "数据存储相关",
+      description: "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
     },
     {
       id: "computer-vision",
-      title: "???????",
-      description: "?????????????????????????????",
+      title: "计算机视觉相关",
+      description: "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
     },
     {
       id: "llm-memory",
-      title: "????????",
-      description: "RAG????????????????????????",
+      title: "大模型记忆库相关",
+      description: "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
     },
     {
       id: "agents",
-      title: "Agent ??",
-      description: "???????????? Agent ????? Agent ??????",
+      title: "Agent 相关",
+      description: "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
     },
   ],
 };
 
 const weatherCodeMap = {
-  0: "??",
-  1: "???",
-  2: "????",
-  3: "??",
-  45: "??",
-  48: "??",
-  51: "???",
-  53: "??",
-  55: "??",
-  61: "??",
-  63: "??",
-  65: "??",
-  71: "??",
-  73: "??",
-  75: "??",
-  80: "??",
-  81: "???",
-  82: "??",
-  95: "??",
+  0: "晴朗",
+  1: "基本晴",
+  2: "局部多云",
+  3: "阴天",
+  45: "有雾",
+  48: "雾凇",
+  51: "毛毛雨",
+  53: "小雨",
+  55: "中雨",
+  61: "小雨",
+  63: "中雨",
+  65: "大雨",
+  71: "小雪",
+  73: "中雪",
+  75: "大雪",
+  80: "阵雨",
+  81: "强阵雨",
+  82: "暴雨",
+  95: "雷暴",
 };
 
 function cleanHtml(value) {
@@ -158,12 +167,19 @@ function cleanHtml(value) {
 }
 
 function pickTag(block, tagName) {
-  const match = block.match(new RegExp(`<${tagName}[^>]*>([\\s\\S]*?)<\\/${tagName}>`, "i"));
+  const match = block.match(
+    new RegExp(`<${tagName}[^>]*>([\\s\\S]*?)<\\/${tagName}>`, "i"),
+  );
   return match ? cleanHtml(match[1]) : "";
 }
 
 function pickAttribute(block, tagName, attributeName) {
-  const match = block.match(new RegExp(`<${tagName}[^>]*${attributeName}=["']([^"']+)["'][^>]*>`, "i"));
+  const match = block.match(
+    new RegExp(
+      `<${tagName}[^>]*${attributeName}=["']([^"']+)["'][^>]*>`,
+      "i",
+    ),
+  );
   return match ? match[1].trim() : "";
 }
 
@@ -195,7 +211,10 @@ function normalizeSummary(summary, title) {
     return "";
   }
 
-  if (compactSummary.startsWith(compactTitle) && compactSummary.length <= compactTitle.length + 18) {
+  if (
+    compactSummary.startsWith(compactTitle) &&
+    compactSummary.length <= compactTitle.length + 18
+  ) {
     return "";
   }
 
@@ -260,7 +279,13 @@ async function fetchTextWithPowerShell(url, originalError) {
     return stdout;
   } catch (fallbackError) {
     throw new Error(
-      `Request failed for ${url}: ${originalError instanceof Error ? originalError.message : String(originalError)}; ${shell} fallback failed: ${fallbackError instanceof Error ? fallbackError.message : String(fallbackError)}`,
+      `Request failed for ${url}: ${
+        originalError instanceof Error ? originalError.message : String(originalError)
+      }; ${shell} fallback failed: ${
+        fallbackError instanceof Error
+          ? fallbackError.message
+          : String(fallbackError)
+      }`,
     );
   }
 }
@@ -287,7 +312,8 @@ async function fetchWeather() {
   const forecast = data.daily.time.map((date, index) => ({
     date,
     weatherCode: data.daily.weather_code[index],
-    description: weatherCodeMap[data.daily.weather_code[index]] ?? "?????",
+    description:
+      weatherCodeMap[data.daily.weather_code[index]] ?? "天气更新中",
     max: Math.round(data.daily.temperature_2m_max[index]),
     min: Math.round(data.daily.temperature_2m_min[index]),
     precipitationProbability: data.daily.precipitation_probability_max[index],
@@ -309,12 +335,20 @@ async function fetchArticlePreview(url) {
   try {
     const html = await fetchText(url);
     const image =
-      html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)/i)?.[1] ||
-      html.match(/<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)/i)?.[1] ||
+      html.match(
+        /<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)/i,
+      )?.[1] ||
+      html.match(
+        /<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)/i,
+      )?.[1] ||
       "";
     const description =
-      html.match(/<meta[^>]+property=["']og:description["'][^>]+content=["']([^"']+)/i)?.[1] ||
-      html.match(/<meta[^>]+name=["']description["'][^>]+content=["']([^"']+)/i)?.[1] ||
+      html.match(
+        /<meta[^>]+property=["']og:description["'][^>]+content=["']([^"']+)/i,
+      )?.[1] ||
+      html.match(
+        /<meta[^>]+name=["']description["'][^>]+content=["']([^"']+)/i,
+      )?.[1] ||
       "";
 
     return {
@@ -342,17 +376,23 @@ async function fetchRssFeed(url, limit, source) {
       const publishedRaw = pickTag(block, "pubDate");
       const itemSource = pickTag(block, "source") || source;
       const rawTitle = pickTag(block, "title");
-      const cleanTitle = itemSource && rawTitle.endsWith(` - ${itemSource}`)
-        ? rawTitle.slice(0, -(` - ${itemSource}`).length)
-        : rawTitle;
-      const summary = normalizeSummary(shortenSummary(pickTag(block, "description")), cleanTitle);
+      const cleanTitle =
+        itemSource && rawTitle.endsWith(` - ${itemSource}`)
+          ? rawTitle.slice(0, -(` - ${itemSource}`).length)
+          : rawTitle;
+      const summary = normalizeSummary(
+        shortenSummary(pickTag(block, "description")),
+        cleanTitle,
+      );
 
       return {
         title: cleanTitle,
         link: pickTag(block, "link"),
         summary,
         image: extractImage(block),
-        publishedAt: publishedRaw ? new Date(publishedRaw).toISOString() : new Date().toISOString(),
+        publishedAt: publishedRaw
+          ? new Date(publishedRaw).toISOString()
+          : new Date().toISOString(),
         source: itemSource,
       };
     })
@@ -383,14 +423,22 @@ async function enrichNewsItems(items, section) {
 
 async function fetchMergedRssFeeds(feeds, limit, section) {
   const results = await Promise.allSettled(
-    feeds.map((feed) => fetchRssFeed(feed.url, feed.limit ?? limit, feed.source)),
+    feeds.map((feed) =>
+      fetchRssFeed(feed.url, feed.limit ?? limit, feed.source),
+    ),
   );
 
   const merged = results
     .filter((result) => result.status === "fulfilled")
     .flatMap((result) => result.value)
-    .sort((left, right) => new Date(right.publishedAt) - new Date(left.publishedAt))
-    .filter((item, index, items) => items.findIndex((candidate) => candidate.link === item.link) === index)
+    .sort(
+      (left, right) =>
+        new Date(right.publishedAt) - new Date(left.publishedAt),
+    )
+    .filter(
+      (item, index, items) =>
+        items.findIndex((candidate) => candidate.link === item.link) === index,
+    )
     .slice(0, limit);
 
   return enrichNewsItems(merged, section);
@@ -398,7 +446,11 @@ async function fetchMergedRssFeeds(feeds, limit, section) {
 
 function getGameStatus(status) {
   const state = status?.type?.state ?? "pre";
-  const detail = status?.type?.shortDetail ?? status?.type?.detail ?? status?.type?.description ?? "";
+  const detail =
+    status?.type?.shortDetail ??
+    status?.type?.detail ??
+    status?.type?.description ??
+    "";
 
   if (state === "in") {
     return { state: "in", label: "Live", detail };
@@ -472,15 +524,19 @@ function buildPaperSections(date) {
   const seed = getDaySeed(date);
 
   return defaults.paperSections.map((section, index) => {
-    const candidates = paperLibrary.filter((paper) => paper.sectionId === section.id);
-    const selected = rotateItems(candidates, 3, seed + index).map((paper, itemIndex) => ({
-      ...paper,
-      trackLabel: itemIndex === 0 ? "????" : "????",
-    }));
+    const candidates = paperLibrary.filter(
+      (paper) => paper.sectionId === section.id,
+    );
+    const selected = rotateItems(candidates, 3, seed + index).map(
+      (paper, itemIndex) => ({
+        ...paper,
+        trackLabel: itemIndex === 0 ? "今日主推" : "轮换精选",
+      }),
+    );
 
     return {
       ...section,
-      rotationHint: `???? ${selected.length} ?`,
+      rotationHint: `每日轮换 ${selected.length} 篇`,
       items: selected,
     };
   });
@@ -489,19 +545,32 @@ function buildPaperSections(date) {
 async function main() {
   const now = new Date();
 
-  const [weatherResult, domesticResult, internationalResult, nbaScoreboardResult, nbaResult] =
-    await Promise.allSettled([
-      fetchWeather(),
-      fetchMergedRssFeeds([
-        { url: defaults.newsFeeds.domestic, source: "Google News", limit: 8 },
-      ], 5, "domestic"),
-      fetchMergedRssFeeds([
+  const [
+    weatherResult,
+    domesticResult,
+    internationalResult,
+    nbaScoreboardResult,
+    nbaResult,
+  ] = await Promise.allSettled([
+    fetchWeather(),
+    fetchMergedRssFeeds(
+      [{ url: defaults.newsFeeds.domestic, source: "Google News", limit: 8 }],
+      5,
+      "domestic",
+    ),
+    fetchMergedRssFeeds(
+      [
         { url: defaults.newsFeeds.internationalBbc, source: "BBC", limit: 5 },
         { url: defaults.newsFeeds.internationalCnn, source: "CNN", limit: 5 },
-      ], 5, "international"),
-      fetchNbaScoreboard(),
-      fetchRssFeed(defaults.newsFeeds.nba, 6, "ESPN").then((items) => enrichNewsItems(items, "nba")),
-    ]);
+      ],
+      5,
+      "international",
+    ),
+    fetchNbaScoreboard(),
+    fetchRssFeed(defaults.newsFeeds.nba, 6, "ESPN").then((items) =>
+      enrichNewsItems(items, "nba"),
+    ),
+  ]);
 
   const payload = {
     generatedAt: now.toISOString(),
@@ -517,7 +586,10 @@ async function main() {
     featuredPlace: buildFeaturedPlace(now),
     news: {
       domestic: domesticResult.status === "fulfilled" ? domesticResult.value : [],
-      international: internationalResult.status === "fulfilled" ? internationalResult.value : [],
+      international:
+        internationalResult.status === "fulfilled"
+          ? internationalResult.value
+          : [],
       nba: nbaResult.status === "fulfilled" ? nbaResult.value : [],
     },
     nbaScoreboard:
@@ -528,14 +600,13 @@ async function main() {
             games: [],
           },
     aiPapers: {
-      rotationLabel: `Curated Rotation ? ${now.toISOString().slice(0, 10)}`,
+      rotationLabel: `Curated Rotation · ${now.toISOString().slice(0, 10)}`,
       sections: buildPaperSections(now),
     },
   };
 
   await mkdir(dirname(outputPath), { recursive: true });
-  await writeFile(outputPath, `${JSON.stringify(payload, null, 2)}
-`, "utf8");
+  await writeFile(outputPath, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
   console.log(`Daily brief written to ${outputPath}`);
 }
 

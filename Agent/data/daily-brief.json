@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-04-19T05:42:54.465Z",
+  "generatedAt": "2026-04-19T06:01:50.066Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 21,
-      "weatherCode": 3,
-      "windSpeed": 22
+      "temperature": 20,
+      "weatherCode": 61,
+      "windSpeed": 19
     },
     "today": {
       "date": "2026-04-19",
       "weatherCode": 61,
-      "description": "??",
+      "description": "小雨",
       "max": 23,
       "min": 11,
       "precipitationProbability": 68
@@ -19,7 +19,7 @@
       {
         "date": "2026-04-19",
         "weatherCode": 61,
-        "description": "??",
+        "description": "小雨",
         "max": 23,
         "min": 11,
         "precipitationProbability": 68
@@ -27,7 +27,7 @@
       {
         "date": "2026-04-20",
         "weatherCode": 0,
-        "description": "??",
+        "description": "晴朗",
         "max": 23,
         "min": 8,
         "precipitationProbability": 0
@@ -35,7 +35,7 @@
       {
         "date": "2026-04-21",
         "weatherCode": 3,
-        "description": "??",
+        "description": "阴天",
         "max": 24,
         "min": 11,
         "precipitationProbability": 0
@@ -43,7 +43,7 @@
       {
         "date": "2026-04-22",
         "weatherCode": 3,
-        "description": "??",
+        "description": "阴天",
         "max": 22,
         "min": 10,
         "precipitationProbability": 0
@@ -51,7 +51,7 @@
       {
         "date": "2026-04-23",
         "weatherCode": 1,
-        "description": "???",
+        "description": "基本晴",
         "max": 24,
         "min": 11,
         "precipitationProbability": 3
@@ -60,11 +60,11 @@
   },
   "featuredPlace": {
     "id": "banff",
-    "title": "???",
-    "location": "??? ? Banff",
+    "title": "梦莲湖",
+    "location": "加拿大 · Banff",
     "region": "North America",
-    "summary": "????????????????????????????????",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+    "summary": "冰川湖水像调过色的蓝宝石，雪山和松林把整个画面压得既安静又辽阔。",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=80",
     "link": "https://en.wikipedia.org/wiki/Moraine_Lake"
   },
   "news": {
@@ -120,6 +120,14 @@
         "source": "BBC"
       },
       {
+        "title": "Harry and Meghan's trip felt like a royal tour - except many Aussies weren't interested",
+        "link": "https://www.bbc.com/news/articles/cwyx014e2wqo?at_medium=RSS&at_campaign=rss",
+        "summary": "The Sussexes' four-day tour of Australia appears to have fallen flat with some.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1048/live/fadb0610-3b26-11f1-879d-1b2f5c3919b8.jpg",
+        "publishedAt": "2026-04-18T23:09:30.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "How 24 hours of whiplash over the Strait of Hormuz unfolded",
         "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOVdhMmtxaE9LdEZEWkh1MVp5VXl0cUhWR2swSlIteVRxWUNjVzRCek1iVnVwT0ZFMjRJQzJJVDYzMGhnTjFadXJLVEl6RVlKaWZ0aC1XSVBDRDFNYVAza1YxYkhxUml0TDBlS0dPZDVyUWpxYjB6QW40RjhoTHBQY2RqM3NJSXZxUkE?oc=5",
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxOOVdhMmtxaE9LdEZEWkh1MVp5VXl0cUhWR2swSlIteVRxWUNjVzRCek1iVnVwT0ZFMjRJQzJJVDYzMGhnTjFadXJL...",
@@ -141,14 +149,6 @@
         "summary": "The attacker, who took hostages inside a supermarket, was killed after a shoot-out with police, officials say.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f579/live/9699abd0-3b4d-11f1-879d-1b2f5c3919b8.png",
         "publishedAt": "2026-04-18T18:09:57.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Pope says 'tyrants' speech was not aimed at Trump",
-        "link": "https://www.bbc.com/news/articles/ce84j261kj1o?at_medium=RSS&at_campaign=rss",
-        "summary": "The pontiff says his remarks have been misinterpreted after a spat with the US president.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/55fc/live/431c31e0-3b5b-11f1-8606-05fe34b06e1b.jpg",
-        "publishedAt": "2026-04-18T16:44:39.000Z",
         "source": "BBC"
       }
     ],
@@ -285,13 +285,13 @@
     ]
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation ? 2026-04-19",
+    "rotationLabel": "Curated Rotation · 2026-04-19",
     "sections": [
       {
         "id": "data-storage",
-        "title": "??????",
-        "description": "????????????????????????????????",
-        "rotationHint": "???? 3 ?",
+        "title": "数据存储相关",
+        "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
+        "rotationHint": "每日轮换 3 篇",
         "items": [
           {
             "id": "data-storage-4",
@@ -312,7 +312,7 @@
             ],
             "link": "https://research.google/pubs/pub36632/",
             "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
-            "trackLabel": "????"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-5",
@@ -332,7 +332,7 @@
             ],
             "link": "https://arxiv.org/abs/2401.08281",
             "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
-            "trackLabel": "????"
+            "trackLabel": "轮换精选"
           },
           {
             "id": "data-storage-6",
@@ -353,15 +353,15 @@
             ],
             "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
             "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
-            "trackLabel": "????"
+            "trackLabel": "轮换精选"
           }
         ]
       },
       {
         "id": "computer-vision",
-        "title": "???????",
-        "description": "?????????????????????????????",
-        "rotationHint": "???? 3 ?",
+        "title": "计算机视觉相关",
+        "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
+        "rotationHint": "每日轮换 3 篇",
         "items": [
           {
             "id": "computer-vision-5",
@@ -382,7 +382,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.02643",
             "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
-            "trackLabel": "????"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-6",
@@ -403,7 +403,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.07193",
             "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
-            "trackLabel": "????"
+            "trackLabel": "轮换精选"
           },
           {
             "id": "computer-vision-1",
@@ -424,15 +424,15 @@
             ],
             "link": "https://arxiv.org/abs/1512.03385",
             "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
-            "trackLabel": "????"
+            "trackLabel": "轮换精选"
           }
         ]
       },
       {
         "id": "llm-memory",
-        "title": "????????",
-        "description": "RAG????????????????????????",
-        "rotationHint": "???? 3 ?",
+        "title": "大模型记忆库相关",
+        "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
+        "rotationHint": "每日轮换 3 篇",
         "items": [
           {
             "id": "llm-memory-6",
@@ -453,7 +453,7 @@
             ],
             "link": "https://arxiv.org/abs/2409.05591",
             "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
-            "trackLabel": "????"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-1",
@@ -474,7 +474,7 @@
             ],
             "link": "https://arxiv.org/abs/2005.11401",
             "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
-            "trackLabel": "????"
+            "trackLabel": "轮换精选"
           },
           {
             "id": "llm-memory-2",
@@ -495,15 +495,15 @@
             ],
             "link": "https://arxiv.org/abs/2203.08913",
             "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
-            "trackLabel": "????"
+            "trackLabel": "轮换精选"
           }
         ]
       },
       {
         "id": "agents",
-        "title": "Agent ??",
-        "description": "???????????? Agent ????? Agent ??????",
-        "rotationHint": "???? 3 ?",
+        "title": "Agent 相关",
+        "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
+        "rotationHint": "每日轮换 3 篇",
         "items": [
           {
             "id": "agents-1",
@@ -525,7 +525,7 @@
             ],
             "link": "https://arxiv.org/abs/2210.03629",
             "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
-            "trackLabel": "????"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-2",
@@ -546,7 +546,7 @@
             ],
             "link": "https://arxiv.org/abs/2302.04761",
             "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
-            "trackLabel": "????"
+            "trackLabel": "轮换精选"
           },
           {
             "id": "agents-3",
@@ -567,7 +567,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.03442",
             "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
-            "trackLabel": "????"
+            "trackLabel": "轮换精选"
           }
         ]
       }
