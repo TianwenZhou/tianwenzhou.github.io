@@ -12,10 +12,16 @@ const dom = {
   weatherRange: document.querySelector("#weatherRange"),
   weatherRain: document.querySelector("#weatherRain"),
   weatherDaily: document.querySelector("#weatherDaily"),
+  calendarRangeHint: document.querySelector("#calendarRangeHint"),
+  calendarPrev: document.querySelector("#calendarPrev"),
+  calendarToday: document.querySelector("#calendarToday"),
+  calendarNext: document.querySelector("#calendarNext"),
   currentMonthLabel: document.querySelector("#currentMonthLabel"),
   currentMonthCalendar: document.querySelector("#currentMonthCalendar"),
   nextMonthLabel: document.querySelector("#nextMonthLabel"),
   nextMonthCalendar: document.querySelector("#nextMonthCalendar"),
+  historyTodayMeta: document.querySelector("#historyTodayMeta"),
+  historyTodayList: document.querySelector("#historyTodayList"),
   currentDate: document.querySelector("#currentDate"),
   currentTime: document.querySelector("#currentTime"),
   featuredPlacePanel: document.querySelector("#featuredPlacePanel"),
@@ -36,6 +42,10 @@ const dom = {
 
 let featuredPlaceTimer = null;
 let lastCalendarKey = "";
+const calendarState = {
+  anchorYear: null,
+  anchorMonthIndex: null,
+};
 const nbaScheduleState = {
   days: [],
   activeIndex: 0,
@@ -73,6 +83,38 @@ const weatherVisuals = {
   storm: "./assets/weather/storm.svg",
   fog: "./assets/weather/fog.svg",
 };
+
+// 2026 Chinese public holiday dates based on the State Council holiday notice.
+const chinaHolidayRanges = [
+  { label: "元旦", start: "2026-01-01", end: "2026-01-03" },
+  { label: "春节", start: "2026-02-15", end: "2026-02-23" },
+  { label: "清明", start: "2026-04-04", end: "2026-04-06" },
+  { label: "劳动节", start: "2026-05-01", end: "2026-05-05" },
+  { label: "端午", start: "2026-06-19", end: "2026-06-21" },
+  { label: "中秋", start: "2026-09-25", end: "2026-09-27" },
+  { label: "国庆", start: "2026-10-01", end: "2026-10-07" },
+];
+
+function getDateKey(year, month, day) {
+  return `${year}-${String(month).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
+}
+
+function buildHolidayMap(ranges) {
+  const map = new Map();
+
+  ranges.forEach((range) => {
+    const start = new Date(`${range.start}T12:00:00Z`);
+    const end = new Date(`${range.end}T12:00:00Z`);
+
+    for (const cursor = new Date(start); cursor <= end; cursor.setUTCDate(cursor.getUTCDate() + 1)) {
+      map.set(cursor.toISOString().slice(0, 10), range.label);
+    }
+  });
+
+  return map;
+}
+
+const chinaHolidayMap = buildHolidayMap(chinaHolidayRanges);
 
 const newsFallbacks = {
   domestic: [
@@ -151,8 +193,17 @@ function renderClock() {
   }).format(now);
 
   const parts = getShanghaiDateParts(now);
-  const calendarKey = `${parts.year}-${parts.month}`;
+  const calendarKey = `${parts.year}-${parts.month}-${parts.day}`;
   if (calendarKey !== lastCalendarKey) {
+    const previousMonthDate = new Date(Date.UTC(parts.year, parts.month - 2, 1, 12));
+    if (
+      calendarState.anchorYear === null ||
+      (calendarState.anchorYear === previousMonthDate.getUTCFullYear() &&
+        calendarState.anchorMonthIndex === previousMonthDate.getUTCMonth())
+    ) {
+      syncCalendarAnchor(parts);
+    }
+
     renderCalendars(parts);
     lastCalendarKey = calendarKey;
   }
@@ -181,6 +232,26 @@ function getMonthLabel(year, monthIndex) {
   }).format(new Date(Date.UTC(year, monthIndex, 1, 12)));
 }
 
+function syncCalendarAnchor(todayParts = getShanghaiDateParts()) {
+  calendarState.anchorYear = todayParts.year;
+  calendarState.anchorMonthIndex = todayParts.month - 1;
+}
+
+function shiftCalendarAnchor(monthOffset) {
+  const next = new Date(
+    Date.UTC(calendarState.anchorYear, calendarState.anchorMonthIndex + monthOffset, 1, 12),
+  );
+  calendarState.anchorYear = next.getUTCFullYear();
+  calendarState.anchorMonthIndex = next.getUTCMonth();
+}
+
+function isCalendarOnTodayMonth(todayParts = getShanghaiDateParts()) {
+  return (
+    calendarState.anchorYear === todayParts.year &&
+    calendarState.anchorMonthIndex === todayParts.month - 1
+  );
+}
+
 function buildCalendarMonth(year, monthIndex, todayParts) {
   const weekdayLabels = ["一", "二", "三", "四", "五", "六", "日"];
   const firstWeekday = (new Date(Date.UTC(year, monthIndex, 1, 12)).getUTCDay() + 6) % 7;
@@ -203,29 +274,43 @@ function buildCalendarMonth(year, monthIndex, todayParts) {
       todayParts.year === year &&
       todayParts.month === monthIndex + 1 &&
       todayParts.day === dayNumber;
+    const dateKey = getDateKey(year, monthIndex + 1, dayNumber);
+    const holidayLabel = chinaHolidayMap.get(dateKey);
     const weekday = (index % 7) + 1;
     const classNames = [
       "calendar-day",
       isToday ? "is-today" : "",
+      holidayLabel ? "is-holiday" : "",
       weekday >= 6 ? "is-weekend" : "",
     ]
       .filter(Boolean)
       .join(" ");
 
-    cells.push(`<span class="${classNames}">${dayNumber}</span>`);
+    cells.push(`
+      <span class="${classNames}" title="${holidayLabel ?? dateKey}">
+        <span class="calendar-day-number">${dayNumber}</span>
+        ${holidayLabel ? `<span class="calendar-day-label">${holidayLabel}</span>` : ""}
+      </span>
+    `);
   }
 
   return cells.join("");
 }
 
 function renderCalendars(todayParts) {
-  const currentMonthIndex = todayParts.month - 1;
-  const nextMonthIndex = currentMonthIndex === 11 ? 0 : currentMonthIndex + 1;
-  const nextMonthYear = currentMonthIndex === 11 ? todayParts.year + 1 : todayParts.year;
+  if (calendarState.anchorYear === null || calendarState.anchorMonthIndex === null) {
+    syncCalendarAnchor(todayParts);
+  }
 
-  dom.currentMonthLabel.textContent = getMonthLabel(todayParts.year, currentMonthIndex);
+  const currentMonthIndex = calendarState.anchorMonthIndex;
+  const currentMonthYear = calendarState.anchorYear;
+  const nextMonthDate = new Date(Date.UTC(currentMonthYear, currentMonthIndex + 1, 1, 12));
+  const nextMonthIndex = nextMonthDate.getUTCMonth();
+  const nextMonthYear = nextMonthDate.getUTCFullYear();
+
+  dom.currentMonthLabel.textContent = getMonthLabel(currentMonthYear, currentMonthIndex);
   dom.currentMonthCalendar.innerHTML = buildCalendarMonth(
-    todayParts.year,
+    currentMonthYear,
     currentMonthIndex,
     todayParts,
   );
@@ -236,6 +321,11 @@ function renderCalendars(todayParts) {
     nextMonthIndex,
     todayParts,
   );
+
+  dom.calendarRangeHint.textContent = isCalendarOnTodayMonth(todayParts)
+    ? "当前与下一个月"
+    : `查看：${getMonthLabel(currentMonthYear, currentMonthIndex)} · ${getMonthLabel(nextMonthYear, nextMonthIndex)}`;
+  dom.calendarToday.disabled = isCalendarOnTodayMonth(todayParts);
 }
 
 function getRequestedView() {
@@ -273,6 +363,23 @@ function setupViewNavigation() {
   });
 
   setActiveView(getRequestedView(), { updateHash: false });
+}
+
+function setupCalendarNavigation() {
+  dom.calendarPrev.addEventListener("click", () => {
+    shiftCalendarAnchor(-1);
+    renderCalendars(getShanghaiDateParts());
+  });
+
+  dom.calendarNext.addEventListener("click", () => {
+    shiftCalendarAnchor(1);
+    renderCalendars(getShanghaiDateParts());
+  });
+
+  dom.calendarToday.addEventListener("click", () => {
+    syncCalendarAnchor(getShanghaiDateParts());
+    renderCalendars(getShanghaiDateParts());
+  });
 }
 
 function clearElement(element) {
@@ -361,6 +468,31 @@ function renderWeather(weather) {
     `;
     dom.weatherDaily.append(node);
   });
+}
+
+function renderTodayInHistory(historyBlock) {
+  const items = historyBlock?.items ?? [];
+  dom.historyTodayMeta.textContent = historyBlock?.dateLabel ?? "今天";
+
+  if (!items.length) {
+    dom.historyTodayList.innerHTML = "<p>今天的历史切片正在补充中。</p>";
+    return;
+  }
+
+  dom.historyTodayList.innerHTML = items
+    .slice(0, 2)
+    .map((item) => {
+      const year = item.year ? `<strong>${item.year}</strong>` : "";
+      const linkStart = item.link ? `<a href="${item.link}" target="_blank" rel="noreferrer">` : "";
+      const linkEnd = item.link ? "</a>" : "";
+
+      return `
+        <p class="history-today-item">
+          ${linkStart}${year}<span>${item.text}</span>${linkEnd}
+        </p>
+      `;
+    })
+    .join("");
 }
 
 function renderClassicQuote(classicQuote) {
@@ -793,6 +925,7 @@ function renderPage(data) {
   dom.generatedAt.textContent = `数据更新时间：${formatDateTime(data.generatedAt)}`;
   dom.paperRotationLabel.textContent = data.aiPapers.rotationLabel ?? "Daily Rotation";
   renderWeather(data.weather);
+  renderTodayInHistory(data.todayInHistory);
   renderClassicQuote(data.classicQuote);
   renderFeaturedPlace(
     data.featuredPlaces ??
@@ -819,6 +952,8 @@ function renderError(message) {
   dom.featuredPlacePanel.classList.remove("skeleton");
   dom.featuredPlacePanel.innerHTML = `<div class="error-state"><p>${message}</p></div>`;
   clearElement(dom.weatherDaily);
+  dom.historyTodayMeta.textContent = "今天";
+  dom.historyTodayList.innerHTML = `<p>${message}</p>`;
   renderEmpty(dom.domesticNews);
   renderEmpty(dom.internationalNews);
   clearElement(dom.nbaScoreboard);
@@ -842,6 +977,7 @@ async function loadBrief() {
 }
 
 setupViewNavigation();
+setupCalendarNavigation();
 setupNbaScheduleNavigation();
 renderClock();
 setInterval(renderClock, 1000);

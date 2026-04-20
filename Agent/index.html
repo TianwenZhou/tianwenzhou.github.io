@@ -8,7 +8,7 @@
       name="description"
       content="查看天气、时间、世界风景、新闻和高质量 AI 论文精选。"
     />
-    <link rel="stylesheet" href="./styles.css?v=20260420-4" />
+    <link rel="stylesheet" href="./styles.css?v=20260421-1" />
   </head>
   <body>
     <div class="page-shell">
@@ -91,6 +91,19 @@
                   </div>
                 </div>
                 <div id="weatherDaily" class="weather-daily"></div>
+                <div class="calendar-toolbar" aria-label="Calendar navigation">
+                  <div class="calendar-toolbar-copy">
+                    <p class="calendar-kicker">Calendar</p>
+                    <p id="calendarRangeHint" class="calendar-range-hint">当前与下一个月</p>
+                  </div>
+                  <div class="calendar-toolbar-actions">
+                    <button id="calendarPrev" class="calendar-nav-button" type="button">上一月</button>
+                    <button id="calendarToday" class="calendar-nav-button is-primary" type="button">
+                      回到今天
+                    </button>
+                    <button id="calendarNext" class="calendar-nav-button" type="button">下一月</button>
+                  </div>
+                </div>
                 <div class="weather-calendars">
                   <section class="calendar-card" aria-labelledby="currentMonthTitle">
                     <div class="calendar-card-head">
@@ -114,6 +127,18 @@
                     <div id="nextMonthCalendar" class="calendar-grid"></div>
                   </section>
                 </div>
+                <section class="history-card" aria-labelledby="historyTodayTitle">
+                  <div class="history-card-head">
+                    <div>
+                      <p class="calendar-kicker">On This Day</p>
+                      <h3 id="historyTodayTitle" class="calendar-title">历史上的今天</h3>
+                    </div>
+                    <span id="historyTodayMeta" class="calendar-badge">--</span>
+                  </div>
+                  <div id="historyTodayList" class="history-today-list">
+                    <p>正在整理今天的历史切片...</p>
+                  </div>
+                </section>
               </section>
 
               <div class="top-side-stack">
@@ -237,6 +262,6 @@
       </div>
     </template>
 
-    <script type="module" src="./app.js?v=20260420-4"></script>
+    <script type="module" src="./app.js?v=20260421-1"></script>
   </body>
 </html>

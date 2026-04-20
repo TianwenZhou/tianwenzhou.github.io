@@ -343,6 +343,51 @@ async function fetchJson(url) {
   return JSON.parse(await fetchText(url));
 }
 
+function formatMonthDayLabel(dateKey) {
+  const [, month, day] = dateKey.split("-");
+  return `${Number(month)}月${Number(day)}日`;
+}
+
+async function fetchTodayInHistory(referenceDate = new Date()) {
+  const dateKey = getDateKeyInTimeZone(referenceDate);
+  const [, month, day] = dateKey.split("-");
+  const data = await fetchJson(
+    `https://zh.wikipedia.org/api/rest_v1/feed/onthisday/events/${month}/${day}`,
+  );
+
+  const items = (data.events ?? [])
+    .map((event) => ({
+      year: event.year ? String(event.year) : "",
+      text: shortenSummary((event.text ?? "").replace(/\s+/g, " ").trim(), 92),
+      link:
+        event.pages?.find((page) => page.content_urls?.desktop?.page)?.content_urls
+          ?.desktop?.page ?? "",
+    }))
+    .filter(
+      (item, index, list) =>
+        item.text &&
+        list.findIndex(
+          (candidate) => candidate.year === item.year && candidate.text === item.text,
+        ) === index,
+    )
+    .slice(0, 2);
+
+  return {
+    dateKey,
+    dateLabel: formatMonthDayLabel(dateKey),
+    items,
+  };
+}
+
+function buildTodayInHistoryFallback(referenceDate = new Date()) {
+  const dateKey = getDateKeyInTimeZone(referenceDate);
+  return {
+    dateKey,
+    dateLabel: formatMonthDayLabel(dateKey),
+    items: [],
+  };
+}
+
 async function fetchTextWithPowerShell(url, originalError) {
   const shell = process.platform === "win32" ? "powershell" : "pwsh";
   const command =
@@ -742,7 +787,7 @@ async function fetchNbaScoreboard(referenceDate = new Date()) {
 }
 
 function getDaySeed(date) {
-  const dateKey = date.toISOString().slice(0, 10);
+  const dateKey = getDateKeyInTimeZone(date);
   return Number.parseInt(dateKey.replaceAll("-", ""), 10);
 }
 
@@ -792,6 +837,7 @@ function buildPaperSections(date) {
 
 async function main() {
   const now = new Date();
+  const todayKey = getDateKeyInTimeZone(now);
 
   const [
     weatherResult,
@@ -799,6 +845,7 @@ async function main() {
     internationalResult,
     nbaScoreboardResult,
     nbaResult,
+    todayInHistoryResult,
   ] = await Promise.allSettled([
     fetchWeather(),
     fetchMergedRssFeeds(
@@ -818,6 +865,7 @@ async function main() {
     fetchRssFeed(defaults.newsFeeds.nba, 6, "ESPN").then((items) =>
       enrichNewsItems(items, "nba"),
     ),
+    fetchTodayInHistory(now),
   ]);
 
   const featuredPlaceCarousel = buildFeaturedPlaceCarousel(now);
@@ -836,6 +884,10 @@ async function main() {
     classicQuote: buildClassicQuote(now),
     featuredPlace: featuredPlaceCarousel[0] ?? buildFeaturedPlace(now),
     featuredPlaces: featuredPlaceCarousel,
+    todayInHistory:
+      todayInHistoryResult.status === "fulfilled"
+        ? todayInHistoryResult.value
+        : buildTodayInHistoryFallback(now),
     news: {
       domestic: domesticResult.status === "fulfilled" ? domesticResult.value : [],
       international:
@@ -852,7 +904,7 @@ async function main() {
             games: [],
           },
     aiPapers: {
-      rotationLabel: `Curated Rotation · ${now.toISOString().slice(0, 10)}`,
+      rotationLabel: `Curated Rotation · ${todayKey}`,
       sections: buildPaperSections(now),
     },
   };
