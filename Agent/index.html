@@ -8,7 +8,7 @@
       name="description"
       content="查看天气、时间、世界风景、新闻和高质量 AI 论文精选。"
     />
-    <link rel="stylesheet" href="./styles.css?v=20260421-6" />
+    <link rel="stylesheet" href="./styles.css?v=20260421-7" />
   </head>
   <body>
     <div class="page-shell">
@@ -60,6 +60,46 @@
         </aside>
 
         <main class="dashboard">
+          <section class="panel chat-panel" aria-labelledby="chatPanelTitle">
+            <div class="panel-heading compact-heading chat-panel-heading">
+              <div>
+                <p class="panel-kicker">Quick Chat</p>
+                <h2 id="chatPanelTitle">Agent Chat</h2>
+              </div>
+              <span id="chatAvailability" class="panel-tag">Not Configured</span>
+            </div>
+            <div class="chat-panel-body">
+              <div id="chatMessages" class="chat-messages" aria-live="polite"></div>
+              <div class="chat-composer">
+                <div class="chat-shortcuts">
+                  <button class="chat-shortcut" type="button" data-chat-shortcut="总结今天的 NBA 焦点">
+                    NBA 焦点
+                  </button>
+                  <button class="chat-shortcut" type="button" data-chat-shortcut="今天 AI 论文里最值得看什么？">
+                    AI 论文
+                  </button>
+                  <button class="chat-shortcut" type="button" data-chat-shortcut="随便和我轻松聊两句">
+                    随便聊聊
+                  </button>
+                </div>
+                <form id="chatForm" class="chat-form">
+                  <label class="sr-only" for="chatInput">Chat Input</label>
+                  <textarea
+                    id="chatInput"
+                    class="chat-input"
+                    rows="3"
+                    maxlength="400"
+                    placeholder="想问新闻、NBA、论文，或者随便聊两句都可以。"
+                  ></textarea>
+                  <div class="chat-form-footer">
+                    <p id="chatHint" class="chat-hint">简短对话，默认保留最近几轮。</p>
+                    <button id="chatSendButton" class="chat-send-button" type="submit">发送</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+
           <section id="homeView" class="dashboard-view is-active" data-view="home">
             <section class="widget-grid widget-grid-top">
               <section class="panel compact-weather-panel" aria-labelledby="weatherTitle">
@@ -282,6 +322,7 @@
       </div>
     </template>
 
-    <script type="module" src="./app.js?v=20260421-6"></script>
+    <script src="./chat-config.js?v=20260421-7"></script>
+    <script type="module" src="./app.js?v=20260421-7"></script>
   </body>
 </html>

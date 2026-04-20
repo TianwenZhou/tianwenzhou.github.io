@@ -1,5 +1,24 @@
 # Agent Daily Brief
 
+## Chat Add-on
+
+The dashboard now includes a top chat bar, but it needs a Worker endpoint before it can answer.
+
+Quick setup:
+
+1. Deploy the Cloudflare Worker in `../worker`
+2. Put your OpenAI key into the Worker secret `OPENAI_API_KEY`
+3. Copy the deployed Worker URL into `Agent/chat-config.js`
+
+The front-end expects the final endpoint shape to be:
+
+```js
+window.AGENT_CHAT_CONFIG = {
+  endpoint: "https://your-worker-name.workers.dev/api/chat",
+  assistantName: "Agent Chat",
+};
+```
+
 一个部署在 `zhoutianwen.com/Agent` 的轻量情报站，聚合三类内容：
 
 - NBA 最新新闻

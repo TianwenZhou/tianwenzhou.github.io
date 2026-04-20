@@ -2,13 +2,23 @@ function buildDataUrl() {
   return `./data/daily-brief.json?ts=${Date.now()}`;
 }
 
+const chatConfig = window.AGENT_CHAT_CONFIG ?? {};
 const workflowUrl =
   "https://github.com/TianwenZhou/tianwenzhou.github.io/actions/workflows/update-brief.yml";
+const chatStorageKey = "agent-dashboard-chat-history-v1";
+const maxChatTurns = 8;
 
 const dom = {
   generatedAt: document.querySelector("#generatedAt"),
   refreshStatus: document.querySelector("#refreshStatus"),
   refreshDataButton: document.querySelector("#refreshDataButton"),
+  chatAvailability: document.querySelector("#chatAvailability"),
+  chatMessages: document.querySelector("#chatMessages"),
+  chatForm: document.querySelector("#chatForm"),
+  chatInput: document.querySelector("#chatInput"),
+  chatHint: document.querySelector("#chatHint"),
+  chatSendButton: document.querySelector("#chatSendButton"),
+  chatShortcuts: Array.from(document.querySelectorAll("[data-chat-shortcut]")),
   weatherLocation: document.querySelector("#weatherLocation"),
   weatherCurrent: document.querySelector("#weatherCurrent"),
   weatherVisual: document.querySelector("#weatherVisual"),
@@ -52,6 +62,8 @@ const dom = {
 let featuredPlaceTimer = null;
 let lastCalendarKey = "";
 let refreshInFlight = false;
+let chatPending = false;
+let chatHistory = [];
 const calendarState = {
   anchorYear: null,
   anchorMonthIndex: null,
@@ -186,6 +198,185 @@ function formatDate(value) {
     weekday: "short",
     timeZone: "Asia/Shanghai",
   }).format(date);
+}
+
+function getChatEndpoint() {
+  return typeof chatConfig.endpoint === "string" ? chatConfig.endpoint.trim() : "";
+}
+
+function getDefaultChatMessage(endpointConfigured) {
+  if (!endpointConfigured) {
+    return {
+      role: "assistant",
+      content:
+        "聊天入口已经放好了，但还需要把 Cloudflare Worker 的地址填进 chat-config.js，配置完成后这里就可以直接聊天。",
+      label: "Setup",
+    };
+  }
+
+  return {
+    role: "assistant",
+    content: "你好，我在这里陪你简短聊几句。可以问我新闻、NBA、论文，或者随便聊聊天。",
+    label: chatConfig.assistantName || "Agent",
+  };
+}
+
+function normalizeChatHistory(value) {
+  if (!Array.isArray(value)) {
+    return [];
+  }
+
+  return value
+    .filter((item) => item && typeof item.content === "string")
+    .map((item) => ({
+      role: item.role === "user" ? "user" : "assistant",
+      content: item.content.trim(),
+      label: typeof item.label === "string" ? item.label : "",
+    }))
+    .filter((item) => item.content)
+    .slice(-maxChatTurns);
+}
+
+function loadChatHistory() {
+  try {
+    const raw = window.localStorage.getItem(chatStorageKey);
+    return normalizeChatHistory(raw ? JSON.parse(raw) : []);
+  } catch {
+    return [];
+  }
+}
+
+function persistChatHistory() {
+  try {
+    window.localStorage.setItem(chatStorageKey, JSON.stringify(chatHistory.slice(-maxChatTurns)));
+  } catch {
+    // Ignore storage failures so the chat still works in private mode.
+  }
+}
+
+function createChatMessageElement(message) {
+  const wrapper = document.createElement("article");
+  wrapper.className = `chat-message is-${message.role}`;
+
+  const bubble = document.createElement("div");
+  bubble.className = "chat-bubble";
+  bubble.textContent = message.content;
+
+  const meta = document.createElement("p");
+  meta.className = "chat-message-meta";
+  meta.textContent = message.role === "user" ? "You" : message.label || "Agent";
+  bubble.append(meta);
+  wrapper.append(bubble);
+
+  return wrapper;
+}
+
+function renderChatMessages() {
+  dom.chatMessages.innerHTML = "";
+  chatHistory.forEach((message) => {
+    dom.chatMessages.append(createChatMessageElement(message));
+  });
+  dom.chatMessages.scrollTop = dom.chatMessages.scrollHeight;
+}
+
+function setChatPendingState(isPending) {
+  chatPending = isPending;
+  dom.chatSendButton.disabled = isPending || !getChatEndpoint();
+  dom.chatInput.disabled = isPending || !getChatEndpoint();
+  dom.chatShortcuts.forEach((button) => {
+    button.disabled = isPending || !getChatEndpoint();
+  });
+  dom.chatSendButton.textContent = isPending ? "发送中..." : "发送";
+}
+
+async function sendChatMessage(messageText) {
+  const endpoint = getChatEndpoint();
+  if (!endpoint) {
+    dom.chatHint.textContent = "先部署 Worker，并把 endpoint 写进 chat-config.js。";
+    return;
+  }
+
+  const trimmed = messageText.trim();
+  if (!trimmed) {
+    return;
+  }
+
+  chatHistory.push({ role: "user", content: trimmed, label: "You" });
+  chatHistory = chatHistory.slice(-maxChatTurns);
+  persistChatHistory();
+  renderChatMessages();
+  dom.chatInput.value = "";
+  dom.chatHint.textContent = "正在等待回复...";
+  setChatPendingState(true);
+
+  try {
+    const response = await fetch(endpoint, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        messages: chatHistory.map((message) => ({
+          role: message.role,
+          content: message.content,
+        })),
+      }),
+    });
+
+    if (!response.ok) {
+      const errorText = await response.text();
+      throw new Error(errorText || `HTTP ${response.status}`);
+    }
+
+    const payload = await response.json();
+    if (!payload.reply) {
+      throw new Error("empty reply");
+    }
+
+    chatHistory.push({
+      role: "assistant",
+      content: payload.reply,
+      label: payload.assistantName || chatConfig.assistantName || "Agent",
+    });
+    chatHistory = chatHistory.slice(-maxChatTurns);
+    persistChatHistory();
+    renderChatMessages();
+    dom.chatHint.textContent = "已连接聊天接口，可以继续追问。";
+  } catch (error) {
+    dom.chatHint.textContent = `聊天失败：${error.message}`;
+  } finally {
+    setChatPendingState(false);
+  }
+}
+
+function setupChatInterface() {
+  const endpoint = getChatEndpoint();
+  chatHistory = loadChatHistory();
+  if (!chatHistory.length) {
+    chatHistory = [getDefaultChatMessage(Boolean(endpoint))];
+    persistChatHistory();
+  } else if (endpoint && chatHistory.length === 1 && chatHistory[0].label === "Setup") {
+    chatHistory = [getDefaultChatMessage(true)];
+    persistChatHistory();
+  }
+
+  dom.chatAvailability.textContent = endpoint ? "Live Chat" : "Needs Worker";
+  dom.chatHint.textContent = endpoint
+    ? "简短对话，默认保留最近几轮。"
+    : "先部署 Worker 并配置 endpoint，聊天才会真正可用。";
+  renderChatMessages();
+  setChatPendingState(false);
+
+  dom.chatForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    sendChatMessage(dom.chatInput.value);
+  });
+
+  dom.chatShortcuts.forEach((button) => {
+    button.addEventListener("click", () => {
+      sendChatMessage(button.dataset.chatShortcut ?? "");
+    });
+  });
 }
 
 function renderClock() {
@@ -1089,6 +1280,7 @@ async function loadBrief({ manual = false } = {}) {
 }
 
 setupViewNavigation();
+setupChatInterface();
 setupRefreshControl();
 setupCalendarNavigation();
 setupNbaScheduleNavigation();
