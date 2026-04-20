@@ -29,6 +29,8 @@ const dom = {
   classicQuoteText: document.querySelector("#classicQuoteText"),
   classicQuoteSource: document.querySelector("#classicQuoteSource"),
   classicQuoteNote: document.querySelector("#classicQuoteNote"),
+  bookExcerptText: document.querySelector("#bookExcerptText"),
+  bookExcerptSource: document.querySelector("#bookExcerptSource"),
   domesticNews: document.querySelector("#domesticNews"),
   internationalNews: document.querySelector("#internationalNews"),
   nbaScoreboard: document.querySelector("#nbaScoreboard"),
@@ -510,6 +512,17 @@ function renderClassicQuote(classicQuote) {
   dom.classicQuoteNote.textContent = classicQuote.note;
 }
 
+function renderBookExcerpt(bookExcerpt) {
+  if (!bookExcerpt) {
+    dom.bookExcerptText.textContent = "今天的书籍摘抄还在整理中。";
+    dom.bookExcerptSource.textContent = "每日书摘";
+    return;
+  }
+
+  dom.bookExcerptText.textContent = `“${bookExcerpt.text}”`;
+  dom.bookExcerptSource.textContent = `${bookExcerpt.book} · ${bookExcerpt.author}`;
+}
+
 function renderFeaturedPlace(featuredPlaces) {
   if (featuredPlaceTimer) {
     clearInterval(featuredPlaceTimer);
@@ -982,6 +995,7 @@ function renderPage(data) {
   renderWeather(data.weather);
   renderTodayInHistory(data.todayInHistory);
   renderClassicQuote(data.classicQuote);
+  renderBookExcerpt(data.bookExcerpt);
   renderFeaturedPlace(
     data.featuredPlaces ??
       (data.featuredPlace ? [data.featuredPlace] : []),

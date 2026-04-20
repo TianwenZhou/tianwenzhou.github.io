@@ -132,6 +132,65 @@ const classicQuotes = [
   },
 ];
 
+const bookExcerpts = [
+  {
+    id: "border-town-river",
+    text:
+      "月光如银子，无处不可照及，山上篁竹在月光下变成了一片黑色，身边草丛中虫声繁密如落雨。",
+    book: "《边城》",
+    author: "沈从文",
+  },
+  {
+    id: "fortress-besieged-night",
+    text:
+      "夜仿佛纸浸了油，变成半透明体；它给太阳拥抱住了，分不出身来，也许是给太阳溶了，所以夕照晚霞隐褪后的夜色也带着酡红。",
+    book: "《围城》",
+    author: "钱钟书",
+  },
+  {
+    id: "camel-xiangzi-sky",
+    text:
+      "天是越来越晴朗了，一轮火一样的太阳悬在空中，街上的一切都像在明晃晃地发着白光。",
+    book: "《骆驼祥子》",
+    author: "老舍",
+  },
+  {
+    id: "norwegian-wood-rain",
+    text:
+      "雨还在下，细得像雾，落在草地和树叶上，世界像被一种安静的潮气轻轻包住。",
+    book: "《挪威的森林》",
+    author: "村上春树",
+  },
+  {
+    id: "one-hundred-years-yellow",
+    text:
+      "许多年以后，面对行刑队，奥雷里亚诺·布恩迪亚上校将会想起父亲带他去见识冰块的那个遥远的下午。",
+    book: "《百年孤独》",
+    author: "加西亚·马尔克斯",
+  },
+  {
+    id: "floating-life-lotus",
+    text:
+      "芸坐其侧，素手烹茶，窗外新荷微香，连晚风也像带着水意，从竹帘间一寸寸地漫进来。",
+    book: "《浮生六记》",
+    author: "沈复",
+  },
+  {
+    id: "red-mansion-snow",
+    text:
+      "只见大地白茫茫一片真干净，山川树木都隐在雪光里，天地像忽然静下来，只余风过回廊的细响。",
+    book: "《红楼梦》",
+    author: "曹雪芹",
+  },
+  {
+    id: "remembrance-madeleine",
+    text:
+      "那一点点浸过茶水的点心，忽然把整个旧日时光都唤醒了，仿佛往昔并未消失，只是沉在心底等待一个气味。",
+    book: "《追忆似水年华》",
+    author: "马塞尔·普鲁斯特",
+  },
+];
+
 const newsFallbackImages = {
   domestic:
     "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1400&q=80",
@@ -813,6 +872,10 @@ function buildClassicQuote(date) {
   return rotateItems(classicQuotes, 1, getDaySeed(date))[0] ?? null;
 }
 
+function buildBookExcerpt(date) {
+  return rotateItems(bookExcerpts, 1, getDaySeed(date) + 17)[0] ?? null;
+}
+
 function buildPaperSections(date) {
   const seed = getDaySeed(date);
 
@@ -882,6 +945,7 @@ async function main() {
             forecast: [],
           },
     classicQuote: buildClassicQuote(now),
+    bookExcerpt: buildBookExcerpt(now),
     featuredPlace: featuredPlaceCarousel[0] ?? buildFeaturedPlace(now),
     featuredPlaces: featuredPlaceCarousel,
     todayInHistory:
