@@ -8,7 +8,7 @@
       name="description"
       content="查看天气、时间、世界风景、新闻和高质量 AI 论文精选。"
     />
-    <link rel="stylesheet" href="./styles.css?v=20260421-4" />
+    <link rel="stylesheet" href="./styles.css?v=20260421-5" />
   </head>
   <body>
     <div class="page-shell">
@@ -18,6 +18,18 @@
             <p class="sidebar-kicker">Agent</p>
             <h1>Dashboard</h1>
           </div>
+
+          <section class="sidebar-status-card" aria-labelledby="refreshPanelTitle">
+            <div class="sidebar-status-copy">
+              <p class="sidebar-status-kicker">Data</p>
+              <h2 id="refreshPanelTitle" class="sidebar-status-title">最新同步</h2>
+              <p id="generatedAt" class="sidebar-status-time">数据更新时间：--</p>
+              <p id="refreshStatus" class="sidebar-status-note">可手动拉取最新页面数据</p>
+            </div>
+            <button id="refreshDataButton" class="sidebar-refresh-button" type="button">
+              手动刷新
+            </button>
+          </section>
 
           <nav class="sidebar-nav" aria-label="Dashboard Sections">
             <button class="sidebar-link is-active" type="button" data-view-target="home">
@@ -80,7 +92,7 @@
                       <div class="weather-hero-clock">
                         <p id="currentTime" class="time-value">--:--:--</p>
                         <p id="currentDate" class="time-date">--</p>
-                        <p id="generatedAt" class="time-meta">Updated: -</p>
+                        <p class="time-meta">北京时间 · 每 4 小时同步</p>
                       </div>
                     </div>
                     <div class="weather-metrics">
@@ -270,6 +282,6 @@
       </div>
     </template>
 
-    <script type="module" src="./app.js?v=20260421-4"></script>
+    <script type="module" src="./app.js?v=20260421-5"></script>
   </body>
 </html>

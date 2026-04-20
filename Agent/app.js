@@ -1,7 +1,11 @@
-const dataUrl = `./data/daily-brief.json?ts=${Date.now()}`;
+function buildDataUrl() {
+  return `./data/daily-brief.json?ts=${Date.now()}`;
+}
 
 const dom = {
   generatedAt: document.querySelector("#generatedAt"),
+  refreshStatus: document.querySelector("#refreshStatus"),
+  refreshDataButton: document.querySelector("#refreshDataButton"),
   weatherLocation: document.querySelector("#weatherLocation"),
   weatherCurrent: document.querySelector("#weatherCurrent"),
   weatherVisual: document.querySelector("#weatherVisual"),
@@ -44,6 +48,7 @@ const dom = {
 
 let featuredPlaceTimer = null;
 let lastCalendarKey = "";
+let refreshInFlight = false;
 const calendarState = {
   anchorYear: null,
   anchorMonthIndex: null,
@@ -991,6 +996,7 @@ function renderPaperSections(sections) {
 
 function renderPage(data) {
   dom.generatedAt.textContent = `数据更新时间：${formatDateTime(data.generatedAt)}`;
+  dom.refreshStatus.textContent = "已同步到当前可用的最新数据";
   dom.paperRotationLabel.textContent = data.aiPapers.rotationLabel ?? "Daily Rotation";
   renderWeather(data.weather);
   renderTodayInHistory(data.todayInHistory);
@@ -1014,6 +1020,7 @@ function renderError(message) {
   }
 
   dom.generatedAt.textContent = message;
+  dom.refreshStatus.textContent = "暂时无法刷新数据";
   dom.weatherCurrent.classList.remove("skeleton");
   dom.weatherCurrent.innerHTML = `<div class="error-state"><p>${message}</p></div>`;
   dom.classicQuoteCard.classList.remove("skeleton");
@@ -1031,9 +1038,32 @@ function renderError(message) {
   renderEmpty(dom.paperHighlights);
 }
 
-async function loadBrief() {
+function setRefreshButtonState(isLoading) {
+  refreshInFlight = isLoading;
+  dom.refreshDataButton.disabled = isLoading;
+  dom.refreshDataButton.textContent = isLoading ? "刷新中..." : "手动刷新";
+}
+
+function setupRefreshControl() {
+  dom.refreshDataButton.addEventListener("click", () => {
+    if (refreshInFlight) {
+      return;
+    }
+
+    loadBrief({ manual: true });
+  });
+}
+
+async function loadBrief({ manual = false } = {}) {
+  if (refreshInFlight) {
+    return;
+  }
+
+  setRefreshButtonState(true);
+  dom.refreshStatus.textContent = manual ? "正在拉取最新页面数据..." : "正在载入摘要...";
+
   try {
-    const response = await fetch(dataUrl, { cache: "no-store" });
+    const response = await fetch(buildDataUrl(), { cache: "no-store" });
     if (!response.ok) {
       throw new Error(`HTTP ${response.status}`);
     }
@@ -1041,11 +1071,18 @@ async function loadBrief() {
     const data = await response.json();
     renderPage(data);
   } catch (error) {
-    renderError(`读取每日摘要失败：${error.message}`);
+    if (manual) {
+      dom.refreshStatus.textContent = `刷新失败：${error.message}`;
+    } else {
+      renderError(`读取每日摘要失败：${error.message}`);
+    }
+  } finally {
+    setRefreshButtonState(false);
   }
 }
 
 setupViewNavigation();
+setupRefreshControl();
 setupCalendarNavigation();
 setupNbaScheduleNavigation();
 renderClock();
