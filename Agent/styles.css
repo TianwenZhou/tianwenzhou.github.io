@@ -876,16 +876,38 @@ img {
 }
 
 .featured-place-dot {
+  appearance: none;
   width: 8px;
   height: 8px;
+  padding: 0;
+  border: 0;
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.3);
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.18);
+  cursor: pointer;
+  transition:
+    transform 180ms ease,
+    background 180ms ease,
+    box-shadow 180ms ease,
+    width 180ms ease;
+}
+
+.featured-place-dot:hover {
+  transform: scale(1.12);
+  background: rgba(255, 255, 255, 0.62);
+}
+
+.featured-place-dot:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.92);
+  outline-offset: 3px;
 }
 
 .featured-place-dot.is-active {
   width: 22px;
   background: rgba(255, 255, 255, 0.96);
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.18),
+    0 10px 20px rgba(7, 25, 46, 0.18);
 }
 
 .quote-card {

@@ -536,7 +536,7 @@ function renderFeaturedPlace(featuredPlaces) {
         <p class="featured-place-location" id="featuredPlaceLocation">--</p>
         <p class="featured-place-summary" id="featuredPlaceSummary">--</p>
         <div class="featured-place-footer">
-          <span class="featured-place-rotation">每 8 秒自动切换</span>
+          <span class="featured-place-rotation">每日更新 · 支持手动翻看</span>
           <div class="featured-place-dots" id="featuredPlaceDots"></div>
         </div>
       </div>
@@ -551,6 +551,19 @@ function renderFeaturedPlace(featuredPlaces) {
   const dots = dom.featuredPlacePanel.querySelector("#featuredPlaceDots");
   let activeIndex = 0;
 
+  function renderDots(index) {
+    dots.innerHTML = "";
+    featuredPlaces.forEach((place, dotIndex) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = `featured-place-dot${dotIndex === index ? " is-active" : ""}`;
+      button.setAttribute("aria-label", `查看 ${place.title}`);
+      button.setAttribute("aria-pressed", String(dotIndex === index));
+      button.dataset.index = String(dotIndex);
+      dots.append(button);
+    });
+  }
+
   function renderSlide(index) {
     const place = featuredPlaces[index];
     card.href = place.link;
@@ -559,27 +572,39 @@ function renderFeaturedPlace(featuredPlaces) {
     name.textContent = place.title;
     location.textContent = place.location;
     summary.textContent = place.summary;
-    dots.innerHTML = featuredPlaces
-      .map(
-        (_, dotIndex) =>
-          `<span class="featured-place-dot${
-            dotIndex === index ? " is-active" : ""
-          }"></span>`,
-      )
-      .join("");
+    renderDots(index);
     card.classList.remove("is-entering");
     void card.offsetWidth;
     card.classList.add("is-entering");
   }
 
-  renderSlide(activeIndex);
+  function restartFeaturedPlaceTimer() {
+    if (featuredPlaceTimer) {
+      clearInterval(featuredPlaceTimer);
+      featuredPlaceTimer = null;
+    }
 
-  if (featuredPlaces.length > 1) {
-    featuredPlaceTimer = window.setInterval(() => {
-      activeIndex = (activeIndex + 1) % featuredPlaces.length;
-      renderSlide(activeIndex);
-    }, 8000);
+    if (featuredPlaces.length > 1) {
+      featuredPlaceTimer = window.setInterval(() => {
+        activeIndex = (activeIndex + 1) % featuredPlaces.length;
+        renderSlide(activeIndex);
+      }, 8000);
+    }
   }
+
+  renderSlide(activeIndex);
+  dots.addEventListener("click", (event) => {
+    const button = event.target.closest(".featured-place-dot");
+    if (!button) {
+      return;
+    }
+
+    activeIndex = Number(button.dataset.index ?? activeIndex);
+    renderSlide(activeIndex);
+    restartFeaturedPlaceTimer();
+  });
+
+  restartFeaturedPlaceTimer();
 }
 
 function renderNews(container, items, section) {
