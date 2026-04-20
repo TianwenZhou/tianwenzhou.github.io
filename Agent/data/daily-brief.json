@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-04-20T10:07:04.406Z",
+  "generatedAt": "2026-04-20T14:07:37.933Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 22,
+      "temperature": 14,
       "weatherCode": 0,
-      "windSpeed": 4
+      "windSpeed": 6
     },
     "today": {
       "date": "2026-04-20",
       "weatherCode": 0,
       "description": "晴朗",
-      "max": 23,
+      "max": 22,
       "min": 9,
       "precipitationProbability": 0
     },
@@ -20,7 +20,7 @@
         "date": "2026-04-20",
         "weatherCode": 0,
         "description": "晴朗",
-        "max": 23,
+        "max": 22,
         "min": 9,
         "precipitationProbability": 0
       },
@@ -36,23 +36,23 @@
         "date": "2026-04-22",
         "weatherCode": 3,
         "description": "阴天",
-        "max": 23,
+        "max": 26,
         "min": 12,
         "precipitationProbability": 0
       },
       {
         "date": "2026-04-23",
-        "weatherCode": 3,
-        "description": "阴天",
-        "max": 24,
-        "min": 12,
+        "weatherCode": 1,
+        "description": "基本晴",
+        "max": 23,
+        "min": 13,
         "precipitationProbability": 3
       },
       {
         "date": "2026-04-24",
         "weatherCode": 3,
         "description": "阴天",
-        "max": 26,
+        "max": 24,
         "min": 13,
         "precipitationProbability": 8
       }
@@ -133,6 +133,14 @@
   "news": {
     "domestic": [
       {
+        "title": "聚焦服务业扩能提质丨一季度服务业增加值占国内生产总值比重为61.7%",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbExacEFyVUgzaHkwZkJmb25BcjhubnNRdVBoekZOMEtRMUtzZ1h6UVg3RWhBVTdyME5jcHN3cmk1QTVFaXBZdkkwbHFnZHR5bWtvUWV2REt4ZVlTUHBkc1JxeklBU2VKc0t5SGx0WTlMaEpJSEwtWnl1eXJMRm8tVFpn?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-04-20T11:40:50.000Z",
+        "source": "新华网"
+      },
+      {
         "title": "北京延庆举办环长城越野赛 近两千名国内外跑者共赴春日长城之约",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5YUhmdGhtek1wYW5RTDF0REd3QzVCNU14VnkwRmlBZUdIaHBVNVV1aFowZzdVNjR5YmdRYzJZUHY2M1hSbFZsX0ZQajhOcTdVWThvSWxIcURmdVV3SS1ENmlxWmZLUWVC?oc=5",
         "summary": "",
@@ -163,32 +171,40 @@
         "image": "",
         "publishedAt": "2026-04-17T01:30:00.000Z",
         "source": "stats.gov.cn"
-      },
-      {
-        "title": "昆明上榜“五一”假期国内机票热门目的地",
-        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE52clRDTWpNWUFyTExyUFV5QnZ0Q3lCaG42NDNSTFl2S3ZmSExwdjJlWGxDLThleXVJa0J4VTBJMWx4SVhocDBuTjJXUUUwX2FnaFpJUXgzbnlSeVdaS1Fxck1ObjE2UGhPYmNmd2tZXzlfYUZhVlRxT2tn?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-04-17T01:04:15.000Z",
-        "source": "新华网云南"
       }
     ],
     "international": [
+      {
+        "title": "Man kills seven of his children, and an eighth child, in Louisiana mass shooting",
+        "link": "https://www.bbc.com/news/articles/c0q9v1p2dd2o?at_medium=RSS&at_campaign=rss",
+        "summary": "Three boys and five girls, aged between three to 11, were killed in the shooting on Sunday, officials say.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/befa/live/83ea65d0-3c90-11f1-bfee-83c7643042f8.jpg",
+        "publishedAt": "2026-04-20T12:56:03.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Japan on high alert for 'huge' second quake after issuing tsunami warning",
+        "link": "https://www.bbc.com/news/articles/czd7m7d699do?at_medium=RSS&at_campaign=rss",
+        "summary": "Japan's meteorological agency warns another, stronger earthquake may hit in the next week,",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eed6/live/0e57ae90-3c9f-11f1-879d-1b2f5c3919b8.jpg",
+        "publishedAt": "2026-04-20T12:53:36.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Oil prices rise after Trump says Iranian ship seized",
         "link": "https://www.bbc.com/news/articles/c5yjzy35825o?at_medium=RSS&at_campaign=rss",
         "summary": "Energy markets have seen wild swings since the US and Israel attacked Iran on 28 February.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/99c3/live/2d7d8d60-3c4c-11f1-995c-0b1e92f7d783.jpg",
-        "publishedAt": "2026-04-20T08:41:12.000Z",
+        "publishedAt": "2026-04-20T11:23:04.000Z",
         "source": "BBC"
       },
       {
-        "title": "Man kills seven of his children, and an eighth child, in Louisiana mass shooting",
-        "link": "https://www.bbc.com/news/articles/c0q9v1p2dd2o?at_medium=RSS&at_campaign=rss",
-        "summary": "The children, aged from one to 14 years old, were killed in a shooting that police are describing as a \"domestic disturbance\".",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/befa/live/83ea65d0-3c90-11f1-bfee-83c7643042f8.jpg",
-        "publishedAt": "2026-04-20T08:26:46.000Z",
-        "source": "BBC"
+        "title": "Japan issues a tsunami warning after an earthquake hits nearby",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOYmtySm5kM2lpbWkweE02SEdCekhQWndmYXVvaml1ZGc4S2ppQmRsUUJwRkFscFVKNEVOYWxJOW9VbnAxZjNrbi1qYlVxNElremlOb0xZYmVFdzBwRG10R185Wmo2TWZTQmpLMHF0ZWpwOWgyUWdIdk9FdkpGSTJySDJCWWJMeUNBNVE?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-04-20T10:15:53.000Z",
+        "source": "CNN"
       },
       {
         "title": "Here’s what Trump’s Fed pick could have in store for the world’s most powerful central bank",
@@ -197,25 +213,17 @@
         "image": "",
         "publishedAt": "2026-04-20T08:00:56.000Z",
         "source": "CNN"
-      },
-      {
-        "title": "New Zealand declares state of emergency in Wellington as floods hit",
-        "link": "https://www.bbc.com/news/articles/cly75d9zvj3o?at_medium=RSS&at_campaign=rss",
-        "summary": "Footage online shows vehicles submerged, trees uprooted and houses hit by landslides.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e26e/live/5282c970-3c71-11f1-b8ff-2fae92a33548.jpg",
-        "publishedAt": "2026-04-20T05:48:54.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "‘Robots don’t bleed’: Ukraine sends machines into the battlefield in place of human soldiers",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcldwQ09GVHZFR3FsalBZMnRFR3NsY2xpczdTYWRCa29BeUk2dVVkWVVRZTZGNndrSmwybl9oOVNsSzVKcnhjamRIR1dFTjg1bGFwMFdpcHNBS2ljWmI4MlFOblpBWTdLXzVxcHRXM0RGY3BBa1F2aGhkaWxzMGJVOER6bm9rT1k?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-04-20T04:01:55.000Z",
-        "source": "CNN"
       }
     ],
     "nba": [
+      {
+        "title": "Windhorst: The five biggest lessons from the first weekend of the NBA playoffs",
+        "link": "https://www.espn.com/nba/story/_/id/48537702/brian-windhorst-lebron-lakers-five-lessons-first-weekend-nba-playoffs",
+        "summary": "A 25-year-old LeBron strategy for the Lakers, a new defense in Cleveland and a message from Oklahoma City: Here's what we learned as the postseason ti...",
+        "image": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0420%2Fr1646425_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-04-20T14:31:58.000Z",
+        "source": "ESPN"
+      },
       {
         "title": "Wemby tops Duncan with 35 in Spurs playoff debut",
         "link": "https://www.espn.com/nba/story/_/id/48538210/victor-wembanyama-scores-35-playoff-debut-spurs-win-game-1-vs-trail-blazers",
@@ -253,14 +261,6 @@
         "link": "https://www.espn.com/nba/story/_/id/48534372/76ers-face-familiar-playoff-fate-celtics-dominate-game-1",
         "summary": "The Celtics are off to a good start in their hopes to hand Philadelphia its seventh straight series loss between the rivals.",
         "image": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0419%2Fr1646082_1024x576_16%2D9.jpg",
-        "publishedAt": "2026-04-20T06:54:11.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Barkley: Jordan rift easing, golf game planned",
-        "link": "https://www.espn.com/nba/story/_/id/48531302/charles-barkley-talking-michael-jordan-again-rift",
-        "summary": "Charles Barkley says he and Michael Jordan are talking again after nearly 15 years and that the two plan to play golf together in the offseason.",
-        "image": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0503%2Fr695069_1296x729_16%2D9.jpg",
         "publishedAt": "2026-04-20T06:54:11.000Z",
         "source": "ESPN"
       }
@@ -1847,13 +1847,13 @@
                 },
                 {
                   "label": "RPG",
-                  "value": "5.1",
-                  "player": "Oso Ighodaro",
-                  "position": "F",
-                  "jersey": "11",
+                  "value": "7.9",
+                  "player": "Mark Williams",
+                  "position": "C",
+                  "jersey": "15",
                   "summary": "",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4601023.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4601023/oso-ighodaro"
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4701232.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4701232/mark-williams"
                 },
                 {
                   "label": "APG",
