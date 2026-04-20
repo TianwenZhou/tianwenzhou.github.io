@@ -541,6 +541,22 @@ function renderFeaturedPlace(featuredPlaces) {
         </div>
       </div>
     </a>
+    <button
+      type="button"
+      class="featured-place-arrow is-prev"
+      id="featuredPlacePrev"
+      aria-label="上一张风景"
+    >
+      ‹
+    </button>
+    <button
+      type="button"
+      class="featured-place-arrow is-next"
+      id="featuredPlaceNext"
+      aria-label="下一张风景"
+    >
+      ›
+    </button>
   `;
 
   const card = dom.featuredPlacePanel.querySelector(".featured-place-card");
@@ -549,6 +565,8 @@ function renderFeaturedPlace(featuredPlaces) {
   const location = dom.featuredPlacePanel.querySelector("#featuredPlaceLocation");
   const summary = dom.featuredPlacePanel.querySelector("#featuredPlaceSummary");
   const dots = dom.featuredPlacePanel.querySelector("#featuredPlaceDots");
+  const prevButton = dom.featuredPlacePanel.querySelector("#featuredPlacePrev");
+  const nextButton = dom.featuredPlacePanel.querySelector("#featuredPlaceNext");
   let activeIndex = 0;
 
   function renderDots(index) {
@@ -600,6 +618,18 @@ function renderFeaturedPlace(featuredPlaces) {
     }
 
     activeIndex = Number(button.dataset.index ?? activeIndex);
+    renderSlide(activeIndex);
+    restartFeaturedPlaceTimer();
+  });
+
+  prevButton?.addEventListener("click", () => {
+    activeIndex = (activeIndex - 1 + featuredPlaces.length) % featuredPlaces.length;
+    renderSlide(activeIndex);
+    restartFeaturedPlaceTimer();
+  });
+
+  nextButton?.addEventListener("click", () => {
+    activeIndex = (activeIndex + 1) % featuredPlaces.length;
     renderSlide(activeIndex);
     restartFeaturedPlaceTimer();
   });

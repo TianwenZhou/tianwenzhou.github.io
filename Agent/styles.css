@@ -796,6 +796,53 @@ img {
   animation: featured-place-fade 520ms ease;
 }
 
+.featured-place-arrow {
+  appearance: none;
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+  background: rgba(7, 25, 46, 0.28);
+  color: #f8fbff;
+  font-size: 32px;
+  line-height: 1;
+  cursor: pointer;
+  backdrop-filter: blur(16px);
+  transform: translateY(-50%);
+  transition:
+    transform 180ms ease,
+    background 180ms ease,
+    box-shadow 180ms ease,
+    border-color 180ms ease;
+}
+
+.featured-place-arrow.is-prev {
+  left: 18px;
+}
+
+.featured-place-arrow.is-next {
+  right: 18px;
+}
+
+.featured-place-arrow:hover {
+  background: rgba(7, 25, 46, 0.46);
+  border-color: rgba(255, 255, 255, 0.38);
+  box-shadow: 0 16px 28px rgba(7, 25, 46, 0.22);
+  transform: translateY(-50%) scale(1.04);
+}
+
+.featured-place-arrow:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.92);
+  outline-offset: 3px;
+}
+
 .featured-place-card::before {
   content: "";
   position: absolute;
@@ -1724,6 +1771,12 @@ img {
 @media (max-width: 768px) {
   .featured-place-hero {
     min-height: 360px;
+  }
+
+  .featured-place-arrow {
+    width: 42px;
+    height: 42px;
+    font-size: 28px;
   }
 
   .featured-place-card h3 {
