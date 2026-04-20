@@ -2,6 +2,9 @@ function buildDataUrl() {
   return `./data/daily-brief.json?ts=${Date.now()}`;
 }
 
+const workflowUrl =
+  "https://github.com/TianwenZhou/tianwenzhou.github.io/actions/workflows/update-brief.yml";
+
 const dom = {
   generatedAt: document.querySelector("#generatedAt"),
   refreshStatus: document.querySelector("#refreshStatus"),
@@ -996,7 +999,9 @@ function renderPaperSections(sections) {
 
 function renderPage(data) {
   dom.generatedAt.textContent = `数据更新时间：${formatDateTime(data.generatedAt)}`;
-  dom.refreshStatus.textContent = "已同步到当前可用的最新数据";
+  if (!refreshInFlight) {
+    dom.refreshStatus.textContent = "可立即触发 GitHub Actions 更新数据";
+  }
   dom.paperRotationLabel.textContent = data.aiPapers.rotationLabel ?? "Daily Rotation";
   renderWeather(data.weather);
   renderTodayInHistory(data.todayInHistory);
@@ -1041,7 +1046,7 @@ function renderError(message) {
 function setRefreshButtonState(isLoading) {
   refreshInFlight = isLoading;
   dom.refreshDataButton.disabled = isLoading;
-  dom.refreshDataButton.textContent = isLoading ? "刷新中..." : "手动刷新";
+  dom.refreshDataButton.textContent = isLoading ? "载入中..." : "立即更新数据";
 }
 
 function setupRefreshControl() {
@@ -1050,6 +1055,8 @@ function setupRefreshControl() {
       return;
     }
 
+    dom.refreshStatus.textContent = "已打开 GitHub Actions，请点击 Run workflow 立即生成新数据";
+    window.open(workflowUrl, "_blank", "noopener,noreferrer");
     loadBrief({ manual: true });
   });
 }
