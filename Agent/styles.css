@@ -283,36 +283,159 @@ img {
   display: grid;
 }
 
+.chat-dock {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 60;
+  display: grid;
+  justify-items: end;
+  gap: 12px;
+}
+
+.chat-dock-toggle {
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 54px;
+  padding: 0 18px 0 12px;
+  border: 1px solid rgba(255, 255, 255, 0.48);
+  border-radius: 999px;
+  background:
+    linear-gradient(135deg, rgba(15, 108, 189, 0.96), rgba(56, 189, 248, 0.88)),
+    rgba(255, 255, 255, 0.18);
+  color: #f8fbff;
+  font: inherit;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  box-shadow:
+    0 18px 38px rgba(12, 35, 58, 0.28),
+    inset 0 1px 0 rgba(255, 255, 255, 0.24);
+  backdrop-filter: blur(18px);
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    opacity 180ms ease;
+}
+
+.chat-dock-toggle:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 22px 42px rgba(12, 35, 58, 0.32),
+    inset 0 1px 0 rgba(255, 255, 255, 0.24);
+}
+
+.chat-dock-toggle:focus-visible,
+.chat-collapse-button:focus-visible {
+  outline: 2px solid rgba(15, 108, 189, 0.35);
+  outline-offset: 3px;
+}
+
+.chat-dock-toggle-icon,
+.chat-collapse-button {
+  display: inline-grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.18);
+  color: inherit;
+  font-size: 12px;
+  font-weight: 800;
+}
+
 .chat-panel {
-  padding-top: 20px;
+  width: min(420px, calc(100vw - 32px));
+  padding: 18px;
+  border-radius: 30px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.72)),
+    radial-gradient(circle at top right, rgba(56, 189, 248, 0.2), transparent 34%);
+  box-shadow:
+    0 28px 68px rgba(12, 35, 58, 0.24),
+    inset 0 1px 0 rgba(255, 255, 255, 0.7);
+  transition:
+    opacity 180ms ease,
+    transform 180ms ease,
+    visibility 180ms ease;
+}
+
+.chat-dock:not(.is-open) .chat-panel {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateY(18px) scale(0.96);
+}
+
+.chat-dock.is-open .chat-panel {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0) scale(1);
 }
 
 .chat-panel-heading {
   align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.chat-panel-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.chat-collapse-button {
+  appearance: none;
+  width: 34px;
+  height: 34px;
+  border: 1px solid rgba(196, 215, 230, 0.68);
+  background: rgba(255, 255, 255, 0.78);
+  color: var(--text);
+  font: inherit;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    background 180ms ease;
+}
+
+.chat-collapse-button:hover {
+  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 12px 24px rgba(12, 35, 58, 0.12);
 }
 
 .chat-panel-body {
   display: grid;
-  grid-template-columns: minmax(0, 1.35fr) minmax(300px, 0.9fr);
-  gap: 18px;
+  grid-template-columns: 1fr;
+  gap: 14px;
   align-items: stretch;
 }
 
 .chat-messages,
 .chat-composer {
   min-height: 0;
-  border-radius: 24px;
+  border-radius: 22px;
   border: 1px solid rgba(196, 215, 230, 0.62);
-  background: rgba(255, 255, 255, 0.74);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.62);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.84), rgba(255, 255, 255, 0.74)),
+    linear-gradient(140deg, rgba(255, 255, 255, 0.16), transparent 46%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.62),
+    0 16px 26px rgba(12, 35, 58, 0.08);
 }
 
 .chat-messages {
   display: grid;
   align-content: start;
   gap: 12px;
-  min-height: 220px;
-  max-height: 320px;
+  min-height: 280px;
+  max-height: min(42vh, 420px);
   overflow-y: auto;
   padding: 18px;
 }
@@ -2036,10 +2159,6 @@ img {
 }
 
 @media (max-width: 1100px) {
-  .chat-panel-body {
-    grid-template-columns: 1fr;
-  }
-
   .widget-grid-news {
     grid-template-columns: 1fr;
   }
@@ -2123,6 +2242,22 @@ img {
   .panel {
     padding: 18px;
     border-radius: 22px;
+  }
+
+  .chat-dock {
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    justify-items: stretch;
+  }
+
+  .chat-panel {
+    width: min(100%, 100%);
+    border-radius: 24px;
+  }
+
+  .chat-dock-toggle {
+    justify-self: end;
   }
 
   .chat-messages,

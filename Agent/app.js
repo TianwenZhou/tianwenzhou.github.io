@@ -6,12 +6,17 @@ const chatConfig = window.AGENT_CHAT_CONFIG ?? {};
 const workflowUrl =
   "https://github.com/TianwenZhou/tianwenzhou.github.io/actions/workflows/update-brief.yml";
 const chatStorageKey = "agent-dashboard-chat-history-v1";
+const chatDockStateKey = "agent-dashboard-chat-open-v1";
 const maxChatTurns = 8;
 
 const dom = {
   generatedAt: document.querySelector("#generatedAt"),
   refreshStatus: document.querySelector("#refreshStatus"),
   refreshDataButton: document.querySelector("#refreshDataButton"),
+  chatDock: document.querySelector("#chatDock"),
+  chatToggleButton: document.querySelector("#chatToggleButton"),
+  chatToggleLabel: document.querySelector("#chatToggleLabel"),
+  chatCollapseButton: document.querySelector("#chatCollapseButton"),
   chatAvailability: document.querySelector("#chatAvailability"),
   chatMessages: document.querySelector("#chatMessages"),
   chatForm: document.querySelector("#chatForm"),
@@ -63,6 +68,7 @@ let featuredPlaceTimer = null;
 let lastCalendarKey = "";
 let refreshInFlight = false;
 let chatPending = false;
+let chatDockOpen = false;
 let chatHistory = [];
 const calendarState = {
   anchorYear: null,
@@ -254,6 +260,53 @@ function persistChatHistory() {
   }
 }
 
+function loadChatDockPreference() {
+  try {
+    const raw = window.localStorage.getItem(chatDockStateKey);
+    if (raw === "open") {
+      return true;
+    }
+    if (raw === "closed") {
+      return false;
+    }
+  } catch {
+    // Ignore storage failures and fall back to viewport-based defaults.
+  }
+
+  return window.innerWidth > 1100;
+}
+
+function persistChatDockPreference(isOpen) {
+  try {
+    window.localStorage.setItem(chatDockStateKey, isOpen ? "open" : "closed");
+  } catch {
+    // Ignore storage failures so the dock can still be toggled.
+  }
+}
+
+function setChatDockState(isOpen, { persist = true } = {}) {
+  chatDockOpen = isOpen;
+  dom.chatDock.classList.toggle("is-open", isOpen);
+  dom.chatToggleButton.setAttribute("aria-expanded", String(isOpen));
+  dom.chatToggleLabel.textContent = isOpen ? "收起聊天" : "聊天";
+
+  if (persist) {
+    persistChatDockPreference(isOpen);
+  }
+}
+
+function setupChatDock() {
+  setChatDockState(loadChatDockPreference(), { persist: false });
+
+  dom.chatToggleButton.addEventListener("click", () => {
+    setChatDockState(!chatDockOpen);
+  });
+
+  dom.chatCollapseButton.addEventListener("click", () => {
+    setChatDockState(false);
+  });
+}
+
 function createChatMessageElement(message) {
   const wrapper = document.createElement("article");
   wrapper.className = `chat-message is-${message.role}`;
@@ -293,6 +346,7 @@ async function sendChatMessage(messageText) {
   const endpoint = getChatEndpoint();
   if (!endpoint) {
     dom.chatHint.textContent = "先部署 Worker，并把 endpoint 写进 chat-config.js。";
+    setChatDockState(true);
     return;
   }
 
@@ -301,6 +355,7 @@ async function sendChatMessage(messageText) {
     return;
   }
 
+  setChatDockState(true);
   chatHistory.push({ role: "user", content: trimmed, label: "You" });
   chatHistory = chatHistory.slice(-maxChatTurns);
   persistChatHistory();
@@ -1280,6 +1335,7 @@ async function loadBrief({ manual = false } = {}) {
 }
 
 setupViewNavigation();
+setupChatDock();
 setupChatInterface();
 setupRefreshControl();
 setupCalendarNavigation();
