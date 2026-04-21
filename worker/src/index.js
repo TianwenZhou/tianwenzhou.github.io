@@ -30,40 +30,29 @@ function getAllowedOrigin(request, env) {
   return allowlist[0] || "*";
 }
 
-function buildConversationPrompt(messages) {
-  return messages
+function buildDeepSeekMessages(messages, env) {
+  const history = messages
     .slice(-8)
-    .map((message) => {
-      const role = message.role === "assistant" ? "Assistant" : "User";
-      return `${role}: ${String(message.content || "").trim()}`;
-    })
-    .filter(Boolean)
-    .join("\n");
+    .map((message) => ({
+      role: message.role === "assistant" ? "assistant" : "user",
+      content: String(message.content || "").trim(),
+    }))
+    .filter((message) => message.content);
+
+  if (env.SYSTEM_PROMPT) {
+    return [{ role: "system", content: env.SYSTEM_PROMPT }, ...history];
+  }
+
+  return history;
 }
 
 function extractResponseText(payload) {
-  if (typeof payload.output_text === "string" && payload.output_text.trim()) {
-    return payload.output_text.trim();
-  }
-
-  const output = Array.isArray(payload.output) ? payload.output : [];
-  const fragments = [];
-
-  output.forEach((item) => {
-    const content = Array.isArray(item.content) ? item.content : [];
-    content.forEach((part) => {
-      if (typeof part.text === "string" && part.text.trim()) {
-        fragments.push(part.text.trim());
-      }
-    });
-  });
-
-  return fragments.join("\n\n").trim();
+  return payload?.choices?.[0]?.message?.content?.trim?.() ?? "";
 }
 
 async function handleChat(request, env) {
-  if (!env.OPENAI_API_KEY) {
-    return jsonResponse({ error: "OPENAI_API_KEY is not configured." }, getAllowedOrigin(request, env), 500);
+  if (!env.DEEPSEEK_API_KEY) {
+    return jsonResponse({ error: "DEEPSEEK_API_KEY is not configured." }, getAllowedOrigin(request, env), 500);
   }
 
   let body;
@@ -74,31 +63,29 @@ async function handleChat(request, env) {
   }
 
   const messages = Array.isArray(body.messages) ? body.messages : [];
-  const prompt = buildConversationPrompt(messages);
-  if (!prompt) {
+  const deepSeekMessages = buildDeepSeekMessages(messages, env);
+  if (!deepSeekMessages.length) {
     return jsonResponse({ error: "No chat messages provided." }, getAllowedOrigin(request, env), 400);
   }
 
-  const response = await fetch("https://api.openai.com/v1/responses", {
+  const response = await fetch("https://api.deepseek.com/chat/completions", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      Authorization: `Bearer ${env.OPENAI_API_KEY}`,
+      Authorization: `Bearer ${env.DEEPSEEK_API_KEY}`,
     },
     body: JSON.stringify({
-      model: env.OPENAI_MODEL || "gpt-4.1-mini",
-      instructions:
-        env.SYSTEM_PROMPT ||
-        "You are a concise Chinese chat assistant embedded in a dashboard. Keep replies short and helpful.",
-      input: prompt,
-      max_output_tokens: Number(env.MAX_OUTPUT_TOKENS || 220),
+      model: env.DEEPSEEK_MODEL || "deepseek-chat",
+      messages: deepSeekMessages,
+      stream: false,
+      max_tokens: Number(env.MAX_OUTPUT_TOKENS || 220),
     }),
   });
 
   if (!response.ok) {
     const errorText = await response.text();
     return jsonResponse(
-      { error: `OpenAI request failed: ${errorText}` },
+      { error: `DeepSeek request failed: ${errorText}` },
       getAllowedOrigin(request, env),
       response.status,
     );
@@ -107,14 +94,14 @@ async function handleChat(request, env) {
   const payload = await response.json();
   const reply = extractResponseText(payload);
   if (!reply) {
-    return jsonResponse({ error: "OpenAI returned an empty reply." }, getAllowedOrigin(request, env), 502);
+    return jsonResponse({ error: "DeepSeek returned an empty reply." }, getAllowedOrigin(request, env), 502);
   }
 
   return jsonResponse(
     {
       reply,
       assistantName: "Agent Chat",
-      model: env.OPENAI_MODEL || "gpt-4.1-mini",
+      model: env.DEEPSEEK_MODEL || "deepseek-chat",
     },
     getAllowedOrigin(request, env),
   );

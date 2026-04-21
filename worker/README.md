@@ -17,10 +17,10 @@ npm install
 npx wrangler login
 ```
 
-3. Add the OpenAI key as a secret:
+3. Add the DeepSeek key as a secret:
 
 ```bash
-npx wrangler secret put OPENAI_API_KEY
+npx wrangler secret put DEEPSEEK_API_KEY
 ```
 
 4. Optional local development:

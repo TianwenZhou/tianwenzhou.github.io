@@ -7,7 +7,7 @@ The dashboard now includes a top chat bar, but it needs a Worker endpoint before
 Quick setup:
 
 1. Deploy the Cloudflare Worker in `../worker`
-2. Put your OpenAI key into the Worker secret `OPENAI_API_KEY`
+2. Put your DeepSeek key into the Worker secret `DEEPSEEK_API_KEY`
 3. Copy the deployed Worker URL into `Agent/chat-config.js`
 
 The front-end expects the final endpoint shape to be:
