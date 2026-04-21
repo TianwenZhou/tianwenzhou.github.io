@@ -8,7 +8,7 @@
       name="description"
       content="查看天气、时间、世界风景、新闻和高质量 AI 论文精选。"
     />
-    <link rel="stylesheet" href="./styles.css?v=20260422-1" />
+    <link rel="stylesheet" href="./styles.css?v=20260422-2" />
   </head>
   <body>
     <div class="page-shell">
@@ -281,11 +281,13 @@
         id="chatToggleButton"
         class="chat-dock-toggle"
         type="button"
+        data-chat-drag-handle
         aria-expanded="false"
         aria-controls="chatFloatingPanel"
       >
         <span class="chat-dock-toggle-icon" aria-hidden="true">AI</span>
-        <span id="chatToggleLabel" class="chat-dock-toggle-label">聊天</span>
+        <span id="chatToggleLabel" class="chat-dock-toggle-label">Chat</span>
+        <span id="chatUnreadBadge" class="chat-unread-badge" hidden>0</span>
       </button>
 
       <section
@@ -293,7 +295,11 @@
         class="panel chat-panel"
         aria-labelledby="chatPanelTitle"
       >
-        <div class="panel-heading compact-heading chat-panel-heading">
+        <div
+          id="chatDragHandle"
+          class="panel-heading compact-heading chat-panel-heading"
+          data-chat-drag-handle
+        >
           <div>
             <p class="panel-kicker">Quick Chat</p>
             <h2 id="chatPanelTitle">Agent Chat</h2>
@@ -309,6 +315,10 @@
               -
             </button>
           </div>
+        </div>
+        <div class="chat-peek-strip">
+          <p class="chat-peek-meta">Quick Access</p>
+          <p id="chatPeekText" class="chat-peek-text">Chat about NBA, news, and papers.</p>
         </div>
         <div class="chat-panel-body">
           <div id="chatMessages" class="chat-messages" aria-live="polite"></div>
@@ -349,7 +359,7 @@
       </div>
     </template>
 
-    <script src="./chat-config.js?v=20260422-1"></script>
-    <script type="module" src="./app.js?v=20260422-1"></script>
+    <script src="./chat-config.js?v=20260422-2"></script>
+    <script type="module" src="./app.js?v=20260422-2"></script>
   </body>
 </html>

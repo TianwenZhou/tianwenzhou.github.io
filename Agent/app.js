@@ -7,17 +7,23 @@ const workflowUrl =
   "https://github.com/TianwenZhou/tianwenzhou.github.io/actions/workflows/update-brief.yml";
 const chatStorageKey = "agent-dashboard-chat-history-v1";
 const chatDockStateKey = "agent-dashboard-chat-open-v1";
+const chatDockPositionKey = "agent-dashboard-chat-position-v1";
+const chatUnreadKey = "agent-dashboard-chat-unread-v1";
 const maxChatTurns = 8;
+const chatDragThreshold = 10;
 
 const dom = {
   generatedAt: document.querySelector("#generatedAt"),
   refreshStatus: document.querySelector("#refreshStatus"),
   refreshDataButton: document.querySelector("#refreshDataButton"),
   chatDock: document.querySelector("#chatDock"),
+  chatDragHandle: document.querySelector("#chatDragHandle"),
   chatToggleButton: document.querySelector("#chatToggleButton"),
   chatToggleLabel: document.querySelector("#chatToggleLabel"),
+  chatUnreadBadge: document.querySelector("#chatUnreadBadge"),
   chatCollapseButton: document.querySelector("#chatCollapseButton"),
   chatAvailability: document.querySelector("#chatAvailability"),
+  chatPeekText: document.querySelector("#chatPeekText"),
   chatMessages: document.querySelector("#chatMessages"),
   chatForm: document.querySelector("#chatForm"),
   chatInput: document.querySelector("#chatInput"),
@@ -69,7 +75,10 @@ let lastCalendarKey = "";
 let refreshInFlight = false;
 let chatPending = false;
 let chatDockOpen = false;
+let chatUnreadCount = 0;
 let chatHistory = [];
+let chatDragState = null;
+let chatSuppressToggleUntil = 0;
 const calendarState = {
   anchorYear: null,
   anchorMonthIndex: null,
@@ -260,6 +269,59 @@ function persistChatHistory() {
   }
 }
 
+function loadStoredInteger(storageKey) {
+  try {
+    const raw = Number(window.localStorage.getItem(storageKey));
+    return Number.isFinite(raw) && raw > 0 ? raw : 0;
+  } catch {
+    return 0;
+  }
+}
+
+function persistChatUnreadCount() {
+  try {
+    if (chatUnreadCount > 0) {
+      window.localStorage.setItem(chatUnreadKey, String(chatUnreadCount));
+    } else {
+      window.localStorage.removeItem(chatUnreadKey);
+    }
+  } catch {
+    // Ignore storage failures so unread state does not break the UI.
+  }
+}
+
+function renderChatUnreadBadge() {
+  const hasUnread = chatUnreadCount > 0;
+  dom.chatUnreadBadge.hidden = !hasUnread;
+  dom.chatUnreadBadge.textContent = chatUnreadCount > 9 ? "9+" : String(chatUnreadCount);
+  dom.chatToggleButton.classList.toggle("has-unread", hasUnread);
+}
+
+function resetChatUnreadCount() {
+  chatUnreadCount = 0;
+  persistChatUnreadCount();
+  renderChatUnreadBadge();
+}
+
+function incrementChatUnreadCount() {
+  chatUnreadCount = Math.min(chatUnreadCount + 1, 99);
+  persistChatUnreadCount();
+  renderChatUnreadBadge();
+}
+
+function buildChatPreviewText() {
+  const latest = chatHistory[chatHistory.length - 1];
+  if (!latest?.content) {
+    return "Ask about NBA, weather, news, or papers.";
+  }
+
+  return latest.content.replace(/\s+/g, " ").trim().slice(0, 72);
+}
+
+function renderChatPreview() {
+  dom.chatPeekText.textContent = buildChatPreviewText();
+}
+
 function loadChatDockPreference() {
   try {
     const raw = window.localStorage.getItem(chatDockStateKey);
@@ -273,7 +335,7 @@ function loadChatDockPreference() {
     // Ignore storage failures and fall back to viewport-based defaults.
   }
 
-  return window.innerWidth > 1100;
+  return false;
 }
 
 function persistChatDockPreference(isOpen) {
@@ -284,27 +346,206 @@ function persistChatDockPreference(isOpen) {
   }
 }
 
+function loadChatDockPosition() {
+  try {
+    const raw = window.localStorage.getItem(chatDockPositionKey);
+    if (!raw) {
+      return null;
+    }
+
+    const parsed = JSON.parse(raw);
+    if (!Number.isFinite(parsed?.left) || !Number.isFinite(parsed?.top)) {
+      return null;
+    }
+
+    return {
+      left: parsed.left,
+      top: parsed.top,
+    };
+  } catch {
+    return null;
+  }
+}
+
+function persistChatDockPosition(position) {
+  try {
+    if (!position) {
+      window.localStorage.removeItem(chatDockPositionKey);
+      return;
+    }
+
+    window.localStorage.setItem(chatDockPositionKey, JSON.stringify(position));
+  } catch {
+    // Ignore storage failures so dragging still works within the session.
+  }
+}
+
+function clampChatDockPosition(position) {
+  const rect = dom.chatDock.getBoundingClientRect();
+  const width = Math.min(rect.width || 360, window.innerWidth - 24);
+  const height = Math.min(rect.height || 120, window.innerHeight - 24);
+  const maxLeft = Math.max(12, window.innerWidth - width - 12);
+  const maxTop = Math.max(12, window.innerHeight - height - 12);
+
+  return {
+    left: Math.min(Math.max(12, position.left), maxLeft),
+    top: Math.min(Math.max(12, position.top), maxTop),
+  };
+}
+
+function applyChatDockPosition(position, { persist = true } = {}) {
+  if (!position) {
+    dom.chatDock.classList.remove("is-custom-position");
+    dom.chatDock.style.left = "";
+    dom.chatDock.style.top = "";
+    dom.chatDock.style.right = "";
+    dom.chatDock.style.bottom = "";
+    if (persist) {
+      persistChatDockPosition(null);
+    }
+    return;
+  }
+
+  const clamped = clampChatDockPosition(position);
+  dom.chatDock.classList.add("is-custom-position");
+  dom.chatDock.style.left = `${clamped.left}px`;
+  dom.chatDock.style.top = `${clamped.top}px`;
+  dom.chatDock.style.right = "auto";
+  dom.chatDock.style.bottom = "auto";
+
+  if (persist) {
+    persistChatDockPosition(clamped);
+  }
+}
+
 function setChatDockState(isOpen, { persist = true } = {}) {
   chatDockOpen = isOpen;
   dom.chatDock.classList.toggle("is-open", isOpen);
   dom.chatToggleButton.setAttribute("aria-expanded", String(isOpen));
-  dom.chatToggleLabel.textContent = isOpen ? "收起聊天" : "聊天";
+  dom.chatToggleLabel.textContent = isOpen ? "\u6536\u8d77" : "\u804a\u5929";
+
+  if (isOpen) {
+    resetChatUnreadCount();
+  }
 
   if (persist) {
     persistChatDockPreference(isOpen);
   }
+
+  if (dom.chatDock.classList.contains("is-custom-position")) {
+    applyChatDockPosition(
+      {
+        left: Number.parseFloat(dom.chatDock.style.left) || dom.chatDock.getBoundingClientRect().left,
+        top: Number.parseFloat(dom.chatDock.style.top) || dom.chatDock.getBoundingClientRect().top,
+      },
+      { persist: true },
+    );
+  }
 }
 
 function setupChatDock() {
+  chatUnreadCount = loadStoredInteger(chatUnreadKey);
+  renderChatUnreadBadge();
+  renderChatPreview();
   setChatDockState(loadChatDockPreference(), { persist: false });
+  applyChatDockPosition(loadChatDockPosition(), { persist: false });
 
   dom.chatToggleButton.addEventListener("click", () => {
+    if (Date.now() < chatSuppressToggleUntil) {
+      return;
+    }
     setChatDockState(!chatDockOpen);
   });
 
   dom.chatCollapseButton.addEventListener("click", () => {
     setChatDockState(false);
   });
+
+  dom.chatDock.addEventListener("click", (event) => {
+    if (chatDockOpen || Date.now() < chatSuppressToggleUntil) {
+      return;
+    }
+
+    if (event.target.closest("#chatToggleButton")) {
+      return;
+    }
+
+    setChatDockState(true);
+  });
+
+  setupChatDockDragging();
+  window.addEventListener("resize", () => {
+    if (dom.chatDock.classList.contains("is-custom-position")) {
+      applyChatDockPosition(loadChatDockPosition(), { persist: false });
+    }
+  });
+}
+
+function setupChatDockDragging() {
+  const handles = [dom.chatToggleButton, dom.chatDragHandle].filter(Boolean);
+
+  handles.forEach((handle) => {
+    handle.addEventListener("pointerdown", (event) => {
+      if (event.button !== 0) {
+        return;
+      }
+
+      if (event.target.closest("#chatCollapseButton")) {
+        return;
+      }
+
+      const rect = dom.chatDock.getBoundingClientRect();
+      chatDragState = {
+        pointerId: event.pointerId,
+        startX: event.clientX,
+        startY: event.clientY,
+        left: rect.left,
+        top: rect.top,
+        moved: false,
+      };
+
+      handle.setPointerCapture?.(event.pointerId);
+    });
+  });
+
+  window.addEventListener("pointermove", (event) => {
+    if (!chatDragState || event.pointerId !== chatDragState.pointerId) {
+      return;
+    }
+
+    const deltaX = event.clientX - chatDragState.startX;
+    const deltaY = event.clientY - chatDragState.startY;
+
+    if (!chatDragState.moved && Math.hypot(deltaX, deltaY) < chatDragThreshold) {
+      return;
+    }
+
+    chatDragState.moved = true;
+    dom.chatDock.classList.add("is-dragging");
+    applyChatDockPosition(
+      {
+        left: chatDragState.left + deltaX,
+        top: chatDragState.top + deltaY,
+      },
+      { persist: true },
+    );
+  });
+
+  const endDragging = (event) => {
+    if (!chatDragState || event.pointerId !== chatDragState.pointerId) {
+      return;
+    }
+
+    if (chatDragState.moved) {
+      chatSuppressToggleUntil = Date.now() + 220;
+    }
+
+    chatDragState = null;
+    dom.chatDock.classList.remove("is-dragging");
+  };
+
+  window.addEventListener("pointerup", endDragging);
+  window.addEventListener("pointercancel", endDragging);
 }
 
 function createChatMessageElement(message) {
@@ -330,6 +571,7 @@ function renderChatMessages() {
     dom.chatMessages.append(createChatMessageElement(message));
   });
   dom.chatMessages.scrollTop = dom.chatMessages.scrollHeight;
+  renderChatPreview();
 }
 
 function setChatPendingState(isPending) {
@@ -395,6 +637,9 @@ async function sendChatMessage(messageText) {
     });
     chatHistory = chatHistory.slice(-maxChatTurns);
     persistChatHistory();
+    if (!chatDockOpen) {
+      incrementChatUnreadCount();
+    }
     renderChatMessages();
     dom.chatHint.textContent = "已连接聊天接口，可以继续追问。";
   } catch (error) {
