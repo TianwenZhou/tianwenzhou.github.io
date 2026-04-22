@@ -8,7 +8,7 @@
       name="description"
       content="查看天气、时间、世界风景、新闻和高质量 AI 论文精选。"
     />
-    <link rel="stylesheet" href="./styles.css?v=20260422-2" />
+    <link rel="stylesheet" href="./styles.css?v=20260422-3" />
   </head>
   <body>
     <div class="page-shell">
@@ -353,13 +353,92 @@
       </section>
     </div>
 
+    <div id="petDock" class="pet-dock">
+      <section class="panel pet-panel" aria-labelledby="petPanelTitle">
+        <div class="panel-heading compact-heading pet-panel-heading">
+          <div>
+            <p class="panel-kicker">Cyber Pet</p>
+            <h2 id="petPanelTitle">Neo Cat</h2>
+          </div>
+          <span id="petMoodBadge" class="panel-tag">Curious</span>
+        </div>
+
+        <div id="petStage" class="pet-stage breed-orange" tabindex="0" aria-label="Interactive cyber cat">
+          <div class="pet-grid"></div>
+          <div id="petParticles" class="pet-particles" aria-hidden="true"></div>
+          <div id="petCat" class="pet-cat">
+            <div class="pet-tail"></div>
+            <div class="pet-body">
+              <span class="pet-body-patch"></span>
+            </div>
+            <div class="pet-head">
+              <span class="pet-ear left"></span>
+              <span class="pet-ear right"></span>
+              <span class="pet-forehead-mark"></span>
+              <div class="pet-face">
+                <span class="pet-eye left"></span>
+                <span class="pet-eye right"></span>
+                <span class="pet-nose"></span>
+                <span class="pet-mouth"></span>
+                <span class="pet-whiskers left"></span>
+                <span class="pet-whiskers right"></span>
+              </div>
+            </div>
+          </div>
+          <p id="petStatusText" class="pet-status-text">Pat me, switch my style, or feed me.</p>
+        </div>
+
+        <div class="pet-stats">
+          <div class="pet-stat">
+            <span>Affinity</span>
+            <div class="pet-bar">
+              <span id="petAffinityFill" class="pet-bar-fill"></span>
+            </div>
+          </div>
+          <div class="pet-stat">
+            <span>Satiety</span>
+            <div class="pet-bar">
+              <span id="petSatietyFill" class="pet-bar-fill is-satiety"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="pet-action-groups">
+          <section class="pet-action-group" aria-labelledby="petBreedTitle">
+            <div class="pet-action-head">
+              <p class="pet-action-kicker">Style</p>
+              <h3 id="petBreedTitle">Breed</h3>
+            </div>
+            <div class="pet-action-buttons">
+              <button class="pet-action-button" type="button" data-pet-breed="orange">Orange</button>
+              <button class="pet-action-button" type="button" data-pet-breed="tuxedo">Tuxedo</button>
+              <button class="pet-action-button" type="button" data-pet-breed="siamese">Siamese</button>
+              <button class="pet-action-button" type="button" data-pet-breed="void">Void</button>
+            </div>
+          </section>
+
+          <section class="pet-action-group" aria-labelledby="petFeedTitle">
+            <div class="pet-action-head">
+              <p class="pet-action-kicker">Feed</p>
+              <h3 id="petFeedTitle">Snacks</h3>
+            </div>
+            <div class="pet-action-buttons">
+              <button class="pet-action-button is-feed" type="button" data-pet-food="fish">Fish</button>
+              <button class="pet-action-button is-feed" type="button" data-pet-food="milk">Milk</button>
+              <button class="pet-action-button is-feed" type="button" data-pet-food="treat">Treat</button>
+            </div>
+          </section>
+        </div>
+      </section>
+    </div>
+
     <template id="emptyStateTemplate">
       <div class="empty-state">
         <p>今天的内容还没准备好，请稍后再试。</p>
       </div>
     </template>
 
-    <script src="./chat-config.js?v=20260422-2"></script>
-    <script type="module" src="./app.js?v=20260422-2"></script>
+    <script src="./chat-config.js?v=20260422-3"></script>
+    <script type="module" src="./app.js?v=20260422-3"></script>
   </body>
 </html>

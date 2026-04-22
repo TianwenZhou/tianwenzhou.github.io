@@ -9,6 +9,7 @@ const chatStorageKey = "agent-dashboard-chat-history-v1";
 const chatDockStateKey = "agent-dashboard-chat-open-v1";
 const chatDockPositionKey = "agent-dashboard-chat-position-v1";
 const chatUnreadKey = "agent-dashboard-chat-unread-v1";
+const petStorageKey = "agent-dashboard-cyber-pet-v1";
 const maxChatTurns = 8;
 const chatDragThreshold = 10;
 
@@ -65,6 +66,15 @@ const dom = {
   nbaNews: document.querySelector("#nbaNews"),
   paperHighlights: document.querySelector("#paperHighlights"),
   paperRotationLabel: document.querySelector("#paperRotationLabel"),
+  petDock: document.querySelector("#petDock"),
+  petStage: document.querySelector("#petStage"),
+  petParticles: document.querySelector("#petParticles"),
+  petMoodBadge: document.querySelector("#petMoodBadge"),
+  petStatusText: document.querySelector("#petStatusText"),
+  petAffinityFill: document.querySelector("#petAffinityFill"),
+  petSatietyFill: document.querySelector("#petSatietyFill"),
+  petBreedButtons: Array.from(document.querySelectorAll("[data-pet-breed]")),
+  petFoodButtons: Array.from(document.querySelectorAll("[data-pet-food]")),
   viewButtons: Array.from(document.querySelectorAll("[data-view-target]")),
   views: Array.from(document.querySelectorAll("[data-view]")),
   emptyStateTemplate: document.querySelector("#emptyStateTemplate"),
@@ -79,6 +89,8 @@ let chatUnreadCount = 0;
 let chatHistory = [];
 let chatDragState = null;
 let chatSuppressToggleUntil = 0;
+let petState = null;
+let petInteractCooldown = 0;
 const calendarState = {
   anchorYear: null,
   anchorMonthIndex: null,
@@ -170,6 +182,49 @@ const newsFallbacks = {
     "https://images.unsplash.com/photo-1519861531473-9200262188bf?auto=format&fit=crop&w=1200&q=80",
     "https://images.unsplash.com/photo-1574623452334-1e0ac2b3ccb4?auto=format&fit=crop&w=1200&q=80",
   ],
+};
+
+const petBreedCatalog = {
+  orange: {
+    label: "Orange",
+    className: "breed-orange",
+  },
+  tuxedo: {
+    label: "Tuxedo",
+    className: "breed-tuxedo",
+  },
+  siamese: {
+    label: "Siamese",
+    className: "breed-siamese",
+  },
+  void: {
+    label: "Void",
+    className: "breed-void",
+  },
+};
+
+const petFoodCatalog = {
+  fish: {
+    label: "Fish",
+    satiety: 18,
+    affinity: 4,
+    energy: 5,
+    particle: "+Fish",
+  },
+  milk: {
+    label: "Milk",
+    satiety: 12,
+    affinity: 3,
+    energy: 7,
+    particle: "+Milk",
+  },
+  treat: {
+    label: "Treat",
+    satiety: 8,
+    affinity: 9,
+    energy: 3,
+    particle: "+Treat",
+  },
 };
 
 function getWeatherVisual(weatherCode) {
@@ -315,11 +370,340 @@ function buildChatPreviewText() {
     return "Ask about NBA, weather, news, or papers.";
   }
 
-  return latest.content.replace(/\s+/g, " ").trim().slice(0, 72);
+  return latest.content
+    .replace(/```[\s\S]*?```/g, " code ")
+    .replace(/[`*_>#~-]/g, " ")
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, "$1")
+    .replace(/\s+/g, " ")
+    .trim()
+    .slice(0, 72);
 }
 
 function renderChatPreview() {
   dom.chatPeekText.textContent = buildChatPreviewText();
+}
+
+function escapeHtml(value) {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
+}
+
+function renderMarkdownInline(value) {
+  const codeTokens = [];
+  let html = escapeHtml(value);
+
+  html = html.replace(/`([^`]+)`/g, (_, code) => {
+    const token = `__CHAT_CODE_${codeTokens.length}__`;
+    codeTokens.push(`<code>${code}</code>`);
+    return token;
+  });
+
+  html = html.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, (_, label, url) => {
+    const safeUrl = escapeHtml(url);
+    return `<a href="${safeUrl}" target="_blank" rel="noreferrer">${label}</a>`;
+  });
+
+  html = html.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+  html = html.replace(/(^|[^\*])\*([^*\n]+)\*(?!\*)/g, "$1<em>$2</em>");
+  html = html.replace(/~~([^~]+)~~/g, "<del>$1</del>");
+
+  codeTokens.forEach((tokenMarkup, index) => {
+    html = html.replace(`__CHAT_CODE_${index}__`, tokenMarkup);
+  });
+
+  return html.replace(/\n/g, "<br>");
+}
+
+function renderMarkdown(value) {
+  const lines = String(value || "").replace(/\r\n/g, "\n").split("\n");
+  const blocks = [];
+
+  const isFence = (line) => line.trim().startsWith("```");
+  const isHeading = (line) => /^(#{1,4})\s+/.test(line);
+  const isQuote = (line) => /^>\s?/.test(line.trim());
+  const isUnordered = (line) => /^[-*+]\s+/.test(line.trim());
+  const isOrdered = (line) => /^\d+\.\s+/.test(line.trim());
+
+  for (let index = 0; index < lines.length; ) {
+    const line = lines[index];
+
+    if (!line.trim()) {
+      index += 1;
+      continue;
+    }
+
+    if (isFence(line)) {
+      const language = line.trim().slice(3).trim();
+      index += 1;
+      const codeLines = [];
+      while (index < lines.length && !isFence(lines[index])) {
+        codeLines.push(lines[index]);
+        index += 1;
+      }
+      if (index < lines.length) {
+        index += 1;
+      }
+
+      blocks.push(
+        `<pre><code${language ? ` class="language-${escapeHtml(language)}"` : ""}>${escapeHtml(codeLines.join("\n"))}</code></pre>`,
+      );
+      continue;
+    }
+
+    if (isHeading(line)) {
+      const match = line.match(/^(#{1,4})\s+(.*)$/);
+      const level = Math.min(match[1].length + 1, 4);
+      blocks.push(`<h${level}>${renderMarkdownInline(match[2])}</h${level}>`);
+      index += 1;
+      continue;
+    }
+
+    if (isQuote(line)) {
+      const quoteLines = [];
+      while (index < lines.length && isQuote(lines[index])) {
+        quoteLines.push(lines[index].replace(/^>\s?/, ""));
+        index += 1;
+      }
+      blocks.push(`<blockquote>${renderMarkdownInline(quoteLines.join("\n"))}</blockquote>`);
+      continue;
+    }
+
+    if (isUnordered(line) || isOrdered(line)) {
+      const ordered = isOrdered(line);
+      const tag = ordered ? "ol" : "ul";
+      const items = [];
+
+      while (index < lines.length) {
+        const current = lines[index].trim();
+        if (!(ordered ? /^\d+\.\s+/.test(current) : /^[-*+]\s+/.test(current))) {
+          break;
+        }
+
+        items.push(
+          ordered
+            ? current.replace(/^\d+\.\s+/, "")
+            : current.replace(/^[-*+]\s+/, ""),
+        );
+        index += 1;
+      }
+
+      blocks.push(
+        `<${tag}>${items.map((item) => `<li>${renderMarkdownInline(item)}</li>`).join("")}</${tag}>`,
+      );
+      continue;
+    }
+
+    const paragraphLines = [];
+    while (
+      index < lines.length &&
+      lines[index].trim() &&
+      !isFence(lines[index]) &&
+      !isHeading(lines[index]) &&
+      !isQuote(lines[index]) &&
+      !isUnordered(lines[index]) &&
+      !isOrdered(lines[index])
+    ) {
+      paragraphLines.push(lines[index]);
+      index += 1;
+    }
+
+    blocks.push(`<p>${renderMarkdownInline(paragraphLines.join("\n"))}</p>`);
+  }
+
+  return blocks.join("");
+}
+
+function createProgressWidth(value) {
+  return `${Math.max(8, Math.min(100, value))}%`;
+}
+
+function clampStat(value) {
+  return Math.max(0, Math.min(100, Math.round(value)));
+}
+
+function derivePetMood() {
+  if (petState.satiety < 30) {
+    return "Hungry";
+  }
+  if (petState.affinity > 82 && petState.satiety > 62) {
+    return "Purring";
+  }
+  if (petState.affinity < 36) {
+    return "Shy";
+  }
+  if (petState.energy > 78) {
+    return "Zoomies";
+  }
+  return "Curious";
+}
+
+function createDefaultPetState() {
+  return {
+    breed: "orange",
+    affinity: 68,
+    satiety: 58,
+    energy: 72,
+    note: "Pat me, switch my style, or feed me.",
+  };
+}
+
+function loadPetState() {
+  try {
+    const raw = window.localStorage.getItem(petStorageKey);
+    if (!raw) {
+      return createDefaultPetState();
+    }
+
+    const parsed = JSON.parse(raw);
+    return {
+      breed: petBreedCatalog[parsed?.breed] ? parsed.breed : "orange",
+      affinity: clampStat(parsed?.affinity ?? 68),
+      satiety: clampStat(parsed?.satiety ?? 58),
+      energy: clampStat(parsed?.energy ?? 72),
+      note: typeof parsed?.note === "string" && parsed.note.trim()
+        ? parsed.note.trim()
+        : "Pat me, switch my style, or feed me.",
+    };
+  } catch {
+    return createDefaultPetState();
+  }
+}
+
+function persistPetState() {
+  try {
+    window.localStorage.setItem(petStorageKey, JSON.stringify(petState));
+  } catch {
+    // Ignore storage failures so the pet remains interactive.
+  }
+}
+
+function spawnPetParticle(label) {
+  const particle = document.createElement("span");
+  particle.className = "pet-particle";
+  particle.textContent = label;
+  particle.style.left = `${18 + Math.random() * 64}%`;
+  particle.style.top = `${28 + Math.random() * 24}%`;
+  dom.petParticles.append(particle);
+  window.setTimeout(() => particle.remove(), 1400);
+}
+
+function renderPet() {
+  const breed = petBreedCatalog[petState.breed] || petBreedCatalog.orange;
+  const mood = derivePetMood();
+
+  dom.petStage.className = `pet-stage ${breed.className}`;
+  dom.petMoodBadge.textContent = mood;
+  dom.petStatusText.textContent = petState.note;
+  dom.petAffinityFill.style.width = createProgressWidth(petState.affinity);
+  dom.petSatietyFill.style.width = createProgressWidth(petState.satiety);
+
+  dom.petBreedButtons.forEach((button) => {
+    button.classList.toggle("is-active", button.dataset.petBreed === petState.breed);
+  });
+}
+
+function adjustPetStats(changes, note, particleLabel = "") {
+  petState.affinity = clampStat(petState.affinity + (changes.affinity ?? 0));
+  petState.satiety = clampStat(petState.satiety + (changes.satiety ?? 0));
+  petState.energy = clampStat(petState.energy + (changes.energy ?? 0));
+  petState.note = note;
+  persistPetState();
+  renderPet();
+
+  if (particleLabel) {
+    spawnPetParticle(particleLabel);
+  }
+}
+
+function handlePetting() {
+  const now = Date.now();
+  if (now - petInteractCooldown < 180) {
+    return;
+  }
+
+  petInteractCooldown = now;
+  dom.petStage.classList.remove("is-happy");
+  void dom.petStage.offsetWidth;
+  dom.petStage.classList.add("is-happy");
+  window.setTimeout(() => dom.petStage.classList.remove("is-happy"), 720);
+  adjustPetStats({ affinity: 5, energy: 2 }, "Purr... that feels nice.", "<3");
+}
+
+function setPetBreed(breedKey) {
+  const breed = petBreedCatalog[breedKey];
+  if (!breed) {
+    return;
+  }
+
+  petState.breed = breedKey;
+  adjustPetStats({ affinity: 1 }, `Style switched to ${breed.label}.`, breed.label);
+}
+
+function feedPet(foodKey) {
+  const food = petFoodCatalog[foodKey];
+  if (!food) {
+    return;
+  }
+
+  adjustPetStats(
+    {
+      satiety: food.satiety,
+      affinity: food.affinity,
+      energy: food.energy,
+    },
+    `${food.label} received. Happy chewing noises detected.`,
+    food.particle,
+  );
+}
+
+function updatePetEyeTracking(event) {
+  const rect = dom.petStage.getBoundingClientRect();
+  const shiftX = ((event.clientX - rect.left) / rect.width - 0.5) * 8;
+  const shiftY = ((event.clientY - rect.top) / rect.height - 0.5) * 8;
+
+  dom.petStage.style.setProperty("--pet-eye-shift-x", `${Math.max(-4, Math.min(4, shiftX))}px`);
+  dom.petStage.style.setProperty("--pet-eye-shift-y", `${Math.max(-3, Math.min(3, shiftY))}px`);
+}
+
+function resetPetEyeTracking() {
+  dom.petStage.style.setProperty("--pet-eye-shift-x", "0px");
+  dom.petStage.style.setProperty("--pet-eye-shift-y", "0px");
+}
+
+function setupCyberPet() {
+  petState = loadPetState();
+  renderPet();
+
+  dom.petStage.addEventListener("click", handlePetting);
+  dom.petStage.addEventListener("pointermove", (event) => {
+    updatePetEyeTracking(event);
+    if (event.buttons > 0) {
+      handlePetting();
+    }
+  });
+  dom.petStage.addEventListener("pointerleave", resetPetEyeTracking);
+  dom.petStage.addEventListener("keydown", (event) => {
+    if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      handlePetting();
+    }
+  });
+
+  dom.petBreedButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      setPetBreed(button.dataset.petBreed);
+    });
+  });
+
+  dom.petFoodButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      feedPet(button.dataset.petFood);
+    });
+  });
 }
 
 function loadChatDockPreference() {
@@ -554,7 +938,10 @@ function createChatMessageElement(message) {
 
   const bubble = document.createElement("div");
   bubble.className = "chat-bubble";
-  bubble.textContent = message.content;
+  const content = document.createElement("div");
+  content.className = "chat-markdown";
+  content.innerHTML = renderMarkdown(message.content);
+  bubble.append(content);
 
   const meta = document.createElement("p");
   meta.className = "chat-message-meta";
@@ -1582,6 +1969,7 @@ async function loadBrief({ manual = false } = {}) {
 setupViewNavigation();
 setupChatDock();
 setupChatInterface();
+setupCyberPet();
 setupRefreshControl();
 setupCalendarNavigation();
 setupNbaScheduleNavigation();
