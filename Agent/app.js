@@ -67,6 +67,7 @@ const dom = {
   paperHighlights: document.querySelector("#paperHighlights"),
   paperRotationLabel: document.querySelector("#paperRotationLabel"),
   petDock: document.querySelector("#petDock"),
+  petCompanion: document.querySelector("#petCompanion"),
   petStage: document.querySelector("#petStage"),
   petParticles: document.querySelector("#petParticles"),
   petMoodBadge: document.querySelector("#petMoodBadge"),
@@ -91,6 +92,8 @@ let chatDragState = null;
 let chatSuppressToggleUntil = 0;
 let petState = null;
 let petInteractCooldown = 0;
+let petRoamFrame = 0;
+let petRoamState = null;
 const calendarState = {
   anchorYear: null,
   anchorMonthIndex: null,
@@ -226,6 +229,10 @@ const petFoodCatalog = {
     particle: "+Treat",
   },
 };
+
+const petBreedClassNames = Object.values(petBreedCatalog).map(
+  (breed) => breed.className,
+);
 
 function getWeatherVisual(weatherCode) {
   if ([45, 48].includes(weatherCode)) {
@@ -595,7 +602,8 @@ function renderPet() {
   const breed = petBreedCatalog[petState.breed] || petBreedCatalog.orange;
   const mood = derivePetMood();
 
-  dom.petStage.className = `pet-stage ${breed.className}`;
+  dom.petStage.classList.remove(...petBreedClassNames);
+  dom.petStage.classList.add("pet-stage", breed.className);
   dom.petMoodBadge.textContent = mood;
   dom.petStatusText.textContent = petState.note;
   dom.petAffinityFill.style.width = createProgressWidth(petState.affinity);
@@ -674,9 +682,117 @@ function resetPetEyeTracking() {
   dom.petStage.style.setProperty("--pet-eye-shift-y", "0px");
 }
 
+function updatePetFacing() {
+  if (!petRoamState) {
+    return;
+  }
+
+  dom.petStage.classList.toggle("is-facing-left", petRoamState.direction < 0);
+}
+
+function clampPetRoamPosition() {
+  if (!petRoamState || !dom.petDock || !dom.petCompanion) {
+    return;
+  }
+
+  const laneWidth = dom.petDock.clientWidth || 0;
+  const companionWidth = dom.petCompanion.offsetWidth || 180;
+  const maxX = Math.max(0, laneWidth - companionWidth);
+  petRoamState.x = Math.max(0, Math.min(maxX, petRoamState.x));
+}
+
+function applyPetRoamPosition() {
+  if (!petRoamState || !dom.petCompanion) {
+    return;
+  }
+
+  const laneWidth = dom.petDock?.clientWidth || 0;
+  const companionWidth = dom.petCompanion.offsetWidth || 180;
+  const maxX = Math.max(0, laneWidth - companionWidth);
+
+  dom.petCompanion.style.transform = `translate3d(${petRoamState.x}px, 0, 0)`;
+  dom.petCompanion.classList.toggle("is-near-left", petRoamState.x < 24);
+  dom.petCompanion.classList.toggle("is-near-right", maxX - petRoamState.x < 24);
+  updatePetFacing();
+}
+
+function maybePausePetRoam(isPaused) {
+  if (!petRoamState) {
+    return;
+  }
+
+  petRoamState.isPaused = isPaused;
+  dom.petCompanion.classList.toggle("is-open", isPaused);
+}
+
+function randomizePetRoamSpeed() {
+  if (!petRoamState) {
+    return;
+  }
+
+  petRoamState.speed = 18 + Math.random() * 20;
+}
+
+function stepPetRoam(timestamp) {
+  if (!petRoamState) {
+    return;
+  }
+
+  if (!petRoamState.lastTimestamp) {
+    petRoamState.lastTimestamp = timestamp;
+  }
+
+  const delta = Math.min(48, timestamp - petRoamState.lastTimestamp);
+  petRoamState.lastTimestamp = timestamp;
+
+  if (!petRoamState.isPaused) {
+    const laneWidth = dom.petDock?.clientWidth || 0;
+    const companionWidth = dom.petCompanion?.offsetWidth || 180;
+    const maxX = Math.max(0, laneWidth - companionWidth);
+
+    petRoamState.x += petRoamState.direction * petRoamState.speed * (delta / 1000);
+
+    if (petRoamState.x <= 0) {
+      petRoamState.x = 0;
+      petRoamState.direction = 1;
+      randomizePetRoamSpeed();
+    } else if (petRoamState.x >= maxX) {
+      petRoamState.x = maxX;
+      petRoamState.direction = -1;
+      randomizePetRoamSpeed();
+    }
+  }
+
+  applyPetRoamPosition();
+  petRoamFrame = window.requestAnimationFrame(stepPetRoam);
+}
+
+function startPetRoam() {
+  if (!dom.petDock || !dom.petCompanion) {
+    return;
+  }
+
+  if (petRoamFrame) {
+    window.cancelAnimationFrame(petRoamFrame);
+  }
+
+  petRoamState = {
+    x: 12,
+    direction: 1,
+    speed: 24,
+    isPaused: false,
+    lastTimestamp: 0,
+  };
+
+  clampPetRoamPosition();
+  applyPetRoamPosition();
+  petRoamFrame = window.requestAnimationFrame(stepPetRoam);
+}
+
 function setupCyberPet() {
   petState = loadPetState();
   renderPet();
+  startPetRoam();
 
   dom.petStage.addEventListener("click", handlePetting);
   dom.petStage.addEventListener("pointermove", (event) => {
@@ -693,6 +809,26 @@ function setupCyberPet() {
     }
   });
 
+  dom.petCompanion.addEventListener("pointerenter", () => {
+    maybePausePetRoam(true);
+  });
+
+  dom.petCompanion.addEventListener("pointerleave", () => {
+    maybePausePetRoam(false);
+    resetPetEyeTracking();
+  });
+
+  dom.petCompanion.addEventListener("focusin", () => {
+    maybePausePetRoam(true);
+  });
+
+  dom.petCompanion.addEventListener("focusout", (event) => {
+    if (!dom.petCompanion.contains(event.relatedTarget)) {
+      maybePausePetRoam(false);
+      resetPetEyeTracking();
+    }
+  });
+
   dom.petBreedButtons.forEach((button) => {
     button.addEventListener("click", () => {
       setPetBreed(button.dataset.petBreed);
@@ -703,6 +839,11 @@ function setupCyberPet() {
     button.addEventListener("click", () => {
       feedPet(button.dataset.petFood);
     });
+  });
+
+  window.addEventListener("resize", () => {
+    clampPetRoamPosition();
+    applyPetRoamPosition();
   });
 }
 
