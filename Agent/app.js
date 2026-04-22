@@ -1112,6 +1112,47 @@ function getShanghaiDateParts(date = new Date()) {
   };
 }
 
+function getShanghaiDateKey(date = new Date()) {
+  const parts = getShanghaiDateParts(date);
+  return `${parts.year}-${String(parts.month).padStart(2, "0")}-${String(parts.day).padStart(2, "0")}`;
+}
+
+function parseDateKey(dateKey) {
+  const match = String(dateKey || "").match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (!match) {
+    return null;
+  }
+
+  const [, year, month, day] = match;
+  return Date.UTC(Number(year), Number(month) - 1, Number(day), 12);
+}
+
+function getFeaturedPlaceStartIndex(featuredPlaces, generatedAt) {
+  if (!featuredPlaces?.length) {
+    return 0;
+  }
+
+  if (!generatedAt) {
+    return 0;
+  }
+
+  const generatedDateKey = getShanghaiDateKey(new Date(generatedAt));
+  const todayDateKey = getShanghaiDateKey(new Date());
+  const generatedValue = parseDateKey(generatedDateKey);
+  const todayValue = parseDateKey(todayDateKey);
+
+  if (generatedValue === null || todayValue === null) {
+    return 0;
+  }
+
+  const diffDays = Math.round((todayValue - generatedValue) / 86400000);
+  const normalizedOffset =
+    ((diffDays % featuredPlaces.length) + featuredPlaces.length) %
+    featuredPlaces.length;
+
+  return normalizedOffset;
+}
+
 function getMonthLabel(year, monthIndex) {
   return new Intl.DateTimeFormat("zh-CN", {
     year: "numeric",
@@ -1409,7 +1450,7 @@ function renderBookExcerpt(bookExcerpt) {
   dom.bookExcerptSource.textContent = `${bookExcerpt.book} · ${bookExcerpt.author}`;
 }
 
-function renderFeaturedPlace(featuredPlaces) {
+function renderFeaturedPlace(featuredPlaces, generatedAt) {
   if (featuredPlaceTimer) {
     clearInterval(featuredPlaceTimer);
     featuredPlaceTimer = null;
@@ -1466,7 +1507,7 @@ function renderFeaturedPlace(featuredPlaces) {
   const dots = dom.featuredPlacePanel.querySelector("#featuredPlaceDots");
   const prevButton = dom.featuredPlacePanel.querySelector("#featuredPlacePrev");
   const nextButton = dom.featuredPlacePanel.querySelector("#featuredPlaceNext");
-  let activeIndex = 0;
+  let activeIndex = getFeaturedPlaceStartIndex(featuredPlaces, generatedAt);
 
   function renderDots(index) {
     dots.innerHTML = "";
@@ -1888,6 +1929,7 @@ function renderPage(data) {
   renderFeaturedPlace(
     data.featuredPlaces ??
       (data.featuredPlace ? [data.featuredPlace] : []),
+    data.generatedAt,
   );
   renderNews(dom.domesticNews, data.news.domestic ?? [], "domestic");
   renderNews(dom.internationalNews, data.news.international ?? [], "international");

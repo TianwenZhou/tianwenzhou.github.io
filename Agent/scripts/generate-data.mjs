@@ -223,6 +223,9 @@ const defaults = {
   nbaScoreboardUrl:
     process.env.NBA_SCOREBOARD_URL ??
     "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard",
+  featuredImageFeedUrl:
+    process.env.FEATURED_IMAGE_FEED_URL ??
+    "https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=8&mkt=zh-CN",
   paperSections: [
     {
       id: "data-storage",
@@ -317,6 +320,20 @@ function shortenSummary(text, maxLength = 150) {
   }
 
   return `${normalized.slice(0, maxLength).trim()}...`;
+}
+
+function stripPhotoCredit(text) {
+  return String(text || "")
+    .replace(/\s*\((?:\u00A9|Copyright).*?\)\s*$/i, "")
+    .trim();
+}
+
+function absolutizeBingUrl(url) {
+  if (!url) {
+    return "";
+  }
+
+  return url.startsWith("http") ? url : `https://www.bing.com${url}`;
 }
 
 function normalizeSummary(summary, title) {
@@ -523,6 +540,37 @@ async function fetchWeather() {
     today: forecast[0],
     forecast,
   };
+}
+
+async function fetchFeaturedPlaces() {
+  const data = await fetchJson(defaults.featuredImageFeedUrl);
+
+  const items = (data.images ?? [])
+    .map((item, index) => {
+      const scenicTitle = stripPhotoCredit(item.copyright);
+      const summary = cleanHtml(item.title || scenicTitle || "Bing Daily Image");
+
+      return {
+        id: item.fullstartdate || item.startdate || `bing-${index}`,
+        title: scenicTitle || summary || `Daily Escape ${index + 1}`,
+        location: "Bing Daily Image",
+        region: "Daily Scenic",
+        summary,
+        image: absolutizeBingUrl(item.url),
+        link: absolutizeBingUrl(item.copyrightlink || item.url),
+      };
+    })
+    .filter(
+      (item, index, list) =>
+        item.image &&
+        list.findIndex((candidate) => candidate.id === item.id) === index,
+    );
+
+  if (!items.length) {
+    throw new Error("No featured images returned from Bing feed.");
+  }
+
+  return items;
 }
 
 async function fetchArticlePreview(url) {
@@ -906,6 +954,7 @@ async function main() {
     weatherResult,
     domesticResult,
     internationalResult,
+    featuredPlacesResult,
     nbaScoreboardResult,
     nbaResult,
     todayInHistoryResult,
@@ -924,6 +973,7 @@ async function main() {
       5,
       "international",
     ),
+    fetchFeaturedPlaces(),
     fetchNbaScoreboard(),
     fetchRssFeed(defaults.newsFeeds.nba, 6, "ESPN").then((items) =>
       enrichNewsItems(items, "nba"),
@@ -931,7 +981,10 @@ async function main() {
     fetchTodayInHistory(now),
   ]);
 
-  const featuredPlaceCarousel = buildFeaturedPlaceCarousel(now);
+  const featuredPlaceCarousel =
+    featuredPlacesResult.status === "fulfilled"
+      ? featuredPlacesResult.value
+      : buildFeaturedPlaceCarousel(now);
 
   const payload = {
     generatedAt: now.toISOString(),
