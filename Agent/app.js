@@ -1350,15 +1350,12 @@ function pickNewsFallback(section, key) {
 }
 
 function getNewsBackground(section, item, index) {
-  if (section === "domestic") {
-    return pickNewsFallback(
-      section,
-      `${item.source ?? "domestic"}-${index}-${item.title}`,
-    );
-  }
-
   if (hasUsableNewsImage(item.image)) {
     return item.image;
+  }
+
+  if (section === "domestic") {
+    return "";
   }
 
   return pickNewsFallback(
@@ -1593,7 +1590,12 @@ function renderNews(container, items, section) {
 
     const summary = item.summary ? `<p>${item.summary}</p>` : "";
     const image = getNewsBackground(section, item, index);
-    node.style.backgroundImage = `linear-gradient(180deg, rgba(7, 17, 29, 0.18), rgba(7, 17, 29, 0.90)), url(${image})`;
+    if (image) {
+      node.style.backgroundImage = `linear-gradient(180deg, rgba(7, 17, 29, 0.18), rgba(7, 17, 29, 0.90)), url(${image})`;
+    } else {
+      node.classList.add("is-no-image");
+      node.style.backgroundImage = "";
+    }
     node.innerHTML = `
       <div class="news-card-topline">
         <span class="news-source-badge">${item.source ?? "News"}</span>
