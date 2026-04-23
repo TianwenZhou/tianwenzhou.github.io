@@ -1335,7 +1335,7 @@ img {
 }
 
 .widget-grid-news {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   align-items: stretch;
 }
 
@@ -2230,8 +2230,8 @@ img {
 }
 
 .widget-grid-news > .panel {
-  min-height: 840px;
-  height: 840px;
+  min-height: 700px;
+  height: 700px;
   display: flex;
   flex-direction: column;
 }
@@ -2972,6 +2972,12 @@ img {
     left: 18px;
     right: 88px;
     bottom: 16px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .widget-grid-news {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 

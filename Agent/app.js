@@ -60,8 +60,12 @@ const dom = {
   classicQuoteNote: document.querySelector("#classicQuoteNote"),
   bookExcerptText: document.querySelector("#bookExcerptText"),
   bookExcerptSource: document.querySelector("#bookExcerptSource"),
-  domesticNews: document.querySelector("#domesticNews"),
-  internationalNews: document.querySelector("#internationalNews"),
+  chinaTopNews: document.querySelector("#chinaTopNews"),
+  chinaSocietyNews: document.querySelector("#chinaSocietyNews"),
+  chinaFinanceNews: document.querySelector("#chinaFinanceNews"),
+  worldTopNews: document.querySelector("#worldTopNews"),
+  worldBusinessNews: document.querySelector("#worldBusinessNews"),
+  worldTechNews: document.querySelector("#worldTechNews"),
   nbaScoreboard: document.querySelector("#nbaScoreboard"),
   nbaNews: document.querySelector("#nbaNews"),
   paperHighlights: document.querySelector("#paperHighlights"),
@@ -1494,15 +1498,7 @@ function getNewsBackground(section, item, index) {
   if (hasUsableNewsImage(item.image)) {
     return item.image;
   }
-
-  if (section === "domestic") {
-    return "";
-  }
-
-  return pickNewsFallback(
-    section,
-    `${section}-${index}-${item.title}-${item.source ?? ""}`,
-  );
+  return "";
 }
 
 function renderEmpty(element) {
@@ -2074,8 +2070,12 @@ function renderPage(data) {
       (data.featuredPlace ? [data.featuredPlace] : []),
     data.generatedAt,
   );
-  renderNews(dom.domesticNews, data.news.domestic ?? [], "domestic");
-  renderNews(dom.internationalNews, data.news.international ?? [], "international");
+  renderNews(dom.chinaTopNews, data.news.chinaTop ?? data.news.domestic ?? [], "chinaTop");
+  renderNews(dom.chinaSocietyNews, data.news.chinaSociety ?? [], "chinaSociety");
+  renderNews(dom.chinaFinanceNews, data.news.chinaFinance ?? [], "chinaFinance");
+  renderNews(dom.worldTopNews, data.news.worldTop ?? data.news.international ?? [], "worldTop");
+  renderNews(dom.worldBusinessNews, data.news.worldBusiness ?? [], "worldBusiness");
+  renderNews(dom.worldTechNews, data.news.worldTech ?? [], "worldTech");
   renderNbaScoreboard(data.nbaScoreboard);
   renderNews(dom.nbaNews, data.news.nba ?? [], "nba");
   renderPaperSections(data.aiPapers.sections ?? []);
@@ -2098,8 +2098,12 @@ function renderError(message) {
   clearElement(dom.weatherDaily);
   dom.historyTodayMeta.textContent = "今天";
   dom.historyTodayList.innerHTML = `<p>${message}</p>`;
-  renderEmpty(dom.domesticNews);
-  renderEmpty(dom.internationalNews);
+  renderEmpty(dom.chinaTopNews);
+  renderEmpty(dom.chinaSocietyNews);
+  renderEmpty(dom.chinaFinanceNews);
+  renderEmpty(dom.worldTopNews);
+  renderEmpty(dom.worldBusinessNews);
+  renderEmpty(dom.worldTechNews);
   clearElement(dom.nbaScoreboard);
   dom.nbaScoreboard.innerHTML = `<div class="empty-state"><p>${message}</p></div>`;
   renderEmpty(dom.nbaNews);

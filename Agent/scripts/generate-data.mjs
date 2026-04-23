@@ -207,15 +207,33 @@ const defaults = {
     label: process.env.WEATHER_LABEL ?? "北京市海淀区",
   },
   newsFeeds: {
-    domestic:
-      process.env.DOMESTIC_NEWS_RSS_URL ??
-      "https://news.google.com/rss/search?q=(site:news.cn%20OR%20site:gov.cn%20OR%20site:people.com.cn)%20%E5%9B%BD%E5%86%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    chinaTop:
+      process.env.CHINA_TOP_NEWS_RSS_URL ??
+      "https://www.chinanews.com/rss/china.xml",
+    chinaSociety:
+      process.env.CHINA_SOCIETY_NEWS_RSS_URL ??
+      "https://www.chinanews.com/rss/society.xml",
+    chinaFinance:
+      process.env.CHINA_FINANCE_NEWS_RSS_URL ??
+      "https://www.chinanews.com/rss/finance.xml",
     internationalBbc:
       process.env.INTERNATIONAL_BBC_RSS_URL ??
       "https://feeds.bbci.co.uk/news/world/rss.xml",
+    internationalBusinessBbc:
+      process.env.INTERNATIONAL_BUSINESS_BBC_RSS_URL ??
+      "https://feeds.bbci.co.uk/news/business/rss.xml",
+    internationalTechBbc:
+      process.env.INTERNATIONAL_TECH_BBC_RSS_URL ??
+      "https://feeds.bbci.co.uk/news/technology/rss.xml",
     internationalCnn:
       process.env.INTERNATIONAL_CNN_RSS_URL ??
       "https://news.google.com/rss/search?q=site:cnn.com%20world&hl=en-US&gl=US&ceid=US:en",
+    internationalBusinessCnn:
+      process.env.INTERNATIONAL_BUSINESS_CNN_RSS_URL ??
+      "https://news.google.com/rss/search?q=site:cnn.com%20business&hl=en-US&gl=US&ceid=US:en",
+    internationalTechCnn:
+      process.env.INTERNATIONAL_TECH_CNN_RSS_URL ??
+      "https://news.google.com/rss/search?q=site:cnn.com%20technology&hl=en-US&gl=US&ceid=US:en",
     nba:
       process.env.NBA_RSS_URL ??
       "https://www.espn.com/espn/rss/nba/news",
@@ -334,6 +352,18 @@ function absolutizeBingUrl(url) {
   }
 
   return url.startsWith("http") ? url : `https://www.bing.com${url}`;
+}
+
+function absolutizeUrl(url, baseUrl = "") {
+  if (!url) {
+    return "";
+  }
+
+  try {
+    return new URL(url, baseUrl || "https://zhoutianwen.com/Agent/").toString();
+  } catch {
+    return "";
+  }
 }
 
 function normalizeSummary(summary, title) {
@@ -576,14 +606,7 @@ async function fetchFeaturedPlaces() {
 async function fetchArticlePreview(url) {
   try {
     const html = await fetchText(url);
-    const image =
-      html.match(
-        /<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)/i,
-      )?.[1] ||
-      html.match(
-        /<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)/i,
-      )?.[1] ||
-      "";
+    const image = extractPreviewImage(html, url);
     const description =
       html.match(
         /<meta[^>]+property=["']og:description["'][^>]+content=["']([^"']+)/i,
@@ -603,6 +626,113 @@ async function fetchArticlePreview(url) {
       summary: "",
     };
   }
+}
+
+function extractPreviewImage(html, url) {
+  const preferredMatches = [
+    html.match(
+      /<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)/i,
+    )?.[1],
+    html.match(
+      /<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)/i,
+    )?.[1],
+  ]
+    .map((candidate) => absolutizeUrl(cleanHtml(candidate || ""), url))
+    .filter(Boolean);
+
+  if (preferredMatches.length) {
+    const direct = preferredMatches.find((candidate) => hasUsableNewsImage(candidate));
+    if (direct) {
+      return direct;
+    }
+  }
+
+  const articleRegion =
+    html.match(
+      /<div[^>]+class=["'][^"']*content_maincontent_content[^"']*["'][^>]*>([\s\S]*?)<div[^>]+class=["'][^"']*channel[^"']*["']/i,
+    )?.[1] ||
+    html.match(
+      /<div[^>]+class=["'][^"']*left_zw[^"']*["'][^>]*>([\s\S]*?)<div[^>]+class=["'][^"']*(?:adEditor|channel)[^"']*["']/i,
+    )?.[1] ||
+    html.match(/<article[\s\S]*?<\/article>/i)?.[0] ||
+    html;
+
+  const articleMatches = [
+    ...articleRegion.matchAll(
+      /<(?:img|source)[^>]+(?:src|data-src|data-original|data-echo|data-lazy-src)=["']([^"']+)["']/gi,
+    ),
+    ...articleRegion.matchAll(
+      /https?:\/\/[^"'\\s>]+?\.(?:jpg|jpeg|png|webp)(?:\?[^"'\\s>]*)?/gi,
+    ),
+  ]
+    .map((match) => absolutizeUrl(cleanHtml(match[1] || match[0] || ""), url))
+    .filter(Boolean);
+
+  const primaryArticleImage = articleMatches.find(
+    (candidate) =>
+      hasUsableNewsImage(candidate) &&
+      !/(?:logo|icon|avatar|qr|qrcode|weixin|wechat|banner|sprite|favicon)/i.test(candidate),
+  );
+
+  if (primaryArticleImage) {
+    return primaryArticleImage;
+  }
+
+  if (/chinanews\.com/i.test(url)) {
+    return "";
+  }
+
+  const imageCandidates = [
+    ...articleMatches,
+    ...html.matchAll(
+      /<(?:img|source)[^>]+(?:src|data-src|data-original|data-echo|data-lazy-src)=["']([^"']+)["']/gi,
+    ),
+    ...html.matchAll(
+      /https?:\/\/[^"'\\s>]+?\.(?:jpg|jpeg|png|webp)(?:\?[^"'\\s>]*)?/gi,
+    ),
+  ]
+    .map((match) =>
+      typeof match === "string"
+        ? match
+        : absolutizeUrl(cleanHtml(match[1] || match[0] || ""), url),
+    )
+    .filter(Boolean)
+    .filter((candidate, index, list) => list.indexOf(candidate) === index)
+    .filter((candidate) => hasUsableNewsImage(candidate))
+    .filter((candidate) => !/(?:logo|icon|avatar|qr|qrcode|weixin|wechat|banner|sprite|favicon)/i.test(candidate));
+
+  if (!imageCandidates.length) {
+    return "";
+  }
+
+  return imageCandidates
+    .map((candidate) => {
+      let score = 0;
+      if (/\/cspimp\//i.test(candidate)) {
+        score += 120;
+      }
+      if (articleMatches.includes(candidate)) {
+        score += 140;
+      }
+      if (/\/20\d{2}[/-]\d{2}[/-]\d{2}\//i.test(candidate)) {
+        score += 60;
+      }
+      if (/image\./i.test(candidate)) {
+        score += 30;
+      }
+      if (/\.(?:jpg|jpeg|png|webp)(?:\?|$)/i.test(candidate)) {
+        score += 20;
+      }
+      if (/(?:thumb|small|mini)/i.test(candidate)) {
+        score -= 40;
+      }
+
+      return {
+        candidate,
+        score,
+      };
+    })
+    .sort((left, right) => right.score - left.score)[0]?.candidate ?? "";
 }
 
 function getNewsFallbackImage(section) {
@@ -952,8 +1082,12 @@ async function main() {
 
   const [
     weatherResult,
-    domesticResult,
-    internationalResult,
+    chinaTopResult,
+    chinaSocietyResult,
+    chinaFinanceResult,
+    worldTopResult,
+    worldBusinessResult,
+    worldTechResult,
     featuredPlacesResult,
     nbaScoreboardResult,
     nbaResult,
@@ -961,9 +1095,19 @@ async function main() {
   ] = await Promise.allSettled([
     fetchWeather(),
     fetchMergedRssFeeds(
-      [{ url: defaults.newsFeeds.domestic, source: "Google News", limit: 8 }],
+      [{ url: defaults.newsFeeds.chinaTop, source: "中新网", limit: 8 }],
       5,
-      "domestic",
+      "chinaTop",
+    ),
+    fetchMergedRssFeeds(
+      [{ url: defaults.newsFeeds.chinaSociety, source: "中新网", limit: 8 }],
+      5,
+      "chinaSociety",
+    ),
+    fetchMergedRssFeeds(
+      [{ url: defaults.newsFeeds.chinaFinance, source: "中新网", limit: 8 }],
+      5,
+      "chinaFinance",
     ),
     fetchMergedRssFeeds(
       [
@@ -971,7 +1115,39 @@ async function main() {
         { url: defaults.newsFeeds.internationalCnn, source: "CNN", limit: 5 },
       ],
       5,
-      "international",
+      "worldTop",
+    ),
+    fetchMergedRssFeeds(
+      [
+        {
+          url: defaults.newsFeeds.internationalBusinessBbc,
+          source: "BBC",
+          limit: 5,
+        },
+        {
+          url: defaults.newsFeeds.internationalBusinessCnn,
+          source: "CNN",
+          limit: 5,
+        },
+      ],
+      5,
+      "worldBusiness",
+    ),
+    fetchMergedRssFeeds(
+      [
+        {
+          url: defaults.newsFeeds.internationalTechBbc,
+          source: "BBC",
+          limit: 5,
+        },
+        {
+          url: defaults.newsFeeds.internationalTechCnn,
+          source: "CNN",
+          limit: 5,
+        },
+      ],
+      5,
+      "worldTech",
     ),
     fetchFeaturedPlaces(),
     fetchNbaScoreboard(),
@@ -1006,11 +1182,21 @@ async function main() {
         ? todayInHistoryResult.value
         : buildTodayInHistoryFallback(now),
     news: {
-      domestic: domesticResult.status === "fulfilled" ? domesticResult.value : [],
-      international:
-        internationalResult.status === "fulfilled"
-          ? internationalResult.value
+      chinaTop: chinaTopResult.status === "fulfilled" ? chinaTopResult.value : [],
+      chinaSociety:
+        chinaSocietyResult.status === "fulfilled"
+          ? chinaSocietyResult.value
           : [],
+      chinaFinance:
+        chinaFinanceResult.status === "fulfilled" ? chinaFinanceResult.value : [],
+      worldTop: worldTopResult.status === "fulfilled" ? worldTopResult.value : [],
+      worldBusiness:
+        worldBusinessResult.status === "fulfilled"
+          ? worldBusinessResult.value
+          : [],
+      worldTech: worldTechResult.status === "fulfilled" ? worldTechResult.value : [],
+      domestic: chinaTopResult.status === "fulfilled" ? chinaTopResult.value : [],
+      international: worldTopResult.status === "fulfilled" ? worldTopResult.value : [],
       nba: nbaResult.status === "fulfilled" ? nbaResult.value : [],
     },
     nbaScoreboard:
