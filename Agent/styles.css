@@ -756,8 +756,8 @@ img {
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 180px;
-  height: 188px;
+  width: 196px;
+  height: 196px;
   pointer-events: auto;
   user-select: none;
   -webkit-user-select: none;
@@ -768,7 +768,7 @@ img {
   position: absolute;
   left: 50%;
   bottom: 132px;
-  width: 290px;
+  width: 268px;
   display: grid;
   gap: 10px;
   padding: 14px;
@@ -862,17 +862,11 @@ img {
 }
 
 .pet-stage {
-  --pet-eye-shift-x: 0px;
-  --pet-eye-shift-y: 0px;
-  --pet-fur: #f5a54a;
-  --pet-fur-light: #ffd289;
-  --pet-fur-dark: #cc7830;
-  --pet-patch: rgba(255, 255, 255, 0.3);
   position: absolute;
   left: 50%;
   bottom: 0;
-  width: 178px;
-  height: 150px;
+  width: 192px;
+  height: 164px;
   padding: 0;
   border: 0;
   border-radius: 0;
@@ -910,11 +904,10 @@ img {
   filter: blur(4px);
 }
 
-.pet-stage:focus-visible .pet-cat {
-  filter: drop-shadow(0 0 0 rgba(0, 0, 0, 0))
-    drop-shadow(0 0 0 rgba(0, 0, 0, 0))
-    drop-shadow(0 0 0 rgba(0, 0, 0, 0))
-    drop-shadow(0 0 16px rgba(56, 189, 248, 0.54));
+.pet-stage:focus-visible .pet-model-shell {
+  filter:
+    drop-shadow(0 20px 26px rgba(9, 23, 39, 0.18))
+    drop-shadow(0 0 22px rgba(56, 189, 248, 0.52));
 }
 
 .pet-stage.breed-orange {
@@ -1194,121 +1187,57 @@ img {
 .pet-status-text {
   margin: 0;
   color: var(--muted);
-  font-size: 12px;
-  line-height: 1.55;
+  font-size: 13px;
+  line-height: 1.65;
 }
 
-.pet-particle {
-  position: absolute;
-  z-index: 2;
-  color: #fff4b0;
-  font-size: 12px;
-  font-weight: 700;
-  text-shadow: 0 4px 14px rgba(255, 209, 92, 0.42);
-  animation: pet-particle-rise 1.4s ease forwards;
-}
-
-.pet-stats,
-.pet-action-groups {
-  display: grid;
-  gap: 10px;
-}
-
-.pet-stat {
-  display: grid;
-  gap: 6px;
-  color: var(--muted);
-  font-size: 12px;
-}
-
-.pet-stats {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.pet-bar {
-  position: relative;
-  height: 8px;
-  border-radius: 999px;
-  overflow: hidden;
-  background: rgba(15, 108, 189, 0.08);
-}
-
-.pet-bar-fill {
-  display: block;
-  height: 100%;
-  width: 50%;
-  border-radius: inherit;
-  background: linear-gradient(90deg, rgba(56, 189, 248, 0.98), rgba(15, 108, 189, 0.9));
-  box-shadow: 0 8px 16px rgba(56, 189, 248, 0.2);
-}
-
-.pet-bar-fill.is-satiety {
-  background: linear-gradient(90deg, rgba(255, 190, 92, 0.98), rgba(255, 132, 78, 0.9));
-  box-shadow: 0 8px 16px rgba(255, 166, 78, 0.2);
-}
-
-.pet-action-group {
-  display: grid;
-  gap: 8px;
-  padding: 10px 11px;
-  border-radius: 16px;
-  background: rgba(255, 255, 255, 0.58);
-  border: 1px solid rgba(196, 215, 230, 0.48);
-}
-
-.pet-action-head {
-  display: flex;
-  justify-content: space-between;
-  gap: 12px;
-  align-items: baseline;
-}
-
-.pet-action-head h3,
-.pet-action-kicker {
+.pet-model-credit {
   margin: 0;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.5;
 }
 
-.pet-action-kicker {
+.pet-model-credit a {
   color: var(--accent);
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  font-size: 11px;
 }
 
-.pet-action-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 7px;
-}
-
-.pet-action-button {
-  appearance: none;
-  padding: 7px 10px;
-  border-radius: 999px;
-  border: 1px solid rgba(15, 108, 189, 0.14);
-  background: rgba(255, 255, 255, 0.9);
-  color: var(--text);
-  font: inherit;
-  font-size: 11px;
-  cursor: pointer;
+.pet-model-shell {
+  position: absolute;
+  inset: 4px 2px 0;
+  transform-origin: center bottom;
   transition:
-    transform 180ms ease,
-    box-shadow 180ms ease,
-    border-color 180ms ease,
-    background 180ms ease;
+    transform 220ms ease,
+    filter 220ms ease;
+  filter:
+    drop-shadow(0 18px 24px rgba(9, 23, 39, 0.16))
+    drop-shadow(0 10px 14px rgba(9, 23, 39, 0.12));
 }
 
-.pet-action-button:hover {
-  transform: translateY(-1px);
-  border-color: rgba(15, 108, 189, 0.28);
-  box-shadow: 0 10px 18px rgba(12, 35, 58, 0.08);
+.pet-stage.is-facing-left .pet-model-shell {
+  transform: scaleX(-1);
 }
 
-.pet-action-button.is-active,
-.pet-action-button.is-feed:hover {
-  background: linear-gradient(135deg, rgba(15, 108, 189, 0.96), rgba(56, 189, 248, 0.88));
-  color: #f8fbff;
-  border-color: transparent;
+.pet-stage.is-happy .pet-model-shell {
+  transform: translateY(-5px) rotate(-4deg) scale(1.02);
+}
+
+.pet-stage.is-facing-left.is-happy .pet-model-shell {
+  transform: scaleX(-1) translateY(-5px) rotate(-4deg) scale(1.02);
+}
+
+.pet-model-viewer {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  --poster-color: transparent;
+  pointer-events: none;
+}
+
+.pet-model-viewer::part(default-progress-mask),
+.pet-model-viewer::part(default-progress-bar),
+.pet-model-viewer::part(default-ar-button) {
+  display: none;
 }
 
 .widget-grid {

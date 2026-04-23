@@ -414,78 +414,36 @@
         <section class="pet-hover-card" aria-labelledby="petPanelTitle">
           <div class="pet-hover-head">
             <div>
-              <p class="panel-kicker">Cyber Pet</p>
+              <p class="panel-kicker">3D Companion</p>
               <h2 id="petPanelTitle">Neo Cat</h2>
             </div>
-            <span id="petMoodBadge" class="panel-tag">Curious</span>
+            <span id="petMoodBadge" class="panel-tag">Roaming</span>
           </div>
 
-          <p id="petStatusText" class="pet-status-text">Pat me, switch my style, or feed me.</p>
-
-          <div class="pet-stats">
-            <div class="pet-stat">
-              <span>Affinity</span>
-              <div class="pet-bar">
-                <span id="petAffinityFill" class="pet-bar-fill"></span>
-              </div>
-            </div>
-            <div class="pet-stat">
-              <span>Satiety</span>
-              <div class="pet-bar">
-                <span id="petSatietyFill" class="pet-bar-fill is-satiety"></span>
-              </div>
-            </div>
-          </div>
-
-          <div class="pet-action-groups">
-            <section class="pet-action-group" aria-labelledby="petBreedTitle">
-              <div class="pet-action-head">
-                <p class="pet-action-kicker">Style</p>
-                <h3 id="petBreedTitle">Breed</h3>
-              </div>
-              <div class="pet-action-buttons">
-                <button class="pet-action-button" type="button" data-pet-breed="orange">Orange</button>
-                <button class="pet-action-button" type="button" data-pet-breed="tuxedo">Tuxedo</button>
-                <button class="pet-action-button" type="button" data-pet-breed="siamese">Siamese</button>
-                <button class="pet-action-button" type="button" data-pet-breed="void">Void</button>
-              </div>
-            </section>
-
-            <section class="pet-action-group" aria-labelledby="petFeedTitle">
-              <div class="pet-action-head">
-                <p class="pet-action-kicker">Feed</p>
-                <h3 id="petFeedTitle">Snacks</h3>
-              </div>
-              <div class="pet-action-buttons">
-                <button class="pet-action-button is-feed" type="button" data-pet-food="fish">Fish</button>
-                <button class="pet-action-button is-feed" type="button" data-pet-food="milk">Milk</button>
-                <button class="pet-action-button is-feed" type="button" data-pet-food="treat">Treat</button>
-              </div>
-            </section>
-          </div>
+          <p id="petStatusText" class="pet-status-text">A tiny 3D cat is patrolling the bottom edge of your dashboard.</p>
+          <p class="pet-model-credit">
+            3D model by
+            <a href="https://poly.pizza/m/6dM1J6f6pm9" target="_blank" rel="noreferrer">Poly Pizza</a>
+          </p>
         </section>
 
-        <div id="petStage" class="pet-stage breed-orange" tabindex="0" aria-label="Interactive cyber cat">
+        <div id="petStage" class="pet-stage" tabindex="0" aria-label="3D cat companion">
           <div class="pet-grid"></div>
-          <div id="petParticles" class="pet-particles" aria-hidden="true"></div>
-          <div id="petCat" class="pet-cat">
-            <div class="pet-tail"></div>
-            <div class="pet-body">
-              <span class="pet-body-patch"></span>
-            </div>
-            <div class="pet-head">
-              <span class="pet-ear left"></span>
-              <span class="pet-ear right"></span>
-              <span class="pet-forehead-mark"></span>
-              <div class="pet-face">
-                <span class="pet-eye left"></span>
-                <span class="pet-eye right"></span>
-                <span class="pet-nose"></span>
-                <span class="pet-mouth"></span>
-                <span class="pet-whiskers left"></span>
-                <span class="pet-whiskers right"></span>
-              </div>
-            </div>
+          <div class="pet-model-shell" aria-hidden="true">
+            <model-viewer
+              id="petModel"
+              class="pet-model-viewer"
+              src="./assets/pet-cat.glb"
+              poster="./assets/pet-cat-poster.jpg"
+              alt="A small 3D cat companion"
+              camera-orbit="0deg 78deg 3.4m"
+              field-of-view="28deg"
+              shadow-intensity="0.85"
+              exposure="1.08"
+              environment-image="neutral"
+              interaction-prompt="none"
+              disable-zoom
+            ></model-viewer>
           </div>
         </div>
       </div>
@@ -497,7 +455,8 @@
       </div>
     </template>
 
-    <script src="./chat-config.js?v=20260422-3"></script>
-    <script type="module" src="./app.js?v=20260422-3"></script>
+    <script src="./chat-config.js?v=20260423-1"></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+    <script type="module" src="./app.js?v=20260423-1"></script>
   </body>
 </html>

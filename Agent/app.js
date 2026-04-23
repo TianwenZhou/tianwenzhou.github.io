@@ -9,7 +9,6 @@ const chatStorageKey = "agent-dashboard-chat-history-v1";
 const chatDockStateKey = "agent-dashboard-chat-open-v1";
 const chatDockPositionKey = "agent-dashboard-chat-position-v1";
 const chatUnreadKey = "agent-dashboard-chat-unread-v1";
-const petStorageKey = "agent-dashboard-cyber-pet-v1";
 const maxChatTurns = 8;
 const chatDragThreshold = 10;
 
@@ -73,13 +72,8 @@ const dom = {
   petDock: document.querySelector("#petDock"),
   petCompanion: document.querySelector("#petCompanion"),
   petStage: document.querySelector("#petStage"),
-  petParticles: document.querySelector("#petParticles"),
   petMoodBadge: document.querySelector("#petMoodBadge"),
   petStatusText: document.querySelector("#petStatusText"),
-  petAffinityFill: document.querySelector("#petAffinityFill"),
-  petSatietyFill: document.querySelector("#petSatietyFill"),
-  petBreedButtons: Array.from(document.querySelectorAll("[data-pet-breed]")),
-  petFoodButtons: Array.from(document.querySelectorAll("[data-pet-food]")),
   viewButtons: Array.from(document.querySelectorAll("[data-view-target]")),
   views: Array.from(document.querySelectorAll("[data-view]")),
   emptyStateTemplate: document.querySelector("#emptyStateTemplate"),
@@ -94,7 +88,6 @@ let chatUnreadCount = 0;
 let chatHistory = [];
 let chatDragState = null;
 let chatSuppressToggleUntil = 0;
-let petState = null;
 let petInteractCooldown = 0;
 let petRoamFrame = 0;
 let petRoamState = null;
@@ -191,52 +184,23 @@ const newsFallbacks = {
   ],
 };
 
-const petBreedCatalog = {
-  orange: {
-    label: "Orange",
-    className: "breed-orange",
-  },
-  tuxedo: {
-    label: "Tuxedo",
-    className: "breed-tuxedo",
-  },
-  siamese: {
-    label: "Siamese",
-    className: "breed-siamese",
-  },
-  void: {
-    label: "Void",
-    className: "breed-void",
-  },
+const petStatusCatalog = {
+  roaming: [
+    "A tiny 3D cat is patrolling the bottom edge of your dashboard.",
+    "Neo Cat is on patrol and keeping an eye on the page.",
+    "This little companion is wandering under the panels today.",
+  ],
+  hover: [
+    "Hover here to pause the patrol and say hi.",
+    "Neo Cat pauses when you come closer.",
+    "The patrol is paused. The cat is watching you now.",
+  ],
+  pet: [
+    "Soft tap received. Neo Cat seems pleased.",
+    "The little cat leans in for another pat.",
+    "Purr... the 3D cat approves of that.",
+  ],
 };
-
-const petFoodCatalog = {
-  fish: {
-    label: "Fish",
-    satiety: 18,
-    affinity: 4,
-    energy: 5,
-    particle: "+Fish",
-  },
-  milk: {
-    label: "Milk",
-    satiety: 12,
-    affinity: 3,
-    energy: 7,
-    particle: "+Milk",
-  },
-  treat: {
-    label: "Treat",
-    satiety: 8,
-    affinity: 9,
-    energy: 3,
-    particle: "+Treat",
-  },
-};
-
-const petBreedClassNames = Object.values(petBreedCatalog).map(
-  (breed) => breed.className,
-);
 
 function getWeatherVisual(weatherCode) {
   if ([45, 48].includes(weatherCode)) {
@@ -528,107 +492,14 @@ function renderMarkdown(value) {
   return blocks.join("");
 }
 
-function createProgressWidth(value) {
-  return `${Math.max(8, Math.min(100, value))}%`;
+function pickPetStatus(kind) {
+  const options = petStatusCatalog[kind] ?? petStatusCatalog.roaming;
+  return options[Math.floor(Math.random() * options.length)];
 }
 
-function clampStat(value) {
-  return Math.max(0, Math.min(100, Math.round(value)));
-}
-
-function derivePetMood() {
-  if (petState.satiety < 30) {
-    return "Hungry";
-  }
-  if (petState.affinity > 82 && petState.satiety > 62) {
-    return "Purring";
-  }
-  if (petState.affinity < 36) {
-    return "Shy";
-  }
-  if (petState.energy > 78) {
-    return "Zoomies";
-  }
-  return "Curious";
-}
-
-function createDefaultPetState() {
-  return {
-    breed: "orange",
-    affinity: 68,
-    satiety: 58,
-    energy: 72,
-    note: "Pat me, switch my style, or feed me.",
-  };
-}
-
-function loadPetState() {
-  try {
-    const raw = window.localStorage.getItem(petStorageKey);
-    if (!raw) {
-      return createDefaultPetState();
-    }
-
-    const parsed = JSON.parse(raw);
-    return {
-      breed: petBreedCatalog[parsed?.breed] ? parsed.breed : "orange",
-      affinity: clampStat(parsed?.affinity ?? 68),
-      satiety: clampStat(parsed?.satiety ?? 58),
-      energy: clampStat(parsed?.energy ?? 72),
-      note: typeof parsed?.note === "string" && parsed.note.trim()
-        ? parsed.note.trim()
-        : "Pat me, switch my style, or feed me.",
-    };
-  } catch {
-    return createDefaultPetState();
-  }
-}
-
-function persistPetState() {
-  try {
-    window.localStorage.setItem(petStorageKey, JSON.stringify(petState));
-  } catch {
-    // Ignore storage failures so the pet remains interactive.
-  }
-}
-
-function spawnPetParticle(label) {
-  const particle = document.createElement("span");
-  particle.className = "pet-particle";
-  particle.textContent = label;
-  particle.style.left = `${18 + Math.random() * 64}%`;
-  particle.style.top = `${28 + Math.random() * 24}%`;
-  dom.petParticles.append(particle);
-  window.setTimeout(() => particle.remove(), 1400);
-}
-
-function renderPet() {
-  const breed = petBreedCatalog[petState.breed] || petBreedCatalog.orange;
-  const mood = derivePetMood();
-
-  dom.petStage.classList.remove(...petBreedClassNames);
-  dom.petStage.classList.add("pet-stage", breed.className);
+function setPetStatus(mood, text) {
   dom.petMoodBadge.textContent = mood;
-  dom.petStatusText.textContent = petState.note;
-  dom.petAffinityFill.style.width = createProgressWidth(petState.affinity);
-  dom.petSatietyFill.style.width = createProgressWidth(petState.satiety);
-
-  dom.petBreedButtons.forEach((button) => {
-    button.classList.toggle("is-active", button.dataset.petBreed === petState.breed);
-  });
-}
-
-function adjustPetStats(changes, note, particleLabel = "") {
-  petState.affinity = clampStat(petState.affinity + (changes.affinity ?? 0));
-  petState.satiety = clampStat(petState.satiety + (changes.satiety ?? 0));
-  petState.energy = clampStat(petState.energy + (changes.energy ?? 0));
-  petState.note = note;
-  persistPetState();
-  renderPet();
-
-  if (particleLabel) {
-    spawnPetParticle(particleLabel);
-  }
+  dom.petStatusText.textContent = text;
 }
 
 function handlePetting() {
@@ -642,48 +513,7 @@ function handlePetting() {
   void dom.petStage.offsetWidth;
   dom.petStage.classList.add("is-happy");
   window.setTimeout(() => dom.petStage.classList.remove("is-happy"), 720);
-  adjustPetStats({ affinity: 5, energy: 2 }, "Purr... that feels nice.", "<3");
-}
-
-function setPetBreed(breedKey) {
-  const breed = petBreedCatalog[breedKey];
-  if (!breed) {
-    return;
-  }
-
-  petState.breed = breedKey;
-  adjustPetStats({ affinity: 1 }, `Style switched to ${breed.label}.`, breed.label);
-}
-
-function feedPet(foodKey) {
-  const food = petFoodCatalog[foodKey];
-  if (!food) {
-    return;
-  }
-
-  adjustPetStats(
-    {
-      satiety: food.satiety,
-      affinity: food.affinity,
-      energy: food.energy,
-    },
-    `${food.label} received. Happy chewing noises detected.`,
-    food.particle,
-  );
-}
-
-function updatePetEyeTracking(event) {
-  const rect = dom.petStage.getBoundingClientRect();
-  const shiftX = ((event.clientX - rect.left) / rect.width - 0.5) * 8;
-  const shiftY = ((event.clientY - rect.top) / rect.height - 0.5) * 8;
-
-  dom.petStage.style.setProperty("--pet-eye-shift-x", `${Math.max(-4, Math.min(4, shiftX))}px`);
-  dom.petStage.style.setProperty("--pet-eye-shift-y", `${Math.max(-3, Math.min(3, shiftY))}px`);
-}
-
-function resetPetEyeTracking() {
-  dom.petStage.style.setProperty("--pet-eye-shift-x", "0px");
-  dom.petStage.style.setProperty("--pet-eye-shift-y", "0px");
+  setPetStatus("Purring", pickPetStatus("pet"));
 }
 
 function updatePetFacing() {
@@ -727,6 +557,7 @@ function maybePausePetRoam(isPaused) {
 
   petRoamState.isPaused = isPaused;
   dom.petCompanion.classList.toggle("is-open", isPaused);
+  setPetStatus(isPaused ? "Watching" : "Roaming", pickPetStatus(isPaused ? "hover" : "roaming"));
 }
 
 function randomizePetRoamSpeed() {
@@ -794,18 +625,10 @@ function startPetRoam() {
 }
 
 function setupCyberPet() {
-  petState = loadPetState();
-  renderPet();
+  setPetStatus("Roaming", pickPetStatus("roaming"));
   startPetRoam();
 
   dom.petStage.addEventListener("click", handlePetting);
-  dom.petStage.addEventListener("pointermove", (event) => {
-    updatePetEyeTracking(event);
-    if (event.buttons > 0) {
-      handlePetting();
-    }
-  });
-  dom.petStage.addEventListener("pointerleave", resetPetEyeTracking);
   dom.petStage.addEventListener("keydown", (event) => {
     if (event.key === "Enter" || event.key === " ") {
       event.preventDefault();
@@ -819,7 +642,6 @@ function setupCyberPet() {
 
   dom.petCompanion.addEventListener("pointerleave", () => {
     maybePausePetRoam(false);
-    resetPetEyeTracking();
   });
 
   dom.petCompanion.addEventListener("focusin", () => {
@@ -829,20 +651,7 @@ function setupCyberPet() {
   dom.petCompanion.addEventListener("focusout", (event) => {
     if (!dom.petCompanion.contains(event.relatedTarget)) {
       maybePausePetRoam(false);
-      resetPetEyeTracking();
     }
-  });
-
-  dom.petBreedButtons.forEach((button) => {
-    button.addEventListener("click", () => {
-      setPetBreed(button.dataset.petBreed);
-    });
-  });
-
-  dom.petFoodButtons.forEach((button) => {
-    button.addEventListener("click", () => {
-      feedPet(button.dataset.petFood);
-    });
   });
 
   window.addEventListener("resize", () => {
