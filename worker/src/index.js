@@ -50,6 +50,22 @@ function extractResponseText(payload) {
   return payload?.choices?.[0]?.message?.content?.trim?.() ?? "";
 }
 
+function buildDeepSeekRequestBody(messages, env) {
+  const model = env.DEEPSEEK_MODEL || "deepseek-v4-flash";
+  const body = {
+    model,
+    messages,
+    stream: false,
+    max_tokens: Number(env.MAX_OUTPUT_TOKENS || 220),
+  };
+
+  if (String(env.DEEPSEEK_THINKING || "").trim()) {
+    body.thinking = { type: String(env.DEEPSEEK_THINKING).trim() };
+  }
+
+  return body;
+}
+
 async function handleChat(request, env) {
   if (!env.DEEPSEEK_API_KEY) {
     return jsonResponse({ error: "DEEPSEEK_API_KEY is not configured." }, getAllowedOrigin(request, env), 500);
@@ -74,12 +90,7 @@ async function handleChat(request, env) {
       "Content-Type": "application/json",
       Authorization: `Bearer ${env.DEEPSEEK_API_KEY}`,
     },
-    body: JSON.stringify({
-      model: env.DEEPSEEK_MODEL || "deepseek-chat",
-      messages: deepSeekMessages,
-      stream: false,
-      max_tokens: Number(env.MAX_OUTPUT_TOKENS || 220),
-    }),
+    body: JSON.stringify(buildDeepSeekRequestBody(deepSeekMessages, env)),
   });
 
   if (!response.ok) {
@@ -101,7 +112,7 @@ async function handleChat(request, env) {
     {
       reply,
       assistantName: "Agent Chat",
-      model: env.DEEPSEEK_MODEL || "deepseek-chat",
+      model: env.DEEPSEEK_MODEL || "deepseek-v4-flash",
     },
     getAllowedOrigin(request, env),
   );
