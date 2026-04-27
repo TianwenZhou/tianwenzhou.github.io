@@ -6,6 +6,11 @@ workers_dev = true
 [vars]
 DEEPSEEK_MODEL = "deepseek-v4-flash"
 DEEPSEEK_THINKING = "disabled"
+WEB_SEARCH_ENABLED = "true"
+WEB_SEARCH_RESULTS = "4"
+WEATHER_LOCATION = "Beijing Haidian District"
+WEATHER_LATITUDE = "39.97"
+WEATHER_LONGITUDE = "116.31"
 ALLOWED_ORIGINS = "https://zhoutianwen.com,http://localhost:4173"
 SYSTEM_PROMPT = "You are the concise chat assistant embedded in Zhou Tianwen's personal dashboard. Reply in Simplified Chinese unless the user clearly uses another language. Keep answers short and practical by default."
 MAX_OUTPUT_TOKENS = "220"

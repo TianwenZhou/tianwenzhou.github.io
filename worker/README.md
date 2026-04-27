@@ -23,7 +23,7 @@ npx wrangler login
 npx wrangler secret put DEEPSEEK_API_KEY
 ```
 
-The default model is configured in `wrangler.toml` as `deepseek-v4-flash`, with `DEEPSEEK_THINKING=disabled` for quick dashboard replies.
+The default model is configured in `wrangler.toml` as `deepseek-v4-flash`, with `DEEPSEEK_THINKING=disabled` for quick dashboard replies. Web search is also enabled by default through Bing RSS results, so each user query can be grounded with fresh web context when relevant.
 
 4. Optional local development:
 
