@@ -1,36 +1,28 @@
 {
-  "generatedAt": "2026-05-10T13:51:00.331Z",
+  "generatedAt": "2026-05-10T17:08:47.718Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 26,
-      "weatherCode": 3,
-      "windSpeed": 12
+      "temperature": 21,
+      "weatherCode": 0,
+      "windSpeed": 5
     },
     "today": {
-      "date": "2026-05-10",
+      "date": "2026-05-11",
       "weatherCode": 3,
       "description": "阴天",
-      "max": 33,
-      "min": 13,
-      "precipitationProbability": 10
+      "max": 31,
+      "min": 18,
+      "precipitationProbability": 2
     },
     "forecast": [
-      {
-        "date": "2026-05-10",
-        "weatherCode": 3,
-        "description": "阴天",
-        "max": 33,
-        "min": 13,
-        "precipitationProbability": 10
-      },
       {
         "date": "2026-05-11",
         "weatherCode": 3,
         "description": "阴天",
         "max": 31,
         "min": 18,
-        "precipitationProbability": 8
+        "precipitationProbability": 2
       },
       {
         "date": "2026-05-12",
@@ -55,32 +47,49 @@
         "max": 32,
         "min": 21,
         "precipitationProbability": 0
+      },
+      {
+        "date": "2026-05-15",
+        "weatherCode": 3,
+        "description": "阴天",
+        "max": 31,
+        "min": 19,
+        "precipitationProbability": 20
       }
     ]
   },
   "classicQuote": {
-    "id": "records-historical",
-    "text": "桃李不言，下自成蹊。",
-    "source": "《史记》",
-    "author": "司马迁",
-    "note": "真正有分量的作品，本身就会替你说话。"
+    "id": "chuci-seek",
+    "text": "路漫漫其修远兮，吾将上下而求索。",
+    "source": "《离骚》",
+    "author": "屈原",
+    "note": "长期主义最难，但也最值得。"
   },
   "bookExcerpt": {
-    "id": "remembrance-madeleine",
-    "text": "那一点点浸过茶水的点心，忽然把整个旧日时光都唤醒了，仿佛往昔并未消失，只是沉在心底等待一个气味。",
-    "book": "《追忆似水年华》",
-    "author": "马塞尔·普鲁斯特"
+    "id": "border-town-river",
+    "text": "月光如银子，无处不可照及，山上篁竹在月光下变成了一片黑色，身边草丛中虫声繁密如落雨。",
+    "book": "《边城》",
+    "author": "沈从文"
   },
   "featuredPlace": {
-    "id": "202605091600",
-    "title": "北极熊妈妈和幼崽在瓦普斯克国家公园玩耍, 马尼托巴省, 加拿大",
+    "id": "202605101600",
+    "title": "从上方俯瞰大堡礁, 昆士兰州, 澳大利亚",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "一份经久不衰的羁绊",
-    "image": "https://www.bing.com/th?id=OHR.MotherCub_ZH-CN0999123163_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E6%AF%8D%E4%BA%B2%E8%8A%82&form=hpcapt&mkt=zh-cn"
+    "summary": "水下建筑",
+    "image": "https://www.bing.com/th?id=OHR.QueenslandReef_ZH-CN1138150002_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9A%E5%A4%A7%E5%A0%A1%E7%A4%81&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202605101600",
+      "title": "从上方俯瞰大堡礁, 昆士兰州, 澳大利亚",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "水下建筑",
+      "image": "https://www.bing.com/th?id=OHR.QueenslandReef_ZH-CN1138150002_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9A%E5%A4%A7%E5%A0%A1%E7%A4%81&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202605091600",
       "title": "北极熊妈妈和幼崽在瓦普斯克国家公园玩耍, 马尼托巴省, 加拿大",
@@ -143,30 +152,21 @@
       "summary": "科幻源于现实",
       "image": "https://www.bing.com/th?id=OHR.KsarOuledSoltane_ZH-CN3569810663_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E6%98%9F%E7%90%83%E5%A4%A7%E6%88%98%E6%97%A5&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202605021600",
-      "title": "萨瓦纳草原的树上睡觉的豹子，马赛马拉国家保护区，肯尼亚",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "萨瓦纳的晚霞",
-      "image": "https://www.bing.com/th?id=OHR.MasaiLeopard_ZH-CN3406483238_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E5%9B%BD%E9%99%85%E8%B1%B9%E7%B1%BB%E6%97%A5&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-05-10",
-    "dateLabel": "5月10日",
+    "dateKey": "2026-05-11",
+    "dateLabel": "5月11日",
     "items": [
       {
         "year": "2023",
-        "text": "臺中捷運綠線豐樂公園站附近發生建築工地塔式起重機吊臂掉落撞擊列車事故，造成至少1人死亡、10人受傷。",
+        "text": "世界衛生組織宣布猴痘疫情不再構成國際關注的突發公共衛生事件。",
         "link": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4"
       },
       {
-        "year": "2018",
-        "text": "马来西亚新任首相马哈迪·莫哈末前往吉隆坡国家皇宫觐见国家元首苏丹莫哈末五世，进行宣誓就任首相仪式。",
-        "link": "https://zh.wikipedia.org/wiki/2018%E5%B9%B4"
+        "year": "2022",
+        "text": "香港警務處國家安全處以違反《香港國家安全法》為由，拘捕陳日君、何韻詩等5名612人道支援基金信託人。",
+        "link": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4"
       }
     ]
   },
@@ -215,6 +215,14 @@
     ],
     "chinaSociety": [
       {
+        "title": "男子加油逃单同行人对监控比耶",
+        "link": "https://www.chinanews.com.cn/sh/2026/05-10/10618774.shtml",
+        "summary": "近日，广东梅州丰顺县发生一起加油逃单事件。一辆轿车在加满价值640元的油后，司机未付款便强行逃离现场，同行人员还在逃窜过程中对着监控摄像头嚣张“比耶”。",
+        "image": "https://www.chinanews.com/cr/2026/0510/2155718375.JPG",
+        "publishedAt": "2026-05-10T15:47:57.000Z",
+        "source": "中新网"
+      },
+      {
         "title": "广西防城港部署专项行动整治违规载客出海等问题",
         "link": "https://www.chinanews.com.cn/sh/2026/05-10/10618758.shtml",
         "summary": "总台报道有反馈丨广西防城港部署专项行动整治违规载客出海等问题",
@@ -245,17 +253,33 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260510/77fa953f-9358-4da3-9baa-c6c50f558c9f_zsite.jpg",
         "publishedAt": "2026-05-10T11:58:49.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "第八届北京邻里节活动启幕 近百万居民共赴友邻之约",
-        "link": "https://www.chinanews.com.cn/sh/2026/05-10/10618684.shtml",
-        "summary": "中新网北京5月10日电(记者 徐婧)以“友邻而居，温暖相聚”为主题的第八届北京邻里节10日启幕。本次活动由北京市委社会工作部会同23家市级单位联合主办，全市城乡社区同步开展邻里活动，邀请居民走出家门，共赴一场友邻之约。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260510/ab74e7eb-1603-4141-aa22-c2cbcdfadb9a_zsite.jpeg",
-        "publishedAt": "2026-05-10T11:38:46.000Z",
-        "source": "中新网"
       }
     ],
     "chinaFinance": [
+      {
+        "title": "“AI硅光芯片第一股”创始人：三次抉择见证科创与城市共生",
+        "link": "https://www.chinanews.com.cn/cj/2026/05-10/10618780.shtml",
+        "summary": "中新社上海5月10日电 题：“AI硅光芯片第一股”创始人：三次抉择见证科创与城市共生",
+        "image": "",
+        "publishedAt": "2026-05-10T15:53:32.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "中美将在韩国举行经贸磋商",
+        "link": "https://www.chinanews.com.cn/cj/2026/05-10/10618775.shtml",
+        "summary": "中新社北京5月10日电 中国商务部新闻发言人10日宣布：经中美双方商定，中共中央政治局委员、中国国务院副总理何立峰将于5月12日-13日率团赴韩国与美方举行经贸磋商。双方将以两国元首釜山会晤及历次通话重要共识为引领，就彼此关心的经贸问题开展磋商。(完)",
+        "image": "",
+        "publishedAt": "2026-05-10T15:13:52.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "商务部新闻发言人就中美经贸磋商有关问题答记者问",
+        "link": "https://www.chinanews.com.cn/cj/2026/05-10/10618771.shtml",
+        "summary": "有记者问：近期有消息称，中美双方将很快举行下一轮经贸磋商，请问商务部是否有最新消息？",
+        "image": "",
+        "publishedAt": "2026-05-10T14:37:01.000Z",
+        "source": "中新网"
+      },
       {
         "title": "优存量拓增量提效能，加快建设交通强国",
         "link": "https://www.chinanews.com.cn/cj/2026/05-10/10618766.shtml",
@@ -271,39 +295,23 @@
         "image": "",
         "publishedAt": "2026-05-10T13:07:36.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "北京科博会：呈现科技创新与产业创新深度融合新图景",
-        "link": "https://www.chinanews.com.cn/cj/2026/05-10/10618732.shtml",
-        "summary": "中新网北京5月10日电 从各类特殊用途的无人机到黑灯工作站的无人运行，从“凌开一号”可拼接无液氦稀释制冷机到镭测科技的双频激光干涉仪……为期三天的第二十八届中国北京国际科技产业博览会(以下简称“北京科博会”)，让观众看到科技创新与产业创新深度融合的新图景徐徐展开。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260510/b1915464-8f79-4a8c-a116-6158215b2409_zsite.JPG",
-        "publishedAt": "2026-05-10T13:02:15.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "4454亿！一季度广告业成绩亮眼",
-        "link": "https://www.chinanews.com.cn/cj/2026/05-10/10618751.shtml",
-        "summary": "【图解】4454亿！一季度广告业成绩亮眼",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/05/10/7204649ffc7440b8b65588672422165f.jpg",
-        "publishedAt": "2026-05-10T12:58:57.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "泉州斗尾港区首次出口丙烯",
-        "link": "https://www.chinanews.com.cn/cj/2026/05-10/10618723.shtml",
-        "summary": "中新网泉州5月10日电 (黄文兴)10日，装载着2300吨丙烯的中国籍“招源”轮从泉州惠安斗尾港区外走马埭5#泊位缓缓驶离，出口至韩国。这是斗尾港区首次出口丙烯，标志着“惠安产”化工品出口实现新突破。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260510/2d4c37eb-dbca-42cd-a299-a4d45b3c10fb_zsite.jpg",
-        "publishedAt": "2026-05-10T12:58:17.000Z",
-        "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "First passengers fly home from virus-hit cruise ship",
+        "title": "Iran sends response to US proposals to end war",
+        "link": "https://www.bbc.com/news/articles/clypgz9e5pmo?at_medium=RSS&at_campaign=rss",
+        "summary": "No details have been released of Iran's response - or the US proposals - designed to bring the war to an end.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ec21/live/646bd870-4c75-11f1-8898-83029ebf7f92.jpg",
+        "publishedAt": "2026-05-10T16:46:09.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Countries airlift nationals evacuated from virus-hit cruise ship",
         "link": "https://www.bbc.com/news/articles/cn7pzmg8zeno?at_medium=RSS&at_campaign=rss",
         "summary": "Spanish passengers are the first to leave the MV Hondius, after an outbreak saw three people die and several infected.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cb2b/live/e1bcfcb0-4c5b-11f1-a41c-91073f0dac7c.jpg",
-        "publishedAt": "2026-05-10T13:30:52.000Z",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/de71/live/72122540-4c81-11f1-bd52-e755d604ece4.jpg",
+        "publishedAt": "2026-05-10T16:44:25.000Z",
         "source": "BBC"
       },
       {
@@ -311,15 +319,7 @@
         "link": "https://www.bbc.com/news/articles/cvgzv77ldpdo?at_medium=RSS&at_campaign=rss",
         "summary": "The specialist team parachuted onto Tristan da Cunha, a remote British overseas territory, to treat them.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8209/live/8752f770-4c42-11f1-b55d-0f258dce1735.jpg",
-        "publishedAt": "2026-05-10T12:52:31.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Iran warns against complying with US sanctions as Gulf attacks reported",
-        "link": "https://www.bbc.com/news/articles/clypgz9e5pmo?at_medium=RSS&at_campaign=rss",
-        "summary": "The warning comes as a commercial vessel is hit off Qatar, and both the UAE and Kuwait report drone attacks.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6618/live/ae2197f0-4c5e-11f1-8823-efe9fd112af6.png",
-        "publishedAt": "2026-05-10T12:22:06.000Z",
+        "publishedAt": "2026-05-10T15:02:51.000Z",
         "source": "BBC"
       },
       {
@@ -327,19 +327,27 @@
         "link": "https://www.bbc.com/news/articles/cn8p4j2jzwwo?at_medium=RSS&at_campaign=rss",
         "summary": "The Russian leader sees potential for Ukraine negotiations, but condemns the West's backing for President Zelensky.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ecc/live/304aa9b0-4bfb-11f1-ac78-2112837ce2aa.jpg",
-        "publishedAt": "2026-05-10T00:46:07.000Z",
+        "publishedAt": "2026-05-10T13:56:43.000Z",
         "source": "BBC"
       },
       {
-        "title": "Lebanon says Israeli strikes killed 39",
-        "link": "https://www.bbc.com/news/articles/cn4pjegk358o?at_medium=RSS&at_campaign=rss",
-        "summary": "Israel and Hezbollah have continued to trade fire despite a ceasefire deal being announced last month.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/014d/live/7398ef90-4bc1-11f1-8bbe-110a0d5a715a.jpg",
-        "publishedAt": "2026-05-09T21:23:14.000Z",
-        "source": "BBC"
+        "title": "Rebels jeered Putin’s troops out of a key African town. Now his regional grip is slipping away",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYWlBcHNOUk90cDFOWGUtakRMTEVlYk9lWG1CS1FuUHNqdWVieDV6Wm02bFdyWW9MSUtyVF9OaWxna2htSW9NMGRSRWRXbnZCSHlERmhpWk10aDZPRVBjNUJpdThrUDRxR2Zld2FhbFgwbTQtWUw2bFhPVjJsYXFlaDl3?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-05-10T11:09:11.000Z",
+        "source": "CNN"
       }
     ],
     "worldBusiness": [
+      {
+        "title": "Matt Damon revives Brett Kavanaugh in third 'SNL' stint",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUnlnSnFGYWw4OEdNcW1iM18xUXFFcUNiZUVJR2dyMnRhczE2dEdaY2daNjB6UWJ4U3VYMnZzeDAxaGZLVV84c2NPVld6T3FyblJEbnhubnVQaEdqR2NId2JXTFl1eHRPTVBHNGdyZHRvWWEzMy1GeENKYlMwMTduUmV5WmhpblJfejROY3lrdkVSS2F5WXJCUA?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-05-10T05:26:39.000Z",
+        "source": "CNN"
+      },
       {
         "title": "The UK is set for a staycation summer - and there are plenty of hidden gems",
         "link": "https://www.bbc.com/news/articles/cgjpv9pdnpwo?at_medium=RSS&at_campaign=rss",
@@ -371,14 +379,6 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f286/live/ba7a9570-4ac3-11f1-9325-ade34e8d64d0.jpg",
         "publishedAt": "2026-05-08T14:42:13.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "The companies making billions from the Iran war",
-        "link": "https://www.bbc.com/news/articles/ce8pyyz5e0ro?at_medium=RSS&at_campaign=rss",
-        "summary": "Through surging profits or soaring share prices, the war has been a boon for some firms.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4805/live/10c5a3c0-4ab5-11f1-aa18-a5969e596c8c.jpg",
-        "publishedAt": "2026-05-08T08:13:07.000Z",
-        "source": "BBC"
       }
     ],
     "worldTech": [
@@ -400,7 +400,7 @@
       },
       {
         "title": "Why Utah residents are protesting a massive AI data center project backed by Kevin O’Leary",
-        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOY0R5dFU4N01FdnNNNm1aVDhLN21CUFhMQlhZdmJfR2VVeFVOVDBldnR1bEhkMGNTb0V6RVBGWkt0VEtoR1ZrZndLWjRfSzBfOFc3REE5alY1bkdBRlFnSkVJWGUySzhEc21qT0dhTWZkUGxVbk5Oc01UOE5odzN3QmhWMVZ2Rm1feGRJ?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQkNCbXVHc21sNWJnNW9tRHlvam1NSEthdF94cVF1M1RXNUZTVF9UcV80SGJFaE9uUllLZ0dkMkcxTXV6T05XOXQ2U0NTRTlUNUJxYTh3NG1DR3g1V0VIZW9BXzgzRVl3dXl1M292ak9hZ2hXM05OWEl3Q1pGZE82cW5xUHdMUQ?oc=5",
         "summary": "",
         "image": "",
         "publishedAt": "2026-05-09T07:00:51.000Z",
@@ -467,11 +467,19 @@
     ],
     "international": [
       {
-        "title": "First passengers fly home from virus-hit cruise ship",
+        "title": "Iran sends response to US proposals to end war",
+        "link": "https://www.bbc.com/news/articles/clypgz9e5pmo?at_medium=RSS&at_campaign=rss",
+        "summary": "No details have been released of Iran's response - or the US proposals - designed to bring the war to an end.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ec21/live/646bd870-4c75-11f1-8898-83029ebf7f92.jpg",
+        "publishedAt": "2026-05-10T16:46:09.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Countries airlift nationals evacuated from virus-hit cruise ship",
         "link": "https://www.bbc.com/news/articles/cn7pzmg8zeno?at_medium=RSS&at_campaign=rss",
         "summary": "Spanish passengers are the first to leave the MV Hondius, after an outbreak saw three people die and several infected.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cb2b/live/e1bcfcb0-4c5b-11f1-a41c-91073f0dac7c.jpg",
-        "publishedAt": "2026-05-10T13:30:52.000Z",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/de71/live/72122540-4c81-11f1-bd52-e755d604ece4.jpg",
+        "publishedAt": "2026-05-10T16:44:25.000Z",
         "source": "BBC"
       },
       {
@@ -479,15 +487,7 @@
         "link": "https://www.bbc.com/news/articles/cvgzv77ldpdo?at_medium=RSS&at_campaign=rss",
         "summary": "The specialist team parachuted onto Tristan da Cunha, a remote British overseas territory, to treat them.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8209/live/8752f770-4c42-11f1-b55d-0f258dce1735.jpg",
-        "publishedAt": "2026-05-10T12:52:31.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Iran warns against complying with US sanctions as Gulf attacks reported",
-        "link": "https://www.bbc.com/news/articles/clypgz9e5pmo?at_medium=RSS&at_campaign=rss",
-        "summary": "The warning comes as a commercial vessel is hit off Qatar, and both the UAE and Kuwait report drone attacks.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6618/live/ae2197f0-4c5e-11f1-8823-efe9fd112af6.png",
-        "publishedAt": "2026-05-10T12:22:06.000Z",
+        "publishedAt": "2026-05-10T15:02:51.000Z",
         "source": "BBC"
       },
       {
@@ -495,203 +495,24 @@
         "link": "https://www.bbc.com/news/articles/cn8p4j2jzwwo?at_medium=RSS&at_campaign=rss",
         "summary": "The Russian leader sees potential for Ukraine negotiations, but condemns the West's backing for President Zelensky.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ecc/live/304aa9b0-4bfb-11f1-ac78-2112837ce2aa.jpg",
-        "publishedAt": "2026-05-10T00:46:07.000Z",
+        "publishedAt": "2026-05-10T13:56:43.000Z",
         "source": "BBC"
       },
       {
-        "title": "Lebanon says Israeli strikes killed 39",
-        "link": "https://www.bbc.com/news/articles/cn4pjegk358o?at_medium=RSS&at_campaign=rss",
-        "summary": "Israel and Hezbollah have continued to trade fire despite a ceasefire deal being announced last month.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/014d/live/7398ef90-4bc1-11f1-8bbe-110a0d5a715a.jpg",
-        "publishedAt": "2026-05-09T21:23:14.000Z",
-        "source": "BBC"
+        "title": "Rebels jeered Putin’s troops out of a key African town. Now his regional grip is slipping away",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYWlBcHNOUk90cDFOWGUtakRMTEVlYk9lWG1CS1FuUHNqdWVieDV6Wm02bFdyWW9MSUtyVF9OaWxna2htSW9NMGRSRWRXbnZCSHlERmhpWk10aDZPRVBjNUJpdThrUDRxR2Zld2FhbFgwbTQtWUw2bFhPVjJsYXFlaDl3?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-05-10T11:09:11.000Z",
+        "source": "CNN"
       }
     ],
     "nba": []
   },
   "nbaScoreboard": {
-    "date": "2026-05-10",
+    "date": "2026-05-11",
     "currentIndex": 4,
     "days": [
-      {
-        "date": "2026-05-06",
-        "games": [
-          {
-            "id": "401871160",
-            "link": "https://www.espn.com/nba/game/_/gameId/401871160/76ers-knicks",
-            "startTime": "2026-05-06T23:00Z",
-            "state": "post",
-            "statusText": "Final",
-            "detail": "Final",
-            "note": "East Semifinals - Game 2",
-            "homeTeam": {
-              "abbreviation": "NY",
-              "displayName": "New York Knicks",
-              "score": "108",
-              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
-              "leaderContext": "Game Leaders",
-              "leaders": [
-                {
-                  "label": "PTS",
-                  "value": "26",
-                  "player": "Jalen Brunson",
-                  "position": "G",
-                  "jersey": "11",
-                  "summary": "9/21 FG, 7/8 FT",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
-                  "link": "https://www.espn.com/nba/player/_/id/3934672/jalen-brunson"
-                },
-                {
-                  "label": "REB",
-                  "value": "10",
-                  "player": "Karl-Anthony Towns",
-                  "position": "C",
-                  "jersey": "32",
-                  "summary": "8 DREB, 2 OREB",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3136195.png",
-                  "link": "https://www.espn.com/nba/player/_/id/3136195/karl-anthony-towns"
-                },
-                {
-                  "label": "AST",
-                  "value": "7",
-                  "player": "Karl-Anthony Towns",
-                  "position": "C",
-                  "jersey": "32",
-                  "summary": "3 TO, 27 MIN",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3136195.png",
-                  "link": "https://www.espn.com/nba/player/_/id/3136195/karl-anthony-towns"
-                }
-              ]
-            },
-            "awayTeam": {
-              "abbreviation": "PHI",
-              "displayName": "Philadelphia 76ers",
-              "score": "102",
-              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
-              "leaderContext": "Game Leaders",
-              "leaders": [
-                {
-                  "label": "PTS",
-                  "value": "26",
-                  "player": "Tyrese Maxey",
-                  "position": "G",
-                  "jersey": "0",
-                  "summary": "9/23 FG, 7/9 FT",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431678.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4431678/tyrese-maxey"
-                },
-                {
-                  "label": "REB",
-                  "value": "8",
-                  "player": "Andre Drummond",
-                  "position": "C",
-                  "jersey": "1",
-                  "summary": "6 DREB, 2 OREB",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/6585.png",
-                  "link": "https://www.espn.com/nba/player/_/id/6585/andre-drummond"
-                },
-                {
-                  "label": "AST",
-                  "value": "6",
-                  "player": "Tyrese Maxey",
-                  "position": "G",
-                  "jersey": "0",
-                  "summary": "6 TO, 47 MIN",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431678.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4431678/tyrese-maxey"
-                }
-              ]
-            }
-          },
-          {
-            "id": "401871153",
-            "link": "https://www.espn.com/nba/game/_/gameId/401871153/timberwolves-spurs",
-            "startTime": "2026-05-07T01:30Z",
-            "state": "post",
-            "statusText": "Final",
-            "detail": "Final",
-            "note": "West Semifinals - Game 2",
-            "homeTeam": {
-              "abbreviation": "SA",
-              "displayName": "San Antonio Spurs",
-              "score": "133",
-              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
-              "leaderContext": "Game Leaders",
-              "leaders": [
-                {
-                  "label": "PTS",
-                  "value": "21",
-                  "player": "Stephon Castle",
-                  "position": "G",
-                  "jersey": "5",
-                  "summary": "6/10 FG, 9/9 FT",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4845367.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4845367/stephon-castle"
-                },
-                {
-                  "label": "REB",
-                  "value": "15",
-                  "player": "Victor Wembanyama",
-                  "position": "F",
-                  "jersey": "1",
-                  "summary": "11 DREB, 4 OREB",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
-                  "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
-                },
-                {
-                  "label": "AST",
-                  "value": "5",
-                  "player": "Dylan Harper",
-                  "position": "G",
-                  "jersey": "2",
-                  "summary": "2 TO, 22 MIN",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5037871.png",
-                  "link": "https://www.espn.com/nba/player/_/id/5037871/dylan-harper"
-                }
-              ]
-            },
-            "awayTeam": {
-              "abbreviation": "MIN",
-              "displayName": "Minnesota Timberwolves",
-              "score": "95",
-              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
-              "leaderContext": "Game Leaders",
-              "leaders": [
-                {
-                  "label": "PTS",
-                  "value": "12",
-                  "player": "Julius Randle",
-                  "position": "F",
-                  "jersey": "30",
-                  "summary": "4/10 FG, 4/5 FT",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3064514.png",
-                  "link": "https://www.espn.com/nba/player/_/id/3064514/julius-randle"
-                },
-                {
-                  "label": "REB",
-                  "value": "10",
-                  "player": "Rudy Gobert",
-                  "position": "C",
-                  "jersey": "27",
-                  "summary": "6 DREB, 4 OREB",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3032976.png",
-                  "link": "https://www.espn.com/nba/player/_/id/3032976/rudy-gobert"
-                },
-                {
-                  "label": "AST",
-                  "value": "4",
-                  "player": "Jaden McDaniels",
-                  "position": "F",
-                  "jersey": "3",
-                  "summary": "2 TO, 20 MIN",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431671.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4431671/jaden-mcdaniels"
-                }
-              ]
-            }
-          }
-        ]
-      },
       {
         "date": "2026-05-07",
         "games": [
@@ -2036,179 +1857,358 @@
             }
           }
         ]
+      },
+      {
+        "date": "2026-05-15",
+        "games": [
+          {
+            "id": "401871157",
+            "link": "https://www.espn.com/nba/game/_/gameId/401871157/spurs-timberwolves",
+            "startTime": "2026-05-15T04:00Z",
+            "state": "pre",
+            "statusText": "Scheduled",
+            "detail": "TBD",
+            "note": "West Semifinals - Game 6 If Necessary",
+            "homeTeam": {
+              "abbreviation": "MIN",
+              "displayName": "Minnesota Timberwolves",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "28.8",
+                  "player": "Anthony Edwards",
+                  "position": "G",
+                  "jersey": "5",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4594268.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4594268/anthony-edwards"
+                },
+                {
+                  "label": "RPG",
+                  "value": "11.5",
+                  "player": "Rudy Gobert",
+                  "position": "C",
+                  "jersey": "27",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3032976.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3032976/rudy-gobert"
+                },
+                {
+                  "label": "APG",
+                  "value": "5.0",
+                  "player": "Julius Randle",
+                  "position": "F",
+                  "jersey": "30",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3064514.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3064514/julius-randle"
+                }
+              ]
+            },
+            "awayTeam": {
+              "abbreviation": "SA",
+              "displayName": "San Antonio Spurs",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "25.0",
+                  "player": "Victor Wembanyama",
+                  "position": "F",
+                  "jersey": "1",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
+                  "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
+                },
+                {
+                  "label": "RPG",
+                  "value": "11.5",
+                  "player": "Victor Wembanyama",
+                  "position": "F",
+                  "jersey": "1",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
+                  "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
+                },
+                {
+                  "label": "APG",
+                  "value": "7.4",
+                  "player": "Stephon Castle",
+                  "position": "G",
+                  "jersey": "5",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4845367.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4845367/stephon-castle"
+                }
+              ]
+            }
+          },
+          {
+            "id": "401871338",
+            "link": "https://www.espn.com/nba/game/_/gameId/401871338/pistons-cavaliers",
+            "startTime": "2026-05-15T04:00Z",
+            "state": "pre",
+            "statusText": "Scheduled",
+            "detail": "TBD",
+            "note": "East Semifinals - Game 6 If Necessary",
+            "homeTeam": {
+              "abbreviation": "CLE",
+              "displayName": "Cleveland Cavaliers",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "27.9",
+                  "player": "Donovan Mitchell",
+                  "position": "G",
+                  "jersey": "45",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3908809.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3908809/donovan-mitchell"
+                },
+                {
+                  "label": "RPG",
+                  "value": "9.0",
+                  "player": "Evan Mobley",
+                  "position": "C",
+                  "jersey": "4",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432158.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4432158/evan-mobley"
+                },
+                {
+                  "label": "APG",
+                  "value": "5.7",
+                  "player": "Donovan Mitchell",
+                  "position": "G",
+                  "jersey": "45",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3908809.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3908809/donovan-mitchell"
+                }
+              ]
+            },
+            "awayTeam": {
+              "abbreviation": "DET",
+              "displayName": "Detroit Pistons",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "23.9",
+                  "player": "Cade Cunningham",
+                  "position": "G",
+                  "jersey": "2",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432166.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4432166/cade-cunningham"
+                },
+                {
+                  "label": "RPG",
+                  "value": "10.5",
+                  "player": "Jalen Duren",
+                  "position": "C",
+                  "jersey": "0",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433621.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4433621/jalen-duren"
+                },
+                {
+                  "label": "APG",
+                  "value": "9.9",
+                  "player": "Cade Cunningham",
+                  "position": "G",
+                  "jersey": "2",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432166.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4432166/cade-cunningham"
+                }
+              ]
+            }
+          }
+        ]
       }
     ],
     "games": [
       {
-        "id": "401871162",
-        "link": "https://www.espn.com/nba/game/_/gameId/401871162/knicks-76ers",
-        "startTime": "2026-05-10T19:30Z",
+        "id": "401871336",
+        "link": "https://www.espn.com/nba/game/_/gameId/401871336/pistons-cavaliers",
+        "startTime": "2026-05-12T00:00Z",
         "state": "pre",
         "statusText": "Scheduled",
-        "detail": "5/10 - 3:30 PM EDT",
+        "detail": "5/11 - 8:00 PM EDT",
         "note": "East Semifinals - Game 4",
         "homeTeam": {
-          "abbreviation": "PHI",
-          "displayName": "Philadelphia 76ers",
+          "abbreviation": "CLE",
+          "displayName": "Cleveland Cavaliers",
           "score": "0",
-          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
           "leaderContext": "Season Leaders",
           "leaders": [
             {
               "label": "PPG",
-              "value": "28.3",
-              "player": "Tyrese Maxey",
+              "value": "27.9",
+              "player": "Donovan Mitchell",
               "position": "G",
-              "jersey": "0",
+              "jersey": "45",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431678.png",
-              "link": "https://www.espn.com/nba/player/_/id/4431678/tyrese-maxey"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3908809.png",
+              "link": "https://www.espn.com/nba/player/_/id/3908809/donovan-mitchell"
             },
             {
               "label": "RPG",
-              "value": "8.4",
-              "player": "Andre Drummond",
+              "value": "9.0",
+              "player": "Evan Mobley",
               "position": "C",
-              "jersey": "1",
+              "jersey": "4",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/6585.png",
-              "link": "https://www.espn.com/nba/player/_/id/6585/andre-drummond"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432158.png",
+              "link": "https://www.espn.com/nba/player/_/id/4432158/evan-mobley"
             },
             {
               "label": "APG",
-              "value": "6.6",
-              "player": "Tyrese Maxey",
+              "value": "5.7",
+              "player": "Donovan Mitchell",
               "position": "G",
-              "jersey": "0",
+              "jersey": "45",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431678.png",
-              "link": "https://www.espn.com/nba/player/_/id/4431678/tyrese-maxey"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3908809.png",
+              "link": "https://www.espn.com/nba/player/_/id/3908809/donovan-mitchell"
             }
           ]
         },
         "awayTeam": {
-          "abbreviation": "NY",
-          "displayName": "New York Knicks",
+          "abbreviation": "DET",
+          "displayName": "Detroit Pistons",
           "score": "0",
-          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
           "leaderContext": "Season Leaders",
           "leaders": [
             {
               "label": "PPG",
-              "value": "26.0",
-              "player": "Jalen Brunson",
+              "value": "23.9",
+              "player": "Cade Cunningham",
               "position": "G",
-              "jersey": "11",
+              "jersey": "2",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
-              "link": "https://www.espn.com/nba/player/_/id/3934672/jalen-brunson"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432166.png",
+              "link": "https://www.espn.com/nba/player/_/id/4432166/cade-cunningham"
             },
             {
               "label": "RPG",
-              "value": "11.9",
-              "player": "Karl-Anthony Towns",
+              "value": "10.5",
+              "player": "Jalen Duren",
               "position": "C",
-              "jersey": "32",
+              "jersey": "0",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3136195.png",
-              "link": "https://www.espn.com/nba/player/_/id/3136195/karl-anthony-towns"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433621.png",
+              "link": "https://www.espn.com/nba/player/_/id/4433621/jalen-duren"
             },
             {
               "label": "APG",
-              "value": "6.8",
-              "player": "Jalen Brunson",
+              "value": "9.9",
+              "player": "Cade Cunningham",
               "position": "G",
-              "jersey": "11",
+              "jersey": "2",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
-              "link": "https://www.espn.com/nba/player/_/id/3934672/jalen-brunson"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432166.png",
+              "link": "https://www.espn.com/nba/player/_/id/4432166/cade-cunningham"
             }
           ]
         }
       },
       {
-        "id": "401871155",
-        "link": "https://www.espn.com/nba/game/_/gameId/401871155/spurs-timberwolves",
-        "startTime": "2026-05-10T23:30Z",
+        "id": "401871329",
+        "link": "https://www.espn.com/nba/game/_/gameId/401871329/thunder-lakers",
+        "startTime": "2026-05-12T02:30Z",
         "state": "pre",
         "statusText": "Scheduled",
-        "detail": "5/10 - 7:30 PM EDT",
+        "detail": "5/11 - 10:30 PM EDT",
         "note": "West Semifinals - Game 4",
         "homeTeam": {
-          "abbreviation": "MIN",
-          "displayName": "Minnesota Timberwolves",
+          "abbreviation": "LAL",
+          "displayName": "Los Angeles Lakers",
           "score": "0",
-          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
+          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
           "leaderContext": "Season Leaders",
           "leaders": [
             {
               "label": "PPG",
-              "value": "28.8",
-              "player": "Anthony Edwards",
+              "value": "23.3",
+              "player": "Austin Reaves",
               "position": "G",
-              "jersey": "5",
+              "jersey": "15",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4594268.png",
-              "link": "https://www.espn.com/nba/player/_/id/4594268/anthony-edwards"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066457.png",
+              "link": "https://www.espn.com/nba/player/_/id/4066457/austin-reaves"
             },
             {
               "label": "RPG",
-              "value": "11.5",
-              "player": "Rudy Gobert",
+              "value": "8.0",
+              "player": "Deandre Ayton",
               "position": "C",
-              "jersey": "27",
+              "jersey": "5",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3032976.png",
-              "link": "https://www.espn.com/nba/player/_/id/3032976/rudy-gobert"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278129.png",
+              "link": "https://www.espn.com/nba/player/_/id/4278129/deandre-ayton"
             },
             {
               "label": "APG",
-              "value": "5.0",
-              "player": "Julius Randle",
+              "value": "7.2",
+              "player": "LeBron James",
               "position": "F",
-              "jersey": "30",
+              "jersey": "23",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3064514.png",
-              "link": "https://www.espn.com/nba/player/_/id/3064514/julius-randle"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/1966.png",
+              "link": "https://www.espn.com/nba/player/_/id/1966/lebron-james"
             }
           ]
         },
         "awayTeam": {
-          "abbreviation": "SA",
-          "displayName": "San Antonio Spurs",
+          "abbreviation": "OKC",
+          "displayName": "Oklahoma City Thunder",
           "score": "0",
-          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
           "leaderContext": "Season Leaders",
           "leaders": [
             {
               "label": "PPG",
-              "value": "25.0",
-              "player": "Victor Wembanyama",
-              "position": "F",
-              "jersey": "1",
+              "value": "31.1",
+              "player": "Shai Gilgeous-Alexander",
+              "position": "G",
+              "jersey": "2",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
-              "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278073.png",
+              "link": "https://www.espn.com/nba/player/_/id/4278073/shai-gilgeous-alexander"
             },
             {
               "label": "RPG",
-              "value": "11.5",
-              "player": "Victor Wembanyama",
-              "position": "F",
-              "jersey": "1",
+              "value": "8.9",
+              "player": "Chet Holmgren",
+              "position": "C",
+              "jersey": "7",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
-              "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433255.png",
+              "link": "https://www.espn.com/nba/player/_/id/4433255/chet-holmgren"
             },
             {
               "label": "APG",
-              "value": "7.4",
-              "player": "Stephon Castle",
+              "value": "6.6",
+              "player": "Shai Gilgeous-Alexander",
               "position": "G",
-              "jersey": "5",
+              "jersey": "2",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4845367.png",
-              "link": "https://www.espn.com/nba/player/_/id/4845367/stephon-castle"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278073.png",
+              "link": "https://www.espn.com/nba/player/_/id/4278073/shai-gilgeous-alexander"
             }
           ]
         }
@@ -2216,7 +2216,7 @@
     ]
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-05-10",
+    "rotationLabel": "Curated Rotation · 2026-05-11",
     "sections": [
       {
         "id": "data-storage",
@@ -2224,26 +2224,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-5",
-            "sectionId": "data-storage",
-            "title": "The FAISS Library",
-            "authors": [
-              "Jeff Johnson",
-              "Matthijs Douze",
-              "Herve Jegou"
-            ],
-            "venue": "IEEE T-BD",
-            "year": 2021,
-            "quality": "高影响力",
-            "categories": [
-              "vector search",
-              "ANN"
-            ],
-            "link": "https://arxiv.org/abs/2401.08281",
-            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-6",
             "sectionId": "data-storage",
@@ -2263,7 +2243,7 @@
             ],
             "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
             "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-1",
@@ -2285,6 +2265,27 @@
             "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
             "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-2",
+            "sectionId": "data-storage",
+            "title": "Bigtable: A Distributed Storage System for Structured Data",
+            "authors": [
+              "Fay Chang",
+              "Jeffrey Dean",
+              "Sanjay Ghemawat",
+              "Wilson C. Hsieh"
+            ],
+            "venue": "OSDI",
+            "year": 2006,
+            "quality": "顶会",
+            "categories": [
+              "distributed systems",
+              "database"
+            ],
+            "link": "https://research.google/pubs/pub27898/",
+            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -2294,27 +2295,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-6",
-            "sectionId": "computer-vision",
-            "title": "DINOv2: Learning Robust Visual Features without Supervision",
-            "authors": [
-              "Maxime Oquab",
-              "Timothée Darcet",
-              "Théo Moutakanni",
-              "Huy V. Vo"
-            ],
-            "venue": "arXiv / Meta",
-            "year": 2023,
-            "quality": "高影响力",
-            "categories": [
-              "self-supervised",
-              "representation"
-            ],
-            "link": "https://arxiv.org/abs/2304.07193",
-            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-1",
             "sectionId": "computer-vision",
@@ -2334,7 +2314,7 @@
             ],
             "link": "https://arxiv.org/abs/1512.03385",
             "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-2",
@@ -2356,6 +2336,27 @@
             "link": "https://arxiv.org/abs/2005.12872",
             "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-3",
+            "sectionId": "computer-vision",
+            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+            "authors": [
+              "Alexey Dosovitskiy",
+              "Lucas Beyer",
+              "Alexander Kolesnikov",
+              "Dirk Weissenborn"
+            ],
+            "venue": "ICLR",
+            "year": 2021,
+            "quality": "顶会",
+            "categories": [
+              "vision transformer",
+              "classification"
+            ],
+            "link": "https://arxiv.org/abs/2010.11929",
+            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -2365,27 +2366,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-1",
-            "sectionId": "llm-memory",
-            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
-            "authors": [
-              "Patrick Lewis",
-              "Ethan Perez",
-              "Aleksandra Piktus",
-              "Fabio Petroni"
-            ],
-            "venue": "NeurIPS",
-            "year": 2020,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "retrieval"
-            ],
-            "link": "https://arxiv.org/abs/2005.11401",
-            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-2",
             "sectionId": "llm-memory",
@@ -2405,7 +2385,7 @@
             ],
             "link": "https://arxiv.org/abs/2203.08913",
             "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-3",
@@ -2427,6 +2407,27 @@
             "link": "https://arxiv.org/abs/2112.04426",
             "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-4",
+            "sectionId": "llm-memory",
+            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+            "authors": [
+              "Akari Asai",
+              "Zequn Zhang",
+              "Avirup Sil",
+              "Hannaneh Hajishirzi"
+            ],
+            "venue": "ICLR",
+            "year": 2024,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "self-reflection"
+            ],
+            "link": "https://arxiv.org/abs/2310.11511",
+            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -2436,27 +2437,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-2",
-            "sectionId": "agents",
-            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
-            "authors": [
-              "Timo Schick",
-              "Jane Dwivedi-Yu",
-              "Roberta Dessì",
-              "Ari Holtzman"
-            ],
-            "venue": "NeurIPS",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "tool use",
-              "agent"
-            ],
-            "link": "https://arxiv.org/abs/2302.04761",
-            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-3",
             "sectionId": "agents",
@@ -2476,7 +2456,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.03442",
             "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-4",
@@ -2497,6 +2477,27 @@
             ],
             "link": "https://arxiv.org/abs/2305.16291",
             "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-5",
+            "sectionId": "agents",
+            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+            "authors": [
+              "Qingyun Wu",
+              "Gagan Bansal",
+              "Jiaqi Zhang",
+              "Yiran Wu"
+            ],
+            "venue": "COLM",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "multi-agent",
+              "framework"
+            ],
+            "link": "https://arxiv.org/abs/2308.08155",
+            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
             "trackLabel": "轮换精选"
           }
         ]
