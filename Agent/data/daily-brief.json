@@ -1,36 +1,28 @@
 {
-  "generatedAt": "2026-05-13T15:11:27.831Z",
+  "generatedAt": "2026-05-13T18:08:50.348Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 29,
+      "temperature": 26,
       "weatherCode": 95,
-      "windSpeed": 3
+      "windSpeed": 4
     },
     "today": {
-      "date": "2026-05-13",
+      "date": "2026-05-14",
       "weatherCode": 95,
       "description": "雷暴",
-      "max": 35,
-      "min": 21,
-      "precipitationProbability": 0
+      "max": 34,
+      "min": 23,
+      "precipitationProbability": 2
     },
     "forecast": [
-      {
-        "date": "2026-05-13",
-        "weatherCode": 95,
-        "description": "雷暴",
-        "max": 35,
-        "min": 21,
-        "precipitationProbability": 0
-      },
       {
         "date": "2026-05-14",
         "weatherCode": 95,
         "description": "雷暴",
         "max": 34,
         "min": 23,
-        "precipitationProbability": 0
+        "precipitationProbability": 2
       },
       {
         "date": "2026-05-15",
@@ -38,7 +30,7 @@
         "description": "中雨",
         "max": 33,
         "min": 21,
-        "precipitationProbability": 48
+        "precipitationProbability": 78
       },
       {
         "date": "2026-05-16",
@@ -46,7 +38,7 @@
         "description": "小雨",
         "max": 23,
         "min": 19,
-        "precipitationProbability": 66
+        "precipitationProbability": 79
       },
       {
         "date": "2026-05-17",
@@ -54,33 +46,50 @@
         "description": "小雨",
         "max": 24,
         "min": 18,
-        "precipitationProbability": 68
+        "precipitationProbability": 80
+      },
+      {
+        "date": "2026-05-18",
+        "weatherCode": 53,
+        "description": "小雨",
+        "max": 25,
+        "min": 19,
+        "precipitationProbability": 51
       }
     ]
   },
   "classicQuote": {
-    "id": "taoteching-accumulate",
-    "text": "合抱之木，生于毫末；九层之台，起于累土。",
+    "id": "taoteching-self",
+    "text": "知人者智，自知者明；胜人者有力，自胜者强。",
     "source": "《道德经》",
     "author": "老子",
-    "note": "再大的目标，也要拆成今天能推进的一小步。"
+    "note": "比起和别人比较，更重要的是把自己的节奏稳住。"
   },
   "bookExcerpt": {
-    "id": "camel-xiangzi-sky",
-    "text": "天是越来越晴朗了，一轮火一样的太阳悬在空中，街上的一切都像在明晃晃地发着白光。",
-    "book": "《骆驼祥子》",
-    "author": "老舍"
+    "id": "norwegian-wood-rain",
+    "text": "雨还在下，细得像雾，落在草地和树叶上，世界像被一种安静的潮气轻轻包住。",
+    "book": "《挪威的森林》",
+    "author": "村上春树"
   },
   "featuredPlace": {
-    "id": "202605121600",
-    "title": "拱门与银河, 阿拉巴马山, 内华达山脉, 加利福尼亚州, 美国",
+    "id": "202605131600",
+    "title": "中世纪古镇皮蒂利亚诺, 托斯卡纳, 意大利",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "银河系，摇滚吧！",
-    "image": "https://www.bing.com/th?id=OHR.AlabamaHills_ZH-CN1387018045_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E9%98%BF%E6%8B%89%E5%B7%B4%E9%A9%AC%E5%B1%B1&form=hpcapt&mkt=zh-cn"
+    "summary": "一场穿越时空的旅程",
+    "image": "https://www.bing.com/th?id=OHR.Pitigliano_ZH-CN1509921892_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E7%9A%AE%E8%92%82%E5%88%A9%E4%BA%9A%E8%AF%BA&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202605131600",
+      "title": "中世纪古镇皮蒂利亚诺, 托斯卡纳, 意大利",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "一场穿越时空的旅程",
+      "image": "https://www.bing.com/th?id=OHR.Pitigliano_ZH-CN1509921892_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E7%9A%AE%E8%92%82%E5%88%A9%E4%BA%9A%E8%AF%BA&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202605121600",
       "title": "拱门与银河, 阿拉巴马山, 内华达山脉, 加利福尼亚州, 美国",
@@ -143,35 +152,34 @@
       "summary": "广袤铺展的沙漠",
       "image": "https://www.bing.com/th?id=OHR.Kofa_ZH-CN0584573563_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E7%A7%91%E6%B3%95%E5%9B%BD%E5%AE%B6%E9%87%8E%E7%94%9F%E5%8A%A8%E7%89%A9%E4%BF%9D%E6%8A%A4%E5%8C%BA&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202605051600",
-      "title": "平原上空的雷暴，保加利亚",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "承受压力之下的平原",
-      "image": "https://www.bing.com/th?id=OHR.BulgariaPlains_ZH-CN3853985252_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E4%BF%9D%E5%8A%A0%E5%88%A9%E4%BA%9A&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-05-13",
-    "dateLabel": "5月13日",
+    "dateKey": "2026-05-14",
+    "dateLabel": "5月14日",
     "items": [
       {
-        "year": "2021",
-        "text": "臺灣发生全臺大停電，數萬戶民眾受影響，經調查為高雄興達發電廠發生供電問題。",
-        "link": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4"
+        "year": "2011",
+        "text": "第三屆全港運動會開幕。",
+        "link": "https://zh.wikipedia.org/wiki/2011%E5%B9%B4"
       },
       {
-        "year": "2014",
-        "text": "越南发生排華暴動。",
-        "link": "https://zh.wikipedia.org/wiki/2014%E5%B9%B4"
+        "year": "2009",
+        "text": "中華民國總統馬英九簽署「經濟社會文化權利國際公約」及「公民與政治權利國際公約」批准書，象徵台灣的人權保障和國際接軌。",
+        "link": "https://zh.wikipedia.org/wiki/2009%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
+      {
+        "title": "中国科学家成功研制“九章四号”量子计算原型机",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-13/10620692.shtml",
+        "summary": "中新社合肥5月13日电 (记者 吴兰)中国科学家近日成功研制出“九章四号”量子计算原型机。相关研究成果北京时间5月13日发表在国际权威学术期刊《自然》(Nature)上。",
+        "image": "",
+        "publishedAt": "2026-05-13T15:36:17.000Z",
+        "source": "中新网"
+      },
       {
         "title": "合成生命重要突破 中国团队首次实现人工细胞形态功能不对称分裂",
         "link": "https://www.chinanews.com.cn/gn/2026/05-13/10620686.shtml",
@@ -203,17 +211,17 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260513/619fb6aa-5ea9-4c84-9941-ac7139d7790f_zsite.jpeg",
         "publishedAt": "2026-05-13T14:25:37.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "（友城故事）斯洛文尼亚驻华大使：卢布尔雅那与成都合作空间广阔",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-13/10620664.shtml",
-        "summary": "中新社成都5月13日电 (记者 岳依桐)“我们常把首都卢布尔雅那与成都的友城交往，作为两国双边关系发展的典范。”13日，专程参加“携手前行—卢布尔雅那与成都结好45周年纪念展览”开幕式的斯洛文尼亚驻华大使马博洋在成都接受采访时说。",
-        "image": "",
-        "publishedAt": "2026-05-13T14:20:29.000Z",
-        "source": "中新网"
       }
     ],
     "chinaSociety": [
+      {
+        "title": "云南迪庆德钦县城避险搬迁首批安置房交房",
+        "link": "https://www.chinanews.com.cn/sh/2026/05-13/10620689.shtml",
+        "summary": "中新社云南迪庆5月13日电 (记者 缪超 刘冉阳 杜潇潇)云南省迪庆藏族自治州德钦县城首批33户搬迁安置房13日交房。这座坐落于海拔3400米陡坡上的县城，因后山高位滑坡隐患及周边密布165处地质灾害隐患点，正逐步向澜沧江畔地势平缓的新址叶枝镇整体搬迁。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260513/a394a59a-2941-4d3c-8d2e-afbfed3736f8_zsite.jpg",
+        "publishedAt": "2026-05-13T15:32:01.000Z",
+        "source": "中新网"
+      },
       {
         "title": "农机讲堂进车厢、智能机器人互动 黑龙江“插秧专列”赋能科技兴农再出发",
         "link": "https://www.chinanews.com.cn/sh/2026/05-13/10620683.shtml",
@@ -244,14 +252,6 @@
         "summary": "中新网北京5月13日电(记者 陈杭)北京人民防空历史文化馆启动仪式12日举行，并全新推出人民防空历史文化主题展览。场馆由始建于1969年的早期人防工程——“北京地下城”，自2008年关停后，经重修转型而来，标志着首都又一重要红色人防历史遗迹焕发新生。",
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260513/05354c64-3d0c-4180-8963-33b17066a42e_zsite.jpg",
         "publishedAt": "2026-05-13T14:21:57.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "“90后”乡村教师自费办“助学小院”：为乡村学生提供免费午饭",
-        "link": "https://www.chinanews.com.cn/sh/2026/05-13/10620674.shtml",
-        "summary": "中新网西安5月13日电 (梅镱泷 秦茜君)在陕西乡村的一所学校旁，有一处简朴而温馨的“助学小院”。每天中午放学后，便有二十多名学生前来就餐。“小院专为乡村留守儿童和困境学生免费提供午餐与暖心陪伴。”该小院创办人李健表示。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260513/5f33d47f-8914-4f8f-9768-cbd01640e2b7_zsite.jpg",
-        "publishedAt": "2026-05-13T14:20:51.000Z",
         "source": "中新网"
       }
     ],
@@ -299,19 +299,27 @@
     ],
     "worldTop": [
       {
-        "title": "Court overturns Alex Murdaugh's murder convictions and orders new trial",
-        "link": "https://www.bbc.com/news/articles/cedpvnq7wn1o?at_medium=RSS&at_campaign=rss",
-        "summary": "The court has ordered a new trial over the June 2021 killings of Paul and Maggie Murdaugh.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1a2d/live/537ff930-6139-11ee-b101-6f93d6dfbcc2.png",
-        "publishedAt": "2026-05-13T15:05:20.000Z",
+        "title": "Trade, Iran and Taiwan on the agenda as Trump arrives in China for high-stakes talks with Xi",
+        "link": "https://www.bbc.com/news/articles/c1w28qw1e0xo?at_medium=RSS&at_campaign=rss",
+        "summary": "The US president says his first request to Xi would be to \"open up\" China, while Beijing is expected to press Trump on the status of Taiwan.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d565/live/0c9f5810-4ee6-11f1-88a2-2b60a3feece0.jpg",
+        "publishedAt": "2026-05-13T17:00:12.000Z",
         "source": "BBC"
       },
       {
-        "title": "Philippine Senate in lockdown after gunshots fired",
-        "link": "https://www.bbc.com/news/articles/cnvp730yd52o?at_medium=RSS&at_campaign=rss",
-        "summary": "Police commandos entered the building where a senator wanted by the International Criminal Court had sought refuge.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c51/live/430c22c0-4ed7-11f1-91ee-f79d495dca9f.jpg",
-        "publishedAt": "2026-05-13T15:04:16.000Z",
+        "title": "1,700 passengers held on cruise ship over potential acute stomach bug sickness",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOR0FYa1Bxa0RwY1E4M1dodVFvVURaZ29CdFdMMHB3eFpHdzYxWDhHd1RQSDFEc3hBVm9WcWhDaFhJakhQVUhoUExfUTU1RnZiZ0ZnSUZDWUg0RVR6Vno3TDBwWmF5dnM4TkxpbjFqU0dLTmVRekNYbk53bTY2MWR0LVZhRnl2UEtn?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-05-13T15:43:14.000Z",
+        "source": "CNN"
+      },
+      {
+        "title": "Court overturns Alex Murdaugh's murder convictions and orders new trial",
+        "link": "https://www.bbc.com/news/articles/cedpvnq7wn1o?at_medium=RSS&at_campaign=rss",
+        "summary": "The court has ordered a new trial over the June 2021 killings of Paul and Maggie Murdaugh.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8ca8/live/60979bc0-4ee2-11f1-8eb9-6770c5101f32.jpg",
+        "publishedAt": "2026-05-13T15:36:38.000Z",
         "source": "BBC"
       },
       {
@@ -323,19 +331,11 @@
         "source": "BBC"
       },
       {
-        "title": "Trump arrives in China for high-stakes meeting with Xi Jinping",
-        "link": "https://www.bbc.com/news/articles/c1w28qw1e0xo?at_medium=RSS&at_campaign=rss",
-        "summary": "The leaders of the global superpowers are expected to discuss the war in Iran, tariffs, AI and Taiwan during the two-day visit.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8357/live/13ee1bb0-4ecd-11f1-ac78-2112837ce2aa.jpg",
-        "publishedAt": "2026-05-13T13:51:13.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "What to know as Trump visits Xi in China",
-        "link": "https://www.bbc.com/news/articles/cyv2n7l1z14o?at_medium=RSS&at_campaign=rss",
-        "summary": "Trump has landed in Beijing for the first visit by a US leader since his own in 2017.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e2cf/live/54780510-4ecd-11f1-bd52-e755d604ece4.jpg",
-        "publishedAt": "2026-05-13T13:01:51.000Z",
+        "title": "Dozens of dogs rescued and suspect arrested in Uganda after BBC investigation",
+        "link": "https://www.bbc.com/news/articles/c1j2n008k5lo?at_medium=RSS&at_campaign=rss",
+        "summary": "A BBC investigation exposed how scammers posted social content of dogs in distress to dupe donors into giving money.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8257/live/fa538c50-42d6-11f1-bd52-e755d604ece4.jpg",
+        "publishedAt": "2026-05-13T13:37:53.000Z",
         "source": "BBC"
       }
     ],
@@ -357,6 +357,14 @@
         "source": "BBC"
       },
       {
+        "title": "America is in for yet another long spell of price pain",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1QaGR6aHd0V2pMa09lSTF0MkNrUEk2c0cwNHl6NzZuYThwTDRoTl9oQTVCbXdGUVctMXo5aFFJVEpONk1vclpobEgxVVIxVGJjSURJbjVFVnlfaW5wWkpoOWQ4a0d5UTZBOXpvM0Q0RGs3cjk4V1p3VFBYcw?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-05-13T12:36:33.000Z",
+        "source": "CNN"
+      },
+      {
         "title": "Shrinking Milka chocolate bar tricked consumers, says German court",
         "link": "https://www.bbc.com/news/articles/crmp428zylko?at_medium=RSS&at_campaign=rss",
         "summary": "A court in Bremen has found the manufacturer of the classic Alpine Milk chocolate bar guilty of \"shrinkflation\".",
@@ -370,14 +378,6 @@
         "summary": "The travel operator says customers are delaying booking holidays over Iran war concerns.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b961/live/45585fb0-4eb6-11f1-a4e8-2309d38aa073.jpg",
         "publishedAt": "2026-05-13T11:28:03.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Smart glasses are 'an invasion of privacy' - Meta's are selling better than ever",
-        "link": "https://www.bbc.com/news/articles/cj37z8357e5o?at_medium=RSS&at_campaign=rss",
-        "summary": "The biggest tech firms are set to sell millions of smart glasses despite growing privacy concerns.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c1d2/live/52785130-4e90-11f1-bd52-e755d604ece4.jpg",
-        "publishedAt": "2026-05-13T05:01:07.000Z",
         "source": "BBC"
       }
     ],
@@ -407,23 +407,31 @@
         "source": "BBC"
       },
       {
+        "title": "Autonomous driving takes center stage in Beijing",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMUtWYlphMHpSbTBkSkJjT1FubXhfU3JrOEJ2Q21kalAyZE1UY3NVRzlZQVIya0pLeHN0SzdzazlqdjZhZWJraTBkb2ItS3dqNHU3dVFiS2NRcnhacW9HQWVPYWlZNHA4anIzX09oQ0VuWFByMXJDdmxTa0VYc1h2ckY3aTd4eU5xVXJwcXFn?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-05-13T08:20:59.000Z",
+        "source": "CNN"
+      },
+      {
         "title": "More than 70 million warnings sent to people seeking child abuse material",
         "link": "https://www.bbc.com/news/articles/cze2y02jw1ko?at_medium=RSS&at_campaign=rss",
         "summary": "The messages highlight the illegality of what people are searching for online and direct them towards help.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6dad/live/9a29f300-4e1b-11f1-823b-0da99605cfd0.jpg",
         "publishedAt": "2026-05-13T06:04:14.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Smart glasses are 'an invasion of privacy' - Meta's are selling better than ever",
-        "link": "https://www.bbc.com/news/articles/cj37z8357e5o?at_medium=RSS&at_campaign=rss",
-        "summary": "The biggest tech firms are set to sell millions of smart glasses despite growing privacy concerns.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c1d2/live/52785130-4e90-11f1-bd52-e755d604ece4.jpg",
-        "publishedAt": "2026-05-13T05:01:07.000Z",
-        "source": "BBC"
       }
     ],
     "domestic": [
+      {
+        "title": "中国科学家成功研制“九章四号”量子计算原型机",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-13/10620692.shtml",
+        "summary": "中新社合肥5月13日电 (记者 吴兰)中国科学家近日成功研制出“九章四号”量子计算原型机。相关研究成果北京时间5月13日发表在国际权威学术期刊《自然》(Nature)上。",
+        "image": "",
+        "publishedAt": "2026-05-13T15:36:17.000Z",
+        "source": "中新网"
+      },
       {
         "title": "合成生命重要突破 中国团队首次实现人工细胞形态功能不对称分裂",
         "link": "https://www.chinanews.com.cn/gn/2026/05-13/10620686.shtml",
@@ -455,31 +463,31 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260513/619fb6aa-5ea9-4c84-9941-ac7139d7790f_zsite.jpeg",
         "publishedAt": "2026-05-13T14:25:37.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "（友城故事）斯洛文尼亚驻华大使：卢布尔雅那与成都合作空间广阔",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-13/10620664.shtml",
-        "summary": "中新社成都5月13日电 (记者 岳依桐)“我们常把首都卢布尔雅那与成都的友城交往，作为两国双边关系发展的典范。”13日，专程参加“携手前行—卢布尔雅那与成都结好45周年纪念展览”开幕式的斯洛文尼亚驻华大使马博洋在成都接受采访时说。",
-        "image": "",
-        "publishedAt": "2026-05-13T14:20:29.000Z",
-        "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "Court overturns Alex Murdaugh's murder convictions and orders new trial",
-        "link": "https://www.bbc.com/news/articles/cedpvnq7wn1o?at_medium=RSS&at_campaign=rss",
-        "summary": "The court has ordered a new trial over the June 2021 killings of Paul and Maggie Murdaugh.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1a2d/live/537ff930-6139-11ee-b101-6f93d6dfbcc2.png",
-        "publishedAt": "2026-05-13T15:05:20.000Z",
+        "title": "Trade, Iran and Taiwan on the agenda as Trump arrives in China for high-stakes talks with Xi",
+        "link": "https://www.bbc.com/news/articles/c1w28qw1e0xo?at_medium=RSS&at_campaign=rss",
+        "summary": "The US president says his first request to Xi would be to \"open up\" China, while Beijing is expected to press Trump on the status of Taiwan.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d565/live/0c9f5810-4ee6-11f1-88a2-2b60a3feece0.jpg",
+        "publishedAt": "2026-05-13T17:00:12.000Z",
         "source": "BBC"
       },
       {
-        "title": "Philippine Senate in lockdown after gunshots fired",
-        "link": "https://www.bbc.com/news/articles/cnvp730yd52o?at_medium=RSS&at_campaign=rss",
-        "summary": "Police commandos entered the building where a senator wanted by the International Criminal Court had sought refuge.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c51/live/430c22c0-4ed7-11f1-91ee-f79d495dca9f.jpg",
-        "publishedAt": "2026-05-13T15:04:16.000Z",
+        "title": "1,700 passengers held on cruise ship over potential acute stomach bug sickness",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOR0FYa1Bxa0RwY1E4M1dodVFvVURaZ29CdFdMMHB3eFpHdzYxWDhHd1RQSDFEc3hBVm9WcWhDaFhJakhQVUhoUExfUTU1RnZiZ0ZnSUZDWUg0RVR6Vno3TDBwWmF5dnM4TkxpbjFqU0dLTmVRekNYbk53bTY2MWR0LVZhRnl2UEtn?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-05-13T15:43:14.000Z",
+        "source": "CNN"
+      },
+      {
+        "title": "Court overturns Alex Murdaugh's murder convictions and orders new trial",
+        "link": "https://www.bbc.com/news/articles/cedpvnq7wn1o?at_medium=RSS&at_campaign=rss",
+        "summary": "The court has ordered a new trial over the June 2021 killings of Paul and Maggie Murdaugh.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8ca8/live/60979bc0-4ee2-11f1-8eb9-6770c5101f32.jpg",
+        "publishedAt": "2026-05-13T15:36:38.000Z",
         "source": "BBC"
       },
       {
@@ -491,207 +499,20 @@
         "source": "BBC"
       },
       {
-        "title": "Trump arrives in China for high-stakes meeting with Xi Jinping",
-        "link": "https://www.bbc.com/news/articles/c1w28qw1e0xo?at_medium=RSS&at_campaign=rss",
-        "summary": "The leaders of the global superpowers are expected to discuss the war in Iran, tariffs, AI and Taiwan during the two-day visit.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8357/live/13ee1bb0-4ecd-11f1-ac78-2112837ce2aa.jpg",
-        "publishedAt": "2026-05-13T13:51:13.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "What to know as Trump visits Xi in China",
-        "link": "https://www.bbc.com/news/articles/cyv2n7l1z14o?at_medium=RSS&at_campaign=rss",
-        "summary": "Trump has landed in Beijing for the first visit by a US leader since his own in 2017.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e2cf/live/54780510-4ecd-11f1-bd52-e755d604ece4.jpg",
-        "publishedAt": "2026-05-13T13:01:51.000Z",
+        "title": "Dozens of dogs rescued and suspect arrested in Uganda after BBC investigation",
+        "link": "https://www.bbc.com/news/articles/c1j2n008k5lo?at_medium=RSS&at_campaign=rss",
+        "summary": "A BBC investigation exposed how scammers posted social content of dogs in distress to dupe donors into giving money.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8257/live/fa538c50-42d6-11f1-bd52-e755d604ece4.jpg",
+        "publishedAt": "2026-05-13T13:37:53.000Z",
         "source": "BBC"
       }
     ],
     "nba": []
   },
   "nbaScoreboard": {
-    "date": "2026-05-13",
+    "date": "2026-05-14",
     "currentIndex": 4,
     "days": [
-      {
-        "date": "2026-05-09",
-        "games": [
-          {
-            "id": "401871335",
-            "link": "https://www.espn.com/nba/game/_/gameId/401871335/pistons-cavaliers",
-            "startTime": "2026-05-09T19:00Z",
-            "state": "post",
-            "statusText": "Final",
-            "detail": "Final",
-            "note": "East Semifinals - Game 3",
-            "homeTeam": {
-              "abbreviation": "CLE",
-              "displayName": "Cleveland Cavaliers",
-              "score": "116",
-              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png",
-              "leaderContext": "Game Leaders",
-              "leaders": [
-                {
-                  "label": "PTS",
-                  "value": "35",
-                  "player": "Donovan Mitchell",
-                  "position": "G",
-                  "jersey": "45",
-                  "summary": "13/24 FG, 7/8 FT",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3908809.png",
-                  "link": "https://www.espn.com/nba/player/_/id/3908809/donovan-mitchell"
-                },
-                {
-                  "label": "REB",
-                  "value": "10",
-                  "player": "Donovan Mitchell",
-                  "position": "G",
-                  "jersey": "45",
-                  "summary": "9 DREB, 1 OREB",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3908809.png",
-                  "link": "https://www.espn.com/nba/player/_/id/3908809/donovan-mitchell"
-                },
-                {
-                  "label": "AST",
-                  "value": "7",
-                  "player": "James Harden",
-                  "position": "G",
-                  "jersey": "1",
-                  "summary": "3 TO, 40 MIN",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3992.png",
-                  "link": "https://www.espn.com/nba/player/_/id/3992/james-harden"
-                }
-              ]
-            },
-            "awayTeam": {
-              "abbreviation": "DET",
-              "displayName": "Detroit Pistons",
-              "score": "109",
-              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/det.png",
-              "leaderContext": "Game Leaders",
-              "leaders": [
-                {
-                  "label": "PTS",
-                  "value": "27",
-                  "player": "Cade Cunningham",
-                  "position": "G",
-                  "jersey": "2",
-                  "summary": "10/27 FG, 5/6 FT",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432166.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4432166/cade-cunningham"
-                },
-                {
-                  "label": "REB",
-                  "value": "10",
-                  "player": "Cade Cunningham",
-                  "position": "G",
-                  "jersey": "2",
-                  "summary": "4 DREB, 6 OREB",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432166.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4432166/cade-cunningham"
-                },
-                {
-                  "label": "AST",
-                  "value": "10",
-                  "player": "Cade Cunningham",
-                  "position": "G",
-                  "jersey": "2",
-                  "summary": "8 TO, 39 MIN",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432166.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4432166/cade-cunningham"
-                }
-              ]
-            }
-          },
-          {
-            "id": "401871328",
-            "link": "https://www.espn.com/nba/game/_/gameId/401871328/thunder-lakers",
-            "startTime": "2026-05-10T00:30Z",
-            "state": "post",
-            "statusText": "Final",
-            "detail": "Final",
-            "note": "West Semifinals - Game 3",
-            "homeTeam": {
-              "abbreviation": "LAL",
-              "displayName": "Los Angeles Lakers",
-              "score": "108",
-              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
-              "leaderContext": "Game Leaders",
-              "leaders": [
-                {
-                  "label": "PTS",
-                  "value": "21",
-                  "player": "Rui Hachimura",
-                  "position": "F",
-                  "jersey": "28",
-                  "summary": "7/14 FG, 2/2 FT",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066648.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4066648/rui-hachimura"
-                },
-                {
-                  "label": "REB",
-                  "value": "8",
-                  "player": "Adou Thiero",
-                  "position": "F",
-                  "jersey": "1",
-                  "summary": "5 DREB, 3 OREB",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5060631.png",
-                  "link": "https://www.espn.com/nba/player/_/id/5060631/adou-thiero"
-                },
-                {
-                  "label": "AST",
-                  "value": "9",
-                  "player": "Austin Reaves",
-                  "position": "G",
-                  "jersey": "15",
-                  "summary": "5 TO, 39 MIN",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066457.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4066457/austin-reaves"
-                }
-              ]
-            },
-            "awayTeam": {
-              "abbreviation": "OKC",
-              "displayName": "Oklahoma City Thunder",
-              "score": "131",
-              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png",
-              "leaderContext": "Game Leaders",
-              "leaders": [
-                {
-                  "label": "PTS",
-                  "value": "24",
-                  "player": "Ajay Mitchell",
-                  "position": "G",
-                  "jersey": "25",
-                  "summary": "10/17 FG, 2/3 FT",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4900671.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4900671/ajay-mitchell"
-                },
-                {
-                  "label": "REB",
-                  "value": "9",
-                  "player": "Chet Holmgren",
-                  "position": "C",
-                  "jersey": "7",
-                  "summary": "7 DREB, 2 OREB",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433255.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4433255/chet-holmgren"
-                },
-                {
-                  "label": "AST",
-                  "value": "10",
-                  "player": "Ajay Mitchell",
-                  "position": "G",
-                  "jersey": "25",
-                  "summary": "0 TO, 30 MIN",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4900671.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4900671/ajay-mitchell"
-                }
-              ]
-            }
-          }
-        ]
-      },
       {
         "date": "2026-05-10",
         "games": [
@@ -1599,100 +1420,16 @@
             }
           }
         ]
+      },
+      {
+        "date": "2026-05-18",
+        "games": []
       }
     ],
-    "games": [
-      {
-        "id": "401871337",
-        "link": "https://www.espn.com/nba/game/_/gameId/401871337/cavaliers-pistons",
-        "startTime": "2026-05-14T00:00Z",
-        "state": "pre",
-        "statusText": "Scheduled",
-        "detail": "5/13 - 8:00 PM EDT",
-        "note": "East Semifinals - Game 5",
-        "homeTeam": {
-          "abbreviation": "DET",
-          "displayName": "Detroit Pistons",
-          "score": "0",
-          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
-          "leaderContext": "Season Leaders",
-          "leaders": [
-            {
-              "label": "PPG",
-              "value": "23.9",
-              "player": "Cade Cunningham",
-              "position": "G",
-              "jersey": "2",
-              "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432166.png",
-              "link": "https://www.espn.com/nba/player/_/id/4432166/cade-cunningham"
-            },
-            {
-              "label": "RPG",
-              "value": "10.5",
-              "player": "Jalen Duren",
-              "position": "C",
-              "jersey": "0",
-              "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433621.png",
-              "link": "https://www.espn.com/nba/player/_/id/4433621/jalen-duren"
-            },
-            {
-              "label": "APG",
-              "value": "9.9",
-              "player": "Cade Cunningham",
-              "position": "G",
-              "jersey": "2",
-              "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432166.png",
-              "link": "https://www.espn.com/nba/player/_/id/4432166/cade-cunningham"
-            }
-          ]
-        },
-        "awayTeam": {
-          "abbreviation": "CLE",
-          "displayName": "Cleveland Cavaliers",
-          "score": "0",
-          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
-          "leaderContext": "Season Leaders",
-          "leaders": [
-            {
-              "label": "PPG",
-              "value": "27.9",
-              "player": "Donovan Mitchell",
-              "position": "G",
-              "jersey": "45",
-              "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3908809.png",
-              "link": "https://www.espn.com/nba/player/_/id/3908809/donovan-mitchell"
-            },
-            {
-              "label": "RPG",
-              "value": "9.0",
-              "player": "Evan Mobley",
-              "position": "C",
-              "jersey": "4",
-              "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432158.png",
-              "link": "https://www.espn.com/nba/player/_/id/4432158/evan-mobley"
-            },
-            {
-              "label": "APG",
-              "value": "5.7",
-              "player": "Donovan Mitchell",
-              "position": "G",
-              "jersey": "45",
-              "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3908809.png",
-              "link": "https://www.espn.com/nba/player/_/id/3908809/donovan-mitchell"
-            }
-          ]
-        }
-      }
-    ]
+    "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-05-13",
+    "rotationLabel": "Curated Rotation · 2026-05-14",
     "sections": [
       {
         "id": "data-storage",
@@ -1700,27 +1437,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-2",
-            "sectionId": "data-storage",
-            "title": "Bigtable: A Distributed Storage System for Structured Data",
-            "authors": [
-              "Fay Chang",
-              "Jeffrey Dean",
-              "Sanjay Ghemawat",
-              "Wilson C. Hsieh"
-            ],
-            "venue": "OSDI",
-            "year": 2006,
-            "quality": "顶会",
-            "categories": [
-              "distributed systems",
-              "database"
-            ],
-            "link": "https://research.google/pubs/pub27898/",
-            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-3",
             "sectionId": "data-storage",
@@ -1740,7 +1456,7 @@
             ],
             "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
             "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-4",
@@ -1762,6 +1478,26 @@
             "link": "https://research.google/pubs/pub36632/",
             "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-5",
+            "sectionId": "data-storage",
+            "title": "The FAISS Library",
+            "authors": [
+              "Jeff Johnson",
+              "Matthijs Douze",
+              "Herve Jegou"
+            ],
+            "venue": "IEEE T-BD",
+            "year": 2021,
+            "quality": "高影响力",
+            "categories": [
+              "vector search",
+              "ANN"
+            ],
+            "link": "https://arxiv.org/abs/2401.08281",
+            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -1771,27 +1507,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-3",
-            "sectionId": "computer-vision",
-            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
-            "authors": [
-              "Alexey Dosovitskiy",
-              "Lucas Beyer",
-              "Alexander Kolesnikov",
-              "Dirk Weissenborn"
-            ],
-            "venue": "ICLR",
-            "year": 2021,
-            "quality": "顶会",
-            "categories": [
-              "vision transformer",
-              "classification"
-            ],
-            "link": "https://arxiv.org/abs/2010.11929",
-            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-4",
             "sectionId": "computer-vision",
@@ -1811,7 +1526,7 @@
             ],
             "link": "https://arxiv.org/abs/2103.00020",
             "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-5",
@@ -1833,6 +1548,27 @@
             "link": "https://arxiv.org/abs/2304.02643",
             "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-6",
+            "sectionId": "computer-vision",
+            "title": "DINOv2: Learning Robust Visual Features without Supervision",
+            "authors": [
+              "Maxime Oquab",
+              "Timothée Darcet",
+              "Théo Moutakanni",
+              "Huy V. Vo"
+            ],
+            "venue": "arXiv / Meta",
+            "year": 2023,
+            "quality": "高影响力",
+            "categories": [
+              "self-supervised",
+              "representation"
+            ],
+            "link": "https://arxiv.org/abs/2304.07193",
+            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -1842,27 +1578,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-4",
-            "sectionId": "llm-memory",
-            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
-            "authors": [
-              "Akari Asai",
-              "Zequn Zhang",
-              "Avirup Sil",
-              "Hannaneh Hajishirzi"
-            ],
-            "venue": "ICLR",
-            "year": 2024,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "self-reflection"
-            ],
-            "link": "https://arxiv.org/abs/2310.11511",
-            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-5",
             "sectionId": "llm-memory",
@@ -1882,7 +1597,7 @@
             ],
             "link": "https://arxiv.org/abs/2306.07174",
             "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-6",
@@ -1904,6 +1619,27 @@
             "link": "https://arxiv.org/abs/2409.05591",
             "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-1",
+            "sectionId": "llm-memory",
+            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+            "authors": [
+              "Patrick Lewis",
+              "Ethan Perez",
+              "Aleksandra Piktus",
+              "Fabio Petroni"
+            ],
+            "venue": "NeurIPS",
+            "year": 2020,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "retrieval"
+            ],
+            "link": "https://arxiv.org/abs/2005.11401",
+            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -1913,27 +1649,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-5",
-            "sectionId": "agents",
-            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
-            "authors": [
-              "Qingyun Wu",
-              "Gagan Bansal",
-              "Jiaqi Zhang",
-              "Yiran Wu"
-            ],
-            "venue": "COLM",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "multi-agent",
-              "framework"
-            ],
-            "link": "https://arxiv.org/abs/2308.08155",
-            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-6",
             "sectionId": "agents",
@@ -1953,7 +1668,7 @@
             ],
             "link": "https://arxiv.org/abs/2405.15793",
             "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-1",
@@ -1975,6 +1690,27 @@
             ],
             "link": "https://arxiv.org/abs/2210.03629",
             "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-2",
+            "sectionId": "agents",
+            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+            "authors": [
+              "Timo Schick",
+              "Jane Dwivedi-Yu",
+              "Roberta Dessì",
+              "Ari Holtzman"
+            ],
+            "venue": "NeurIPS",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "tool use",
+              "agent"
+            ],
+            "link": "https://arxiv.org/abs/2302.04761",
+            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
             "trackLabel": "轮换精选"
           }
         ]
