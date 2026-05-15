@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "generate:data": "node scripts/generate-data.mjs",
-    "serve": "python -m http.server 4173"
+    "generate:stock": "python scripts/fetch-stock-data.py",
+    "serve": "python scripts/dev-server.py 4173"
   }
 }

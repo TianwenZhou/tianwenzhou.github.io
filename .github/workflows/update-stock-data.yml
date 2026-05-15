@@ -1,0 +1,46 @@
+name: Update Agent Stock Data
+
+on:
+  schedule:
+    # UTC 01:00-07:30 is Beijing 09:00-15:30, Monday-Friday.
+    - cron: "*/30 1-7 * * 1-5"
+    # One post-close refresh at Beijing 16:05.
+    - cron: "5 8 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install stock dependencies
+        run: python -m pip install -r Agent/requirements-stock.txt
+
+      - name: Generate stock name cache
+        run: python Agent/scripts/update-stock-name-cache.py || true
+
+      - name: Generate stock data
+        run: |
+          python Agent/scripts/fetch-stock-data.py --symbol 002594 --name "比亚迪" --code "002594.SZ" --exchange "SZSE" --output Agent/data/stocks/byd.json || true
+          python Agent/scripts/fetch-stock-data.py --symbol 600519 --name "贵州茅台" --code "600519.SH" --exchange "SSE" --output Agent/data/stocks/moutai.json || true
+          python Agent/scripts/fetch-stock-data.py --symbol 300750 --name "宁德时代" --code "300750.SZ" --exchange "SZSE" --output Agent/data/stocks/catl.json || true
+          python Agent/scripts/fetch-stock-data.py --symbol 601318 --name "中国平安" --code "601318.SH" --exchange "SSE" --output Agent/data/stocks/pingan.json || true
+
+      - name: Commit updated stock data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Agent/data/stocks/*.json
+          git diff --cached --quiet || git commit -m "chore: update stock data"
+          git push
