@@ -1,197 +1,19 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-active-view="home">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Agent Dashboard</title>
-    <meta
-      name="description"
-      content="查看天气、时间、世界风景、新闻和高质量 AI 论文精选。"
-    />
-    <link rel="stylesheet" href="./styles.css?v=20260513-35" />
+    <meta name="description" content="个人主页、天气、股票、新闻、NBA 和论文聚合面板。" />
+    <link rel="stylesheet" href="./styles.css?v=20260516-1" />
   </head>
-  <body>
+  <body data-active-view="home" data-home-wallpaper="day">
     <div class="page-shell">
       <div class="app-layout">
-        <aside class="sidebar" aria-label="Primary">
-          <div class="sidebar-brand">
-            <p class="sidebar-kicker">Agent</p>
-            <h1>Dashboard</h1>
-          </div>
-
-          <section class="sidebar-status-card" aria-labelledby="refreshPanelTitle">
-            <div class="sidebar-status-copy">
-              <p class="sidebar-status-kicker">Data</p>
-              <h2 id="refreshPanelTitle" class="sidebar-status-title">最新同步</h2>
-              <p id="generatedAt" class="sidebar-status-time">数据更新时间：--</p>
-              <p id="refreshStatus" class="sidebar-status-note">可立即触发 GitHub Actions 更新数据</p>
-            </div>
-            <button id="refreshDataButton" class="sidebar-refresh-button" type="button">
-              立即更新数据
-            </button>
-          </section>
-
-          <nav class="sidebar-nav" aria-label="Dashboard Sections">
-            <button class="sidebar-link is-active" type="button" data-view-target="home">
-              <span class="sidebar-link-kicker">01</span>
-              <span class="sidebar-link-copy">
-                <strong>Home</strong>
-              </span>
-            </button>
-            <button class="sidebar-link" type="button" data-view-target="news">
-              <span class="sidebar-link-kicker">02</span>
-              <span class="sidebar-link-copy">
-                <strong>News</strong>
-              </span>
-            </button>
-            <button class="sidebar-link" type="button" data-view-target="nba">
-              <span class="sidebar-link-kicker">03</span>
-              <span class="sidebar-link-copy">
-                <strong>NBA</strong>
-              </span>
-            </button>
-            <button class="sidebar-link" type="button" data-view-target="papers">
-              <span class="sidebar-link-kicker">04</span>
-              <span class="sidebar-link-copy">
-                <strong>Papers</strong>
-              </span>
-            </button>
-          </nav>
-        </aside>
+        <aside class="sidebar" aria-label="Primary"></aside>
 
         <main class="dashboard">
-          <section id="homeView" class="dashboard-view is-active" data-view="home">
-            <section class="widget-grid widget-grid-top">
-              <section class="panel compact-weather-panel" aria-labelledby="weatherTitle">
-                <div class="panel-heading compact-heading">
-                  <div>
-                    <p class="panel-kicker">Weather & Clock</p>
-                    <h2 id="weatherTitle">Weather &amp; Time</h2>
-                  </div>
-                  <span class="panel-tag">Haidian / Asia/Shanghai</span>
-                </div>
-                <div id="weatherCurrent" class="weather-current weather-hero skeleton">
-                  <div class="weather-visual">
-                    <img
-                      id="weatherVisual"
-                      class="weather-visual-media"
-                      alt="Weather animation"
-                      loading="eager"
-                    />
-                  </div>
-                  <div class="weather-hero-body">
-                    <div class="weather-hero-top">
-                      <span id="weatherCondition" class="weather-chip">--</span>
-                      <span id="weatherLocation" class="panel-tag">--</span>
-                    </div>
-                    <div class="weather-hero-main">
-                      <div class="weather-hero-copy">
-                        <strong id="weatherTemperature">--&deg;C</strong>
-                        <p id="weatherDescription">--</p>
-                      </div>
-                      <div class="weather-hero-clock">
-                        <p id="currentTime" class="time-value">--:--:--</p>
-                        <p id="currentDate" class="time-date">--</p>
-                        <p class="time-meta">北京时间 · 每 4 小时同步</p>
-                      </div>
-                    </div>
-                    <div class="weather-metrics">
-                      <span id="weatherWind">Wind --</span>
-                      <span id="weatherRange">Temp -- / --</span>
-                      <span id="weatherRain">Rain --</span>
-                    </div>
-                  </div>
-                </div>
-                <div id="weatherDaily" class="weather-daily"></div>
-                <div class="calendar-toolbar" aria-label="Calendar navigation">
-                  <div class="calendar-toolbar-copy">
-                    <p class="calendar-kicker">Calendar</p>
-                    <p id="calendarRangeHint" class="calendar-range-hint">当前与下一个月</p>
-                  </div>
-                  <div class="calendar-toolbar-actions">
-                    <button id="calendarPrev" class="calendar-nav-button" type="button">上一月</button>
-                    <button id="calendarToday" class="calendar-nav-button is-primary" type="button">
-                      回到今天
-                    </button>
-                    <button id="calendarNext" class="calendar-nav-button" type="button">下一月</button>
-                  </div>
-                </div>
-                <div class="weather-calendars">
-                  <section class="calendar-card" aria-labelledby="currentMonthTitle">
-                    <div class="calendar-card-head">
-                      <div>
-                        <p class="calendar-kicker">Current Month</p>
-                        <h3 id="currentMonthTitle" class="calendar-title">This Month</h3>
-                      </div>
-                      <span id="currentMonthLabel" class="calendar-badge">--</span>
-                    </div>
-                    <div id="currentMonthCalendar" class="calendar-grid"></div>
-                  </section>
-
-                  <section class="calendar-card" aria-labelledby="nextMonthTitle">
-                    <div class="calendar-card-head">
-                      <div>
-                        <p class="calendar-kicker">Next Month</p>
-                        <h3 id="nextMonthTitle" class="calendar-title">Next Month</h3>
-                      </div>
-                      <span id="nextMonthLabel" class="calendar-badge">--</span>
-                    </div>
-                    <div id="nextMonthCalendar" class="calendar-grid"></div>
-                  </section>
-                </div>
-                <section class="history-card" aria-labelledby="historyTodayTitle">
-                  <div class="history-card-head">
-                    <div>
-                      <p class="calendar-kicker">On This Day</p>
-                      <h3 id="historyTodayTitle" class="calendar-title">历史上的今天</h3>
-                    </div>
-                    <span id="historyTodayMeta" class="calendar-badge">--</span>
-                  </div>
-                  <div id="historyTodayList" class="history-today-list">
-                    <p>正在整理今天的历史切片...</p>
-                  </div>
-                </section>
-              </section>
-
-              <div class="top-side-stack">
-                <section class="panel scenic-hero-panel" aria-labelledby="featuredPlaceTitle">
-                  <div class="panel-heading scenic-heading">
-                    <div>
-                      <p class="panel-kicker">Daily Escape</p>
-                      <h2 id="featuredPlaceTitle">Scenic View</h2>
-                    </div>
-                    <span class="panel-tag">Daily Refresh</span>
-                  </div>
-                  <div id="featuredPlacePanel" class="featured-place-hero skeleton"></div>
-                </section>
-
-                <section class="panel quote-panel" aria-labelledby="classicQuoteTitle">
-                  <div class="panel-heading compact-heading">
-                    <div>
-                      <p class="panel-kicker">Classic Lines</p>
-                      <h2 id="classicQuoteTitle">Classic Quote</h2>
-                    </div>
-                    <span class="panel-tag">Daily Quote</span>
-                  </div>
-                  <div id="classicQuoteCard" class="quote-card skeleton">
-                    <p id="classicQuoteText" class="quote-text">--</p>
-                    <div class="quote-meta">
-                      <p id="classicQuoteSource" class="quote-source">--</p>
-                      <p id="classicQuoteNote" class="quote-note">--</p>
-                    </div>
-                    <section class="book-excerpt-block" aria-labelledby="bookExcerptTitle">
-                      <div class="book-excerpt-head">
-                        <p class="book-excerpt-kicker">Book Passage</p>
-                        <h3 id="bookExcerptTitle" class="book-excerpt-title">书籍句子摘抄</h3>
-                      </div>
-                      <p id="bookExcerptText" class="book-excerpt-text">--</p>
-                      <p id="bookExcerptSource" class="book-excerpt-source">--</p>
-                    </section>
-                  </div>
-                </section>
-              </div>
-            </section>
-          </section>
+          <section id="homeView" class="dashboard-view is-active" data-view="home"></section>
 
           <section id="newsView" class="dashboard-view" data-view="news">
             <section class="widget-grid widget-grid-news">
@@ -346,11 +168,7 @@
         <span id="chatUnreadBadge" class="chat-unread-badge" hidden>0</span>
       </button>
 
-      <section
-        id="chatFloatingPanel"
-        class="panel chat-panel"
-        aria-labelledby="chatPanelTitle"
-      >
+      <section id="chatFloatingPanel" class="panel chat-panel" aria-labelledby="chatPanelTitle">
         <div
           id="chatDragHandle"
           class="panel-heading compact-heading chat-panel-heading"
@@ -362,12 +180,7 @@
           </div>
           <div class="chat-panel-actions">
             <span id="chatAvailability" class="panel-tag">Not Configured</span>
-            <button
-              id="chatCollapseButton"
-              class="chat-collapse-button"
-              type="button"
-              aria-label="Collapse chat"
-            >
+            <button id="chatCollapseButton" class="chat-collapse-button" type="button" aria-label="Collapse chat">
               -
             </button>
           </div>
@@ -380,15 +193,9 @@
           <div id="chatMessages" class="chat-messages" aria-live="polite"></div>
           <div class="chat-composer">
             <div class="chat-shortcuts">
-              <button class="chat-shortcut" type="button" data-chat-shortcut="总结今天的 NBA 焦点">
-                NBA 焦点
-              </button>
-              <button class="chat-shortcut" type="button" data-chat-shortcut="今天 AI 论文里最值得看什么？">
-                AI 论文
-              </button>
-              <button class="chat-shortcut" type="button" data-chat-shortcut="随便和我轻松聊两句">
-                随便聊聊
-              </button>
+              <button class="chat-shortcut" type="button" data-chat-shortcut="总结今天的 NBA 焦点">NBA 焦点</button>
+              <button class="chat-shortcut" type="button" data-chat-shortcut="今天 AI 论文里最值得看什么？">AI 论文</button>
+              <button class="chat-shortcut" type="button" data-chat-shortcut="随便和我轻松聊两句">随便聊聊</button>
             </div>
             <form id="chatForm" class="chat-form">
               <label class="sr-only" for="chatInput">Chat Input</label>
@@ -458,6 +265,6 @@
     <script src="./chat-config.js?v=20260513-6"></script>
     <script src="./weather-config.js?v=20260513-8"></script>
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
-    <script type="module" src="./app.js?v=20260515-10"></script>
+    <script type="module" src="./app.js?v=20260516-1"></script>
   </body>
 </html>

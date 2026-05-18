@@ -120,8 +120,10 @@ export function rebuildHomeShell() {
           <div id="shortcutDialog" class="shortcut-dialog" hidden>
             <div class="shortcut-dialog-backdrop" data-shortcut-dialog-close></div>
             <form id="shortcutDialogForm" class="shortcut-dialog-card" role="dialog" aria-modal="true" aria-labelledby="shortcutDialogTitle">
-              <button class="shortcut-dialog-close" type="button" data-shortcut-dialog-close aria-label="Close"></button>
-              <h2 id="shortcutDialogTitle">Add Shortcut</h2>
+              <div class="shortcut-dialog-head">
+                <h2 id="shortcutDialogTitle">Add Shortcut</h2>
+                <button class="shortcut-dialog-close" type="button" data-shortcut-dialog-close aria-label="Close"></button>
+              </div>
               <label class="shortcut-field">
                 <span>Website URL</span>
                 <input id="shortcutDialogUrl" type="url" inputmode="url" autocomplete="url" placeholder="https://example.com" required />
@@ -140,6 +142,7 @@ export function rebuildHomeShell() {
                   <span id="shortcutDialogPreviewDomain">example.com</span>
                 </span>
               </div>
+              <div id="shortcutIconOptions" class="shortcut-icon-options" aria-label="候选网站图标"></div>
               <button class="shortcut-dialog-submit" type="submit" data-shortcut-dialog-submit>Add</button>
             </form>
           </div>

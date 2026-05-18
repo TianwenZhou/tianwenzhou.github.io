@@ -45,6 +45,25 @@ STOCKS = {
         "exchange": "SSE",
         "output": ROOT / "data" / "stocks" / "pingan.json",
     },
+    "gold-au9999": {
+        "symbol": "Au99.99",
+        "name": "黄金现货",
+        "code": "Au99.99",
+        "exchange": "SGE",
+        "asset_type": "sge-spot",
+        "unit": "/g",
+        "output": ROOT / "data" / "stocks" / "gold-au9999.json",
+    },
+    "silver-ag9999": {
+        "symbol": "Ag99.99",
+        "name": "白银现货",
+        "code": "Ag99.99",
+        "exchange": "SGE",
+        "asset_type": "sge-spot",
+        "unit": "/g",
+        "price_scale": 0.001,
+        "output": ROOT / "data" / "stocks" / "silver-ag9999.json",
+    },
 }
 
 
@@ -170,17 +189,26 @@ class AgentDevHandler(SimpleHTTPRequestHandler):
 
         for stock in STOCKS.values():
             if stock["symbol"] == symbol:
+                stock_response = {
+                    "symbol": symbol,
+                    "name": stock["name"],
+                    "code": stock["code"],
+                    "exchange": stock["exchange"],
+                    "found": True,
+                }
+                if stock.get("asset_type"):
+                    stock_response.update(
+                        {
+                            "assetType": stock["asset_type"],
+                            "unit": stock.get("unit", ""),
+                            "priceScale": stock.get("price_scale", 1),
+                        }
+                    )
                 self.send_json(
                     HTTPStatus.OK,
                     {
                         "ok": True,
-                        "stock": {
-                            "symbol": symbol,
-                            "name": stock["name"],
-                            "code": stock["code"],
-                            "exchange": stock["exchange"],
-                            "found": True,
-                        },
+                        "stock": stock_response,
                     },
                 )
                 return
@@ -306,6 +334,12 @@ print(json.dumps(payload, ensure_ascii=True))
             "--min-valid-intervals",
             "4",
         ]
+        if stock.get("asset_type"):
+            command.extend(["--asset-type", stock["asset_type"]])
+        if stock.get("unit"):
+            command.extend(["--unit", stock["unit"]])
+        if stock.get("price_scale", 1) != 1:
+            command.extend(["--price-scale", str(stock["price_scale"])])
 
         try:
             result = subprocess.run(

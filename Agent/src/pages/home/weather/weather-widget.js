@@ -701,7 +701,7 @@ function renderDailyWeather(weather, timeZone) {
   dom.weatherDaily.innerHTML = `
     <div class="weather-strip-title">多日预报</div>
     <div class="weather-daily-scroll">
-      <div class="weather-daily-track" style="--weather-day-count: ${forecast.length}; --weather-track-width: ${Math.max(100, forecast.length * 20)}%">
+      <div class="weather-daily-track" style="--weather-day-count: ${forecast.length}; --weather-track-width: calc(${forecast.length} * var(--weather-day-card-width) + ${Math.max(forecast.length - 1, 0)} * var(--weather-day-card-gap))">
         <div class="weather-daily-row">
           ${forecast
             .map(
