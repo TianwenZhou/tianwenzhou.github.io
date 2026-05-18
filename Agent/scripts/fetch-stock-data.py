@@ -36,13 +36,16 @@ PERIOD_INTERVAL_CONFIGS: tuple[dict[str, Any], ...] = (
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Fetch A-share K-line data with AKShare.")
+    parser = argparse.ArgumentParser(description="Fetch market K-line data with AKShare.")
     parser.add_argument("--symbol", default=DEFAULT_SYMBOL, help="A-share symbol without exchange suffix.")
+    parser.add_argument("--asset-type", default="stock", choices=("stock", "sge-spot"), help="Market data source type.")
     parser.add_argument("--output", default=str(DEFAULT_OUTPUT), help="JSON output path.")
     parser.add_argument("--name", default=DEFAULT_PROFILE["name"], help="Display name written into the stock profile.")
     parser.add_argument("--code", default="", help="Display code with exchange suffix, for example 002594.SZ.")
     parser.add_argument("--exchange", default=DEFAULT_PROFILE["exchange"], help="Exchange label written into the stock profile.")
     parser.add_argument("--currency", default=DEFAULT_PROFILE["currency"], help="ISO currency code.")
+    parser.add_argument("--unit", default="", help="Display unit for commodity style market data.")
+    parser.add_argument("--price-scale", type=float, default=1, help="Display scale applied by the frontend for price values.")
     parser.add_argument("--target-points", type=int, default=160, help="Minimum points to keep per interval.")
     parser.add_argument("--minute-days", type=int, default=None, help="Override lookback days for every minute interval.")
     parser.add_argument("--daily-days", type=int, default=None, help="Override lookback days for day/week/month intervals.")
@@ -272,9 +275,20 @@ def fetch_period_bars(ak: Any, symbol: str, period: str, lookback_days: int, lim
         raise RuntimeError(f"eastmoney period failed: {eastmoney_error}; sina daily failed: {sina_error}") from sina_error
 
 
+def fetch_sge_spot_daily_bars(ak: Any, symbol: str, limit: int) -> list[dict[str, Any]]:
+    frame = ak.spot_hist_sge(symbol=symbol)
+    candles = normalize_frame(frame, daily=True, limit=limit)
+    if not candles:
+        raise RuntimeError("sge spot history returned no rows")
+    return candles
+
+
 def infer_profile_code(symbol: str, code: str, exchange: str) -> str:
     if code:
         return code
+
+    if exchange.upper() == "SGE":
+        return symbol
 
     suffix = "SH" if exchange.upper() in {"SSE", "SH", "SHSE"} else "SZ"
     return f"{symbol}.{suffix}"
@@ -355,47 +369,66 @@ def main() -> None:
     intervals: dict[str, list[dict[str, Any]]] = {key: [] for key in interval_keys}
     interval_meta: dict[str, dict[str, int | str]] = {}
 
-    for config in MINUTE_INTERVAL_CONFIGS:
-        key = str(config["key"])
-        lookback_days = int(args.minute_days or config["lookback_days"])
-        limit = max(target_points, int(config["limit"]))
-        interval_meta[key] = {"period": str(config["period"]), "lookbackDays": lookback_days, "limit": limit}
+    if args.asset_type == "sge-spot":
+        daily_limit = max(target_points * 35, 240)
         try:
-            intervals[key] = fetch_with_retries(
-                key,
+            daily_candles = fetch_with_retries(
+                "1d",
                 args.retries,
-                lambda config=config, lookback_days=lookback_days, limit=limit: fetch_minute_bars(
-                    ak,
-                    args.symbol,
-                    str(config["period"]),
-                    lookback_days,
-                    limit,
-                ),
+                lambda: fetch_sge_spot_daily_bars(ak, args.symbol, daily_limit),
             )
         except Exception as error:  # AKShare upstream data occasionally changes shape.
-            errors[key] = str(error)
-        time.sleep(max(0, args.request_delay))
+            errors["1d"] = str(error)
+            daily_candles = []
 
-    for config in PERIOD_INTERVAL_CONFIGS:
-        key = str(config["key"])
-        lookback_days = int(args.daily_days or config["lookback_days"])
-        limit = max(target_points, int(config["limit"]))
-        interval_meta[key] = {"period": str(config["period"]), "lookbackDays": lookback_days, "limit": limit}
-        try:
-            intervals[key] = fetch_with_retries(
-                key,
-                args.retries,
-                lambda config=config, lookback_days=lookback_days, limit=limit: fetch_period_bars(
-                    ak,
-                    args.symbol,
-                    str(config["period"]),
-                    lookback_days,
-                    limit,
-                ),
-            )
-        except Exception as error:
-            errors[key] = str(error)
-        time.sleep(max(0, args.request_delay))
+        intervals["1d"] = daily_candles[-daily_limit:]
+        intervals["1w"] = aggregate_daily_candles(daily_candles, "weekly", max(target_points, 240)) if daily_candles else []
+        intervals["1mo"] = aggregate_daily_candles(daily_candles, "monthly", max(target_points, 180)) if daily_candles else []
+        interval_meta["1d"] = {"period": "daily", "source": "spot_hist_sge", "limit": daily_limit}
+        interval_meta["1w"] = {"period": "weekly", "source": "spot_hist_sge", "limit": max(target_points, 240)}
+        interval_meta["1mo"] = {"period": "monthly", "source": "spot_hist_sge", "limit": max(target_points, 180)}
+    else:
+        for config in MINUTE_INTERVAL_CONFIGS:
+            key = str(config["key"])
+            lookback_days = int(args.minute_days or config["lookback_days"])
+            limit = max(target_points, int(config["limit"]))
+            interval_meta[key] = {"period": str(config["period"]), "lookbackDays": lookback_days, "limit": limit}
+            try:
+                intervals[key] = fetch_with_retries(
+                    key,
+                    args.retries,
+                    lambda config=config, lookback_days=lookback_days, limit=limit: fetch_minute_bars(
+                        ak,
+                        args.symbol,
+                        str(config["period"]),
+                        lookback_days,
+                        limit,
+                    ),
+                )
+            except Exception as error:  # AKShare upstream data occasionally changes shape.
+                errors[key] = str(error)
+            time.sleep(max(0, args.request_delay))
+
+        for config in PERIOD_INTERVAL_CONFIGS:
+            key = str(config["key"])
+            lookback_days = int(args.daily_days or config["lookback_days"])
+            limit = max(target_points, int(config["limit"]))
+            interval_meta[key] = {"period": str(config["period"]), "lookbackDays": lookback_days, "limit": limit}
+            try:
+                intervals[key] = fetch_with_retries(
+                    key,
+                    args.retries,
+                    lambda config=config, lookback_days=lookback_days, limit=limit: fetch_period_bars(
+                        ak,
+                        args.symbol,
+                        str(config["period"]),
+                        lookback_days,
+                        limit,
+                    ),
+                )
+            except Exception as error:
+                errors[key] = str(error)
+            time.sleep(max(0, args.request_delay))
 
     profile = {
         "symbol": args.symbol,
@@ -404,9 +437,16 @@ def main() -> None:
         "exchange": args.exchange,
         "currency": args.currency,
     }
+    if args.asset_type != "stock":
+        profile["assetType"] = args.asset_type
+    if args.unit:
+        profile["unit"] = args.unit
+    if args.price_scale != 1:
+        profile["priceScale"] = args.price_scale
 
     valid_intervals = [key for key, candles in intervals.items() if len(candles) >= target_points]
-    if len(valid_intervals) < args.min_valid_intervals:
+    min_valid_intervals = min(args.min_valid_intervals, 2) if args.asset_type == "sge-spot" else args.min_valid_intervals
+    if len(valid_intervals) < min_valid_intervals:
         error_summary = "; ".join(f"{key}: {message}" for key, message in errors.items())
         raise SystemExit(
             f"Only {len(valid_intervals)} valid intervals fetched ({', '.join(valid_intervals) or 'none'}); "
@@ -415,7 +455,7 @@ def main() -> None:
 
     payload = {
         "profile": profile,
-        "source": "AKShare: Eastmoney primary, Sina fallback",
+        "source": "AKShare: Shanghai Gold Exchange" if args.asset_type == "sge-spot" else "AKShare: Eastmoney primary, Sina fallback",
         "generatedAt": now_cn().isoformat(timespec="seconds"),
         "quote": build_quote(intervals),
         "intervalMeta": interval_meta,

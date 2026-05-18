@@ -49,6 +49,37 @@ const stockCatalog = [
     demoPrice: 48,
     profile: { symbol: "601318", code: "601318.SH", name: "中国平安", exchange: "SSE", currency: "CNY" },
   },
+  {
+    key: "gold-au9999",
+    label: "黄金现货",
+    dataUrl: "./data/stocks/gold-au9999.json",
+    demoPrice: 1000,
+    profile: {
+      symbol: "Au99.99",
+      code: "Au99.99",
+      name: "黄金现货",
+      exchange: "SGE",
+      currency: "CNY",
+      assetType: "sge-spot",
+      unit: "/g",
+    },
+  },
+  {
+    key: "silver-ag9999",
+    label: "白银现货",
+    dataUrl: "./data/stocks/silver-ag9999.json",
+    demoPrice: 19,
+    profile: {
+      symbol: "Ag99.99",
+      code: "Ag99.99",
+      name: "白银现货",
+      exchange: "SGE",
+      currency: "CNY",
+      assetType: "sge-spot",
+      unit: "/g",
+      priceScale: 0.001,
+    },
+  },
 ];
 
 const stockCandlePointCount = 60;
@@ -69,6 +100,8 @@ let activeStockKey = getInitialStockKey();
 let stockDataState = createEmptyStockDataState(getActiveStockConfig()?.profile ?? stockEmptyProfile);
 let stockRefreshResetTimer = null;
 let stockNameCachePromise = null;
+let stockSearchRenderToken = 0;
+let stockChartHoverData = null;
 
 function inferStockExchange(symbol) {
   return String(symbol).startsWith("6") ? "SSE" : "SZSE";
@@ -85,30 +118,46 @@ function normalizeStockSymbol(value) {
 }
 
 function normalizeStockProfile(profile) {
-  const symbol = normalizeStockSymbol(profile?.symbol ?? profile?.code);
+  const rawSymbol = String(profile?.symbol ?? profile?.code ?? "").trim();
+  const stockSymbol = normalizeStockSymbol(rawSymbol);
+  const symbol = stockSymbol || rawSymbol;
   if (!symbol) {
     return null;
   }
 
-  const exchange = profile?.exchange === "SSE" || /\.SH$/i.test(String(profile?.code || "")) ? "SSE" : inferStockExchange(symbol);
-  const code = profile?.code || inferStockCode(symbol, exchange);
+  const assetType = profile?.assetType || profile?.asset_type || (stockSymbol ? "stock" : "market");
+  const exchange =
+    profile?.exchange === "SSE" || /\.SH$/i.test(String(profile?.code || ""))
+      ? "SSE"
+      : stockSymbol
+        ? inferStockExchange(symbol)
+        : String(profile?.exchange || "").trim();
+  const code = profile?.code || (stockSymbol ? inferStockCode(symbol, exchange) : symbol);
   const name = String(profile?.name || profile?.label || code).trim().slice(0, 18) || code;
   return {
     symbol,
     name,
     code,
     exchange,
-    currency: "CNY",
+    currency: profile?.currency || "CNY",
+    assetType,
+    unit: profile?.unit || "",
+    priceScale: Number(profile?.priceScale) || 1,
   };
 }
 
 function isStockNamePlaceholder(profile) {
-  const name = String(profile?.name || "").trim();
-  const symbol = normalizeStockSymbol(profile?.symbol ?? profile?.code);
-  if (!name || !symbol) {
+  const normalizedProfile = normalizeStockProfile(profile);
+  if (!normalizedProfile?.name || !normalizedProfile?.symbol) {
     return true;
   }
 
+  if (normalizedProfile.assetType !== "stock") {
+    return false;
+  }
+
+  const name = normalizedProfile.name;
+  const symbol = normalizedProfile.symbol;
   return name === symbol || name.toUpperCase() === inferStockCode(symbol).toUpperCase() || normalizeStockSymbol(name) === symbol;
 }
 
@@ -292,6 +341,7 @@ async function requestStockDataRefresh(stockConfig) {
         name: stockConfig.profile.name,
         code: stockConfig.profile.code,
         exchange: stockConfig.profile.exchange,
+        assetType: stockConfig.profile.assetType,
       },
     }),
   });
@@ -359,6 +409,143 @@ async function lookupStockProfileFromLocalCache(symbol) {
   return normalizeStockProfile(stockMap[symbol]);
 }
 
+function normalizeStockSearchText(value) {
+  return String(value || "")
+    .trim()
+    .toUpperCase()
+    .replace(/\s+/g, "");
+}
+
+function scoreStockSearchMatch(profile, queryText, symbolQuery) {
+  const symbol = profile.symbol || "";
+  const code = normalizeStockSearchText(profile.code || "");
+  const name = normalizeStockSearchText(profile.name || "");
+  const query = normalizeStockSearchText(queryText);
+
+  if (!query) {
+    return Number.POSITIVE_INFINITY;
+  }
+
+  if (symbolQuery && symbol === symbolQuery) {
+    return 0;
+  }
+
+  if (name === query) {
+    return 1;
+  }
+
+  if (symbolQuery && symbol.startsWith(symbolQuery)) {
+    return 2;
+  }
+
+  if (name.startsWith(query)) {
+    return 3;
+  }
+
+  if (code.startsWith(query)) {
+    return 4;
+  }
+
+  if (name.includes(query)) {
+    return 5;
+  }
+
+  if (code.includes(query)) {
+    return 6;
+  }
+
+  return Number.POSITIVE_INFINITY;
+}
+
+async function searchStockProfiles(queryText, limit = 6) {
+  const query = String(queryText || "").trim();
+  const normalizedQuery = normalizeStockSearchText(query);
+  const symbolQuery = normalizeStockSymbol(query);
+  if (!normalizedQuery && !symbolQuery) {
+    return [];
+  }
+
+  const cache = await loadStockNameCache();
+  const cachedProfiles = Object.values(cache?.stocks ?? {})
+    .map(normalizeStockProfile)
+    .filter(Boolean);
+  const catalogProfiles = getStockCatalog().map((stock) => stock.profile);
+  const seen = new Set();
+  const matches = [];
+
+  for (const profile of [...catalogProfiles, ...cachedProfiles]) {
+    const normalizedProfile = normalizeStockProfile(profile);
+    if (!normalizedProfile || seen.has(normalizedProfile.symbol)) {
+      continue;
+    }
+
+    const score = scoreStockSearchMatch(normalizedProfile, normalizedQuery, symbolQuery);
+    if (!Number.isFinite(score)) {
+      continue;
+    }
+
+    seen.add(normalizedProfile.symbol);
+    matches.push({ profile: normalizedProfile, score });
+  }
+
+  return matches
+    .sort((a, b) => a.score - b.score || a.profile.symbol.localeCompare(b.profile.symbol))
+    .slice(0, limit)
+    .map((match) => match.profile);
+}
+
+async function resolveStockProfileFromQuery(queryText) {
+  const query = String(queryText || "").trim();
+  const symbol = normalizeStockSymbol(query);
+  if (symbol) {
+    return lookupStockProfile(symbol);
+  }
+
+  const matches = await searchStockProfiles(query, 1);
+  return matches[0] ?? null;
+}
+
+async function activateStockProfile(profile) {
+  const normalizedProfile = normalizeStockProfile(profile);
+  if (!normalizedProfile) {
+    return false;
+  }
+
+  const existingStock = getStockCatalog().find((stock) => stock.profile.symbol === normalizedProfile.symbol);
+  if (existingStock) {
+    if (isStockNamePlaceholder(existingStock.profile)) {
+      saveOrReplaceCustomStock({
+        ...existingStock,
+        profile: {
+          ...existingStock.profile,
+          ...normalizedProfile,
+        },
+      });
+    }
+
+    activeStockKey = getStockCatalog().find((stock) => stock.profile.symbol === normalizedProfile.symbol)?.key ?? existingStock.key;
+  } else {
+    if (normalizedProfile.assetType !== "stock") {
+      return false;
+    }
+
+    const customStock = normalizeCustomStock(normalizedProfile);
+    if (!customStock) {
+      return false;
+    }
+
+    saveOrReplaceCustomStock(customStock);
+    activeStockKey = customStock.key;
+  }
+
+  persistActiveStockKey();
+  closeStockPickerMenu();
+  stockDataState = createEmptyStockDataState(getActiveStockConfig()?.profile ?? normalizedProfile);
+  renderStockWidget();
+  loadStockWidget({ manual: true });
+  return true;
+}
+
 function createEmptyStockDataState(profile = stockFallbackProfile) {
   return {
     profile,
@@ -386,8 +573,29 @@ function hashString(value) {
   }, 0);
 }
 
+function getStockPriceScale(profile = getActiveStockProfile()) {
+  if (profile?.assetType !== "sge-spot") {
+    return 1;
+  }
+
+  const scale = Number(profile?.priceScale);
+  return Number.isFinite(scale) && scale > 0 ? scale : 1;
+}
+
+function scaleStockPrice(value, profile = getActiveStockProfile()) {
+  const number = Number(value);
+  return Number.isFinite(number) ? number * getStockPriceScale(profile) : NaN;
+}
+
 function formatStockPrice(value) {
   const profile = getActiveStockProfile();
+  if (Number.isFinite(value) && profile.assetType === "sge-spot" && profile.unit) {
+    return `CN¥${value.toLocaleString("zh-CN", {
+      maximumFractionDigits: 2,
+      minimumFractionDigits: 2,
+    })}${profile.unit}`;
+  }
+
   return Number.isFinite(value)
     ? new Intl.NumberFormat("en-US", {
         style: "currency",
@@ -406,8 +614,74 @@ function formatStockChange(value, percent) {
   return `${sign}${value.toFixed(2)} / ${sign}${percent.toFixed(2)}%`;
 }
 
+function formatStockHoverPrice(value) {
+  return Number.isFinite(value)
+    ? value.toLocaleString("zh-CN", {
+        maximumFractionDigits: 2,
+        minimumFractionDigits: 2,
+      })
+    : "--";
+}
+
+function formatStockHoverTime(candle, interval) {
+  if (!candle?.time) {
+    return "--";
+  }
+
+  return interval.minutes >= 1440
+    ? new Intl.DateTimeFormat("zh-CN", {
+        month: "2-digit",
+        day: "2-digit",
+      }).format(candle.time)
+    : new Intl.DateTimeFormat("zh-CN", {
+        month: "2-digit",
+        day: "2-digit",
+        hour: "2-digit",
+        minute: "2-digit",
+        hour12: false,
+      }).format(candle.time);
+}
+
+function formatStockHoverReadout(candle, interval) {
+  const closeState = candle.close >= candle.open ? "is-up" : "is-down";
+
+  return `
+    <span class="stock-hover-date">${escapeHtml(formatStockHoverTime(candle, interval))}</span>
+    <span class="stock-hover-values">
+      <span class="stock-hover-item">
+        <span class="stock-hover-label">开</span>
+        <span class="stock-hover-number">${escapeHtml(formatStockHoverPrice(candle.open))}</span>
+      </span>
+      <span class="stock-hover-item is-high">
+        <span class="stock-hover-label">高</span>
+        <span class="stock-hover-number">${escapeHtml(formatStockHoverPrice(candle.high))}</span>
+      </span>
+      <span class="stock-hover-item is-low">
+        <span class="stock-hover-label">低</span>
+        <span class="stock-hover-number">${escapeHtml(formatStockHoverPrice(candle.low))}</span>
+      </span>
+      <span class="stock-hover-item ${closeState}">
+        <span class="stock-hover-label">收</span>
+        <span class="stock-hover-number">${escapeHtml(formatStockHoverPrice(candle.close))}</span>
+      </span>
+    </span>
+  `;
+}
+
 function getStockIntervalConfig(intervalKey = activeStockInterval) {
   return stockIntervals.find((item) => item.key === intervalKey) ?? stockIntervals[0];
+}
+
+function getPreferredLiveStockIntervalKey(intervals = stockDataState?.intervals ?? {}) {
+  if (Array.isArray(intervals[activeStockInterval]) && intervals[activeStockInterval].length >= 2) {
+    return activeStockInterval;
+  }
+
+  return (
+    ["1d", "1w", "1mo", "60m", "30m", "15m", "5m", "1m"].find(
+      (key) => Array.isArray(intervals[key]) && intervals[key].length >= 2,
+    ) ?? activeStockInterval
+  );
 }
 
 function getActiveStockProfile() {
@@ -518,10 +792,10 @@ function normalizeStockCandle(item, interval) {
   return {
     time,
     label: formatStockCandleTime(time, interval),
-    open,
-    high,
-    low,
-    close,
+    open: scaleStockPrice(open),
+    high: scaleStockPrice(high),
+    low: scaleStockPrice(low),
+    close: scaleStockPrice(close),
   };
 }
 
@@ -560,7 +834,7 @@ function getStockAnchorPrice() {
   const quote = stockDataState?.quote ?? {};
   const quotePrice = Number(quote.price ?? quote.close ?? quote.latest);
   if (Number.isFinite(quotePrice)) {
-    return quotePrice;
+    return scaleStockPrice(quotePrice);
   }
 
   return getLatestLiveStockCandle()?.close ?? getActiveStockConfig()?.demoPrice ?? 248.6;
@@ -617,8 +891,8 @@ function getStockQuoteSnapshot(fallbackCandles = []) {
 
   if (Number.isFinite(quotePrice)) {
     return {
-      price: quotePrice,
-      change: Number.isFinite(quoteChange) ? quoteChange : NaN,
+      price: scaleStockPrice(quotePrice),
+      change: Number.isFinite(quoteChange) ? scaleStockPrice(quoteChange) : NaN,
       percent: Number.isFinite(quotePercent) ? quotePercent : NaN,
     };
   }
@@ -649,6 +923,15 @@ function getStockCandles(intervalKey = activeStockInterval) {
   }
 
   return buildStockDemoCandles(interval.key);
+}
+
+function hasStockIntervalData(intervalKey) {
+  const interval = getStockIntervalConfig(intervalKey);
+  if (getStockSourceCandles(interval.key).length >= 2) {
+    return true;
+  }
+
+  return interval.minutes <= 60 && getAggregatedStockCandles(interval).length >= 2;
 }
 
 function mapStockPriceToY(value, min, max, top, height) {
@@ -708,11 +991,60 @@ export function renderStockPickerMenu() {
 
   return `
     <div class="stock-picker-list">${stockOptions}</div>
+    <div id="stockSearchResults" class="stock-search-results" hidden></div>
     <form id="stockCustomForm" class="stock-custom-form">
-      <input id="stockCustomCode" name="code" inputmode="text" autocomplete="off" placeholder="股票代码" />
+      <input id="stockCustomCode" name="query" inputmode="text" autocomplete="off" placeholder="股票代码 / 名称" />
       <button type="submit">添加</button>
     </form>
   `;
+}
+
+function renderStockSearchStatus(message) {
+  const resultsNode = document.querySelector("#stockSearchResults");
+  if (!resultsNode) {
+    return;
+  }
+
+  resultsNode.hidden = false;
+  resultsNode.innerHTML = `<div class="stock-search-status">${escapeHtml(message)}</div>`;
+}
+
+async function renderStockSearchResults(queryText) {
+  const resultsNode = document.querySelector("#stockSearchResults");
+  if (!resultsNode) {
+    return;
+  }
+
+  const query = String(queryText || "").trim();
+  const token = ++stockSearchRenderToken;
+  if (!query) {
+    resultsNode.hidden = true;
+    resultsNode.innerHTML = "";
+    return;
+  }
+
+  renderStockSearchStatus("匹配中");
+  const profiles = await searchStockProfiles(query, 6);
+  if (token !== stockSearchRenderToken) {
+    return;
+  }
+
+  resultsNode.hidden = false;
+  if (!profiles.length) {
+    resultsNode.innerHTML = `<div class="stock-search-status">未找到匹配股票</div>`;
+    return;
+  }
+
+  resultsNode.innerHTML = profiles
+    .map(
+      (profile) => `
+        <button type="button" class="stock-search-result" data-stock-search-symbol="${escapeHtml(profile.symbol)}">
+          <strong>${escapeHtml(profile.name)}</strong>
+          <span>${escapeHtml(profile.code)}</span>
+        </button>
+      `,
+    )
+    .join("");
 }
 
 function renderStockWidget() {
@@ -722,6 +1054,10 @@ function renderStockWidget() {
   }
 
   const activeConfig = getActiveStockConfig();
+  if (stockDataState?.hasLiveData && !hasStockIntervalData(activeStockInterval)) {
+    activeStockInterval = getPreferredLiveStockIntervalKey();
+  }
+
   const interval = getStockIntervalConfig();
   const candles = activeConfig ? getStockCandles(interval.key) : [];
   const profile = getActiveStockProfile();
@@ -756,6 +1092,7 @@ function renderStockWidget() {
   });
 
   if (!candles.length) {
+    stockChartHoverData = null;
     dom.chart.innerHTML = `
       <div class="stock-chart-empty">添加股票后刷新数据</div>
     `;
@@ -814,22 +1151,104 @@ function renderStockWidget() {
     .join("");
   const firstTimeLabel = formatStockAxisTime(candles[0], interval);
   const lastTimeLabel = formatStockAxisTime(candles.at(-1), interval);
+  stockChartHoverData = {
+    candles,
+    interval,
+    viewBoxWidth,
+    viewBoxHeight,
+    padding,
+    plotHeight,
+    slot,
+    y,
+  };
 
   dom.chart.innerHTML = `
     <div class="stock-chart-meta">
       <span class="stock-chart-meta-spacer"></span>
-      <span class="stock-change is-${state}">${escapeHtml(formatStockChange(quote.change, quote.percent))}</span>
+      <span class="stock-change is-${state}" data-stock-default-state="${state}" data-stock-default-readout="${escapeHtml(formatStockChange(quote.change, quote.percent))}">${escapeHtml(
+        formatStockChange(quote.change, quote.percent),
+      )}</span>
     </div>
     <svg class="stock-chart-svg" viewBox="0 0 ${viewBoxWidth} ${viewBoxHeight}" aria-hidden="true" focusable="false">
       ${gridLines}
       <path class="stock-close-guide" d="${closePath}" />
       ${candleMarkup}
+      <line class="stock-hover-line" x1="0" y1="${padding.top}" x2="0" y2="${padding.top + plotHeight}" hidden />
+      <circle class="stock-hover-dot" cx="0" cy="0" r="2.8" hidden />
     </svg>
     <div class="stock-chart-times" aria-hidden="true">
       <span>${escapeHtml(firstTimeLabel)}</span>
       <span>${escapeHtml(lastTimeLabel)}</span>
     </div>
   `;
+}
+
+function updateStockChartHover(event) {
+  const dom = getStockDom();
+  const chart = dom.chart;
+  const hoverData = stockChartHoverData;
+  if (!chart || !hoverData?.candles?.length) {
+    return;
+  }
+
+  const svg = chart.querySelector(".stock-chart-svg");
+  const readout = chart.querySelector(".stock-change");
+  const hoverLine = chart.querySelector(".stock-hover-line");
+  const hoverDot = chart.querySelector(".stock-hover-dot");
+  if (!svg || !readout || !hoverLine || !hoverDot) {
+    return;
+  }
+
+  const rect = svg.getBoundingClientRect();
+  if (!rect.width || !rect.height) {
+    return;
+  }
+
+  const svgX = ((event.clientX - rect.left) / rect.width) * hoverData.viewBoxWidth;
+  const rawIndex = Math.round((svgX - hoverData.padding.left) / hoverData.slot);
+  const index = Math.max(0, Math.min(hoverData.candles.length - 1, rawIndex));
+  const candle = hoverData.candles[index];
+  const centerX = hoverData.padding.left + hoverData.slot * index;
+  const closeY = hoverData.y(candle.close);
+  const state = candle.close >= candle.open ? "up" : "down";
+
+  hoverLine.setAttribute("x1", centerX.toFixed(2));
+  hoverLine.setAttribute("x2", centerX.toFixed(2));
+  hoverLine.removeAttribute("hidden");
+  hoverDot.setAttribute("cx", centerX.toFixed(2));
+  hoverDot.setAttribute("cy", closeY.toFixed(2));
+  hoverDot.removeAttribute("hidden");
+
+  readout.innerHTML = formatStockHoverReadout(candle, hoverData.interval);
+  readout.classList.add("is-hover");
+  readout.classList.toggle("is-up", state === "up");
+  readout.classList.toggle("is-down", state === "down");
+}
+
+function resetStockChartHover() {
+  const chart = getStockDom().chart;
+  if (!chart) {
+    return;
+  }
+
+  const readout = chart.querySelector(".stock-change");
+  const hoverLine = chart.querySelector(".stock-hover-line");
+  const hoverDot = chart.querySelector(".stock-hover-dot");
+  if (hoverLine) {
+    hoverLine.setAttribute("hidden", "");
+  }
+  if (hoverDot) {
+    hoverDot.setAttribute("hidden", "");
+  }
+  if (!readout) {
+    return;
+  }
+
+  readout.textContent = readout.getAttribute("data-stock-default-readout") || "--";
+  readout.classList.remove("is-hover");
+  const defaultState = readout.getAttribute("data-stock-default-state") || "neutral";
+  readout.classList.toggle("is-up", defaultState === "up");
+  readout.classList.toggle("is-down", defaultState === "down");
 }
 
 function formatStockRefreshTime(value) {
@@ -930,8 +1349,18 @@ export function setupStockWidget() {
     closeStockIntervalMenu();
   });
 
-  dom.pickerMenu?.addEventListener("click", (event) => {
+  dom.pickerMenu?.addEventListener("click", async (event) => {
     event.stopPropagation();
+    const searchButton =
+      event.target instanceof Element ? event.target.closest("[data-stock-search-symbol]") : null;
+    if (searchButton) {
+      event.preventDefault();
+      const symbol = searchButton.getAttribute("data-stock-search-symbol") || "";
+      const profile = await lookupStockProfile(symbol);
+      await activateStockProfile(profile);
+      return;
+    }
+
     const deleteButton = event.target instanceof Element ? event.target.closest("[data-stock-delete]") : null;
     if (deleteButton) {
       event.preventDefault();
@@ -978,6 +1407,15 @@ export function setupStockWidget() {
     loadStockWidget({ manual: true });
   });
 
+  dom.pickerMenu?.addEventListener("input", (event) => {
+    const input = event.target instanceof Element ? event.target.closest("#stockCustomCode") : null;
+    if (!input) {
+      return;
+    }
+
+    renderStockSearchResults(input.value);
+  });
+
   dom.pickerMenu?.addEventListener("submit", async (event) => {
     const form = event.target instanceof Element ? event.target.closest("#stockCustomForm") : null;
     if (!form) {
@@ -987,33 +1425,10 @@ export function setupStockWidget() {
     event.preventDefault();
     event.stopPropagation();
     const formData = new FormData(form);
-    const symbol = normalizeStockSymbol(formData.get("code"));
+    const query = String(formData.get("query") || formData.get("code") || "").trim();
     const submitButton = form.querySelector("button[type='submit']");
-    if (!symbol) {
+    if (!query) {
       form.querySelector("#stockCustomCode")?.focus();
-      return;
-    }
-
-    const existingStock = getStockCatalog().find((stock) => stock.profile.symbol === symbol);
-    if (existingStock) {
-      if (isStockNamePlaceholder(existingStock.profile)) {
-        const profile = await resolveStockProfile(symbol);
-        saveOrReplaceCustomStock({
-          ...existingStock,
-          profile: {
-            ...existingStock.profile,
-            ...profile,
-            symbol,
-          },
-        });
-      }
-
-      activeStockKey = getStockCatalog().find((stock) => stock.profile.symbol === symbol)?.key ?? existingStock.key;
-      persistActiveStockKey();
-      closeStockPickerMenu();
-      stockDataState = createEmptyStockDataState(getActiveStockConfig()?.profile ?? stockEmptyProfile);
-      renderStockWidget();
-      loadStockWidget({ manual: true });
       return;
     }
 
@@ -1022,23 +1437,19 @@ export function setupStockWidget() {
       submitButton.textContent = "匹配中";
     }
 
-    const profile = await lookupStockProfile(symbol);
-    const customStock = normalizeCustomStock(profile);
+    const profile = await resolveStockProfileFromQuery(query);
     if (submitButton) {
       submitButton.disabled = false;
       submitButton.textContent = "添加";
     }
-    if (!customStock) {
+
+    if (!profile) {
+      renderStockSearchStatus("未找到匹配股票");
+      form.querySelector("#stockCustomCode")?.focus();
       return;
     }
 
-    saveOrReplaceCustomStock(customStock);
-    activeStockKey = customStock.key;
-    persistActiveStockKey();
-    closeStockPickerMenu();
-    stockDataState = createEmptyStockDataState(customStock.profile);
-    renderStockWidget();
-    loadStockWidget({ manual: true });
+    await activateStockProfile(profile);
   });
 
   dom.intervalButton?.addEventListener("click", (event) => {
@@ -1065,6 +1476,10 @@ export function setupStockWidget() {
     closeStockIntervalMenu();
     renderStockWidget();
   });
+
+  dom.chart?.addEventListener("pointermove", updateStockChartHover);
+  dom.chart?.addEventListener("pointerleave", resetStockChartHover);
+  dom.chart?.addEventListener("pointercancel", resetStockChartHover);
 
   document.addEventListener("click", (event) => {
     if (
