@@ -1,29 +1,21 @@
 {
-  "generatedAt": "2026-05-18T15:54:04.586Z",
+  "generatedAt": "2026-05-18T18:08:02.177Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 19,
+      "temperature": 17,
       "weatherCode": 3,
-      "windSpeed": 4
+      "windSpeed": 2
     },
     "today": {
-      "date": "2026-05-18",
-      "weatherCode": 61,
-      "description": "小雨",
-      "max": 27,
-      "min": 17,
-      "precipitationProbability": 100
+      "date": "2026-05-19",
+      "weatherCode": 3,
+      "description": "阴天",
+      "max": 25,
+      "min": 16,
+      "precipitationProbability": 0
     },
     "forecast": [
-      {
-        "date": "2026-05-18",
-        "weatherCode": 61,
-        "description": "小雨",
-        "max": 27,
-        "min": 17,
-        "precipitationProbability": 100
-      },
       {
         "date": "2026-05-19",
         "weatherCode": 3,
@@ -38,7 +30,7 @@
         "description": "毛毛雨",
         "max": 24,
         "min": 17,
-        "precipitationProbability": 68
+        "precipitationProbability": 51
       },
       {
         "date": "2026-05-21",
@@ -46,7 +38,7 @@
         "description": "毛毛雨",
         "max": 24,
         "min": 16,
-        "precipitationProbability": 51
+        "precipitationProbability": 29
       },
       {
         "date": "2026-05-22",
@@ -54,33 +46,50 @@
         "description": "中雨",
         "max": 24,
         "min": 16,
-        "precipitationProbability": 91
+        "precipitationProbability": 95
+      },
+      {
+        "date": "2026-05-23",
+        "weatherCode": 3,
+        "description": "阴天",
+        "max": 27,
+        "min": 17,
+        "precipitationProbability": 6
       }
     ]
   },
   "classicQuote": {
-    "id": "records-historical",
-    "text": "桃李不言，下自成蹊。",
-    "source": "《史记》",
-    "author": "司马迁",
-    "note": "真正有分量的作品，本身就会替你说话。"
+    "id": "chuci-seek",
+    "text": "路漫漫其修远兮，吾将上下而求索。",
+    "source": "《离骚》",
+    "author": "屈原",
+    "note": "长期主义最难，但也最值得。"
   },
   "bookExcerpt": {
-    "id": "remembrance-madeleine",
-    "text": "那一点点浸过茶水的点心，忽然把整个旧日时光都唤醒了，仿佛往昔并未消失，只是沉在心底等待一个气味。",
-    "book": "《追忆似水年华》",
-    "author": "马塞尔·普鲁斯特"
+    "id": "border-town-river",
+    "text": "月光如银子，无处不可照及，山上篁竹在月光下变成了一片黑色，身边草丛中虫声繁密如落雨。",
+    "book": "《边城》",
+    "author": "沈从文"
   },
   "featuredPlace": {
-    "id": "202605171600",
-    "title": "伦敦自然历史博物馆, 英格兰",
+    "id": "202605181600",
+    "title": "福门托尔灯塔, 马略卡, 巴利阿里群岛, 西班牙",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "大厅里的希望",
-    "image": "https://www.bing.com/th?id=OHR.MuseumLondon_ZH-CN5602977820_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E5%9B%BD%E9%99%85%E5%8D%9A%E7%89%A9%E9%A6%86%E6%97%A5&form=hpcapt&mkt=zh-cn"
+    "summary": "马略卡岛的边缘",
+    "image": "https://www.bing.com/th?id=OHR.SpainLighthouse_ZH-CN6024263415_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E8%A5%BF%E7%8F%AD%E7%89%99%E7%A6%8F%E9%97%A8%E6%89%98%E5%B0%94%E7%81%AF%E5%A1%94&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202605181600",
+      "title": "福门托尔灯塔, 马略卡, 巴利阿里群岛, 西班牙",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "马略卡岛的边缘",
+      "image": "https://www.bing.com/th?id=OHR.SpainLighthouse_ZH-CN6024263415_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E8%A5%BF%E7%8F%AD%E7%89%99%E7%A6%8F%E9%97%A8%E6%89%98%E5%B0%94%E7%81%AF%E5%A1%94&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202605171600",
       "title": "伦敦自然历史博物馆, 英格兰",
@@ -143,35 +152,34 @@
       "summary": "振翅, 潜水, 生存",
       "image": "https://www.bing.com/th?id=OHR.Fratercula_ZH-CN1239275412_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E5%8C%97%E6%9E%81%E6%B5%B7%E9%B9%A6&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202605101600",
-      "title": "从上方俯瞰大堡礁, 昆士兰州, 澳大利亚",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "水下建筑",
-      "image": "https://www.bing.com/th?id=OHR.QueenslandReef_ZH-CN1138150002_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9A%E5%A4%A7%E5%A0%A1%E7%A4%81&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-05-18",
-    "dateLabel": "5月18日",
+    "dateKey": "2026-05-19",
+    "dateLabel": "5月19日",
     "items": [
       {
-        "year": "2021",
-        "text": "臺灣蘋果日報停刊。",
-        "link": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4"
+        "year": "2024",
+        "text": "伊朗總統易卜拉欣·萊希及外交部部長侯赛因·阿米尔-阿卜杜拉希扬等官員在東亞塞拜然省瓦爾扎甘附近墜機身亡。",
+        "link": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4"
       },
       {
         "year": "2021",
-        "text": "因Alpha 變種病毒而產生的本土疫情失控，中華民國的中央流行疫情指揮中心將中華民國臺灣地區升至三級警戒，全面防堵疫情，直到7月26日才降為二級警戒。",
-        "link": "https://zh.wikipedia.org/wiki/%E5%9A%B4%E9%87%8D%E6%80%A5%E6%80%A7%E5%91%BC%E5%90%B8%E9%81%93%E7%97%87%E5%80%99%E7%BE%A4%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%922%E5%9E%8BAlpha%E8%AE%8A%E7%95%B0%E6%A0%AA"
+        "text": "新垣結衣與星野源結婚。",
+        "link": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
+      {
+        "title": "巴基斯坦驻华大使谈中巴五点倡议：恰逢其时 指明和平道路",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-18/10623850.shtml",
+        "summary": "中新社北京5月18日电 (记者 曾玥 黄钰钦)谈及中国同巴基斯坦提出关于恢复海湾和中东地区和平稳定的五点倡议，巴基斯坦驻华大使哈什米18日在北京接受中新社记者专访时说，倡议恰逢其时，为各方通过对话谈判化解分歧、平息争端指明了通往和平的道路。",
+        "image": "",
+        "publishedAt": "2026-05-18T15:58:59.000Z",
+        "source": "中新网"
+      },
       {
         "title": "俄前驻华大使杰尼索夫：普京访华将再次印证俄中关系高水平",
         "link": "https://www.chinanews.com.cn/gn/2026/05-18/10623834.shtml",
@@ -203,17 +211,17 @@
         "image": "",
         "publishedAt": "2026-05-18T15:31:20.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "广东用400多座博物馆，架起了联通世界的“大桥”｜学习粤报",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-18/10623823.shtml",
-        "summary": "一座博物馆，就是一所大学校，也是一座桥梁，联结历史、现在与未来。今年5月18日，第50个国际博物馆日以“博物馆：联结世界的桥梁”为主题，与习近平总书记“博物馆是保护和传承人类文明的重要殿堂，是连接过去、现在、未来的桥梁”的重要论述深度契合。",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/05/18/66585e5debb14a5198980a7e9608cdde.jpg",
-        "publishedAt": "2026-05-18T15:27:54.000Z",
-        "source": "中新网"
       }
     ],
     "chinaSociety": [
+      {
+        "title": "湖南石门强降雨已致一人遇难两失联",
+        "link": "https://www.chinanews.com.cn/sh/2026/05-18/10623849.shtml",
+        "summary": "中新社长沙5月18日电 (刘曼)5月17日至18日，湖南省常德市石门县遭遇历史罕见特大暴雨，壶瓶山镇24小时降雨量达339.2毫米，突破历史极值。截至18日19时，强降雨灾害已造成该县1人遇难、2人失联。",
+        "image": "",
+        "publishedAt": "2026-05-18T15:58:47.000Z",
+        "source": "中新网"
+      },
       {
         "title": "中国登山者完成今春首个“珠洛连登”",
         "link": "https://www.chinanews.com.cn/sh/2026/05-18/10623836.shtml",
@@ -244,14 +252,6 @@
         "summary": "中新网合肥5月18日电 (付敏)一片小小的中国茶叶，如何更好走向世界？5月17日，来自中国多地的茶学研究者齐聚安徽省六安市，在“2026片叶度关山·万里茶路中国行”安徽站活动期间展开探讨。",
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260518/c75e2f2e-dded-43e3-a38c-e6ed9e50a702_zsite.jpg",
         "publishedAt": "2026-05-18T15:33:00.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "探访博物馆里傅山医学的当代印记",
-        "link": "https://www.chinanews.com.cn/sh/2026/05-18/10623808.shtml",
-        "summary": "中新网太原5月18日电 题：探访博物馆里傅山医学的当代印记",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260518/20055bdd-b500-48fd-b817-bf70b2b8e2d2_zsite.jpg",
-        "publishedAt": "2026-05-18T15:26:31.000Z",
         "source": "中新网"
       }
     ],
@@ -299,6 +299,30 @@
     ],
     "worldTop": [
       {
+        "title": "At least 100 deaths reported in Ebola outbreak in DR Congo as six Americans exposed",
+        "link": "https://www.bbc.com/news/articles/cq6pz60p996o?at_medium=RSS&at_campaign=rss",
+        "summary": "One of the six Americans is experiencing symptoms, according to media reports. One province in Congo reports 390 cases.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4eaa/live/fff74570-52cb-11f1-b4b8-8bc40cabb834.jpg",
+        "publishedAt": "2026-05-18T16:20:30.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Death toll from Israeli strikes on Lebanon passes 3,000, officials say",
+        "link": "https://www.bbc.com/news/articles/cqjpglyjwjeo?at_medium=RSS&at_campaign=rss",
+        "summary": "It marks a grim milestone in the conflict between Israel and the Lebanese armed group Hezbollah since March, despite a nominal ceasefire.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d38/live/7bd65990-52a6-11f1-b682-cf91850925ea.jpg",
+        "publishedAt": "2026-05-18T16:16:38.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Judge rules gun and writings are admissible in Luigi Mangione's New York murder trial",
+        "link": "https://www.bbc.com/news/articles/cx21g6qz45xo?at_medium=RSS&at_campaign=rss",
+        "summary": "Other items found with Mangione at a Pennsylvania McDonald's will not be allowed to be presented in court, the judge ruled.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1400/live/133da890-52cc-11f1-b4b8-8bc40cabb834.jpg",
+        "publishedAt": "2026-05-18T16:00:17.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "What is Ebola and why is stopping this outbreak so difficult?",
         "link": "https://www.bbc.com/news/articles/cz72p75zg4qo?at_medium=RSS&at_campaign=rss",
         "summary": "An outbreak of Ebola in DR Congo involves a rare strain and is in an area affected by conflict.",
@@ -307,31 +331,7 @@
         "source": "BBC"
       },
       {
-        "title": "Former Google CEO Eric Schmidt booed by graduates at mention of AI",
-        "link": "https://www.bbc.com/news/articles/ce8pqd54qneo?at_medium=RSS&at_campaign=rss",
-        "summary": "The reaction underscores a growing anxiety among students over AI's impact on jobs and their future careers.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5450/live/4a05dbe0-52cc-11f1-89a3-d1f559421220.jpg",
-        "publishedAt": "2026-05-18T15:16:00.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Judge rules gun, writings are admissible in Luigi Mangione's New York murder trial",
-        "link": "https://www.bbc.com/news/articles/cx21g6qz45xo?at_medium=RSS&at_campaign=rss",
-        "summary": "Other items found with Mangione at a Pennsylvania McDonald's will not be allowed to be presented in court, the judge ruled.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1400/live/133da890-52cc-11f1-b4b8-8bc40cabb834.jpg",
-        "publishedAt": "2026-05-18T15:10:00.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "At least 100 deaths reported in Ebola outbreak in DR Congo as six Americans exposed",
-        "link": "https://www.bbc.com/news/articles/cq6pz60p996o?at_medium=RSS&at_campaign=rss",
-        "summary": "One of the six Americans is experiencing symptoms, according to media reports. One province in Congo reports 390 cases.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4eaa/live/fff74570-52cb-11f1-b4b8-8bc40cabb834.jpg",
-        "publishedAt": "2026-05-18T14:54:34.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Two men arrested over stunt at enclosure of famed monkey Punch",
+        "title": "Two men arrested over stunt at enclosure of famous monkey Punch",
         "link": "https://www.bbc.com/news/articles/cr5pz4jvlp5o?at_medium=RSS&at_campaign=rss",
         "summary": "Two US nationals have been arrested after one jumped the fence of the monkey, who went viral online, police say.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a55c/live/2dd10fb0-52b5-11f1-8340-4151f348d713.jpg",
@@ -341,11 +341,11 @@
     ],
     "worldBusiness": [
       {
-        "title": "Jitters on oil and bond markets as US-Iran peace talks stall",
-        "link": "https://www.bbc.com/news/articles/czx2ne2ryppo?at_medium=RSS&at_campaign=rss",
-        "summary": "Energy markets have been on a wild ride as the key Strait of Hormuz waterway remains effectively closed.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8116/live/f1cb53b0-5258-11f1-b1d3-07d4057a6cd2.jpg",
-        "publishedAt": "2026-05-18T15:13:56.000Z",
+        "title": "Former Google CEO Eric Schmidt booed by graduates at mention of AI",
+        "link": "https://www.bbc.com/news/articles/ce8pqd54qneo?at_medium=RSS&at_campaign=rss",
+        "summary": "The reaction underscores a growing anxiety among students over AI's impact on jobs and their future careers.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5450/live/4a05dbe0-52cc-11f1-89a3-d1f559421220.jpg",
+        "publishedAt": "2026-05-18T15:16:00.000Z",
         "source": "BBC"
       },
       {
@@ -365,11 +365,11 @@
         "source": "BBC"
       },
       {
-        "title": "Lululemon calls founder’s ideas ‘misguided’ in public letter | CNN Business",
+        "title": "Lululemon calls founder’s ideas ‘misguided’ in public letter",
         "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5oSy1JNjExZ2RkZWZOVDRxRmNvZXVKem9JemdEY2k2MHZSeVN5bWRQRmV0anZ6VENMd1Q1eU00dmNzOWVxR1Exb190UHFQbWFhR1NYMkdZN0ZMUnhrazQxbE9aTkpoTzdFaGEwSTJFT1l3SGVWTHQ0SnR3?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-05-18T13:07:32.000Z",
+        "publishedAt": "2026-05-18T13:06:54.000Z",
         "source": "CNN"
       },
       {
@@ -382,6 +382,14 @@
       }
     ],
     "worldTech": [
+      {
+        "title": "Jury tosses Elon Musk's lawsuit against OpenAI and its boss Sam Altman",
+        "link": "https://www.bbc.com/news/articles/cewpyv79pw1o?at_medium=RSS&at_campaign=rss",
+        "summary": "Jurors spent nearly a month hearing and viewing evidence in the high-profile trial, where Musk had accused Altman of \"stealing a charity\".",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dcc1/live/f8761210-52e2-11f1-b682-cf91850925ea.jpg",
+        "publishedAt": "2026-05-18T17:56:48.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Instant AI answers can trivialise human intelligence, warns Royal Observatory",
         "link": "https://www.bbc.com/news/articles/c2023l60370o?at_medium=RSS&at_campaign=rss",
@@ -399,14 +407,6 @@
         "source": "CNN"
       },
       {
-        "title": "This smart contact lens might replace your phone",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVTN5aHdJb3c2ZlM0NUxRdmlqVWdXbXR1VUNCWXQ5MnY5bmhYb3RxemE4YXpWQXpFYUdCdmFCLVJfRVE1NmQ4MlZOdFFOYmJQa2xrcW9Vc0gyR3BKa29OMGZOVGg1bzlYeUdERmFHRDVranpCRDVLYlZ5N1k0NEFpZktGOUZOWFE?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-05-15T15:36:00.000Z",
-        "source": "CNN"
-      },
-      {
         "title": "X pledges quicker action on hate and terror content in the UK",
         "link": "https://www.bbc.com/news/articles/clyp9652v18o?at_medium=RSS&at_campaign=rss",
         "summary": "Ofcom said the commitments were of particular importance after recent crimes targeting Jewish communities in the UK.",
@@ -415,15 +415,23 @@
         "source": "BBC"
       },
       {
-        "title": "Claim, counter-claim and tech's seedy side exposed: Five things we learned in the Musk-Altman trial",
-        "link": "https://www.bbc.com/news/articles/cg7pj8p5mv4o?at_medium=RSS&at_campaign=rss",
-        "summary": "As the jury deliberates, this is what we found out during the weeks-long trial with two tech titans at its heart.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/61c3/live/5604dcc0-5024-11f1-8b8c-6d33e1d5abb6.jpg",
-        "publishedAt": "2026-05-15T05:03:31.000Z",
-        "source": "BBC"
+        "title": "Trump and top CEOs leave a more self-reliant China with few deals to show for it",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNY1AwUGlLMXBOcHNNdnhPODVWN0x6dkM5QU1WTE4xaWxHT2pRaUV2UlBoWnNpSk5RNllCRzFhMjNXSHVPc0F4c3RvOXk5OGkta1JULWIzNlVBWHV4MmV5d3liWEhXWjZPWVd4TGFRQnFzNVYzNENmT2huNDFkNk15WVhYTlZBUUVSVkFFYQ?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-05-15T12:15:07.000Z",
+        "source": "CNN"
       }
     ],
     "domestic": [
+      {
+        "title": "巴基斯坦驻华大使谈中巴五点倡议：恰逢其时 指明和平道路",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-18/10623850.shtml",
+        "summary": "中新社北京5月18日电 (记者 曾玥 黄钰钦)谈及中国同巴基斯坦提出关于恢复海湾和中东地区和平稳定的五点倡议，巴基斯坦驻华大使哈什米18日在北京接受中新社记者专访时说，倡议恰逢其时，为各方通过对话谈判化解分歧、平息争端指明了通往和平的道路。",
+        "image": "",
+        "publishedAt": "2026-05-18T15:58:59.000Z",
+        "source": "中新网"
+      },
       {
         "title": "俄前驻华大使杰尼索夫：普京访华将再次印证俄中关系高水平",
         "link": "https://www.chinanews.com.cn/gn/2026/05-18/10623834.shtml",
@@ -455,17 +463,33 @@
         "image": "",
         "publishedAt": "2026-05-18T15:31:20.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "广东用400多座博物馆，架起了联通世界的“大桥”｜学习粤报",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-18/10623823.shtml",
-        "summary": "一座博物馆，就是一所大学校，也是一座桥梁，联结历史、现在与未来。今年5月18日，第50个国际博物馆日以“博物馆：联结世界的桥梁”为主题，与习近平总书记“博物馆是保护和传承人类文明的重要殿堂，是连接过去、现在、未来的桥梁”的重要论述深度契合。",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/05/18/66585e5debb14a5198980a7e9608cdde.jpg",
-        "publishedAt": "2026-05-18T15:27:54.000Z",
-        "source": "中新网"
       }
     ],
     "international": [
+      {
+        "title": "At least 100 deaths reported in Ebola outbreak in DR Congo as six Americans exposed",
+        "link": "https://www.bbc.com/news/articles/cq6pz60p996o?at_medium=RSS&at_campaign=rss",
+        "summary": "One of the six Americans is experiencing symptoms, according to media reports. One province in Congo reports 390 cases.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4eaa/live/fff74570-52cb-11f1-b4b8-8bc40cabb834.jpg",
+        "publishedAt": "2026-05-18T16:20:30.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Death toll from Israeli strikes on Lebanon passes 3,000, officials say",
+        "link": "https://www.bbc.com/news/articles/cqjpglyjwjeo?at_medium=RSS&at_campaign=rss",
+        "summary": "It marks a grim milestone in the conflict between Israel and the Lebanese armed group Hezbollah since March, despite a nominal ceasefire.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d38/live/7bd65990-52a6-11f1-b682-cf91850925ea.jpg",
+        "publishedAt": "2026-05-18T16:16:38.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Judge rules gun and writings are admissible in Luigi Mangione's New York murder trial",
+        "link": "https://www.bbc.com/news/articles/cx21g6qz45xo?at_medium=RSS&at_campaign=rss",
+        "summary": "Other items found with Mangione at a Pennsylvania McDonald's will not be allowed to be presented in court, the judge ruled.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1400/live/133da890-52cc-11f1-b4b8-8bc40cabb834.jpg",
+        "publishedAt": "2026-05-18T16:00:17.000Z",
+        "source": "BBC"
+      },
       {
         "title": "What is Ebola and why is stopping this outbreak so difficult?",
         "link": "https://www.bbc.com/news/articles/cz72p75zg4qo?at_medium=RSS&at_campaign=rss",
@@ -475,31 +499,7 @@
         "source": "BBC"
       },
       {
-        "title": "Former Google CEO Eric Schmidt booed by graduates at mention of AI",
-        "link": "https://www.bbc.com/news/articles/ce8pqd54qneo?at_medium=RSS&at_campaign=rss",
-        "summary": "The reaction underscores a growing anxiety among students over AI's impact on jobs and their future careers.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5450/live/4a05dbe0-52cc-11f1-89a3-d1f559421220.jpg",
-        "publishedAt": "2026-05-18T15:16:00.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Judge rules gun, writings are admissible in Luigi Mangione's New York murder trial",
-        "link": "https://www.bbc.com/news/articles/cx21g6qz45xo?at_medium=RSS&at_campaign=rss",
-        "summary": "Other items found with Mangione at a Pennsylvania McDonald's will not be allowed to be presented in court, the judge ruled.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1400/live/133da890-52cc-11f1-b4b8-8bc40cabb834.jpg",
-        "publishedAt": "2026-05-18T15:10:00.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "At least 100 deaths reported in Ebola outbreak in DR Congo as six Americans exposed",
-        "link": "https://www.bbc.com/news/articles/cq6pz60p996o?at_medium=RSS&at_campaign=rss",
-        "summary": "One of the six Americans is experiencing symptoms, according to media reports. One province in Congo reports 390 cases.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4eaa/live/fff74570-52cb-11f1-b4b8-8bc40cabb834.jpg",
-        "publishedAt": "2026-05-18T14:54:34.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Two men arrested over stunt at enclosure of famed monkey Punch",
+        "title": "Two men arrested over stunt at enclosure of famous monkey Punch",
         "link": "https://www.bbc.com/news/articles/cr5pz4jvlp5o?at_medium=RSS&at_campaign=rss",
         "summary": "Two US nationals have been arrested after one jumped the fence of the monkey, who went viral online, police say.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a55c/live/2dd10fb0-52b5-11f1-8340-4151f348d713.jpg",
@@ -507,65 +507,12 @@
         "source": "BBC"
       }
     ],
-    "nba": [
-      {
-        "title": "Knicks-Cavs, Thunder-Spurs: Big questions, stats, ...",
-        "link": "https://www.espn.com/nba/story/_/id/48792092/nba-playoffs-2026-previewing-thunder-spurs-knicks-cavaliers-conference-finals",
-        "summary": "Our NBA insiders answer the biggest questions heading into the conference finals.",
-        "image": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0225%2Fr1619688_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-05-18T16:31:19.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "NBA experts' picks for Thunder-Spurs and Knicks-Ca...",
-        "link": "https://www.espn.com/nba/story/_/id/48771573/2026-nba-playoff-expert-picks-conference-finals-knicks-thunder",
-        "summary": "NBA experts pick which teams will win the East and West to claim a spot in the NBA Finals.",
-        "image": "https://a1.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fespn_logos%2Fespn_red.png",
-        "publishedAt": "2026-05-18T16:31:19.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Pelicans hiring Mosley as head coach, sources say",
-        "link": "https://www.espn.com/nba/story/_/id/48806473/sources-pelicans-hiring-jamahl-mosley-head-coach",
-        "summary": "The Pelicans are hiring Jamahl Mosley on a five-year contract as their new head coach, sources told ESPN. He spent the past five seasons in Orlando, g...",
-        "image": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F0312%2Fr1303779_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-05-18T15:52:37.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Mitchell, Cavs break through, rout Pistons in G7",
-        "link": "https://www.espn.com/nba/story/_/id/48802182/mitchell-cavs-break-dispatch-pistons-make-ecf",
-        "summary": "The Cavaliers throttled the top-seeded Pistons in Game 7 to advance to the franchise's first Eastern Conference finals since LeBron James' final year...",
-        "image": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0518%2Fr1659744_1024x576_16%2D9.jpg",
-        "publishedAt": "2026-05-18T15:52:37.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Sources: SGA wins MVP for second straight year",
-        "link": "https://www.espn.com/nba/story/_/id/48795765/sources-thunder-shai-gilgeous-alexander-repeats-nba-mvp",
-        "summary": "Thunder star Shai Gilgeous-Alexander won his second consecutive NBA Most Valuable Player award, becoming the 14th player in league history to win back...",
-        "image": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0511%2Fr1656534_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-05-18T15:52:37.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Pistons bounced, but year 'not a disappointment'",
-        "link": "https://www.espn.com/nba/story/_/id/48802779/detroit-pistons-see-season-end-31-point-loss-game-7",
-        "summary": "Though he watched his Pistons suffer a 125-94 loss to the Cleveland Cavaliers in Game 7 Sunday night at Little Caesars Arena, Detroit coach J.B. Bicke...",
-        "image": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0518%2Fr1659760_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-05-18T15:52:37.000Z",
-        "source": "ESPN"
-      }
-    ]
+    "nba": []
   },
   "nbaScoreboard": {
-    "date": "2026-05-18",
+    "date": "2026-05-19",
     "currentIndex": 4,
     "days": [
-      {
-        "date": "2026-05-14",
-        "games": []
-      },
       {
         "date": "2026-05-15",
         "games": [
@@ -1300,92 +1247,184 @@
             }
           }
         ]
+      },
+      {
+        "date": "2026-05-23",
+        "games": [
+          {
+            "id": "401873343",
+            "link": "https://www.espn.com/nba/game/_/gameId/401873343/knicks-cavaliers",
+            "startTime": "2026-05-24T00:00Z",
+            "state": "pre",
+            "statusText": "Scheduled",
+            "detail": "5/23 - 8:00 PM EDT",
+            "note": "East Finals - Game 3",
+            "homeTeam": {
+              "abbreviation": "CLE",
+              "displayName": "Cleveland Cavaliers",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "27.9",
+                  "player": "Donovan Mitchell",
+                  "position": "G",
+                  "jersey": "45",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3908809.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3908809/donovan-mitchell"
+                },
+                {
+                  "label": "RPG",
+                  "value": "9.0",
+                  "player": "Evan Mobley",
+                  "position": "C",
+                  "jersey": "4",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432158.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4432158/evan-mobley"
+                },
+                {
+                  "label": "APG",
+                  "value": "5.7",
+                  "player": "Donovan Mitchell",
+                  "position": "G",
+                  "jersey": "45",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3908809.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3908809/donovan-mitchell"
+                }
+              ]
+            },
+            "awayTeam": {
+              "abbreviation": "NY",
+              "displayName": "New York Knicks",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "26.0",
+                  "player": "Jalen Brunson",
+                  "position": "G",
+                  "jersey": "11",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3934672/jalen-brunson"
+                },
+                {
+                  "label": "RPG",
+                  "value": "11.9",
+                  "player": "Karl-Anthony Towns",
+                  "position": "C",
+                  "jersey": "32",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3136195.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3136195/karl-anthony-towns"
+                },
+                {
+                  "label": "APG",
+                  "value": "6.8",
+                  "player": "Jalen Brunson",
+                  "position": "G",
+                  "jersey": "11",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3934672/jalen-brunson"
+                }
+              ]
+            }
+          }
+        ]
       }
     ],
     "games": [
       {
-        "id": "401873197",
-        "link": "https://www.espn.com/nba/game/_/gameId/401873197/spurs-thunder",
-        "startTime": "2026-05-19T00:30Z",
+        "id": "401873341",
+        "link": "https://www.espn.com/nba/game/_/gameId/401873341/cavaliers-knicks",
+        "startTime": "2026-05-20T00:00Z",
         "state": "pre",
         "statusText": "Scheduled",
-        "detail": "5/18 - 8:30 PM EDT",
-        "note": "West Finals - Game 1",
+        "detail": "5/19 - 8:00 PM EDT",
+        "note": "East Finals - Game 1",
         "homeTeam": {
-          "abbreviation": "OKC",
-          "displayName": "Oklahoma City Thunder",
+          "abbreviation": "NY",
+          "displayName": "New York Knicks",
           "score": "0",
-          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
+          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
           "leaderContext": "Season Leaders",
           "leaders": [
             {
               "label": "PPG",
-              "value": "31.1",
-              "player": "Shai Gilgeous-Alexander",
+              "value": "26.0",
+              "player": "Jalen Brunson",
               "position": "G",
-              "jersey": "2",
+              "jersey": "11",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278073.png",
-              "link": "https://www.espn.com/nba/player/_/id/4278073/shai-gilgeous-alexander"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
+              "link": "https://www.espn.com/nba/player/_/id/3934672/jalen-brunson"
             },
             {
               "label": "RPG",
-              "value": "8.9",
-              "player": "Chet Holmgren",
+              "value": "11.9",
+              "player": "Karl-Anthony Towns",
               "position": "C",
-              "jersey": "7",
+              "jersey": "32",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433255.png",
-              "link": "https://www.espn.com/nba/player/_/id/4433255/chet-holmgren"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3136195.png",
+              "link": "https://www.espn.com/nba/player/_/id/3136195/karl-anthony-towns"
             },
             {
               "label": "APG",
-              "value": "6.6",
-              "player": "Shai Gilgeous-Alexander",
+              "value": "6.8",
+              "player": "Jalen Brunson",
               "position": "G",
-              "jersey": "2",
+              "jersey": "11",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278073.png",
-              "link": "https://www.espn.com/nba/player/_/id/4278073/shai-gilgeous-alexander"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
+              "link": "https://www.espn.com/nba/player/_/id/3934672/jalen-brunson"
             }
           ]
         },
         "awayTeam": {
-          "abbreviation": "SA",
-          "displayName": "San Antonio Spurs",
+          "abbreviation": "CLE",
+          "displayName": "Cleveland Cavaliers",
           "score": "0",
-          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
           "leaderContext": "Season Leaders",
           "leaders": [
             {
               "label": "PPG",
-              "value": "25.0",
-              "player": "Victor Wembanyama",
-              "position": "F",
-              "jersey": "1",
+              "value": "27.9",
+              "player": "Donovan Mitchell",
+              "position": "G",
+              "jersey": "45",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
-              "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3908809.png",
+              "link": "https://www.espn.com/nba/player/_/id/3908809/donovan-mitchell"
             },
             {
               "label": "RPG",
-              "value": "11.5",
-              "player": "Victor Wembanyama",
-              "position": "F",
-              "jersey": "1",
+              "value": "9.0",
+              "player": "Evan Mobley",
+              "position": "C",
+              "jersey": "4",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
-              "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432158.png",
+              "link": "https://www.espn.com/nba/player/_/id/4432158/evan-mobley"
             },
             {
               "label": "APG",
-              "value": "7.4",
-              "player": "Stephon Castle",
+              "value": "5.7",
+              "player": "Donovan Mitchell",
               "position": "G",
-              "jersey": "5",
+              "jersey": "45",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4845367.png",
-              "link": "https://www.espn.com/nba/player/_/id/4845367/stephon-castle"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3908809.png",
+              "link": "https://www.espn.com/nba/player/_/id/3908809/donovan-mitchell"
             }
           ]
         }
@@ -1393,7 +1432,7 @@
     ]
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-05-18",
+    "rotationLabel": "Curated Rotation · 2026-05-19",
     "sections": [
       {
         "id": "data-storage",
@@ -1401,27 +1440,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-1",
-            "sectionId": "data-storage",
-            "title": "The Log-Structured Merge-Tree (LSM-Tree)",
-            "authors": [
-              "Patrick O'Neil",
-              "Edward Cheng",
-              "Dieter Gawlick",
-              "Elizabeth O'Neil"
-            ],
-            "venue": "Acta Informatica",
-            "year": 1996,
-            "quality": "经典基础",
-            "categories": [
-              "storage",
-              "indexing"
-            ],
-            "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
-            "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-2",
             "sectionId": "data-storage",
@@ -1441,7 +1459,7 @@
             ],
             "link": "https://research.google/pubs/pub27898/",
             "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-3",
@@ -1463,6 +1481,27 @@
             "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
             "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-4",
+            "sectionId": "data-storage",
+            "title": "Dremel: Interactive Analysis of Web-Scale Datasets",
+            "authors": [
+              "Sergey Melnik",
+              "Andrey Gubarev",
+              "Jing Jing Long",
+              "Geoffrey Romer"
+            ],
+            "venue": "VLDB",
+            "year": 2010,
+            "quality": "顶会",
+            "categories": [
+              "analytics",
+              "columnar"
+            ],
+            "link": "https://research.google/pubs/pub36632/",
+            "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -1472,27 +1511,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-2",
-            "sectionId": "computer-vision",
-            "title": "End-to-End Object Detection with Transformers",
-            "authors": [
-              "Nicolas Carion",
-              "Francisco Massa",
-              "Gabriel Synnaeve",
-              "Nicolas Usunier"
-            ],
-            "venue": "ECCV",
-            "year": 2020,
-            "quality": "顶会",
-            "categories": [
-              "detection",
-              "transformer"
-            ],
-            "link": "https://arxiv.org/abs/2005.12872",
-            "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-3",
             "sectionId": "computer-vision",
@@ -1512,7 +1530,7 @@
             ],
             "link": "https://arxiv.org/abs/2010.11929",
             "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-4",
@@ -1534,6 +1552,27 @@
             "link": "https://arxiv.org/abs/2103.00020",
             "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-5",
+            "sectionId": "computer-vision",
+            "title": "Segment Anything",
+            "authors": [
+              "Alexander Kirillov",
+              "Eric Mintun",
+              "Nikhila Ravi",
+              "Hanzi Mao"
+            ],
+            "venue": "ICCV",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "segmentation",
+              "foundation model"
+            ],
+            "link": "https://arxiv.org/abs/2304.02643",
+            "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -1543,27 +1582,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-3",
-            "sectionId": "llm-memory",
-            "title": "RETRO: Improving Language Models by Retrieving From Trillions of Tokens",
-            "authors": [
-              "Sebastian Borgeaud",
-              "Arthur Mensch",
-              "Jordan Hoffmann",
-              "Trevor Cai"
-            ],
-            "venue": "DeepMind / arXiv",
-            "year": 2022,
-            "quality": "高影响力",
-            "categories": [
-              "retrieval",
-              "language model"
-            ],
-            "link": "https://arxiv.org/abs/2112.04426",
-            "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-4",
             "sectionId": "llm-memory",
@@ -1583,7 +1601,7 @@
             ],
             "link": "https://arxiv.org/abs/2310.11511",
             "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-5",
@@ -1605,6 +1623,27 @@
             "link": "https://arxiv.org/abs/2306.07174",
             "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-6",
+            "sectionId": "llm-memory",
+            "title": "MemoRAG: Moving towards Next-Gen RAG Via Memory-Inspired Knowledge Discovery",
+            "authors": [
+              "Rulin Shao",
+              "Yue Liu",
+              "Shuo Wang",
+              "Yichi Zhang"
+            ],
+            "venue": "arXiv",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "RAG",
+              "memory bank"
+            ],
+            "link": "https://arxiv.org/abs/2409.05591",
+            "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -1614,27 +1653,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-4",
-            "sectionId": "agents",
-            "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
-            "authors": [
-              "Guanzhi Wang",
-              "Yuqi Xie",
-              "Zixiang Zhou",
-              "Yujin Tang"
-            ],
-            "venue": "arXiv",
-            "year": 2023,
-            "quality": "高影响力",
-            "categories": [
-              "embodied agent",
-              "planning"
-            ],
-            "link": "https://arxiv.org/abs/2305.16291",
-            "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-5",
             "sectionId": "agents",
@@ -1654,7 +1672,7 @@
             ],
             "link": "https://arxiv.org/abs/2308.08155",
             "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-6",
@@ -1675,6 +1693,28 @@
             ],
             "link": "https://arxiv.org/abs/2405.15793",
             "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-1",
+            "sectionId": "agents",
+            "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+            "authors": [
+              "Shunyu Yao",
+              "Jeffrey Zhao",
+              "Dian Yu",
+              "Nan Du"
+            ],
+            "venue": "ICLR",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "agent",
+              "reasoning",
+              "tool use"
+            ],
+            "link": "https://arxiv.org/abs/2210.03629",
+            "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
             "trackLabel": "轮换精选"
           }
         ]
