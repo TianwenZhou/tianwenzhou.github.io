@@ -1,29 +1,21 @@
 {
-  "generatedAt": "2026-05-19T15:48:36.427Z",
+  "generatedAt": "2026-05-19T18:13:23.880Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 19,
+      "temperature": 18,
       "weatherCode": 3,
-      "windSpeed": 9
+      "windSpeed": 1
     },
     "today": {
-      "date": "2026-05-19",
-      "weatherCode": 3,
-      "description": "阴天",
-      "max": 25,
+      "date": "2026-05-20",
+      "weatherCode": 51,
+      "description": "毛毛雨",
+      "max": 23,
       "min": 17,
-      "precipitationProbability": 0
+      "precipitationProbability": 62
     },
     "forecast": [
-      {
-        "date": "2026-05-19",
-        "weatherCode": 3,
-        "description": "阴天",
-        "max": 25,
-        "min": 17,
-        "precipitationProbability": 0
-      },
       {
         "date": "2026-05-20",
         "weatherCode": 51,
@@ -55,32 +47,49 @@
         "max": 26,
         "min": 17,
         "precipitationProbability": 42
+      },
+      {
+        "date": "2026-05-24",
+        "weatherCode": 3,
+        "description": "阴天",
+        "max": 28,
+        "min": 18,
+        "precipitationProbability": 20
       }
     ]
   },
   "classicQuote": {
-    "id": "chuci-seek",
-    "text": "路漫漫其修远兮，吾将上下而求索。",
-    "source": "《离骚》",
-    "author": "屈原",
-    "note": "长期主义最难，但也最值得。"
+    "id": "analects-learning",
+    "text": "学而不思则罔，思而不学则殆。",
+    "source": "《论语》",
+    "author": "孔子",
+    "note": "提醒自己既要输入，也要沉淀，不要只忙不想。"
   },
   "bookExcerpt": {
-    "id": "border-town-river",
-    "text": "月光如银子，无处不可照及，山上篁竹在月光下变成了一片黑色，身边草丛中虫声繁密如落雨。",
-    "book": "《边城》",
-    "author": "沈从文"
+    "id": "fortress-besieged-night",
+    "text": "夜仿佛纸浸了油，变成半透明体；它给太阳拥抱住了，分不出身来，也许是给太阳溶了，所以夕照晚霞隐褪后的夜色也带着酡红。",
+    "book": "《围城》",
+    "author": "钱钟书"
   },
   "featuredPlace": {
-    "id": "202605181600",
-    "title": "福门托尔灯塔, 马略卡, 巴利阿里群岛, 西班牙",
+    "id": "202605191600",
+    "title": "熊蜂在授粉, 伍斯特, 英格兰",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "马略卡岛的边缘",
-    "image": "https://www.bing.com/th?id=OHR.SpainLighthouse_ZH-CN6024263415_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E8%A5%BF%E7%8F%AD%E7%89%99%E7%A6%8F%E9%97%A8%E6%89%98%E5%B0%94%E7%81%AF%E5%A1%94&form=hpcapt&mkt=zh-cn"
+    "summary": "喧闹从这里开始",
+    "image": "https://www.bing.com/th?id=OHR.BumbleBee_ZH-CN6429376340_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E8%9C%9C%E8%9C%82%E6%97%A5&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202605191600",
+      "title": "熊蜂在授粉, 伍斯特, 英格兰",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "喧闹从这里开始",
+      "image": "https://www.bing.com/th?id=OHR.BumbleBee_ZH-CN6429376340_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E8%9C%9C%E8%9C%82%E6%97%A5&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202605181600",
       "title": "福门托尔灯塔, 马略卡, 巴利阿里群岛, 西班牙",
@@ -143,35 +152,34 @@
       "summary": "银河系，摇滚吧！",
       "image": "https://www.bing.com/th?id=OHR.AlabamaHills_ZH-CN1387018045_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E9%98%BF%E6%8B%89%E5%B7%B4%E9%A9%AC%E5%B1%B1&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202605111600",
-      "title": "北极海鹦, 威尔士",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "振翅, 潜水, 生存",
-      "image": "https://www.bing.com/th?id=OHR.Fratercula_ZH-CN1239275412_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E5%8C%97%E6%9E%81%E6%B5%B7%E9%B9%A6&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-05-19",
-    "dateLabel": "5月19日",
+    "dateKey": "2026-05-20",
+    "dateLabel": "5月20日",
     "items": [
       {
         "year": "2024",
-        "text": "伊朗總統易卜拉欣·萊希及外交部部長侯赛因·阿米尔-阿卜杜拉希扬等官員在東亞塞拜然省瓦爾扎甘附近墜機身亡。",
+        "text": "賴清德在臺北宣誓就任中華民國第十六任總統。",
         "link": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4"
       },
       {
         "year": "2021",
-        "text": "新垣結衣與星野源結婚。",
+        "text": "法國憲法委員會廢止《全球安全法（英语：）》第24條，該條款將散佈可能暴露警察身份的圖像定為犯罪行為。",
         "link": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
+      {
+        "title": "新华图讯｜俄罗斯总统普京抵达北京开始访华",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-19/10624627.shtml",
+        "summary": "应国家主席习近平邀请，俄罗斯总统普京5月19日晚乘专机抵达北京，开始对中国进行国事访问。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/05/19/2f0ae40815df46ebb9615cf8ba3ce902.jpg",
+        "publishedAt": "2026-05-19T15:47:36.000Z",
+        "source": "中新网"
+      },
       {
         "title": "天津机器人，“姓甚名谁”？",
         "link": "https://www.chinanews.com.cn/gn/2026/05-19/10624619.shtml",
@@ -203,17 +211,17 @@
         "image": "",
         "publishedAt": "2026-05-19T14:45:06.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "【中国那些事儿】民心相通 未来可期：中俄人文交流迈上新高度",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-19/10624602.shtml",
-        "summary": "中国日报网5月19日电 俄罗斯总统普京于5月19日至20日对中国进行国事访问。",
-        "image": "",
-        "publishedAt": "2026-05-19T14:44:06.000Z",
-        "source": "中新网"
       }
     ],
     "chinaSociety": [
+      {
+        "title": "广西财政紧急调度柳州市抗震应急救灾资金2000万元",
+        "link": "https://www.chinanews.com.cn/sh/2026/05-20/10624633.shtml",
+        "summary": "中新网南宁5月20日电(韦佳秀)广西壮族自治区财政厅19日介绍，5月17日至18日，柳州市柳南区连续多次发生地震，其中5月18日凌晨与晚间两次地震震级达到5.2级，造成人员伤亡和财产损失。",
+        "image": "",
+        "publishedAt": "2026-05-19T16:44:07.000Z",
+        "source": "中新网"
+      },
       {
         "title": "近期多地持续降雨 出行如何避免安全隐患",
         "link": "https://www.chinanews.com.cn/sh/2026/05-19/10624615.shtml",
@@ -244,14 +252,6 @@
         "summary": "近期，一股“挑战式旅游”热潮正在来华的外国游客中兴起。他们设置各项旅程中的“挑战任务”，从“20美金吃遍夜市美食”到“不用现金过一天”，以“挑战”的方式把“China Travel”玩出了新花样。",
         "image": "",
         "publishedAt": "2026-05-19T14:59:51.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "上海杨浦区与无锡市携手推动融合赋能 打造长三角城市合作典范",
-        "link": "https://www.chinanews.com.cn/sh/2026/05-19/10624604.shtml",
-        "summary": "中新网上海5月19日电 (记者 陈静)共同构建“科技+产业+资本”协同发展生态、为企业打通跨区域高效便捷办理政务服务事项堵点……记者19日采访获悉，上海杨浦区与无锡市携手推动两地之间深度融合、相互赋能，力求打造长三角城市合作典范。",
-        "image": "",
-        "publishedAt": "2026-05-19T14:53:18.000Z",
         "source": "中新网"
       }
     ],
@@ -307,6 +307,14 @@
         "source": "BBC"
       },
       {
+        "title": "Far-right Israeli minister Bezalel Smotrich says ICC seeking warrant for his arrest",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAyWFdkYUpxNjBMODh6c2x6YnB4bXBkUHA2Z05TUnJORXVVXzY1R0ZFNVQwQ1ZmYjVVcWF3RDhkbi00bkxMXzN6U2p5RGdRQk5nN1MzQmtlVFdjU0F0SEQybUN5dnc5czJlUzBYQ0ptcFJEaVE5UnFJYzJZRjFHOTg?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-05-19T14:58:43.000Z",
+        "source": "CNN"
+      },
+      {
         "title": "Ebola outbreak may be spreading faster than first thought, WHO doctor warns",
         "link": "https://www.bbc.com/news/articles/ceqp11gn1l8o?at_medium=RSS&at_campaign=rss",
         "summary": "Hundreds of cases are suspected in central Africa but experts fear the actual number may be much higher.",
@@ -329,17 +337,25 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8c54/live/d2dd8380-5369-11f1-89a3-d1f559421220.jpg",
         "publishedAt": "2026-05-19T10:58:23.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Selling children to survive: Afghan fathers forced to make impossible choices",
-        "link": "https://www.bbc.com/news/articles/c0q25dwj807o?at_medium=RSS&at_campaign=rss",
-        "summary": "In Afghanistan today, a staggering three in four people cannot meet their basic needs.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/76e2/live/d082b8f0-52cc-11f1-b4b8-8bc40cabb834.jpg",
-        "publishedAt": "2026-05-19T10:46:50.000Z",
-        "source": "BBC"
       }
     ],
     "worldBusiness": [
+      {
+        "title": "Supermarkets urged to limit food prices by government",
+        "link": "https://www.bbc.com/news/articles/c5y7qz806q3o?at_medium=RSS&at_campaign=rss",
+        "summary": "Any price caps would be voluntary apply to key groceries such as eggs, bread, and milk, the BBC understands.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ba78/live/6c694910-53a3-11f1-962f-7dc94fa2f5d0.jpg",
+        "publishedAt": "2026-05-19T18:08:20.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "NS&I to begin contacting victims of lost funds scandal",
+        "link": "https://www.bbc.com/news/articles/cvgzrz59yz2o?at_medium=RSS&at_campaign=rss",
+        "summary": "Over 30,000 estates could not be accessed due to an error identifying all of a late customer's NS&I products.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8e62/live/6312e380-5399-11f1-960b-071e01d068d2.jpg",
+        "publishedAt": "2026-05-19T17:41:23.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Petrol hits highest price since start of Iran war",
         "link": "https://www.bbc.com/news/articles/cdep64555wzo?at_medium=RSS&at_campaign=rss",
@@ -349,7 +365,7 @@
         "source": "BBC"
       },
       {
-        "title": "HS2 costs could top £100bn and trains will be slower than first planned",
+        "title": "HS2 could cost up to £102.7bn and trains will be slower than first planned",
         "link": "https://www.bbc.com/news/articles/c794xw7p2dqo?at_medium=RSS&at_campaign=rss",
         "summary": "The new cost range and train speed are being announced as a \"reset\" of the delayed, over-budget and vastly scaled-back project is carried out.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c01/live/1535d640-52a4-11f1-8b8c-6d33e1d5abb6.png",
@@ -363,22 +379,6 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a7dc/live/2c94b480-5378-11f1-ba02-4b5b8fc65c30.jpg",
         "publishedAt": "2026-05-19T14:12:18.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "How to oil-proof your life | CNN Business",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5CNzE2UHNUeVk3S3R2ODF4bGJZVGVXMFNfOUU1eVF3SWlKSllzNFNQb05Ea3liQjcxYmFwaFdwbkdBVTd6RndIaXllTUd5ZkhXOFdVTjNRZVJmSGR0NjhlWDdmdzZHT3lyc2piLWJXRGY?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-05-19T11:05:49.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "Auto industry braces for motor oil shortage",
-        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41elBoN3l3VktUVmJ0YXUyVXdXSTNSUTJvV21BaUtVVE9xZUtfY0xEUVdOUjd1eFVld2dRejZ1eWVtNnFkNWZyR0FyanEyenFic3NLdlB6cjB0YWpDcE9HWFJnU0w4UExxWEY5T1RlVXZuSWw5TUZYWEZB?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-05-19T09:00:51.000Z",
-        "source": "CNN"
       }
     ],
     "worldTech": [
@@ -425,6 +425,14 @@
     ],
     "domestic": [
       {
+        "title": "新华图讯｜俄罗斯总统普京抵达北京开始访华",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-19/10624627.shtml",
+        "summary": "应国家主席习近平邀请，俄罗斯总统普京5月19日晚乘专机抵达北京，开始对中国进行国事访问。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/05/19/2f0ae40815df46ebb9615cf8ba3ce902.jpg",
+        "publishedAt": "2026-05-19T15:47:36.000Z",
+        "source": "中新网"
+      },
+      {
         "title": "天津机器人，“姓甚名谁”？",
         "link": "https://www.chinanews.com.cn/gn/2026/05-19/10624619.shtml",
         "summary": "如果问当下最热的产业有什么？",
@@ -455,14 +463,6 @@
         "image": "",
         "publishedAt": "2026-05-19T14:45:06.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "【中国那些事儿】民心相通 未来可期：中俄人文交流迈上新高度",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-19/10624602.shtml",
-        "summary": "中国日报网5月19日电 俄罗斯总统普京于5月19日至20日对中国进行国事访问。",
-        "image": "",
-        "publishedAt": "2026-05-19T14:44:06.000Z",
-        "source": "中新网"
       }
     ],
     "international": [
@@ -473,6 +473,14 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a392/live/93374260-5374-11f1-b319-63ed6ac90e5f.jpg",
         "publishedAt": "2026-05-19T15:30:57.000Z",
         "source": "BBC"
+      },
+      {
+        "title": "Far-right Israeli minister Bezalel Smotrich says ICC seeking warrant for his arrest",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAyWFdkYUpxNjBMODh6c2x6YnB4bXBkUHA2Z05TUnJORXVVXzY1R0ZFNVQwQ1ZmYjVVcWF3RDhkbi00bkxMXzN6U2p5RGdRQk5nN1MzQmtlVFdjU0F0SEQybUN5dnc5czJlUzBYQ0ptcFJEaVE5UnFJYzJZRjFHOTg?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-05-19T14:58:43.000Z",
+        "source": "CNN"
       },
       {
         "title": "Ebola outbreak may be spreading faster than first thought, WHO doctor warns",
@@ -497,250 +505,14 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8c54/live/d2dd8380-5369-11f1-89a3-d1f559421220.jpg",
         "publishedAt": "2026-05-19T10:58:23.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Selling children to survive: Afghan fathers forced to make impossible choices",
-        "link": "https://www.bbc.com/news/articles/c0q25dwj807o?at_medium=RSS&at_campaign=rss",
-        "summary": "In Afghanistan today, a staggering three in four people cannot meet their basic needs.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/76e2/live/d082b8f0-52cc-11f1-b4b8-8bc40cabb834.jpg",
-        "publishedAt": "2026-05-19T10:46:50.000Z",
-        "source": "BBC"
       }
     ],
-    "nba": [
-      {
-        "title": "2026 NBA mock draft: Predicting all 60 picks, plus what we learned at the combine",
-        "link": "https://www.espn.com/nba/story/_/id/48790115/2026-nba-mock-draft-projecting-60-picks-post-combine-peterson-dybantsa-boozer",
-        "summary": "Jeremy Woo's updated mock draft and predicting all 60 picks after an exciting week at the 2026 NBA combine.",
-        "image": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0516%2Fnba_mock_draft_post_combine_cr_16x9.jpg",
-        "publishedAt": "2026-05-19T15:56:51.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Wemby spoils SGA's MVP night as Spurs stun OKC",
-        "link": "https://www.espn.com/nba/story/_/id/48812302/wembanyama-explodes-41-spurs-stun-thunder-game-1",
-        "summary": "Victor Wembanyama had 41 points and 24 rebounds in a statement performance on Shai Gilgeous-Alexander's MVP night.",
-        "image": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0519%2Fr1660267_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-05-19T07:07:29.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "'I have to be better,' SGA says of MVP night letdo...",
-        "link": "https://www.espn.com/nba/story/_/id/48813019/shai-gilgeous-alexander-says-be-better-game-1-letdown-vs-spurs-mvp-presentation-night",
-        "summary": "After being presented his second straight MVP trophy in a pregame ceremony Monday, Thunder star Shai Gilgeous-Alexander, by his own admission, didn't...",
-        "image": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0519%2Fr1660262_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-05-19T07:07:29.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Pelicans hiring Mosley as head coach, sources say",
-        "link": "https://www.espn.com/nba/story/_/id/48806473/sources-pelicans-hiring-jamahl-mosley-head-coach",
-        "summary": "The Pelicans have hired Jamahl Mosley as their new head coach. He spent the past five seasons in Orlando, going 189-221 and earning three playoff bert...",
-        "image": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F0312%2Fr1303779_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-05-19T07:07:29.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "'Incredibly special': Boomer confirms NBL return",
-        "link": "https://www.espn.com/nbl/story/_/id/48809689/nbl-news-incredibly-special-joe-ingles-confirms-nbl-melbourne-united-return",
-        "summary": "Australian basketball legend Joe Ingles has opened up on his \"incredibly special\" decision to join Melbourne United on a two-year deal.",
-        "image": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0425%2Fr1648878_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-05-19T07:07:29.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Rick Fox appointed opposition senator in Bahamas",
-        "link": "https://www.espn.com/espn/story/_/id/48809532/ex-nba-champ-rick-fox-appointed-opposition-senator-bahamas",
-        "summary": "Retired three-time NBA champion Rick Fox was appointed Monday as a senator for the main opposition party in the Bahamas after losing in the general el...",
-        "image": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2025%2F1125%2Fr1580545_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-05-19T07:07:29.000Z",
-        "source": "ESPN"
-      }
-    ]
+    "nba": []
   },
   "nbaScoreboard": {
-    "date": "2026-05-19",
+    "date": "2026-05-20",
     "currentIndex": 4,
     "days": [
-      {
-        "date": "2026-05-15",
-        "games": [
-          {
-            "id": "401871338",
-            "link": "https://www.espn.com/nba/game/_/gameId/401871338/pistons-cavaliers",
-            "startTime": "2026-05-15T23:00Z",
-            "state": "post",
-            "statusText": "Final",
-            "detail": "Final",
-            "note": "East Semifinals - Game 6",
-            "homeTeam": {
-              "abbreviation": "CLE",
-              "displayName": "Cleveland Cavaliers",
-              "score": "94",
-              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png",
-              "leaderContext": "Game Leaders",
-              "leaders": [
-                {
-                  "label": "PTS",
-                  "value": "23",
-                  "player": "James Harden",
-                  "position": "G",
-                  "jersey": "1",
-                  "summary": "6/13 FG, 8/10 FT",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3992.png",
-                  "link": "https://www.espn.com/nba/player/_/id/3992/james-harden"
-                },
-                {
-                  "label": "REB",
-                  "value": "8",
-                  "player": "Jarrett Allen",
-                  "position": "C",
-                  "jersey": "31",
-                  "summary": "1 DREB, 7 OREB",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066328.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4066328/jarrett-allen"
-                },
-                {
-                  "label": "AST",
-                  "value": "4",
-                  "player": "James Harden",
-                  "position": "G",
-                  "jersey": "1",
-                  "summary": "8 TO, 37 MIN",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3992.png",
-                  "link": "https://www.espn.com/nba/player/_/id/3992/james-harden"
-                }
-              ]
-            },
-            "awayTeam": {
-              "abbreviation": "DET",
-              "displayName": "Detroit Pistons",
-              "score": "115",
-              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/det.png",
-              "leaderContext": "Game Leaders",
-              "leaders": [
-                {
-                  "label": "PTS",
-                  "value": "21",
-                  "player": "Cade Cunningham",
-                  "position": "G",
-                  "jersey": "2",
-                  "summary": "7/19 FG, 2/2 FT",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432166.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4432166/cade-cunningham"
-                },
-                {
-                  "label": "REB",
-                  "value": "11",
-                  "player": "Jalen Duren",
-                  "position": "C",
-                  "jersey": "0",
-                  "summary": "7 DREB, 4 OREB",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433621.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4433621/jalen-duren"
-                },
-                {
-                  "label": "AST",
-                  "value": "8",
-                  "player": "Cade Cunningham",
-                  "position": "G",
-                  "jersey": "2",
-                  "summary": "7 TO, 42 MIN",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432166.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4432166/cade-cunningham"
-                }
-              ]
-            }
-          },
-          {
-            "id": "401871157",
-            "link": "https://www.espn.com/nba/game/_/gameId/401871157/spurs-timberwolves",
-            "startTime": "2026-05-16T01:30Z",
-            "state": "post",
-            "statusText": "Final",
-            "detail": "Final",
-            "note": "West Semifinals - Game 6",
-            "homeTeam": {
-              "abbreviation": "MIN",
-              "displayName": "Minnesota Timberwolves",
-              "score": "109",
-              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
-              "leaderContext": "Game Leaders",
-              "leaders": [
-                {
-                  "label": "PTS",
-                  "value": "24",
-                  "player": "Anthony Edwards",
-                  "position": "G",
-                  "jersey": "5",
-                  "summary": "9/26 FG, 4/7 FT",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4594268.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4594268/anthony-edwards"
-                },
-                {
-                  "label": "REB",
-                  "value": "7",
-                  "player": "Naz Reid",
-                  "position": "C",
-                  "jersey": "11",
-                  "summary": "6 DREB, 1 OREB",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4396971.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4396971/naz-reid"
-                },
-                {
-                  "label": "AST",
-                  "value": "9",
-                  "player": "Ayo Dosunmu",
-                  "position": "G",
-                  "jersey": "13",
-                  "summary": "0 TO, 23 MIN",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397002.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4397002/ayo-dosunmu"
-                }
-              ]
-            },
-            "awayTeam": {
-              "abbreviation": "SA",
-              "displayName": "San Antonio Spurs",
-              "score": "139",
-              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
-              "leaderContext": "Game Leaders",
-              "leaders": [
-                {
-                  "label": "PTS",
-                  "value": "32",
-                  "player": "Stephon Castle",
-                  "position": "G",
-                  "jersey": "5",
-                  "summary": "11/16 FG, 5/6 FT",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4845367.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4845367/stephon-castle"
-                },
-                {
-                  "label": "REB",
-                  "value": "11",
-                  "player": "Stephon Castle",
-                  "position": "G",
-                  "jersey": "5",
-                  "summary": "8 DREB, 3 OREB",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4845367.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4845367/stephon-castle"
-                },
-                {
-                  "label": "AST",
-                  "value": "9",
-                  "player": "De'Aaron Fox",
-                  "position": "G",
-                  "jersey": "4",
-                  "summary": "1 TO, 24 MIN",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066259.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4066259/deaaron-fox"
-                }
-              ]
-            }
-          }
-        ]
-      },
       {
         "date": "2026-05-16",
         "games": []
@@ -1388,92 +1160,184 @@
             }
           }
         ]
+      },
+      {
+        "date": "2026-05-24",
+        "games": [
+          {
+            "id": "401873200",
+            "link": "https://www.espn.com/nba/game/_/gameId/401873200/thunder-spurs",
+            "startTime": "2026-05-25T00:00Z",
+            "state": "pre",
+            "statusText": "Scheduled",
+            "detail": "5/24 - 8:00 PM EDT",
+            "note": "West Finals - Game 4",
+            "homeTeam": {
+              "abbreviation": "SA",
+              "displayName": "San Antonio Spurs",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "25.0",
+                  "player": "Victor Wembanyama",
+                  "position": "F",
+                  "jersey": "1",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
+                  "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
+                },
+                {
+                  "label": "RPG",
+                  "value": "11.5",
+                  "player": "Victor Wembanyama",
+                  "position": "F",
+                  "jersey": "1",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
+                  "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
+                },
+                {
+                  "label": "APG",
+                  "value": "7.4",
+                  "player": "Stephon Castle",
+                  "position": "G",
+                  "jersey": "5",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4845367.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4845367/stephon-castle"
+                }
+              ]
+            },
+            "awayTeam": {
+              "abbreviation": "OKC",
+              "displayName": "Oklahoma City Thunder",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "31.1",
+                  "player": "Shai Gilgeous-Alexander",
+                  "position": "G",
+                  "jersey": "2",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278073.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4278073/shai-gilgeous-alexander"
+                },
+                {
+                  "label": "RPG",
+                  "value": "8.9",
+                  "player": "Chet Holmgren",
+                  "position": "C",
+                  "jersey": "7",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433255.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4433255/chet-holmgren"
+                },
+                {
+                  "label": "APG",
+                  "value": "6.6",
+                  "player": "Shai Gilgeous-Alexander",
+                  "position": "G",
+                  "jersey": "2",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278073.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4278073/shai-gilgeous-alexander"
+                }
+              ]
+            }
+          }
+        ]
       }
     ],
     "games": [
       {
-        "id": "401873341",
-        "link": "https://www.espn.com/nba/game/_/gameId/401873341/cavaliers-knicks",
-        "startTime": "2026-05-20T00:00Z",
+        "id": "401873198",
+        "link": "https://www.espn.com/nba/game/_/gameId/401873198/spurs-thunder",
+        "startTime": "2026-05-21T00:30Z",
         "state": "pre",
         "statusText": "Scheduled",
-        "detail": "5/19 - 8:00 PM EDT",
-        "note": "East Finals - Game 1",
+        "detail": "5/20 - 8:30 PM EDT",
+        "note": "West Finals - Game 2",
         "homeTeam": {
-          "abbreviation": "NY",
-          "displayName": "New York Knicks",
+          "abbreviation": "OKC",
+          "displayName": "Oklahoma City Thunder",
           "score": "0",
-          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
           "leaderContext": "Season Leaders",
           "leaders": [
             {
               "label": "PPG",
-              "value": "26.0",
-              "player": "Jalen Brunson",
+              "value": "31.1",
+              "player": "Shai Gilgeous-Alexander",
               "position": "G",
-              "jersey": "11",
+              "jersey": "2",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
-              "link": "https://www.espn.com/nba/player/_/id/3934672/jalen-brunson"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278073.png",
+              "link": "https://www.espn.com/nba/player/_/id/4278073/shai-gilgeous-alexander"
             },
             {
               "label": "RPG",
-              "value": "11.9",
-              "player": "Karl-Anthony Towns",
+              "value": "8.9",
+              "player": "Chet Holmgren",
               "position": "C",
-              "jersey": "32",
+              "jersey": "7",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3136195.png",
-              "link": "https://www.espn.com/nba/player/_/id/3136195/karl-anthony-towns"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433255.png",
+              "link": "https://www.espn.com/nba/player/_/id/4433255/chet-holmgren"
             },
             {
               "label": "APG",
-              "value": "6.8",
-              "player": "Jalen Brunson",
+              "value": "6.6",
+              "player": "Shai Gilgeous-Alexander",
               "position": "G",
-              "jersey": "11",
+              "jersey": "2",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
-              "link": "https://www.espn.com/nba/player/_/id/3934672/jalen-brunson"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278073.png",
+              "link": "https://www.espn.com/nba/player/_/id/4278073/shai-gilgeous-alexander"
             }
           ]
         },
         "awayTeam": {
-          "abbreviation": "CLE",
-          "displayName": "Cleveland Cavaliers",
+          "abbreviation": "SA",
+          "displayName": "San Antonio Spurs",
           "score": "0",
-          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
           "leaderContext": "Season Leaders",
           "leaders": [
             {
               "label": "PPG",
-              "value": "27.9",
-              "player": "Donovan Mitchell",
-              "position": "G",
-              "jersey": "45",
+              "value": "25.0",
+              "player": "Victor Wembanyama",
+              "position": "F",
+              "jersey": "1",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3908809.png",
-              "link": "https://www.espn.com/nba/player/_/id/3908809/donovan-mitchell"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
+              "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
             },
             {
               "label": "RPG",
-              "value": "9.0",
-              "player": "Evan Mobley",
-              "position": "C",
-              "jersey": "4",
+              "value": "11.5",
+              "player": "Victor Wembanyama",
+              "position": "F",
+              "jersey": "1",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432158.png",
-              "link": "https://www.espn.com/nba/player/_/id/4432158/evan-mobley"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
+              "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
             },
             {
               "label": "APG",
-              "value": "5.7",
-              "player": "Donovan Mitchell",
+              "value": "7.4",
+              "player": "Stephon Castle",
               "position": "G",
-              "jersey": "45",
+              "jersey": "5",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3908809.png",
-              "link": "https://www.espn.com/nba/player/_/id/3908809/donovan-mitchell"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4845367.png",
+              "link": "https://www.espn.com/nba/player/_/id/4845367/stephon-castle"
             }
           ]
         }
@@ -1481,7 +1345,7 @@
     ]
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-05-19",
+    "rotationLabel": "Curated Rotation · 2026-05-20",
     "sections": [
       {
         "id": "data-storage",
@@ -1489,27 +1353,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-2",
-            "sectionId": "data-storage",
-            "title": "Bigtable: A Distributed Storage System for Structured Data",
-            "authors": [
-              "Fay Chang",
-              "Jeffrey Dean",
-              "Sanjay Ghemawat",
-              "Wilson C. Hsieh"
-            ],
-            "venue": "OSDI",
-            "year": 2006,
-            "quality": "顶会",
-            "categories": [
-              "distributed systems",
-              "database"
-            ],
-            "link": "https://research.google/pubs/pub27898/",
-            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-3",
             "sectionId": "data-storage",
@@ -1529,7 +1372,7 @@
             ],
             "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
             "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-4",
@@ -1551,6 +1394,26 @@
             "link": "https://research.google/pubs/pub36632/",
             "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-5",
+            "sectionId": "data-storage",
+            "title": "The FAISS Library",
+            "authors": [
+              "Jeff Johnson",
+              "Matthijs Douze",
+              "Herve Jegou"
+            ],
+            "venue": "IEEE T-BD",
+            "year": 2021,
+            "quality": "高影响力",
+            "categories": [
+              "vector search",
+              "ANN"
+            ],
+            "link": "https://arxiv.org/abs/2401.08281",
+            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -1560,27 +1423,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-3",
-            "sectionId": "computer-vision",
-            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
-            "authors": [
-              "Alexey Dosovitskiy",
-              "Lucas Beyer",
-              "Alexander Kolesnikov",
-              "Dirk Weissenborn"
-            ],
-            "venue": "ICLR",
-            "year": 2021,
-            "quality": "顶会",
-            "categories": [
-              "vision transformer",
-              "classification"
-            ],
-            "link": "https://arxiv.org/abs/2010.11929",
-            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-4",
             "sectionId": "computer-vision",
@@ -1600,7 +1442,7 @@
             ],
             "link": "https://arxiv.org/abs/2103.00020",
             "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-5",
@@ -1622,6 +1464,27 @@
             "link": "https://arxiv.org/abs/2304.02643",
             "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-6",
+            "sectionId": "computer-vision",
+            "title": "DINOv2: Learning Robust Visual Features without Supervision",
+            "authors": [
+              "Maxime Oquab",
+              "Timothée Darcet",
+              "Théo Moutakanni",
+              "Huy V. Vo"
+            ],
+            "venue": "arXiv / Meta",
+            "year": 2023,
+            "quality": "高影响力",
+            "categories": [
+              "self-supervised",
+              "representation"
+            ],
+            "link": "https://arxiv.org/abs/2304.07193",
+            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -1631,27 +1494,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-4",
-            "sectionId": "llm-memory",
-            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
-            "authors": [
-              "Akari Asai",
-              "Zequn Zhang",
-              "Avirup Sil",
-              "Hannaneh Hajishirzi"
-            ],
-            "venue": "ICLR",
-            "year": 2024,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "self-reflection"
-            ],
-            "link": "https://arxiv.org/abs/2310.11511",
-            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-5",
             "sectionId": "llm-memory",
@@ -1671,7 +1513,7 @@
             ],
             "link": "https://arxiv.org/abs/2306.07174",
             "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-6",
@@ -1693,6 +1535,27 @@
             "link": "https://arxiv.org/abs/2409.05591",
             "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-1",
+            "sectionId": "llm-memory",
+            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+            "authors": [
+              "Patrick Lewis",
+              "Ethan Perez",
+              "Aleksandra Piktus",
+              "Fabio Petroni"
+            ],
+            "venue": "NeurIPS",
+            "year": 2020,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "retrieval"
+            ],
+            "link": "https://arxiv.org/abs/2005.11401",
+            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -1702,27 +1565,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-5",
-            "sectionId": "agents",
-            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
-            "authors": [
-              "Qingyun Wu",
-              "Gagan Bansal",
-              "Jiaqi Zhang",
-              "Yiran Wu"
-            ],
-            "venue": "COLM",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "multi-agent",
-              "framework"
-            ],
-            "link": "https://arxiv.org/abs/2308.08155",
-            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-6",
             "sectionId": "agents",
@@ -1742,7 +1584,7 @@
             ],
             "link": "https://arxiv.org/abs/2405.15793",
             "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-1",
@@ -1764,6 +1606,27 @@
             ],
             "link": "https://arxiv.org/abs/2210.03629",
             "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-2",
+            "sectionId": "agents",
+            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+            "authors": [
+              "Timo Schick",
+              "Jane Dwivedi-Yu",
+              "Roberta Dessì",
+              "Ari Holtzman"
+            ],
+            "venue": "NeurIPS",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "tool use",
+              "agent"
+            ],
+            "link": "https://arxiv.org/abs/2302.04761",
+            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
             "trackLabel": "轮换精选"
           }
         ]
