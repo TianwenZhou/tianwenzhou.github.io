@@ -26,9 +26,15 @@ const defaultShortcuts = [
   { title: "GitHub", url: "https://github.com", icon: "https://www.google.com/s2/favicons?domain=github.com&sz=128" },
   { title: "ChatGPT", url: "https://chatgpt.com", icon: "https://www.google.com/s2/favicons?domain=chatgpt.com&sz=128" },
   { title: "Google Scholar", url: "https://scholar.google.com", icon: "https://www.google.com/s2/favicons?domain=scholar.google.com&sz=128" },
-  { title: "arXiv", url: "https://arxiv.org", icon: "https://www.google.com/s2/favicons?domain=arxiv.org&sz=128" },
   { title: "Overleaf", url: "https://www.overleaf.com", icon: "https://www.google.com/s2/favicons?domain=overleaf.com&sz=128" },
   { title: "Z-Library", url: "https://z-library.sk", icon: "https://www.google.com/s2/favicons?domain=z-library.sk&sz=128" },
+  { title: "Deepseek", url: "https://chat.deepseek.com", icon: "https://www.google.com/s2/favicons?domain=chat.deepseek.com&sz=128" },
+  { title: "Doubao", url: "https://www.doubao.com", icon: "https://www.google.com/s2/favicons?domain=doubao.com&sz=128" },
+  { title: "QQ邮箱", url: "https://mail.qq.com", icon: "https://mail.qq.com/favicon.ico" },
+  { title: "qweather", url: "https://dev.qweather.com", icon: "https://www.google.com/s2/favicons?domain=dev.qweather.com&sz=128" },
+  { title: "Zhoutianwen", url: "https://tianwenzhou.github.io", icon: "https://www.google.com/s2/favicons?domain=tianwenzhou.github.io&sz=128" },
+  { title: "GMail", url: "https://mail.google.com", icon: "https://www.google.com/s2/favicons?domain=mail.google.com&sz=128" },
+  { title: "Bilibili", url: "https://www.bilibili.com", icon: "https://www.bilibili.com/favicon.ico" },
 ];
 const searchEngines = {
   bing: {
