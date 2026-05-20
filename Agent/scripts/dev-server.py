@@ -15,6 +15,8 @@ ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_PORT = 4173
 WINDOWS_STOCK_PYTHON = Path(r"D:\pyenvs\stock\python.exe")
 STOCK_NAME_CACHE = ROOT / "data" / "stocks" / "a-share-code-name.json"
+BILIBILI_DATA = ROOT / "data" / "bilibili-videos.json"
+BILIBILI_SCRIPT = ROOT / "scripts" / "fetch-bilibili-videos.py"
 
 STOCKS = {
     "byd": {
@@ -151,6 +153,10 @@ class AgentDevHandler(SimpleHTTPRequestHandler):
     def do_POST(self) -> None:
         parsed = urlparse(self.path)
         parts = [unquote(part) for part in parsed.path.strip("/").split("/") if part]
+        if parts == ["api", "bilibili", "refresh"]:
+            self.refresh_bilibili(self.read_json_body())
+            return
+
         if len(parts) == 4 and parts[:2] == ["api", "stocks"] and parts[3] == "refresh":
             self.refresh_stock(parts[2], self.read_json_body())
             return
@@ -379,6 +385,75 @@ print(json.dumps(payload, ensure_ascii=True))
                 "stock": stock_key,
                 "generatedAt": data.get("generatedAt"),
                 "quote": data.get("quote"),
+                "data": data,
+            },
+        )
+
+    def refresh_bilibili(self, payload: dict) -> None:
+        keyword = str(payload.get("keyword") or "电影解说").strip()[:32] or "电影解说"
+        command = [
+            sys.executable,
+            str(BILIBILI_SCRIPT),
+            "--keyword",
+            keyword,
+            "--output",
+            str(BILIBILI_DATA),
+            "--pages",
+            "3",
+            "--pool-size",
+            "80",
+            "--history-size",
+            "240",
+            "--workers",
+            "8",
+        ]
+
+        for mid in payload.get("upMids") or []:
+            mid_text = re.sub(r"\D", "", str(mid))
+            if mid_text:
+                command.extend(["--up-mid", mid_text])
+
+        for tag in payload.get("tags") or []:
+            tag_text = str(tag).strip()
+            if tag_text:
+                command.extend(["--tag", tag_text[:32]])
+
+        try:
+            result = subprocess.run(
+                command,
+                cwd=ROOT,
+                capture_output=True,
+                text=True,
+                encoding="utf-8",
+                errors="replace",
+                timeout=45,
+                check=False,
+            )
+        except Exception as error:
+            self.send_json(HTTPStatus.INTERNAL_SERVER_ERROR, {"ok": False, "error": str(error)})
+            return
+
+        if result.returncode != 0:
+            self.send_json(
+                HTTPStatus.BAD_GATEWAY,
+                {
+                    "ok": False,
+                    "error": result.stderr.strip() or result.stdout.strip() or "Bilibili refresh failed",
+                },
+            )
+            return
+
+        try:
+            data = json.loads(BILIBILI_DATA.read_text(encoding="utf-8"))
+        except Exception as error:
+            self.send_json(HTTPStatus.INTERNAL_SERVER_ERROR, {"ok": False, "error": str(error)})
+            return
+
+        self.send_json(
+            HTTPStatus.OK,
+            {
+                "ok": True,
+                "generatedAt": data.get("generatedAt"),
                 "data": data,
             },
         )

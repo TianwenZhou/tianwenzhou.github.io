@@ -1,4 +1,5 @@
 import { rebuildHomeShell } from "./src/pages/home/home-shell.js";
+import { loadBilibiliWidget, setupBilibiliWidget } from "./src/pages/home/bilibili/bilibili-widget.js";
 import { loadStockWidget, setupStockWidget } from "./src/pages/home/stock/stock-widget.js";
 import { setupHomeSearchAndShortcuts } from "./src/pages/home/shortcuts/shortcuts.js";
 import { setupHomeWallpaperToggle } from "./src/pages/home/theme/wallpaper-toggle.js";
@@ -1417,9 +1418,58 @@ async function loadBrief({ manual = false } = {}) {
   }
 }
 
+function runAfterFirstPaint(callback, delay = 0) {
+  window.requestAnimationFrame(() => {
+    window.setTimeout(callback, delay);
+  });
+}
+
+function runWhenIdle(callback, timeout = 2500) {
+  if ("requestIdleCallback" in window) {
+    window.requestIdleCallback(callback, { timeout });
+    return;
+  }
+
+  window.setTimeout(callback, Math.min(timeout, 800));
+}
+
+function loadExternalModule(src) {
+  if (document.querySelector(`script[src="${src}"]`)) {
+    return;
+  }
+
+  const script = document.createElement("script");
+  script.type = "module";
+  script.src = src;
+  document.head.append(script);
+}
+
+function loadHomeDataAfterFirstPaint() {
+  runAfterFirstPaint(() => {
+    loadSelectedWeather();
+  });
+
+  runAfterFirstPaint(() => {
+    loadStockWidget();
+  }, 100);
+
+  runAfterFirstPaint(() => {
+    loadBilibiliWidget();
+  }, 180);
+
+  runWhenIdle(() => {
+    loadBrief();
+  }, 1800);
+
+  runWhenIdle(() => {
+    loadExternalModule("https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js");
+  }, 5000);
+}
+
 setupViewNavigation();
 setupHomeSearchAndShortcuts();
 setupHomeWallpaperToggle();
+setupBilibiliWidget();
 setupWeatherControls();
 setupStockWidget();
 setupChatDock();
@@ -1430,5 +1480,4 @@ setupCalendarNavigation();
 setupNbaScheduleNavigation();
 renderClock();
 setInterval(renderClock, 1000);
-loadStockWidget();
-loadBrief().then(() => loadSelectedWeather());
+loadHomeDataAfterFirstPaint();

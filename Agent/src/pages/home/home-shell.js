@@ -117,6 +117,20 @@ export function rebuildHomeShell() {
             <div id="shortcutPager" class="shortcut-pager" aria-label="Shortcut pages"></div>
           </section>
 
+          <div class="home-lower-widgets" aria-label="Home recommendations">
+            <section id="bilibiliWidget" class="home-bilibili-widget" aria-labelledby="bilibiliWidgetTitle">
+              <header class="bilibili-widget-head">
+                <div>
+                  <p class="home-kicker">BILIBILI</p>
+                  <h2 id="bilibiliWidgetTitle">电影解说</h2>
+                </div>
+                <button id="bilibiliRefreshButton" class="bilibili-refresh-button" type="button" aria-label="刷新 Bilibili 推荐"></button>
+              </header>
+              <div id="bilibiliVideoList" class="bilibili-video-list" aria-live="polite"></div>
+            </section>
+            <div class="home-lower-widget-slot" aria-hidden="true"></div>
+          </div>
+
           <div id="shortcutDialog" class="shortcut-dialog" hidden>
             <div class="shortcut-dialog-backdrop" data-shortcut-dialog-close></div>
             <form id="shortcutDialogForm" class="shortcut-dialog-card" role="dialog" aria-modal="true" aria-labelledby="shortcutDialogTitle">
