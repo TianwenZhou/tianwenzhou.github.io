@@ -103,6 +103,10 @@ let stockNameCachePromise = null;
 let stockSearchRenderToken = 0;
 let stockChartHoverData = null;
 
+function isBrowserExtensionPage() {
+  return ["chrome-extension:", "ms-browser-extension:", "moz-extension:"].includes(window.location.protocol);
+}
+
 function inferStockExchange(symbol) {
   return String(symbol).startsWith("6") ? "SSE" : "SZSE";
 }
@@ -1515,7 +1519,7 @@ export async function loadStockWidget({ manual = false } = {}) {
   let refreshedData = null;
   let refreshError = null;
 
-  if (manual) {
+  if (manual && !isBrowserExtensionPage()) {
     setStockRefreshState("loading");
     try {
       refreshedData = await requestStockDataRefresh(activeConfig);

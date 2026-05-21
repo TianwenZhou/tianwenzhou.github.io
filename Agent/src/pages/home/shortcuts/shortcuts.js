@@ -295,8 +295,6 @@ function renderShortcutCard({ shortcut, index }) {
         alt=""
         loading="lazy"
         draggable="false"
-        onload="this.closest('.shortcut-icon-wrap')?.classList.add('has-icon')"
-        onerror="this.closest('.shortcut-icon-wrap')?.classList.remove('has-icon'); this.remove()"
       />
     </span>
     <span class="shortcut-title">${title}</span>
@@ -338,6 +336,28 @@ function renderShortcutAddCard() {
   `;
 }
 
+function hydrateShortcutIconFallbacks() {
+  dom.shortcutGrid?.querySelectorAll(".shortcut-icon-wrap img").forEach((image) => {
+    const iconWrap = image.closest(".shortcut-icon-wrap");
+    const markLoaded = () => iconWrap?.classList.add("has-icon");
+    const markMissing = () => {
+      iconWrap?.classList.remove("has-icon");
+      image.remove();
+    };
+
+    image.addEventListener("load", markLoaded, { once: true });
+    image.addEventListener("error", markMissing, { once: true });
+
+    if (image.complete) {
+      if (image.naturalWidth > 0) {
+        markLoaded();
+      } else {
+        markMissing();
+      }
+    }
+  });
+}
+
 function renderShortcuts(shortcuts = loadShortcuts()) {
   if (!dom.shortcutGrid) {
     return;
@@ -360,6 +380,7 @@ function renderShortcuts(shortcuts = loadShortcuts()) {
   dom.shortcutGrid.innerHTML = pageEntries
     .map((entry) => (entry.type === "add" ? renderShortcutAddCard() : renderShortcutCard(entry)))
     .join("");
+  hydrateShortcutIconFallbacks();
   renderShortcutPager(pageCount);
 }
 

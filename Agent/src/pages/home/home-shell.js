@@ -122,10 +122,39 @@ export function rebuildHomeShell() {
               <header class="bilibili-widget-head">
                 <div>
                   <p class="home-kicker">BILIBILI</p>
-                  <h2 id="bilibiliWidgetTitle">电影解说</h2>
+                  <div class="bilibili-title-row">
+                    <h2 id="bilibiliWidgetTitle">电影解说</h2>
+                    <button
+                      id="bilibiliCategoryButton"
+                      class="bilibili-category-button"
+                      type="button"
+                      aria-label="切换 Bilibili 推荐分类"
+                      aria-haspopup="menu"
+                      aria-expanded="false"
+                    >
+                      <svg viewBox="0 0 12 12" aria-hidden="true">
+                        <path d="M2 3h3.2M7.2 3H10M2 6h6.2M10 6h0M2 9h1.2M5.2 9H10" />
+                        <path d="M5.2 2v2M8.2 5v2M3.2 8v2" />
+                      </svg>
+                    </button>
+                    <button
+                      id="bilibiliKeywordButton"
+                      class="bilibili-keyword-button"
+                      type="button"
+                      aria-label="打开 Bilibili 推荐权重"
+                      aria-haspopup="menu"
+                      aria-expanded="false"
+                    >
+                      <svg viewBox="0 0 12 12" aria-hidden="true">
+                        <path d="M3 4.5 6 7.5 9 4.5" />
+                      </svg>
+                    </button>
+                  </div>
                 </div>
                 <button id="bilibiliRefreshButton" class="bilibili-refresh-button" type="button" aria-label="刷新 Bilibili 推荐"></button>
               </header>
+              <div id="bilibiliCategoryMenu" class="bilibili-category-menu bilibili-keyword-menu" role="menu" aria-label="Bilibili 推荐分类" hidden></div>
+              <div id="bilibiliKeywordMenu" class="bilibili-keyword-menu" role="menu" aria-label="Bilibili 推荐权重" hidden></div>
               <div id="bilibiliVideoList" class="bilibili-video-list" aria-live="polite"></div>
             </section>
             <div class="home-lower-widget-slot" aria-hidden="true"></div>

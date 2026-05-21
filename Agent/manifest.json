@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Agent Dashboard",
+  "short_name": "Agent",
+  "version": "0.1.0",
+  "description": "A personal new-tab dashboard with search, shortcuts, weather, market data, and video recommendations.",
+  "icons": {
+    "16": "assets/extension/icon-16.png",
+    "32": "assets/extension/icon-32.png",
+    "48": "assets/extension/icon-48.png",
+    "128": "assets/extension/icon-128.png"
+  },
+  "action": {
+    "default_title": "Agent Dashboard",
+    "default_icon": {
+      "16": "assets/extension/icon-16.png",
+      "32": "assets/extension/icon-32.png",
+      "48": "assets/extension/icon-48.png",
+      "128": "assets/extension/icon-128.png"
+    }
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": ["geolocation", "storage"],
+  "host_permissions": [
+    "https://mh7mdb4hhk.re.qweatherapi.com/*",
+    "https://api.bigdatacloud.net/*",
+    "https://api.open-meteo.com/*",
+    "https://air-quality-api.open-meteo.com/*",
+    "https://geo.datav.aliyun.com/*",
+    "https://api.bilibili.com/*",
+    "https://www.bilibili.com/*",
+    "https://*.hdslb.com/*"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https: data: blob:; connect-src 'self' https: http://localhost:* http://127.0.0.1:*; font-src 'self' data:; media-src 'self' https: blob:"
+  }
+}
