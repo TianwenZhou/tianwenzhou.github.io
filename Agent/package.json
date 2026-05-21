@@ -6,6 +6,7 @@
   "scripts": {
     "generate:data": "node scripts/generate-data.mjs",
     "generate:stock": "python scripts/fetch-stock-data.py",
+    "extension:package": "python scripts/package-extension.py",
     "serve": "python scripts/dev-server.py 4173"
   }
 }

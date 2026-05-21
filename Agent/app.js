@@ -24,6 +24,9 @@ const chatDockPositionKey = "agent-dashboard-chat-position-v1";
 const chatUnreadKey = "agent-dashboard-chat-unread-v1";
 const maxChatTurns = 8;
 const chatDragThreshold = 10;
+const isBrowserExtensionPage = ["chrome-extension:", "ms-browser-extension:", "moz-extension:"].includes(
+  window.location.protocol,
+);
 
 const dom = {
   generatedAt: document.querySelector("#generatedAt"),
@@ -1462,7 +1465,9 @@ function loadHomeDataAfterFirstPaint() {
   }, 1800);
 
   runWhenIdle(() => {
-    loadExternalModule("https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js");
+    if (!isBrowserExtensionPage) {
+      loadExternalModule("./assets/vendor/model-viewer/model-viewer.min.js");
+    }
   }, 5000);
 }
 

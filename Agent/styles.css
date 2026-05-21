@@ -3782,6 +3782,15 @@ body[data-active-view="home"][data-home-wallpaper="night"] {
   align-items: flex-start;
   justify-content: space-between;
   gap: 12px;
+  position: relative;
+  z-index: 4;
+}
+
+.bilibili-title-row {
+  min-width: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
 }
 
 .home-bilibili-widget h2 {
@@ -3789,6 +3798,259 @@ body[data-active-view="home"][data-home-wallpaper="night"] {
   color: rgba(18, 29, 42, 0.92);
   font-size: 19px;
   line-height: 1;
+}
+
+.bilibili-category-button,
+.bilibili-keyword-button {
+  width: 22px;
+  height: 22px;
+  display: inline-grid;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.66);
+  color: rgba(23, 34, 45, 0.58);
+  cursor: pointer;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.72),
+    0 5px 12px rgba(15, 23, 42, 0.08);
+  transition:
+    transform 160ms ease,
+    background 160ms ease,
+    color 160ms ease;
+}
+
+.bilibili-category-button {
+  margin-left: -2px;
+}
+
+.bilibili-keyword-button svg {
+  width: 12px;
+  height: 12px;
+}
+
+.bilibili-category-button svg {
+  width: 12px;
+  height: 12px;
+}
+
+.bilibili-category-button path,
+.bilibili-keyword-button path {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.bilibili-category-button:hover,
+.bilibili-category-button.is-active,
+.bilibili-keyword-button:hover,
+.bilibili-keyword-button.is-active {
+  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.86);
+  color: rgba(18, 29, 42, 0.76);
+}
+
+.bilibili-category-button[aria-expanded="true"] svg {
+  transform: rotate(180deg);
+}
+
+.bilibili-keyword-menu {
+  position: absolute;
+  z-index: 12;
+  top: 44px;
+  left: 14px;
+  width: min(230px, calc(100% - 28px));
+  display: grid;
+  gap: 8px;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  border-radius: 18px;
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.78), rgba(255, 255, 255, 0.5)),
+    rgba(255, 255, 255, 0.62);
+  box-shadow:
+    0 18px 36px rgba(15, 23, 42, 0.18),
+    inset 0 1px 0 rgba(255, 255, 255, 0.78);
+  backdrop-filter: blur(22px) saturate(170%);
+  -webkit-backdrop-filter: blur(22px) saturate(170%);
+}
+
+.bilibili-keyword-menu[hidden] {
+  display: none;
+}
+
+.bilibili-keyword-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  color: rgba(18, 29, 42, 0.56);
+  font-size: 11px;
+  font-weight: 850;
+}
+
+.bilibili-keyword-summary strong {
+  color: rgba(42, 97, 166, 0.88);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.bilibili-keyword-list {
+  max-height: 104px;
+  display: grid;
+  gap: 5px;
+  overflow: auto;
+  overscroll-behavior: contain;
+  padding-right: 2px;
+}
+
+.bilibili-keyword-row {
+  min-width: 0;
+  height: 30px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 4px;
+  padding: 0 5px 0 12px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.44);
+  transition:
+    background 160ms ease,
+    transform 160ms ease;
+}
+
+.bilibili-keyword-row:hover {
+  transform: translateX(1px);
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.bilibili-keyword-row.is-active {
+  background: rgba(33, 43, 54, 0.92);
+}
+
+.bilibili-keyword-empty {
+  min-height: 52px;
+  display: grid;
+  place-items: center;
+  color: rgba(18, 29, 42, 0.52);
+  font-size: 12px;
+  font-weight: 850;
+  text-align: center;
+}
+
+.bilibili-keyword-option,
+.bilibili-keyword-delete,
+.bilibili-keyword-form button {
+  border: 0;
+  font: inherit;
+  cursor: pointer;
+}
+
+.bilibili-keyword-option {
+  min-width: 0;
+  height: 100%;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  color: rgba(18, 29, 42, 0.68);
+  font-size: 12px;
+  font-weight: 900;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 8px;
+  text-align: left;
+  transition: color 160ms ease;
+}
+
+.bilibili-keyword-option-label {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bilibili-keyword-option-score {
+  color: rgba(18, 29, 42, 0.42);
+  font-size: 9px;
+  font-weight: 950;
+  white-space: nowrap;
+}
+
+.bilibili-keyword-option.is-active {
+  background: transparent;
+  color: rgba(255, 255, 255, 0.96);
+}
+
+.bilibili-keyword-row.is-active .bilibili-keyword-option-score {
+  color: rgba(255, 255, 255, 0.62);
+}
+
+.bilibili-keyword-delete {
+  width: 18px;
+  height: 18px;
+  display: inline-grid;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(255, 92, 112, 0.16);
+  color: rgba(230, 48, 76, 0.82);
+  font-size: 12px;
+  font-weight: 950;
+  line-height: 1;
+  flex: 0 0 auto;
+  transition:
+    background 160ms ease,
+    color 160ms ease,
+    transform 160ms ease;
+}
+
+.bilibili-keyword-delete:hover {
+  transform: scale(1.06);
+  background: rgba(255, 92, 112, 0.28);
+}
+
+.bilibili-keyword-row.is-active .bilibili-keyword-delete {
+  background: rgba(255, 255, 255, 0.18);
+  color: rgba(255, 111, 131, 0.98);
+}
+
+.bilibili-keyword-form {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 7px;
+}
+
+.bilibili-keyword-form input {
+  min-width: 0;
+  height: 31px;
+  padding: 0 11px;
+  border: 1px solid rgba(18, 29, 42, 0.1);
+  border-radius: 12px;
+  outline: 0;
+  background: rgba(255, 255, 255, 0.64);
+  color: rgba(18, 29, 42, 0.82);
+  font: inherit;
+  font-size: 12px;
+  font-weight: 850;
+}
+
+.bilibili-keyword-form input:focus {
+  border-color: rgba(145, 70, 255, 0.36);
+  box-shadow: 0 0 0 3px rgba(145, 70, 255, 0.12);
+}
+
+.bilibili-keyword-form button {
+  height: 31px;
+  padding: 0 12px;
+  border-radius: 12px;
+  background: rgba(33, 43, 54, 0.92);
+  color: rgba(255, 255, 255, 0.94);
+  font-size: 12px;
+  font-weight: 900;
 }
 
 .bilibili-video-list {
@@ -6251,6 +6513,19 @@ body[data-active-view="home"] .stock-widget .stock-chart-shell > .stock-interval
 }
 
 body[data-active-view="home"] .stock-widget .stock-chart {
+  z-index: 1;
+}
+
+body[data-active-view="home"] .home-bilibili-widget > .bilibili-keyword-menu {
+  position: absolute !important;
+  top: 54px;
+  left: 16px;
+  z-index: 80;
+  pointer-events: auto;
+}
+
+body[data-active-view="home"] .home-bilibili-widget > .bilibili-video-list {
+  position: relative;
   z-index: 1;
 }
 

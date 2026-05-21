@@ -2,10 +2,131 @@ const bilibiliDataUrl = "./data/bilibili-videos.json";
 const bilibiliRefreshApiUrl = "/api/bilibili/refresh";
 const bilibiliDefaultKeyword = "电影解说";
 const bilibiliSeenStorageKey = "agent-dashboard-bilibili-seen-v1";
+const bilibiliKeywordStorageKey = "agent-dashboard-bilibili-keyword-v1";
+const bilibiliCustomKeywordsStorageKey = "agent-dashboard-bilibili-custom-keywords-v1";
+const bilibiliHiddenKeywordsStorageKey = "agent-dashboard-bilibili-hidden-keywords-v1";
+const bilibiliCustomCategoriesStorageKey = "agent-dashboard-bilibili-custom-categories-v1";
+const bilibiliHiddenCategoriesStorageKey = "agent-dashboard-bilibili-hidden-categories-v1";
+const bilibiliPreferenceStorageKey = "agent-dashboard-bilibili-preferences-v1";
 const bilibiliSeenLimit = 240;
 const bilibiliDisplayCount = 3;
+const bilibiliPreferenceLimit = 50;
+const bilibiliCategoryPresets = [
+  {
+    keyword: "电影解说",
+    label: "电影解说",
+    tags: ["电影解说"],
+  },
+  {
+    keyword: "游戏视频",
+    label: "游戏视频",
+    tags: ["游戏视频", "游戏解说", "游戏实况", "单机游戏", "游戏攻略"],
+  },
+  {
+    keyword: "知识科普",
+    label: "知识科普",
+    tags: ["知识科普", "科普", "纪录片", "人文历史", "科技科普"],
+  },
+];
+const bilibiliSmallTagPresets = {
+  电影解说: [
+  {
+    keyword: "电影解说",
+    label: "电影解说",
+    type: "tag",
+    baseWeight: 10,
+    tags: ["电影解说", "高分电影解说", "悬疑电影解说", "科幻电影解说", "犯罪电影解说"],
+  },
+  {
+    keyword: "高分电影",
+    label: "高分电影",
+    type: "tag",
+    baseWeight: 8,
+    tags: ["高分电影", "高分电影解说", "经典电影解说", "电影推荐"],
+  },
+  {
+    keyword: "悬疑推理",
+    label: "悬疑推理",
+    type: "tag",
+    baseWeight: 7,
+    tags: ["悬疑电影解说", "推理电影", "犯罪电影解说", "反转电影"],
+  },
+  {
+    keyword: "科幻电影",
+    label: "科幻电影",
+    type: "tag",
+    baseWeight: 6,
+    tags: ["科幻电影解说", "硬科幻电影", "科幻神作", "未来世界电影"],
+  },
+  {
+    keyword: "纪录片",
+    label: "纪录片",
+    type: "tag",
+    baseWeight: 5,
+    tags: ["纪录片", "纪录片解说", "高分纪录片", "人文纪录片"],
+  },
+  ],
+  游戏视频: [
+    {
+      keyword: "游戏视频",
+      label: "游戏视频",
+      type: "tag",
+      baseWeight: 10,
+      tags: ["游戏视频", "游戏解说", "游戏实况", "单机游戏"],
+    },
+    {
+      keyword: "单机游戏",
+      label: "单机游戏",
+      type: "tag",
+      baseWeight: 8,
+      tags: ["单机游戏", "剧情游戏", "独立游戏", "主机游戏"],
+    },
+    {
+      keyword: "游戏攻略",
+      label: "游戏攻略",
+      type: "tag",
+      baseWeight: 7,
+      tags: ["游戏攻略", "通关攻略", "游戏教程", "游戏技巧"],
+    },
+    {
+      keyword: "游戏实况",
+      label: "游戏实况",
+      type: "tag",
+      baseWeight: 6,
+      tags: ["游戏实况", "实况解说", "高能游戏", "娱乐实况"],
+    },
+  ],
+  知识科普: [
+    {
+      keyword: "知识科普",
+      label: "知识科普",
+      type: "tag",
+      baseWeight: 10,
+      tags: ["知识科普", "科普", "泛知识"],
+    },
+    {
+      keyword: "科技科普",
+      label: "科技科普",
+      type: "tag",
+      baseWeight: 8,
+      tags: ["科技科普", "前沿科技", "数码科技", "人工智能"],
+    },
+    {
+      keyword: "人文历史",
+      label: "人文历史",
+      type: "tag",
+      baseWeight: 7,
+      tags: ["人文历史", "历史科普", "历史", "文化"],
+    },
+  ],
+};
 
 let dom = null;
+let lastRenderedVideos = new Map();
+
+function isBrowserExtensionPage() {
+  return ["chrome-extension:", "ms-browser-extension:", "moz-extension:"].includes(window.location.protocol);
+}
 
 function getBilibiliDom() {
   return {
@@ -13,6 +134,10 @@ function getBilibiliDom() {
     list: document.querySelector("#bilibiliVideoList"),
     refreshButton: document.querySelector("#bilibiliRefreshButton"),
     title: document.querySelector("#bilibiliWidgetTitle"),
+    categoryButton: document.querySelector("#bilibiliCategoryButton"),
+    categoryMenu: document.querySelector("#bilibiliCategoryMenu"),
+    keywordButton: document.querySelector("#bilibiliKeywordButton"),
+    keywordMenu: document.querySelector("#bilibiliKeywordMenu"),
   };
 }
 
@@ -42,6 +167,391 @@ function buildSearchUrl(keyword = bilibiliDefaultKeyword) {
   return `https://search.bilibili.com/all?keyword=${encodeURIComponent(keyword)}`;
 }
 
+function normalizeKeyword(value) {
+  return String(value || "")
+    .trim()
+    .replace(/\s+/g, " ")
+    .slice(0, 24);
+}
+
+function getStorageList(storageKey, scope = getActiveKeyword(), limit = 24) {
+  try {
+    const parsed = JSON.parse(window.localStorage.getItem(storageKey) || "[]");
+    const scopedKey = normalizeKeyword(scope) || bilibiliDefaultKeyword;
+    const source = Array.isArray(parsed) ? (scopedKey === bilibiliDefaultKeyword ? parsed : []) : parsed?.[scopedKey];
+
+    if (!Array.isArray(source)) {
+      return [];
+    }
+
+    const seen = new Set();
+    return source
+      .map(normalizeKeyword)
+      .filter(Boolean)
+      .filter((keyword) => {
+        if (seen.has(keyword)) {
+          return false;
+        }
+        seen.add(keyword);
+        return true;
+      })
+      .slice(0, limit);
+  } catch {
+    return [];
+  }
+}
+
+function setStorageList(storageKey, values, scope = getActiveKeyword(), limit = 24) {
+  try {
+    const scopedKey = normalizeKeyword(scope) || bilibiliDefaultKeyword;
+    const parsed = JSON.parse(window.localStorage.getItem(storageKey) || "{}");
+    const store = parsed && typeof parsed === "object" && !Array.isArray(parsed) ? parsed : {};
+    if (Array.isArray(parsed) && scopedKey === bilibiliDefaultKeyword) {
+      store[scopedKey] = parsed;
+    }
+    store[scopedKey] = values.map(normalizeKeyword).filter(Boolean).slice(0, limit);
+    window.localStorage.setItem(storageKey, JSON.stringify(store));
+  } catch {
+    // Presets remain usable when localStorage is unavailable.
+  }
+}
+
+function loadCustomKeywords(category = getActiveKeyword()) {
+  const presetKeywords = new Set(getSmallTagPresets(category).map((item) => item.keyword));
+  return getStorageList(bilibiliCustomKeywordsStorageKey, category, 12).filter((keyword) => !presetKeywords.has(keyword));
+}
+
+function saveCustomKeywords(keywords, category = getActiveKeyword()) {
+  setStorageList(bilibiliCustomKeywordsStorageKey, keywords, category, 12);
+}
+
+function loadHiddenKeywords(category = getActiveKeyword()) {
+  return getStorageList(bilibiliHiddenKeywordsStorageKey, category, 24);
+}
+
+function saveHiddenKeywords(keywords, category = getActiveKeyword()) {
+  setStorageList(bilibiliHiddenKeywordsStorageKey, keywords, category, 24);
+}
+
+function getSmallTagPresets(category = getActiveKeyword()) {
+  return (bilibiliSmallTagPresets[normalizeKeyword(category)] || bilibiliSmallTagPresets[bilibiliDefaultKeyword]).map(
+    (option) => ({ ...option }),
+  );
+}
+
+function loadCustomCategories() {
+  const presetKeywords = new Set(bilibiliCategoryPresets.map((item) => item.keyword));
+  return getStorageList(bilibiliCustomCategoriesStorageKey, "categories", 12).filter((keyword) => !presetKeywords.has(keyword));
+}
+
+function saveCustomCategories(categories) {
+  setStorageList(bilibiliCustomCategoriesStorageKey, categories, "categories", 12);
+}
+
+function loadHiddenCategories() {
+  return getStorageList(bilibiliHiddenCategoriesStorageKey, "categories", 24);
+}
+
+function saveHiddenCategories(categories) {
+  setStorageList(bilibiliHiddenCategoriesStorageKey, categories, "categories", 24);
+}
+
+function getCategoryOptions() {
+  const hiddenCategories = new Set(loadHiddenCategories());
+  const presetOptions = bilibiliCategoryPresets
+    .filter((option) => !hiddenCategories.has(option.keyword))
+    .map((option) => ({ ...option, isPreset: true }));
+  const customOptions = loadCustomCategories()
+    .map((keyword) => ({
+      keyword,
+      label: keyword,
+      tags: [keyword],
+      isCustom: true,
+    }))
+    .filter((option) => !hiddenCategories.has(option.keyword));
+
+  return [...presetOptions, ...customOptions];
+}
+
+function getKeywordOptions(category = getActiveKeyword()) {
+  const hiddenKeywords = new Set(loadHiddenKeywords(category));
+  const presetOptions = getSmallTagPresets(category)
+    .filter((option) => !hiddenKeywords.has(option.keyword))
+    .map((option) => ({ ...option, isPreset: true }));
+  const customOptions = loadCustomKeywords(category).map((keyword) => ({
+    keyword,
+    label: keyword,
+    tags: [keyword],
+    type: "tag",
+    baseWeight: 3,
+    isCustom: true,
+  })).filter((option) => !hiddenKeywords.has(option.keyword));
+
+  return [...presetOptions, ...customOptions];
+}
+
+function getActiveKeyword() {
+  try {
+    const savedKeyword = normalizeKeyword(window.localStorage.getItem(bilibiliKeywordStorageKey));
+    const options = getCategoryOptions();
+    if (savedKeyword && (!options.length || options.some((option) => option.keyword === savedKeyword))) {
+      return savedKeyword;
+    }
+
+    if (options.length) {
+      return options[0].keyword;
+    }
+  } catch {
+    // Fall through to the default keyword.
+  }
+
+  return bilibiliDefaultKeyword;
+}
+
+function saveActiveKeyword(keyword) {
+  try {
+    window.localStorage.setItem(bilibiliKeywordStorageKey, normalizeKeyword(keyword) || bilibiliDefaultKeyword);
+  } catch {
+    // The current tab can still switch until it is refreshed.
+  }
+}
+
+function getKeywordConfig(keyword = getActiveKeyword()) {
+  const normalizedKeyword = normalizeKeyword(keyword) || bilibiliDefaultKeyword;
+  return {
+    keyword: normalizedKeyword,
+    label: normalizedKeyword,
+    tags: getWeightedSearchTags(),
+  };
+}
+
+function getSeenStorageKey(keyword = getActiveKeyword()) {
+  return `${bilibiliSeenStorageKey}:${normalizeKeyword(keyword) || bilibiliDefaultKeyword}`;
+}
+
+function loadPreferenceStore() {
+  try {
+    const parsed = JSON.parse(window.localStorage.getItem(bilibiliPreferenceStorageKey) || "{}");
+    return parsed && typeof parsed === "object" && !Array.isArray(parsed) ? parsed : {};
+  } catch {
+    return {};
+  }
+}
+
+function normalizeScoreMap(value) {
+  if (!value || typeof value !== "object" || Array.isArray(value)) {
+    return {};
+  }
+
+  return Object.fromEntries(
+    Object.entries(value)
+      .map(([key, score]) => [normalizeKeyword(key), Number(score)])
+      .filter(([key, score]) => key && Number.isFinite(score) && score > 0)
+      .slice(0, bilibiliPreferenceLimit),
+  );
+}
+
+function getPreferenceProfile(category = getActiveKeyword()) {
+  const store = loadPreferenceStore();
+  const key = normalizeKeyword(category) || bilibiliDefaultKeyword;
+  const profile = store[key] || {};
+  return {
+    tags: normalizeScoreMap(profile.tags),
+    upNames: normalizeScoreMap(profile.upNames),
+  };
+}
+
+function trimScoreMap(map, limit = bilibiliPreferenceLimit) {
+  return Object.fromEntries(
+    Object.entries(map)
+      .filter(([key, value]) => key && Number.isFinite(Number(value)) && Number(value) > 0)
+      .sort((a, b) => Number(b[1]) - Number(a[1]))
+      .slice(0, limit)
+      .map(([key, value]) => [key, Math.min(99, Math.round(Number(value) * 100) / 100)]),
+  );
+}
+
+function savePreferenceProfile(profile, category = getActiveKeyword()) {
+  try {
+    const store = loadPreferenceStore();
+    const key = normalizeKeyword(category) || bilibiliDefaultKeyword;
+    store[key] = {
+      tags: trimScoreMap(profile.tags || {}),
+      upNames: trimScoreMap(profile.upNames || {}),
+    };
+    window.localStorage.setItem(bilibiliPreferenceStorageKey, JSON.stringify(store));
+  } catch {
+    // The recommendation panel still works with the built-in small tags.
+  }
+}
+
+function getVideoTags(video) {
+  const tags = [
+    ...(Array.isArray(video?.tags) ? video.tags : []),
+    video?.query,
+  ];
+  const seen = new Set();
+
+  return tags
+    .map(normalizeKeyword)
+    .filter(Boolean)
+    .filter((tag) => {
+      if (seen.has(tag)) {
+        return false;
+      }
+      seen.add(tag);
+      return true;
+    })
+    .slice(0, 8);
+}
+
+function boostPreferenceTag(tag, amount = 1.5) {
+  const normalizedTag = normalizeKeyword(tag);
+  if (!normalizedTag) {
+    return;
+  }
+
+  const profile = getPreferenceProfile();
+  profile.tags[normalizedTag] = Math.min(99, Number(profile.tags[normalizedTag] || 0) + amount);
+  savePreferenceProfile(profile);
+}
+
+function boostPreferenceRow(label, type = "tag", amount = 1.5) {
+  const normalizedLabel = normalizeKeyword(label);
+  if (!normalizedLabel) {
+    return;
+  }
+
+  const profile = getPreferenceProfile();
+  if (type === "up") {
+    profile.upNames[normalizedLabel] = Math.min(99, Number(profile.upNames[normalizedLabel] || 0) + amount);
+  } else {
+    profile.tags[normalizedLabel] = Math.min(99, Number(profile.tags[normalizedLabel] || 0) + amount);
+  }
+  savePreferenceProfile(profile);
+}
+
+function recordVideoPreference(video) {
+  if (!video) {
+    return;
+  }
+
+  const profile = getPreferenceProfile();
+  const upName = normalizeKeyword(video.upName);
+  if (upName) {
+    profile.upNames[upName] = Math.min(99, Number(profile.upNames[upName] || 0) + 3);
+  }
+
+  getVideoTags(video).forEach((tag) => {
+    profile.tags[tag] = Math.min(99, Number(profile.tags[tag] || 0) + 2);
+  });
+
+  savePreferenceProfile(profile);
+}
+
+function getPreferenceRows() {
+  const hiddenKeywords = new Set(loadHiddenKeywords());
+  const profile = getPreferenceProfile();
+  const rows = new Map();
+
+  getKeywordOptions().forEach((option) => {
+    const label = normalizeKeyword(option.label || option.keyword);
+    if (!label || hiddenKeywords.has(label)) {
+      return;
+    }
+
+    rows.set(label, {
+      label,
+      type: "tag",
+      score: Number(option.baseWeight || 1) + Number(profile.tags[label] || 0),
+      isPreset: option.isPreset,
+      isCustom: option.isCustom,
+      tags: option.tags || [label],
+    });
+  });
+
+  Object.entries(profile.tags).forEach(([label, score]) => {
+    if (!label || hiddenKeywords.has(label)) {
+      return;
+    }
+
+    const existing = rows.get(label);
+    rows.set(label, {
+      ...(existing || { label, type: "tag", tags: [label] }),
+      score: Number(existing?.score || 0) + Number(score || 0),
+    });
+  });
+
+  Object.entries(profile.upNames).forEach(([label, score]) => {
+    if (!label || hiddenKeywords.has(label)) {
+      return;
+    }
+
+    rows.set(`UP:${label}`, {
+      label,
+      type: "up",
+      score: Number(score || 0),
+      tags: [],
+    });
+  });
+
+  return [...rows.values()]
+    .filter((row) => Number(row.score) > 0)
+    .sort((a, b) => Number(b.score) - Number(a.score))
+    .slice(0, 18);
+}
+
+function getWeightedSearchTags() {
+  const rows = getPreferenceRows().filter((row) => row.type === "tag");
+  const tags = [];
+
+  rows.forEach((row) => {
+    (row.tags?.length ? row.tags : [row.label]).forEach((tag) => {
+      const normalizedTag = normalizeKeyword(tag);
+      if (normalizedTag && !tags.includes(normalizedTag)) {
+        tags.push(normalizedTag);
+      }
+    });
+  });
+
+  return (tags.length ? tags : [getActiveKeyword()]).slice(0, 10);
+}
+
+function deleteKeywordOption(keyword) {
+  const normalizedKeyword = normalizeKeyword(keyword);
+  if (!normalizedKeyword) {
+    return;
+  }
+
+  const category = getActiveKeyword();
+  const presetKeywords = new Set(getSmallTagPresets(category).map((option) => option.keyword));
+  if (presetKeywords.has(normalizedKeyword)) {
+    const hiddenKeywords = loadHiddenKeywords(category).filter((item) => item !== normalizedKeyword);
+    saveHiddenKeywords([normalizedKeyword, ...hiddenKeywords], category);
+  }
+
+  saveCustomKeywords(loadCustomKeywords(category).filter((item) => item !== normalizedKeyword), category);
+  const profile = getPreferenceProfile();
+  delete profile.tags[normalizedKeyword];
+  delete profile.upNames[normalizedKeyword];
+  savePreferenceProfile(profile);
+}
+
+function deleteCategoryOption(keyword) {
+  const normalizedKeyword = normalizeKeyword(keyword);
+  if (!normalizedKeyword) {
+    return;
+  }
+
+  const presetKeywords = new Set(bilibiliCategoryPresets.map((option) => option.keyword));
+  if (presetKeywords.has(normalizedKeyword)) {
+    const hiddenCategories = loadHiddenCategories().filter((item) => item !== normalizedKeyword);
+    saveHiddenCategories([normalizedKeyword, ...hiddenCategories]);
+  }
+
+  saveCustomCategories(loadCustomCategories().filter((item) => item !== normalizedKeyword));
+}
+
 function normalizeVideo(item) {
   const keyword = item?.keyword || bilibiliDefaultKeyword;
   return {
@@ -51,6 +561,9 @@ function normalizeVideo(item) {
     url: String(item?.url || buildSearchUrl(keyword)).trim(),
     bvid: String(item?.bvid || "").trim(),
     keyword,
+    query: String(item?.query || keyword).trim(),
+    tags: Array.isArray(item?.tags) ? item.tags.map(normalizeKeyword).filter(Boolean).slice(0, 16) : [],
+    description: String(item?.description || "").trim(),
     publishedAt: String(item?.publishedAt || "").trim(),
     qualityScore: Number(item?.qualityScore || 0),
     stats: item?.stats && typeof item.stats === "object" ? item.stats : {},
@@ -62,16 +575,16 @@ function getVideoKey(video) {
   return String(video?.bvid || video?.url || video?.title || "").trim();
 }
 
-function loadSeenVideos() {
+function loadSeenVideos(keyword = getActiveKeyword()) {
   try {
-    const parsed = JSON.parse(window.localStorage.getItem(bilibiliSeenStorageKey) || "[]");
+    const parsed = JSON.parse(window.localStorage.getItem(getSeenStorageKey(keyword)) || "[]");
     return Array.isArray(parsed) ? parsed.map(String).filter(Boolean).slice(0, bilibiliSeenLimit) : [];
   } catch {
     return [];
   }
 }
 
-function saveSeenVideos(videos, previousSeen = loadSeenVideos()) {
+function saveSeenVideos(videos, previousSeen = loadSeenVideos(), keyword = getActiveKeyword()) {
   const merged = [];
   videos.forEach((video) => {
     const key = getVideoKey(video);
@@ -87,7 +600,7 @@ function saveSeenVideos(videos, previousSeen = loadSeenVideos()) {
   });
 
   try {
-    window.localStorage.setItem(bilibiliSeenStorageKey, JSON.stringify(merged.slice(0, bilibiliSeenLimit)));
+    window.localStorage.setItem(getSeenStorageKey(keyword), JSON.stringify(merged.slice(0, bilibiliSeenLimit)));
   } catch {
     // Ignore private-mode storage errors.
   }
@@ -98,26 +611,78 @@ function metricValue(value) {
   return Number.isFinite(number) && number > 0 ? number : 0;
 }
 
-function weightedVideoKey(video, index) {
+function getVideoPreferenceScore(video, profile = getPreferenceProfile()) {
+  let score = 0;
+  const upName = normalizeKeyword(video?.upName);
+  if (upName && profile.upNames[upName]) {
+    score += Number(profile.upNames[upName]) * 2.6;
+  }
+
+  const searchable = [
+    video?.title,
+    video?.description,
+    video?.query,
+    ...(Array.isArray(video?.tags) ? video.tags : []),
+  ]
+    .map((value) => String(value || "").toLowerCase())
+    .join(" ");
+
+  Object.entries(profile.tags || {}).forEach(([tag, value]) => {
+    const normalizedTag = normalizeKeyword(tag).toLowerCase();
+    if (normalizedTag && searchable.includes(normalizedTag)) {
+      score += Number(value || 0) * 1.8;
+    }
+  });
+
+  return score;
+}
+
+function weightedVideoKey(video, index, profile = getPreferenceProfile()) {
   const stats = video.stats || {};
   const score = metricValue(video.qualityScore) || 1;
   const play = metricValue(stats.play);
   const rankBonus = Math.max(1, 22 - index * 0.18);
-  const weight = Math.max(1, score * 1.4 + Math.min(32, Math.pow(play, 0.18)) + rankBonus);
+  const preferenceBonus = getVideoPreferenceScore(video, profile);
+  const weight = Math.max(1, score * 1.4 + Math.min(32, Math.pow(play, 0.18)) + rankBonus + preferenceBonus);
   return Math.pow(Math.random(), 1 / weight);
 }
 
-function selectVideosFromPool(payload) {
+function videoMatchesKeyword(video, keyword) {
+  const normalizedKeyword = normalizeKeyword(keyword);
+  if (!normalizedKeyword) {
+    return true;
+  }
+
+  const fields = [
+    video.keyword,
+    video.query,
+    video.title,
+    video.description,
+    ...(Array.isArray(video.tags) ? video.tags : []),
+  ]
+    .map((value) => String(value || "").toLowerCase())
+    .filter(Boolean);
+
+  return fields.some((field) => field.includes(normalizedKeyword.toLowerCase()));
+}
+
+function selectVideosFromPool(payload, keyword = getActiveKeyword()) {
   const source = Array.isArray(payload?.candidatePool) && payload.candidatePool.length
     ? payload.candidatePool
     : payload?.items;
   const videos = Array.isArray(source)
     ? source.map(normalizeVideo).filter((item) => item.title && item.url)
     : [];
+  const requestedKeyword = normalizeKeyword(keyword);
+  const payloadKeyword = normalizeKeyword(payload?.keyword || "");
+  const keywordFilteredVideos =
+    requestedKeyword && requestedKeyword !== payloadKeyword
+      ? videos.filter((video) => videoMatchesKeyword(video, requestedKeyword))
+      : videos;
   const deduped = [];
   const seenKeys = new Set();
 
-  videos.forEach((video) => {
+  keywordFilteredVideos.forEach((video) => {
     const key = getVideoKey(video);
     if (!key || seenKeys.has(key)) {
       return;
@@ -130,16 +695,17 @@ function selectVideosFromPool(payload) {
     return [];
   }
 
-  const seen = new Set(loadSeenVideos());
+  const seen = new Set(loadSeenVideos(requestedKeyword));
   const fresh = deduped.filter((video) => !seen.has(getVideoKey(video)));
   const pool = fresh.length >= bilibiliDisplayCount ? fresh : deduped;
+  const profile = getPreferenceProfile(requestedKeyword);
   const selected = pool
-    .map((video, index) => ({ video, key: weightedVideoKey(video, index) }))
+    .map((video, index) => ({ video, key: weightedVideoKey(video, index, profile) }))
     .sort((a, b) => b.key - a.key)
     .map((entry) => entry.video)
     .slice(0, bilibiliDisplayCount);
 
-  saveSeenVideos(selected);
+  saveSeenVideos(selected, loadSeenVideos(requestedKeyword), requestedKeyword);
   return selected;
 }
 
@@ -216,10 +782,24 @@ function renderCover(video) {
       alt=""
       loading="lazy"
       referrerpolicy="no-referrer"
-      onerror="this.closest('.bilibili-video-cover')?.classList.add('is-missing'); this.remove()"
     />
     <span class="bilibili-video-cover-mark">B</span>
   `;
+}
+
+function hydrateBilibiliCovers() {
+  dom?.list?.querySelectorAll(".bilibili-video-cover img").forEach((image) => {
+    const cover = image.closest(".bilibili-video-cover");
+    const markMissing = () => {
+      cover?.classList.add("is-missing");
+      image.remove();
+    };
+
+    image.addEventListener("error", markMissing, { once: true });
+    if (image.complete && image.naturalWidth <= 0) {
+      markMissing();
+    }
+  });
 }
 
 function renderVideoCard(video, index) {
@@ -231,7 +811,7 @@ function renderVideoCard(video, index) {
     : "";
 
   return `
-    <a class="${className}" href="${escapeHtml(video.url)}" target="_blank" rel="noreferrer">
+    <a class="${className}" href="${escapeHtml(video.url)}" target="_blank" rel="noreferrer" data-bilibili-video-key="${escapeHtml(getVideoKey(video))}">
       <span class="bilibili-video-cover${video.cover ? "" : " is-missing"}">
         ${renderCover(video)}
       </span>
@@ -249,7 +829,7 @@ function renderVideoCard(video, index) {
   `;
 }
 
-function renderFallback(keyword = bilibiliDefaultKeyword) {
+function renderFallback(keyword = getActiveKeyword()) {
   const fallback = normalizeVideo({
     title: "打开 Bilibili 搜索电影解说",
     upName: "等待脚本刷新推荐视频",
@@ -257,27 +837,341 @@ function renderFallback(keyword = bilibiliDefaultKeyword) {
     keyword,
   });
 
+  lastRenderedVideos = new Map([[getVideoKey(fallback), fallback]]);
   dom.list.innerHTML = renderVideoCard(fallback, 0);
+  hydrateBilibiliCovers();
 }
 
 function renderVideos(payload) {
-  const keyword = payload?.keyword || bilibiliDefaultKeyword;
-  const videos = selectVideosFromPool(payload);
+  const keyword = getActiveKeyword();
+  const videos = selectVideosFromPool(payload, keyword);
 
   dom.title.textContent = keyword;
+  renderCategoryMenu();
+  renderKeywordMenu();
 
   if (!videos.length) {
     renderFallback(keyword);
     return;
   }
 
+  lastRenderedVideos = new Map(videos.map((video) => [getVideoKey(video), video]));
   dom.list.innerHTML = videos.map(renderVideoCard).join("");
+  hydrateBilibiliCovers();
+}
+
+function renderKeywordMenu() {
+  if (!dom?.keywordMenu) {
+    return;
+  }
+
+  const category = getActiveKeyword();
+  const rows = getPreferenceRows();
+  const maxScore = Math.max(1, ...rows.map((row) => Number(row.score) || 0));
+  const keywordOptions = rows
+    .map((row) => {
+      const score = Math.max(1, Math.round((Number(row.score) / maxScore) * 100));
+      const typeLabel = row.type === "up" ? "UP" : "TAG";
+      const deleteButton = `<button class="bilibili-keyword-delete" type="button" data-bilibili-keyword-delete="${escapeHtml(row.label)}" aria-label="删除 ${escapeHtml(row.label)}">×</button>`;
+
+      return `
+        <div class="bilibili-keyword-row">
+          <button
+            class="bilibili-keyword-option"
+            type="button"
+            data-bilibili-weight-tag="${escapeHtml(row.label)}"
+            data-bilibili-weight-type="${escapeHtml(row.type)}"
+            title="点击提高这个小标签的权重"
+          >
+            <span class="bilibili-keyword-option-label">${escapeHtml(row.label)}</span>
+            <span class="bilibili-keyword-option-score">${typeLabel} ${score}</span>
+          </button>
+          ${deleteButton}
+        </div>
+      `;
+    })
+    .join("");
+
+  dom.keywordMenu.innerHTML = `
+    <div class="bilibili-keyword-summary">
+      <span>分类：${escapeHtml(category)}</span>
+      <strong>小标签权重</strong>
+    </div>
+    <div class="bilibili-keyword-list">${keywordOptions || '<div class="bilibili-keyword-empty">添加小标签后开始个性化推荐</div>'}</div>
+    <form id="bilibiliKeywordForm" class="bilibili-keyword-form">
+      <input id="bilibiliKeywordInput" name="keyword" type="text" autocomplete="off" maxlength="24" placeholder="添加小标签" />
+      <button type="submit">加入</button>
+    </form>
+  `;
+  dom.keywordButton?.classList.toggle("is-active", !dom.keywordMenu.hidden);
+}
+
+function renderCategoryMenu() {
+  if (!dom?.categoryMenu) {
+    return;
+  }
+
+  const activeCategory = getActiveKeyword();
+  const options = getCategoryOptions();
+  const categoryOptions = options
+    .map((option) => {
+      const isActive = option.keyword === activeCategory;
+      const deleteButton = `<button class="bilibili-keyword-delete" type="button" data-bilibili-category-delete="${escapeHtml(option.keyword)}" aria-label="删除分类 ${escapeHtml(option.keyword)}">×</button>`;
+
+      return `
+        <div class="bilibili-keyword-row${isActive ? " is-active" : ""}">
+          <button
+            class="bilibili-keyword-option${isActive ? " is-active" : ""}"
+            type="button"
+            data-bilibili-category="${escapeHtml(option.keyword)}"
+            title="切换到 ${escapeHtml(option.label)}"
+          >
+            <span class="bilibili-keyword-option-label">${escapeHtml(option.label)}</span>
+            <span class="bilibili-keyword-option-score">分类</span>
+          </button>
+          ${deleteButton}
+        </div>
+      `;
+    })
+    .join("");
+
+  dom.categoryMenu.innerHTML = `
+    <div class="bilibili-keyword-summary">
+      <span>当前：${escapeHtml(activeCategory)}</span>
+      <strong>分类切换</strong>
+    </div>
+    <div class="bilibili-keyword-list">${categoryOptions || '<div class="bilibili-keyword-empty">添加分类后开始推荐</div>'}</div>
+    <form id="bilibiliCategoryForm" class="bilibili-keyword-form">
+      <input id="bilibiliCategoryInput" name="category" type="text" autocomplete="off" maxlength="24" placeholder="添加分类" />
+      <button type="submit">加入</button>
+    </form>
+  `;
+  dom.categoryButton?.classList.toggle("is-active", !dom.categoryMenu.hidden);
+}
+
+function closeKeywordMenu() {
+  if (!dom?.keywordMenu || !dom.keywordButton) {
+    return;
+  }
+
+  dom.keywordMenu.hidden = true;
+  dom.keywordButton.setAttribute("aria-expanded", "false");
+  dom.keywordButton.classList.remove("is-active");
+}
+
+function closeCategoryMenu() {
+  if (!dom?.categoryMenu || !dom.categoryButton) {
+    return;
+  }
+
+  dom.categoryMenu.hidden = true;
+  dom.categoryButton.setAttribute("aria-expanded", "false");
+  dom.categoryButton.classList.remove("is-active");
+}
+
+function toggleKeywordMenu() {
+  if (!dom?.keywordMenu || !dom.keywordButton) {
+    return;
+  }
+
+  const willOpen = dom.keywordMenu.hidden;
+  closeCategoryMenu();
+  dom.keywordMenu.hidden = !willOpen;
+  dom.keywordButton.setAttribute("aria-expanded", willOpen ? "true" : "false");
+  dom.keywordButton.classList.toggle("is-active", willOpen);
+  if (willOpen) {
+    renderKeywordMenu();
+    dom.keywordMenu.querySelector("#bilibiliKeywordInput")?.focus();
+  }
+}
+
+function toggleCategoryMenu() {
+  if (!dom?.categoryMenu || !dom.categoryButton) {
+    return;
+  }
+
+  const willOpen = dom.categoryMenu.hidden;
+  closeKeywordMenu();
+  dom.categoryMenu.hidden = !willOpen;
+  dom.categoryButton.setAttribute("aria-expanded", willOpen ? "true" : "false");
+  dom.categoryButton.classList.toggle("is-active", willOpen);
+  if (willOpen) {
+    renderCategoryMenu();
+    dom.categoryMenu.querySelector("#bilibiliCategoryInput")?.focus();
+  }
+}
+
+function setActiveKeyword(keyword, { shouldRefresh = true } = {}) {
+  const nextKeyword = normalizeKeyword(keyword) || bilibiliDefaultKeyword;
+  saveActiveKeyword(nextKeyword);
+  dom.title.textContent = nextKeyword;
+  renderCategoryMenu();
+  renderKeywordMenu();
+  closeCategoryMenu();
+  closeKeywordMenu();
+
+  if (shouldRefresh) {
+    loadBilibiliWidget({ manual: true });
+  }
 }
 
 export function setupBilibiliWidget() {
   dom = getBilibiliDom();
+  dom.title.textContent = getActiveKeyword();
+  renderCategoryMenu();
+  renderKeywordMenu();
+
   dom.refreshButton?.addEventListener("click", () => {
     loadBilibiliWidget({ manual: true });
+  });
+
+  dom.categoryButton?.addEventListener("click", (event) => {
+    event.stopPropagation();
+    toggleCategoryMenu();
+  });
+
+  dom.keywordButton?.addEventListener("click", (event) => {
+    event.stopPropagation();
+    toggleKeywordMenu();
+  });
+
+  dom.categoryMenu?.addEventListener("click", (event) => {
+    event.stopPropagation();
+    const deleteButton =
+      event.target instanceof Element ? event.target.closest("[data-bilibili-category-delete]") : null;
+    if (deleteButton) {
+      event.preventDefault();
+      const category = deleteButton.getAttribute("data-bilibili-category-delete") || "";
+      const wasActive = normalizeKeyword(getActiveKeyword()) === normalizeKeyword(category);
+      deleteCategoryOption(category);
+      const nextCategory = getCategoryOptions()[0]?.keyword || bilibiliDefaultKeyword;
+      if (wasActive) {
+        setActiveKeyword(nextCategory);
+        return;
+      }
+      renderCategoryMenu();
+      return;
+    }
+
+    const categoryButton =
+      event.target instanceof Element ? event.target.closest("[data-bilibili-category]") : null;
+    if (!categoryButton) {
+      return;
+    }
+
+    event.preventDefault();
+    setActiveKeyword(categoryButton.getAttribute("data-bilibili-category") || bilibiliDefaultKeyword);
+  });
+
+  dom.categoryMenu?.addEventListener("submit", (event) => {
+    const form = event.target instanceof Element ? event.target.closest("#bilibiliCategoryForm") : null;
+    if (!form) {
+      return;
+    }
+
+    event.preventDefault();
+    event.stopPropagation();
+    const formData = new FormData(form);
+    const category = normalizeKeyword(formData.get("category"));
+    if (!category) {
+      form.querySelector("#bilibiliCategoryInput")?.focus();
+      return;
+    }
+
+    saveHiddenCategories(loadHiddenCategories().filter((item) => item !== category));
+    const isPresetCategory = bilibiliCategoryPresets.some((option) => option.keyword === category);
+    if (!isPresetCategory) {
+      const categories = loadCustomCategories().filter((item) => item !== category);
+      saveCustomCategories([category, ...categories]);
+    }
+    setActiveKeyword(category);
+  });
+
+  dom.keywordMenu?.addEventListener("click", (event) => {
+    event.stopPropagation();
+    const deleteButton =
+      event.target instanceof Element ? event.target.closest("[data-bilibili-keyword-delete]") : null;
+    if (deleteButton) {
+      event.preventDefault();
+      const keyword = deleteButton.getAttribute("data-bilibili-keyword-delete") || "";
+      deleteKeywordOption(keyword);
+      renderKeywordMenu();
+      loadBilibiliWidget();
+      return;
+    }
+
+    const weightButton =
+      event.target instanceof Element ? event.target.closest("[data-bilibili-weight-tag]") : null;
+    if (!weightButton) {
+      return;
+    }
+
+    event.preventDefault();
+    boostPreferenceRow(
+      weightButton.getAttribute("data-bilibili-weight-tag") || "",
+      weightButton.getAttribute("data-bilibili-weight-type") || "tag",
+      1.25,
+    );
+    renderKeywordMenu();
+    loadBilibiliWidget();
+  });
+
+  dom.keywordMenu?.addEventListener("submit", (event) => {
+    const form = event.target instanceof Element ? event.target.closest("#bilibiliKeywordForm") : null;
+    if (!form) {
+      return;
+    }
+
+    event.preventDefault();
+    event.stopPropagation();
+    const formData = new FormData(form);
+    const keyword = normalizeKeyword(formData.get("keyword"));
+    if (!keyword) {
+      form.querySelector("#bilibiliKeywordInput")?.focus();
+      return;
+    }
+
+    saveHiddenKeywords(loadHiddenKeywords().filter((item) => item !== keyword));
+    const isPresetKeyword = getSmallTagPresets().some((option) => option.keyword === keyword);
+    if (!isPresetKeyword) {
+      const keywords = loadCustomKeywords().filter((item) => item !== keyword);
+      saveCustomKeywords([keyword, ...keywords]);
+    }
+    boostPreferenceTag(keyword, 4);
+    renderKeywordMenu();
+    loadBilibiliWidget({ manual: true });
+  });
+
+  dom.list?.addEventListener("click", (event) => {
+    const videoCard = event.target instanceof Element ? event.target.closest("[data-bilibili-video-key]") : null;
+    if (!videoCard) {
+      return;
+    }
+
+    const video = lastRenderedVideos.get(videoCard.getAttribute("data-bilibili-video-key") || "");
+    if (video) {
+      recordVideoPreference(video);
+      renderKeywordMenu();
+    }
+  });
+
+  document.addEventListener("click", (event) => {
+    if (
+      event.target instanceof Element &&
+      event.target.closest(".bilibili-keyword-menu, .bilibili-category-menu, .bilibili-keyword-button, .bilibili-category-button")
+    ) {
+      return;
+    }
+
+    closeCategoryMenu();
+    closeKeywordMenu();
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      closeCategoryMenu();
+      closeKeywordMenu();
+    }
   });
 }
 
@@ -291,13 +1185,15 @@ function setBilibiliRefreshState(isLoading) {
 }
 
 async function refreshBilibiliVideos() {
+  const keywordConfig = getKeywordConfig();
   const response = await fetch(bilibiliRefreshApiUrl, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      keyword: bilibiliDefaultKeyword,
+      keyword: keywordConfig.keyword,
+      tags: keywordConfig.tags,
     }),
   });
 
@@ -332,7 +1228,7 @@ export async function loadBilibiliWidget({ manual = false } = {}) {
   }
 
   try {
-    if (manual) {
+    if (manual && !isBrowserExtensionPage()) {
       try {
         renderVideos(await refreshBilibiliVideos());
         return;
