@@ -157,7 +157,21 @@ export function rebuildHomeShell() {
               <div id="bilibiliKeywordMenu" class="bilibili-keyword-menu" role="menu" aria-label="Bilibili 推荐权重" hidden></div>
               <div id="bilibiliVideoList" class="bilibili-video-list" aria-live="polite"></div>
             </section>
-            <div class="home-lower-widget-slot" aria-hidden="true"></div>
+            <section id="homeAiChat" class="home-ai-chat" aria-labelledby="homeAiChatTitle">
+              <header class="home-ai-chat-head">
+                <div>
+                  <p class="home-kicker">AI CHAT</p>
+                  <h2 id="homeAiChatTitle">界面小助手</h2>
+                </div>
+                <span id="homeAiChatStatus" class="home-ai-chat-status">Ready</span>
+              </header>
+              <div id="homeAiChatMessages" class="home-ai-chat-messages" aria-live="polite"></div>
+              <form id="homeAiChatForm" class="home-ai-chat-form">
+                <label class="sr-only" for="homeAiChatInput">AI chat input</label>
+                <input id="homeAiChatInput" type="text" autocomplete="off" placeholder="问问当前页面..." />
+                <button id="homeAiChatSend" type="submit">发送</button>
+              </form>
+            </section>
           </div>
 
           <div id="shortcutDialog" class="shortcut-dialog" hidden>
@@ -191,8 +205,7 @@ export function rebuildHomeShell() {
           </div>
         </section>
 
-        <aside class="home-widgets" aria-label="Widgets">
-          <section class="home-widget weather-widget" aria-labelledby="weatherTitle">
+        <section class="home-widget weather-widget" aria-labelledby="weatherTitle">
             <header class="home-widget-head">
               <div class="weather-location-head">
                 <p id="weatherPanelLabel" class="home-kicker">天气</p>
@@ -248,9 +261,9 @@ export function rebuildHomeShell() {
             </div>
             <div id="weatherHourly" class="home-weather-hourly" aria-label="逐小时天气"></div>
             <div id="weatherDaily" class="home-weather-forecast weather-daily"></div>
-          </section>
+        </section>
 
-          <section class="home-widget stock-widget" aria-labelledby="stockTitle">
+        <section class="home-widget stock-widget" aria-labelledby="stockTitle">
             <header class="home-widget-head stock-widget-head">
               <div class="stock-heading">
                 <p id="stockKicker" class="home-kicker">MARKET</p>
@@ -301,8 +314,7 @@ export function rebuildHomeShell() {
               </div>
               <div id="stockChart" class="stock-chart" role="img" aria-label="BYD K-line chart"></div>
             </div>
-          </section>
-        </aside>
+        </section>
 
         <div class="home-legacy-sinks" aria-hidden="true">
           <div id="calendarRangeHint"></div>
