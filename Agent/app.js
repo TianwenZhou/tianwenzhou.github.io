@@ -6,9 +6,6 @@ import { setupHomeAiChat } from "./src/pages/home/chat/home-chat.js";
 import { setupHomeWallpaperToggle } from "./src/pages/home/theme/wallpaper-toggle.js";
 import { setupViewNavigation } from "./src/pages/home/navigation/arc-navigation.js";
 import { loadSelectedWeather, renderBriefWeatherIfNeeded, setupWeatherControls } from "./src/pages/home/weather/weather-widget.js";
-import { renderPapersPage } from "./src/pages/papers/papers-page.js";
-import { renderNbaPage, setupNbaScheduleNavigation } from "./src/pages/nba/nba-page.js";
-import { renderNewsPage } from "./src/pages/news/news-page.js";
 
 function buildDataUrl() {
   return `./data/daily-brief.json?ts=${Date.now()}`;
@@ -28,6 +25,11 @@ const chatDragThreshold = 10;
 const isBrowserExtensionPage = ["chrome-extension:", "ms-browser-extension:", "moz-extension:"].includes(
   window.location.protocol,
 );
+let latestBriefData = null;
+let newsPageModulePromise = null;
+let nbaPageModulePromise = null;
+let papersPageModulePromise = null;
+let nbaScheduleNavigationReady = false;
 
 const dom = {
   generatedAt: document.querySelector("#generatedAt"),
@@ -1337,15 +1339,57 @@ function renderFeaturedPlace(featuredPlaces, generatedAt) {
   restartFeaturedPlaceTimer();
 }
 
+function loadNewsPageModule() {
+  newsPageModulePromise ||= import("./src/pages/news/news-page.js");
+  return newsPageModulePromise;
+}
+
+function loadNbaPageModule() {
+  nbaPageModulePromise ||= import("./src/pages/nba/nba-page.js");
+  return nbaPageModulePromise;
+}
+
+function loadPapersPageModule() {
+  papersPageModulePromise ||= import("./src/pages/papers/papers-page.js");
+  return papersPageModulePromise;
+}
+
+async function renderActiveSecondaryPage(data = latestBriefData) {
+  if (!data) {
+    return;
+  }
+
+  const activeView = document.body.dataset.activeView || "home";
+  if (activeView === "news") {
+    const { renderNewsPage } = await loadNewsPageModule();
+    renderNewsPage(data.news);
+    return;
+  }
+
+  if (activeView === "nba") {
+    const { renderNbaPage, setupNbaScheduleNavigation } = await loadNbaPageModule();
+    renderNbaPage(data.nbaScoreboard);
+    if (!nbaScheduleNavigationReady) {
+      setupNbaScheduleNavigation();
+      nbaScheduleNavigationReady = true;
+    }
+    return;
+  }
+
+  if (activeView === "papers") {
+    const { renderPapersPage } = await loadPapersPageModule();
+    renderPapersPage(data.aiPapers);
+  }
+}
+
 function renderPage(data) {
+  latestBriefData = data;
   dom.generatedAt.textContent = `数据更新时间：${formatDateTime(data.generatedAt)}`;
   if (!refreshInFlight) {
     dom.refreshStatus.textContent = "可立即触发 GitHub Actions 更新数据";
   }
   renderBriefWeatherIfNeeded(data.weather);
-  renderNewsPage(data.news);
-  renderNbaPage(data.nbaScoreboard);
-  renderPapersPage(data.aiPapers);
+  renderActiveSecondaryPage(data);
 }
 
 function renderError(message) {
@@ -1473,6 +1517,9 @@ function loadHomeDataAfterFirstPaint() {
 }
 
 setupViewNavigation();
+window.addEventListener("agent:viewchange", () => {
+  renderActiveSecondaryPage();
+});
 setupHomeSearchAndShortcuts();
 setupHomeAiChat();
 setupHomeWallpaperToggle();
@@ -1484,7 +1531,6 @@ setupChatInterface();
 setupCyberPet();
 setupRefreshControl();
 setupCalendarNavigation();
-setupNbaScheduleNavigation();
 renderClock();
 setInterval(renderClock, 1000);
 loadHomeDataAfterFirstPaint();

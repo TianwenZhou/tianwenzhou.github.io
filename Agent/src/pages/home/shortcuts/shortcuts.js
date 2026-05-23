@@ -1,3 +1,5 @@
+import { buildAgentApiUrl } from "../../../shared/api-client.js";
+
 const shortcutStorageKey = "agent-dashboard-home-shortcuts-v1";
 const shortcutEditStorageKey = "agent-dashboard-home-shortcuts-edit-v1";
 const searchEngineStorageKey = "agent-dashboard-search-engine-v1";
@@ -194,6 +196,29 @@ function scheduleIdleTask(callback) {
   requestIdle(callback, { timeout: 900 });
 }
 
+function getCachedShortcutIconUrl(iconUrl) {
+  const rawUrl = String(iconUrl || "").trim();
+  if (
+    !rawUrl ||
+    rawUrl.startsWith("./") ||
+    rawUrl.startsWith("/") ||
+    rawUrl.startsWith("data:") ||
+    rawUrl.startsWith("blob:")
+  ) {
+    return rawUrl;
+  }
+
+  try {
+    const parsed = new URL(rawUrl, window.location.href);
+    if (!["http:", "https:"].includes(parsed.protocol)) {
+      return rawUrl;
+    }
+    return buildAgentApiUrl("/api/icons", { url: parsed.toString() });
+  } catch {
+    return rawUrl;
+  }
+}
+
 function preconnectShortcutIconOrigin(iconUrl) {
   let origin = "";
   try {
@@ -365,7 +390,7 @@ function renderShortcutPager(pageCount) {
 function renderShortcutCard({ shortcut, index }) {
   const title = escapeHtml(shortcut.title);
   const url = escapeHtml(shortcut.url);
-  const icon = escapeHtml(shortcut.icon);
+  const icon = escapeHtml(getCachedShortcutIconUrl(shortcut.icon));
   const pagePosition = index - shortcutPageIndex * shortcutsPerPage;
   const isVisibleShortcut = pagePosition >= 0 && pagePosition < shortcutsPerPage;
   const fetchPriority = isVisibleShortcut && pagePosition < 6 ? "high" : "auto";
@@ -816,7 +841,7 @@ function syncShortcutDialogPreview() {
   if (dom.shortcutDialogIcon) {
     dom.shortcutDialogIcon.hidden = !selectedIcon;
     if (selectedIcon) {
-      dom.shortcutDialogIcon.src = selectedIcon;
+      dom.shortcutDialogIcon.src = getCachedShortcutIconUrl(selectedIcon);
     }
   }
 
@@ -845,7 +870,13 @@ function renderShortcutIconOptions() {
           aria-label="选择${escapeHtml(candidate.label)}图标"
           aria-pressed="${candidate.url === shortcutDialogSelectedIcon ? "true" : "false"}"
         >
-          <img src="${escapeHtml(candidate.url)}" alt="" loading="lazy" data-shortcut-icon-candidate="${index}" />
+          <img
+            src="${escapeHtml(getCachedShortcutIconUrl(candidate.url))}"
+            alt=""
+            loading="lazy"
+            data-shortcut-icon-candidate="${index}"
+            data-shortcut-icon-source="${escapeHtml(candidate.url)}"
+          />
           <span>${escapeHtml(candidate.label)}</span>
         </button>
       `,
@@ -1155,14 +1186,15 @@ export function setupHomeSearchAndShortcuts() {
 
   dom.shortcutDialogIcon?.addEventListener("error", () => {
     const failedIcon = dom.shortcutDialogIcon.currentSrc || dom.shortcutDialogIcon.src || shortcutDialogSelectedIcon;
-    if (failedIcon) {
-      shortcutDialogFailedIcons.add(failedIcon);
+    const failedSource = shortcutDialogSelectedIcon || failedIcon;
+    if (failedSource) {
+      shortcutDialogFailedIcons.add(failedSource);
     }
     const nextIcon = shortcutDialogIconCandidates.find((candidate) => !shortcutDialogFailedIcons.has(candidate.url))?.url || "";
     shortcutDialogSelectedIcon = nextIcon;
     dom.shortcutDialogIcon.hidden = !nextIcon;
     if (nextIcon) {
-      dom.shortcutDialogIcon.src = nextIcon;
+      dom.shortcutDialogIcon.src = getCachedShortcutIconUrl(nextIcon);
     }
     if (dom.shortcutDialogInitial) {
       dom.shortcutDialogInitial.hidden = Boolean(nextIcon);
@@ -1187,7 +1219,7 @@ export function setupHomeSearchAndShortcuts() {
         return;
       }
 
-      const iconUrl = image.currentSrc || image.src;
+      const iconUrl = image.dataset.shortcutIconSource || image.currentSrc || image.src;
       shortcutDialogFailedIcons.add(iconUrl);
       image.closest(".shortcut-icon-option")?.remove();
     },

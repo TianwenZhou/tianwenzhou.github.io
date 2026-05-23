@@ -236,6 +236,14 @@ function setActiveView(viewName, { updateHash = true } = {}) {
   }
 
   updateArcNavigation(safeView);
+  window.dispatchEvent(
+    new CustomEvent("agent:viewchange", {
+      detail: {
+        view: safeView,
+        previousView,
+      },
+    }),
+  );
 }
 
 function getNextViewByDirection(direction) {

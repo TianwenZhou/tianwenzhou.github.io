@@ -5,6 +5,7 @@ const maxHomeChatMessages = 18;
 const idleGreetingDelayMs = 90 * 1000;
 const proactiveMinimumGapMs = 4 * 60 * 1000;
 const reloadGreetingDelayMs = 1400;
+const proactiveThemeStorageKey = "agent-dashboard-home-ai-proactive-theme-v1";
 
 let dom = null;
 let chatHistory = [];
@@ -144,13 +145,47 @@ function collectList(selector, limit = 6) {
 function collectBilibiliVideos() {
   return Array.from(document.querySelectorAll(".bilibili-video-card"))
     .slice(0, 3)
-    .map((card) => ({
+    .map((card, index) => ({
       title: card.querySelector("strong")?.textContent?.trim() || "",
       up: card.querySelector(".bilibili-up-name span")?.textContent?.trim() || "",
       time: card.querySelector(".bilibili-video-time")?.textContent?.trim() || "",
       url: card.getAttribute("href") || "",
+      position:
+        index === 0
+          ? "Bilibili 组件左侧大卡片"
+          : index === 1
+            ? "Bilibili 组件右上小卡片"
+            : "Bilibili 组件右下小卡片",
     }))
     .filter((item) => item.title);
+}
+
+function getNextProactiveTheme(context) {
+  const videos = Array.isArray(context?.bilibili?.videos) ? context.bilibili.videos : [];
+  const candidates = [
+    "quiet",
+    videos.length ? "video" : "",
+    context?.market?.price ? "market" : "",
+    context?.search?.engine ? "search" : "",
+    context?.weather?.temperature ? "weather" : "",
+    "layout",
+  ].filter(Boolean);
+
+  let previousIndex = -1;
+  try {
+    previousIndex = Number(window.localStorage.getItem(proactiveThemeStorageKey));
+  } catch {
+    previousIndex = -1;
+  }
+
+  const nextIndex = Number.isFinite(previousIndex) ? (previousIndex + 1) % candidates.length : 0;
+  try {
+    window.localStorage.setItem(proactiveThemeStorageKey, String(nextIndex));
+  } catch {
+    // Theme rotation is only a lightweight diversity hint.
+  }
+
+  return candidates[nextIndex] || "quiet";
 }
 
 function collectHomeContext() {
@@ -187,6 +222,12 @@ function collectHomeContext() {
     bilibili: {
       category: textOf("#bilibiliWidgetTitle"),
       videos: collectBilibiliVideos(),
+    },
+    layout: {
+      summary:
+        "Home 页面中间是时间、搜索和快捷方式；Bilibili 推荐组件在下方偏左；AI Chat 在下方中间；天气和 MARKET 在右侧独立浮动组件中。",
+      bilibili:
+        "Bilibili 组件内部是左侧一张大卡片，右侧上下两张小卡片。只有描述组件内部卡片时才说右上/右下，不要把整个 Bilibili 组件说成在右边。",
     },
   };
 }
@@ -353,15 +394,25 @@ async function requestAiReply(messageText, context) {
 }
 
 async function requestAiProactiveGreeting(reason, context) {
-  const prompt =
+  const theme = getNextProactiveTheme(context);
+  const proactivePrompt =
     reason === "reload"
-      ? "页面刚刚刷新完成。请结合当前页面状态，用一句自然、有一点活人感的话向用户打招呼。不要说明你读取了接口，不要写成操作说明。"
-      : "用户安静了一会儿。请结合当前页面状态，用一句轻松自然的话主动开口，不要打扰感太强。";
+      ? `页面刚刷新完成。请用“${theme}”作为这次主动招呼的主视角，写一句自然、有一点活人感的话。不要每次都讲天气；如果主题不是 weather，就不要以天气开头。不要说明你读取了接口，不要写成操作说明。`
+      : `用户安静了一会儿。请用“${theme}”作为这次主动开口的主视角，写一句轻松自然的话。不要每次都讲天气，也不要打扰感太强。`;
+  const proactiveContext = {
+    ...context,
+    aiRequest: {
+      reason,
+      theme,
+      instruction:
+        "主动招呼需要轮换主题；提到页面位置必须遵守 layout 信息，Bilibili 在下方偏左，天气和 MARKET 在右侧。",
+    },
+  };
   const payload = await fetchAgentJson("/api/chat", {
     method: "POST",
     body: {
-      messages: [{ role: "user", content: prompt }],
-      context,
+      messages: [{ role: "user", content: proactivePrompt }],
+      context: proactiveContext,
       sessionId: chatSessionId,
       event: reason,
     },
