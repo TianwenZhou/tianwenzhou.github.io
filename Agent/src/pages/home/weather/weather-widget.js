@@ -873,6 +873,11 @@ function renderHomeWeather(weather, options = {}) {
   if (dom.weatherTitle) {
     dom.weatherTitle.textContent = locationLabel;
   }
+  dom.weatherCurrent.dataset.locationLabel = locationLabel;
+  dom.weatherCurrent.dataset.timeZone = timeZone || "";
+  dom.weatherCurrent.dataset.latitude = Number.isFinite(Number(options.location?.latitude)) ? String(options.location.latitude) : "";
+  dom.weatherCurrent.dataset.longitude = Number.isFinite(Number(options.location?.longitude)) ? String(options.location.longitude) : "";
+  dom.weatherCurrent.dataset.observedAt = weather.current?.obsTime || "";
   if (dom.weatherRefreshButton) {
     dom.weatherRefreshButton.textContent = "";
     dom.weatherRefreshButton.disabled = false;

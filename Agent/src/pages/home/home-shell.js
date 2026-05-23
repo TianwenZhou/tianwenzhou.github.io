@@ -163,12 +163,15 @@ export function rebuildHomeShell() {
                   <p class="home-kicker">AI CHAT</p>
                   <h2 id="homeAiChatTitle">界面小助手</h2>
                 </div>
-                <span id="homeAiChatStatus" class="home-ai-chat-status">Ready</span>
+                <span id="homeAiChatStatus" class="home-ai-chat-status">
+                  <span class="home-ai-chat-status-model">DeepSeek</span>
+                  <span class="home-ai-chat-status-usage">0 / 0</span>
+                </span>
               </header>
               <div id="homeAiChatMessages" class="home-ai-chat-messages" aria-live="polite"></div>
               <form id="homeAiChatForm" class="home-ai-chat-form">
                 <label class="sr-only" for="homeAiChatInput">AI chat input</label>
-                <input id="homeAiChatInput" type="text" autocomplete="off" placeholder="问问当前页面..." />
+                <input id="homeAiChatInput" type="text" autocomplete="off" placeholder="想问什么都可以..." />
                 <button id="homeAiChatSend" type="submit">发送</button>
               </form>
             </section>
