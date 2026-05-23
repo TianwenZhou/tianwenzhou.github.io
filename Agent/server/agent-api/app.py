@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import hashlib
+import mimetypes
 import os
 import re
 import subprocess
@@ -14,7 +15,7 @@ from typing import Any, Dict, List, Optional
 from zoneinfo import ZoneInfo
 
 import requests
-from fastapi import BackgroundTasks, FastAPI, HTTPException, Request
+from fastapi import BackgroundTasks, FastAPI, HTTPException, Request, Response
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
@@ -33,6 +34,7 @@ SCRIPTS_DIR = Path(os.environ.get("AGENT_SCRIPTS_DIR", ROOT / "scripts"))
 STOCK_DATA_DIR = DATA_DIR / "stocks"
 WEATHER_CACHE_DIR = DATA_DIR / "weather"
 BILIBILI_DATA_DIR = DATA_DIR / "bilibili"
+ICON_CACHE_DIR = DATA_DIR / "icons"
 CHAT_USAGE_FILE = DATA_DIR / "chat-usage.json"
 STOCK_NAME_CACHE = STOCK_DATA_DIR / "a-share-code-name.json"
 BILIBILI_DATA = DATA_DIR / "bilibili-videos.json"
@@ -54,6 +56,8 @@ DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "").strip()
 DEEPSEEK_API_BASE = os.environ.get("DEEPSEEK_API_BASE", "https://api.deepseek.com").strip().rstrip("/")
 DEEPSEEK_MODEL = os.environ.get("DEEPSEEK_MODEL", "deepseek-chat").strip()
 DEEPSEEK_TIMEOUT_SECONDS = int(os.environ.get("DEEPSEEK_TIMEOUT_SECONDS", "24"))
+ICON_CACHE_SECONDS = int(os.environ.get("AGENT_ICON_CACHE_SECONDS", "2592000"))
+ICON_MAX_BYTES = int(os.environ.get("AGENT_ICON_MAX_BYTES", "1048576"))
 
 
 app = FastAPI(title="Agent API")
@@ -164,6 +168,103 @@ def is_cache_fresh(path: Path, ttl_seconds: int) -> bool:
 def stable_hash(value: object, length: int = 16) -> str:
     raw = json.dumps(value, ensure_ascii=False, sort_keys=True, default=str)
     return hashlib.sha1(raw.encode("utf-8")).hexdigest()[:length]
+
+
+def normalize_icon_source(url: str = "", domain: str = "") -> str:
+    source = str(url or "").strip()
+    if not source and domain:
+        clean_domain = re.sub(r"^https?://", "", str(domain).strip(), flags=re.I).split("/")[0]
+        clean_domain = clean_domain.strip().lower()
+        if clean_domain:
+            source = f"https://www.google.com/s2/favicons?domain={clean_domain}&sz=128"
+
+    if not source:
+        return ""
+
+    if source.startswith("//"):
+        source = f"https:{source}"
+
+    if not re.match(r"^https?://", source, flags=re.I):
+        return ""
+
+    return source
+
+
+def icon_cache_paths(source: str) -> tuple[Path, Path]:
+    cache_key = hashlib.sha1(source.encode("utf-8")).hexdigest()
+    return ICON_CACHE_DIR / f"{cache_key}.bin", ICON_CACHE_DIR / f"{cache_key}.json"
+
+
+def read_cached_icon(source: str) -> tuple[bytes, str] | None:
+    body_path, meta_path = icon_cache_paths(source)
+    if not is_cache_fresh(body_path, ICON_CACHE_SECONDS):
+        return None
+
+    try:
+        content_type = "image/png"
+        if meta_path.exists():
+            meta = read_json(meta_path)
+            content_type = str(meta.get("contentType") or content_type)
+        return body_path.read_bytes(), content_type
+    except Exception:
+        return None
+
+
+def fetch_icon_bytes(source: str) -> tuple[bytes, str]:
+    response = requests.get(
+        source,
+        headers={
+            "User-Agent": "Mozilla/5.0 (compatible; AgentDashboard/1.0)",
+            "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        },
+        timeout=(4, 9),
+        stream=True,
+    )
+    response.raise_for_status()
+
+    content_type = str(response.headers.get("content-type") or "").split(";", 1)[0].strip().lower()
+    if not content_type:
+        guessed_type, _ = mimetypes.guess_type(source)
+        content_type = guessed_type or "image/png"
+    if not content_type.startswith("image/"):
+        raise ValueError(f"Unsupported icon content type: {content_type}")
+
+    chunks: list[bytes] = []
+    total = 0
+    for chunk in response.iter_content(chunk_size=16384):
+        if not chunk:
+            continue
+        total += len(chunk)
+        if total > ICON_MAX_BYTES:
+            raise ValueError("Icon is too large")
+        chunks.append(chunk)
+
+    body = b"".join(chunks)
+    if not body:
+        raise ValueError("Empty icon response")
+
+    return body, content_type
+
+
+def get_or_fetch_icon(source: str) -> tuple[bytes, str, bool]:
+    cached = read_cached_icon(source)
+    if cached:
+        body, content_type = cached
+        return body, content_type, True
+
+    body, content_type = fetch_icon_bytes(source)
+    body_path, meta_path = icon_cache_paths(source)
+    body_path.parent.mkdir(parents=True, exist_ok=True)
+    body_path.write_bytes(body)
+    write_json(
+        meta_path,
+        {
+            "source": source,
+            "contentType": content_type,
+            "cachedAt": now_cn(),
+        },
+    )
+    return body, content_type, False
 
 
 def safe_cache_label(value: object, fallback: str = "cache") -> str:
@@ -1213,6 +1314,8 @@ def build_chat_context_summary(context: Optional[Dict[str, Any]]) -> str:
     market = context.get("market") if isinstance(context.get("market"), dict) else {}
     bilibili = context.get("bilibili") if isinstance(context.get("bilibili"), dict) else {}
     search = context.get("search") if isinstance(context.get("search"), dict) else {}
+    layout = context.get("layout") if isinstance(context.get("layout"), dict) else {}
+    ai_request = context.get("aiRequest") if isinstance(context.get("aiRequest"), dict) else {}
 
     lines = [
         f"本地时间: {compact_context_text(context.get('time')) or '未知'}",
@@ -1230,6 +1333,15 @@ def build_chat_context_summary(context: Optional[Dict[str, Any]]) -> str:
     weather_line = " / ".join(part for part in weather_parts if part)
     if weather_line:
         lines.append(f"天气: {weather_line}")
+
+    layout_summary = compact_context_text(layout.get("summary"), 220)
+    bilibili_layout = compact_context_text(layout.get("bilibili"), 180)
+    if layout_summary or bilibili_layout:
+        lines.append(f"页面方位: {'; '.join(part for part in [layout_summary, bilibili_layout] if part)}")
+
+    proactive_theme = compact_context_text(ai_request.get("theme"), 24)
+    if proactive_theme:
+        lines.append(f"主动招呼主题: {proactive_theme}")
 
     metrics = weather.get("metrics")
     if isinstance(metrics, list) and metrics:
@@ -1259,8 +1371,9 @@ def build_chat_context_summary(context: Optional[Dict[str, Any]]) -> str:
             if isinstance(item, dict):
                 title = compact_context_text(item.get("title"), 80)
                 up = compact_context_text(item.get("up"), 40)
+                position = compact_context_text(item.get("position"), 32)
                 if title:
-                    video_text.append(f"{title}（UP: {up or '未知'}）")
+                    video_text.append(f"{title}（UP: {up or '未知'}，位置: {position or '未标注'}）")
         if video_text:
             lines.append(f"Bilibili推荐: {'; '.join(video_text)}")
 
@@ -1334,6 +1447,8 @@ def build_chat_system_prompt(context: Optional[Dict[str, Any]], intent: str, lat
 """.strip()
     sections = [
         base_prompt,
+        "页面方位规则: Home 中间是时间/搜索/快捷方式；Bilibili 推荐在下方偏左；AI Chat 在下方中间；天气和 MARKET 在右侧。提到视频位置时优先使用页面摘要里的“位置”字段，不要把整个 Bilibili 组件说成在右边。只有组件内部右上/右下小卡片才可以说右边小卡片。",
+        "主动招呼规则: 不要每次都从天气开头。根据“主动招呼主题”轮换天气、MARKET、Bilibili、搜索、闲聊或页面状态；如果主题不是 weather，最多轻轻带过天气，不要写成天气播报。",
         f"当前用户意图: {intent}",
         "当前页面摘要:",
         build_chat_context_summary(context),
@@ -1443,6 +1558,27 @@ def chat_usage() -> dict[str, Any]:
         "requestTokens": 0,
         "tokenTotal": read_chat_usage_total(),
     }
+
+
+@app.get("/api/icons")
+def cached_icon(url: str = "", domain: str = "") -> Response:
+    source = normalize_icon_source(url, domain)
+    if not source:
+        raise HTTPException(status_code=400, detail="A valid icon url or domain is required")
+
+    try:
+        body, content_type, cache_hit = get_or_fetch_icon(source)
+    except Exception as error:
+        raise HTTPException(status_code=502, detail=f"Icon fetch failed: {error}") from error
+
+    return Response(
+        content=body,
+        media_type=content_type,
+        headers={
+            "Cache-Control": "public, max-age=604800, stale-while-revalidate=2592000",
+            "X-Agent-Icon-Cache": "hit" if cache_hit else "miss",
+        },
+    )
 
 
 @app.get("/api/weather/locations")
