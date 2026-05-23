@@ -3810,15 +3810,35 @@ body[data-active-view="home"][data-home-wallpaper="night"] {
 
 .home-ai-chat-status {
   flex: 0 0 auto;
-  padding: 5px 9px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+  max-width: 128px;
+  padding: 5px 9px 6px;
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.62);
   color: rgba(23, 34, 45, 0.58);
-  font-size: 11px;
+  font-size: 10px;
+  line-height: 1;
   font-weight: 900;
   box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.72),
     0 5px 12px rgba(15, 23, 42, 0.08);
+}
+
+.home-ai-chat-status-model,
+.home-ai-chat-status-usage {
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.home-ai-chat-status-usage {
+  color: rgba(23, 34, 45, 0.72);
+  font-size: 11px;
 }
 
 .home-ai-chat-messages {
