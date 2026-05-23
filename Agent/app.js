@@ -2,6 +2,7 @@ import { rebuildHomeShell } from "./src/pages/home/home-shell.js";
 import { loadBilibiliWidget, setupBilibiliWidget } from "./src/pages/home/bilibili/bilibili-widget.js";
 import { loadStockWidget, setupStockWidget } from "./src/pages/home/stock/stock-widget.js";
 import { setupHomeSearchAndShortcuts } from "./src/pages/home/shortcuts/shortcuts.js";
+import { setupHomeAiChat } from "./src/pages/home/chat/home-chat.js";
 import { setupHomeWallpaperToggle } from "./src/pages/home/theme/wallpaper-toggle.js";
 import { setupViewNavigation } from "./src/pages/home/navigation/arc-navigation.js";
 import { loadSelectedWeather, renderBriefWeatherIfNeeded, setupWeatherControls } from "./src/pages/home/weather/weather-widget.js";
@@ -1473,6 +1474,7 @@ function loadHomeDataAfterFirstPaint() {
 
 setupViewNavigation();
 setupHomeSearchAndShortcuts();
+setupHomeAiChat();
 setupHomeWallpaperToggle();
 setupBilibiliWidget();
 setupWeatherControls();

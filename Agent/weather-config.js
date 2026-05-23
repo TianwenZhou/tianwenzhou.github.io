@@ -1,11 +1,8 @@
+window.AGENT_API_BASE_URL = "http://39.97.233.15";
+
 window.AGENT_WEATHER_CONFIG = {
-  provider: "qweather",
-  apiHost: "mh7mdb4hhk.re.qweatherapi.com",
-  apiKey: "79796c72281744ae92ebe3a640f0ea19",
-  jwtToken: "",
-  projectName: "Web_Weather",
-  developerId: "Q1A1CE8822",
-  projectId: "3G2D4YKECQ",
+  provider: "agent-api",
+  apiBaseUrl: window.AGENT_API_BASE_URL,
   iconBasePath: "./assets/weather/qweather",
   location: "",
   locationName: "",

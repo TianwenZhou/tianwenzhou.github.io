@@ -24,16 +24,11 @@
   },
   "permissions": ["geolocation", "storage"],
   "host_permissions": [
-    "https://mh7mdb4hhk.re.qweatherapi.com/*",
-    "https://api.bigdatacloud.net/*",
-    "https://api.open-meteo.com/*",
-    "https://air-quality-api.open-meteo.com/*",
+    "http://39.97.233.15/*",
     "https://geo.datav.aliyun.com/*",
-    "https://api.bilibili.com/*",
-    "https://www.bilibili.com/*",
     "https://*.hdslb.com/*"
   ],
   "content_security_policy": {
-    "extension_pages": "script-src 'self'; object-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https: data: blob:; connect-src 'self' https: http://localhost:* http://127.0.0.1:*; font-src 'self' data:; media-src 'self' https: blob:"
+    "extension_pages": "script-src 'self'; object-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https: data: blob:; connect-src 'self' http://39.97.233.15 http://localhost:* http://127.0.0.1:*; font-src 'self' data:; media-src 'self' https: blob:"
   }
 }

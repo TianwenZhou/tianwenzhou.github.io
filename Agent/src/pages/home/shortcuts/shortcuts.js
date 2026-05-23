@@ -4,6 +4,7 @@ const searchEngineStorageKey = "agent-dashboard-search-engine-v1";
 
 const shortcutsPerPage = 12;
 const maxShortcuts = 60;
+const shortcutIconPreloadHeadLimit = 80;
 const shortcutLongPressMs = 420;
 const shortcutDragMoveTolerance = 8;
 const shortcutPageFlipEdge = 76;
@@ -21,6 +22,8 @@ let shortcutDragState = null;
 let shortcutPageFlipTimer = null;
 let shortcutSuppressClickUntil = 0;
 let activeSearchEngine = "bing";
+const shortcutPreloadedIcons = new Set();
+const shortcutPreconnectedIconOrigins = new Set();
 
 const defaultShortcuts = [
   { title: "GitHub", url: "https://github.com", icon: "https://www.google.com/s2/favicons?domain=github.com&sz=128" },
@@ -182,6 +185,83 @@ function getShortcutIcon(url) {
   return buildShortcutIconCandidates(url)[0]?.url || "";
 }
 
+function scheduleIdleTask(callback) {
+  if (typeof window === "undefined") {
+    return;
+  }
+
+  const requestIdle = window.requestIdleCallback || ((handler) => window.setTimeout(handler, 120));
+  requestIdle(callback, { timeout: 900 });
+}
+
+function preconnectShortcutIconOrigin(iconUrl) {
+  let origin = "";
+  try {
+    origin = new URL(iconUrl, window.location.href).origin;
+  } catch {
+    return;
+  }
+
+  if (!origin || origin === window.location.origin || shortcutPreconnectedIconOrigins.has(origin)) {
+    return;
+  }
+
+  shortcutPreconnectedIconOrigins.add(origin);
+  const preconnect = document.createElement("link");
+  preconnect.rel = "preconnect";
+  preconnect.href = origin;
+  preconnect.crossOrigin = "";
+  document.head.append(preconnect);
+
+  const dnsPrefetch = document.createElement("link");
+  dnsPrefetch.rel = "dns-prefetch";
+  dnsPrefetch.href = origin;
+  document.head.append(dnsPrefetch);
+}
+
+function preloadShortcutIcon(iconUrl, priority = "auto") {
+  const url = String(iconUrl || "").trim();
+  if (!url || shortcutPreloadedIcons.has(url)) {
+    return;
+  }
+
+  shortcutPreloadedIcons.add(url);
+  preconnectShortcutIconOrigin(url);
+
+  if (shortcutPreloadedIcons.size <= shortcutIconPreloadHeadLimit) {
+    const link = document.createElement("link");
+    link.rel = "preload";
+    link.as = "image";
+    link.href = url;
+    link.dataset.shortcutIconPreload = "true";
+    if ("fetchPriority" in link) {
+      link.fetchPriority = priority;
+    }
+    document.head.append(link);
+  }
+
+  const image = new Image();
+  image.decoding = "async";
+  if ("fetchPriority" in image) {
+    image.fetchPriority = priority;
+  }
+  image.src = url;
+}
+
+function warmShortcutIconCache(shortcuts = loadShortcuts()) {
+  const pageStart = shortcutPageIndex * shortcutsPerPage;
+  const currentPage = shortcuts.slice(pageStart, pageStart + shortcutsPerPage);
+  currentPage.forEach((shortcut, index) => preloadShortcutIcon(shortcut.icon, index < 6 ? "high" : "auto"));
+
+  const nextPageStart = pageStart + shortcutsPerPage;
+  const nextPage = shortcuts.slice(nextPageStart, nextPageStart + shortcutsPerPage);
+  if (nextPage.length) {
+    scheduleIdleTask(() => {
+      nextPage.forEach((shortcut) => preloadShortcutIcon(shortcut.icon));
+    });
+  }
+}
+
 function buildShortcutIconCandidates(url) {
   const normalizedUrl = normalizeShortcutUrl(url);
   const domain = normalizedUrl ? getShortcutDomain(normalizedUrl) : "";
@@ -286,6 +366,9 @@ function renderShortcutCard({ shortcut, index }) {
   const title = escapeHtml(shortcut.title);
   const url = escapeHtml(shortcut.url);
   const icon = escapeHtml(shortcut.icon);
+  const pagePosition = index - shortcutPageIndex * shortcutsPerPage;
+  const isVisibleShortcut = pagePosition >= 0 && pagePosition < shortcutsPerPage;
+  const fetchPriority = isVisibleShortcut && pagePosition < 6 ? "high" : "auto";
   const isDragging = shortcutDragState?.draggedIndex === index;
   const cardBody = `
     <span class="shortcut-icon-wrap">
@@ -293,7 +376,9 @@ function renderShortcutCard({ shortcut, index }) {
       <img
         src="${icon}"
         alt=""
-        loading="lazy"
+        loading="${isVisibleShortcut ? "eager" : "lazy"}"
+        fetchpriority="${fetchPriority}"
+        decoding="async"
         draggable="false"
       />
     </span>
@@ -377,6 +462,7 @@ function renderShortcuts(shortcuts = loadShortcuts()) {
     shortcutPageIndex * shortcutsPerPage + shortcutsPerPage,
   );
 
+  warmShortcutIconCache(shortcuts);
   dom.shortcutGrid.innerHTML = pageEntries
     .map((entry) => (entry.type === "add" ? renderShortcutAddCard() : renderShortcutCard(entry)))
     .join("");

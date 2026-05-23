@@ -1,4 +1,5 @@
-const bilibiliDataUrl = "./data/bilibili-videos.json";
+import { fetchAgentJson } from "../../../shared/api-client.js";
+
 const bilibiliRefreshApiUrl = "/api/bilibili/refresh";
 const bilibiliDefaultKeyword = "电影解说";
 const bilibiliSeenStorageKey = "agent-dashboard-bilibili-seen-v1";
@@ -8,9 +9,16 @@ const bilibiliHiddenKeywordsStorageKey = "agent-dashboard-bilibili-hidden-keywor
 const bilibiliCustomCategoriesStorageKey = "agent-dashboard-bilibili-custom-categories-v1";
 const bilibiliHiddenCategoriesStorageKey = "agent-dashboard-bilibili-hidden-categories-v1";
 const bilibiliPreferenceStorageKey = "agent-dashboard-bilibili-preferences-v1";
-const bilibiliSeenLimit = 240;
+const bilibiliRotationStorageKey = "agent-dashboard-bilibili-rotation-v1";
+const bilibiliSeenLimit = 500;
 const bilibiliDisplayCount = 3;
 const bilibiliPreferenceLimit = 50;
+const bilibiliTagAliases = {
+  cs: ["CS", "CS2", "CSGO", "反恐精英", "反恐精英2"],
+  cs2: ["CS2", "反恐精英2", "反恐精英", "CSGO"],
+  csgo: ["CSGO", "反恐精英", "CS2"],
+  反恐精英: ["反恐精英", "CS2", "CSGO", "反恐精英2"],
+};
 const bilibiliCategoryPresets = [
   {
     keyword: "电影解说",
@@ -26,6 +34,12 @@ const bilibiliCategoryPresets = [
     keyword: "知识科普",
     label: "知识科普",
     tags: ["知识科普", "科普", "纪录片", "人文历史", "科技科普"],
+  },
+  {
+    keyword: "\u4fa6\u63a2\u6f2b\u753b",
+    label: "\u4fa6\u63a2\u6f2b\u753b",
+    tags: ["\u4fa6\u63a2\u6f2b\u753b", "\u63a8\u7406\u6f2b\u753b", "\u91d1\u7530\u4e00", "\u540d\u4fa6\u63a2\u67ef\u5357", "\u67ef\u5357\u5267\u573a\u7248", "\u6848\u4ef6\u89e3\u8bf4"],
+    upMids: ["18698687"],
   },
 ];
 const bilibiliSmallTagPresets = {
@@ -119,14 +133,41 @@ const bilibiliSmallTagPresets = {
       tags: ["人文历史", "历史科普", "历史", "文化"],
     },
   ],
+  "\u4fa6\u63a2\u6f2b\u753b": [
+    {
+      keyword: "\u4fa6\u63a2\u6f2b\u753b",
+      label: "\u4fa6\u63a2\u6f2b\u753b",
+      type: "tag",
+      baseWeight: 10,
+      tags: ["\u4fa6\u63a2\u6f2b\u753b", "\u63a8\u7406\u6f2b\u753b", "\u6848\u4ef6\u89e3\u8bf4", "\u6f2b\u753b\u89e3\u8bf4"],
+    },
+    {
+      keyword: "\u91d1\u7530\u4e00",
+      label: "\u91d1\u7530\u4e00",
+      type: "tag",
+      baseWeight: 9,
+      tags: ["\u91d1\u7530\u4e00", "\u91d1\u7530\u4e00\u5c11\u5e74\u4e8b\u4ef6\u7c3f", "\u91d1\u7530\u4e00\u6848\u4ef6", "\u91d1\u7530\u4e00\u89e3\u8bf4"],
+    },
+    {
+      keyword: "\u540d\u4fa6\u63a2\u67ef\u5357",
+      label: "\u540d\u4fa6\u63a2\u67ef\u5357",
+      type: "tag",
+      baseWeight: 9,
+      tags: ["\u540d\u4fa6\u63a2\u67ef\u5357", "\u67ef\u5357\u5267\u573a\u7248", "\u67ef\u5357\u6848\u4ef6", "\u67ef\u5357\u89e3\u8bf4"],
+    },
+    {
+      keyword: "\u4e00\u53ea\u897f\u74dc\u554a_",
+      label: "\u4e00\u53ea\u897f\u74dc\u554a_",
+      type: "up",
+      baseWeight: 12,
+      tags: ["\u4e00\u53ea\u897f\u74dc\u554a_", "\u91d1\u7530\u4e00", "\u540d\u4fa6\u63a2\u67ef\u5357"],
+      upMids: ["18698687"],
+    },
+  ],
 };
 
 let dom = null;
 let lastRenderedVideos = new Map();
-
-function isBrowserExtensionPage() {
-  return ["chrome-extension:", "ms-browser-extension:", "moz-extension:"].includes(window.location.protocol);
-}
 
 function getBilibiliDom() {
   return {
@@ -322,6 +363,7 @@ function getKeywordConfig(keyword = getActiveKeyword()) {
     keyword: normalizedKeyword,
     label: normalizedKeyword,
     tags: getWeightedSearchTags(),
+    upMids: getWeightedUpMids(),
   };
 }
 
@@ -405,6 +447,23 @@ function getVideoTags(video) {
     .slice(0, 8);
 }
 
+function getExpandedBilibiliTags(tag) {
+  const normalizedTag = normalizeKeyword(tag);
+  if (!normalizedTag) {
+    return [];
+  }
+
+  const aliases = bilibiliTagAliases[normalizedTag.toLowerCase()] || [normalizedTag];
+  const tags = [];
+  aliases.forEach((alias) => {
+    const normalizedAlias = normalizeKeyword(alias);
+    if (normalizedAlias && !tags.includes(normalizedAlias)) {
+      tags.push(normalizedAlias);
+    }
+  });
+  return tags;
+}
+
 function boostPreferenceTag(tag, amount = 1.5) {
   const normalizedTag = normalizeKeyword(tag);
   if (!normalizedTag) {
@@ -462,11 +521,12 @@ function getPreferenceRows() {
 
     rows.set(label, {
       label,
-      type: "tag",
+      type: option.type || "tag",
       score: Number(option.baseWeight || 1) + Number(profile.tags[label] || 0),
       isPreset: option.isPreset,
       isCustom: option.isCustom,
       tags: option.tags || [label],
+      upMids: option.upMids || [],
     });
   });
 
@@ -479,6 +539,7 @@ function getPreferenceRows() {
     rows.set(label, {
       ...(existing || { label, type: "tag", tags: [label] }),
       score: Number(existing?.score || 0) + Number(score || 0),
+      upMids: existing?.upMids || [],
     });
   });
 
@@ -502,19 +563,46 @@ function getPreferenceRows() {
 }
 
 function getWeightedSearchTags() {
-  const rows = getPreferenceRows().filter((row) => row.type === "tag");
+  const rows = getPreferenceRows().filter((row) => row.type === "tag" || row.tags?.length);
+  const activeKeyword = getActiveKeyword();
   const tags = [];
 
-  rows.forEach((row) => {
+  const appendRowTags = (row) => {
     (row.tags?.length ? row.tags : [row.label]).forEach((tag) => {
-      const normalizedTag = normalizeKeyword(tag);
-      if (normalizedTag && !tags.includes(normalizedTag)) {
-        tags.push(normalizedTag);
-      }
+      getExpandedBilibiliTags(tag).forEach((expandedTag) => {
+        if (expandedTag && !tags.includes(expandedTag)) {
+          tags.push(expandedTag);
+        }
+      });
     });
-  });
+  };
+
+  rows
+    .filter((row) => row.label !== activeKeyword)
+    .forEach(appendRowTags);
+  rows
+    .filter((row) => row.label === activeKeyword)
+    .forEach(appendRowTags);
 
   return (tags.length ? tags : [getActiveKeyword()]).slice(0, 10);
+}
+
+function getWeightedUpMids() {
+  const activeCategory = getCategoryOptions().find((option) => option.keyword === getActiveKeyword());
+  const mids = [];
+  const appendMid = (mid) => {
+    const normalizedMid = String(mid || "").replace(/\D/g, "");
+    if (normalizedMid && !mids.includes(normalizedMid)) {
+      mids.push(normalizedMid);
+    }
+  };
+
+  (activeCategory?.upMids || []).forEach(appendMid);
+  getPreferenceRows().forEach((row) => {
+    (row.upMids || []).forEach(appendMid);
+  });
+
+  return mids.slice(0, 6);
 }
 
 function deleteKeywordOption(keyword) {
@@ -606,6 +694,35 @@ function saveSeenVideos(videos, previousSeen = loadSeenVideos(), keyword = getAc
   }
 }
 
+function getSelectionScopeKey(keyword = getActiveKeyword()) {
+  const config = getKeywordConfig(keyword);
+  return [normalizeKeyword(keyword) || bilibiliDefaultKeyword, ...config.tags, ...config.upMids].join("|");
+}
+
+function loadRotationStore() {
+  try {
+    const parsed = JSON.parse(window.localStorage.getItem(bilibiliRotationStorageKey) || "{}");
+    return parsed && typeof parsed === "object" && !Array.isArray(parsed) ? parsed : {};
+  } catch {
+    return {};
+  }
+}
+
+function getRotationCursor(scopeKey) {
+  const store = loadRotationStore();
+  return Math.max(0, Number(store[scopeKey] || 0));
+}
+
+function saveRotationCursor(scopeKey, cursor) {
+  try {
+    const store = loadRotationStore();
+    store[scopeKey] = Math.max(0, Number(cursor) || 0);
+    window.localStorage.setItem(bilibiliRotationStorageKey, JSON.stringify(store));
+  } catch {
+    // Rotation is a convenience; recommendation still works without it.
+  }
+}
+
 function metricValue(value) {
   const number = Number(value);
   return Number.isFinite(number) && number > 0 ? number : 0;
@@ -621,20 +738,42 @@ function getVideoPreferenceScore(video, profile = getPreferenceProfile()) {
   const searchable = [
     video?.title,
     video?.description,
-    video?.query,
     ...(Array.isArray(video?.tags) ? video.tags : []),
   ]
     .map((value) => String(value || "").toLowerCase())
     .join(" ");
 
   Object.entries(profile.tags || {}).forEach(([tag, value]) => {
-    const normalizedTag = normalizeKeyword(tag).toLowerCase();
-    if (normalizedTag && searchable.includes(normalizedTag)) {
-      score += Number(value || 0) * 1.8;
+    const aliases = getExpandedBilibiliTags(tag);
+    if (!aliases.length) {
+      return;
+    }
+    const matched = aliases.some((alias) => searchable.includes(alias.toLowerCase()));
+    if (matched) {
+      score += Number(value || 0) * 2.2;
     }
   });
 
   return score;
+}
+
+function getVideoRecommendationScore(video, index, profile = getPreferenceProfile()) {
+  const stats = video.stats || {};
+  const qualityScore = metricValue(video.qualityScore);
+  const recencyScore = metricValue(video.recencyScore);
+  const playScore = metricValue(stats.play);
+  const preferenceScore = getVideoPreferenceScore(video, profile);
+  const rankScore = Math.max(1, 24 - index * 0.18);
+  const explorationNoise = Math.random() * 12;
+
+  return (
+    preferenceScore * 3.2 +
+    qualityScore * 1.35 +
+    recencyScore * 1.1 +
+    Math.min(36, Math.pow(playScore, 0.18)) +
+    rankScore +
+    explorationNoise
+  );
 }
 
 function weightedVideoKey(video, index, profile = getPreferenceProfile()) {
@@ -664,6 +803,51 @@ function videoMatchesKeyword(video, keyword) {
     .filter(Boolean);
 
   return fields.some((field) => field.includes(normalizedKeyword.toLowerCase()));
+}
+
+function selectDiverseVideos(rankedVideos, limit) {
+  const selected = [];
+  const selectedKeys = new Set();
+  const usedUps = new Set();
+
+  const tryPick = (strict = true) => {
+    rankedVideos.forEach((video) => {
+      if (selected.length >= limit) {
+        return;
+      }
+      const key = getVideoKey(video);
+      const upName = normalizeKeyword(video.upName);
+      if (!key || selectedKeys.has(key)) {
+        return;
+      }
+      if (strict && upName && usedUps.has(upName) && rankedVideos.length - selected.length > 1) {
+        return;
+      }
+      selected.push(video);
+      selectedKeys.add(key);
+      if (upName) {
+        usedUps.add(upName);
+      }
+    });
+  };
+
+  tryPick(true);
+  tryPick(false);
+  return selected.slice(0, limit);
+}
+
+function rotateRankedVideos(rankedVideos, scopeKey, shouldRotate) {
+  if (!shouldRotate || rankedVideos.length <= bilibiliDisplayCount) {
+    return rankedVideos;
+  }
+
+  const bandSize = Math.min(rankedVideos.length, Math.max(18, bilibiliDisplayCount * 8));
+  const band = rankedVideos.slice(0, bandSize);
+  const tail = rankedVideos.slice(bandSize);
+  const cursor = getRotationCursor(scopeKey) % band.length;
+  const rotatedBand = [...band.slice(cursor), ...band.slice(0, cursor)];
+  saveRotationCursor(scopeKey, cursor + bilibiliDisplayCount + 1);
+  return [...rotatedBand, ...tail];
 }
 
 function selectVideosFromPool(payload, keyword = getActiveKeyword()) {
@@ -699,11 +883,16 @@ function selectVideosFromPool(payload, keyword = getActiveKeyword()) {
   const fresh = deduped.filter((video) => !seen.has(getVideoKey(video)));
   const pool = fresh.length >= bilibiliDisplayCount ? fresh : deduped;
   const profile = getPreferenceProfile(requestedKeyword);
-  const selected = pool
-    .map((video, index) => ({ video, key: weightedVideoKey(video, index, profile) }))
-    .sort((a, b) => b.key - a.key)
+  const scopeKey = getSelectionScopeKey(requestedKeyword);
+  const ranked = pool
+    .map((video, index) => ({
+      video,
+      score: getVideoRecommendationScore(video, index, profile),
+      key: weightedVideoKey(video, index, profile),
+    }))
+    .sort((a, b) => b.score - a.score || b.key - a.key)
     .map((entry) => entry.video)
-    .slice(0, bilibiliDisplayCount);
+  const selected = selectDiverseVideos(rotateRankedVideos(ranked, scopeKey, Boolean(payload?.__manualRefresh)), bilibiliDisplayCount);
 
   saveSeenVideos(selected, loadSeenVideos(requestedKeyword), requestedKeyword);
   return selected;
@@ -1185,37 +1374,41 @@ function setBilibiliRefreshState(isLoading) {
 }
 
 async function refreshBilibiliVideos() {
-  const keywordConfig = getKeywordConfig();
-  const response = await fetch(bilibiliRefreshApiUrl, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      keyword: keywordConfig.keyword,
-      tags: keywordConfig.tags,
-    }),
-  });
-
-  if (!response.ok) {
-    throw new Error(`HTTP ${response.status}`);
-  }
-
-  const payload = await response.json();
-  if (!payload.ok) {
-    throw new Error(payload.error || "Bilibili refresh failed");
-  }
-
-  return payload.data || payload;
+  return fetchBilibiliVideos({ refresh: true });
 }
 
-async function fetchBilibiliVideos() {
-  const response = await fetch(`${bilibiliDataUrl}?ts=${Date.now()}`, { cache: "no-store" });
-  if (!response.ok) {
-    throw new Error(`HTTP ${response.status}`);
-  }
+async function forceRefreshBilibiliVideos() {
+  const keywordConfig = getKeywordConfig();
+  const payload = await fetchAgentJson(bilibiliRefreshApiUrl, {
+    method: "POST",
+    body: {
+      keyword: keywordConfig.keyword,
+      tags: keywordConfig.tags,
+      upMids: keywordConfig.upMids,
+    },
+    timeoutMs: 90000,
+  });
 
-  return response.json();
+  const data = payload.data || payload;
+  data.__manualRefresh = true;
+  return data;
+}
+
+async function fetchBilibiliVideos(options = {}) {
+  const keywordConfig = getKeywordConfig();
+  const payload = await fetchAgentJson("/api/bilibili", {
+    params: {
+      keyword: keywordConfig.keyword,
+      tags: keywordConfig.tags.join(","),
+      upMids: keywordConfig.upMids.join(","),
+      refresh: options.refresh ? "true" : "",
+      ts: Date.now(),
+    },
+    timeoutMs: 12000,
+  });
+  const data = payload.data || payload;
+  data.__manualRefresh = Boolean(options.refresh);
+  return data;
 }
 
 export async function loadBilibiliWidget({ manual = false } = {}) {
@@ -1228,7 +1421,7 @@ export async function loadBilibiliWidget({ manual = false } = {}) {
   }
 
   try {
-    if (manual && !isBrowserExtensionPage()) {
+    if (manual) {
       try {
         renderVideos(await refreshBilibiliVideos());
         return;

@@ -1,3 +1,5 @@
+import { fetchAgentJson } from "../../../shared/api-client.js";
+
 const weatherConfig = window.AGENT_WEATHER_CONFIG ?? {};
 
 let dom = null;
@@ -379,32 +381,6 @@ function getWeatherKindFromQWeatherIcon(icon) {
   if (/^(400|401|402|403|404|405|406|407|408|409|410|456|457|499)$/.test(code)) return "snow";
   if (/^(500|501|502|503|504|507|508|509|510|511|512|513|514|515)$/.test(code)) return "fog";
   return "";
-}
-
-function getQWeatherConditionLabel(text, icon) {
-  const iconLabels = {
-    100: "晴",
-    101: "多云",
-    102: "少云",
-    103: "晴间多云",
-    104: "阴",
-    150: "晴",
-    151: "多云",
-    152: "少云",
-    153: "晴间多云",
-    154: "阴",
-  };
-  const code = String(icon || "");
-  return text || iconLabels[code] || "更新中";
-}
-
-function getQWeatherWeatherKind(text, icon) {
-  const conditionText = String(text || "").trim();
-  if (conditionText) {
-    return getWeatherKindFromText(conditionText);
-  }
-
-  return getWeatherKindFromQWeatherIcon(icon) || "clear";
 }
 
 function getWeatherVisualForCondition(item) {
@@ -947,18 +923,18 @@ function getBrowserPosition() {
       return;
     }
 
-    const fallbackTimer = window.setTimeout(() => {
-      reject(new Error("Geolocation timed out"));
-    }, 3600);
-    const finish = (callback) => (value) => {
-      window.clearTimeout(fallbackTimer);
-      callback(value);
+    const lowAccuracyFallback = () => {
+      navigator.geolocation.getCurrentPosition(resolve, reject, {
+        enableHighAccuracy: false,
+        maximumAge: 1000 * 60 * 10,
+        timeout: 4200,
+      });
     };
 
-    navigator.geolocation.getCurrentPosition(finish(resolve), finish(reject), {
-      enableHighAccuracy: false,
-      maximumAge: 1000 * 60 * 30,
-      timeout: 3500,
+    navigator.geolocation.getCurrentPosition(resolve, lowAccuracyFallback, {
+      enableHighAccuracy: true,
+      maximumAge: 1000 * 30,
+      timeout: 8000,
     });
   });
 }
@@ -975,94 +951,6 @@ function formatReverseGeocodeLabel(payload) {
   const district = pickReverseGeocodeDistrict(payload);
   const parts = [city, district].filter((part, index, list) => part && list.indexOf(part) === index);
   return parts.join(" ") || payload?.principalSubdivision || "本地";
-}
-
-async function fetchWithTimeout(url, options = {}, timeoutMs = 4500) {
-  const controller = new AbortController();
-  const timer = window.setTimeout(() => controller.abort(), timeoutMs);
-
-  try {
-    return await fetch(url, {
-      ...options,
-      signal: controller.signal,
-    });
-  } finally {
-    window.clearTimeout(timer);
-  }
-}
-
-async function fetchLocalWeatherLabel(latitude, longitude) {
-  const params = new URLSearchParams({
-    latitude: String(latitude),
-    longitude: String(longitude),
-    localityLanguage: "zh",
-  });
-  const response = await fetchWithTimeout(`https://api.bigdatacloud.net/data/reverse-geocode-client?${params.toString()}`, {}, 3000);
-  if (!response.ok) {
-    throw new Error(`HTTP ${response.status}`);
-  }
-  return formatReverseGeocodeLabel(await response.json());
-}
-
-function getQWeatherConfig() {
-  const apiHost = String(weatherConfig.apiHost || "").trim().replace(/^https?:\/\//, "").replace(/\/.*$/, "");
-  const apiKey = String(weatherConfig.apiKey || "").trim();
-  const jwtToken = String(weatherConfig.jwtToken || "").trim();
-
-  if (!apiHost || (!apiKey && !jwtToken)) {
-    throw new Error("QWeather is not configured");
-  }
-
-  return {
-    apiHost,
-    apiKey,
-    jwtToken,
-  };
-}
-
-function getQWeatherUrl(path, params = {}) {
-  const { apiHost } = getQWeatherConfig();
-  const searchParams = new URLSearchParams({
-    lang: "zh",
-    unit: "m",
-    ...params,
-  });
-  return `https://${apiHost}${path}?${searchParams.toString()}`;
-}
-
-function getQWeatherHeaders() {
-  const { apiKey, jwtToken } = getQWeatherConfig();
-
-  if (jwtToken) {
-    return {
-      Authorization: `Bearer ${jwtToken}`,
-    };
-  }
-
-  return {
-    "X-QW-Api-Key": apiKey,
-  };
-}
-
-async function fetchQWeatherJson(path, params = {}, timeoutMs = 4500) {
-  const response = await fetchWithTimeout(
-    getQWeatherUrl(path, params),
-    {
-      headers: getQWeatherHeaders(),
-      cache: "no-store",
-    },
-    timeoutMs,
-  );
-  if (!response.ok) {
-    throw new Error(`HTTP ${response.status}`);
-  }
-
-  const payload = await response.json();
-  if (payload.code && payload.code !== "200") {
-    throw new Error(`QWeather ${payload.code}`);
-  }
-
-  return payload;
 }
 
 function parseQWeatherCoordinate(value) {
@@ -1090,24 +978,26 @@ function formatQWeatherLocationLabel(item) {
 }
 
 async function fetchQWeatherLocationInfo(query) {
-  const payload = await fetchQWeatherJson("/geo/v2/city/lookup", {
-    location: query,
-    number: "1",
+  const payload = await fetchAgentJson("/api/weather/locations", {
+    params: {
+      q: query,
+      number: 1,
+    },
+    timeoutMs: 8000,
   });
-  return payload.location?.[0] ?? null;
+  return payload.locations?.[0] ?? null;
 }
 
 async function searchQWeatherLocations(query) {
-  const payload = await fetchQWeatherJson(
-    "/geo/v2/city/lookup",
-    {
-      location: query,
-      number: "8",
+  const payload = await fetchAgentJson("/api/weather/locations", {
+    params: {
+      q: query,
+      number: 8,
     },
-    5000,
-  );
+    timeoutMs: 8000,
+  });
 
-  return Array.isArray(payload.location) ? payload.location : [];
+  return Array.isArray(payload.locations) ? payload.locations : [];
 }
 
 function normalizeQWeatherLocationItem(item) {
@@ -1139,15 +1029,18 @@ async function resolveQWeatherLocation() {
   if (configuredLocation) {
     const geo = await fetchQWeatherLocationInfo(configuredLocation).catch(() => null);
     const parsed = parseQWeatherCoordinate(configuredLocation);
-    const latitude = Number(geo?.lat ?? parsed?.latitude);
-    const longitude = Number(geo?.lon ?? parsed?.longitude);
+    const latitude = Number(parsed?.latitude ?? geo?.lat);
+    const longitude = Number(parsed?.longitude ?? geo?.lon);
+    const exactLocation = parsed ? `${parsed.longitude.toFixed(4)},${parsed.latitude.toFixed(4)}` : configuredLocation;
 
     return {
       label: configuredName || formatQWeatherLocationLabel(geo) || configuredLocation,
       latitude,
       longitude,
-      qweatherLocation: geo?.id || configuredLocation,
-      timezone: "Asia/Shanghai",
+      qweatherLocation: parsed ? exactLocation : geo?.id || configuredLocation,
+      timezone: geo?.tz || "Asia/Shanghai",
+      accuracy: parsed ? "coordinate" : "location-id",
+      labelLocationId: geo?.id || "",
     };
   }
 
@@ -1158,285 +1051,30 @@ async function resolveQWeatherLocation() {
   const geo = await fetchQWeatherLocationInfo(query).catch(() => null);
 
   return {
-    label: formatQWeatherLocationLabel(geo) || "本地",
-    latitude: Number(geo?.lat ?? latitude),
-    longitude: Number(geo?.lon ?? longitude),
-    qweatherLocation: geo?.id || query,
-    timezone: "Asia/Shanghai",
+    label: formatQWeatherLocationLabel(geo) || "??",
+    latitude,
+    longitude,
+    qweatherLocation: query,
+    timezone: geo?.tz || "Asia/Shanghai",
+    accuracy: position.coords.accuracy,
+    labelLocationId: geo?.id || "",
   };
 }
 
-function normalizeQWeatherAirIndex(indexes = []) {
-  const preferred = indexes.find((item) => item.code === "cn-mee") ?? indexes[0];
-  if (!preferred) {
-    return null;
-  }
-
-  const aqi = Number(preferred.aqi);
-  return {
-    aqi: Number.isFinite(aqi) ? aqi : NaN,
-    display: preferred.aqiDisplay || preferred.aqi || "",
-    category: preferred.category || "",
-  };
-}
-
-function normalizeQWeatherDailyAirQuality(payload) {
-  const days = Array.isArray(payload?.days) ? payload.days : [];
-  return new Map(
-    days.map((day) => [
-      day.forecastStartTime?.slice(0, 10) || day.fxDate || day.date,
-      normalizeQWeatherAirIndex(day.indexes),
-    ]),
-  );
-}
-
-async function fetchQWeatherAirCurrent(location) {
-  if (!Number.isFinite(location.latitude) || !Number.isFinite(location.longitude)) {
-    return null;
-  }
-  const payload = await fetchQWeatherJson(
-    `/airquality/v1/current/${Number(location.latitude).toFixed(4)}/${Number(location.longitude).toFixed(4)}`,
-    {},
-    3500,
-  );
-  return normalizeQWeatherAirIndex(payload.indexes);
-}
-
-async function fetchQWeatherDailyAirQuality(location) {
-  if (!Number.isFinite(location.latitude) || !Number.isFinite(location.longitude)) {
-    return new Map();
-  }
-  const payload = await fetchQWeatherJson(
-    `/airquality/v1/daily/${Number(location.latitude).toFixed(4)}/${Number(location.longitude).toFixed(4)}`,
-    { localTime: "true" },
-    3500,
-  );
-  return normalizeQWeatherDailyAirQuality(payload);
-}
-
-function formatQWeatherHistoricalDate(dateKey) {
-  return String(dateKey || "").replaceAll("-", "");
-}
-
-function normalizeQWeatherHistoricalWeather(payload, dateKey) {
-  const daily = payload?.weatherDaily ?? {};
-  const hourly = Array.isArray(payload?.weatherHourly) ? payload.weatherHourly : [];
-  const representative =
-    hourly.find((hour) => String(hour.time || "").includes("12:")) ??
-    hourly[Math.floor(hourly.length / 2)] ??
-    hourly[0] ??
-    {};
-  const weatherCode = getQWeatherConditionLabel(daily.textDay || representative.text || "历史", daily.iconDay || representative.icon);
-  const max = Math.round(Number(daily.tempMax ?? representative.temp));
-  const min = Math.round(Number(daily.tempMin ?? representative.temp));
-
-  if (!Number.isFinite(max) || !Number.isFinite(min)) {
-    return null;
-  }
-
-  return {
-    date: dateKey,
-    weatherCode,
-    icon: daily.iconDay || representative.icon || "",
-    weatherKind: getQWeatherWeatherKind(weatherCode, daily.iconDay || representative.icon),
-    max,
-    min,
-    precipitationProbability: Math.round(Number(daily.precip ?? 0)),
-    precipitationText: `降水 ${Number(daily.precip ?? 0).toFixed(Number(daily.precip ?? 0) % 1 ? 1 : 0)}mm`,
-    airQuality: null,
-  };
-}
-
-async function fetchQWeatherHistoricalWeather(location, dateKey) {
-  const qLocation = location.qweatherLocation;
-  if (!qLocation || String(qLocation).includes(",")) {
-    return null;
-  }
-
-  const payload = await fetchQWeatherJson(
-    "/v7/historical/weather",
-    {
-      location: qLocation,
-      date: formatQWeatherHistoricalDate(dateKey),
-    },
-    3500,
-  );
-  return normalizeQWeatherHistoricalWeather(payload, dateKey);
-}
-
-function normalizeQWeatherWeather({
-  location,
-  nowPayload,
-  hourlyPayload,
-  dailyPayload,
-  airQuality,
-  dailyAirQuality,
-  historicalForecast = [],
-}) {
-  const daily = dailyPayload.daily ?? [];
-  const todayKey = getDateKeyInTimeZone(new Date(), location.timezone === "auto" ? undefined : location.timezone);
-  const futureForecast = daily.map((day) => {
-    const weatherCode = getQWeatherConditionLabel(day.textDay || day.textNight || "更新中", day.iconDay || day.iconNight);
-    const air = dailyAirQuality.get(day.fxDate) ?? (day.fxDate === todayKey ? airQuality : null);
-    return {
-      date: day.fxDate,
-      weatherCode,
-      icon: day.iconDay || day.iconNight || "",
-      weatherKind: getQWeatherWeatherKind(weatherCode, day.iconDay || day.iconNight),
-      max: Math.round(Number(day.tempMax)),
-      min: Math.round(Number(day.tempMin)),
-      uvIndex: Number(day.uvIndex),
-      precipitationProbability: Math.round(Number(day.precip ?? 0)),
-      precipitationText: `降水 ${Number(day.precip ?? 0).toFixed(Number(day.precip ?? 0) % 1 ? 1 : 0)}mm`,
-      airQuality: air,
-    };
-  });
-  const forecastByDate = new Map();
-  historicalForecast.filter(Boolean).forEach((day) => forecastByDate.set(day.date, day));
-  futureForecast.forEach((day) => forecastByDate.set(day.date, day));
-  const forecast = [...forecastByDate.values()].sort((a, b) => String(a.date).localeCompare(String(b.date)));
-  const today = futureForecast[0] ?? forecast.find((day) => day.date >= getDateKeyInTimeZone(new Date(), "Asia/Shanghai")) ?? {
-    max: Math.round(Number(nowPayload.now?.temp ?? 0)),
-    min: Math.round(Number(nowPayload.now?.temp ?? 0)),
-    precipitationProbability: 0,
-    precipitationText: "降水 --",
-  };
-
-  return {
-    location: location.label,
-    current: {
-      temperature: Math.round(Number(nowPayload.now?.temp ?? today.max)),
-      weatherCode: getQWeatherConditionLabel(nowPayload.now?.text, nowPayload.now?.icon),
-      icon: nowPayload.now?.icon || "",
-      weatherKind: getQWeatherWeatherKind(nowPayload.now?.text, nowPayload.now?.icon),
-      obsTime: nowPayload.now?.obsTime || "",
-      feelsLike: Math.round(Number(nowPayload.now?.feelsLike ?? nowPayload.now?.temp ?? today.max)),
-      humidity: Math.round(Number(nowPayload.now?.humidity ?? NaN)),
-      windDir: nowPayload.now?.windDir || "",
-      windSpeed: Math.round(Number(nowPayload.now?.windSpeed ?? 0)),
-      pressure: Math.round(Number(nowPayload.now?.pressure ?? NaN)),
-      visibility: Math.round(Number(nowPayload.now?.vis ?? NaN)),
-      precipitation: Number(nowPayload.now?.precip ?? NaN),
-    },
-    today,
-    forecast,
-    hourly: (hourlyPayload.hourly ?? []).map((hour) => ({
-      time: hour.fxTime,
-      temperature: Math.round(Number(hour.temp)),
-      weatherCode: getQWeatherConditionLabel(hour.text, hour.icon),
-      icon: hour.icon || "",
-      weatherKind: getQWeatherWeatherKind(hour.text, hour.icon),
-      precipitationProbability: Math.round(Number(hour.pop ?? 0)),
-    })),
-    airQuality,
-  };
-}
-
-async function fetchQWeatherWeather(location) {
+async function fetchQWeatherWeather(location, options = {}) {
   const qLocation = location.qweatherLocation || buildQWeatherLocationQuery(location);
-  const todayKey = getDateKeyInTimeZone(new Date(), location.timezone === "auto" ? undefined : location.timezone);
-  const yesterdayKey = shiftDateKey(todayKey, -1);
-  const [nowPayload, hourlyPayload, dailyPayload] = await Promise.all([
-    fetchQWeatherJson("/v7/weather/now", { location: qLocation }),
-    fetchQWeatherJson("/v7/weather/24h", { location: qLocation }),
-    fetchQWeatherJson("/v7/weather/7d", { location: qLocation }),
-  ]);
-  const [airQuality, dailyAirQuality, historicalDay] = await Promise.all([
-    fetchQWeatherAirCurrent(location).catch(() => null),
-    fetchQWeatherDailyAirQuality(location).catch(() => new Map()),
-    fetchQWeatherHistoricalWeather(location, yesterdayKey).catch(() => null),
-  ]);
-
-  return normalizeQWeatherWeather({
-    location,
-    nowPayload,
-    hourlyPayload,
-    dailyPayload,
-    airQuality,
-    dailyAirQuality,
-    historicalForecast: historicalDay ? [historicalDay] : [],
-  });
-}
-
-function normalizeOpenMeteoWeather(payload, locationLabel) {
-  const daily = payload.daily ?? {};
-  const hourlyPayload = payload.hourly ?? {};
-  const forecast = (daily.time ?? []).map((date, index) => ({
-    date,
-    weatherCode: daily.weathercode?.[index],
-    max: Math.round(daily.temperature_2m_max?.[index]),
-    min: Math.round(daily.temperature_2m_min?.[index]),
-    precipitationProbability: Math.round(daily.precipitation_probability_max?.[index] ?? 0),
-  }));
-  const now = Date.now();
-  const hourly = (hourlyPayload.time ?? [])
-    .map((time, index) => ({
-      time,
-      temperature: Math.round(hourlyPayload.temperature_2m?.[index]),
-      weatherCode: hourlyPayload.weathercode?.[index],
-      precipitationProbability: Math.round(hourlyPayload.precipitation_probability?.[index] ?? 0),
-    }))
-    .filter((item) => new Date(item.time).getTime() >= now - 1000 * 60 * 45)
-    .slice(0, 8);
-  const today = forecast[0] ?? {
-    max: Math.round(payload.current_weather?.temperature ?? 0),
-    min: Math.round(payload.current_weather?.temperature ?? 0),
-    precipitationProbability: 0,
-  };
-
-  return {
-    location: locationLabel,
-    current: {
-      temperature: Math.round(payload.current_weather?.temperature ?? today.max),
-      weatherCode: payload.current_weather?.weathercode ?? today.weatherCode ?? 0,
-      windSpeed: Math.round(payload.current_weather?.windspeed ?? 0),
+  const payload = await fetchAgentJson("/api/weather", {
+    params: {
+      location: qLocation,
+      label: location.label || "",
+      lat: Number.isFinite(location.latitude) ? location.latitude : "",
+      lon: Number.isFinite(location.longitude) ? location.longitude : "",
+      force: options.force ? "true" : "",
     },
-    today,
-    forecast,
-    hourly,
-  };
-}
-
-async function fetchOpenMeteoAirQuality(location) {
-  const params = new URLSearchParams({
-    latitude: String(location.latitude),
-    longitude: String(location.longitude),
-    current: "us_aqi,pm2_5,pm10",
-    timezone: location.timezone || "auto",
+    timeoutMs: 12000,
   });
-  const response = await fetchWithTimeout(`https://air-quality-api.open-meteo.com/v1/air-quality?${params.toString()}`, {}, 3500);
-  if (!response.ok) {
-    throw new Error(`HTTP ${response.status}`);
-  }
-  const payload = await response.json();
-  return {
-    aqi: Math.round(payload.current?.us_aqi ?? NaN),
-    pm25: Math.round(payload.current?.pm2_5 ?? NaN),
-    pm10: Math.round(payload.current?.pm10 ?? NaN),
-  };
-}
 
-async function fetchOpenMeteoWeather(location) {
-  const params = new URLSearchParams({
-    latitude: String(location.latitude),
-    longitude: String(location.longitude),
-    current_weather: "true",
-    daily: "weathercode,temperature_2m_max,temperature_2m_min,precipitation_probability_max",
-    hourly: "temperature_2m,weathercode,precipitation_probability",
-    timezone: location.timezone || "auto",
-    forecast_days: "5",
-  });
-  const response = await fetchWithTimeout(`https://api.open-meteo.com/v1/forecast?${params.toString()}`, {}, 4500);
-  if (!response.ok) {
-    throw new Error(`HTTP ${response.status}`);
-  }
-  const weather = normalizeOpenMeteoWeather(await response.json(), location.label);
-  try {
-    weather.airQuality = await fetchOpenMeteoAirQuality(location);
-  } catch {
-    weather.airQuality = null;
-  }
-  return weather;
+  return payload.data;
 }
 
 function getRegionCenter(node, fallback = {}) {
@@ -1942,7 +1580,7 @@ export async function loadSelectedWeather(options = {}) {
   try {
     const { location, isAuto } = await resolveWeatherLocation(options);
     activeWeatherLocation = location;
-    const weather = await fetchQWeatherWeather(location);
+    const weather = await fetchQWeatherWeather(location, { force: Boolean(options.force) });
     renderHomeWeather(weather, {
       location,
       locationLabel: location.label,
@@ -1977,7 +1615,7 @@ export function setupWeatherControls() {
   dom.weatherRefreshButton?.addEventListener("click", (event) => {
     event.preventDefault();
     localWeatherLoaded = false;
-    loadSelectedWeather();
+    loadSelectedWeather({ force: true });
   });
 
   dom.weatherLocationButton?.addEventListener("click", (event) => {

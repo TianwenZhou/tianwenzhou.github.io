@@ -1,7 +1,8 @@
+import { fetchAgentJson } from "../../../shared/api-client.js";
+
 const stockSelectionStorageKey = "agent-dashboard-active-stock-v1";
 const stockCustomStorageKey = "agent-dashboard-custom-stocks-v1";
 const stockHiddenStorageKey = "agent-dashboard-hidden-stocks-v1";
-const stockNameCacheUrl = "./data/stocks/a-share-code-name.json";
 const stockDefaultKey = "byd";
 
 const stockFallbackProfile = {
@@ -99,13 +100,8 @@ let activeStockInterval = "1m";
 let activeStockKey = getInitialStockKey();
 let stockDataState = createEmptyStockDataState(getActiveStockConfig()?.profile ?? stockEmptyProfile);
 let stockRefreshResetTimer = null;
-let stockNameCachePromise = null;
 let stockSearchRenderToken = 0;
 let stockChartHoverData = null;
-
-function isBrowserExtensionPage() {
-  return ["chrome-extension:", "ms-browser-extension:", "moz-extension:"].includes(window.location.protocol);
-}
 
 function inferStockExchange(symbol) {
   return String(symbol).startsWith("6") ? "SSE" : "SZSE";
@@ -329,17 +325,17 @@ function getActiveStockConfig() {
 }
 
 function getStockRefreshUrl(stockConfig) {
-  return `./api/stocks/${encodeURIComponent(stockConfig.key)}/refresh`;
+  return `/api/stocks/${encodeURIComponent(stockConfig.key)}/refresh`;
+}
+
+function getStockDataUrl(stockConfig) {
+  return `/api/stocks/${encodeURIComponent(stockConfig.key)}`;
 }
 
 async function requestStockDataRefresh(stockConfig) {
-  const response = await fetch(`${getStockRefreshUrl(stockConfig)}?ts=${Date.now()}`, {
+  const payload = await fetchAgentJson(getStockRefreshUrl(stockConfig), {
     method: "POST",
-    cache: "no-store",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
+    body: {
       stock: {
         symbol: stockConfig.profile.symbol,
         name: stockConfig.profile.name,
@@ -347,13 +343,9 @@ async function requestStockDataRefresh(stockConfig) {
         exchange: stockConfig.profile.exchange,
         assetType: stockConfig.profile.assetType,
       },
-    }),
+    },
+    timeoutMs: 240000,
   });
-  const payload = await response.json().catch(() => null);
-
-  if (!response.ok || !payload?.ok) {
-    throw new Error(payload?.error || `HTTP ${response.status}`);
-  }
 
   return payload.data ?? null;
 }
@@ -368,17 +360,15 @@ async function lookupStockProfile(symbol) {
     name: fallbackCode,
     currency: "CNY",
   };
-  const cachedProfile = await lookupStockProfileFromLocalCache(symbol);
-  if (cachedProfile) {
-    return cachedProfile;
-  }
-
   try {
-    const response = await fetch(`./api/stocks/lookup?symbol=${encodeURIComponent(symbol)}&ts=${Date.now()}`, {
-      cache: "no-store",
+    const payload = await fetchAgentJson("/api/stocks/lookup", {
+      params: {
+        symbol,
+        ts: Date.now(),
+      },
+      timeoutMs: 100000,
     });
-    const payload = await response.json().catch(() => null);
-    if (!response.ok || !payload?.ok || !payload?.stock) {
+    if (!payload?.stock) {
       return fallbackProfile;
     }
 
@@ -391,26 +381,6 @@ async function lookupStockProfile(symbol) {
   } catch {
     return fallbackProfile;
   }
-}
-
-function loadStockNameCache() {
-  if (!stockNameCachePromise) {
-    stockNameCachePromise = fetch(`${stockNameCacheUrl}?ts=${Date.now()}`, { cache: "no-store" })
-      .then((response) => (response.ok ? response.json() : null))
-      .catch(() => null);
-  }
-
-  return stockNameCachePromise;
-}
-
-async function lookupStockProfileFromLocalCache(symbol) {
-  const cache = await loadStockNameCache();
-  const stockMap = cache?.stocks;
-  if (!stockMap || typeof stockMap !== "object") {
-    return null;
-  }
-
-  return normalizeStockProfile(stockMap[symbol]);
 }
 
 function normalizeStockSearchText(value) {
@@ -469,15 +439,26 @@ async function searchStockProfiles(queryText, limit = 6) {
     return [];
   }
 
-  const cache = await loadStockNameCache();
-  const cachedProfiles = Object.values(cache?.stocks ?? {})
-    .map(normalizeStockProfile)
-    .filter(Boolean);
   const catalogProfiles = getStockCatalog().map((stock) => stock.profile);
+  let backendProfiles = [];
+  try {
+    const payload = await fetchAgentJson("/api/stocks/lookup", {
+      params: {
+        q: query,
+        ts: Date.now(),
+      },
+      timeoutMs: 100000,
+    });
+    backendProfiles = (payload.results || payload.stock ? [payload.stock, ...(payload.results || [])] : [])
+      .map(normalizeStockProfile)
+      .filter(Boolean);
+  } catch {
+    backendProfiles = [];
+  }
   const seen = new Set();
   const matches = [];
 
-  for (const profile of [...catalogProfiles, ...cachedProfiles]) {
+  for (const profile of [...catalogProfiles, ...backendProfiles]) {
     const normalizedProfile = normalizeStockProfile(profile);
     if (!normalizedProfile || seen.has(normalizedProfile.symbol)) {
       continue;
@@ -1519,7 +1500,7 @@ export async function loadStockWidget({ manual = false } = {}) {
   let refreshedData = null;
   let refreshError = null;
 
-  if (manual && !isBrowserExtensionPage()) {
+  if (manual) {
     setStockRefreshState("loading");
     try {
       refreshedData = await requestStockDataRefresh(activeConfig);
@@ -1531,12 +1512,17 @@ export async function loadStockWidget({ manual = false } = {}) {
   try {
     let data = refreshedData;
     if (!data) {
-      const response = await fetch(`${activeConfig.dataUrl}?ts=${Date.now()}`, { cache: "no-store" });
-      if (!response.ok) {
-        throw new Error(`HTTP ${response.status}`);
+      try {
+        const payload = await fetchAgentJson(getStockDataUrl(activeConfig), {
+          params: {
+            ts: Date.now(),
+          },
+          timeoutMs: 12000,
+        });
+        data = payload.data;
+      } catch (error) {
+        data = await requestStockDataRefresh(activeConfig);
       }
-
-      data = await response.json();
     }
 
     const intervals = data?.intervals ?? {};
