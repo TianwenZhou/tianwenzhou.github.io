@@ -28,18 +28,18 @@ const shortcutPreloadedIcons = new Set();
 const shortcutPreconnectedIconOrigins = new Set();
 
 const defaultShortcuts = [
-  { title: "GitHub", url: "https://github.com", icon: "https://www.google.com/s2/favicons?domain=github.com&sz=128" },
-  { title: "ChatGPT", url: "https://chatgpt.com", icon: "https://www.google.com/s2/favicons?domain=chatgpt.com&sz=128" },
-  { title: "Google Scholar", url: "https://scholar.google.com", icon: "https://www.google.com/s2/favicons?domain=scholar.google.com&sz=128" },
-  { title: "Overleaf", url: "https://www.overleaf.com", icon: "https://www.google.com/s2/favicons?domain=overleaf.com&sz=128" },
-  { title: "Z-Library", url: "https://z-library.sk", icon: "https://www.google.com/s2/favicons?domain=z-library.sk&sz=128" },
-  { title: "Deepseek", url: "https://chat.deepseek.com", icon: "https://www.google.com/s2/favicons?domain=chat.deepseek.com&sz=128" },
-  { title: "Doubao", url: "https://www.doubao.com", icon: "https://www.google.com/s2/favicons?domain=doubao.com&sz=128" },
-  { title: "QQ邮箱", url: "https://mail.qq.com", icon: "https://mail.qq.com/favicon.ico" },
-  { title: "qweather", url: "https://dev.qweather.com", icon: "https://www.google.com/s2/favicons?domain=dev.qweather.com&sz=128" },
-  { title: "Zhoutianwen", url: "https://tianwenzhou.github.io", icon: "https://www.google.com/s2/favicons?domain=tianwenzhou.github.io&sz=128" },
-  { title: "GMail", url: "https://mail.google.com", icon: "https://www.google.com/s2/favicons?domain=mail.google.com&sz=128" },
-  { title: "Bilibili", url: "https://www.bilibili.com", icon: "https://www.bilibili.com/favicon.ico" },
+  { title: "GitHub", url: "https://github.com" },
+  { title: "ChatGPT", url: "https://chatgpt.com" },
+  { title: "Google Scholar", url: "https://scholar.google.com" },
+  { title: "Overleaf", url: "https://www.overleaf.com" },
+  { title: "Z-Library", url: "https://z-library.sk" },
+  { title: "Deepseek", url: "https://chat.deepseek.com" },
+  { title: "Doubao", url: "https://www.doubao.com" },
+  { title: "QQ邮箱", url: "https://mail.qq.com" },
+  { title: "qweather", url: "https://dev.qweather.com" },
+  { title: "Zhoutianwen", url: "https://tianwenzhou.github.io" },
+  { title: "GMail", url: "https://mail.google.com" },
+  { title: "Bilibili", url: "https://www.bilibili.com" },
 ];
 const searchEngines = {
   bing: {
@@ -183,8 +183,68 @@ function inferShortcutTitle(url) {
 }
 
 function getShortcutIcon(url) {
-  const domain = getShortcutDomain(url);
   return buildShortcutIconCandidates(url)[0]?.url || "";
+}
+
+function getShortcutFaviconApiUrl(siteUrl, size = 64) {
+  const normalizedUrl = normalizeShortcutUrl(siteUrl);
+  return normalizedUrl ? buildAgentApiUrl("/api/favicon", { url: normalizedUrl, size }) : "";
+}
+
+function isLocalShortcutIconUrl(value) {
+  const raw = String(value || "").trim();
+  return (
+    raw.startsWith("./") ||
+    raw.startsWith("/") ||
+    raw.startsWith("assets/") ||
+    raw.startsWith("data:") ||
+    raw.startsWith("blob:")
+  );
+}
+
+function isShortcutIconUrl(value) {
+  const raw = String(value || "").trim();
+  if (!raw || isGeneratedShortcutIconUrl(raw)) {
+    return false;
+  }
+
+  if (isLocalShortcutIconUrl(raw)) {
+    return true;
+  }
+
+  try {
+    const parsed = new URL(raw, window.location.href);
+    return ["http:", "https:"].includes(parsed.protocol);
+  } catch {
+    return false;
+  }
+}
+
+function isGeneratedShortcutIconUrl(value) {
+  const raw = String(value || "").trim();
+  if (!raw) {
+    return false;
+  }
+
+  try {
+    const parsed = new URL(raw, window.location.href);
+    const host = parsed.hostname.replace(/^www\./, "");
+    return (
+      (host === "google.com" && parsed.pathname.startsWith("/s2/")) ||
+      (host === "icons.duckduckgo.com" && parsed.pathname.startsWith("/ip3/"))
+    );
+  } catch {
+    return false;
+  }
+}
+
+function getShortcutRenderIcon(shortcut, size = 64) {
+  const manualIconUrl = String(shortcut?.iconUrl || "").trim();
+  if (manualIconUrl) {
+    return manualIconUrl;
+  }
+
+  return getShortcutFaviconApiUrl(shortcut?.url, size);
 }
 
 function scheduleIdleTask(callback) {
@@ -222,7 +282,11 @@ function getCachedShortcutIconUrl(iconUrl) {
 function preconnectShortcutIconOrigin(iconUrl) {
   let origin = "";
   try {
-    origin = new URL(iconUrl, window.location.href).origin;
+    const parsed = new URL(iconUrl, window.location.href);
+    if (!["http:", "https:"].includes(parsed.protocol)) {
+      return;
+    }
+    origin = parsed.origin;
   } catch {
     return;
   }
@@ -276,13 +340,15 @@ function preloadShortcutIcon(iconUrl, priority = "auto") {
 function warmShortcutIconCache(shortcuts = loadShortcuts()) {
   const pageStart = shortcutPageIndex * shortcutsPerPage;
   const currentPage = shortcuts.slice(pageStart, pageStart + shortcutsPerPage);
-  currentPage.forEach((shortcut, index) => preloadShortcutIcon(shortcut.icon, index < 6 ? "high" : "auto"));
+  currentPage.forEach((shortcut, index) =>
+    preloadShortcutIcon(getShortcutRenderIcon(shortcut), index < 6 ? "high" : "auto"),
+  );
 
   const nextPageStart = pageStart + shortcutsPerPage;
   const nextPage = shortcuts.slice(nextPageStart, nextPageStart + shortcutsPerPage);
   if (nextPage.length) {
     scheduleIdleTask(() => {
-      nextPage.forEach((shortcut) => preloadShortcutIcon(shortcut.icon));
+      nextPage.forEach((shortcut) => preloadShortcutIcon(getShortcutRenderIcon(shortcut)));
     });
   }
 }
@@ -337,10 +403,16 @@ function normalizeShortcutList(value) {
         return null;
       }
 
+      const rawIconUrl = String(item?.iconUrl || "").trim();
+      const rawIcon = String(item?.icon || "").trim();
+      const iconUrl = isShortcutIconUrl(rawIconUrl) ? rawIconUrl : isShortcutIconUrl(rawIcon) ? rawIcon : "";
+      const icon = (iconUrl || isGeneratedShortcutIconUrl(rawIcon)) ? "" : rawIcon;
+
       return {
         title: String(item?.title || inferShortcutTitle(url)).trim().slice(0, 28),
         url,
-        icon: String(item?.icon || getShortcutIcon(url)),
+        icon: iconUrl ? "" : icon || getShortcutIcon(url),
+        ...(iconUrl ? { iconUrl } : {}),
       };
     })
     .filter(Boolean)
@@ -390,22 +462,27 @@ function renderShortcutPager(pageCount) {
 function renderShortcutCard({ shortcut, index }) {
   const title = escapeHtml(shortcut.title);
   const url = escapeHtml(shortcut.url);
-  const icon = escapeHtml(getCachedShortcutIconUrl(shortcut.icon));
+  const icon = getShortcutRenderIcon(shortcut, 64);
+  const escapedIcon = escapeHtml(icon);
   const pagePosition = index - shortcutPageIndex * shortcutsPerPage;
   const isVisibleShortcut = pagePosition >= 0 && pagePosition < shortcutsPerPage;
   const fetchPriority = isVisibleShortcut && pagePosition < 6 ? "high" : "auto";
   const isDragging = shortcutDragState?.draggedIndex === index;
   const cardBody = `
-    <span class="shortcut-icon-wrap">
+    <span class="shortcut-icon-wrap${icon ? " is-loading-icon" : " is-icon-missing"}">
       <span class="shortcut-icon-fallback">${escapeHtml(getShortcutInitial(shortcut.title))}</span>
-      <img
-        src="${icon}"
-        alt=""
-        loading="${isVisibleShortcut ? "eager" : "lazy"}"
-        fetchpriority="${fetchPriority}"
-        decoding="async"
-        draggable="false"
-      />
+      ${
+        icon
+          ? `<img
+              src="${escapedIcon}"
+              alt=""
+              loading="${isVisibleShortcut ? "eager" : "lazy"}"
+              fetchpriority="${fetchPriority}"
+              decoding="async"
+              draggable="false"
+            />`
+          : ""
+      }
     </span>
     <span class="shortcut-title">${title}</span>
   `;
@@ -449,9 +526,14 @@ function renderShortcutAddCard() {
 function hydrateShortcutIconFallbacks() {
   dom.shortcutGrid?.querySelectorAll(".shortcut-icon-wrap img").forEach((image) => {
     const iconWrap = image.closest(".shortcut-icon-wrap");
-    const markLoaded = () => iconWrap?.classList.add("has-icon");
+    const markLoaded = () => {
+      iconWrap?.classList.add("has-icon");
+      iconWrap?.classList.remove("is-loading-icon", "is-icon-missing");
+    };
     const markMissing = () => {
       iconWrap?.classList.remove("has-icon");
+      iconWrap?.classList.remove("is-loading-icon");
+      iconWrap?.classList.add("is-icon-missing");
       image.remove();
     };
 
@@ -764,10 +846,14 @@ function addShortcut(urlValue, options = {}) {
 
   const shortcuts = loadShortcuts().filter((item) => item.url !== url);
   const title = String(options.title || inferShortcutTitle(url)).trim().slice(0, 28);
+  const rawIconUrl = String(options.iconUrl || "").trim();
+  const rawIcon = String(options.icon || "").trim();
+  const iconUrl = isShortcutIconUrl(rawIconUrl) ? rawIconUrl : isShortcutIconUrl(rawIcon) ? rawIcon : "";
   shortcuts.push({
     title: title || inferShortcutTitle(url),
     url,
-    icon: String(options.icon || getShortcutIcon(url)),
+    icon: iconUrl ? "" : rawIcon || getShortcutIcon(url),
+    ...(iconUrl ? { iconUrl } : {}),
   });
   shortcutPageIndex = Math.floor((shortcuts.length - 1) / shortcutsPerPage);
   saveShortcuts(shortcuts);
