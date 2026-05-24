@@ -1,36 +1,28 @@
 {
-  "generatedAt": "2026-05-24T13:55:30.110Z",
+  "generatedAt": "2026-05-24T17:13:33.134Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 23,
+      "temperature": 20,
       "weatherCode": 3,
-      "windSpeed": 8
+      "windSpeed": 4
     },
     "today": {
-      "date": "2026-05-24",
-      "weatherCode": 51,
-      "description": "毛毛雨",
-      "max": 28,
+      "date": "2026-05-25",
+      "weatherCode": 63,
+      "description": "中雨",
+      "max": 23,
       "min": 18,
-      "precipitationProbability": 10
+      "precipitationProbability": 97
     },
     "forecast": [
-      {
-        "date": "2026-05-24",
-        "weatherCode": 51,
-        "description": "毛毛雨",
-        "max": 28,
-        "min": 18,
-        "precipitationProbability": 10
-      },
       {
         "date": "2026-05-25",
         "weatherCode": 63,
         "description": "中雨",
         "max": 23,
         "min": 18,
-        "precipitationProbability": 96
+        "precipitationProbability": 97
       },
       {
         "date": "2026-05-26",
@@ -38,7 +30,7 @@
         "description": "阴天",
         "max": 25,
         "min": 17,
-        "precipitationProbability": 6
+        "precipitationProbability": 4
       },
       {
         "date": "2026-05-27",
@@ -54,33 +46,50 @@
         "description": "阴天",
         "max": 29,
         "min": 17,
-        "precipitationProbability": 2
+        "precipitationProbability": 0
+      },
+      {
+        "date": "2026-05-29",
+        "weatherCode": 0,
+        "description": "晴朗",
+        "max": 31,
+        "min": 16,
+        "precipitationProbability": 0
       }
     ]
   },
   "classicQuote": {
-    "id": "dream-red-mansions",
-    "text": "世事洞明皆学问，人情练达即文章。",
-    "source": "《红楼梦》",
-    "author": "曹雪芹",
-    "note": "技术之外，理解人和场景，往往更能拉开差距。"
+    "id": "mencius-perseverance",
+    "text": "虽千万人，吾往矣。",
+    "source": "《孟子》",
+    "author": "孟子",
+    "note": "认准方向之后，关键是稳稳地往前走。"
   },
   "bookExcerpt": {
-    "id": "floating-life-lotus",
-    "text": "芸坐其侧，素手烹茶，窗外新荷微香，连晚风也像带着水意，从竹帘间一寸寸地漫进来。",
-    "book": "《浮生六记》",
-    "author": "沈复"
+    "id": "red-mansion-snow",
+    "text": "只见大地白茫茫一片真干净，山川树木都隐在雪光里，天地像忽然静下来，只余风过回廊的细响。",
+    "book": "《红楼梦》",
+    "author": "曹雪芹"
   },
   "featuredPlace": {
-    "id": "202605231600",
-    "title": "三峰自然公园，南蒂罗尔，意大利",
+    "id": "202605241600",
+    "title": "从风之宫殿俯瞰斋浦尔市景，拉贾斯坦邦，印度",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "守护欧洲的自然净土",
-    "image": "https://www.bing.com/th?id=OHR.DolomitesPark_ZH-CN7134423478_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E6%84%8F%E5%A4%A7%E5%88%A9%E4%B8%89%E5%B3%B0%E8%87%AA%E7%84%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
+    "summary": "石间的清风",
+    "image": "https://www.bing.com/th?id=OHR.HawaMahal2026_ZH-CN7233246545_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E9%A3%8E%E4%B9%8B%E5%AE%AB&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202605241600",
+      "title": "从风之宫殿俯瞰斋浦尔市景，拉贾斯坦邦，印度",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "石间的清风",
+      "image": "https://www.bing.com/th?id=OHR.HawaMahal2026_ZH-CN7233246545_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E9%A3%8E%E4%B9%8B%E5%AE%AB&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202605231600",
       "title": "三峰自然公园，南蒂罗尔，意大利",
@@ -143,77 +152,100 @@
       "summary": "大厅里的希望",
       "image": "https://www.bing.com/th?id=OHR.MuseumLondon_ZH-CN5602977820_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E5%9B%BD%E9%99%85%E5%8D%9A%E7%89%A9%E9%A6%86%E6%97%A5&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202605161600",
-      "title": "仙纳度国家公园的玳瑁峰, 弗吉尼亚州, 美国",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "静谧之巅，喧嚣之景",
-      "image": "https://www.bing.com/th?id=OHR.ShenandoahSunset_ZH-CN4399136794_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E4%BB%99%E7%BA%B3%E5%BA%A6%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-05-24",
-    "dateLabel": "5月24日",
+    "dateKey": "2026-05-25",
+    "dateLabel": "5月25日",
     "items": [
       {
-        "year": "2024",
-        "text": "巴布亞紐幾內亞恩加省發生山體滑坡，造成至少6人死亡、7人受傷、2,500餘人失蹤。",
-        "link": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4"
+        "year": "2020",
+        "text": "喬治·佛洛伊德之死，為美國重要的黑人人權運動引爆事件，示威活動蔓延到全美及美國海外。",
+        "link": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4"
       },
       {
-        "year": "2022",
-        "text": "美国德克萨斯州尤瓦尔迪的罗伯小学（英语：）爆发校园枪击案，造成19名儿童和2名成人死亡，是2012年桑迪胡克小学枪击案以来死伤最严重的小学枪击案。",
-        "link": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4"
+        "year": "2012",
+        "text": "美国太空探索技术公司发射的“龙”飞船与国际空间站成功对接，由此成为有史以来首艘造访空间站的商业飞船。",
+        "link": "https://zh.wikipedia.org/wiki/2012%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "重庆市永川区人大常委会党组成员王寒峰接受审查调查",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-24/10627779.shtml",
-        "summary": "中新网5月24日电 据重庆市纪委监委消息，重庆市永川区人大常委会党组成员、副主任王寒峰涉嫌严重违纪违法，目前正接受重庆市纪委监委纪律审查和监察调查。",
+        "title": "香港保安局副局长：国家建设航天强国，香港必然有所贡献",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-25/10627811.shtml",
+        "summary": "中新网甘肃酒泉5月24日电 (记者 马帅莎 周昕 曾玥)5月24日，神舟二十三号载人飞船发射取得圆满成功。香港特区政府保安局副局长卓孝业在接受媒体采访时说，今晚自己来到酒泉卫星发射基地亲身见证火箭升空，感觉非常震撼，切身感受到国家在航天发展以及航天科技方面的实力。",
         "image": "",
-        "publishedAt": "2026-05-24T13:43:33.000Z",
+        "publishedAt": "2026-05-24T17:10:45.000Z",
         "source": "中新网"
       },
       {
-        "title": "神二十三航天员朱杨柱进入飞船返回舱",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-24/10627771.shtml",
-        "summary": "神舟二十三号载人飞船瞄准北京时间5月24日23时08分发射。神二十三航天员朱杨柱进入飞船返回舱。",
+        "title": "香港官员现场见证黎家盈“飞天”：这是香港融入和服务国家大局的绝佳演绎",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-25/10627810.shtml",
+        "summary": "中新网甘肃酒泉5月24日电(记者 马帅莎 郭超凯)香港特区政府创新科技及工业局局长孙东24日晚在谈及来自香港的航天员黎家盈“飞天”时表示，这是香港用实际行动融入和服务国家大局、贡献香港创科力量的绝佳演绎。",
         "image": "",
-        "publishedAt": "2026-05-24T12:55:40.000Z",
+        "publishedAt": "2026-05-24T17:09:37.000Z",
         "source": "中新网"
       },
       {
-        "title": "贾永婕喊“不当台湾人可以离开” 岛内舆论怒怼：台湾是中国的，不当中国人请离开",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-24/10627758.shtml",
-        "summary": "中新网5月24日电(燕新台) 台北101董事长贾永婕近日在节目中称“不当台湾人就离开”，相关言论引发岛内舆论争议。然而今年春节期间，贾永婕曾因一句“中国人过年就要大红色”遭“青鸟”群体围剿，如今此番表态再度引发岛内舆论质疑。",
+        "title": "中巴政党论坛暨中巴经济走廊政党共商机制会议举行",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-25/10627809.shtml",
+        "summary": "新华社北京5月24日电 5月24日，由中共中央对外联络部主办的中巴政党论坛暨中巴经济走廊政党共商机制会议在北京举行，主题为“共建新时代中巴命运共同体——政党在行动”。巴基斯坦12个主要政党的领导人和智库、媒体、社会组织代表以及中方部委、企业、媒体和学者代表等约140人与会。",
         "image": "",
-        "publishedAt": "2026-05-24T12:55:40.000Z",
+        "publishedAt": "2026-05-24T16:39:41.000Z",
         "source": "中新网"
       },
       {
-        "title": "神二十三航天员张志远进入飞船返回舱",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-24/10627769.shtml",
-        "summary": "神舟二十三号载人飞船瞄准北京时间5月24日23时08分发射。神二十三航天员张志远进入飞船返回舱。",
-        "image": "",
-        "publishedAt": "2026-05-24T12:54:54.000Z",
+        "title": "武契奇访华首站登长城：购熊猫玩偶 笑谈“577”昵称",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-25/10627804.shtml",
+        "summary": "中新社北京5月24日电 (周昕)塞尔维亚总统武契奇24日登上北京八达岭长城。“古代的中国人能够建造这么雄伟的长城，非常了不起。”第一次来到八达岭长城的武契奇，多次感叹长城的雄伟和中国人民的勤劳与智慧。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260525/206ef0ce-1be4-4583-bb35-f4363243fccb_zsite.jpeg",
+        "publishedAt": "2026-05-24T16:23:34.000Z",
         "source": "中新网"
       },
       {
-        "title": "国家粮食和储备局向重庆调运1万件中央救灾物资",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-24/10627764.shtml",
-        "summary": "中新网5月24日电 据国家发展改革委微信公众号消息，5月24日，根据重庆暴雨洪涝灾害救灾工作需要，按照应急管理部调运指令，国家粮食和储备局向重庆调运帐篷、折叠床、家庭应急照明灯等1万件中央救灾物资，支持当地妥善做好受灾群众转移安置和救灾救助工作。",
+        "title": "神舟二十三号载人飞船发射取得圆满成功",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-24/10627800.shtml",
+        "summary": "中新网甘肃酒泉5月24日电(记者 马帅莎)据中国载人航天工程办公室消息，北京时间5月24日23时8分，搭载神舟二十三号载人飞船的长征二号F遥二十三运载火箭在酒泉卫星发射中心点火发射，约10分钟后，飞船与火箭成功分离，进入预定轨道，航天员乘组状态良好，发射取得圆满成功。",
         "image": "",
-        "publishedAt": "2026-05-24T12:54:26.000Z",
+        "publishedAt": "2026-05-24T15:41:01.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
+      {
+        "title": "重庆永川山洪现场：粗木横亘河道 救援队地毯式搜救",
+        "link": "https://www.chinanews.com.cn/sh/2026/05-25/10627805.shtml",
+        "summary": "中新社重庆永川5月24日电 题：重庆永川山洪现场：粗木横亘河道 救援队地毯式搜救",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260525/06183952-9530-45a2-a543-823748e66f73_zsite.JPG",
+        "publishedAt": "2026-05-24T16:25:18.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "上海崇明：鸟类增至300余种 生态恢复信号明显",
+        "link": "https://www.chinanews.com.cn/sh/2026/05-25/10627795.shtml",
+        "summary": "中新网上海5月24日电(记者 张尼)今年是崇明世界级生态岛建设十周年。十年来，上海崇明生态保护成效显著，如今，湿地保护率超60%，鸟类种数也增加至300多种，生态恢复信号明显。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/05/24/94a65220e10d4426a6a017ad8c351843.jpg",
+        "publishedAt": "2026-05-24T16:03:53.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "从一只鸟的万里迁徙，看中国生态保护的十年答卷",
+        "link": "https://www.chinanews.com.cn/sh/2026/05-25/10627794.shtml",
+        "summary": "中新网上海5月24日电(记者 张尼)“这只鸟从新西兰连续飞行七天七夜，跨越1万公里，没有吃、没有喝，没有停下来休息，一路飞到崇明。”",
+        "image": "",
+        "publishedAt": "2026-05-24T16:01:08.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "湖南苗乡迎来四月八姑娘节",
+        "link": "https://www.chinanews.com.cn/sh/2026/05-24/10627789.shtml",
+        "summary": "中新社湖南绥宁5月24日电 (鲁毅 黄开龙)“拦门酒，迎贵客！”湖南邵阳绥宁苗族四月八姑娘节24日开幕，苗家姑娘身着盛装，唱起山歌，端起酒杯，迎接八方宾客。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260524/96d2ff6c-c8ce-4a93-94a4-e0e046c90978_zsite.jpg",
+        "publishedAt": "2026-05-24T15:10:51.000Z",
+        "source": "中新网"
+      },
       {
         "title": "湖南衡阳严肃处理祁东县、雁峰区两起火灾事故责任人",
         "link": "https://www.chinanews.com.cn/sh/2026/05-24/10627780.shtml",
@@ -221,41 +253,17 @@
         "image": "",
         "publishedAt": "2026-05-24T13:32:29.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "山西沁源矿难救援队：负重约60斤搜救12小时没人喊苦喊累",
-        "link": "https://www.chinanews.com.cn/sh/2026/05-24/10627775.shtml",
-        "summary": "中新网长治5月24日电 题：山西沁源矿难救援队救援人员：负重约60斤井下徒步超5万步",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260524/6192458f-af2f-4ad2-ad0f-1d2deb962449_zsite.jpg",
-        "publishedAt": "2026-05-24T13:11:16.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "多国青年比拼创意 以青春视角传播上海文旅魅力",
-        "link": "https://www.chinanews.com.cn/sh/2026/05-24/10627776.shtml",
-        "summary": "中新网上海5月24日电 (记者 许婧)第十届上海大学生“三新”活动创意大赛决赛23日在沪收官，来自国内18所高校、7个国家的青年选手同台竞技，6支达人队伍与34支短视频团队展开最终角逐。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260524/08c71583-6750-429e-a2dd-2b0a6f62304b_zsite.jpg",
-        "publishedAt": "2026-05-24T13:07:11.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "精打细算“一渠水” 四川春灌保障成效显著",
-        "link": "https://www.chinanews.com.cn/sh/2026/05-24/10627761.shtml",
-        "summary": "中新网成都5月24日电 (记者 何浠)当前，四川春灌工作全面铺开并进入用水高峰期。作为粮食生产“命脉”，水利保障在这场关乎全年丰收的“攻坚战”中至关重要。记者从四川省水利厅获悉，今年全省计划种植水稻2793万亩，截至5月20日已保栽1890万亩，其中水利工程保栽1362万亩，供水量达25.88亿立方...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260524/235e2e9c-146f-426e-9327-3c4daffe5b0c_zsite.jpg",
-        "publishedAt": "2026-05-24T12:52:52.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "青海海南举办“援青林”植树活动：以生态“含绿量” 提升发展“含金量”",
-        "link": "https://www.chinanews.com.cn/sh/2026/05-24/10627763.shtml",
-        "summary": "中新网青海海南5月24日电 (祁绣娟)24日，中央单位和江苏省第六批援青干部人才齐聚青海省海南藏族自治州贵德县“援青林”，开展“共植生命树·同筑生态梦，守护清清黄河”植树活动，为母亲河增绿。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260524/513a76fb-e08f-4977-8a98-318b7158a181_zsite.jpg",
-        "publishedAt": "2026-05-24T12:51:42.000Z",
-        "source": "中新网"
       }
     ],
     "chinaFinance": [
+      {
+        "title": "织密“全国一张网” 我国油气供应能力持续提升",
+        "link": "https://www.chinanews.com.cn/cj/2026/05-24/10627785.shtml",
+        "summary": "央视新闻客户端消息(新闻联播)：今年以来，我国重大油气基础设施持续完善，“全国一张网”不断织密筑牢，我国油气供应保障能力稳步提升。",
+        "image": "",
+        "publishedAt": "2026-05-24T14:12:47.000Z",
+        "source": "中新网"
+      },
       {
         "title": "我国将适时发布以粤港澳大湾区为整体的外贸数据",
         "link": "https://www.chinanews.com.cn/cj/2026/05-24/10627774.shtml",
@@ -287,14 +295,6 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260524/fd13bc71-8197-435f-b12e-47b54d05e20b_zsite.jpeg",
         "publishedAt": "2026-05-24T10:29:13.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "银川海关“关企零距离”活动精准惠企 助力宁夏外贸提质增效",
-        "link": "https://www.chinanews.com.cn/cj/2026/05-24/10627699.shtml",
-        "summary": "中新网银川5月24日电 (记者 李佩珊)记者24日从银川海关获悉，该关近期举办“关企零距离——助企惠企暖心服务活动”，联动多方主体精准对接企业诉求，推动惠企政策直达快享、落地见效，切实破解外贸企业经营发展中的痛点难点，持续优化区域营商环境，全力助推宁夏外贸高质量发展。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260524/d0d42109-75df-4d9e-bde2-60c56e3a6d4c_zsite.jpeg",
-        "publishedAt": "2026-05-24T10:28:01.000Z",
-        "source": "中新网"
       }
     ],
     "worldTop": [
@@ -302,8 +302,24 @@
         "title": "Large-scale Russian attack on Ukraine leaves four dead and dozens injured",
         "link": "https://www.bbc.com/news/articles/clyp6831yp5o?at_medium=RSS&at_campaign=rss",
         "summary": "The Oreshnik missile, which reportedly travels over 10 times the speed of sound, was used, Russia has confirmed.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/56f5/live/7464d3e0-576e-11f1-89a3-d1f559421220.jpg",
-        "publishedAt": "2026-05-24T13:02:02.000Z",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/321a/live/ffcd6860-5783-11f1-b682-cf91850925ea.jpg",
+        "publishedAt": "2026-05-24T16:50:46.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Turkish riot police storm opposition offices after leaders ousted",
+        "link": "https://www.bbc.com/news/articles/c87qwrqre83o?at_medium=RSS&at_campaign=rss",
+        "summary": "Officers forced their way into the building days after the party vowed to defy a court ruling removing its leaders.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a802/live/2b6400f0-578f-11f1-85d6-97cd1565aacc.jpg",
+        "publishedAt": "2026-05-24T16:30:50.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Suspect killed after opening fire on Secret Service near White House",
+        "link": "https://www.bbc.com/news/articles/cjwp82ye4y3o?at_medium=RSS&at_campaign=rss",
+        "summary": "Officials say a suspect approached a checkpoint near the building and opened fire, and that a bystander was wounded.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3777/live/e04870b0-5775-11f1-89a3-d1f559421220.jpg",
+        "publishedAt": "2026-05-24T15:24:11.000Z",
         "source": "BBC"
       },
       {
@@ -320,22 +336,6 @@
         "summary": "At least 82 people have been killed after a gas explosion at the Liushenyu mine in China.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/77b2/live/14f6e760-5758-11f1-b682-cf91850925ea.jpg",
         "publishedAt": "2026-05-24T10:34:52.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "A powerful bomb has exploded near railway track in southwest Pakistan, killing at least 19 people",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9POEg1U3UwcmtQU3ktOWt2TFEyUnMyMmlUS3NIbHhrd2t6QVZEbUFGU25WVmVjM3JOMnVpdDZ4MDF2ZkRVdFV6NlNoaUJ4cC1yZ0ZRcUdPQzk3SHZLRDVLbzB0ckJzME9HMFhjc0RmeFpBR1d2empsMW1fN3F3OFE?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-05-24T09:53:21.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "Man killed in shark attack off Australia's north-east coast",
-        "link": "https://www.bbc.com/news/articles/cn9pq5l2d14o?at_medium=RSS&at_campaign=rss",
-        "summary": "The 39-year-old was fatally injured while swimming out at a shoal off the Cassowary Coast in Queensland.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9910/live/10cc3a30-573c-11f1-89a3-d1f559421220.jpg",
-        "publishedAt": "2026-05-24T07:12:37.000Z",
         "source": "BBC"
       }
     ],
@@ -373,12 +373,12 @@
         "source": "CNN"
       },
       {
-        "title": "Stephen Colbert’s ‘Late Show’ finale sets a weeknight ratings record",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORTlnY2xBdHg4c2VaYW42aGZzQTBIRlQ3WjduVmZjU0FqMVMzcjBkUzJmdjV6NzlITWxOUU9pc0hLR0FxdmIxSGhCQUtzd0t3b0hJM0ZRaU5lMHlMN1BDUFBzN3FOMlFIUHJncVU0eUkybHNac0NZMUZUU2ViU0ZHekhtLVlVd2RJWEVLVjBBWG4yS1pTSWJ2OGhB?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-05-22T23:06:33.000Z",
-        "source": "CNN"
+        "title": "AI may speed up search for drugs to treat brain conditions",
+        "link": "https://www.bbc.com/news/articles/cdrp3zzzp71o?at_medium=RSS&at_campaign=rss",
+        "summary": "Researchers hope the work will help identify affordable, effective drugs to treat conditions like MND.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/efef/live/f79080f0-4de8-11f1-9cc8-93479330ab4b.jpg",
+        "publishedAt": "2026-05-22T21:30:06.000Z",
+        "source": "BBC"
       }
     ],
     "worldTech": [
@@ -425,43 +425,43 @@
     ],
     "domestic": [
       {
-        "title": "重庆市永川区人大常委会党组成员王寒峰接受审查调查",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-24/10627779.shtml",
-        "summary": "中新网5月24日电 据重庆市纪委监委消息，重庆市永川区人大常委会党组成员、副主任王寒峰涉嫌严重违纪违法，目前正接受重庆市纪委监委纪律审查和监察调查。",
+        "title": "香港保安局副局长：国家建设航天强国，香港必然有所贡献",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-25/10627811.shtml",
+        "summary": "中新网甘肃酒泉5月24日电 (记者 马帅莎 周昕 曾玥)5月24日，神舟二十三号载人飞船发射取得圆满成功。香港特区政府保安局副局长卓孝业在接受媒体采访时说，今晚自己来到酒泉卫星发射基地亲身见证火箭升空，感觉非常震撼，切身感受到国家在航天发展以及航天科技方面的实力。",
         "image": "",
-        "publishedAt": "2026-05-24T13:43:33.000Z",
+        "publishedAt": "2026-05-24T17:10:45.000Z",
         "source": "中新网"
       },
       {
-        "title": "神二十三航天员朱杨柱进入飞船返回舱",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-24/10627771.shtml",
-        "summary": "神舟二十三号载人飞船瞄准北京时间5月24日23时08分发射。神二十三航天员朱杨柱进入飞船返回舱。",
+        "title": "香港官员现场见证黎家盈“飞天”：这是香港融入和服务国家大局的绝佳演绎",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-25/10627810.shtml",
+        "summary": "中新网甘肃酒泉5月24日电(记者 马帅莎 郭超凯)香港特区政府创新科技及工业局局长孙东24日晚在谈及来自香港的航天员黎家盈“飞天”时表示，这是香港用实际行动融入和服务国家大局、贡献香港创科力量的绝佳演绎。",
         "image": "",
-        "publishedAt": "2026-05-24T12:55:40.000Z",
+        "publishedAt": "2026-05-24T17:09:37.000Z",
         "source": "中新网"
       },
       {
-        "title": "贾永婕喊“不当台湾人可以离开” 岛内舆论怒怼：台湾是中国的，不当中国人请离开",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-24/10627758.shtml",
-        "summary": "中新网5月24日电(燕新台) 台北101董事长贾永婕近日在节目中称“不当台湾人就离开”，相关言论引发岛内舆论争议。然而今年春节期间，贾永婕曾因一句“中国人过年就要大红色”遭“青鸟”群体围剿，如今此番表态再度引发岛内舆论质疑。",
+        "title": "中巴政党论坛暨中巴经济走廊政党共商机制会议举行",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-25/10627809.shtml",
+        "summary": "新华社北京5月24日电 5月24日，由中共中央对外联络部主办的中巴政党论坛暨中巴经济走廊政党共商机制会议在北京举行，主题为“共建新时代中巴命运共同体——政党在行动”。巴基斯坦12个主要政党的领导人和智库、媒体、社会组织代表以及中方部委、企业、媒体和学者代表等约140人与会。",
         "image": "",
-        "publishedAt": "2026-05-24T12:55:40.000Z",
+        "publishedAt": "2026-05-24T16:39:41.000Z",
         "source": "中新网"
       },
       {
-        "title": "神二十三航天员张志远进入飞船返回舱",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-24/10627769.shtml",
-        "summary": "神舟二十三号载人飞船瞄准北京时间5月24日23时08分发射。神二十三航天员张志远进入飞船返回舱。",
-        "image": "",
-        "publishedAt": "2026-05-24T12:54:54.000Z",
+        "title": "武契奇访华首站登长城：购熊猫玩偶 笑谈“577”昵称",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-25/10627804.shtml",
+        "summary": "中新社北京5月24日电 (周昕)塞尔维亚总统武契奇24日登上北京八达岭长城。“古代的中国人能够建造这么雄伟的长城，非常了不起。”第一次来到八达岭长城的武契奇，多次感叹长城的雄伟和中国人民的勤劳与智慧。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260525/206ef0ce-1be4-4583-bb35-f4363243fccb_zsite.jpeg",
+        "publishedAt": "2026-05-24T16:23:34.000Z",
         "source": "中新网"
       },
       {
-        "title": "国家粮食和储备局向重庆调运1万件中央救灾物资",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-24/10627764.shtml",
-        "summary": "中新网5月24日电 据国家发展改革委微信公众号消息，5月24日，根据重庆暴雨洪涝灾害救灾工作需要，按照应急管理部调运指令，国家粮食和储备局向重庆调运帐篷、折叠床、家庭应急照明灯等1万件中央救灾物资，支持当地妥善做好受灾群众转移安置和救灾救助工作。",
+        "title": "神舟二十三号载人飞船发射取得圆满成功",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-24/10627800.shtml",
+        "summary": "中新网甘肃酒泉5月24日电(记者 马帅莎)据中国载人航天工程办公室消息，北京时间5月24日23时8分，搭载神舟二十三号载人飞船的长征二号F遥二十三运载火箭在酒泉卫星发射中心点火发射，约10分钟后，飞船与火箭成功分离，进入预定轨道，航天员乘组状态良好，发射取得圆满成功。",
         "image": "",
-        "publishedAt": "2026-05-24T12:54:26.000Z",
+        "publishedAt": "2026-05-24T15:41:01.000Z",
         "source": "中新网"
       }
     ],
@@ -470,8 +470,24 @@
         "title": "Large-scale Russian attack on Ukraine leaves four dead and dozens injured",
         "link": "https://www.bbc.com/news/articles/clyp6831yp5o?at_medium=RSS&at_campaign=rss",
         "summary": "The Oreshnik missile, which reportedly travels over 10 times the speed of sound, was used, Russia has confirmed.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/56f5/live/7464d3e0-576e-11f1-89a3-d1f559421220.jpg",
-        "publishedAt": "2026-05-24T13:02:02.000Z",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/321a/live/ffcd6860-5783-11f1-b682-cf91850925ea.jpg",
+        "publishedAt": "2026-05-24T16:50:46.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Turkish riot police storm opposition offices after leaders ousted",
+        "link": "https://www.bbc.com/news/articles/c87qwrqre83o?at_medium=RSS&at_campaign=rss",
+        "summary": "Officers forced their way into the building days after the party vowed to defy a court ruling removing its leaders.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a802/live/2b6400f0-578f-11f1-85d6-97cd1565aacc.jpg",
+        "publishedAt": "2026-05-24T16:30:50.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Suspect killed after opening fire on Secret Service near White House",
+        "link": "https://www.bbc.com/news/articles/cjwp82ye4y3o?at_medium=RSS&at_campaign=rss",
+        "summary": "Officials say a suspect approached a checkpoint near the building and opened fire, and that a bystander was wounded.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3777/live/e04870b0-5775-11f1-89a3-d1f559421220.jpg",
+        "publishedAt": "2026-05-24T15:24:11.000Z",
         "source": "BBC"
       },
       {
@@ -489,122 +505,63 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/77b2/live/14f6e760-5758-11f1-b682-cf91850925ea.jpg",
         "publishedAt": "2026-05-24T10:34:52.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "A powerful bomb has exploded near railway track in southwest Pakistan, killing at least 19 people",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9POEg1U3UwcmtQU3ktOWt2TFEyUnMyMmlUS3NIbHhrd2t6QVZEbUFGU25WVmVjM3JOMnVpdDZ4MDF2ZkRVdFV6NlNoaUJ4cC1yZ0ZRcUdPQzk3SHZLRDVLbzB0ckJzME9HMFhjc0RmeFpBR1d2empsMW1fN3F3OFE?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-05-24T09:53:21.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "Man killed in shark attack off Australia's north-east coast",
-        "link": "https://www.bbc.com/news/articles/cn9pq5l2d14o?at_medium=RSS&at_campaign=rss",
-        "summary": "The 39-year-old was fatally injured while swimming out at a shoal off the Cassowary Coast in Queensland.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9910/live/10cc3a30-573c-11f1-89a3-d1f559421220.jpg",
-        "publishedAt": "2026-05-24T07:12:37.000Z",
-        "source": "BBC"
       }
     ],
-    "nba": []
+    "nba": [
+      {
+        "title": "'That's why he's going to be MVP for the next 10 y...",
+        "link": "https://www.espn.com/nba/story/_/id/48857143/why-san-antonio-spurs-victor-wembanyama-most-dominant-skill-remains-mystery-western-conference-finals",
+        "summary": "What makes the 2026 Defensive Player of the Year so dangerous isn't that he blocks so many shots. It's that he prevents players from shooting in the f...",
+        "image": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0524%2Fr1662665_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-05-24T15:57:06.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "Copy of Inside the Shaolin monastery that helped build Vic...",
+        "link": "https://www.espn.com/nba/story/_/id/48818786/how-34-generations-shaolin-warrior-monk-training-helped-build-once-generation-nba-superstar-victor-wembanyama",
+        "summary": "Monks in central China helped turn Wemby into what he is now: The most unstoppable force in basketball.",
+        "image": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0516%2Fr1659069_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-05-24T15:57:06.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "Knicks win 10th straight, take command of ECF",
+        "link": "https://www.espn.com/nba/story/_/id/48858308/knicks-overwhelm-cavaliers-again-take-3-0-series-lead",
+        "summary": "The Knicks continued their dominant run through the Eastern Conference playoffs and are one win from the NBA Finals after routing the Cavaliers in Gam...",
+        "image": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0524%2Fr1662697_1024x576_16%2D9.jpg",
+        "publishedAt": "2026-05-24T04:06:31.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "OKC rules out Mitchell for Game 4 with calf strain...",
+        "link": "https://www.espn.com/nba/story/_/id/48856022/thunder-rule-ajay-mitchell-game-4-calf-strain",
+        "summary": "Thunder guard Ajay Mitchell has been ruled out of Sunday's Game 4 of the Western Conference finals because of a right calf strain.",
+        "image": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0523%2Fr1662581_1024x576_16%2D9.jpg",
+        "publishedAt": "2026-05-24T04:06:31.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "Spurs guards Fox, Harper expected to play in G4",
+        "link": "https://www.espn.com/nba/story/_/id/48854594/spurs-johnson-expects-guards-fox-harper-play-game-4",
+        "summary": "Injured Spurs guards De'Aaron Fox and Dylan Harper are both expected to play Sunday in Game 4 of the Western Conference finals, coach Mitch Johnson sa...",
+        "image": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0512%2Fr1657210_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-05-24T04:06:31.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "Wemby on G3 loss: Got to make teammates better",
+        "link": "https://www.espn.com/nba/story/_/id/48850043/got-better-team-player",
+        "summary": "Victor Wembanyama had a team-high 26 points but acknowledged he needs to be \"more of a team player\" after the Spurs lost 123-108 in Game 3 and trail t...",
+        "image": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0523%2Fr1662291_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-05-24T04:06:31.000Z",
+        "source": "ESPN"
+      }
+    ]
   },
   "nbaScoreboard": {
-    "date": "2026-05-24",
+    "date": "2026-05-25",
     "currentIndex": 4,
     "days": [
-      {
-        "date": "2026-05-20",
-        "games": [
-          {
-            "id": "401873198",
-            "link": "https://www.espn.com/nba/game/_/gameId/401873198/spurs-thunder",
-            "startTime": "2026-05-21T00:30Z",
-            "state": "post",
-            "statusText": "Final",
-            "detail": "Final",
-            "note": "West Finals - Game 2",
-            "homeTeam": {
-              "abbreviation": "OKC",
-              "displayName": "Oklahoma City Thunder",
-              "score": "122",
-              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png",
-              "leaderContext": "Game Leaders",
-              "leaders": [
-                {
-                  "label": "PTS",
-                  "value": "30",
-                  "player": "Shai Gilgeous-Alexander",
-                  "position": "G",
-                  "jersey": "2",
-                  "summary": "12/24 FG, 6/6 FT",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278073.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4278073/shai-gilgeous-alexander"
-                },
-                {
-                  "label": "REB",
-                  "value": "13",
-                  "player": "Isaiah Hartenstein",
-                  "position": "C",
-                  "jersey": "55",
-                  "summary": "5 DREB, 8 OREB",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4222252.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4222252/isaiah-hartenstein"
-                },
-                {
-                  "label": "AST",
-                  "value": "9",
-                  "player": "Shai Gilgeous-Alexander",
-                  "position": "G",
-                  "jersey": "2",
-                  "summary": "1 TO, 38 MIN",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278073.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4278073/shai-gilgeous-alexander"
-                }
-              ]
-            },
-            "awayTeam": {
-              "abbreviation": "SA",
-              "displayName": "San Antonio Spurs",
-              "score": "113",
-              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
-              "leaderContext": "Game Leaders",
-              "leaders": [
-                {
-                  "label": "PTS",
-                  "value": "25",
-                  "player": "Stephon Castle",
-                  "position": "G",
-                  "jersey": "5",
-                  "summary": "10/17 FG, 4/4 FT",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4845367.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4845367/stephon-castle"
-                },
-                {
-                  "label": "REB",
-                  "value": "17",
-                  "player": "Victor Wembanyama",
-                  "position": "F",
-                  "jersey": "1",
-                  "summary": "12 DREB, 5 OREB",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
-                  "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
-                },
-                {
-                  "label": "AST",
-                  "value": "8",
-                  "player": "Stephon Castle",
-                  "position": "G",
-                  "jersey": "5",
-                  "summary": "9 TO, 38 MIN",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4845367.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4845367/stephon-castle"
-                }
-              ]
-            }
-          }
-        ]
-      },
       {
         "date": "2026-05-21",
         "games": [
@@ -1340,92 +1297,184 @@
             }
           }
         ]
+      },
+      {
+        "date": "2026-05-29",
+        "games": [
+          {
+            "id": "401873346",
+            "link": "https://www.espn.com/nba/game/_/gameId/401873346/knicks-cavaliers",
+            "startTime": "2026-05-30T00:00Z",
+            "state": "pre",
+            "statusText": "Scheduled",
+            "detail": "5/29 - 8:00 PM EDT",
+            "note": "East Finals - Game 6 If Necessary",
+            "homeTeam": {
+              "abbreviation": "CLE",
+              "displayName": "Cleveland Cavaliers",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "27.9",
+                  "player": "Donovan Mitchell",
+                  "position": "G",
+                  "jersey": "45",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3908809.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3908809/donovan-mitchell"
+                },
+                {
+                  "label": "RPG",
+                  "value": "9.0",
+                  "player": "Evan Mobley",
+                  "position": "C",
+                  "jersey": "4",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432158.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4432158/evan-mobley"
+                },
+                {
+                  "label": "APG",
+                  "value": "5.7",
+                  "player": "Donovan Mitchell",
+                  "position": "G",
+                  "jersey": "45",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3908809.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3908809/donovan-mitchell"
+                }
+              ]
+            },
+            "awayTeam": {
+              "abbreviation": "NY",
+              "displayName": "New York Knicks",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "26.0",
+                  "player": "Jalen Brunson",
+                  "position": "G",
+                  "jersey": "11",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3934672/jalen-brunson"
+                },
+                {
+                  "label": "RPG",
+                  "value": "11.9",
+                  "player": "Karl-Anthony Towns",
+                  "position": "C",
+                  "jersey": "32",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3136195.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3136195/karl-anthony-towns"
+                },
+                {
+                  "label": "APG",
+                  "value": "6.8",
+                  "player": "Jalen Brunson",
+                  "position": "G",
+                  "jersey": "11",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3934672/jalen-brunson"
+                }
+              ]
+            }
+          }
+        ]
       }
     ],
     "games": [
       {
-        "id": "401873200",
-        "link": "https://www.espn.com/nba/game/_/gameId/401873200/thunder-spurs",
-        "startTime": "2026-05-25T00:00Z",
+        "id": "401873344",
+        "link": "https://www.espn.com/nba/game/_/gameId/401873344/knicks-cavaliers",
+        "startTime": "2026-05-26T00:00Z",
         "state": "pre",
         "statusText": "Scheduled",
-        "detail": "5/24 - 8:00 PM EDT",
-        "note": "West Finals - Game 4",
+        "detail": "5/25 - 8:00 PM EDT",
+        "note": "East Finals - Game 4",
         "homeTeam": {
-          "abbreviation": "SA",
-          "displayName": "San Antonio Spurs",
+          "abbreviation": "CLE",
+          "displayName": "Cleveland Cavaliers",
           "score": "0",
-          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
           "leaderContext": "Season Leaders",
           "leaders": [
             {
               "label": "PPG",
-              "value": "25.0",
-              "player": "Victor Wembanyama",
-              "position": "F",
-              "jersey": "1",
+              "value": "27.9",
+              "player": "Donovan Mitchell",
+              "position": "G",
+              "jersey": "45",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
-              "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3908809.png",
+              "link": "https://www.espn.com/nba/player/_/id/3908809/donovan-mitchell"
             },
             {
               "label": "RPG",
-              "value": "11.5",
-              "player": "Victor Wembanyama",
-              "position": "F",
-              "jersey": "1",
+              "value": "9.0",
+              "player": "Evan Mobley",
+              "position": "C",
+              "jersey": "4",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
-              "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432158.png",
+              "link": "https://www.espn.com/nba/player/_/id/4432158/evan-mobley"
             },
             {
               "label": "APG",
-              "value": "7.4",
-              "player": "Stephon Castle",
+              "value": "5.7",
+              "player": "Donovan Mitchell",
               "position": "G",
-              "jersey": "5",
+              "jersey": "45",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4845367.png",
-              "link": "https://www.espn.com/nba/player/_/id/4845367/stephon-castle"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3908809.png",
+              "link": "https://www.espn.com/nba/player/_/id/3908809/donovan-mitchell"
             }
           ]
         },
         "awayTeam": {
-          "abbreviation": "OKC",
-          "displayName": "Oklahoma City Thunder",
+          "abbreviation": "NY",
+          "displayName": "New York Knicks",
           "score": "0",
-          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
+          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
           "leaderContext": "Season Leaders",
           "leaders": [
             {
               "label": "PPG",
-              "value": "31.1",
-              "player": "Shai Gilgeous-Alexander",
+              "value": "26.0",
+              "player": "Jalen Brunson",
               "position": "G",
-              "jersey": "2",
+              "jersey": "11",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278073.png",
-              "link": "https://www.espn.com/nba/player/_/id/4278073/shai-gilgeous-alexander"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
+              "link": "https://www.espn.com/nba/player/_/id/3934672/jalen-brunson"
             },
             {
               "label": "RPG",
-              "value": "8.9",
-              "player": "Chet Holmgren",
+              "value": "11.9",
+              "player": "Karl-Anthony Towns",
               "position": "C",
-              "jersey": "7",
+              "jersey": "32",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433255.png",
-              "link": "https://www.espn.com/nba/player/_/id/4433255/chet-holmgren"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3136195.png",
+              "link": "https://www.espn.com/nba/player/_/id/3136195/karl-anthony-towns"
             },
             {
               "label": "APG",
-              "value": "6.6",
-              "player": "Shai Gilgeous-Alexander",
+              "value": "6.8",
+              "player": "Jalen Brunson",
               "position": "G",
-              "jersey": "2",
+              "jersey": "11",
               "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278073.png",
-              "link": "https://www.espn.com/nba/player/_/id/4278073/shai-gilgeous-alexander"
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
+              "link": "https://www.espn.com/nba/player/_/id/3934672/jalen-brunson"
             }
           ]
         }
@@ -1433,7 +1482,7 @@
     ]
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-05-24",
+    "rotationLabel": "Curated Rotation · 2026-05-25",
     "sections": [
       {
         "id": "data-storage",
@@ -1441,27 +1490,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-1",
-            "sectionId": "data-storage",
-            "title": "The Log-Structured Merge-Tree (LSM-Tree)",
-            "authors": [
-              "Patrick O'Neil",
-              "Edward Cheng",
-              "Dieter Gawlick",
-              "Elizabeth O'Neil"
-            ],
-            "venue": "Acta Informatica",
-            "year": 1996,
-            "quality": "经典基础",
-            "categories": [
-              "storage",
-              "indexing"
-            ],
-            "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
-            "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-2",
             "sectionId": "data-storage",
@@ -1481,7 +1509,7 @@
             ],
             "link": "https://research.google/pubs/pub27898/",
             "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-3",
@@ -1503,6 +1531,27 @@
             "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
             "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-4",
+            "sectionId": "data-storage",
+            "title": "Dremel: Interactive Analysis of Web-Scale Datasets",
+            "authors": [
+              "Sergey Melnik",
+              "Andrey Gubarev",
+              "Jing Jing Long",
+              "Geoffrey Romer"
+            ],
+            "venue": "VLDB",
+            "year": 2010,
+            "quality": "顶会",
+            "categories": [
+              "analytics",
+              "columnar"
+            ],
+            "link": "https://research.google/pubs/pub36632/",
+            "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -1512,27 +1561,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-2",
-            "sectionId": "computer-vision",
-            "title": "End-to-End Object Detection with Transformers",
-            "authors": [
-              "Nicolas Carion",
-              "Francisco Massa",
-              "Gabriel Synnaeve",
-              "Nicolas Usunier"
-            ],
-            "venue": "ECCV",
-            "year": 2020,
-            "quality": "顶会",
-            "categories": [
-              "detection",
-              "transformer"
-            ],
-            "link": "https://arxiv.org/abs/2005.12872",
-            "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-3",
             "sectionId": "computer-vision",
@@ -1552,7 +1580,7 @@
             ],
             "link": "https://arxiv.org/abs/2010.11929",
             "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-4",
@@ -1574,6 +1602,27 @@
             "link": "https://arxiv.org/abs/2103.00020",
             "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-5",
+            "sectionId": "computer-vision",
+            "title": "Segment Anything",
+            "authors": [
+              "Alexander Kirillov",
+              "Eric Mintun",
+              "Nikhila Ravi",
+              "Hanzi Mao"
+            ],
+            "venue": "ICCV",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "segmentation",
+              "foundation model"
+            ],
+            "link": "https://arxiv.org/abs/2304.02643",
+            "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -1583,27 +1632,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-3",
-            "sectionId": "llm-memory",
-            "title": "RETRO: Improving Language Models by Retrieving From Trillions of Tokens",
-            "authors": [
-              "Sebastian Borgeaud",
-              "Arthur Mensch",
-              "Jordan Hoffmann",
-              "Trevor Cai"
-            ],
-            "venue": "DeepMind / arXiv",
-            "year": 2022,
-            "quality": "高影响力",
-            "categories": [
-              "retrieval",
-              "language model"
-            ],
-            "link": "https://arxiv.org/abs/2112.04426",
-            "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-4",
             "sectionId": "llm-memory",
@@ -1623,7 +1651,7 @@
             ],
             "link": "https://arxiv.org/abs/2310.11511",
             "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-5",
@@ -1645,6 +1673,27 @@
             "link": "https://arxiv.org/abs/2306.07174",
             "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-6",
+            "sectionId": "llm-memory",
+            "title": "MemoRAG: Moving towards Next-Gen RAG Via Memory-Inspired Knowledge Discovery",
+            "authors": [
+              "Rulin Shao",
+              "Yue Liu",
+              "Shuo Wang",
+              "Yichi Zhang"
+            ],
+            "venue": "arXiv",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "RAG",
+              "memory bank"
+            ],
+            "link": "https://arxiv.org/abs/2409.05591",
+            "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -1654,27 +1703,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-4",
-            "sectionId": "agents",
-            "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
-            "authors": [
-              "Guanzhi Wang",
-              "Yuqi Xie",
-              "Zixiang Zhou",
-              "Yujin Tang"
-            ],
-            "venue": "arXiv",
-            "year": 2023,
-            "quality": "高影响力",
-            "categories": [
-              "embodied agent",
-              "planning"
-            ],
-            "link": "https://arxiv.org/abs/2305.16291",
-            "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-5",
             "sectionId": "agents",
@@ -1694,7 +1722,7 @@
             ],
             "link": "https://arxiv.org/abs/2308.08155",
             "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-6",
@@ -1715,6 +1743,28 @@
             ],
             "link": "https://arxiv.org/abs/2405.15793",
             "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-1",
+            "sectionId": "agents",
+            "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+            "authors": [
+              "Shunyu Yao",
+              "Jeffrey Zhao",
+              "Dian Yu",
+              "Nan Du"
+            ],
+            "venue": "ICLR",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "agent",
+              "reasoning",
+              "tool use"
+            ],
+            "link": "https://arxiv.org/abs/2210.03629",
+            "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
             "trackLabel": "轮换精选"
           }
         ]
