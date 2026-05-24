@@ -1,4 +1,4 @@
-const defaultAgentApiBaseUrl = "http://39.97.233.15";
+const defaultAgentApiBaseUrl = "https://api.zhoutianwen.com";
 
 function trimTrailingSlash(value) {
   return String(value || "").trim().replace(/\/+$/, "");

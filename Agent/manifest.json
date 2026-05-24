@@ -24,11 +24,11 @@
   },
   "permissions": ["geolocation", "storage"],
   "host_permissions": [
-    "http://39.97.233.15/*",
+    "https://api.zhoutianwen.com/*",
     "https://geo.datav.aliyun.com/*",
     "https://*.hdslb.com/*"
   ],
   "content_security_policy": {
-    "extension_pages": "script-src 'self'; object-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https: data: blob:; connect-src 'self' http://39.97.233.15 http://localhost:* http://127.0.0.1:*; font-src 'self' data:; media-src 'self' https: blob:"
+    "extension_pages": "script-src 'self'; object-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https: data: blob:; connect-src 'self' https://api.zhoutianwen.com http://localhost:* http://127.0.0.1:*; font-src 'self' data:; media-src 'self' https: blob:"
   }
 }

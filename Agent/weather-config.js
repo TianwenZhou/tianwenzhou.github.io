@@ -1,4 +1,4 @@
-window.AGENT_API_BASE_URL = "http://39.97.233.15";
+window.AGENT_API_BASE_URL = "https://api.zhoutianwen.com";
 
 window.AGENT_WEATHER_CONFIG = {
   provider: "agent-api",
