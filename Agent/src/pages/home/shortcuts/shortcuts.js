@@ -191,6 +191,23 @@ function getShortcutFaviconApiUrl(siteUrl, size = 64) {
   return normalizedUrl ? buildAgentApiUrl("/api/favicon", { url: normalizedUrl, size }) : "";
 }
 
+function getBrowserFaviconUrl(siteUrl, size = 64) {
+  const normalizedUrl = normalizeShortcutUrl(siteUrl);
+  const runtime = globalThis.chrome?.runtime;
+  if (!normalizedUrl || !runtime?.getURL) {
+    return "";
+  }
+
+  try {
+    const faviconUrl = new URL(runtime.getURL("/_favicon/"));
+    faviconUrl.searchParams.set("pageUrl", normalizedUrl);
+    faviconUrl.searchParams.set("size", String(size || 64));
+    return faviconUrl.toString();
+  } catch {
+    return "";
+  }
+}
+
 function isLocalShortcutIconUrl(value) {
   const raw = String(value || "").trim();
   return (
@@ -242,6 +259,11 @@ function getShortcutRenderIcon(shortcut, size = 64) {
   const manualIconUrl = String(shortcut?.iconUrl || "").trim();
   if (manualIconUrl) {
     return manualIconUrl;
+  }
+
+  const browserFaviconUrl = getBrowserFaviconUrl(shortcut?.url, size);
+  if (browserFaviconUrl) {
+    return browserFaviconUrl;
   }
 
   return getShortcutFaviconApiUrl(shortcut?.url, size);
