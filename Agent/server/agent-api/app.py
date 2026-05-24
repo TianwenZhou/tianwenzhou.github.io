@@ -10,8 +10,10 @@ import sys
 import threading
 import time
 from datetime import datetime, timedelta
+from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any, Dict, List, Optional
+from urllib.parse import urljoin, urlparse
 from zoneinfo import ZoneInfo
 
 import requests
@@ -57,6 +59,7 @@ DEEPSEEK_API_BASE = os.environ.get("DEEPSEEK_API_BASE", "https://api.deepseek.co
 DEEPSEEK_MODEL = os.environ.get("DEEPSEEK_MODEL", "deepseek-chat").strip()
 DEEPSEEK_TIMEOUT_SECONDS = int(os.environ.get("DEEPSEEK_TIMEOUT_SECONDS", "24"))
 ICON_CACHE_SECONDS = int(os.environ.get("AGENT_ICON_CACHE_SECONDS", "2592000"))
+ICON_ERROR_CACHE_SECONDS = int(os.environ.get("AGENT_ICON_ERROR_CACHE_SECONDS", "86400"))
 ICON_MAX_BYTES = int(os.environ.get("AGENT_ICON_MAX_BYTES", "1048576"))
 
 
@@ -190,6 +193,55 @@ def normalize_icon_source(url: str = "", domain: str = "") -> str:
     return source
 
 
+def normalize_site_url(value: str) -> str:
+    raw = str(value or "").strip()
+    if not raw:
+        return ""
+    if not re.match(r"^[a-z][a-z0-9+.-]*://", raw, flags=re.I):
+        raw = f"https://{raw}"
+
+    try:
+        parsed = urlparse(raw)
+    except Exception:
+        return ""
+
+    if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+        return ""
+    return raw
+
+
+class FaviconLinkParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__()
+        self.links: list[dict[str, str]] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag.lower() != "link":
+            return
+
+        values = {str(key or "").lower(): str(value or "").strip() for key, value in attrs}
+        rel = values.get("rel", "").lower()
+        href = values.get("href", "")
+        if not href:
+            return
+        rel_tokens = set(re.split(r"\s+", rel))
+        if not ({"icon", "apple-touch-icon", "apple-touch-icon-precomposed", "shortcut"} & rel_tokens):
+            return
+
+        self.links.append(
+            {
+                "rel": rel,
+                "href": href,
+                "sizes": values.get("sizes", ""),
+                "type": values.get("type", ""),
+            }
+        )
+
+
+def favicon_cache_paths(site_url: str, size: int) -> tuple[Path, Path]:
+    return icon_cache_paths(f"favicon:{normalize_site_url(site_url)}:{int(size or 64)}")
+
+
 def icon_cache_paths(source: str) -> tuple[Path, Path]:
     cache_key = hashlib.sha1(source.encode("utf-8")).hexdigest()
     return ICON_CACHE_DIR / f"{cache_key}.bin", ICON_CACHE_DIR / f"{cache_key}.json"
@@ -265,6 +317,175 @@ def get_or_fetch_icon(source: str) -> tuple[bytes, str, bool]:
         },
     )
     return body, content_type, False
+
+
+def read_cached_favicon(site_url: str, size: int) -> tuple[bytes, str, str] | None:
+    body_path, meta_path = favicon_cache_paths(site_url, size)
+    if not is_cache_fresh(body_path, ICON_CACHE_SECONDS):
+        return None
+
+    try:
+        meta = read_json(meta_path) if meta_path.exists() else {}
+        return body_path.read_bytes(), str(meta.get("contentType") or "image/png"), str(meta.get("source") or "")
+    except Exception:
+        return None
+
+
+def read_cached_favicon_error(site_url: str, size: int) -> str:
+    _, meta_path = favicon_cache_paths(site_url, size)
+    if not is_cache_fresh(meta_path, ICON_ERROR_CACHE_SECONDS):
+        return ""
+
+    try:
+        meta = read_json(meta_path)
+        return str(meta.get("error") or "")
+    except Exception:
+        return ""
+
+
+def write_favicon_cache(site_url: str, size: int, body: bytes, content_type: str, source: str) -> None:
+    body_path, meta_path = favicon_cache_paths(site_url, size)
+    body_path.parent.mkdir(parents=True, exist_ok=True)
+    body_path.write_bytes(body)
+    write_json(
+        meta_path,
+        {
+            "siteUrl": site_url,
+            "size": int(size or 64),
+            "source": source,
+            "contentType": content_type,
+            "cachedAt": now_cn(),
+        },
+    )
+
+
+def write_favicon_error_cache(site_url: str, size: int, message: str) -> None:
+    _, meta_path = favicon_cache_paths(site_url, size)
+    write_json(
+        meta_path,
+        {
+            "siteUrl": site_url,
+            "size": int(size or 64),
+            "error": str(message or "favicon unavailable")[:500],
+            "cachedAt": now_cn(),
+        },
+    )
+
+
+def fetch_favicon_homepage(site_url: str) -> tuple[str, str]:
+    response = requests.get(
+        site_url,
+        headers={
+            "User-Agent": "Mozilla/5.0 (compatible; AgentDashboard/1.0)",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        },
+        timeout=(4, 8),
+        stream=True,
+        allow_redirects=True,
+    )
+    response.raise_for_status()
+
+    chunks: list[bytes] = []
+    total = 0
+    for chunk in response.iter_content(chunk_size=16384):
+        if not chunk:
+            continue
+        total += len(chunk)
+        if total > 524288:
+            break
+        chunks.append(chunk)
+
+    body = b"".join(chunks)
+    encoding = response.encoding or response.apparent_encoding or "utf-8"
+    return body.decode(encoding, errors="ignore"), response.url or site_url
+
+
+def favicon_size_score(sizes: str, requested_size: int) -> int:
+    matches = re.findall(r"(\d+)\s*x\s*(\d+)", str(sizes or ""), flags=re.I)
+    if not matches:
+        return 0
+    best = 0
+    for width, height in matches:
+        value = max(int(width), int(height))
+        best = max(best, value)
+    return -abs(best - requested_size) + best
+
+
+def parse_favicon_candidates(html: str, base_url: str, requested_size: int) -> list[str]:
+    parser = FaviconLinkParser()
+    try:
+        parser.feed(html or "")
+    except Exception:
+        pass
+
+    def priority(item: dict[str, str]) -> tuple[int, int]:
+        rel = item.get("rel", "")
+        if "apple-touch-icon" in rel:
+            rel_score = 0
+        elif "icon" in rel:
+            rel_score = 1
+        else:
+            rel_score = 2
+        return rel_score, -favicon_size_score(item.get("sizes", ""), requested_size)
+
+    candidates: list[str] = []
+    for item in sorted(parser.links, key=priority):
+        href = item.get("href", "")
+        if href.startswith("data:"):
+            continue
+        resolved = urljoin(base_url, href)
+        if normalize_icon_source(resolved):
+            candidates.append(resolved)
+
+    root_icon = urljoin(base_url, "/favicon.ico")
+    candidates.append(root_icon)
+
+    seen: set[str] = set()
+    unique: list[str] = []
+    for candidate in candidates:
+        if candidate in seen:
+            continue
+        seen.add(candidate)
+        unique.append(candidate)
+    return unique
+
+
+def get_or_fetch_favicon(site_url: str, size: int) -> tuple[bytes, str, bool, str]:
+    cached = read_cached_favicon(site_url, size)
+    if cached:
+        body, content_type, source = cached
+        return body, content_type, True, source
+
+    cached_error = read_cached_favicon_error(site_url, size)
+    if cached_error:
+        raise ValueError(f"Cached favicon miss: {cached_error}")
+
+    base_url = normalize_site_url(site_url)
+    if not base_url:
+        raise ValueError("Invalid site url")
+
+    candidates: list[str] = []
+    try:
+        html, final_url = fetch_favicon_homepage(base_url)
+        candidates = parse_favicon_candidates(html, final_url, size)
+    except Exception:
+        candidates = [urljoin(base_url, "/favicon.ico")]
+
+    last_error: Exception | None = None
+    for candidate in candidates:
+        source = normalize_icon_source(candidate)
+        if not source:
+            continue
+        try:
+            body, content_type, _ = get_or_fetch_icon(source)
+            write_favicon_cache(base_url, size, body, content_type, source)
+            return body, content_type, False, source
+        except Exception as error:
+            last_error = error
+
+    message = f"No usable favicon found: {last_error}"
+    write_favicon_error_cache(base_url, size, message)
+    raise ValueError(message)
 
 
 def safe_cache_label(value: object, fallback: str = "cache") -> str:
@@ -1577,6 +1798,29 @@ def cached_icon(url: str = "", domain: str = "") -> Response:
         headers={
             "Cache-Control": "public, max-age=604800, stale-while-revalidate=2592000",
             "X-Agent-Icon-Cache": "hit" if cache_hit else "miss",
+        },
+    )
+
+
+@app.get("/api/favicon")
+def cached_site_favicon(url: str = "", size: int = 64) -> Response:
+    site_url = normalize_site_url(url)
+    if not site_url:
+        raise HTTPException(status_code=400, detail="A valid site url is required")
+
+    requested_size = min(max(int(size or 64), 16), 256)
+    try:
+        body, content_type, cache_hit, source = get_or_fetch_favicon(site_url, requested_size)
+    except Exception as error:
+        raise HTTPException(status_code=502, detail=f"Favicon fetch failed: {error}") from error
+
+    return Response(
+        content=body,
+        media_type=content_type,
+        headers={
+            "Cache-Control": "public, max-age=604800, stale-while-revalidate=2592000",
+            "X-Agent-Favicon-Cache": "hit" if cache_hit else "miss",
+            "X-Agent-Favicon-Source-Hash": hashlib.sha1(source.encode("utf-8")).hexdigest()[:12],
         },
     )
 

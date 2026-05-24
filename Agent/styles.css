@@ -4509,8 +4509,13 @@ body[data-active-view="home"][data-home-wallpaper="night"] {
   pointer-events: none;
 }
 
-.shortcut-icon-wrap.has-icon .shortcut-icon-fallback {
+.shortcut-icon-wrap.has-icon .shortcut-icon-fallback,
+.shortcut-icon-wrap.is-loading-icon .shortcut-icon-fallback {
   display: none;
+}
+
+.shortcut-icon-wrap.is-icon-missing .shortcut-icon-fallback {
+  display: grid;
 }
 
 .shortcut-icon-fallback {
