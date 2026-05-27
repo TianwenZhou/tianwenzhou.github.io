@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-05-15T16:54:50+08:00",
+  "generatedAt": "2026-05-27T13:17:13+08:00",
   "source": "AKShare",
   "sources": [
-    "stock_info_a_code_name:5517"
+    "stock_info_a_code_name:5524"
   ],
   "errors": {
-    "stock_zh_a_spot_em": "HTTPSConnectionPool(host='82.push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/clist/get?pn=1&pz=100&po=1&np=1&ut=bd1d9ddb04089700cf9c27f6f7426281&fltt=2&invt=2&fid=f12&fs=m%3A0+t%3A6%2Cm%3A0+t%3A80%2Cm%3A1+t%3A2%2Cm%3A1+t%3A23%2Cm%3A0+t%3A81+s%3A2048&fields=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf12%2Cf13%2Cf14%2Cf15%2Cf16%2Cf17%2Cf18%2Cf20%2Cf21%2Cf23%2Cf24%2Cf25%2Cf22%2Cf11%2Cf62%2Cf128%2Cf136%2Cf115%2Cf152 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    "stock_zh_a_spot_em": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
   },
-  "count": 5517,
+  "count": 5524,
   "stocks": {
     "000001": {
       "symbol": "000001",
@@ -527,7 +527,7 @@
     },
     "000430": {
       "symbol": "000430",
-      "name": "ST张家界",
+      "name": "张家界",
       "code": "000430.SZ",
       "exchange": "SZSE"
     },
@@ -617,7 +617,7 @@
     },
     "000518": {
       "symbol": "000518",
-      "name": "*ST四环",
+      "name": "四环生物",
       "code": "000518.SZ",
       "exchange": "SZSE"
     },
@@ -1013,7 +1013,7 @@
     },
     "000608": {
       "symbol": "000608",
-      "name": "*ST阳光",
+      "name": "阳光股份",
       "code": "000608.SZ",
       "exchange": "SZSE"
     },
@@ -2679,6 +2679,12 @@
       "code": "001236.SZ",
       "exchange": "SZSE"
     },
+    "001237": {
+      "symbol": "001237",
+      "name": "C惠康科技",
+      "code": "001237.SZ",
+      "exchange": "SZSE"
+    },
     "001238": {
       "symbol": "001238",
       "name": "浙江正特",
@@ -2753,7 +2759,7 @@
     },
     "001270": {
       "symbol": "001270",
-      "name": "*ST铖昌",
+      "name": "铖昌科技",
       "code": "001270.SZ",
       "exchange": "SZSE"
     },
@@ -3033,6 +3039,12 @@
       "code": "001360.SZ",
       "exchange": "SZSE"
     },
+    "001365": {
+      "symbol": "001365",
+      "name": "天海电子",
+      "code": "001365.SZ",
+      "exchange": "SZSE"
+    },
     "001366": {
       "symbol": "001366",
       "name": "播恩集团",
@@ -3131,7 +3143,7 @@
     },
     "001393": {
       "symbol": "001393",
-      "name": "N维通利",
+      "name": "维通利",
       "code": "001393.SZ",
       "exchange": "SZSE"
     },
@@ -3449,7 +3461,7 @@
     },
     "002047": {
       "symbol": "002047",
-      "name": "*ST宝鹰",
+      "name": "宝鹰股份",
       "code": "002047.SZ",
       "exchange": "SZSE"
     },
@@ -7067,7 +7079,7 @@
     },
     "002693": {
       "symbol": "002693",
-      "name": "*ST双成",
+      "name": "双成药业",
       "code": "002693.SZ",
       "exchange": "SZSE"
     },
@@ -8741,7 +8753,7 @@
     },
     "003004": {
       "symbol": "003004",
-      "name": "*ST声迅",
+      "name": "声迅股份",
       "code": "003004.SZ",
       "exchange": "SZSE"
     },
@@ -16895,7 +16907,7 @@
     },
     "301531": {
       "symbol": "301531",
-      "name": "C春光集团",
+      "name": "春光集团",
       "code": "301531.SZ",
       "exchange": "SZSE"
     },
@@ -17201,7 +17213,7 @@
     },
     "301617": {
       "symbol": "301617",
-      "name": "博苑股份",
+      "name": "博苑新材",
       "code": "301617.SZ",
       "exchange": "SZSE"
     },
@@ -17645,7 +17657,7 @@
     },
     "600066": {
       "symbol": "600066",
-      "name": "XD宇通客",
+      "name": "宇通客车",
       "code": "600066.SH",
       "exchange": "SSE"
     },
@@ -18137,7 +18149,7 @@
     },
     "600176": {
       "symbol": "600176",
-      "name": "中国巨石",
+      "name": "XD中国巨",
       "code": "600176.SH",
       "exchange": "SSE"
     },
@@ -18587,7 +18599,7 @@
     },
     "600276": {
       "symbol": "600276",
-      "name": "恒瑞医药",
+      "name": "XD恒瑞医",
       "code": "600276.SH",
       "exchange": "SSE"
     },
@@ -18731,7 +18743,7 @@
     },
     "600309": {
       "symbol": "600309",
-      "name": "万华化学",
+      "name": "XD万华化",
       "code": "600309.SH",
       "exchange": "SSE"
     },
@@ -18959,7 +18971,7 @@
     },
     "600360": {
       "symbol": "600360",
-      "name": "*ST华微",
+      "name": "华微电子",
       "code": "600360.SH",
       "exchange": "SSE"
     },
@@ -20519,7 +20531,7 @@
     },
     "600702": {
       "symbol": "600702",
-      "name": "舍得酒业",
+      "name": "XD舍得酒",
       "code": "600702.SH",
       "exchange": "SSE"
     },
@@ -20837,7 +20849,7 @@
     },
     "600760": {
       "symbol": "600760",
-      "name": "中航沈飞",
+      "name": "XD中航沈",
       "code": "600760.SH",
       "exchange": "SSE"
     },
@@ -21239,7 +21251,7 @@
     },
     "600845": {
       "symbol": "600845",
-      "name": "XD宝信软",
+      "name": "宝信软件",
       "code": "600845.SH",
       "exchange": "SSE"
     },
@@ -21815,7 +21827,7 @@
     },
     "600988": {
       "symbol": "600988",
-      "name": "赤峰黄金",
+      "name": "XD赤峰黄",
       "code": "600988.SH",
       "exchange": "SSE"
     },
@@ -21875,7 +21887,7 @@
     },
     "601000": {
       "symbol": "601000",
-      "name": "唐山港",
+      "name": "XD唐山港",
       "code": "601000.SH",
       "exchange": "SSE"
     },
@@ -22169,7 +22181,7 @@
     },
     "601126": {
       "symbol": "601126",
-      "name": "四方股份",
+      "name": "XD四方股",
       "code": "601126.SH",
       "exchange": "SSE"
     },
@@ -23159,7 +23171,7 @@
     },
     "601975": {
       "symbol": "601975",
-      "name": "招商南油",
+      "name": "XD招商南",
       "code": "601975.SH",
       "exchange": "SSE"
     },
@@ -23363,7 +23375,7 @@
     },
     "603025": {
       "symbol": "603025",
-      "name": "XD大豪科",
+      "name": "大豪科技",
       "code": "603025.SH",
       "exchange": "SSE"
     },
@@ -23423,7 +23435,7 @@
     },
     "603036": {
       "symbol": "603036",
-      "name": "如通股份",
+      "name": "XD如通股",
       "code": "603036.SH",
       "exchange": "SSE"
     },
@@ -23549,7 +23561,7 @@
     },
     "603062": {
       "symbol": "603062",
-      "name": "XD麦加芯",
+      "name": "麦加芯彩",
       "code": "603062.SH",
       "exchange": "SSE"
     },
@@ -23855,7 +23867,7 @@
     },
     "603119": {
       "symbol": "603119",
-      "name": "DR浙江荣",
+      "name": "浙江荣泰",
       "code": "603119.SH",
       "exchange": "SSE"
     },
@@ -24149,7 +24161,7 @@
     },
     "603186": {
       "symbol": "603186",
-      "name": "XD华正新",
+      "name": "华正新材",
       "code": "603186.SH",
       "exchange": "SSE"
     },
@@ -25181,7 +25193,7 @@
     },
     "603407": {
       "symbol": "603407",
-      "name": "C长裕",
+      "name": "长裕集团",
       "code": "603407.SH",
       "exchange": "SSE"
     },
@@ -25219,6 +25231,12 @@
       "symbol": "603429",
       "name": "*ST集友",
       "code": "603429.SH",
+      "exchange": "SSE"
+    },
+    "603435": {
+      "symbol": "603435",
+      "name": "C嘉德",
+      "code": "603435.SH",
       "exchange": "SSE"
     },
     "603439": {
@@ -25919,7 +25937,7 @@
     },
     "603697": {
       "symbol": "603697",
-      "name": "XD有友食",
+      "name": "有友食品",
       "code": "603697.SH",
       "exchange": "SSE"
     },
@@ -25991,7 +26009,7 @@
     },
     "603713": {
       "symbol": "603713",
-      "name": "密尔克卫",
+      "name": "XD密尔克",
       "code": "603713.SH",
       "exchange": "SSE"
     },
@@ -26183,7 +26201,7 @@
     },
     "603789": {
       "symbol": "603789",
-      "name": "*ST星农",
+      "name": "ST星农",
       "code": "603789.SH",
       "exchange": "SSE"
     },
@@ -26231,7 +26249,7 @@
     },
     "603806": {
       "symbol": "603806",
-      "name": "福斯特",
+      "name": "XD福斯特",
       "code": "603806.SH",
       "exchange": "SSE"
     },
@@ -26753,7 +26771,7 @@
     },
     "603966": {
       "symbol": "603966",
-      "name": "法兰泰克",
+      "name": "DR法兰泰",
       "code": "603966.SH",
       "exchange": "SSE"
     },
@@ -26873,7 +26891,7 @@
     },
     "603993": {
       "symbol": "603993",
-      "name": "洛阳钼业",
+      "name": "XD洛阳钼",
       "code": "603993.SH",
       "exchange": "SSE"
     },
@@ -27485,7 +27503,7 @@
     },
     "605389": {
       "symbol": "605389",
-      "name": "长龄液压",
+      "name": "DR长龄液",
       "code": "605389.SH",
       "exchange": "SSE"
     },
@@ -27905,7 +27923,7 @@
     },
     "688063": {
       "symbol": "688063",
-      "name": "派能科技",
+      "name": "XD派能科",
       "code": "688063.SH",
       "exchange": "SSE"
     },
@@ -28409,7 +28427,7 @@
     },
     "688160": {
       "symbol": "688160",
-      "name": "XD步科股",
+      "name": "步科股份",
       "code": "688160.SH",
       "exchange": "SSE"
     },
@@ -28673,7 +28691,7 @@
     },
     "688208": {
       "symbol": "688208",
-      "name": "XD道通科",
+      "name": "道通科技",
       "code": "688208.SH",
       "exchange": "SSE"
     },
@@ -29069,7 +29087,7 @@
     },
     "688287": {
       "symbol": "688287",
-      "name": "*ST观典",
+      "name": "退市观典",
       "code": "688287.SH",
       "exchange": "SSE"
     },
@@ -29897,7 +29915,7 @@
     },
     "688489": {
       "symbol": "688489",
-      "name": "三未信安",
+      "name": "XR三未信",
       "code": "688489.SH",
       "exchange": "SSE"
     },
@@ -30377,7 +30395,7 @@
     },
     "688596": {
       "symbol": "688596",
-      "name": "正帆科技",
+      "name": "XD正帆科",
       "code": "688596.SH",
       "exchange": "SSE"
     },
@@ -30579,6 +30597,12 @@
       "code": "688633.SH",
       "exchange": "SSE"
     },
+    "688635": {
+      "symbol": "688635",
+      "name": "N长进",
+      "code": "688635.SH",
+      "exchange": "SSE"
+    },
     "688636": {
       "symbol": "688636",
       "name": "智明达",
@@ -30665,7 +30689,7 @@
     },
     "688661": {
       "symbol": "688661",
-      "name": "和林微纳",
+      "name": "XD和林微",
       "code": "688661.SH",
       "exchange": "SSE"
     },
@@ -30773,7 +30797,7 @@
     },
     "688686": {
       "symbol": "688686",
-      "name": "XD奥普特",
+      "name": "奥普特",
       "code": "688686.SH",
       "exchange": "SSE"
     },
@@ -31247,7 +31271,7 @@
     },
     "920002": {
       "symbol": "920002",
-      "name": "万达轴承",
+      "name": "DR万达轴",
       "code": "920002.SZ",
       "exchange": "SZSE"
     },
@@ -31451,7 +31475,7 @@
     },
     "920055": {
       "symbol": "920055",
-      "name": "隆源股份",
+      "name": "XD隆源股",
       "code": "920055.SZ",
       "exchange": "SZSE"
     },
@@ -31541,7 +31565,7 @@
     },
     "920082": {
       "symbol": "920082",
-      "name": "方正阀门",
+      "name": "DR方正阀",
       "code": "920082.SZ",
       "exchange": "SZSE"
     },
@@ -31587,6 +31611,12 @@
       "code": "920092.SZ",
       "exchange": "SZSE"
     },
+    "920096": {
+      "symbol": "920096",
+      "name": "嘉晨智能",
+      "code": "920096.SZ",
+      "exchange": "SZSE"
+    },
     "920098": {
       "symbol": "920098",
       "name": "科隆新材",
@@ -31601,7 +31631,7 @@
     },
     "920100": {
       "symbol": "920100",
-      "name": "三协电机",
+      "name": "DR三协电",
       "code": "920100.SZ",
       "exchange": "SZSE"
     },
@@ -31761,6 +31791,12 @@
       "code": "920160.SZ",
       "exchange": "SZSE"
     },
+    "920161": {
+      "symbol": "920161",
+      "name": "N龙辰",
+      "code": "920161.SZ",
+      "exchange": "SZSE"
+    },
     "920163": {
       "symbol": "920163",
       "name": "方大新材",
@@ -31799,7 +31835,7 @@
     },
     "920174": {
       "symbol": "920174",
-      "name": "五新隧装",
+      "name": "五新智能",
       "code": "920174.SZ",
       "exchange": "SZSE"
     },
@@ -31817,7 +31853,7 @@
     },
     "920178": {
       "symbol": "920178",
-      "name": "N锐翔",
+      "name": "锐翔智能",
       "code": "920178.SZ",
       "exchange": "SZSE"
     },
@@ -31865,7 +31901,7 @@
     },
     "920187": {
       "symbol": "920187",
-      "name": "通领科技",
+      "name": "DR通领科",
       "code": "920187.SZ",
       "exchange": "SZSE"
     },
@@ -31935,6 +31971,12 @@
       "code": "920212.SZ",
       "exchange": "SZSE"
     },
+    "920220": {
+      "symbol": "920220",
+      "name": "朗信电气",
+      "code": "920220.SZ",
+      "exchange": "SZSE"
+    },
     "920221": {
       "symbol": "920221",
       "name": "易实精密",
@@ -31949,7 +31991,7 @@
     },
     "920225": {
       "symbol": "920225",
-      "name": "XD利通科",
+      "name": "利通科技",
       "code": "920225.SZ",
       "exchange": "SZSE"
     },
@@ -32417,7 +32459,7 @@
     },
     "920523": {
       "symbol": "920523",
-      "name": "德瑞锂电",
+      "name": "XD德瑞锂",
       "code": "920523.SZ",
       "exchange": "SZSE"
     },
@@ -32441,7 +32483,7 @@
     },
     "920541": {
       "symbol": "920541",
-      "name": "铁大科技",
+      "name": "XD铁大科",
       "code": "920541.SZ",
       "exchange": "SZSE"
     },
@@ -32513,7 +32555,7 @@
     },
     "920580": {
       "symbol": "920580",
-      "name": "科创新材",
+      "name": "XD科创新",
       "code": "920580.SZ",
       "exchange": "SZSE"
     },
@@ -32597,7 +32639,7 @@
     },
     "920663": {
       "symbol": "920663",
-      "name": "XD明阳科",
+      "name": "明阳科技",
       "code": "920663.SZ",
       "exchange": "SZSE"
     },
@@ -32615,7 +32657,7 @@
     },
     "920675": {
       "symbol": "920675",
-      "name": "XD秉扬科",
+      "name": "秉扬科技",
       "code": "920675.SZ",
       "exchange": "SZSE"
     },
@@ -33023,7 +33065,7 @@
     },
     "920946": {
       "symbol": "920946",
-      "name": "森萱医药",
+      "name": "XD森萱医",
       "code": "920946.SZ",
       "exchange": "SZSE"
     },
