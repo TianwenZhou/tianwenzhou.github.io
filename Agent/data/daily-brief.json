@@ -1,33 +1,25 @@
 {
-  "generatedAt": "2026-05-28T11:48:30.904Z",
+  "generatedAt": "2026-05-28T16:23:19.020Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 23,
+      "temperature": 19,
       "weatherCode": 0,
-      "windSpeed": 5
+      "windSpeed": 6
     },
     "today": {
-      "date": "2026-05-28",
-      "weatherCode": 1,
-      "description": "基本晴",
-      "max": 28,
-      "min": 19,
+      "date": "2026-05-29",
+      "weatherCode": 0,
+      "description": "晴朗",
+      "max": 30,
+      "min": 15,
       "precipitationProbability": 0
     },
     "forecast": [
       {
-        "date": "2026-05-28",
-        "weatherCode": 1,
-        "description": "基本晴",
-        "max": 28,
-        "min": 19,
-        "precipitationProbability": 0
-      },
-      {
         "date": "2026-05-29",
-        "weatherCode": 1,
-        "description": "基本晴",
+        "weatherCode": 0,
+        "description": "晴朗",
         "max": 30,
         "min": 15,
         "precipitationProbability": 0
@@ -44,43 +36,60 @@
         "date": "2026-05-31",
         "weatherCode": 3,
         "description": "阴天",
-        "max": 32,
+        "max": 31,
         "min": 20,
-        "precipitationProbability": 7
+        "precipitationProbability": 4
       },
       {
         "date": "2026-06-01",
-        "weatherCode": 51,
-        "description": "毛毛雨",
+        "weatherCode": 95,
+        "description": "雷暴",
         "max": 31,
         "min": 21,
-        "precipitationProbability": 1
+        "precipitationProbability": 2
+      },
+      {
+        "date": "2026-06-02",
+        "weatherCode": 95,
+        "description": "雷暴",
+        "max": 33,
+        "min": 22,
+        "precipitationProbability": 18
       }
     ]
   },
   "classicQuote": {
-    "id": "analects-learning",
-    "text": "学而不思则罔，思而不学则殆。",
-    "source": "《论语》",
-    "author": "孔子",
-    "note": "提醒自己既要输入，也要沉淀，不要只忙不想。"
+    "id": "taoteching-accumulate",
+    "text": "合抱之木，生于毫末；九层之台，起于累土。",
+    "source": "《道德经》",
+    "author": "老子",
+    "note": "再大的目标，也要拆成今天能推进的一小步。"
   },
   "bookExcerpt": {
-    "id": "fortress-besieged-night",
-    "text": "夜仿佛纸浸了油，变成半透明体；它给太阳拥抱住了，分不出身来，也许是给太阳溶了，所以夕照晚霞隐褪后的夜色也带着酡红。",
-    "book": "《围城》",
-    "author": "钱钟书"
+    "id": "camel-xiangzi-sky",
+    "text": "天是越来越晴朗了，一轮火一样的太阳悬在空中，街上的一切都像在明晃晃地发着白光。",
+    "book": "《骆驼祥子》",
+    "author": "老舍"
   },
   "featuredPlace": {
-    "id": "202605271600",
-    "title": "华城堡的古城墙，水原，韩国",
+    "id": "202605281600",
+    "title": "珠穆朗玛峰峰顶，萨加玛塔国家公园，尼泊尔",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "设计与秩序相结合",
-    "image": "https://www.bing.com/th?id=OHR.HwaesongFortress_ZH-CN8225341972_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E9%9F%A9%E5%9B%BD%E6%B0%B4%E5%8E%9F%E7%9A%84%E5%8D%8E%E5%9F%8E%E5%A0%A1&form=hpcapt&mkt=zh-cn"
+    "summary": "巅峰历史时刻",
+    "image": "https://www.bing.com/th?id=OHR.SummitEverest_ZH-CN9252833251_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E4%BA%BA%E7%B1%BB%E9%A6%96%E6%AC%A1%E5%BE%81%E6%9C%8D%E4%B8%96%E7%95%8C%E6%9C%80%E9%AB%98%E5%B3%B0&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202605281600",
+      "title": "珠穆朗玛峰峰顶，萨加玛塔国家公园，尼泊尔",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "巅峰历史时刻",
+      "image": "https://www.bing.com/th?id=OHR.SummitEverest_ZH-CN9252833251_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E4%BA%BA%E7%B1%BB%E9%A6%96%E6%AC%A1%E5%BE%81%E6%9C%8D%E4%B8%96%E7%95%8C%E6%9C%80%E9%AB%98%E5%B3%B0&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202605271600",
       "title": "华城堡的古城墙，水原，韩国",
@@ -143,218 +152,217 @@
       "summary": "海洋生命的律动",
       "image": "https://www.bing.com/th?id=OHR.KauehiAtollLagoon_ZH-CN9552036080_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E5%9B%BD%E9%99%85%E7%94%9F%E7%89%A9%E5%A4%9A%E6%A0%B7%E6%80%A7%E6%97%A5&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202605201600",
-      "title": "四川省的茶梯田, 中国",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "酿造传承",
-      "image": "https://www.bing.com/th?id=OHR.SichuanTea_ZH-CN6703437873_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E5%9B%BD%E9%99%85%E8%8C%B6%E6%97%A5&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-05-28",
-    "dateLabel": "5月28日",
+    "dateKey": "2026-05-29",
+    "dateLabel": "5月29日",
     "items": [
       {
-        "year": "2008",
-        "text": "尼泊尔制宪会议宣布废除君主制并成立民主共和国，末代国王贾南德拉成为平民。",
-        "link": "https://zh.wikipedia.org/wiki/2008%E5%B9%B4"
+        "year": "2023",
+        "text": "有17年歷史，曾為香港民主派第二大黨的公民黨決議解散。",
+        "link": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4"
       },
       {
-        "year": "1995",
-        "text": "俄羅斯庫頁島發生黎克特制7.6級大地震，釀成逾2,000人死亡。",
-        "link": "https://zh.wikipedia.org/wiki/1995%E5%B9%B4"
+        "year": "2011",
+        "text": "巴塞罗那足球俱乐部于欧洲冠军联赛决赛中，在英国温布利球场以3-1的比分击败曼彻斯特联，历史上第四次获得欧洲冠军联赛的冠军。",
+        "link": "https://zh.wikipedia.org/wiki/2011%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "王沪宁会见英国跨党派议员代表团",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-28/10630410.shtml",
-        "summary": "新华社北京5月28日电 中共中央政治局常委、全国政协主席王沪宁28日在京会见来华出席第十四届中英政党对话的英国跨党派议员代表团。",
+        "title": "东西问｜德国汉学家培高德：德国社会如何更好理解当代中国？",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-28/10630531.shtml",
+        "summary": "中新社柏林5月28日电 题：德国社会如何更好理解当代中国？——专访德国汉学家、历史学家、波恩大学教授培高德",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/05/28/b520261b36374c9d8135cf3c5623f9c0.jpg",
+        "publishedAt": "2026-05-28T14:02:33.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "上海建工集团股份有限公司原副总裁张惠忠接受审查调查",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-28/10630516.shtml",
+        "summary": "中新网5月28日电 据上海市纪委监委消息，上海建工集团股份有限公司原副总裁张惠忠涉嫌严重违纪违法，目前正接受上海市纪委监委纪律审查和监察调查。",
         "image": "",
-        "publishedAt": "2026-05-28T11:39:13.000Z",
+        "publishedAt": "2026-05-28T13:58:58.000Z",
         "source": "中新网"
       },
       {
-        "title": "江南珍档精品展在沪启幕 再现长三角千年变迁",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-28/10630381.shtml",
-        "summary": "中新网上海5月28日电 (记者 张亨伟)由沪苏浙皖三省一市档案局、档案馆联合主办的“江南珍档国之瑰宝——长三角地区中国档案文献遗产精品展”28日在上海市档案馆举行。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260528/666030b8-739f-4c27-8c04-e3b6a3a89b73_zsite.jpeg",
-        "publishedAt": "2026-05-28T11:32:27.000Z",
+        "title": "东西问·知味东方｜武契奇品尝的嘉兴原汤粽有多鲜？",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-28/10630524.shtml",
+        "summary": "中新社浙江嘉兴5月28日电 题：武契奇品尝的嘉兴原汤粽有多鲜？",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/05/28/5fb2926c4c7e43b8a31b638ada79a0b9.jpg",
+        "publishedAt": "2026-05-28T13:50:50.000Z",
         "source": "中新网"
       },
       {
-        "title": "广西举办“教育家精神”宣讲活动 三位女校长诠释“爱与坚守”",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-28/10630334.shtml",
-        "summary": "中新网南宁5月28日电(刘海文 黄艳梅)从为听障儿童搭建职业成长桥梁，到用三十余载追光育人，再到用爱守护学生成长……5月27日，广西优秀教师代表“教育家精神”2026年宣讲(南宁)专场报告会在广西民族大学举办，三位优秀教师用真实故事诠释育人初心，传递新时代教育家精神的温暖力量。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260528/7db24358-0dfb-4455-b6c6-9af703598bc4_zsite.jpg",
-        "publishedAt": "2026-05-28T11:23:37.000Z",
+        "title": "“十五五”开局，民营企业家与新的社会阶层人士共话新担当",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-28/10630508.shtml",
+        "summary": "中新网北京5月28日电 题：“十五五”开局，民营企业家与新的社会阶层人士共话新担当",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260528/0ddc212c-9bdd-4288-b7df-42220fc9cea7_zsite.jpg",
+        "publishedAt": "2026-05-28T13:47:35.000Z",
         "source": "中新网"
       },
       {
-        "title": "国务院印发《城市更新“十五五”规划》",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-28/10630386.shtml",
-        "summary": "新华社北京5月28日电#8195;国务院日前印发《城市更新“十五五”规划》(以下简称《规划》)，明确了“十五五”时期城市更新工作的目标指标、重点任务、重大工程和政策举措。",
+        "title": "《国家基本医疗保险医疗服务项目目录（第一批）制定工作方案》公开征求意见",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-28/10630511.shtml",
+        "summary": "中新网5月28日电 据国家医疗保障局网站消息，为深入贯彻落实党中央、国务院关于增强社会保障制度统一性和规范性的要求，持续完善医疗服务项目医保支付管理，国家医保局拟建立国家基本医疗保险医疗服务项目目录。",
         "image": "",
-        "publishedAt": "2026-05-28T11:01:15.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "我国“三夏”大规模小麦机收全面展开",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-28/10630372.shtml",
-        "summary": "记者从农业农村部了解到，截至5月28日17时，各地已收夏粮小麦4897万亩、当日机收面积已超过1000万亩，今年全国“三夏”大规模小麦机收全面展开。当前麦收总体进度已近两成，西南地区及湖北麦收已进入尾声，河南、安徽进度近一成，江苏、陕西等地陆续开收。今年“三夏”，全国将投入各类农机具超1700万台套...",
-        "image": "",
-        "publishedAt": "2026-05-28T10:50:26.000Z",
+        "publishedAt": "2026-05-28T13:37:21.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "西藏籍高校毕业生就业创业挑战赛暨就业创业交流大会在拉萨举行",
-        "link": "https://www.chinanews.com.cn/sh/2026/05-28/10630385.shtml",
-        "summary": "中新网拉萨5月28日电 (贡嘎来松)27日，“藏梦同行·职引未来”西藏籍高校毕业生就业创业挑战赛暨就业创业交流大会在拉萨举行。活动聚焦高校毕业生就业创业提质增效，搭建综合性服务平台，助力西藏籍高校毕业生实现高质量就业创业。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260528/2dec40f8-fa90-4649-96c3-111224509a48_zsite.jpg",
-        "publishedAt": "2026-05-28T11:43:14.000Z",
+        "title": "乡贤捐款饭菜管够 湖南涟源“长辈食堂”里的幸福滋味",
+        "link": "https://www.chinanews.com.cn/sh/2026/05-28/10630532.shtml",
+        "summary": "中新网娄底5月28日电 (肖星群 周晴)“饭菜管够，叔叔阿姨慢点吃。”5月28日上午11点半，湖南省涟源市白马镇赵家村石家组聚餐点热闹如常，志愿者帮老人打好饭菜后，20多名老人聚在一起，幸福地享用“免费午餐”。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260528/e4adb8f3-6b7a-42c4-a222-ea940eed7018_zsite.jpg",
+        "publishedAt": "2026-05-28T14:06:43.000Z",
         "source": "中新网"
       },
       {
-        "title": "江西南昌持续打造“宝贝出村”公益项目 助力乡村少年成长",
-        "link": "https://www.chinanews.com.cn/sh/2026/05-28/10630382.shtml",
-        "summary": "中新网南昌5月28日电 (吴鹏泉 戚彬)“六一”国际儿童节将至，一场宝贝出村——圆梦微心愿“六一”公益活动28日在江西南昌温情开展。来自南昌市新建区溪霞中心小学的20余名学生走出熟悉的村庄，逛动物园、参观红色场馆，拓宽视野边界。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260528/d5bd9305-caf9-41d4-b5a7-d81f022b6f72_zsite.jpg",
-        "publishedAt": "2026-05-28T11:32:53.000Z",
+        "title": "食品安全管理师和食品营销主播培训项目在京启动",
+        "link": "https://www.chinanews.com.cn/sh/2026/05-28/10630533.shtml",
+        "summary": "中新网北京5月28日电 近日，由中国食品报社、国家广电总局人才交流中心主办的食品安全管理师系列岗位技能培训项目暨食品营销主播专项培训项目启动发布会在北京举办。",
+        "image": "",
+        "publishedAt": "2026-05-28T14:03:17.000Z",
         "source": "中新网"
       },
       {
-        "title": "浙江发布首批历史治水名人",
-        "link": "https://www.chinanews.com.cn/sh/2026/05-28/10630380.shtml",
-        "summary": "中新网湖州5月28日电(鲍梦妮)5月28日是明代浙江籍治水名臣潘季驯诞辰505周年纪念日。当日，在其故乡湖州市吴兴区，潘季驯治水思想座谈会暨首批浙江历史治水名人发布会举行。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260528/fce06260-d212-4bce-ae75-4422995f3977_zsite.jpg",
-        "publishedAt": "2026-05-28T11:32:07.000Z",
+        "title": "云南修订陆生野生动物保护条例 守护“动物王国”生态名片",
+        "link": "https://www.chinanews.com.cn/sh/2026/05-28/10630534.shtml",
+        "summary": "中新网昆明5月28日电 (罗婕)28日，《云南省陆生野生动物保护条例》(下称《条例》)由云南省第十四届人民代表大会常务委员会第二十三次会议修订通过，自8月15日起施行。",
+        "image": "",
+        "publishedAt": "2026-05-28T14:00:35.000Z",
         "source": "中新网"
       },
       {
-        "title": "福建厦门多措并举构建未成年人全方位司法保护体系",
-        "link": "https://www.chinanews.com.cn/sh/2026/05-28/10630376.shtml",
-        "summary": "中新网厦门5月28日电(林永传 李秋云)今年是未成年人检察工作创建40周年，厦门市人民检察院28日召开“检爱同行 向阳生长”新闻发布会，通报厦门未成年人检察工作40年发展成效，展现“六大保护”协同发力的综合司法保护实践。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260528/4cd563d9-618e-4e2a-8c2d-320d97d20c77_zsite.jpg",
-        "publishedAt": "2026-05-28T11:31:21.000Z",
+        "title": "甘肃援布基纳法索医疗队：万里援非 授人以渔",
+        "link": "https://www.chinanews.com.cn/sh/2026/05-28/10630527.shtml",
+        "summary": "中新网兰州5月28日电 (丁思 张浩天)“2023年初，当我第一次听到布基纳法索，并有机会报名参加援外工作的时候，既向往又担心。”5月28日，中国红十字会(甘肃)援布基纳法索医疗队工作总结座谈会在兰州召开，该医疗队队员、甘肃省中医院针灸专业主任医师杨江霞回忆起报名时的心情说，她怀揣着“把中医针灸带到...",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260528/e114dbdc-9d4b-420d-b236-f948ddb99689_zsite.jpg",
+        "publishedAt": "2026-05-28T13:54:42.000Z",
         "source": "中新网"
       },
       {
-        "title": "青海启动实施儿童青少年“五健”促进行动",
-        "link": "https://www.chinanews.com.cn/sh/2026/05-28/10630375.shtml",
-        "summary": "中新网西宁5月28日电 (记者 孙睿)5月28日，青海省卫生健康委召开新闻发布会，宣布启动为期5年的儿童青少年体重、视力、心理、骨骼、口腔“五健”促进行动，以全周期、闭环式服务体系，全面提升高原儿童青少年健康水平。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260528/077b8a49-4258-440b-bd06-8e2b8bb6c6a8_zsite.jpeg",
-        "publishedAt": "2026-05-28T11:31:01.000Z",
+        "title": "携手应对极端天气事件风险 国际季风科学领域达成科学共识",
+        "link": "https://www.chinanews.com.cn/sh/2026/05-28/10630529.shtml",
+        "summary": "中新网北京5月28日电 (记者 陈溯)记者28日从中国气象局获悉，近日，亚洲-澳洲-非洲季风(亚澳非季风)国际大科学计划获得国际季风科学领域专家广泛共识。国际季风科学正在进入以极端天气气候事件为目标，以耦合地球系统为基础、以季风多时空尺度相互作用为核心、以人工智能(AI)赋能物理数值预测为工具、以复...",
+        "image": "",
+        "publishedAt": "2026-05-28T13:54:12.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "大处着眼，小处破局！从立嘉国际智能装备展览会看重庆装备制造提档密码",
-        "link": "https://www.chinanews.com.cn/cj/2026/05-28/10630379.shtml",
-        "summary": "中新网重庆5月28日电(黄维正)2026重庆国际工业博览会暨第26届立嘉国际智能装备展览会5月28日在重庆国际博览中心启幕。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260528/144de132-9a40-4ab1-b87d-3898e686362e_zsite.jpg",
-        "publishedAt": "2026-05-28T11:31:45.000Z",
+        "title": "喜临门创始人被控“掏空”自己公司，发生了什么？",
+        "link": "https://www.chinanews.com.cn/cj/2026/05-28/10630539.shtml",
+        "summary": "中新网北京5月28日电(记者 左雨晴) 近日，“中国床垫第一股”喜临门召开2025年度股东会，这是喜临门“戴帽”为ST后的首次年度股东大会。然而，喜临门实际控制人、董事长陈阿裕缺席了股东会，这令在场股东联想到此前的“跑路”传闻。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/05/27/25dec13b61bb44529e60eb2c1b68b133.jpg",
+        "publishedAt": "2026-05-28T14:15:24.000Z",
         "source": "中新网"
       },
       {
-        "title": "2026金砖创新基地产业项目对接会在厦门举办",
-        "link": "https://www.chinanews.com.cn/cj/2026/05-28/10630343.shtml",
-        "summary": "中新网厦门5月28日电 (林永传)2026金砖创新基地产业项目对接会28日在金砖产业合作暨出海综合服务港(简称“金砖出海服务港”)举行。厦门市委常委、副市长、金砖创新基地主任庄荣良，工业和信息化部国际经济技术合作中心副主任陈彪出席对接会并致辞。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260528/ac73dda6-0608-45db-bfb3-90739f492a43_zsite.jpg",
-        "publishedAt": "2026-05-28T11:30:33.000Z",
+        "title": "保山市省外购房占比达45.9% 居云南省第二",
+        "link": "https://www.chinanews.com.cn/cj/2026/05-28/10630535.shtml",
+        "summary": "中新网昆明5月28日电 (陈静 陆星羽)云南省“开局起步‘十五五’”主题系列新闻发布会·保山专场28日在昆明召开。中共保山市委副书记、保山市人民政府市长左广在会上介绍，目前，全市已有44个旅居项目实现温泉入户，带动2025年商品房销售面积增长3.7%，市外购房占比达45.9%，居全省第2。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260528/1ca73ca7-bc24-4b51-aa88-04efba54bd81_zsite.jpg",
+        "publishedAt": "2026-05-28T14:00:19.000Z",
         "source": "中新网"
       },
       {
-        "title": "新工业革命伙伴城市网络建设交流会在厦门举行",
-        "link": "https://www.chinanews.com.cn/cj/2026/05-28/10630374.shtml",
-        "summary": "中新网厦门5月28日电 (林永传)28日，新工业革命伙伴城市网络建设交流会在厦门市举行。塞尔维亚贝尔格莱德、匈牙利考普堡、南非德班、哈萨克斯坦阿拉木图和阿斯塔纳，以及厦门、南京、武汉、银川、常州等10个中外城市政府代表出席会议并作深入交流。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260528/705e016b-82ef-4272-8fec-223d3eb5ec39_zsite.jpg",
-        "publishedAt": "2026-05-28T11:25:57.000Z",
+        "title": "广州电网负荷较往年提前近两个月创历史新高",
+        "link": "https://www.chinanews.com.cn/cj/2026/05-28/10630537.shtml",
+        "summary": "中新网广州5月28日电(王华 龚甸)南方电网广东广州供电局消息，5月28日13时41分，广州电网系统负荷今年首次创历史新高，最高负荷达2546万千瓦，较去年最高负荷增长1.39%，较往年首次负荷峰值出现时间提前近两个月。目前，广州电网整体运行平稳有序。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260528/dc3c8153-d865-4b47-a68e-aaa1e94be14f_zsite.jpg",
+        "publishedAt": "2026-05-28T13:59:42.000Z",
         "source": "中新网"
       },
       {
-        "title": "打造世界级家具产业集群 中国（赣州）第13届家博会开幕",
-        "link": "https://www.chinanews.com.cn/cj/2026/05-28/10630337.shtml",
-        "summary": "中新网赣州5月28日电 (熊锦阳)5月28日，中国(赣州)第13届家具产业博览会(下文简称“家博会”)在“中国实木家居之都”江西省赣州市南康区开幕。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260528/e4b64ccd-a6cd-4cb0-946a-af5ac1d9c7f0_zsite.JPG",
-        "publishedAt": "2026-05-28T11:25:29.000Z",
+        "title": "中国首创基于国产抗量子芯片的AI多智能体可信通信试验",
+        "link": "https://www.chinanews.com.cn/cj/2026/05-28/10630517.shtml",
+        "summary": "中新社北京5月28日电 (记者 刘亮)中国电信28日公布，中国电信研究院近日联合清华大学、无锡沐创集成电路设计有限公司，成功完成基于国产抗量子芯片的AI(人工智能)多智能体可信通信创新试验。",
+        "image": "",
+        "publishedAt": "2026-05-28T13:42:07.000Z",
         "source": "中新网"
       },
       {
-        "title": "智慧成果集中亮相 山东以科创驱动智慧海洋建设",
-        "link": "https://www.chinanews.com.cn/cj/2026/05-28/10630335.shtml",
-        "summary": "中新网青岛5月28日电 (陈宛婷)在山东港口青岛港前湾港区南岸，2088米长的码头上鲜见工作人员身影。自动化桥吊安静地起落，自动导引车(AGV)穿梭自如，高速轨道吊精准堆码……整个过程无需人工干预，30秒内真空系泊系统便完成船舶固定。这是中国首个全国产全自主的自动化集装箱码头的日常一幕，也是山东智慧...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260528/28d1fad6-f46e-4b5a-bec5-df46c25cb652_zsite.jpg",
-        "publishedAt": "2026-05-28T11:24:15.000Z",
+        "title": "中国两部门系统布局人工智能计量能力建设",
+        "link": "https://www.chinanews.com.cn/cj/2026/05-28/10630510.shtml",
+        "summary": "中新社北京5月28日电 (记者 刘亮)记者28日获悉，中国国家市场监管总局、国家发改委近日联合印发《人工智能计量体系和能力建设指引(2026版)》(以下简称指引)，系统布局人工智能计量能力建设。",
+        "image": "",
+        "publishedAt": "2026-05-28T13:41:15.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "Israel strikes Beirut and southern Lebanon after large-scale evacuation orders",
-        "link": "https://www.bbc.com/news/articles/cj3pgrpmlklo?at_medium=RSS&at_campaign=rss",
-        "summary": "The Israeli military has ordered Lebanese residents to leave some 17% of the country's territory.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5903/live/b92c9b50-5a5e-11f1-8b8c-6d33e1d5abb6.jpg",
-        "publishedAt": "2026-05-28T11:31:59.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Sixteen pupils killed in Kenya school fire",
-        "link": "https://www.bbc.com/news/articles/cx21kkxq81po?at_medium=RSS&at_campaign=rss",
-        "summary": "Dozens of people were also injured in the fire, the cause of which is not yet known.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7fb3/live/8524d070-5a72-11f1-89a3-d1f559421220.jpg",
-        "publishedAt": "2026-05-28T11:30:50.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Man arrested after three injured in stabbing at Swiss train station",
-        "link": "https://www.bbc.com/news/articles/cddpllqv49qo?at_medium=RSS&at_campaign=rss",
-        "summary": "The suspect, a 31-year-old Swiss man, has been arrested, police say, as areas around the station are cordoned off.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9abd/live/27030570-5a7c-11f1-8954-638c887fc9b3.jpg",
-        "publishedAt": "2026-05-28T10:52:21.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "US justice department launches criminal investigation into Trump accuser E Jean Carroll, reports say",
-        "link": "https://www.bbc.com/news/articles/clyp77jd407o?at_medium=RSS&at_campaign=rss",
-        "summary": "The case centres on whether the former columnist lied about the funding she received for her civil lawsuit against the US president.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/12dd/live/e30371c0-5a85-11f1-8b8c-6d33e1d5abb6.jpg",
-        "publishedAt": "2026-05-28T10:15:03.000Z",
+        "title": "Israel hits Lebanese capital in 'targeted strike'",
+        "link": "https://www.bbc.com/news/articles/cgqpjwdv7xeo?at_medium=RSS&at_campaign=rss",
+        "summary": "Beirut had until now largely been spared even as both Israel and Hezbollah accused each other of breaking last month's ceasefire.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2412/live/e8e37ed0-5a9b-11f1-9626-f75d5d5577d2.jpg",
+        "publishedAt": "2026-05-28T15:57:01.000Z",
         "source": "BBC"
       },
       {
         "title": "Iran says it targeted American base after fresh US strikes",
         "link": "https://www.bbc.com/news/articles/c98r2qy5809o?at_medium=RSS&at_campaign=rss",
         "summary": "The hostilities come during a fragile ceasefire between the US and Iran, and protracted negotiations to end the three-month war.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/99fb/live/5a9b9af0-5a40-11f1-a295-ab4de21b4525.jpg",
-        "publishedAt": "2026-05-28T09:58:49.000Z",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fccc/live/6b387cc0-5a9f-11f1-8b8c-6d33e1d5abb6.jpg",
+        "publishedAt": "2026-05-28T15:53:05.000Z",
         "source": "BBC"
+      },
+      {
+        "title": "Villas, cars and cash: Italy seizes dead Mafia mobster's millions",
+        "link": "https://www.bbc.com/news/articles/ceqpd4gqgveo?at_medium=RSS&at_campaign=rss",
+        "summary": "Police say the operation targeted the network of notorious late Sicilian mafia boss Matteo Messina Denaro.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cdae/live/4e668fc0-5a94-11f1-b5ae-83d5964726ad.jpg",
+        "publishedAt": "2026-05-28T14:47:05.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Are US and Iran close to peace or sliding back to war?",
+        "link": "https://www.bbc.com/news/articles/cze29764067o?at_medium=RSS&at_campaign=rss",
+        "summary": "Neither side seems interested in a return to all-out conflict, despite the latest exchange of strikes.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4b47/live/14febc40-5a9d-11f1-8b8c-6d33e1d5abb6.jpg",
+        "publishedAt": "2026-05-28T14:42:27.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "World No. 1 Jannik Sinner crashes out of heat-stricken Roland Garros in five-set upset",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRlB2VThLS0lnSWN0WWhtY2M4T1RETWhSUmM0NEZ6bngxZkZTdVNCRnVvNTFMNEVIZm1uc0VWdTRaemR5V3Z6OVNSRUlLUEVvT2d3MHhMLWdteFB6bFNmRWpTa1pqMEx1cENySng1dEhnOV9PbWdqd3J6VktMME0yWkR3?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-05-28T13:59:49.000Z",
+        "source": "CNN"
       }
     ],
     "worldBusiness": [
       {
-        "title": "EU fines Temu €200m for allowing sale of illegal products",
-        "link": "https://www.bbc.com/news/articles/c1k2ydn1rz8o?at_medium=RSS&at_campaign=rss",
-        "summary": "The European Commission says the Chinese-owned online retailer failed to take account of risks from baby toys and faulty chargers sold on its platform...",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6b44/live/c457e920-5a82-11f1-8b8c-6d33e1d5abb6.jpg",
-        "publishedAt": "2026-05-28T11:39:38.000Z",
+        "title": "'I've applied for more than 400 roles' - how young people are facing the job shortage",
+        "link": "https://www.bbc.com/news/articles/czx2qll4rlyo?at_medium=RSS&at_campaign=rss",
+        "summary": "The BBC has been hearing from young people who are struggling to find work about how they are tackling the challenge.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2401/live/5e135290-5aae-11f1-b277-cd187c78657d.jpg",
+        "publishedAt": "2026-05-28T15:56:03.000Z",
         "source": "BBC"
       },
       {
-        "title": "Young people out of work or training costing UK £125bn as report warns of 'perfect storm'",
+        "title": "Opportunities shrinking for too many young people, says major report on 'lost generation'",
         "link": "https://www.bbc.com/news/articles/cy026x9jpd0o?at_medium=RSS&at_campaign=rss",
-        "summary": "A report warns the UK is \"at risk of a lost generation\" with number of 16 to 24-year-olds out of work, education or training set to rise to 1.25 milli...",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1fe3/live/cd580120-59b7-11f1-a709-a756a39103f6.jpg",
-        "publishedAt": "2026-05-28T11:35:33.000Z",
+        "summary": "A report warns the number of 16 to 24-year-olds out of work, education or training set to rise to 1.25 million by 2031.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2237/live/39cb56c0-5aaf-11f1-b277-cd187c78657d.jpg",
+        "publishedAt": "2026-05-28T15:09:57.000Z",
         "source": "BBC"
+      },
+      {
+        "title": "America’s pile of emergency oil is shrinking fast",
+        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9UMnZtUU1tSXRrcEFfZ2hraDcxdzVJbnFyYl8tUk9SNHk4bEpBNllOQzhlU1JsNV96QUIzTlZyZGVVLWJ2QnBEaW4zZXQ4Ni1GNS1pWmVrY0xkWVczbjAyd0x0MnJHWnl2bHJ3am9hMEFPdWVUT3M4?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-05-28T11:00:08.000Z",
+        "source": "CNN"
       },
       {
         "title": "Ousted BP chairman hits back at 'lies' about his behaviour",
@@ -370,14 +378,6 @@
         "summary": "Coffees at some city centre outlets now cost £5. It's a story of tariffs, the climate, Gen Z cultural tastes, and savvy coffee farmers playing the mar...",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/33c2/live/926ae700-59dd-11f1-8b8c-6d33e1d5abb6.jpg",
         "publishedAt": "2026-05-28T06:44:47.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Is 'out of control' US tipping culture spreading overseas?",
-        "link": "https://www.bbc.com/news/articles/cj6p0wrkpj8o?at_medium=RSS&at_campaign=rss",
-        "summary": "With US waiting staff getting cross at receiving less than 20%, tips are also on the rise elsewhere.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7b48/live/fcd95050-5770-11f1-907e-c389fdeeba6e.jpg",
-        "publishedAt": "2026-05-27T23:14:43.000Z",
         "source": "BBC"
       }
     ],
@@ -425,186 +425,94 @@
     ],
     "domestic": [
       {
-        "title": "王沪宁会见英国跨党派议员代表团",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-28/10630410.shtml",
-        "summary": "新华社北京5月28日电 中共中央政治局常委、全国政协主席王沪宁28日在京会见来华出席第十四届中英政党对话的英国跨党派议员代表团。",
+        "title": "东西问｜德国汉学家培高德：德国社会如何更好理解当代中国？",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-28/10630531.shtml",
+        "summary": "中新社柏林5月28日电 题：德国社会如何更好理解当代中国？——专访德国汉学家、历史学家、波恩大学教授培高德",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/05/28/b520261b36374c9d8135cf3c5623f9c0.jpg",
+        "publishedAt": "2026-05-28T14:02:33.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "上海建工集团股份有限公司原副总裁张惠忠接受审查调查",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-28/10630516.shtml",
+        "summary": "中新网5月28日电 据上海市纪委监委消息，上海建工集团股份有限公司原副总裁张惠忠涉嫌严重违纪违法，目前正接受上海市纪委监委纪律审查和监察调查。",
         "image": "",
-        "publishedAt": "2026-05-28T11:39:13.000Z",
+        "publishedAt": "2026-05-28T13:58:58.000Z",
         "source": "中新网"
       },
       {
-        "title": "江南珍档精品展在沪启幕 再现长三角千年变迁",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-28/10630381.shtml",
-        "summary": "中新网上海5月28日电 (记者 张亨伟)由沪苏浙皖三省一市档案局、档案馆联合主办的“江南珍档国之瑰宝——长三角地区中国档案文献遗产精品展”28日在上海市档案馆举行。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260528/666030b8-739f-4c27-8c04-e3b6a3a89b73_zsite.jpeg",
-        "publishedAt": "2026-05-28T11:32:27.000Z",
+        "title": "东西问·知味东方｜武契奇品尝的嘉兴原汤粽有多鲜？",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-28/10630524.shtml",
+        "summary": "中新社浙江嘉兴5月28日电 题：武契奇品尝的嘉兴原汤粽有多鲜？",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/05/28/5fb2926c4c7e43b8a31b638ada79a0b9.jpg",
+        "publishedAt": "2026-05-28T13:50:50.000Z",
         "source": "中新网"
       },
       {
-        "title": "广西举办“教育家精神”宣讲活动 三位女校长诠释“爱与坚守”",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-28/10630334.shtml",
-        "summary": "中新网南宁5月28日电(刘海文 黄艳梅)从为听障儿童搭建职业成长桥梁，到用三十余载追光育人，再到用爱守护学生成长……5月27日，广西优秀教师代表“教育家精神”2026年宣讲(南宁)专场报告会在广西民族大学举办，三位优秀教师用真实故事诠释育人初心，传递新时代教育家精神的温暖力量。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260528/7db24358-0dfb-4455-b6c6-9af703598bc4_zsite.jpg",
-        "publishedAt": "2026-05-28T11:23:37.000Z",
+        "title": "“十五五”开局，民营企业家与新的社会阶层人士共话新担当",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-28/10630508.shtml",
+        "summary": "中新网北京5月28日电 题：“十五五”开局，民营企业家与新的社会阶层人士共话新担当",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260528/0ddc212c-9bdd-4288-b7df-42220fc9cea7_zsite.jpg",
+        "publishedAt": "2026-05-28T13:47:35.000Z",
         "source": "中新网"
       },
       {
-        "title": "国务院印发《城市更新“十五五”规划》",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-28/10630386.shtml",
-        "summary": "新华社北京5月28日电#8195;国务院日前印发《城市更新“十五五”规划》(以下简称《规划》)，明确了“十五五”时期城市更新工作的目标指标、重点任务、重大工程和政策举措。",
+        "title": "《国家基本医疗保险医疗服务项目目录（第一批）制定工作方案》公开征求意见",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-28/10630511.shtml",
+        "summary": "中新网5月28日电 据国家医疗保障局网站消息，为深入贯彻落实党中央、国务院关于增强社会保障制度统一性和规范性的要求，持续完善医疗服务项目医保支付管理，国家医保局拟建立国家基本医疗保险医疗服务项目目录。",
         "image": "",
-        "publishedAt": "2026-05-28T11:01:15.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "我国“三夏”大规模小麦机收全面展开",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-28/10630372.shtml",
-        "summary": "记者从农业农村部了解到，截至5月28日17时，各地已收夏粮小麦4897万亩、当日机收面积已超过1000万亩，今年全国“三夏”大规模小麦机收全面展开。当前麦收总体进度已近两成，西南地区及湖北麦收已进入尾声，河南、安徽进度近一成，江苏、陕西等地陆续开收。今年“三夏”，全国将投入各类农机具超1700万台套...",
-        "image": "",
-        "publishedAt": "2026-05-28T10:50:26.000Z",
+        "publishedAt": "2026-05-28T13:37:21.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "Israel strikes Beirut and southern Lebanon after large-scale evacuation orders",
-        "link": "https://www.bbc.com/news/articles/cj3pgrpmlklo?at_medium=RSS&at_campaign=rss",
-        "summary": "The Israeli military has ordered Lebanese residents to leave some 17% of the country's territory.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5903/live/b92c9b50-5a5e-11f1-8b8c-6d33e1d5abb6.jpg",
-        "publishedAt": "2026-05-28T11:31:59.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Sixteen pupils killed in Kenya school fire",
-        "link": "https://www.bbc.com/news/articles/cx21kkxq81po?at_medium=RSS&at_campaign=rss",
-        "summary": "Dozens of people were also injured in the fire, the cause of which is not yet known.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7fb3/live/8524d070-5a72-11f1-89a3-d1f559421220.jpg",
-        "publishedAt": "2026-05-28T11:30:50.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Man arrested after three injured in stabbing at Swiss train station",
-        "link": "https://www.bbc.com/news/articles/cddpllqv49qo?at_medium=RSS&at_campaign=rss",
-        "summary": "The suspect, a 31-year-old Swiss man, has been arrested, police say, as areas around the station are cordoned off.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9abd/live/27030570-5a7c-11f1-8954-638c887fc9b3.jpg",
-        "publishedAt": "2026-05-28T10:52:21.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "US justice department launches criminal investigation into Trump accuser E Jean Carroll, reports say",
-        "link": "https://www.bbc.com/news/articles/clyp77jd407o?at_medium=RSS&at_campaign=rss",
-        "summary": "The case centres on whether the former columnist lied about the funding she received for her civil lawsuit against the US president.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/12dd/live/e30371c0-5a85-11f1-8b8c-6d33e1d5abb6.jpg",
-        "publishedAt": "2026-05-28T10:15:03.000Z",
+        "title": "Israel hits Lebanese capital in 'targeted strike'",
+        "link": "https://www.bbc.com/news/articles/cgqpjwdv7xeo?at_medium=RSS&at_campaign=rss",
+        "summary": "Beirut had until now largely been spared even as both Israel and Hezbollah accused each other of breaking last month's ceasefire.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2412/live/e8e37ed0-5a9b-11f1-9626-f75d5d5577d2.jpg",
+        "publishedAt": "2026-05-28T15:57:01.000Z",
         "source": "BBC"
       },
       {
         "title": "Iran says it targeted American base after fresh US strikes",
         "link": "https://www.bbc.com/news/articles/c98r2qy5809o?at_medium=RSS&at_campaign=rss",
         "summary": "The hostilities come during a fragile ceasefire between the US and Iran, and protracted negotiations to end the three-month war.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/99fb/live/5a9b9af0-5a40-11f1-a295-ab4de21b4525.jpg",
-        "publishedAt": "2026-05-28T09:58:49.000Z",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fccc/live/6b387cc0-5a9f-11f1-8b8c-6d33e1d5abb6.jpg",
+        "publishedAt": "2026-05-28T15:53:05.000Z",
         "source": "BBC"
+      },
+      {
+        "title": "Villas, cars and cash: Italy seizes dead Mafia mobster's millions",
+        "link": "https://www.bbc.com/news/articles/ceqpd4gqgveo?at_medium=RSS&at_campaign=rss",
+        "summary": "Police say the operation targeted the network of notorious late Sicilian mafia boss Matteo Messina Denaro.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cdae/live/4e668fc0-5a94-11f1-b5ae-83d5964726ad.jpg",
+        "publishedAt": "2026-05-28T14:47:05.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Are US and Iran close to peace or sliding back to war?",
+        "link": "https://www.bbc.com/news/articles/cze29764067o?at_medium=RSS&at_campaign=rss",
+        "summary": "Neither side seems interested in a return to all-out conflict, despite the latest exchange of strikes.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4b47/live/14febc40-5a9d-11f1-8b8c-6d33e1d5abb6.jpg",
+        "publishedAt": "2026-05-28T14:42:27.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "World No. 1 Jannik Sinner crashes out of heat-stricken Roland Garros in five-set upset",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRlB2VThLS0lnSWN0WWhtY2M4T1RETWhSUmM0NEZ6bngxZkZTdVNCRnVvNTFMNEVIZm1uc0VWdTRaemR5V3Z6OVNSRUlLUEVvT2d3MHhMLWdteFB6bFNmRWpTa1pqMEx1cENySng1dEhnOV9PbWdqd3J6VktMME0yWkR3?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-05-28T13:59:49.000Z",
+        "source": "CNN"
       }
     ],
     "nba": []
   },
   "nbaScoreboard": {
-    "date": "2026-05-28",
+    "date": "2026-05-29",
     "currentIndex": 4,
     "days": [
-      {
-        "date": "2026-05-24",
-        "games": [
-          {
-            "id": "401873200",
-            "link": "https://www.espn.com/nba/game/_/gameId/401873200/thunder-spurs",
-            "startTime": "2026-05-25T00:00Z",
-            "state": "post",
-            "statusText": "Final",
-            "detail": "Final",
-            "note": "West Finals - Game 4",
-            "homeTeam": {
-              "abbreviation": "SA",
-              "displayName": "San Antonio Spurs",
-              "score": "103",
-              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
-              "leaderContext": "Game Leaders",
-              "leaders": [
-                {
-                  "label": "PTS",
-                  "value": "33",
-                  "player": "Victor Wembanyama",
-                  "position": "F",
-                  "jersey": "1",
-                  "summary": "11/22 FG, 8/9 FT",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
-                  "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
-                },
-                {
-                  "label": "REB",
-                  "value": "10",
-                  "player": "De'Aaron Fox",
-                  "position": "G",
-                  "jersey": "4",
-                  "summary": "8 DREB, 2 OREB",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066259.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4066259/deaaron-fox"
-                },
-                {
-                  "label": "AST",
-                  "value": "6",
-                  "player": "Stephon Castle",
-                  "position": "G",
-                  "jersey": "5",
-                  "summary": "1 TO, 30 MIN",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4845367.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4845367/stephon-castle"
-                }
-              ]
-            },
-            "awayTeam": {
-              "abbreviation": "OKC",
-              "displayName": "Oklahoma City Thunder",
-              "score": "82",
-              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png",
-              "leaderContext": "Game Leaders",
-              "leaders": [
-                {
-                  "label": "PTS",
-                  "value": "19",
-                  "player": "Shai Gilgeous-Alexander",
-                  "position": "G",
-                  "jersey": "2",
-                  "summary": "6/15 FG, 7/7 FT",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278073.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4278073/shai-gilgeous-alexander"
-                },
-                {
-                  "label": "REB",
-                  "value": "9",
-                  "player": "Chet Holmgren",
-                  "position": "C",
-                  "jersey": "7",
-                  "summary": "6 DREB, 3 OREB",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433255.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4433255/chet-holmgren"
-                },
-                {
-                  "label": "AST",
-                  "value": "7",
-                  "player": "Shai Gilgeous-Alexander",
-                  "position": "G",
-                  "jersey": "2",
-                  "summary": "4 TO, 31 MIN",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278073.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4278073/shai-gilgeous-alexander"
-                }
-              ]
-            }
-          }
-        ]
-      },
       {
         "date": "2026-05-25",
         "games": [
@@ -988,100 +896,16 @@
       {
         "date": "2026-06-01",
         "games": []
+      },
+      {
+        "date": "2026-06-02",
+        "games": []
       }
     ],
-    "games": [
-      {
-        "id": "401873202",
-        "link": "https://www.espn.com/nba/game/_/gameId/401873202/thunder-spurs",
-        "startTime": "2026-05-29T00:30Z",
-        "state": "pre",
-        "statusText": "Scheduled",
-        "detail": "5/28 - 8:30 PM EDT",
-        "note": "West Finals - Game 6",
-        "homeTeam": {
-          "abbreviation": "SA",
-          "displayName": "San Antonio Spurs",
-          "score": "0",
-          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
-          "leaderContext": "Season Leaders",
-          "leaders": [
-            {
-              "label": "PPG",
-              "value": "25.0",
-              "player": "Victor Wembanyama",
-              "position": "F",
-              "jersey": "1",
-              "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
-              "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
-            },
-            {
-              "label": "RPG",
-              "value": "11.5",
-              "player": "Victor Wembanyama",
-              "position": "F",
-              "jersey": "1",
-              "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
-              "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
-            },
-            {
-              "label": "APG",
-              "value": "7.4",
-              "player": "Stephon Castle",
-              "position": "G",
-              "jersey": "5",
-              "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4845367.png",
-              "link": "https://www.espn.com/nba/player/_/id/4845367/stephon-castle"
-            }
-          ]
-        },
-        "awayTeam": {
-          "abbreviation": "OKC",
-          "displayName": "Oklahoma City Thunder",
-          "score": "0",
-          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
-          "leaderContext": "Season Leaders",
-          "leaders": [
-            {
-              "label": "PPG",
-              "value": "31.1",
-              "player": "Shai Gilgeous-Alexander",
-              "position": "G",
-              "jersey": "2",
-              "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278073.png",
-              "link": "https://www.espn.com/nba/player/_/id/4278073/shai-gilgeous-alexander"
-            },
-            {
-              "label": "RPG",
-              "value": "8.9",
-              "player": "Chet Holmgren",
-              "position": "C",
-              "jersey": "7",
-              "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433255.png",
-              "link": "https://www.espn.com/nba/player/_/id/4433255/chet-holmgren"
-            },
-            {
-              "label": "APG",
-              "value": "6.6",
-              "player": "Shai Gilgeous-Alexander",
-              "position": "G",
-              "jersey": "2",
-              "summary": "",
-              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278073.png",
-              "link": "https://www.espn.com/nba/player/_/id/4278073/shai-gilgeous-alexander"
-            }
-          ]
-        }
-      }
-    ]
+    "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-05-28",
+    "rotationLabel": "Curated Rotation · 2026-05-29",
     "sections": [
       {
         "id": "data-storage",
@@ -1089,26 +913,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-5",
-            "sectionId": "data-storage",
-            "title": "The FAISS Library",
-            "authors": [
-              "Jeff Johnson",
-              "Matthijs Douze",
-              "Herve Jegou"
-            ],
-            "venue": "IEEE T-BD",
-            "year": 2021,
-            "quality": "高影响力",
-            "categories": [
-              "vector search",
-              "ANN"
-            ],
-            "link": "https://arxiv.org/abs/2401.08281",
-            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-6",
             "sectionId": "data-storage",
@@ -1128,7 +932,7 @@
             ],
             "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
             "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-1",
@@ -1150,6 +954,27 @@
             "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
             "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-2",
+            "sectionId": "data-storage",
+            "title": "Bigtable: A Distributed Storage System for Structured Data",
+            "authors": [
+              "Fay Chang",
+              "Jeffrey Dean",
+              "Sanjay Ghemawat",
+              "Wilson C. Hsieh"
+            ],
+            "venue": "OSDI",
+            "year": 2006,
+            "quality": "顶会",
+            "categories": [
+              "distributed systems",
+              "database"
+            ],
+            "link": "https://research.google/pubs/pub27898/",
+            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -1159,27 +984,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-6",
-            "sectionId": "computer-vision",
-            "title": "DINOv2: Learning Robust Visual Features without Supervision",
-            "authors": [
-              "Maxime Oquab",
-              "Timothée Darcet",
-              "Théo Moutakanni",
-              "Huy V. Vo"
-            ],
-            "venue": "arXiv / Meta",
-            "year": 2023,
-            "quality": "高影响力",
-            "categories": [
-              "self-supervised",
-              "representation"
-            ],
-            "link": "https://arxiv.org/abs/2304.07193",
-            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-1",
             "sectionId": "computer-vision",
@@ -1199,7 +1003,7 @@
             ],
             "link": "https://arxiv.org/abs/1512.03385",
             "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-2",
@@ -1221,6 +1025,27 @@
             "link": "https://arxiv.org/abs/2005.12872",
             "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-3",
+            "sectionId": "computer-vision",
+            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+            "authors": [
+              "Alexey Dosovitskiy",
+              "Lucas Beyer",
+              "Alexander Kolesnikov",
+              "Dirk Weissenborn"
+            ],
+            "venue": "ICLR",
+            "year": 2021,
+            "quality": "顶会",
+            "categories": [
+              "vision transformer",
+              "classification"
+            ],
+            "link": "https://arxiv.org/abs/2010.11929",
+            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -1230,27 +1055,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-1",
-            "sectionId": "llm-memory",
-            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
-            "authors": [
-              "Patrick Lewis",
-              "Ethan Perez",
-              "Aleksandra Piktus",
-              "Fabio Petroni"
-            ],
-            "venue": "NeurIPS",
-            "year": 2020,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "retrieval"
-            ],
-            "link": "https://arxiv.org/abs/2005.11401",
-            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-2",
             "sectionId": "llm-memory",
@@ -1270,7 +1074,7 @@
             ],
             "link": "https://arxiv.org/abs/2203.08913",
             "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-3",
@@ -1292,6 +1096,27 @@
             "link": "https://arxiv.org/abs/2112.04426",
             "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-4",
+            "sectionId": "llm-memory",
+            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+            "authors": [
+              "Akari Asai",
+              "Zequn Zhang",
+              "Avirup Sil",
+              "Hannaneh Hajishirzi"
+            ],
+            "venue": "ICLR",
+            "year": 2024,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "self-reflection"
+            ],
+            "link": "https://arxiv.org/abs/2310.11511",
+            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -1301,27 +1126,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-2",
-            "sectionId": "agents",
-            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
-            "authors": [
-              "Timo Schick",
-              "Jane Dwivedi-Yu",
-              "Roberta Dessì",
-              "Ari Holtzman"
-            ],
-            "venue": "NeurIPS",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "tool use",
-              "agent"
-            ],
-            "link": "https://arxiv.org/abs/2302.04761",
-            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-3",
             "sectionId": "agents",
@@ -1341,7 +1145,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.03442",
             "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-4",
@@ -1362,6 +1166,27 @@
             ],
             "link": "https://arxiv.org/abs/2305.16291",
             "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-5",
+            "sectionId": "agents",
+            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+            "authors": [
+              "Qingyun Wu",
+              "Gagan Bansal",
+              "Jiaqi Zhang",
+              "Yiran Wu"
+            ],
+            "venue": "COLM",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "multi-agent",
+              "framework"
+            ],
+            "link": "https://arxiv.org/abs/2308.08155",
+            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
             "trackLabel": "轮换精选"
           }
         ]
