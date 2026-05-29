@@ -1,34 +1,26 @@
 {
-  "generatedAt": "2026-05-29T11:38:32.242Z",
+  "generatedAt": "2026-05-29T16:05:30.903Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 26,
+      "temperature": 20,
       "weatherCode": 0,
-      "windSpeed": 17
+      "windSpeed": 7
     },
     "today": {
-      "date": "2026-05-29",
-      "weatherCode": 0,
-      "description": "晴朗",
-      "max": 32,
-      "min": 15,
-      "precipitationProbability": 2
+      "date": "2026-05-30",
+      "weatherCode": 95,
+      "description": "雷暴",
+      "max": 33,
+      "min": 16,
+      "precipitationProbability": 0
     },
     "forecast": [
-      {
-        "date": "2026-05-29",
-        "weatherCode": 0,
-        "description": "晴朗",
-        "max": 32,
-        "min": 15,
-        "precipitationProbability": 2
-      },
       {
         "date": "2026-05-30",
         "weatherCode": 95,
         "description": "雷暴",
-        "max": 34,
+        "max": 33,
         "min": 16,
         "precipitationProbability": 0
       },
@@ -38,49 +30,66 @@
         "description": "阴天",
         "max": 33,
         "min": 20,
-        "precipitationProbability": 10
+        "precipitationProbability": 6
       },
       {
         "date": "2026-06-01",
         "weatherCode": 3,
         "description": "阴天",
-        "max": 35,
-        "min": 19,
-        "precipitationProbability": 0
+        "max": 34,
+        "min": 20,
+        "precipitationProbability": 2
       },
       {
         "date": "2026-06-02",
         "weatherCode": 95,
         "description": "雷暴",
         "max": 35,
+        "min": 20,
+        "precipitationProbability": 8
+      },
+      {
+        "date": "2026-06-03",
+        "weatherCode": 95,
+        "description": "雷暴",
+        "max": 26,
         "min": 21,
-        "precipitationProbability": 6
+        "precipitationProbability": 29
       }
     ]
   },
   "classicQuote": {
-    "id": "taoteching-accumulate",
-    "text": "合抱之木，生于毫末；九层之台，起于累土。",
+    "id": "taoteching-self",
+    "text": "知人者智，自知者明；胜人者有力，自胜者强。",
     "source": "《道德经》",
     "author": "老子",
-    "note": "再大的目标，也要拆成今天能推进的一小步。"
+    "note": "比起和别人比较，更重要的是把自己的节奏稳住。"
   },
   "bookExcerpt": {
-    "id": "camel-xiangzi-sky",
-    "text": "天是越来越晴朗了，一轮火一样的太阳悬在空中，街上的一切都像在明晃晃地发着白光。",
-    "book": "《骆驼祥子》",
-    "author": "老舍"
+    "id": "norwegian-wood-rain",
+    "text": "雨还在下，细得像雾，落在草地和树叶上，世界像被一种安静的潮气轻轻包住。",
+    "book": "《挪威的森林》",
+    "author": "村上春树"
   },
   "featuredPlace": {
-    "id": "202605281600",
-    "title": "珠穆朗玛峰峰顶，萨加玛塔国家公园，尼泊尔",
+    "id": "202605291600",
+    "title": "平原斑马幼崽，埃托沙国家公园，纳米比亚",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "巅峰历史时刻",
-    "image": "https://www.bing.com/th?id=OHR.SummitEverest_ZH-CN9252833251_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E4%BA%BA%E7%B1%BB%E9%A6%96%E6%AC%A1%E5%BE%81%E6%9C%8D%E4%B8%96%E7%95%8C%E6%9C%80%E9%AB%98%E5%B3%B0&form=hpcapt&mkt=zh-cn"
+    "summary": "读懂黑白之间",
+    "image": "https://www.bing.com/th?id=OHR.EquusQuagga_ZH-CN9323988132_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E5%B9%B3%E5%8E%9F%E6%96%91%E9%A9%AC&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202605291600",
+      "title": "平原斑马幼崽，埃托沙国家公园，纳米比亚",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "读懂黑白之间",
+      "image": "https://www.bing.com/th?id=OHR.EquusQuagga_ZH-CN9323988132_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E5%B9%B3%E5%8E%9F%E6%96%91%E9%A9%AC&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202605281600",
       "title": "珠穆朗玛峰峰顶，萨加玛塔国家公园，尼泊尔",
@@ -143,217 +152,208 @@
       "summary": "为龟类喝彩！",
       "image": "https://www.bing.com/th?id=OHR.ThreeTurtlesButterflies_ZH-CN7043849571_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E4%B9%8C%E9%BE%9F%E6%97%A5&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202605211600",
-      "title": "埃希环礁，土阿莫土群岛，法属波利尼西亚",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "海洋生命的律动",
-      "image": "https://www.bing.com/th?id=OHR.KauehiAtollLagoon_ZH-CN9552036080_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E5%9B%BD%E9%99%85%E7%94%9F%E7%89%A9%E5%A4%9A%E6%A0%B7%E6%80%A7%E6%97%A5&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-05-29",
-    "dateLabel": "5月29日",
+    "dateKey": "2026-05-30",
+    "dateLabel": "5月30日",
     "items": [
       {
-        "year": "2023",
-        "text": "有17年歷史，曾為香港民主派第二大黨的公民黨決議解散。",
-        "link": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4"
+        "year": "2024",
+        "text": "美國紐約州最高法院裁定前總統唐納·川普在封口費醜聞中涉及的偽造商業紀錄刑事罪名全數成立，使其成為首位遭定罪的前總統。",
+        "link": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4"
       },
       {
-        "year": "2011",
-        "text": "巴塞罗那足球俱乐部于欧洲冠军联赛决赛中，在英国温布利球场以3-1的比分击败曼彻斯特联，历史上第四次获得欧洲冠军联赛的冠军。",
-        "link": "https://zh.wikipedia.org/wiki/2011%E5%B9%B4"
+        "year": "2015",
+        "text": "日本小笠原群岛附近海域发生里氏規模8.1的地震，是日本境内观测到的最大规模的深源地震。",
+        "link": "https://zh.wikipedia.org/wiki/2015%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "飞船返回制动结束 神二十一航天员报告感觉良好",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-29/10631036.shtml",
-        "summary": "神舟二十二号载人飞船发动机关机，返回制动结束。飞船工况正常，神舟二十一号航天员报告感觉良好。",
+        "title": "努力成为跨越太平洋的“友谊使者”——习近平主席复信激励中美青少年和友好人士为两国关系稳定健康可持续发展贡献力量",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-29/10631213.shtml",
+        "summary": "新华社北京5月29日电 题：努力成为跨越太平洋的“友谊使者”——习近平主席复信激励中美青少年和友好人士为两国关系稳定健康可持续发展贡献力量",
         "image": "",
-        "publishedAt": "2026-05-29T11:25:35.000Z",
+        "publishedAt": "2026-05-29T15:08:01.000Z",
         "source": "中新网"
       },
       {
-        "title": "神舟二十二号载人飞船轨道舱与返回舱成功分离",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-29/10631035.shtml",
-        "summary": "新华社快讯：神舟二十二号载人飞船轨道舱与返回舱成功分离。",
+        "title": "第二十三届香格里拉对话会在新加坡开幕",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-29/10631210.shtml",
+        "summary": "中新社新加坡5月29日电 (记者 李纯)为期三天的第二十三届香格里拉对话会5月29日在新加坡开幕。",
         "image": "",
-        "publishedAt": "2026-05-29T11:22:19.000Z",
+        "publishedAt": "2026-05-29T15:04:21.000Z",
         "source": "中新网"
       },
       {
-        "title": "丁向群任国家金融监督管理总局党委书记",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-29/10631033.shtml",
-        "summary": "中新网5月29日电 据国家金融监督管理总局网站消息，2026年5月29日下午，中央组织部有关负责同志出席国家金融监督管理总局领导干部会议，宣布中央决定：丁向群同志任国家金融监督管理总局党委书记。",
+        "title": "专家分析：大陆海警连续两天执法巡查金门海域，释放何种信号？",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-29/10631207.shtml",
+        "summary": "中新网5月29日电(燕新台)据中国海警局网站消息，5月26日、27日，福建海警连续两天位金门附近海域开展执法巡查。",
         "image": "",
-        "publishedAt": "2026-05-29T11:20:17.000Z",
+        "publishedAt": "2026-05-29T14:45:48.000Z",
         "source": "中新网"
       },
       {
-        "title": "第二十一届海峡旅游博览会在厦门开幕",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-29/10630979.shtml",
-        "summary": "中新网厦门5月29日电 (吴冠标)5月29日，第二十一届海峡旅游博览会和2026第十一届中国(厦门)国际休闲旅游博览会在厦门开幕。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260529/41cc981c-941e-4f7f-bbd8-5f4b49bb601b_zsite.jpg",
-        "publishedAt": "2026-05-29T11:09:14.000Z",
+        "title": "东西问｜曹端波：揭秘中国傩戏蕴藏的文化密码",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-29/10631202.shtml",
+        "summary": "中新社湖南怀化5月29日电 题：揭秘中国傩戏蕴藏的文化密码",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/05/29/9e48f331357340aeb034db36d62b1b07.jpg",
+        "publishedAt": "2026-05-29T14:14:58.000Z",
         "source": "中新网"
       },
       {
-        "title": "纪念国际友人耿丽淑诞辰130周年 专题图片展在渝开展",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-29/10630966.shtml",
-        "summary": "中新网重庆5月29日电 (记者 钟旖)为纪念宋庆龄国际友人、中国福利会顾问耿丽淑诞辰130周年，“她有一颗中国心——宋庆龄国际友人耿丽淑图片展”29日在重庆宋庆龄纪念馆开展。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260529/33bb1563-d68f-4325-a33e-b51a6b1b2b37_zsite.JPG",
-        "publishedAt": "2026-05-29T11:02:56.000Z",
+        "title": "神舟二十一号航天员搭乘神舟二十二号载人飞船返回舱凯旋",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-29/10631197.shtml",
+        "summary": "中新社北京5月29日电 (记者 马帅莎)据中国载人航天工程办公室消息，北京时间5月29日20时11分，神舟二十一号航天员乘组搭乘神舟二十二号载人飞船在东风着陆场成功着陆，现场医监医保人员确认航天员张陆、武飞、张洪章身体状态良好，任务取得圆满成功。",
+        "image": "",
+        "publishedAt": "2026-05-29T14:02:37.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "民歌大观奏响云滇乡音 以艺为桥凝聚四海侨心",
-        "link": "https://www.chinanews.com.cn/sh/2026/05-29/10631005.shtml",
-        "summary": "中新网昆明5月29日电 (记者 韩帅南)5月29日，第46期民歌大观“艺传四海润侨心”中外文化交流特别篇在中国新闻网海内外平台播出。本期节目邀请曾多次参与海外慰侨的云南艺术家代表重聚舞台，以歌声传乡情、以民乐叙情谊，搭建起联通海内外、温润侨心的文化桥梁。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260529/bf0accdc-c502-431e-bd67-7efaa77107a2_zsite.jpg",
-        "publishedAt": "2026-05-29T11:35:08.000Z",
+        "title": "中国赢得2030年国际测量师联合会大会主办权",
+        "link": "https://www.chinanews.com.cn/sh/2026/05-29/10631189.shtml",
+        "summary": "中新网开普敦5月29日电 当地时间5月29日，在南非开普敦召开的国际测量师联合会(FIG)2026年大会全体会议上，经全球会员投票，中国青岛以78票高得票率赢得2030年FIG大会主办权。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260529/0598d095-9b07-4508-a9c1-a7704ad39437_zsite.jpg",
+        "publishedAt": "2026-05-29T14:01:19.000Z",
         "source": "中新网"
       },
       {
-        "title": "西藏始终把生态保护作为最大价值、最大潜力、最大责任",
-        "link": "https://www.chinanews.com.cn/sh/2026/05-29/10631003.shtml",
-        "summary": "中新网拉萨5月29日电 (记者 赵朗 江飞波)“西藏始终把生态保护作为最大价值、最大潜力、最大责任。”西藏自治区党委常委、自治区常务副主席旦巴29日在西藏自治区“开局起步‘十五五’”专题新闻发布会上表示。",
+        "title": "津港澳企业家合作交流座谈会在津举行 共话智能产业协同发展",
+        "link": "https://www.chinanews.com.cn/sh/2026/05-29/10631180.shtml",
+        "summary": "中新网天津5月29日电 题：津港澳企业家合作交流座谈会在津举行共话智能产业协同发展",
         "image": "",
-        "publishedAt": "2026-05-29T11:33:10.000Z",
+        "publishedAt": "2026-05-29T14:00:47.000Z",
         "source": "中新网"
       },
       {
-        "title": "刘应成（原法名释永信）一审获刑24年",
-        "link": "https://www.chinanews.com.cn/sh/2026/05-29/10631038.shtml",
-        "summary": "原标题：被告人刘应成职务侵占、挪用资金、非国家工作人员受贿、行贿案一审宣判",
+        "title": "《涉老检察白皮书》在北京发布 “数据+案例”提升老年人防范意识",
+        "link": "https://www.chinanews.com.cn/sh/2026/05-29/10631176.shtml",
+        "summary": "中新网北京5月29日电 (记者 陈杭)五年来，北京市西城区人民检察院共办理老年人被害案件278件392人。涉老年人被害案件罪名多集中在诈骗罪、盗窃罪、故意伤害罪和交通肇事罪等。",
         "image": "",
-        "publishedAt": "2026-05-29T11:31:16.000Z",
+        "publishedAt": "2026-05-29T14:00:25.000Z",
         "source": "中新网"
       },
       {
-        "title": "辽宁法院构建未成年人司法保护“立体防线”",
-        "link": "https://www.chinanews.com.cn/sh/2026/05-29/10630999.shtml",
-        "summary": "中新网沈阳5月29日电 (记者 王景巍)5月29日，在辽宁省政府新闻办召开的新闻发布会上，辽宁省高级人民法院发布数据，2025年辽宁省法院审结一审涉未成年人刑事、民事、行政案件13806件，今年1至4月审结3434件。辽宁省96家少年法庭中，已有16家中院、32家基层院实现涉未成年人案件综合审判。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260529/bef80845-c093-4458-b8e3-71b385e278b3_zsite.jpg",
-        "publishedAt": "2026-05-29T11:19:57.000Z",
+        "title": "西南岩溶国家公园拟创建区发现大型真菌新种",
+        "link": "https://www.chinanews.com.cn/sh/2026/05-29/10631188.shtml",
+        "summary": "中新网南宁5月29日电 (牟光福 覃昌谊)广西林业部门29日介绍，近日，科研人员在西南岩溶国家公园拟创建区广西木论国家级自然保护区发现大型真菌新种——红褐歧盖伞，相关研究成果已发表在国际真菌学期刊《MycoKeys》上。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260529/e3311da2-1ab9-43e8-91c4-423342d89538_zsite.jpeg",
+        "publishedAt": "2026-05-29T14:00:01.000Z",
         "source": "中新网"
       },
       {
-        "title": "“十五五”时期北京将在城市副中心保持每年千亿级投资规模",
-        "link": "https://www.chinanews.com.cn/sh/2026/05-29/10630992.shtml",
-        "summary": "中新网北京5月29日电(记者 徐婧 吕少威)北京市委常委、常务副市长夏林茂在29日举行的开局起步“十五五”北京专场新闻发布会上介绍，“十五五”时期，北京将强化城市副中心和河北雄安新区联动发展，在副中心保持每年千亿级投资规模，推动形成雄安新区和副中心“两翼齐飞”的生动格局。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260529/523afdbf-1392-44d2-8235-68852d0c0d73_zsite.jpg",
-        "publishedAt": "2026-05-29T11:18:23.000Z",
+        "title": "中国佛教协会对刘应成（释永信）案判决结果的声明",
+        "link": "https://www.chinanews.com.cn/sh/2026/05-29/10631196.shtml",
+        "summary": "声明",
+        "image": "",
+        "publishedAt": "2026-05-29T13:58:34.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "海南省第二十二届科技活动月启幕 科创成果集中亮相",
-        "link": "https://www.chinanews.com.cn/cj/2026/05-29/10631007.shtml",
-        "summary": "中新网海口5月29日电(记者王子谦)红树林滩涂作业机器人、具身智能海上无人艇、纵列式eVTOL双旋翼固定翼运输无人机……5月29日，海南省第二十二届科技活动月和全国科技工作者日暨首届海南省中小学科技节系列活动在海口启动，百余件科创展品集中亮相。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260529/a246ed66-2fd5-4030-bf41-521bce2e52e1_zsite.jpg",
-        "publishedAt": "2026-05-29T11:36:58.000Z",
+        "title": "北京新增两个万亿级产业集群，抢占未来发展战略高地",
+        "link": "https://www.chinanews.com.cn/cj/2026/05-29/10631212.shtml",
+        "summary": "刚刚坐上“中国第二个5万亿之城” 交椅的北京，又放出了两张新的万亿级“王牌”。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/05/29/e7ba5106e90549c184399324dbcd48b4.jpg",
+        "publishedAt": "2026-05-29T15:18:10.000Z",
         "source": "中新网"
       },
       {
-        "title": "铁路开进物流园 云南保山补强中缅新通道多式联运",
-        "link": "https://www.chinanews.com.cn/cj/2026/05-29/10631006.shtml",
-        "summary": "中新网保山5月29日电 (陆希成)蒲缥铁路专用线29日在云南省保山市开通。该专用线接入大瑞铁路保山至蒲缥段，铁路运力由此直达蒲缥公铁联运物流园腹地，打通园区公铁联运“最后一公里”，中缅新通道多式联运建设迈入新阶段。",
+        "title": "前4月新能源汽车出口激增1.2倍 业界呼吁推动中国标准“出海”",
+        "link": "https://www.chinanews.com.cn/cj/2026/05-29/10631201.shtml",
+        "summary": "中新网天津5月29日电 (记者 杨子炀)中国新能源汽车全球化布局正跑出“加速度”。最新数据显示，今年前4个月，中国新能源汽车出口达到138.4万辆，同比增长1.2倍。",
         "image": "",
-        "publishedAt": "2026-05-29T11:36:36.000Z",
+        "publishedAt": "2026-05-29T14:02:15.000Z",
         "source": "中新网"
       },
       {
-        "title": "智博会观察：京津冀共赴“AI向实”的生态之约",
-        "link": "https://www.chinanews.com.cn/cj/2026/05-29/10631004.shtml",
-        "summary": "中新网天津5月29日电 题：智博会观察：京津冀共赴“AI向实”的生态之约",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260529/68fed781-74f3-47ad-8a21-0b558402e512_zsite.jpeg",
-        "publishedAt": "2026-05-29T11:34:00.000Z",
+        "title": "宁夏石嘴山发布“十五五”蓝图：力争经济年均增长5% 打造产业转型人才集聚地",
+        "link": "https://www.chinanews.com.cn/cj/2026/05-29/10631194.shtml",
+        "summary": "中新网银川5月29日电 (记者 于晶)5月29日，“开局起步‘十五五’建设美丽新宁夏”系列新闻发布会石嘴山专场在银川举行。发布会全面回顾了石嘴山市“十四五”时期发展成就，并聚焦“十五五”时期转型发展、现代化建设等核心议题，描绘了未来五年的高质量发展蓝图。",
+        "image": "",
+        "publishedAt": "2026-05-29T14:01:31.000Z",
         "source": "中新网"
       },
       {
-        "title": "云南楚雄力争2030年绿色能源与先进制造产值突破1500亿元",
-        "link": "https://www.chinanews.com.cn/cj/2026/05-29/10631002.shtml",
-        "summary": "中新网楚雄5月29日电 (陆希成)29日，云南省“开局起步‘十五五’”主题系列新闻发布会·楚雄专场在昆明举行。会上发布，“十五五”时期，楚雄彝族自治州将依托绿电优势主攻工业，发展“绿电+先进制造”，力争到2030年绿色能源与先进制造产值突破1500亿元(人民币，下同)。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260529/1872ede5-9a8c-4014-92aa-17214b81dc2f_zsite.jpg",
-        "publishedAt": "2026-05-29T11:32:40.000Z",
+        "title": "华为徐直军：“韬定律”不可能只靠一家公司完成",
+        "link": "https://www.chinanews.com.cn/cj/2026/05-29/10631200.shtml",
+        "summary": "中新社北京5月29日电 (记者 刘亮)华为近日发表全球半导体领域新原则“韬(τ)定律”的消息，引发业内高度关注。这是华为首次将六年芯片突围的底层方法论公之于众。在29日发布的一篇公开报道中，华为公司副董事长、轮值董事长徐直军向媒体表示，“韬定律”不可能只靠一家公司完成。",
+        "image": "",
+        "publishedAt": "2026-05-29T14:01:27.000Z",
         "source": "中新网"
       },
       {
-        "title": "天津发布人工智能十大应用标杆场景 太空数智基础设施联合攻关体成立",
-        "link": "https://www.chinanews.com.cn/cj/2026/05-29/10631000.shtml",
-        "summary": "中新网天津5月29日电 (记者 周亚强 王君妍)天津29日发布2025年度人工智能十大应用标杆场景及20个典型案例；“太空数智基础设施联合攻关体”正式成立；超智数三个百亿亿级融合装置平台同步亮相。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260529/aee73359-8814-475d-b81e-318beedfb2a1_zsite.jpg",
-        "publishedAt": "2026-05-29T11:27:53.000Z",
+        "title": "第二十届深圳金博会闭幕 对接超30亿元投融资需求",
+        "link": "https://www.chinanews.com.cn/cj/2026/05-29/10631191.shtml",
+        "summary": "中新网深圳5月29日电 (记者 程景伟 索有为)为期三天的第二十届深圳国际金融博览会(以下简称“金博会”)29日在深圳会展中心(福田)落下帷幕，累计对接科创企业投融资需求约34.26亿元，较去年增长三倍。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260529/c14c2ee2-f310-42f5-bca4-607fd7bb3898_zsite.jpeg",
+        "publishedAt": "2026-05-29T13:59:45.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "Eight students arrested in Kenya after suspected deadly school arson attack",
-        "link": "https://www.bbc.com/news/articles/cx21r3138m9o?at_medium=RSS&at_campaign=rss",
-        "summary": "Sixteen pupils died in the fire that ripped through a dormitory while they were asleep.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d19b/live/f7023e70-5b40-11f1-9f9e-2f9c8c5baaa2.jpg",
-        "publishedAt": "2026-05-29T11:22:10.000Z",
+        "title": "'Poison seller' who sold toxic chemicals online to people across world admits aiding suicides",
+        "link": "https://www.bbc.com/news/articles/c70vg7glglyo?at_medium=RSS&at_campaign=rss",
+        "summary": "Kenneth Law admitted charges relating to Canadian victims - but families say he should also be charged in the UK over 79 deaths in Britain.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/67d2/live/38648570-5b4c-11f1-8b8c-6d33e1d5abb6.jpg",
+        "publishedAt": "2026-05-29T15:29:12.000Z",
         "source": "BBC"
       },
       {
-        "title": "Exploding rocket casts doubts over Nasa's Moon plans",
-        "link": "https://www.bbc.com/news/articles/cwy2q0g07kgo?at_medium=RSS&at_campaign=rss",
-        "summary": "Explosion of Blue Origin rocket is a setback for the company and for Nasa's Moon plans.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a3d4/live/c55b7990-5b4a-11f1-a62b-2f41c7c3a318.jpg",
-        "publishedAt": "2026-05-29T10:38:46.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Iran promises ‘utter ruin’ if war restarts. Here’s what could happen if diplomacy fails",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTVhnUnlzdGZkbDRWR3IyUDY2R3hqUkxpSHdGSlB2X21jdzNUdW9YNV9MbWxjMmtwWG9sejlkbGJFZGxybUI1a3lvT2N0Ul9ScGt2eDZob21RM3VnbE1hd2VORnVJdVdqdjlKekZMaE1wUnVXMC1ocUdIaDZXOUdObF9HVng?oc=5",
+        "title": "Emerging Iran deal risks shattering Netanyahu’s legacy",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVGFHSTVMMEdpLXphMGVUMGwxV2NKWUR0Ml9JbW9ScDVSZVJwbVRUdUQwWkFnV0sxNXViZm4tZFEtQjlXRmtRNTNINEFsTEw0UTIySmpCVktBV3hLeDlCdE8yX3RYeld4RFBUSWZjRU82Mi1UNS1KMHVnQWtRY2NqczhTRy1HZw?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-05-29T09:36:53.000Z",
+        "publishedAt": "2026-05-29T14:31:07.000Z",
         "source": "CNN"
       },
       {
-        "title": "US and Iran 'very close' to deal but 'not there yet', Vance says",
-        "link": "https://www.bbc.com/news/articles/c87qng40wz9o?at_medium=RSS&at_campaign=rss",
-        "summary": "US officials earlier told the BBC that the framework of a ceasefire extension deal had been agreed, pending the approval of Trump and Iran's leadershi...",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d0cd/live/13cf4080-5aeb-11f1-b8b0-e75ba6be4215.jpg",
-        "publishedAt": "2026-05-29T09:17:35.000Z",
+        "title": "'Controversial' North Korean invasion setting for next Call of Duty game",
+        "link": "https://www.bbc.com/news/articles/c9q391y5088o?at_medium=RSS&at_campaign=rss",
+        "summary": "Developer Infinity Ward said the game will be \"grounded in the military authenticity\" the series is known for.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d2ac/live/4da31040-5b66-11f1-8ea9-9775e47f19f8.jpg",
+        "publishedAt": "2026-05-29T13:55:04.000Z",
         "source": "BBC"
       },
       {
-        "title": "Jordan Dawson: Meet the man creating bespoke art for the world’s best athletes",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZnhXYUkzbW1CY0xva3BZMGZFejE2MUNuRl9GcUNJbkpsbVRIbUtLRm96a0I0Mk5aYkVmZUlHeV8tTWlQR1VCOHc3VkxvaENaeWktOFY4bVo5VzM4LWcwMXotNlNsUVYzSkxxOWlfS2hrMGVwZGpQN0JiLTZ2MUNhbVI4ZFE?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-05-29T07:00:08.000Z",
-        "source": "CNN"
+        "title": "Former US attorney general Pam Bondi testifies in congressional Epstein probe",
+        "link": "https://www.bbc.com/news/articles/czj2ldllgwgo?at_medium=RSS&at_campaign=rss",
+        "summary": "The testimony comes about a month after America's top prosecutor was ousted by US President Donald Trump.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c052/live/86183f70-5ae6-11f1-8924-c3e54586b926.jpg",
+        "publishedAt": "2026-05-29T13:17:19.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Nato condemns Russian 'recklessness' after drone hits Romanian residential block",
+        "link": "https://www.bbc.com/news/articles/c93x4nxlkjeo?at_medium=RSS&at_campaign=rss",
+        "summary": "Romania will hold an emergency meeting following the incident, in which two people were injured.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0481/live/15366340-5b3b-11f1-9a6c-c14292377fff.jpg",
+        "publishedAt": "2026-05-29T12:56:30.000Z",
+        "source": "BBC"
       }
     ],
     "worldBusiness": [
       {
-        "title": "Top UK chefs call for 10% VAT cut for pubs and restaurants",
-        "link": "https://www.bbc.com/news/articles/c78kg45yx0vo?at_medium=RSS&at_campaign=rss",
-        "summary": "Tom Kerridge, Yotam Ottolenghi, Ravneet Gill and Simon Rogan told BBC Newsnight VAT should be slashed to 10% to ease mounting pressure on the hospital...",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/37dd/live/ea709f80-5b40-11f1-9f9e-2f9c8c5baaa2.jpg",
-        "publishedAt": "2026-05-29T10:55:45.000Z",
+        "title": "Only three-quarters of first class mail delivered on time",
+        "link": "https://www.bbc.com/news/articles/cy02jyxz26po?at_medium=RSS&at_campaign=rss",
+        "summary": "Royal Mail says its service is improving and that it is on track to hit the regulator Ofcom's reduced targets",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0a2b/live/1aa28260-5b5d-11f1-9ccc-5fe127efdf44.jpg",
+        "publishedAt": "2026-05-29T15:51:39.000Z",
         "source": "BBC"
       },
       {
-        "title": "When trade soured, this American liquor maker moved to Canada",
-        "link": "https://www.bbc.com/news/articles/c2l22ypl909o?at_medium=RSS&at_campaign=rss",
-        "summary": "Phillips Distilling lost 70% of its Canadian business after provinces banned the sale of US liquor. It has since found a way to sell its products in C...",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5a9d/live/c815fa50-5908-11f1-a656-5bf9ca1d9342.jpg",
-        "publishedAt": "2026-05-28T23:29:46.000Z",
+        "title": "Top UK chefs call for cutting VAT for pubs and restaurants to 10%",
+        "link": "https://www.bbc.com/news/articles/c78kg45yx0vo?at_medium=RSS&at_campaign=rss",
+        "summary": "Tom Kerridge, Yotam Ottolenghi, Ravneet Gill and Simon Rogan told BBC Newsnight VAT should be halved to ease mounting pressure on the hospitality indu...",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/37dd/live/ea709f80-5b40-11f1-9f9e-2f9c8c5baaa2.jpg",
+        "publishedAt": "2026-05-29T10:55:45.000Z",
         "source": "BBC"
       },
       {
@@ -383,6 +383,22 @@
     ],
     "worldTech": [
       {
+        "title": "'Controversial' North Korean invasion setting for next Call of Duty game",
+        "link": "https://www.bbc.com/news/articles/c9q391y5088o?at_medium=RSS&at_campaign=rss",
+        "summary": "Developer Infinity Ward said the game will be \"grounded in the military authenticity\" the series is known for.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d2ac/live/4da31040-5b66-11f1-8ea9-9775e47f19f8.jpg",
+        "publishedAt": "2026-05-29T13:55:04.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "5 Things Weekly News Quiz",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNGh1c1lHcHpObkROaEE3LW1LZkNQTHNzVjVUUURNbjl2UDdjaGpBWlZaZG9zd2NqeHhyZUt5U1dIaFY4Q2d6RDk2RXhnMm84SVM5Qy1qY2F0M08temthX0lVLWY1TW5udHgwcUN2VS1jWXJjMTFyYkJPXzZ2N05OcUlCUQ?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-05-29T05:41:29.000Z",
+        "source": "CNN"
+      },
+      {
         "title": "Humanoid robots 'the future' of car making, says BMW",
         "link": "https://www.bbc.com/news/articles/cgmpwzzvxr2o?at_medium=RSS&at_campaign=rss",
         "summary": "BMW is introducing humanoid robots to a car plant in Europe, building on similar projects in the US.",
@@ -405,206 +421,147 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ea1/live/b8feab80-5a74-11f1-8954-638c887fc9b3.jpg",
         "publishedAt": "2026-05-28T10:22:55.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "King's College team wins access to cutting-edge Google quantum chip",
-        "link": "https://www.bbc.com/news/articles/cd7pwezyze1o?at_medium=RSS&at_campaign=rss",
-        "summary": "King's College London researchers hope the chip will help answer previously unanswerable questions about the most important natural processes.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7b75/live/87affa50-59d1-11f1-b682-cf91850925ea.jpg",
-        "publishedAt": "2026-05-28T08:41:28.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Meta repeatedly snubs EU body over Facebook and Instagram user bans",
-        "link": "https://www.bbc.com/news/articles/c152yvwjwkko?at_medium=RSS&at_campaign=rss",
-        "summary": "The BBC has been contacted by hundreds of users who claimed they had been wrongly banned from the sites.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bb66/live/92ae8910-59c4-11f1-881a-473372e64622.jpg",
-        "publishedAt": "2026-05-28T08:28:43.000Z",
-        "source": "BBC"
       }
     ],
     "domestic": [
       {
-        "title": "飞船返回制动结束 神二十一航天员报告感觉良好",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-29/10631036.shtml",
-        "summary": "神舟二十二号载人飞船发动机关机，返回制动结束。飞船工况正常，神舟二十一号航天员报告感觉良好。",
+        "title": "努力成为跨越太平洋的“友谊使者”——习近平主席复信激励中美青少年和友好人士为两国关系稳定健康可持续发展贡献力量",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-29/10631213.shtml",
+        "summary": "新华社北京5月29日电 题：努力成为跨越太平洋的“友谊使者”——习近平主席复信激励中美青少年和友好人士为两国关系稳定健康可持续发展贡献力量",
         "image": "",
-        "publishedAt": "2026-05-29T11:25:35.000Z",
+        "publishedAt": "2026-05-29T15:08:01.000Z",
         "source": "中新网"
       },
       {
-        "title": "神舟二十二号载人飞船轨道舱与返回舱成功分离",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-29/10631035.shtml",
-        "summary": "新华社快讯：神舟二十二号载人飞船轨道舱与返回舱成功分离。",
+        "title": "第二十三届香格里拉对话会在新加坡开幕",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-29/10631210.shtml",
+        "summary": "中新社新加坡5月29日电 (记者 李纯)为期三天的第二十三届香格里拉对话会5月29日在新加坡开幕。",
         "image": "",
-        "publishedAt": "2026-05-29T11:22:19.000Z",
+        "publishedAt": "2026-05-29T15:04:21.000Z",
         "source": "中新网"
       },
       {
-        "title": "丁向群任国家金融监督管理总局党委书记",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-29/10631033.shtml",
-        "summary": "中新网5月29日电 据国家金融监督管理总局网站消息，2026年5月29日下午，中央组织部有关负责同志出席国家金融监督管理总局领导干部会议，宣布中央决定：丁向群同志任国家金融监督管理总局党委书记。",
+        "title": "专家分析：大陆海警连续两天执法巡查金门海域，释放何种信号？",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-29/10631207.shtml",
+        "summary": "中新网5月29日电(燕新台)据中国海警局网站消息，5月26日、27日，福建海警连续两天位金门附近海域开展执法巡查。",
         "image": "",
-        "publishedAt": "2026-05-29T11:20:17.000Z",
+        "publishedAt": "2026-05-29T14:45:48.000Z",
         "source": "中新网"
       },
       {
-        "title": "第二十一届海峡旅游博览会在厦门开幕",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-29/10630979.shtml",
-        "summary": "中新网厦门5月29日电 (吴冠标)5月29日，第二十一届海峡旅游博览会和2026第十一届中国(厦门)国际休闲旅游博览会在厦门开幕。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260529/41cc981c-941e-4f7f-bbd8-5f4b49bb601b_zsite.jpg",
-        "publishedAt": "2026-05-29T11:09:14.000Z",
+        "title": "东西问｜曹端波：揭秘中国傩戏蕴藏的文化密码",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-29/10631202.shtml",
+        "summary": "中新社湖南怀化5月29日电 题：揭秘中国傩戏蕴藏的文化密码",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/05/29/9e48f331357340aeb034db36d62b1b07.jpg",
+        "publishedAt": "2026-05-29T14:14:58.000Z",
         "source": "中新网"
       },
       {
-        "title": "纪念国际友人耿丽淑诞辰130周年 专题图片展在渝开展",
-        "link": "https://www.chinanews.com.cn/gn/2026/05-29/10630966.shtml",
-        "summary": "中新网重庆5月29日电 (记者 钟旖)为纪念宋庆龄国际友人、中国福利会顾问耿丽淑诞辰130周年，“她有一颗中国心——宋庆龄国际友人耿丽淑图片展”29日在重庆宋庆龄纪念馆开展。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260529/33bb1563-d68f-4325-a33e-b51a6b1b2b37_zsite.JPG",
-        "publishedAt": "2026-05-29T11:02:56.000Z",
+        "title": "神舟二十一号航天员搭乘神舟二十二号载人飞船返回舱凯旋",
+        "link": "https://www.chinanews.com.cn/gn/2026/05-29/10631197.shtml",
+        "summary": "中新社北京5月29日电 (记者 马帅莎)据中国载人航天工程办公室消息，北京时间5月29日20时11分，神舟二十一号航天员乘组搭乘神舟二十二号载人飞船在东风着陆场成功着陆，现场医监医保人员确认航天员张陆、武飞、张洪章身体状态良好，任务取得圆满成功。",
+        "image": "",
+        "publishedAt": "2026-05-29T14:02:37.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "Eight students arrested in Kenya after suspected deadly school arson attack",
-        "link": "https://www.bbc.com/news/articles/cx21r3138m9o?at_medium=RSS&at_campaign=rss",
-        "summary": "Sixteen pupils died in the fire that ripped through a dormitory while they were asleep.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d19b/live/f7023e70-5b40-11f1-9f9e-2f9c8c5baaa2.jpg",
-        "publishedAt": "2026-05-29T11:22:10.000Z",
+        "title": "'Poison seller' who sold toxic chemicals online to people across world admits aiding suicides",
+        "link": "https://www.bbc.com/news/articles/c70vg7glglyo?at_medium=RSS&at_campaign=rss",
+        "summary": "Kenneth Law admitted charges relating to Canadian victims - but families say he should also be charged in the UK over 79 deaths in Britain.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/67d2/live/38648570-5b4c-11f1-8b8c-6d33e1d5abb6.jpg",
+        "publishedAt": "2026-05-29T15:29:12.000Z",
         "source": "BBC"
       },
       {
-        "title": "Exploding rocket casts doubts over Nasa's Moon plans",
-        "link": "https://www.bbc.com/news/articles/cwy2q0g07kgo?at_medium=RSS&at_campaign=rss",
-        "summary": "Explosion of Blue Origin rocket is a setback for the company and for Nasa's Moon plans.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a3d4/live/c55b7990-5b4a-11f1-a62b-2f41c7c3a318.jpg",
-        "publishedAt": "2026-05-29T10:38:46.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Iran promises ‘utter ruin’ if war restarts. Here’s what could happen if diplomacy fails",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTVhnUnlzdGZkbDRWR3IyUDY2R3hqUkxpSHdGSlB2X21jdzNUdW9YNV9MbWxjMmtwWG9sejlkbGJFZGxybUI1a3lvT2N0Ul9ScGt2eDZob21RM3VnbE1hd2VORnVJdVdqdjlKekZMaE1wUnVXMC1ocUdIaDZXOUdObF9HVng?oc=5",
+        "title": "Emerging Iran deal risks shattering Netanyahu’s legacy",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVGFHSTVMMEdpLXphMGVUMGwxV2NKWUR0Ml9JbW9ScDVSZVJwbVRUdUQwWkFnV0sxNXViZm4tZFEtQjlXRmtRNTNINEFsTEw0UTIySmpCVktBV3hLeDlCdE8yX3RYeld4RFBUSWZjRU82Mi1UNS1KMHVnQWtRY2NqczhTRy1HZw?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-05-29T09:36:53.000Z",
+        "publishedAt": "2026-05-29T14:31:07.000Z",
         "source": "CNN"
       },
       {
-        "title": "US and Iran 'very close' to deal but 'not there yet', Vance says",
-        "link": "https://www.bbc.com/news/articles/c87qng40wz9o?at_medium=RSS&at_campaign=rss",
-        "summary": "US officials earlier told the BBC that the framework of a ceasefire extension deal had been agreed, pending the approval of Trump and Iran's leadershi...",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d0cd/live/13cf4080-5aeb-11f1-b8b0-e75ba6be4215.jpg",
-        "publishedAt": "2026-05-29T09:17:35.000Z",
+        "title": "'Controversial' North Korean invasion setting for next Call of Duty game",
+        "link": "https://www.bbc.com/news/articles/c9q391y5088o?at_medium=RSS&at_campaign=rss",
+        "summary": "Developer Infinity Ward said the game will be \"grounded in the military authenticity\" the series is known for.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d2ac/live/4da31040-5b66-11f1-8ea9-9775e47f19f8.jpg",
+        "publishedAt": "2026-05-29T13:55:04.000Z",
         "source": "BBC"
       },
       {
-        "title": "Jordan Dawson: Meet the man creating bespoke art for the world’s best athletes",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZnhXYUkzbW1CY0xva3BZMGZFejE2MUNuRl9GcUNJbkpsbVRIbUtLRm96a0I0Mk5aYkVmZUlHeV8tTWlQR1VCOHc3VkxvaENaeWktOFY4bVo5VzM4LWcwMXotNlNsUVYzSkxxOWlfS2hrMGVwZGpQN0JiLTZ2MUNhbVI4ZFE?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-05-29T07:00:08.000Z",
-        "source": "CNN"
+        "title": "Former US attorney general Pam Bondi testifies in congressional Epstein probe",
+        "link": "https://www.bbc.com/news/articles/czj2ldllgwgo?at_medium=RSS&at_campaign=rss",
+        "summary": "The testimony comes about a month after America's top prosecutor was ousted by US President Donald Trump.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c052/live/86183f70-5ae6-11f1-8924-c3e54586b926.jpg",
+        "publishedAt": "2026-05-29T13:17:19.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Nato condemns Russian 'recklessness' after drone hits Romanian residential block",
+        "link": "https://www.bbc.com/news/articles/c93x4nxlkjeo?at_medium=RSS&at_campaign=rss",
+        "summary": "Romania will hold an emergency meeting following the incident, in which two people were injured.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0481/live/15366340-5b3b-11f1-9a6c-c14292377fff.jpg",
+        "publishedAt": "2026-05-29T12:56:30.000Z",
+        "source": "BBC"
       }
     ],
-    "nba": []
+    "nba": [
+      {
+        "title": "What's up with SGA? Can Wemby really do this? What...",
+        "link": "https://www.espn.com/nba/story/_/id/48902205/2026-nba-playoffs-san-antonio-spurs-oklahoma-city-thunder-game-6-recap-game-7-preview",
+        "summary": "Spurs-Thunder is headed to Game 7. What was most surprising about San Antonio's Game 6 win? And who is the biggest X factor for Saturday's game?",
+        "image": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0529%2Fr1665175_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-05-29T15:40:38.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "Sources: Knicks' Robinson to play after surgery",
+        "link": "https://www.espn.com/nba/story/_/id/48909492/sources-mitchell-robinson-pinkie-plans-play-nba-finals",
+        "summary": "Knicks center Mitchell Robinson has undergone surgery on his broken right pinkie finger and plans to play in Game 1 of the NBA Finals while wearing a...",
+        "image": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2025%2F1223%2Fr1593084_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-05-29T16:13:50.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "Spurs roll past Thunder as WCF head to Game 7",
+        "link": "https://www.espn.com/nba/story/_/id/48906635/spurs-rout-thunder-force-game-7-western-conference-finals",
+        "summary": "With the Spurs facing elimination, Victor Wembanyama led the charge with 28 points and 10 rebounds in a 118-91 blowout of the Thunder to send the West...",
+        "image": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0529%2Fr1665190_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-05-29T13:55:30.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "Williams ineffective in return, SGA off in OKC los...",
+        "link": "https://www.espn.com/nba/story/_/id/48907395/williams-ineffective-gilgeous-alexander-thunder-drop-game-6",
+        "summary": "Jalen Williams scored only one point in his return from a hamstring strain, and Shai Gilgeous-Alexander finished with less than half his regular-seaso...",
+        "image": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0529%2Fr1665229_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-05-29T14:29:32.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "Sources: NBA's BOG passes anti-tanking changes",
+        "link": "https://www.espn.com/nba/story/_/id/48903380/sources-nba-bog-votes-expand-lottery-disincentivizes-tanking",
+        "summary": "The NBA's board of governors voted overwhelmingly Thursday to change the league's draft lottery format, including expanding from 14 to 16 teams, as we...",
+        "image": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0527%2Fr1664213_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-05-29T13:55:29.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "Prosecutors allege Rozier agreed to $100K bribe",
+        "link": "https://www.espn.com/nba/story/_/id/48904034/terry-rozier-100k-bribe-betting-scheme-federal-prosecutors-nba",
+        "summary": "Federal prosecutors allege Terry Rozier agreed to a $100,000 bribe in order to manipulate his performance in an NBA game as part of a gambling scheme...",
+        "image": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2023%2F1130%2Fr1260074_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-05-29T13:55:30.000Z",
+        "source": "ESPN"
+      }
+    ]
   },
   "nbaScoreboard": {
-    "date": "2026-05-29",
+    "date": "2026-05-30",
     "currentIndex": 4,
     "days": [
-      {
-        "date": "2026-05-25",
-        "games": [
-          {
-            "id": "401873344",
-            "link": "https://www.espn.com/nba/game/_/gameId/401873344/knicks-cavaliers",
-            "startTime": "2026-05-26T00:00Z",
-            "state": "post",
-            "statusText": "Final",
-            "detail": "Final",
-            "note": "East Finals - Game 4",
-            "homeTeam": {
-              "abbreviation": "CLE",
-              "displayName": "Cleveland Cavaliers",
-              "score": "93",
-              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png",
-              "leaderContext": "Game Leaders",
-              "leaders": [
-                {
-                  "label": "PTS",
-                  "value": "31",
-                  "player": "Donovan Mitchell",
-                  "position": "G",
-                  "jersey": "45",
-                  "summary": "9/18 FG, 8/10 FT",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3908809.png",
-                  "link": "https://www.espn.com/nba/player/_/id/3908809/donovan-mitchell"
-                },
-                {
-                  "label": "REB",
-                  "value": "7",
-                  "player": "Evan Mobley",
-                  "position": "C",
-                  "jersey": "4",
-                  "summary": "5 DREB, 2 OREB",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432158.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4432158/evan-mobley"
-                },
-                {
-                  "label": "AST",
-                  "value": "4",
-                  "player": "Evan Mobley",
-                  "position": "C",
-                  "jersey": "4",
-                  "summary": "3 TO, 33 MIN",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432158.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4432158/evan-mobley"
-                }
-              ]
-            },
-            "awayTeam": {
-              "abbreviation": "NY",
-              "displayName": "New York Knicks",
-              "score": "130",
-              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
-              "leaderContext": "Game Leaders",
-              "leaders": [
-                {
-                  "label": "PTS",
-                  "value": "19",
-                  "player": "Karl-Anthony Towns",
-                  "position": "C",
-                  "jersey": "32",
-                  "summary": "8/11 FG, 0/0 FT",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3136195.png",
-                  "link": "https://www.espn.com/nba/player/_/id/3136195/karl-anthony-towns"
-                },
-                {
-                  "label": "REB",
-                  "value": "14",
-                  "player": "Karl-Anthony Towns",
-                  "position": "C",
-                  "jersey": "32",
-                  "summary": "12 DREB, 2 OREB",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3136195.png",
-                  "link": "https://www.espn.com/nba/player/_/id/3136195/karl-anthony-towns"
-                },
-                {
-                  "label": "AST",
-                  "value": "6",
-                  "player": "Josh Hart",
-                  "position": "G",
-                  "jersey": "3",
-                  "summary": "2 TO, 24 MIN",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3062679.png",
-                  "link": "https://www.espn.com/nba/player/_/id/3062679/josh-hart"
-                }
-              ]
-            }
-          }
-        ]
-      },
       {
         "date": "2026-05-26",
         "games": [
@@ -900,12 +857,161 @@
       {
         "date": "2026-06-02",
         "games": []
+      },
+      {
+        "date": "2026-06-03",
+        "games": [
+          {
+            "id": "401859963",
+            "link": "https://www.espn.com/nba/game/_/gameId/401859963/knicks-tbd",
+            "startTime": "2026-06-04T00:30Z",
+            "state": "pre",
+            "statusText": "Scheduled",
+            "detail": "6/3 - 8:30 PM EDT",
+            "note": "NBA Finals - Game 1",
+            "homeTeam": {
+              "abbreviation": "Spurs/Thunder",
+              "displayName": "Spurs/Thunder",
+              "score": "0",
+              "logo": "",
+              "leaderContext": "Season Leaders",
+              "leaders": []
+            },
+            "awayTeam": {
+              "abbreviation": "NY",
+              "displayName": "New York Knicks",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "26.0",
+                  "player": "Jalen Brunson",
+                  "position": "G",
+                  "jersey": "11",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3934672/jalen-brunson"
+                },
+                {
+                  "label": "RPG",
+                  "value": "11.9",
+                  "player": "Karl-Anthony Towns",
+                  "position": "C",
+                  "jersey": "32",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3136195.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3136195/karl-anthony-towns"
+                },
+                {
+                  "label": "APG",
+                  "value": "6.8",
+                  "player": "Jalen Brunson",
+                  "position": "G",
+                  "jersey": "11",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3934672/jalen-brunson"
+                }
+              ]
+            }
+          }
+        ]
       }
     ],
-    "games": []
+    "games": [
+      {
+        "id": "401873203",
+        "link": "https://www.espn.com/nba/game/_/gameId/401873203/spurs-thunder",
+        "startTime": "2026-05-31T00:00Z",
+        "state": "pre",
+        "statusText": "Scheduled",
+        "detail": "5/30 - 8:00 PM EDT",
+        "note": "West Finals - Game 7",
+        "homeTeam": {
+          "abbreviation": "OKC",
+          "displayName": "Oklahoma City Thunder",
+          "score": "0",
+          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
+          "leaderContext": "Season Leaders",
+          "leaders": [
+            {
+              "label": "PPG",
+              "value": "31.1",
+              "player": "Shai Gilgeous-Alexander",
+              "position": "G",
+              "jersey": "2",
+              "summary": "",
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278073.png",
+              "link": "https://www.espn.com/nba/player/_/id/4278073/shai-gilgeous-alexander"
+            },
+            {
+              "label": "RPG",
+              "value": "8.9",
+              "player": "Chet Holmgren",
+              "position": "C",
+              "jersey": "7",
+              "summary": "",
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433255.png",
+              "link": "https://www.espn.com/nba/player/_/id/4433255/chet-holmgren"
+            },
+            {
+              "label": "APG",
+              "value": "6.6",
+              "player": "Shai Gilgeous-Alexander",
+              "position": "G",
+              "jersey": "2",
+              "summary": "",
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278073.png",
+              "link": "https://www.espn.com/nba/player/_/id/4278073/shai-gilgeous-alexander"
+            }
+          ]
+        },
+        "awayTeam": {
+          "abbreviation": "SA",
+          "displayName": "San Antonio Spurs",
+          "score": "0",
+          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+          "leaderContext": "Season Leaders",
+          "leaders": [
+            {
+              "label": "PPG",
+              "value": "25.0",
+              "player": "Victor Wembanyama",
+              "position": "F",
+              "jersey": "1",
+              "summary": "",
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
+              "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
+            },
+            {
+              "label": "RPG",
+              "value": "11.5",
+              "player": "Victor Wembanyama",
+              "position": "F",
+              "jersey": "1",
+              "summary": "",
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
+              "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
+            },
+            {
+              "label": "APG",
+              "value": "7.4",
+              "player": "Stephon Castle",
+              "position": "G",
+              "jersey": "5",
+              "summary": "",
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4845367.png",
+              "link": "https://www.espn.com/nba/player/_/id/4845367/stephon-castle"
+            }
+          ]
+        }
+      }
+    ]
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-05-29",
+    "rotationLabel": "Curated Rotation · 2026-05-30",
     "sections": [
       {
         "id": "data-storage",
@@ -913,27 +1019,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-6",
-            "sectionId": "data-storage",
-            "title": "DiskANN: Fast Accurate Billion-point Nearest Neighbor Search on a Single Node",
-            "authors": [
-              "Neelesh Gupta",
-              "Leland Willard",
-              "Xiangyao Yu",
-              "Yuri N."
-            ],
-            "venue": "NeurIPS",
-            "year": 2019,
-            "quality": "高影响力",
-            "categories": [
-              "vector search",
-              "ANN"
-            ],
-            "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
-            "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-1",
             "sectionId": "data-storage",
@@ -953,7 +1038,7 @@
             ],
             "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
             "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-2",
@@ -975,6 +1060,27 @@
             "link": "https://research.google/pubs/pub27898/",
             "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-3",
+            "sectionId": "data-storage",
+            "title": "Dynamo: Amazon's Highly Available Key-value Store",
+            "authors": [
+              "Giuseppe DeCandia",
+              "Deniz Hastorun",
+              "Madan Jampani",
+              "Gunavardhan Kakulapati"
+            ],
+            "venue": "SOSP",
+            "year": 2007,
+            "quality": "顶会",
+            "categories": [
+              "key-value",
+              "distributed systems"
+            ],
+            "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
+            "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -984,27 +1090,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-1",
-            "sectionId": "computer-vision",
-            "title": "Deep Residual Learning for Image Recognition",
-            "authors": [
-              "Kaiming He",
-              "Xiangyu Zhang",
-              "Shaoqing Ren",
-              "Jian Sun"
-            ],
-            "venue": "CVPR",
-            "year": 2016,
-            "quality": "顶会",
-            "categories": [
-              "image recognition",
-              "backbone"
-            ],
-            "link": "https://arxiv.org/abs/1512.03385",
-            "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-2",
             "sectionId": "computer-vision",
@@ -1024,7 +1109,7 @@
             ],
             "link": "https://arxiv.org/abs/2005.12872",
             "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-3",
@@ -1046,6 +1131,27 @@
             "link": "https://arxiv.org/abs/2010.11929",
             "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-4",
+            "sectionId": "computer-vision",
+            "title": "Learning Transferable Visual Models From Natural Language Supervision",
+            "authors": [
+              "Alec Radford",
+              "Jong Wook Kim",
+              "Chris Hallacy",
+              "Aditya Ramesh"
+            ],
+            "venue": "ICML",
+            "year": 2021,
+            "quality": "顶会",
+            "categories": [
+              "vision-language",
+              "foundation model"
+            ],
+            "link": "https://arxiv.org/abs/2103.00020",
+            "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -1055,27 +1161,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-2",
-            "sectionId": "llm-memory",
-            "title": "Memorizing Transformers",
-            "authors": [
-              "Yuhuai Wu",
-              "Markus N. Rabe",
-              "DeLesley Hutchins",
-              "Christian Szegedy"
-            ],
-            "venue": "ICLR",
-            "year": 2022,
-            "quality": "顶会",
-            "categories": [
-              "memory",
-              "long context"
-            ],
-            "link": "https://arxiv.org/abs/2203.08913",
-            "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-3",
             "sectionId": "llm-memory",
@@ -1095,7 +1180,7 @@
             ],
             "link": "https://arxiv.org/abs/2112.04426",
             "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-4",
@@ -1117,6 +1202,27 @@
             "link": "https://arxiv.org/abs/2310.11511",
             "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-5",
+            "sectionId": "llm-memory",
+            "title": "LongMem: Scaling Language Model Context with Memory-Augmented Retrieval",
+            "authors": [
+              "Zeqiu Wu",
+              "Yizhong Wang",
+              "Jiacheng Liu",
+              "Yelong Shen"
+            ],
+            "venue": "ACL Findings",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "memory",
+              "long context"
+            ],
+            "link": "https://arxiv.org/abs/2306.07174",
+            "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -1126,27 +1232,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-3",
-            "sectionId": "agents",
-            "title": "Generative Agents: Interactive Simulacra of Human Behavior",
-            "authors": [
-              "Joon Sung Park",
-              "Joseph O'Brien",
-              "Carrie Cai",
-              "Meredith Ringel Morris"
-            ],
-            "venue": "UIST",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "agent society",
-              "memory"
-            ],
-            "link": "https://arxiv.org/abs/2304.03442",
-            "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-4",
             "sectionId": "agents",
@@ -1166,7 +1251,7 @@
             ],
             "link": "https://arxiv.org/abs/2305.16291",
             "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-5",
@@ -1187,6 +1272,27 @@
             ],
             "link": "https://arxiv.org/abs/2308.08155",
             "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-6",
+            "sectionId": "agents",
+            "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+            "authors": [
+              "John Yang",
+              "Carlos E. Jimenez",
+              "Alexander Wettig",
+              "Karthik Narasimhan"
+            ],
+            "venue": "ICLR",
+            "year": 2025,
+            "quality": "新近代表作",
+            "categories": [
+              "software agent",
+              "benchmark"
+            ],
+            "link": "https://arxiv.org/abs/2405.15793",
+            "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
             "trackLabel": "轮换精选"
           }
         ]
