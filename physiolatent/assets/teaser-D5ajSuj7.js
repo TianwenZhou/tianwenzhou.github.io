@@ -1,0 +1,1 @@
+var e=`/physiolatent/assets/teaser-DN3noKtv.png`;export{e as t};
