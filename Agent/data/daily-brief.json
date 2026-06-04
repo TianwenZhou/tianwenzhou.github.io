@@ -1,36 +1,28 @@
 {
-  "generatedAt": "2026-06-04T15:37:23.645Z",
+  "generatedAt": "2026-06-04T18:27:47.505Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 17,
+      "temperature": 16,
       "weatherCode": 0,
-      "windSpeed": 3
+      "windSpeed": 1
     },
     "today": {
-      "date": "2026-06-04",
-      "weatherCode": 80,
-      "description": "阵雨",
-      "max": 24,
-      "min": 17,
-      "precipitationProbability": 98
+      "date": "2026-06-05",
+      "weatherCode": 3,
+      "description": "阴天",
+      "max": 26,
+      "min": 14,
+      "precipitationProbability": 7
     },
     "forecast": [
-      {
-        "date": "2026-06-04",
-        "weatherCode": 80,
-        "description": "阵雨",
-        "max": 24,
-        "min": 17,
-        "precipitationProbability": 98
-      },
       {
         "date": "2026-06-05",
         "weatherCode": 3,
         "description": "阴天",
         "max": 26,
         "min": 14,
-        "precipitationProbability": 21
+        "precipitationProbability": 7
       },
       {
         "date": "2026-06-06",
@@ -38,7 +30,7 @@
         "description": "小雨",
         "max": 20,
         "min": 13,
-        "precipitationProbability": 88
+        "precipitationProbability": 98
       },
       {
         "date": "2026-06-07",
@@ -46,7 +38,7 @@
         "description": "毛毛雨",
         "max": 24,
         "min": 11,
-        "precipitationProbability": 33
+        "precipitationProbability": 25
       },
       {
         "date": "2026-06-08",
@@ -55,32 +47,49 @@
         "max": 28,
         "min": 13,
         "precipitationProbability": 29
+      },
+      {
+        "date": "2026-06-09",
+        "weatherCode": 2,
+        "description": "局部多云",
+        "max": 27,
+        "min": 16,
+        "precipitationProbability": 24
       }
     ]
   },
   "classicQuote": {
-    "id": "dream-red-mansions",
-    "text": "世事洞明皆学问，人情练达即文章。",
-    "source": "《红楼梦》",
-    "author": "曹雪芹",
-    "note": "技术之外，理解人和场景，往往更能拉开差距。"
+    "id": "mencius-perseverance",
+    "text": "虽千万人，吾往矣。",
+    "source": "《孟子》",
+    "author": "孟子",
+    "note": "认准方向之后，关键是稳稳地往前走。"
   },
   "bookExcerpt": {
-    "id": "floating-life-lotus",
-    "text": "芸坐其侧，素手烹茶，窗外新荷微香，连晚风也像带着水意，从竹帘间一寸寸地漫进来。",
-    "book": "《浮生六记》",
-    "author": "沈复"
+    "id": "red-mansion-snow",
+    "text": "只见大地白茫茫一片真干净，山川树木都隐在雪光里，天地像忽然静下来，只余风过回廊的细响。",
+    "book": "《红楼梦》",
+    "author": "曹雪芹"
   },
   "featuredPlace": {
-    "id": "202606031600",
-    "title": "梳理羽毛的雪鹭，佛罗里达州中部，美国",
+    "id": "202606041600",
+    "title": "从斯基尔夫山俯瞰拉帕达伦河三角洲, 萨雷克国家公园, 拉波尼亚, 瑞典拉普兰",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "优雅羽饰",
-    "image": "https://www.bing.com/th?id=OHR.PreeningEgret_ZH-CN2216012708_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E9%9B%AA%E9%B9%AD&form=hpcapt&mkt=zh-cn"
+    "summary": "无人问津之地的静默力量",
+    "image": "https://www.bing.com/th?id=OHR.WedLapland_ZH-CN2365942547_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E7%8E%AF%E5%A2%83%E6%97%A5&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202606041600",
+      "title": "从斯基尔夫山俯瞰拉帕达伦河三角洲, 萨雷克国家公园, 拉波尼亚, 瑞典拉普兰",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "无人问津之地的静默力量",
+      "image": "https://www.bing.com/th?id=OHR.WedLapland_ZH-CN2365942547_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E7%8E%AF%E5%A2%83%E6%97%A5&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202606031600",
       "title": "梳理羽毛的雪鹭，佛罗里达州中部，美国",
@@ -143,30 +152,21 @@
       "summary": "巅峰历史时刻",
       "image": "https://www.bing.com/th?id=OHR.SummitEverest_ZH-CN9252833251_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E4%BA%BA%E7%B1%BB%E9%A6%96%E6%AC%A1%E5%BE%81%E6%9C%8D%E4%B8%96%E7%95%8C%E6%9C%80%E9%AB%98%E5%B3%B0&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202605271600",
-      "title": "华城堡的古城墙，水原，韩国",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "设计与秩序相结合",
-      "image": "https://www.bing.com/th?id=OHR.HwaesongFortress_ZH-CN8225341972_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E9%9F%A9%E5%9B%BD%E6%B0%B4%E5%8E%9F%E7%9A%84%E5%8D%8E%E5%9F%8E%E5%A0%A1&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-06-04",
-    "dateLabel": "6月4日",
+    "dateKey": "2026-06-05",
+    "dateLabel": "6月5日",
     "items": [
       {
-        "year": "2022",
-        "text": "一班從貴陽北站開往廣州南站的D2809班次高鐵於貴廣線榕江站前遭遇泥石流後出軌，司機員當場死亡，另有數名乘客及乘務員受傷。",
-        "link": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4"
+        "year": "2017",
+        "text": "蒙特內哥羅加入北大西洋公約組織。",
+        "link": "https://zh.wikipedia.org/wiki/2017%E5%B9%B4"
       },
       {
-        "year": "2022",
-        "text": "多名民主派人士及市民因前往香港維多利亞公園及銅鑼灣一帶悼念六四事件，被警方票控或扣留。",
-        "link": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E6%B4%BE_(%E9%A6%99%E6%B8%AF)"
+        "year": "2015",
+        "text": "马来西亚沙巴州兰瑙（馬來語：）发生6.0级地震，是马来西亚自1976年以來震度最強的地震。",
+        "link": "https://zh.wikipedia.org/wiki/2015%E5%B9%B4"
       }
     ]
   },
@@ -303,7 +303,15 @@
         "link": "https://www.bbc.com/news/articles/c052343r812o?at_medium=RSS&at_campaign=rss",
         "summary": "The United States announced the ceasefire agreement on Wednesday night following a fresh round of talks.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a519/live/c9a989e0-601f-11f1-95e8-2f6b295436fc.jpg",
-        "publishedAt": "2026-06-04T14:54:22.000Z",
+        "publishedAt": "2026-06-04T17:54:06.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Israeli strikes kill 11 people in Gaza City, medics say",
+        "link": "https://www.bbc.com/news/articles/cg5prr9gr1ro?at_medium=RSS&at_campaign=rss",
+        "summary": "Women and children were among those killed in the attacks on four residential buildings, which Israel's military says killed four Hamas security offic...",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4773/live/10c39b70-5fff-11f1-b682-cf91850925ea.jpg",
+        "publishedAt": "2026-06-04T17:50:20.000Z",
         "source": "BBC"
       },
       {
@@ -312,14 +320,6 @@
         "summary": "The lower chamber of Congress passed a measure that seeks to halt further military action, in a vote seen as largely symbolic.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6465/live/58a61730-600c-11f1-89a3-d1f559421220.jpg",
         "publishedAt": "2026-06-04T14:46:36.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Israeli strikes kill 11 people in Gaza City, medics say",
-        "link": "https://www.bbc.com/news/articles/cg5prr9gr1ro?at_medium=RSS&at_campaign=rss",
-        "summary": "Women and children were among those killed when Israeli aircraft struck at least four residential buildings in several areas.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4773/live/10c39b70-5fff-11f1-b682-cf91850925ea.jpg",
-        "publishedAt": "2026-06-04T11:07:12.000Z",
         "source": "BBC"
       },
       {
@@ -341,20 +341,12 @@
     ],
     "worldBusiness": [
       {
-        "title": "Can I buy shares in Elon Musk's SpaceX?",
+        "title": "Musk's SpaceX share sale: Four things you need to know",
         "link": "https://www.bbc.com/news/articles/czx299wpp56o?at_medium=RSS&at_campaign=rss",
         "summary": "From next week individual investors can take a stake in Musk's rockets-to-AI company.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1cd5/live/af032710-6022-11f1-95e8-2f6b295436fc.jpg",
-        "publishedAt": "2026-06-04T15:14:24.000Z",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f1c7/live/4c7073c0-6034-11f1-8b8c-6d33e1d5abb6.jpg",
+        "publishedAt": "2026-06-04T16:18:37.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Zohran Mamdani’s capitalist plan to fix the housing crisis",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE14SFlQcWNPZkp0TVBZRzA0SFN3WEFaRzRFUnFqWHMzT2FLTC0xQV9oSUdaNTJaSHhieEkxVWZOaFN1YlF3MDdzemdkYllZV2wzUTZxdFlCbGh4M0hOUldOTC11NlEtV1lGblNPMEQtajhNdmtZTGhtRA?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-06-04T11:00:08.000Z",
-        "source": "CNN"
       },
       {
         "title": "Who is Elon Musk and what is his net worth?",
@@ -378,6 +370,14 @@
         "summary": "The number of people withdrawing money from a LISA is outpacing the number using one to buy a home. Why?",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0bdb/live/65705f30-5e94-11f1-926a-77cd300adf90.jpg",
         "publishedAt": "2026-06-04T05:06:33.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Why is government spending £1.3bn on Universal UK?",
+        "link": "https://www.bbc.com/news/articles/c1e2wdzn751o?at_medium=RSS&at_campaign=rss",
+        "summary": "The government is committing many millions of pounds to the new theme park planned for Bedfordshire.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e8d8/live/87e21350-5f62-11f1-8b8c-6d33e1d5abb6.jpg",
+        "publishedAt": "2026-06-04T04:00:23.000Z",
         "source": "BBC"
       }
     ],
@@ -471,7 +471,15 @@
         "link": "https://www.bbc.com/news/articles/c052343r812o?at_medium=RSS&at_campaign=rss",
         "summary": "The United States announced the ceasefire agreement on Wednesday night following a fresh round of talks.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a519/live/c9a989e0-601f-11f1-95e8-2f6b295436fc.jpg",
-        "publishedAt": "2026-06-04T14:54:22.000Z",
+        "publishedAt": "2026-06-04T17:54:06.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Israeli strikes kill 11 people in Gaza City, medics say",
+        "link": "https://www.bbc.com/news/articles/cg5prr9gr1ro?at_medium=RSS&at_campaign=rss",
+        "summary": "Women and children were among those killed in the attacks on four residential buildings, which Israel's military says killed four Hamas security offic...",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4773/live/10c39b70-5fff-11f1-b682-cf91850925ea.jpg",
+        "publishedAt": "2026-06-04T17:50:20.000Z",
         "source": "BBC"
       },
       {
@@ -480,14 +488,6 @@
         "summary": "The lower chamber of Congress passed a measure that seeks to halt further military action, in a vote seen as largely symbolic.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6465/live/58a61730-600c-11f1-89a3-d1f559421220.jpg",
         "publishedAt": "2026-06-04T14:46:36.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Israeli strikes kill 11 people in Gaza City, medics say",
-        "link": "https://www.bbc.com/news/articles/cg5prr9gr1ro?at_medium=RSS&at_campaign=rss",
-        "summary": "Women and children were among those killed when Israeli aircraft struck at least four residential buildings in several areas.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4773/live/10c39b70-5fff-11f1-b682-cf91850925ea.jpg",
-        "publishedAt": "2026-06-04T11:07:12.000Z",
         "source": "BBC"
       },
       {
@@ -507,65 +507,12 @@
         "source": "CNN"
       }
     ],
-    "nba": [
-      {
-        "title": "Did KAT and the Knicks figure out Wemby? How Game ...",
-        "link": "https://www.espn.com/nba/story/_/id/48955802/2026-nba-finals-playoffs-new-york-knicks-san-antonio-spurs-important-plays-lessons-court",
-        "summary": "Let's break down Knicks-Spurs Game 1 from all angles, from the most important plays to the key indicators and matchups to watch in Game 2.",
-        "image": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0604%2Fr1667963_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-06-04T16:01:55.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Knicks stay hot, steal Game 1 behind Brunson's 30",
-        "link": "https://www.espn.com/nba/story/_/id/48962034/brunson-keys-late-surge-knicks-steal-game-1-san-antonio",
-        "summary": "Jalen Brunson shook off an early injury and scored 13 of his 30 points in the fourth quarter, helping the Knicks erase a 14-point deficit and steal Ga...",
-        "image": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0604%2Fr1667957_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-06-04T08:01:55.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Wemby vows revival after Spurs 'let that one go'",
-        "link": "https://www.espn.com/nba/story/_/id/48963130/wembanyama-confident-spurs-bounce-back-game-1-loss",
-        "summary": "Victor Wembanyama accepted responsibility for his role in San Antonio's loss to the Knicks in Game 1 of the NBA Finals but said he wasn't \"worried in...",
-        "image": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0604%2Fr1667981_2_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-06-04T15:58:20.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Fan storms court, attempts selfie next to Wemby",
-        "link": "https://www.espn.com/nba/story/_/id/48962549/fan-runs-court-briefly-stopping-game-1-nba-finals",
-        "summary": "A fan ran onto the Frost Bank Center court during the fourth quarter of Wednesday night's NBA Finals and attempted to take a selfie with Victor Wemban...",
-        "image": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0604%2Fr1667967_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-06-04T08:01:55.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Silver: Clips investigation needs to wrap up soon",
-        "link": "https://www.espn.com/nba/story/_/id/48961294/adam-silver-clippers-investigation-needs-wrap-soon",
-        "summary": "NBA commissioner Adam Silver declined to put a timeline on the conclusion of the investigation into the Clippers' potential salary cap circumvention,...",
-        "image": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0604%2Fr1667899_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-06-04T08:01:55.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Embattled Rozier seeks eased release conditions",
-        "link": "https://www.espn.com/nba/story/_/id/48958363/rozier-asks-judge-modify-release-terms-nba-free-agency-looms",
-        "summary": "Embattled NBA player Terry Rozier has asked the judge in his gambling case to modify conditions of his release as he seeks to recoup lost salary and p...",
-        "image": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2025%2F1208%2Fr1586827_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-06-04T08:01:55.000Z",
-        "source": "ESPN"
-      }
-    ]
+    "nba": []
   },
   "nbaScoreboard": {
-    "date": "2026-06-04",
+    "date": "2026-06-05",
     "currentIndex": 4,
     "days": [
-      {
-        "date": "2026-05-31",
-        "games": []
-      },
       {
         "date": "2026-06-01",
         "games": []
@@ -861,12 +808,104 @@
             }
           }
         ]
+      },
+      {
+        "date": "2026-06-09",
+        "games": []
       }
     ],
-    "games": []
+    "games": [
+      {
+        "id": "401859964",
+        "link": "https://www.espn.com/nba/game/_/gameId/401859964/knicks-spurs",
+        "startTime": "2026-06-06T00:30Z",
+        "state": "pre",
+        "statusText": "Scheduled",
+        "detail": "6/5 - 8:30 PM EDT",
+        "note": "NBA Finals - Game 2",
+        "homeTeam": {
+          "abbreviation": "SA",
+          "displayName": "San Antonio Spurs",
+          "score": "0",
+          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+          "leaderContext": "Season Leaders",
+          "leaders": [
+            {
+              "label": "PPG",
+              "value": "25.0",
+              "player": "Victor Wembanyama",
+              "position": "F",
+              "jersey": "1",
+              "summary": "",
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
+              "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
+            },
+            {
+              "label": "RPG",
+              "value": "11.5",
+              "player": "Victor Wembanyama",
+              "position": "F",
+              "jersey": "1",
+              "summary": "",
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
+              "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
+            },
+            {
+              "label": "APG",
+              "value": "7.4",
+              "player": "Stephon Castle",
+              "position": "G",
+              "jersey": "5",
+              "summary": "",
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4845367.png",
+              "link": "https://www.espn.com/nba/player/_/id/4845367/stephon-castle"
+            }
+          ]
+        },
+        "awayTeam": {
+          "abbreviation": "NY",
+          "displayName": "New York Knicks",
+          "score": "0",
+          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+          "leaderContext": "Season Leaders",
+          "leaders": [
+            {
+              "label": "PPG",
+              "value": "26.0",
+              "player": "Jalen Brunson",
+              "position": "G",
+              "jersey": "11",
+              "summary": "",
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
+              "link": "https://www.espn.com/nba/player/_/id/3934672/jalen-brunson"
+            },
+            {
+              "label": "RPG",
+              "value": "11.9",
+              "player": "Karl-Anthony Towns",
+              "position": "C",
+              "jersey": "32",
+              "summary": "",
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3136195.png",
+              "link": "https://www.espn.com/nba/player/_/id/3136195/karl-anthony-towns"
+            },
+            {
+              "label": "APG",
+              "value": "6.8",
+              "player": "Jalen Brunson",
+              "position": "G",
+              "jersey": "11",
+              "summary": "",
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
+              "link": "https://www.espn.com/nba/player/_/id/3934672/jalen-brunson"
+            }
+          ]
+        }
+      }
+    ]
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-06-04",
+    "rotationLabel": "Curated Rotation · 2026-06-05",
     "sections": [
       {
         "id": "data-storage",
@@ -874,27 +913,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-3",
-            "sectionId": "data-storage",
-            "title": "Dynamo: Amazon's Highly Available Key-value Store",
-            "authors": [
-              "Giuseppe DeCandia",
-              "Deniz Hastorun",
-              "Madan Jampani",
-              "Gunavardhan Kakulapati"
-            ],
-            "venue": "SOSP",
-            "year": 2007,
-            "quality": "顶会",
-            "categories": [
-              "key-value",
-              "distributed systems"
-            ],
-            "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
-            "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-4",
             "sectionId": "data-storage",
@@ -914,7 +932,7 @@
             ],
             "link": "https://research.google/pubs/pub36632/",
             "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-5",
@@ -935,6 +953,27 @@
             "link": "https://arxiv.org/abs/2401.08281",
             "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-6",
+            "sectionId": "data-storage",
+            "title": "DiskANN: Fast Accurate Billion-point Nearest Neighbor Search on a Single Node",
+            "authors": [
+              "Neelesh Gupta",
+              "Leland Willard",
+              "Xiangyao Yu",
+              "Yuri N."
+            ],
+            "venue": "NeurIPS",
+            "year": 2019,
+            "quality": "高影响力",
+            "categories": [
+              "vector search",
+              "ANN"
+            ],
+            "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
+            "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -944,27 +983,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-4",
-            "sectionId": "computer-vision",
-            "title": "Learning Transferable Visual Models From Natural Language Supervision",
-            "authors": [
-              "Alec Radford",
-              "Jong Wook Kim",
-              "Chris Hallacy",
-              "Aditya Ramesh"
-            ],
-            "venue": "ICML",
-            "year": 2021,
-            "quality": "顶会",
-            "categories": [
-              "vision-language",
-              "foundation model"
-            ],
-            "link": "https://arxiv.org/abs/2103.00020",
-            "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-5",
             "sectionId": "computer-vision",
@@ -984,7 +1002,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.02643",
             "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-6",
@@ -1006,6 +1024,27 @@
             "link": "https://arxiv.org/abs/2304.07193",
             "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-1",
+            "sectionId": "computer-vision",
+            "title": "Deep Residual Learning for Image Recognition",
+            "authors": [
+              "Kaiming He",
+              "Xiangyu Zhang",
+              "Shaoqing Ren",
+              "Jian Sun"
+            ],
+            "venue": "CVPR",
+            "year": 2016,
+            "quality": "顶会",
+            "categories": [
+              "image recognition",
+              "backbone"
+            ],
+            "link": "https://arxiv.org/abs/1512.03385",
+            "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -1015,27 +1054,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-5",
-            "sectionId": "llm-memory",
-            "title": "LongMem: Scaling Language Model Context with Memory-Augmented Retrieval",
-            "authors": [
-              "Zeqiu Wu",
-              "Yizhong Wang",
-              "Jiacheng Liu",
-              "Yelong Shen"
-            ],
-            "venue": "ACL Findings",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "memory",
-              "long context"
-            ],
-            "link": "https://arxiv.org/abs/2306.07174",
-            "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-6",
             "sectionId": "llm-memory",
@@ -1055,7 +1073,7 @@
             ],
             "link": "https://arxiv.org/abs/2409.05591",
             "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-1",
@@ -1077,6 +1095,27 @@
             "link": "https://arxiv.org/abs/2005.11401",
             "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-2",
+            "sectionId": "llm-memory",
+            "title": "Memorizing Transformers",
+            "authors": [
+              "Yuhuai Wu",
+              "Markus N. Rabe",
+              "DeLesley Hutchins",
+              "Christian Szegedy"
+            ],
+            "venue": "ICLR",
+            "year": 2022,
+            "quality": "顶会",
+            "categories": [
+              "memory",
+              "long context"
+            ],
+            "link": "https://arxiv.org/abs/2203.08913",
+            "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -1086,27 +1125,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-6",
-            "sectionId": "agents",
-            "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
-            "authors": [
-              "John Yang",
-              "Carlos E. Jimenez",
-              "Alexander Wettig",
-              "Karthik Narasimhan"
-            ],
-            "venue": "ICLR",
-            "year": 2025,
-            "quality": "新近代表作",
-            "categories": [
-              "software agent",
-              "benchmark"
-            ],
-            "link": "https://arxiv.org/abs/2405.15793",
-            "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-1",
             "sectionId": "agents",
@@ -1127,7 +1145,7 @@
             ],
             "link": "https://arxiv.org/abs/2210.03629",
             "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-2",
@@ -1148,6 +1166,27 @@
             ],
             "link": "https://arxiv.org/abs/2302.04761",
             "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-3",
+            "sectionId": "agents",
+            "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+            "authors": [
+              "Joon Sung Park",
+              "Joseph O'Brien",
+              "Carrie Cai",
+              "Meredith Ringel Morris"
+            ],
+            "venue": "UIST",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "agent society",
+              "memory"
+            ],
+            "link": "https://arxiv.org/abs/2304.03442",
+            "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
             "trackLabel": "轮换精选"
           }
         ]
