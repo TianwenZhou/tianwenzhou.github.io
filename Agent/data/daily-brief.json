@@ -1,36 +1,28 @@
 {
-  "generatedAt": "2026-06-07T14:16:39.905Z",
+  "generatedAt": "2026-06-07T17:37:49.441Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 17,
+      "temperature": 14,
       "weatherCode": 0,
-      "windSpeed": 3
+      "windSpeed": 2
     },
     "today": {
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "weatherCode": 53,
       "description": "小雨",
-      "max": 25,
-      "min": 11,
-      "precipitationProbability": 53
+      "max": 27,
+      "min": 13,
+      "precipitationProbability": 37
     },
     "forecast": [
-      {
-        "date": "2026-06-07",
-        "weatherCode": 53,
-        "description": "小雨",
-        "max": 25,
-        "min": 11,
-        "precipitationProbability": 53
-      },
       {
         "date": "2026-06-08",
         "weatherCode": 53,
         "description": "小雨",
         "max": 27,
         "min": 13,
-        "precipitationProbability": 24
+        "precipitationProbability": 37
       },
       {
         "date": "2026-06-09",
@@ -38,7 +30,7 @@
         "description": "小雨",
         "max": 26,
         "min": 15,
-        "precipitationProbability": 64
+        "precipitationProbability": 52
       },
       {
         "date": "2026-06-10",
@@ -46,7 +38,7 @@
         "description": "毛毛雨",
         "max": 24,
         "min": 14,
-        "precipitationProbability": 48
+        "precipitationProbability": 34
       },
       {
         "date": "2026-06-11",
@@ -54,33 +46,50 @@
         "description": "局部多云",
         "max": 31,
         "min": 15,
-        "precipitationProbability": 2
+        "precipitationProbability": 1
+      },
+      {
+        "date": "2026-06-12",
+        "weatherCode": 51,
+        "description": "毛毛雨",
+        "max": 34,
+        "min": 20,
+        "precipitationProbability": 39
       }
     ]
   },
   "classicQuote": {
-    "id": "chuci-seek",
-    "text": "路漫漫其修远兮，吾将上下而求索。",
-    "source": "《离骚》",
-    "author": "屈原",
-    "note": "长期主义最难，但也最值得。"
+    "id": "analects-learning",
+    "text": "学而不思则罔，思而不学则殆。",
+    "source": "《论语》",
+    "author": "孔子",
+    "note": "提醒自己既要输入，也要沉淀，不要只忙不想。"
   },
   "bookExcerpt": {
-    "id": "border-town-river",
-    "text": "月光如银子，无处不可照及，山上篁竹在月光下变成了一片黑色，身边草丛中虫声繁密如落雨。",
-    "book": "《边城》",
-    "author": "沈从文"
+    "id": "fortress-besieged-night",
+    "text": "夜仿佛纸浸了油，变成半透明体；它给太阳拥抱住了，分不出身来，也许是给太阳溶了，所以夕照晚霞隐褪后的夜色也带着酡红。",
+    "book": "《围城》",
+    "author": "钱钟书"
   },
   "featuredPlace": {
-    "id": "202606061600",
-    "title": "邓塞弗里克城堡遗址, 安特里姆郡, 北爱尔兰",
+    "id": "202606071600",
+    "title": "在海洋中游动的狮鬃水母",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "最后一堵墙矗立着",
-    "image": "https://www.bing.com/th?id=OHR.DunseverickCastle2026_ZH-CN3036266326_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E9%82%93%E5%A1%9E%E5%BC%97%E9%87%8C%E5%85%8B%E5%9F%8E%E5%A0%A1++&form=hpcapt&mkt=zh-cn"
+    "summary": "随波逐流",
+    "image": "https://www.bing.com/th?id=OHR.Cyanea_ZH-CN3858079050_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E6%B5%B7%E6%B4%8B%E6%97%A5&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202606071600",
+      "title": "在海洋中游动的狮鬃水母",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "随波逐流",
+      "image": "https://www.bing.com/th?id=OHR.Cyanea_ZH-CN3858079050_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E6%B5%B7%E6%B4%8B%E6%97%A5&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202606061600",
       "title": "邓塞弗里克城堡遗址, 安特里姆郡, 北爱尔兰",
@@ -143,30 +152,21 @@
       "summary": "历史的况味",
       "image": "https://www.bing.com/th?id=OHR.OlivaPalermo_ZH-CN9639920195_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E6%84%8F%E5%A4%A7%E5%88%A9%E5%B7%B4%E5%8B%92%E8%8E%AB&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202605301600",
-      "title": "大沼泽地国家公园航拍景观，佛罗里达州，美国",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "顺流而行",
-      "image": "https://www.bing.com/th?id=OHR.EvergladesWetlands_ZH-CN9515366484_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E5%A4%A7%E6%B2%BC%E6%B3%BD%E5%9C%B0%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-06-07",
-    "dateLabel": "6月7日",
+    "dateKey": "2026-06-08",
+    "dateLabel": "6月8日",
     "items": [
       {
-        "year": "2013",
-        "text": "中国福建省厦门市发生快速公交纵火事件，造成47人死亡，34受伤。",
-        "link": "https://zh.wikipedia.org/wiki/2013%E5%B9%B4"
+        "year": "2021",
+        "text": "薩爾瓦多立法議會以62票支持通過把比特幣列為法定貨幣的法案，薩爾瓦多成為首個將比特幣定為法定貨幣之國家。",
+        "link": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4"
       },
       {
-        "year": "2009",
-        "text": "在2009年法国网球公开赛男单决赛中，瑞士天王费德勒以3:0的比分横扫了赛会的最大黑马索德林，职业生涯首度在法网捧起火枪手杯。至此，他不仅追平了桑普拉斯的14个大满贯头衔记录，更成为历...",
-        "link": "https://zh.wikipedia.org/wiki/2009%E5%B9%B4"
+        "year": "2011",
+        "text": "发起世界IPv6日活动，提倡各网站提供IPv6接入服务。",
+        "link": "https://zh.wikipedia.org/wiki/2011%E5%B9%B4"
       }
     ]
   },
@@ -299,43 +299,43 @@
     ],
     "worldTop": [
       {
-        "title": "Zelensky criticises 'vile' Chornobyl drone strike ahead of London talks",
+        "title": "Zelensky arrives in UK for Downing Street talks with European leaders",
         "link": "https://www.bbc.com/news/articles/cr7xr1g3nvvo?at_medium=RSS&at_campaign=rss",
-        "summary": "Ukrainian officials say a Russian drone hit a storage facility for spent nuclear fuel near the Chornobyl nuclear plant.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8c12/live/9aaeaf20-626e-11f1-89a3-d1f559421220.jpg",
-        "publishedAt": "2026-06-07T12:09:57.000Z",
+        "summary": "Zelensky's meeting with Ukraine's staunchest European allies comes as US President Donald Trump's focus has shifted to the war with Iran.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cb9c/live/a9935840-628e-11f1-88d1-efdbd2057b53.jpg",
+        "publishedAt": "2026-06-07T17:28:35.000Z",
         "source": "BBC"
       },
       {
-        "title": "Hegseth attacks Europe over migration with beach 'invasion' D-Day speech",
-        "link": "https://www.bbc.com/news/articles/c802e7jk458o?at_medium=RSS&at_campaign=rss",
-        "summary": "The US defence secretary was speaking in Normandy, 82 years after allied forces launched their operation to liberate Nazi-occupied north-western Europ...",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/82e7/live/c3681e00-61ed-11f1-89a3-d1f559421220.jpg",
-        "publishedAt": "2026-06-07T10:35:25.000Z",
+        "title": "Armenia votes as Russia piles pressure on pro-West government",
+        "link": "https://www.bbc.com/news/articles/c3626n1epd5o?at_medium=RSS&at_campaign=rss",
+        "summary": "Incumbent Prime Minister Nikol Pashinyan is seeking a third term despite falling domestic support.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/353c/live/d82787d0-6185-11f1-b682-cf91850925ea.jpg",
+        "publishedAt": "2026-06-07T17:11:54.000Z",
         "source": "BBC"
+      },
+      {
+        "title": "Israel strikes Beirut suburb days after US-brokered truce",
+        "link": "https://www.bbc.com/news/articles/c0qyevk8139o?at_medium=RSS&at_campaign=rss",
+        "summary": "Israel says the attacks on the Lebanese capital were ordered \"in response to Hezbollah's firing at Israeli territory\".",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ff48/live/318f54e0-6287-11f1-a012-97de4dc8804e.jpg",
+        "publishedAt": "2026-06-07T16:42:18.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Why heat, travel and sleep could challenge teams as much as the opposition at the World Cup",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nUENjOGRSakZBbHdSSV80MVp5XzJKOUczVkMxcmFOQ2JpLWlPaEY3bDl3LTF1WUZjLVpsa0FiVDl5Sm1IMURTOWpqODVVMDJybDh0V015ZWJyMS0tS0pEQTBPMlRiYTd5RzlDWC03TVpXZEQ0Q2hQdS1VSkkzWDg?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-06-07T13:00:08.000Z",
+        "source": "CNN"
       },
       {
         "title": "Huge crowds throng Madrid streets for Pope's open-air Mass",
         "link": "https://www.bbc.com/news/articles/c4gyejvzx9eo?at_medium=RSS&at_campaign=rss",
         "summary": "The pontiff waved at those gathered from his popemobile as he arrived at the Plaza de Cibeles.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9a43/live/c432bc30-6249-11f1-8b8c-6d33e1d5abb6.jpg",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce61/live/a900c290-6249-11f1-8b8c-6d33e1d5abb6.jpg",
         "publishedAt": "2026-06-07T10:27:15.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Remember when David Beckham’s sarong seized a nation?",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBHT0FlSmV0WDNfRnVKdVd1enVzeFhHWEt5dU5SOUdGZzNPcFZkOEZCR1Vkbmt1ajB6bGdfX2FHbkFTeXN4YkZaQm9INjFURDg1aTFSOUM3bGZmekM0OEVMVWd0V0RtWjhTbUltSmdUdzZiOUxPZnc?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-06-07T07:30:08.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "Steve Rosenberg: Russia's economic forum overshadowed by drone attacks on St Petersburg",
-        "link": "https://www.bbc.com/news/articles/c9q2gp52rgro?at_medium=RSS&at_campaign=rss",
-        "summary": "The BBC's Russia editor saw Putin's flagship economic event overshadowed by Ukrainian drones attacks.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/59f4/live/aa950a10-623c-11f1-89a3-d1f559421220.jpg",
-        "publishedAt": "2026-06-07T07:11:18.000Z",
         "source": "BBC"
       }
     ],
@@ -467,144 +467,52 @@
     ],
     "international": [
       {
-        "title": "Zelensky criticises 'vile' Chornobyl drone strike ahead of London talks",
+        "title": "Zelensky arrives in UK for Downing Street talks with European leaders",
         "link": "https://www.bbc.com/news/articles/cr7xr1g3nvvo?at_medium=RSS&at_campaign=rss",
-        "summary": "Ukrainian officials say a Russian drone hit a storage facility for spent nuclear fuel near the Chornobyl nuclear plant.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8c12/live/9aaeaf20-626e-11f1-89a3-d1f559421220.jpg",
-        "publishedAt": "2026-06-07T12:09:57.000Z",
+        "summary": "Zelensky's meeting with Ukraine's staunchest European allies comes as US President Donald Trump's focus has shifted to the war with Iran.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cb9c/live/a9935840-628e-11f1-88d1-efdbd2057b53.jpg",
+        "publishedAt": "2026-06-07T17:28:35.000Z",
         "source": "BBC"
       },
       {
-        "title": "Hegseth attacks Europe over migration with beach 'invasion' D-Day speech",
-        "link": "https://www.bbc.com/news/articles/c802e7jk458o?at_medium=RSS&at_campaign=rss",
-        "summary": "The US defence secretary was speaking in Normandy, 82 years after allied forces launched their operation to liberate Nazi-occupied north-western Europ...",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/82e7/live/c3681e00-61ed-11f1-89a3-d1f559421220.jpg",
-        "publishedAt": "2026-06-07T10:35:25.000Z",
+        "title": "Armenia votes as Russia piles pressure on pro-West government",
+        "link": "https://www.bbc.com/news/articles/c3626n1epd5o?at_medium=RSS&at_campaign=rss",
+        "summary": "Incumbent Prime Minister Nikol Pashinyan is seeking a third term despite falling domestic support.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/353c/live/d82787d0-6185-11f1-b682-cf91850925ea.jpg",
+        "publishedAt": "2026-06-07T17:11:54.000Z",
         "source": "BBC"
+      },
+      {
+        "title": "Israel strikes Beirut suburb days after US-brokered truce",
+        "link": "https://www.bbc.com/news/articles/c0qyevk8139o?at_medium=RSS&at_campaign=rss",
+        "summary": "Israel says the attacks on the Lebanese capital were ordered \"in response to Hezbollah's firing at Israeli territory\".",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ff48/live/318f54e0-6287-11f1-a012-97de4dc8804e.jpg",
+        "publishedAt": "2026-06-07T16:42:18.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Why heat, travel and sleep could challenge teams as much as the opposition at the World Cup",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nUENjOGRSakZBbHdSSV80MVp5XzJKOUczVkMxcmFOQ2JpLWlPaEY3bDl3LTF1WUZjLVpsa0FiVDl5Sm1IMURTOWpqODVVMDJybDh0V015ZWJyMS0tS0pEQTBPMlRiYTd5RzlDWC03TVpXZEQ0Q2hQdS1VSkkzWDg?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-06-07T13:00:08.000Z",
+        "source": "CNN"
       },
       {
         "title": "Huge crowds throng Madrid streets for Pope's open-air Mass",
         "link": "https://www.bbc.com/news/articles/c4gyejvzx9eo?at_medium=RSS&at_campaign=rss",
         "summary": "The pontiff waved at those gathered from his popemobile as he arrived at the Plaza de Cibeles.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9a43/live/c432bc30-6249-11f1-8b8c-6d33e1d5abb6.jpg",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce61/live/a900c290-6249-11f1-8b8c-6d33e1d5abb6.jpg",
         "publishedAt": "2026-06-07T10:27:15.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Remember when David Beckham’s sarong seized a nation?",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBHT0FlSmV0WDNfRnVKdVd1enVzeFhHWEt5dU5SOUdGZzNPcFZkOEZCR1Vkbmt1ajB6bGdfX2FHbkFTeXN4YkZaQm9INjFURDg1aTFSOUM3bGZmekM0OEVMVWd0V0RtWjhTbUltSmdUdzZiOUxPZnc?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-06-07T07:30:08.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "Steve Rosenberg: Russia's economic forum overshadowed by drone attacks on St Petersburg",
-        "link": "https://www.bbc.com/news/articles/c9q2gp52rgro?at_medium=RSS&at_campaign=rss",
-        "summary": "The BBC's Russia editor saw Putin's flagship economic event overshadowed by Ukrainian drones attacks.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/59f4/live/aa950a10-623c-11f1-89a3-d1f559421220.jpg",
-        "publishedAt": "2026-06-07T07:11:18.000Z",
         "source": "BBC"
       }
     ],
     "nba": []
   },
   "nbaScoreboard": {
-    "date": "2026-06-07",
+    "date": "2026-06-08",
     "currentIndex": 4,
     "days": [
-      {
-        "date": "2026-06-03",
-        "games": [
-          {
-            "id": "401859963",
-            "link": "https://www.espn.com/nba/game/_/gameId/401859963/knicks-spurs",
-            "startTime": "2026-06-04T00:30Z",
-            "state": "post",
-            "statusText": "Final",
-            "detail": "Final",
-            "note": "NBA Finals - Game 1",
-            "homeTeam": {
-              "abbreviation": "SA",
-              "displayName": "San Antonio Spurs",
-              "score": "95",
-              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
-              "leaderContext": "Game Leaders",
-              "leaders": [
-                {
-                  "label": "PTS",
-                  "value": "26",
-                  "player": "Victor Wembanyama",
-                  "position": "F",
-                  "jersey": "1",
-                  "summary": "6/21 FG, 12/13 FT",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
-                  "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
-                },
-                {
-                  "label": "REB",
-                  "value": "12",
-                  "player": "Victor Wembanyama",
-                  "position": "F",
-                  "jersey": "1",
-                  "summary": "9 DREB, 3 OREB",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
-                  "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
-                },
-                {
-                  "label": "AST",
-                  "value": "5",
-                  "player": "De'Aaron Fox",
-                  "position": "G",
-                  "jersey": "4",
-                  "summary": "3 TO, 38 MIN",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066259.png",
-                  "link": "https://www.espn.com/nba/player/_/id/4066259/deaaron-fox"
-                }
-              ]
-            },
-            "awayTeam": {
-              "abbreviation": "NY",
-              "displayName": "New York Knicks",
-              "score": "105",
-              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
-              "leaderContext": "Game Leaders",
-              "leaders": [
-                {
-                  "label": "PTS",
-                  "value": "30",
-                  "player": "Jalen Brunson",
-                  "position": "G",
-                  "jersey": "11",
-                  "summary": "12/31 FG, 4/4 FT",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
-                  "link": "https://www.espn.com/nba/player/_/id/3934672/jalen-brunson"
-                },
-                {
-                  "label": "REB",
-                  "value": "15",
-                  "player": "Josh Hart",
-                  "position": "G",
-                  "jersey": "3",
-                  "summary": "13 DREB, 2 OREB",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3062679.png",
-                  "link": "https://www.espn.com/nba/player/_/id/3062679/josh-hart"
-                },
-                {
-                  "label": "AST",
-                  "value": "6",
-                  "player": "Josh Hart",
-                  "position": "G",
-                  "jersey": "3",
-                  "summary": "0 TO, 27 MIN",
-                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3062679.png",
-                  "link": "https://www.espn.com/nba/player/_/id/3062679/josh-hart"
-                }
-              ]
-            }
-          }
-        ]
-      },
       {
         "date": "2026-06-04",
         "games": []
@@ -900,12 +808,104 @@
       {
         "date": "2026-06-11",
         "games": []
+      },
+      {
+        "date": "2026-06-12",
+        "games": []
       }
     ],
-    "games": []
+    "games": [
+      {
+        "id": "401859965",
+        "link": "https://www.espn.com/nba/game/_/gameId/401859965/spurs-knicks",
+        "startTime": "2026-06-09T00:30Z",
+        "state": "pre",
+        "statusText": "Scheduled",
+        "detail": "6/8 - 8:30 PM EDT",
+        "note": "NBA Finals - Game 3",
+        "homeTeam": {
+          "abbreviation": "NY",
+          "displayName": "New York Knicks",
+          "score": "0",
+          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+          "leaderContext": "Season Leaders",
+          "leaders": [
+            {
+              "label": "PPG",
+              "value": "26.0",
+              "player": "Jalen Brunson",
+              "position": "G",
+              "jersey": "11",
+              "summary": "",
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
+              "link": "https://www.espn.com/nba/player/_/id/3934672/jalen-brunson"
+            },
+            {
+              "label": "RPG",
+              "value": "11.9",
+              "player": "Karl-Anthony Towns",
+              "position": "C",
+              "jersey": "32",
+              "summary": "",
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3136195.png",
+              "link": "https://www.espn.com/nba/player/_/id/3136195/karl-anthony-towns"
+            },
+            {
+              "label": "APG",
+              "value": "6.8",
+              "player": "Jalen Brunson",
+              "position": "G",
+              "jersey": "11",
+              "summary": "",
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
+              "link": "https://www.espn.com/nba/player/_/id/3934672/jalen-brunson"
+            }
+          ]
+        },
+        "awayTeam": {
+          "abbreviation": "SA",
+          "displayName": "San Antonio Spurs",
+          "score": "0",
+          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+          "leaderContext": "Season Leaders",
+          "leaders": [
+            {
+              "label": "PPG",
+              "value": "25.0",
+              "player": "Victor Wembanyama",
+              "position": "F",
+              "jersey": "1",
+              "summary": "",
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
+              "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
+            },
+            {
+              "label": "RPG",
+              "value": "11.5",
+              "player": "Victor Wembanyama",
+              "position": "F",
+              "jersey": "1",
+              "summary": "",
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
+              "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
+            },
+            {
+              "label": "APG",
+              "value": "7.4",
+              "player": "Stephon Castle",
+              "position": "G",
+              "jersey": "5",
+              "summary": "",
+              "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4845367.png",
+              "link": "https://www.espn.com/nba/player/_/id/4845367/stephon-castle"
+            }
+          ]
+        }
+      }
+    ]
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-06-07",
+    "rotationLabel": "Curated Rotation · 2026-06-08",
     "sections": [
       {
         "id": "data-storage",
@@ -913,27 +913,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-6",
-            "sectionId": "data-storage",
-            "title": "DiskANN: Fast Accurate Billion-point Nearest Neighbor Search on a Single Node",
-            "authors": [
-              "Neelesh Gupta",
-              "Leland Willard",
-              "Xiangyao Yu",
-              "Yuri N."
-            ],
-            "venue": "NeurIPS",
-            "year": 2019,
-            "quality": "高影响力",
-            "categories": [
-              "vector search",
-              "ANN"
-            ],
-            "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
-            "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-1",
             "sectionId": "data-storage",
@@ -953,7 +932,7 @@
             ],
             "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
             "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-2",
@@ -975,6 +954,27 @@
             "link": "https://research.google/pubs/pub27898/",
             "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-3",
+            "sectionId": "data-storage",
+            "title": "Dynamo: Amazon's Highly Available Key-value Store",
+            "authors": [
+              "Giuseppe DeCandia",
+              "Deniz Hastorun",
+              "Madan Jampani",
+              "Gunavardhan Kakulapati"
+            ],
+            "venue": "SOSP",
+            "year": 2007,
+            "quality": "顶会",
+            "categories": [
+              "key-value",
+              "distributed systems"
+            ],
+            "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
+            "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -984,27 +984,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-1",
-            "sectionId": "computer-vision",
-            "title": "Deep Residual Learning for Image Recognition",
-            "authors": [
-              "Kaiming He",
-              "Xiangyu Zhang",
-              "Shaoqing Ren",
-              "Jian Sun"
-            ],
-            "venue": "CVPR",
-            "year": 2016,
-            "quality": "顶会",
-            "categories": [
-              "image recognition",
-              "backbone"
-            ],
-            "link": "https://arxiv.org/abs/1512.03385",
-            "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-2",
             "sectionId": "computer-vision",
@@ -1024,7 +1003,7 @@
             ],
             "link": "https://arxiv.org/abs/2005.12872",
             "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-3",
@@ -1046,6 +1025,27 @@
             "link": "https://arxiv.org/abs/2010.11929",
             "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-4",
+            "sectionId": "computer-vision",
+            "title": "Learning Transferable Visual Models From Natural Language Supervision",
+            "authors": [
+              "Alec Radford",
+              "Jong Wook Kim",
+              "Chris Hallacy",
+              "Aditya Ramesh"
+            ],
+            "venue": "ICML",
+            "year": 2021,
+            "quality": "顶会",
+            "categories": [
+              "vision-language",
+              "foundation model"
+            ],
+            "link": "https://arxiv.org/abs/2103.00020",
+            "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -1055,27 +1055,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-2",
-            "sectionId": "llm-memory",
-            "title": "Memorizing Transformers",
-            "authors": [
-              "Yuhuai Wu",
-              "Markus N. Rabe",
-              "DeLesley Hutchins",
-              "Christian Szegedy"
-            ],
-            "venue": "ICLR",
-            "year": 2022,
-            "quality": "顶会",
-            "categories": [
-              "memory",
-              "long context"
-            ],
-            "link": "https://arxiv.org/abs/2203.08913",
-            "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-3",
             "sectionId": "llm-memory",
@@ -1095,7 +1074,7 @@
             ],
             "link": "https://arxiv.org/abs/2112.04426",
             "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-4",
@@ -1117,6 +1096,27 @@
             "link": "https://arxiv.org/abs/2310.11511",
             "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-5",
+            "sectionId": "llm-memory",
+            "title": "LongMem: Scaling Language Model Context with Memory-Augmented Retrieval",
+            "authors": [
+              "Zeqiu Wu",
+              "Yizhong Wang",
+              "Jiacheng Liu",
+              "Yelong Shen"
+            ],
+            "venue": "ACL Findings",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "memory",
+              "long context"
+            ],
+            "link": "https://arxiv.org/abs/2306.07174",
+            "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -1126,27 +1126,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-3",
-            "sectionId": "agents",
-            "title": "Generative Agents: Interactive Simulacra of Human Behavior",
-            "authors": [
-              "Joon Sung Park",
-              "Joseph O'Brien",
-              "Carrie Cai",
-              "Meredith Ringel Morris"
-            ],
-            "venue": "UIST",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "agent society",
-              "memory"
-            ],
-            "link": "https://arxiv.org/abs/2304.03442",
-            "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-4",
             "sectionId": "agents",
@@ -1166,7 +1145,7 @@
             ],
             "link": "https://arxiv.org/abs/2305.16291",
             "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-5",
@@ -1187,6 +1166,27 @@
             ],
             "link": "https://arxiv.org/abs/2308.08155",
             "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-6",
+            "sectionId": "agents",
+            "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+            "authors": [
+              "John Yang",
+              "Carlos E. Jimenez",
+              "Alexander Wettig",
+              "Karthik Narasimhan"
+            ],
+            "venue": "ICLR",
+            "year": 2025,
+            "quality": "新近代表作",
+            "categories": [
+              "software agent",
+              "benchmark"
+            ],
+            "link": "https://arxiv.org/abs/2405.15793",
+            "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
             "trackLabel": "轮换精选"
           }
         ]
