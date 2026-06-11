@@ -1,42 +1,95 @@
 {
-  "generatedAt": "2026-06-11T12:16:04.092Z",
+  "generatedAt": "2026-06-11T18:52:26.232Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": "--",
+      "temperature": 20,
       "weatherCode": 0,
-      "windSpeed": "--"
+      "windSpeed": 4
     },
     "today": {
-      "max": "--",
-      "min": "--",
-      "precipitationProbability": "--"
+      "date": "2026-06-12",
+      "weatherCode": 80,
+      "description": "阵雨",
+      "max": 34,
+      "min": 19,
+      "precipitationProbability": 33
     },
-    "forecast": []
+    "forecast": [
+      {
+        "date": "2026-06-12",
+        "weatherCode": 80,
+        "description": "阵雨",
+        "max": 34,
+        "min": 19,
+        "precipitationProbability": 33
+      },
+      {
+        "date": "2026-06-13",
+        "weatherCode": 61,
+        "description": "小雨",
+        "max": 29,
+        "min": 20,
+        "precipitationProbability": 76
+      },
+      {
+        "date": "2026-06-14",
+        "weatherCode": 51,
+        "description": "毛毛雨",
+        "max": 30,
+        "min": 19,
+        "precipitationProbability": 24
+      },
+      {
+        "date": "2026-06-15",
+        "weatherCode": 51,
+        "description": "毛毛雨",
+        "max": 30,
+        "min": 21,
+        "precipitationProbability": 37
+      },
+      {
+        "date": "2026-06-16",
+        "weatherCode": 61,
+        "description": "小雨",
+        "max": 27,
+        "min": 22,
+        "precipitationProbability": 57
+      }
+    ]
   },
   "classicQuote": {
-    "id": "zhuangzi-time",
-    "text": "人生天地之间，若白驹之过隙，忽然而已。",
-    "source": "《庄子》",
-    "author": "庄周",
-    "note": "事情很多的时候，更值得把注意力放在真正重要的事上。"
+    "id": "dream-red-mansions",
+    "text": "世事洞明皆学问，人情练达即文章。",
+    "source": "《红楼梦》",
+    "author": "曹雪芹",
+    "note": "技术之外，理解人和场景，往往更能拉开差距。"
   },
   "bookExcerpt": {
-    "id": "one-hundred-years-yellow",
-    "text": "许多年以后，面对行刑队，奥雷里亚诺·布恩迪亚上校将会想起父亲带他去见识冰块的那个遥远的下午。",
-    "book": "《百年孤独》",
-    "author": "加西亚·马尔克斯"
+    "id": "floating-life-lotus",
+    "text": "芸坐其侧，素手烹茶，窗外新荷微香，连晚风也像带着水意，从竹帘间一寸寸地漫进来。",
+    "book": "《浮生六记》",
+    "author": "沈复"
   },
   "featuredPlace": {
-    "id": "202606101600",
-    "title": "退潮时裸露在乌尔萨海滩海岸上的帽贝, 葡萄牙",
+    "id": "202606111600",
+    "title": "黄喉蜂虎，格拉萨莱马山自然公园，加的斯，西班牙",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "沉静的力量",
-    "image": "https://www.bing.com/th?id=OHR.Limpets_ZH-CN4991771513_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E8%91%A1%E8%90%84%E7%89%99%E4%B9%8C%E5%B0%94%E8%90%A8%E6%B5%B7%E6%BB%A9&form=hpcapt&mkt=zh-cn"
+    "summary": "惊鸿一瞥",
+    "image": "https://www.bing.com/th?id=OHR.SpainBeeEater_ZH-CN4424052851_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E9%BB%84%E5%96%89%E8%9C%82%E8%99%8E&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202606111600",
+      "title": "黄喉蜂虎，格拉萨莱马山自然公园，加的斯，西班牙",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "惊鸿一瞥",
+      "image": "https://www.bing.com/th?id=OHR.SpainBeeEater_ZH-CN4424052851_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E9%BB%84%E5%96%89%E8%9C%82%E8%99%8E&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202606101600",
       "title": "退潮时裸露在乌尔萨海滩海岸上的帽贝, 葡萄牙",
@@ -99,161 +152,176 @@
       "summary": "无人问津之地的静默力量",
       "image": "https://www.bing.com/th?id=OHR.WedLapland_ZH-CN2365942547_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E7%8E%AF%E5%A2%83%E6%97%A5&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202606031600",
-      "title": "梳理羽毛的雪鹭，佛罗里达州中部，美国",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "优雅羽饰",
-      "image": "https://www.bing.com/th?id=OHR.PreeningEgret_ZH-CN2216012708_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E9%9B%AA%E9%B9%AD&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-06-11",
-    "dateLabel": "6月11日",
+    "dateKey": "2026-06-12",
+    "dateLabel": "6月12日",
     "items": [
       {
-        "year": "2017",
-        "text": "西班牙選手拉斐尔·纳达尔獲得2017年法國網球公開賽男子单打比赛的冠軍，成為史上第一位能在單一大滿貫拿下十座冠軍的網球選手。",
-        "link": "https://zh.wikipedia.org/wiki/2017%E5%B9%B4"
+        "year": "2025",
+        "text": "印度航空一架波音787客機自印度古加拉特邦亞美達巴德薩達爾·瓦拉巴伊·帕特爾國際機場起飛後不久墜毀，造成至少269人死亡、61人受傷。",
+        "link": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4"
       },
       {
-        "year": "2015",
-        "text": "中共中央政治局常委、中央政法委书记周永康的系列案件由天津市第一中级人民法院宣判，周永康被判处无期徒刑，剥夺政治权利终身，并处没收个人财产，“刑不上常委”的规矩正式被打破。",
-        "link": "https://zh.wikipedia.org/wiki/2015%E5%B9%B4"
+        "year": "2019",
+        "text": "香港各行業工商人及學界發動罷工、罷市、罷課示威及發起佔領行動，阻止香港政府在6月9日遊行後仍在當日對逃犯條例進行的二讀，終被香港警察鎮壓，香港政府稱為暴動。",
+        "link": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "泉州—武汉—固原往返航线正式首航 架起闽宁协作空中新通道",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-11/10638552.shtml",
-        "summary": "中新网固原6月11日电 (记者 李佩珊)6月11日，厦门航空MF8291航班平稳降落固原六盘山机场，标志着泉州—武汉—固原往返航线成功首航，为六盘山区打通直达华中、东南沿海的便捷空中通道，进一步完善宁夏南部区域航空交通网络。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260611/f7f5722c-bad2-4997-82ac-2c5bea5081c9_zsite.jpeg",
-        "publishedAt": "2026-06-11T12:11:03.000Z",
+        "title": "探访厦门五通客运码头：“近便利”服务扩容惠台胞",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-11/10638759.shtml",
+        "summary": "中新社厦门6月11日电 (郑江洛 彭莉芳)“刚好台胞证即将到期，原本计划专门抽时间办理换证手续，没想到在码头就能直接换证，十分高效。”台湾媒体人高荣树11日在厦门五通客运码头受访时说。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260611/f7cb09dc-370e-4aed-b88b-35a6ea6ee5cf_zsite.jpg",
+        "publishedAt": "2026-06-11T15:38:56.000Z",
         "source": "中新网"
       },
       {
-        "title": "外交部发言人宣布中方对菲律宾国防部长特奥多罗及其亲属实施制裁",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-11/10638607.shtml",
-        "summary": "菲律宾国防部长特奥多罗多次发表涉华谬论，损害中方正当利益，破坏中菲两国关系。为维护中国国家主权、安全、发展利益，中方决定，禁止特奥多罗及其配偶、子女入境中国内地和香港、澳门，禁止中国境内的组织、个人与特奥多罗及其配偶、子女进行任何交易、合作等活动。",
+        "title": "张国清出席“全球趋同促增长峰会”并发言",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-11/10638756.shtml",
+        "summary": "新华社北京6月11日电(记者王慧慧)6月11日，中共中央政治局委员、国务院副总理张国清应邀以视频方式出席“全球趋同促增长峰会”并发言。",
         "image": "",
-        "publishedAt": "2026-06-11T12:10:09.000Z",
+        "publishedAt": "2026-06-11T15:14:02.000Z",
         "source": "中新网"
       },
       {
-        "title": "李强主持召开国务院常务会议",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-11/10638600.shtml",
-        "summary": "",
+        "title": "彭清华出席俄罗斯驻华使馆国庆招待会",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-11/10638752.shtml",
+        "summary": "新华社北京6月11日电(记者邵艺博)全国人大常委会副委员长彭清华11日出席俄罗斯驻华使馆国庆招待会并致辞，表示中方愿与俄方以元首重要共识为引领，加强发展战略对接，夯实人民传统友谊，密切协调配合，赋能彼此发展振兴，推动构建新型国际关系。",
         "image": "",
-        "publishedAt": "2026-06-11T12:05:59.000Z",
+        "publishedAt": "2026-06-11T14:50:39.000Z",
         "source": "中新网"
       },
       {
-        "title": "引江补汉工程8号检修交通洞顺利贯通",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-11/10638536.shtml",
-        "summary": "中新网湖北保康6月11日电 (张倩龙 陈泉霖 付乐)南水北调中线后续工程首个开工重大项目——引江补汉工程建设取得重大突破。10日，全线重难点控制性工程8号检修交通洞顺利贯通，为加快引江补汉主隧洞施工打下坚实基础。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260611/711138eb-f0b4-4237-8c9e-2aad99d3222f_zsite.jpg",
-        "publishedAt": "2026-06-11T11:59:26.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "两部门约谈提醒涉嫌非理性竞争汽车生产企业",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-11/10638583.shtml",
-        "summary": "中新网6月11日电 据“工信微报”微信公众号消息，6月11日，工业和信息化部、市场监管总局对涉嫌存在非理性竞争行为的汽车生产企业进行约谈提醒，要求企业严格遵守《中华人民共和国价格法》《关于制止低价倾销行为的规定》等法律法规规章，按照《汽车行业价格行为合规指南》要求，加强价格合规建设，强化产品质量管控...",
+        "title": "颜宁领衔研究团队解析动物毒素如何“操纵”钠离子通道",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-11/10638662.shtml",
+        "summary": "中新社深圳6月11日电 (记者 索有为)记者11日从深圳医学科学院获悉，由中国科学院院士颜宁领衔的研究团队聚焦人体神经系统中重要的电压门控钠离子通道Nav1.6，解析出其分别与蝎毒Cn2、芋螺毒素#617;-RXIA和子弹蚁毒素Pc1a结合的复合物结构，系统揭示这三种激动型多肽神经毒素在钠离子通道上...",
         "image": "",
-        "publishedAt": "2026-06-11T11:58:58.000Z",
+        "publishedAt": "2026-06-11T14:09:42.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "中方对菲律宾国防部长特奥多罗及其亲属实施制裁",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-11/10638656.shtml",
+        "summary": "中新社北京6月11日电 中国外交部发言人11日宣布，中方对菲律宾国防部长特奥多罗及其亲属实施制裁。",
+        "image": "",
+        "publishedAt": "2026-06-11T14:08:12.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "江西高校里的“宝藏”博物馆：大一新生参与“挖”出新矿物",
-        "link": "https://www.chinanews.com.cn/sh/2026/06-11/10638556.shtml",
-        "summary": "中新网南昌6月11日电 题：江西高校里的“宝藏”博物馆：大一新生参与“挖”出新矿物",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260611/ab812ae8-1aba-4f89-a5ef-d02d75624c7b_zsite.jpg",
-        "publishedAt": "2026-06-11T12:11:35.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "“孤女遭亲舅舅阻止高考”系“剧本式”造谣（2026·06·11）",
-        "link": "https://www.chinanews.com.cn/sh/2026/06-11/10638590.shtml",
-        "summary": "辟谣 “孤女模拟考648分，却遭亲舅舅烧书阻止高考”系谣言",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/06/11/97a862c600be4b2dabf5fe086ffaf119.png",
-        "publishedAt": "2026-06-11T11:57:02.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "广东省首个仙进奉荔枝气象溯源码发布上线",
-        "link": "https://www.chinanews.com.cn/sh/2026/06-11/10638534.shtml",
-        "summary": "中新网广州6月11日电 (记者 程景伟)2026年广州仙基仙进奉荔枝产品发布会11日在广州举行。会上，广东全省首个仙进奉荔枝气象溯源码正式发布上线。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260611/a4ccdbf6-49f8-4134-8060-4c16a1512ec4_zsite.jpg",
-        "publishedAt": "2026-06-11T11:55:52.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "江西吉安“独臂村医”的30年坚守：撑起乡村健康“守护伞”",
-        "link": "https://www.chinanews.com.cn/sh/2026/06-11/10638548.shtml",
-        "summary": "中新网吉安6月11日电 题：江西吉安“独臂村医”的30年坚守：撑起乡村健康“守护伞”",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260611/451610a5-6fe5-474c-8ac4-7bfa4b22da8a_zsite.jpg",
-        "publishedAt": "2026-06-11T11:54:22.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "429名韩国游客“包机”游鄂尔多斯",
-        "link": "https://www.chinanews.com.cn/sh/2026/06-11/10638543.shtml",
-        "summary": "中新网鄂尔多斯6月11日电(李爱平 潘鑫)6月10日至11日，3架韩国入境旅游包机陆续降落在鄂尔多斯伊金霍洛国际机场，429名韩国游客开启为期4天3晚的鄂尔多斯深度游之旅。",
+        "title": "美国夏威夷青少年拜谒中山陵",
+        "link": "https://www.chinanews.com.cn/sh/2026/06-11/10638757.shtml",
+        "summary": "中新社南京6月11日电 (记者 徐珊珊)6月11日，来自美国夏威夷州的青少年访华团一行走进南京中山陵。在392级石阶上，学生们挥汗攀登；在孙中山先生坐像前，大家一道感受“天下为公”的精神力量。",
         "image": "",
-        "publishedAt": "2026-06-11T11:47:13.000Z",
+        "publishedAt": "2026-06-11T15:18:09.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "四川成都：新配属动车组陆续到位",
+        "link": "https://www.chinanews.com.cn/sh/2026/06-11/10638747.shtml",
+        "summary": "中新网成都6月11日电(刘忠俊 李建国 黄强)6月11日，随着CR400AF-AS-2515长编复兴号智能动车组缓缓驶入成都动车段存车场，标志成都动车段新配属的9组CR400AF-AS型复兴号智能动车组、4组CRH380A型动车组陆续交付到位。本轮配属完成后，该段动车组配属总量将增至196列，进一步...",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260611/22346645-49e7-438f-b765-cc5121e6f5e8_zsite.jpg",
+        "publishedAt": "2026-06-11T14:38:26.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "马来西亚自媒体人在广州番禺沉浸式体验广府民俗",
+        "link": "https://www.chinanews.com.cn/sh/2026/06-11/10638746.shtml",
+        "summary": "中新网广州6月11日电 (蔡敏婕 吴红颖)“太刺激了，我们马来西亚也有龙舟，但亲自下场划还是第一次。”在大岭村的河涌上，来自马来西亚的自媒体人穿上救生衣，紧握船桨，随着鼓手铿锵有力的节奏，龙舟在河道上破浪前行......",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260611/7af83288-c5b9-418a-8109-7d157a06c53f_zsite.jpg",
+        "publishedAt": "2026-06-11T14:33:18.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "广西兴安爆炸事件：17名伤员生命体征平稳 全面排查整治安全隐患",
+        "link": "https://www.chinanews.com.cn/sh/2026/06-11/10638740.shtml",
+        "summary": "中新网桂林6月11日电(黄艳梅 杨宗盛 邓竣缤 陈沿佑)记者11日晚从广西桂林市兴安县有关部门获悉，截至6月11日18时，广西兴安爆炸事件17名伤员生命体征平稳。",
+        "image": "",
+        "publishedAt": "2026-06-11T14:31:58.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "专家：依托长江推动内河船舶绿色智能转型升级",
+        "link": "https://www.chinanews.com.cn/sh/2026/06-11/10638682.shtml",
+        "summary": "中新网宜昌6月11日电 (董晓斌 朱灿义 黎文来)第三届绿色智能内河船舶产业研讨会11日在湖北省宜都市举行。全国船舶领域企业、科研院所近300位行业专家、企业家代表相聚长江之滨，共商绿色智能船舶产业发展。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260611/83d40c2f-743d-4f7f-8db9-a6ad0c5d9bed_zsite.jpg",
+        "publishedAt": "2026-06-11T14:09:32.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "外眼看义乌：数字贸易如何让更多人共享全球市场",
-        "link": "https://www.chinanews.com.cn/cj/2026/06-11/10638521.shtml",
-        "summary": "中新网义乌6月11日电 题：外眼看义乌：数字贸易如何让更多人共享全球市场",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260611/75b684ec-cc58-4592-9a5d-060a18e33123_zsite.JPG",
-        "publishedAt": "2026-06-11T12:08:25.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "中国快递协会发布“以竹代塑、向绿而行”倡议书",
-        "link": "https://www.chinanews.com.cn/cj/2026/06-11/10638520.shtml",
-        "summary": "中新网三明6月11日电 (雷朝良)6月11日，在福建省三明市举办的2026年邮政业绿色包装推广会上，中国快递协会发布“以竹代塑、向绿而行”倡议书，号召全行业加快推广竹质快递包装，替代传统塑料制品，力争到2030年实现“以竹代塑”快递包装年均使用量增长50%的目标，助力绿色发展。",
+        "title": "欧莱雅在苏州庆祝集团在华首座工厂建立30周年",
+        "link": "https://www.chinanews.com.cn/cj/2026/06-12/10638763.shtml",
+        "summary": "中新社苏州6月11日电 (记者 钟升)“过去三十年，我们持续投资苏州、投资中国。苏州工厂的发展历程，是欧莱雅与中国市场共同成长、共同发展的缩影。”欧莱雅集团北亚总裁及中国首席执行官博万尚(Vincent Boinay)11日在江苏苏州对中新社记者说道。",
         "image": "",
-        "publishedAt": "2026-06-11T12:07:09.000Z",
+        "publishedAt": "2026-06-11T16:58:45.000Z",
         "source": "中新网"
       },
       {
-        "title": "安徽出台政策支持金融“活水”精准滴灌水利建设",
-        "link": "https://www.chinanews.com.cn/cj/2026/06-11/10638546.shtml",
-        "summary": "中新网合肥6月11日电 (记者 张强)记者11日从安徽省水利厅召开的新闻发布会上获悉，该省将推动金融资源精准配置到水利建设重点领域和薄弱环节。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260611/f4021733-6917-483f-a7d3-6e9280bd3ef7_zsite.JPG",
-        "publishedAt": "2026-06-11T12:02:58.000Z",
+        "title": "辽宁大连多举措保障2026夏季达沃斯论坛金融服务",
+        "link": "https://www.chinanews.com.cn/cj/2026/06-11/10638751.shtml",
+        "summary": "中新网大连6月11日电(记者 杨毅)大连市人民政府新闻办公室11日召开“优化支付服务保障2026大连夏季达沃斯”新闻发布会，中国人民银行大连市分行副行长贺聪介绍，针对2026大连夏季达沃斯论坛，人民银行大连市分行采取多项支付服务举措，确保达沃斯论坛期间金融服务安全高效。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260611/27f2e327-256c-4664-bf9a-f759647a4179_zsite.jpg",
+        "publishedAt": "2026-06-11T14:39:24.000Z",
         "source": "中新网"
       },
       {
-        "title": "第三届不锈钢产业创新发展大会福安举行 签约项目计划投资64.5亿元",
-        "link": "https://www.chinanews.com.cn/cj/2026/06-11/10638525.shtml",
-        "summary": "中新网宁德6月11日电 (记者 叶茂)11日，以“深耕协同创新 赋能产业链高质量发展”为主题的2026第三届不锈钢产业创新发展大会在福建省宁德福安市举行，凝聚行业共识，探讨技术创新路径，推动不锈钢产业链协同升级与绿色转型。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260611/1a0a9e15-0fac-4ce9-a3fd-9efb51a19780_zsite.jpg",
-        "publishedAt": "2026-06-11T12:02:26.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "商务部：中国网文、网剧、网游成文化消费和出海新引擎",
-        "link": "https://www.chinanews.com.cn/cj/2026/06-11/10638495.shtml",
-        "summary": "中新社北京6月11日电 (记者 尹倩芸)中国商务部新闻发言人何亚东11日在例行新闻发布会上称，中国的网文、网剧、网游等数字文化产品在全球刮起了“中国旋风”，已成为文化消费和文化出海新引擎。",
+        "title": "“专家助企燕赵行”走进秦皇岛 现场达成9项合作意向",
+        "link": "https://www.chinanews.com.cn/cj/2026/06-11/10638745.shtml",
+        "summary": "中新网秦皇岛6月11日电 (裴国荣)11日，由河北欧美同学会牵头组织的“四海共冀 强省有我一一专家助企燕赵行”政企交流对接洽谈会在秦皇岛举行，现场达成9项合作意向。",
         "image": "",
-        "publishedAt": "2026-06-11T11:44:27.000Z",
+        "publishedAt": "2026-06-11T14:32:54.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "国际参与度创新高 观南博会十届之变",
+        "link": "https://www.chinanews.com.cn/cj/2026/06-11/10638733.shtml",
+        "summary": "中新社昆明6月11日电 题：国际参与度创新高 观南博会十届之变",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260611/fccf70ba-7151-40f5-8be0-6d2ccd1c8a32_zsite.jpg",
+        "publishedAt": "2026-06-11T14:08:36.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "青海120亿千瓦时绿电送沪长期协议首年度落地",
+        "link": "https://www.chinanews.com.cn/cj/2026/06-11/10638736.shtml",
+        "summary": "中新社西宁6月11日电 (李隽 王宏霞)中国国家电网青海省电力公司(简称“国网青海电力”)11日消息，青海省与上海市签署的三年期绿色电力交易协议首年度已落地实施。截至5月底，青海已累计向上海输送绿电26亿千瓦时，占同期上海外来绿电总量的四分之一。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260611/8bf1cf5f-de1a-4faf-a921-f541531bddf9_zsite.jpg",
+        "publishedAt": "2026-06-11T14:06:54.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
+      {
+        "title": "Nigeria evacuates citizens from South Africa as anti-migrant sentiment rises",
+        "link": "https://www.bbc.com/news/articles/cq512vgyzl9o?at_medium=RSS&at_campaign=rss",
+        "summary": "Nigeria is the latest African state to repatriate citizens following reports of xenophobic attacks.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f48d/live/11b64750-657a-11f1-8e1d-bbbb1017d210.jpg",
+        "publishedAt": "2026-06-11T16:25:17.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Deadly Sudan drone strike targets funeral procession",
+        "link": "https://www.bbc.com/news/articles/c70yeee2jvqo?at_medium=RSS&at_campaign=rss",
+        "summary": "Rights groups accuse the RSF paramilitary group of killing civilians in el-Obeid, a city on the civil war's front line.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/98aa/live/9b5c4570-65a9-11f1-8546-8f19e4fe30f4.jpg",
+        "publishedAt": "2026-06-11T15:57:04.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "El Niño under way and threatens weather extremes, scientists say",
+        "link": "https://www.bbc.com/news/articles/c75ylx7g00xo?at_medium=RSS&at_campaign=rss",
+        "summary": "An El Niño event has officially started, say US scientists, raising fears of extreme weather and higher temperatures.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b183/live/4c26bd20-65b1-11f1-8e1d-bbbb1017d210.jpg",
+        "publishedAt": "2026-06-11T13:26:24.000Z",
+        "source": "BBC"
+      },
       {
         "title": "US and Iran exchange strikes across Middle East for second day in a row",
         "link": "https://www.bbc.com/news/articles/c4gyp9v0e93o?at_medium=RSS&at_campaign=rss",
@@ -263,61 +331,37 @@
         "source": "BBC"
       },
       {
-        "title": "Vance says Israeli PM Netanyahu 'has got some things wrong'",
-        "link": "https://www.bbc.com/news/articles/c9q2lq3vv7zo?at_medium=RSS&at_campaign=rss",
-        "summary": "The US vice-president says the Israeli leader \"aggressively asserts\" his country's interests, but they do not always align with those of the US.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cf9b/live/d8525db0-657d-11f1-9f01-693d064aea27.jpg",
-        "publishedAt": "2026-06-11T10:26:59.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Trump says 'I love the inflation' as US prices rise at fastest rate in three years",
-        "link": "https://www.bbc.com/news/articles/c0myzxjkw99o?at_medium=RSS&at_campaign=rss",
-        "summary": "The US president later said he had meant that he actually loved that inflation was not higher.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5fba/live/32abefd0-64f5-11f1-96e1-83394d865b23.jpg",
-        "publishedAt": "2026-06-11T09:14:13.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Thai court sentences two men to death over Bangkok shrine bombing",
-        "link": "https://www.bbc.com/news/articles/ckg8v51g9lno?at_medium=RSS&at_campaign=rss",
-        "summary": "Twenty people died and 120 others were injured in the explosion at the Erawan shrine 11 years ago.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ae97/live/1e6870f0-6556-11f1-96b7-ade3a5c64d14.jpg",
-        "publishedAt": "2026-06-11T06:45:10.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "The World Cup is in desperate need of a vibe shift. The matches have arrived just in time",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSXFXQ3ZkUHgta3U0RmNjRTl4RHFmeHRFd2RWc2NBYlJEdC0xVU5GRE8tdFlyOGJkbUUwY0dyZHl5TFhYaG9QVXhkVWFDWHBPc05kZjZaSlZDZnlpN2dUbTJwYzdpUWRxN1MwaDBKUVNFWjNoZVpiTmhfSFF6T0pFWHJB?oc=5",
+        "title": "5 things to know for June 11: World Cup, NBA Finals, UFC fight preparations, Iran war, Midwest storms",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONmJhcG5oNW9ESkdXRHptVHAxVTh3eFItZlRwclVWV0ViOE8tdkd2UWJUZjlJSHYxTU1hRHpvRXVvMW0wU3pRMVZVa0tEM2lEdnh1ZnlwM3RORmZBRnctTHl3SzV6OEJQN2tGUmx3WFRRNVVlQUF0VjJ0TVNVRkxhS0tJMXFRSV9rdU03ckJBelpDUVVQYXUxdFBVSEtDakxwMFpNcmljeHI4ZXR3dE9GYWFOOTctXzhueHVsRjB3dTNPT1l3XzVDOEd3?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-06-11T04:00:08.000Z",
+        "publishedAt": "2026-06-11T11:32:40.000Z",
         "source": "CNN"
       }
     ],
     "worldBusiness": [
+      {
+        "title": "Ryanair investigated over charging parents to sit with children",
+        "link": "https://www.bbc.com/news/articles/czj87rvx349o?at_medium=RSS&at_campaign=rss",
+        "summary": "The UK's competition regulator is investigating the airline over charges it imposes on parents to sit next to their child.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ff23/live/748ee4d0-658a-11f1-b1db-af71d47507d6.png",
+        "publishedAt": "2026-06-11T16:58:39.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "US wholesale inflation rose sharply last month as Iran oil shock continues to drive up business costs",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE51d1lUOXRXVGpnQ3VJcWxMVkFKQmZwcjZDbEwtOTJsYzNNR1FlVldzbXd3QWhnbkV5OXZYd1FWeFQ1dl93Sk1OcXNwdWo1bHJnRmJYY1U0S1VkTDVCWHpZSUlhN2tQYTA3eHZDQ2g3MkRTNEVIT0RLTg?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-06-11T12:34:08.000Z",
+        "source": "CNN"
+      },
       {
         "title": "AI is sparking a jobs boom — just not for newbies",
         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9rNndEOVRWemJENmVuNnlNWURLSTh0a1hWRi1HZ3hpaTd6cjBVNzlvWm9FVEF1UTNMRWQ5QldSU0JHMVlxNDZqaUtzSmY5Z1htNmxyZng2THlCS0VmSWdwTERR?oc=5",
         "summary": "",
         "image": "",
         "publishedAt": "2026-06-11T10:00:08.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "Ryanair investigated over charging parents to sit with children",
-        "link": "https://www.bbc.com/news/articles/czj87rvx349o?at_medium=RSS&at_campaign=rss",
-        "summary": "The UK's competition regulator is investigating the airline over charges it imposes on parents to sit next to their child.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ff23/live/748ee4d0-658a-11f1-b1db-af71d47507d6.png",
-        "publishedAt": "2026-06-11T09:13:06.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "From cartels to street vendors: Here’s who stands to profit (or not) from World Cup tourism in Mexico",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNa1dMMHd5ZXBzc0E5UWxyUWt0ZlNLV0VTMUpjTnM1aDNwWHlBcGhjWjVERkdBYm1McnVTd0lsdUMweGJqQ0pPcklTUVU3VjdERmJHWE1QdW1UNVpWSGd4bnVtcE1MbXFEZlJhSzV4MVNCQ1VZYmVJY0RPYldKN253OXZHZ1ZDM0c2a3FsTw?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-06-10T23:22:08.000Z",
         "source": "CNN"
       },
       {
@@ -338,6 +382,14 @@
       }
     ],
     "worldTech": [
+      {
+        "title": "Who is Elon Musk and what is his net worth?",
+        "link": "https://www.bbc.com/news/articles/c0r1975ded7o?at_medium=RSS&at_campaign=rss",
+        "summary": "The boss of X, Tesla and SpaceX is the world's richest person - and might even soon become a trillionaire.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6512/live/d31cff00-65a8-11f1-b0b4-ff7d574215ed.jpg",
+        "publishedAt": "2026-06-11T16:14:31.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Social media on trial: Four important cases to watch",
         "link": "https://www.bbc.com/news/articles/c9q39l447l4o?at_medium=RSS&at_campaign=rss",
@@ -369,59 +421,75 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e2d6/live/9a3ff590-6420-11f1-b421-199136196dd5.jpg",
         "publishedAt": "2026-06-09T16:45:12.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "EU orders Meta to open WhatsApp to rival AI chatbots",
-        "link": "https://www.bbc.com/news/articles/cn8qj8wjgxwo?at_medium=RSS&at_campaign=rss",
-        "summary": "Meta has accused the EU of \"regulatory overreach\" and says its decision will allow tech giants like OpenAI free access to WhatsApp.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/14b8/live/f819e550-641a-11f1-9216-c3eba4acaf31.jpg",
-        "publishedAt": "2026-06-09T16:16:12.000Z",
-        "source": "BBC"
       }
     ],
     "domestic": [
       {
-        "title": "泉州—武汉—固原往返航线正式首航 架起闽宁协作空中新通道",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-11/10638552.shtml",
-        "summary": "中新网固原6月11日电 (记者 李佩珊)6月11日，厦门航空MF8291航班平稳降落固原六盘山机场，标志着泉州—武汉—固原往返航线成功首航，为六盘山区打通直达华中、东南沿海的便捷空中通道，进一步完善宁夏南部区域航空交通网络。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260611/f7f5722c-bad2-4997-82ac-2c5bea5081c9_zsite.jpeg",
-        "publishedAt": "2026-06-11T12:11:03.000Z",
+        "title": "探访厦门五通客运码头：“近便利”服务扩容惠台胞",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-11/10638759.shtml",
+        "summary": "中新社厦门6月11日电 (郑江洛 彭莉芳)“刚好台胞证即将到期，原本计划专门抽时间办理换证手续，没想到在码头就能直接换证，十分高效。”台湾媒体人高荣树11日在厦门五通客运码头受访时说。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260611/f7cb09dc-370e-4aed-b88b-35a6ea6ee5cf_zsite.jpg",
+        "publishedAt": "2026-06-11T15:38:56.000Z",
         "source": "中新网"
       },
       {
-        "title": "外交部发言人宣布中方对菲律宾国防部长特奥多罗及其亲属实施制裁",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-11/10638607.shtml",
-        "summary": "菲律宾国防部长特奥多罗多次发表涉华谬论，损害中方正当利益，破坏中菲两国关系。为维护中国国家主权、安全、发展利益，中方决定，禁止特奥多罗及其配偶、子女入境中国内地和香港、澳门，禁止中国境内的组织、个人与特奥多罗及其配偶、子女进行任何交易、合作等活动。",
+        "title": "张国清出席“全球趋同促增长峰会”并发言",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-11/10638756.shtml",
+        "summary": "新华社北京6月11日电(记者王慧慧)6月11日，中共中央政治局委员、国务院副总理张国清应邀以视频方式出席“全球趋同促增长峰会”并发言。",
         "image": "",
-        "publishedAt": "2026-06-11T12:10:09.000Z",
+        "publishedAt": "2026-06-11T15:14:02.000Z",
         "source": "中新网"
       },
       {
-        "title": "李强主持召开国务院常务会议",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-11/10638600.shtml",
-        "summary": "",
+        "title": "彭清华出席俄罗斯驻华使馆国庆招待会",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-11/10638752.shtml",
+        "summary": "新华社北京6月11日电(记者邵艺博)全国人大常委会副委员长彭清华11日出席俄罗斯驻华使馆国庆招待会并致辞，表示中方愿与俄方以元首重要共识为引领，加强发展战略对接，夯实人民传统友谊，密切协调配合，赋能彼此发展振兴，推动构建新型国际关系。",
         "image": "",
-        "publishedAt": "2026-06-11T12:05:59.000Z",
+        "publishedAt": "2026-06-11T14:50:39.000Z",
         "source": "中新网"
       },
       {
-        "title": "引江补汉工程8号检修交通洞顺利贯通",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-11/10638536.shtml",
-        "summary": "中新网湖北保康6月11日电 (张倩龙 陈泉霖 付乐)南水北调中线后续工程首个开工重大项目——引江补汉工程建设取得重大突破。10日，全线重难点控制性工程8号检修交通洞顺利贯通，为加快引江补汉主隧洞施工打下坚实基础。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260611/711138eb-f0b4-4237-8c9e-2aad99d3222f_zsite.jpg",
-        "publishedAt": "2026-06-11T11:59:26.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "两部门约谈提醒涉嫌非理性竞争汽车生产企业",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-11/10638583.shtml",
-        "summary": "中新网6月11日电 据“工信微报”微信公众号消息，6月11日，工业和信息化部、市场监管总局对涉嫌存在非理性竞争行为的汽车生产企业进行约谈提醒，要求企业严格遵守《中华人民共和国价格法》《关于制止低价倾销行为的规定》等法律法规规章，按照《汽车行业价格行为合规指南》要求，加强价格合规建设，强化产品质量管控...",
+        "title": "颜宁领衔研究团队解析动物毒素如何“操纵”钠离子通道",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-11/10638662.shtml",
+        "summary": "中新社深圳6月11日电 (记者 索有为)记者11日从深圳医学科学院获悉，由中国科学院院士颜宁领衔的研究团队聚焦人体神经系统中重要的电压门控钠离子通道Nav1.6，解析出其分别与蝎毒Cn2、芋螺毒素#617;-RXIA和子弹蚁毒素Pc1a结合的复合物结构，系统揭示这三种激动型多肽神经毒素在钠离子通道上...",
         "image": "",
-        "publishedAt": "2026-06-11T11:58:58.000Z",
+        "publishedAt": "2026-06-11T14:09:42.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "中方对菲律宾国防部长特奥多罗及其亲属实施制裁",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-11/10638656.shtml",
+        "summary": "中新社北京6月11日电 中国外交部发言人11日宣布，中方对菲律宾国防部长特奥多罗及其亲属实施制裁。",
+        "image": "",
+        "publishedAt": "2026-06-11T14:08:12.000Z",
         "source": "中新网"
       }
     ],
     "international": [
+      {
+        "title": "Nigeria evacuates citizens from South Africa as anti-migrant sentiment rises",
+        "link": "https://www.bbc.com/news/articles/cq512vgyzl9o?at_medium=RSS&at_campaign=rss",
+        "summary": "Nigeria is the latest African state to repatriate citizens following reports of xenophobic attacks.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f48d/live/11b64750-657a-11f1-8e1d-bbbb1017d210.jpg",
+        "publishedAt": "2026-06-11T16:25:17.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Deadly Sudan drone strike targets funeral procession",
+        "link": "https://www.bbc.com/news/articles/c70yeee2jvqo?at_medium=RSS&at_campaign=rss",
+        "summary": "Rights groups accuse the RSF paramilitary group of killing civilians in el-Obeid, a city on the civil war's front line.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/98aa/live/9b5c4570-65a9-11f1-8546-8f19e4fe30f4.jpg",
+        "publishedAt": "2026-06-11T15:57:04.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "El Niño under way and threatens weather extremes, scientists say",
+        "link": "https://www.bbc.com/news/articles/c75ylx7g00xo?at_medium=RSS&at_campaign=rss",
+        "summary": "An El Niño event has officially started, say US scientists, raising fears of extreme weather and higher temperatures.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b183/live/4c26bd20-65b1-11f1-8e1d-bbbb1017d210.jpg",
+        "publishedAt": "2026-06-11T13:26:24.000Z",
+        "source": "BBC"
+      },
       {
         "title": "US and Iran exchange strikes across Middle East for second day in a row",
         "link": "https://www.bbc.com/news/articles/c4gyp9v0e93o?at_medium=RSS&at_campaign=rss",
@@ -431,48 +499,20 @@
         "source": "BBC"
       },
       {
-        "title": "Vance says Israeli PM Netanyahu 'has got some things wrong'",
-        "link": "https://www.bbc.com/news/articles/c9q2lq3vv7zo?at_medium=RSS&at_campaign=rss",
-        "summary": "The US vice-president says the Israeli leader \"aggressively asserts\" his country's interests, but they do not always align with those of the US.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cf9b/live/d8525db0-657d-11f1-9f01-693d064aea27.jpg",
-        "publishedAt": "2026-06-11T10:26:59.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Trump says 'I love the inflation' as US prices rise at fastest rate in three years",
-        "link": "https://www.bbc.com/news/articles/c0myzxjkw99o?at_medium=RSS&at_campaign=rss",
-        "summary": "The US president later said he had meant that he actually loved that inflation was not higher.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5fba/live/32abefd0-64f5-11f1-96e1-83394d865b23.jpg",
-        "publishedAt": "2026-06-11T09:14:13.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Thai court sentences two men to death over Bangkok shrine bombing",
-        "link": "https://www.bbc.com/news/articles/ckg8v51g9lno?at_medium=RSS&at_campaign=rss",
-        "summary": "Twenty people died and 120 others were injured in the explosion at the Erawan shrine 11 years ago.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ae97/live/1e6870f0-6556-11f1-96b7-ade3a5c64d14.jpg",
-        "publishedAt": "2026-06-11T06:45:10.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "The World Cup is in desperate need of a vibe shift. The matches have arrived just in time",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSXFXQ3ZkUHgta3U0RmNjRTl4RHFmeHRFd2RWc2NBYlJEdC0xVU5GRE8tdFlyOGJkbUUwY0dyZHl5TFhYaG9QVXhkVWFDWHBPc05kZjZaSlZDZnlpN2dUbTJwYzdpUWRxN1MwaDBKUVNFWjNoZVpiTmhfSFF6T0pFWHJB?oc=5",
+        "title": "5 things to know for June 11: World Cup, NBA Finals, UFC fight preparations, Iran war, Midwest storms",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONmJhcG5oNW9ESkdXRHptVHAxVTh3eFItZlRwclVWV0ViOE8tdkd2UWJUZjlJSHYxTU1hRHpvRXVvMW0wU3pRMVZVa0tEM2lEdnh1ZnlwM3RORmZBRnctTHl3SzV6OEJQN2tGUmx3WFRRNVVlQUF0VjJ0TVNVRkxhS0tJMXFRSV9rdU03ckJBelpDUVVQYXUxdFBVSEtDakxwMFpNcmljeHI4ZXR3dE9GYWFOOTctXzhueHVsRjB3dTNPT1l3XzVDOEd3?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-06-11T04:00:08.000Z",
+        "publishedAt": "2026-06-11T11:32:40.000Z",
         "source": "CNN"
       }
     ],
     "nba": []
   },
   "nbaScoreboard": {
-    "date": "2026-06-11",
+    "date": "2026-06-12",
     "currentIndex": 4,
     "days": [
-      {
-        "date": "2026-06-07",
-        "games": []
-      },
       {
         "date": "2026-06-08",
         "games": [
@@ -768,12 +808,104 @@
       {
         "date": "2026-06-15",
         "games": []
+      },
+      {
+        "date": "2026-06-16",
+        "games": [
+          {
+            "id": "401859968",
+            "link": "https://www.espn.com/nba/game/_/gameId/401859968/spurs-knicks",
+            "startTime": "2026-06-17T00:30Z",
+            "state": "pre",
+            "statusText": "Scheduled",
+            "detail": "6/16 - 8:30 PM EDT",
+            "note": "NBA Finals - Game 6 If Necessary",
+            "homeTeam": {
+              "abbreviation": "NY",
+              "displayName": "New York Knicks",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "26.0",
+                  "player": "Jalen Brunson",
+                  "position": "G",
+                  "jersey": "11",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3934672/jalen-brunson"
+                },
+                {
+                  "label": "RPG",
+                  "value": "11.9",
+                  "player": "Karl-Anthony Towns",
+                  "position": "C",
+                  "jersey": "32",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3136195.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3136195/karl-anthony-towns"
+                },
+                {
+                  "label": "APG",
+                  "value": "6.8",
+                  "player": "Jalen Brunson",
+                  "position": "G",
+                  "jersey": "11",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
+                  "link": "https://www.espn.com/nba/player/_/id/3934672/jalen-brunson"
+                }
+              ]
+            },
+            "awayTeam": {
+              "abbreviation": "SA",
+              "displayName": "San Antonio Spurs",
+              "score": "0",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+              "leaderContext": "Season Leaders",
+              "leaders": [
+                {
+                  "label": "PPG",
+                  "value": "25.0",
+                  "player": "Victor Wembanyama",
+                  "position": "F",
+                  "jersey": "1",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
+                  "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
+                },
+                {
+                  "label": "RPG",
+                  "value": "11.5",
+                  "player": "Victor Wembanyama",
+                  "position": "F",
+                  "jersey": "1",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
+                  "link": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama"
+                },
+                {
+                  "label": "APG",
+                  "value": "7.4",
+                  "player": "Stephon Castle",
+                  "position": "G",
+                  "jersey": "5",
+                  "summary": "",
+                  "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4845367.png",
+                  "link": "https://www.espn.com/nba/player/_/id/4845367/stephon-castle"
+                }
+              ]
+            }
+          }
+        ]
       }
     ],
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-06-11",
+    "rotationLabel": "Curated Rotation · 2026-06-12",
     "sections": [
       {
         "id": "data-storage",
@@ -781,27 +913,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-4",
-            "sectionId": "data-storage",
-            "title": "Dremel: Interactive Analysis of Web-Scale Datasets",
-            "authors": [
-              "Sergey Melnik",
-              "Andrey Gubarev",
-              "Jing Jing Long",
-              "Geoffrey Romer"
-            ],
-            "venue": "VLDB",
-            "year": 2010,
-            "quality": "顶会",
-            "categories": [
-              "analytics",
-              "columnar"
-            ],
-            "link": "https://research.google/pubs/pub36632/",
-            "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-5",
             "sectionId": "data-storage",
@@ -820,7 +931,7 @@
             ],
             "link": "https://arxiv.org/abs/2401.08281",
             "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-6",
@@ -842,6 +953,27 @@
             "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
             "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-1",
+            "sectionId": "data-storage",
+            "title": "The Log-Structured Merge-Tree (LSM-Tree)",
+            "authors": [
+              "Patrick O'Neil",
+              "Edward Cheng",
+              "Dieter Gawlick",
+              "Elizabeth O'Neil"
+            ],
+            "venue": "Acta Informatica",
+            "year": 1996,
+            "quality": "经典基础",
+            "categories": [
+              "storage",
+              "indexing"
+            ],
+            "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
+            "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -851,27 +983,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-5",
-            "sectionId": "computer-vision",
-            "title": "Segment Anything",
-            "authors": [
-              "Alexander Kirillov",
-              "Eric Mintun",
-              "Nikhila Ravi",
-              "Hanzi Mao"
-            ],
-            "venue": "ICCV",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "segmentation",
-              "foundation model"
-            ],
-            "link": "https://arxiv.org/abs/2304.02643",
-            "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-6",
             "sectionId": "computer-vision",
@@ -891,7 +1002,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.07193",
             "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-1",
@@ -913,6 +1024,27 @@
             "link": "https://arxiv.org/abs/1512.03385",
             "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-2",
+            "sectionId": "computer-vision",
+            "title": "End-to-End Object Detection with Transformers",
+            "authors": [
+              "Nicolas Carion",
+              "Francisco Massa",
+              "Gabriel Synnaeve",
+              "Nicolas Usunier"
+            ],
+            "venue": "ECCV",
+            "year": 2020,
+            "quality": "顶会",
+            "categories": [
+              "detection",
+              "transformer"
+            ],
+            "link": "https://arxiv.org/abs/2005.12872",
+            "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -922,27 +1054,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-6",
-            "sectionId": "llm-memory",
-            "title": "MemoRAG: Moving towards Next-Gen RAG Via Memory-Inspired Knowledge Discovery",
-            "authors": [
-              "Rulin Shao",
-              "Yue Liu",
-              "Shuo Wang",
-              "Yichi Zhang"
-            ],
-            "venue": "arXiv",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "RAG",
-              "memory bank"
-            ],
-            "link": "https://arxiv.org/abs/2409.05591",
-            "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-1",
             "sectionId": "llm-memory",
@@ -962,7 +1073,7 @@
             ],
             "link": "https://arxiv.org/abs/2005.11401",
             "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-2",
@@ -984,6 +1095,27 @@
             "link": "https://arxiv.org/abs/2203.08913",
             "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-3",
+            "sectionId": "llm-memory",
+            "title": "RETRO: Improving Language Models by Retrieving From Trillions of Tokens",
+            "authors": [
+              "Sebastian Borgeaud",
+              "Arthur Mensch",
+              "Jordan Hoffmann",
+              "Trevor Cai"
+            ],
+            "venue": "DeepMind / arXiv",
+            "year": 2022,
+            "quality": "高影响力",
+            "categories": [
+              "retrieval",
+              "language model"
+            ],
+            "link": "https://arxiv.org/abs/2112.04426",
+            "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -993,28 +1125,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-1",
-            "sectionId": "agents",
-            "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
-            "authors": [
-              "Shunyu Yao",
-              "Jeffrey Zhao",
-              "Dian Yu",
-              "Nan Du"
-            ],
-            "venue": "ICLR",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "agent",
-              "reasoning",
-              "tool use"
-            ],
-            "link": "https://arxiv.org/abs/2210.03629",
-            "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-2",
             "sectionId": "agents",
@@ -1034,7 +1144,7 @@
             ],
             "link": "https://arxiv.org/abs/2302.04761",
             "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-3",
@@ -1055,6 +1165,27 @@
             ],
             "link": "https://arxiv.org/abs/2304.03442",
             "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-4",
+            "sectionId": "agents",
+            "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+            "authors": [
+              "Guanzhi Wang",
+              "Yuqi Xie",
+              "Zixiang Zhou",
+              "Yujin Tang"
+            ],
+            "venue": "arXiv",
+            "year": 2023,
+            "quality": "高影响力",
+            "categories": [
+              "embodied agent",
+              "planning"
+            ],
+            "link": "https://arxiv.org/abs/2305.16291",
+            "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
             "trackLabel": "轮换精选"
           }
         ]
