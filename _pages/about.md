@@ -87,7 +87,7 @@ Tianwen Zhou is currently an AI Researcher in the Data Storage Technical Researc
     </p>
     <p style="margin:0.3rem 0 0.6rem 0;">
       <a href="https://complightlab.com/publications/physiolatent/">Project site</a> |
-      <a href="[https://arxiv.org/abs/2509.25348](https://openaccess.thecvf.com/content/CVPR2026W/SVC/html/Zhou_Editing_Physiological_Signals_in_Videos_Using_Latent_Representations_CVPRW_2026_paper.html)">Manuscript</a>
+      <a href="https://openaccess.thecvf.com/content/CVPR2026W/SVC/html/Zhou_Editing_Physiological_Signals_in_Videos_Using_Latent_Representations_CVPRW_2026_paper.html">Manuscript</a>
     </p>
     <p style="margin:0.3rem 0 0.6rem 0;">
       <strong>Citations:</strong>
