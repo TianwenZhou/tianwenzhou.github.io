@@ -1,36 +1,28 @@
 {
-  "generatedAt": "2026-06-15T14:32:38.711Z",
+  "generatedAt": "2026-06-15T19:53:51.501Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 23,
-      "weatherCode": 1,
-      "windSpeed": 2
+      "temperature": 22,
+      "weatherCode": 3,
+      "windSpeed": 7
     },
     "today": {
-      "date": "2026-06-15",
+      "date": "2026-06-16",
       "weatherCode": 95,
       "description": "雷暴",
-      "max": 29,
-      "min": 20,
-      "precipitationProbability": 45
+      "max": 28,
+      "min": 21,
+      "precipitationProbability": 81
     },
     "forecast": [
-      {
-        "date": "2026-06-15",
-        "weatherCode": 95,
-        "description": "雷暴",
-        "max": 29,
-        "min": 20,
-        "precipitationProbability": 45
-      },
       {
         "date": "2026-06-16",
         "weatherCode": 95,
         "description": "雷暴",
         "max": 28,
         "min": 21,
-        "precipitationProbability": 91
+        "precipitationProbability": 81
       },
       {
         "date": "2026-06-17",
@@ -38,7 +30,7 @@
         "description": "雷暴",
         "max": 31,
         "min": 20,
-        "precipitationProbability": 53
+        "precipitationProbability": 68
       },
       {
         "date": "2026-06-18",
@@ -46,7 +38,7 @@
         "description": "雷暴",
         "max": 32,
         "min": 22,
-        "precipitationProbability": 22
+        "precipitationProbability": 19
       },
       {
         "date": "2026-06-19",
@@ -54,33 +46,50 @@
         "description": "天气更新中",
         "max": 29,
         "min": 23,
-        "precipitationProbability": 80
+        "precipitationProbability": 67
+      },
+      {
+        "date": "2026-06-20",
+        "weatherCode": 3,
+        "description": "阴天",
+        "max": 29,
+        "min": 20,
+        "precipitationProbability": 39
       }
     ]
   },
   "classicQuote": {
-    "id": "chuci-seek",
-    "text": "路漫漫其修远兮，吾将上下而求索。",
-    "source": "《离骚》",
-    "author": "屈原",
-    "note": "长期主义最难，但也最值得。"
+    "id": "analects-learning",
+    "text": "学而不思则罔，思而不学则殆。",
+    "source": "《论语》",
+    "author": "孔子",
+    "note": "提醒自己既要输入，也要沉淀，不要只忙不想。"
   },
   "bookExcerpt": {
-    "id": "border-town-river",
-    "text": "月光如银子，无处不可照及，山上篁竹在月光下变成了一片黑色，身边草丛中虫声繁密如落雨。",
-    "book": "《边城》",
-    "author": "沈从文"
+    "id": "fortress-besieged-night",
+    "text": "夜仿佛纸浸了油，变成半透明体；它给太阳拥抱住了，分不出身来，也许是给太阳溶了，所以夕照晚霞隐褪后的夜色也带着酡红。",
+    "book": "《围城》",
+    "author": "钱钟书"
   },
   "featuredPlace": {
-    "id": "202606141600",
-    "title": "大烟山国家公园，田纳西州，美国",
+    "id": "202606151600",
+    "title": "七英里海滩附近的玳瑁海龟伴侣，大开曼岛，开曼群岛",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "岁月雕琢，风景始成",
-    "image": "https://www.bing.com/th?id=OHR.ParkEstd_ZH-CN3419035151_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E5%A4%A7%E7%83%9F%E5%B1%B1%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
+    "summary": "蔚蓝海礁的守护者",
+    "image": "https://www.bing.com/th?id=OHR.SevenMileTurtle_ZH-CN4346512721_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E6%B5%B7%E9%BE%9F%E6%97%A5&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202606151600",
+      "title": "七英里海滩附近的玳瑁海龟伴侣，大开曼岛，开曼群岛",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "蔚蓝海礁的守护者",
+      "image": "https://www.bing.com/th?id=OHR.SevenMileTurtle_ZH-CN4346512721_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E6%B5%B7%E9%BE%9F%E6%97%A5&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202606141600",
       "title": "大烟山国家公园，田纳西州，美国",
@@ -143,35 +152,50 @@
       "summary": "品尝日落",
       "image": "https://www.bing.com/th?id=OHR.CTNPVernazza_ZH-CN3971102271_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E6%84%8F%E5%A4%A7%E5%88%A9%E9%9F%A6%E5%B0%94%E7%BA%B3%E6%89%8E%E4%BA%94%E6%B8%94%E6%9D%91&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202606071600",
-      "title": "在海洋中游动的狮鬃水母",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "随波逐流",
-      "image": "https://www.bing.com/th?id=OHR.Cyanea_ZH-CN3858079050_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E6%B5%B7%E6%B4%8B%E6%97%A5&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-06-15",
-    "dateLabel": "6月15日",
+    "dateKey": "2026-06-16",
+    "dateLabel": "6月16日",
     "items": [
       {
         "year": "2022",
-        "text": "美國科技公司微軟正式停止網頁瀏覽器Internet Explorer各項服務的支援，並呼籲使用者轉用Microsoft Edge。",
+        "text": "中國新疆維吾爾自治區的和若鐵路正式開通營運，並與格庫鐵路、南疆鐵路共同構成世界首條沙漠鐵路環線。",
         "link": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4"
       },
       {
-        "year": "2013",
-        "text": "伊朗总统大选中，温和保守派总统候选人、前首席核谈判代表哈桑·鲁哈尼赢得选举，成为伊朗新一届总统。",
-        "link": "https://zh.wikipedia.org/wiki/2013%E5%B9%B4"
+        "year": "2020",
+        "text": "朝鮮民主主义人民共和国炸毁开城工业地区的朝韩联络办公室，朝韩关系再度恶化。",
+        "link": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
+      {
+        "title": "刘海星会见尼泊尔民族独立党外事部部长、政府外长希西尔",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-15/10641061.shtml",
+        "summary": "新华社北京6月15日电 6月15日，中共中央对外联络部部长刘海星在北京会见尼泊尔民族独立党外事部部长、政府外长希西尔。双方就共同落实好两国领导人共识，密切党际交流对话、推动双边关系发展等交换意见。",
+        "image": "",
+        "publishedAt": "2026-06-15T15:44:42.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "王毅出席上海合作组织成立25周年招待会",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-15/10641053.shtml",
+        "summary": "中新社北京6月15日电 6月15日，中共中央政治局委员、外交部长王毅在北京出席庆祝上海合作组织成立25周年招待会并致辞。",
+        "image": "",
+        "publishedAt": "2026-06-15T15:25:07.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "中国发射首颗聚焦文物保护的定制遥感监测卫星",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-15/10641050.shtml",
+        "summary": "中新社北京6月15日电 (记者 应妮)记者6月15日从中国国家文物局获悉，中国首颗聚焦文物保护的定制遥感监测卫星——“文物01星”当日在酒泉卫星发射中心成功发射，顺利进入预定轨道。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260615/c730ccec-e4d1-459c-b2b5-5d40cd1e4e92_zsite.jpg",
+        "publishedAt": "2026-06-15T15:24:01.000Z",
+        "source": "中新网"
+      },
       {
         "title": "从副部级降为副处级8年后，王铁再次被查",
         "link": "https://www.chinanews.com.cn/gn/2026/06-15/10641045.shtml",
@@ -187,33 +211,25 @@
         "image": "",
         "publishedAt": "2026-06-15T14:09:57.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "“来大陆是正确的选择” 台湾体育青年在这里追逐热爱",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-15/10641037.shtml",
-        "summary": "原标题：“来大陆是正确的选择” 台湾体育青年在这里追逐热爱",
-        "image": "https://www.chinanews.com/cr/2026/0615/399130247.JPG",
-        "publishedAt": "2026-06-15T13:57:14.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "2026和合文明论坛在乌兹别克斯坦举行",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-15/10640963.shtml",
-        "summary": "中新网北京6月15日电 2026和合文明论坛近日在乌兹别克斯坦首都塔什干举行。来自中国、乌兹别克斯坦、哈萨克斯坦、吉尔吉斯斯坦、塔吉克斯坦、土库曼斯坦、俄罗斯等7个国家的学界、文化界、政界、工商界代表与会交流。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260615/48101454-c1b8-445d-ab35-e85d4e3587d4_zsite.jpeg",
-        "publishedAt": "2026-06-15T13:16:49.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "河南省政府原副处级干部王铁接受监察调查",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-15/10640948.shtml",
-        "summary": "中新网6月15日电 据河南省纪委监委网站消息，河南省政府原副处级干部王铁涉嫌严重违法，目前正接受河南省监委监察调查。",
-        "image": "",
-        "publishedAt": "2026-06-15T12:57:24.000Z",
-        "source": "中新网"
       }
     ],
     "chinaSociety": [
+      {
+        "title": "菲律宾发生5.3级地震 震源深度40公里",
+        "link": "https://www.chinanews.com.cn/sh/2026/06-16/10641062.shtml",
+        "summary": "中国地震台网正式测定：6月15日23时30分，在菲律宾(北纬5.60度，东经125.35度)发生5.3级地震，震源深度40公里。",
+        "image": "",
+        "publishedAt": "2026-06-15T16:17:41.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "更换套餐阻碍重重 运营商“新老用户不同权”问题如何破解",
+        "link": "https://www.chinanews.com.cn/sh/2026/06-15/10641059.shtml",
+        "summary": "近日，多地消费者投诉，三大电信运营商普遍存在“新老用户不同权”现象。大量网友发文吐槽三大电信运营商的“杀熟”行为，反映办理低价套餐时，客服频繁使用“系统不支持”“套餐已下线”“只能线下办理”等话术反复推诿。只有反复交涉，甚至明确表态要“携号转网”或“向工信部投诉”，运营商才会“勉为其难地抛出一点优惠...",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/06/15/53d00d1a790e4e42ab79e669402d263f.jpeg",
+        "publishedAt": "2026-06-15T15:35:56.000Z",
+        "source": "中新网"
+      },
       {
         "title": "广西上林县及时处置五化灌区渠堤管涌险情",
         "link": "https://www.chinanews.com.cn/sh/2026/06-15/10641016.shtml",
@@ -237,25 +253,25 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260615/15739116-3378-4d18-86ff-97f593fc36eb_zsite.jpg",
         "publishedAt": "2026-06-15T14:10:19.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "从“种啥啥不成”到“一水多用”：梅里斯达斡尔族区北兴村立体种养唤醒沉睡荒地",
-        "link": "https://www.chinanews.com.cn/sh/2026/06-15/10641004.shtml",
-        "summary": "中新网齐齐哈尔6月15日电 题：从“种啥啥不成”到“一水多用”：梅里斯达斡尔族区北兴村立体种养唤醒沉睡荒地",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260615/c79d6eef-7b38-4a92-b40e-d35cac9df53e_zsite.jpg",
-        "publishedAt": "2026-06-15T14:08:53.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "为更多技能人才铺展“星光大道”",
-        "link": "https://www.chinanews.com.cn/sh/2026/06-15/10641035.shtml",
-        "summary": "原标题：马上评｜为更多技能人才铺展“星光大道”",
-        "image": "",
-        "publishedAt": "2026-06-15T13:56:58.000Z",
-        "source": "中新网"
       }
     ],
     "chinaFinance": [
+      {
+        "title": "5月中国钢铁行业运营形势稳步回升",
+        "link": "https://www.chinanews.com.cn/cj/2026/06-15/10641049.shtml",
+        "summary": "中新社北京6月15日电 (记者 阮煜琳)据冶金工业信息标准研究院15日发布的数据，2026年5月份，中国钢铁运营景气指数(SOPI)为64.4，环比增加1.9，指数较上月小幅回升，表明中国钢铁行业运营形势稳步回升。",
+        "image": "",
+        "publishedAt": "2026-06-15T15:21:39.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "今年一季度京津冀商贸物流发展指数为52.29%",
+        "link": "https://www.chinanews.com.cn/cj/2026/06-15/10641046.shtml",
+        "summary": "中新社廊坊6月15日电 (赵丹媚)京津冀商贸物流发展指数15日在河北廊坊发布。数据显示，今年一季度，京津冀商贸物流发展指数为52.29%，同比增长0.12个百分点，环比增长0.11个百分点。",
+        "image": "",
+        "publishedAt": "2026-06-15T15:02:26.000Z",
+        "source": "中新网"
+      },
       {
         "title": "海南鲜活东星斑首次出口美国",
         "link": "https://www.chinanews.com.cn/cj/2026/06-15/10641038.shtml",
@@ -279,39 +295,23 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260615/8c91bb45-af6e-4aeb-a30a-559e72d6fa61_zsite.jpeg",
         "publishedAt": "2026-06-15T14:12:17.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "演出流量开拓文旅消费新场域 青岛何以竞逐“演唱会之城”？",
-        "link": "https://www.chinanews.com.cn/cj/2026/06-15/10641003.shtml",
-        "summary": "中新网青岛6月15日电(王禹)“为一场演唱会奔赴一座城”，正成为当下中国年轻人的旅游新风尚。各地持续升级演艺配套服务、深化文旅融合路径，将演出流量转化为实实在在的城市消费增量。在这股演艺与文旅融合的发展热潮中，青岛何以持续发力打造“演唱会之城”？",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260615/87a7b821-7903-460e-a552-a86bf74bc6e8_zsite.jpg",
-        "publishedAt": "2026-06-15T14:08:39.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "从“买特产”到“买智造”——“购在中国”呈现新热潮",
-        "link": "https://www.chinanews.com.cn/cj/2026/06-15/10641036.shtml",
-        "summary": "原标题：【中国那些事儿】从“买特产”到“买智造”——“购在中国”呈现新热潮",
-        "image": "",
-        "publishedAt": "2026-06-15T13:57:06.000Z",
-        "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "Oil prices fall and shares jump after US-Iran deal announced",
-        "link": "https://www.bbc.com/news/articles/c6217106px6o?at_medium=RSS&at_campaign=rss",
-        "summary": "Under the agreement, the key Strait of Hormuz waterway will be reopened, US President Donald Trump said.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eb2d/live/8be72110-6887-11f1-8c6b-f595710535a5.jpg",
-        "publishedAt": "2026-06-15T14:21:22.000Z",
-        "source": "BBC"
+        "title": "Tiny Cape Verde shocks favorite Spain with a draw in country’s first World Cup match",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1NT1lvYWVpVHFZblRPSVdxMVpkem0zMUdZY0R5Q0plMTN5U2w4QlBJajBWYWpFNkVlR0IwYm5IU1FNYXp0NWxUQWkyVno5bVc0aUt1R1BDS0ZtSlFkamtDdmM5MDlGX25lMFRrTjFManY?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-06-15T18:01:35.000Z",
+        "source": "CNN"
       },
       {
-        "title": "Russian strikes kill 11 and set historic cathedral in Kyiv ablaze",
-        "link": "https://www.bbc.com/news/articles/c4gy037gjz3o?at_medium=RSS&at_campaign=rss",
-        "summary": "A Ukrainian drone attack in the Russian city of Tula, south of Moscow, killed three people.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b2e3/live/e63b3f40-689e-11f1-b1db-af71d47507d6.jpg",
-        "publishedAt": "2026-06-15T12:07:36.000Z",
+        "title": "South African jazz legend Abdullah Ibrahim dies at 91",
+        "link": "https://www.bbc.com/news/articles/cy5vngrq3q5o?at_medium=RSS&at_campaign=rss",
+        "summary": "Ibrahim helped define a genre of South African jazz music in a career that spanned eight decades.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5b78/live/9c12e0a0-68dd-11f1-8cbf-33679e793a63.jpg",
+        "publishedAt": "2026-06-15T17:25:15.000Z",
         "source": "BBC"
       },
       {
@@ -319,33 +319,57 @@
         "link": "https://www.bbc.com/news/articles/cly9d10l5p4o?at_medium=RSS&at_campaign=rss",
         "summary": "Marius Borg Høiby, the 29-year-old son of Norway's Crown Princess Mette Marit, has been sentenced to four years in jail.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dc45/live/e93a3c90-fc70-11f0-9f00-a7fda7ef067e.jpg",
-        "publishedAt": "2026-06-15T11:09:03.000Z",
+        "publishedAt": "2026-06-15T17:10:30.000Z",
         "source": "BBC"
       },
       {
-        "title": "Brazil woman dies after rope-jumping instructors fail to attach cord",
-        "link": "https://www.bbc.com/news/articles/c5yz4xelnveo?at_medium=RSS&at_campaign=rss",
-        "summary": "Three men have been arrested after instructors failed to attach a rope to her before helping her jump from a bridge.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c00e/live/096e25c0-6897-11f1-a4ef-a30ba74cf09f.png",
-        "publishedAt": "2026-06-15T10:24:09.000Z",
+        "title": "MSF staff abused Sudanese refugees in sex-for-food scandal",
+        "link": "https://www.bbc.com/news/articles/c74ykjl8mx3o?at_medium=RSS&at_campaign=rss",
+        "summary": "Some victims said they chose not to speak out because they feared staff would cut off access to aid.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a500/live/d357deb0-68d5-11f1-b1db-af71d47507d6.jpg",
+        "publishedAt": "2026-06-15T16:32:48.000Z",
         "source": "BBC"
       },
       {
-        "title": "Marius Borg Hoiby, stepson of Norway’s crown prince convicted of rape, sentenced to 4 years in prison",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSU94YVM0T1pvSkp2TENhR1lsR0puaDVzMWVuRmJVMGlORm5qQ2cxYzRYUHhjbnNzM2FCQkM1WHFydUxFVWdoSEFGdUQ0VUloVkJ5UW5MMXJTLTZXSEIwcVZCSXZ4NGM1MVY5Rkd6V3g2Ui05QW9oYUZsQ3JhR2poSjNoQ2JMR3BEeHc?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-06-15T06:57:54.000Z",
-        "source": "CNN"
+        "title": "Bowen: Iran deal ends Trump's war that revealed limit of US dominance",
+        "link": "https://www.bbc.com/news/articles/cdr4x3vg347o?at_medium=RSS&at_campaign=rss",
+        "summary": "The deal to end fighting and re-open the Strait of Hormuz leaves the sides where they were 24 hours before the war - only with thousands now dead.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e2ec/live/f929b930-68b0-11f1-a887-c513fdcee6e6.jpg",
+        "publishedAt": "2026-06-15T14:26:28.000Z",
+        "source": "BBC"
       }
     ],
     "worldBusiness": [
       {
-        "title": "The US and Iran have agreed a deal. How soon could the economy go back to normal?",
+        "title": "SpaceX IPO raised $10bn more than thought",
+        "link": "https://www.bbc.com/news/articles/cgrk21wnvy9o?at_medium=RSS&at_campaign=rss",
+        "summary": "The company's listing raised $87.5bn, compared with the $75bn it was initially thought.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/62fc/live/fe9e1080-68e4-11f1-a322-77bd30adf518.jpg",
+        "publishedAt": "2026-06-15T18:53:48.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Anthropic to meet White House over AI tool suspension",
+        "link": "https://www.bbc.com/news/articles/c9w2p7ykp8yo?at_medium=RSS&at_campaign=rss",
+        "summary": "The sudden meeting was called after Anthropic had to block users from just-released AI models.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/12c8/live/d654aa50-68dd-11f1-b1db-af71d47507d6.jpg",
+        "publishedAt": "2026-06-15T18:44:26.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "US emergency oil stockpile tumbles to lowest since the Reagan administration",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9mT1BvTTFYVnBzRjJpUFM4X2hDTVVGSk1vTVBYWkpWLXdqZTJDNVUydk9FTENVbF9vZzRPRlBYQXRpZ2dzTVVPRmFRMG5obEFBSlRha1dyZUpIRElmUFN4Zkthd1JCc3E2QVFvTkpR?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-06-15T17:25:21.000Z",
+        "source": "CNN"
+      },
+      {
+        "title": "How could the US-Iran deal affect oil prices and the cost of food?",
         "link": "https://www.bbc.com/news/articles/cd0p8me2m5do?at_medium=RSS&at_campaign=rss",
         "summary": "Experts warn the impact of the war will continue to affect the global economy for months to come.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cfa7/live/31930ca0-68a1-11f1-b9ac-e71b9be292bd.jpg",
-        "publishedAt": "2026-06-15T14:21:54.000Z",
+        "publishedAt": "2026-06-15T15:20:09.000Z",
         "source": "BBC"
       },
       {
@@ -355,30 +379,6 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eb2d/live/8be72110-6887-11f1-8c6b-f595710535a5.jpg",
         "publishedAt": "2026-06-15T14:21:22.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Fox is buying Roku for $22 billion",
-        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5sODlKenFOSnJZZk1kdkw0MnVtdkYya0RmSlJVWkNCOGlEUE9IY3k3OWxOcUV3SHpTa0M0UVNzMlhqNnRYTmNKcnFQeHJobXh0Tl9BbTdNdURpQk1G?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-06-15T11:31:48.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "What's happening to UK petrol and diesel prices now the US and Iran have a deal?",
-        "link": "https://www.bbc.com/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
-        "summary": "When the conflict began on 28 February, fuel costs jumped as the war disrupted the production and transportation of energy across the Middle East.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aa1a/live/ef81f7f0-68a9-11f1-8570-238ff96d913c.jpg",
-        "publishedAt": "2026-06-15T11:28:39.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Oil prices hit three-month lows on US-Iran agreement",
-        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9XRTRQVTU1UEpUaEs3SDJWXzRvZ09nc2Q4MGw4RGhvV3UtSm5FN3ZYMzFhQzdNYjJTU1Uydmp6QUhtQjlkdU9MRlFINGJTVWJ4cFB4X09XQVB0d0ZzRW5La1k1ejBaRHFySG9xb0ZBelFOMjZ1bkdiYWRWUQ?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-06-14T23:50:59.000Z",
-        "source": "CNN"
       }
     ],
     "worldTech": [
@@ -387,7 +387,23 @@
         "link": "https://www.bbc.com/news/articles/cddl65dp0rdo?at_medium=RSS&at_campaign=rss",
         "summary": "The BBC's technology editor Zoe Kleinman on the big changes coming down the line for young people online.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dc70/live/d452df50-68bb-11f1-9e56-5d712991879f.jpg",
-        "publishedAt": "2026-06-15T12:41:43.000Z",
+        "publishedAt": "2026-06-15T19:48:25.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Anthropic to meet White House over AI tool suspension",
+        "link": "https://www.bbc.com/news/articles/c9w2p7ykp8yo?at_medium=RSS&at_campaign=rss",
+        "summary": "The sudden meeting was called after Anthropic had to block users from just-released AI models.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/12c8/live/d654aa50-68dd-11f1-b1db-af71d47507d6.jpg",
+        "publishedAt": "2026-06-15T18:44:26.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Under-16s will be banned from social media from early 2027",
+        "link": "https://www.bbc.com/news/articles/c2kydl0zqeko?at_medium=RSS&at_campaign=rss",
+        "summary": "Sites including Instagram, YouTube and TikTok will become inaccessible for millions of children, the prime minister has announced.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/894c/live/4e1b94c0-68d1-11f1-a53d-a3fd187200ab.jpg",
+        "publishedAt": "2026-06-15T17:10:03.000Z",
         "source": "BBC"
       },
       {
@@ -405,25 +421,33 @@
         "image": "",
         "publishedAt": "2026-06-13T10:00:09.000Z",
         "source": "CNN"
-      },
-      {
-        "title": "Elon Musk's stratospheric rise to trillionaire status - in charts",
-        "link": "https://www.bbc.com/news/articles/c4gyp523ly8o?at_medium=RSS&at_campaign=rss",
-        "summary": "The BBC breaks down how the tech mogul's fortune has grown.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/02a3/live/56817dd0-6680-11f1-b1db-af71d47507d6.png",
-        "publishedAt": "2026-06-12T23:05:39.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Who is Elon Musk and what is his net worth?",
-        "link": "https://www.bbc.com/news/articles/c0r1975ded7o?at_medium=RSS&at_campaign=rss",
-        "summary": "The boss of X, Tesla and SpaceX, already the world's richest person, is now also its first trillionaire.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6512/live/d31cff00-65a8-11f1-b0b4-ff7d574215ed.jpg",
-        "publishedAt": "2026-06-12T16:44:29.000Z",
-        "source": "BBC"
       }
     ],
     "domestic": [
+      {
+        "title": "刘海星会见尼泊尔民族独立党外事部部长、政府外长希西尔",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-15/10641061.shtml",
+        "summary": "新华社北京6月15日电 6月15日，中共中央对外联络部部长刘海星在北京会见尼泊尔民族独立党外事部部长、政府外长希西尔。双方就共同落实好两国领导人共识，密切党际交流对话、推动双边关系发展等交换意见。",
+        "image": "",
+        "publishedAt": "2026-06-15T15:44:42.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "王毅出席上海合作组织成立25周年招待会",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-15/10641053.shtml",
+        "summary": "中新社北京6月15日电 6月15日，中共中央政治局委员、外交部长王毅在北京出席庆祝上海合作组织成立25周年招待会并致辞。",
+        "image": "",
+        "publishedAt": "2026-06-15T15:25:07.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "中国发射首颗聚焦文物保护的定制遥感监测卫星",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-15/10641050.shtml",
+        "summary": "中新社北京6月15日电 (记者 应妮)记者6月15日从中国国家文物局获悉，中国首颗聚焦文物保护的定制遥感监测卫星——“文物01星”当日在酒泉卫星发射中心成功发射，顺利进入预定轨道。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260615/c730ccec-e4d1-459c-b2b5-5d40cd1e4e92_zsite.jpg",
+        "publishedAt": "2026-06-15T15:24:01.000Z",
+        "source": "中新网"
+      },
       {
         "title": "从副部级降为副处级8年后，王铁再次被查",
         "link": "https://www.chinanews.com.cn/gn/2026/06-15/10641045.shtml",
@@ -439,47 +463,23 @@
         "image": "",
         "publishedAt": "2026-06-15T14:09:57.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "“来大陆是正确的选择” 台湾体育青年在这里追逐热爱",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-15/10641037.shtml",
-        "summary": "原标题：“来大陆是正确的选择” 台湾体育青年在这里追逐热爱",
-        "image": "https://www.chinanews.com/cr/2026/0615/399130247.JPG",
-        "publishedAt": "2026-06-15T13:57:14.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "2026和合文明论坛在乌兹别克斯坦举行",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-15/10640963.shtml",
-        "summary": "中新网北京6月15日电 2026和合文明论坛近日在乌兹别克斯坦首都塔什干举行。来自中国、乌兹别克斯坦、哈萨克斯坦、吉尔吉斯斯坦、塔吉克斯坦、土库曼斯坦、俄罗斯等7个国家的学界、文化界、政界、工商界代表与会交流。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260615/48101454-c1b8-445d-ab35-e85d4e3587d4_zsite.jpeg",
-        "publishedAt": "2026-06-15T13:16:49.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "河南省政府原副处级干部王铁接受监察调查",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-15/10640948.shtml",
-        "summary": "中新网6月15日电 据河南省纪委监委网站消息，河南省政府原副处级干部王铁涉嫌严重违法，目前正接受河南省监委监察调查。",
-        "image": "",
-        "publishedAt": "2026-06-15T12:57:24.000Z",
-        "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "Oil prices fall and shares jump after US-Iran deal announced",
-        "link": "https://www.bbc.com/news/articles/c6217106px6o?at_medium=RSS&at_campaign=rss",
-        "summary": "Under the agreement, the key Strait of Hormuz waterway will be reopened, US President Donald Trump said.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eb2d/live/8be72110-6887-11f1-8c6b-f595710535a5.jpg",
-        "publishedAt": "2026-06-15T14:21:22.000Z",
-        "source": "BBC"
+        "title": "Tiny Cape Verde shocks favorite Spain with a draw in country’s first World Cup match",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1NT1lvYWVpVHFZblRPSVdxMVpkem0zMUdZY0R5Q0plMTN5U2w4QlBJajBWYWpFNkVlR0IwYm5IU1FNYXp0NWxUQWkyVno5bVc0aUt1R1BDS0ZtSlFkamtDdmM5MDlGX25lMFRrTjFManY?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-06-15T18:01:35.000Z",
+        "source": "CNN"
       },
       {
-        "title": "Russian strikes kill 11 and set historic cathedral in Kyiv ablaze",
-        "link": "https://www.bbc.com/news/articles/c4gy037gjz3o?at_medium=RSS&at_campaign=rss",
-        "summary": "A Ukrainian drone attack in the Russian city of Tula, south of Moscow, killed three people.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b2e3/live/e63b3f40-689e-11f1-b1db-af71d47507d6.jpg",
-        "publishedAt": "2026-06-15T12:07:36.000Z",
+        "title": "South African jazz legend Abdullah Ibrahim dies at 91",
+        "link": "https://www.bbc.com/news/articles/cy5vngrq3q5o?at_medium=RSS&at_campaign=rss",
+        "summary": "Ibrahim helped define a genre of South African jazz music in a career that spanned eight decades.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5b78/live/9c12e0a0-68dd-11f1-8cbf-33679e793a63.jpg",
+        "publishedAt": "2026-06-15T17:25:15.000Z",
         "source": "BBC"
       },
       {
@@ -487,85 +487,32 @@
         "link": "https://www.bbc.com/news/articles/cly9d10l5p4o?at_medium=RSS&at_campaign=rss",
         "summary": "Marius Borg Høiby, the 29-year-old son of Norway's Crown Princess Mette Marit, has been sentenced to four years in jail.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dc45/live/e93a3c90-fc70-11f0-9f00-a7fda7ef067e.jpg",
-        "publishedAt": "2026-06-15T11:09:03.000Z",
+        "publishedAt": "2026-06-15T17:10:30.000Z",
         "source": "BBC"
       },
       {
-        "title": "Brazil woman dies after rope-jumping instructors fail to attach cord",
-        "link": "https://www.bbc.com/news/articles/c5yz4xelnveo?at_medium=RSS&at_campaign=rss",
-        "summary": "Three men have been arrested after instructors failed to attach a rope to her before helping her jump from a bridge.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c00e/live/096e25c0-6897-11f1-a4ef-a30ba74cf09f.png",
-        "publishedAt": "2026-06-15T10:24:09.000Z",
+        "title": "MSF staff abused Sudanese refugees in sex-for-food scandal",
+        "link": "https://www.bbc.com/news/articles/c74ykjl8mx3o?at_medium=RSS&at_campaign=rss",
+        "summary": "Some victims said they chose not to speak out because they feared staff would cut off access to aid.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a500/live/d357deb0-68d5-11f1-b1db-af71d47507d6.jpg",
+        "publishedAt": "2026-06-15T16:32:48.000Z",
         "source": "BBC"
       },
       {
-        "title": "Marius Borg Hoiby, stepson of Norway’s crown prince convicted of rape, sentenced to 4 years in prison",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSU94YVM0T1pvSkp2TENhR1lsR0puaDVzMWVuRmJVMGlORm5qQ2cxYzRYUHhjbnNzM2FCQkM1WHFydUxFVWdoSEFGdUQ0VUloVkJ5UW5MMXJTLTZXSEIwcVZCSXZ4NGM1MVY5Rkd6V3g2Ui05QW9oYUZsQ3JhR2poSjNoQ2JMR3BEeHc?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-06-15T06:57:54.000Z",
-        "source": "CNN"
+        "title": "Bowen: Iran deal ends Trump's war that revealed limit of US dominance",
+        "link": "https://www.bbc.com/news/articles/cdr4x3vg347o?at_medium=RSS&at_campaign=rss",
+        "summary": "The deal to end fighting and re-open the Strait of Hormuz leaves the sides where they were 24 hours before the war - only with thousands now dead.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e2ec/live/f929b930-68b0-11f1-a887-c513fdcee6e6.jpg",
+        "publishedAt": "2026-06-15T14:26:28.000Z",
+        "source": "BBC"
       }
     ],
-    "nba": [
-      {
-        "title": "Updated NBA mock draft: Predicting all 60 picks on...",
-        "link": "https://www.espn.com/nba/story/_/id/49041464/2026-nba-mock-draft-projecting-60-picks-draft-night-trade-talks-boozer-peterson-dybantsa-acuff",
-        "summary": "We have an updated 2026 mock draft, predicting all 60 picks as trade talks heat up a week out from draft night.",
-        "image": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0614%2Fnba_mock_draft_16x9.jpg",
-        "publishedAt": "2026-06-15T13:59:17.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Six trades to transform the draft: We deal eight o...",
-        "link": "https://www.espn.com/nba/story/_/id/49011742/nba-draft-2026-six-trade-offers-lottery-giannis-bucks-heat-dybantsa-peterson-boozer-thunder",
-        "summary": "A historic top-2 swap and a Giannis blockbuster headline six offers that would rock draft night.",
-        "image": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0610%2Fnba_six%2Dtrades%2Dpre%2Ddraft_16x9.jpg",
-        "publishedAt": "2026-06-15T13:59:16.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Peterson visits Wizards, won't meet other teams",
-        "link": "https://www.espn.com/nba/story/_/id/49071272/sources-darryn-peterson-visits-wizards-meet-other-teams",
-        "summary": "Top NBA draft prospect Darryn Peterson has visited the Wizards but does not plan to grant another team a meeting, sources told ESPN.",
-        "image": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0507%2Fr1655021_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-06-15T14:25:52.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Knicks cap brilliant run with long-awaited NBA tit...",
-        "link": "https://www.espn.com/nba/story/_/id/49056351/knicks-rally-again-vs-spurs-capture-first-nba-title-1973",
-        "summary": "During a postseason in which comeback victories had become their specialty, the Knicks completed one of the most dominant playoff runs in NBA history...",
-        "image": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0614%2Fr1672761_1024x576_16%2D9.jpg",
-        "publishedAt": "2026-06-15T14:25:51.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Three teams ahead of Knicks in 2027 title odds",
-        "link": "https://www.espn.com/nba/story/_/id/49061191/three-teams-ahead-champion-knicks-2027-title-odds",
-        "summary": "Three teams -- the Spurs, Thunder and Celtics -- have better odds to win the 2027 NBA championship than the Knicks at sportsbooks around the nation.",
-        "image": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0614%2Fr1672887_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-06-15T14:25:52.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Euphoric fans celebrate Knicks' title across NYC",
-        "link": "https://www.espn.com/nba/story/_/id/49059888/knicks-fans-celebrate-nyc-first-title-53-years",
-        "summary": "It was bedlam on Broadway as the Knicks won their first NBA championship in 53 years.",
-        "image": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0614%2Fr1672898_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-06-15T14:25:52.000Z",
-        "source": "ESPN"
-      }
-    ]
+    "nba": []
   },
   "nbaScoreboard": {
-    "date": "2026-06-15",
+    "date": "2026-06-16",
     "currentIndex": 4,
     "days": [
-      {
-        "date": "2026-06-11",
-        "games": []
-      },
       {
         "date": "2026-06-12",
         "games": []
@@ -685,12 +632,16 @@
       {
         "date": "2026-06-19",
         "games": []
+      },
+      {
+        "date": "2026-06-20",
+        "games": []
       }
     ],
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-06-15",
+    "rotationLabel": "Curated Rotation · 2026-06-16",
     "sections": [
       {
         "id": "data-storage",
@@ -698,27 +649,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-2",
-            "sectionId": "data-storage",
-            "title": "Bigtable: A Distributed Storage System for Structured Data",
-            "authors": [
-              "Fay Chang",
-              "Jeffrey Dean",
-              "Sanjay Ghemawat",
-              "Wilson C. Hsieh"
-            ],
-            "venue": "OSDI",
-            "year": 2006,
-            "quality": "顶会",
-            "categories": [
-              "distributed systems",
-              "database"
-            ],
-            "link": "https://research.google/pubs/pub27898/",
-            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-3",
             "sectionId": "data-storage",
@@ -738,7 +668,7 @@
             ],
             "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
             "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-4",
@@ -760,6 +690,26 @@
             "link": "https://research.google/pubs/pub36632/",
             "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-5",
+            "sectionId": "data-storage",
+            "title": "The FAISS Library",
+            "authors": [
+              "Jeff Johnson",
+              "Matthijs Douze",
+              "Herve Jegou"
+            ],
+            "venue": "IEEE T-BD",
+            "year": 2021,
+            "quality": "高影响力",
+            "categories": [
+              "vector search",
+              "ANN"
+            ],
+            "link": "https://arxiv.org/abs/2401.08281",
+            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -769,27 +719,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-3",
-            "sectionId": "computer-vision",
-            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
-            "authors": [
-              "Alexey Dosovitskiy",
-              "Lucas Beyer",
-              "Alexander Kolesnikov",
-              "Dirk Weissenborn"
-            ],
-            "venue": "ICLR",
-            "year": 2021,
-            "quality": "顶会",
-            "categories": [
-              "vision transformer",
-              "classification"
-            ],
-            "link": "https://arxiv.org/abs/2010.11929",
-            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-4",
             "sectionId": "computer-vision",
@@ -809,7 +738,7 @@
             ],
             "link": "https://arxiv.org/abs/2103.00020",
             "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-5",
@@ -831,6 +760,27 @@
             "link": "https://arxiv.org/abs/2304.02643",
             "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-6",
+            "sectionId": "computer-vision",
+            "title": "DINOv2: Learning Robust Visual Features without Supervision",
+            "authors": [
+              "Maxime Oquab",
+              "Timothée Darcet",
+              "Théo Moutakanni",
+              "Huy V. Vo"
+            ],
+            "venue": "arXiv / Meta",
+            "year": 2023,
+            "quality": "高影响力",
+            "categories": [
+              "self-supervised",
+              "representation"
+            ],
+            "link": "https://arxiv.org/abs/2304.07193",
+            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -840,27 +790,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-4",
-            "sectionId": "llm-memory",
-            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
-            "authors": [
-              "Akari Asai",
-              "Zequn Zhang",
-              "Avirup Sil",
-              "Hannaneh Hajishirzi"
-            ],
-            "venue": "ICLR",
-            "year": 2024,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "self-reflection"
-            ],
-            "link": "https://arxiv.org/abs/2310.11511",
-            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-5",
             "sectionId": "llm-memory",
@@ -880,7 +809,7 @@
             ],
             "link": "https://arxiv.org/abs/2306.07174",
             "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-6",
@@ -902,6 +831,27 @@
             "link": "https://arxiv.org/abs/2409.05591",
             "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-1",
+            "sectionId": "llm-memory",
+            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+            "authors": [
+              "Patrick Lewis",
+              "Ethan Perez",
+              "Aleksandra Piktus",
+              "Fabio Petroni"
+            ],
+            "venue": "NeurIPS",
+            "year": 2020,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "retrieval"
+            ],
+            "link": "https://arxiv.org/abs/2005.11401",
+            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -911,27 +861,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-5",
-            "sectionId": "agents",
-            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
-            "authors": [
-              "Qingyun Wu",
-              "Gagan Bansal",
-              "Jiaqi Zhang",
-              "Yiran Wu"
-            ],
-            "venue": "COLM",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "multi-agent",
-              "framework"
-            ],
-            "link": "https://arxiv.org/abs/2308.08155",
-            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-6",
             "sectionId": "agents",
@@ -951,7 +880,7 @@
             ],
             "link": "https://arxiv.org/abs/2405.15793",
             "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-1",
@@ -973,6 +902,27 @@
             ],
             "link": "https://arxiv.org/abs/2210.03629",
             "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-2",
+            "sectionId": "agents",
+            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+            "authors": [
+              "Timo Schick",
+              "Jane Dwivedi-Yu",
+              "Roberta Dessì",
+              "Ari Holtzman"
+            ],
+            "venue": "NeurIPS",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "tool use",
+              "agent"
+            ],
+            "link": "https://arxiv.org/abs/2302.04761",
+            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
             "trackLabel": "轮换精选"
           }
         ]
