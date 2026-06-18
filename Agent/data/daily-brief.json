@@ -1,29 +1,21 @@
 {
-  "generatedAt": "2026-06-18T15:48:57.978Z",
+  "generatedAt": "2026-06-18T18:33:16.616Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
       "temperature": 23,
       "weatherCode": 3,
-      "windSpeed": 6
+      "windSpeed": 4
     },
     "today": {
-      "date": "2026-06-18",
-      "weatherCode": 95,
-      "description": "雷暴",
-      "max": 30,
+      "date": "2026-06-19",
+      "weatherCode": 96,
+      "description": "天气更新中",
+      "max": 27,
       "min": 21,
-      "precipitationProbability": 53
+      "precipitationProbability": 86
     },
     "forecast": [
-      {
-        "date": "2026-06-18",
-        "weatherCode": 95,
-        "description": "雷暴",
-        "max": 30,
-        "min": 21,
-        "precipitationProbability": 53
-      },
       {
         "date": "2026-06-19",
         "weatherCode": 96,
@@ -55,32 +47,49 @@
         "max": 34,
         "min": 17,
         "precipitationProbability": 25
+      },
+      {
+        "date": "2026-06-23",
+        "weatherCode": 53,
+        "description": "小雨",
+        "max": 27,
+        "min": 19,
+        "precipitationProbability": 27
       }
     ]
   },
   "classicQuote": {
-    "id": "taoteching-self",
-    "text": "知人者智，自知者明；胜人者有力，自胜者强。",
-    "source": "《道德经》",
-    "author": "老子",
-    "note": "比起和别人比较，更重要的是把自己的节奏稳住。"
+    "id": "zhuangzi-time",
+    "text": "人生天地之间，若白驹之过隙，忽然而已。",
+    "source": "《庄子》",
+    "author": "庄周",
+    "note": "事情很多的时候，更值得把注意力放在真正重要的事上。"
   },
   "bookExcerpt": {
-    "id": "norwegian-wood-rain",
-    "text": "雨还在下，细得像雾，落在草地和树叶上，世界像被一种安静的潮气轻轻包住。",
-    "book": "《挪威的森林》",
-    "author": "村上春树"
+    "id": "one-hundred-years-yellow",
+    "text": "许多年以后，面对行刑队，奥雷里亚诺·布恩迪亚上校将会想起父亲带他去见识冰块的那个遥远的下午。",
+    "book": "《百年孤独》",
+    "author": "加西亚·马尔克斯"
   },
   "featuredPlace": {
-    "id": "202606171600",
-    "title": "萨克赛瓦曼遗址俯瞰图，库斯科，秘鲁",
+    "id": "202606181600",
+    "title": "湖中的龙舟，中国",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "坚如磐石的奇观",
-    "image": "https://www.bing.com/th?id=OHR.Saqsaywaman_ZH-CN2584038469_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E7%A7%98%E9%B2%81%E8%90%A8%E5%85%8B%E5%A1%9E%E5%8D%8E%E6%9B%BC&form=hpcapt&mkt=zh-cn"
+    "summary": "龙吟古韵",
+    "image": "https://www.bing.com/th?id=OHR.DragonBoatFestivalY26_ZH-CN3070279417_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E7%AB%AF%E5%8D%88%E8%8A%82&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202606181600",
+      "title": "湖中的龙舟，中国",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "龙吟古韵",
+      "image": "https://www.bing.com/th?id=OHR.DragonBoatFestivalY26_ZH-CN3070279417_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E7%AB%AF%E5%8D%88%E8%8A%82&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202606171600",
       "title": "萨克赛瓦曼遗址俯瞰图，库斯科，秘鲁",
@@ -143,30 +152,21 @@
       "summary": "惊鸿一瞥",
       "image": "https://www.bing.com/th?id=OHR.SpainBeeEater_ZH-CN4424052851_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E9%BB%84%E5%96%89%E8%9C%82%E8%99%8E&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202606101600",
-      "title": "退潮时裸露在乌尔萨海滩海岸上的帽贝, 葡萄牙",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "沉静的力量",
-      "image": "https://www.bing.com/th?id=OHR.Limpets_ZH-CN4991771513_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E8%91%A1%E8%90%84%E7%89%99%E4%B9%8C%E5%B0%94%E8%90%A8%E6%B5%B7%E6%BB%A9&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-06-18",
-    "dateLabel": "6月18日",
+    "dateKey": "2026-06-19",
+    "dateLabel": "6月19日",
     "items": [
       {
-        "year": "2018",
-        "text": "日本大阪北部发生里氏6.1地震。",
-        "link": "https://zh.wikipedia.org/wiki/2018%E5%B9%B4"
+        "year": "2021",
+        "text": "美国众议院表决通过法案，将黑奴解放日定为联邦公共假日。",
+        "link": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4"
       },
       {
-        "year": "2015",
-        "text": "香港立法會就2017年香港特別行政區行政長官產生辦法進行投票，結果以8票支持，28票反對而未能通過。",
-        "link": "https://zh.wikipedia.org/wiki/2015%E5%B9%B4"
+        "year": "2016",
+        "text": "香港受到副熱帶高壓脊影響，陽光普照，天晴酷熱，天文台於下午約3時錄得34.2°C高溫，為自1947年天文台有紀錄以來最熱的父親節，打破1961年創下的33.6°C高溫紀錄，當中石崗更錄...",
+        "link": "https://zh.wikipedia.org/wiki/2016%E5%B9%B4"
       }
     ]
   },
@@ -257,6 +257,14 @@
     ],
     "chinaFinance": [
       {
+        "title": "活力中国调研行|为机器人打造“火眼金睛”",
+        "link": "https://www.chinanews.com.cn/cj/2026/06-18/10643617.shtml",
+        "summary": "活力中国调研行丨精度可达0.2微米 总台记者探访：为机器人打造“火眼金睛”",
+        "image": "",
+        "publishedAt": "2026-06-18T15:47:35.000Z",
+        "source": "中新网"
+      },
+      {
         "title": "中国要求银行保险机构将AI风险纳入全面风险管理体系",
         "link": "https://www.chinanews.com.cn/cj/2026/06-18/10643609.shtml",
         "summary": "中新社北京6月18日电 (记者 王恩博)中国国家金融监管总局18日公布《关于银行业保险业人工智能安全开发应用的指导意见》，要求此类金融机构将人工智能(AI)风险纳入全面风险管理体系。",
@@ -287,17 +295,33 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260618/56249785-2b96-4f91-8591-30ca9402b592_zsite.jpg",
         "publishedAt": "2026-06-18T15:01:58.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "民企奋进自贸港：“海南是技术落地的重要实践场”",
-        "link": "https://www.chinanews.com.cn/cj/2026/06-18/10643543.shtml",
-        "summary": "中新网海口6月18日电 题：民企奋进自贸港：“海南是技术落地的重要实践场”",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260618/2a3946bd-a585-4727-8342-9c7fb3fc8076_zsite.jpg",
-        "publishedAt": "2026-06-18T15:01:46.000Z",
-        "source": "中新网"
       }
     ],
     "worldTop": [
+      {
+        "title": "Hegseth renews Nato criticism and says US will review presence in Europe",
+        "link": "https://www.bbc.com/news/articles/c3vy5l62622o?at_medium=RSS&at_campaign=rss",
+        "summary": "The US defence secretary's move follows a US decision to scale back its commitments to a high readiness force within the alliance.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/59ae/live/2100f1e0-6b03-11f1-aa02-f994d64872ca.jpg",
+        "publishedAt": "2026-06-18T17:51:35.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Thirty-five killed as gunmen attack Niger's biggest airport",
+        "link": "https://www.bbc.com/news/articles/cdx7krkdqeno?at_medium=RSS&at_campaign=rss",
+        "summary": "Niger has been fighting a militant Islamist insurgency for a decade and in January suspected jihadists attacked the same airport.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/252c/live/b6de6170-fcdb-11f0-9c97-69939b61e7c7.jpg",
+        "publishedAt": "2026-06-18T17:28:32.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Bowen: US-Iran deal raises inescapable question of what the war was for",
+        "link": "https://www.bbc.com/news/articles/clyegr2mp8jo?at_medium=RSS&at_campaign=rss",
+        "summary": "While the human cost is clear, the Iranian regime has not just survived the war, it has been empowered.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/21ae/live/f54e76a0-6b28-11f1-bd3c-dfd1c36b4ceb.jpg",
+        "publishedAt": "2026-06-18T15:53:55.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Moscow residents complain of black rain after largest Ukrainian attack hits oil refinery",
         "link": "https://www.bbc.com/news/articles/c98291g5rr1o?at_medium=RSS&at_campaign=rss",
@@ -313,30 +337,6 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5277/live/e2c02aa0-6b01-11f1-8317-e1f912f75a64.jpg",
         "publishedAt": "2026-06-18T15:38:18.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Weapons, money and ships: How is this Iran deal different from others?",
-        "link": "https://www.bbc.com/news/articles/c74ynmnrwmeo?at_medium=RSS&at_campaign=rss",
-        "summary": "BBC Verify examines how the new deal between the US and Iran affects three key areas.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8953/live/1cb40d80-6b25-11f1-b1db-af71d47507d6.png",
-        "publishedAt": "2026-06-18T14:16:42.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Hegseth renews Nato criticism and says US will review presence in Europe",
-        "link": "https://www.bbc.com/news/articles/c3vy5l62622o?at_medium=RSS&at_campaign=rss",
-        "summary": "The US defence secretary's move follows a US decision to scale back its commitments to a high readiness force within the alliance.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/59ae/live/2100f1e0-6b03-11f1-aa02-f994d64872ca.jpg",
-        "publishedAt": "2026-06-18T13:31:01.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "British man dies in paragliding accident in Spain",
-        "link": "https://www.bbc.com/news/articles/c1dye3e9gnwo?at_medium=RSS&at_campaign=rss",
-        "summary": "Authorities in Catalonia confirmed that the 63-year-old died in the Palau de Noguera area on Wednesday.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2260/live/7e182be0-6b13-11f1-b1db-af71d47507d6.jpg",
-        "publishedAt": "2026-06-18T11:54:23.000Z",
-        "source": "BBC"
       }
     ],
     "worldBusiness": [
@@ -349,11 +349,11 @@
         "source": "BBC"
       },
       {
-        "title": "CrossCountry ranked Britain's worst train operator",
-        "link": "https://www.bbc.com/news/articles/c36y5ezr0k7o?at_medium=RSS&at_campaign=rss",
-        "summary": "Transport Focus asks it to reduce delays and provide better information during disruption.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bf21/live/b4873c50-6b0b-11f1-8546-8f19e4fe30f4.png",
-        "publishedAt": "2026-06-18T15:25:26.000Z",
+        "title": "Heathrow's 'critical' expansion blueprint released",
+        "link": "https://www.bbc.com/news/articles/cx2dem7y78no?at_medium=RSS&at_campaign=rss",
+        "summary": "A consultation is launched on the Heathrow expansion, outlining conditions for the project to go ahead.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5a26/live/6ca7d030-6b32-11f1-bcc1-1395fad0ad8f.jpg",
+        "publishedAt": "2026-06-18T15:07:21.000Z",
         "source": "BBC"
       },
       {
@@ -467,6 +467,30 @@
     ],
     "international": [
       {
+        "title": "Hegseth renews Nato criticism and says US will review presence in Europe",
+        "link": "https://www.bbc.com/news/articles/c3vy5l62622o?at_medium=RSS&at_campaign=rss",
+        "summary": "The US defence secretary's move follows a US decision to scale back its commitments to a high readiness force within the alliance.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/59ae/live/2100f1e0-6b03-11f1-aa02-f994d64872ca.jpg",
+        "publishedAt": "2026-06-18T17:51:35.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Thirty-five killed as gunmen attack Niger's biggest airport",
+        "link": "https://www.bbc.com/news/articles/cdx7krkdqeno?at_medium=RSS&at_campaign=rss",
+        "summary": "Niger has been fighting a militant Islamist insurgency for a decade and in January suspected jihadists attacked the same airport.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/252c/live/b6de6170-fcdb-11f0-9c97-69939b61e7c7.jpg",
+        "publishedAt": "2026-06-18T17:28:32.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Bowen: US-Iran deal raises inescapable question of what the war was for",
+        "link": "https://www.bbc.com/news/articles/clyegr2mp8jo?at_medium=RSS&at_campaign=rss",
+        "summary": "While the human cost is clear, the Iranian regime has not just survived the war, it has been empowered.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/21ae/live/f54e76a0-6b28-11f1-bd3c-dfd1c36b4ceb.jpg",
+        "publishedAt": "2026-06-18T15:53:55.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "Moscow residents complain of black rain after largest Ukrainian attack hits oil refinery",
         "link": "https://www.bbc.com/news/articles/c98291g5rr1o?at_medium=RSS&at_campaign=rss",
         "summary": "A refinery and a shopping centre burned after almost 200 Ukrainian drones struck an area to the south-east of the Russian capital.",
@@ -481,42 +505,14 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5277/live/e2c02aa0-6b01-11f1-8317-e1f912f75a64.jpg",
         "publishedAt": "2026-06-18T15:38:18.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Weapons, money and ships: How is this Iran deal different from others?",
-        "link": "https://www.bbc.com/news/articles/c74ynmnrwmeo?at_medium=RSS&at_campaign=rss",
-        "summary": "BBC Verify examines how the new deal between the US and Iran affects three key areas.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8953/live/1cb40d80-6b25-11f1-b1db-af71d47507d6.png",
-        "publishedAt": "2026-06-18T14:16:42.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Hegseth renews Nato criticism and says US will review presence in Europe",
-        "link": "https://www.bbc.com/news/articles/c3vy5l62622o?at_medium=RSS&at_campaign=rss",
-        "summary": "The US defence secretary's move follows a US decision to scale back its commitments to a high readiness force within the alliance.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/59ae/live/2100f1e0-6b03-11f1-aa02-f994d64872ca.jpg",
-        "publishedAt": "2026-06-18T13:31:01.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "British man dies in paragliding accident in Spain",
-        "link": "https://www.bbc.com/news/articles/c1dye3e9gnwo?at_medium=RSS&at_campaign=rss",
-        "summary": "Authorities in Catalonia confirmed that the 63-year-old died in the Palau de Noguera area on Wednesday.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2260/live/7e182be0-6b13-11f1-b1db-af71d47507d6.jpg",
-        "publishedAt": "2026-06-18T11:54:23.000Z",
-        "source": "BBC"
       }
     ],
     "nba": []
   },
   "nbaScoreboard": {
-    "date": "2026-06-18",
+    "date": "2026-06-19",
     "currentIndex": 4,
     "days": [
-      {
-        "date": "2026-06-14",
-        "games": []
-      },
       {
         "date": "2026-06-15",
         "games": []
@@ -548,12 +544,16 @@
       {
         "date": "2026-06-22",
         "games": []
+      },
+      {
+        "date": "2026-06-23",
+        "games": []
       }
     ],
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-06-18",
+    "rotationLabel": "Curated Rotation · 2026-06-19",
     "sections": [
       {
         "id": "data-storage",
@@ -561,26 +561,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-5",
-            "sectionId": "data-storage",
-            "title": "The FAISS Library",
-            "authors": [
-              "Jeff Johnson",
-              "Matthijs Douze",
-              "Herve Jegou"
-            ],
-            "venue": "IEEE T-BD",
-            "year": 2021,
-            "quality": "高影响力",
-            "categories": [
-              "vector search",
-              "ANN"
-            ],
-            "link": "https://arxiv.org/abs/2401.08281",
-            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-6",
             "sectionId": "data-storage",
@@ -600,7 +580,7 @@
             ],
             "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
             "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-1",
@@ -622,6 +602,27 @@
             "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
             "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-2",
+            "sectionId": "data-storage",
+            "title": "Bigtable: A Distributed Storage System for Structured Data",
+            "authors": [
+              "Fay Chang",
+              "Jeffrey Dean",
+              "Sanjay Ghemawat",
+              "Wilson C. Hsieh"
+            ],
+            "venue": "OSDI",
+            "year": 2006,
+            "quality": "顶会",
+            "categories": [
+              "distributed systems",
+              "database"
+            ],
+            "link": "https://research.google/pubs/pub27898/",
+            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -631,27 +632,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-6",
-            "sectionId": "computer-vision",
-            "title": "DINOv2: Learning Robust Visual Features without Supervision",
-            "authors": [
-              "Maxime Oquab",
-              "Timothée Darcet",
-              "Théo Moutakanni",
-              "Huy V. Vo"
-            ],
-            "venue": "arXiv / Meta",
-            "year": 2023,
-            "quality": "高影响力",
-            "categories": [
-              "self-supervised",
-              "representation"
-            ],
-            "link": "https://arxiv.org/abs/2304.07193",
-            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-1",
             "sectionId": "computer-vision",
@@ -671,7 +651,7 @@
             ],
             "link": "https://arxiv.org/abs/1512.03385",
             "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-2",
@@ -693,6 +673,27 @@
             "link": "https://arxiv.org/abs/2005.12872",
             "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-3",
+            "sectionId": "computer-vision",
+            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+            "authors": [
+              "Alexey Dosovitskiy",
+              "Lucas Beyer",
+              "Alexander Kolesnikov",
+              "Dirk Weissenborn"
+            ],
+            "venue": "ICLR",
+            "year": 2021,
+            "quality": "顶会",
+            "categories": [
+              "vision transformer",
+              "classification"
+            ],
+            "link": "https://arxiv.org/abs/2010.11929",
+            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -702,27 +703,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-1",
-            "sectionId": "llm-memory",
-            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
-            "authors": [
-              "Patrick Lewis",
-              "Ethan Perez",
-              "Aleksandra Piktus",
-              "Fabio Petroni"
-            ],
-            "venue": "NeurIPS",
-            "year": 2020,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "retrieval"
-            ],
-            "link": "https://arxiv.org/abs/2005.11401",
-            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-2",
             "sectionId": "llm-memory",
@@ -742,7 +722,7 @@
             ],
             "link": "https://arxiv.org/abs/2203.08913",
             "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-3",
@@ -764,6 +744,27 @@
             "link": "https://arxiv.org/abs/2112.04426",
             "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-4",
+            "sectionId": "llm-memory",
+            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+            "authors": [
+              "Akari Asai",
+              "Zequn Zhang",
+              "Avirup Sil",
+              "Hannaneh Hajishirzi"
+            ],
+            "venue": "ICLR",
+            "year": 2024,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "self-reflection"
+            ],
+            "link": "https://arxiv.org/abs/2310.11511",
+            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -773,27 +774,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-2",
-            "sectionId": "agents",
-            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
-            "authors": [
-              "Timo Schick",
-              "Jane Dwivedi-Yu",
-              "Roberta Dessì",
-              "Ari Holtzman"
-            ],
-            "venue": "NeurIPS",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "tool use",
-              "agent"
-            ],
-            "link": "https://arxiv.org/abs/2302.04761",
-            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-3",
             "sectionId": "agents",
@@ -813,7 +793,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.03442",
             "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-4",
@@ -834,6 +814,27 @@
             ],
             "link": "https://arxiv.org/abs/2305.16291",
             "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-5",
+            "sectionId": "agents",
+            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+            "authors": [
+              "Qingyun Wu",
+              "Gagan Bansal",
+              "Jiaqi Zhang",
+              "Yiran Wu"
+            ],
+            "venue": "COLM",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "multi-agent",
+              "framework"
+            ],
+            "link": "https://arxiv.org/abs/2308.08155",
+            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
             "trackLabel": "轮换精选"
           }
         ]
