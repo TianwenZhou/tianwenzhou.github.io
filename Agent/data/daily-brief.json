@@ -1,29 +1,21 @@
 {
-  "generatedAt": "2026-06-21T14:30:11.328Z",
+  "generatedAt": "2026-06-21T17:48:19.575Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 24,
-      "weatherCode": 3,
-      "windSpeed": 14
+      "temperature": 21,
+      "weatherCode": 1,
+      "windSpeed": 6
     },
     "today": {
-      "date": "2026-06-21",
-      "weatherCode": 3,
-      "description": "阴天",
-      "max": 30,
-      "min": 14,
-      "precipitationProbability": 0
+      "date": "2026-06-22",
+      "weatherCode": 51,
+      "description": "毛毛雨",
+      "max": 32,
+      "min": 18,
+      "precipitationProbability": 24
     },
     "forecast": [
-      {
-        "date": "2026-06-21",
-        "weatherCode": 3,
-        "description": "阴天",
-        "max": 30,
-        "min": 14,
-        "precipitationProbability": 0
-      },
       {
         "date": "2026-06-22",
         "weatherCode": 51,
@@ -55,32 +47,49 @@
         "max": 35,
         "min": 21,
         "precipitationProbability": 0
+      },
+      {
+        "date": "2026-06-26",
+        "weatherCode": 3,
+        "description": "阴天",
+        "max": 35,
+        "min": 22,
+        "precipitationProbability": 4
       }
     ]
   },
   "classicQuote": {
-    "id": "mencius-perseverance",
-    "text": "虽千万人，吾往矣。",
-    "source": "《孟子》",
-    "author": "孟子",
-    "note": "认准方向之后，关键是稳稳地往前走。"
+    "id": "records-historical",
+    "text": "桃李不言，下自成蹊。",
+    "source": "《史记》",
+    "author": "司马迁",
+    "note": "真正有分量的作品，本身就会替你说话。"
   },
   "bookExcerpt": {
-    "id": "red-mansion-snow",
-    "text": "只见大地白茫茫一片真干净，山川树木都隐在雪光里，天地像忽然静下来，只余风过回廊的细响。",
-    "book": "《红楼梦》",
-    "author": "曹雪芹"
+    "id": "remembrance-madeleine",
+    "text": "那一点点浸过茶水的点心，忽然把整个旧日时光都唤醒了，仿佛往昔并未消失，只是沉在心底等待一个气味。",
+    "book": "《追忆似水年华》",
+    "author": "马塞尔·普鲁斯特"
   },
   "featuredPlace": {
-    "id": "202606201600",
-    "title": "企鹅爸爸正在检查蛋的情况",
+    "id": "202606211600",
+    "title": "奎诺尔特雨林, 奥林匹克国家公园, 华盛顿州, 美国",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "鸟类好爸爸",
-    "image": "https://www.bing.com/th?id=OHR.EggDad_ZH-CN6045387630_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E7%88%B6%E4%BA%B2%E8%8A%82&form=hpcapt&mkt=zh-cn"
+    "summary": "一个郁郁葱葱的王国",
+    "image": "https://www.bing.com/th?id=OHR.QuinaultFerns_ZH-CN6696428927_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E9%9B%A8%E6%9E%97%E6%97%A5&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202606211600",
+      "title": "奎诺尔特雨林, 奥林匹克国家公园, 华盛顿州, 美国",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "一个郁郁葱葱的王国",
+      "image": "https://www.bing.com/th?id=OHR.QuinaultFerns_ZH-CN6696428927_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E9%9B%A8%E6%9E%97%E6%97%A5&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202606201600",
       "title": "企鹅爸爸正在检查蛋的情况",
@@ -143,30 +152,21 @@
       "summary": "岁月雕琢，风景始成",
       "image": "https://www.bing.com/th?id=OHR.ParkEstd_ZH-CN3419035151_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E5%A4%A7%E7%83%9F%E5%B1%B1%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202606131600",
-      "title": "绿头鸭",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "潜羽探清波",
-      "image": "https://www.bing.com/th?id=OHR.DuckPond_ZH-CN1683101997_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E7%BB%BF%E5%A4%B4%E9%B8%AD&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-06-21",
-    "dateLabel": "6月21日",
+    "dateKey": "2026-06-22",
+    "dateLabel": "6月22日",
     "items": [
       {
         "year": "2022",
-        "text": "韩国在罗老宇航中心成功发射该国首枚自主研制的运载火箭世界号。",
+        "text": "阿富汗東部霍斯特省首府霍斯特附近發生Mw 6.2地震，造成至少1,193人死亡和3,000多人受傷。",
         "link": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4"
       },
       {
-        "year": "2020",
-        "text": "2020年6月21日日食出現。",
-        "link": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4"
+        "year": "2015",
+        "text": "公民黨創黨成員湯家驊即時辭去香港立法會議員席位，今年10月1日前生效。",
+        "link": "https://zh.wikipedia.org/wiki/2015%E5%B9%B4"
       }
     ]
   },
@@ -299,43 +299,43 @@
     ],
     "worldTop": [
       {
+        "title": "Half of France under red heat alert as alcohol banned at street music festival",
+        "link": "https://www.bbc.com/news/articles/cgmdw4vn7y2o?at_medium=RSS&at_campaign=rss",
+        "summary": "Temperatures are forecast to peak on Monday, and authorities warn they could match historic highs.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/44a9/live/b6b9fe00-6d80-11f1-a2ba-775ae811ce10.jpg",
+        "publishedAt": "2026-06-21T15:22:14.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Ethiopia PM's party wins landslide as fears grow of new conflict",
+        "link": "https://www.bbc.com/news/articles/cz750q5e3w3o?at_medium=RSS&at_campaign=rss",
+        "summary": "Abiy Ahmed's party retains its huge majority despite unrest in several parts of Ethiopia and tensions with its neighbours.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce6e/live/27de1700-6bf2-11f1-8546-8f19e4fe30f4.jpg",
+        "publishedAt": "2026-06-21T15:01:28.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "US and Iran begin talks on initial peace deal in Switzerland",
+        "link": "https://www.bbc.com/news/articles/cwy0q41v1lzo?at_medium=RSS&at_campaign=rss",
+        "summary": "The face-to-face meeting follows ongoing fighting in Lebanon and Iran's claim to have shut the Strait of Hormuz.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8ef0/live/249591b0-6d71-11f1-a2ba-775ae811ce10.jpg",
+        "publishedAt": "2026-06-21T14:41:02.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Wife of Spanish PM forbidden to leave country as corruption probes pile up",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOanR5QmJkWGt6emY1TzVHQzczVDRYOHQ0MnU2S1JGdV9lZWJCV3pacGpxZXMtMDZWU1ZwNGpHQmN3THBldEZGclNRelh2NmtSQUdYbmpsVU9DeVlvYkdRTTZIUkl3MmxGcF9mRUdvUXpOMGtZYVFOS2RRUUtfVGFKYg?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-06-21T14:21:27.000Z",
+        "source": "CNN"
+      },
+      {
         "title": "Fuel sales halted in occupied Crimea as Ukraine targets oil facilities",
         "link": "https://www.bbc.com/news/articles/clyx2lk9d15o?at_medium=RSS&at_campaign=rss",
         "summary": "Fuel had already been rationed due to shortages caused by Kyiv's attacks against supply routes in Russian-occupied territories.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f7d6/live/27920bd0-6d50-11f1-b1db-af71d47507d6.jpg",
         "publishedAt": "2026-06-21T10:55:05.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Former Olympian denies vandalising Washington Reflecting Pool after arrest",
-        "link": "https://www.bbc.com/news/articles/c8d26051vv2o?at_medium=RSS&at_campaign=rss",
-        "summary": "Davey Hearn says he was simply touching the new paint at the site out of curiosity and did not remove or alter it.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/43d2/live/76acff10-6d7b-11f1-a2ba-775ae811ce10.jpg",
-        "publishedAt": "2026-06-21T07:16:54.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "US-Iran talks begin in Switzerland as Tehran says it closed Strait of Hormuz",
-        "link": "https://www.bbc.com/news/articles/cwyekkwm1mmo?at_medium=RSS&at_campaign=rss",
-        "summary": "The US disputed Iran's claim the waterway is shut, a move Tehran says was a response to Israeli attacks in Lebanon.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b660/live/9b3955b0-6d60-11f1-84ee-8be44d984cb8.jpg",
-        "publishedAt": "2026-06-21T04:34:00.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "France bans alcohol at music festival events under red heatwave alert",
-        "link": "https://www.bbc.com/news/articles/cgmdw4vn7y2o?at_medium=RSS&at_campaign=rss",
-        "summary": "Annual street parties attended by millions ordered to help “preserve” healthcare services in 40C (104F) heat.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1768/live/91e33450-6d00-11f1-9f29-21c4f4a06079.jpg",
-        "publishedAt": "2026-06-21T00:29:51.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Colombia's escalating, brutal internal conflict is defining its presidential election",
-        "link": "https://www.bbc.com/news/articles/cvgqv8q1ndpo?at_medium=RSS&at_campaign=rss",
-        "summary": "A left-wing senator who backs talks with armed gangs faces an outsider endorsed by Trump.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/42c9/live/a7a4ecd0-6bf1-11f1-8631-5f302ec8cd09.jpg",
-        "publishedAt": "2026-06-20T23:17:51.000Z",
         "source": "BBC"
       }
     ],
@@ -357,14 +357,6 @@
         "source": "BBC"
       },
       {
-        "title": "Oil prices are falling and stocks are up. Traders worry they’ve gone too far",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRXl5UXdOanhQVGxnekUxRC1pSHZKLWxCbmRkbTMzTENwY3pUVFF2V2lUN0htUDB4c2ZmcW5TRzdrMm44OU9SWC1yTGk4aWFYOEVDRkNaSEZzdGVoZFVKOFJHX3laUEpxYXFraTRVR2Y2d2ZIZk1EbnpQX2dvWjNST1RfVGdLdw?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-06-19T09:00:26.000Z",
-        "source": "CNN"
-      },
-      {
         "title": "Warning over 'fragile' public finances as borrowing rises",
         "link": "https://www.bbc.com/news/articles/cqx1e8nrwgvo?at_medium=RSS&at_campaign=rss",
         "summary": "The UK borrowed £23.3bn in May, according to official figures, up almost a third on the same month last year.",
@@ -379,6 +371,14 @@
         "image": "",
         "publishedAt": "2026-06-19T07:00:26.000Z",
         "source": "CNN"
+      },
+      {
+        "title": "'I'd be put off if he asked to split it': Who should pay on a first date?",
+        "link": "https://www.bbc.com/news/articles/c74yl4gknzno?at_medium=RSS&at_campaign=rss",
+        "summary": "Some insist on splitting the bill, others say the asker should pay, while many still see a man paying as romantic.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2bee/live/f9804710-6a44-11f1-8546-8f19e4fe30f4.png",
+        "publishedAt": "2026-06-19T06:52:40.000Z",
+        "source": "BBC"
       }
     ],
     "worldTech": [
@@ -467,56 +467,101 @@
     ],
     "international": [
       {
+        "title": "Half of France under red heat alert as alcohol banned at street music festival",
+        "link": "https://www.bbc.com/news/articles/cgmdw4vn7y2o?at_medium=RSS&at_campaign=rss",
+        "summary": "Temperatures are forecast to peak on Monday, and authorities warn they could match historic highs.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/44a9/live/b6b9fe00-6d80-11f1-a2ba-775ae811ce10.jpg",
+        "publishedAt": "2026-06-21T15:22:14.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Ethiopia PM's party wins landslide as fears grow of new conflict",
+        "link": "https://www.bbc.com/news/articles/cz750q5e3w3o?at_medium=RSS&at_campaign=rss",
+        "summary": "Abiy Ahmed's party retains its huge majority despite unrest in several parts of Ethiopia and tensions with its neighbours.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce6e/live/27de1700-6bf2-11f1-8546-8f19e4fe30f4.jpg",
+        "publishedAt": "2026-06-21T15:01:28.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "US and Iran begin talks on initial peace deal in Switzerland",
+        "link": "https://www.bbc.com/news/articles/cwy0q41v1lzo?at_medium=RSS&at_campaign=rss",
+        "summary": "The face-to-face meeting follows ongoing fighting in Lebanon and Iran's claim to have shut the Strait of Hormuz.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8ef0/live/249591b0-6d71-11f1-a2ba-775ae811ce10.jpg",
+        "publishedAt": "2026-06-21T14:41:02.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Wife of Spanish PM forbidden to leave country as corruption probes pile up",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOanR5QmJkWGt6emY1TzVHQzczVDRYOHQ0MnU2S1JGdV9lZWJCV3pacGpxZXMtMDZWU1ZwNGpHQmN3THBldEZGclNRelh2NmtSQUdYbmpsVU9DeVlvYkdRTTZIUkl3MmxGcF9mRUdvUXpOMGtZYVFOS2RRUUtfVGFKYg?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-06-21T14:21:27.000Z",
+        "source": "CNN"
+      },
+      {
         "title": "Fuel sales halted in occupied Crimea as Ukraine targets oil facilities",
         "link": "https://www.bbc.com/news/articles/clyx2lk9d15o?at_medium=RSS&at_campaign=rss",
         "summary": "Fuel had already been rationed due to shortages caused by Kyiv's attacks against supply routes in Russian-occupied territories.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f7d6/live/27920bd0-6d50-11f1-b1db-af71d47507d6.jpg",
         "publishedAt": "2026-06-21T10:55:05.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Former Olympian denies vandalising Washington Reflecting Pool after arrest",
-        "link": "https://www.bbc.com/news/articles/c8d26051vv2o?at_medium=RSS&at_campaign=rss",
-        "summary": "Davey Hearn says he was simply touching the new paint at the site out of curiosity and did not remove or alter it.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/43d2/live/76acff10-6d7b-11f1-a2ba-775ae811ce10.jpg",
-        "publishedAt": "2026-06-21T07:16:54.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "US-Iran talks begin in Switzerland as Tehran says it closed Strait of Hormuz",
-        "link": "https://www.bbc.com/news/articles/cwyekkwm1mmo?at_medium=RSS&at_campaign=rss",
-        "summary": "The US disputed Iran's claim the waterway is shut, a move Tehran says was a response to Israeli attacks in Lebanon.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b660/live/9b3955b0-6d60-11f1-84ee-8be44d984cb8.jpg",
-        "publishedAt": "2026-06-21T04:34:00.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "France bans alcohol at music festival events under red heatwave alert",
-        "link": "https://www.bbc.com/news/articles/cgmdw4vn7y2o?at_medium=RSS&at_campaign=rss",
-        "summary": "Annual street parties attended by millions ordered to help “preserve” healthcare services in 40C (104F) heat.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1768/live/91e33450-6d00-11f1-9f29-21c4f4a06079.jpg",
-        "publishedAt": "2026-06-21T00:29:51.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Colombia's escalating, brutal internal conflict is defining its presidential election",
-        "link": "https://www.bbc.com/news/articles/cvgqv8q1ndpo?at_medium=RSS&at_campaign=rss",
-        "summary": "A left-wing senator who backs talks with armed gangs faces an outsider endorsed by Trump.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/42c9/live/a7a4ecd0-6bf1-11f1-8631-5f302ec8cd09.jpg",
-        "publishedAt": "2026-06-20T23:17:51.000Z",
-        "source": "BBC"
       }
     ],
-    "nba": []
+    "nba": [
+      {
+        "title": "How the Knicks and hip-hop united New York",
+        "link": "https://www.espn.com/nba/story/_/id/49129951/knicks-new-york-rap-nba-finals-parade",
+        "summary": "The last time the Knicks won a title, hip-hop was born. Fifty-three years later, New York's rappers took a victory lap.",
+        "image": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0621%2Fr1677073_1280x720_16%2D9.jpg",
+        "publishedAt": "2026-06-21T17:55:54.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "'Collective exuberance': Knicks fans throng NYC fo...",
+        "link": "https://www.espn.com/nba/story/_/id/49110594/new-york-knicks-nba-championship-parade-fans",
+        "summary": "Knicks fans waited decades for a title -- and when it came, their celebration did not disappoint.",
+        "image": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0618%2Fr1675699_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-06-21T17:55:54.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "McCollum stays with Hawks on 1-year extension",
+        "link": "https://www.espn.com/nba/story/_/id/49135921/cj-mccollum-stays-hawks-1-year-21m-extension",
+        "summary": "Hawks guard CJ McCollum has agreed to a one-year, $21 million contract extension with the franchise, his agent told ESPN's Shams Charania.",
+        "image": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0424%2Fr1648329_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-06-21T18:21:41.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "Sources: Goodwin joining Gillespie in Suns return",
+        "link": "https://www.espn.com/nba/story/_/id/49135466/sources-suns-jordan-goodwin-set-3-year-19m-deal",
+        "summary": "The Suns have reached a second deal this weekend, as free agent guard Jordan Goodwin intends to join Collin Gillespie in re-signing in Phoenix, source...",
+        "image": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0621%2Fr1677114_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-06-21T18:22:40.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "Sources: Caldwell-Pope picks up option with Griz",
+        "link": "https://www.espn.com/nba/story/_/id/49120723/sources-caldwell-pope-opts-216-million-deal-grizzlies",
+        "summary": "Veteran guard Kentavious Caldwell-Pope is exercising his $21.6 million player option with the Grizzlies for the 2026-27 season, sources told ESPN.",
+        "image": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0203%2Fr1609611_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-06-21T18:21:41.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "Brunson slams skeptics as Knicks revel in parade",
+        "link": "https://www.espn.com/nba/story/_/id/49108942/jalen-brunson-slams-skeptics-knicks-revel-nba-championship-parade",
+        "summary": "Jalen Brunson finally hit back at his skeptics as the Knicks and millions of fans celebrated the franchise's first NBA championship in 53 years with a...",
+        "image": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0618%2Fr1675644_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-06-21T18:21:41.000Z",
+        "source": "ESPN"
+      }
+    ]
   },
   "nbaScoreboard": {
-    "date": "2026-06-21",
+    "date": "2026-06-22",
     "currentIndex": 4,
     "days": [
-      {
-        "date": "2026-06-17",
-        "games": []
-      },
       {
         "date": "2026-06-18",
         "games": []
@@ -548,12 +593,16 @@
       {
         "date": "2026-06-25",
         "games": []
+      },
+      {
+        "date": "2026-06-26",
+        "games": []
       }
     ],
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-06-21",
+    "rotationLabel": "Curated Rotation · 2026-06-22",
     "sections": [
       {
         "id": "data-storage",
@@ -561,27 +610,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-2",
-            "sectionId": "data-storage",
-            "title": "Bigtable: A Distributed Storage System for Structured Data",
-            "authors": [
-              "Fay Chang",
-              "Jeffrey Dean",
-              "Sanjay Ghemawat",
-              "Wilson C. Hsieh"
-            ],
-            "venue": "OSDI",
-            "year": 2006,
-            "quality": "顶会",
-            "categories": [
-              "distributed systems",
-              "database"
-            ],
-            "link": "https://research.google/pubs/pub27898/",
-            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-3",
             "sectionId": "data-storage",
@@ -601,7 +629,7 @@
             ],
             "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
             "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-4",
@@ -623,6 +651,26 @@
             "link": "https://research.google/pubs/pub36632/",
             "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-5",
+            "sectionId": "data-storage",
+            "title": "The FAISS Library",
+            "authors": [
+              "Jeff Johnson",
+              "Matthijs Douze",
+              "Herve Jegou"
+            ],
+            "venue": "IEEE T-BD",
+            "year": 2021,
+            "quality": "高影响力",
+            "categories": [
+              "vector search",
+              "ANN"
+            ],
+            "link": "https://arxiv.org/abs/2401.08281",
+            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -632,27 +680,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-3",
-            "sectionId": "computer-vision",
-            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
-            "authors": [
-              "Alexey Dosovitskiy",
-              "Lucas Beyer",
-              "Alexander Kolesnikov",
-              "Dirk Weissenborn"
-            ],
-            "venue": "ICLR",
-            "year": 2021,
-            "quality": "顶会",
-            "categories": [
-              "vision transformer",
-              "classification"
-            ],
-            "link": "https://arxiv.org/abs/2010.11929",
-            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-4",
             "sectionId": "computer-vision",
@@ -672,7 +699,7 @@
             ],
             "link": "https://arxiv.org/abs/2103.00020",
             "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-5",
@@ -694,6 +721,27 @@
             "link": "https://arxiv.org/abs/2304.02643",
             "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-6",
+            "sectionId": "computer-vision",
+            "title": "DINOv2: Learning Robust Visual Features without Supervision",
+            "authors": [
+              "Maxime Oquab",
+              "Timothée Darcet",
+              "Théo Moutakanni",
+              "Huy V. Vo"
+            ],
+            "venue": "arXiv / Meta",
+            "year": 2023,
+            "quality": "高影响力",
+            "categories": [
+              "self-supervised",
+              "representation"
+            ],
+            "link": "https://arxiv.org/abs/2304.07193",
+            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -703,27 +751,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-4",
-            "sectionId": "llm-memory",
-            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
-            "authors": [
-              "Akari Asai",
-              "Zequn Zhang",
-              "Avirup Sil",
-              "Hannaneh Hajishirzi"
-            ],
-            "venue": "ICLR",
-            "year": 2024,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "self-reflection"
-            ],
-            "link": "https://arxiv.org/abs/2310.11511",
-            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-5",
             "sectionId": "llm-memory",
@@ -743,7 +770,7 @@
             ],
             "link": "https://arxiv.org/abs/2306.07174",
             "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-6",
@@ -765,6 +792,27 @@
             "link": "https://arxiv.org/abs/2409.05591",
             "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-1",
+            "sectionId": "llm-memory",
+            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+            "authors": [
+              "Patrick Lewis",
+              "Ethan Perez",
+              "Aleksandra Piktus",
+              "Fabio Petroni"
+            ],
+            "venue": "NeurIPS",
+            "year": 2020,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "retrieval"
+            ],
+            "link": "https://arxiv.org/abs/2005.11401",
+            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -774,27 +822,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-5",
-            "sectionId": "agents",
-            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
-            "authors": [
-              "Qingyun Wu",
-              "Gagan Bansal",
-              "Jiaqi Zhang",
-              "Yiran Wu"
-            ],
-            "venue": "COLM",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "multi-agent",
-              "framework"
-            ],
-            "link": "https://arxiv.org/abs/2308.08155",
-            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-6",
             "sectionId": "agents",
@@ -814,7 +841,7 @@
             ],
             "link": "https://arxiv.org/abs/2405.15793",
             "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-1",
@@ -836,6 +863,27 @@
             ],
             "link": "https://arxiv.org/abs/2210.03629",
             "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-2",
+            "sectionId": "agents",
+            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+            "authors": [
+              "Timo Schick",
+              "Jane Dwivedi-Yu",
+              "Roberta Dessì",
+              "Ari Holtzman"
+            ],
+            "venue": "NeurIPS",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "tool use",
+              "agent"
+            ],
+            "link": "https://arxiv.org/abs/2302.04761",
+            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
             "trackLabel": "轮换精选"
           }
         ]
