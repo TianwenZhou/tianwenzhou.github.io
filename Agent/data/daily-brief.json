@@ -1,36 +1,28 @@
 {
-  "generatedAt": "2026-06-24T14:50:55.550Z",
+  "generatedAt": "2026-06-24T18:04:36.667Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
       "temperature": 21,
       "weatherCode": 0,
-      "windSpeed": 3
+      "windSpeed": 2
     },
     "today": {
-      "date": "2026-06-24",
-      "weatherCode": 53,
-      "description": "小雨",
+      "date": "2026-06-25",
+      "weatherCode": 3,
+      "description": "阴天",
       "max": 33,
       "min": 20,
-      "precipitationProbability": 55
+      "precipitationProbability": 52
     },
     "forecast": [
-      {
-        "date": "2026-06-24",
-        "weatherCode": 53,
-        "description": "小雨",
-        "max": 33,
-        "min": 20,
-        "precipitationProbability": 55
-      },
       {
         "date": "2026-06-25",
         "weatherCode": 3,
         "description": "阴天",
         "max": 33,
         "min": 20,
-        "precipitationProbability": 35
+        "precipitationProbability": 52
       },
       {
         "date": "2026-06-26",
@@ -46,7 +38,7 @@
         "description": "毛毛雨",
         "max": 36,
         "min": 21,
-        "precipitationProbability": 43
+        "precipitationProbability": 47
       },
       {
         "date": "2026-06-28",
@@ -54,33 +46,50 @@
         "description": "天气更新中",
         "max": 35,
         "min": 23,
-        "precipitationProbability": 83
+        "precipitationProbability": 76
+      },
+      {
+        "date": "2026-06-29",
+        "weatherCode": 95,
+        "description": "雷暴",
+        "max": 30,
+        "min": 21,
+        "precipitationProbability": 63
       }
     ]
   },
   "classicQuote": {
-    "id": "analects-learning",
-    "text": "学而不思则罔，思而不学则殆。",
-    "source": "《论语》",
-    "author": "孔子",
-    "note": "提醒自己既要输入，也要沉淀，不要只忙不想。"
+    "id": "taoteching-accumulate",
+    "text": "合抱之木，生于毫末；九层之台，起于累土。",
+    "source": "《道德经》",
+    "author": "老子",
+    "note": "再大的目标，也要拆成今天能推进的一小步。"
   },
   "bookExcerpt": {
-    "id": "fortress-besieged-night",
-    "text": "夜仿佛纸浸了油，变成半透明体；它给太阳拥抱住了，分不出身来，也许是给太阳溶了，所以夕照晚霞隐褪后的夜色也带着酡红。",
-    "book": "《围城》",
-    "author": "钱钟书"
+    "id": "camel-xiangzi-sky",
+    "text": "天是越来越晴朗了，一轮火一样的太阳悬在空中，街上的一切都像在明晃晃地发着白光。",
+    "book": "《骆驼祥子》",
+    "author": "老舍"
   },
   "featuredPlace": {
-    "id": "202606231600",
-    "title": "蝴蝶正在黄花上授粉",
+    "id": "202606241600",
+    "title": "布鲁塞尔大广场上的建筑群, 比利时",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "花粉与翅膀相遇",
-    "image": "https://www.bing.com/th?id=OHR.BFPollin_ZH-CN7654067396_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E8%9D%B4%E8%9D%B6%E6%8E%88%E7%B2%89&form=hpcapt&mkt=zh-cn"
+    "summary": "在广场中感受历史",
+    "image": "https://www.bing.com/th?id=OHR.GrandPlace_ZH-CN8806496436_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E5%B8%83%E9%B2%81%E5%A1%9E%E5%B0%94%E5%A4%A7%E5%B9%BF%E5%9C%BA&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202606241600",
+      "title": "布鲁塞尔大广场上的建筑群, 比利时",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "在广场中感受历史",
+      "image": "https://www.bing.com/th?id=OHR.GrandPlace_ZH-CN8806496436_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E5%B8%83%E9%B2%81%E5%A1%9E%E5%B0%94%E5%A4%A7%E5%B9%BF%E5%9C%BA&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202606231600",
       "title": "蝴蝶正在黄花上授粉",
@@ -143,35 +152,34 @@
       "summary": "坚如磐石的奇观",
       "image": "https://www.bing.com/th?id=OHR.Saqsaywaman_ZH-CN2584038469_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E7%A7%98%E9%B2%81%E8%90%A8%E5%85%8B%E5%A1%9E%E5%8D%8E%E6%9B%BC&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202606161600",
-      "title": "特雷莫拉公路在圣哥达山口，艾罗洛，瑞士",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "蜿蜒而上",
-      "image": "https://www.bing.com/th?id=OHR.TremolaRoad_ZH-CN8810749250_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E7%89%B9%E9%9B%B7%E8%8E%AB%E6%8B%89%E5%85%AC%E8%B7%AF&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-06-24",
-    "dateLabel": "6月24日",
+    "dateKey": "2026-06-25",
+    "dateLabel": "6月25日",
     "items": [
       {
         "year": "2024",
-        "text": "韓國京畿道華城市的一家電池製造廠發生火災，造成至少23人死亡、8人受傷。",
+        "text": "嫦娥六號成功返回地球，並帶回首批月球背面樣本。",
         "link": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4"
       },
       {
-        "year": "2023",
-        "text": "瓦格纳集团领导人叶夫根尼·普里戈任率领其组织的雇佣兵在俄罗斯顿河畔罗斯托夫发动武装叛乱，以表达对俄罗斯国防部长谢尔盖·绍伊古的反对。",
-        "link": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4"
+        "year": "2021",
+        "text": "中国河南，凌晨3时许，商丘市柘城县远襄镇某武术馆发生重大火灾事故，造成18人死亡、4人重伤、12人轻伤。",
+        "link": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
+      {
+        "title": "王毅同巴基斯坦副总理兼外长达尔通电话",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-24/10646727.shtml",
+        "summary": "新华社北京6月24日电 中共中央政治局委员、外交部长王毅24日晚应约同巴基斯坦副总理兼外长达尔通电话。",
+        "image": "",
+        "publishedAt": "2026-06-24T15:29:24.000Z",
+        "source": "中新网"
+      },
       {
         "title": "习言道｜树立和践行正确政绩观，最终要落到为民造福上",
         "link": "https://www.chinanews.com.cn/gn/2026/06-24/10646723.shtml",
@@ -202,14 +210,6 @@
         "summary": "中新网驻马店6月24日电 (经晓佳)6月24日，“小城大业”网络主题宣传活动在河南省驻马店市西平县启动。本次活动立足河南县域优势特色产业，以“产业见证发展”为主题主线，聚焦县域特色产业发展成果，讲述县域经济高质量发展故事，旨在打造河南县域经济特色品牌。",
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260624/1b915b81-4082-4a49-94fd-16d8726b6d5e_zsite.jpg",
         "publishedAt": "2026-06-24T13:42:58.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "寻访重庆荣昌千年陶都 两岸媒体共品非遗传承与创新之美",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-24/10646684.shtml",
-        "summary": "中新网重庆6月24日电 (记者 钟旖)端坐桌前，台湾大学教授、资深媒体人苑举正手持刻刀，俯身凝神在素陶盘上细细剔刻，一笔一画落下“两岸一家亲”五个大字，沉浸式体验荣昌陶器制作中的剔刻花传统工艺。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260624/5b129698-6326-46d5-8916-5abf412a3194_zsite.jpg",
-        "publishedAt": "2026-06-24T13:42:34.000Z",
         "source": "中新网"
       }
     ],
@@ -257,6 +257,14 @@
     ],
     "chinaFinance": [
       {
+        "title": "黄金、白银、原油，集体大跌",
+        "link": "https://www.chinanews.com.cn/cj/2026/06-24/10646728.shtml",
+        "summary": "中新网6月24日电(记者 左雨晴) 6月24日晚，国际黄金、白银、原油价格集体迎来大跌。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/06/24/e32cca28c1da41b9b03712389a82d3e5.jpg",
+        "publishedAt": "2026-06-24T15:52:56.000Z",
+        "source": "中新网"
+      },
+      {
         "title": "国际人士共议“世界政治经济格局变化下的海南自由贸易港”",
         "link": "https://www.chinanews.com.cn/cj/2026/06-24/10646697.shtml",
         "summary": "中新网海口6月24日电(记者 王子谦)“世界政治经济格局变化下的海南自由贸易港”座谈交流会24日在海口举办，国内外专家学者和企业界人士为封关运作后的海南自贸港发展出谋划策。",
@@ -287,31 +295,31 @@
         "image": "",
         "publishedAt": "2026-06-24T13:39:13.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "海南出台新规强化工程建设领域中介服务管理",
-        "link": "https://www.chinanews.com.cn/cj/2026/06-24/10646669.shtml",
-        "summary": "中新网海口6月24日电 (记者 符宇群)海南省人大常委会近期通过《海南自由贸易港政务服务领域中介服务规定》(简称《规定》)。海南省住房和城乡建设厅总工程师、新闻发言人孙淑华24日在发布会上介绍，此次《规定》的出台，进一步规范政务服务领域中介服务行为，将依法给工程建设企业带来更多实实在在的便利。",
-        "image": "",
-        "publishedAt": "2026-06-24T13:38:53.000Z",
-        "source": "中新网"
       }
     ],
     "worldTop": [
+      {
+        "title": "UN nuclear chief says inspectors will visit Iran sites as part of war deal",
+        "link": "https://www.bbc.co.uk/news/articles/cpd395zv81vo?at_medium=RSS&at_campaign=rss",
+        "summary": "Rafael Grossi says the IAEA is \"working on modalities\" but an Iranian minister says such access would only be part of a final deal with the US.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fcc8/live/65f531e0-6ff3-11f1-8e1d-bbbb1017d210.jpg",
+        "publishedAt": "2026-06-24T17:31:48.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Power outages hit France as it records hottest day since measurements began",
+        "link": "https://www.bbc.co.uk/news/articles/c78y4102n1zo?at_medium=RSS&at_campaign=rss",
+        "summary": "France has recorded it hottest day since records began in 1947, its national weather agency says, breaking a record set on Tuesday.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1e66/live/9b1b95b0-6feb-11f1-a9c4-37da5d161ee0.jpg",
+        "publishedAt": "2026-06-24T17:29:55.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Air conditioning creates political divide after France records hottest day",
         "link": "https://www.bbc.co.uk/news/articles/c4gyqldl3p5o?at_medium=RSS&at_campaign=rss",
         "summary": "France is being forced to re-think its longstanding reservations about air-conditioning as temperatures soar.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8057/live/f19c7bb0-6fc9-11f1-8b2e-bdb65bec8399.jpg",
         "publishedAt": "2026-06-24T13:51:24.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Power outages hit France as record heatwave set to peak",
-        "link": "https://www.bbc.co.uk/news/articles/c78y4102n1zo?at_medium=RSS&at_campaign=rss",
-        "summary": "About 68,000 homes in Brittany have been affected, with electricity unlikely to be fully restored until Wednesday night.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5a57/live/2d405c80-6fc1-11f1-b1db-af71d47507d6.jpg",
-        "publishedAt": "2026-06-24T13:44:08.000Z",
         "source": "BBC"
       },
       {
@@ -323,23 +331,31 @@
         "source": "BBC"
       },
       {
-        "title": "UN nuclear chief says inspectors will visit Iran sites as part of war deal",
-        "link": "https://www.bbc.co.uk/news/articles/cpd395zv81vo?at_medium=RSS&at_campaign=rss",
-        "summary": "Rafael Grossi says the IAEA is \"working on modalities\" but an Iranian minister says such access would only be part of a final deal with the US.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d75e/live/c4c807c0-6fc5-11f1-8e1d-bbbb1017d210.jpg",
-        "publishedAt": "2026-06-24T12:32:00.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Cuba’s military wants to show readiness. Footage reviewed by CNN reveals its limits",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCZ2hYV1F6RjZnNVcxS0IxNm80N25DSnVKVGpfOXVqNllfbGNsT1NmNVB5RXhwaXVGTlV5dXpVRzNDQzB2dVFGQU01M1BrZVBIUjNtTkV2c3JvOTZoMmNwSnZiYy1BaHNXOG1hT0N6aWtqMW9iY1lGdW95NmV0TlE?oc=5",
+        "title": "Israel deliberately targeting children in ongoing genocide against Palestinians, UN commission finds",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObTVCLXpCZVNxS1RLVFR1V05ZLXdOVUR3cUZKcjFtVEJsWDNoR0k1dzA4S2VENFUybkJpbTZYYmtfdEt1ZmxyZXVKeklGeGRteDVXNEg1TUd0aDdpYWhVSW5EZVh0YWppVTdjd2lYQ044U0owRGFtQVU0WU1tWGFnLWNqbVZZQmpJNVE?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-06-24T10:30:25.000Z",
+        "publishedAt": "2026-06-24T10:51:45.000Z",
         "source": "CNN"
       }
     ],
     "worldBusiness": [
+      {
+        "title": "Elon Musk loses trillionaire status as global tech rout hits SpaceX",
+        "link": "https://www.bbc.co.uk/news/articles/c8j2m2p8dgmo?at_medium=RSS&at_campaign=rss",
+        "summary": "Elon Musk lost his trillionaire status on Tuesday after a brutal global tech rout erased billions from his wealth.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0d58/live/c4d89e30-6ff4-11f1-91bd-23fe59e75f62.jpg",
+        "publishedAt": "2026-06-24T17:45:13.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Baroness Mone among individuals sued to recover PPE Medpro millions",
+        "link": "https://www.bbc.co.uk/news/articles/c7vy1y7myn5o?at_medium=RSS&at_campaign=rss",
+        "summary": "The Baroness and her husband Doug Barrowman are among individuals being sued in a bid to recover some of the money owed to the government by the busin...",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4a02/live/8edd50c0-dc18-11f0-babc-21f9e89ffedf.jpg",
+        "publishedAt": "2026-06-24T17:32:22.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Train passed red signal before fatal crash - report",
         "link": "https://www.bbc.co.uk/news/articles/cly90nqpryko?at_medium=RSS&at_campaign=rss",
@@ -357,22 +373,6 @@
         "source": "CNN"
       },
       {
-        "title": "Council tax debt rises to £9bn but here's how you can get help",
-        "link": "https://www.bbc.co.uk/news/articles/c0my4gwe3y2o?at_medium=RSS&at_campaign=rss",
-        "summary": "New figures show billions of pounds is owed to councils but the government has plans to reform the system.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f967/live/41bc0920-6fb2-11f1-9d49-f71d5004325f.jpg",
-        "publishedAt": "2026-06-24T10:48:24.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Why are there holiday delay warnings over the EU's new border system?",
-        "link": "https://www.bbc.co.uk/news/articles/c39rkpe8mj2o?at_medium=RSS&at_campaign=rss",
-        "summary": "The EU's much-delayed Entry/Exit System will change the way UK passengers travel to 29 countries.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/35cd/live/973d0850-6fb1-11f1-8546-8f19e4fe30f4.jpg",
-        "publishedAt": "2026-06-24T09:47:35.000Z",
-        "source": "BBC"
-      },
-      {
         "title": "‘Exploding oil?!’ The Middle East is about to find out",
         "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMzB2TlVpYV9kczI1NUNjZmNDbjdSYU1ub1JMcGhqZ3RvVUpWUWJhNFMyZE1wWjN1M0RzWXRUZk9JaUV1TW1Xc0s4SUpRN0V5UXMxR040MUdYdTktM1dfUW9yMVRKNGRPNXhPM1FiYnFzSHlZQkpLVk9vWUFWaXl4aA?oc=5",
         "summary": "",
@@ -382,6 +382,14 @@
       }
     ],
     "worldTech": [
+      {
+        "title": "Scientist publishes fresh doubts over Microsoft's quantum claims",
+        "link": "https://www.bbc.co.uk/news/articles/c05y9pl3ejmo?at_medium=RSS&at_campaign=rss",
+        "summary": "The tech giant has consistently stood by its Majorana chip research despite scepticism from some experts in the field.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/823e/live/9bf6bfd0-5e9a-11f1-95ff-f5086c3b3d40.jpg",
+        "publishedAt": "2026-06-24T15:00:34.000Z",
+        "source": "BBC"
+      },
       {
         "title": "GTA 6 will cost $80 - and physical edition will not contain a disc",
         "link": "https://www.bbc.co.uk/news/articles/cjrg52egw1ro?at_medium=RSS&at_campaign=rss",
@@ -413,17 +421,17 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0dc6/live/f6156250-6e58-11f1-b9d0-a3be33cbfa13.jpg",
         "publishedAt": "2026-06-23T15:01:40.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Steam Machine launches with £879 price tag as Valve cites component costs",
-        "link": "https://www.bbc.co.uk/news/articles/c0kyzk2p255o?at_medium=RSS&at_campaign=rss",
-        "summary": "Valve said the cost of its PC-console hybrid reflects a broader trend of component costs rising over time.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3325/live/a5fd3fc0-6ef0-11f1-b3b4-39330bfcd14d.png",
-        "publishedAt": "2026-06-23T11:25:54.000Z",
-        "source": "BBC"
       }
     ],
     "domestic": [
+      {
+        "title": "王毅同巴基斯坦副总理兼外长达尔通电话",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-24/10646727.shtml",
+        "summary": "新华社北京6月24日电 中共中央政治局委员、外交部长王毅24日晚应约同巴基斯坦副总理兼外长达尔通电话。",
+        "image": "",
+        "publishedAt": "2026-06-24T15:29:24.000Z",
+        "source": "中新网"
+      },
       {
         "title": "习言道｜树立和践行正确政绩观，最终要落到为民造福上",
         "link": "https://www.chinanews.com.cn/gn/2026/06-24/10646723.shtml",
@@ -455,31 +463,31 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260624/1b915b81-4082-4a49-94fd-16d8726b6d5e_zsite.jpg",
         "publishedAt": "2026-06-24T13:42:58.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "寻访重庆荣昌千年陶都 两岸媒体共品非遗传承与创新之美",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-24/10646684.shtml",
-        "summary": "中新网重庆6月24日电 (记者 钟旖)端坐桌前，台湾大学教授、资深媒体人苑举正手持刻刀，俯身凝神在素陶盘上细细剔刻，一笔一画落下“两岸一家亲”五个大字，沉浸式体验荣昌陶器制作中的剔刻花传统工艺。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260624/5b129698-6326-46d5-8916-5abf412a3194_zsite.jpg",
-        "publishedAt": "2026-06-24T13:42:34.000Z",
-        "source": "中新网"
       }
     ],
     "international": [
+      {
+        "title": "UN nuclear chief says inspectors will visit Iran sites as part of war deal",
+        "link": "https://www.bbc.co.uk/news/articles/cpd395zv81vo?at_medium=RSS&at_campaign=rss",
+        "summary": "Rafael Grossi says the IAEA is \"working on modalities\" but an Iranian minister says such access would only be part of a final deal with the US.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fcc8/live/65f531e0-6ff3-11f1-8e1d-bbbb1017d210.jpg",
+        "publishedAt": "2026-06-24T17:31:48.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Power outages hit France as it records hottest day since measurements began",
+        "link": "https://www.bbc.co.uk/news/articles/c78y4102n1zo?at_medium=RSS&at_campaign=rss",
+        "summary": "France has recorded it hottest day since records began in 1947, its national weather agency says, breaking a record set on Tuesday.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1e66/live/9b1b95b0-6feb-11f1-a9c4-37da5d161ee0.jpg",
+        "publishedAt": "2026-06-24T17:29:55.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Air conditioning creates political divide after France records hottest day",
         "link": "https://www.bbc.co.uk/news/articles/c4gyqldl3p5o?at_medium=RSS&at_campaign=rss",
         "summary": "France is being forced to re-think its longstanding reservations about air-conditioning as temperatures soar.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8057/live/f19c7bb0-6fc9-11f1-8b2e-bdb65bec8399.jpg",
         "publishedAt": "2026-06-24T13:51:24.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Power outages hit France as record heatwave set to peak",
-        "link": "https://www.bbc.co.uk/news/articles/c78y4102n1zo?at_medium=RSS&at_campaign=rss",
-        "summary": "About 68,000 homes in Brittany have been affected, with electricity unlikely to be fully restored until Wednesday night.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5a57/live/2d405c80-6fc1-11f1-b1db-af71d47507d6.jpg",
-        "publishedAt": "2026-06-24T13:44:08.000Z",
         "source": "BBC"
       },
       {
@@ -491,32 +499,20 @@
         "source": "BBC"
       },
       {
-        "title": "UN nuclear chief says inspectors will visit Iran sites as part of war deal",
-        "link": "https://www.bbc.co.uk/news/articles/cpd395zv81vo?at_medium=RSS&at_campaign=rss",
-        "summary": "Rafael Grossi says the IAEA is \"working on modalities\" but an Iranian minister says such access would only be part of a final deal with the US.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d75e/live/c4c807c0-6fc5-11f1-8e1d-bbbb1017d210.jpg",
-        "publishedAt": "2026-06-24T12:32:00.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Cuba’s military wants to show readiness. Footage reviewed by CNN reveals its limits",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCZ2hYV1F6RjZnNVcxS0IxNm80N25DSnVKVGpfOXVqNllfbGNsT1NmNVB5RXhwaXVGTlV5dXpVRzNDQzB2dVFGQU01M1BrZVBIUjNtTkV2c3JvOTZoMmNwSnZiYy1BaHNXOG1hT0N6aWtqMW9iY1lGdW95NmV0TlE?oc=5",
+        "title": "Israel deliberately targeting children in ongoing genocide against Palestinians, UN commission finds",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObTVCLXpCZVNxS1RLVFR1V05ZLXdOVUR3cUZKcjFtVEJsWDNoR0k1dzA4S2VENFUybkJpbTZYYmtfdEt1ZmxyZXVKeklGeGRteDVXNEg1TUd0aDdpYWhVSW5EZVh0YWppVTdjd2lYQ044U0owRGFtQVU0WU1tWGFnLWNqbVZZQmpJNVE?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-06-24T10:30:25.000Z",
+        "publishedAt": "2026-06-24T10:51:45.000Z",
         "source": "CNN"
       }
     ],
     "nba": []
   },
   "nbaScoreboard": {
-    "date": "2026-06-24",
+    "date": "2026-06-25",
     "currentIndex": 4,
     "days": [
-      {
-        "date": "2026-06-20",
-        "games": []
-      },
       {
         "date": "2026-06-21",
         "games": []
@@ -548,12 +544,16 @@
       {
         "date": "2026-06-28",
         "games": []
+      },
+      {
+        "date": "2026-06-29",
+        "games": []
       }
     ],
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-06-24",
+    "rotationLabel": "Curated Rotation · 2026-06-25",
     "sections": [
       {
         "id": "data-storage",
@@ -561,26 +561,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-5",
-            "sectionId": "data-storage",
-            "title": "The FAISS Library",
-            "authors": [
-              "Jeff Johnson",
-              "Matthijs Douze",
-              "Herve Jegou"
-            ],
-            "venue": "IEEE T-BD",
-            "year": 2021,
-            "quality": "高影响力",
-            "categories": [
-              "vector search",
-              "ANN"
-            ],
-            "link": "https://arxiv.org/abs/2401.08281",
-            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-6",
             "sectionId": "data-storage",
@@ -600,7 +580,7 @@
             ],
             "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
             "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-1",
@@ -622,6 +602,27 @@
             "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
             "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-2",
+            "sectionId": "data-storage",
+            "title": "Bigtable: A Distributed Storage System for Structured Data",
+            "authors": [
+              "Fay Chang",
+              "Jeffrey Dean",
+              "Sanjay Ghemawat",
+              "Wilson C. Hsieh"
+            ],
+            "venue": "OSDI",
+            "year": 2006,
+            "quality": "顶会",
+            "categories": [
+              "distributed systems",
+              "database"
+            ],
+            "link": "https://research.google/pubs/pub27898/",
+            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -631,27 +632,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-6",
-            "sectionId": "computer-vision",
-            "title": "DINOv2: Learning Robust Visual Features without Supervision",
-            "authors": [
-              "Maxime Oquab",
-              "Timothée Darcet",
-              "Théo Moutakanni",
-              "Huy V. Vo"
-            ],
-            "venue": "arXiv / Meta",
-            "year": 2023,
-            "quality": "高影响力",
-            "categories": [
-              "self-supervised",
-              "representation"
-            ],
-            "link": "https://arxiv.org/abs/2304.07193",
-            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-1",
             "sectionId": "computer-vision",
@@ -671,7 +651,7 @@
             ],
             "link": "https://arxiv.org/abs/1512.03385",
             "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-2",
@@ -693,6 +673,27 @@
             "link": "https://arxiv.org/abs/2005.12872",
             "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-3",
+            "sectionId": "computer-vision",
+            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+            "authors": [
+              "Alexey Dosovitskiy",
+              "Lucas Beyer",
+              "Alexander Kolesnikov",
+              "Dirk Weissenborn"
+            ],
+            "venue": "ICLR",
+            "year": 2021,
+            "quality": "顶会",
+            "categories": [
+              "vision transformer",
+              "classification"
+            ],
+            "link": "https://arxiv.org/abs/2010.11929",
+            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -702,27 +703,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-1",
-            "sectionId": "llm-memory",
-            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
-            "authors": [
-              "Patrick Lewis",
-              "Ethan Perez",
-              "Aleksandra Piktus",
-              "Fabio Petroni"
-            ],
-            "venue": "NeurIPS",
-            "year": 2020,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "retrieval"
-            ],
-            "link": "https://arxiv.org/abs/2005.11401",
-            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-2",
             "sectionId": "llm-memory",
@@ -742,7 +722,7 @@
             ],
             "link": "https://arxiv.org/abs/2203.08913",
             "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-3",
@@ -764,6 +744,27 @@
             "link": "https://arxiv.org/abs/2112.04426",
             "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-4",
+            "sectionId": "llm-memory",
+            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+            "authors": [
+              "Akari Asai",
+              "Zequn Zhang",
+              "Avirup Sil",
+              "Hannaneh Hajishirzi"
+            ],
+            "venue": "ICLR",
+            "year": 2024,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "self-reflection"
+            ],
+            "link": "https://arxiv.org/abs/2310.11511",
+            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -773,27 +774,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-2",
-            "sectionId": "agents",
-            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
-            "authors": [
-              "Timo Schick",
-              "Jane Dwivedi-Yu",
-              "Roberta Dessì",
-              "Ari Holtzman"
-            ],
-            "venue": "NeurIPS",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "tool use",
-              "agent"
-            ],
-            "link": "https://arxiv.org/abs/2302.04761",
-            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-3",
             "sectionId": "agents",
@@ -813,7 +793,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.03442",
             "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-4",
@@ -834,6 +814,27 @@
             ],
             "link": "https://arxiv.org/abs/2305.16291",
             "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-5",
+            "sectionId": "agents",
+            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+            "authors": [
+              "Qingyun Wu",
+              "Gagan Bansal",
+              "Jiaqi Zhang",
+              "Yiran Wu"
+            ],
+            "venue": "COLM",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "multi-agent",
+              "framework"
+            ],
+            "link": "https://arxiv.org/abs/2308.08155",
+            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
             "trackLabel": "轮换精选"
           }
         ]
