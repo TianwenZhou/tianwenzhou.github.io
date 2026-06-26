@@ -1,36 +1,28 @@
 {
-  "generatedAt": "2026-06-26T14:43:41.883Z",
+  "generatedAt": "2026-06-26T18:01:29.663Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 28,
-      "weatherCode": 1,
-      "windSpeed": 8
+      "temperature": 24,
+      "weatherCode": 0,
+      "windSpeed": 6
     },
     "today": {
-      "date": "2026-06-26",
-      "weatherCode": 3,
-      "description": "阴天",
-      "max": 35,
+      "date": "2026-06-27",
+      "weatherCode": 53,
+      "description": "小雨",
+      "max": 36,
       "min": 21,
-      "precipitationProbability": 0
+      "precipitationProbability": 47
     },
     "forecast": [
-      {
-        "date": "2026-06-26",
-        "weatherCode": 3,
-        "description": "阴天",
-        "max": 35,
-        "min": 21,
-        "precipitationProbability": 0
-      },
       {
         "date": "2026-06-27",
         "weatherCode": 53,
         "description": "小雨",
         "max": 36,
         "min": 21,
-        "precipitationProbability": 35
+        "precipitationProbability": 47
       },
       {
         "date": "2026-06-28",
@@ -38,7 +30,7 @@
         "description": "天气更新中",
         "max": 34,
         "min": 23,
-        "precipitationProbability": 65
+        "precipitationProbability": 71
       },
       {
         "date": "2026-06-29",
@@ -46,7 +38,7 @@
         "description": "天气更新中",
         "max": 28,
         "min": 21,
-        "precipitationProbability": 55
+        "precipitationProbability": 61
       },
       {
         "date": "2026-06-30",
@@ -54,33 +46,50 @@
         "description": "雷暴",
         "max": 27,
         "min": 21,
-        "precipitationProbability": 56
+        "precipitationProbability": 48
+      },
+      {
+        "date": "2026-07-01",
+        "weatherCode": 95,
+        "description": "雷暴",
+        "max": 29,
+        "min": 22,
+        "precipitationProbability": 28
       }
     ]
   },
   "classicQuote": {
-    "id": "taoteching-self",
-    "text": "知人者智，自知者明；胜人者有力，自胜者强。",
-    "source": "《道德经》",
-    "author": "老子",
-    "note": "比起和别人比较，更重要的是把自己的节奏稳住。"
+    "id": "zhuangzi-time",
+    "text": "人生天地之间，若白驹之过隙，忽然而已。",
+    "source": "《庄子》",
+    "author": "庄周",
+    "note": "事情很多的时候，更值得把注意力放在真正重要的事上。"
   },
   "bookExcerpt": {
-    "id": "norwegian-wood-rain",
-    "text": "雨还在下，细得像雾，落在草地和树叶上，世界像被一种安静的潮气轻轻包住。",
-    "book": "《挪威的森林》",
-    "author": "村上春树"
+    "id": "one-hundred-years-yellow",
+    "text": "许多年以后，面对行刑队，奥雷里亚诺·布恩迪亚上校将会想起父亲带他去见识冰块的那个遥远的下午。",
+    "book": "《百年孤独》",
+    "author": "加西亚·马尔克斯"
   },
   "featuredPlace": {
-    "id": "202606251600",
-    "title": "泰晤士河, 伦敦, 英格兰",
+    "id": "202606261600",
+    "title": "博尼亚德海滩上的漂流木, 亨廷岛, 南卡罗来纳州, 美国",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "时事",
-    "image": "https://www.bing.com/th?id=OHR.ThamesSummer_ZH-CN5292532714_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E6%B3%B0%E6%99%A4%E5%A3%AB%E6%B2%B3&form=hpcapt&mkt=zh-cn"
+    "summary": "逐渐失去立足之地的树木",
+    "image": "https://www.bing.com/th?id=OHR.BoneyardBeach_ZH-CN5540590570_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E4%BA%A8%E5%BB%B7%E5%B2%9B&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202606261600",
+      "title": "博尼亚德海滩上的漂流木, 亨廷岛, 南卡罗来纳州, 美国",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "逐渐失去立足之地的树木",
+      "image": "https://www.bing.com/th?id=OHR.BoneyardBeach_ZH-CN5540590570_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E4%BA%A8%E5%BB%B7%E5%B2%9B&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202606251600",
       "title": "泰晤士河, 伦敦, 英格兰",
@@ -143,73 +152,64 @@
       "summary": "海洋中冰封的大教堂",
       "image": "https://www.bing.com/th?id=OHR.ArchedIceberg_ZH-CN2698040371_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E5%86%B0%E5%B1%B1&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202606181600",
-      "title": "湖中的龙舟，中国",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "龙吟古韵",
-      "image": "https://www.bing.com/th?id=OHR.DragonBoatFestivalY26_ZH-CN5532138555_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E7%AB%AF%E5%8D%88%E8%8A%82&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-06-26",
-    "dateLabel": "6月26日",
+    "dateKey": "2026-06-27",
+    "dateLabel": "6月27日",
     "items": [
       {
-        "year": "2022",
-        "text": "孟加拉橫跨博多河、連結沙里亞德布爾縣和馬達里布爾縣的帕德瑪橋正式通車，此為南亞最長的橋梁。",
-        "link": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4"
+        "year": "2021",
+        "text": "港鐵屯馬線土瓜灣站及宋皇臺站啟用，屆時市民無須轉車便可由烏溪沙直達屯門。",
+        "link": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4"
       },
       {
-        "year": "2015",
-        "text": "美國最高法院在奧貝格費爾訴霍奇斯案裁定同性婚姻受到《美國憲法》修正案的保障。",
-        "link": "https://zh.wikipedia.org/wiki/2015%E5%B9%B4"
+        "year": "2016",
+        "text": "台北於6月份第8次觀測溫度超過37度以上，打破1897年以來紀錄。",
+        "link": "https://zh.wikipedia.org/wiki/2016%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "丁薛祥在新疆调研时强调 突出优势特色培育壮大新动能 加快推进经济社会高质量发展",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-26/10648195.shtml",
-        "summary": "新华社乌鲁木齐6月26日电(记者韩洁)6月25日至26日，中共中央政治局常委、国务院副总理丁薛祥在新疆调研。他强调，要认真学习贯彻习近平总书记重要指示精神，完整准确全面贯彻新时代党的治疆方略，锚定党中央赋予的“五大战略定位”，突出优势特色，培育壮大新动能，加快推进新疆经济社会高质量发展。",
+        "title": "几内亚总理访沪 冀进一步加强与上海的合作交流",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-26/10648210.shtml",
+        "summary": "中新社上海6月26日电 (许婧 狄权)正在上海访问的几内亚总理乌里·巴表示，几内亚非常关注上海，在这里可以看到世界的未来，希望进一步加强与上海的合作交流。",
         "image": "",
-        "publishedAt": "2026-06-26T14:32:12.000Z",
+        "publishedAt": "2026-06-26T15:39:19.000Z",
         "source": "中新网"
       },
       {
-        "title": "受权发布丨全国人民代表大会常务委员会关于修改《中华人民共和国注册会计师法》的决定",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-26/10648193.shtml",
+        "title": "习言道｜扎实推进中柬命运共同体建设",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-26/10648207.shtml",
+        "summary": "6月26日，中共中央总书记、国家主席习近平在人民大会堂会见柬埔寨人民党主席、参议院主席洪森。习近平指出——",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/06/26/749099f55b0d4dfe9f368802478aa62d.jpg",
+        "publishedAt": "2026-06-26T15:29:30.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "受权发布丨全国人民代表大会常务委员会任免名单",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-26/10648206.shtml",
         "summary": "新华社北京6月26日电",
         "image": "",
-        "publishedAt": "2026-06-26T14:24:54.000Z",
+        "publishedAt": "2026-06-26T15:23:52.000Z",
         "source": "中新网"
       },
       {
-        "title": "受权发布丨中华人民共和国商标法",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-26/10648192.shtml",
+        "title": "受权发布丨全国人民代表大会常务委员会决定免职的名单",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-26/10648205.shtml",
         "summary": "新华社北京6月26日电",
         "image": "",
-        "publishedAt": "2026-06-26T14:21:08.000Z",
+        "publishedAt": "2026-06-26T15:22:56.000Z",
         "source": "中新网"
       },
       {
-        "title": "内蒙古自治区呼和浩特市人大常委会原党组成员吴文明被查",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-26/10648180.shtml",
-        "summary": "中新网6月26日电 据内蒙古自治区纪委监委消息：内蒙古自治区呼和浩特市人大常委会原党组成员、副主任吴文明涉嫌严重违纪违法，目前正接受内蒙古自治区纪委监委纪律审查和监察调查。",
+        "title": "受权发布丨全国人民代表大会常务委员会任命名单",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-26/10648204.shtml",
+        "summary": "新华社北京6月26日电",
         "image": "",
-        "publishedAt": "2026-06-26T14:15:27.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "王毅会见柬埔寨副首相兼外交大臣布拉索昆和副首相孙占托",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-26/10648188.shtml",
-        "summary": "2026年6月26日，中共中央政治局委员、外交部长王毅在北京会见陪同柬埔寨人民党主席、参议院主席洪森访华的柬副首相兼外交大臣布拉索昆和副首相孙占托。",
-        "image": "",
-        "publishedAt": "2026-06-26T14:02:53.000Z",
+        "publishedAt": "2026-06-26T15:22:04.000Z",
         "source": "中新网"
       }
     ],
@@ -299,6 +299,30 @@
     ],
     "worldTop": [
       {
+        "title": "DR Congo takes Rwanda to international court over decades of conflict",
+        "link": "https://www.bbc.co.uk/news/articles/c8724zn3491o?at_medium=RSS&at_campaign=rss",
+        "summary": "Kinshasa accuses its neighbour of committing various violations since the 1994 Rwanda genocide.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/245e/live/77afcab0-3e06-11ef-9e1c-3b4a473456a6.jpg",
+        "publishedAt": "2026-06-26T17:05:22.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Mother dies saving daughter in Venezuela earthquakes",
+        "link": "https://www.bbc.co.uk/news/articles/c0jydyz8z6jo?at_medium=RSS&at_campaign=rss",
+        "summary": "Héctor Bello wrote on social media that \"you gave your own life for our daughter\" in the quakes which killed at least 589 people.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d38/live/bda21270-714a-11f1-8546-8f19e4fe30f4.jpg",
+        "publishedAt": "2026-06-26T17:00:31.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Ex-Trump adviser John Bolton pleads guilty to mishandling classified documents",
+        "link": "https://www.bbc.co.uk/news/articles/czxqwg4nrvlo?at_medium=RSS&at_campaign=rss",
+        "summary": "Bolton faces a prison sentence of up to five years and has agreed to pay $2.25m in fine, prosecutors say.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bcea/live/a513f030-716c-11f1-a4f8-ed826651ef10.jpg",
+        "publishedAt": "2026-06-26T16:45:21.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "Small aircraft crashes into Beijing’s tallest skyscraper",
         "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQU3k1V0NoajJYRFpCX3U3TlJvSW5PeFdxSUI5YWFQN1labHdOTkJDTWVfWDREbTQ5RXdrTkpSdGdhazE1MGkwaUlkVndod01xSkN6OE1Qejh1SW9ydkJDV1dnUVY1OW9uRkxMcGd0Y09wRUlNX0ZOSXNCNXlXZFpMWG1Jb29nTzhNSzQ2Zmln?oc=5",
         "summary": "",
@@ -313,30 +337,6 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e8e8/live/eed0f000-70c3-11f1-b607-85b4e4066ca8.jpg",
         "publishedAt": "2026-06-26T11:27:59.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Christmas market attacker jailed for life for murdering six in Germany",
-        "link": "https://www.bbc.co.uk/news/articles/cy06y63y6lno?at_medium=RSS&at_campaign=rss",
-        "summary": "A nine-year-old and five women were killed when Taleb Al-Abdulmohsen drove into the market in 2024.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3dd3/live/369ff970-7142-11f1-8e1d-bbbb1017d210.jpg",
-        "publishedAt": "2026-06-26T10:49:11.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Senior Ukrainian intelligence official jailed for life for spying for Russia",
-        "link": "https://www.bbc.co.uk/news/articles/cg4w3wyxzzno?at_medium=RSS&at_campaign=rss",
-        "summary": "Col Dmytro Kozyura agreed to share state secrets and systematically disclosed classified information, prosecutors say.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aa56/live/c5e73e20-e94b-11ef-80e0-a5172a55ed51.jpg",
-        "publishedAt": "2026-06-26T10:38:37.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "A last-second goal ends the World Cup honeymoon for Mauricio Pochettino and the USA. Now the real work begins",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBUOENXbWI1MVlPVU1rNVZ5c0lTVE5HWklnRk5ncm1tNWhUbHlvM29VLTVkbDAtY3p5VWZfMVRJZ1JfZklOWlY4VGkzLVRFUzNSUEZQSnIyWXdFcll4enhiSVFXLU52ZFNyQm1IdHQ2cmdPS3hQ?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-06-26T06:31:30.000Z",
-        "source": "CNN"
       }
     ],
     "worldBusiness": [
@@ -425,47 +425,71 @@
     ],
     "domestic": [
       {
-        "title": "丁薛祥在新疆调研时强调 突出优势特色培育壮大新动能 加快推进经济社会高质量发展",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-26/10648195.shtml",
-        "summary": "新华社乌鲁木齐6月26日电(记者韩洁)6月25日至26日，中共中央政治局常委、国务院副总理丁薛祥在新疆调研。他强调，要认真学习贯彻习近平总书记重要指示精神，完整准确全面贯彻新时代党的治疆方略，锚定党中央赋予的“五大战略定位”，突出优势特色，培育壮大新动能，加快推进新疆经济社会高质量发展。",
+        "title": "几内亚总理访沪 冀进一步加强与上海的合作交流",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-26/10648210.shtml",
+        "summary": "中新社上海6月26日电 (许婧 狄权)正在上海访问的几内亚总理乌里·巴表示，几内亚非常关注上海，在这里可以看到世界的未来，希望进一步加强与上海的合作交流。",
         "image": "",
-        "publishedAt": "2026-06-26T14:32:12.000Z",
+        "publishedAt": "2026-06-26T15:39:19.000Z",
         "source": "中新网"
       },
       {
-        "title": "受权发布丨全国人民代表大会常务委员会关于修改《中华人民共和国注册会计师法》的决定",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-26/10648193.shtml",
+        "title": "习言道｜扎实推进中柬命运共同体建设",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-26/10648207.shtml",
+        "summary": "6月26日，中共中央总书记、国家主席习近平在人民大会堂会见柬埔寨人民党主席、参议院主席洪森。习近平指出——",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/06/26/749099f55b0d4dfe9f368802478aa62d.jpg",
+        "publishedAt": "2026-06-26T15:29:30.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "受权发布丨全国人民代表大会常务委员会任免名单",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-26/10648206.shtml",
         "summary": "新华社北京6月26日电",
         "image": "",
-        "publishedAt": "2026-06-26T14:24:54.000Z",
+        "publishedAt": "2026-06-26T15:23:52.000Z",
         "source": "中新网"
       },
       {
-        "title": "受权发布丨中华人民共和国商标法",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-26/10648192.shtml",
+        "title": "受权发布丨全国人民代表大会常务委员会决定免职的名单",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-26/10648205.shtml",
         "summary": "新华社北京6月26日电",
         "image": "",
-        "publishedAt": "2026-06-26T14:21:08.000Z",
+        "publishedAt": "2026-06-26T15:22:56.000Z",
         "source": "中新网"
       },
       {
-        "title": "内蒙古自治区呼和浩特市人大常委会原党组成员吴文明被查",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-26/10648180.shtml",
-        "summary": "中新网6月26日电 据内蒙古自治区纪委监委消息：内蒙古自治区呼和浩特市人大常委会原党组成员、副主任吴文明涉嫌严重违纪违法，目前正接受内蒙古自治区纪委监委纪律审查和监察调查。",
+        "title": "受权发布丨全国人民代表大会常务委员会任命名单",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-26/10648204.shtml",
+        "summary": "新华社北京6月26日电",
         "image": "",
-        "publishedAt": "2026-06-26T14:15:27.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "王毅会见柬埔寨副首相兼外交大臣布拉索昆和副首相孙占托",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-26/10648188.shtml",
-        "summary": "2026年6月26日，中共中央政治局委员、外交部长王毅在北京会见陪同柬埔寨人民党主席、参议院主席洪森访华的柬副首相兼外交大臣布拉索昆和副首相孙占托。",
-        "image": "",
-        "publishedAt": "2026-06-26T14:02:53.000Z",
+        "publishedAt": "2026-06-26T15:22:04.000Z",
         "source": "中新网"
       }
     ],
     "international": [
+      {
+        "title": "DR Congo takes Rwanda to international court over decades of conflict",
+        "link": "https://www.bbc.co.uk/news/articles/c8724zn3491o?at_medium=RSS&at_campaign=rss",
+        "summary": "Kinshasa accuses its neighbour of committing various violations since the 1994 Rwanda genocide.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/245e/live/77afcab0-3e06-11ef-9e1c-3b4a473456a6.jpg",
+        "publishedAt": "2026-06-26T17:05:22.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Mother dies saving daughter in Venezuela earthquakes",
+        "link": "https://www.bbc.co.uk/news/articles/c0jydyz8z6jo?at_medium=RSS&at_campaign=rss",
+        "summary": "Héctor Bello wrote on social media that \"you gave your own life for our daughter\" in the quakes which killed at least 589 people.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d38/live/bda21270-714a-11f1-8546-8f19e4fe30f4.jpg",
+        "publishedAt": "2026-06-26T17:00:31.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Ex-Trump adviser John Bolton pleads guilty to mishandling classified documents",
+        "link": "https://www.bbc.co.uk/news/articles/czxqwg4nrvlo?at_medium=RSS&at_campaign=rss",
+        "summary": "Bolton faces a prison sentence of up to five years and has agreed to pay $2.25m in fine, prosecutors say.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bcea/live/a513f030-716c-11f1-a4f8-ed826651ef10.jpg",
+        "publishedAt": "2026-06-26T16:45:21.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Small aircraft crashes into Beijing’s tallest skyscraper",
         "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQU3k1V0NoajJYRFpCX3U3TlJvSW5PeFdxSUI5YWFQN1labHdOTkJDTWVfWDREbTQ5RXdrTkpSdGdhazE1MGkwaUlkVndod01xSkN6OE1Qejh1SW9ydkJDV1dnUVY1OW9uRkxMcGd0Y09wRUlNX0ZOSXNCNXlXZFpMWG1Jb29nTzhNSzQ2Zmln?oc=5",
@@ -481,42 +505,63 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e8e8/live/eed0f000-70c3-11f1-b607-85b4e4066ca8.jpg",
         "publishedAt": "2026-06-26T11:27:59.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Christmas market attacker jailed for life for murdering six in Germany",
-        "link": "https://www.bbc.co.uk/news/articles/cy06y63y6lno?at_medium=RSS&at_campaign=rss",
-        "summary": "A nine-year-old and five women were killed when Taleb Al-Abdulmohsen drove into the market in 2024.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3dd3/live/369ff970-7142-11f1-8e1d-bbbb1017d210.jpg",
-        "publishedAt": "2026-06-26T10:49:11.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Senior Ukrainian intelligence official jailed for life for spying for Russia",
-        "link": "https://www.bbc.co.uk/news/articles/cg4w3wyxzzno?at_medium=RSS&at_campaign=rss",
-        "summary": "Col Dmytro Kozyura agreed to share state secrets and systematically disclosed classified information, prosecutors say.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aa56/live/c5e73e20-e94b-11ef-80e0-a5172a55ed51.jpg",
-        "publishedAt": "2026-06-26T10:38:37.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "A last-second goal ends the World Cup honeymoon for Mauricio Pochettino and the USA. Now the real work begins",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBUOENXbWI1MVlPVU1rNVZ5c0lTVE5HWklnRk5ncm1tNWhUbHlvM29VLTVkbDAtY3p5VWZfMVRJZ1JfZklOWlY4VGkzLVRFUzNSUEZQSnIyWXdFcll4enhiSVFXLU52ZFNyQm1IdHQ2cmdPS3hQ?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-06-26T06:31:30.000Z",
-        "source": "CNN"
       }
     ],
-    "nba": []
+    "nba": [
+      {
+        "title": "Behind the scenes of the Giannis trade: The bids, ...",
+        "link": "https://www.espn.com/nba/story/_/id/49177886/inside-giannis-antetokounmpo-trade-milwaukee-bucks-boston-celtics-miami-heat-nba-offseason",
+        "summary": "After a yearlong saga full of public declarations and private dismay, a 13-year tenure is over -- and the ripple effects from it might be enormous.",
+        "image": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0625%2Fr1679463_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-06-26T16:40:04.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "Clippers draftee Ngoy opts for Auburn next season",
+        "link": "https://www.espn.com/mens-college-basketball/story/_/id/49180679/clippers-draft-pick-ngoy-plans-play-auburn-season",
+        "summary": "Narcisse Ngoy, the 57th pick in this week's NBA draft, says he still plans to play college basketball at Auburn next season.",
+        "image": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F1109%2Fr1412312_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-06-26T17:11:10.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "Sources: Williams back to Suns for 3 years, $38M",
+        "link": "https://www.espn.com/nba/story/_/id/49180880/sources-mark-williams-return-suns-3-year-38m-deal",
+        "summary": "Restricted free agent Mark Williams intends to sign a three-year, $38 million, fully guaranteed contract to return to the Suns, sources said.",
+        "image": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0608%2Fr1669921_1024x576_16%2D9.jpg",
+        "publishedAt": "2026-06-26T17:11:11.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "Copy of Sources: Hornets' Ball to Wolves for Reid, picks",
+        "link": "https://www.espn.com/nba/story/_/id/49175343/hornets-trade-ball-timberwolves-reid-picks",
+        "summary": "The Hornets are trading star guard LaMelo Ball and Josh Green to the Timberwolves for Naz Reid and a series of draft picks, sources told ESPN's Shams...",
+        "image": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0625%2Fr1679200_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-06-26T17:11:11.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "Sources: Pistons to land Joe in trade with OKC",
+        "link": "https://www.espn.com/nba/story/_/id/49187821/pistons-land-isaiah-joe-trade-thunder",
+        "summary": "The Thunder are trading Isaiah Joe to the Pistons for two second-round picks, sources told ESPN's Shams Charania.",
+        "image": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0626%2Fr1679956_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-06-26T17:11:10.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "Blazers' Nori ready to lead after waiting for shot...",
+        "link": "https://www.espn.com/nba/story/_/id/49180510/micah-nori-get-discouraged-waiting-hc-chance",
+        "summary": "Micah Nori was told by several NBA teams that he was their No. 2 choice to be head coach before the Trail Blazers finally gave him his chance at No. 1...",
+        "image": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0625%2Fr1679624_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-06-26T17:11:11.000Z",
+        "source": "ESPN"
+      }
+    ]
   },
   "nbaScoreboard": {
-    "date": "2026-06-26",
+    "date": "2026-06-27",
     "currentIndex": 4,
     "days": [
-      {
-        "date": "2026-06-22",
-        "games": []
-      },
       {
         "date": "2026-06-23",
         "games": []
@@ -548,12 +593,16 @@
       {
         "date": "2026-06-30",
         "games": []
+      },
+      {
+        "date": "2026-07-01",
+        "games": []
       }
     ],
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-06-26",
+    "rotationLabel": "Curated Rotation · 2026-06-27",
     "sections": [
       {
         "id": "data-storage",
@@ -561,27 +610,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-1",
-            "sectionId": "data-storage",
-            "title": "The Log-Structured Merge-Tree (LSM-Tree)",
-            "authors": [
-              "Patrick O'Neil",
-              "Edward Cheng",
-              "Dieter Gawlick",
-              "Elizabeth O'Neil"
-            ],
-            "venue": "Acta Informatica",
-            "year": 1996,
-            "quality": "经典基础",
-            "categories": [
-              "storage",
-              "indexing"
-            ],
-            "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
-            "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-2",
             "sectionId": "data-storage",
@@ -601,7 +629,7 @@
             ],
             "link": "https://research.google/pubs/pub27898/",
             "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-3",
@@ -623,6 +651,27 @@
             "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
             "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-4",
+            "sectionId": "data-storage",
+            "title": "Dremel: Interactive Analysis of Web-Scale Datasets",
+            "authors": [
+              "Sergey Melnik",
+              "Andrey Gubarev",
+              "Jing Jing Long",
+              "Geoffrey Romer"
+            ],
+            "venue": "VLDB",
+            "year": 2010,
+            "quality": "顶会",
+            "categories": [
+              "analytics",
+              "columnar"
+            ],
+            "link": "https://research.google/pubs/pub36632/",
+            "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -632,27 +681,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-2",
-            "sectionId": "computer-vision",
-            "title": "End-to-End Object Detection with Transformers",
-            "authors": [
-              "Nicolas Carion",
-              "Francisco Massa",
-              "Gabriel Synnaeve",
-              "Nicolas Usunier"
-            ],
-            "venue": "ECCV",
-            "year": 2020,
-            "quality": "顶会",
-            "categories": [
-              "detection",
-              "transformer"
-            ],
-            "link": "https://arxiv.org/abs/2005.12872",
-            "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-3",
             "sectionId": "computer-vision",
@@ -672,7 +700,7 @@
             ],
             "link": "https://arxiv.org/abs/2010.11929",
             "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-4",
@@ -694,6 +722,27 @@
             "link": "https://arxiv.org/abs/2103.00020",
             "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-5",
+            "sectionId": "computer-vision",
+            "title": "Segment Anything",
+            "authors": [
+              "Alexander Kirillov",
+              "Eric Mintun",
+              "Nikhila Ravi",
+              "Hanzi Mao"
+            ],
+            "venue": "ICCV",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "segmentation",
+              "foundation model"
+            ],
+            "link": "https://arxiv.org/abs/2304.02643",
+            "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -703,27 +752,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-3",
-            "sectionId": "llm-memory",
-            "title": "RETRO: Improving Language Models by Retrieving From Trillions of Tokens",
-            "authors": [
-              "Sebastian Borgeaud",
-              "Arthur Mensch",
-              "Jordan Hoffmann",
-              "Trevor Cai"
-            ],
-            "venue": "DeepMind / arXiv",
-            "year": 2022,
-            "quality": "高影响力",
-            "categories": [
-              "retrieval",
-              "language model"
-            ],
-            "link": "https://arxiv.org/abs/2112.04426",
-            "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-4",
             "sectionId": "llm-memory",
@@ -743,7 +771,7 @@
             ],
             "link": "https://arxiv.org/abs/2310.11511",
             "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-5",
@@ -765,6 +793,27 @@
             "link": "https://arxiv.org/abs/2306.07174",
             "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-6",
+            "sectionId": "llm-memory",
+            "title": "MemoRAG: Moving towards Next-Gen RAG Via Memory-Inspired Knowledge Discovery",
+            "authors": [
+              "Rulin Shao",
+              "Yue Liu",
+              "Shuo Wang",
+              "Yichi Zhang"
+            ],
+            "venue": "arXiv",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "RAG",
+              "memory bank"
+            ],
+            "link": "https://arxiv.org/abs/2409.05591",
+            "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -774,27 +823,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-4",
-            "sectionId": "agents",
-            "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
-            "authors": [
-              "Guanzhi Wang",
-              "Yuqi Xie",
-              "Zixiang Zhou",
-              "Yujin Tang"
-            ],
-            "venue": "arXiv",
-            "year": 2023,
-            "quality": "高影响力",
-            "categories": [
-              "embodied agent",
-              "planning"
-            ],
-            "link": "https://arxiv.org/abs/2305.16291",
-            "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-5",
             "sectionId": "agents",
@@ -814,7 +842,7 @@
             ],
             "link": "https://arxiv.org/abs/2308.08155",
             "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-6",
@@ -835,6 +863,28 @@
             ],
             "link": "https://arxiv.org/abs/2405.15793",
             "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-1",
+            "sectionId": "agents",
+            "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+            "authors": [
+              "Shunyu Yao",
+              "Jeffrey Zhao",
+              "Dian Yu",
+              "Nan Du"
+            ],
+            "venue": "ICLR",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "agent",
+              "reasoning",
+              "tool use"
+            ],
+            "link": "https://arxiv.org/abs/2210.03629",
+            "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
             "trackLabel": "轮换精选"
           }
         ]
