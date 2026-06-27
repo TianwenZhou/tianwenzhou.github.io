@@ -1,36 +1,28 @@
 {
-  "generatedAt": "2026-06-27T14:02:53.132Z",
+  "generatedAt": "2026-06-27T17:20:17.991Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 29,
+      "temperature": 26,
       "weatherCode": 3,
-      "windSpeed": 4
+      "windSpeed": 2
     },
     "today": {
-      "date": "2026-06-27",
-      "weatherCode": 51,
-      "description": "毛毛雨",
-      "max": 35,
-      "min": 22,
-      "precipitationProbability": 35
+      "date": "2026-06-28",
+      "weatherCode": 95,
+      "description": "雷暴",
+      "max": 31,
+      "min": 23,
+      "precipitationProbability": 59
     },
     "forecast": [
-      {
-        "date": "2026-06-27",
-        "weatherCode": 51,
-        "description": "毛毛雨",
-        "max": 35,
-        "min": 22,
-        "precipitationProbability": 35
-      },
       {
         "date": "2026-06-28",
         "weatherCode": 95,
         "description": "雷暴",
         "max": 31,
         "min": 23,
-        "precipitationProbability": 77
+        "precipitationProbability": 59
       },
       {
         "date": "2026-06-29",
@@ -38,7 +30,7 @@
         "description": "天气更新中",
         "max": 30,
         "min": 22,
-        "precipitationProbability": 78
+        "precipitationProbability": 69
       },
       {
         "date": "2026-06-30",
@@ -46,7 +38,7 @@
         "description": "天气更新中",
         "max": 27,
         "min": 21,
-        "precipitationProbability": 63
+        "precipitationProbability": 78
       },
       {
         "date": "2026-07-01",
@@ -54,33 +46,50 @@
         "description": "毛毛雨",
         "max": 30,
         "min": 21,
-        "precipitationProbability": 31
+        "precipitationProbability": 34
+      },
+      {
+        "date": "2026-07-02",
+        "weatherCode": 99,
+        "description": "天气更新中",
+        "max": 29,
+        "min": 22,
+        "precipitationProbability": 61
       }
     ]
   },
   "classicQuote": {
-    "id": "zhuangzi-time",
-    "text": "人生天地之间，若白驹之过隙，忽然而已。",
-    "source": "《庄子》",
-    "author": "庄周",
-    "note": "事情很多的时候，更值得把注意力放在真正重要的事上。"
+    "id": "dream-red-mansions",
+    "text": "世事洞明皆学问，人情练达即文章。",
+    "source": "《红楼梦》",
+    "author": "曹雪芹",
+    "note": "技术之外，理解人和场景，往往更能拉开差距。"
   },
   "bookExcerpt": {
-    "id": "one-hundred-years-yellow",
-    "text": "许多年以后，面对行刑队，奥雷里亚诺·布恩迪亚上校将会想起父亲带他去见识冰块的那个遥远的下午。",
-    "book": "《百年孤独》",
-    "author": "加西亚·马尔克斯"
+    "id": "floating-life-lotus",
+    "text": "芸坐其侧，素手烹茶，窗外新荷微香，连晚风也像带着水意，从竹帘间一寸寸地漫进来。",
+    "book": "《浮生六记》",
+    "author": "沈复"
   },
   "featuredPlace": {
-    "id": "202606261600",
-    "title": "博尼亚德海滩上的漂流木, 亨廷岛, 南卡罗来纳州, 美国",
+    "id": "202606271600",
+    "title": "温德盖特山口附近的巨柱仙人掌, 麦克道尔山脉, 亚利桑那州, 美国",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "逐渐失去立足之地的树木",
-    "image": "https://www.bing.com/th?id=OHR.BoneyardBeach_ZH-CN5540590570_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E4%BA%A8%E5%BB%B7%E5%B2%9B&form=hpcapt&mkt=zh-cn"
+    "summary": "看起来很精神",
+    "image": "https://www.bing.com/th?id=OHR.SaguaroSun_ZH-CN5820504732_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E5%B7%A8%E4%BA%BA%E6%9F%B1%E4%BB%99%E4%BA%BA%E6%8E%8C&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202606271600",
+      "title": "温德盖特山口附近的巨柱仙人掌, 麦克道尔山脉, 亚利桑那州, 美国",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "看起来很精神",
+      "image": "https://www.bing.com/th?id=OHR.SaguaroSun_ZH-CN5820504732_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E5%B7%A8%E4%BA%BA%E6%9F%B1%E4%BB%99%E4%BA%BA%E6%8E%8C&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202606261600",
       "title": "博尼亚德海滩上的漂流木, 亨廷岛, 南卡罗来纳州, 美国",
@@ -143,29 +152,20 @@
       "summary": "鸟类好爸爸",
       "image": "https://www.bing.com/th?id=OHR.EggDad_ZH-CN6045387630_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E7%88%B6%E4%BA%B2%E8%8A%82&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202606191600",
-      "title": "漂浮在南极半岛西部海域的拱形冰山, 南大洋",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "海洋中冰封的大教堂",
-      "image": "https://www.bing.com/th?id=OHR.ArchedIceberg_ZH-CN2698040371_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E5%86%B0%E5%B1%B1&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-06-27",
-    "dateLabel": "6月27日",
+    "dateKey": "2026-06-28",
+    "dateLabel": "6月28日",
     "items": [
       {
-        "year": "2016",
-        "text": "台北於6月份第8次觀測溫度超過37度以上，打破1897年以來紀錄。",
-        "link": "https://zh.wikipedia.org/wiki/2016%E5%B9%B4"
+        "year": "2018",
+        "text": "上海徐汇区世界外国语小学门前发生持刀随机砍人事件。一名男子挥刀砍向3名男童和一名女性家长，其中2名男童伤重不治身亡。",
+        "link": "https://zh.wikipedia.org/wiki/2018%E5%B9%B4"
       },
       {
         "year": "2015",
-        "text": "台灣八仙樂園彩色派對發生火災，造成15人死亡、484人輕重傷。",
+        "text": "「長者及合資格殘疾人士公共交通票價優惠計劃」的涵蓋範圍除港鐵、5間專利巴士、渡輪服務及407條(約81%)「綠色」專線小巴路線外，再增加多55條(約10%)「綠色」專線小巴路線。",
         "link": "https://zh.wikipedia.org/wiki/2015%E5%B9%B4"
       }
     ]
@@ -215,6 +215,14 @@
     ],
     "chinaSociety": [
       {
+        "title": "北京最高摩天轮“上线”",
+        "link": "https://www.chinanews.com.cn/sh/2026/06-27/10648658.shtml",
+        "summary": "中新社北京6月27日电 (记者 吕少威 刘超)北京欢乐谷“大眼京”摩天轮27日正式对外开放运营，以99米的总高度刷新北京摩天轮高度纪录，京城天际线再添“顶流”新地标。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260627/9cb31d4f-6884-4b4a-a88e-e2f0594ae624_zsite.jpg",
+        "publishedAt": "2026-06-27T15:18:38.000Z",
+        "source": "中新网"
+      },
+      {
         "title": "安徽六安市弘扬大别山精神——用好红色资源 深耕绿色产业",
         "link": "https://www.chinanews.com.cn/sh/2026/06-27/10648648.shtml",
         "summary": "安徽六安市弘扬大别山精神——",
@@ -244,14 +252,6 @@
         "summary": "中新网北京6月27日电 (记者 高凯)记者从第32届北京国际图书博览会北京展区方面获悉，展会期间，北京展区共接待约25个国家和地区，30余家海外出版机构近180余人次洽谈，达成版权输出签约40余种。",
         "image": "",
         "publishedAt": "2026-06-27T12:27:41.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "毕业季 上海高校寄语青年学子以实干赴时代之约",
-        "link": "https://www.chinanews.com.cn/sh/2026/06-27/10648595.shtml",
-        "summary": "中新网上海6月27日电 (记者 许婧)2026年毕业季，沪上多所高校毕业典礼传递出一致的青春寄语：身处人工智能深度赋能各行各业的变革时代，青年学子当主动拥抱数字浪潮、顺应时代变局，更需坚守家国担当、永葆人文初心、笃行实干底色。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260627/c9d4aca3-5e8e-40b5-b1ef-e89ef8c48191_zsite.jpeg",
-        "publishedAt": "2026-06-27T12:13:08.000Z",
         "source": "中新网"
       }
     ],
@@ -299,6 +299,22 @@
     ],
     "worldTop": [
       {
+        "title": "Europe's deadly heatwave breaks German record and halts public events",
+        "link": "https://www.bbc.co.uk/news/articles/cx2knzzwprgo?at_medium=RSS&at_campaign=rss",
+        "summary": "Germany's highest ever temperature of 41.3C is recorded provisionally in Saarbrücken, over the border from France.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5ef7/live/9635ade0-7187-11f1-bcec-7f8ed2660388.jpg",
+        "publishedAt": "2026-06-27T16:51:17.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "In Caracas, this feels like the hardest moment in Venezuela's modern history",
+        "link": "https://www.bbc.co.uk/news/articles/cdjk8zwe7z3o?at_medium=RSS&at_campaign=rss",
+        "summary": "Rescue teams are working ceaselessly to reach those trapped under rubble. But as hope fades, anger is growing.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fb6d/live/7f94e2a0-722b-11f1-b6b6-39a51194ddf9.jpg",
+        "publishedAt": "2026-06-27T14:22:37.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "US strikes Iran after attack on cargo ship",
         "link": "https://www.bbc.co.uk/news/articles/ckg590wqxwpo?at_medium=RSS&at_campaign=rss",
         "summary": "Iran accuses the US of violating their deal and says it struck targets linked to American forces in response.",
@@ -307,35 +323,19 @@
         "source": "BBC"
       },
       {
+        "title": "A small plane slammed into the tallest skyscraper in China’s capital. Hours later, it was like nothing had happened.",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQXlJQzVOUjFXVldOUVk0cFBjN3ZCc0cwc1o1NDJLakt3MWZ5dkFBZHRGYkZuaHI3MXpiazNwaGFoOXcyY0Q0WjRTOTF1a29STXlTczAyTGVGWFpkNmVfY1lqdGdsbmRwaDdHRmZPckZoaG05Rm5mSjFLcFJwUnhIMlBUWmdNOW1fUk9CaHVuYzVGaHB0TmpyLWJn?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-06-27T09:56:13.000Z",
+        "source": "CNN"
+      },
+      {
         "title": "Venezuela earthquakes kill 920 people as international rescue teams arrive",
         "link": "https://www.bbc.co.uk/news/articles/c39y79g7gzko?at_medium=RSS&at_campaign=rss",
         "summary": "Hundreds are still feared trapped under the rubble, as families desperate for news.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/798c/live/7e611570-719a-11f1-ac61-7d0e237a354c.jpg",
         "publishedAt": "2026-06-27T08:56:30.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "World Cup fans are going gaga for America’s favorite salad dressing",
-        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5VU1g2Sno4VUt4MXhFWFFYdEdpcThOZzdUbkZnQ0QzVzFoZWw3RXdHSlBEMGxlZFhNWE1SeEVqemZKYTVjSlNOM0RZQmFFYTZKWVFmYW9kY2pnTGQ2aEdwX1pmVURvbDE0ZW1ISUo2V0Zva094UkxFeERwOGxvZw?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-06-27T07:00:26.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "AI glasses are aiding cheating in exams. Test-obsessed Asia is ground zero",
-        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB4bVVwaVAybXhpTzcwemNhdVE4LThmSjgwbGNkMWZ4LWQ4ME13X2ViQ2pqRVBuN1M3NmI3blBnZzZsT2JzSjluYTV2UU81dDBzNE9EUEZnaFUxVkphZVdlZFkxb05lazNONlViUF9NeVhSNlY4bzdOTERR?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-06-27T00:58:00.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "Meloni and Trump: A very public fall-out that is proving very hard to fix",
-        "link": "https://www.bbc.co.uk/news/articles/cze962pgk27o?at_medium=RSS&at_campaign=rss",
-        "summary": "Italy's PM was not long ago being called the \"Trump whisperer\", but their relationship has gone from public attacks to personal insults.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a433/live/723d4a80-71fd-11f1-b1db-af71d47507d6.jpg",
-        "publishedAt": "2026-06-26T23:01:50.000Z",
         "source": "BBC"
       }
     ],
@@ -373,11 +373,11 @@
         "source": "CNN"
       },
       {
-        "title": "Volkswagen reportedly planning to axe 100,000 jobs",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8zRGgtdWFud19MMmpmMDJKbEluU2pkX011SDJTdk9rX0tUSlFMSnZqSEZtVDd5NkxzNUtGa3lDMTJKY2pTYTZ6MDFVenhaS3FENmVrRVdRNU4zRnhTS0dCcVpRNFJ0T1pLSUE?oc=5",
+        "title": "AI stocks melt down again. What’s going on?",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1SR1FsMWdNSnB1eGo2bDFBMUlIS2ZGTmVvNXZNVWNjMEFmdjd1REJDMGxZWjJBdl9wODhHVzlUNkU0UWprd2hqRUZvYloxYVI0ZURubTlnTW16emMxbFVUakRfcXBiaHdvV3FfWnd6NldWZ0U?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-06-26T12:23:58.000Z",
+        "publishedAt": "2026-06-26T12:15:15.000Z",
         "source": "CNN"
       }
     ],
@@ -467,6 +467,22 @@
     ],
     "international": [
       {
+        "title": "Europe's deadly heatwave breaks German record and halts public events",
+        "link": "https://www.bbc.co.uk/news/articles/cx2knzzwprgo?at_medium=RSS&at_campaign=rss",
+        "summary": "Germany's highest ever temperature of 41.3C is recorded provisionally in Saarbrücken, over the border from France.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5ef7/live/9635ade0-7187-11f1-bcec-7f8ed2660388.jpg",
+        "publishedAt": "2026-06-27T16:51:17.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "In Caracas, this feels like the hardest moment in Venezuela's modern history",
+        "link": "https://www.bbc.co.uk/news/articles/cdjk8zwe7z3o?at_medium=RSS&at_campaign=rss",
+        "summary": "Rescue teams are working ceaselessly to reach those trapped under rubble. But as hope fades, anger is growing.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fb6d/live/7f94e2a0-722b-11f1-b6b6-39a51194ddf9.jpg",
+        "publishedAt": "2026-06-27T14:22:37.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "US strikes Iran after attack on cargo ship",
         "link": "https://www.bbc.co.uk/news/articles/ckg590wqxwpo?at_medium=RSS&at_campaign=rss",
         "summary": "Iran accuses the US of violating their deal and says it struck targets linked to American forces in response.",
@@ -475,35 +491,19 @@
         "source": "BBC"
       },
       {
+        "title": "A small plane slammed into the tallest skyscraper in China’s capital. Hours later, it was like nothing had happened.",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQXlJQzVOUjFXVldOUVk0cFBjN3ZCc0cwc1o1NDJLakt3MWZ5dkFBZHRGYkZuaHI3MXpiazNwaGFoOXcyY0Q0WjRTOTF1a29STXlTczAyTGVGWFpkNmVfY1lqdGdsbmRwaDdHRmZPckZoaG05Rm5mSjFLcFJwUnhIMlBUWmdNOW1fUk9CaHVuYzVGaHB0TmpyLWJn?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-06-27T09:56:13.000Z",
+        "source": "CNN"
+      },
+      {
         "title": "Venezuela earthquakes kill 920 people as international rescue teams arrive",
         "link": "https://www.bbc.co.uk/news/articles/c39y79g7gzko?at_medium=RSS&at_campaign=rss",
         "summary": "Hundreds are still feared trapped under the rubble, as families desperate for news.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/798c/live/7e611570-719a-11f1-ac61-7d0e237a354c.jpg",
         "publishedAt": "2026-06-27T08:56:30.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "World Cup fans are going gaga for America’s favorite salad dressing",
-        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5VU1g2Sno4VUt4MXhFWFFYdEdpcThOZzdUbkZnQ0QzVzFoZWw3RXdHSlBEMGxlZFhNWE1SeEVqemZKYTVjSlNOM0RZQmFFYTZKWVFmYW9kY2pnTGQ2aEdwX1pmVURvbDE0ZW1ISUo2V0Zva094UkxFeERwOGxvZw?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-06-27T07:00:26.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "AI glasses are aiding cheating in exams. Test-obsessed Asia is ground zero",
-        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB4bVVwaVAybXhpTzcwemNhdVE4LThmSjgwbGNkMWZ4LWQ4ME13X2ViQ2pqRVBuN1M3NmI3blBnZzZsT2JzSjluYTV2UU81dDBzNE9EUEZnaFUxVkphZVdlZFkxb05lazNONlViUF9NeVhSNlY4bzdOTERR?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-06-27T00:58:00.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "Meloni and Trump: A very public fall-out that is proving very hard to fix",
-        "link": "https://www.bbc.co.uk/news/articles/cze962pgk27o?at_medium=RSS&at_campaign=rss",
-        "summary": "Italy's PM was not long ago being called the \"Trump whisperer\", but their relationship has gone from public attacks to personal insults.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a433/live/723d4a80-71fd-11f1-b1db-af71d47507d6.jpg",
-        "publishedAt": "2026-06-26T23:01:50.000Z",
         "source": "BBC"
       }
     ],
@@ -559,13 +559,9 @@
     ]
   },
   "nbaScoreboard": {
-    "date": "2026-06-27",
+    "date": "2026-06-28",
     "currentIndex": 4,
     "days": [
-      {
-        "date": "2026-06-23",
-        "games": []
-      },
       {
         "date": "2026-06-24",
         "games": []
@@ -597,12 +593,16 @@
       {
         "date": "2026-07-01",
         "games": []
+      },
+      {
+        "date": "2026-07-02",
+        "games": []
       }
     ],
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-06-27",
+    "rotationLabel": "Curated Rotation · 2026-06-28",
     "sections": [
       {
         "id": "data-storage",
@@ -610,27 +610,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-2",
-            "sectionId": "data-storage",
-            "title": "Bigtable: A Distributed Storage System for Structured Data",
-            "authors": [
-              "Fay Chang",
-              "Jeffrey Dean",
-              "Sanjay Ghemawat",
-              "Wilson C. Hsieh"
-            ],
-            "venue": "OSDI",
-            "year": 2006,
-            "quality": "顶会",
-            "categories": [
-              "distributed systems",
-              "database"
-            ],
-            "link": "https://research.google/pubs/pub27898/",
-            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-3",
             "sectionId": "data-storage",
@@ -650,7 +629,7 @@
             ],
             "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
             "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-4",
@@ -672,6 +651,26 @@
             "link": "https://research.google/pubs/pub36632/",
             "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-5",
+            "sectionId": "data-storage",
+            "title": "The FAISS Library",
+            "authors": [
+              "Jeff Johnson",
+              "Matthijs Douze",
+              "Herve Jegou"
+            ],
+            "venue": "IEEE T-BD",
+            "year": 2021,
+            "quality": "高影响力",
+            "categories": [
+              "vector search",
+              "ANN"
+            ],
+            "link": "https://arxiv.org/abs/2401.08281",
+            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -681,27 +680,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-3",
-            "sectionId": "computer-vision",
-            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
-            "authors": [
-              "Alexey Dosovitskiy",
-              "Lucas Beyer",
-              "Alexander Kolesnikov",
-              "Dirk Weissenborn"
-            ],
-            "venue": "ICLR",
-            "year": 2021,
-            "quality": "顶会",
-            "categories": [
-              "vision transformer",
-              "classification"
-            ],
-            "link": "https://arxiv.org/abs/2010.11929",
-            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-4",
             "sectionId": "computer-vision",
@@ -721,7 +699,7 @@
             ],
             "link": "https://arxiv.org/abs/2103.00020",
             "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-5",
@@ -743,6 +721,27 @@
             "link": "https://arxiv.org/abs/2304.02643",
             "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-6",
+            "sectionId": "computer-vision",
+            "title": "DINOv2: Learning Robust Visual Features without Supervision",
+            "authors": [
+              "Maxime Oquab",
+              "Timothée Darcet",
+              "Théo Moutakanni",
+              "Huy V. Vo"
+            ],
+            "venue": "arXiv / Meta",
+            "year": 2023,
+            "quality": "高影响力",
+            "categories": [
+              "self-supervised",
+              "representation"
+            ],
+            "link": "https://arxiv.org/abs/2304.07193",
+            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -752,27 +751,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-4",
-            "sectionId": "llm-memory",
-            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
-            "authors": [
-              "Akari Asai",
-              "Zequn Zhang",
-              "Avirup Sil",
-              "Hannaneh Hajishirzi"
-            ],
-            "venue": "ICLR",
-            "year": 2024,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "self-reflection"
-            ],
-            "link": "https://arxiv.org/abs/2310.11511",
-            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-5",
             "sectionId": "llm-memory",
@@ -792,7 +770,7 @@
             ],
             "link": "https://arxiv.org/abs/2306.07174",
             "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-6",
@@ -814,6 +792,27 @@
             "link": "https://arxiv.org/abs/2409.05591",
             "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-1",
+            "sectionId": "llm-memory",
+            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+            "authors": [
+              "Patrick Lewis",
+              "Ethan Perez",
+              "Aleksandra Piktus",
+              "Fabio Petroni"
+            ],
+            "venue": "NeurIPS",
+            "year": 2020,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "retrieval"
+            ],
+            "link": "https://arxiv.org/abs/2005.11401",
+            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -823,27 +822,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-5",
-            "sectionId": "agents",
-            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
-            "authors": [
-              "Qingyun Wu",
-              "Gagan Bansal",
-              "Jiaqi Zhang",
-              "Yiran Wu"
-            ],
-            "venue": "COLM",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "multi-agent",
-              "framework"
-            ],
-            "link": "https://arxiv.org/abs/2308.08155",
-            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-6",
             "sectionId": "agents",
@@ -863,7 +841,7 @@
             ],
             "link": "https://arxiv.org/abs/2405.15793",
             "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-1",
@@ -885,6 +863,27 @@
             ],
             "link": "https://arxiv.org/abs/2210.03629",
             "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-2",
+            "sectionId": "agents",
+            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+            "authors": [
+              "Timo Schick",
+              "Jane Dwivedi-Yu",
+              "Roberta Dessì",
+              "Ari Holtzman"
+            ],
+            "venue": "NeurIPS",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "tool use",
+              "agent"
+            ],
+            "link": "https://arxiv.org/abs/2302.04761",
+            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
             "trackLabel": "轮换精选"
           }
         ]
