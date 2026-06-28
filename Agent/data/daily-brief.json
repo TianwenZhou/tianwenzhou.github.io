@@ -1,29 +1,21 @@
 {
-  "generatedAt": "2026-06-28T14:10:14.279Z",
+  "generatedAt": "2026-06-28T17:23:28.715Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 24,
+      "temperature": 23,
       "weatherCode": 3,
-      "windSpeed": 5
+      "windSpeed": 6
     },
     "today": {
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "weatherCode": 96,
       "description": "天气更新中",
-      "max": 34,
-      "min": 23,
-      "precipitationProbability": 71
+      "max": 28,
+      "min": 21,
+      "precipitationProbability": 84
     },
     "forecast": [
-      {
-        "date": "2026-06-28",
-        "weatherCode": 96,
-        "description": "天气更新中",
-        "max": 34,
-        "min": 23,
-        "precipitationProbability": 71
-      },
       {
         "date": "2026-06-29",
         "weatherCode": 96,
@@ -55,32 +47,49 @@
         "max": 28,
         "min": 22,
         "precipitationProbability": 20
+      },
+      {
+        "date": "2026-07-03",
+        "weatherCode": 51,
+        "description": "毛毛雨",
+        "max": 29,
+        "min": 22,
+        "precipitationProbability": 25
       }
     ]
   },
   "classicQuote": {
-    "id": "dream-red-mansions",
-    "text": "世事洞明皆学问，人情练达即文章。",
-    "source": "《红楼梦》",
-    "author": "曹雪芹",
-    "note": "技术之外，理解人和场景，往往更能拉开差距。"
+    "id": "mencius-perseverance",
+    "text": "虽千万人，吾往矣。",
+    "source": "《孟子》",
+    "author": "孟子",
+    "note": "认准方向之后，关键是稳稳地往前走。"
   },
   "bookExcerpt": {
-    "id": "floating-life-lotus",
-    "text": "芸坐其侧，素手烹茶，窗外新荷微香，连晚风也像带着水意，从竹帘间一寸寸地漫进来。",
-    "book": "《浮生六记》",
-    "author": "沈复"
+    "id": "red-mansion-snow",
+    "text": "只见大地白茫茫一片真干净，山川树木都隐在雪光里，天地像忽然静下来，只余风过回廊的细响。",
+    "book": "《红楼梦》",
+    "author": "曹雪芹"
   },
   "featuredPlace": {
-    "id": "202606271600",
-    "title": "温德盖特山口附近的巨柱仙人掌, 麦克道尔山脉, 亚利桑那州, 美国",
+    "id": "202606281600",
+    "title": "波拉波拉岛及其泻湖, 南太平洋, 法属波利尼西亚",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "看起来很精神",
-    "image": "https://www.bing.com/th?id=OHR.SaguaroSun_ZH-CN5820504732_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E5%B7%A8%E4%BA%BA%E6%9F%B1%E4%BB%99%E4%BA%BA%E6%8E%8C&form=hpcapt&mkt=zh-cn"
+    "summary": "生于烈火，拥于碧水",
+    "image": "https://www.bing.com/th?id=OHR.BoraBoraLagoon_ZH-CN9234363590_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E5%9B%BD%E9%99%85%E7%83%AD%E5%B8%A6%E6%97%A5&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202606281600",
+      "title": "波拉波拉岛及其泻湖, 南太平洋, 法属波利尼西亚",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "生于烈火，拥于碧水",
+      "image": "https://www.bing.com/th?id=OHR.BoraBoraLagoon_ZH-CN9234363590_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E5%9B%BD%E9%99%85%E7%83%AD%E5%B8%A6%E6%97%A5&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202606271600",
       "title": "温德盖特山口附近的巨柱仙人掌, 麦克道尔山脉, 亚利桑那州, 美国",
@@ -143,35 +152,58 @@
       "summary": "一个郁郁葱葱的王国",
       "image": "https://www.bing.com/th?id=OHR.QuinaultFerns_ZH-CN6696428927_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E9%9B%A8%E6%9E%97%E6%97%A5&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202606201600",
-      "title": "企鹅爸爸正在检查蛋的情况",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "鸟类好爸爸",
-      "image": "https://www.bing.com/th?id=OHR.EggDad_ZH-CN6045387630_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E7%88%B6%E4%BA%B2%E8%8A%82&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-06-28",
-    "dateLabel": "6月28日",
+    "dateKey": "2026-06-29",
+    "dateLabel": "6月29日",
     "items": [
       {
-        "year": "2018",
-        "text": "上海徐汇区世界外国语小学门前发生持刀随机砍人事件。一名男子挥刀砍向3名男童和一名女性家长，其中2名男童伤重不治身亡。",
-        "link": "https://zh.wikipedia.org/wiki/2018%E5%B9%B4"
+        "year": "2022",
+        "text": "法國巴黎特別巡迴法庭針對2015年巴黎襲擊案的20名被告做出有罪判決，此為法國最大規模的刑事審判之一。",
+        "link": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4"
       },
       {
-        "year": "2016",
-        "text": "武裝分子襲擊伊斯坦堡的阿塔圖爾克機場，造成45人死亡，另有超過230人受傷。",
-        "link": "https://zh.wikipedia.org/wiki/2016%E5%B9%B4"
+        "year": "2009",
+        "text": "中華民國台北捷運內湖線於本日提供免費試乘服務。",
+        "link": "https://zh.wikipedia.org/wiki/2009%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
+      {
+        "title": "中国地震局对四川宜宾市高县地震启动三级应急响应",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-29/10648974.shtml",
+        "summary": "据中国地震台网正式测定，2026年6月29日0时12分，在四川宜宾市高县(北纬28.50度，东经104.69度)发生5.5级地震，震源深度6公里。中国地震局启动三级应急响应。",
+        "image": "",
+        "publishedAt": "2026-06-28T17:08:36.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "两封抗战烈士家书 读懂藏在字里行间的家国之爱",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-28/10648964.shtml",
+        "summary": "传承红色基因、汲取奋进力量，系列报道《馆长讲述 藏品里悟初心》继续带您走进中国人民抗日战争纪念馆。今天我们要看的是抗战中两位烈士的家书，一封写着牵挂，一封写着决心。跟随馆长的讲述，走近这些有血有肉的抗日英烈。",
+        "image": "https://www.chinanews.com/cr/2026/0628/1388524232.JPG",
+        "publishedAt": "2026-06-28T14:28:16.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "大党丨我们的名字，叫中国共产党",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-28/10648962.shtml",
+        "summary": "危难之际不畏牺牲，",
+        "image": "",
+        "publishedAt": "2026-06-28T14:21:41.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "边境线上的“活界碑”魏德友：一句“守到走不动”，让两代接力守山河",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-28/10648961.shtml",
+        "summary": "【牢记初心使命 奋进复兴征程】",
+        "image": "https://www.chinanews.com/cr/2026/0628/840365062.JPG",
+        "publishedAt": "2026-06-28T14:14:21.000Z",
+        "source": "中新网"
+      },
       {
         "title": "中国遥感飞机首飞40周年 将打造新一代透视观测体系",
         "link": "https://www.chinanews.com.cn/gn/2026/06-28/10648956.shtml",
@@ -179,83 +211,59 @@
         "image": "",
         "publishedAt": "2026-06-28T13:40:27.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "习近平强党兴党的故事｜“清理公房”启清风",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-28/10648942.shtml",
-        "summary": "1988年6月，习近平同志赴任福建宁德地委书记，连续一个多月调研摸底，不少群众反映了干部乱占地建房的问题，闽东人称之为“马路边的腐败”。",
-        "image": "",
-        "publishedAt": "2026-06-28T12:51:37.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "天天学习｜跨越山海的睦邻故事",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-28/10648938.shtml",
-        "summary": "|天天学习|6月26日，习近平主席在北京人民大会堂分别会见柬埔寨人民党主席、参议院主席洪森和孟加拉国总理塔里克·拉赫曼。",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/06/28/f04d866f0fb5450eac4fb57fee682fce.jpg",
-        "publishedAt": "2026-06-28T12:49:39.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "学习进行时｜习近平总书记关心指导基层党建的故事",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-28/10648935.shtml",
-        "summary": "【学习进行时】6月24日，习近平总书记来到山东省德州市考察调研。在陵城区边临镇西于架村，习近平总书记走进村党群服务中心，细致询问村党组织建设和开展便民服务等情况。",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/06/28/d09ce12a4358401c907cda8c8b1e0e51.jpg",
-        "publishedAt": "2026-06-28T12:45:59.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "中央层面树立和践行正确政绩观学习教育工作专班 中央纪委办公厅公开通报广西壮族自治区南宁市、甘肃省酒泉市新城区、浙江省杭州市萧山区3起政绩观偏差问题",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-28/10648899.shtml",
-        "summary": "新华社北京6月28日电#8195;日前，中央层面树立和践行正确政绩观学习教育工作专班、中央纪委办公厅公开通报广西壮族自治区南宁市、甘肃省酒泉市新城区、浙江省杭州市萧山区3起政绩观偏差问题。",
-        "image": "",
-        "publishedAt": "2026-06-28T11:01:55.000Z",
-        "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "中国南方新一轮强降雨过程来袭",
-        "link": "https://www.chinanews.com.cn/sh/2026/06-28/10648952.shtml",
-        "summary": "中新社北京6月28日电 (记者 陈溯)记者28日从中国气象局获悉，中国南方迎来新一轮强降雨过程。",
+        "title": "60余个国家和地区专家共聚西双版纳 探讨热带生物多样性保护",
+        "link": "https://www.chinanews.com.cn/sh/2026/06-29/10648976.shtml",
+        "summary": "中新社云南西双版纳6月28日电 (罗婕 韩帅南)第62届热带生物学与保护协会(ATBC)年会28日在云南省西双版纳傣族自治州景洪市举行。来自全球60余个国家和地区的科学家、保护实践者及青年学者等700余人共聚于此，探讨热带生物多样性保护与生态系统可持续发展路径。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260629/feac2c67-9ab8-463f-9f0e-649a66b99624_zsite.jpg",
+        "publishedAt": "2026-06-28T17:12:52.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "四川宜宾市高县发生5.5级地震 震源深度6公里",
+        "link": "https://www.chinanews.com.cn/sh/2026/06-29/10648973.shtml",
+        "summary": "中国地震台网正式测定：6月29日0时12分，在四川宜宾市高县(北纬28.50度，东经104.69度)发生5.5级地震，震源深度6公里。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/06/29/b8880c71a6224f25861d079e5527c53f.png",
+        "publishedAt": "2026-06-28T16:32:38.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "四川宜宾市高县附近发生5.5级左右地震",
+        "link": "https://www.chinanews.com.cn/sh/2026/06-29/10648972.shtml",
+        "summary": "据中国地震台网自动测定：2026年6月29日0时12分在四川宜宾市高县(北纬28.50度，东经104.70度)发生5.5级左右地震，最终结果以正式速报为准。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/06/29/597f6348782b46238854bca31a11b188.png",
+        "publishedAt": "2026-06-28T16:25:09.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "“天路”照片里的女孩，如今怎么样了",
+        "link": "https://www.chinanews.com.cn/sh/2026/06-28/10648969.shtml",
+        "summary": "原标题：寻找照片中的TA丨“天路”照片里的女孩，如今怎么样了",
+        "image": "https://www.chinanews.com/cr/2026/0628/2208596388.JPG",
+        "publishedAt": "2026-06-28T14:49:13.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "多地雨量刷新纪录，为什么6月北方频繁降雨？专家解析",
+        "link": "https://www.chinanews.com.cn/sh/2026/06-28/10648963.shtml",
+        "summary": "6月1日开始，我国全面进入汛期，北方多地雨水也变得多起来。特别是东北、华北两片区域，相较于常年同期，呈现出累计雨量大、雨日偏多的特点。",
         "image": "",
-        "publishedAt": "2026-06-28T13:31:02.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "珠三角遭遇暴雨 广州8小时最大雨量达198.3毫米",
-        "link": "https://www.chinanews.com.cn/sh/2026/06-28/10648950.shtml",
-        "summary": "中新社广州6月28日电 (记者 王坚)珠三角部分市县28日出现大到暴雨局部大暴雨。其中，广州录得最大8小时累计雨量达198.3毫米，深圳录得最大1小时雨量70.6毫米。",
-        "image": "",
-        "publishedAt": "2026-06-28T13:23:20.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "两岸媒体探访成都社区治理创新 感受生态宜居城市生活",
-        "link": "https://www.chinanews.com.cn/sh/2026/06-28/10648948.shtml",
-        "summary": "中新网成都6月28日电 (记者 王鹏)湖面碧波荡漾，湿地水鸟栖息，林荫步道串联起住宅、商业与公共空间……近日，“双城新动能·2026两岸媒体川渝行”活动走进成都市麓湖公园社区，来自海峡两岸的媒体记者和台湾青年代表实地探访成都社区治理创新实践，感受生态宜居与共建共享相融合的城市社区新样本。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260628/d5d2c5ed-2e9c-492b-8ca5-4ef7620c76c5_zsite.jpeg",
-        "publishedAt": "2026-06-28T13:13:01.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "白鹤滩水电站首批机组投产发电五周年：绿色动能激荡发展新活力",
-        "link": "https://www.chinanews.com.cn/sh/2026/06-28/10648947.shtml",
-        "summary": "中新网云南巧家6月28日电 题：白鹤滩水电站首批机组投产发电五周年：绿色动能激荡发展新活力",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260628/b98ae237-1059-432b-9700-5698ce234365_zsite.jpg",
-        "publishedAt": "2026-06-28T13:11:59.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "30位台胞结束“龙江行” 在历史与美食中感受“两岸同源",
-        "link": "https://www.chinanews.com.cn/sh/2026/06-28/10648927.shtml",
-        "summary": "中新网哈尔滨6月28日电(记者 王妮娜)“龙江夏韵青春同梦”两岸青年参访交流活动28日在黑龙江落下帷幕。在为期7天的行程中，30位两岸青年代表先后走进哈尔滨、牡丹江，通过历史参访、文化体验、产业调研、青年联谊等多种形式，多维度感知大陆发展脉搏，深化两岸同根同源的血脉联结与文化认同。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260628/2263c6d3-6bea-41f9-9258-986394d14704_zsite.jpeg",
-        "publishedAt": "2026-06-28T12:27:26.000Z",
+        "publishedAt": "2026-06-28T14:15:33.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
+      {
+        "title": "有“量”有“质”又有“智” 多维度透视前5个月物流运行“成绩单”",
+        "link": "https://www.chinanews.com.cn/cj/2026/06-28/10648965.shtml",
+        "summary": "央视网消息：中国物流与采购联合会6月28日公布2026年1—5月物流运行数据。物流需求总体保持平稳增长，新旧动能加快转换，结构升级态势持续显现。",
+        "image": "https://www.chinanews.com/cr/2026/0628/2938389285.JPG",
+        "publishedAt": "2026-06-28T14:29:08.000Z",
+        "source": "中新网"
+      },
       {
         "title": "拼多多扎根雄安再添重磅动作：整栋购置新办公楼，7月底投入使用",
         "link": "https://www.chinanews.com.cn/cj/2026/06-28/10648918.shtml",
@@ -287,23 +295,23 @@
         "image": "",
         "publishedAt": "2026-06-28T11:22:24.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "许宁宁：下半年RCEP区域有望为全球经济复苏提供支撑",
-        "link": "https://www.chinanews.com.cn/cj/2026/06-28/10648901.shtml",
-        "summary": "中新网北京6月28日电 (记者 刘文文)2026年行至过半。RCEP产业合作委员会主席许宁宁近日接受记者采访时指出，今年以来，全球地缘局势复杂多变，世界经济复苏动能不足，国际贸易增长持续走缓，为下半年整体发展走势埋下多重变量。RCEP区域凭借稳定的发展环境与活跃的经贸合作，有望持续为全球经济复苏提供...",
-        "image": "",
-        "publishedAt": "2026-06-28T11:09:53.000Z",
-        "source": "中新网"
       }
     ],
     "worldTop": [
+      {
+        "title": "Europe's heatwave linked to 1,300 deaths, WHO says, as Germany hits record 41.7C",
+        "link": "https://www.bbc.co.uk/news/articles/cn4d2vv935lo?at_medium=RSS&at_campaign=rss",
+        "summary": "WHO chief Tedros Adhanom Ghebreyesus warned that Europe is not prepared for high temperatures.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a9ba/live/60a32300-7309-11f1-b1db-af71d47507d6.jpg",
+        "publishedAt": "2026-06-28T16:38:55.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Eleven killed after plane carrying skydivers crashes in eastern France",
         "link": "https://www.bbc.co.uk/news/articles/c5yz9yj9x74o?at_medium=RSS&at_campaign=rss",
         "summary": "The pilot and 10 passengers died in the incident, local officials said.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f645/live/c3ce2a40-72ed-11f1-a52b-4f9c73b26afb.jpg",
-        "publishedAt": "2026-06-28T13:21:33.000Z",
+        "publishedAt": "2026-06-28T15:51:19.000Z",
         "source": "BBC"
       },
       {
@@ -315,28 +323,20 @@
         "source": "BBC"
       },
       {
+        "title": "Skydiving plane crashes in France, killing 11 people",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE93dG5hQ3Y5aDl4NzlaV2NLeEZpbTFuVWR0eEpoZGlHTEkta2F2M3hZY1B6b0piNDlmTFVURGlNZnl5RXNNSDJ0Tk9POUtDTHNGN0xaNXN0ak5KeHBsYzF1YlVITDV0T29oYVZwTWdlbVM1SmwxYzhhZWNLTQ?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-06-28T12:18:43.000Z",
+        "source": "CNN"
+      },
+      {
         "title": "US and Iran exchange strikes and accuse each other of violating ceasefire",
         "link": "https://www.bbc.co.uk/news/articles/cdxdwkgqgq0o?at_medium=RSS&at_campaign=rss",
         "summary": "Iran says it has launched retaliatory attacks at US infrastructure in Kuwait and Bahrain after the US said it hit multiple targets across Iran.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/38a0/live/7c4274f0-727b-11f1-8e1d-bbbb1017d210.jpg",
         "publishedAt": "2026-06-28T04:54:50.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Israel’s military and tech industry race to counter Hezbollah’s latest threat",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcWo5NHAxbXYxN1pCOEhxQ3l6ZVU4SjJDQmRqUXpIS0NCcFp6T3RlenkwbE1ZTVdCbDZUbFlaODFzSzlMRXk3OThNOWpDVTZZeG5oUmRISHhDcnVfT05jcHB0X0laUGViUng4WFdjdlJoUDg3ZzNDT1BiYlFrOE96YmlOb05RWTVM?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-06-28T04:01:25.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "Drone, artillery attacks kill civilians on both sides of Russia-Ukraine border",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYUs0YnVJWFA1bktYdnh2RldkTEJBcnQyRDVXczBvc1h1cDYtamJYbEN5dWhYZl9WYng4SHYzR3hUeGk3ZE03N3Q1NllqeVlYWEhoTGlCZWI5QnJkWExhemU5MUpzQmo5aVQ1aWE0bTNjVmdIOWpwcFN5ZXRFZjlNTXR2Y0JFUQ?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-06-27T23:37:35.000Z",
-        "source": "CNN"
       }
     ],
     "worldBusiness": [
@@ -425,53 +425,61 @@
     ],
     "domestic": [
       {
+        "title": "中国地震局对四川宜宾市高县地震启动三级应急响应",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-29/10648974.shtml",
+        "summary": "据中国地震台网正式测定，2026年6月29日0时12分，在四川宜宾市高县(北纬28.50度，东经104.69度)发生5.5级地震，震源深度6公里。中国地震局启动三级应急响应。",
+        "image": "",
+        "publishedAt": "2026-06-28T17:08:36.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "两封抗战烈士家书 读懂藏在字里行间的家国之爱",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-28/10648964.shtml",
+        "summary": "传承红色基因、汲取奋进力量，系列报道《馆长讲述 藏品里悟初心》继续带您走进中国人民抗日战争纪念馆。今天我们要看的是抗战中两位烈士的家书，一封写着牵挂，一封写着决心。跟随馆长的讲述，走近这些有血有肉的抗日英烈。",
+        "image": "https://www.chinanews.com/cr/2026/0628/1388524232.JPG",
+        "publishedAt": "2026-06-28T14:28:16.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "大党丨我们的名字，叫中国共产党",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-28/10648962.shtml",
+        "summary": "危难之际不畏牺牲，",
+        "image": "",
+        "publishedAt": "2026-06-28T14:21:41.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "边境线上的“活界碑”魏德友：一句“守到走不动”，让两代接力守山河",
+        "link": "https://www.chinanews.com.cn/gn/2026/06-28/10648961.shtml",
+        "summary": "【牢记初心使命 奋进复兴征程】",
+        "image": "https://www.chinanews.com/cr/2026/0628/840365062.JPG",
+        "publishedAt": "2026-06-28T14:14:21.000Z",
+        "source": "中新网"
+      },
+      {
         "title": "中国遥感飞机首飞40周年 将打造新一代透视观测体系",
         "link": "https://www.chinanews.com.cn/gn/2026/06-28/10648956.shtml",
         "summary": "中新社北京6月28日电 2026年6月28日是中国遥感飞机首飞40周年纪念日。中国科学院空天信息创新研究院(空天院)航空遥感中心当天在北京举行航空遥感系统国家重大科技基础设施创新发展研讨会称，40年来，中国航空遥感系统实现从引进改装到自主创新的跨越，“十五五”时期将打造立体、高精度、智能化的新一代透...",
         "image": "",
         "publishedAt": "2026-06-28T13:40:27.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "习近平强党兴党的故事｜“清理公房”启清风",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-28/10648942.shtml",
-        "summary": "1988年6月，习近平同志赴任福建宁德地委书记，连续一个多月调研摸底，不少群众反映了干部乱占地建房的问题，闽东人称之为“马路边的腐败”。",
-        "image": "",
-        "publishedAt": "2026-06-28T12:51:37.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "天天学习｜跨越山海的睦邻故事",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-28/10648938.shtml",
-        "summary": "|天天学习|6月26日，习近平主席在北京人民大会堂分别会见柬埔寨人民党主席、参议院主席洪森和孟加拉国总理塔里克·拉赫曼。",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/06/28/f04d866f0fb5450eac4fb57fee682fce.jpg",
-        "publishedAt": "2026-06-28T12:49:39.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "学习进行时｜习近平总书记关心指导基层党建的故事",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-28/10648935.shtml",
-        "summary": "【学习进行时】6月24日，习近平总书记来到山东省德州市考察调研。在陵城区边临镇西于架村，习近平总书记走进村党群服务中心，细致询问村党组织建设和开展便民服务等情况。",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/06/28/d09ce12a4358401c907cda8c8b1e0e51.jpg",
-        "publishedAt": "2026-06-28T12:45:59.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "中央层面树立和践行正确政绩观学习教育工作专班 中央纪委办公厅公开通报广西壮族自治区南宁市、甘肃省酒泉市新城区、浙江省杭州市萧山区3起政绩观偏差问题",
-        "link": "https://www.chinanews.com.cn/gn/2026/06-28/10648899.shtml",
-        "summary": "新华社北京6月28日电#8195;日前，中央层面树立和践行正确政绩观学习教育工作专班、中央纪委办公厅公开通报广西壮族自治区南宁市、甘肃省酒泉市新城区、浙江省杭州市萧山区3起政绩观偏差问题。",
-        "image": "",
-        "publishedAt": "2026-06-28T11:01:55.000Z",
-        "source": "中新网"
       }
     ],
     "international": [
+      {
+        "title": "Europe's heatwave linked to 1,300 deaths, WHO says, as Germany hits record 41.7C",
+        "link": "https://www.bbc.co.uk/news/articles/cn4d2vv935lo?at_medium=RSS&at_campaign=rss",
+        "summary": "WHO chief Tedros Adhanom Ghebreyesus warned that Europe is not prepared for high temperatures.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a9ba/live/60a32300-7309-11f1-b1db-af71d47507d6.jpg",
+        "publishedAt": "2026-06-28T16:38:55.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Eleven killed after plane carrying skydivers crashes in eastern France",
         "link": "https://www.bbc.co.uk/news/articles/c5yz9yj9x74o?at_medium=RSS&at_campaign=rss",
         "summary": "The pilot and 10 passengers died in the incident, local officials said.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f645/live/c3ce2a40-72ed-11f1-a52b-4f9c73b26afb.jpg",
-        "publishedAt": "2026-06-28T13:21:33.000Z",
+        "publishedAt": "2026-06-28T15:51:19.000Z",
         "source": "BBC"
       },
       {
@@ -483,40 +491,77 @@
         "source": "BBC"
       },
       {
+        "title": "Skydiving plane crashes in France, killing 11 people",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE93dG5hQ3Y5aDl4NzlaV2NLeEZpbTFuVWR0eEpoZGlHTEkta2F2M3hZY1B6b0piNDlmTFVURGlNZnl5RXNNSDJ0Tk9POUtDTHNGN0xaNXN0ak5KeHBsYzF1YlVITDV0T29oYVZwTWdlbVM1SmwxYzhhZWNLTQ?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-06-28T12:18:43.000Z",
+        "source": "CNN"
+      },
+      {
         "title": "US and Iran exchange strikes and accuse each other of violating ceasefire",
         "link": "https://www.bbc.co.uk/news/articles/cdxdwkgqgq0o?at_medium=RSS&at_campaign=rss",
         "summary": "Iran says it has launched retaliatory attacks at US infrastructure in Kuwait and Bahrain after the US said it hit multiple targets across Iran.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/38a0/live/7c4274f0-727b-11f1-8e1d-bbbb1017d210.jpg",
         "publishedAt": "2026-06-28T04:54:50.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Israel’s military and tech industry race to counter Hezbollah’s latest threat",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcWo5NHAxbXYxN1pCOEhxQ3l6ZVU4SjJDQmRqUXpIS0NCcFp6T3RlenkwbE1ZTVdCbDZUbFlaODFzSzlMRXk3OThNOWpDVTZZeG5oUmRISHhDcnVfT05jcHB0X0laUGViUng4WFdjdlJoUDg3ZzNDT1BiYlFrOE96YmlOb05RWTVM?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-06-28T04:01:25.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "Drone, artillery attacks kill civilians on both sides of Russia-Ukraine border",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYUs0YnVJWFA1bktYdnh2RldkTEJBcnQyRDVXczBvc1h1cDYtamJYbEN5dWhYZl9WYng4SHYzR3hUeGk3ZE03N3Q1NllqeVlYWEhoTGlCZWI5QnJkWExhemU5MUpzQmo5aVQ1aWE0bTNjVmdIOWpwcFN5ZXRFZjlNTXR2Y0JFUQ?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-06-27T23:37:35.000Z",
-        "source": "CNN"
       }
     ],
-    "nba": []
+    "nba": [
+      {
+        "title": "Jimmy Butler shares update on ACL recovery, future...",
+        "link": "https://www.espn.com/nba/story/_/id/49198925/jimmy-butler-shares-update-acl-recovery-future-warriors",
+        "summary": "Butler, who tore his right ACL on Jan. 19, told ESPN he expects to still be \"a top player\" when he returns from the injury.",
+        "image": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0627%2Fr1680545_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-06-28T12:23:49.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "Magic waive Jonathan Isaac, saving $6.5 million",
+        "link": "https://www.espn.com/nba/story/_/id/49200939/orlando-magic-waive-forward-jonathan-isaac",
+        "summary": "The Magic have waived forward Jonathan Isaac, which will save Orlando $6.5 million, according to ESPN's Bobby Marks.",
+        "image": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0627%2Fr1680659_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-06-27T23:07:59.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "Sources: OKC to keep Hartenstein on 3-year deal",
+        "link": "https://www.espn.com/nba/story/_/id/49193260/thunder-keep-hartenstein-new-3-year-deal-sources-say",
+        "summary": "Isaiah Hartenstein intends to sign a new three-year contract worth $75 million to return to the Thunder through the 2028-29 season, sources told ESPN.",
+        "image": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F1120%2Fr1417512_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-06-27T23:07:59.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "Sources: Alvarado back to Knicks with new deal",
+        "link": "https://www.espn.com/nba/story/_/id/49190706/jose-alvarado-returning-new-york-knicks-new-3-year-deal",
+        "summary": "Jose Alvarado is declining his $4.5 million player option and intends to sign a new three-year, $14-plus million deal to return to the Knicks, sources...",
+        "image": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0626%2Fr1680149_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-06-27T23:07:59.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "Bulls' Wilson expects to win Rookie of the Year",
+        "link": "https://www.espn.com/nba/story/_/id/49188920/bulls-caleb-wilson-expects-win-rookie-year",
+        "summary": "New Bulls forward Caleb Wilson was asked about his expectations for his debut season, and he set his sights on Rookie of the Year.",
+        "image": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0626%2Fr1680052_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-06-27T23:07:59.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "Summer league features Wiz-Jazz, Heat-Bucks",
+        "link": "https://www.espn.com/nba/story/_/id/49189165/nba-sets-summer-league-matchups-top-4-draft-picks-heat-bucks",
+        "summary": "The top four picks in the NBA draft are receiving marquee billing in an NBA summer league schedule that also features a Heat-Bucks matchup after their...",
+        "image": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2023%2F0518%2Fr1174848_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-06-27T23:07:59.000Z",
+        "source": "ESPN"
+      }
+    ]
   },
   "nbaScoreboard": {
-    "date": "2026-06-28",
+    "date": "2026-06-29",
     "currentIndex": 4,
     "days": [
-      {
-        "date": "2026-06-24",
-        "games": []
-      },
       {
         "date": "2026-06-25",
         "games": []
@@ -548,12 +593,16 @@
       {
         "date": "2026-07-02",
         "games": []
+      },
+      {
+        "date": "2026-07-03",
+        "games": []
       }
     ],
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-06-28",
+    "rotationLabel": "Curated Rotation · 2026-06-29",
     "sections": [
       {
         "id": "data-storage",
@@ -561,27 +610,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-3",
-            "sectionId": "data-storage",
-            "title": "Dynamo: Amazon's Highly Available Key-value Store",
-            "authors": [
-              "Giuseppe DeCandia",
-              "Deniz Hastorun",
-              "Madan Jampani",
-              "Gunavardhan Kakulapati"
-            ],
-            "venue": "SOSP",
-            "year": 2007,
-            "quality": "顶会",
-            "categories": [
-              "key-value",
-              "distributed systems"
-            ],
-            "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
-            "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-4",
             "sectionId": "data-storage",
@@ -601,7 +629,7 @@
             ],
             "link": "https://research.google/pubs/pub36632/",
             "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-5",
@@ -622,6 +650,27 @@
             "link": "https://arxiv.org/abs/2401.08281",
             "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-6",
+            "sectionId": "data-storage",
+            "title": "DiskANN: Fast Accurate Billion-point Nearest Neighbor Search on a Single Node",
+            "authors": [
+              "Neelesh Gupta",
+              "Leland Willard",
+              "Xiangyao Yu",
+              "Yuri N."
+            ],
+            "venue": "NeurIPS",
+            "year": 2019,
+            "quality": "高影响力",
+            "categories": [
+              "vector search",
+              "ANN"
+            ],
+            "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
+            "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -631,27 +680,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-4",
-            "sectionId": "computer-vision",
-            "title": "Learning Transferable Visual Models From Natural Language Supervision",
-            "authors": [
-              "Alec Radford",
-              "Jong Wook Kim",
-              "Chris Hallacy",
-              "Aditya Ramesh"
-            ],
-            "venue": "ICML",
-            "year": 2021,
-            "quality": "顶会",
-            "categories": [
-              "vision-language",
-              "foundation model"
-            ],
-            "link": "https://arxiv.org/abs/2103.00020",
-            "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-5",
             "sectionId": "computer-vision",
@@ -671,7 +699,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.02643",
             "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-6",
@@ -693,6 +721,27 @@
             "link": "https://arxiv.org/abs/2304.07193",
             "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-1",
+            "sectionId": "computer-vision",
+            "title": "Deep Residual Learning for Image Recognition",
+            "authors": [
+              "Kaiming He",
+              "Xiangyu Zhang",
+              "Shaoqing Ren",
+              "Jian Sun"
+            ],
+            "venue": "CVPR",
+            "year": 2016,
+            "quality": "顶会",
+            "categories": [
+              "image recognition",
+              "backbone"
+            ],
+            "link": "https://arxiv.org/abs/1512.03385",
+            "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -702,27 +751,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-5",
-            "sectionId": "llm-memory",
-            "title": "LongMem: Scaling Language Model Context with Memory-Augmented Retrieval",
-            "authors": [
-              "Zeqiu Wu",
-              "Yizhong Wang",
-              "Jiacheng Liu",
-              "Yelong Shen"
-            ],
-            "venue": "ACL Findings",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "memory",
-              "long context"
-            ],
-            "link": "https://arxiv.org/abs/2306.07174",
-            "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-6",
             "sectionId": "llm-memory",
@@ -742,7 +770,7 @@
             ],
             "link": "https://arxiv.org/abs/2409.05591",
             "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-1",
@@ -764,6 +792,27 @@
             "link": "https://arxiv.org/abs/2005.11401",
             "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-2",
+            "sectionId": "llm-memory",
+            "title": "Memorizing Transformers",
+            "authors": [
+              "Yuhuai Wu",
+              "Markus N. Rabe",
+              "DeLesley Hutchins",
+              "Christian Szegedy"
+            ],
+            "venue": "ICLR",
+            "year": 2022,
+            "quality": "顶会",
+            "categories": [
+              "memory",
+              "long context"
+            ],
+            "link": "https://arxiv.org/abs/2203.08913",
+            "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -773,27 +822,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-6",
-            "sectionId": "agents",
-            "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
-            "authors": [
-              "John Yang",
-              "Carlos E. Jimenez",
-              "Alexander Wettig",
-              "Karthik Narasimhan"
-            ],
-            "venue": "ICLR",
-            "year": 2025,
-            "quality": "新近代表作",
-            "categories": [
-              "software agent",
-              "benchmark"
-            ],
-            "link": "https://arxiv.org/abs/2405.15793",
-            "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-1",
             "sectionId": "agents",
@@ -814,7 +842,7 @@
             ],
             "link": "https://arxiv.org/abs/2210.03629",
             "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-2",
@@ -835,6 +863,27 @@
             ],
             "link": "https://arxiv.org/abs/2302.04761",
             "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-3",
+            "sectionId": "agents",
+            "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+            "authors": [
+              "Joon Sung Park",
+              "Joseph O'Brien",
+              "Carrie Cai",
+              "Meredith Ringel Morris"
+            ],
+            "venue": "UIST",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "agent society",
+              "memory"
+            ],
+            "link": "https://arxiv.org/abs/2304.03442",
+            "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
             "trackLabel": "轮换精选"
           }
         ]
