@@ -1,29 +1,21 @@
 {
-  "generatedAt": "2026-07-01T14:54:07.231Z",
+  "generatedAt": "2026-07-01T18:07:52.889Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 26,
+      "temperature": 24,
       "weatherCode": 0,
       "windSpeed": 2
     },
     "today": {
-      "date": "2026-07-01",
-      "weatherCode": 51,
-      "description": "毛毛雨",
-      "max": 31,
-      "min": 21,
-      "precipitationProbability": 48
+      "date": "2026-07-02",
+      "weatherCode": 95,
+      "description": "雷暴",
+      "max": 35,
+      "min": 22,
+      "precipitationProbability": 2
     },
     "forecast": [
-      {
-        "date": "2026-07-01",
-        "weatherCode": 51,
-        "description": "毛毛雨",
-        "max": 31,
-        "min": 21,
-        "precipitationProbability": 48
-      },
       {
         "date": "2026-07-02",
         "weatherCode": 95,
@@ -55,32 +47,49 @@
         "max": 34,
         "min": 23,
         "precipitationProbability": 82
+      },
+      {
+        "date": "2026-07-06",
+        "weatherCode": 95,
+        "description": "雷暴",
+        "max": 31,
+        "min": 21,
+        "precipitationProbability": 61
       }
     ]
   },
   "classicQuote": {
-    "id": "mencius-perseverance",
-    "text": "虽千万人，吾往矣。",
-    "source": "《孟子》",
-    "author": "孟子",
-    "note": "认准方向之后，关键是稳稳地往前走。"
+    "id": "records-historical",
+    "text": "桃李不言，下自成蹊。",
+    "source": "《史记》",
+    "author": "司马迁",
+    "note": "真正有分量的作品，本身就会替你说话。"
   },
   "bookExcerpt": {
-    "id": "red-mansion-snow",
-    "text": "只见大地白茫茫一片真干净，山川树木都隐在雪光里，天地像忽然静下来，只余风过回廊的细响。",
-    "book": "《红楼梦》",
-    "author": "曹雪芹"
+    "id": "remembrance-madeleine",
+    "text": "那一点点浸过茶水的点心，忽然把整个旧日时光都唤醒了，仿佛往昔并未消失，只是沉在心底等待一个气味。",
+    "book": "《追忆似水年华》",
+    "author": "马塞尔·普鲁斯特"
   },
   "featuredPlace": {
-    "id": "202606301600",
-    "title": "地牢省立公园, 纽芬兰和拉布拉多省, 加拿大",
+    "id": "202607011600",
+    "title": "埃斯纳神庙穹顶天花板, 埃及",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "大西洋雕琢而成的加拿大",
-    "image": "https://www.bing.com/th?id=OHR.DungeonPark_ZH-CN9544093701_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E5%9C%B0%E7%89%A2%E7%9C%81%E7%AB%8B%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
+    "summary": "走进埃斯纳神圣的世界",
+    "image": "https://www.bing.com/th?id=OHR.TempleEsna_ZH-CN9834689523_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E5%9F%83%E5%8F%8A%E5%9F%83%E6%96%AF%E7%BA%B3%E7%A5%9E%E5%BA%99&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202607011600",
+      "title": "埃斯纳神庙穹顶天花板, 埃及",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "走进埃斯纳神圣的世界",
+      "image": "https://www.bing.com/th?id=OHR.TempleEsna_ZH-CN9834689523_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E5%9F%83%E5%8F%8A%E5%9F%83%E6%96%AF%E7%BA%B3%E7%A5%9E%E5%BA%99&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202606301600",
       "title": "地牢省立公园, 纽芬兰和拉布拉多省, 加拿大",
@@ -143,77 +152,76 @@
       "summary": "在广场中感受历史",
       "image": "https://www.bing.com/th?id=OHR.GrandPlace_ZH-CN8806496436_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E5%B8%83%E9%B2%81%E5%A1%9E%E5%B0%94%E5%A4%A7%E5%B9%BF%E5%9C%BA&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202606231600",
-      "title": "蝴蝶正在黄花上授粉",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "花粉与翅膀相遇",
-      "image": "https://www.bing.com/th?id=OHR.BFPollin_ZH-CN7654067396_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E8%9D%B4%E8%9D%B6%E6%8E%88%E7%B2%89&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-07-01",
-    "dateLabel": "7月1日",
+    "dateKey": "2026-07-02",
+    "dateLabel": "7月2日",
     "items": [
       {
-        "year": "2023",
-        "text": "香港新巴結束營運，與城巴合併。",
-        "link": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4"
+        "year": "2024",
+        "text": "印度北方邦哈特拉斯地區發生一起嚴重踩踏事故，造成至少121人喪生，上百人受傷。",
+        "link": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4"
       },
       {
-        "year": "2022",
-        "text": "香港特別行政區成立二十五周年紀念，李家超宣誓就任行政長官，是香港首位紀律部隊出身的政府首長。",
-        "link": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4"
+        "year": "2020",
+        "text": "緬甸帕敢的翡翠礦區發生山體滑坡，造成175至200名礦工死亡，是緬甸史上最嚴重的礦難。",
+        "link": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "追光的你｜故事里，照见一名共产党员的初心",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-01/10651011.shtml",
-        "summary": "今年是中国共产党成立105周年。1974年1月，习近平成为中国共产党的一员。他先后写了10份入党申请书，才终于如愿以偿。",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/07/01/05fce1433cee4069bd102422d5609957.jpg",
-        "publishedAt": "2026-07-01T14:42:36.000Z",
+        "title": "中国发现已知体型最小长尾鸟类 为鸟尾演化路径提供关键化石铁证",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-02/10651033.shtml",
+        "summary": "中新网北京7月2日电 (记者 孙自法)在从恐龙向鸟类演化的过程中，除翱翔蓝天的羽翼，尾巴缩短是鸟类身体最彻底的改变。因此，鸟尾是如何演化的？在古生物学界广受关注。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260702/eae19c9c-abfa-4ad0-918c-ea8f7788248e_zsite.jpeg",
+        "publishedAt": "2026-07-01T18:02:35.000Z",
         "source": "中新网"
       },
       {
-        "title": "台媒关注习近平“七一”讲话涉台表述：融合发展、打击“台独”是重要方向",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-01/10650978.shtml",
-        "summary": "中新社北京7月1日电 庆祝中国共产党成立105周年大会7月1日在北京举行，习近平总书记重要讲话涉台表述受到台湾媒体高度关注。舆论指，讲话明确推动融合发展、打击“台独”分裂势力的对台政策方向。",
+        "title": "和平、交流、友谊：20余国青少年走进北京宋庆龄故居",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-02/10651027.shtml",
+        "summary": "中新社北京7月1日电(记者 官逸伦)“我觉得她很友好，因为她帮助了很多人，而且照片里的她都带着笑容。”这是宋庆龄留给李昂(Leon Alexander Sebastiansson)的“初印象”，这位12岁的冰岛少年第一次知道宋庆龄的故事。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260702/ddafceb5-5b0f-4e48-9fb5-e4012470f604_zsite.jpg",
+        "publishedAt": "2026-07-01T16:24:25.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "王毅同美国国务卿鲁比奥通电话",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-01/10651026.shtml",
+        "summary": "中新社北京7月1日电 中共中央政治局委员、外交部长王毅6月30日同美国国务卿鲁比奥通电话。",
         "image": "",
-        "publishedAt": "2026-07-01T14:38:48.000Z",
+        "publishedAt": "2026-07-01T15:58:07.000Z",
         "source": "中新网"
       },
       {
-        "title": "【央视快评】牢记“三个务必” 奋力创造新的历史辉煌",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-01/10650998.shtml",
-        "summary": "庆祝中国共产党成立105周年大会今天(7月1日)在北京人民大会堂隆重举行，习近平总书记向“七一勋章”获得者颁授勋章并发表重要讲话。在这一光辉时刻，习近平总书记向全党同志发出号召：“时间不等人！历史不等人！全党同志务必不忘初心、牢记使命，务必谦虚谨慎、艰苦奋斗，务必敢于斗争、善于斗争，紧紧依靠和团结带...",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/07/01/adb069cc7ba347dabec2f8387156bc72.jpg",
-        "publishedAt": "2026-07-01T14:31:50.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "习近平党建思想引领强党强国新征程",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-01/10650988.shtml",
-        "summary": "“中国共产党为什么能，中国特色社会主义为什么好，归根到底是马克思主义行，是中国化时代化的马克思主义行。”拥有马克思主义科学理论指导，是中国共产党鲜明的政治品格和强大的政治优势。",
+        "title": "人民心声，信仰起点：中共一大纪念馆留言墙上的“签言万语”",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-01/10651024.shtml",
+        "summary": "今天是建党105周年。连日来，中共一大纪念馆和中共一大会址迎来参观高峰。纪念馆广场上，一群少年列队，身板拔得笔直；党员们展开党旗合影；游客排队在入口处等待放行进入参观。上海这个初夏的寻常一日，纪念馆内庄严肃穆，成为无数人心中的信仰起点。",
         "image": "",
-        "publishedAt": "2026-07-01T14:25:01.000Z",
+        "publishedAt": "2026-07-01T15:30:19.000Z",
         "source": "中新网"
       },
       {
-        "title": "多国媒体人士在南京参访：传承历史记忆、播撒和平之种是人间正道",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-01/10650966.shtml",
-        "summary": "中新社南京7月1日电 (记者 朱晓颖)来自19个国家的19名媒体人士1日参访侵华日军南京大屠杀遇难同胞纪念馆(下称“纪念馆”)、南京利济巷慰安所旧址陈列馆(下称“陈列馆”)。多位媒体人士在受访时表示，传承历史记忆、播撒和平之种是人间正道。",
+        "title": "《习近平谈治国理政》第五卷土耳其推介会在安卡拉举行",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-01/10651021.shtml",
+        "summary": "中新社北京7月1日电 安卡拉消息：《习近平谈治国理政》第五卷推介会7月1日在土耳其首都安卡拉举行。",
         "image": "",
-        "publishedAt": "2026-07-01T14:20:47.000Z",
+        "publishedAt": "2026-07-01T15:19:01.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
+      {
+        "title": "从擦肩而过到携手同行——青藏铁路首发列车长陈春友与安多牧民塔规20年的天路情缘",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-01/10651022.shtml",
+        "summary": "2006年7月1日，青藏铁路列车首发。",
+        "image": "",
+        "publishedAt": "2026-07-01T15:21:11.000Z",
+        "source": "中新网"
+      },
       {
         "title": "外卖小哥、网约司机“应保尽保” 河南启动新就业形态人员职业伤害保障试点",
         "link": "https://www.chinanews.com.cn/sh/2026/07-01/10650997.shtml",
@@ -244,14 +252,6 @@
         "summary": "中新网北京7月1日电 (刘大炜 姜姿屹)由北京市青年联合会、北京青少年服务中心、中关村街道办事处联合主办的“湾Day in北京”2026京台青年生活节7月1日在北京卫星制造厂科技园开幕，30家特色小铺展示两岸特色美食、手作文创等。",
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260701/789c4da3-ee3b-4957-a050-5d77d41802e5_zsite.jpg",
         "publishedAt": "2026-07-01T14:47:46.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "天津港迎开港以来最大吃水船舶“中海荣华”轮",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-01/10650991.shtml",
-        "summary": "中新网天津7月1日电 (记者 周亚强)天津港1日迎来开港以来最大吃水船舶。30万吨级超大型散货船“中海荣华”轮满载31.1万吨西芒杜铁矿粉，安全靠泊天津港远航矿石码头S27泊位。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260701/88c6632e-a22e-4055-8c96-0e2f3c437cd3_zsite.jpg",
-        "publishedAt": "2026-07-01T14:46:40.000Z",
         "source": "中新网"
       }
     ],
@@ -299,47 +299,71 @@
     ],
     "worldTop": [
       {
-        "title": "Trump made more than $1bn from crypto in first year back in office",
-        "link": "https://www.bbc.co.uk/news/articles/cvgmv98ez3zo?at_medium=RSS&at_campaign=rss",
-        "summary": "The president's crypto income far outpaces his earnings from real estate and Trump-themed items such as watches.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ba7/live/0575aa80-7510-11f1-8e1d-bbbb1017d210.jpg",
-        "publishedAt": "2026-07-01T13:52:20.000Z",
+        "title": "Businessman goes on trial over murder of Maltese journalist",
+        "link": "https://www.bbc.co.uk/news/articles/c1ey95gl5j5o?at_medium=RSS&at_campaign=rss",
+        "summary": "Yorgen Fenech denies any involvement in the assassination of Daphne Caruana Galizia in 2017.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f000/live/0f20f4f0-7569-11f1-a627-714adb4eed6e.jpg",
+        "publishedAt": "2026-07-01T17:15:47.000Z",
         "source": "BBC"
       },
       {
-        "title": "Fire at Antwerp apartment block kills at least six",
+        "title": "Fire kills five at Antwerp apartment block",
         "link": "https://www.bbc.co.uk/news/articles/c621dx0vl7xo?at_medium=RSS&at_campaign=rss",
-        "summary": "A man is seen clambering through a window to escape black smoke in the block where some 200 people live.",
+        "summary": "A man was seen clambering through a window to escape black smoke in the block where some 200 people live.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3eb0/live/198a7900-7543-11f1-81d0-b57b06d692af.jpg",
-        "publishedAt": "2026-07-01T13:10:23.000Z",
+        "publishedAt": "2026-07-01T16:12:18.000Z",
         "source": "BBC"
       },
       {
-        "title": "Three die in Mexico City World Cup celebrations",
-        "link": "https://www.bbc.co.uk/news/articles/cx2xjwj8p39o?at_medium=RSS&at_campaign=rss",
-        "summary": "More than one million people took to the streets of Mexico City on Tuesday to mark the country's win over Ecuador.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0105/live/e4a221e0-7545-11f1-b976-0b9c15b0ccfc.jpg",
-        "publishedAt": "2026-07-01T11:01:12.000Z",
+        "title": "Controversial bishops ordained as Pope warns of 'schism' in Catholic Church",
+        "link": "https://www.bbc.co.uk/news/articles/c74y7k8wyz8o?at_medium=RSS&at_campaign=rss",
+        "summary": "Thousands of worshippers attended a ceremony in the Swiss Alps as part of the breakaway Society of Saint Pius X.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/af3b/live/be4f9f50-7562-11f1-b976-0b9c15b0ccfc.jpg",
+        "publishedAt": "2026-07-01T16:10:38.000Z",
         "source": "BBC"
       },
       {
-        "title": "China tells its ethnic minorities to integrate or face consequences with sweeping new unity law",
-        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1MQ0hmd0x6VDl4U0NBMjdXWjhmQUdXUHdqWUtiOVdPVlJIbGtPM3JCTEVsLWJpQjN6UUF2anR3UmdmdnJJOWdnWVZqRV81ZGVISVhDQU11dEZ3ZFpSSUJLdzVKVlZRYTFNWDNha2NUMFZ4NjlSQlhB?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-07-01T08:52:18.000Z",
-        "source": "CNN"
+        "title": "'Time for him to pay' - Carroll calls on Trump to pay $5m after president's appeal fails",
+        "link": "https://www.bbc.co.uk/news/articles/cn4r8n3ek80o?at_medium=RSS&at_campaign=rss",
+        "summary": "The writer's lawyers say Trump wants to delay paying the damages awarded by a jury that found the president liable for sexually abusing and defaming h...",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2b22/live/4f5a7230-755a-11f1-8dff-95caf5f6c408.jpg",
+        "publishedAt": "2026-07-01T15:48:02.000Z",
+        "source": "BBC"
       },
       {
-        "title": "Downed by lightning eight decades ago, a US airman is finally coming home",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUHBFb0VjQzdzWUl2WmI2T1dodm5kcjNtSVhOckxMbW1IeFR3OF9mX0JKc05MaXRtM3hucndFNzJXT1lrNDRtRXJYS1dKWl9DT3ljWVY1Q0dGazlqMjBNQ0hyUGhna3gyQ2VFSWxBOWpwRVhUc2J2cHdpVFd5Y25wZDJkbG1CcENTZjNpaXRpaUpuaWcxVmhfd2Nn?oc=5",
+        "title": "America’s Best Towns to Visit in 2026",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1lSTBqTWZITV9aYlBVRzAwbURJRGZKMm1IampBWXc3ZWdxdUpTa0F5b01BZ2VuR3dzazFjUFVIY00yT2tjZU9zM3dwNEYwR1YzTzd0elNQYTgtWjkzTHNHbTMyMHBPUQ?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-07-01T06:58:28.000Z",
+        "publishedAt": "2026-07-01T13:00:25.000Z",
         "source": "CNN"
       }
     ],
     "worldBusiness": [
+      {
+        "title": "Bibles, Home Alone and perfume: Six surprising ways Trump made money in 2025",
+        "link": "https://www.bbc.co.uk/news/articles/cy9rg133lrjo?at_medium=RSS&at_campaign=rss",
+        "summary": "Official documents show the US president made billions of dollars as he returned to the White House.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/594f/live/8d250090-7572-11f1-9634-57b9e01d300c.jpg",
+        "publishedAt": "2026-07-01T17:22:25.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Trump made more than $1bn from crypto in first year back in office",
+        "link": "https://www.bbc.co.uk/news/articles/cvgmv98ez3zo?at_medium=RSS&at_campaign=rss",
+        "summary": "The president's crypto income far outpaces his earnings from real estate and Trump-themed items such as watches.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ba7/live/0575aa80-7510-11f1-8e1d-bbbb1017d210.jpg",
+        "publishedAt": "2026-07-01T16:04:32.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Brewery boss who banned phones and swearing from pubs dies aged 81",
+        "link": "https://www.bbc.co.uk/news/articles/c0ky1v2e275o?at_medium=RSS&at_campaign=rss",
+        "summary": "Humphrey Smith had been at the helm of the Tadcaster brewer since the 1980s.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fd9b/live/16a01630-7536-11f1-9510-1546718f668b.jpg",
+        "publishedAt": "2026-07-01T15:13:20.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Up to 150 ex-WHSmith High Street stores to close as rescue deal approved",
         "link": "https://www.bbc.co.uk/news/articles/cn751pkmgyxo?at_medium=RSS&at_campaign=rss",
@@ -349,53 +373,29 @@
         "source": "BBC"
       },
       {
-        "title": "Trump made more than $1bn from crypto in first year back in office",
-        "link": "https://www.bbc.co.uk/news/articles/cvgmv98ez3zo?at_medium=RSS&at_campaign=rss",
-        "summary": "The president's crypto income far outpaces his earnings from real estate and Trump-themed items such as watches.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ba7/live/0575aa80-7510-11f1-8e1d-bbbb1017d210.jpg",
-        "publishedAt": "2026-07-01T13:52:20.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Brewery boss who banned phones and swearing from pubs dies aged 81",
-        "link": "https://www.bbc.co.uk/news/articles/c0ky1v2e275o?at_medium=RSS&at_campaign=rss",
-        "summary": "Humphrey Smith had been at the helm of the Tadcaster brewer since the 1980s.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fd9b/live/16a01630-7536-11f1-9510-1546718f668b.jpg",
-        "publishedAt": "2026-07-01T12:20:49.000Z",
-        "source": "BBC"
-      },
-      {
         "title": "Seattle’s solution for the middle-class housing squeeze: government housing",
         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5zQzItc0RVWHFnckN5ckpaSnJIODJxUW53RmhXcDhtazJGVXg1Y0gtX0RkUTkweXVPYkQ2Tk9RQi1YbTBhWG5DSXRxNHM1YVoxWmlvVkRjb3Myakg0ZmIweUJZMndmcDJid0h3OTNURQ?oc=5",
         "summary": "",
         "image": "",
         "publishedAt": "2026-07-01T10:00:26.000Z",
         "source": "CNN"
-      },
-      {
-        "title": "Why Gen Z are planning for life without a state pension",
-        "link": "https://www.bbc.co.uk/news/articles/c8e2yp1gg37o?at_medium=RSS&at_campaign=rss",
-        "summary": "Many younger people do not believe the state pension will exist when they are older",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0a03/live/0c434d60-716c-11f1-8e1d-bbbb1017d210.jpg",
-        "publishedAt": "2026-06-30T23:05:19.000Z",
-        "source": "BBC"
       }
     ],
     "worldTech": [
+      {
+        "title": "PlayStation will stop releasing games on discs in 2028",
+        "link": "https://www.bbc.co.uk/news/articles/c0ryjyvjq41o?at_medium=RSS&at_campaign=rss",
+        "summary": "The firm said future games would still be sold in shops, but they would come with a digital code only.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/671f/live/b441e390-754b-11f1-a0e5-ab9c63e24c99.jpg",
+        "publishedAt": "2026-07-01T16:40:58.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Wonka Netflix show faces backlash for AI-generated Gene Wilder voice",
         "link": "https://www.bbc.co.uk/news/articles/cdxdgpgn0zwo?at_medium=RSS&at_campaign=rss",
         "summary": "The actor, who died in 2016, appears in the Netflix show with the consent of his estate.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f624/live/ed6342c0-7543-11f1-81d0-b57b06d692af.jpg",
         "publishedAt": "2026-07-01T14:01:06.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "PlayStation will stop releasing games on discs in 2028",
-        "link": "https://www.bbc.co.uk/news/articles/c0ryjyvjq41o?at_medium=RSS&at_campaign=rss",
-        "summary": "The firm said future games would still be sold in shops, but they would come with a digital code only.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/671f/live/b441e390-754b-11f1-a0e5-ab9c63e24c99.jpg",
-        "publishedAt": "2026-07-01T13:22:52.000Z",
         "source": "BBC"
       },
       {
@@ -425,98 +425,94 @@
     ],
     "domestic": [
       {
-        "title": "追光的你｜故事里，照见一名共产党员的初心",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-01/10651011.shtml",
-        "summary": "今年是中国共产党成立105周年。1974年1月，习近平成为中国共产党的一员。他先后写了10份入党申请书，才终于如愿以偿。",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/07/01/05fce1433cee4069bd102422d5609957.jpg",
-        "publishedAt": "2026-07-01T14:42:36.000Z",
+        "title": "中国发现已知体型最小长尾鸟类 为鸟尾演化路径提供关键化石铁证",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-02/10651033.shtml",
+        "summary": "中新网北京7月2日电 (记者 孙自法)在从恐龙向鸟类演化的过程中，除翱翔蓝天的羽翼，尾巴缩短是鸟类身体最彻底的改变。因此，鸟尾是如何演化的？在古生物学界广受关注。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260702/eae19c9c-abfa-4ad0-918c-ea8f7788248e_zsite.jpeg",
+        "publishedAt": "2026-07-01T18:02:35.000Z",
         "source": "中新网"
       },
       {
-        "title": "台媒关注习近平“七一”讲话涉台表述：融合发展、打击“台独”是重要方向",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-01/10650978.shtml",
-        "summary": "中新社北京7月1日电 庆祝中国共产党成立105周年大会7月1日在北京举行，习近平总书记重要讲话涉台表述受到台湾媒体高度关注。舆论指，讲话明确推动融合发展、打击“台独”分裂势力的对台政策方向。",
+        "title": "和平、交流、友谊：20余国青少年走进北京宋庆龄故居",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-02/10651027.shtml",
+        "summary": "中新社北京7月1日电(记者 官逸伦)“我觉得她很友好，因为她帮助了很多人，而且照片里的她都带着笑容。”这是宋庆龄留给李昂(Leon Alexander Sebastiansson)的“初印象”，这位12岁的冰岛少年第一次知道宋庆龄的故事。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260702/ddafceb5-5b0f-4e48-9fb5-e4012470f604_zsite.jpg",
+        "publishedAt": "2026-07-01T16:24:25.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "王毅同美国国务卿鲁比奥通电话",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-01/10651026.shtml",
+        "summary": "中新社北京7月1日电 中共中央政治局委员、外交部长王毅6月30日同美国国务卿鲁比奥通电话。",
         "image": "",
-        "publishedAt": "2026-07-01T14:38:48.000Z",
+        "publishedAt": "2026-07-01T15:58:07.000Z",
         "source": "中新网"
       },
       {
-        "title": "【央视快评】牢记“三个务必” 奋力创造新的历史辉煌",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-01/10650998.shtml",
-        "summary": "庆祝中国共产党成立105周年大会今天(7月1日)在北京人民大会堂隆重举行，习近平总书记向“七一勋章”获得者颁授勋章并发表重要讲话。在这一光辉时刻，习近平总书记向全党同志发出号召：“时间不等人！历史不等人！全党同志务必不忘初心、牢记使命，务必谦虚谨慎、艰苦奋斗，务必敢于斗争、善于斗争，紧紧依靠和团结带...",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/07/01/adb069cc7ba347dabec2f8387156bc72.jpg",
-        "publishedAt": "2026-07-01T14:31:50.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "习近平党建思想引领强党强国新征程",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-01/10650988.shtml",
-        "summary": "“中国共产党为什么能，中国特色社会主义为什么好，归根到底是马克思主义行，是中国化时代化的马克思主义行。”拥有马克思主义科学理论指导，是中国共产党鲜明的政治品格和强大的政治优势。",
+        "title": "人民心声，信仰起点：中共一大纪念馆留言墙上的“签言万语”",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-01/10651024.shtml",
+        "summary": "今天是建党105周年。连日来，中共一大纪念馆和中共一大会址迎来参观高峰。纪念馆广场上，一群少年列队，身板拔得笔直；党员们展开党旗合影；游客排队在入口处等待放行进入参观。上海这个初夏的寻常一日，纪念馆内庄严肃穆，成为无数人心中的信仰起点。",
         "image": "",
-        "publishedAt": "2026-07-01T14:25:01.000Z",
+        "publishedAt": "2026-07-01T15:30:19.000Z",
         "source": "中新网"
       },
       {
-        "title": "多国媒体人士在南京参访：传承历史记忆、播撒和平之种是人间正道",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-01/10650966.shtml",
-        "summary": "中新社南京7月1日电 (记者 朱晓颖)来自19个国家的19名媒体人士1日参访侵华日军南京大屠杀遇难同胞纪念馆(下称“纪念馆”)、南京利济巷慰安所旧址陈列馆(下称“陈列馆”)。多位媒体人士在受访时表示，传承历史记忆、播撒和平之种是人间正道。",
+        "title": "《习近平谈治国理政》第五卷土耳其推介会在安卡拉举行",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-01/10651021.shtml",
+        "summary": "中新社北京7月1日电 安卡拉消息：《习近平谈治国理政》第五卷推介会7月1日在土耳其首都安卡拉举行。",
         "image": "",
-        "publishedAt": "2026-07-01T14:20:47.000Z",
+        "publishedAt": "2026-07-01T15:19:01.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "Trump made more than $1bn from crypto in first year back in office",
-        "link": "https://www.bbc.co.uk/news/articles/cvgmv98ez3zo?at_medium=RSS&at_campaign=rss",
-        "summary": "The president's crypto income far outpaces his earnings from real estate and Trump-themed items such as watches.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ba7/live/0575aa80-7510-11f1-8e1d-bbbb1017d210.jpg",
-        "publishedAt": "2026-07-01T13:52:20.000Z",
+        "title": "Businessman goes on trial over murder of Maltese journalist",
+        "link": "https://www.bbc.co.uk/news/articles/c1ey95gl5j5o?at_medium=RSS&at_campaign=rss",
+        "summary": "Yorgen Fenech denies any involvement in the assassination of Daphne Caruana Galizia in 2017.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f000/live/0f20f4f0-7569-11f1-a627-714adb4eed6e.jpg",
+        "publishedAt": "2026-07-01T17:15:47.000Z",
         "source": "BBC"
       },
       {
-        "title": "Fire at Antwerp apartment block kills at least six",
+        "title": "Fire kills five at Antwerp apartment block",
         "link": "https://www.bbc.co.uk/news/articles/c621dx0vl7xo?at_medium=RSS&at_campaign=rss",
-        "summary": "A man is seen clambering through a window to escape black smoke in the block where some 200 people live.",
+        "summary": "A man was seen clambering through a window to escape black smoke in the block where some 200 people live.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3eb0/live/198a7900-7543-11f1-81d0-b57b06d692af.jpg",
-        "publishedAt": "2026-07-01T13:10:23.000Z",
+        "publishedAt": "2026-07-01T16:12:18.000Z",
         "source": "BBC"
       },
       {
-        "title": "Three die in Mexico City World Cup celebrations",
-        "link": "https://www.bbc.co.uk/news/articles/cx2xjwj8p39o?at_medium=RSS&at_campaign=rss",
-        "summary": "More than one million people took to the streets of Mexico City on Tuesday to mark the country's win over Ecuador.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0105/live/e4a221e0-7545-11f1-b976-0b9c15b0ccfc.jpg",
-        "publishedAt": "2026-07-01T11:01:12.000Z",
+        "title": "Controversial bishops ordained as Pope warns of 'schism' in Catholic Church",
+        "link": "https://www.bbc.co.uk/news/articles/c74y7k8wyz8o?at_medium=RSS&at_campaign=rss",
+        "summary": "Thousands of worshippers attended a ceremony in the Swiss Alps as part of the breakaway Society of Saint Pius X.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/af3b/live/be4f9f50-7562-11f1-b976-0b9c15b0ccfc.jpg",
+        "publishedAt": "2026-07-01T16:10:38.000Z",
         "source": "BBC"
       },
       {
-        "title": "China tells its ethnic minorities to integrate or face consequences with sweeping new unity law",
-        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1MQ0hmd0x6VDl4U0NBMjdXWjhmQUdXUHdqWUtiOVdPVlJIbGtPM3JCTEVsLWJpQjN6UUF2anR3UmdmdnJJOWdnWVZqRV81ZGVISVhDQU11dEZ3ZFpSSUJLdzVKVlZRYTFNWDNha2NUMFZ4NjlSQlhB?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-07-01T08:52:18.000Z",
-        "source": "CNN"
+        "title": "'Time for him to pay' - Carroll calls on Trump to pay $5m after president's appeal fails",
+        "link": "https://www.bbc.co.uk/news/articles/cn4r8n3ek80o?at_medium=RSS&at_campaign=rss",
+        "summary": "The writer's lawyers say Trump wants to delay paying the damages awarded by a jury that found the president liable for sexually abusing and defaming h...",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2b22/live/4f5a7230-755a-11f1-8dff-95caf5f6c408.jpg",
+        "publishedAt": "2026-07-01T15:48:02.000Z",
+        "source": "BBC"
       },
       {
-        "title": "Downed by lightning eight decades ago, a US airman is finally coming home",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUHBFb0VjQzdzWUl2WmI2T1dodm5kcjNtSVhOckxMbW1IeFR3OF9mX0JKc05MaXRtM3hucndFNzJXT1lrNDRtRXJYS1dKWl9DT3ljWVY1Q0dGazlqMjBNQ0hyUGhna3gyQ2VFSWxBOWpwRVhUc2J2cHdpVFd5Y25wZDJkbG1CcENTZjNpaXRpaUpuaWcxVmhfd2Nn?oc=5",
+        "title": "America’s Best Towns to Visit in 2026",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1lSTBqTWZITV9aYlBVRzAwbURJRGZKMm1IampBWXc3ZWdxdUpTa0F5b01BZ2VuR3dzazFjUFVIY00yT2tjZU9zM3dwNEYwR1YzTzd0elNQYTgtWjkzTHNHbTMyMHBPUQ?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-07-01T06:58:28.000Z",
+        "publishedAt": "2026-07-01T13:00:25.000Z",
         "source": "CNN"
       }
     ],
     "nba": []
   },
   "nbaScoreboard": {
-    "date": "2026-07-01",
+    "date": "2026-07-02",
     "currentIndex": 4,
     "days": [
-      {
-        "date": "2026-06-27",
-        "games": []
-      },
       {
         "date": "2026-06-28",
         "games": []
@@ -548,12 +544,16 @@
       {
         "date": "2026-07-05",
         "games": []
+      },
+      {
+        "date": "2026-07-06",
+        "games": []
       }
     ],
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-07-01",
+    "rotationLabel": "Curated Rotation · 2026-07-02",
     "sections": [
       {
         "id": "data-storage",
@@ -561,27 +561,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-4",
-            "sectionId": "data-storage",
-            "title": "Dremel: Interactive Analysis of Web-Scale Datasets",
-            "authors": [
-              "Sergey Melnik",
-              "Andrey Gubarev",
-              "Jing Jing Long",
-              "Geoffrey Romer"
-            ],
-            "venue": "VLDB",
-            "year": 2010,
-            "quality": "顶会",
-            "categories": [
-              "analytics",
-              "columnar"
-            ],
-            "link": "https://research.google/pubs/pub36632/",
-            "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-5",
             "sectionId": "data-storage",
@@ -600,7 +579,7 @@
             ],
             "link": "https://arxiv.org/abs/2401.08281",
             "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-6",
@@ -622,6 +601,27 @@
             "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
             "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-1",
+            "sectionId": "data-storage",
+            "title": "The Log-Structured Merge-Tree (LSM-Tree)",
+            "authors": [
+              "Patrick O'Neil",
+              "Edward Cheng",
+              "Dieter Gawlick",
+              "Elizabeth O'Neil"
+            ],
+            "venue": "Acta Informatica",
+            "year": 1996,
+            "quality": "经典基础",
+            "categories": [
+              "storage",
+              "indexing"
+            ],
+            "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
+            "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -631,27 +631,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-5",
-            "sectionId": "computer-vision",
-            "title": "Segment Anything",
-            "authors": [
-              "Alexander Kirillov",
-              "Eric Mintun",
-              "Nikhila Ravi",
-              "Hanzi Mao"
-            ],
-            "venue": "ICCV",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "segmentation",
-              "foundation model"
-            ],
-            "link": "https://arxiv.org/abs/2304.02643",
-            "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-6",
             "sectionId": "computer-vision",
@@ -671,7 +650,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.07193",
             "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-1",
@@ -693,6 +672,27 @@
             "link": "https://arxiv.org/abs/1512.03385",
             "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-2",
+            "sectionId": "computer-vision",
+            "title": "End-to-End Object Detection with Transformers",
+            "authors": [
+              "Nicolas Carion",
+              "Francisco Massa",
+              "Gabriel Synnaeve",
+              "Nicolas Usunier"
+            ],
+            "venue": "ECCV",
+            "year": 2020,
+            "quality": "顶会",
+            "categories": [
+              "detection",
+              "transformer"
+            ],
+            "link": "https://arxiv.org/abs/2005.12872",
+            "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -702,27 +702,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-6",
-            "sectionId": "llm-memory",
-            "title": "MemoRAG: Moving towards Next-Gen RAG Via Memory-Inspired Knowledge Discovery",
-            "authors": [
-              "Rulin Shao",
-              "Yue Liu",
-              "Shuo Wang",
-              "Yichi Zhang"
-            ],
-            "venue": "arXiv",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "RAG",
-              "memory bank"
-            ],
-            "link": "https://arxiv.org/abs/2409.05591",
-            "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-1",
             "sectionId": "llm-memory",
@@ -742,7 +721,7 @@
             ],
             "link": "https://arxiv.org/abs/2005.11401",
             "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-2",
@@ -764,6 +743,27 @@
             "link": "https://arxiv.org/abs/2203.08913",
             "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-3",
+            "sectionId": "llm-memory",
+            "title": "RETRO: Improving Language Models by Retrieving From Trillions of Tokens",
+            "authors": [
+              "Sebastian Borgeaud",
+              "Arthur Mensch",
+              "Jordan Hoffmann",
+              "Trevor Cai"
+            ],
+            "venue": "DeepMind / arXiv",
+            "year": 2022,
+            "quality": "高影响力",
+            "categories": [
+              "retrieval",
+              "language model"
+            ],
+            "link": "https://arxiv.org/abs/2112.04426",
+            "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -773,28 +773,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-1",
-            "sectionId": "agents",
-            "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
-            "authors": [
-              "Shunyu Yao",
-              "Jeffrey Zhao",
-              "Dian Yu",
-              "Nan Du"
-            ],
-            "venue": "ICLR",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "agent",
-              "reasoning",
-              "tool use"
-            ],
-            "link": "https://arxiv.org/abs/2210.03629",
-            "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-2",
             "sectionId": "agents",
@@ -814,7 +792,7 @@
             ],
             "link": "https://arxiv.org/abs/2302.04761",
             "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-3",
@@ -835,6 +813,27 @@
             ],
             "link": "https://arxiv.org/abs/2304.03442",
             "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-4",
+            "sectionId": "agents",
+            "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+            "authors": [
+              "Guanzhi Wang",
+              "Yuqi Xie",
+              "Zixiang Zhou",
+              "Yujin Tang"
+            ],
+            "venue": "arXiv",
+            "year": 2023,
+            "quality": "高影响力",
+            "categories": [
+              "embodied agent",
+              "planning"
+            ],
+            "link": "https://arxiv.org/abs/2305.16291",
+            "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
             "trackLabel": "轮换精选"
           }
         ]
