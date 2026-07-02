@@ -1,36 +1,28 @@
 {
-  "generatedAt": "2026-07-02T14:25:24.099Z",
+  "generatedAt": "2026-07-02T17:59:51.223Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 31,
+      "temperature": 27,
       "weatherCode": 0,
-      "windSpeed": 3
+      "windSpeed": 5
     },
     "today": {
-      "date": "2026-07-02",
-      "weatherCode": 95,
-      "description": "雷暴",
-      "max": 36,
-      "min": 23,
-      "precipitationProbability": 10
+      "date": "2026-07-03",
+      "weatherCode": 81,
+      "description": "强阵雨",
+      "max": 39,
+      "min": 25,
+      "precipitationProbability": 38
     },
     "forecast": [
-      {
-        "date": "2026-07-02",
-        "weatherCode": 95,
-        "description": "雷暴",
-        "max": 36,
-        "min": 23,
-        "precipitationProbability": 10
-      },
       {
         "date": "2026-07-03",
         "weatherCode": 81,
         "description": "强阵雨",
         "max": 39,
         "min": 25,
-        "precipitationProbability": 46
+        "precipitationProbability": 38
       },
       {
         "date": "2026-07-04",
@@ -38,7 +30,7 @@
         "description": "雷暴",
         "max": 37,
         "min": 24,
-        "precipitationProbability": 39
+        "precipitationProbability": 49
       },
       {
         "date": "2026-07-05",
@@ -46,7 +38,7 @@
         "description": "天气更新中",
         "max": 31,
         "min": 21,
-        "precipitationProbability": 84
+        "precipitationProbability": 80
       },
       {
         "date": "2026-07-06",
@@ -54,33 +46,50 @@
         "description": "雷暴",
         "max": 28,
         "min": 20,
+        "precipitationProbability": 68
+      },
+      {
+        "date": "2026-07-07",
+        "weatherCode": 51,
+        "description": "毛毛雨",
+        "max": 30,
+        "min": 23,
         "precipitationProbability": 76
       }
     ]
   },
   "classicQuote": {
-    "id": "records-historical",
-    "text": "桃李不言，下自成蹊。",
-    "source": "《史记》",
-    "author": "司马迁",
-    "note": "真正有分量的作品，本身就会替你说话。"
+    "id": "chuci-seek",
+    "text": "路漫漫其修远兮，吾将上下而求索。",
+    "source": "《离骚》",
+    "author": "屈原",
+    "note": "长期主义最难，但也最值得。"
   },
   "bookExcerpt": {
-    "id": "remembrance-madeleine",
-    "text": "那一点点浸过茶水的点心，忽然把整个旧日时光都唤醒了，仿佛往昔并未消失，只是沉在心底等待一个气味。",
-    "book": "《追忆似水年华》",
-    "author": "马塞尔·普鲁斯特"
+    "id": "border-town-river",
+    "text": "月光如银子，无处不可照及，山上篁竹在月光下变成了一片黑色，身边草丛中虫声繁密如落雨。",
+    "book": "《边城》",
+    "author": "沈从文"
   },
   "featuredPlace": {
-    "id": "202607011600",
-    "title": "埃斯纳神庙穹顶天花板, 埃及",
+    "id": "202607021600",
+    "title": "小溪上方的萤火虫，冈山县，日本",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "走进埃斯纳神圣的世界",
-    "image": "https://www.bing.com/th?id=OHR.TempleEsna_ZH-CN9834689523_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E5%9F%83%E5%8F%8A%E5%9F%83%E6%96%AF%E7%BA%B3%E7%A5%9E%E5%BA%99&form=hpcapt&mkt=zh-cn"
+    "summary": "流光之诗",
+    "image": "https://www.bing.com/th?id=OHR.FirefliesJapan_ZH-CN0071253415_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E8%90%A4%E7%81%AB%E8%99%AB&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202607021600",
+      "title": "小溪上方的萤火虫，冈山县，日本",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "流光之诗",
+      "image": "https://www.bing.com/th?id=OHR.FirefliesJapan_ZH-CN0071253415_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E8%90%A4%E7%81%AB%E8%99%AB&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202607011600",
       "title": "埃斯纳神庙穹顶天花板, 埃及",
@@ -143,77 +152,92 @@
       "summary": "时事",
       "image": "https://www.bing.com/th?id=OHR.ThamesSummer_ZH-CN5292532714_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E6%B3%B0%E6%99%A4%E5%A3%AB%E6%B2%B3&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202606241600",
-      "title": "布鲁塞尔大广场上的建筑群, 比利时",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "在广场中感受历史",
-      "image": "https://www.bing.com/th?id=OHR.GrandPlace_ZH-CN8806496436_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E5%B8%83%E9%B2%81%E5%A1%9E%E5%B0%94%E5%A4%A7%E5%B9%BF%E5%9C%BA&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-07-02",
-    "dateLabel": "7月2日",
+    "dateKey": "2026-07-03",
+    "dateLabel": "7月3日",
     "items": [
       {
-        "year": "2024",
-        "text": "印度北方邦哈特拉斯地區發生一起嚴重踩踏事故，造成至少121人喪生，上百人受傷。",
-        "link": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4"
+        "year": "2025",
+        "text": "俄羅斯正式承認阿富汗伊斯蘭大公國，成為首個承認塔利班新政權合法性的主權國家。",
+        "link": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4"
       },
       {
-        "year": "2020",
-        "text": "緬甸帕敢的翡翠礦區發生山體滑坡，造成175至200名礦工死亡，是緬甸史上最嚴重的礦難。",
-        "link": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4"
+        "year": "2023",
+        "text": "打破全球平均气温最高記錄。",
+        "link": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "中国专家：日菲企图私分台湾岛以东海域非法无效",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-02/10651748.shtml",
-        "summary": "中新社北京7月2日电 (记者 阮煜琳)中国自然资源部海洋发展战略研究所2日发布《关于日菲宣布启动双边海域划界的法律评论》(下称《报告》)智库报告，分析批驳了日本和菲律宾近期宣布启动双边海域划界的法理谬误。中国专家指出，日菲私分企图在国际法上属非法无效，应立即停止所谓“划界”。",
+        "title": "良机里有良“机”（“三农”观察）",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-02/10651784.shtml",
+        "summary": "岁岁麦浪，季季耕耘。一台台农机跨区驰骋，夏粮归仓，新种入田。在山东省东阿县，大型智能收割机搭载北斗自动驾驶系统，按照设定好的路线高效作业。在湖北省孝昌县，烘干机组连轴转，除湿、风干无缝衔接。今年夏收期间，9个麦收重点省份密切协同，组织动员28万多台履带式收割机、7万多台各型烘干机，“抢”出丰收。",
         "image": "",
-        "publishedAt": "2026-07-02T14:21:16.000Z",
+        "publishedAt": "2026-07-02T15:25:54.000Z",
         "source": "中新网"
       },
       {
-        "title": "台湾专家：两岸AI产业发展，软硬件协同是关键",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-02/10651739.shtml",
-        "summary": "中新社北京7月2日电 (记者 张杨彬)对于大陆AI硬件不断创新、应用生态日益丰富，两岸产业互动将走向何方，台湾半导体产业专家、亚太芯谷研究院院长冯明宪2日在北京表示，两岸产业关系正从“缺什么补什么”的垂直互补，走向“差异合作”的水平竞合。",
-        "image": "",
-        "publishedAt": "2026-07-02T14:06:17.000Z",
+        "title": "张荣恭鼓励台湾青年勇于到大陆拼搏发展",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-02/10651783.shtml",
+        "summary": "中新社北京7月2日电 (徐雪莹 李百加)2026两岸青年峰会2日在北京举行。中国国民党副主席张荣恭在会上指出，两岸都是“龙的传人”，台湾青年完全可以把大陆当作施展拳脚、发挥智慧的地方。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260702/ee993277-9712-4e2d-a002-5eef74c8e26d_zsite.jpg",
+        "publishedAt": "2026-07-02T15:24:30.000Z",
         "source": "中新网"
       },
       {
-        "title": "侧记：当“跨海者”成为两岸“破壁人”",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-02/10651740.shtml",
-        "summary": "中新网北京7月2日电 题：侧记：当“跨海者”成为两岸“破壁人”",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/07/02/56838bf085b7423195f4445b33c356ed.jpg",
-        "publishedAt": "2026-07-02T14:04:59.000Z",
+        "title": "庆祝建党105周年 党史馆新展带你纵览光耀征程",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-02/10651781.shtml",
+        "summary": "为庆祝中国共产党成立105周年，昨天(7月1日)，“信仰如炬 光耀征程——党章、党徽、党旗、入党誓词专题展”在中国共产党历史展览馆开展。",
+        "image": "",
+        "publishedAt": "2026-07-02T15:15:21.000Z",
         "source": "中新网"
       },
       {
-        "title": "第三届海峡阅读大会福州启幕 多项两岸出版合作成果集中落地",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-02/10651732.shtml",
-        "summary": "中新社福州7月2日电 (叶秋云)第十八届海峡论坛·第三届海峡阅读大会2日在福建福州开幕，多项两岸出版合作成果在会上集中落地。",
+        "title": "铭记历史！新中国审判日本战犯史实特展开展",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-02/10651777.shtml",
+        "summary": "昨天(7月1日)，《正义审判——新中国审判日本战犯史实特展》在侵华日军第七三一部队罪证陈列馆开展，再现了1956年最高人民法院特别军事法庭对45名日本战犯公开审判的全过程。",
         "image": "",
-        "publishedAt": "2026-07-02T13:55:58.000Z",
+        "publishedAt": "2026-07-02T15:04:55.000Z",
         "source": "中新网"
       },
       {
-        "title": "最高法召开人民法院党的建设工作会议",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-02/10651718.shtml",
-        "summary": "中新网北京7月2日电 (记者 张素)7月2日，中国最高人民法院召开人民法院党的建设工作会议，最高人民法院党组书记、院长张军对加强新时代新征程人民法院党建工作提出要求。",
+        "title": "刘国中会见白俄罗斯第一副总理斯诺普科夫",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-02/10651776.shtml",
+        "summary": "新华社北京7月2日电 中共中央政治局委员、国务院副总理刘国中7月2日在京会见白俄罗斯第一副总理斯诺普科夫。",
         "image": "",
-        "publishedAt": "2026-07-02T13:47:21.000Z",
+        "publishedAt": "2026-07-02T15:02:47.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
+      {
+        "title": "多地高温 这份夏日防晒指南请收好",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-02/10651779.shtml",
+        "summary": "这两天，我国北方多地遭遇持续性高温。昨天(1日)，北京、河北、新疆发布高温预警。中国气象局预计，今天，内蒙古、甘肃、山东、河南、安徽等地会有35℃以上的高温出现。",
+        "image": "",
+        "publishedAt": "2026-07-02T15:19:57.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "中国艺术家金城荣获“比利时皇冠骑士勋章”",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-02/10651769.shtml",
+        "summary": "中新网深圳7月2日电 (记者 郭军)7月2日下午，“气泡王国——比利时国宝漫画百年巡礼”展览在深圳光明文化艺术中心美术馆开幕。现场，中国艺术家金城从比利时驻广州总领事裴伟岷(Wim Peeters)手中，接过由比利时国王菲利普亲自签署授予的“比利时皇冠骑士勋章(Knight in the Order...",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260702/4e49934e-da0f-43be-9560-4775d833465d_zsite.jpg",
+        "publishedAt": "2026-07-02T14:58:06.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "北京农业科技创新持续突破 一批标志性项目启动实施",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-02/10651761.shtml",
+        "summary": "中新网北京7月2日电 (记者 陈杭)北京建强现代农业发展载体，推动建设9个国家级农业产业强镇。做好“土特产”文章。培育184个“北京优农”品牌。深入推进产业融合发展，出台支持农加工中小企业发展、加强点状配套设施用地管理等系列政策。",
+        "image": "",
+        "publishedAt": "2026-07-02T14:27:34.000Z",
+        "source": "中新网"
+      },
       {
         "title": "青海：推出旅游公路品牌 深化交旅融合发展",
         "link": "https://www.chinanews.com.cn/sh/2026/07-02/10651746.shtml",
@@ -229,90 +253,82 @@
         "image": "",
         "publishedAt": "2026-07-02T14:11:43.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "上半年重庆口岸入出境外籍游客量同比增长86%",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-02/10651751.shtml",
-        "summary": "中新网重庆7月2日电 (张旭)重庆边检总站2日发布消息称，2026年上半年，该总站共查验入出境外籍旅客61万余人次，同比上涨86%。",
-        "image": "",
-        "publishedAt": "2026-07-02T14:09:57.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "成都警方通报一男子在小区楼顶跳伞：已行拘",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-02/10651744.shtml",
-        "summary": "中新网7月2日电 据“成都成华公安”微信公众号消息，成都市公安局成华区分局发布警情通报，针对近日网传“一男子在小区楼顶跳伞”的相关视频，成都市公安局成华区分局迅速开展调查。",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/07/02/64235713e4ee42da9753543c7528014a.jpg",
-        "publishedAt": "2026-07-02T14:06:53.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "云南“云台会”启幕在即 600多位台湾嘉宾将赴会",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-02/10651737.shtml",
-        "summary": "中新网昆明7月2日电 (记者 缪超)云南省人民政府新闻办公室2日对媒体公布，第14届云台会主题活动将于7月7日至12日在云南举办。600余位台湾嘉宾应邀与会。",
-        "image": "",
-        "publishedAt": "2026-07-02T14:03:57.000Z",
-        "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "成都中欧班列首列法国杜尔日美妆专列发车",
-        "link": "https://www.chinanews.com.cn/cj/2026/07-02/10651752.shtml",
-        "summary": "中新网成都7月2日电 (记者 张浪)记者2日从成都国际铁路港获悉，成都中欧班列首列法国杜尔日美妆专列当日从杜尔日顺利启程，标志着成都对法特色贸易通道实现全新突破。此次专列的开行是成都深耕中法跨境物流、落实中法经贸合作部署的重要举措，补齐了欧洲美妆对华进口物流短板，有力推动中法双边贸易均衡、高质量发展...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260702/d5f80df9-92ae-4e5a-b5a1-470b422c348f_zsite.jpg",
-        "publishedAt": "2026-07-02T14:20:32.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "2026北京·昌平生命科学论坛将于7月11日启幕",
-        "link": "https://www.chinanews.com.cn/cj/2026/07-02/10651711.shtml",
-        "summary": "中新网北京7月2日电 (记者 吕少威)2026北京·昌平生命科学论坛将于7月11日至12日在北京市昌平区石油科技交流中心举行。论坛覆盖行业交流、产融对接、政策发布等多个维度，上百名顶尖产业嘉宾将齐聚一堂，为医药健康创新发展提供前瞻智慧与创新思路。",
+        "title": "南非友人杜安睿：中国诸多发展经验值得非洲借鉴",
+        "link": "https://www.chinanews.com.cn/cj/2026/07-02/10651778.shtml",
+        "summary": "今年是中国共产党成立105周年。百余载风雨兼程，百余载接续奋斗。中国共产党人团结带领中国人民砥砺奋进，取得了举世瞩目的伟大成就。中国坚持走和平发展道路，推动构建人类命运共同体，以中国式现代化为世界提供新机遇。环球资讯广播特别策划《外国友人眼中的中国共产党》，邀请外国友人分享自己的在华经历，讲述他们眼...",
         "image": "",
-        "publishedAt": "2026-07-02T14:17:01.000Z",
+        "publishedAt": "2026-07-02T15:09:03.000Z",
         "source": "中新网"
       },
       {
-        "title": "天津暑期邮轮季启幕 预计接待邮轮近50艘次",
-        "link": "https://www.chinanews.com.cn/cj/2026/07-02/10651704.shtml",
-        "summary": "中新网天津7月2日电 (记者 周亚强)记者从天津东疆边检站获悉，“爱达·地中海”号邮轮2日靠泊天津国际邮轮母港，随后搭载旅客开启赴韩之旅，标志着天津口岸暑期邮轮季正式启幕。今年暑期，天津国际邮轮母港预计接待邮轮近50艘次。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260702/b7232d80-a8ec-4c50-acf8-98a515a5e7c1_zsite.JPG",
-        "publishedAt": "2026-07-02T14:16:27.000Z",
+        "title": "赛诺菲中国创新与运营中心成都新址启用",
+        "link": "https://www.chinanews.com.cn/cj/2026/07-02/10651772.shtml",
+        "summary": "中新网成都7月2日电 (单鹏)“中国创新与运营中心是赛诺菲业务运营转型中的关键一步。我们将依托中心的建设，为中国患者创造更具深远影响的价值。”2日，跨国生物制药企业赛诺菲全球执行副总裁兼业务运营负责人马德琳·罗奇(Madeleine Roach)在成都表示。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260702/4be7b8a9-b087-40d7-a778-b726ec57bea2_zsite.jpg",
+        "publishedAt": "2026-07-02T15:00:16.000Z",
         "source": "中新网"
       },
       {
-        "title": "香港管理资产总值2025年创历史新高 达42.2万亿港元",
-        "link": "https://www.chinanews.com.cn/cj/2026/07-02/10651712.shtml",
-        "summary": "中新社香港7月2日电 香港证券及期货事务监察委员会(简称“香港证监会”)2日发布《2025年资产及财富管理活动调查》显示，香港作为领先的全球资产及财富管理枢纽，2025年管理资产总值同比增长20%至42.2万亿港元(5.4万亿美元)，创下历史新高。",
+        "title": "AI浪潮下如何乘风出海？专家助浙企找准“风向标”",
+        "link": "https://www.chinanews.com.cn/cj/2026/07-02/10651764.shtml",
+        "summary": "中新网杭州7月2日电(蓝伊旎)7月2日，一场别开生面的会议在浙江杭州举行。2026年第二期“浙里出海”宏观形势报告会现场，经济学家、政府参事为400余名参会者分析全球宏观经济形势、展望产业与贸易发展趋势，到场嘉宾多数为外向型浙企代表。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260702/979e5d69-4a79-4508-805c-7491866ee894_zsite.jpg",
+        "publishedAt": "2026-07-02T14:40:51.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "报告：北京数字经济处于“规模扩张”向“质效跃升”转型阶段",
+        "link": "https://www.chinanews.com.cn/cj/2026/07-02/10651762.shtml",
+        "summary": "中新网北京7月2日电 (记者 陈杭)7月2日，全球数字经济大会“数智经济与人才培养”专题论坛在首都经济贸易大学举行。首都经济贸易大学北京数字经济发展研究院常务副院长李平代表团队在论坛上发布的《北京数字经济发展研究报告(2026)》显示，北京数字经济正处于由“规模扩张”向“质效跃升”转型的关键阶段。",
         "image": "",
-        "publishedAt": "2026-07-02T14:16:13.000Z",
+        "publishedAt": "2026-07-02T14:28:36.000Z",
         "source": "中新网"
       },
       {
-        "title": "“十五五”期间北京将以创新推动医药产业发展",
-        "link": "https://www.chinanews.com.cn/cj/2026/07-02/10651705.shtml",
-        "summary": "中新社北京7月2日电 (记者 吕少威)北京市经济和信息化局副局长苏国斌在2日于北京举行的新闻发布会上表示，“十五五”期间，北京将以科技创新和产业创新深度融合为主线，从品种引育、项目落地、企业培育和产业配套四个方面重点发力，推动北京医药工业规模不断扩大、质效持续提升。",
-        "image": "",
-        "publishedAt": "2026-07-02T14:15:35.000Z",
+        "title": "成都直达杭州多式联运班列正式开通",
+        "link": "https://www.chinanews.com.cn/cj/2026/07-02/10651758.shtml",
+        "summary": "中新网成都7月2日电 (记者 刘忠俊)7月2日，X8746次快捷物流班列从成都城厢站始发驶向杭州北站，标志着成都至杭州多式联运快速班列正式开通运行。该线路为成渝地区双城经济圈连通长三角城市群新增一条高时效货运大动脉，有力推动两大国家级城市群物流互通与产业链、供应链协同发展。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260702/7c0322b1-0961-446f-9c01-4d233e20393e_zsite.jpg",
+        "publishedAt": "2026-07-02T14:25:42.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "Venezuela quake survivor pulled out alive after eight days",
-        "link": "https://www.bbc.co.uk/news/articles/ce375v12z0qo?at_medium=RSS&at_campaign=rss",
-        "summary": "Hernán Gil was trapped under a collapsed multi-storey car park, and cheered rescuers on as they inched closer to him.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eee2/live/1e6d2850-761f-11f1-8c8c-f987daa96c22.jpg",
-        "publishedAt": "2026-07-02T14:11:50.000Z",
+        "title": "'Most massive' Russian attack on Kyiv kills at least 22",
+        "link": "https://www.bbc.co.uk/news/articles/c4gyv05gk4do?at_medium=RSS&at_campaign=rss",
+        "summary": "The latest barrage deployed the largest number of weapons on the capital and hit locations over a wide area.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6649/live/4f89e160-7630-11f1-ac11-19a4319081d7.jpg",
+        "publishedAt": "2026-07-02T17:49:48.000Z",
         "source": "BBC"
       },
       {
-        "title": "'Most massive' Russian attack on Kyiv kills at least 20",
-        "link": "https://www.bbc.co.uk/news/articles/c4gyv05gk4do?at_medium=RSS&at_campaign=rss",
-        "summary": "Kyiv's mayor declares a day of mourning after the major drone and missile attack on the Ukrainian capital.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3b2e/live/248b9c60-75d1-11f1-be8b-cbfeee563106.jpg",
-        "publishedAt": "2026-07-02T13:45:33.000Z",
+        "title": "Vatican excommunicates followers of global Catholic sect",
+        "link": "https://www.bbc.co.uk/news/articles/c5yz95188jjo?at_medium=RSS&at_campaign=rss",
+        "summary": "Around 600,000 followers of the Society of Saint Pius X, a Catholic sect, are affected.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/11db/live/76416a80-7617-11f1-ac6e-25f7e4f0c9b9.jpg",
+        "publishedAt": "2026-07-02T17:27:36.000Z",
         "source": "BBC"
+      },
+      {
+        "title": "Venezuela quake survivor pulled out alive after eight days",
+        "link": "https://www.bbc.co.uk/news/articles/ce375v12z0qo?at_medium=RSS&at_campaign=rss",
+        "summary": "Hernán Gil was trapped under a collapsed multi-storey car park, and encouraged them as they inched closer to him.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/116a/live/fcec98d0-763e-11f1-a627-714adb4eed6e.jpg",
+        "publishedAt": "2026-07-02T16:11:24.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "The USA’s red card controversy explained and why the decision won’t be overturned",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBzTmRYNWpaOW9qZGgycVJvTGNYcnJHbVlsQmRqQnlad3g0QkFiS2VQYTd3T05fTXFINGJYcUxvMG1vdklMN04wcVpSaU1pQ1IxY2pmYkJFb3gzcFZNMmhvczl2WVdTb1pUV0N2S3ZLbw?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-07-02T15:00:25.000Z",
+        "source": "CNN"
       },
       {
         "title": "11-year-old boy driving pickup truck crashes into group of Thai monks, killing 8",
@@ -321,31 +337,23 @@
         "image": "",
         "publishedAt": "2026-07-02T10:44:51.000Z",
         "source": "CNN"
-      },
-      {
-        "title": "Bloodier than Stalingrad: Number of casualties in Russia’s war on Ukraine reaches 2 million",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUjNIdmRRN3BKbFBKMzlkRTlGdkFQbXRFcFRBV3hEVXFjRFYxbE5TU0tGZ0VoYmhreElTZ05jQ3JESVZhclNCRjB5aWxxNUtRUVYyWUh5RmlnTnZKUlZXZUxhX2xpNllZZXFZd0hCdGxPR1lmTWdCUWZiNklSN1BGREdmRTZlc0VWcGc?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-07-02T10:16:54.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "China says pilot crashed small plane into skyscraper for 'personal reasons'",
-        "link": "https://www.bbc.co.uk/news/articles/cr47129ky6do?at_medium=RSS&at_campaign=rss",
-        "summary": "The 66-year-old, who died in the crash, had anxiety and referenced \"ending his life\" in his diary.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0be4/live/5d268880-7600-11f1-b976-0b9c15b0ccfc.jpg",
-        "publishedAt": "2026-07-02T09:21:31.000Z",
-        "source": "BBC"
       }
     ],
     "worldBusiness": [
       {
-        "title": "Government considers U-turn over extending pub hours for England v Mexico",
+        "title": "Pubs allowed to stay open until 5am for England Mexico match",
         "link": "https://www.bbc.co.uk/news/articles/c1kyr8747m9o?at_medium=RSS&at_campaign=rss",
-        "summary": "The government had initially said it would not relax licensing laws further than they already have been for the World Cup.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c933/live/1c5ebbb0-7614-11f1-ac6e-25f7e4f0c9b9.jpg",
-        "publishedAt": "2026-07-02T14:13:23.000Z",
+        "summary": "The government had initially said it would not relax licensing laws further for the World Cup.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5ab2/live/e30a5c40-7634-11f1-9510-1546718f668b.jpg",
+        "publishedAt": "2026-07-02T17:47:54.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Ryanair warns of 'queue chaos' from new EU border system",
+        "link": "https://www.bbc.co.uk/news/articles/c8x2y74wp9eo?at_medium=RSS&at_campaign=rss",
+        "summary": "The airline calls on European governments to postpone the EES system until after the summer holiday period.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e7bf/live/f7cb11e0-7609-11f1-b976-0b9c15b0ccfc.jpg",
+        "publishedAt": "2026-07-02T17:17:36.000Z",
         "source": "BBC"
       },
       {
@@ -365,16 +373,8 @@
         "source": "BBC"
       },
       {
-        "title": "EU border delays 'not bearable' over summer, warns airport boss",
-        "link": "https://www.bbc.co.uk/news/articles/c8x2y74wp9eo?at_medium=RSS&at_campaign=rss",
-        "summary": "Holidaymakers face long waits under the EU's new Entry-Exit System, the head of Berlin's airport says.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e7bf/live/f7cb11e0-7609-11f1-b976-0b9c15b0ccfc.jpg",
-        "publishedAt": "2026-07-02T10:15:47.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "US job growth slowed more than expected in June",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE8wcWhydVNILURpdjVNeVNZQllpaTRZUEJGajROTTdvZ3owT2dRdTZJM0lIc3J5Q2FuU3l0VDhUcFV0UXN5MEt1RGQ0UEdFRjZaM2t0eEQ5RHVPVDJRZnZoWHZqZUVEOW5Ecl8zTGtHajJodw?oc=5",
+        "title": "Steady but not strong: US job growth slowed in June",
+        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE12V3BobzVvNUhQT2RRaHlnUk5xb2ZJN1o1R04zc2IwcEhMU2w3UHBSanlOSXIwZ1dxREVBZWJ3aDFyV3ltdHlZYmwxOGdBOHV1UHpHNEhObVhZMmpjWkRuMEYzcjhXWUdkbGo0T3JDMlZoNDc2cUJR?oc=5",
         "summary": "",
         "image": "",
         "publishedAt": "2026-07-02T09:00:25.000Z",
@@ -425,62 +425,78 @@
     ],
     "domestic": [
       {
-        "title": "中国专家：日菲企图私分台湾岛以东海域非法无效",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-02/10651748.shtml",
-        "summary": "中新社北京7月2日电 (记者 阮煜琳)中国自然资源部海洋发展战略研究所2日发布《关于日菲宣布启动双边海域划界的法律评论》(下称《报告》)智库报告，分析批驳了日本和菲律宾近期宣布启动双边海域划界的法理谬误。中国专家指出，日菲私分企图在国际法上属非法无效，应立即停止所谓“划界”。",
+        "title": "良机里有良“机”（“三农”观察）",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-02/10651784.shtml",
+        "summary": "岁岁麦浪，季季耕耘。一台台农机跨区驰骋，夏粮归仓，新种入田。在山东省东阿县，大型智能收割机搭载北斗自动驾驶系统，按照设定好的路线高效作业。在湖北省孝昌县，烘干机组连轴转，除湿、风干无缝衔接。今年夏收期间，9个麦收重点省份密切协同，组织动员28万多台履带式收割机、7万多台各型烘干机，“抢”出丰收。",
         "image": "",
-        "publishedAt": "2026-07-02T14:21:16.000Z",
+        "publishedAt": "2026-07-02T15:25:54.000Z",
         "source": "中新网"
       },
       {
-        "title": "台湾专家：两岸AI产业发展，软硬件协同是关键",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-02/10651739.shtml",
-        "summary": "中新社北京7月2日电 (记者 张杨彬)对于大陆AI硬件不断创新、应用生态日益丰富，两岸产业互动将走向何方，台湾半导体产业专家、亚太芯谷研究院院长冯明宪2日在北京表示，两岸产业关系正从“缺什么补什么”的垂直互补，走向“差异合作”的水平竞合。",
-        "image": "",
-        "publishedAt": "2026-07-02T14:06:17.000Z",
+        "title": "张荣恭鼓励台湾青年勇于到大陆拼搏发展",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-02/10651783.shtml",
+        "summary": "中新社北京7月2日电 (徐雪莹 李百加)2026两岸青年峰会2日在北京举行。中国国民党副主席张荣恭在会上指出，两岸都是“龙的传人”，台湾青年完全可以把大陆当作施展拳脚、发挥智慧的地方。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260702/ee993277-9712-4e2d-a002-5eef74c8e26d_zsite.jpg",
+        "publishedAt": "2026-07-02T15:24:30.000Z",
         "source": "中新网"
       },
       {
-        "title": "侧记：当“跨海者”成为两岸“破壁人”",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-02/10651740.shtml",
-        "summary": "中新网北京7月2日电 题：侧记：当“跨海者”成为两岸“破壁人”",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/07/02/56838bf085b7423195f4445b33c356ed.jpg",
-        "publishedAt": "2026-07-02T14:04:59.000Z",
+        "title": "庆祝建党105周年 党史馆新展带你纵览光耀征程",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-02/10651781.shtml",
+        "summary": "为庆祝中国共产党成立105周年，昨天(7月1日)，“信仰如炬 光耀征程——党章、党徽、党旗、入党誓词专题展”在中国共产党历史展览馆开展。",
+        "image": "",
+        "publishedAt": "2026-07-02T15:15:21.000Z",
         "source": "中新网"
       },
       {
-        "title": "第三届海峡阅读大会福州启幕 多项两岸出版合作成果集中落地",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-02/10651732.shtml",
-        "summary": "中新社福州7月2日电 (叶秋云)第十八届海峡论坛·第三届海峡阅读大会2日在福建福州开幕，多项两岸出版合作成果在会上集中落地。",
+        "title": "铭记历史！新中国审判日本战犯史实特展开展",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-02/10651777.shtml",
+        "summary": "昨天(7月1日)，《正义审判——新中国审判日本战犯史实特展》在侵华日军第七三一部队罪证陈列馆开展，再现了1956年最高人民法院特别军事法庭对45名日本战犯公开审判的全过程。",
         "image": "",
-        "publishedAt": "2026-07-02T13:55:58.000Z",
+        "publishedAt": "2026-07-02T15:04:55.000Z",
         "source": "中新网"
       },
       {
-        "title": "最高法召开人民法院党的建设工作会议",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-02/10651718.shtml",
-        "summary": "中新网北京7月2日电 (记者 张素)7月2日，中国最高人民法院召开人民法院党的建设工作会议，最高人民法院党组书记、院长张军对加强新时代新征程人民法院党建工作提出要求。",
+        "title": "刘国中会见白俄罗斯第一副总理斯诺普科夫",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-02/10651776.shtml",
+        "summary": "新华社北京7月2日电 中共中央政治局委员、国务院副总理刘国中7月2日在京会见白俄罗斯第一副总理斯诺普科夫。",
         "image": "",
-        "publishedAt": "2026-07-02T13:47:21.000Z",
+        "publishedAt": "2026-07-02T15:02:47.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "Venezuela quake survivor pulled out alive after eight days",
-        "link": "https://www.bbc.co.uk/news/articles/ce375v12z0qo?at_medium=RSS&at_campaign=rss",
-        "summary": "Hernán Gil was trapped under a collapsed multi-storey car park, and cheered rescuers on as they inched closer to him.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eee2/live/1e6d2850-761f-11f1-8c8c-f987daa96c22.jpg",
-        "publishedAt": "2026-07-02T14:11:50.000Z",
+        "title": "'Most massive' Russian attack on Kyiv kills at least 22",
+        "link": "https://www.bbc.co.uk/news/articles/c4gyv05gk4do?at_medium=RSS&at_campaign=rss",
+        "summary": "The latest barrage deployed the largest number of weapons on the capital and hit locations over a wide area.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6649/live/4f89e160-7630-11f1-ac11-19a4319081d7.jpg",
+        "publishedAt": "2026-07-02T17:49:48.000Z",
         "source": "BBC"
       },
       {
-        "title": "'Most massive' Russian attack on Kyiv kills at least 20",
-        "link": "https://www.bbc.co.uk/news/articles/c4gyv05gk4do?at_medium=RSS&at_campaign=rss",
-        "summary": "Kyiv's mayor declares a day of mourning after the major drone and missile attack on the Ukrainian capital.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3b2e/live/248b9c60-75d1-11f1-be8b-cbfeee563106.jpg",
-        "publishedAt": "2026-07-02T13:45:33.000Z",
+        "title": "Vatican excommunicates followers of global Catholic sect",
+        "link": "https://www.bbc.co.uk/news/articles/c5yz95188jjo?at_medium=RSS&at_campaign=rss",
+        "summary": "Around 600,000 followers of the Society of Saint Pius X, a Catholic sect, are affected.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/11db/live/76416a80-7617-11f1-ac6e-25f7e4f0c9b9.jpg",
+        "publishedAt": "2026-07-02T17:27:36.000Z",
         "source": "BBC"
+      },
+      {
+        "title": "Venezuela quake survivor pulled out alive after eight days",
+        "link": "https://www.bbc.co.uk/news/articles/ce375v12z0qo?at_medium=RSS&at_campaign=rss",
+        "summary": "Hernán Gil was trapped under a collapsed multi-storey car park, and encouraged them as they inched closer to him.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/116a/live/fcec98d0-763e-11f1-a627-714adb4eed6e.jpg",
+        "publishedAt": "2026-07-02T16:11:24.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "The USA’s red card controversy explained and why the decision won’t be overturned",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBzTmRYNWpaOW9qZGgycVJvTGNYcnJHbVlsQmRqQnlad3g0QkFiS2VQYTd3T05fTXFINGJYcUxvMG1vdklMN04wcVpSaU1pQ1IxY2pmYkJFb3gzcFZNMmhvczl2WVdTb1pUV0N2S3ZLbw?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-07-02T15:00:25.000Z",
+        "source": "CNN"
       },
       {
         "title": "11-year-old boy driving pickup truck crashes into group of Thai monks, killing 8",
@@ -489,22 +505,6 @@
         "image": "",
         "publishedAt": "2026-07-02T10:44:51.000Z",
         "source": "CNN"
-      },
-      {
-        "title": "Bloodier than Stalingrad: Number of casualties in Russia’s war on Ukraine reaches 2 million",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUjNIdmRRN3BKbFBKMzlkRTlGdkFQbXRFcFRBV3hEVXFjRFYxbE5TU0tGZ0VoYmhreElTZ05jQ3JESVZhclNCRjB5aWxxNUtRUVYyWUh5RmlnTnZKUlZXZUxhX2xpNllZZXFZd0hCdGxPR1lmTWdCUWZiNklSN1BGREdmRTZlc0VWcGc?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-07-02T10:16:54.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "China says pilot crashed small plane into skyscraper for 'personal reasons'",
-        "link": "https://www.bbc.co.uk/news/articles/cr47129ky6do?at_medium=RSS&at_campaign=rss",
-        "summary": "The 66-year-old, who died in the crash, had anxiety and referenced \"ending his life\" in his diary.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0be4/live/5d268880-7600-11f1-b976-0b9c15b0ccfc.jpg",
-        "publishedAt": "2026-07-02T09:21:31.000Z",
-        "source": "BBC"
       }
     ],
     "nba": [
@@ -529,7 +529,15 @@
         "link": "https://www.espn.com/nba/story/_/id/49241843/sources-celtics-sending-brown-76ers-george-picks",
         "summary": "Jaylen Brown has a new home, with the Celtics agreeing to send their longtime star to the 76ers for Paul George, two first-round picks (2028, '31) and...",
         "image": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0701%2Fr1683009_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-07-02T13:13:45.000Z",
+        "publishedAt": "2026-07-02T16:08:13.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "Hardaway Sr.: Son can't use retired 10 with Heat",
+        "link": "https://www.espn.com/nba/story/_/id/49248333/tim-hardaway-sr-son-wear-retired-number-heat-deal",
+        "summary": "Tim Hardaway Sr. said he isn't letting his retired No. 10 come back into circulation for the Heat, even for his newly signed son.",
+        "image": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0702%2Fr1683317_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-07-02T16:08:13.000Z",
         "source": "ESPN"
       },
       {
@@ -537,7 +545,7 @@
         "link": "https://www.espn.com/nba/story/_/id/49237335/sources-mitchell-robinson-celtics-agree-3-year-474m-deal",
         "summary": "Mitchell Robinson, fresh off winning an NBA title with the Knicks, has agreed to a three-year, $47.4 million deal to sign with the Celtics, sources te...",
         "image": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2025%2F1223%2Fr1593084_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-07-02T13:13:45.000Z",
+        "publishedAt": "2026-07-02T16:08:13.000Z",
         "source": "ESPN"
       },
       {
@@ -545,27 +553,15 @@
         "link": "https://www.espn.com/nba/story/_/id/49237403/lakers-trading-jazz-center-walker-kessler-sources-say",
         "summary": "The Lakers are acquiring Walker Kessler from the Jazz for unprotected first-round picks in 2031 and 2033 and first-round swaps in 2028 and 2030 and si...",
         "image": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2025%2F0204%2Fr1447587_1024x576_16%2D9.jpg",
-        "publishedAt": "2026-07-02T13:13:45.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Beasley pleads not guilty to gambling charges",
-        "link": "https://www.espn.com/espn/story/_/id/49242530/former-nba-star-malik-beasley-pleads-not-guilty-gambling-charges",
-        "summary": "Malik Beasley pleads not guilty Wednesday to charges that he altered his play in certain games in 2024 to enrich sports bettors and ease his own debts...",
-        "image": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0701%2Fr1683045_1024x576_16%2D9.jpg",
-        "publishedAt": "2026-07-02T13:13:45.000Z",
+        "publishedAt": "2026-07-02T16:08:13.000Z",
         "source": "ESPN"
       }
     ]
   },
   "nbaScoreboard": {
-    "date": "2026-07-02",
+    "date": "2026-07-03",
     "currentIndex": 4,
     "days": [
-      {
-        "date": "2026-06-28",
-        "games": []
-      },
       {
         "date": "2026-06-29",
         "games": []
@@ -597,12 +593,16 @@
       {
         "date": "2026-07-06",
         "games": []
+      },
+      {
+        "date": "2026-07-07",
+        "games": []
       }
     ],
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-07-02",
+    "rotationLabel": "Curated Rotation · 2026-07-03",
     "sections": [
       {
         "id": "data-storage",
@@ -610,26 +610,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-5",
-            "sectionId": "data-storage",
-            "title": "The FAISS Library",
-            "authors": [
-              "Jeff Johnson",
-              "Matthijs Douze",
-              "Herve Jegou"
-            ],
-            "venue": "IEEE T-BD",
-            "year": 2021,
-            "quality": "高影响力",
-            "categories": [
-              "vector search",
-              "ANN"
-            ],
-            "link": "https://arxiv.org/abs/2401.08281",
-            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-6",
             "sectionId": "data-storage",
@@ -649,7 +629,7 @@
             ],
             "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
             "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-1",
@@ -671,6 +651,27 @@
             "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
             "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-2",
+            "sectionId": "data-storage",
+            "title": "Bigtable: A Distributed Storage System for Structured Data",
+            "authors": [
+              "Fay Chang",
+              "Jeffrey Dean",
+              "Sanjay Ghemawat",
+              "Wilson C. Hsieh"
+            ],
+            "venue": "OSDI",
+            "year": 2006,
+            "quality": "顶会",
+            "categories": [
+              "distributed systems",
+              "database"
+            ],
+            "link": "https://research.google/pubs/pub27898/",
+            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -680,27 +681,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-6",
-            "sectionId": "computer-vision",
-            "title": "DINOv2: Learning Robust Visual Features without Supervision",
-            "authors": [
-              "Maxime Oquab",
-              "Timothée Darcet",
-              "Théo Moutakanni",
-              "Huy V. Vo"
-            ],
-            "venue": "arXiv / Meta",
-            "year": 2023,
-            "quality": "高影响力",
-            "categories": [
-              "self-supervised",
-              "representation"
-            ],
-            "link": "https://arxiv.org/abs/2304.07193",
-            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-1",
             "sectionId": "computer-vision",
@@ -720,7 +700,7 @@
             ],
             "link": "https://arxiv.org/abs/1512.03385",
             "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-2",
@@ -742,6 +722,27 @@
             "link": "https://arxiv.org/abs/2005.12872",
             "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-3",
+            "sectionId": "computer-vision",
+            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+            "authors": [
+              "Alexey Dosovitskiy",
+              "Lucas Beyer",
+              "Alexander Kolesnikov",
+              "Dirk Weissenborn"
+            ],
+            "venue": "ICLR",
+            "year": 2021,
+            "quality": "顶会",
+            "categories": [
+              "vision transformer",
+              "classification"
+            ],
+            "link": "https://arxiv.org/abs/2010.11929",
+            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -751,27 +752,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-1",
-            "sectionId": "llm-memory",
-            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
-            "authors": [
-              "Patrick Lewis",
-              "Ethan Perez",
-              "Aleksandra Piktus",
-              "Fabio Petroni"
-            ],
-            "venue": "NeurIPS",
-            "year": 2020,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "retrieval"
-            ],
-            "link": "https://arxiv.org/abs/2005.11401",
-            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-2",
             "sectionId": "llm-memory",
@@ -791,7 +771,7 @@
             ],
             "link": "https://arxiv.org/abs/2203.08913",
             "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-3",
@@ -813,6 +793,27 @@
             "link": "https://arxiv.org/abs/2112.04426",
             "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-4",
+            "sectionId": "llm-memory",
+            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+            "authors": [
+              "Akari Asai",
+              "Zequn Zhang",
+              "Avirup Sil",
+              "Hannaneh Hajishirzi"
+            ],
+            "venue": "ICLR",
+            "year": 2024,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "self-reflection"
+            ],
+            "link": "https://arxiv.org/abs/2310.11511",
+            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -822,27 +823,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-2",
-            "sectionId": "agents",
-            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
-            "authors": [
-              "Timo Schick",
-              "Jane Dwivedi-Yu",
-              "Roberta Dessì",
-              "Ari Holtzman"
-            ],
-            "venue": "NeurIPS",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "tool use",
-              "agent"
-            ],
-            "link": "https://arxiv.org/abs/2302.04761",
-            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-3",
             "sectionId": "agents",
@@ -862,7 +842,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.03442",
             "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-4",
@@ -883,6 +863,27 @@
             ],
             "link": "https://arxiv.org/abs/2305.16291",
             "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-5",
+            "sectionId": "agents",
+            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+            "authors": [
+              "Qingyun Wu",
+              "Gagan Bansal",
+              "Jiaqi Zhang",
+              "Yiran Wu"
+            ],
+            "venue": "COLM",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "multi-agent",
+              "framework"
+            ],
+            "link": "https://arxiv.org/abs/2308.08155",
+            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
             "trackLabel": "轮换精选"
           }
         ]
