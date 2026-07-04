@@ -1,36 +1,28 @@
 {
-  "generatedAt": "2026-07-04T13:54:04.113Z",
+  "generatedAt": "2026-07-04T17:16:30.568Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 27,
-      "weatherCode": 51,
-      "windSpeed": 6
+      "temperature": 26,
+      "weatherCode": 3,
+      "windSpeed": 5
     },
     "today": {
-      "date": "2026-07-04",
-      "weatherCode": 53,
-      "description": "小雨",
-      "max": 36,
-      "min": 25,
-      "precipitationProbability": 39
+      "date": "2026-07-05",
+      "weatherCode": 95,
+      "description": "雷暴",
+      "max": 32,
+      "min": 24,
+      "precipitationProbability": 48
     },
     "forecast": [
-      {
-        "date": "2026-07-04",
-        "weatherCode": 53,
-        "description": "小雨",
-        "max": 36,
-        "min": 25,
-        "precipitationProbability": 39
-      },
       {
         "date": "2026-07-05",
         "weatherCode": 95,
         "description": "雷暴",
         "max": 32,
         "min": 24,
-        "precipitationProbability": 34
+        "precipitationProbability": 48
       },
       {
         "date": "2026-07-06",
@@ -38,7 +30,7 @@
         "description": "毛毛雨",
         "max": 33,
         "min": 21,
-        "precipitationProbability": 47
+        "precipitationProbability": 37
       },
       {
         "date": "2026-07-07",
@@ -46,7 +38,7 @@
         "description": "天气更新中",
         "max": 33,
         "min": 23,
-        "precipitationProbability": 70
+        "precipitationProbability": 90
       },
       {
         "date": "2026-07-08",
@@ -54,33 +46,50 @@
         "description": "毛毛雨",
         "max": 33,
         "min": 22,
-        "precipitationProbability": 49
+        "precipitationProbability": 45
+      },
+      {
+        "date": "2026-07-09",
+        "weatherCode": 55,
+        "description": "中雨",
+        "max": 34,
+        "min": 22,
+        "precipitationProbability": 35
       }
     ]
   },
   "classicQuote": {
-    "id": "analects-learning",
-    "text": "学而不思则罔，思而不学则殆。",
-    "source": "《论语》",
-    "author": "孔子",
-    "note": "提醒自己既要输入，也要沉淀，不要只忙不想。"
+    "id": "taoteching-accumulate",
+    "text": "合抱之木，生于毫末；九层之台，起于累土。",
+    "source": "《道德经》",
+    "author": "老子",
+    "note": "再大的目标，也要拆成今天能推进的一小步。"
   },
   "bookExcerpt": {
-    "id": "fortress-besieged-night",
-    "text": "夜仿佛纸浸了油，变成半透明体；它给太阳拥抱住了，分不出身来，也许是给太阳溶了，所以夕照晚霞隐褪后的夜色也带着酡红。",
-    "book": "《围城》",
-    "author": "钱钟书"
+    "id": "camel-xiangzi-sky",
+    "text": "天是越来越晴朗了，一轮火一样的太阳悬在空中，街上的一切都像在明晃晃地发着白光。",
+    "book": "《骆驼祥子》",
+    "author": "老舍"
   },
   "featuredPlace": {
-    "id": "202607031600",
-    "title": "凯泽斯堡，阿尔萨斯，法国",
+    "id": "202607041600",
+    "title": "瓦朗索勒高原的薰衣草行，普罗旺斯，法国",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "此行，不虚绕道",
-    "image": "https://www.bing.com/th?id=OHR.KaysersbergVillage_ZH-CN0445080679_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E5%87%AF%E6%B3%BD%E6%96%AF%E5%A0%A1&form=hpcapt&mkt=zh-cn"
+    "summary": "紫色花海",
+    "image": "https://www.bing.com/th?id=OHR.LavenderRows_ZH-CN0676810895_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E8%96%B0%E8%A1%A3%E8%8D%89%E5%B1%9E&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202607041600",
+      "title": "瓦朗索勒高原的薰衣草行，普罗旺斯，法国",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "紫色花海",
+      "image": "https://www.bing.com/th?id=OHR.LavenderRows_ZH-CN0676810895_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E8%96%B0%E8%A1%A3%E8%8D%89%E5%B1%9E&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202607031600",
       "title": "凯泽斯堡，阿尔萨斯，法国",
@@ -143,35 +152,50 @@
       "summary": "看起来很精神",
       "image": "https://www.bing.com/th?id=OHR.SaguaroSun_ZH-CN5820504732_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E5%B7%A8%E4%BA%BA%E6%9F%B1%E4%BB%99%E4%BA%BA%E6%8E%8C&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202606261600",
-      "title": "博尼亚德海滩上的漂流木, 亨廷岛, 南卡罗来纳州, 美国",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "逐渐失去立足之地的树木",
-      "image": "https://www.bing.com/th?id=OHR.BoneyardBeach_ZH-CN5540590570_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E4%BA%A8%E5%BB%B7%E5%B2%9B&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-07-04",
-    "dateLabel": "7月4日",
+    "dateKey": "2026-07-05",
+    "dateLabel": "7月5日",
     "items": [
       {
-        "year": "2024",
-        "text": "施凱爾帶領工黨在英國大選中取得壓倒性勝利，終結了保守黨長達14年的執政。",
-        "link": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4"
+        "year": "2012",
+        "text": "位於英國倫敦的碎片大厦竣工外側部分，2013年2月1日完工後該大廈高達310公尺而成為歐洲最高的摩天大樓。",
+        "link": "https://zh.wikipedia.org/wiki/2012%E5%B9%B4"
       },
       {
-        "year": "2012",
-        "text": "欧洲核子研究组织藉由大型强子对撞机的实验，成功发现基本粒子希格斯玻色子。",
-        "link": "https://zh.wikipedia.org/wiki/2012%E5%B9%B4"
+        "year": "2009",
+        "text": "中华人民共和国新疆维吾尔自治区首府乌鲁木齐市发生一系列骚乱事件，造成至少156人死亡、1080人受伤。",
+        "link": "https://zh.wikipedia.org/wiki/2009%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
+      {
+        "title": "王毅同瑞典外交大臣斯蒂纳加德会谈",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-04/10652900.shtml",
+        "summary": "当地时间2026年7月4日，中共中央政治局委员、外交部长王毅在斯德哥尔摩同瑞典外交大臣斯蒂纳加德举行会谈。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/07/04/6c72bb29bfe64ff2a0943f43a4df0667.png",
+        "publishedAt": "2026-07-04T15:11:08.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "瑞典首相克里斯特松会见王毅",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-04/10652896.shtml",
+        "summary": "当地时间2026年7月4日，瑞典首相克里斯特松在斯德哥尔摩会见中共中央政治局委员、外交部长王毅。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/07/04/affd7f112e37418c9051e95bb3216eec.jpg",
+        "publishedAt": "2026-07-04T14:53:49.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "全国台联第二十三届台胞青年千人夏令营武汉开营",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-04/10652883.shtml",
+        "summary": "中新社武汉7月4日电 (记者 刘大炜)全国台联第二十三届台胞青年千人夏令营开营式暨两岸青年联欢晚会4日在武汉大学爱平音乐厅举办。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260704/1bc58c79-8a3e-4e80-b772-1c9feee4a06d_zsite.jpg",
+        "publishedAt": "2026-07-04T14:01:52.000Z",
+        "source": "中新网"
+      },
       {
         "title": "一箭18星 中国成功发射千帆极轨13组卫星",
         "link": "https://www.chinanews.com.cn/gn/2026/07-04/10652877.shtml",
@@ -187,33 +211,33 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260704/c16583a8-78e6-4366-add1-eec5c1431faa_zsite.jpeg",
         "publishedAt": "2026-07-04T12:51:31.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "第十八届中国—葡语国家文化周（西宁站）开幕",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-04/10652860.shtml",
-        "summary": "中新网西宁7月4日电 (潘雨洁)青海—澳门·葡语国家经贸文化交流合作暨第十八届中国—葡语国家文化周(西宁站)开幕式4日举行。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260704/8ba3705a-7499-448a-820c-9a0adeb3a376_zsite.jpg",
-        "publishedAt": "2026-07-04T12:51:13.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "中国驻菲律宾大使走访菲律宾岭南国术总会及其志愿消防队",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-04/10652851.shtml",
-        "summary": "中新网马尼拉7月4日电 中国驻菲律宾大使井泉3日走访菲律宾岭南国术总会及其志愿消防队。",
-        "image": "",
-        "publishedAt": "2026-07-04T12:45:35.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "近镜头｜总书记深情寄望青年",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-04/10652853.shtml",
-        "summary": "视频：近镜头｜总书记深情寄望青年来源：新华社",
-        "image": "https://poss-videocloud.cns.com.cn/oss/2026/07/04/chinanews/MEIZI_YUNSHI/onair/C18F39AAF1E04CF39DA8E862924263FE.mp4",
-        "publishedAt": "2026-07-04T12:43:41.000Z",
-        "source": "中新网"
       }
     ],
     "chinaSociety": [
+      {
+        "title": "辽宁抚顺特大暴雨致3人死亡",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-04/10652904.shtml",
+        "summary": "辽宁抚顺防汛抗旱指挥部发布通报：7月4日凌晨1时至7时许，抚顺市区出现特大暴雨，全市平均降水量106毫米，最大降水量329.2毫米，1小时、3小时、6小时降雨强度均超历史极值。抚顺全市转移人口3596人。暴雨导致3人死亡。",
+        "image": "",
+        "publishedAt": "2026-07-04T15:55:15.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "广西迎战台风“美莎克”：航班取消 万人撤离涠洲岛",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-04/10652901.shtml",
+        "summary": "中新社南宁7月4日电 (张广权)今年第10号台风“美莎克”即将在广西与越南北部交界附近沿海再次登陆。广西气象台4日连发台风、暴雨双预警，广西多地迅速响应，全力迎战台风带来的强风暴雨。",
+        "image": "",
+        "publishedAt": "2026-07-04T15:33:45.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "企业有“调岗自由”，员工有“拒绝权利”吗？这场官司告诉你答案",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-04/10652895.shtml",
+        "summary": "眼下正值毕业季，许多人不久后将入职单位、签署劳动合同，进行轮岗、定岗。近日一则劳动争议案在网上引发广泛讨论。一位在劳动合同中原本定岗的电工突然被调去做饲养员，是合理用工还是变相裁员？有人认为，企业有权对员工进行岗位调整。另一些人则表示，即便调岗也应该遵循法律规定。",
+        "image": "",
+        "publishedAt": "2026-07-04T14:51:35.000Z",
+        "source": "中新网"
+      },
       {
         "title": "中国好水·万绿湖开渔活动在河源启幕",
         "link": "https://www.chinanews.com.cn/sh/2026/07-04/10652879.shtml",
@@ -229,85 +253,77 @@
         "image": "",
         "publishedAt": "2026-07-04T13:41:10.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "浙江古村上演“江南泼水节” 传统民俗激活“清凉经济”",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-04/10652871.shtml",
-        "summary": "中新网杭州7月4日电(郭其钰)中午时分，随着一声吆喝，村民们用石板闸门堵住水澳的出水口。不过两三分钟，清澈沁凉的山泉水便从水澳中涌出，顺着地势漫过青石板，整条老街瞬间化身水城。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260704/0a8b3977-938d-4757-914c-944a57cb6f41_zsite.jpg",
-        "publishedAt": "2026-07-04T13:13:37.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "特写：祁连山下马蹄疾",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-04/10652863.shtml",
-        "summary": "中新网张掖7月4日电 (程兆)骆驼方队从看台前奔过时，妥自虎站了起来。他穿着裕固族传统服饰，目光紧紧追着赛道上的一峰骆驼。骑在骆驼背上的，是他的侄子妥建墨。尘土被驼蹄扬起，热浪从赛场上翻过来，妥自虎一边挥手，一边朝着赛道大声喊了起来。身旁的观众听不清他喊了什么，却能从他涨红的脸和高高举起的手臂里，读...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260704/dfd67967-4a4d-47ab-9557-1bcacb0a54c8_zsite.jpg",
-        "publishedAt": "2026-07-04T13:04:58.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "云南大理州宾川县连发四次地震 最大震级4.4级",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-04/10652865.shtml",
-        "summary": "中新网昆明7月4日电 (记者 缪超)据中国地震台网消息，7月4日17时0分至18时28分，云南省大理白族自治州宾川县连续发生四次地震，最大震级4.4级。",
-        "image": "",
-        "publishedAt": "2026-07-04T13:04:46.000Z",
-        "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "AI浪潮下“一人公司”勾勒创业新图景",
-        "link": "https://www.chinanews.com.cn/cj/2026/07-04/10652874.shtml",
-        "summary": "中新社北京7月4日电 (记者 陈杭 吕少威)为期三天的2026数字经济产业博览会4日在北京落幕。作为博览会独创性板块，全球OPC共创节汇集来自内容营销、音乐创作等赛道的“一人公司”(即OPC，One Person Company)代表，呈现AI浪潮下的创业新图景。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260704/a71d247e-44ff-49cb-a475-dc6a6e4fe390_zsite.jpeg",
-        "publishedAt": "2026-07-04T13:36:18.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "2026年中国快递业务量已超1000亿件",
-        "link": "https://www.chinanews.com.cn/cj/2026/07-04/10652873.shtml",
-        "summary": "中新社北京7月4日电 (记者 王梦瑶)中国国家邮政局4日公布的监测数据显示，截至6月30日，2026年中国快递业务量已超1000亿件，比2025年达到千亿件提前了9天。邮政快递业发展的韧性，折射出中国消费市场平稳增长、经济发展稳中有进的良好态势。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260704/34f2beb9-83de-4a62-841e-8ea164b70a5f_zsite.JPG",
-        "publishedAt": "2026-07-04T13:35:58.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "欧洲百姓抢着买，欧盟忙着拦：中国“物美价廉”动了谁的蛋糕？｜真相",
-        "link": "https://www.chinanews.com.cn/cj/2026/07-04/10652872.shtml",
-        "summary": "中新网7月4日电 (宋亚芬)以前，欧洲消费者通过跨境电商从中国购买一个手机壳，只需要付手机壳的钱；而现在，他们还需要额外支付3欧元。",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/07/04/6eac84887f1a4a92a8bf48a194c00935.png",
-        "publishedAt": "2026-07-04T13:22:11.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "2026数字经济产业博览会举行 专家建言推动数字经济实体经济深度融合",
-        "link": "https://www.chinanews.com.cn/cj/2026/07-04/10652849.shtml",
-        "summary": "中新网北京7月4日电 (记者 张素)“数字经济已成为全球经济增长的核心引擎，中国正以技术创新为驱动、以产业落地为抓手、以国际合作为纽带，推动数字经济与实体经济深度融合。”数字中国发展战略工作委员会主任石恒臣说，此次博览会正是这一发展路径的生动缩影。",
+        "title": "配镜行业新规征求意见！“五步查验”帮助消费者避坑",
+        "link": "https://www.chinanews.com.cn/cj/2026/07-04/10652903.shtml",
+        "summary": "对于视力不好需要佩戴眼镜的消费者来说，验光配镜的准确性和可靠性非常重要。市场监管总局近日制定了《眼镜制配经营者计量行为合规要求》，昨天(3日)开始公开征求意见。这一新规主要针对目前配镜行业存在的哪些问题？消费者如何放心选配眼镜？",
         "image": "",
-        "publishedAt": "2026-07-04T12:46:01.000Z",
+        "publishedAt": "2026-07-04T15:51:42.000Z",
         "source": "中新网"
       },
       {
-        "title": "云南消费品以旧换新、购新补贴品类扩容",
-        "link": "https://www.chinanews.com.cn/cj/2026/07-04/10652815.shtml",
-        "summary": "中新网昆明7月4日电 (记者 缪超)据云南省商务厅4日消息，自2026年7月起云南省在现有家电以旧换新、数码和智能产品购新补贴品类基础上，新增9类补贴产品，并同步开放商户增补报名通道。",
+        "title": "新专业“城市更新”具体学什么，就业前景如何？一文了解",
+        "link": "https://www.chinanews.com.cn/cj/2026/07-04/10652902.shtml",
+        "summary": "当前，我国城市更新已步入数万亿级规模的市场。今年，教育部将城市更新增设为独立本科专业。这个专业具体学什么？人才培养的目标是什么？一起来了解。",
         "image": "",
-        "publishedAt": "2026-07-04T11:26:32.000Z",
+        "publishedAt": "2026-07-04T15:40:52.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "中国品牌正在重塑韩国进口汽车市场格局",
+        "link": "https://www.chinanews.com.cn/cj/2026/07-04/10652894.shtml",
+        "summary": "外媒说丨中国品牌正在重塑韩国进口汽车市场格局",
+        "image": "",
+        "publishedAt": "2026-07-04T14:31:21.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "中国市场正在为世界创造新机遇",
+        "link": "https://www.chinanews.com.cn/cj/2026/07-04/10652892.shtml",
+        "summary": "全球媒体聚焦 | 中国市场正在为世界创造新机遇",
+        "image": "",
+        "publishedAt": "2026-07-04T14:27:41.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "报告：北京稳居全球数字经济领跑城市 迈入体系引领新阶段",
+        "link": "https://www.chinanews.com.cn/cj/2026/07-04/10652884.shtml",
+        "summary": "中新社北京7月4日电 (记者 陈杭 徐婧)2025年北京数字经济增加值突破2.4万亿元(人民币，下同)，同比增长8.7%，占GDP比重达46.4%，在全球数字经济标杆城市指数评价中排名第二，稳居“全球领跑城市”。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260704/efe8aa2b-839e-4f9a-825f-b6aa09877b0b_zsite.jpeg",
+        "publishedAt": "2026-07-04T14:02:12.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
+        "title": "Former chess champion Kramnik banned over cheating remarks",
+        "link": "https://www.bbc.co.uk/news/articles/cd6epx607dqo?at_medium=RSS&at_campaign=rss",
+        "summary": "The former Russian world chess champion had accused other players, including the late Daniel Naroditsky, of cheating.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ffb/live/51aa3090-77b5-11f1-b976-0b9c15b0ccfc.jpg",
+        "publishedAt": "2026-07-04T15:45:15.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Injury ends Williams' Wimbledon comeback",
+        "link": "https://www.bbc.co.uk/sport/tennis/articles/ce95mxn1rlmo?at_medium=RSS&at_campaign=rss",
+        "summary": "Serena Williams pulls out of her planned Wimbledon doubles appearance with older sister Venus because of a knee injury.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/afa6/live/b2249b20-77b7-11f1-a777-2740d50846c8.jpg",
+        "publishedAt": "2026-07-04T15:06:26.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "Ukraine hits major oil terminal in Russia's St Petersburg",
         "link": "https://www.bbc.co.uk/news/articles/c8j2vmzxezro?at_medium=RSS&at_campaign=rss",
         "summary": "Ukrainian President Volodymyr Zelensky says the target is key infrastructure \"that generates revenue for Russia's war\".",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/737c/live/fec2f110-779f-11f1-90c7-73fde41eb72e.png",
-        "publishedAt": "2026-07-04T13:13:52.000Z",
+        "publishedAt": "2026-07-04T14:07:31.000Z",
         "source": "BBC"
       },
       {
-        "title": "Far-right Alternative for Germany party elects leaders as protesters and police clash",
+        "title": "Far-right Alternative for Germany party reelects leaders as protesters and police clash",
         "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4yRVpkSVFIT0djMWZlWTZPdk5tcFdTRWluN0hTSHNQVmtKNkhlQ3lsWmpPS0w3WkZaOFZBRmxTbWJaMTlmRFNMNURaSjc2RUxJMXN2UF9hd1pGSmJzdl9XdlZrVndTSVRZalh1d192SG5CU2hlMGFCZ0VjSUJ4UQ?oc=5",
         "summary": "",
         "image": "",
@@ -321,22 +337,6 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7c6f/live/071927b0-7789-11f1-a146-99f41269c606.jpg",
         "publishedAt": "2026-07-04T09:45:55.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Keiko Fujimori declared winner of Peru's presidential election weeks after vote",
-        "link": "https://www.bbc.co.uk/news/articles/cr5jpvv06e1o?at_medium=RSS&at_campaign=rss",
-        "summary": "The daughter of disgraced president Alberto Fujimori is declared winner of tight race nearly a month after voting took place.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8ad4/live/e811c470-777a-11f1-bfcd-0551ebb03f4c.jpg",
-        "publishedAt": "2026-07-04T07:52:55.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "‘Bhajan clubbing’ is trending among India’s Gen Z and it’s more prayer than party",
-        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOR3hrX3VOYmhoZEVCSi1NeHgteHZQWFdlakFwZ1hrM3diTEtVck51RDk0WHpLMHlQRzFSaVBkQ2hqRGRhaGl5Q0FCMHRCdU9NY1ZWTU1VYzBSZV9WV1NnSVBjNWhYWTdXUUNCNVR6ZUREZWxBSFZydDlyMzEzOGF6NF9aaHNWeUZTLUUzeEhtd3pUVlE?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-07-04T04:08:55.000Z",
-        "source": "CNN"
       }
     ],
     "worldBusiness": [
@@ -425,6 +425,30 @@
     ],
     "domestic": [
       {
+        "title": "王毅同瑞典外交大臣斯蒂纳加德会谈",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-04/10652900.shtml",
+        "summary": "当地时间2026年7月4日，中共中央政治局委员、外交部长王毅在斯德哥尔摩同瑞典外交大臣斯蒂纳加德举行会谈。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/07/04/6c72bb29bfe64ff2a0943f43a4df0667.png",
+        "publishedAt": "2026-07-04T15:11:08.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "瑞典首相克里斯特松会见王毅",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-04/10652896.shtml",
+        "summary": "当地时间2026年7月4日，瑞典首相克里斯特松在斯德哥尔摩会见中共中央政治局委员、外交部长王毅。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/07/04/affd7f112e37418c9051e95bb3216eec.jpg",
+        "publishedAt": "2026-07-04T14:53:49.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "全国台联第二十三届台胞青年千人夏令营武汉开营",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-04/10652883.shtml",
+        "summary": "中新社武汉7月4日电 (记者 刘大炜)全国台联第二十三届台胞青年千人夏令营开营式暨两岸青年联欢晚会4日在武汉大学爱平音乐厅举办。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260704/1bc58c79-8a3e-4e80-b772-1c9feee4a06d_zsite.jpg",
+        "publishedAt": "2026-07-04T14:01:52.000Z",
+        "source": "中新网"
+      },
+      {
         "title": "一箭18星 中国成功发射千帆极轨13组卫星",
         "link": "https://www.chinanews.com.cn/gn/2026/07-04/10652877.shtml",
         "summary": "中新社北京7月4日电 (记者 马帅莎)据中国航天科技集团消息，北京时间7月4日17时30分，中国在太原卫星发射中心使用长征六号改运载火箭，以“一箭18星”的方式，将千帆极轨13组卫星发射升空，卫星顺利进入预定轨道，发射任务取得圆满成功。",
@@ -439,43 +463,35 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260704/c16583a8-78e6-4366-add1-eec5c1431faa_zsite.jpeg",
         "publishedAt": "2026-07-04T12:51:31.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "第十八届中国—葡语国家文化周（西宁站）开幕",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-04/10652860.shtml",
-        "summary": "中新网西宁7月4日电 (潘雨洁)青海—澳门·葡语国家经贸文化交流合作暨第十八届中国—葡语国家文化周(西宁站)开幕式4日举行。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260704/8ba3705a-7499-448a-820c-9a0adeb3a376_zsite.jpg",
-        "publishedAt": "2026-07-04T12:51:13.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "中国驻菲律宾大使走访菲律宾岭南国术总会及其志愿消防队",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-04/10652851.shtml",
-        "summary": "中新网马尼拉7月4日电 中国驻菲律宾大使井泉3日走访菲律宾岭南国术总会及其志愿消防队。",
-        "image": "",
-        "publishedAt": "2026-07-04T12:45:35.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "近镜头｜总书记深情寄望青年",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-04/10652853.shtml",
-        "summary": "视频：近镜头｜总书记深情寄望青年来源：新华社",
-        "image": "https://poss-videocloud.cns.com.cn/oss/2026/07/04/chinanews/MEIZI_YUNSHI/onair/C18F39AAF1E04CF39DA8E862924263FE.mp4",
-        "publishedAt": "2026-07-04T12:43:41.000Z",
-        "source": "中新网"
       }
     ],
     "international": [
+      {
+        "title": "Former chess champion Kramnik banned over cheating remarks",
+        "link": "https://www.bbc.co.uk/news/articles/cd6epx607dqo?at_medium=RSS&at_campaign=rss",
+        "summary": "The former Russian world chess champion had accused other players, including the late Daniel Naroditsky, of cheating.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ffb/live/51aa3090-77b5-11f1-b976-0b9c15b0ccfc.jpg",
+        "publishedAt": "2026-07-04T15:45:15.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Injury ends Williams' Wimbledon comeback",
+        "link": "https://www.bbc.co.uk/sport/tennis/articles/ce95mxn1rlmo?at_medium=RSS&at_campaign=rss",
+        "summary": "Serena Williams pulls out of her planned Wimbledon doubles appearance with older sister Venus because of a knee injury.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/afa6/live/b2249b20-77b7-11f1-a777-2740d50846c8.jpg",
+        "publishedAt": "2026-07-04T15:06:26.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Ukraine hits major oil terminal in Russia's St Petersburg",
         "link": "https://www.bbc.co.uk/news/articles/c8j2vmzxezro?at_medium=RSS&at_campaign=rss",
         "summary": "Ukrainian President Volodymyr Zelensky says the target is key infrastructure \"that generates revenue for Russia's war\".",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/737c/live/fec2f110-779f-11f1-90c7-73fde41eb72e.png",
-        "publishedAt": "2026-07-04T13:13:52.000Z",
+        "publishedAt": "2026-07-04T14:07:31.000Z",
         "source": "BBC"
       },
       {
-        "title": "Far-right Alternative for Germany party elects leaders as protesters and police clash",
+        "title": "Far-right Alternative for Germany party reelects leaders as protesters and police clash",
         "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4yRVpkSVFIT0djMWZlWTZPdk5tcFdTRWluN0hTSHNQVmtKNkhlQ3lsWmpPS0w3WkZaOFZBRmxTbWJaMTlmRFNMNURaSjc2RUxJMXN2UF9hd1pGSmJzdl9XdlZrVndTSVRZalh1d192SG5CU2hlMGFCZ0VjSUJ4UQ?oc=5",
         "summary": "",
         "image": "",
@@ -489,34 +505,14 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7c6f/live/071927b0-7789-11f1-a146-99f41269c606.jpg",
         "publishedAt": "2026-07-04T09:45:55.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Keiko Fujimori declared winner of Peru's presidential election weeks after vote",
-        "link": "https://www.bbc.co.uk/news/articles/cr5jpvv06e1o?at_medium=RSS&at_campaign=rss",
-        "summary": "The daughter of disgraced president Alberto Fujimori is declared winner of tight race nearly a month after voting took place.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8ad4/live/e811c470-777a-11f1-bfcd-0551ebb03f4c.jpg",
-        "publishedAt": "2026-07-04T07:52:55.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "‘Bhajan clubbing’ is trending among India’s Gen Z and it’s more prayer than party",
-        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOR3hrX3VOYmhoZEVCSi1NeHgteHZQWFdlakFwZ1hrM3diTEtVck51RDk0WHpLMHlQRzFSaVBkQ2hqRGRhaGl5Q0FCMHRCdU9NY1ZWTU1VYzBSZV9WV1NnSVBjNWhYWTdXUUNCNVR6ZUREZWxBSFZydDlyMzEzOGF6NF9aaHNWeUZTLUUzeEhtd3pUVlE?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-07-04T04:08:55.000Z",
-        "source": "CNN"
       }
     ],
     "nba": []
   },
   "nbaScoreboard": {
-    "date": "2026-07-04",
+    "date": "2026-07-05",
     "currentIndex": 4,
     "days": [
-      {
-        "date": "2026-06-30",
-        "games": []
-      },
       {
         "date": "2026-07-01",
         "games": []
@@ -548,12 +544,16 @@
       {
         "date": "2026-07-08",
         "games": []
+      },
+      {
+        "date": "2026-07-09",
+        "games": []
       }
     ],
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-07-04",
+    "rotationLabel": "Curated Rotation · 2026-07-05",
     "sections": [
       {
         "id": "data-storage",
@@ -561,27 +561,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-1",
-            "sectionId": "data-storage",
-            "title": "The Log-Structured Merge-Tree (LSM-Tree)",
-            "authors": [
-              "Patrick O'Neil",
-              "Edward Cheng",
-              "Dieter Gawlick",
-              "Elizabeth O'Neil"
-            ],
-            "venue": "Acta Informatica",
-            "year": 1996,
-            "quality": "经典基础",
-            "categories": [
-              "storage",
-              "indexing"
-            ],
-            "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
-            "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-2",
             "sectionId": "data-storage",
@@ -601,7 +580,7 @@
             ],
             "link": "https://research.google/pubs/pub27898/",
             "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-3",
@@ -623,6 +602,27 @@
             "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
             "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-4",
+            "sectionId": "data-storage",
+            "title": "Dremel: Interactive Analysis of Web-Scale Datasets",
+            "authors": [
+              "Sergey Melnik",
+              "Andrey Gubarev",
+              "Jing Jing Long",
+              "Geoffrey Romer"
+            ],
+            "venue": "VLDB",
+            "year": 2010,
+            "quality": "顶会",
+            "categories": [
+              "analytics",
+              "columnar"
+            ],
+            "link": "https://research.google/pubs/pub36632/",
+            "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -632,27 +632,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-2",
-            "sectionId": "computer-vision",
-            "title": "End-to-End Object Detection with Transformers",
-            "authors": [
-              "Nicolas Carion",
-              "Francisco Massa",
-              "Gabriel Synnaeve",
-              "Nicolas Usunier"
-            ],
-            "venue": "ECCV",
-            "year": 2020,
-            "quality": "顶会",
-            "categories": [
-              "detection",
-              "transformer"
-            ],
-            "link": "https://arxiv.org/abs/2005.12872",
-            "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-3",
             "sectionId": "computer-vision",
@@ -672,7 +651,7 @@
             ],
             "link": "https://arxiv.org/abs/2010.11929",
             "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-4",
@@ -694,6 +673,27 @@
             "link": "https://arxiv.org/abs/2103.00020",
             "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-5",
+            "sectionId": "computer-vision",
+            "title": "Segment Anything",
+            "authors": [
+              "Alexander Kirillov",
+              "Eric Mintun",
+              "Nikhila Ravi",
+              "Hanzi Mao"
+            ],
+            "venue": "ICCV",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "segmentation",
+              "foundation model"
+            ],
+            "link": "https://arxiv.org/abs/2304.02643",
+            "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -703,27 +703,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-3",
-            "sectionId": "llm-memory",
-            "title": "RETRO: Improving Language Models by Retrieving From Trillions of Tokens",
-            "authors": [
-              "Sebastian Borgeaud",
-              "Arthur Mensch",
-              "Jordan Hoffmann",
-              "Trevor Cai"
-            ],
-            "venue": "DeepMind / arXiv",
-            "year": 2022,
-            "quality": "高影响力",
-            "categories": [
-              "retrieval",
-              "language model"
-            ],
-            "link": "https://arxiv.org/abs/2112.04426",
-            "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-4",
             "sectionId": "llm-memory",
@@ -743,7 +722,7 @@
             ],
             "link": "https://arxiv.org/abs/2310.11511",
             "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-5",
@@ -765,6 +744,27 @@
             "link": "https://arxiv.org/abs/2306.07174",
             "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-6",
+            "sectionId": "llm-memory",
+            "title": "MemoRAG: Moving towards Next-Gen RAG Via Memory-Inspired Knowledge Discovery",
+            "authors": [
+              "Rulin Shao",
+              "Yue Liu",
+              "Shuo Wang",
+              "Yichi Zhang"
+            ],
+            "venue": "arXiv",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "RAG",
+              "memory bank"
+            ],
+            "link": "https://arxiv.org/abs/2409.05591",
+            "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -774,27 +774,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-4",
-            "sectionId": "agents",
-            "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
-            "authors": [
-              "Guanzhi Wang",
-              "Yuqi Xie",
-              "Zixiang Zhou",
-              "Yujin Tang"
-            ],
-            "venue": "arXiv",
-            "year": 2023,
-            "quality": "高影响力",
-            "categories": [
-              "embodied agent",
-              "planning"
-            ],
-            "link": "https://arxiv.org/abs/2305.16291",
-            "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-5",
             "sectionId": "agents",
@@ -814,7 +793,7 @@
             ],
             "link": "https://arxiv.org/abs/2308.08155",
             "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-6",
@@ -835,6 +814,28 @@
             ],
             "link": "https://arxiv.org/abs/2405.15793",
             "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-1",
+            "sectionId": "agents",
+            "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+            "authors": [
+              "Shunyu Yao",
+              "Jeffrey Zhao",
+              "Dian Yu",
+              "Nan Du"
+            ],
+            "venue": "ICLR",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "agent",
+              "reasoning",
+              "tool use"
+            ],
+            "link": "https://arxiv.org/abs/2210.03629",
+            "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
             "trackLabel": "轮换精选"
           }
         ]
