@@ -1,36 +1,28 @@
 {
-  "generatedAt": "2026-07-08T14:35:34.770Z",
+  "generatedAt": "2026-07-08T17:48:54.526Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 27,
-      "weatherCode": 2,
-      "windSpeed": 2
+      "temperature": 25,
+      "weatherCode": 0,
+      "windSpeed": 3
     },
     "today": {
-      "date": "2026-07-08",
-      "weatherCode": 51,
-      "description": "毛毛雨",
-      "max": 31,
-      "min": 22,
+      "date": "2026-07-09",
+      "weatherCode": 95,
+      "description": "雷暴",
+      "max": 35,
+      "min": 24,
       "precipitationProbability": 56
     },
     "forecast": [
-      {
-        "date": "2026-07-08",
-        "weatherCode": 51,
-        "description": "毛毛雨",
-        "max": 31,
-        "min": 22,
-        "precipitationProbability": 56
-      },
       {
         "date": "2026-07-09",
         "weatherCode": 95,
         "description": "雷暴",
         "max": 35,
         "min": 24,
-        "precipitationProbability": 57
+        "precipitationProbability": 56
       },
       {
         "date": "2026-07-10",
@@ -38,7 +30,7 @@
         "description": "天气更新中",
         "max": 30,
         "min": 25,
-        "precipitationProbability": 94
+        "precipitationProbability": 97
       },
       {
         "date": "2026-07-11",
@@ -54,33 +46,50 @@
         "description": "天气更新中",
         "max": 30,
         "min": 25,
-        "precipitationProbability": 93
+        "precipitationProbability": 98
+      },
+      {
+        "date": "2026-07-13",
+        "weatherCode": 95,
+        "description": "雷暴",
+        "max": 30,
+        "min": 24,
+        "precipitationProbability": 54
       }
     ]
   },
   "classicQuote": {
-    "id": "dream-red-mansions",
-    "text": "世事洞明皆学问，人情练达即文章。",
-    "source": "《红楼梦》",
-    "author": "曹雪芹",
-    "note": "技术之外，理解人和场景，往往更能拉开差距。"
+    "id": "mencius-perseverance",
+    "text": "虽千万人，吾往矣。",
+    "source": "《孟子》",
+    "author": "孟子",
+    "note": "认准方向之后，关键是稳稳地往前走。"
   },
   "bookExcerpt": {
-    "id": "floating-life-lotus",
-    "text": "芸坐其侧，素手烹茶，窗外新荷微香，连晚风也像带着水意，从竹帘间一寸寸地漫进来。",
-    "book": "《浮生六记》",
-    "author": "沈复"
+    "id": "red-mansion-snow",
+    "text": "只见大地白茫茫一片真干净，山川树木都隐在雪光里，天地像忽然静下来，只余风过回廊的细响。",
+    "book": "《红楼梦》",
+    "author": "曹雪芹"
   },
   "featuredPlace": {
-    "id": "202607071600",
-    "title": "阿蒂特兰湖的日出，危地马拉",
+    "id": "202607081600",
+    "title": "在沙巴的水稻田，老街，越南",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "远古火山的回响",
-    "image": "https://www.bing.com/th?id=OHR.LakeAtitlan_ZH-CN1920221893_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E5%8D%B1%E5%9C%B0%E9%A9%AC%E6%8B%89+%E9%98%BF%E8%92%82%E7%89%B9%E5%85%B0%E6%B9%96&form=hpcapt&mkt=zh-cn"
+    "summary": "步步传承",
+    "image": "https://www.bing.com/th?id=OHR.SapaVietnam_ZH-CN2178893672_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E8%B6%8A%E5%8D%97%E8%80%81%E8%A1%97&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202607081600",
+      "title": "在沙巴的水稻田，老街，越南",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "步步传承",
+      "image": "https://www.bing.com/th?id=OHR.SapaVietnam_ZH-CN2178893672_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E8%B6%8A%E5%8D%97%E8%80%81%E8%A1%97&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202607071600",
       "title": "阿蒂特兰湖的日出，危地马拉",
@@ -143,35 +152,34 @@
       "summary": "走进埃斯纳神圣的世界",
       "image": "https://www.bing.com/th?id=OHR.TempleEsna_ZH-CN9834689523_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E5%9F%83%E5%8F%8A%E5%9F%83%E6%96%AF%E7%BA%B3%E7%A5%9E%E5%BA%99&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202606301600",
-      "title": "地牢省立公园, 纽芬兰和拉布拉多省, 加拿大",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "大西洋雕琢而成的加拿大",
-      "image": "https://www.bing.com/th?id=OHR.DungeonPark_ZH-CN9544093701_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E5%9C%B0%E7%89%A2%E7%9C%81%E7%AB%8B%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-07-08",
-    "dateLabel": "7月8日",
+    "dateKey": "2026-07-09",
+    "dateLabel": "7月9日",
     "items": [
       {
         "year": "2022",
-        "text": "前日本首相安倍晉三於奈良縣奈良市大和西大寺站附近進行的第26屆日本參議院議員通常選舉演講中，遭前海上自衛隊員山上徹也以自製手槍近距離槍擊，後緊急送醫搶救無效身亡，享壽67歲。",
+        "text": "在反政府示威者占领总统府的迫使下，斯里兰卡总理拉尼尔·维克勒马辛哈宣布辞职。",
         "link": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4"
       },
       {
-        "year": "2021",
-        "text": "美國總統喬·拜登宣布自阿富汗戰爭以來駐守在阿富汗的美軍將於同年8月31日全面撤軍完畢。",
-        "link": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4"
+        "year": "2016",
+        "text": "香港受超強颱風尼伯特下沉氣流影響，天文台下午4時氣溫升至攝氏35.6度，是今年最熱，更是自1968年錄得35.7度以來最熱七月天，亦是有紀錄以來第二熱的七月天。其中跑馬地錄得最高37....",
+        "link": "https://zh.wikipedia.org/wiki/2016%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
+      {
+        "title": "习言道｜我们必须抓住历史机遇，迎接时代挑战，加快推进高水平科技自立自强",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-08/10655542.shtml",
+        "summary": "7月8日，国家科学技术奖励大会、中国科学院第二十二次院士大会和中国工程院第十八次院士大会、中国科学技术协会第十一次全国代表大会在人民大会堂隆重召开。中共中央总书记、国家主席、中央军委主席习近平出席大会，为国家最高科学技术奖获得者等颁奖并发表重要讲话。他指出——",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/07/08/13a72ba6cdc645a68fd8409745d24af4.gif",
+        "publishedAt": "2026-07-08T15:26:35.000Z",
+        "source": "中新网"
+      },
       {
         "title": "第十七届津台投资合作洽谈会在天津开幕",
         "link": "https://www.chinanews.com.cn/gn/2026/07-08/10655529.shtml",
@@ -203,17 +211,25 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260708/6516922d-975b-4224-8eb8-b0d4c0964c31_zsite.jpg",
         "publishedAt": "2026-07-08T13:51:49.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "涉国民党党产“三中案” 马英九无罪确定",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-08/10655504.shtml",
-        "summary": "中新社台北7月8日电 (记者 陈建新)台“最高法院”8日驳回“三中案”相关上诉，中国国民党前主席马英九被判无罪确定。",
-        "image": "",
-        "publishedAt": "2026-07-08T13:51:23.000Z",
-        "source": "中新网"
       }
     ],
     "chinaSociety": [
+      {
+        "title": "汛情谣言有哪些套路？如何识别？一文了解",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-09/10655546.shtml",
+        "summary": "受台风“美莎克”影响，近日广西多地出现持续强降雨天气。就在各地全力开展防汛救灾之际，多条不实信息借汛情热点在网络扩散。广西网络举报部门先后集中通报多起典型谣言案例，包括“北海村民要求先救猪后救人”“广西老人独坐屋顶待救援”等，均为不实信息。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/07/09/39dad38057d341d6b82eb851fa9fc23c.jpg",
+        "publishedAt": "2026-07-08T16:17:56.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "车辆涉水熄火被困怎么办？这些自救方法一定要掌握",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-09/10655545.shtml",
+        "summary": "近期，多地遭遇连续强降雨，城市道路、立交桥下、低洼路段易出现大面积积水，车辆涉水通行风险升高。如果车辆误入积水路段熄火，人员被困车内，应该怎么自救？",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/07/09/040535191feb42638164afaa6bb1e9d3.jpg",
+        "publishedAt": "2026-07-08T16:10:04.000Z",
+        "source": "中新网"
+      },
       {
         "title": "台风“巴威”正逐步逼近我国东南沿海 居民日常要如何防范应对？一文了解↓",
         "link": "https://www.chinanews.com.cn/sh/2026/07-08/10655532.shtml",
@@ -236,22 +252,6 @@
         "summary": "新华社武汉7月7日电(记者龚联康、田中全)6日20时许，湖北省黄冈市黄州区遭遇罕见龙卷风灾害天气。龙卷风自长江对岸形成并快速袭来，越过大堤向黄州城区席卷，沿途居民区、物流园区、工业厂区受损严重。",
         "image": "",
         "publishedAt": "2026-07-08T14:00:48.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "2026年黑龙江省夏季避暑旅游“百日行动”启动",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-08/10655515.shtml",
-        "summary": "中新社黑龙江鸡西7月8日电 (记者 王琳 王妮娜)黑龙江省特色文化旅游推介会于8日晚在鸡西市会展中心体育馆举行，会上启动2026年黑龙江省夏季避暑旅游“百日行动”，集中发布避暑消夏的新线路、新产品、新场景、新服务。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260708/a0bb5d44-7f7d-45a4-9f8e-34a8e5a55298_zsite.jpg",
-        "publishedAt": "2026-07-08T14:00:30.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "党群同心 共守家园（党旗在基层一线高高飘扬·防汛救灾）",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-08/10655517.shtml",
-        "summary": "党群同心 共守家园(党旗在基层一线高高飘扬·防汛救灾)",
-        "image": "",
-        "publishedAt": "2026-07-08T13:55:53.000Z",
         "source": "中新网"
       }
     ],
@@ -299,11 +299,11 @@
     ],
     "worldTop": [
       {
-        "title": "German doctor jailed for murder of 15 patients and suspected of more",
-        "link": "https://www.bbc.co.uk/news/articles/cq819jyp2g7o?at_medium=RSS&at_campaign=rss",
-        "summary": "The German palliative care doctor has been sentenced to life imprisonment for killing 15 of his patients.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aaf0/live/9a971ed0-1aa0-11f0-b1b3-7358f8d35a35.jpg",
-        "publishedAt": "2026-07-08T14:25:25.000Z",
+        "title": "Ukraine to get licence to produce Patriot missiles, Trump says",
+        "link": "https://www.bbc.co.uk/news/articles/ce8klree690o?at_medium=RSS&at_campaign=rss",
+        "summary": "Although the Patriots are highly effective against Russia's ballistic missiles, they also have lengthy production times.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ca1/live/ce2ce8c0-7af2-11f1-94d8-c95634a95d3e.jpg",
+        "publishedAt": "2026-07-08T17:18:14.000Z",
         "source": "BBC"
       },
       {
@@ -311,40 +311,56 @@
         "link": "https://www.bbc.co.uk/news/articles/clyw8w1g409o?at_medium=RSS&at_campaign=rss",
         "summary": "Speaking ahead of a Nato summit, the president says US negotiators can keep talking with the Iranians \"if they want\".",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/303b/live/574a8a30-7ab8-11f1-b976-0b9c15b0ccfc.jpg",
-        "publishedAt": "2026-07-08T11:18:28.000Z",
+        "publishedAt": "2026-07-08T17:01:49.000Z",
         "source": "BBC"
       },
       {
-        "title": "Nato allies announce £37bn for new missile project",
-        "link": "https://www.bbc.co.uk/news/articles/ckg4e3lwzqzo?at_medium=RSS&at_campaign=rss",
-        "summary": "Prime Minister Sir Keir Starmer will convene around a dozen leaders to discuss the programme in Ankara.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4b9c/live/d6af33b0-7a73-11f1-b49c-fd67f645cd09.jpg",
-        "publishedAt": "2026-07-08T05:57:53.000Z",
+        "title": "Flight school pilot jumps to his death midair, leaving student to land plane",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5UdXNCUVk5c2xWR1RtYUt6OTNTeGNrSV9MUDN6b1ozejZfa3VpdU4wMmZoTVJqTmRpR3dsODhTRHlWUDIxMV9DeWQxVHZCYUgwVW9OeDdVemtSOFlXWmF3OXNuc1NpMmFIU2dydUdlUmFxTEw0UW9wZEVVNA?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-07-08T15:29:30.000Z",
+        "source": "CNN"
+      },
+      {
+        "title": "Teenager arrested after two girls, 13, seriously injured in German school attack",
+        "link": "https://www.bbc.co.uk/news/articles/c0qyvkgndzpo?at_medium=RSS&at_campaign=rss",
+        "summary": "Police said a major operation was under way in the area of Welfen-Gymnasium secondary school in Schongau, Bavaria.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/06e6/live/ba4f3b90-7ada-11f1-9c5e-418249f4ce83.jpg",
+        "publishedAt": "2026-07-08T15:09:08.000Z",
         "source": "BBC"
       },
       {
-        "title": "US strikes target Iranian military boats",
-        "link": "https://www.bbc.co.uk/news/videos/cn94nqzwpxwo?at_medium=RSS&at_campaign=rss",
-        "summary": "The US has launched the strikes on Iran in response to attacks on three oil tankers in the Strait of Hormuz.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0a58/live/59564310-7a94-11f1-932b-1f29e7985956.jpg",
-        "publishedAt": "2026-07-08T05:42:37.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Will Le Pen rise again? French nationalist leader defiant after court's ruling",
-        "link": "https://www.bbc.co.uk/news/articles/cvgdlprp1r3o?at_medium=RSS&at_campaign=rss",
-        "summary": "Within hours of a court of appeal confirming a guilty verdict, Marine Le Pen had already launched her presidential campaign.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a1d7/live/39e985c0-7a6f-11f1-bee8-53ce494e1abc.jpg",
-        "publishedAt": "2026-07-08T03:22:46.000Z",
-        "source": "BBC"
+        "title": "Explained: Egypt’s fiery accusations after controversial World Cup defeat",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5lS3ZpaF9ONXdRWHRSdV9fLTFNNUYwX2hQUkJHd1dmNEVZdC1hYXNRcndrZmxtV28wM2hMZ1hJbHU3UkRHM2ZTLVpNN01Dc3N2b2lteHNzZFFCYXVxcmhaZ1JkLU1CMEJvSmtrLTBrNA?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-07-08T15:00:25.000Z",
+        "source": "CNN"
       }
     ],
     "worldBusiness": [
       {
+        "title": "Online marketplaces still selling dozens of unsafe baby products, Which? finds",
+        "link": "https://www.bbc.co.uk/news/articles/c1dy11vvwk1o?at_medium=RSS&at_campaign=rss",
+        "summary": "Pillows, sleeping bags and feeders subject to safety notices were found on sites including Amazon and TikTok.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fecf/live/40016180-7ace-11f1-a130-2b898c796aa9.jpg",
+        "publishedAt": "2026-07-08T16:27:42.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Trump is playing with economic fire by calling the peace deal with Iran ‘over’",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB5Tk9GdGtTbEt3RWRLUUNXbUdKRXQ4a2xYcWpwUEpnT3M2Q3JxZ2UzRzc2RGRRNldVVnBLbGxfT3diVEtqX0ZPZjNVVTgySi1HbVhSQ3BEMVR6aW5iV2lxU0NvNHlGdjhlbkpjY1NkcTRSdkdVajd2R2tuUQ?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-07-08T14:14:25.000Z",
+        "source": "CNN"
+      },
+      {
         "title": "Outcry as Meta lets users make AI images from public Instagram profile pics",
         "link": "https://www.bbc.co.uk/news/articles/cp9lee19y1yo?at_medium=RSS&at_campaign=rss",
         "summary": "The tech giant said people can opt out - but privacy campaigners called it a \"recipe for disaster\".",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/690f/live/0b8f10a0-7ac4-11f1-b541-536d253827b8.png",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2fa5/live/3d76fa30-7adb-11f1-bee8-53ce494e1abc.png",
         "publishedAt": "2026-07-08T12:28:03.000Z",
         "source": "BBC"
       },
@@ -363,22 +379,6 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6272/live/5288e910-7a2c-11f1-9510-1546718f668b.png",
         "publishedAt": "2026-07-08T09:31:56.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Trains and emergency calls affected after major outage at Australia's largest telecoms company",
-        "link": "https://www.bbc.co.uk/news/articles/cgevw0d95pdo?at_medium=RSS&at_campaign=rss",
-        "summary": "Servers at data centres in Sydney and Melbourne were to blame but the exact cause remains unknown.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f43d/live/8e1bb6a0-7a96-11f1-932b-1f29e7985956.jpg",
-        "publishedAt": "2026-07-08T07:53:37.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Hundreds of jobs at risk as John Lewis plans to cut some services",
-        "link": "https://www.bbc.co.uk/news/articles/c30y4vqq4p6o?at_medium=RSS&at_campaign=rss",
-        "summary": "No final decision has been made but the job cuts will happen in the autumn if the redundancy plans are approved.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0b4e/live/7543c880-7a68-11f1-b3a0-9d60633dee75.jpg",
-        "publishedAt": "2026-07-08T01:04:44.000Z",
-        "source": "BBC"
       }
     ],
     "worldTech": [
@@ -386,8 +386,16 @@
         "title": "Outcry as Meta lets users make AI images from public Instagram profile pics",
         "link": "https://www.bbc.co.uk/news/articles/cp9lee19y1yo?at_medium=RSS&at_campaign=rss",
         "summary": "The tech giant said people can opt out - but privacy campaigners called it a \"recipe for disaster\".",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/690f/live/0b8f10a0-7ac4-11f1-b541-536d253827b8.png",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2fa5/live/3d76fa30-7adb-11f1-bee8-53ce494e1abc.png",
         "publishedAt": "2026-07-08T12:28:03.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "How Esports World Cup moved from Saudi Arabia to Paris in 8 weeks",
+        "link": "https://www.bbc.co.uk/news/articles/ckg888l8lzjo?at_medium=RSS&at_campaign=rss",
+        "summary": "The Esports World Cup gets going in Paris after a last-minute move from Saudi Arabia. Is it any less controversial?",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/761c/live/51aa33c0-7a2a-11f1-b976-0b9c15b0ccfc.jpg",
+        "publishedAt": "2026-07-08T08:43:00.000Z",
         "source": "BBC"
       },
       {
@@ -413,17 +421,17 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cc35/live/26aac8a0-794f-11f1-bfee-d367081f1131.jpg",
         "publishedAt": "2026-07-06T15:18:53.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Want to leverage wearable tech like a World Cup athlete? Here are the metrics to track",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOFNUbncwSTE0Y0JkMC1wemR6LXpkMmFFTWl1UWxQeElSczJrUk1mODJMTVlYR1h0OU94Y29Ud21peEtmMUY1QmVfV1VsS1l2MHg4N2hKaU9Iek1OeUE0enNXbDhkbE1QS0J5dmlhNmlFZ3IzZEtUN2tiblVITTBINnFtcE40UQ?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-07-05T10:30:25.000Z",
-        "source": "CNN"
       }
     ],
     "domestic": [
+      {
+        "title": "习言道｜我们必须抓住历史机遇，迎接时代挑战，加快推进高水平科技自立自强",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-08/10655542.shtml",
+        "summary": "7月8日，国家科学技术奖励大会、中国科学院第二十二次院士大会和中国工程院第十八次院士大会、中国科学技术协会第十一次全国代表大会在人民大会堂隆重召开。中共中央总书记、国家主席、中央军委主席习近平出席大会，为国家最高科学技术奖获得者等颁奖并发表重要讲话。他指出——",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/07/08/13a72ba6cdc645a68fd8409745d24af4.gif",
+        "publishedAt": "2026-07-08T15:26:35.000Z",
+        "source": "中新网"
+      },
       {
         "title": "第十七届津台投资合作洽谈会在天津开幕",
         "link": "https://www.chinanews.com.cn/gn/2026/07-08/10655529.shtml",
@@ -455,23 +463,15 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260708/6516922d-975b-4224-8eb8-b0d4c0964c31_zsite.jpg",
         "publishedAt": "2026-07-08T13:51:49.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "涉国民党党产“三中案” 马英九无罪确定",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-08/10655504.shtml",
-        "summary": "中新社台北7月8日电 (记者 陈建新)台“最高法院”8日驳回“三中案”相关上诉，中国国民党前主席马英九被判无罪确定。",
-        "image": "",
-        "publishedAt": "2026-07-08T13:51:23.000Z",
-        "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "German doctor jailed for murder of 15 patients and suspected of more",
-        "link": "https://www.bbc.co.uk/news/articles/cq819jyp2g7o?at_medium=RSS&at_campaign=rss",
-        "summary": "The German palliative care doctor has been sentenced to life imprisonment for killing 15 of his patients.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aaf0/live/9a971ed0-1aa0-11f0-b1b3-7358f8d35a35.jpg",
-        "publishedAt": "2026-07-08T14:25:25.000Z",
+        "title": "Ukraine to get licence to produce Patriot missiles, Trump says",
+        "link": "https://www.bbc.co.uk/news/articles/ce8klree690o?at_medium=RSS&at_campaign=rss",
+        "summary": "Although the Patriots are highly effective against Russia's ballistic missiles, they also have lengthy production times.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ca1/live/ce2ce8c0-7af2-11f1-94d8-c95634a95d3e.jpg",
+        "publishedAt": "2026-07-08T17:18:14.000Z",
         "source": "BBC"
       },
       {
@@ -479,44 +479,40 @@
         "link": "https://www.bbc.co.uk/news/articles/clyw8w1g409o?at_medium=RSS&at_campaign=rss",
         "summary": "Speaking ahead of a Nato summit, the president says US negotiators can keep talking with the Iranians \"if they want\".",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/303b/live/574a8a30-7ab8-11f1-b976-0b9c15b0ccfc.jpg",
-        "publishedAt": "2026-07-08T11:18:28.000Z",
+        "publishedAt": "2026-07-08T17:01:49.000Z",
         "source": "BBC"
       },
       {
-        "title": "Nato allies announce £37bn for new missile project",
-        "link": "https://www.bbc.co.uk/news/articles/ckg4e3lwzqzo?at_medium=RSS&at_campaign=rss",
-        "summary": "Prime Minister Sir Keir Starmer will convene around a dozen leaders to discuss the programme in Ankara.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4b9c/live/d6af33b0-7a73-11f1-b49c-fd67f645cd09.jpg",
-        "publishedAt": "2026-07-08T05:57:53.000Z",
+        "title": "Flight school pilot jumps to his death midair, leaving student to land plane",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5UdXNCUVk5c2xWR1RtYUt6OTNTeGNrSV9MUDN6b1ozejZfa3VpdU4wMmZoTVJqTmRpR3dsODhTRHlWUDIxMV9DeWQxVHZCYUgwVW9OeDdVemtSOFlXWmF3OXNuc1NpMmFIU2dydUdlUmFxTEw0UW9wZEVVNA?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-07-08T15:29:30.000Z",
+        "source": "CNN"
+      },
+      {
+        "title": "Teenager arrested after two girls, 13, seriously injured in German school attack",
+        "link": "https://www.bbc.co.uk/news/articles/c0qyvkgndzpo?at_medium=RSS&at_campaign=rss",
+        "summary": "Police said a major operation was under way in the area of Welfen-Gymnasium secondary school in Schongau, Bavaria.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/06e6/live/ba4f3b90-7ada-11f1-9c5e-418249f4ce83.jpg",
+        "publishedAt": "2026-07-08T15:09:08.000Z",
         "source": "BBC"
       },
       {
-        "title": "US strikes target Iranian military boats",
-        "link": "https://www.bbc.co.uk/news/videos/cn94nqzwpxwo?at_medium=RSS&at_campaign=rss",
-        "summary": "The US has launched the strikes on Iran in response to attacks on three oil tankers in the Strait of Hormuz.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0a58/live/59564310-7a94-11f1-932b-1f29e7985956.jpg",
-        "publishedAt": "2026-07-08T05:42:37.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Will Le Pen rise again? French nationalist leader defiant after court's ruling",
-        "link": "https://www.bbc.co.uk/news/articles/cvgdlprp1r3o?at_medium=RSS&at_campaign=rss",
-        "summary": "Within hours of a court of appeal confirming a guilty verdict, Marine Le Pen had already launched her presidential campaign.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a1d7/live/39e985c0-7a6f-11f1-bee8-53ce494e1abc.jpg",
-        "publishedAt": "2026-07-08T03:22:46.000Z",
-        "source": "BBC"
+        "title": "Explained: Egypt’s fiery accusations after controversial World Cup defeat",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5lS3ZpaF9ONXdRWHRSdV9fLTFNNUYwX2hQUkJHd1dmNEVZdC1hYXNRcndrZmxtV28wM2hMZ1hJbHU3UkRHM2ZTLVpNN01Dc3N2b2lteHNzZFFCYXVxcmhaZ1JkLU1CMEJvSmtrLTBrNA?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-07-08T15:00:25.000Z",
+        "source": "CNN"
       }
     ],
     "nba": []
   },
   "nbaScoreboard": {
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "currentIndex": 4,
     "days": [
-      {
-        "date": "2026-07-04",
-        "games": []
-      },
       {
         "date": "2026-07-05",
         "games": []
@@ -548,12 +544,16 @@
       {
         "date": "2026-07-12",
         "games": []
+      },
+      {
+        "date": "2026-07-13",
+        "games": []
       }
     ],
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-07-08",
+    "rotationLabel": "Curated Rotation · 2026-07-09",
     "sections": [
       {
         "id": "data-storage",
@@ -561,26 +561,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-5",
-            "sectionId": "data-storage",
-            "title": "The FAISS Library",
-            "authors": [
-              "Jeff Johnson",
-              "Matthijs Douze",
-              "Herve Jegou"
-            ],
-            "venue": "IEEE T-BD",
-            "year": 2021,
-            "quality": "高影响力",
-            "categories": [
-              "vector search",
-              "ANN"
-            ],
-            "link": "https://arxiv.org/abs/2401.08281",
-            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-6",
             "sectionId": "data-storage",
@@ -600,7 +580,7 @@
             ],
             "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
             "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-1",
@@ -622,6 +602,27 @@
             "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
             "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-2",
+            "sectionId": "data-storage",
+            "title": "Bigtable: A Distributed Storage System for Structured Data",
+            "authors": [
+              "Fay Chang",
+              "Jeffrey Dean",
+              "Sanjay Ghemawat",
+              "Wilson C. Hsieh"
+            ],
+            "venue": "OSDI",
+            "year": 2006,
+            "quality": "顶会",
+            "categories": [
+              "distributed systems",
+              "database"
+            ],
+            "link": "https://research.google/pubs/pub27898/",
+            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -631,27 +632,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-6",
-            "sectionId": "computer-vision",
-            "title": "DINOv2: Learning Robust Visual Features without Supervision",
-            "authors": [
-              "Maxime Oquab",
-              "Timothée Darcet",
-              "Théo Moutakanni",
-              "Huy V. Vo"
-            ],
-            "venue": "arXiv / Meta",
-            "year": 2023,
-            "quality": "高影响力",
-            "categories": [
-              "self-supervised",
-              "representation"
-            ],
-            "link": "https://arxiv.org/abs/2304.07193",
-            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-1",
             "sectionId": "computer-vision",
@@ -671,7 +651,7 @@
             ],
             "link": "https://arxiv.org/abs/1512.03385",
             "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-2",
@@ -693,6 +673,27 @@
             "link": "https://arxiv.org/abs/2005.12872",
             "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-3",
+            "sectionId": "computer-vision",
+            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+            "authors": [
+              "Alexey Dosovitskiy",
+              "Lucas Beyer",
+              "Alexander Kolesnikov",
+              "Dirk Weissenborn"
+            ],
+            "venue": "ICLR",
+            "year": 2021,
+            "quality": "顶会",
+            "categories": [
+              "vision transformer",
+              "classification"
+            ],
+            "link": "https://arxiv.org/abs/2010.11929",
+            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -702,27 +703,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-1",
-            "sectionId": "llm-memory",
-            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
-            "authors": [
-              "Patrick Lewis",
-              "Ethan Perez",
-              "Aleksandra Piktus",
-              "Fabio Petroni"
-            ],
-            "venue": "NeurIPS",
-            "year": 2020,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "retrieval"
-            ],
-            "link": "https://arxiv.org/abs/2005.11401",
-            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-2",
             "sectionId": "llm-memory",
@@ -742,7 +722,7 @@
             ],
             "link": "https://arxiv.org/abs/2203.08913",
             "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-3",
@@ -764,6 +744,27 @@
             "link": "https://arxiv.org/abs/2112.04426",
             "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-4",
+            "sectionId": "llm-memory",
+            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+            "authors": [
+              "Akari Asai",
+              "Zequn Zhang",
+              "Avirup Sil",
+              "Hannaneh Hajishirzi"
+            ],
+            "venue": "ICLR",
+            "year": 2024,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "self-reflection"
+            ],
+            "link": "https://arxiv.org/abs/2310.11511",
+            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -773,27 +774,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-2",
-            "sectionId": "agents",
-            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
-            "authors": [
-              "Timo Schick",
-              "Jane Dwivedi-Yu",
-              "Roberta Dessì",
-              "Ari Holtzman"
-            ],
-            "venue": "NeurIPS",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "tool use",
-              "agent"
-            ],
-            "link": "https://arxiv.org/abs/2302.04761",
-            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-3",
             "sectionId": "agents",
@@ -813,7 +793,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.03442",
             "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-4",
@@ -834,6 +814,27 @@
             ],
             "link": "https://arxiv.org/abs/2305.16291",
             "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-5",
+            "sectionId": "agents",
+            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+            "authors": [
+              "Qingyun Wu",
+              "Gagan Bansal",
+              "Jiaqi Zhang",
+              "Yiran Wu"
+            ],
+            "venue": "COLM",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "multi-agent",
+              "framework"
+            ],
+            "link": "https://arxiv.org/abs/2308.08155",
+            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
             "trackLabel": "轮换精选"
           }
         ]
