@@ -1,29 +1,21 @@
 {
-  "generatedAt": "2026-07-09T15:30:34.389Z",
+  "generatedAt": "2026-07-09T18:05:44.297Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 29,
+      "temperature": 27,
       "weatherCode": 3,
-      "windSpeed": 4
+      "windSpeed": 8
     },
     "today": {
-      "date": "2026-07-09",
+      "date": "2026-07-10",
       "weatherCode": 96,
       "description": "天气更新中",
-      "max": 34,
+      "max": 28,
       "min": 24,
-      "precipitationProbability": 69
+      "precipitationProbability": 90
     },
     "forecast": [
-      {
-        "date": "2026-07-09",
-        "weatherCode": 96,
-        "description": "天气更新中",
-        "max": 34,
-        "min": 24,
-        "precipitationProbability": 69
-      },
       {
         "date": "2026-07-10",
         "weatherCode": 96,
@@ -55,32 +47,49 @@
         "max": 30,
         "min": 24,
         "precipitationProbability": 82
+      },
+      {
+        "date": "2026-07-14",
+        "weatherCode": 81,
+        "description": "强阵雨",
+        "max": 30,
+        "min": 24,
+        "precipitationProbability": 81
       }
     ]
   },
   "classicQuote": {
-    "id": "mencius-perseverance",
-    "text": "虽千万人，吾往矣。",
-    "source": "《孟子》",
-    "author": "孟子",
-    "note": "认准方向之后，关键是稳稳地往前走。"
+    "id": "records-historical",
+    "text": "桃李不言，下自成蹊。",
+    "source": "《史记》",
+    "author": "司马迁",
+    "note": "真正有分量的作品，本身就会替你说话。"
   },
   "bookExcerpt": {
-    "id": "red-mansion-snow",
-    "text": "只见大地白茫茫一片真干净，山川树木都隐在雪光里，天地像忽然静下来，只余风过回廊的细响。",
-    "book": "《红楼梦》",
-    "author": "曹雪芹"
+    "id": "remembrance-madeleine",
+    "text": "那一点点浸过茶水的点心，忽然把整个旧日时光都唤醒了，仿佛往昔并未消失，只是沉在心底等待一个气味。",
+    "book": "《追忆似水年华》",
+    "author": "马塞尔·普鲁斯特"
   },
   "featuredPlace": {
-    "id": "202607081600",
-    "title": "在沙巴的水稻田，老街，越南",
+    "id": "202607091600",
+    "title": "陆地与海洋的鸟瞰图，维多利亚州，澳大利亚",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "步步传承",
-    "image": "https://www.bing.com/th?id=OHR.SapaVietnam_ZH-CN2178893672_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E8%B6%8A%E5%8D%97%E8%80%81%E8%A1%97&form=hpcapt&mkt=zh-cn"
+    "summary": "陆地与海洋的鸟瞰图",
+    "image": "https://www.bing.com/th?id=OHR.VictoriaBeach_ZH-CN8892195426_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9A%E7%BB%B4%E5%A4%9A%E5%88%A9%E4%BA%9A%E5%B7%9E&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202607091600",
+      "title": "陆地与海洋的鸟瞰图，维多利亚州，澳大利亚",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "陆地与海洋的鸟瞰图",
+      "image": "https://www.bing.com/th?id=OHR.VictoriaBeach_ZH-CN8892195426_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9A%E7%BB%B4%E5%A4%9A%E5%88%A9%E4%BA%9A%E5%B7%9E&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202607081600",
       "title": "在沙巴的水稻田，老街，越南",
@@ -143,35 +152,34 @@
       "summary": "流光之诗",
       "image": "https://www.bing.com/th?id=OHR.FirefliesJapan_ZH-CN0071253415_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E8%90%A4%E7%81%AB%E8%99%AB&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202607011600",
-      "title": "埃斯纳神庙穹顶天花板, 埃及",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "走进埃斯纳神圣的世界",
-      "image": "https://www.bing.com/th?id=OHR.TempleEsna_ZH-CN9834689523_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E5%9F%83%E5%8F%8A%E5%9F%83%E6%96%AF%E7%BA%B3%E7%A5%9E%E5%BA%99&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-07-09",
-    "dateLabel": "7月9日",
+    "dateKey": "2026-07-10",
+    "dateLabel": "7月10日",
     "items": [
       {
-        "year": "2022",
-        "text": "在反政府示威者占领总统府的迫使下，斯里兰卡总理拉尼尔·维克勒马辛哈宣布辞职。",
-        "link": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4"
+        "year": "2020",
+        "text": "蘇丹共和國主權委員會批准禁止殘割女性生殖器的法律。",
+        "link": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4"
       },
       {
-        "year": "2016",
-        "text": "香港受超強颱風尼伯特下沉氣流影響，天文台下午4時氣溫升至攝氏35.6度，是今年最熱，更是自1968年錄得35.7度以來最熱七月天，亦是有紀錄以來第二熱的七月天。其中跑馬地錄得最高37....",
-        "link": "https://zh.wikipedia.org/wiki/2016%E5%B9%B4"
+        "year": "2012",
+        "text": "俄罗斯国家杜马以简单多数通过俄罗斯加入世界贸易组织协议，这意味着俄罗斯将在一个月后正式成为世贸组织成员。",
+        "link": "https://zh.wikipedia.org/wiki/2012%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
+      {
+        "title": "台湾青年八桂行：体验壮乡非遗与多民族文化交融",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-09/10656380.shtml",
+        "summary": "中新社广西桂林7月9日电 (邓竣缤)2026年台湾青年八桂行启动仪式7月9日在广西桂林东漓古村举行，近两百名台湾青年走进这座桂北传统古村落，感受岭南少数民族民俗风情与非遗魅力。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260709/bc0ef878-d47c-4348-a328-4837115d8e6b_zsite.jpg",
+        "publishedAt": "2026-07-09T15:30:00.000Z",
+        "source": "中新网"
+      },
       {
         "title": "上半年151.7万人次往来闽台 同比上升超两成",
         "link": "https://www.chinanews.com.cn/gn/2026/07-09/10656368.shtml",
@@ -203,17 +211,25 @@
         "image": "",
         "publishedAt": "2026-07-09T13:49:45.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "一习话丨“打通基础研究 应用开发 成果转化的创新链条”",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-09/10656363.shtml",
-        "summary": "“打通基础研究、应用开发、成果转化的创新链条。”",
-        "image": "",
-        "publishedAt": "2026-07-09T13:47:47.000Z",
-        "source": "中新网"
       }
     ],
     "chinaSociety": [
+      {
+        "title": "洪水泡过的饮料，没开封也不要喝！",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-10/10656392.shtml",
+        "summary": "受台风“美莎克”影响，连日来广西遭遇持续性强降雨，多地出现洪水和内涝灾害。洪水裹挟大量污物、致病性微生物，极易引发各类次生疫病风险。",
+        "image": "",
+        "publishedAt": "2026-07-09T16:09:07.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "台风“巴威”临近 长三角水陆空交通部门严阵以待",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-09/10656390.shtml",
+        "summary": "中新社南京7月9日电 (记者 朱晓颖)今年第9号台风“巴威”(超强台风级)即将于浙闽交界附近沿海登陆。9日，长三角水陆空交通部门做好各项举措严阵以待。",
+        "image": "",
+        "publishedAt": "2026-07-09T15:41:17.000Z",
+        "source": "中新网"
+      },
       {
         "title": "沈阳故宫上半年接待游客超273万人 同比增长21.22%",
         "link": "https://www.chinanews.com.cn/sh/2026/07-09/10656379.shtml",
@@ -236,22 +252,6 @@
         "summary": "据气象部门预测，受今年第9号台风“巴威”(超强台风级) 影响，7月10日至13日，浙江南部、福建东北部等部分地区累计降雨量达150~300毫米，浙江东南部、福建东北部局地500~600 毫米。自然资源部地质灾害技术指导中心组织专家研判，受本次台风降雨过程影响，上述地区发生地质灾害的风险高。自然资源部...",
         "image": "",
         "publishedAt": "2026-07-09T15:20:37.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "泰安：将泰山景区现有刀片式隔离网拆除或替代",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-09/10656378.shtml",
-        "summary": "7月8日，泰安市委、市人民政府召开专题会议，研究部署泰山景区安全防护设施优化改进工作。",
-        "image": "",
-        "publishedAt": "2026-07-09T14:48:37.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "国家防总针对北京天津启动防汛四级应急响应",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-09/10656376.shtml",
-        "summary": "据气象部门预报，7月9日至10日，北京、天津有大到暴雨，部分地区有短时强降雨，山洪和地质灾害、中小河流洪水以及城市内涝等灾害风险较高。根据《国家防汛抗旱应急预案》及有关规定，国家防总决定于7月9日21时针对北京、天津启动防汛四级应急响应。",
-        "image": "",
-        "publishedAt": "2026-07-09T14:31:34.000Z",
         "source": "中新网"
       }
     ],
@@ -299,6 +299,14 @@
     ],
     "worldTop": [
       {
+        "title": "Greek F-16 fighter jet crash-lands at busy Zakynthos airport",
+        "link": "https://www.bbc.co.uk/news/articles/czrxz18720eo?at_medium=RSS&at_campaign=rss",
+        "summary": "The runway is closed after the jet reportedly landed without deploying its landing gear before bursting into flames.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e453/live/cdf3da80-7bba-11f1-bada-857505afa282.png",
+        "publishedAt": "2026-07-09T16:15:10.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "Ukraine strikes Russian ships near Crimea, escalating attacks on fuel supplies",
         "link": "https://www.bbc.co.uk/news/articles/c70yd1g67z5o?at_medium=RSS&at_campaign=rss",
         "summary": "The attacks appear to be the latest phase of Ukraine's bid to choke off supplies and routes into and out of occupied Crimea.",
@@ -307,15 +315,7 @@
         "source": "BBC"
       },
       {
-        "title": "Factory fire kills at least 28 in China's 'shoe capital'",
-        "link": "https://www.bbc.co.uk/news/articles/cx2vz51v2pjo?at_medium=RSS&at_campaign=rss",
-        "summary": "Footage shows huge flames rising from a building and thick, black smoke rising into the sky.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e6df/live/aa2b70f0-7ba5-11f1-9510-1546718f668b.jpg",
-        "publishedAt": "2026-07-09T15:14:35.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Steep fall in Hormuz ship crossings after new US-Iran strikes",
+        "title": "Big fall in oil, gas and cargo ships taking US-backed Hormuz route after new strikes",
         "link": "https://www.bbc.co.uk/news/articles/c621k5r8764o?at_medium=RSS&at_campaign=rss",
         "summary": "Data shows a decline in the number of ships - many carrying oil and gas - going through the waterway after attacks this week.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/10e5/live/1177ac50-7ba2-11f1-bee8-53ce494e1abc.png",
@@ -331,12 +331,12 @@
         "source": "BBC"
       },
       {
-        "title": "Iran launches more strikes after accusing US of striking near nuclear plant",
-        "link": "https://www.bbc.co.uk/news/articles/cz75zjj5wp8o?at_medium=RSS&at_campaign=rss",
-        "summary": "Centcom says it hit 90 Iranian targets in the latest round of strikes, with the Iranian health ministry saying 14 people were killed since Tuesday.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fc1c/live/94ebba30-7b76-11f1-9af8-1139253a4180.jpg",
-        "publishedAt": "2026-07-09T13:29:56.000Z",
-        "source": "BBC"
+        "title": "Turkey’s leader gives revolvers to every NATO leader as parting gift",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQamZzRTRNU1puM3lCQnNZUGNob3BsZlJueGtkcTNnMVo3UjFDYml1RmV5SmNqZFo4WmpSSHFpcXBuQV8tNWt1WFdwUWxacXltS3BNalZSZkxtU19TdUFvc0V4cENSdE1OanYtRXpZd0pITGxOZXZMblFTN0FlbGRCMHRYTXQ?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-07-09T14:10:53.000Z",
+        "source": "CNN"
       }
     ],
     "worldBusiness": [
@@ -407,7 +407,7 @@
         "source": "BBC"
       },
       {
-        "title": "'NATO is not well-adapted yet to the air and missile defense challenge' posed by Russia, says analyst",
+        "title": "NATO is ‘not well adapted yet’ to Russia’s precision strike technology, says military analyst",
         "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSDNZakVPTDk2X0RjZERuNUx6NU40YkVncjdlMVFVZTFhUENwdUpfRGRFVm5LVUNOZ1BHeWQwdldRYU9Rd0lSMERrb2NjYnRTeTBlVUZaRDBqbGhDQXBkUm9CRGZMd25fekFMNjRxNzRoRGF2YllJd1NvZ2ZueU4wdUpVWFZvWjEtRi1qdkZjYm5wd1NXbWtIMEEyQkFqeEFBcGZ2LTVfc2xhdk5RLTF4Vnl6TQ?oc=5",
         "summary": "",
         "image": "",
@@ -424,6 +424,14 @@
       }
     ],
     "domestic": [
+      {
+        "title": "台湾青年八桂行：体验壮乡非遗与多民族文化交融",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-09/10656380.shtml",
+        "summary": "中新社广西桂林7月9日电 (邓竣缤)2026年台湾青年八桂行启动仪式7月9日在广西桂林东漓古村举行，近两百名台湾青年走进这座桂北传统古村落，感受岭南少数民族民俗风情与非遗魅力。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260709/bc0ef878-d47c-4348-a328-4837115d8e6b_zsite.jpg",
+        "publishedAt": "2026-07-09T15:30:00.000Z",
+        "source": "中新网"
+      },
       {
         "title": "上半年151.7万人次往来闽台 同比上升超两成",
         "link": "https://www.chinanews.com.cn/gn/2026/07-09/10656368.shtml",
@@ -455,17 +463,17 @@
         "image": "",
         "publishedAt": "2026-07-09T13:49:45.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "一习话丨“打通基础研究 应用开发 成果转化的创新链条”",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-09/10656363.shtml",
-        "summary": "“打通基础研究、应用开发、成果转化的创新链条。”",
-        "image": "",
-        "publishedAt": "2026-07-09T13:47:47.000Z",
-        "source": "中新网"
       }
     ],
     "international": [
+      {
+        "title": "Greek F-16 fighter jet crash-lands at busy Zakynthos airport",
+        "link": "https://www.bbc.co.uk/news/articles/czrxz18720eo?at_medium=RSS&at_campaign=rss",
+        "summary": "The runway is closed after the jet reportedly landed without deploying its landing gear before bursting into flames.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e453/live/cdf3da80-7bba-11f1-bada-857505afa282.png",
+        "publishedAt": "2026-07-09T16:15:10.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Ukraine strikes Russian ships near Crimea, escalating attacks on fuel supplies",
         "link": "https://www.bbc.co.uk/news/articles/c70yd1g67z5o?at_medium=RSS&at_campaign=rss",
@@ -475,15 +483,7 @@
         "source": "BBC"
       },
       {
-        "title": "Factory fire kills at least 28 in China's 'shoe capital'",
-        "link": "https://www.bbc.co.uk/news/articles/cx2vz51v2pjo?at_medium=RSS&at_campaign=rss",
-        "summary": "Footage shows huge flames rising from a building and thick, black smoke rising into the sky.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e6df/live/aa2b70f0-7ba5-11f1-9510-1546718f668b.jpg",
-        "publishedAt": "2026-07-09T15:14:35.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Steep fall in Hormuz ship crossings after new US-Iran strikes",
+        "title": "Big fall in oil, gas and cargo ships taking US-backed Hormuz route after new strikes",
         "link": "https://www.bbc.co.uk/news/articles/c621k5r8764o?at_medium=RSS&at_campaign=rss",
         "summary": "Data shows a decline in the number of ships - many carrying oil and gas - going through the waterway after attacks this week.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/10e5/live/1177ac50-7ba2-11f1-bee8-53ce494e1abc.png",
@@ -499,73 +499,20 @@
         "source": "BBC"
       },
       {
-        "title": "Iran launches more strikes after accusing US of striking near nuclear plant",
-        "link": "https://www.bbc.co.uk/news/articles/cz75zjj5wp8o?at_medium=RSS&at_campaign=rss",
-        "summary": "Centcom says it hit 90 Iranian targets in the latest round of strikes, with the Iranian health ministry saying 14 people were killed since Tuesday.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fc1c/live/94ebba30-7b76-11f1-9af8-1139253a4180.jpg",
-        "publishedAt": "2026-07-09T13:29:56.000Z",
-        "source": "BBC"
+        "title": "Turkey’s leader gives revolvers to every NATO leader as parting gift",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQamZzRTRNU1puM3lCQnNZUGNob3BsZlJueGtkcTNnMVo3UjFDYml1RmV5SmNqZFo4WmpSSHFpcXBuQV8tNWt1WFdwUWxacXltS3BNalZSZkxtU19TdUFvc0V4cENSdE1OanYtRXpZd0pITGxOZXZMblFTN0FlbGRCMHRYTXQ?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-07-09T14:10:53.000Z",
+        "source": "CNN"
       }
     ],
-    "nba": [
-      {
-        "title": "Darryn Peterson, Keyonte George offer Jazz a glimp...",
-        "link": "https://www.espn.com/nba/story/_/id/49307993/darryn-peterson-keyonte-george-utah-jazz-backcourt-future-nba-summer-league",
-        "summary": "Rookie Darryn Peterson's summer league start and instant chemistry with fourth-year guard Keyonte George gives Utah its backcourt of the future.",
-        "image": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0708%2Fr1686508_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-07-09T15:08:17.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Cuban accuses Mavs owner of freezing him out",
-        "link": "https://www.espn.com/nba/story/_/id/49309627/cuban-accuses-mavs-owner-freezing-proposed-move",
-        "summary": "The Dallas Morning News reported Wednesday that Mark Cuban alleges Mavericks governor Patrick Dumont has engaged in \"adversarial business practices\" i...",
-        "image": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0721%2Fr721868_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-07-09T14:25:47.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Bucks' GM Horst: Trading Giannis 'very difficult'",
-        "link": "https://www.espn.com/nba/story/_/id/49308932/bucks-gm-horst-says-trading-antetokounmpo-very-difficult",
-        "summary": "Bucks general manager Jon Horst called the move to trade Giannis Antetokounmpo a \"very difficult decision.\"",
-        "image": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F0125%2Fr1282026_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-07-09T14:25:47.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Hardaway Jr. given dad's No. 10 in Miami return",
-        "link": "https://www.espn.com/nba/story/_/id/49309453/tim-hardaway-jr-prayers-answered-deal-join-heat",
-        "summary": "The Heat formally introduced part of the family Wednesday, with Tim Hardaway Jr. getting his welcome-back-to-Miami news conference -- and getting hand...",
-        "image": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2025%2F0428%2Fr1485343_5_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-07-09T14:25:47.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Brunson Game 1 Finals jersey sells for $1M-plus",
-        "link": "https://www.espn.com/nba/story/_/id/49311694/jersey-worn-jalen-brunson-game-1-nba-finals-sells-1m-plus",
-        "summary": "A jersey worn by New York Knicks star point guard Jalen Brunson during Game 1 of the 2026 NBA Finals sold at Sotheby's for $1,024,000 after a 70-bid w...",
-        "image": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0709%2Fr1686717_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-07-09T14:25:47.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Judge denies Rozier bid to loosen bail conditions",
-        "link": "https://www.espn.com/nba/story/_/id/49310839/judge-denies-terry-rozier-request-modify-bail-conditions",
-        "summary": "U.S. District Judge LaShann DeArcy Hall on Wednesday denied a defense request to modify Terry Rozier's bail conditions so he can practice and play wit...",
-        "image": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2025%2F1208%2Fr1586827_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-07-09T14:25:47.000Z",
-        "source": "ESPN"
-      }
-    ]
+    "nba": []
   },
   "nbaScoreboard": {
-    "date": "2026-07-09",
+    "date": "2026-07-10",
     "currentIndex": 4,
     "days": [
-      {
-        "date": "2026-07-05",
-        "games": []
-      },
       {
         "date": "2026-07-06",
         "games": []
@@ -597,12 +544,16 @@
       {
         "date": "2026-07-13",
         "games": []
+      },
+      {
+        "date": "2026-07-14",
+        "games": []
       }
     ],
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-07-09",
+    "rotationLabel": "Curated Rotation · 2026-07-10",
     "sections": [
       {
         "id": "data-storage",
@@ -610,27 +561,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-6",
-            "sectionId": "data-storage",
-            "title": "DiskANN: Fast Accurate Billion-point Nearest Neighbor Search on a Single Node",
-            "authors": [
-              "Neelesh Gupta",
-              "Leland Willard",
-              "Xiangyao Yu",
-              "Yuri N."
-            ],
-            "venue": "NeurIPS",
-            "year": 2019,
-            "quality": "高影响力",
-            "categories": [
-              "vector search",
-              "ANN"
-            ],
-            "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
-            "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-1",
             "sectionId": "data-storage",
@@ -650,7 +580,7 @@
             ],
             "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
             "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-2",
@@ -672,6 +602,27 @@
             "link": "https://research.google/pubs/pub27898/",
             "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-3",
+            "sectionId": "data-storage",
+            "title": "Dynamo: Amazon's Highly Available Key-value Store",
+            "authors": [
+              "Giuseppe DeCandia",
+              "Deniz Hastorun",
+              "Madan Jampani",
+              "Gunavardhan Kakulapati"
+            ],
+            "venue": "SOSP",
+            "year": 2007,
+            "quality": "顶会",
+            "categories": [
+              "key-value",
+              "distributed systems"
+            ],
+            "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
+            "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -681,27 +632,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-1",
-            "sectionId": "computer-vision",
-            "title": "Deep Residual Learning for Image Recognition",
-            "authors": [
-              "Kaiming He",
-              "Xiangyu Zhang",
-              "Shaoqing Ren",
-              "Jian Sun"
-            ],
-            "venue": "CVPR",
-            "year": 2016,
-            "quality": "顶会",
-            "categories": [
-              "image recognition",
-              "backbone"
-            ],
-            "link": "https://arxiv.org/abs/1512.03385",
-            "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-2",
             "sectionId": "computer-vision",
@@ -721,7 +651,7 @@
             ],
             "link": "https://arxiv.org/abs/2005.12872",
             "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-3",
@@ -743,6 +673,27 @@
             "link": "https://arxiv.org/abs/2010.11929",
             "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-4",
+            "sectionId": "computer-vision",
+            "title": "Learning Transferable Visual Models From Natural Language Supervision",
+            "authors": [
+              "Alec Radford",
+              "Jong Wook Kim",
+              "Chris Hallacy",
+              "Aditya Ramesh"
+            ],
+            "venue": "ICML",
+            "year": 2021,
+            "quality": "顶会",
+            "categories": [
+              "vision-language",
+              "foundation model"
+            ],
+            "link": "https://arxiv.org/abs/2103.00020",
+            "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -752,27 +703,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-2",
-            "sectionId": "llm-memory",
-            "title": "Memorizing Transformers",
-            "authors": [
-              "Yuhuai Wu",
-              "Markus N. Rabe",
-              "DeLesley Hutchins",
-              "Christian Szegedy"
-            ],
-            "venue": "ICLR",
-            "year": 2022,
-            "quality": "顶会",
-            "categories": [
-              "memory",
-              "long context"
-            ],
-            "link": "https://arxiv.org/abs/2203.08913",
-            "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-3",
             "sectionId": "llm-memory",
@@ -792,7 +722,7 @@
             ],
             "link": "https://arxiv.org/abs/2112.04426",
             "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-4",
@@ -814,6 +744,27 @@
             "link": "https://arxiv.org/abs/2310.11511",
             "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-5",
+            "sectionId": "llm-memory",
+            "title": "LongMem: Scaling Language Model Context with Memory-Augmented Retrieval",
+            "authors": [
+              "Zeqiu Wu",
+              "Yizhong Wang",
+              "Jiacheng Liu",
+              "Yelong Shen"
+            ],
+            "venue": "ACL Findings",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "memory",
+              "long context"
+            ],
+            "link": "https://arxiv.org/abs/2306.07174",
+            "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -823,27 +774,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-3",
-            "sectionId": "agents",
-            "title": "Generative Agents: Interactive Simulacra of Human Behavior",
-            "authors": [
-              "Joon Sung Park",
-              "Joseph O'Brien",
-              "Carrie Cai",
-              "Meredith Ringel Morris"
-            ],
-            "venue": "UIST",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "agent society",
-              "memory"
-            ],
-            "link": "https://arxiv.org/abs/2304.03442",
-            "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-4",
             "sectionId": "agents",
@@ -863,7 +793,7 @@
             ],
             "link": "https://arxiv.org/abs/2305.16291",
             "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-5",
@@ -884,6 +814,27 @@
             ],
             "link": "https://arxiv.org/abs/2308.08155",
             "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-6",
+            "sectionId": "agents",
+            "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+            "authors": [
+              "John Yang",
+              "Carlos E. Jimenez",
+              "Alexander Wettig",
+              "Karthik Narasimhan"
+            ],
+            "venue": "ICLR",
+            "year": 2025,
+            "quality": "新近代表作",
+            "categories": [
+              "software agent",
+              "benchmark"
+            ],
+            "link": "https://arxiv.org/abs/2405.15793",
+            "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
             "trackLabel": "轮换精选"
           }
         ]
