@@ -1,36 +1,28 @@
 {
-  "generatedAt": "2026-07-11T13:47:44.374Z",
+  "generatedAt": "2026-07-11T17:10:28.694Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
       "temperature": 25,
       "weatherCode": 95,
-      "windSpeed": 6
+      "windSpeed": 5
     },
     "today": {
-      "date": "2026-07-11",
-      "weatherCode": 96,
-      "description": "天气更新中",
-      "max": 30,
-      "min": 23,
-      "precipitationProbability": 100
+      "date": "2026-07-12",
+      "weatherCode": 95,
+      "description": "雷暴",
+      "max": 31,
+      "min": 25,
+      "precipitationProbability": 98
     },
     "forecast": [
-      {
-        "date": "2026-07-11",
-        "weatherCode": 96,
-        "description": "天气更新中",
-        "max": 30,
-        "min": 23,
-        "precipitationProbability": 100
-      },
       {
         "date": "2026-07-12",
         "weatherCode": 95,
         "description": "雷暴",
         "max": 31,
         "min": 25,
-        "precipitationProbability": 100
+        "precipitationProbability": 98
       },
       {
         "date": "2026-07-13",
@@ -38,7 +30,7 @@
         "description": "雷暴",
         "max": 31,
         "min": 25,
-        "precipitationProbability": 60
+        "precipitationProbability": 49
       },
       {
         "date": "2026-07-14",
@@ -46,7 +38,7 @@
         "description": "阴天",
         "max": 35,
         "min": 24,
-        "precipitationProbability": 43
+        "precipitationProbability": 29
       },
       {
         "date": "2026-07-15",
@@ -54,33 +46,50 @@
         "description": "晴朗",
         "max": 34,
         "min": 22,
+        "precipitationProbability": 1
+      },
+      {
+        "date": "2026-07-16",
+        "weatherCode": 3,
+        "description": "阴天",
+        "max": 35,
+        "min": 24,
         "precipitationProbability": 2
       }
     ]
   },
   "classicQuote": {
-    "id": "chuci-seek",
-    "text": "路漫漫其修远兮，吾将上下而求索。",
-    "source": "《离骚》",
-    "author": "屈原",
-    "note": "长期主义最难，但也最值得。"
+    "id": "analects-learning",
+    "text": "学而不思则罔，思而不学则殆。",
+    "source": "《论语》",
+    "author": "孔子",
+    "note": "提醒自己既要输入，也要沉淀，不要只忙不想。"
   },
   "bookExcerpt": {
-    "id": "border-town-river",
-    "text": "月光如银子，无处不可照及，山上篁竹在月光下变成了一片黑色，身边草丛中虫声繁密如落雨。",
-    "book": "《边城》",
-    "author": "沈从文"
+    "id": "fortress-besieged-night",
+    "text": "夜仿佛纸浸了油，变成半透明体；它给太阳拥抱住了，分不出身来，也许是给太阳溶了，所以夕照晚霞隐褪后的夜色也带着酡红。",
+    "book": "《围城》",
+    "author": "钱钟书"
   },
   "featuredPlace": {
-    "id": "202607101600",
-    "title": "圣古斯坦港, 欧赖, 布列塔尼, 法国",
+    "id": "202607111600",
+    "title": "卡塔丁森林和水域国家纪念地，缅因州，美国",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "布列塔尼的潮汐之约",
-    "image": "https://www.bing.com/th?id=OHR.AurayBrittany_ZH-CN5549157888_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E6%B3%95%E5%9B%BD%E6%AC%A7%E8%B5%96%E5%9C%A3%E5%8F%A4%E6%96%AF%E5%BD%93%E6%B8%AF&form=hpcapt&mkt=zh-cn"
+    "summary": "缅因州的狂野一面",
+    "image": "https://www.bing.com/th?id=OHR.KatahdinWWNM_ZH-CN5496444375_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E5%8D%A1%E5%A1%94%E4%B8%81%E6%A3%AE%E6%9E%97%E5%92%8C%E6%B0%B4%E5%9F%9F%E5%9B%BD%E5%AE%B6%E7%BA%AA%E5%BF%B5%E7%A2%91&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202607111600",
+      "title": "卡塔丁森林和水域国家纪念地，缅因州，美国",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "缅因州的狂野一面",
+      "image": "https://www.bing.com/th?id=OHR.KatahdinWWNM_ZH-CN5496444375_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E5%8D%A1%E5%A1%94%E4%B8%81%E6%A3%AE%E6%9E%97%E5%92%8C%E6%B0%B4%E5%9F%9F%E5%9B%BD%E5%AE%B6%E7%BA%AA%E5%BF%B5%E7%A2%91&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202607101600",
       "title": "圣古斯坦港, 欧赖, 布列塔尼, 法国",
@@ -143,119 +152,126 @@
       "summary": "紫色花海",
       "image": "https://www.bing.com/th?id=OHR.LavenderRows_ZH-CN0676810895_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E8%96%B0%E8%A1%A3%E8%8D%89%E5%B1%9E&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202607031600",
-      "title": "凯泽斯堡，阿尔萨斯，法国",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "此行，不虚绕道",
-      "image": "https://www.bing.com/th?id=OHR.KaysersbergVillage_ZH-CN0445080679_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E5%87%AF%E6%B3%BD%E6%96%AF%E5%A0%A1&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-07-11",
-    "dateLabel": "7月11日",
+    "dateKey": "2026-07-12",
+    "dateLabel": "7月12日",
     "items": [
       {
-        "year": "2012",
-        "text": "美国國家航空暨太空總署和歐洲太空總署宣布发现了冥王星的第五颗卫星S/2012 P 1。",
-        "link": "https://zh.wikipedia.org/wiki/2012%E5%B9%B4"
+        "year": "2016",
+        "text": "在中华人民共和国缺席的情况下，国际海洋法法庭公布南海仲裁案仲裁结果，裁定中国对南海自然资源不享有基于「九段线」的历史性权利。",
+        "link": "https://zh.wikipedia.org/wiki/2016%E5%B9%B4"
       },
       {
-        "year": "2010",
-        "text": "第19屆世界盃足球賽於南非舉辦決賽，並由西班牙國家足球隊取得優勝。",
-        "link": "https://zh.wikipedia.org/wiki/2010%E5%B9%B4"
+        "year": "2012",
+        "text": "塞內加爾的Youtube上線。",
+        "link": "https://zh.wikipedia.org/wiki/2012%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "陈立泉院士：“电动中国”构想正逐步成为现实",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-11/10657705.shtml",
-        "summary": "中新社北京7月11日电 (记者 孙自法 郭超凯)国家最高科学技术奖获得者、中国工程院院士、中国科学院物理研究所研究员陈立泉10日在中国工程院第十八次院士大会上作报告说，以交通电动化、装备智能化、能源低碳化“三化”为主要特征的“电动中国”构想，正在逐步成为现实。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260711/01951442-c400-4caf-b921-6b485e464668_zsite.jpeg",
-        "publishedAt": "2026-07-11T13:36:24.000Z",
+        "title": "坚持自立自强 促进开放合作——习近平总书记重要讲话为推动世界科技创新发展注入强劲动力",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-11/10657745.shtml",
+        "summary": "新华社北京7月11日电 题：坚持自立自强 促进开放合作——习近平总书记重要讲话为推动世界科技创新发展注入强劲动力",
+        "image": "",
+        "publishedAt": "2026-07-11T15:12:30.000Z",
         "source": "中新网"
       },
       {
-        "title": "合作进行时｜双边关系定位升级 中纳合作深化",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-11/10657708.shtml",
-        "summary": "7月10日，中国和纳米比亚两国元首在北京举行会谈，双方共同宣布将双边关系定位提升为新时代中纳命运共同体。",
+        "title": "“深深植根人民，始终拥有坚实根基”——深入学习贯彻习近平总书记在庆祝中国共产党成立105周年大会上重要讲话系列述评之七",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-11/10657742.shtml",
+        "summary": "新华社北京7月11日电 题：“深深植根人民，始终拥有坚实根基”——深入学习贯彻习近平总书记在庆祝中国共产党成立105周年大会上重要讲话系列述评之七",
         "image": "",
-        "publishedAt": "2026-07-11T13:28:48.000Z",
+        "publishedAt": "2026-07-11T15:11:06.000Z",
         "source": "中新网"
       },
       {
-        "title": "受台风“巴威”影响 台湾多地遭遇强降雨",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-11/10657704.shtml",
-        "summary": "中新社台北7月11日电 (记者 陈建新)受台风“巴威”影响，台湾多地11日遭遇强降雨。",
-        "image": "",
-        "publishedAt": "2026-07-11T13:23:15.000Z",
+        "title": "从“脚下”汲取灵感 台湾青年艺术家“探陆”",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-11/10657733.shtml",
+        "summary": "中新社北京7月11日电 (张杨彬 姜姿屹)11日在北京举办的一场艺术展上，不少参观者被一件手掌造型的装置艺术吸引。这件名为《承天》的作品出自台湾青年艺术家范姜子珈之手，灵感源自天坛“天圆地方”理念，两侧还摆放她以贵州溶洞和重庆楼宇为灵感的创作。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260711/66100f32-8d87-48d1-b833-13525bda8f88_zsite.jpg",
+        "publishedAt": "2026-07-11T15:08:24.000Z",
         "source": "中新网"
       },
       {
-        "title": "长三角部分铁路列车因台风“巴威”临时停运 船舶回港避风",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-11/10657677.shtml",
-        "summary": "中新社南京7月11日电 (记者 朱晓颖)今年第9号台风“巴威”逐渐逼近中国东南沿海。受其影响，长三角部分铁路列车11日临时停运，长江下游船舶回港避风。",
+        "title": "活力中国调研行| 从“机器人谷”，攀“机器人峰”",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-11/10657723.shtml",
+        "summary": "在深圳市南山区，我们调研了一家专注于研发生产人工智能外骨骼机器人的科创企业——极壳科技。",
         "image": "",
-        "publishedAt": "2026-07-11T13:17:53.000Z",
+        "publishedAt": "2026-07-11T14:03:32.000Z",
         "source": "中新网"
       },
       {
-        "title": "海河流域滦河发生2026年第1号洪水",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-11/10657679.shtml",
-        "summary": "中新网天津7月11日电 (记者 周亚强)受强降雨影响，海河流域滦河11日发生2026年第1号洪水，水利部海河水利委员会已启动防汛Ⅲ级应急响应和洪水防御Ⅲ级应急响应，并发布蓟运河洪水蓝色预警。",
+        "title": "景区关闭、加固电力设施 福建多举措应对台风“巴威”",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-11/10657722.shtml",
+        "summary": "福建省防汛抗旱指挥部于10日16时30分，提升防台风应急响应至Ⅱ级。位于闽北山区的南平市光泽县受到外围环流影响可能发生强降雨，当地高速多个部门提前做好防范工作，保证群众出行安全。",
         "image": "",
-        "publishedAt": "2026-07-11T13:15:39.000Z",
+        "publishedAt": "2026-07-11T13:59:51.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "广西横州通往镇龙乡道路打通 首批汽车运输物资抵达",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-11/10657706.shtml",
-        "summary": "中新社南宁7月11日电 (黄艳梅 林浩 王以照)经过多方救援力量持续奋战，7月11日15时，广西横州通往镇龙乡的道路已实现车辆通行。中新社记者当日在镇龙乡政府看到，第一批用汽车运输的物资已顺利抵达。",
+        "title": "“巴威”以台风级登陆浙江玉环沿海 大范围强降雨将波及十余省份",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-12/10657750.shtml",
+        "summary": "中国天气网讯 今天(7月11日)23时20分前后，今年第9号“巴威”以台风级在浙江省玉环市坎门街道沿海登陆，成为今年以来登陆我国的最强台风。登陆后，“巴威”将继续给福建、浙江等地制造强风雨，随后深入内陆，由于其体型庞大，强降雨将波及江西、安徽、湖北、河南、京津冀等十余省区市。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/07/12/477209a01ef8447782a09316ddeec6ca.jpg",
+        "publishedAt": "2026-07-11T17:02:01.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "台风“巴威”在浙江玉环登陆",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-12/10657749.shtml",
+        "summary": "中新社浙江台州7月11日电 (傅飞扬)据浙江省气象台消息，今年第9号台风“巴威”(台风级)的中心已于11日23时20分前后在浙江台州玉环坎门登陆，登陆时中心附近最大风力13级(40米/秒)，中心最低气压955百帕。预计，“巴威”登陆后将继续向西北方向移动，强度逐渐减弱。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260712/4f9924ec-bf75-411e-a53a-dcb2fa95011f_zsite.jpg",
+        "publishedAt": "2026-07-11T16:32:57.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "台风“巴威”在浙江省温州乐清市清江镇沿海再次登陆",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-12/10657748.shtml",
+        "summary": "今年第 9号台风“巴威”(台风级)的中心已于12日0时前后在浙江省温州乐清市清江镇沿海再次登陆。登陆时中心附近最大风力有13级(38米/秒) ，中心最低气压960百帕。",
         "image": "",
-        "publishedAt": "2026-07-11T13:36:52.000Z",
+        "publishedAt": "2026-07-11T16:08:40.000Z",
         "source": "中新网"
       },
       {
-        "title": "（走进中国乡村）七百年广府古村探索改造焕发新韵",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-11/10657676.shtml",
-        "summary": "中新社广州7月11日电 题：七百年广府古村探索改造焕发新韵",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260711/f794deda-c0fa-4ec4-98dd-b65f5f50457e_zsite.jpg",
-        "publishedAt": "2026-07-11T13:15:49.000Z",
+        "title": "上海东海大桥已封闭管控",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-12/10657747.shtml",
+        "summary": "记者从上海港航公安了解到，受台风“巴威”影响，为确保道路交通安全，自7月11日21时起，对东海大桥实施封闭管控措施。",
+        "image": "",
+        "publishedAt": "2026-07-11T16:03:32.000Z",
         "source": "中新网"
       },
       {
-        "title": "辽宁省第十三届艺术节群众文化音乐专场举办 彰显地域文化特色",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-11/10657671.shtml",
-        "summary": "中新网沈阳7月11日电 (记者 韩宏)记者11日从沈阳市文化旅游和广播电视局获悉，辽宁省第十三届艺术节群众文化音乐专场暨“乐享四季·有活儿看辽宁”音乐类优秀作品展演近日在沈阳举办，集中展示辽宁基层群众音乐创作最新成果，生动展现辽沈大地文艺惠民、文化扎根基层的良好风貌。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260711/0f4d946d-28db-45ce-a292-60ae36285930_zsite.jpeg",
-        "publishedAt": "2026-07-11T13:14:37.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "2026“大鸾杯”青少年棒球邀请赛（新疆赛区）在克拉玛依开赛",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-11/10657670.shtml",
-        "summary": "中新网新疆克拉玛依7月11日电 (李伶俐)11日，2026“大鸾杯”青少年棒球邀请赛(新疆赛区)在中国石油大学(北京)克拉玛依校区开赛。本次赛事为期3天，由共青团新疆维吾尔自治区委员会、新疆体育局、北京大鸾翔宇慈善基金会联合主办，克拉玛依区人民政府、新疆青少年发展基金会承办。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260711/59798f31-3f22-48f5-b132-a6cbac13cd06_zsite.jpg",
-        "publishedAt": "2026-07-11T13:14:07.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "全球发明大会（中国）河南赛区开赛 2600余名“小发明家”郑州竞技",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-11/10657690.shtml",
-        "summary": "中新网郑州7月11日电 (陈贵洋)2025-2026学年全球发明大会(中国)河南赛区选拔赛11日在郑州航空港经济综合实验区(以下简称郑州航空港区)开赛。来自河南、上海、山东等六省市的776支队伍、2600余名中小学生同场竞技。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260711/2e7a6b6c-f4fd-4cc4-acc3-b92a515e4efa_zsite.JPG",
-        "publishedAt": "2026-07-11T13:13:19.000Z",
+        "title": "台风“巴威”在浙江玉环登陆",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-11/10657743.shtml",
+        "summary": "新华社杭州7月11日电(记者唐弢)据浙江省气象台消息，今年第9号台风“巴威”(台风级)的中心已于11日23时20分前后在浙江台州玉环坎门登陆，登陆时中心附近最大风力13级(40米/秒)，中心最低气压955百帕。预计，“巴威”登陆后将继续向西北方向移动，强度逐渐减弱。(完)",
+        "image": "",
+        "publishedAt": "2026-07-11T15:32:33.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
+      {
+        "title": "中国石化完成对中国航油重组 发力绿色航空燃料产业",
+        "link": "https://www.chinanews.com.cn/cj/2026/07-11/10657728.shtml",
+        "summary": "7月10日，记者从中国石化新闻办获悉，中国石化宣布完成对中国航油的重组工作，中国航油正式成为中国石化二级全资子公司。这是推进中央企业战略性、专业化重组的重要举措，也是服务国家战略、应对国际竞争的主动作为，将提升保障国家航空能源供应安全能力和水平，推动航空能源供应绿色低碳转型，更好地服务人民美好出行需...",
+        "image": "https://www.chinanews.com/cr/2026/0711/285451215.JPG",
+        "publishedAt": "2026-07-11T14:19:55.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "大战略牵引新开局丨为千行百业“添翼赋能” 平台经济迎来新风口",
+        "link": "https://www.chinanews.com.cn/cj/2026/07-11/10657724.shtml",
+        "summary": "央广网天津7月11日消息 从网络购物到即时配送，从在线教育到远程医疗，从工业互联网到智慧物流，平台经济已深度嵌入国民经济运行的每一个环节，《中华人民共和国国民经济和社会发展第十五个五年规划纲要》指出，要“推动平台经济创新和健康发展。”平台经济，正成为经济发展中最具活力的变量之一。",
+        "image": "",
+        "publishedAt": "2026-07-11T14:07:48.000Z",
+        "source": "中新网"
+      },
       {
         "title": "京东集团全球首个落地RoboBase项目在广州开工",
         "link": "https://www.chinanews.com.cn/cj/2026/07-11/10657714.shtml",
@@ -279,25 +295,41 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260711/a70327f9-51b0-43c7-8fcc-dba5e8271bac_zsite.jpg",
         "publishedAt": "2026-07-11T13:12:59.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "戴德梁行：上半年中国商业不动产REITs市场爆发式升温",
-        "link": "https://www.chinanews.com.cn/cj/2026/07-11/10657666.shtml",
-        "summary": "中新网北京7月11日电 (记者 阮煜琳)戴德梁行大中华区首席执行官赵锦权日前在北京举行的年中发布会上指出，2026年上半年，中国商业不动产行业正经历一轮清晰的结构升级与逻辑重塑，其中最具标志性的行业事件，当属商业不动产REITs市场的爆发式升温：伴随着政策端持续扩容、底层资产范畴稳步拓宽，优质商业资...",
-        "image": "",
-        "publishedAt": "2026-07-11T13:12:21.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "新疆精河：“枸杞之乡”迎丰收 多项活动助农增收",
-        "link": "https://www.chinanews.com.cn/cj/2026/07-11/10657685.shtml",
-        "summary": "中新网新疆精河7月11日电 (喇小飞)眼下，中国枸杞之乡新疆精河县4万余亩枸杞进入采收季。10日晚，为期三天的“天山映红 驿路精彩”——2026年第九届枸杞产业发展系列农文商旅活动开幕。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260711/bf3b0ee3-355b-446b-92ec-b064653f50cb_zsite.jpg",
-        "publishedAt": "2026-07-11T13:05:54.000Z",
-        "source": "中新网"
       }
     ],
     "worldTop": [
+      {
+        "title": "Iran must pledge to stop shooting at ships in Strait of Hormuz, US officials say",
+        "link": "https://www.bbc.co.uk/news/articles/crelyq79x71o?at_medium=RSS&at_campaign=rss",
+        "summary": "US media say Iran has told US officials an attack on ships crossing the strait early this week was \"a mistake\".",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8b9e/live/f34fa810-7cfd-11f1-926f-c90d1bcfbc84.jpg",
+        "publishedAt": "2026-07-11T16:55:57.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Trump administration subpoenas New York Times journalists over Air Force One reporting",
+        "link": "https://www.bbc.co.uk/news/articles/cpd3g8q51g7o?at_medium=RSS&at_campaign=rss",
+        "summary": "The reporters received the legal summons after they reported on alleged security issues with the president's new plane, which was gifted by Qatar.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a1ec/live/f2614840-7d30-11f1-8f06-e145dd803033.jpg",
+        "publishedAt": "2026-07-11T16:11:33.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Spain battles to contain one of its deadliest wildfires as at least 12 killed",
+        "link": "https://www.bbc.co.uk/news/articles/c1wyv383j2xo?at_medium=RSS&at_campaign=rss",
+        "summary": "At least four Britons are believed to be among the victims of the blaze, which left another 23 people missing.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bbd0/live/59a16160-7cfb-11f1-bbe2-7f9a5a48eac9.jpg",
+        "publishedAt": "2026-07-11T15:03:45.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "South Africa World Cup midfielder Jayden Adams dies at 25",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdkx1V3pDSHNhRnd0T2hjVWtVTTNQQnJRaVV0M3R0bjN5R05mQkI5WFIwMFYyMEI1Ni1vZi1BYkR4cVBhRjVWdjl3aE1XWkhMczBGWXI1N1Y2RG1DQVBNM2VuanZTNjFURVU4X3NOTEh3Tm1xWXBMaFk4anhOUUJsbkdaSQ?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-07-11T14:45:51.000Z",
+        "source": "CNN"
+      },
       {
         "title": "Indian tourists among 15 killed as speedboat capsizes in Vietnam",
         "link": "https://www.bbc.co.uk/news/articles/cwyd7x22lp1o?at_medium=RSS&at_campaign=rss",
@@ -305,38 +337,6 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ff78/live/f1159af0-7d1b-11f1-b61e-1b6852ddc42f.jpg",
         "publishedAt": "2026-07-11T13:44:03.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "US wants Iran to pledge to stop shooting at ships in Strait of Hormuz",
-        "link": "https://www.bbc.co.uk/news/articles/crelyq79x71o?at_medium=RSS&at_campaign=rss",
-        "summary": "Vice-President JD Vance is among US officials expected to take part in negotiations resuming on Saturday in Oman.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8b9e/live/f34fa810-7cfd-11f1-926f-c90d1bcfbc84.jpg",
-        "publishedAt": "2026-07-11T13:14:19.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "US pays out $3m to victims of mystery Havana Syndrome condition reported by spies",
-        "link": "https://www.bbc.co.uk/news/articles/cr7xyl78vnko?at_medium=RSS&at_campaign=rss",
-        "summary": "US officials and diplomats and their families began reporting a mysterious illness a decade ago.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7562/live/ef363980-cfa0-11ef-b967-0b921216563e.jpg",
-        "publishedAt": "2026-07-11T13:11:52.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "China braced for second typhoon in a week as Bavi approaches landfall",
-        "link": "https://www.bbc.co.uk/news/articles/cdxd3wkp2rzo?at_medium=RSS&at_campaign=rss",
-        "summary": "Hundreds of thousands of people are evacuated from eastern Zhejiang province, with the city of Wenzhou close to the path of the storm.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5dd5/live/0a1f8470-7d1c-11f1-926f-c90d1bcfbc84.jpg",
-        "publishedAt": "2026-07-11T12:06:47.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "He gave his girlfriend what he thought was fancy perfume. It contained deadly poison from Russian spies",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQndUNlo5TTB1d1VCSmg4cHVpenhVbmZzNGh5WXd3SDJUREpvSW9pSVAyVGNfWTJ6ZURiQzdIVFpJTTBuQlNJS0E1S1UzNEFULWRSc3RpYkxsWmxnbjdqa1dLRC1RdUotRzZNWWRpQ3RBZ3JBVThCZWRMU0xLMHpxR0lPOGI?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-07-11T12:00:25.000Z",
-        "source": "CNN"
       }
     ],
     "worldBusiness": [
@@ -425,47 +425,79 @@
     ],
     "domestic": [
       {
-        "title": "陈立泉院士：“电动中国”构想正逐步成为现实",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-11/10657705.shtml",
-        "summary": "中新社北京7月11日电 (记者 孙自法 郭超凯)国家最高科学技术奖获得者、中国工程院院士、中国科学院物理研究所研究员陈立泉10日在中国工程院第十八次院士大会上作报告说，以交通电动化、装备智能化、能源低碳化“三化”为主要特征的“电动中国”构想，正在逐步成为现实。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260711/01951442-c400-4caf-b921-6b485e464668_zsite.jpeg",
-        "publishedAt": "2026-07-11T13:36:24.000Z",
+        "title": "坚持自立自强 促进开放合作——习近平总书记重要讲话为推动世界科技创新发展注入强劲动力",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-11/10657745.shtml",
+        "summary": "新华社北京7月11日电 题：坚持自立自强 促进开放合作——习近平总书记重要讲话为推动世界科技创新发展注入强劲动力",
+        "image": "",
+        "publishedAt": "2026-07-11T15:12:30.000Z",
         "source": "中新网"
       },
       {
-        "title": "合作进行时｜双边关系定位升级 中纳合作深化",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-11/10657708.shtml",
-        "summary": "7月10日，中国和纳米比亚两国元首在北京举行会谈，双方共同宣布将双边关系定位提升为新时代中纳命运共同体。",
+        "title": "“深深植根人民，始终拥有坚实根基”——深入学习贯彻习近平总书记在庆祝中国共产党成立105周年大会上重要讲话系列述评之七",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-11/10657742.shtml",
+        "summary": "新华社北京7月11日电 题：“深深植根人民，始终拥有坚实根基”——深入学习贯彻习近平总书记在庆祝中国共产党成立105周年大会上重要讲话系列述评之七",
         "image": "",
-        "publishedAt": "2026-07-11T13:28:48.000Z",
+        "publishedAt": "2026-07-11T15:11:06.000Z",
         "source": "中新网"
       },
       {
-        "title": "受台风“巴威”影响 台湾多地遭遇强降雨",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-11/10657704.shtml",
-        "summary": "中新社台北7月11日电 (记者 陈建新)受台风“巴威”影响，台湾多地11日遭遇强降雨。",
-        "image": "",
-        "publishedAt": "2026-07-11T13:23:15.000Z",
+        "title": "从“脚下”汲取灵感 台湾青年艺术家“探陆”",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-11/10657733.shtml",
+        "summary": "中新社北京7月11日电 (张杨彬 姜姿屹)11日在北京举办的一场艺术展上，不少参观者被一件手掌造型的装置艺术吸引。这件名为《承天》的作品出自台湾青年艺术家范姜子珈之手，灵感源自天坛“天圆地方”理念，两侧还摆放她以贵州溶洞和重庆楼宇为灵感的创作。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260711/66100f32-8d87-48d1-b833-13525bda8f88_zsite.jpg",
+        "publishedAt": "2026-07-11T15:08:24.000Z",
         "source": "中新网"
       },
       {
-        "title": "长三角部分铁路列车因台风“巴威”临时停运 船舶回港避风",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-11/10657677.shtml",
-        "summary": "中新社南京7月11日电 (记者 朱晓颖)今年第9号台风“巴威”逐渐逼近中国东南沿海。受其影响，长三角部分铁路列车11日临时停运，长江下游船舶回港避风。",
+        "title": "活力中国调研行| 从“机器人谷”，攀“机器人峰”",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-11/10657723.shtml",
+        "summary": "在深圳市南山区，我们调研了一家专注于研发生产人工智能外骨骼机器人的科创企业——极壳科技。",
         "image": "",
-        "publishedAt": "2026-07-11T13:17:53.000Z",
+        "publishedAt": "2026-07-11T14:03:32.000Z",
         "source": "中新网"
       },
       {
-        "title": "海河流域滦河发生2026年第1号洪水",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-11/10657679.shtml",
-        "summary": "中新网天津7月11日电 (记者 周亚强)受强降雨影响，海河流域滦河11日发生2026年第1号洪水，水利部海河水利委员会已启动防汛Ⅲ级应急响应和洪水防御Ⅲ级应急响应，并发布蓟运河洪水蓝色预警。",
+        "title": "景区关闭、加固电力设施 福建多举措应对台风“巴威”",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-11/10657722.shtml",
+        "summary": "福建省防汛抗旱指挥部于10日16时30分，提升防台风应急响应至Ⅱ级。位于闽北山区的南平市光泽县受到外围环流影响可能发生强降雨，当地高速多个部门提前做好防范工作，保证群众出行安全。",
         "image": "",
-        "publishedAt": "2026-07-11T13:15:39.000Z",
+        "publishedAt": "2026-07-11T13:59:51.000Z",
         "source": "中新网"
       }
     ],
     "international": [
+      {
+        "title": "Iran must pledge to stop shooting at ships in Strait of Hormuz, US officials say",
+        "link": "https://www.bbc.co.uk/news/articles/crelyq79x71o?at_medium=RSS&at_campaign=rss",
+        "summary": "US media say Iran has told US officials an attack on ships crossing the strait early this week was \"a mistake\".",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8b9e/live/f34fa810-7cfd-11f1-926f-c90d1bcfbc84.jpg",
+        "publishedAt": "2026-07-11T16:55:57.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Trump administration subpoenas New York Times journalists over Air Force One reporting",
+        "link": "https://www.bbc.co.uk/news/articles/cpd3g8q51g7o?at_medium=RSS&at_campaign=rss",
+        "summary": "The reporters received the legal summons after they reported on alleged security issues with the president's new plane, which was gifted by Qatar.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a1ec/live/f2614840-7d30-11f1-8f06-e145dd803033.jpg",
+        "publishedAt": "2026-07-11T16:11:33.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Spain battles to contain one of its deadliest wildfires as at least 12 killed",
+        "link": "https://www.bbc.co.uk/news/articles/c1wyv383j2xo?at_medium=RSS&at_campaign=rss",
+        "summary": "At least four Britons are believed to be among the victims of the blaze, which left another 23 people missing.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bbd0/live/59a16160-7cfb-11f1-bbe2-7f9a5a48eac9.jpg",
+        "publishedAt": "2026-07-11T15:03:45.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "South Africa World Cup midfielder Jayden Adams dies at 25",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdkx1V3pDSHNhRnd0T2hjVWtVTTNQQnJRaVV0M3R0bjN5R05mQkI5WFIwMFYyMEI1Ni1vZi1BYkR4cVBhRjVWdjl3aE1XWkhMczBGWXI1N1Y2RG1DQVBNM2VuanZTNjFURVU4X3NOTEh3Tm1xWXBMaFk4anhOUUJsbkdaSQ?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-07-11T14:45:51.000Z",
+        "source": "CNN"
+      },
       {
         "title": "Indian tourists among 15 killed as speedboat capsizes in Vietnam",
         "link": "https://www.bbc.co.uk/news/articles/cwyd7x22lp1o?at_medium=RSS&at_campaign=rss",
@@ -473,99 +505,14 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ff78/live/f1159af0-7d1b-11f1-b61e-1b6852ddc42f.jpg",
         "publishedAt": "2026-07-11T13:44:03.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "US wants Iran to pledge to stop shooting at ships in Strait of Hormuz",
-        "link": "https://www.bbc.co.uk/news/articles/crelyq79x71o?at_medium=RSS&at_campaign=rss",
-        "summary": "Vice-President JD Vance is among US officials expected to take part in negotiations resuming on Saturday in Oman.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8b9e/live/f34fa810-7cfd-11f1-926f-c90d1bcfbc84.jpg",
-        "publishedAt": "2026-07-11T13:14:19.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "US pays out $3m to victims of mystery Havana Syndrome condition reported by spies",
-        "link": "https://www.bbc.co.uk/news/articles/cr7xyl78vnko?at_medium=RSS&at_campaign=rss",
-        "summary": "US officials and diplomats and their families began reporting a mysterious illness a decade ago.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7562/live/ef363980-cfa0-11ef-b967-0b921216563e.jpg",
-        "publishedAt": "2026-07-11T13:11:52.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "China braced for second typhoon in a week as Bavi approaches landfall",
-        "link": "https://www.bbc.co.uk/news/articles/cdxd3wkp2rzo?at_medium=RSS&at_campaign=rss",
-        "summary": "Hundreds of thousands of people are evacuated from eastern Zhejiang province, with the city of Wenzhou close to the path of the storm.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5dd5/live/0a1f8470-7d1c-11f1-926f-c90d1bcfbc84.jpg",
-        "publishedAt": "2026-07-11T12:06:47.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "He gave his girlfriend what he thought was fancy perfume. It contained deadly poison from Russian spies",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQndUNlo5TTB1d1VCSmg4cHVpenhVbmZzNGh5WXd3SDJUREpvSW9pSVAyVGNfWTJ6ZURiQzdIVFpJTTBuQlNJS0E1S1UzNEFULWRSc3RpYkxsWmxnbjdqa1dLRC1RdUotRzZNWWRpQ3RBZ3JBVThCZWRMU0xLMHpxR0lPOGI?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-07-11T12:00:25.000Z",
-        "source": "CNN"
       }
     ],
-    "nba": [
-      {
-        "title": "What's still lingering this NBA offseason: 10 big ...",
-        "link": "https://www.espn.com/nba/story/_/id/49315328/2026-nba-offseason-free-agency-trade-market-top-unresolved-storylines-contracts-aspiration-expansion",
-        "summary": "Let's evaluate what still needs to be decided this offseason, including Jalen Duren's new contract, the Kawhi Leonard trade and LeBron James' next tea...",
-        "image": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0710%2Fr1687210_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-07-11T13:59:35.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Copy of Offseason buzz: Latest signings, trades, extension...",
-        "link": "https://www.espn.com/nba/story/_/id/48377855/2026-nba-buzz-latest-live-updates-news-intel-nba-draft-offseason",
-        "summary": "We're tracking deals, trades and buzz, including Donovan Mitchell agreeing to an extension with the Cavs.",
-        "image": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0710%2Fr1687111_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-07-11T13:59:35.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Sources: Adebayo struck Herro in Vegas altercation...",
-        "link": "https://www.espn.com/nba/story/_/id/49328387/heat-bam-adebayo-bucks-tyler-herro-got-physical-altercation-las-vegas",
-        "summary": "Former Heat teammates Bam Adebayo and Tyler Herro got into a physical altercation at a practice court in a Las Vegas hotel Friday morning, during whic...",
-        "image": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0710%2Fr1687550_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-07-11T05:22:21.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Strong debut caps 'emotional' day for Bulls' Wilso...",
-        "link": "https://www.espn.com/nba/story/_/id/49330697/bulls-wilson-emotional-puts-show-35-point-summer-league-debut",
-        "summary": "Bulls rookie Caleb Wilson scored 35 points in his summer league debut Friday night, the second most in a Las Vegas debut since the event began in 2004...",
-        "image": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0711%2Fr1687640_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-07-11T05:22:22.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Sources: Spurs' Wemby inks $252M max extension",
-        "link": "https://www.espn.com/nba/story/_/id/49328757/sources-spurs-victor-wembanyama-reach-252-million-max-extension",
-        "summary": "Victor Wembanyama and the Spurs have reached agreement on a five-year, $252 million maximum rookie-scale contract extension, sources told ESPN, the th...",
-        "image": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0710%2Fr1687483_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-07-11T05:22:22.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Iggy: LeBron's Dubs interest tribute to Curry's pu...",
-        "link": "https://www.espn.com/nba/story/_/id/49329777/iguodala-lebron-warriors-interest-testament-curry-great-stature",
-        "summary": "Andre Iguodala, the 2015 Finals MVP in the first of the Warriors' three titles over LeBron James' Cavaliers, says that the fact that Golden State is e...",
-        "image": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0630%2Fr1682251_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-07-11T05:22:21.000Z",
-        "source": "ESPN"
-      }
-    ]
+    "nba": []
   },
   "nbaScoreboard": {
-    "date": "2026-07-11",
+    "date": "2026-07-12",
     "currentIndex": 4,
     "days": [
-      {
-        "date": "2026-07-07",
-        "games": []
-      },
       {
         "date": "2026-07-08",
         "games": []
@@ -597,12 +544,16 @@
       {
         "date": "2026-07-15",
         "games": []
+      },
+      {
+        "date": "2026-07-16",
+        "games": []
       }
     ],
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-07-11",
+    "rotationLabel": "Curated Rotation · 2026-07-12",
     "sections": [
       {
         "id": "data-storage",
@@ -610,27 +561,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-2",
-            "sectionId": "data-storage",
-            "title": "Bigtable: A Distributed Storage System for Structured Data",
-            "authors": [
-              "Fay Chang",
-              "Jeffrey Dean",
-              "Sanjay Ghemawat",
-              "Wilson C. Hsieh"
-            ],
-            "venue": "OSDI",
-            "year": 2006,
-            "quality": "顶会",
-            "categories": [
-              "distributed systems",
-              "database"
-            ],
-            "link": "https://research.google/pubs/pub27898/",
-            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-3",
             "sectionId": "data-storage",
@@ -650,7 +580,7 @@
             ],
             "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
             "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-4",
@@ -672,6 +602,26 @@
             "link": "https://research.google/pubs/pub36632/",
             "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-5",
+            "sectionId": "data-storage",
+            "title": "The FAISS Library",
+            "authors": [
+              "Jeff Johnson",
+              "Matthijs Douze",
+              "Herve Jegou"
+            ],
+            "venue": "IEEE T-BD",
+            "year": 2021,
+            "quality": "高影响力",
+            "categories": [
+              "vector search",
+              "ANN"
+            ],
+            "link": "https://arxiv.org/abs/2401.08281",
+            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -681,27 +631,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-3",
-            "sectionId": "computer-vision",
-            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
-            "authors": [
-              "Alexey Dosovitskiy",
-              "Lucas Beyer",
-              "Alexander Kolesnikov",
-              "Dirk Weissenborn"
-            ],
-            "venue": "ICLR",
-            "year": 2021,
-            "quality": "顶会",
-            "categories": [
-              "vision transformer",
-              "classification"
-            ],
-            "link": "https://arxiv.org/abs/2010.11929",
-            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-4",
             "sectionId": "computer-vision",
@@ -721,7 +650,7 @@
             ],
             "link": "https://arxiv.org/abs/2103.00020",
             "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-5",
@@ -743,6 +672,27 @@
             "link": "https://arxiv.org/abs/2304.02643",
             "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-6",
+            "sectionId": "computer-vision",
+            "title": "DINOv2: Learning Robust Visual Features without Supervision",
+            "authors": [
+              "Maxime Oquab",
+              "Timothée Darcet",
+              "Théo Moutakanni",
+              "Huy V. Vo"
+            ],
+            "venue": "arXiv / Meta",
+            "year": 2023,
+            "quality": "高影响力",
+            "categories": [
+              "self-supervised",
+              "representation"
+            ],
+            "link": "https://arxiv.org/abs/2304.07193",
+            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -752,27 +702,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-4",
-            "sectionId": "llm-memory",
-            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
-            "authors": [
-              "Akari Asai",
-              "Zequn Zhang",
-              "Avirup Sil",
-              "Hannaneh Hajishirzi"
-            ],
-            "venue": "ICLR",
-            "year": 2024,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "self-reflection"
-            ],
-            "link": "https://arxiv.org/abs/2310.11511",
-            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-5",
             "sectionId": "llm-memory",
@@ -792,7 +721,7 @@
             ],
             "link": "https://arxiv.org/abs/2306.07174",
             "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-6",
@@ -814,6 +743,27 @@
             "link": "https://arxiv.org/abs/2409.05591",
             "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-1",
+            "sectionId": "llm-memory",
+            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+            "authors": [
+              "Patrick Lewis",
+              "Ethan Perez",
+              "Aleksandra Piktus",
+              "Fabio Petroni"
+            ],
+            "venue": "NeurIPS",
+            "year": 2020,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "retrieval"
+            ],
+            "link": "https://arxiv.org/abs/2005.11401",
+            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -823,27 +773,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-5",
-            "sectionId": "agents",
-            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
-            "authors": [
-              "Qingyun Wu",
-              "Gagan Bansal",
-              "Jiaqi Zhang",
-              "Yiran Wu"
-            ],
-            "venue": "COLM",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "multi-agent",
-              "framework"
-            ],
-            "link": "https://arxiv.org/abs/2308.08155",
-            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-6",
             "sectionId": "agents",
@@ -863,7 +792,7 @@
             ],
             "link": "https://arxiv.org/abs/2405.15793",
             "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-1",
@@ -885,6 +814,27 @@
             ],
             "link": "https://arxiv.org/abs/2210.03629",
             "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-2",
+            "sectionId": "agents",
+            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+            "authors": [
+              "Timo Schick",
+              "Jane Dwivedi-Yu",
+              "Roberta Dessì",
+              "Ari Holtzman"
+            ],
+            "venue": "NeurIPS",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "tool use",
+              "agent"
+            ],
+            "link": "https://arxiv.org/abs/2302.04761",
+            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
             "trackLabel": "轮换精选"
           }
         ]
