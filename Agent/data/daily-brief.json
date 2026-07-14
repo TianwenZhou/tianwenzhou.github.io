@@ -1,29 +1,21 @@
 {
-  "generatedAt": "2026-07-14T14:08:00.765Z",
+  "generatedAt": "2026-07-14T17:31:15.269Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 28,
-      "weatherCode": 3,
-      "windSpeed": 5
+      "temperature": 25,
+      "weatherCode": 0,
+      "windSpeed": 3
     },
     "today": {
-      "date": "2026-07-14",
-      "weatherCode": 3,
-      "description": "阴天",
-      "max": 33,
-      "min": 25,
+      "date": "2026-07-15",
+      "weatherCode": 2,
+      "description": "局部多云",
+      "max": 34,
+      "min": 23,
       "precipitationProbability": 0
     },
     "forecast": [
-      {
-        "date": "2026-07-14",
-        "weatherCode": 3,
-        "description": "阴天",
-        "max": 33,
-        "min": 25,
-        "precipitationProbability": 0
-      },
       {
         "date": "2026-07-15",
         "weatherCode": 2,
@@ -38,7 +30,7 @@
         "description": "阴天",
         "max": 33,
         "min": 24,
-        "precipitationProbability": 2
+        "precipitationProbability": 0
       },
       {
         "date": "2026-07-17",
@@ -46,7 +38,7 @@
         "description": "阴天",
         "max": 33,
         "min": 24,
-        "precipitationProbability": 10
+        "precipitationProbability": 2
       },
       {
         "date": "2026-07-18",
@@ -54,33 +46,50 @@
         "description": "毛毛雨",
         "max": 32,
         "min": 22,
-        "precipitationProbability": 31
+        "precipitationProbability": 49
+      },
+      {
+        "date": "2026-07-19",
+        "weatherCode": 51,
+        "description": "毛毛雨",
+        "max": 33,
+        "min": 22,
+        "precipitationProbability": 33
       }
     ]
   },
   "classicQuote": {
-    "id": "taoteching-self",
-    "text": "知人者智，自知者明；胜人者有力，自胜者强。",
-    "source": "《道德经》",
-    "author": "老子",
-    "note": "比起和别人比较，更重要的是把自己的节奏稳住。"
+    "id": "zhuangzi-time",
+    "text": "人生天地之间，若白驹之过隙，忽然而已。",
+    "source": "《庄子》",
+    "author": "庄周",
+    "note": "事情很多的时候，更值得把注意力放在真正重要的事上。"
   },
   "bookExcerpt": {
-    "id": "norwegian-wood-rain",
-    "text": "雨还在下，细得像雾，落在草地和树叶上，世界像被一种安静的潮气轻轻包住。",
-    "book": "《挪威的森林》",
-    "author": "村上春树"
+    "id": "one-hundred-years-yellow",
+    "text": "许多年以后，面对行刑队，奥雷里亚诺·布恩迪亚上校将会想起父亲带他去见识冰块的那个遥远的下午。",
+    "book": "《百年孤独》",
+    "author": "加西亚·马尔克斯"
   },
   "featuredPlace": {
-    "id": "202607131600",
-    "title": "柠檬鲨幼崽在红树林中，伊柳塞拉岛，巴哈马",
+    "id": "202607141600",
+    "title": "玛丽湖，约翰·缪尔荒野（毕晓普附近），加利福尼亚州，美国",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "奇妙的真相",
-    "image": "https://www.bing.com/th?id=OHR.LemonShark_ZH-CN4650331008_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E6%9F%A0%E6%AA%AC%E9%B2%A8&form=hpcapt&mkt=zh-cn"
+    "summary": "攀登后的奖励",
+    "image": "https://www.bing.com/th?id=OHR.MarieLake_ZH-CN4927917413_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E7%BA%A6%E7%BF%B0%C2%B7%E7%BC%AA%E5%B0%94%E8%8D%92%E9%87%8E&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202607141600",
+      "title": "玛丽湖，约翰·缪尔荒野（毕晓普附近），加利福尼亚州，美国",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "攀登后的奖励",
+      "image": "https://www.bing.com/th?id=OHR.MarieLake_ZH-CN4927917413_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E7%BA%A6%E7%BF%B0%C2%B7%E7%BC%AA%E5%B0%94%E8%8D%92%E9%87%8E&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202607131600",
       "title": "柠檬鲨幼崽在红树林中，伊柳塞拉岛，巴哈马",
@@ -143,35 +152,42 @@
       "summary": "远古火山的回响",
       "image": "https://www.bing.com/th?id=OHR.LakeAtitlan_ZH-CN1920221893_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E5%8D%B1%E5%9C%B0%E9%A9%AC%E6%8B%89+%E9%98%BF%E8%92%82%E7%89%B9%E5%85%B0%E6%B9%96&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202607061600",
-      "title": "板嘴山巨嘴鸟与兰花，厄瓜多尔",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "林冠华彩",
-      "image": "https://www.bing.com/th?id=OHR.MountainToucanOrchids_ZH-CN1400221431_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E6%9D%BF%E5%98%B4%E5%B1%B1%E5%B7%A8%E5%98%B4%E9%B8%9F&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-07-14",
-    "dateLabel": "7月14日",
+    "dateKey": "2026-07-15",
+    "dateLabel": "7月15日",
     "items": [
       {
-        "year": "2024",
-        "text": "2024年夏季奧林匹克運動會（巴黎奧運會）的奧運聖火抵達法國首都巴黎，並於26日在市政廳廣場的2024年夏季奧林匹克運動開幕禮上進行聖火點燃。",
-        "link": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4"
+        "year": "2016",
+        "text": "Netflix原創影集《怪奇物語》首映。",
+        "link": "https://zh.wikipedia.org/wiki/2016%E5%B9%B4"
       },
       {
-        "year": "2019",
-        "text": "瑞典北部一架載著跳傘人士小型飛機于默奧附近的斯托爾桑德斯卡爾島墜毀，機上9人全部死亡。",
-        "link": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4"
+        "year": "2016",
+        "text": "土耳其军方为中断伊斯兰化进程策动政变推翻总统雷杰普·塔伊普·埃尔多安未遂，造成至少265人死亡，数千名群众受伤。",
+        "link": "https://zh.wikipedia.org/wiki/%E5%9C%9F%E8%80%B3%E5%85%B6"
       }
     ]
   },
   "news": {
     "chinaTop": [
+      {
+        "title": "台湾民众党首次组团前来大陆交流",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-14/10659347.shtml",
+        "summary": "中新社上海7月14日电 (记者 缪璐)台湾民众党青年交流团14日抵达上海参访。这是台湾民众党成立以来首次组团来到大陆交流。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260714/d7e9bf58-5f46-49fe-a568-041a10858af7_zsite.jpeg",
+        "publishedAt": "2026-07-14T14:01:14.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "如何让自然资源资产“厚”起来？官方详解三大举措",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-14/10659357.shtml",
+        "summary": "中新网北京7月14日电 (记者 刘文文)近日公布的《关于完善自然资源资产管理制度体系的意见》(简称《意见》)提出，促进自然资源资产保值增值。如何让绿水青山“活”起来，让自然资源资产“厚”起来，自然资源部介绍三方面改革举措。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260714/2ccd52b0-6a7e-4059-bc35-5252b6bb8cfa_zsite.jpeg",
+        "publishedAt": "2026-07-14T14:00:26.000Z",
+        "source": "中新网"
+      },
       {
         "title": "叶嘉莹先生纪念地在南开大学落成",
         "link": "https://www.chinanews.com.cn/gn/2026/07-14/10659350.shtml",
@@ -195,25 +211,17 @@
         "image": "",
         "publishedAt": "2026-07-14T13:45:05.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "“敢于善于斗争，始终保持必胜信心”——深入学习贯彻习近平总书记在庆祝中国共产党成立105周年大会上重要讲话系列述评之十",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-14/10659343.shtml",
-        "summary": "新华社北京7月14日电 题：“敢于善于斗争，始终保持必胜信心”——深入学习贯彻习近平总书记在庆祝中国共产党成立105周年大会上重要讲话系列述评之十",
-        "image": "",
-        "publishedAt": "2026-07-14T13:41:07.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "追光的你｜这幅油画前，总书记驻足凝视",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-14/10659295.shtml",
-        "summary": "编者按：“他们的事迹可学可做，他们的精神可追可及。”在中国共产党成立105周年之际，央视网《天天学习》栏目特别推出系列报道，以习近平总书记点赞的不同历史时期共产党员先进事迹为引领，穿越历史纵深，还原那些被信仰之光照亮的先锋群像，感悟伟大建党精神的薪火相传。",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/07/14/98bc4cfba99e4d31b1a7b5a5c075591e.jpg",
-        "publishedAt": "2026-07-14T13:04:57.000Z",
-        "source": "中新网"
       }
     ],
     "chinaSociety": [
+      {
+        "title": "青海果洛：黄河源野生动物种群明显增多",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-14/10659376.shtml",
+        "summary": "中新社西宁7月14日电 (记者 孙睿)记者14日从青海省政府新闻办公室召开的“开局起步‘十五五’”主题系列新闻发布会果洛州专场获悉，“十四五”以来，黄河出(青海)境断面水质常年稳定保持Ⅰ类，源头环境质量稳居全国第一梯队，境内黑颈鹤、雪豹等野生动物种群明显增多。",
+        "image": "",
+        "publishedAt": "2026-07-14T14:36:38.000Z",
+        "source": "中新网"
+      },
       {
         "title": "意大利青少年海南感知中国：学了知识，更学会理解不同文化",
         "link": "https://www.chinanews.com.cn/sh/2026/07-14/10659371.shtml",
@@ -245,17 +253,17 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260714/35b38dda-6185-4fe1-8b43-1f54dd3829f3_zsite.jpg",
         "publishedAt": "2026-07-14T14:00:02.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "青海果洛：择机依法依规有序开放年保玉则",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-14/10659352.shtml",
-        "summary": "中新网西宁7月14日电 (记者 孙睿)“今年，我们将在严格保护前提下，在生态保护一般控制区推出年保玉则‘5369’生态旅游大道精品旅游线路，开放运行远观年保玉则山峰的最佳观景点，待条件成熟后依法依规推进有序开放。”青海省果洛藏族自治州副州长卓玛当周14日对外表示。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260714/f1d9677d-a1cc-489c-84ff-9367a86605cf_zsite.jpeg",
-        "publishedAt": "2026-07-14T13:59:02.000Z",
-        "source": "中新网"
       }
     ],
     "chinaFinance": [
+      {
+        "title": "中国用电负荷连创新高",
+        "link": "https://www.chinanews.com.cn/cj/2026/07-14/10659395.shtml",
+        "summary": "中新社北京7月14日电 （记者 王梦瑶）据中国国家能源局14日消息，继今年7月10日全国用电负荷首创新高后，7月14日全国用电负荷再创新高，达到15.51亿千瓦，当日华中地区以及冀南、四川、湖北、湖南等4个省级电网用电负荷创历史新高。",
+        "image": "",
+        "publishedAt": "2026-07-14T15:59:37.000Z",
+        "source": "中新网"
+      },
       {
         "title": "中国央行将开展1.4万亿元人民币买断式逆回购操作",
         "link": "https://www.chinanews.com.cn/cj/2026/07-14/10659344.shtml",
@@ -287,17 +295,25 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260714/e0e256db-6597-45d7-838c-01a34bc748cb_zsite.jpg",
         "publishedAt": "2026-07-14T13:56:01.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "以高息存款为噱头实施诈骗 守住钱袋子警惕这类陷阱",
-        "link": "https://www.chinanews.com.cn/cj/2026/07-14/10659360.shtml",
-        "summary": "真相来了丨以高息存款为噱头实施诈骗 守住钱袋子警惕这类陷阱",
-        "image": "",
-        "publishedAt": "2026-07-14T13:55:01.000Z",
-        "source": "中新网"
       }
     ],
     "worldTop": [
+      {
+        "title": "Israeli strike on police post in north Gaza kills seven, officials say",
+        "link": "https://www.bbc.co.uk/news/articles/cqj1jqeyl5ro?at_medium=RSS&at_campaign=rss",
+        "summary": "A senior officer in the Hamas-run police force was among those killed in the strike, which Israel's military says targeted \"terrorists\".",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13bb/live/d7d46710-7f87-11f1-a47a-d94293d2b0e4.jpg",
+        "publishedAt": "2026-07-14T17:13:27.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Trump scraps threat of 20% fee on Hormuz cargo as US prepares to resume blockade of Iran ports",
+        "link": "https://www.bbc.co.uk/news/articles/cy0608wy8pro?at_medium=RSS&at_campaign=rss",
+        "summary": "Trump drops a 24-hour-old vow to charge cargo ships for using the Strait as the US continues its battle to break Iran's hold on the waterway.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2bf4/live/42878740-7f9c-11f1-b976-0b9c15b0ccfc.jpg",
+        "publishedAt": "2026-07-14T16:54:46.000Z",
+        "source": "BBC"
+      },
       {
         "title": "'If we die, we die together': Wife of man nearly sucked out of Ryanair plane speaks of ordeal",
         "link": "https://www.bbc.co.uk/news/articles/cly8yjnw822o?at_medium=RSS&at_campaign=rss",
@@ -307,11 +323,11 @@
         "source": "BBC"
       },
       {
-        "title": "Yemen's Houthis launch missiles at Saudi Arabia after strikes on Sanaa airport",
-        "link": "https://www.bbc.co.uk/news/articles/cp9ldle3d3xo?at_medium=RSS&at_campaign=rss",
-        "summary": "The Iran-backed Houthis blame Saudi Arabia for the attack in Yemen's capital and say they targeted Abha airport in response.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ddfb/live/25ca1c70-7ebc-11f1-8439-ebc9c5f19300.jpg",
-        "publishedAt": "2026-07-14T10:02:43.000Z",
+        "title": "Diamond giant De Beers halts work at flagship South African mine as demand plummets",
+        "link": "https://www.bbc.co.uk/news/articles/cjrgr7lr1ejo?at_medium=RSS&at_campaign=rss",
+        "summary": "Production will stop for two years at the mine which employs more than 4,000 people.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f33d/live/ecc02f10-7f82-11f1-926f-c90d1bcfbc84.jpg",
+        "publishedAt": "2026-07-14T13:22:09.000Z",
         "source": "BBC"
       },
       {
@@ -321,47 +337,31 @@
         "image": "",
         "publishedAt": "2026-07-14T10:00:25.000Z",
         "source": "CNN"
-      },
-      {
-        "title": "Bangkok fire investigation finds locked doors and flammable decor as deaths climb to 30",
-        "link": "https://www.bbc.co.uk/news/articles/clyxyzlp9p2o?at_medium=RSS&at_campaign=rss",
-        "summary": "Survivors and first responders reported locked doors and a lack of signage marking emergency exits.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/73c6/live/00a8bbe0-7f52-11f1-b976-0b9c15b0ccfc.jpg",
-        "publishedAt": "2026-07-14T03:47:41.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Australian police reveal unseen photos 25 years after British backpacker murder",
-        "link": "https://www.bbc.co.uk/news/articles/crlwln0gkzlo?at_medium=RSS&at_campaign=rss",
-        "summary": "Police hope the images could jog memories that will help them find the body of Peter Falconio.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2c72/live/5ee73240-7f2a-11f1-a2d1-357b5800ed69.jpg",
-        "publishedAt": "2026-07-14T02:26:45.000Z",
-        "source": "BBC"
       }
     ],
     "worldBusiness": [
       {
-        "title": "US inflation rate eases to 3.5% as gasoline prices fall",
+        "title": "Billionaire Warren Buffett stops donations to Bill Gates charity",
+        "link": "https://www.bbc.co.uk/news/articles/c8x2x549vgdo?at_medium=RSS&at_campaign=rss",
+        "summary": "The investor's decision comes weeks after Gates' appearance before US congress over his links to Jeffrey Epstein.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ee0b/live/574e7da0-7fa1-11f1-a5f4-433bb9aa2e5a.jpg",
+        "publishedAt": "2026-07-14T17:18:40.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Port of Dover works to avoid summer travel chaos",
+        "link": "https://www.bbc.co.uk/news/articles/cp8l8zdn7k6o?at_medium=RSS&at_campaign=rss",
+        "summary": "It is hoped the long queues and delays seen over the May bank holiday will not be repeated.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fcd1/live/0d3e7d10-7fa0-11f1-926f-c90d1bcfbc84.jpg",
+        "publishedAt": "2026-07-14T16:42:13.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Gas prices drive down US inflation - but will it last?",
         "link": "https://www.bbc.co.uk/news/articles/c98289j7lg7o?at_medium=RSS&at_campaign=rss",
         "summary": "While the US inflation rate fell in June, concerns remain over price rises increasing again due to the renewed conflict in the Middle East.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9c00/live/75181c70-7f7d-11f1-b1fb-a927e22d7e8b.jpg",
-        "publishedAt": "2026-07-14T13:51:22.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "UK wasted £10bn on PPE that left NHS staff poorly protected, Covid inquiry finds",
-        "link": "https://www.bbc.co.uk/news/articles/czrxrlydyzzo?at_medium=RSS&at_campaign=rss",
-        "summary": "Healthcare staff were unable to properly protect themselves, or those in their care, from dangerous infections, says the latest inquiry report.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/26b2/live/429dd230-7f4b-11f1-b7b5-4731f6422ba0.jpg",
-        "publishedAt": "2026-07-14T12:12:53.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "How much should you give to the year-end teacher collection?",
-        "link": "https://www.bbc.co.uk/news/articles/ckg8x4vk04vo?at_medium=RSS&at_campaign=rss",
-        "summary": "Collecting money for a joint present might overcome the competitive gift-giving, but it can still cause friction.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6c4b/live/0ad498e0-7f67-11f1-bee8-53ce494e1abc.jpg",
-        "publishedAt": "2026-07-14T11:37:58.000Z",
+        "publishedAt": "2026-07-14T16:05:16.000Z",
         "source": "BBC"
       },
       {
@@ -425,6 +425,22 @@
     ],
     "domestic": [
       {
+        "title": "台湾民众党首次组团前来大陆交流",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-14/10659347.shtml",
+        "summary": "中新社上海7月14日电 (记者 缪璐)台湾民众党青年交流团14日抵达上海参访。这是台湾民众党成立以来首次组团来到大陆交流。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260714/d7e9bf58-5f46-49fe-a568-041a10858af7_zsite.jpeg",
+        "publishedAt": "2026-07-14T14:01:14.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "如何让自然资源资产“厚”起来？官方详解三大举措",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-14/10659357.shtml",
+        "summary": "中新网北京7月14日电 (记者 刘文文)近日公布的《关于完善自然资源资产管理制度体系的意见》(简称《意见》)提出，促进自然资源资产保值增值。如何让绿水青山“活”起来，让自然资源资产“厚”起来，自然资源部介绍三方面改革举措。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260714/2ccd52b0-6a7e-4059-bc35-5252b6bb8cfa_zsite.jpeg",
+        "publishedAt": "2026-07-14T14:00:26.000Z",
+        "source": "中新网"
+      },
+      {
         "title": "叶嘉莹先生纪念地在南开大学落成",
         "link": "https://www.chinanews.com.cn/gn/2026/07-14/10659350.shtml",
         "summary": "中新社天津7月14日电 (记者 孙玲玲)2026年7月14日，恰逢农历六月初一，也是中华古典诗词大家、南开大学讲席教授叶嘉莹先生诞辰102周年。南开大学在八里台校区中心花园设计建造了一处特别的纪念地，以追忆这位中国古典文学研究泰斗的崇高风范，缅怀其卓越成就，传承弘扬中华诗教精神。",
@@ -447,25 +463,25 @@
         "image": "",
         "publishedAt": "2026-07-14T13:45:05.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "“敢于善于斗争，始终保持必胜信心”——深入学习贯彻习近平总书记在庆祝中国共产党成立105周年大会上重要讲话系列述评之十",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-14/10659343.shtml",
-        "summary": "新华社北京7月14日电 题：“敢于善于斗争，始终保持必胜信心”——深入学习贯彻习近平总书记在庆祝中国共产党成立105周年大会上重要讲话系列述评之十",
-        "image": "",
-        "publishedAt": "2026-07-14T13:41:07.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "追光的你｜这幅油画前，总书记驻足凝视",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-14/10659295.shtml",
-        "summary": "编者按：“他们的事迹可学可做，他们的精神可追可及。”在中国共产党成立105周年之际，央视网《天天学习》栏目特别推出系列报道，以习近平总书记点赞的不同历史时期共产党员先进事迹为引领，穿越历史纵深，还原那些被信仰之光照亮的先锋群像，感悟伟大建党精神的薪火相传。",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/07/14/98bc4cfba99e4d31b1a7b5a5c075591e.jpg",
-        "publishedAt": "2026-07-14T13:04:57.000Z",
-        "source": "中新网"
       }
     ],
     "international": [
+      {
+        "title": "Israeli strike on police post in north Gaza kills seven, officials say",
+        "link": "https://www.bbc.co.uk/news/articles/cqj1jqeyl5ro?at_medium=RSS&at_campaign=rss",
+        "summary": "A senior officer in the Hamas-run police force was among those killed in the strike, which Israel's military says targeted \"terrorists\".",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13bb/live/d7d46710-7f87-11f1-a47a-d94293d2b0e4.jpg",
+        "publishedAt": "2026-07-14T17:13:27.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Trump scraps threat of 20% fee on Hormuz cargo as US prepares to resume blockade of Iran ports",
+        "link": "https://www.bbc.co.uk/news/articles/cy0608wy8pro?at_medium=RSS&at_campaign=rss",
+        "summary": "Trump drops a 24-hour-old vow to charge cargo ships for using the Strait as the US continues its battle to break Iran's hold on the waterway.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2bf4/live/42878740-7f9c-11f1-b976-0b9c15b0ccfc.jpg",
+        "publishedAt": "2026-07-14T16:54:46.000Z",
+        "source": "BBC"
+      },
       {
         "title": "'If we die, we die together': Wife of man nearly sucked out of Ryanair plane speaks of ordeal",
         "link": "https://www.bbc.co.uk/news/articles/cly8yjnw822o?at_medium=RSS&at_campaign=rss",
@@ -475,11 +491,11 @@
         "source": "BBC"
       },
       {
-        "title": "Yemen's Houthis launch missiles at Saudi Arabia after strikes on Sanaa airport",
-        "link": "https://www.bbc.co.uk/news/articles/cp9ldle3d3xo?at_medium=RSS&at_campaign=rss",
-        "summary": "The Iran-backed Houthis blame Saudi Arabia for the attack in Yemen's capital and say they targeted Abha airport in response.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ddfb/live/25ca1c70-7ebc-11f1-8439-ebc9c5f19300.jpg",
-        "publishedAt": "2026-07-14T10:02:43.000Z",
+        "title": "Diamond giant De Beers halts work at flagship South African mine as demand plummets",
+        "link": "https://www.bbc.co.uk/news/articles/cjrgr7lr1ejo?at_medium=RSS&at_campaign=rss",
+        "summary": "Production will stop for two years at the mine which employs more than 4,000 people.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f33d/live/ecc02f10-7f82-11f1-926f-c90d1bcfbc84.jpg",
+        "publishedAt": "2026-07-14T13:22:09.000Z",
         "source": "BBC"
       },
       {
@@ -489,34 +505,14 @@
         "image": "",
         "publishedAt": "2026-07-14T10:00:25.000Z",
         "source": "CNN"
-      },
-      {
-        "title": "Bangkok fire investigation finds locked doors and flammable decor as deaths climb to 30",
-        "link": "https://www.bbc.co.uk/news/articles/clyxyzlp9p2o?at_medium=RSS&at_campaign=rss",
-        "summary": "Survivors and first responders reported locked doors and a lack of signage marking emergency exits.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/73c6/live/00a8bbe0-7f52-11f1-b976-0b9c15b0ccfc.jpg",
-        "publishedAt": "2026-07-14T03:47:41.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Australian police reveal unseen photos 25 years after British backpacker murder",
-        "link": "https://www.bbc.co.uk/news/articles/crlwln0gkzlo?at_medium=RSS&at_campaign=rss",
-        "summary": "Police hope the images could jog memories that will help them find the body of Peter Falconio.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2c72/live/5ee73240-7f2a-11f1-a2d1-357b5800ed69.jpg",
-        "publishedAt": "2026-07-14T02:26:45.000Z",
-        "source": "BBC"
       }
     ],
     "nba": []
   },
   "nbaScoreboard": {
-    "date": "2026-07-14",
+    "date": "2026-07-15",
     "currentIndex": 4,
     "days": [
-      {
-        "date": "2026-07-10",
-        "games": []
-      },
       {
         "date": "2026-07-11",
         "games": []
@@ -548,12 +544,16 @@
       {
         "date": "2026-07-18",
         "games": []
+      },
+      {
+        "date": "2026-07-19",
+        "games": []
       }
     ],
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-07-14",
+    "rotationLabel": "Curated Rotation · 2026-07-15",
     "sections": [
       {
         "id": "data-storage",
@@ -561,26 +561,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-5",
-            "sectionId": "data-storage",
-            "title": "The FAISS Library",
-            "authors": [
-              "Jeff Johnson",
-              "Matthijs Douze",
-              "Herve Jegou"
-            ],
-            "venue": "IEEE T-BD",
-            "year": 2021,
-            "quality": "高影响力",
-            "categories": [
-              "vector search",
-              "ANN"
-            ],
-            "link": "https://arxiv.org/abs/2401.08281",
-            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-6",
             "sectionId": "data-storage",
@@ -600,7 +580,7 @@
             ],
             "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
             "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-1",
@@ -622,6 +602,27 @@
             "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
             "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-2",
+            "sectionId": "data-storage",
+            "title": "Bigtable: A Distributed Storage System for Structured Data",
+            "authors": [
+              "Fay Chang",
+              "Jeffrey Dean",
+              "Sanjay Ghemawat",
+              "Wilson C. Hsieh"
+            ],
+            "venue": "OSDI",
+            "year": 2006,
+            "quality": "顶会",
+            "categories": [
+              "distributed systems",
+              "database"
+            ],
+            "link": "https://research.google/pubs/pub27898/",
+            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -631,27 +632,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-6",
-            "sectionId": "computer-vision",
-            "title": "DINOv2: Learning Robust Visual Features without Supervision",
-            "authors": [
-              "Maxime Oquab",
-              "Timothée Darcet",
-              "Théo Moutakanni",
-              "Huy V. Vo"
-            ],
-            "venue": "arXiv / Meta",
-            "year": 2023,
-            "quality": "高影响力",
-            "categories": [
-              "self-supervised",
-              "representation"
-            ],
-            "link": "https://arxiv.org/abs/2304.07193",
-            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-1",
             "sectionId": "computer-vision",
@@ -671,7 +651,7 @@
             ],
             "link": "https://arxiv.org/abs/1512.03385",
             "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-2",
@@ -693,6 +673,27 @@
             "link": "https://arxiv.org/abs/2005.12872",
             "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-3",
+            "sectionId": "computer-vision",
+            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+            "authors": [
+              "Alexey Dosovitskiy",
+              "Lucas Beyer",
+              "Alexander Kolesnikov",
+              "Dirk Weissenborn"
+            ],
+            "venue": "ICLR",
+            "year": 2021,
+            "quality": "顶会",
+            "categories": [
+              "vision transformer",
+              "classification"
+            ],
+            "link": "https://arxiv.org/abs/2010.11929",
+            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -702,27 +703,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-1",
-            "sectionId": "llm-memory",
-            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
-            "authors": [
-              "Patrick Lewis",
-              "Ethan Perez",
-              "Aleksandra Piktus",
-              "Fabio Petroni"
-            ],
-            "venue": "NeurIPS",
-            "year": 2020,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "retrieval"
-            ],
-            "link": "https://arxiv.org/abs/2005.11401",
-            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-2",
             "sectionId": "llm-memory",
@@ -742,7 +722,7 @@
             ],
             "link": "https://arxiv.org/abs/2203.08913",
             "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-3",
@@ -764,6 +744,27 @@
             "link": "https://arxiv.org/abs/2112.04426",
             "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-4",
+            "sectionId": "llm-memory",
+            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+            "authors": [
+              "Akari Asai",
+              "Zequn Zhang",
+              "Avirup Sil",
+              "Hannaneh Hajishirzi"
+            ],
+            "venue": "ICLR",
+            "year": 2024,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "self-reflection"
+            ],
+            "link": "https://arxiv.org/abs/2310.11511",
+            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -773,27 +774,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-2",
-            "sectionId": "agents",
-            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
-            "authors": [
-              "Timo Schick",
-              "Jane Dwivedi-Yu",
-              "Roberta Dessì",
-              "Ari Holtzman"
-            ],
-            "venue": "NeurIPS",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "tool use",
-              "agent"
-            ],
-            "link": "https://arxiv.org/abs/2302.04761",
-            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-3",
             "sectionId": "agents",
@@ -813,7 +793,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.03442",
             "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-4",
@@ -834,6 +814,27 @@
             ],
             "link": "https://arxiv.org/abs/2305.16291",
             "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-5",
+            "sectionId": "agents",
+            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+            "authors": [
+              "Qingyun Wu",
+              "Gagan Bansal",
+              "Jiaqi Zhang",
+              "Yiran Wu"
+            ],
+            "venue": "COLM",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "multi-agent",
+              "framework"
+            ],
+            "link": "https://arxiv.org/abs/2308.08155",
+            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
             "trackLabel": "轮换精选"
           }
         ]
