@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-07-14T17:31:15.269Z",
+  "generatedAt": "2026-07-14T21:10:43.037Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 25,
+      "temperature": 23,
       "weatherCode": 0,
       "windSpeed": 3
     },
     "today": {
       "date": "2026-07-15",
-      "weatherCode": 2,
-      "description": "局部多云",
+      "weatherCode": 3,
+      "description": "阴天",
       "max": 34,
       "min": 23,
       "precipitationProbability": 0
@@ -18,8 +18,8 @@
     "forecast": [
       {
         "date": "2026-07-15",
-        "weatherCode": 2,
-        "description": "局部多云",
+        "weatherCode": 3,
+        "description": "阴天",
         "max": 34,
         "min": 23,
         "precipitationProbability": 0
@@ -29,29 +29,29 @@
         "weatherCode": 3,
         "description": "阴天",
         "max": 33,
-        "min": 24,
+        "min": 25,
         "precipitationProbability": 0
       },
       {
         "date": "2026-07-17",
-        "weatherCode": 3,
-        "description": "阴天",
-        "max": 33,
+        "weatherCode": 1,
+        "description": "基本晴",
+        "max": 34,
         "min": 24,
         "precipitationProbability": 2
       },
       {
         "date": "2026-07-18",
-        "weatherCode": 51,
-        "description": "毛毛雨",
-        "max": 32,
-        "min": 22,
+        "weatherCode": 53,
+        "description": "小雨",
+        "max": 31,
+        "min": 23,
         "precipitationProbability": 49
       },
       {
         "date": "2026-07-19",
-        "weatherCode": 51,
-        "description": "毛毛雨",
+        "weatherCode": 80,
+        "description": "阵雨",
         "max": 33,
         "min": 22,
         "precipitationProbability": 33
@@ -299,19 +299,11 @@
     ],
     "worldTop": [
       {
-        "title": "Israeli strike on police post in north Gaza kills seven, officials say",
-        "link": "https://www.bbc.co.uk/news/articles/cqj1jqeyl5ro?at_medium=RSS&at_campaign=rss",
-        "summary": "A senior officer in the Hamas-run police force was among those killed in the strike, which Israel's military says targeted \"terrorists\".",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13bb/live/d7d46710-7f87-11f1-a47a-d94293d2b0e4.jpg",
-        "publishedAt": "2026-07-14T17:13:27.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Trump scraps threat of 20% fee on Hormuz cargo as US prepares to resume blockade of Iran ports",
+        "title": "Trump scraps threat of 20% fee on Hormuz cargo as US resumes blockade of Iran ports",
         "link": "https://www.bbc.co.uk/news/articles/cy0608wy8pro?at_medium=RSS&at_campaign=rss",
         "summary": "Trump drops a 24-hour-old vow to charge cargo ships for using the Strait as the US continues its battle to break Iran's hold on the waterway.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2bf4/live/42878740-7f9c-11f1-b976-0b9c15b0ccfc.jpg",
-        "publishedAt": "2026-07-14T16:54:46.000Z",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d6c0/live/e8f90230-7fb4-11f1-926f-c90d1bcfbc84.jpg",
+        "publishedAt": "2026-07-14T20:10:37.000Z",
         "source": "BBC"
       },
       {
@@ -319,7 +311,23 @@
         "link": "https://www.bbc.co.uk/news/articles/cly8yjnw822o?at_medium=RSS&at_campaign=rss",
         "summary": "Svetlana Grković told Serbian media that her husband is \"seriously injured and in shock\".",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d5c6/live/0b7687c0-7f73-11f1-926f-c90d1bcfbc84.jpg",
-        "publishedAt": "2026-07-14T13:49:42.000Z",
+        "publishedAt": "2026-07-14T19:40:23.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Strait of Hormuz 'faultline' exposes weakness of the US-Iran deal",
+        "link": "https://www.bbc.co.uk/news/articles/cwy0ydn033yo?at_medium=RSS&at_campaign=rss",
+        "summary": "Control of the waterway has become a key point of contention between the US and Iran, as a ceasefire deal falters.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2d0c/live/39f9d170-7fa9-11f1-a5f4-433bb9aa2e5a.jpg",
+        "publishedAt": "2026-07-14T19:13:49.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Israeli strike on police post in north Gaza kills seven, officials say",
+        "link": "https://www.bbc.co.uk/news/articles/cqj1jqeyl5ro?at_medium=RSS&at_campaign=rss",
+        "summary": "A senior officer in the Hamas-run police force was among those killed in the strike, which Israel's military says targeted \"terrorists\".",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13bb/live/d7d46710-7f87-11f1-a47a-d94293d2b0e4.jpg",
+        "publishedAt": "2026-07-14T17:13:27.000Z",
         "source": "BBC"
       },
       {
@@ -329,23 +337,31 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f33d/live/ecc02f10-7f82-11f1-926f-c90d1bcfbc84.jpg",
         "publishedAt": "2026-07-14T13:22:09.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "The world no longer has an oil problem. It has a gasoline problem",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9JS3Zhd0ktZ1NBSlZwLU1Sb1RZTldyZGlPdnBkdG1KRTd5UWF6TnpGbW1kbVNlcnBNU2Q3UFV3ZUxlNVVSQThHVlFWXzd6LTNxS1FvWE1TcjVWZnhXUE10Ny13MVFQTjJjOVE?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-07-14T10:00:25.000Z",
-        "source": "CNN"
       }
     ],
     "worldBusiness": [
       {
+        "title": "Trump scraps threat of 20% fee on Hormuz cargo as US resumes blockade of Iran ports",
+        "link": "https://www.bbc.co.uk/news/articles/cy0608wy8pro?at_medium=RSS&at_campaign=rss",
+        "summary": "Trump drops a 24-hour-old vow to charge cargo ships for using the Strait as the US continues its battle to break Iran's hold on the waterway.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d6c0/live/e8f90230-7fb4-11f1-926f-c90d1bcfbc84.jpg",
+        "publishedAt": "2026-07-14T20:10:37.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "Billionaire Warren Buffett stops donations to Bill Gates charity",
         "link": "https://www.bbc.co.uk/news/articles/c8x2x549vgdo?at_medium=RSS&at_campaign=rss",
-        "summary": "The investor's decision comes weeks after Gates' appearance before US congress over his links to Jeffrey Epstein.",
+        "summary": "The investor's decision comes weeks after Gates' appearance before US Congress over his links to Jeffrey Epstein.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ee0b/live/574e7da0-7fa1-11f1-a5f4-433bb9aa2e5a.jpg",
-        "publishedAt": "2026-07-14T17:18:40.000Z",
+        "publishedAt": "2026-07-14T18:05:11.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Gas prices drive down US inflation - but will it last?",
+        "link": "https://www.bbc.co.uk/news/articles/c98289j7lg7o?at_medium=RSS&at_campaign=rss",
+        "summary": "While the US inflation rate fell in June, concerns remain over price rises increasing again due to the renewed conflict in the Middle East.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9c00/live/75181c70-7f7d-11f1-b1fb-a927e22d7e8b.jpg",
+        "publishedAt": "2026-07-14T17:34:55.000Z",
         "source": "BBC"
       },
       {
@@ -357,28 +373,12 @@
         "source": "BBC"
       },
       {
-        "title": "Gas prices drive down US inflation - but will it last?",
-        "link": "https://www.bbc.co.uk/news/articles/c98289j7lg7o?at_medium=RSS&at_campaign=rss",
-        "summary": "While the US inflation rate fell in June, concerns remain over price rises increasing again due to the renewed conflict in the Middle East.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9c00/live/75181c70-7f7d-11f1-b1fb-a927e22d7e8b.jpg",
-        "publishedAt": "2026-07-14T16:05:16.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "South East Water must pay £30.5m for supply failures",
-        "link": "https://www.bbc.co.uk/news/articles/cevlvxgggxyo?at_medium=RSS&at_campaign=rss",
-        "summary": "Regulator Ofwat confirms this penalty follows three investigations into the water company.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/39e0/live/2c24cef0-7f5a-11f1-a97a-9b1029617ccb.jpg",
-        "publishedAt": "2026-07-14T10:13:59.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "The mysterious crypto firm backed by Farage's biggest donor",
-        "link": "https://www.bbc.co.uk/news/articles/cg4w6wqye32o?at_medium=RSS&at_campaign=rss",
-        "summary": "Tether is a giant in crytocurrency, an industry that Nigel Farage believes the UK should be embracing.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8ae0/live/c36317c0-7ef3-11f1-83a7-0959f8cc10cc.jpg",
-        "publishedAt": "2026-07-13T23:00:59.000Z",
-        "source": "BBC"
+        "title": "Warren Buffett drops Gates Foundation from his annual donations",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9haWRHdVRtd2RQYUVpSnZzZ2FxSi1pb0d1WnNKdUVpMW5hZ2YwWTltdHFVV1RZSlU0aVdYMmhUQXBQUEdvTEp1Y1c3SDNGdzVROHJjSlo0clBNRlBDYmRlaWFlTGNNaHFvWGo4Vmw5WjVsX3A5OEtWaVlnV0Z5eUU?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-07-14T14:32:18.000Z",
+        "source": "CNN"
       }
     ],
     "worldTech": [
@@ -467,19 +467,11 @@
     ],
     "international": [
       {
-        "title": "Israeli strike on police post in north Gaza kills seven, officials say",
-        "link": "https://www.bbc.co.uk/news/articles/cqj1jqeyl5ro?at_medium=RSS&at_campaign=rss",
-        "summary": "A senior officer in the Hamas-run police force was among those killed in the strike, which Israel's military says targeted \"terrorists\".",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13bb/live/d7d46710-7f87-11f1-a47a-d94293d2b0e4.jpg",
-        "publishedAt": "2026-07-14T17:13:27.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Trump scraps threat of 20% fee on Hormuz cargo as US prepares to resume blockade of Iran ports",
+        "title": "Trump scraps threat of 20% fee on Hormuz cargo as US resumes blockade of Iran ports",
         "link": "https://www.bbc.co.uk/news/articles/cy0608wy8pro?at_medium=RSS&at_campaign=rss",
         "summary": "Trump drops a 24-hour-old vow to charge cargo ships for using the Strait as the US continues its battle to break Iran's hold on the waterway.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2bf4/live/42878740-7f9c-11f1-b976-0b9c15b0ccfc.jpg",
-        "publishedAt": "2026-07-14T16:54:46.000Z",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d6c0/live/e8f90230-7fb4-11f1-926f-c90d1bcfbc84.jpg",
+        "publishedAt": "2026-07-14T20:10:37.000Z",
         "source": "BBC"
       },
       {
@@ -487,7 +479,23 @@
         "link": "https://www.bbc.co.uk/news/articles/cly8yjnw822o?at_medium=RSS&at_campaign=rss",
         "summary": "Svetlana Grković told Serbian media that her husband is \"seriously injured and in shock\".",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d5c6/live/0b7687c0-7f73-11f1-926f-c90d1bcfbc84.jpg",
-        "publishedAt": "2026-07-14T13:49:42.000Z",
+        "publishedAt": "2026-07-14T19:40:23.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Strait of Hormuz 'faultline' exposes weakness of the US-Iran deal",
+        "link": "https://www.bbc.co.uk/news/articles/cwy0ydn033yo?at_medium=RSS&at_campaign=rss",
+        "summary": "Control of the waterway has become a key point of contention between the US and Iran, as a ceasefire deal falters.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2d0c/live/39f9d170-7fa9-11f1-a5f4-433bb9aa2e5a.jpg",
+        "publishedAt": "2026-07-14T19:13:49.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Israeli strike on police post in north Gaza kills seven, officials say",
+        "link": "https://www.bbc.co.uk/news/articles/cqj1jqeyl5ro?at_medium=RSS&at_campaign=rss",
+        "summary": "A senior officer in the Hamas-run police force was among those killed in the strike, which Israel's military says targeted \"terrorists\".",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13bb/live/d7d46710-7f87-11f1-a47a-d94293d2b0e4.jpg",
+        "publishedAt": "2026-07-14T17:13:27.000Z",
         "source": "BBC"
       },
       {
@@ -497,14 +505,6 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f33d/live/ecc02f10-7f82-11f1-926f-c90d1bcfbc84.jpg",
         "publishedAt": "2026-07-14T13:22:09.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "The world no longer has an oil problem. It has a gasoline problem",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9JS3Zhd0ktZ1NBSlZwLU1Sb1RZTldyZGlPdnBkdG1KRTd5UWF6TnpGbW1kbVNlcnBNU2Q3UFV3ZUxlNVVSQThHVlFWXzd6LTNxS1FvWE1TcjVWZnhXUE10Ny13MVFQTjJjOVE?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-07-14T10:00:25.000Z",
-        "source": "CNN"
       }
     ],
     "nba": []
