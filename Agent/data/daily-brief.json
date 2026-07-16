@@ -1,36 +1,28 @@
 {
-  "generatedAt": "2026-07-16T14:16:16.521Z",
+  "generatedAt": "2026-07-16T17:36:08.604Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 27,
+      "temperature": 26,
       "weatherCode": 3,
-      "windSpeed": 4
+      "windSpeed": 3
     },
     "today": {
-      "date": "2026-07-16",
+      "date": "2026-07-17",
       "weatherCode": 51,
       "description": "毛毛雨",
       "max": 33,
-      "min": 25,
-      "precipitationProbability": 4
+      "min": 24,
+      "precipitationProbability": 14
     },
     "forecast": [
-      {
-        "date": "2026-07-16",
-        "weatherCode": 51,
-        "description": "毛毛雨",
-        "max": 33,
-        "min": 25,
-        "precipitationProbability": 4
-      },
       {
         "date": "2026-07-17",
         "weatherCode": 51,
         "description": "毛毛雨",
         "max": 33,
         "min": 24,
-        "precipitationProbability": 11
+        "precipitationProbability": 14
       },
       {
         "date": "2026-07-18",
@@ -38,7 +30,7 @@
         "description": "小雨",
         "max": 30,
         "min": 22,
-        "precipitationProbability": 82
+        "precipitationProbability": 84
       },
       {
         "date": "2026-07-19",
@@ -46,7 +38,7 @@
         "description": "小雨",
         "max": 32,
         "min": 23,
-        "precipitationProbability": 37
+        "precipitationProbability": 24
       },
       {
         "date": "2026-07-20",
@@ -54,33 +46,50 @@
         "description": "天气更新中",
         "max": 31,
         "min": 23,
-        "precipitationProbability": 67
+        "precipitationProbability": 65
+      },
+      {
+        "date": "2026-07-21",
+        "weatherCode": 51,
+        "description": "毛毛雨",
+        "max": 29,
+        "min": 22,
+        "precipitationProbability": 55
       }
     ]
   },
   "classicQuote": {
-    "id": "dream-red-mansions",
-    "text": "世事洞明皆学问，人情练达即文章。",
-    "source": "《红楼梦》",
-    "author": "曹雪芹",
-    "note": "技术之外，理解人和场景，往往更能拉开差距。"
+    "id": "mencius-perseverance",
+    "text": "虽千万人，吾往矣。",
+    "source": "《孟子》",
+    "author": "孟子",
+    "note": "认准方向之后，关键是稳稳地往前走。"
   },
   "bookExcerpt": {
-    "id": "floating-life-lotus",
-    "text": "芸坐其侧，素手烹茶，窗外新荷微香，连晚风也像带着水意，从竹帘间一寸寸地漫进来。",
-    "book": "《浮生六记》",
-    "author": "沈复"
+    "id": "red-mansion-snow",
+    "text": "只见大地白茫茫一片真干净，山川树木都隐在雪光里，天地像忽然静下来，只余风过回廊的细响。",
+    "book": "《红楼梦》",
+    "author": "曹雪芹"
   },
   "featuredPlace": {
-    "id": "202607151600",
-    "title": "海军码头，芝加哥，伊利诺伊州，美国",
+    "id": "202607161600",
+    "title": "瓦伊海滩上的日光浴躺椅，克里特岛，希腊",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "滨水变色龙",
-    "image": "https://www.bing.com/th?id=OHR.NavyPier_ZH-CN4649271588_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E8%8A%9D%E5%8A%A0%E5%93%A5%E6%B5%B7%E5%86%9B%E7%A0%81%E5%A4%B4&form=hpcapt&mkt=zh-cn"
+    "summary": "希腊式的逃离",
+    "image": "https://www.bing.com/th?id=OHR.VaiUmbrellas_ZH-CN1271422272_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E5%B8%8C%E8%85%8A%E5%85%8B%E9%87%8C%E7%89%B9%E5%B2%9B&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202607161600",
+      "title": "瓦伊海滩上的日光浴躺椅，克里特岛，希腊",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "希腊式的逃离",
+      "image": "https://www.bing.com/th?id=OHR.VaiUmbrellas_ZH-CN1271422272_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E5%B8%8C%E8%85%8A%E5%85%8B%E9%87%8C%E7%89%B9%E5%B2%9B&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202607151600",
       "title": "海军码头，芝加哥，伊利诺伊州，美国",
@@ -143,77 +152,76 @@
       "summary": "陆地与海洋的鸟瞰图",
       "image": "https://www.bing.com/th?id=OHR.VictoriaBeach_ZH-CN8892195426_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9A%E7%BB%B4%E5%A4%9A%E5%88%A9%E4%BA%9A%E5%B7%9E&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202607081600",
-      "title": "在沙巴的水稻田，老街，越南",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "步步传承",
-      "image": "https://www.bing.com/th?id=OHR.SapaVietnam_ZH-CN2178893672_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E8%B6%8A%E5%8D%97%E8%80%81%E8%A1%97&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-07-16",
-    "dateLabel": "7月16日",
+    "dateKey": "2026-07-17",
+    "dateLabel": "7月17日",
     "items": [
       {
-        "year": "2023",
-        "text": "英國正式簽署加入《跨太平洋夥伴全面進步協定》的協議，成為該協定生效以後首個締約國。",
-        "link": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4"
+        "year": "2022",
+        "text": "美國印第安納州格林伍德格林伍德公園購物中心（英语：）美食廣場發生大規模槍擊事件（英语：），造成槍手在內四人死亡、兩人受傷。",
+        "link": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4"
       },
       {
-        "year": "2008",
-        "text": "中國爆發毒奶粉醜聞，最終估計有30萬名受害者，其中大部分是嬰兒，54,000人因腎臟問題住院，6人死亡。",
-        "link": "https://zh.wikipedia.org/wiki/2008%E5%B9%B4"
+        "year": "2018",
+        "text": "美國天文學家史考特·桑德·雪柏團隊於木星周围发现12颗新卫星。",
+        "link": "https://zh.wikipedia.org/wiki/2018%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "第二届中小学科学教育大会举行",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-16/10660884.shtml",
-        "summary": "中新网金华7月16日电 第二届中小学科学教育大会16日在浙江省金华市举行。会议以“深入实施科学教育，赋能基础教育高质量发展”为主题，来自全国科学教育领域的专家学者、有关地方教育行政部门和教育科研机构代表、中小学校长和教师等1000余人参会。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260716/2d1cee8c-518a-4a4c-ab8a-768966a087cd_zsite.jpg",
-        "publishedAt": "2026-07-16T14:02:49.000Z",
+        "title": "王毅会见巴基斯坦副总理兼外长达尔",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-17/10660962.shtml",
+        "summary": "2026年7月16日晚，中共中央政治局委员、外交部长王毅在上海会见来华出席世界人工智能大会的巴基斯坦副总理兼外长达尔。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/07/17/fc40a57c8370434c8a55ea680e73b290.jpg",
+        "publishedAt": "2026-07-16T16:03:36.000Z",
         "source": "中新网"
       },
       {
-        "title": "亮点前瞻 | 国家网信办将在2026年APEC数字周期间举办系列活动",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-16/10660939.shtml",
-        "summary": "来源：“中国网信杂志”微信公众号",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/07/16/76f8b010dac0469e9ccb9fb88b7faeae.jpg",
-        "publishedAt": "2026-07-16T14:00:53.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "台积电第二季营收12703.8亿元新台币创新高",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-16/10660868.shtml",
-        "summary": "中新社台北7月16日电 (记者 朱贺)台湾积体电路制造股份有限公司16日公布，2026年第二季合并营收约为12703.8亿元新台币，同比增长36%，创台积电季度营收额新高。",
+        "title": "泰国总理阿努廷抵达上海",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-16/10660957.shtml",
+        "summary": "新华社上海7月16日电(记者赵瀚泽、唐斯琦)7月16日，来华出席2026世界人工智能大会暨人工智能全球治理高级别会议并对中国进行正式访问的泰国总理阿努廷抵达上海。",
         "image": "",
-        "publishedAt": "2026-07-16T13:57:10.000Z",
+        "publishedAt": "2026-07-16T15:10:33.000Z",
         "source": "中新网"
       },
       {
-        "title": "独家视频丨习近平：中哈永久全面战略伙伴关系保持高水平运行 展现了巨大合作潜力和广阔发展空间",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-16/10660933.shtml",
-        "summary": "视频：习近平：中哈永久全面战略伙伴关系保持高水平运行 展现了巨大合作潜力和广阔发展空间来源：央视新闻客户端",
-        "image": "https://poss-videocloud.cns.com.cn/oss/2026/07/16/chinanews/MEIZI_YUNSHI/onair/586575B9DFC24783A773307EF5AB4107.mp4",
-        "publishedAt": "2026-07-16T13:55:40.000Z",
+        "title": "两岸职教专家福建武夷山共论学龄人口新趋势发展之策",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-16/10660953.shtml",
+        "summary": "中新社福建武夷山7月16日电 (记者 张丽君)2026年海峡两岸职业教育论坛16日在福建省武夷山市举行，吸引两岸职业教育专家约200人与会，围绕“学龄人口变化趋势下职业教育发展策略”主题深入交流研讨。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260716/15da2d8c-9e79-4f2e-bd26-dfca9b6dd29c_zsite.jpg",
+        "publishedAt": "2026-07-16T14:37:51.000Z",
         "source": "中新网"
       },
       {
-        "title": "独家视频丨习近平：欢迎托卡耶夫总统出席2026世界人工智能大会",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-16/10660931.shtml",
-        "summary": "视频：习近平：欢迎托卡耶夫总统出席2026世界人工智能大会来源：央视新闻客户端",
-        "image": "https://poss-videocloud.cns.com.cn/oss/2026/07/16/chinanews/MEIZI_YUNSHI/onair/86AE76CD12FE44829871E13EB33F9D9F.mp4",
-        "publishedAt": "2026-07-16T13:54:32.000Z",
+        "title": "李强同柬埔寨首相洪玛奈会谈",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-16/10660951.shtml",
+        "summary": "中新社北京7月16日电 7月16日上午，中国国务院总理李强在北京人民大会堂同来华出席2026世界人工智能大会并进行工作访问的柬埔寨首相洪玛奈举行会谈。",
+        "image": "",
+        "publishedAt": "2026-07-16T14:21:20.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "成立世界人工智能合作组织协定签署仪式在上海举行",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-16/10660950.shtml",
+        "summary": "中新社上海7月16日电 (记者 谢雁冰 康玉湛)7月16日，成立世界人工智能合作组织协定签署仪式在上海举行。中共中央政治局委员、外交部长王毅出席并代表中国政府签署协定。",
+        "image": "",
+        "publishedAt": "2026-07-16T14:20:06.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
+      {
+        "title": "台风“美莎克”致广西直接经济损失逾220亿元 专家分析洪灾原因",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-17/10660963.shtml",
+        "summary": "中新社南宁7月16日电 (陈秋霞 林浩)7月16日，广西壮族自治区应急管理厅副厅长周运逵接受媒体采访时介绍，截至16日统计，台风“美莎克”已造成广西14个市78个县(市、区)受灾，受灾人口260多万人，直接经济损失221.8亿元人民币。当前工作重心正转向受灾民众安置和基础设施恢复。",
+        "image": "",
+        "publishedAt": "2026-07-16T16:15:29.000Z",
+        "source": "中新网"
+      },
       {
         "title": "福建晋江一废品收购站发生火灾 暂无人员被困或受伤",
         "link": "https://www.chinanews.com.cn/sh/2026/07-16/10660941.shtml",
@@ -245,17 +253,17 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260716/92970868-af7a-4e66-b795-b241c7b48b54_zsite.jpg",
         "publishedAt": "2026-07-16T14:07:05.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "西藏昌都边坝发布沙棘保护发展公报 守护高原珍稀古沙棘群落",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-16/10660914.shtml",
-        "summary": "中新网拉萨7月16日电(贡确)16日，西藏昌都市人民政府在拉萨举行新闻发布会，正式发布《边坝县沙棘保护与发展公报》(以下简称《公报》)，这份文件是对县域珍稀古沙棘资源实施系统性保护、科学化管控、长效化发展的纲领性文件。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260716/131671fb-ed6f-4e2c-9221-4400f4686c78_zsite.jpeg",
-        "publishedAt": "2026-07-16T14:06:39.000Z",
-        "source": "中新网"
       }
     ],
     "chinaFinance": [
+      {
+        "title": "黄金再次跌破4000美元",
+        "link": "https://www.chinanews.com.cn/cj/2026/07-16/10660952.shtml",
+        "summary": "中新网北京7月16日电(左雨晴) 7月16日晚，国际金价再度跌破4000美元。截至21时50分，伦敦现货黄金最低触及3973.41美元/盎司，最大跌幅2.13%；COMEX黄金最低触及3977.1美元/盎司，最大跌幅1.84%。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/07/16/1e9d9008e3de445293b145da0de5299b.jpg",
+        "publishedAt": "2026-07-16T14:30:10.000Z",
+        "source": "中新网"
+      },
       {
         "title": "“中国经济怎么看”宏观经济形势研讨会（2026年夏季）在京举办",
         "link": "https://www.chinanews.com.cn/cj/2026/07-16/10660936.shtml",
@@ -287,31 +295,31 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260716/35d05642-2919-4b2b-bfa2-e945f8b799ca_zsite.jpg",
         "publishedAt": "2026-07-16T14:06:21.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "青海发布风电和光伏资源普查成果",
-        "link": "https://www.chinanews.com.cn/cj/2026/07-16/10660911.shtml",
-        "summary": "中新网西宁7月16日电 (李隽)“对比同期试点省份，青海风光资源可开发总量位居全国第二，风电仅次于内蒙古，光伏仅次于西藏；光热综合开发条件位居全国第一，整体水平位于全国前列。”青海省能源局局长许海铭16日发布青海风光资源普查成果。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260716/6e5ad74e-4e32-4c03-a445-2b882001c5bd_zsite.jpg",
-        "publishedAt": "2026-07-16T14:05:35.000Z",
-        "source": "中新网"
       }
     ],
     "worldTop": [
+      {
+        "title": "Italian officials handed jail terms for Genoa bridge disaster that killed 43",
+        "link": "https://www.bbc.co.uk/news/articles/c36dnz1zez5o?at_medium=RSS&at_campaign=rss",
+        "summary": "The ex-head of Italy's motorway operator Giovanni Castellucci was handed a 12-year term over the 2018 bridge collapse.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/84eb/live/b075cfc0-8125-11f1-bee8-53ce494e1abc.jpg",
+        "publishedAt": "2026-07-16T17:22:31.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Zelensky's removal of popular defence minister sparks protests in Ukraine",
+        "link": "https://www.bbc.co.uk/news/articles/cdx76069n3do?at_medium=RSS&at_campaign=rss",
+        "summary": "A rift between Fedorov and Commander-in-Chief Oleksandr Syrskyi was apparently at the heart of Zelensky's decision.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4cba/live/4b6416b0-810b-11f1-926f-c90d1bcfbc84.jpg",
+        "publishedAt": "2026-07-16T16:36:21.000Z",
+        "source": "BBC"
+      },
       {
         "title": "More than 800 Canadian wildfires burning as air quality alerts extend to US",
         "link": "https://www.bbc.co.uk/news/articles/c0m7n427xd8o?at_medium=RSS&at_campaign=rss",
         "summary": "The air quality in large parts of Michigan, Minneapolis and Minnesota is deemed \"hazardous\" by authorities.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7192/live/519f5000-8109-11f1-b8b2-1fedac836136.jpg",
-        "publishedAt": "2026-07-16T13:56:54.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Italian officials handed jail terms for Genoa bridge disaster that killed 43",
-        "link": "https://www.bbc.co.uk/news/articles/c36dnz1zez5o?at_medium=RSS&at_campaign=rss",
-        "summary": "The ex-head of Italy's motorway operator Giovanni Castellucci was handed a 12-year term over the 2018 bridge collapse.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c50c/live/073b9e40-8115-11f1-8b8c-8f0447398806.jpg",
-        "publishedAt": "2026-07-16T13:51:28.000Z",
+        "publishedAt": "2026-07-16T15:30:43.000Z",
         "source": "BBC"
       },
       {
@@ -323,20 +331,12 @@
         "source": "BBC"
       },
       {
-        "title": "Protests in Ukrainian cities against Zelensky's removal of defence minister",
-        "link": "https://www.bbc.co.uk/news/articles/cdx76069n3do?at_medium=RSS&at_campaign=rss",
-        "summary": "Ukraine's president has not explained Mykhailo Fedorov's dismissal, which is causing great upset among civil society and the military.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4cba/live/4b6416b0-810b-11f1-926f-c90d1bcfbc84.jpg",
-        "publishedAt": "2026-07-16T12:56:24.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Iran targets military bases as US launches wave of strikes",
-        "link": "https://www.bbc.co.uk/news/articles/c2lq1ed28jxo?at_medium=RSS&at_campaign=rss",
-        "summary": "Explosions were heard across Iran overnight, shortly after neighbouring Gulf states began to report attacks.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b67e/live/039382d0-80de-11f1-a5c2-db1656c1a0a8.jpg",
-        "publishedAt": "2026-07-16T11:48:49.000Z",
-        "source": "BBC"
+        "title": "Former CEO of Italian highway operator sentenced over Genoa bridge tragedy",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNkFuNjd4eTFlTTFTRHlhemxKTkZpVVdqMmhPMlpYLVpXY2daUC13VWxKNm93REFmY0tJdzJoZ25QWk9TcFM1UWc5SWJrNG5HSUlORlhnRFdnam9GM0JiR0tyd2lMc29OOGhtWDdhaXRERVhZazA5VWpwUUh5QWlEUGtoSjZjUEZqTW1IZ2k1clZ2ZXpEcThEQw?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-07-16T12:52:23.000Z",
+        "source": "CNN"
       }
     ],
     "worldBusiness": [
@@ -345,7 +345,7 @@
         "link": "https://www.bbc.co.uk/news/articles/cnvnyr75r48o?at_medium=RSS&at_campaign=rss",
         "summary": "It's part of a wider crackdown from the consumer regulator into potentially unfair practices by private parking operators.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ebba/live/9f20ee20-80fe-11f1-b983-cbe246fcd5da.jpg",
-        "publishedAt": "2026-07-16T14:04:24.000Z",
+        "publishedAt": "2026-07-16T17:19:20.000Z",
         "source": "BBC"
       },
       {
@@ -425,61 +425,69 @@
     ],
     "domestic": [
       {
-        "title": "第二届中小学科学教育大会举行",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-16/10660884.shtml",
-        "summary": "中新网金华7月16日电 第二届中小学科学教育大会16日在浙江省金华市举行。会议以“深入实施科学教育，赋能基础教育高质量发展”为主题，来自全国科学教育领域的专家学者、有关地方教育行政部门和教育科研机构代表、中小学校长和教师等1000余人参会。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260716/2d1cee8c-518a-4a4c-ab8a-768966a087cd_zsite.jpg",
-        "publishedAt": "2026-07-16T14:02:49.000Z",
+        "title": "王毅会见巴基斯坦副总理兼外长达尔",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-17/10660962.shtml",
+        "summary": "2026年7月16日晚，中共中央政治局委员、外交部长王毅在上海会见来华出席世界人工智能大会的巴基斯坦副总理兼外长达尔。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/07/17/fc40a57c8370434c8a55ea680e73b290.jpg",
+        "publishedAt": "2026-07-16T16:03:36.000Z",
         "source": "中新网"
       },
       {
-        "title": "亮点前瞻 | 国家网信办将在2026年APEC数字周期间举办系列活动",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-16/10660939.shtml",
-        "summary": "来源：“中国网信杂志”微信公众号",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/07/16/76f8b010dac0469e9ccb9fb88b7faeae.jpg",
-        "publishedAt": "2026-07-16T14:00:53.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "台积电第二季营收12703.8亿元新台币创新高",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-16/10660868.shtml",
-        "summary": "中新社台北7月16日电 (记者 朱贺)台湾积体电路制造股份有限公司16日公布，2026年第二季合并营收约为12703.8亿元新台币，同比增长36%，创台积电季度营收额新高。",
+        "title": "泰国总理阿努廷抵达上海",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-16/10660957.shtml",
+        "summary": "新华社上海7月16日电(记者赵瀚泽、唐斯琦)7月16日，来华出席2026世界人工智能大会暨人工智能全球治理高级别会议并对中国进行正式访问的泰国总理阿努廷抵达上海。",
         "image": "",
-        "publishedAt": "2026-07-16T13:57:10.000Z",
+        "publishedAt": "2026-07-16T15:10:33.000Z",
         "source": "中新网"
       },
       {
-        "title": "独家视频丨习近平：中哈永久全面战略伙伴关系保持高水平运行 展现了巨大合作潜力和广阔发展空间",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-16/10660933.shtml",
-        "summary": "视频：习近平：中哈永久全面战略伙伴关系保持高水平运行 展现了巨大合作潜力和广阔发展空间来源：央视新闻客户端",
-        "image": "https://poss-videocloud.cns.com.cn/oss/2026/07/16/chinanews/MEIZI_YUNSHI/onair/586575B9DFC24783A773307EF5AB4107.mp4",
-        "publishedAt": "2026-07-16T13:55:40.000Z",
+        "title": "两岸职教专家福建武夷山共论学龄人口新趋势发展之策",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-16/10660953.shtml",
+        "summary": "中新社福建武夷山7月16日电 (记者 张丽君)2026年海峡两岸职业教育论坛16日在福建省武夷山市举行，吸引两岸职业教育专家约200人与会，围绕“学龄人口变化趋势下职业教育发展策略”主题深入交流研讨。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260716/15da2d8c-9e79-4f2e-bd26-dfca9b6dd29c_zsite.jpg",
+        "publishedAt": "2026-07-16T14:37:51.000Z",
         "source": "中新网"
       },
       {
-        "title": "独家视频丨习近平：欢迎托卡耶夫总统出席2026世界人工智能大会",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-16/10660931.shtml",
-        "summary": "视频：习近平：欢迎托卡耶夫总统出席2026世界人工智能大会来源：央视新闻客户端",
-        "image": "https://poss-videocloud.cns.com.cn/oss/2026/07/16/chinanews/MEIZI_YUNSHI/onair/86AE76CD12FE44829871E13EB33F9D9F.mp4",
-        "publishedAt": "2026-07-16T13:54:32.000Z",
+        "title": "李强同柬埔寨首相洪玛奈会谈",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-16/10660951.shtml",
+        "summary": "中新社北京7月16日电 7月16日上午，中国国务院总理李强在北京人民大会堂同来华出席2026世界人工智能大会并进行工作访问的柬埔寨首相洪玛奈举行会谈。",
+        "image": "",
+        "publishedAt": "2026-07-16T14:21:20.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "成立世界人工智能合作组织协定签署仪式在上海举行",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-16/10660950.shtml",
+        "summary": "中新社上海7月16日电 (记者 谢雁冰 康玉湛)7月16日，成立世界人工智能合作组织协定签署仪式在上海举行。中共中央政治局委员、外交部长王毅出席并代表中国政府签署协定。",
+        "image": "",
+        "publishedAt": "2026-07-16T14:20:06.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
+        "title": "Italian officials handed jail terms for Genoa bridge disaster that killed 43",
+        "link": "https://www.bbc.co.uk/news/articles/c36dnz1zez5o?at_medium=RSS&at_campaign=rss",
+        "summary": "The ex-head of Italy's motorway operator Giovanni Castellucci was handed a 12-year term over the 2018 bridge collapse.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/84eb/live/b075cfc0-8125-11f1-bee8-53ce494e1abc.jpg",
+        "publishedAt": "2026-07-16T17:22:31.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Zelensky's removal of popular defence minister sparks protests in Ukraine",
+        "link": "https://www.bbc.co.uk/news/articles/cdx76069n3do?at_medium=RSS&at_campaign=rss",
+        "summary": "A rift between Fedorov and Commander-in-Chief Oleksandr Syrskyi was apparently at the heart of Zelensky's decision.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4cba/live/4b6416b0-810b-11f1-926f-c90d1bcfbc84.jpg",
+        "publishedAt": "2026-07-16T16:36:21.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "More than 800 Canadian wildfires burning as air quality alerts extend to US",
         "link": "https://www.bbc.co.uk/news/articles/c0m7n427xd8o?at_medium=RSS&at_campaign=rss",
         "summary": "The air quality in large parts of Michigan, Minneapolis and Minnesota is deemed \"hazardous\" by authorities.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7192/live/519f5000-8109-11f1-b8b2-1fedac836136.jpg",
-        "publishedAt": "2026-07-16T13:56:54.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Italian officials handed jail terms for Genoa bridge disaster that killed 43",
-        "link": "https://www.bbc.co.uk/news/articles/c36dnz1zez5o?at_medium=RSS&at_campaign=rss",
-        "summary": "The ex-head of Italy's motorway operator Giovanni Castellucci was handed a 12-year term over the 2018 bridge collapse.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c50c/live/073b9e40-8115-11f1-8b8c-8f0447398806.jpg",
-        "publishedAt": "2026-07-16T13:51:28.000Z",
+        "publishedAt": "2026-07-16T15:30:43.000Z",
         "source": "BBC"
       },
       {
@@ -491,32 +499,20 @@
         "source": "BBC"
       },
       {
-        "title": "Protests in Ukrainian cities against Zelensky's removal of defence minister",
-        "link": "https://www.bbc.co.uk/news/articles/cdx76069n3do?at_medium=RSS&at_campaign=rss",
-        "summary": "Ukraine's president has not explained Mykhailo Fedorov's dismissal, which is causing great upset among civil society and the military.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4cba/live/4b6416b0-810b-11f1-926f-c90d1bcfbc84.jpg",
-        "publishedAt": "2026-07-16T12:56:24.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Iran targets military bases as US launches wave of strikes",
-        "link": "https://www.bbc.co.uk/news/articles/c2lq1ed28jxo?at_medium=RSS&at_campaign=rss",
-        "summary": "Explosions were heard across Iran overnight, shortly after neighbouring Gulf states began to report attacks.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b67e/live/039382d0-80de-11f1-a5c2-db1656c1a0a8.jpg",
-        "publishedAt": "2026-07-16T11:48:49.000Z",
-        "source": "BBC"
+        "title": "Former CEO of Italian highway operator sentenced over Genoa bridge tragedy",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNkFuNjd4eTFlTTFTRHlhemxKTkZpVVdqMmhPMlpYLVpXY2daUC13VWxKNm93REFmY0tJdzJoZ25QWk9TcFM1UWc5SWJrNG5HSUlORlhnRFdnam9GM0JiR0tyd2lMc29OOGhtWDdhaXRERVhZazA5VWpwUUh5QWlEUGtoSjZjUEZqTW1IZ2k1clZ2ZXpEcThEQw?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-07-16T12:52:23.000Z",
+        "source": "CNN"
       }
     ],
     "nba": []
   },
   "nbaScoreboard": {
-    "date": "2026-07-16",
+    "date": "2026-07-17",
     "currentIndex": 4,
     "days": [
-      {
-        "date": "2026-07-12",
-        "games": []
-      },
       {
         "date": "2026-07-13",
         "games": []
@@ -548,12 +544,16 @@
       {
         "date": "2026-07-20",
         "games": []
+      },
+      {
+        "date": "2026-07-21",
+        "games": []
       }
     ],
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-07-16",
+    "rotationLabel": "Curated Rotation · 2026-07-17",
     "sections": [
       {
         "id": "data-storage",
@@ -561,27 +561,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-1",
-            "sectionId": "data-storage",
-            "title": "The Log-Structured Merge-Tree (LSM-Tree)",
-            "authors": [
-              "Patrick O'Neil",
-              "Edward Cheng",
-              "Dieter Gawlick",
-              "Elizabeth O'Neil"
-            ],
-            "venue": "Acta Informatica",
-            "year": 1996,
-            "quality": "经典基础",
-            "categories": [
-              "storage",
-              "indexing"
-            ],
-            "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
-            "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-2",
             "sectionId": "data-storage",
@@ -601,7 +580,7 @@
             ],
             "link": "https://research.google/pubs/pub27898/",
             "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-3",
@@ -623,6 +602,27 @@
             "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
             "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-4",
+            "sectionId": "data-storage",
+            "title": "Dremel: Interactive Analysis of Web-Scale Datasets",
+            "authors": [
+              "Sergey Melnik",
+              "Andrey Gubarev",
+              "Jing Jing Long",
+              "Geoffrey Romer"
+            ],
+            "venue": "VLDB",
+            "year": 2010,
+            "quality": "顶会",
+            "categories": [
+              "analytics",
+              "columnar"
+            ],
+            "link": "https://research.google/pubs/pub36632/",
+            "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -632,27 +632,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-2",
-            "sectionId": "computer-vision",
-            "title": "End-to-End Object Detection with Transformers",
-            "authors": [
-              "Nicolas Carion",
-              "Francisco Massa",
-              "Gabriel Synnaeve",
-              "Nicolas Usunier"
-            ],
-            "venue": "ECCV",
-            "year": 2020,
-            "quality": "顶会",
-            "categories": [
-              "detection",
-              "transformer"
-            ],
-            "link": "https://arxiv.org/abs/2005.12872",
-            "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-3",
             "sectionId": "computer-vision",
@@ -672,7 +651,7 @@
             ],
             "link": "https://arxiv.org/abs/2010.11929",
             "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-4",
@@ -694,6 +673,27 @@
             "link": "https://arxiv.org/abs/2103.00020",
             "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-5",
+            "sectionId": "computer-vision",
+            "title": "Segment Anything",
+            "authors": [
+              "Alexander Kirillov",
+              "Eric Mintun",
+              "Nikhila Ravi",
+              "Hanzi Mao"
+            ],
+            "venue": "ICCV",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "segmentation",
+              "foundation model"
+            ],
+            "link": "https://arxiv.org/abs/2304.02643",
+            "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -703,27 +703,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-3",
-            "sectionId": "llm-memory",
-            "title": "RETRO: Improving Language Models by Retrieving From Trillions of Tokens",
-            "authors": [
-              "Sebastian Borgeaud",
-              "Arthur Mensch",
-              "Jordan Hoffmann",
-              "Trevor Cai"
-            ],
-            "venue": "DeepMind / arXiv",
-            "year": 2022,
-            "quality": "高影响力",
-            "categories": [
-              "retrieval",
-              "language model"
-            ],
-            "link": "https://arxiv.org/abs/2112.04426",
-            "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-4",
             "sectionId": "llm-memory",
@@ -743,7 +722,7 @@
             ],
             "link": "https://arxiv.org/abs/2310.11511",
             "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-5",
@@ -765,6 +744,27 @@
             "link": "https://arxiv.org/abs/2306.07174",
             "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-6",
+            "sectionId": "llm-memory",
+            "title": "MemoRAG: Moving towards Next-Gen RAG Via Memory-Inspired Knowledge Discovery",
+            "authors": [
+              "Rulin Shao",
+              "Yue Liu",
+              "Shuo Wang",
+              "Yichi Zhang"
+            ],
+            "venue": "arXiv",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "RAG",
+              "memory bank"
+            ],
+            "link": "https://arxiv.org/abs/2409.05591",
+            "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -774,27 +774,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-4",
-            "sectionId": "agents",
-            "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
-            "authors": [
-              "Guanzhi Wang",
-              "Yuqi Xie",
-              "Zixiang Zhou",
-              "Yujin Tang"
-            ],
-            "venue": "arXiv",
-            "year": 2023,
-            "quality": "高影响力",
-            "categories": [
-              "embodied agent",
-              "planning"
-            ],
-            "link": "https://arxiv.org/abs/2305.16291",
-            "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-5",
             "sectionId": "agents",
@@ -814,7 +793,7 @@
             ],
             "link": "https://arxiv.org/abs/2308.08155",
             "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-6",
@@ -835,6 +814,28 @@
             ],
             "link": "https://arxiv.org/abs/2405.15793",
             "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-1",
+            "sectionId": "agents",
+            "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+            "authors": [
+              "Shunyu Yao",
+              "Jeffrey Zhao",
+              "Dian Yu",
+              "Nan Du"
+            ],
+            "venue": "ICLR",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "agent",
+              "reasoning",
+              "tool use"
+            ],
+            "link": "https://arxiv.org/abs/2210.03629",
+            "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
             "trackLabel": "轮换精选"
           }
         ]
