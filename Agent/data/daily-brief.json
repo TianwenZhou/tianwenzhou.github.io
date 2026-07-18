@@ -1,36 +1,28 @@
 {
-  "generatedAt": "2026-07-18T13:43:03.198Z",
+  "generatedAt": "2026-07-18T17:08:10.239Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 26,
+      "temperature": 23,
       "weatherCode": 0,
-      "windSpeed": 1
+      "windSpeed": 4
     },
     "today": {
-      "date": "2026-07-18",
-      "weatherCode": 53,
-      "description": "小雨",
-      "max": 30,
+      "date": "2026-07-19",
+      "weatherCode": 95,
+      "description": "雷暴",
+      "max": 32,
       "min": 22,
-      "precipitationProbability": 82
+      "precipitationProbability": 14
     },
     "forecast": [
-      {
-        "date": "2026-07-18",
-        "weatherCode": 53,
-        "description": "小雨",
-        "max": 30,
-        "min": 22,
-        "precipitationProbability": 82
-      },
       {
         "date": "2026-07-19",
         "weatherCode": 95,
         "description": "雷暴",
         "max": 32,
         "min": 22,
-        "precipitationProbability": 20
+        "precipitationProbability": 14
       },
       {
         "date": "2026-07-20",
@@ -46,7 +38,7 @@
         "description": "毛毛雨",
         "max": 29,
         "min": 22,
-        "precipitationProbability": 71
+        "precipitationProbability": 75
       },
       {
         "date": "2026-07-22",
@@ -54,33 +46,50 @@
         "description": "天气更新中",
         "max": 32,
         "min": 23,
-        "precipitationProbability": 74
+        "precipitationProbability": 61
+      },
+      {
+        "date": "2026-07-23",
+        "weatherCode": 96,
+        "description": "天气更新中",
+        "max": 29,
+        "min": 23,
+        "precipitationProbability": 38
       }
     ]
   },
   "classicQuote": {
-    "id": "records-historical",
-    "text": "桃李不言，下自成蹊。",
-    "source": "《史记》",
-    "author": "司马迁",
-    "note": "真正有分量的作品，本身就会替你说话。"
+    "id": "chuci-seek",
+    "text": "路漫漫其修远兮，吾将上下而求索。",
+    "source": "《离骚》",
+    "author": "屈原",
+    "note": "长期主义最难，但也最值得。"
   },
   "bookExcerpt": {
-    "id": "remembrance-madeleine",
-    "text": "那一点点浸过茶水的点心，忽然把整个旧日时光都唤醒了，仿佛往昔并未消失，只是沉在心底等待一个气味。",
-    "book": "《追忆似水年华》",
-    "author": "马塞尔·普鲁斯特"
+    "id": "border-town-river",
+    "text": "月光如银子，无处不可照及，山上篁竹在月光下变成了一片黑色，身边草丛中虫声繁密如落雨。",
+    "book": "《边城》",
+    "author": "沈从文"
   },
   "featuredPlace": {
-    "id": "202607171600",
-    "title": "恶魔桥在克罗姆劳杜鹃花公园，萨克森州，德国",
+    "id": "202607181600",
+    "title": "不同亚种的家燕聚在一起休息",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "环影圆成",
-    "image": "https://www.bing.com/th?id=OHR.DevilsBridge_ZH-CN2164982440_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E6%81%B6%E9%AD%94%E6%A1%A5%E5%9C%A8%E5%85%8B%E7%BD%97%E5%A7%86%E5%8A%B3%E6%9D%9C%E9%B9%83%E8%8A%B1%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
+    "summary": "敛羽栖时",
+    "image": "https://www.bing.com/th?id=OHR.HirundoRustica_ZH-CN2798518247_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E5%AE%B6%E7%87%95&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202607181600",
+      "title": "不同亚种的家燕聚在一起休息",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "敛羽栖时",
+      "image": "https://www.bing.com/th?id=OHR.HirundoRustica_ZH-CN2798518247_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E5%AE%B6%E7%87%95&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202607171600",
       "title": "恶魔桥在克罗姆劳杜鹃花公园，萨克森州，德国",
@@ -143,30 +152,21 @@
       "summary": "缅因州的狂野一面",
       "image": "https://www.bing.com/th?id=OHR.KatahdinWWNM_ZH-CN5496444375_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E5%8D%A1%E5%A1%94%E4%B8%81%E6%A3%AE%E6%9E%97%E5%92%8C%E6%B0%B4%E5%9F%9F%E5%9B%BD%E5%AE%B6%E7%BA%AA%E5%BF%B5%E7%A2%91&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202607101600",
-      "title": "圣古斯坦港, 欧赖, 布列塔尼, 法国",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "布列塔尼的潮汐之约",
-      "image": "https://www.bing.com/th?id=OHR.AurayBrittany_ZH-CN5549157888_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E6%B3%95%E5%9B%BD%E6%AC%A7%E8%B5%96%E5%9C%A3%E5%8F%A4%E6%96%AF%E5%BD%93%E6%B8%AF&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-07-18",
-    "dateLabel": "7月18日",
+    "dateKey": "2026-07-19",
+    "dateLabel": "7月19日",
     "items": [
       {
-        "year": "2019",
-        "text": "日本京都市伏見區的京都動畫第一工作室遭到縱火，造成36人死亡和35人受傷。",
-        "link": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4"
+        "year": "2021",
+        "text": "抵制、撤資、制裁運動：美國冰淇淋公司Ben & Jerry's宣布，他們將停止在以色列控制的巴勒斯坦領土上銷售他們的產品，同時稱在該地區的銷售行為“不符合我們的價值觀”，然聲明中仍表示...",
+        "link": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4"
       },
       {
-        "year": "2019",
-        "text": "港鐵首度發盈警，表明要為沙中線紅磡站工程及安排屯馬線通車撥備20億元，消息公布後翌日股價低見53.65元，挫3.7%，收市報54.2元，仍跌2.7%，是當日表現最差藍籌股。",
-        "link": "https://zh.wikipedia.org/wiki/%E6%B8%AF%E9%90%B5"
+        "year": "2020",
+        "text": "以色列內閣（英语：）批准向歐盟供應天然氣的海底天然氣管東地中海管道（英语：）。",
+        "link": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4"
       }
     ]
   },
@@ -215,47 +215,55 @@
     ],
     "chinaSociety": [
       {
-        "title": "多国访学青年在科技与人文中读懂浙江",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-18/10662218.shtml",
-        "summary": "中新社杭州7月18日电 (王潇婧 周德双)7月16日至18日，在“中外留学青年看浙江”主题活动中，30余位参加浙江大学全球暑期学校的学生与浙江省欧美同学会会员代表走进杭州、湖州，探访城市风貌，感受浙江科创活力、非遗底蕴与生态之美。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260718/cd452af3-4026-4867-92dc-45960847720d_zsite.jpg",
-        "publishedAt": "2026-07-18T13:25:06.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "上海标志性太空数字基建工程“星枢计划”首发星座正式发布",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-18/10662216.shtml",
-        "summary": "中新社上海7月18日电 (记者 陈静)在18日举行的2026世界人工智能大会“未来计算未来算力”专题论坛上，上海标志性太空数字基建工程“星枢计划”首发星座正式对外发布。",
+        "title": "多部门紧急通知！切实做好地质灾害风险隐患巡查排查和灾害防范应对",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-18/10662247.shtml",
+        "summary": "国家防灾减灾救灾委员会办公室、自然资源部、水利部、应急管理部",
         "image": "",
-        "publishedAt": "2026-07-18T13:14:40.000Z",
+        "publishedAt": "2026-07-18T15:49:27.000Z",
         "source": "中新网"
       },
       {
-        "title": "重庆彭水山体崩塌次日见闻：居民有序安置 物资供应充足",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-18/10662215.shtml",
-        "summary": "中新社重庆7月18日电 题：重庆彭水山体崩塌次日见闻：居民有序安置 物资供应充足",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260718/fb973be3-224f-446f-bbf5-3ddc998fc271_zsite.JPG",
-        "publishedAt": "2026-07-18T13:11:18.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "海内外专家聚沈阳共议儿科高质量发展",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-18/10662208.shtml",
-        "summary": "中新网沈阳7月18日电 (王涵)7月17日至18日，由辽宁省医学会、北京常春藤医学高端人才联盟主办的辽宁省儿科学学科发展研讨会暨国家儿童医学中心高质量发展交流会、第五届盛京儿科医疗联盟会议在沈阳举行。来自海内外的儿科专家齐聚一堂，探讨儿科前沿学术进展与高质量发展路径。",
+        "title": "自然资源系统120余名专家现场开展重庆彭水县山体崩塌处置",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-18/10662246.shtml",
+        "summary": "7月18日，记者获悉，重庆彭水县山体崩塌灾害发生后，自然资源部于17日启动地质灾害防范应对指挥部工作机制，组织自然资源系统包括院士在内的120余名专家在现场协助开展应急救援、应急测绘和调查监测。",
         "image": "",
-        "publishedAt": "2026-07-18T13:03:05.000Z",
+        "publishedAt": "2026-07-18T15:18:14.000Z",
         "source": "中新网"
       },
       {
-        "title": "辽宁省国资委携省属国有企业为洪涝灾区捐赠款物860万元",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-18/10662204.shtml",
-        "summary": "中新网沈阳7月18日电 (记者 李晛)7月18日，辽宁省国资委携省属国有企业为洪涝灾区捐赠款物仪式在省慈善联合总会举行。辽宁省国资委党委书记、主任王惠莲，辽宁省民政厅党组书记石崧，辽宁省慈善联合总会会长崔枫林出席仪式并讲话。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260718/c130b85f-86e6-4e64-b887-652078f08401_zsite.jpg",
-        "publishedAt": "2026-07-18T13:00:27.000Z",
+        "title": "中美青少年景德镇以瓷会友 共话“瓷都匠心”",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-18/10662245.shtml",
+        "summary": "中新社江西景德镇7月18日电 (记者 李韵涵)“这里的每一件陶瓷仿佛都在讲述悠久的历史，能够在‘瓷都’体验独一无二的陶瓷文化，是一次终生难忘的经历。”来自美国的杰里·伯尼尔(Jerry Bernier)18日在“千年瓷都”江西景德镇如是说。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260718/8de3f8ca-b13b-4bfd-b135-e5ba86bf3155_zsite.jpg",
+        "publishedAt": "2026-07-18T15:15:57.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "“高考估分715查分299，女孩称试卷不是自己的”？警方通报",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-18/10662240.shtml",
+        "summary": "近日，一篇题为《高考估分715查分299，女孩称试卷不是自己的》的网文在网络平台大范围传播，引发网民热议。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/07/18/39607a884a474517a612313ec4fd7220.jpg",
+        "publishedAt": "2026-07-18T14:19:30.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "中美青少年在沪以乐会友共续青春情谊",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-18/10662236.shtml",
+        "summary": "中新社上海7月18日电 (记者 许婧)“只有一个地球”中美学生联合汇演主题音乐会18日在上海市大同中学举行，来华参与“白玉兰杯”全球未来知音计划——中外青少年可持续发展人文交流活动的美国青少年，与中国学子同台演奏、以艺会友，用音乐打破语言隔阂。",
+        "image": "",
+        "publishedAt": "2026-07-18T14:16:44.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
+      {
+        "title": "台企组团参展世界人工智能大会：这里有投资、有技术、有合作",
+        "link": "https://www.chinanews.com.cn/cj/2026/07-18/10662231.shtml",
+        "summary": "中新社上海7月18日电 (记者 缪璐)台湾若美科技股份有限公司品牌长林斯涵第一次来参加世界人工智能大会。此前，他就听参加过上一届的朋友说：“这个大会科技含量高、合作意向高、投资意愿高。”三个“高”，让他对这趟上海之行充满期待。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260718/c57ad9c7-1e7e-4218-9525-f9ae39a99c05_zsite.jpeg",
+        "publishedAt": "2026-07-18T14:11:59.000Z",
+        "source": "中新网"
+      },
       {
         "title": "“太阳花”里藏着一本发展账",
         "link": "https://www.chinanews.com.cn/cj/2026/07-18/10662222.shtml",
@@ -287,31 +295,23 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260718/1bfbfcab-970a-490b-843d-639e516406ef_zsite.jpg",
         "publishedAt": "2026-07-18T13:04:33.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "今年暑运首趟“乐游长三角”旅游列车在沪启程",
-        "link": "https://www.chinanews.com.cn/cj/2026/07-18/10662195.shtml",
-        "summary": "中新网上海7月18日电 (谢梦圆)18日，200余名上海游客乘坐C3798次列车从上海虹桥站启程，奔赴素有“江海明珠”之称的江苏南通，开启为期两天的“乘着高铁游南通”江海文博之旅，标志着今年暑运首趟“乐游长三角”旅游列车顺利开行。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260718/ba3cf013-804b-4174-a0a0-1622b4332fbd_zsite.jpg",
-        "publishedAt": "2026-07-18T12:56:48.000Z",
-        "source": "中新网"
       }
     ],
     "worldTop": [
+      {
+        "title": "US strikes hit Iran for seventh consecutive night",
+        "link": "https://www.bbc.co.uk/news/articles/cy748n8zx8ro?at_medium=RSS&at_campaign=rss",
+        "summary": "Iran has retaliated against US allies in the region, with Kuwait reporting that a power and water plant had been hit.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bd47/live/65f79600-8282-11f1-b976-0b9c15b0ccfc.jpg",
+        "publishedAt": "2026-07-18T16:56:34.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Russian online retail warehouses hit by deadly Ukrainian strikes",
         "link": "https://www.bbc.co.uk/news/articles/clyxlm877p2o?at_medium=RSS&at_campaign=rss",
         "summary": "Drones targeted Wildberries facilities near Moscow and in Tambov. Ukraine's leader called them \"major logistics facilities\" supplying \"sanctioned comp...",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/82d1/live/dae460c0-82a9-11f1-b976-0b9c15b0ccfc.jpg",
         "publishedAt": "2026-07-18T13:06:25.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "US strikes hit Iran for seventh consecutive night",
-        "link": "https://www.bbc.co.uk/news/articles/cy748n8zx8ro?at_medium=RSS&at_campaign=rss",
-        "summary": "Iran has retaliated against US allies in the region, with Kuwait reporting that a power and water plant had been hit.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bd47/live/65f79600-8282-11f1-b976-0b9c15b0ccfc.jpg",
-        "publishedAt": "2026-07-18T11:48:44.000Z",
         "source": "BBC"
       },
       {
@@ -467,19 +467,19 @@
     ],
     "international": [
       {
+        "title": "US strikes hit Iran for seventh consecutive night",
+        "link": "https://www.bbc.co.uk/news/articles/cy748n8zx8ro?at_medium=RSS&at_campaign=rss",
+        "summary": "Iran has retaliated against US allies in the region, with Kuwait reporting that a power and water plant had been hit.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bd47/live/65f79600-8282-11f1-b976-0b9c15b0ccfc.jpg",
+        "publishedAt": "2026-07-18T16:56:34.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "Russian online retail warehouses hit by deadly Ukrainian strikes",
         "link": "https://www.bbc.co.uk/news/articles/clyxlm877p2o?at_medium=RSS&at_campaign=rss",
         "summary": "Drones targeted Wildberries facilities near Moscow and in Tambov. Ukraine's leader called them \"major logistics facilities\" supplying \"sanctioned comp...",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/82d1/live/dae460c0-82a9-11f1-b976-0b9c15b0ccfc.jpg",
         "publishedAt": "2026-07-18T13:06:25.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "US strikes hit Iran for seventh consecutive night",
-        "link": "https://www.bbc.co.uk/news/articles/cy748n8zx8ro?at_medium=RSS&at_campaign=rss",
-        "summary": "Iran has retaliated against US allies in the region, with Kuwait reporting that a power and water plant had been hit.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bd47/live/65f79600-8282-11f1-b976-0b9c15b0ccfc.jpg",
-        "publishedAt": "2026-07-18T11:48:44.000Z",
         "source": "BBC"
       },
       {
@@ -510,13 +510,9 @@
     "nba": []
   },
   "nbaScoreboard": {
-    "date": "2026-07-18",
+    "date": "2026-07-19",
     "currentIndex": 4,
     "days": [
-      {
-        "date": "2026-07-14",
-        "games": []
-      },
       {
         "date": "2026-07-15",
         "games": []
@@ -548,12 +544,16 @@
       {
         "date": "2026-07-22",
         "games": []
+      },
+      {
+        "date": "2026-07-23",
+        "games": []
       }
     ],
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-07-18",
+    "rotationLabel": "Curated Rotation · 2026-07-19",
     "sections": [
       {
         "id": "data-storage",
@@ -561,27 +561,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-3",
-            "sectionId": "data-storage",
-            "title": "Dynamo: Amazon's Highly Available Key-value Store",
-            "authors": [
-              "Giuseppe DeCandia",
-              "Deniz Hastorun",
-              "Madan Jampani",
-              "Gunavardhan Kakulapati"
-            ],
-            "venue": "SOSP",
-            "year": 2007,
-            "quality": "顶会",
-            "categories": [
-              "key-value",
-              "distributed systems"
-            ],
-            "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
-            "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-4",
             "sectionId": "data-storage",
@@ -601,7 +580,7 @@
             ],
             "link": "https://research.google/pubs/pub36632/",
             "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-5",
@@ -622,6 +601,27 @@
             "link": "https://arxiv.org/abs/2401.08281",
             "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-6",
+            "sectionId": "data-storage",
+            "title": "DiskANN: Fast Accurate Billion-point Nearest Neighbor Search on a Single Node",
+            "authors": [
+              "Neelesh Gupta",
+              "Leland Willard",
+              "Xiangyao Yu",
+              "Yuri N."
+            ],
+            "venue": "NeurIPS",
+            "year": 2019,
+            "quality": "高影响力",
+            "categories": [
+              "vector search",
+              "ANN"
+            ],
+            "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
+            "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -631,27 +631,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-4",
-            "sectionId": "computer-vision",
-            "title": "Learning Transferable Visual Models From Natural Language Supervision",
-            "authors": [
-              "Alec Radford",
-              "Jong Wook Kim",
-              "Chris Hallacy",
-              "Aditya Ramesh"
-            ],
-            "venue": "ICML",
-            "year": 2021,
-            "quality": "顶会",
-            "categories": [
-              "vision-language",
-              "foundation model"
-            ],
-            "link": "https://arxiv.org/abs/2103.00020",
-            "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-5",
             "sectionId": "computer-vision",
@@ -671,7 +650,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.02643",
             "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-6",
@@ -693,6 +672,27 @@
             "link": "https://arxiv.org/abs/2304.07193",
             "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-1",
+            "sectionId": "computer-vision",
+            "title": "Deep Residual Learning for Image Recognition",
+            "authors": [
+              "Kaiming He",
+              "Xiangyu Zhang",
+              "Shaoqing Ren",
+              "Jian Sun"
+            ],
+            "venue": "CVPR",
+            "year": 2016,
+            "quality": "顶会",
+            "categories": [
+              "image recognition",
+              "backbone"
+            ],
+            "link": "https://arxiv.org/abs/1512.03385",
+            "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -702,27 +702,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-5",
-            "sectionId": "llm-memory",
-            "title": "LongMem: Scaling Language Model Context with Memory-Augmented Retrieval",
-            "authors": [
-              "Zeqiu Wu",
-              "Yizhong Wang",
-              "Jiacheng Liu",
-              "Yelong Shen"
-            ],
-            "venue": "ACL Findings",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "memory",
-              "long context"
-            ],
-            "link": "https://arxiv.org/abs/2306.07174",
-            "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-6",
             "sectionId": "llm-memory",
@@ -742,7 +721,7 @@
             ],
             "link": "https://arxiv.org/abs/2409.05591",
             "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-1",
@@ -764,6 +743,27 @@
             "link": "https://arxiv.org/abs/2005.11401",
             "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-2",
+            "sectionId": "llm-memory",
+            "title": "Memorizing Transformers",
+            "authors": [
+              "Yuhuai Wu",
+              "Markus N. Rabe",
+              "DeLesley Hutchins",
+              "Christian Szegedy"
+            ],
+            "venue": "ICLR",
+            "year": 2022,
+            "quality": "顶会",
+            "categories": [
+              "memory",
+              "long context"
+            ],
+            "link": "https://arxiv.org/abs/2203.08913",
+            "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -773,27 +773,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-6",
-            "sectionId": "agents",
-            "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
-            "authors": [
-              "John Yang",
-              "Carlos E. Jimenez",
-              "Alexander Wettig",
-              "Karthik Narasimhan"
-            ],
-            "venue": "ICLR",
-            "year": 2025,
-            "quality": "新近代表作",
-            "categories": [
-              "software agent",
-              "benchmark"
-            ],
-            "link": "https://arxiv.org/abs/2405.15793",
-            "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-1",
             "sectionId": "agents",
@@ -814,7 +793,7 @@
             ],
             "link": "https://arxiv.org/abs/2210.03629",
             "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-2",
@@ -835,6 +814,27 @@
             ],
             "link": "https://arxiv.org/abs/2302.04761",
             "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-3",
+            "sectionId": "agents",
+            "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+            "authors": [
+              "Joon Sung Park",
+              "Joseph O'Brien",
+              "Carrie Cai",
+              "Meredith Ringel Morris"
+            ],
+            "venue": "UIST",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "agent society",
+              "memory"
+            ],
+            "link": "https://arxiv.org/abs/2304.03442",
+            "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
             "trackLabel": "轮换精选"
           }
         ]
