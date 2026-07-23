@@ -1,36 +1,28 @@
 {
-  "generatedAt": "2026-07-23T14:26:04.714Z",
+  "generatedAt": "2026-07-23T17:42:04.352Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 24,
-      "weatherCode": 3,
-      "windSpeed": 0
+      "temperature": 23,
+      "weatherCode": 2,
+      "windSpeed": 1
     },
     "today": {
-      "date": "2026-07-23",
-      "weatherCode": 53,
-      "description": "小雨",
-      "max": 28,
+      "date": "2026-07-24",
+      "weatherCode": 51,
+      "description": "毛毛雨",
+      "max": 30,
       "min": 22,
-      "precipitationProbability": 100
+      "precipitationProbability": 18
     },
     "forecast": [
-      {
-        "date": "2026-07-23",
-        "weatherCode": 53,
-        "description": "小雨",
-        "max": 28,
-        "min": 22,
-        "precipitationProbability": 100
-      },
       {
         "date": "2026-07-24",
         "weatherCode": 51,
         "description": "毛毛雨",
         "max": 30,
         "min": 22,
-        "precipitationProbability": 12
+        "precipitationProbability": 18
       },
       {
         "date": "2026-07-25",
@@ -38,7 +30,7 @@
         "description": "毛毛雨",
         "max": 30,
         "min": 24,
-        "precipitationProbability": 39
+        "precipitationProbability": 51
       },
       {
         "date": "2026-07-26",
@@ -46,7 +38,7 @@
         "description": "小雨",
         "max": 32,
         "min": 24,
-        "precipitationProbability": 69
+        "precipitationProbability": 53
       },
       {
         "date": "2026-07-27",
@@ -54,33 +46,50 @@
         "description": "毛毛雨",
         "max": 32,
         "min": 24,
+        "precipitationProbability": 61
+      },
+      {
+        "date": "2026-07-28",
+        "weatherCode": 51,
+        "description": "毛毛雨",
+        "max": 33,
+        "min": 24,
         "precipitationProbability": 55
       }
     ]
   },
   "classicQuote": {
-    "id": "zhuangzi-time",
-    "text": "人生天地之间，若白驹之过隙，忽然而已。",
-    "source": "《庄子》",
-    "author": "庄周",
-    "note": "事情很多的时候，更值得把注意力放在真正重要的事上。"
+    "id": "dream-red-mansions",
+    "text": "世事洞明皆学问，人情练达即文章。",
+    "source": "《红楼梦》",
+    "author": "曹雪芹",
+    "note": "技术之外，理解人和场景，往往更能拉开差距。"
   },
   "bookExcerpt": {
-    "id": "one-hundred-years-yellow",
-    "text": "许多年以后，面对行刑队，奥雷里亚诺·布恩迪亚上校将会想起父亲带他去见识冰块的那个遥远的下午。",
-    "book": "《百年孤独》",
-    "author": "加西亚·马尔克斯"
+    "id": "floating-life-lotus",
+    "text": "芸坐其侧，素手烹茶，窗外新荷微香，连晚风也像带着水意，从竹帘间一寸寸地漫进来。",
+    "book": "《浮生六记》",
+    "author": "沈复"
   },
   "featuredPlace": {
-    "id": "202607221600",
-    "title": "粉红色大丽花",
+    "id": "202607231600",
+    "title": "美洲红鹳群在伊莎贝拉岛，加拉帕戈斯群岛，厄瓜多尔",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "瓣叠交响",
-    "image": "https://www.bing.com/th?id=OHR.PinkDahlia_ZH-CN2259107800_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E5%A4%A7%E4%B8%BD%E8%8A%B1%E5%B1%9E%E6%A4%8D%E7%89%A9&form=hpcapt&mkt=zh-cn"
+    "summary": "缤纷多彩的一家人",
+    "image": "https://www.bing.com/th?id=OHR.GalapagosFlamingos_ZH-CN1152519387_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E7%BE%8E%E6%B4%B2%E7%BA%A2%E9%B9%B3&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202607231600",
+      "title": "美洲红鹳群在伊莎贝拉岛，加拉帕戈斯群岛，厄瓜多尔",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "缤纷多彩的一家人",
+      "image": "https://www.bing.com/th?id=OHR.GalapagosFlamingos_ZH-CN1152519387_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E7%BE%8E%E6%B4%B2%E7%BA%A2%E9%B9%B3&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202607221600",
       "title": "粉红色大丽花",
@@ -143,35 +152,34 @@
       "summary": "希腊式的逃离",
       "image": "https://www.bing.com/th?id=OHR.VaiUmbrellas_ZH-CN1271422272_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E5%B8%8C%E8%85%8A%E5%85%8B%E9%87%8C%E7%89%B9%E5%B2%9B&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202607151600",
-      "title": "海军码头，芝加哥，伊利诺伊州，美国",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "滨水变色龙",
-      "image": "https://www.bing.com/th?id=OHR.NavyPier_ZH-CN4649271588_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E8%8A%9D%E5%8A%A0%E5%93%A5%E6%B5%B7%E5%86%9B%E7%A0%81%E5%A4%B4&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-07-23",
-    "dateLabel": "7月23日",
+    "dateKey": "2026-07-24",
+    "dateLabel": "7月24日",
     "items": [
       {
         "year": "2020",
-        "text": "香港新增118宗新型冠狀病毒肺炎確診個案，111宗屬本地感染，連續兩日創單日新高。",
+        "text": "香港新增123宗新型冠狀病毒肺炎確診個案，115宗屬本地感染，53宗沒有源頭，連續三日創單日新高。",
         "link": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4"
       },
       {
-        "year": "2015",
-        "text": "美国国家航空航天局宣布克卜勒太空望远镜发现太阳系外行星克卜勒452b。",
-        "link": "https://zh.wikipedia.org/wiki/2015%E5%B9%B4"
+        "year": "2014",
+        "text": "阿爾及利亞航空5017號班機從布吉納法索瓦加杜古起飛後不久即從雷達上消失；翌日在馬里發現其殘骸，機上116人全數罹難。",
+        "link": "https://zh.wikipedia.org/wiki/2014%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
+      {
+        "title": "2026年“双百”活动中央和国家机关专场报告会在京举行",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-23/10665270.shtml",
+        "summary": "中新网北京7月23日电 2026年“百名法学家百场报告会”法治宣讲活动中央和国家机关专场报告会7月23日在京举行。报告会的主题为“贯彻实施生态环境法典”。",
+        "image": "",
+        "publishedAt": "2026-07-23T14:25:53.000Z",
+        "source": "中新网"
+      },
       {
         "title": "中俄青年交流会教育交流会在哈尔滨举行",
         "link": "https://www.chinanews.com.cn/gn/2026/07-23/10665273.shtml",
@@ -203,59 +211,59 @@
         "image": "",
         "publishedAt": "2026-07-23T14:23:11.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "云南提出：到2030年干热河谷地区退化生态系统逐步恢复",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-23/10665297.shtml",
-        "summary": "中新网昆明7月23日电 (记者 韩帅南)记者23日从云南省林业和草原局获悉，该局近日印发《云南省干热河谷生态带建设林草实施方案》(以下简称《方案》)，其中明确到2030年干热河谷地区退化生态系统逐步恢复，到2035年实现生态美、产业兴、百姓富有机统一。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260723/34bf2c02-4e65-437f-954a-ecebcb52de8b_zsite.jpg",
-        "publishedAt": "2026-07-23T14:22:07.000Z",
-        "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "美国马里兰州青少年探访黄山 沉浸式感受中国山水魅力",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-23/10665252.shtml",
-        "summary": "中新网黄山7月23日电 (赵强 朱玉婷)美国马里兰州青少年研学团23日走进中国黄山风景区，亲身感知中国自然与文化魅力。",
+        "title": "中国籍数学家菲尔兹奖“双响”，这一刻载入历史",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-24/10665357.shtml",
+        "summary": "中新社北京7月23日电 (记者 曾玥)在23日于美国费城举行的2026年国际数学家大会开幕式上，中国数学家邓煜、王虹获得菲尔兹奖。这是中国籍数学家首次获得菲尔兹奖。",
         "image": "",
-        "publishedAt": "2026-07-23T14:25:19.000Z",
+        "publishedAt": "2026-07-23T16:39:57.000Z",
         "source": "中新网"
       },
       {
-        "title": "台湾少数民族学子江西行：历史文化“鲜活可触”",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-23/10665278.shtml",
-        "summary": "中新网南昌7月23日电(朱莹 吴敏)“谈到古代经济发展史绕不开景德镇，谈到名楼绕不开滕王阁。”来自台湾花莲县海星高中的学生赵珮岑23日说，此行是一次“书本照进现实”的旅程，实地走访之后，那些停留在纸面上的历史变得“鲜活可触”。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260723/ffedeb84-e0aa-4bb8-a4b2-609fcbd6d344_zsite.jpg",
-        "publishedAt": "2026-07-23T14:24:23.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "浙江舟山：“三元混合气”盾构装备带压作业创多项世界纪录",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-23/10665258.shtml",
-        "summary": "中新网舟山7月23日电(刘子琳 骆泽明)7月23日，在浙江舟山，由中铁十一局自主研发的世界首套“三元混合气”盾构带压作业装备在世界最长海底高铁隧道——甬舟铁路金塘海底隧道完成首次大规模超高压环境带压开舱换刀作业。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260723/790cb580-2492-46ad-b1ff-fd5661614e8e_zsite.jpeg",
-        "publishedAt": "2026-07-23T14:23:15.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "粤上半年涉电摩交通事故死亡人数降27.2%",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-23/10665295.shtml",
-        "summary": "中新网广州7月23日电 (记者 方伟彬)广东省公安厅23日通报，今年上半年，该省涉电动自行车、摩托车交通事故死亡人数同比下降27.2%，广州、深圳等重点城市骑行守法率显著提升，“早点走、靠右行、慢慢开”逐渐成为社会共识。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260723/3bb2b4aa-63da-41cb-ad6e-e6739e1e0f28_zsite.jpg",
-        "publishedAt": "2026-07-23T14:22:33.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "四川省巴中市人大常委会党组副书记、副主任李本勇接受纪律审查和监察调查",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-23/10665301.shtml",
-        "summary": "中新网成都7月23日电 (记者 张浪)四川省纪委监委23日消息：巴中市人大常委会党组副书记、副主任李本勇涉嫌严重违纪违法，目前正接受四川省纪委监委纪律审查和监察调查。",
+        "title": "中国数学家邓煜、王虹获菲尔兹奖",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-24/10665356.shtml",
+        "summary": "中新社纽约7月23日电 当地时间23日，在美国费城举行的2026年国际数学家大会开幕式上，中国青年数学家邓煜、王虹获得菲尔兹奖。",
         "image": "",
-        "publishedAt": "2026-07-23T14:21:23.000Z",
+        "publishedAt": "2026-07-23T16:22:28.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "重庆彭水山体崩塌造成11人死亡50人失联",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-23/10665351.shtml",
+        "summary": "中新社重庆7月23日电 据“彭水发布”消息，重庆彭水山体崩塌现场抢险救援指挥部23日通报，7月17日9时许，彭水县汉葭街道发生大型山体崩塌灾害。灾害发生以来，经广泛开展线索征集、现场登记、走访调查、技术甄别、信息汇总比对等工作，结合救援进展，核对出本次山体崩塌灾害造成10人受伤、11人死亡、50人失...",
+        "image": "",
+        "publishedAt": "2026-07-23T15:36:05.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "中国籍数学家菲尔兹奖“双响”，一文回顾来时路",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-23/10665348.shtml",
+        "summary": "当地时间7月23日，四年一度的国际数学家大会在美国费城开幕，菲尔兹奖(Fields Medal)随之揭晓——中国青年数学家王虹、邓煜双双获奖。这是中国数学家首次获得菲尔兹奖，也是中国数学家首次在同一届国际数学家大会上同时获得两枚菲尔兹奖。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/07/23/ac7c9bae1052443782bf73930f07c257.png",
+        "publishedAt": "2026-07-23T14:57:19.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "重庆彭水县山体崩塌灾害造成10人受伤、11人死亡、50人失联",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-23/10665347.shtml",
+        "summary": "7月17日9时许，彭水县汉葭街道发生大型山体崩塌灾害。灾情发生后，当地调度部署，多支专业救援队伍驰援彭水，组建现场抢险救援指挥部，连续多日争分夺秒开展不间断全域搜救。",
+        "image": "",
+        "publishedAt": "2026-07-23T14:28:33.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
+      {
+        "title": "搭平台建生态促协同 浙江系统推进制造业“智改数转”",
+        "link": "https://www.chinanews.com.cn/cj/2026/07-23/10665274.shtml",
+        "summary": "中新网杭州7月23日电(蓝伊旎)7月23日，制造业数字化转型促进中心“深度行”(浙江站)暨浙江省“十链百场万企”系列对接活动之“智改数转”专场在杭州举行，旨在推动供需两端精准对接，助力企业破解转型痛点。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260723/628ac26a-b9e6-44a3-a9a0-7701ab9d6ab6_zsite.jpg",
+        "publishedAt": "2026-07-23T14:28:19.000Z",
+        "source": "中新网"
+      },
       {
         "title": "福州举办台青创业“扶摇计划”分享会",
         "link": "https://www.chinanews.com.cn/cj/2026/07-23/10665250.shtml",
@@ -287,14 +295,6 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260723/2961286a-b03a-4c4d-b499-e23e41f281ea_zsite.jpg",
         "publishedAt": "2026-07-23T14:21:29.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "（活力中国调研行）光纤激光器畅销海内外，这家企业做对了什么？",
-        "link": "https://www.chinanews.com.cn/cj/2026/07-23/10665260.shtml",
-        "summary": "中新网苏州7月23日电 (常慕城 王昊)深耕高功率光纤激光器及核心器件研发、生产领域的苏州创鑫激光科技有限公司，目前光纤激光器销量稳居国内市场前列，多款产品走俏全球市场。这家企业究竟凭何突围，又有哪些创新亮点？",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260723/8c8beaf5-53ad-4d46-ae9e-a0d87d385a07_zsite.jpg",
-        "publishedAt": "2026-07-23T14:19:37.000Z",
-        "source": "中新网"
       }
     ],
     "worldTop": [
@@ -303,15 +303,7 @@
         "link": "https://www.bbc.co.uk/news/articles/cpw9xzx9r4ko?at_medium=RSS&at_campaign=rss",
         "summary": "The Iran-backed group, which previously announced a \"maritime embargo\" against Saudi Arabia, also claims to have hit another vessel.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cf38/live/90c9e750-8676-11f1-b976-0b9c15b0ccfc.jpg",
-        "publishedAt": "2026-07-23T14:18:13.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Saudis must recognise Israel for nuclear deal, says Trump",
-        "link": "https://www.bbc.co.uk/news/articles/cwye71yq8wwo?at_medium=RSS&at_campaign=rss",
-        "summary": "The US president says the landmark agreement to help Saudis develop nuclear energy is dependent on it joining the Abraham Accords.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/63a6/live/6a9afff0-85af-11f1-9454-77c2271a5b4a.jpg",
-        "publishedAt": "2026-07-23T13:56:35.000Z",
+        "publishedAt": "2026-07-23T16:50:59.000Z",
         "source": "BBC"
       },
       {
@@ -319,7 +311,23 @@
         "link": "https://www.bbc.co.uk/news/articles/cy4kmr82n44o?at_medium=RSS&at_campaign=rss",
         "summary": "Most of those evacuated were tourists from campsites around Arcachon Bay in France's Gironde region.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7df8/live/48d08300-867b-11f1-8c77-df97511a6b05.jpg",
-        "publishedAt": "2026-07-23T13:25:02.000Z",
+        "publishedAt": "2026-07-23T16:41:52.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Saudis must recognise Israel for nuclear deal, says Trump",
+        "link": "https://www.bbc.co.uk/news/articles/cwye71yq8wwo?at_medium=RSS&at_campaign=rss",
+        "summary": "The US president says the landmark agreement to help Saudis develop nuclear energy is dependent on it joining the Abraham Accords.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3939/live/be2c4e20-86a0-11f1-926f-c90d1bcfbc84.jpg",
+        "publishedAt": "2026-07-23T16:17:44.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Oil prices hit $100 for the first time since May",
+        "link": "https://www.bbc.co.uk/news/articles/cx2djnzrqk2o?at_medium=RSS&at_campaign=rss",
+        "summary": "The price of Brent crude rose more than 6% on Thursday as the war in the Middle East continues to escalate.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d668/live/b41122b0-867a-11f1-8c77-df97511a6b05.jpg",
+        "publishedAt": "2026-07-23T15:31:00.000Z",
         "source": "BBC"
       },
       {
@@ -327,33 +335,17 @@
         "link": "https://www.bbc.co.uk/news/articles/ce34n7kqr5ko?at_medium=RSS&at_campaign=rss",
         "summary": "Sonam Wangchuk has been the main draw at the Cockroach Janta Party (CJP) protest in Delhi.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e31d/live/86281e60-865e-11f1-93cb-95d7eb12ec49.png",
-        "publishedAt": "2026-07-23T12:51:55.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Canada's 'powerful' dairy sector is in Trump's trade crosshairs",
-        "link": "https://www.bbc.co.uk/news/articles/ce8kvm84lxmo?at_medium=RSS&at_campaign=rss",
-        "summary": "Canada's dairy supply management system is in the spotlight after the US president singled it out as one of three main irritants used to justify new t...",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e5eb/live/f92abbb0-85dd-11f1-9837-c51febdbeb82.jpg",
-        "publishedAt": "2026-07-23T00:15:12.000Z",
+        "publishedAt": "2026-07-23T15:22:06.000Z",
         "source": "BBC"
       }
     ],
     "worldBusiness": [
       {
-        "title": "Oil prices hit $100 for the first time since May",
-        "link": "https://www.bbc.co.uk/news/articles/cx2djnzrqk2o?at_medium=RSS&at_campaign=rss",
-        "summary": "The price of Brent crude rose more than 5% on Thursday as the war in the Middle East continues to escalate.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d668/live/b41122b0-867a-11f1-8c77-df97511a6b05.jpg",
-        "publishedAt": "2026-07-23T13:55:56.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Government to cut business rates for pubs, clubs and music venues",
+        "title": "Burnham says 20% business rates cut for English pubs 'a first step'",
         "link": "https://www.bbc.co.uk/news/articles/cq6dg816464o?at_medium=RSS&at_campaign=rss",
-        "summary": "Some hospitality firms will get a 20% discount from next April, saving an estimated £1,100.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b99f/live/7df3be10-8669-11f1-93cb-95d7eb12ec49.jpg",
-        "publishedAt": "2026-07-23T13:10:43.000Z",
+        "summary": "Some hospitality firms will get a discount from next April but hotels and restaurants won't get a cut.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce25/live/79b699b0-86a2-11f1-a0b6-435e4178a497.png",
+        "publishedAt": "2026-07-23T16:59:59.000Z",
         "source": "BBC"
       },
       {
@@ -361,7 +353,23 @@
         "link": "https://www.bbc.co.uk/news/articles/cvgjp79m42go?at_medium=RSS&at_campaign=rss",
         "summary": "A group including the former England footballer write to the new PM telling him \"we can afford it\".",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8a6e/live/b0338440-8683-11f1-bee8-53ce494e1abc.jpg",
-        "publishedAt": "2026-07-23T12:18:36.000Z",
+        "publishedAt": "2026-07-23T16:20:45.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Oil prices hit $100 for the first time since May",
+        "link": "https://www.bbc.co.uk/news/articles/cx2djnzrqk2o?at_medium=RSS&at_campaign=rss",
+        "summary": "The price of Brent crude rose more than 6% on Thursday as the war in the Middle East continues to escalate.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d668/live/b41122b0-867a-11f1-8c77-df97511a6b05.jpg",
+        "publishedAt": "2026-07-23T15:31:00.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Pubs cheer business rates relief while other firms 'left out in the cold'",
+        "link": "https://www.bbc.co.uk/news/articles/clyvnz4489wo?at_medium=RSS&at_campaign=rss",
+        "summary": "Pubs welcomed the support package, while other High Street firms asked why they were left out.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f2f4/live/dbb6a5c0-8697-11f1-9e03-bdd14c1ce63a.jpg",
+        "publishedAt": "2026-07-23T14:27:37.000Z",
         "source": "BBC"
       },
       {
@@ -371,17 +379,17 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7cb0/live/357c7500-865f-11f1-b976-0b9c15b0ccfc.jpg",
         "publishedAt": "2026-07-23T11:25:34.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Shorts are back in fashion on Wall Street",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNM3hSUDhReUlSb3NSU2QxZUw3am1NVk11cmtCdUFza3pNSTI0V3F3RXcyQW1JYWlveWpxTTBQMlBnS2Z1aTRiMl8tem9XZjJPQXE0dFUxNkladjlnUFIxUERtQXpNTC1pX0NEdGxUU1BOaUNtNmlhR25NbzBuQ3p3ZA?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-07-23T09:00:26.000Z",
-        "source": "CNN"
       }
     ],
     "worldTech": [
+      {
+        "title": "Google and Tesla shares plunge as AI spending rattles markets",
+        "link": "https://www.bbc.co.uk/news/articles/c235n47g8g8o?at_medium=RSS&at_campaign=rss",
+        "summary": "As major tech companies race to capitalize on a new wave of AI technology, investors wonder when financial benefits will appear.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f610/live/9cc8bdc0-8616-11f1-8dd8-4d5cff7c66df.jpg",
+        "publishedAt": "2026-07-23T17:25:10.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Google fined €890m by EU for favouring its own apps over rivals",
         "link": "https://www.bbc.co.uk/news/articles/cevmenngkzpo?at_medium=RSS&at_campaign=rss",
@@ -407,14 +415,6 @@
         "source": "BBC"
       },
       {
-        "title": "Google burning through cash with spiralling AI costs",
-        "link": "https://www.bbc.co.uk/news/articles/c235n47g8g8o?at_medium=RSS&at_campaign=rss",
-        "summary": "The company said earlier this year it expected to spend as much as $190bn on AI investments.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f610/live/9cc8bdc0-8616-11f1-8dd8-4d5cff7c66df.jpg",
-        "publishedAt": "2026-07-23T07:15:59.000Z",
-        "source": "BBC"
-      },
-      {
         "title": "Teenager drops social media addiction lawsuit against Meta",
         "link": "https://www.bbc.co.uk/news/articles/c5yrdg4q9vgo?at_medium=RSS&at_campaign=rss",
         "summary": "Claims from a 15-year-old boy were set to go to trial next week in Los Angeles, but the case has now been dropped.",
@@ -424,6 +424,14 @@
       }
     ],
     "domestic": [
+      {
+        "title": "2026年“双百”活动中央和国家机关专场报告会在京举行",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-23/10665270.shtml",
+        "summary": "中新网北京7月23日电 2026年“百名法学家百场报告会”法治宣讲活动中央和国家机关专场报告会7月23日在京举行。报告会的主题为“贯彻实施生态环境法典”。",
+        "image": "",
+        "publishedAt": "2026-07-23T14:25:53.000Z",
+        "source": "中新网"
+      },
       {
         "title": "中俄青年交流会教育交流会在哈尔滨举行",
         "link": "https://www.chinanews.com.cn/gn/2026/07-23/10665273.shtml",
@@ -455,14 +463,6 @@
         "image": "",
         "publishedAt": "2026-07-23T14:23:11.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "云南提出：到2030年干热河谷地区退化生态系统逐步恢复",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-23/10665297.shtml",
-        "summary": "中新网昆明7月23日电 (记者 韩帅南)记者23日从云南省林业和草原局获悉，该局近日印发《云南省干热河谷生态带建设林草实施方案》(以下简称《方案》)，其中明确到2030年干热河谷地区退化生态系统逐步恢复，到2035年实现生态美、产业兴、百姓富有机统一。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260723/34bf2c02-4e65-437f-954a-ecebcb52de8b_zsite.jpg",
-        "publishedAt": "2026-07-23T14:22:07.000Z",
-        "source": "中新网"
       }
     ],
     "international": [
@@ -471,15 +471,7 @@
         "link": "https://www.bbc.co.uk/news/articles/cpw9xzx9r4ko?at_medium=RSS&at_campaign=rss",
         "summary": "The Iran-backed group, which previously announced a \"maritime embargo\" against Saudi Arabia, also claims to have hit another vessel.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cf38/live/90c9e750-8676-11f1-b976-0b9c15b0ccfc.jpg",
-        "publishedAt": "2026-07-23T14:18:13.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Saudis must recognise Israel for nuclear deal, says Trump",
-        "link": "https://www.bbc.co.uk/news/articles/cwye71yq8wwo?at_medium=RSS&at_campaign=rss",
-        "summary": "The US president says the landmark agreement to help Saudis develop nuclear energy is dependent on it joining the Abraham Accords.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/63a6/live/6a9afff0-85af-11f1-9454-77c2271a5b4a.jpg",
-        "publishedAt": "2026-07-23T13:56:35.000Z",
+        "publishedAt": "2026-07-23T16:50:59.000Z",
         "source": "BBC"
       },
       {
@@ -487,7 +479,23 @@
         "link": "https://www.bbc.co.uk/news/articles/cy4kmr82n44o?at_medium=RSS&at_campaign=rss",
         "summary": "Most of those evacuated were tourists from campsites around Arcachon Bay in France's Gironde region.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7df8/live/48d08300-867b-11f1-8c77-df97511a6b05.jpg",
-        "publishedAt": "2026-07-23T13:25:02.000Z",
+        "publishedAt": "2026-07-23T16:41:52.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Saudis must recognise Israel for nuclear deal, says Trump",
+        "link": "https://www.bbc.co.uk/news/articles/cwye71yq8wwo?at_medium=RSS&at_campaign=rss",
+        "summary": "The US president says the landmark agreement to help Saudis develop nuclear energy is dependent on it joining the Abraham Accords.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3939/live/be2c4e20-86a0-11f1-926f-c90d1bcfbc84.jpg",
+        "publishedAt": "2026-07-23T16:17:44.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Oil prices hit $100 for the first time since May",
+        "link": "https://www.bbc.co.uk/news/articles/cx2djnzrqk2o?at_medium=RSS&at_campaign=rss",
+        "summary": "The price of Brent crude rose more than 6% on Thursday as the war in the Middle East continues to escalate.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d668/live/b41122b0-867a-11f1-8c77-df97511a6b05.jpg",
+        "publishedAt": "2026-07-23T15:31:00.000Z",
         "source": "BBC"
       },
       {
@@ -495,28 +503,16 @@
         "link": "https://www.bbc.co.uk/news/articles/ce34n7kqr5ko?at_medium=RSS&at_campaign=rss",
         "summary": "Sonam Wangchuk has been the main draw at the Cockroach Janta Party (CJP) protest in Delhi.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e31d/live/86281e60-865e-11f1-93cb-95d7eb12ec49.png",
-        "publishedAt": "2026-07-23T12:51:55.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Canada's 'powerful' dairy sector is in Trump's trade crosshairs",
-        "link": "https://www.bbc.co.uk/news/articles/ce8kvm84lxmo?at_medium=RSS&at_campaign=rss",
-        "summary": "Canada's dairy supply management system is in the spotlight after the US president singled it out as one of three main irritants used to justify new t...",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e5eb/live/f92abbb0-85dd-11f1-9837-c51febdbeb82.jpg",
-        "publishedAt": "2026-07-23T00:15:12.000Z",
+        "publishedAt": "2026-07-23T15:22:06.000Z",
         "source": "BBC"
       }
     ],
     "nba": []
   },
   "nbaScoreboard": {
-    "date": "2026-07-23",
+    "date": "2026-07-24",
     "currentIndex": 4,
     "days": [
-      {
-        "date": "2026-07-19",
-        "games": []
-      },
       {
         "date": "2026-07-20",
         "games": []
@@ -548,12 +544,16 @@
       {
         "date": "2026-07-27",
         "games": []
+      },
+      {
+        "date": "2026-07-28",
+        "games": []
       }
     ],
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-07-23",
+    "rotationLabel": "Curated Rotation · 2026-07-24",
     "sections": [
       {
         "id": "data-storage",
@@ -561,27 +561,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-2",
-            "sectionId": "data-storage",
-            "title": "Bigtable: A Distributed Storage System for Structured Data",
-            "authors": [
-              "Fay Chang",
-              "Jeffrey Dean",
-              "Sanjay Ghemawat",
-              "Wilson C. Hsieh"
-            ],
-            "venue": "OSDI",
-            "year": 2006,
-            "quality": "顶会",
-            "categories": [
-              "distributed systems",
-              "database"
-            ],
-            "link": "https://research.google/pubs/pub27898/",
-            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-3",
             "sectionId": "data-storage",
@@ -601,7 +580,7 @@
             ],
             "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
             "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-4",
@@ -623,6 +602,26 @@
             "link": "https://research.google/pubs/pub36632/",
             "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-5",
+            "sectionId": "data-storage",
+            "title": "The FAISS Library",
+            "authors": [
+              "Jeff Johnson",
+              "Matthijs Douze",
+              "Herve Jegou"
+            ],
+            "venue": "IEEE T-BD",
+            "year": 2021,
+            "quality": "高影响力",
+            "categories": [
+              "vector search",
+              "ANN"
+            ],
+            "link": "https://arxiv.org/abs/2401.08281",
+            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -632,27 +631,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-3",
-            "sectionId": "computer-vision",
-            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
-            "authors": [
-              "Alexey Dosovitskiy",
-              "Lucas Beyer",
-              "Alexander Kolesnikov",
-              "Dirk Weissenborn"
-            ],
-            "venue": "ICLR",
-            "year": 2021,
-            "quality": "顶会",
-            "categories": [
-              "vision transformer",
-              "classification"
-            ],
-            "link": "https://arxiv.org/abs/2010.11929",
-            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-4",
             "sectionId": "computer-vision",
@@ -672,7 +650,7 @@
             ],
             "link": "https://arxiv.org/abs/2103.00020",
             "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-5",
@@ -694,6 +672,27 @@
             "link": "https://arxiv.org/abs/2304.02643",
             "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-6",
+            "sectionId": "computer-vision",
+            "title": "DINOv2: Learning Robust Visual Features without Supervision",
+            "authors": [
+              "Maxime Oquab",
+              "Timothée Darcet",
+              "Théo Moutakanni",
+              "Huy V. Vo"
+            ],
+            "venue": "arXiv / Meta",
+            "year": 2023,
+            "quality": "高影响力",
+            "categories": [
+              "self-supervised",
+              "representation"
+            ],
+            "link": "https://arxiv.org/abs/2304.07193",
+            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -703,27 +702,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-4",
-            "sectionId": "llm-memory",
-            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
-            "authors": [
-              "Akari Asai",
-              "Zequn Zhang",
-              "Avirup Sil",
-              "Hannaneh Hajishirzi"
-            ],
-            "venue": "ICLR",
-            "year": 2024,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "self-reflection"
-            ],
-            "link": "https://arxiv.org/abs/2310.11511",
-            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-5",
             "sectionId": "llm-memory",
@@ -743,7 +721,7 @@
             ],
             "link": "https://arxiv.org/abs/2306.07174",
             "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-6",
@@ -765,6 +743,27 @@
             "link": "https://arxiv.org/abs/2409.05591",
             "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-1",
+            "sectionId": "llm-memory",
+            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+            "authors": [
+              "Patrick Lewis",
+              "Ethan Perez",
+              "Aleksandra Piktus",
+              "Fabio Petroni"
+            ],
+            "venue": "NeurIPS",
+            "year": 2020,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "retrieval"
+            ],
+            "link": "https://arxiv.org/abs/2005.11401",
+            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -774,27 +773,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-5",
-            "sectionId": "agents",
-            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
-            "authors": [
-              "Qingyun Wu",
-              "Gagan Bansal",
-              "Jiaqi Zhang",
-              "Yiran Wu"
-            ],
-            "venue": "COLM",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "multi-agent",
-              "framework"
-            ],
-            "link": "https://arxiv.org/abs/2308.08155",
-            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-6",
             "sectionId": "agents",
@@ -814,7 +792,7 @@
             ],
             "link": "https://arxiv.org/abs/2405.15793",
             "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-1",
@@ -836,6 +814,27 @@
             ],
             "link": "https://arxiv.org/abs/2210.03629",
             "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-2",
+            "sectionId": "agents",
+            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+            "authors": [
+              "Timo Schick",
+              "Jane Dwivedi-Yu",
+              "Roberta Dessì",
+              "Ari Holtzman"
+            ],
+            "venue": "NeurIPS",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "tool use",
+              "agent"
+            ],
+            "link": "https://arxiv.org/abs/2302.04761",
+            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
             "trackLabel": "轮换精选"
           }
         ]
