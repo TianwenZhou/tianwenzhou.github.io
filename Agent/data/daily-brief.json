@@ -1,29 +1,21 @@
 {
-  "generatedAt": "2026-07-27T15:08:17.407Z",
+  "generatedAt": "2026-07-27T17:51:30.924Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 27,
+      "temperature": 25,
       "weatherCode": 0,
-      "windSpeed": 6
+      "windSpeed": 4
     },
     "today": {
-      "date": "2026-07-27",
-      "weatherCode": 53,
-      "description": "小雨",
-      "max": 32,
+      "date": "2026-07-28",
+      "weatherCode": 51,
+      "description": "毛毛雨",
+      "max": 33,
       "min": 24,
-      "precipitationProbability": 68
+      "precipitationProbability": 47
     },
     "forecast": [
-      {
-        "date": "2026-07-27",
-        "weatherCode": 53,
-        "description": "小雨",
-        "max": 32,
-        "min": 24,
-        "precipitationProbability": 68
-      },
       {
         "date": "2026-07-28",
         "weatherCode": 51,
@@ -55,32 +47,49 @@
         "max": 36,
         "min": 27,
         "precipitationProbability": 39
+      },
+      {
+        "date": "2026-08-01",
+        "weatherCode": 96,
+        "description": "天气更新中",
+        "max": 36,
+        "min": 27,
+        "precipitationProbability": 75
       }
     ]
   },
   "classicQuote": {
-    "id": "chuci-seek",
-    "text": "路漫漫其修远兮，吾将上下而求索。",
-    "source": "《离骚》",
-    "author": "屈原",
-    "note": "长期主义最难，但也最值得。"
+    "id": "analects-learning",
+    "text": "学而不思则罔，思而不学则殆。",
+    "source": "《论语》",
+    "author": "孔子",
+    "note": "提醒自己既要输入，也要沉淀，不要只忙不想。"
   },
   "bookExcerpt": {
-    "id": "border-town-river",
-    "text": "月光如银子，无处不可照及，山上篁竹在月光下变成了一片黑色，身边草丛中虫声繁密如落雨。",
-    "book": "《边城》",
-    "author": "沈从文"
+    "id": "fortress-besieged-night",
+    "text": "夜仿佛纸浸了油，变成半透明体；它给太阳拥抱住了，分不出身来，也许是给太阳溶了，所以夕照晚霞隐褪后的夜色也带着酡红。",
+    "book": "《围城》",
+    "author": "钱钟书"
   },
   "featuredPlace": {
-    "id": "202607261600",
-    "title": "蒂芙尼穹顶，芝加哥文化中心，伊利诺伊州，美国",
+    "id": "202607271600",
+    "title": "一片海藻林在安纳卡帕岛附近，海峡群岛国家公园，加利福尼亚州，美国",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "仰望芝城，流光溢彩",
-    "image": "https://www.bing.com/th?id=OHR.ChicagoTiffany_ZH-CN9860688834_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E8%8A%9D%E5%8A%A0%E5%93%A5%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83%E8%92%82%E8%8A%99%E5%B0%BC%E7%A9%B9%E9%A1%B6&form=hpcapt&mkt=zh-cn"
+    "summary": "生机律动，恒久之衡",
+    "image": "https://www.bing.com/th?id=OHR.ChannelKelp_ZH-CN8732903732_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E8%87%AA%E7%84%B6%E4%BF%9D%E6%8A%A4%E6%97%A5&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202607271600",
+      "title": "一片海藻林在安纳卡帕岛附近，海峡群岛国家公园，加利福尼亚州，美国",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "生机律动，恒久之衡",
+      "image": "https://www.bing.com/th?id=OHR.ChannelKelp_ZH-CN8732903732_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E8%87%AA%E7%84%B6%E4%BF%9D%E6%8A%A4%E6%97%A5&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202607261600",
       "title": "蒂芙尼穹顶，芝加哥文化中心，伊利诺伊州，美国",
@@ -143,29 +152,20 @@
       "summary": "拱影寻踪",
       "image": "https://www.bing.com/th?id=OHR.SantaCatalina_ZH-CN6223370790_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E5%8D%B1%E5%9C%B0%E9%A9%AC%E6%8B%89%E5%9C%A3%E5%8D%A1%E5%A1%94%E7%90%B3%E5%A8%9C%E6%8B%B1%E9%97%A8&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202607191600",
-      "title": "月球与地球由阿耳忒弥斯2号机组人员拍摄",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "月瞰寰宇",
-      "image": "https://www.bing.com/th?id=OHR.Artemis_ZH-CN3540365575_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E5%9B%BD%E9%99%85%E6%9C%88%E7%90%83%E6%97%A5&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-07-27",
-    "dateLabel": "7月27日",
+    "dateKey": "2026-07-28",
+    "dateLabel": "7月28日",
     "items": [
       {
         "year": "2020",
-        "text": "香港新增145宗新型冠狀病毒肺炎確診個案，142宗屬本地感染，59宗源頭不明，再破單日新高，亦連續第六天破百。",
+        "text": "吉隆坡高等法庭宣判，马来西亚前首相纳吉·阿都拉萨涉及一马弊案的SRC洗钱案的7项指控全部成立，判处监禁12年和罚款2亿1000万令吉，若无法缴付罚款则加监5年。",
         "link": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4"
       },
       {
         "year": "2018",
-        "text": "火星大冲与月全食同时发生，前者為15年来火星最接近地球的一次，后者乃21世纪以来持续时间最长的月全食。",
+        "text": "澳大利亚运动员温蒂·塔克成为首个克利伯环球帆船赛女性冠军。",
         "link": "https://zh.wikipedia.org/wiki/2018%E5%B9%B4"
       }
     ]
@@ -215,6 +215,14 @@
     ],
     "chinaSociety": [
       {
+        "title": "机票超售与高额退票费 是否触碰公平消费底线？",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-27/10667569.shtml",
+        "summary": "买了机票却不能登机，退张机票要扣97%的票款。机票超售让消费者“走不了”，天价退票费让消费者“退不起”。记者走访调查，为您揭开机票消费背后的权益“黑洞”。",
+        "image": "",
+        "publishedAt": "2026-07-27T15:44:34.000Z",
+        "source": "中新网"
+      },
+      {
         "title": "广东多举措做好防汛各项工作 应对新一轮强降雨",
         "link": "https://www.chinanews.com.cn/sh/2026/07-27/10667563.shtml",
         "summary": "中新网广州7月27日电 (记者 王坚)广东即将遭遇新一轮强降雨。广东省防汛防旱防风总指挥部办公室27日印发通知，部署各地各有关部门要进一步做好当前防汛各项工作，全力确保人民群众生命财产安全。",
@@ -244,14 +252,6 @@
         "summary": "中新网广州7月27日电 题：台风“红霞”袭粤掀风雨 救援一线昼夜未歇",
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260727/84b00078-ca71-4b62-817b-14908b569030_zsite.jpeg",
         "publishedAt": "2026-07-27T13:48:45.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "广东清远乌鬃鹅首次走出国门 销往海外市场",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-27/10667538.shtml",
-        "summary": "中新网清远7月27日电 (记者 张璐)据“清远发布”公众号27日消息，近日，一批27吨、货值80万元的冷冻清远乌鬃鹅，经广州海关所属清远海关(简称“清远海关”)检验检疫合格后发往柬埔寨，这也是清远乌鬃鹅产品第一次走出国门，销往海外市场。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260727/1d2349b0-51f6-45bf-afc6-29d7f1b8a41d_zsite.jpg",
-        "publishedAt": "2026-07-27T13:40:21.000Z",
         "source": "中新网"
       }
     ],
@@ -299,11 +299,19 @@
     ],
     "worldTop": [
       {
-        "title": "Oil price dives as US and Iran pause attacks",
-        "link": "https://www.bbc.co.uk/news/articles/clyj834jn5lo?at_medium=RSS&at_campaign=rss",
-        "summary": "The US says attacks on Iran have been halted to give \"talks some space\", raising hopes of a resolution to the conflict.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/92a8/live/d2b46450-89a6-11f1-a85a-79136c2d298e.jpg",
-        "publishedAt": "2026-07-27T14:22:24.000Z",
+        "title": "Shots fired at US consulate in Toronto for a second time this year",
+        "link": "https://www.bbc.co.uk/news/articles/ckgvnw44rz9o?at_medium=RSS&at_campaign=rss",
+        "summary": "Police said they engaged in a high-speed car chase but failed to arrest the suspect, who remains at large. Three people were arrested in June after a...",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a7bb/live/b02f9420-89da-11f1-a7ab-8b30adf0800a.jpg",
+        "publishedAt": "2026-07-27T16:56:57.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Ukraine dismisses Iranian threats as Caspian Sea strike directly links wars",
+        "link": "https://www.bbc.co.uk/news/articles/cwyj7yl0xndo?at_medium=RSS&at_campaign=rss",
+        "summary": "Iran has reacted with fury to the assault on the vessel, with Tehran's foreign minister saying it \"cannot go unanswered\".",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0a3e/live/b5882cf0-1d6c-11f1-b048-c9424b2cf5fd.png",
+        "publishedAt": "2026-07-27T16:33:05.000Z",
         "source": "BBC"
       },
       {
@@ -311,8 +319,16 @@
         "link": "https://www.bbc.co.uk/news/articles/cj638jx0l53o?at_medium=RSS&at_campaign=rss",
         "summary": "A blaze near Bordeaux has torn through more than 162 sq miles (420 sq km) in less than four days, while the Madrid region is seeing its worst fires ev...",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6786/live/a29902f0-89c7-11f1-a501-d9a9d2e9b6c1.jpg",
-        "publishedAt": "2026-07-27T14:21:32.000Z",
+        "publishedAt": "2026-07-27T15:59:27.000Z",
         "source": "BBC"
+      },
+      {
+        "title": "The Iran and Ukraine wars are colliding on the world’s biggest lake. Here’s what to know",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRlJyWmtVRDJoVWxoaGN3MERLdXplZ28xOHVzcXAtdUNNV3lkVklJNFRVT1d4US1iZGlfdWNYc21rV29NaEk2azYxMHVRY1p5dEVjXzZqNHZzdHZsSDU2NHVzd3J0SGY2NWdMN0czOVBaY3I1cUY3RUNWUlkwazFmU3lpQ0VjS0phd3VEag?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-07-27T15:41:35.000Z",
+        "source": "CNN"
       },
       {
         "title": "More than 600 US military service members injured since Iran War began in February",
@@ -321,39 +337,31 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2eab/live/66b0c1c0-89b2-11f1-b8ee-9b3c26ad07bb.jpg",
         "publishedAt": "2026-07-27T13:31:57.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Anger, shock and grief - questions remain in the wake of the Berlin Pride attack",
-        "link": "https://www.bbc.co.uk/news/articles/cy9wv74qje9o?at_medium=RSS&at_campaign=rss",
-        "summary": "As details emerge about the suspected Berlin Pride attacker's past, many are asking why he was not in prison.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce88/live/8415f670-89af-11f1-9c0c-33faa7b3d86d.jpg",
-        "publishedAt": "2026-07-27T12:33:31.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Bali bans Dutch expats whose run club allegedly excluded Indonesians",
-        "link": "https://www.bbc.co.uk/news/articles/c1l1m6e08e2o?at_medium=RSS&at_campaign=rss",
-        "summary": "The two men, who are accused of favouring foreigners for their events, allegedly violated immigration laws.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8bb3/live/ca0001c0-89b5-11f1-b2ab-0dd01740f9f6.jpg",
-        "publishedAt": "2026-07-27T10:59:13.000Z",
-        "source": "BBC"
       }
     ],
     "worldBusiness": [
+      {
+        "title": "Cracker Barrel chief executive steps down a year after rebrand chaos",
+        "link": "https://www.bbc.co.uk/news/articles/cr49z0r54nko?at_medium=RSS&at_campaign=rss",
+        "summary": "Cracker Barrel CEO Julie Masino will exit following customer backlash over modern logo redesign.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c4d/live/c0977d80-89dc-11f1-9273-213dd08ab6f9.jpg",
+        "publishedAt": "2026-07-27T17:30:23.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Cash recovered from ex-Nasa scientist turned scammer",
+        "link": "https://www.bbc.co.uk/news/articles/cj4k2x2qprwo?at_medium=RSS&at_campaign=rss",
+        "summary": "John Burford was jailed in 2025 after taking more than £1m from his victims.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ef94/live/4fb9c1a0-89d1-11f1-8d60-2d725522f827.jpg",
+        "publishedAt": "2026-07-27T16:00:49.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Oil price dives as US and Iran pause attacks",
         "link": "https://www.bbc.co.uk/news/articles/clyj834jn5lo?at_medium=RSS&at_campaign=rss",
         "summary": "The US says attacks on Iran have been halted to give \"talks some space\", raising hopes of a resolution to the conflict.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/92a8/live/d2b46450-89a6-11f1-a85a-79136c2d298e.jpg",
-        "publishedAt": "2026-07-27T14:22:24.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Businessman and philanthropist Sir Ian Wood dies aged 84",
-        "link": "https://www.bbc.co.uk/news/articles/ce3qv0p9105o?at_medium=RSS&at_campaign=rss",
-        "summary": "The Aberdeen-based businessman turned his family's boat repair firm into an oil and gas engineering giant.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1f7f/live/39e43050-899e-11f1-8c68-81d45f5a03af.jpg",
-        "publishedAt": "2026-07-27T14:17:56.000Z",
+        "publishedAt": "2026-07-27T15:08:37.000Z",
         "source": "BBC"
       },
       {
@@ -362,14 +370,6 @@
         "summary": "For those who have upcoming holidays to the affected regions, here is what you should know about how it might impact your plans.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cd7b/live/3c068830-89ab-11f1-a44b-5525937994ba.jpg",
         "publishedAt": "2026-07-27T13:21:49.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Shein swings to $99m loss as Trump tariffs hit sales",
-        "link": "https://www.bbc.co.uk/news/articles/clyj8v0rek8o?at_medium=RSS&at_campaign=rss",
-        "summary": "The announcement comes as the fast fashion giant prepares for its stock market debut in Hong Kong.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6a66/live/d66cf590-8950-11f1-aee1-9f17574ebbb3.jpg",
-        "publishedAt": "2026-07-27T02:08:36.000Z",
         "source": "BBC"
       },
       {
@@ -467,11 +467,19 @@
     ],
     "international": [
       {
-        "title": "Oil price dives as US and Iran pause attacks",
-        "link": "https://www.bbc.co.uk/news/articles/clyj834jn5lo?at_medium=RSS&at_campaign=rss",
-        "summary": "The US says attacks on Iran have been halted to give \"talks some space\", raising hopes of a resolution to the conflict.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/92a8/live/d2b46450-89a6-11f1-a85a-79136c2d298e.jpg",
-        "publishedAt": "2026-07-27T14:22:24.000Z",
+        "title": "Shots fired at US consulate in Toronto for a second time this year",
+        "link": "https://www.bbc.co.uk/news/articles/ckgvnw44rz9o?at_medium=RSS&at_campaign=rss",
+        "summary": "Police said they engaged in a high-speed car chase but failed to arrest the suspect, who remains at large. Three people were arrested in June after a...",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a7bb/live/b02f9420-89da-11f1-a7ab-8b30adf0800a.jpg",
+        "publishedAt": "2026-07-27T16:56:57.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Ukraine dismisses Iranian threats as Caspian Sea strike directly links wars",
+        "link": "https://www.bbc.co.uk/news/articles/cwyj7yl0xndo?at_medium=RSS&at_campaign=rss",
+        "summary": "Iran has reacted with fury to the assault on the vessel, with Tehran's foreign minister saying it \"cannot go unanswered\".",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0a3e/live/b5882cf0-1d6c-11f1-b048-c9424b2cf5fd.png",
+        "publishedAt": "2026-07-27T16:33:05.000Z",
         "source": "BBC"
       },
       {
@@ -479,8 +487,16 @@
         "link": "https://www.bbc.co.uk/news/articles/cj638jx0l53o?at_medium=RSS&at_campaign=rss",
         "summary": "A blaze near Bordeaux has torn through more than 162 sq miles (420 sq km) in less than four days, while the Madrid region is seeing its worst fires ev...",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6786/live/a29902f0-89c7-11f1-a501-d9a9d2e9b6c1.jpg",
-        "publishedAt": "2026-07-27T14:21:32.000Z",
+        "publishedAt": "2026-07-27T15:59:27.000Z",
         "source": "BBC"
+      },
+      {
+        "title": "The Iran and Ukraine wars are colliding on the world’s biggest lake. Here’s what to know",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRlJyWmtVRDJoVWxoaGN3MERLdXplZ28xOHVzcXAtdUNNV3lkVklJNFRVT1d4US1iZGlfdWNYc21rV29NaEk2azYxMHVRY1p5dEVjXzZqNHZzdHZsSDU2NHVzd3J0SGY2NWdMN0czOVBaY3I1cUY3RUNWUlkwazFmU3lpQ0VjS0phd3VEag?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-07-27T15:41:35.000Z",
+        "source": "CNN"
       },
       {
         "title": "More than 600 US military service members injured since Iran War began in February",
@@ -489,34 +505,14 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2eab/live/66b0c1c0-89b2-11f1-b8ee-9b3c26ad07bb.jpg",
         "publishedAt": "2026-07-27T13:31:57.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Anger, shock and grief - questions remain in the wake of the Berlin Pride attack",
-        "link": "https://www.bbc.co.uk/news/articles/cy9wv74qje9o?at_medium=RSS&at_campaign=rss",
-        "summary": "As details emerge about the suspected Berlin Pride attacker's past, many are asking why he was not in prison.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce88/live/8415f670-89af-11f1-9c0c-33faa7b3d86d.jpg",
-        "publishedAt": "2026-07-27T12:33:31.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Bali bans Dutch expats whose run club allegedly excluded Indonesians",
-        "link": "https://www.bbc.co.uk/news/articles/c1l1m6e08e2o?at_medium=RSS&at_campaign=rss",
-        "summary": "The two men, who are accused of favouring foreigners for their events, allegedly violated immigration laws.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8bb3/live/ca0001c0-89b5-11f1-b2ab-0dd01740f9f6.jpg",
-        "publishedAt": "2026-07-27T10:59:13.000Z",
-        "source": "BBC"
       }
     ],
     "nba": []
   },
   "nbaScoreboard": {
-    "date": "2026-07-27",
+    "date": "2026-07-28",
     "currentIndex": 4,
     "days": [
-      {
-        "date": "2026-07-23",
-        "games": []
-      },
       {
         "date": "2026-07-24",
         "games": []
@@ -548,12 +544,16 @@
       {
         "date": "2026-07-31",
         "games": []
+      },
+      {
+        "date": "2026-08-01",
+        "games": []
       }
     ],
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-07-27",
+    "rotationLabel": "Curated Rotation · 2026-07-28",
     "sections": [
       {
         "id": "data-storage",
@@ -561,27 +561,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-6",
-            "sectionId": "data-storage",
-            "title": "DiskANN: Fast Accurate Billion-point Nearest Neighbor Search on a Single Node",
-            "authors": [
-              "Neelesh Gupta",
-              "Leland Willard",
-              "Xiangyao Yu",
-              "Yuri N."
-            ],
-            "venue": "NeurIPS",
-            "year": 2019,
-            "quality": "高影响力",
-            "categories": [
-              "vector search",
-              "ANN"
-            ],
-            "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
-            "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-1",
             "sectionId": "data-storage",
@@ -601,7 +580,7 @@
             ],
             "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
             "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-2",
@@ -623,6 +602,27 @@
             "link": "https://research.google/pubs/pub27898/",
             "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-3",
+            "sectionId": "data-storage",
+            "title": "Dynamo: Amazon's Highly Available Key-value Store",
+            "authors": [
+              "Giuseppe DeCandia",
+              "Deniz Hastorun",
+              "Madan Jampani",
+              "Gunavardhan Kakulapati"
+            ],
+            "venue": "SOSP",
+            "year": 2007,
+            "quality": "顶会",
+            "categories": [
+              "key-value",
+              "distributed systems"
+            ],
+            "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
+            "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -632,27 +632,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-1",
-            "sectionId": "computer-vision",
-            "title": "Deep Residual Learning for Image Recognition",
-            "authors": [
-              "Kaiming He",
-              "Xiangyu Zhang",
-              "Shaoqing Ren",
-              "Jian Sun"
-            ],
-            "venue": "CVPR",
-            "year": 2016,
-            "quality": "顶会",
-            "categories": [
-              "image recognition",
-              "backbone"
-            ],
-            "link": "https://arxiv.org/abs/1512.03385",
-            "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-2",
             "sectionId": "computer-vision",
@@ -672,7 +651,7 @@
             ],
             "link": "https://arxiv.org/abs/2005.12872",
             "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-3",
@@ -694,6 +673,27 @@
             "link": "https://arxiv.org/abs/2010.11929",
             "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-4",
+            "sectionId": "computer-vision",
+            "title": "Learning Transferable Visual Models From Natural Language Supervision",
+            "authors": [
+              "Alec Radford",
+              "Jong Wook Kim",
+              "Chris Hallacy",
+              "Aditya Ramesh"
+            ],
+            "venue": "ICML",
+            "year": 2021,
+            "quality": "顶会",
+            "categories": [
+              "vision-language",
+              "foundation model"
+            ],
+            "link": "https://arxiv.org/abs/2103.00020",
+            "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -703,27 +703,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-2",
-            "sectionId": "llm-memory",
-            "title": "Memorizing Transformers",
-            "authors": [
-              "Yuhuai Wu",
-              "Markus N. Rabe",
-              "DeLesley Hutchins",
-              "Christian Szegedy"
-            ],
-            "venue": "ICLR",
-            "year": 2022,
-            "quality": "顶会",
-            "categories": [
-              "memory",
-              "long context"
-            ],
-            "link": "https://arxiv.org/abs/2203.08913",
-            "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-3",
             "sectionId": "llm-memory",
@@ -743,7 +722,7 @@
             ],
             "link": "https://arxiv.org/abs/2112.04426",
             "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-4",
@@ -765,6 +744,27 @@
             "link": "https://arxiv.org/abs/2310.11511",
             "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-5",
+            "sectionId": "llm-memory",
+            "title": "LongMem: Scaling Language Model Context with Memory-Augmented Retrieval",
+            "authors": [
+              "Zeqiu Wu",
+              "Yizhong Wang",
+              "Jiacheng Liu",
+              "Yelong Shen"
+            ],
+            "venue": "ACL Findings",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "memory",
+              "long context"
+            ],
+            "link": "https://arxiv.org/abs/2306.07174",
+            "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -774,27 +774,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-3",
-            "sectionId": "agents",
-            "title": "Generative Agents: Interactive Simulacra of Human Behavior",
-            "authors": [
-              "Joon Sung Park",
-              "Joseph O'Brien",
-              "Carrie Cai",
-              "Meredith Ringel Morris"
-            ],
-            "venue": "UIST",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "agent society",
-              "memory"
-            ],
-            "link": "https://arxiv.org/abs/2304.03442",
-            "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-4",
             "sectionId": "agents",
@@ -814,7 +793,7 @@
             ],
             "link": "https://arxiv.org/abs/2305.16291",
             "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-5",
@@ -835,6 +814,27 @@
             ],
             "link": "https://arxiv.org/abs/2308.08155",
             "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-6",
+            "sectionId": "agents",
+            "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+            "authors": [
+              "John Yang",
+              "Carlos E. Jimenez",
+              "Alexander Wettig",
+              "Karthik Narasimhan"
+            ],
+            "venue": "ICLR",
+            "year": 2025,
+            "quality": "新近代表作",
+            "categories": [
+              "software agent",
+              "benchmark"
+            ],
+            "link": "https://arxiv.org/abs/2405.15793",
+            "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
             "trackLabel": "轮换精选"
           }
         ]
