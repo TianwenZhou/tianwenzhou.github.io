@@ -1,36 +1,28 @@
 {
-  "generatedAt": "2026-07-28T14:30:09.370Z",
+  "generatedAt": "2026-07-28T17:42:46.803Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 29,
-      "weatherCode": 2,
-      "windSpeed": 7
+      "temperature": 27,
+      "weatherCode": 1,
+      "windSpeed": 4
     },
     "today": {
-      "date": "2026-07-28",
-      "weatherCode": 51,
-      "description": "毛毛雨",
+      "date": "2026-07-29",
+      "weatherCode": 95,
+      "description": "雷暴",
       "max": 34,
-      "min": 25,
-      "precipitationProbability": 24
+      "min": 26,
+      "precipitationProbability": 63
     },
     "forecast": [
-      {
-        "date": "2026-07-28",
-        "weatherCode": 51,
-        "description": "毛毛雨",
-        "max": 34,
-        "min": 25,
-        "precipitationProbability": 24
-      },
       {
         "date": "2026-07-29",
         "weatherCode": 95,
         "description": "雷暴",
         "max": 34,
         "min": 26,
-        "precipitationProbability": 53
+        "precipitationProbability": 63
       },
       {
         "date": "2026-07-30",
@@ -38,7 +30,7 @@
         "description": "毛毛雨",
         "max": 34,
         "min": 26,
-        "precipitationProbability": 71
+        "precipitationProbability": 72
       },
       {
         "date": "2026-07-31",
@@ -46,7 +38,7 @@
         "description": "毛毛雨",
         "max": 36,
         "min": 27,
-        "precipitationProbability": 58
+        "precipitationProbability": 55
       },
       {
         "date": "2026-08-01",
@@ -55,32 +47,49 @@
         "max": 36,
         "min": 27,
         "precipitationProbability": 78
+      },
+      {
+        "date": "2026-08-02",
+        "weatherCode": 96,
+        "description": "天气更新中",
+        "max": 35,
+        "min": 28,
+        "precipitationProbability": 75
       }
     ]
   },
   "classicQuote": {
-    "id": "analects-learning",
-    "text": "学而不思则罔，思而不学则殆。",
-    "source": "《论语》",
-    "author": "孔子",
-    "note": "提醒自己既要输入，也要沉淀，不要只忙不想。"
+    "id": "taoteching-accumulate",
+    "text": "合抱之木，生于毫末；九层之台，起于累土。",
+    "source": "《道德经》",
+    "author": "老子",
+    "note": "再大的目标，也要拆成今天能推进的一小步。"
   },
   "bookExcerpt": {
-    "id": "fortress-besieged-night",
-    "text": "夜仿佛纸浸了油，变成半透明体；它给太阳拥抱住了，分不出身来，也许是给太阳溶了，所以夕照晚霞隐褪后的夜色也带着酡红。",
-    "book": "《围城》",
-    "author": "钱钟书"
+    "id": "camel-xiangzi-sky",
+    "text": "天是越来越晴朗了，一轮火一样的太阳悬在空中，街上的一切都像在明晃晃地发着白光。",
+    "book": "《骆驼祥子》",
+    "author": "老舍"
   },
   "featuredPlace": {
-    "id": "202607271600",
-    "title": "一片海藻林在安纳卡帕岛附近，海峡群岛国家公园，加利福尼亚州，美国",
+    "id": "202607281600",
+    "title": "孟加拉虎一家在兰坦博尔国家公园，拉贾斯坦邦，印度",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "生机律动，恒久之衡",
-    "image": "https://www.bing.com/th?id=OHR.ChannelKelp_ZH-CN8732903732_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E8%87%AA%E7%84%B6%E4%BF%9D%E6%8A%A4%E6%97%A5&form=hpcapt&mkt=zh-cn"
+    "summary": "虎啸归来，锐爪重临",
+    "image": "https://www.bing.com/th?id=OHR.TigerFamily_ZH-CN9064744163_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E5%85%A8%E7%90%83%E8%80%81%E8%99%8E%E6%97%A5&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202607281600",
+      "title": "孟加拉虎一家在兰坦博尔国家公园，拉贾斯坦邦，印度",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "虎啸归来，锐爪重临",
+      "image": "https://www.bing.com/th?id=OHR.TigerFamily_ZH-CN9064744163_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E5%85%A8%E7%90%83%E8%80%81%E8%99%8E%E6%97%A5&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202607271600",
       "title": "一片海藻林在安纳卡帕岛附近，海峡群岛国家公园，加利福尼亚州，美国",
@@ -143,35 +152,34 @@
       "summary": "细微之举，影响深远",
       "image": "https://www.bing.com/th?id=OHR.CoralAwareness_ZH-CN1621627126_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E7%8F%8A%E7%91%9A%E7%A4%81%E6%84%8F%E8%AF%86%E5%91%A8&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202607201600",
-      "title": "圣卡塔琳娜拱门，安提瓜，危地马拉",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "拱影寻踪",
-      "image": "https://www.bing.com/th?id=OHR.SantaCatalina_ZH-CN6223370790_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E5%8D%B1%E5%9C%B0%E9%A9%AC%E6%8B%89%E5%9C%A3%E5%8D%A1%E5%A1%94%E7%90%B3%E5%A8%9C%E6%8B%B1%E9%97%A8&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-07-28",
-    "dateLabel": "7月28日",
+    "dateKey": "2026-07-29",
+    "dateLabel": "7月29日",
     "items": [
       {
-        "year": "2020",
-        "text": "吉隆坡高等法庭宣判，马来西亚前首相纳吉·阿都拉萨涉及一马弊案的SRC洗钱案的7项指控全部成立，判处监禁12年和罚款2亿1000万令吉，若无法缴付罚款则加监5年。",
-        "link": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4"
+        "year": "2019",
+        "text": "巴西北部帕拉州有監獄發生騷亂，至少57人死亡，當中16人被斬首，另外有人窒息死亡。",
+        "link": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4"
       },
       {
         "year": "2018",
-        "text": "澳大利亚运动员温蒂·塔克成为首个克利伯环球帆船赛女性冠军。",
+        "text": "印度尼西亚龙目岛地区发生MW 6.4级地震，造成至少14人遇难、数百人受伤。",
         "link": "https://zh.wikipedia.org/wiki/2018%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
+      {
+        "title": "中国海军83舰编队圆满结束对文莱友好访问",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-28/10668209.shtml",
+        "summary": "中新社斯里巴加湾7月28日电 中国海军83舰编队28日圆满完成对文莱为期4天的友好访问，从文莱摩拉港码头起航，继续执行远海综合实习访问任务。",
+        "image": "",
+        "publishedAt": "2026-07-28T15:04:11.000Z",
+        "source": "中新网"
+      },
       {
         "title": "王毅出席全球发展倡议5周年高级别会议",
         "link": "https://www.chinanews.com.cn/gn/2026/07-28/10668196.shtml",
@@ -203,17 +211,33 @@
         "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/07/28/3ddcef1f074449b3b4d444f8c1729585.jpg",
         "publishedAt": "2026-07-28T13:23:02.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "“阅见家乡·知行合一”青少年阅读实践与文化体验系列活动在西藏林芝巴宜区开班",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-28/10668141.shtml",
-        "summary": "中新网拉萨7月28日电 (拉巴卓玛)27日，由西藏自治区林芝市巴宜区文旅局主办的“阅见家乡·知行合一”青少年阅读实践与文化体验系列活动，第一期在巴宜区城市书屋顺利开班，共组织50名儿童及青少年参与阅读实践及沉浸式文化体验。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260728/1bfa749e-2ce1-4426-9df9-d107acb63618_zsite.jpg",
-        "publishedAt": "2026-07-28T13:21:14.000Z",
-        "source": "中新网"
       }
     ],
     "chinaSociety": [
+      {
+        "title": "轻信保录被骗、付费志愿填报全滑档 别再踩这些坑！",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-29/10668216.shtml",
+        "summary": "一年一度的高考招生录取季，总有个别家长听信他人谎言，相信可以通过“花钱点招、内部指标、低分补录”等所谓的“捷径”，让孩子进入更好的高校，结果掉入骗子精心设计的“陷阱”。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/07/29/b94fd1d985fd49928b85c833f396f0cd.jpg",
+        "publishedAt": "2026-07-28T16:20:37.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "新唐山建设50周年：凤凰城涅槃新变",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-28/10668214.shtml",
+        "summary": "中新社河北唐山7月28日电 题：新唐山建设50周年：凤凰城涅槃新变",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260728/eef17ff2-483c-4efa-a25e-beb3aef52e7c_zsite.jpg",
+        "publishedAt": "2026-07-28T15:55:59.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "比赛失利后挥拳击打对手 乒乓球运动员曹彦灏被处罚并禁赛1年",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-28/10668212.shtml",
+        "summary": "7月28日晚，江苏省乒乓球运动协会发布情况处罚通报：2026年7月27日下午，在2026年国青国少集训队(第七期)江苏省选拔赛14岁组半决赛比赛中，运动员曹彦灏在比赛失利后，挥拳击打对手，扰乱赛场正常竞赛秩序，造成不良影响。该行为违背了体育精神，损害了江苏省青少年乒乓球运动员队伍良好形象。为严肃赛风...",
+        "image": "",
+        "publishedAt": "2026-07-28T15:24:14.000Z",
+        "source": "中新网"
+      },
       {
         "title": "7月23日以来，彭水山体崩塌现场累计新搜寻确认出30名遇难者",
         "link": "https://www.chinanews.com.cn/sh/2026/07-28/10668206.shtml",
@@ -229,33 +253,17 @@
         "image": "",
         "publishedAt": "2026-07-28T13:53:34.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "广西今年上半年打掉走私偷渡团伙445个",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-28/10668194.shtml",
-        "summary": "中新网南宁7月28日电 (杨志雄 黄艳梅)广西壮族自治区官方28日介绍，广西系统推进强边固防、建设平安边关，取得阶段性明显成效。今年上半年，广西打掉走私偷渡犯罪团伙445个，抓获团伙头目501人。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260728/3363080d-e618-43c1-9d3d-b8551af8f40a_zsite.jpg",
-        "publishedAt": "2026-07-28T13:52:16.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "上海将积极拓展海外引才网络 探索柔性引才、超常规引才",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-28/10668182.shtml",
-        "summary": "中新网上海7月28日电 (记者 陈静)上海市第十六届人大常委会第三十二次会议28日举行扩大会议。上海市委副书记、市长龚正表示，上海将着力完善基础研究系统布局：方向布局的重点是聚焦最具战略价值的领域和国际竞争的“制高点”；力量布局的关键是统筹建好用好在沪战略科技力量；平台布局则主要是加快打通基础研究、...",
-        "image": "",
-        "publishedAt": "2026-07-28T13:50:16.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "中国牵头共建地震韧性国际联合实验室",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-28/10668176.shtml",
-        "summary": "中新社北京7月28日电 (记者 孙自法)唐山大地震50周年地震工程与城市韧性国际学术研讨会和第三届全国防震减灾科普大会7月28日在北京举办。",
-        "image": "",
-        "publishedAt": "2026-07-28T13:48:46.000Z",
-        "source": "中新网"
       }
     ],
     "chinaFinance": [
+      {
+        "title": "商务部：中方敦促土耳其尊重世贸组织专家组裁决",
+        "link": "https://www.chinanews.com.cn/cj/2026/07-28/10668210.shtml",
+        "summary": "中新社北京7月28日电 (记者 尹倩芸)中国商务部条约法律司负责人28日表示，中方敦促土耳其尊重世贸组织专家组裁决，采取切实行动，尽快纠正违规措施。",
+        "image": "",
+        "publishedAt": "2026-07-28T15:18:27.000Z",
+        "source": "中新网"
+      },
       {
         "title": "西藏上半年融资成本稳居全国低位",
         "link": "https://www.chinanews.com.cn/cj/2026/07-28/10668199.shtml",
@@ -287,40 +295,40 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260728/04056a13-dc91-4764-82f7-380526bdf5cf_zsite.jpg",
         "publishedAt": "2026-07-28T13:23:30.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "（活力中国调研行）镜头里的中国高度：永新光学逐梦星辰的“硬核”答卷",
-        "link": "https://www.chinanews.com.cn/cj/2026/07-28/10668144.shtml",
-        "summary": "中新网宁波7月28日电(邵燕飞 周健)“太空镜头研发的核心难点，便是应对太空极端恶劣环境。企业接连攻克多项工艺难关，为中国探月工程制造‘眼睛’。”28日，在浙江宁波，宁波永新光学股份有限公司(以下简称“永新光学”)副总经理崔志英接受中新网记者采访时说。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260728/13b2c086-175b-4cf1-bef7-a4674fffbda1_zsite.jpeg",
-        "publishedAt": "2026-07-28T13:22:38.000Z",
-        "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "Mancini reappointed Italy boss after Pirlo controversy",
-        "link": "https://www.bbc.co.uk/sport/football/articles/c0ly412r412o?at_medium=RSS&at_campaign=rss",
-        "summary": "Roberto Mancini is appointed Italy manager for a second time - just a day after Andrea Pirlo rules himself out of the running for the job and technica...",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d610/live/883f0070-8a90-11f1-abbc-1d62d6206917.jpg",
-        "publishedAt": "2026-07-28T13:54:00.000Z",
+        "title": "Mysterious deaths of 14 elephants in Kenya prompts urgent inquiry",
+        "link": "https://www.bbc.co.uk/news/articles/c3w0d7yeqlxo?at_medium=RSS&at_campaign=rss",
+        "summary": "It is the highest number of elephant deaths to be recorded in this area of southern Kenya in decades.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f024/live/62e983e0-8a9f-11f1-b8ee-9b3c26ad07bb.jpg",
+        "publishedAt": "2026-07-28T16:37:02.000Z",
         "source": "BBC"
       },
       {
-        "title": "Gironde wildfires pick up as French region braces for new 40C heatwave",
+        "title": "Wildfires in south-west France flare up as region braces for new 40C heatwave",
         "link": "https://www.bbc.co.uk/news/articles/c5yd8gly1ydo?at_medium=RSS&at_campaign=rss",
-        "summary": "Firefighters are braced for a sharp rise in temperatures on Wednesday, which could complicate the containment of wildfires.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a258/live/0c48a680-8a84-11f1-83c5-cf36fe4b083e.jpg",
-        "publishedAt": "2026-07-28T13:25:13.000Z",
+        "summary": "Firefighters are braced for a sharp rise in temperatures on Wednesday, which could complicate the containment of wildfires in Gironde.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/554a/live/122cc280-8aab-11f1-b8ee-9b3c26ad07bb.jpg",
+        "publishedAt": "2026-07-28T16:14:03.000Z",
         "source": "BBC"
       },
       {
-        "title": "'A lover of life' - Seattle pays tribute to food festival shooting victims",
-        "link": "https://www.bbc.co.uk/news/articles/cvgv7m5z4n0o?at_medium=RSS&at_campaign=rss",
-        "summary": "Families grieved on Monday as they remembered the three people killed in a shooting at a food festival.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d93/live/2033abe0-8a75-11f1-a7ab-8b30adf0800a.jpg",
-        "publishedAt": "2026-07-28T11:50:59.000Z",
+        "title": "Uefa reacts with fury to Infantino World Cup plan",
+        "link": "https://www.bbc.co.uk/sport/football/articles/c8xng9894z0o?at_medium=RSS&at_campaign=rss",
+        "summary": "European football's governing body Uefa reacts furiously to proposals from Fifa to seek private investment in its competitions, including the World Cu...",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03c2/live/50869960-8a93-11f1-b8ee-9b3c26ad07bb.jpg",
+        "publishedAt": "2026-07-28T15:36:29.000Z",
         "source": "BBC"
+      },
+      {
+        "title": "Switzerland’s Breel Embolo shouldn’t have been sent off against Argentina in World Cup quarters, says IFAB",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMXV2bEFmSFV0QXM2Z1htX3p4Nk9KU0pkeEMwN1E3Xzg3eFU2eG1uVHZVMUtNQ2t1Tkw4U2VSTE5GNm96QU45LUl1N3kzZVVIejZGNWlFN01EV2IxZFBCWHRZSkJid0I3Rm1VQTgwODVoLWxxalZwem5nMzAzWXlYZUNUUzk4WkNNbXc?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-07-28T12:14:35.000Z",
+        "source": "CNN"
       },
       {
         "title": "World Cup winner Zinedine Zidane named head coach of France men’s national team",
@@ -329,23 +337,39 @@
         "image": "",
         "publishedAt": "2026-07-28T09:43:18.000Z",
         "source": "CNN"
-      },
-      {
-        "title": "US walks out of UN Security Council meeting during France's remarks",
-        "link": "https://www.bbc.co.uk/news/articles/c87nj3w9gxjo?at_medium=RSS&at_campaign=rss",
-        "summary": "The row sparked after the US joined North Korea and Russia in voting against extending the term of the UN high commissioner for human rights.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6172/live/97bbb000-8a51-11f1-8aea-37a02a7d69e8.jpg",
-        "publishedAt": "2026-07-28T09:32:25.000Z",
-        "source": "BBC"
       }
     ],
     "worldBusiness": [
       {
-        "title": "The 10 busiest commuter trains in England and Wales revealed",
+        "title": "Some parents on benefits to get up to £4,500 for child starting apprenticeship",
+        "link": "https://www.bbc.co.uk/news/articles/cwy4v6e9d2go?at_medium=RSS&at_campaign=rss",
+        "summary": "Some parents on benefits are incentivised to discourage their kids from taking on apprenticeships.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c6ce/live/12757a60-8aa2-11f1-951f-a70d41b77a63.jpg",
+        "publishedAt": "2026-07-28T17:32:56.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Schools to offer technical subjects to pupils from age 14 in England, Burnham says",
+        "link": "https://www.bbc.co.uk/news/articles/cj4k2djd5qpo?at_medium=RSS&at_campaign=rss",
+        "summary": "The government wants pupils to take courses like AI and manufacturing which are linked to local jobs.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5eca/live/e45eb050-8a7a-11f1-b8ee-9b3c26ad07bb.jpg",
+        "publishedAt": "2026-07-28T16:35:05.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "The 10 most overcrowded commuter trains revealed",
         "link": "https://www.bbc.co.uk/news/articles/c20dxevjlvxo?at_medium=RSS&at_campaign=rss",
-        "summary": "Overall, overcrowding fell slightly last year due to increased capacity, the Department for Transport says.",
+        "summary": "Overall, overcrowding in England and Wales fell slightly last year due to increased capacity, the government says.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7a89/live/72a40b80-8a7b-11f1-82f1-411b076ec7a9.jpg",
         "publishedAt": "2026-07-28T14:17:57.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Horror maestro Mike Flanagan joins Henry Cavill on Warhammer adaptations",
+        "link": "https://www.bbc.co.uk/news/articles/c62v8exggjeo?at_medium=RSS&at_campaign=rss",
+        "summary": "The director is due to work on scripts based on the popular tabletop hobby, Games Workshop says.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ccfc/live/ea50eb00-8a7e-11f1-83c5-cf36fe4b083e.jpg",
+        "publishedAt": "2026-07-28T13:59:24.000Z",
         "source": "BBC"
       },
       {
@@ -355,30 +379,6 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/506a/live/7dd51360-8a57-11f1-b6c7-397f42881d1e.jpg",
         "publishedAt": "2026-07-28T13:54:20.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "What you wear can help you get a job - here's how",
-        "link": "https://www.bbc.co.uk/news/articles/c80neg5rd81o?at_medium=RSS&at_campaign=rss",
-        "summary": "While you need to answer the questions in an interview, your appearance and mannerisms are also crucial.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f9ac/live/ec73fcb0-89bb-11f1-a7ab-8b30adf0800a.jpg",
-        "publishedAt": "2026-07-28T11:07:13.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Schools to offer technical subjects to pupils from age 14 in England, Burnham says",
-        "link": "https://www.bbc.co.uk/news/articles/cj4k2djd5qpo?at_medium=RSS&at_campaign=rss",
-        "summary": "The government wants pupils to take courses like AI and manufacturing which are linked to local jobs.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5eca/live/e45eb050-8a7a-11f1-b8ee-9b3c26ad07bb.jpg",
-        "publishedAt": "2026-07-28T10:25:52.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "From fashion to floristry: Building a different kind of luxury brand",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbTFuUlBlUDZkYW9EV0ZBZ3BMU2pLS0piMWlMaGk2NXMzUmlCYzJOd19pOXgycG1ON0N5STNxWktWaTE3ZU42a21lVEc2UGlMN3pnWEpSMDUtMXhXVVpJRGdsSWxUYk9uSWlraVFLWmFaQXJGaGhLMi1tZXdFVm5odmZLeTBMNThTemY2SEtzd3FuQTRiMDFxYXZ2YWt4U25s?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-07-28T05:46:41.000Z",
-        "source": "CNN"
       }
     ],
     "worldTech": [
@@ -425,6 +425,14 @@
     ],
     "domestic": [
       {
+        "title": "中国海军83舰编队圆满结束对文莱友好访问",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-28/10668209.shtml",
+        "summary": "中新社斯里巴加湾7月28日电 中国海军83舰编队28日圆满完成对文莱为期4天的友好访问，从文莱摩拉港码头起航，继续执行远海综合实习访问任务。",
+        "image": "",
+        "publishedAt": "2026-07-28T15:04:11.000Z",
+        "source": "中新网"
+      },
+      {
         "title": "王毅出席全球发展倡议5周年高级别会议",
         "link": "https://www.chinanews.com.cn/gn/2026/07-28/10668196.shtml",
         "summary": "中新社北京7月28日电 (记者 谢雁冰)中共中央政治局委员、外交部长王毅7月28日在北京出席全球发展倡议5周年高级别会议并致辞。",
@@ -455,40 +463,40 @@
         "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/07/28/3ddcef1f074449b3b4d444f8c1729585.jpg",
         "publishedAt": "2026-07-28T13:23:02.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "“阅见家乡·知行合一”青少年阅读实践与文化体验系列活动在西藏林芝巴宜区开班",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-28/10668141.shtml",
-        "summary": "中新网拉萨7月28日电 (拉巴卓玛)27日，由西藏自治区林芝市巴宜区文旅局主办的“阅见家乡·知行合一”青少年阅读实践与文化体验系列活动，第一期在巴宜区城市书屋顺利开班，共组织50名儿童及青少年参与阅读实践及沉浸式文化体验。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260728/1bfa749e-2ce1-4426-9df9-d107acb63618_zsite.jpg",
-        "publishedAt": "2026-07-28T13:21:14.000Z",
-        "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "Mancini reappointed Italy boss after Pirlo controversy",
-        "link": "https://www.bbc.co.uk/sport/football/articles/c0ly412r412o?at_medium=RSS&at_campaign=rss",
-        "summary": "Roberto Mancini is appointed Italy manager for a second time - just a day after Andrea Pirlo rules himself out of the running for the job and technica...",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d610/live/883f0070-8a90-11f1-abbc-1d62d6206917.jpg",
-        "publishedAt": "2026-07-28T13:54:00.000Z",
+        "title": "Mysterious deaths of 14 elephants in Kenya prompts urgent inquiry",
+        "link": "https://www.bbc.co.uk/news/articles/c3w0d7yeqlxo?at_medium=RSS&at_campaign=rss",
+        "summary": "It is the highest number of elephant deaths to be recorded in this area of southern Kenya in decades.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f024/live/62e983e0-8a9f-11f1-b8ee-9b3c26ad07bb.jpg",
+        "publishedAt": "2026-07-28T16:37:02.000Z",
         "source": "BBC"
       },
       {
-        "title": "Gironde wildfires pick up as French region braces for new 40C heatwave",
+        "title": "Wildfires in south-west France flare up as region braces for new 40C heatwave",
         "link": "https://www.bbc.co.uk/news/articles/c5yd8gly1ydo?at_medium=RSS&at_campaign=rss",
-        "summary": "Firefighters are braced for a sharp rise in temperatures on Wednesday, which could complicate the containment of wildfires.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a258/live/0c48a680-8a84-11f1-83c5-cf36fe4b083e.jpg",
-        "publishedAt": "2026-07-28T13:25:13.000Z",
+        "summary": "Firefighters are braced for a sharp rise in temperatures on Wednesday, which could complicate the containment of wildfires in Gironde.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/554a/live/122cc280-8aab-11f1-b8ee-9b3c26ad07bb.jpg",
+        "publishedAt": "2026-07-28T16:14:03.000Z",
         "source": "BBC"
       },
       {
-        "title": "'A lover of life' - Seattle pays tribute to food festival shooting victims",
-        "link": "https://www.bbc.co.uk/news/articles/cvgv7m5z4n0o?at_medium=RSS&at_campaign=rss",
-        "summary": "Families grieved on Monday as they remembered the three people killed in a shooting at a food festival.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d93/live/2033abe0-8a75-11f1-a7ab-8b30adf0800a.jpg",
-        "publishedAt": "2026-07-28T11:50:59.000Z",
+        "title": "Uefa reacts with fury to Infantino World Cup plan",
+        "link": "https://www.bbc.co.uk/sport/football/articles/c8xng9894z0o?at_medium=RSS&at_campaign=rss",
+        "summary": "European football's governing body Uefa reacts furiously to proposals from Fifa to seek private investment in its competitions, including the World Cu...",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03c2/live/50869960-8a93-11f1-b8ee-9b3c26ad07bb.jpg",
+        "publishedAt": "2026-07-28T15:36:29.000Z",
         "source": "BBC"
+      },
+      {
+        "title": "Switzerland’s Breel Embolo shouldn’t have been sent off against Argentina in World Cup quarters, says IFAB",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMXV2bEFmSFV0QXM2Z1htX3p4Nk9KU0pkeEMwN1E3Xzg3eFU2eG1uVHZVMUtNQ2t1Tkw4U2VSTE5GNm96QU45LUl1N3kzZVVIejZGNWlFN01EV2IxZFBCWHRZSkJid0I3Rm1VQTgwODVoLWxxalZwem5nMzAzWXlYZUNUUzk4WkNNbXc?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-07-28T12:14:35.000Z",
+        "source": "CNN"
       },
       {
         "title": "World Cup winner Zinedine Zidane named head coach of France men’s national team",
@@ -497,26 +505,14 @@
         "image": "",
         "publishedAt": "2026-07-28T09:43:18.000Z",
         "source": "CNN"
-      },
-      {
-        "title": "US walks out of UN Security Council meeting during France's remarks",
-        "link": "https://www.bbc.co.uk/news/articles/c87nj3w9gxjo?at_medium=RSS&at_campaign=rss",
-        "summary": "The row sparked after the US joined North Korea and Russia in voting against extending the term of the UN high commissioner for human rights.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6172/live/97bbb000-8a51-11f1-8aea-37a02a7d69e8.jpg",
-        "publishedAt": "2026-07-28T09:32:25.000Z",
-        "source": "BBC"
       }
     ],
     "nba": []
   },
   "nbaScoreboard": {
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "currentIndex": 4,
     "days": [
-      {
-        "date": "2026-07-24",
-        "games": []
-      },
       {
         "date": "2026-07-25",
         "games": []
@@ -548,12 +544,16 @@
       {
         "date": "2026-08-01",
         "games": []
+      },
+      {
+        "date": "2026-08-02",
+        "games": []
       }
     ],
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-07-28",
+    "rotationLabel": "Curated Rotation · 2026-07-29",
     "sections": [
       {
         "id": "data-storage",
@@ -561,27 +561,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-1",
-            "sectionId": "data-storage",
-            "title": "The Log-Structured Merge-Tree (LSM-Tree)",
-            "authors": [
-              "Patrick O'Neil",
-              "Edward Cheng",
-              "Dieter Gawlick",
-              "Elizabeth O'Neil"
-            ],
-            "venue": "Acta Informatica",
-            "year": 1996,
-            "quality": "经典基础",
-            "categories": [
-              "storage",
-              "indexing"
-            ],
-            "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
-            "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-2",
             "sectionId": "data-storage",
@@ -601,7 +580,7 @@
             ],
             "link": "https://research.google/pubs/pub27898/",
             "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-3",
@@ -623,6 +602,27 @@
             "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
             "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-4",
+            "sectionId": "data-storage",
+            "title": "Dremel: Interactive Analysis of Web-Scale Datasets",
+            "authors": [
+              "Sergey Melnik",
+              "Andrey Gubarev",
+              "Jing Jing Long",
+              "Geoffrey Romer"
+            ],
+            "venue": "VLDB",
+            "year": 2010,
+            "quality": "顶会",
+            "categories": [
+              "analytics",
+              "columnar"
+            ],
+            "link": "https://research.google/pubs/pub36632/",
+            "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -632,27 +632,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-2",
-            "sectionId": "computer-vision",
-            "title": "End-to-End Object Detection with Transformers",
-            "authors": [
-              "Nicolas Carion",
-              "Francisco Massa",
-              "Gabriel Synnaeve",
-              "Nicolas Usunier"
-            ],
-            "venue": "ECCV",
-            "year": 2020,
-            "quality": "顶会",
-            "categories": [
-              "detection",
-              "transformer"
-            ],
-            "link": "https://arxiv.org/abs/2005.12872",
-            "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-3",
             "sectionId": "computer-vision",
@@ -672,7 +651,7 @@
             ],
             "link": "https://arxiv.org/abs/2010.11929",
             "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-4",
@@ -694,6 +673,27 @@
             "link": "https://arxiv.org/abs/2103.00020",
             "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-5",
+            "sectionId": "computer-vision",
+            "title": "Segment Anything",
+            "authors": [
+              "Alexander Kirillov",
+              "Eric Mintun",
+              "Nikhila Ravi",
+              "Hanzi Mao"
+            ],
+            "venue": "ICCV",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "segmentation",
+              "foundation model"
+            ],
+            "link": "https://arxiv.org/abs/2304.02643",
+            "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -703,27 +703,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-3",
-            "sectionId": "llm-memory",
-            "title": "RETRO: Improving Language Models by Retrieving From Trillions of Tokens",
-            "authors": [
-              "Sebastian Borgeaud",
-              "Arthur Mensch",
-              "Jordan Hoffmann",
-              "Trevor Cai"
-            ],
-            "venue": "DeepMind / arXiv",
-            "year": 2022,
-            "quality": "高影响力",
-            "categories": [
-              "retrieval",
-              "language model"
-            ],
-            "link": "https://arxiv.org/abs/2112.04426",
-            "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-4",
             "sectionId": "llm-memory",
@@ -743,7 +722,7 @@
             ],
             "link": "https://arxiv.org/abs/2310.11511",
             "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-5",
@@ -765,6 +744,27 @@
             "link": "https://arxiv.org/abs/2306.07174",
             "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-6",
+            "sectionId": "llm-memory",
+            "title": "MemoRAG: Moving towards Next-Gen RAG Via Memory-Inspired Knowledge Discovery",
+            "authors": [
+              "Rulin Shao",
+              "Yue Liu",
+              "Shuo Wang",
+              "Yichi Zhang"
+            ],
+            "venue": "arXiv",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "RAG",
+              "memory bank"
+            ],
+            "link": "https://arxiv.org/abs/2409.05591",
+            "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -774,27 +774,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-4",
-            "sectionId": "agents",
-            "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
-            "authors": [
-              "Guanzhi Wang",
-              "Yuqi Xie",
-              "Zixiang Zhou",
-              "Yujin Tang"
-            ],
-            "venue": "arXiv",
-            "year": 2023,
-            "quality": "高影响力",
-            "categories": [
-              "embodied agent",
-              "planning"
-            ],
-            "link": "https://arxiv.org/abs/2305.16291",
-            "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-5",
             "sectionId": "agents",
@@ -814,7 +793,7 @@
             ],
             "link": "https://arxiv.org/abs/2308.08155",
             "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-6",
@@ -835,6 +814,28 @@
             ],
             "link": "https://arxiv.org/abs/2405.15793",
             "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-1",
+            "sectionId": "agents",
+            "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+            "authors": [
+              "Shunyu Yao",
+              "Jeffrey Zhao",
+              "Dian Yu",
+              "Nan Du"
+            ],
+            "venue": "ICLR",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "agent",
+              "reasoning",
+              "tool use"
+            ],
+            "link": "https://arxiv.org/abs/2210.03629",
+            "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
             "trackLabel": "轮换精选"
           }
         ]
