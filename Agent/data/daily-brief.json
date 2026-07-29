@@ -1,36 +1,28 @@
 {
-  "generatedAt": "2026-07-29T14:27:21.281Z",
+  "generatedAt": "2026-07-29T17:25:46.707Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 29,
-      "weatherCode": 2,
-      "windSpeed": 10
+      "temperature": 27,
+      "weatherCode": 1,
+      "windSpeed": 9
     },
     "today": {
-      "date": "2026-07-29",
-      "weatherCode": 95,
-      "description": "雷暴",
+      "date": "2026-07-30",
+      "weatherCode": 51,
+      "description": "毛毛雨",
       "max": 35,
-      "min": 27,
-      "precipitationProbability": 48
+      "min": 26,
+      "precipitationProbability": 45
     },
     "forecast": [
-      {
-        "date": "2026-07-29",
-        "weatherCode": 95,
-        "description": "雷暴",
-        "max": 35,
-        "min": 27,
-        "precipitationProbability": 48
-      },
       {
         "date": "2026-07-30",
         "weatherCode": 51,
         "description": "毛毛雨",
         "max": 35,
         "min": 26,
-        "precipitationProbability": 78
+        "precipitationProbability": 45
       },
       {
         "date": "2026-07-31",
@@ -38,7 +30,7 @@
         "description": "天气更新中",
         "max": 36,
         "min": 27,
-        "precipitationProbability": 80
+        "precipitationProbability": 88
       },
       {
         "date": "2026-08-01",
@@ -46,7 +38,7 @@
         "description": "雷暴",
         "max": 34,
         "min": 26,
-        "precipitationProbability": 90
+        "precipitationProbability": 86
       },
       {
         "date": "2026-08-02",
@@ -54,33 +46,50 @@
         "description": "雷暴",
         "max": 33,
         "min": 26,
-        "precipitationProbability": 78
+        "precipitationProbability": 70
+      },
+      {
+        "date": "2026-08-03",
+        "weatherCode": 96,
+        "description": "天气更新中",
+        "max": 33,
+        "min": 25,
+        "precipitationProbability": 80
       }
     ]
   },
   "classicQuote": {
-    "id": "taoteching-accumulate",
-    "text": "合抱之木，生于毫末；九层之台，起于累土。",
+    "id": "taoteching-self",
+    "text": "知人者智，自知者明；胜人者有力，自胜者强。",
     "source": "《道德经》",
     "author": "老子",
-    "note": "再大的目标，也要拆成今天能推进的一小步。"
+    "note": "比起和别人比较，更重要的是把自己的节奏稳住。"
   },
   "bookExcerpt": {
-    "id": "camel-xiangzi-sky",
-    "text": "天是越来越晴朗了，一轮火一样的太阳悬在空中，街上的一切都像在明晃晃地发着白光。",
-    "book": "《骆驼祥子》",
-    "author": "老舍"
+    "id": "norwegian-wood-rain",
+    "text": "雨还在下，细得像雾，落在草地和树叶上，世界像被一种安静的潮气轻轻包住。",
+    "book": "《挪威的森林》",
+    "author": "村上春树"
   },
   "featuredPlace": {
-    "id": "202607281600",
-    "title": "孟加拉虎一家在兰坦博尔国家公园，拉贾斯坦邦，印度",
+    "id": "202607291600",
+    "title": "在纳瓦霍族保留地的纪念碑谷，亚利桑那州，美国",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "虎啸归来，锐爪重临",
-    "image": "https://www.bing.com/th?id=OHR.TigerFamily_ZH-CN9064744163_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E5%85%A8%E7%90%83%E8%80%81%E8%99%8E%E6%97%A5&form=hpcapt&mkt=zh-cn"
+    "summary": "旷野无声，活态传承之境",
+    "image": "https://www.bing.com/th?id=OHR.NavajoNation_ZH-CN9274387505_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E7%BA%AA%E5%BF%B5%E7%A2%91%E8%B0%B7&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202607291600",
+      "title": "在纳瓦霍族保留地的纪念碑谷，亚利桑那州，美国",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "旷野无声，活态传承之境",
+      "image": "https://www.bing.com/th?id=OHR.NavajoNation_ZH-CN9274387505_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E7%BA%AA%E5%BF%B5%E7%A2%91%E8%B0%B7&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202607281600",
       "title": "孟加拉虎一家在兰坦博尔国家公园，拉贾斯坦邦，印度",
@@ -143,35 +152,34 @@
       "summary": "瓣叠交响",
       "image": "https://www.bing.com/th?id=OHR.PinkDahlia_ZH-CN2259107800_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E5%A4%A7%E4%B8%BD%E8%8A%B1%E5%B1%9E%E6%A4%8D%E7%89%A9&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202607211600",
-      "title": "珊瑚礁与海滩在拉贾安帕特，印度尼西亚",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "细微之举，影响深远",
-      "image": "https://www.bing.com/th?id=OHR.CoralAwareness_ZH-CN1621627126_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E7%8F%8A%E7%91%9A%E7%A4%81%E6%84%8F%E8%AF%86%E5%91%A8&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-07-29",
-    "dateLabel": "7月29日",
+    "dateKey": "2026-07-30",
+    "dateLabel": "7月30日",
     "items": [
       {
-        "year": "2019",
-        "text": "巴西北部帕拉州有監獄發生騷亂，至少57人死亡，當中16人被斬首，另外有人窒息死亡。",
-        "link": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4"
+        "year": "2025",
+        "text": "俄羅斯堪察加半島東南部海域發生MW 8.8地震，太平洋沿岸多地均發出海嘯警報。",
+        "link": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4"
       },
       {
-        "year": "2018",
-        "text": "印度尼西亚龙目岛地区发生MW 6.4级地震，造成至少14人遇难、数百人受伤。",
-        "link": "https://zh.wikipedia.org/wiki/2018%E5%B9%B4"
+        "year": "2023",
+        "text": "中国华北地区遭遇特大暴雨灾害。",
+        "link": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
+      {
+        "title": "习近平总书记关切事丨康庄大道 山海偕行",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-30/10668925.shtml",
+        "summary": "今年是闽宁协作30年。习近平同志在福建工作期间亲自谋划、亲自推动这一伟大实践，创造了“干沙滩”变“金沙滩”的人间奇迹，开辟了东西部协作的新机制。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/07/30/8a46b14334f645dca1abf78e82d01ba0.jpg",
+        "publishedAt": "2026-07-29T16:25:26.000Z",
+        "source": "中新网"
+      },
       {
         "title": "中国成功发射天链三号01星",
         "link": "https://www.chinanews.com.cn/gn/2026/07-29/10668890.shtml",
@@ -202,14 +210,6 @@
         "summary": "中新网上海7月29日电 (范宇斌)28日，在上海虹桥机场二号航站楼星空间，身着哈尼族服饰的云南绿春青年成为一道靓丽的风景线。",
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260729/eb050d2c-2647-40af-b0ac-15163be31ce0_zsite.jpeg",
         "publishedAt": "2026-07-29T13:55:36.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "东西问丨赵强：为何说澳门是景德镇申遗的“海丝密码”？",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-29/10668879.shtml",
-        "summary": "中新社澳门7月29日电 题：为何说澳门是景德镇申遗的“海丝密码”？",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/07/29/9af3c1a8fe584223b704e4be8ec193e0.jpg",
-        "publishedAt": "2026-07-29T13:41:30.000Z",
         "source": "中新网"
       }
     ],
@@ -299,11 +299,27 @@
     ],
     "worldTop": [
       {
-        "title": "Anthony Fauci refuses to answer questions during US Senate hearing about Covid origins",
+        "title": "France fire crews face searing heat in battle to contain flames",
+        "link": "https://www.bbc.co.uk/news/articles/c62q5we799ro?at_medium=RSS&at_campaign=rss",
+        "summary": "Firefighters are battling flare-ups in 40C heat, as some locals have refused to heed evacuations in the Gironde region.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e847/live/cfd368e0-8b71-11f1-b8ee-9b3c26ad07bb.jpg",
+        "publishedAt": "2026-07-29T16:49:41.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Anthony Fauci refuses to answer questions during US Senate hearing discussing Covid origins",
         "link": "https://www.bbc.co.uk/news/articles/cdx85vkk0gko?at_medium=RSS&at_campaign=rss",
         "summary": "The former top US health official said he feared Republicans could try to trip him up and use his testimony to prosecute him for perjury.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c915/live/a70a1ff0-8b4c-11f1-8139-b39d1c7486b2.jpg",
-        "publishedAt": "2026-07-29T14:17:12.000Z",
+        "publishedAt": "2026-07-29T16:49:06.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Two firefighters die in Crete as wildfires threaten parts of southern Europe",
+        "link": "https://www.bbc.co.uk/news/articles/cwyjgwg8jddo?at_medium=RSS&at_campaign=rss",
+        "summary": "Gale-force winds have whipped up the flames prompting the evacuation of several villages on the island, as parts of the continent also continue to tac...",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/61b6/live/24160460-8b60-11f1-b4bb-f7524edbe34a.jpg",
+        "publishedAt": "2026-07-29T16:23:41.000Z",
         "source": "BBC"
       },
       {
@@ -315,37 +331,21 @@
         "source": "BBC"
       },
       {
-        "title": "Thousands in Spain return home but new heatwave raises wildfire fears",
-        "link": "https://www.bbc.co.uk/news/articles/cwyjgwg8jddo?at_medium=RSS&at_campaign=rss",
-        "summary": "Spain and France are both braced for the start of the fourth heatwave so far this summer and some fires have continued to burn.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/676e/live/d3e05150-8b3f-11f1-b2d7-b96c6bc9d7f5.jpg",
-        "publishedAt": "2026-07-29T12:29:07.000Z",
-        "source": "BBC"
-      },
-      {
         "title": "More than 100 aftershocks hit Japan after powerful quake that killed 13",
         "link": "https://www.bbc.co.uk/news/articles/cgk43y21j0do?at_medium=RSS&at_campaign=rss",
         "summary": "People are being urged to stay alert, with earthquake aftershocks potentially reaching magnitude 7, officials say",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/49fc/live/e2274390-8b4e-11f1-b2ab-0dd01740f9f6.jpg",
         "publishedAt": "2026-07-29T11:47:05.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Russia charges Telegram founder Durov with facilitating terrorism",
-        "link": "https://www.bbc.co.uk/news/articles/cj4kexqkpzno?at_medium=RSS&at_campaign=rss",
-        "summary": "The FSB claims the messenger app, created by Pavel Durov, has failed to remove accounts and channels used for recruitment by Ukraine's secret service.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4aab/live/599f9370-8b2f-11f1-b2c5-873bffcd48e7.jpg",
-        "publishedAt": "2026-07-29T10:23:29.000Z",
-        "source": "BBC"
       }
     ],
     "worldBusiness": [
       {
-        "title": "Is AI facing a big financial reckoning?",
+        "title": "Some tech shares are plunging - what does that mean for the AI revolution?",
         "link": "https://www.bbc.co.uk/news/articles/cevm09wkgz0o?at_medium=RSS&at_campaign=rss",
         "summary": "Sharp falls in the value of chip makers have stoked investor concerns that the euphoria around AI related companies is fading.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3471/live/5f73f4d0-8b52-11f1-8139-b39d1c7486b2.jpg",
-        "publishedAt": "2026-07-29T13:49:55.000Z",
+        "publishedAt": "2026-07-29T15:32:28.000Z",
         "source": "BBC"
       },
       {
@@ -425,6 +425,14 @@
     ],
     "domestic": [
       {
+        "title": "习近平总书记关切事丨康庄大道 山海偕行",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-30/10668925.shtml",
+        "summary": "今年是闽宁协作30年。习近平同志在福建工作期间亲自谋划、亲自推动这一伟大实践，创造了“干沙滩”变“金沙滩”的人间奇迹，开辟了东西部协作的新机制。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/07/30/8a46b14334f645dca1abf78e82d01ba0.jpg",
+        "publishedAt": "2026-07-29T16:25:26.000Z",
+        "source": "中新网"
+      },
+      {
         "title": "中国成功发射天链三号01星",
         "link": "https://www.chinanews.com.cn/gn/2026/07-29/10668890.shtml",
         "summary": "图为长征七号改运载火箭发射升空。中新社记者 骆云飞 摄 中新社北京7月29日电 (记者 马帅莎)据中国航天科技集团消息，北京时间7月29日19时50分，中国在文昌航天发射场使用长征七号改运载火箭，将天链三号01星发射升空，卫星顺利进入预定轨道，发射任务取得圆满成功。",
@@ -455,23 +463,31 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260729/eb050d2c-2647-40af-b0ac-15163be31ce0_zsite.jpeg",
         "publishedAt": "2026-07-29T13:55:36.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "东西问丨赵强：为何说澳门是景德镇申遗的“海丝密码”？",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-29/10668879.shtml",
-        "summary": "中新社澳门7月29日电 题：为何说澳门是景德镇申遗的“海丝密码”？",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/07/29/9af3c1a8fe584223b704e4be8ec193e0.jpg",
-        "publishedAt": "2026-07-29T13:41:30.000Z",
-        "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "Anthony Fauci refuses to answer questions during US Senate hearing about Covid origins",
+        "title": "France fire crews face searing heat in battle to contain flames",
+        "link": "https://www.bbc.co.uk/news/articles/c62q5we799ro?at_medium=RSS&at_campaign=rss",
+        "summary": "Firefighters are battling flare-ups in 40C heat, as some locals have refused to heed evacuations in the Gironde region.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e847/live/cfd368e0-8b71-11f1-b8ee-9b3c26ad07bb.jpg",
+        "publishedAt": "2026-07-29T16:49:41.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Anthony Fauci refuses to answer questions during US Senate hearing discussing Covid origins",
         "link": "https://www.bbc.co.uk/news/articles/cdx85vkk0gko?at_medium=RSS&at_campaign=rss",
         "summary": "The former top US health official said he feared Republicans could try to trip him up and use his testimony to prosecute him for perjury.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c915/live/a70a1ff0-8b4c-11f1-8139-b39d1c7486b2.jpg",
-        "publishedAt": "2026-07-29T14:17:12.000Z",
+        "publishedAt": "2026-07-29T16:49:06.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Two firefighters die in Crete as wildfires threaten parts of southern Europe",
+        "link": "https://www.bbc.co.uk/news/articles/cwyjgwg8jddo?at_medium=RSS&at_campaign=rss",
+        "summary": "Gale-force winds have whipped up the flames prompting the evacuation of several villages on the island, as parts of the continent also continue to tac...",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/61b6/live/24160460-8b60-11f1-b4bb-f7524edbe34a.jpg",
+        "publishedAt": "2026-07-29T16:23:41.000Z",
         "source": "BBC"
       },
       {
@@ -483,40 +499,20 @@
         "source": "BBC"
       },
       {
-        "title": "Thousands in Spain return home but new heatwave raises wildfire fears",
-        "link": "https://www.bbc.co.uk/news/articles/cwyjgwg8jddo?at_medium=RSS&at_campaign=rss",
-        "summary": "Spain and France are both braced for the start of the fourth heatwave so far this summer and some fires have continued to burn.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/676e/live/d3e05150-8b3f-11f1-b2d7-b96c6bc9d7f5.jpg",
-        "publishedAt": "2026-07-29T12:29:07.000Z",
-        "source": "BBC"
-      },
-      {
         "title": "More than 100 aftershocks hit Japan after powerful quake that killed 13",
         "link": "https://www.bbc.co.uk/news/articles/cgk43y21j0do?at_medium=RSS&at_campaign=rss",
         "summary": "People are being urged to stay alert, with earthquake aftershocks potentially reaching magnitude 7, officials say",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/49fc/live/e2274390-8b4e-11f1-b2ab-0dd01740f9f6.jpg",
         "publishedAt": "2026-07-29T11:47:05.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Russia charges Telegram founder Durov with facilitating terrorism",
-        "link": "https://www.bbc.co.uk/news/articles/cj4kexqkpzno?at_medium=RSS&at_campaign=rss",
-        "summary": "The FSB claims the messenger app, created by Pavel Durov, has failed to remove accounts and channels used for recruitment by Ukraine's secret service.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4aab/live/599f9370-8b2f-11f1-b2c5-873bffcd48e7.jpg",
-        "publishedAt": "2026-07-29T10:23:29.000Z",
-        "source": "BBC"
       }
     ],
     "nba": []
   },
   "nbaScoreboard": {
-    "date": "2026-07-29",
+    "date": "2026-07-30",
     "currentIndex": 4,
     "days": [
-      {
-        "date": "2026-07-25",
-        "games": []
-      },
       {
         "date": "2026-07-26",
         "games": []
@@ -548,12 +544,16 @@
       {
         "date": "2026-08-02",
         "games": []
+      },
+      {
+        "date": "2026-08-03",
+        "games": []
       }
     ],
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-07-29",
+    "rotationLabel": "Curated Rotation · 2026-07-30",
     "sections": [
       {
         "id": "data-storage",
@@ -561,27 +561,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-2",
-            "sectionId": "data-storage",
-            "title": "Bigtable: A Distributed Storage System for Structured Data",
-            "authors": [
-              "Fay Chang",
-              "Jeffrey Dean",
-              "Sanjay Ghemawat",
-              "Wilson C. Hsieh"
-            ],
-            "venue": "OSDI",
-            "year": 2006,
-            "quality": "顶会",
-            "categories": [
-              "distributed systems",
-              "database"
-            ],
-            "link": "https://research.google/pubs/pub27898/",
-            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-3",
             "sectionId": "data-storage",
@@ -601,7 +580,7 @@
             ],
             "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
             "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-4",
@@ -623,6 +602,26 @@
             "link": "https://research.google/pubs/pub36632/",
             "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-5",
+            "sectionId": "data-storage",
+            "title": "The FAISS Library",
+            "authors": [
+              "Jeff Johnson",
+              "Matthijs Douze",
+              "Herve Jegou"
+            ],
+            "venue": "IEEE T-BD",
+            "year": 2021,
+            "quality": "高影响力",
+            "categories": [
+              "vector search",
+              "ANN"
+            ],
+            "link": "https://arxiv.org/abs/2401.08281",
+            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -632,27 +631,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-3",
-            "sectionId": "computer-vision",
-            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
-            "authors": [
-              "Alexey Dosovitskiy",
-              "Lucas Beyer",
-              "Alexander Kolesnikov",
-              "Dirk Weissenborn"
-            ],
-            "venue": "ICLR",
-            "year": 2021,
-            "quality": "顶会",
-            "categories": [
-              "vision transformer",
-              "classification"
-            ],
-            "link": "https://arxiv.org/abs/2010.11929",
-            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-4",
             "sectionId": "computer-vision",
@@ -672,7 +650,7 @@
             ],
             "link": "https://arxiv.org/abs/2103.00020",
             "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-5",
@@ -694,6 +672,27 @@
             "link": "https://arxiv.org/abs/2304.02643",
             "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-6",
+            "sectionId": "computer-vision",
+            "title": "DINOv2: Learning Robust Visual Features without Supervision",
+            "authors": [
+              "Maxime Oquab",
+              "Timothée Darcet",
+              "Théo Moutakanni",
+              "Huy V. Vo"
+            ],
+            "venue": "arXiv / Meta",
+            "year": 2023,
+            "quality": "高影响力",
+            "categories": [
+              "self-supervised",
+              "representation"
+            ],
+            "link": "https://arxiv.org/abs/2304.07193",
+            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -703,27 +702,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-4",
-            "sectionId": "llm-memory",
-            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
-            "authors": [
-              "Akari Asai",
-              "Zequn Zhang",
-              "Avirup Sil",
-              "Hannaneh Hajishirzi"
-            ],
-            "venue": "ICLR",
-            "year": 2024,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "self-reflection"
-            ],
-            "link": "https://arxiv.org/abs/2310.11511",
-            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-5",
             "sectionId": "llm-memory",
@@ -743,7 +721,7 @@
             ],
             "link": "https://arxiv.org/abs/2306.07174",
             "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-6",
@@ -765,6 +743,27 @@
             "link": "https://arxiv.org/abs/2409.05591",
             "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-1",
+            "sectionId": "llm-memory",
+            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+            "authors": [
+              "Patrick Lewis",
+              "Ethan Perez",
+              "Aleksandra Piktus",
+              "Fabio Petroni"
+            ],
+            "venue": "NeurIPS",
+            "year": 2020,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "retrieval"
+            ],
+            "link": "https://arxiv.org/abs/2005.11401",
+            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -774,27 +773,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-5",
-            "sectionId": "agents",
-            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
-            "authors": [
-              "Qingyun Wu",
-              "Gagan Bansal",
-              "Jiaqi Zhang",
-              "Yiran Wu"
-            ],
-            "venue": "COLM",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "multi-agent",
-              "framework"
-            ],
-            "link": "https://arxiv.org/abs/2308.08155",
-            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-6",
             "sectionId": "agents",
@@ -814,7 +792,7 @@
             ],
             "link": "https://arxiv.org/abs/2405.15793",
             "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-1",
@@ -836,6 +814,27 @@
             ],
             "link": "https://arxiv.org/abs/2210.03629",
             "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-2",
+            "sectionId": "agents",
+            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+            "authors": [
+              "Timo Schick",
+              "Jane Dwivedi-Yu",
+              "Roberta Dessì",
+              "Ari Holtzman"
+            ],
+            "venue": "NeurIPS",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "tool use",
+              "agent"
+            ],
+            "link": "https://arxiv.org/abs/2302.04761",
+            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
             "trackLabel": "轮换精选"
           }
         ]
