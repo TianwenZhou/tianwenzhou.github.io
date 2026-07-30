@@ -1,36 +1,28 @@
 {
-  "generatedAt": "2026-07-30T14:27:03.047Z",
+  "generatedAt": "2026-07-30T17:43:55.566Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 29,
+      "temperature": 28,
       "weatherCode": 0,
-      "windSpeed": 10
+      "windSpeed": 9
     },
     "today": {
-      "date": "2026-07-30",
-      "weatherCode": 55,
-      "description": "中雨",
-      "max": 35,
+      "date": "2026-07-31",
+      "weatherCode": 96,
+      "description": "天气更新中",
+      "max": 34,
       "min": 27,
-      "precipitationProbability": 80
+      "precipitationProbability": 90
     },
     "forecast": [
-      {
-        "date": "2026-07-30",
-        "weatherCode": 55,
-        "description": "中雨",
-        "max": 35,
-        "min": 27,
-        "precipitationProbability": 80
-      },
       {
         "date": "2026-07-31",
         "weatherCode": 96,
         "description": "天气更新中",
         "max": 34,
         "min": 27,
-        "precipitationProbability": 88
+        "precipitationProbability": 90
       },
       {
         "date": "2026-08-01",
@@ -38,7 +30,7 @@
         "description": "雷暴",
         "max": 34,
         "min": 26,
-        "precipitationProbability": 54
+        "precipitationProbability": 37
       },
       {
         "date": "2026-08-02",
@@ -46,7 +38,7 @@
         "description": "天气更新中",
         "max": 35,
         "min": 27,
-        "precipitationProbability": 88
+        "precipitationProbability": 86
       },
       {
         "date": "2026-08-03",
@@ -54,33 +46,50 @@
         "description": "雷暴",
         "max": 34,
         "min": 26,
-        "precipitationProbability": 75
+        "precipitationProbability": 90
+      },
+      {
+        "date": "2026-08-04",
+        "weatherCode": 95,
+        "description": "雷暴",
+        "max": 31,
+        "min": 24,
+        "precipitationProbability": 78
       }
     ]
   },
   "classicQuote": {
-    "id": "taoteching-self",
-    "text": "知人者智，自知者明；胜人者有力，自胜者强。",
-    "source": "《道德经》",
-    "author": "老子",
-    "note": "比起和别人比较，更重要的是把自己的节奏稳住。"
+    "id": "zhuangzi-time",
+    "text": "人生天地之间，若白驹之过隙，忽然而已。",
+    "source": "《庄子》",
+    "author": "庄周",
+    "note": "事情很多的时候，更值得把注意力放在真正重要的事上。"
   },
   "bookExcerpt": {
-    "id": "norwegian-wood-rain",
-    "text": "雨还在下，细得像雾，落在草地和树叶上，世界像被一种安静的潮气轻轻包住。",
-    "book": "《挪威的森林》",
-    "author": "村上春树"
+    "id": "one-hundred-years-yellow",
+    "text": "许多年以后，面对行刑队，奥雷里亚诺·布恩迪亚上校将会想起父亲带他去见识冰块的那个遥远的下午。",
+    "book": "《百年孤独》",
+    "author": "加西亚·马尔克斯"
   },
   "featuredPlace": {
-    "id": "202607291600",
-    "title": "在纳瓦霍族保留地的纪念碑谷，亚利桑那州，美国",
+    "id": "202607301600",
+    "title": "鸟瞰弗吉尼亚爬山虎步道，达马斯克斯，弗吉尼亚州，美国",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "旷野无声，活态传承之境",
-    "image": "https://www.bing.com/th?id=OHR.NavajoNation_ZH-CN9274387505_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E7%BA%AA%E5%BF%B5%E7%A2%91%E8%B0%B7&form=hpcapt&mkt=zh-cn"
+    "summary": "穿越时光的足迹",
+    "image": "https://www.bing.com/th?id=OHR.VirginiaTrail_ZH-CN2299501599_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E5%BC%97%E5%90%89%E5%B0%BC%E4%BA%9A%E7%88%AC%E5%B1%B1%E8%99%8E%E6%AD%A5%E9%81%93&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202607301600",
+      "title": "鸟瞰弗吉尼亚爬山虎步道，达马斯克斯，弗吉尼亚州，美国",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "穿越时光的足迹",
+      "image": "https://www.bing.com/th?id=OHR.VirginiaTrail_ZH-CN2299501599_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E5%BC%97%E5%90%89%E5%B0%BC%E4%BA%9A%E7%88%AC%E5%B1%B1%E8%99%8E%E6%AD%A5%E9%81%93&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202607291600",
       "title": "在纳瓦霍族保留地的纪念碑谷，亚利桑那州，美国",
@@ -143,35 +152,58 @@
       "summary": "缤纷多彩的一家人",
       "image": "https://www.bing.com/th?id=OHR.GalapagosFlamingos_ZH-CN1152519387_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E7%BE%8E%E6%B4%B2%E7%BA%A2%E9%B9%B3&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202607221600",
-      "title": "粉红色大丽花",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "瓣叠交响",
-      "image": "https://www.bing.com/th?id=OHR.PinkDahlia_ZH-CN2259107800_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E5%A4%A7%E4%B8%BD%E8%8A%B1%E5%B1%9E%E6%A4%8D%E7%89%A9&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-07-30",
-    "dateLabel": "7月30日",
+    "dateKey": "2026-07-31",
+    "dateLabel": "7月31日",
     "items": [
       {
-        "year": "2025",
-        "text": "俄羅斯堪察加半島東南部海域發生MW 8.8地震，太平洋沿岸多地均發出海嘯警報。",
-        "link": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4"
+        "year": "2024",
+        "text": "曾任巴勒斯坦總理的哈馬斯首席政治領袖伊斯梅爾·哈尼亞在伊朗首都德黑蘭遭襲擊身亡。",
+        "link": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4"
       },
       {
-        "year": "2023",
-        "text": "中国华北地区遭遇特大暴雨灾害。",
-        "link": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4"
+        "year": "2020",
+        "text": "香港新增121宗新型冠狀病毒肺炎確診個案，118宗為本地感染，其中56宗源頭未明，連續10日單日個案破百。",
+        "link": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
+      {
+        "title": "解放军南部战区位中国黄岩岛领海领空及周边区域组织战备警巡",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-30/10669571.shtml",
+        "summary": "中新社北京7月30日电 据中国人民解放军南部战区社交平台官方账号消息，7月30日，中国人民解放军南部战区组织海空兵力位中国黄岩岛领海领空及周边海空域开展战备警巡。黄岩岛是中国固有领土。7月份以来，战区部队持续加强黄岩岛领海周边海空域巡逻警戒，有力有效应对各类侵权挑衅行径，坚决捍卫国家主权安全，坚定维...",
+        "image": "",
+        "publishedAt": "2026-07-30T15:56:24.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "何立峰与美国财政部长贝森特、贸易代表格里尔举行视频通话",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-30/10669568.shtml",
+        "summary": "新华社北京7月30日电#8195;北京时间7月30日晚，中美经贸中方牵头人、国务院副总理何立峰与美方牵头人、美国财政部长贝森特和贸易代表格里尔举行视频通话，双方围绕落实好中美两国元首北京会晤重要共识，就下一阶段中美双方保持经贸关系稳定、拓展务实合作、妥善解决彼此关切，进行了坦诚、深入、富有建设性的交...",
+        "image": "",
+        "publishedAt": "2026-07-30T14:54:16.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "中国海警位中国黄岩岛领海及周边区域执法巡查",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-30/10669567.shtml",
+        "summary": "中新网7月30日电 据“中国海警”微信公众号消息，7月30日，中国海警位中国黄岩岛领海及周边区域开展执法巡查。7月份以来，中国海警持续加强黄岩岛领海及周边区域执法巡查，依法依规采取喊话警告、拦阻管制、水炮喷射等必要措施驱离非法侵权滋扰船只，进一步强化有关海域管控，坚决维护国家领土主权和海洋权益。",
+        "image": "",
+        "publishedAt": "2026-07-30T14:39:02.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "中国人民解放军南部战区位中国黄岩岛领海领空及周边区域组织战备警巡",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-30/10669566.shtml",
+        "summary": "中新网7月30日电 据“南部战区”微信公众号消息，7月30日，中国人民解放军南部战区组织海空兵力位中国黄岩岛领海领空及周边海空域开展战备警巡。黄岩岛是中国固有领土。7月份以来，战区部队持续加强黄岩岛领海周边海空域巡逻警戒，有力有效应对各类侵权挑衅行径，坚决捍卫国家主权安全，坚定维护南海地区和平稳定。",
+        "image": "",
+        "publishedAt": "2026-07-30T14:36:20.000Z",
+        "source": "中新网"
+      },
       {
         "title": "四川盆地至黄淮等地有较强降水 两部门加派工作组赴一线协助指导",
         "link": "https://www.chinanews.com.cn/gn/2026/07-30/10669520.shtml",
@@ -179,83 +211,59 @@
         "image": "",
         "publishedAt": "2026-07-30T14:12:44.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "两岸青少年“以球会友” 京台乒乓球交流赛开幕",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-30/10669560.shtml",
-        "summary": "中新社北京7月30日电 (张晓曦 姜姿屹)“爱‘乒’会赢 青聚石景山”2026京台青少年乒乓球交流赛7月30日在北京开幕，两岸青少年代表等200余人参与活动。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260730/339d4a78-bb79-4f83-8aba-1298e40d011f_zsite.jpg",
-        "publishedAt": "2026-07-30T14:01:28.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "黄汝生任广西壮族自治区副主席",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-30/10669553.shtml",
-        "summary": "中新网南宁7月30日电 (陈秋霞)7月30日，广西壮族自治区第十四届人民代表大会常务委员会第二十六次会议决定任命黄汝生为广西壮族自治区副主席。",
-        "image": "",
-        "publishedAt": "2026-07-30T13:59:13.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "水利部针对陕西、甘肃启动洪水防御Ⅳ级应急响应",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-30/10669559.shtml",
-        "summary": "中新网7月30日电 据“中国水利”微信公众号公消息，据预报，受西南季风和冷空气共同影响，7月30日20时至8月3日8时，陕西西南部、甘肃东南部局部将有暴雨，并伴有短时强降雨；30日20时至31日20时，陕西省凤县、略阳县、勉县、宁强县，甘肃省成县、徽县、康县、两当县、文县、武都区、西和县、麦积区、秦...",
-        "image": "",
-        "publishedAt": "2026-07-30T13:54:15.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "2026年武汉国际友城青年研学营闭营",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-30/10669552.shtml",
-        "summary": "中新网武汉7月30日电 (记者 武一力)2026年武汉国际友城青年研学营闭营仪式30日在江汉大学举行，来自英国、法国、泰国、韩国、俄罗斯等16个国家的42名国际友城学员齐聚一堂，展示在武汉的学习成果，共话友谊与成长。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260730/55b14a08-1f8a-480b-b7be-9653ad090714_zsite.jpeg",
-        "publishedAt": "2026-07-30T13:51:23.000Z",
-        "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "珠江委完成2026年度节水诊断公益服务现场工作",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-30/10669485.shtml",
-        "summary": "中新网广州7月30日电 (记者 王坚)水利部珠江水利委员会(下称“珠江委”)30日消息，该委近日全面完成2026年度节水诊断公益服务现场工作，深入一线送政策、送技术、送服务，助力用水单位提升用水效率和节水管理水平。",
+        "title": "台湾台东县海域发生4.0级地震",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-31/10669575.shtml",
+        "summary": "中国地震台网正式测定：7月31日00时58分在台湾台东县海域(北纬23.01度，东经121.47度)发生4.0级地震，震源深度20千米。",
         "image": "",
-        "publishedAt": "2026-07-30T12:35:12.000Z",
+        "publishedAt": "2026-07-30T17:35:39.000Z",
         "source": "中新网"
       },
       {
-        "title": "告别被动等待！中国专家破解结直肠癌术后复发监测难题",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-30/10669481.shtml",
-        "summary": "中新网上海7月30日电(记者 陈静)以往，结直肠癌术后患者只能依靠CT等影像定期随访——被动等待肿瘤“长”到一定大小后，医生方能在影像中发现复发“信号”。这导致部分患者错失复发后根治的“窗口期”。未来，这样的窘况将被改变。",
+        "title": "重庆彭水山体崩塌找到并确认51人遇难 仍有10人失联",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-30/10669570.shtml",
+        "summary": "中新网7月30日电 7月17日9时许，重庆彭水汉葭街道发生大型山体崩塌灾害。据“彭水发布”微信公众号消息，重庆彭水山体崩塌现场救援指挥部30日发布情况通报称，截至目前，陆上灾害现场承灾区域已全部搜寻完毕，将尽快恢复乌江三桥等中断交通及相关地区的生活秩序。乌江水域清淤疏浚和搜寻工作仍在进行中。",
         "image": "",
-        "publishedAt": "2026-07-30T12:27:10.000Z",
+        "publishedAt": "2026-07-30T15:11:52.000Z",
         "source": "中新网"
       },
       {
-        "title": "高温桑拿天何时退场，台风白海豚能带来清凉吗？",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-30/10669490.shtml",
-        "summary": "热，真的太热了！近日，从华南到东北，24小时不打烊的极致闷热感让每一次出门都变成了一场巨大考验。这场波及南北20余省份的“牛舔”式桑拿高温天气到底何时能退场？",
-        "image": "https://i2.chinanews.com/simg/hnhd/2026/07/30/53/2828981020506837969.jpg",
-        "publishedAt": "2026-07-30T12:19:05.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "中新网评：别再编“爽文”蹭王虹流量了",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-30/10669446.shtml",
-        "summary": "中新网北京7月30日电(记者 邵萌)这几天，《广西日报》一篇关于菲尔兹奖得主王虹的特稿《王的猜想》全网刷屏，甚至上演了当代版的“洛阳纸贵”。",
+        "title": "广西提高城乡低保补助水平和残疾人两项补贴标准",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-30/10669557.shtml",
+        "summary": "中新网南宁7月30日电(韦佳秀)广西壮族自治区民政厅、财政厅日前印发通知，决定提高广西城乡最低生活保障补助水平和残疾人两项补贴标准，进一步保障低保对象、残疾人的基本生活。",
         "image": "",
-        "publishedAt": "2026-07-30T11:55:27.000Z",
+        "publishedAt": "2026-07-30T13:53:13.000Z",
         "source": "中新网"
       },
       {
-        "title": "（乡村行·看振兴）大巴山里药草香 林下、石上“生金”",
-        "link": "https://www.chinanews.com.cn/sh/2026/07-30/10669468.shtml",
-        "summary": "中新网重庆7月30日电 题：大巴山里药草香 林下、石上“生金”",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260730/7ef404a8-ac85-420e-8cdc-925da907b9d7_zsite.JPG",
-        "publishedAt": "2026-07-30T11:54:57.000Z",
+        "title": "中越跨境自驾游趋热 海关高效助力游客“丝滑过关”畅游山水",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-30/10669555.shtml",
+        "summary": "中新网广西凭祥7月30日电(谢豪 林洁琪)广西友谊关海关30日介绍，友谊关口岸作为直达越南河内的陆路便捷通道，吸引不少汽车、摩托车骑行爱好者组团赴越长线游览，海关优化专属通关模式，以精准监管、温情服务架起中越文旅交流“连心桥”。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260730/933a6235-47be-4f0a-ab6e-528bf47aa613_zsite.jpg",
+        "publishedAt": "2026-07-30T13:52:25.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "河北整县推进美丽乡村建设 农村生活污水治理率再提升",
+        "link": "https://www.chinanews.com.cn/sh/2026/07-30/10669542.shtml",
+        "summary": "中新网石家庄7月30日电(记者 陈林)河北省生态环境厅30日通报，截至“十四五”末，全省累计完成约3.19万个村庄生活污水治理，治理率由“十三五”末的28%提高到64%以上。今年上半年，治理率又提升到67.4%，农村卫生户厕普及率达到72.89%。",
+        "image": "",
+        "publishedAt": "2026-07-30T13:32:54.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
+      {
+        "title": "（经济观察）中国楼市继续“稳”字当头",
+        "link": "https://www.chinanews.com.cn/cj/2026/07-30/10669569.shtml",
+        "summary": "中新社北京7月30日电 (记者 庞无忌)7月30日召开的中共中央政治局会议再次强调“稳定房地产市场”。这是继今年4月中央政治局会议提出“努力稳定房地产市场”后，高层半年内第二次聚焦“稳楼市”。",
+        "image": "",
+        "publishedAt": "2026-07-30T15:17:10.000Z",
+        "source": "中新网"
+      },
       {
         "title": "从“票根”到“打卡” 乒超联赛带火雄安“赛场经济”",
         "link": "https://www.chinanews.com.cn/cj/2026/07-30/10669561.shtml",
@@ -287,31 +295,39 @@
         "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/07/30/1a56ce6cae18479b893cea40791e222e.jpg",
         "publishedAt": "2026-07-30T13:49:38.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "深化产教融合 湖北首个具身智能人才培养基地揭牌",
-        "link": "https://www.chinanews.com.cn/cj/2026/07-30/10669554.shtml",
-        "summary": "中新网武汉7月30日电 (卢琪 周正 黄全周)湖北具身智能人才培养基地30日在武汉东湖高新区(又称“中国光谷”)揭牌。作为湖北首个面向全学段群体、服务全产业链的具身智能人才培育平台，该基地将构建“政产学研用”一体化的人才供给生态。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260730/f911c4b3-87f0-4a77-b2c9-a6fe0c24b474_zsite.jpg",
-        "publishedAt": "2026-07-30T13:48:18.000Z",
-        "source": "中新网"
       }
     ],
     "worldTop": [
+      {
+        "title": "Why limited war with the US may suit Iran better than peace",
+        "link": "https://www.bbc.co.uk/news/articles/c78gnyq3wvdo?at_medium=RSS&at_campaign=rss",
+        "summary": "Iran may believe it can control its conflict carefully enough to keep pressure on the US while avoiding an all-out war.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ac59/live/96fbf5d0-8c3b-11f1-89bb-9b3e3c6f25f4.jpg",
+        "publishedAt": "2026-07-30T17:26:01.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Hundreds of migrants swim from Morocco to Spanish enclave of Ceuta",
+        "link": "https://www.bbc.co.uk/news/articles/cg4drwzkrkxo?at_medium=RSS&at_campaign=rss",
+        "summary": "The territory's leader said the influx is overwhelming resources and urged the Spanish government to intervene.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a0fd/live/af9c6590-8c2f-11f1-b8ee-9b3c26ad07bb.jpg",
+        "publishedAt": "2026-07-30T17:19:27.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Missile that left crater deep inside Poland was probably Russian - Polish PM",
         "link": "https://www.bbc.co.uk/news/articles/cwymkgenv2ro?at_medium=RSS&at_campaign=rss",
         "summary": "The missile left a 10m-wide (33ft) crater a short distance from the village of Tarnawa Kolonia, about 100km from the border with Ukraine.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/58b9/live/31742360-8c16-11f1-b2ab-0dd01740f9f6.jpg",
-        "publishedAt": "2026-07-30T13:38:50.000Z",
+        "publishedAt": "2026-07-30T15:35:50.000Z",
         "source": "BBC"
       },
       {
-        "title": "Thousands evacuated in Crete as Europe battles wildfires",
-        "link": "https://www.bbc.co.uk/news/articles/c9w01781981o?at_medium=RSS&at_campaign=rss",
-        "summary": "Strong winds have fanned the flames in the Rethymno region as wildfires continue to ravage the Greek island.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b6d0/live/fcd90940-8c15-11f1-b8ee-9b3c26ad07bb.jpg",
-        "publishedAt": "2026-07-30T12:46:16.000Z",
+        "title": "At least five members of same family killed in Russian missile attack, Zelensky says",
+        "link": "https://www.bbc.co.uk/news/articles/cy8mk59l5jzo?at_medium=RSS&at_campaign=rss",
+        "summary": "A six-year-old girl and two boys, aged 11 and 17, were among six killed in a village near the central city of Kryvyi Rih.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7ce2/live/9f464590-8c24-11f1-bdac-871e920411eb.jpg",
+        "publishedAt": "2026-07-30T15:20:19.000Z",
         "source": "BBC"
       },
       {
@@ -321,39 +337,15 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/beb2/live/84097750-8bf4-11f1-a7ab-8b30adf0800a.jpg",
         "publishedAt": "2026-07-30T10:49:14.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Three children among eight dead in Russian strikes on Ukraine, officials say",
-        "link": "https://www.bbc.co.uk/news/articles/cy8mk59l5jzo?at_medium=RSS&at_campaign=rss",
-        "summary": "A six-year-old girl and two boys, aged 11 and 17, were among six killed in a village near the central city of Kryvyi Rih.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c3a2/live/20e2a280-8bd3-11f1-8ca8-e7392cbe9869.jpg",
-        "publishedAt": "2026-07-30T09:21:55.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "In record heat, a warming world has come to rely on China to stay cool",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaURweFl3akFoczdPUlFXMUdCc2VvcWNUTmFwRWk5dzVUWjMtTmM1Nlk4M0JuQmtQVjh1cFdWQzhZS0h5OHhFOGtaN3JySHNNN2xWUDFuaWg3R3JWODZpYXZfQUdfUENlMnNVeU1BMFNta3BlX2hJREVrMU9YSDlTY1JDdlY?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-07-30T04:14:14.000Z",
-        "source": "CNN"
       }
     ],
     "worldBusiness": [
       {
-        "title": "US economic growth sees surprise slowdown in second quarter",
-        "link": "https://www.bbc.co.uk/news/articles/cd0xvrmlx2eo?at_medium=RSS&at_campaign=rss",
-        "summary": "The economy grew at an annual rate of 1.5% in the three months to June, down from 2.1% seen in the previous quarter.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e1b/live/73f6ba60-8c14-11f1-94b2-05bc97107049.jpg",
-        "publishedAt": "2026-07-30T14:24:41.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Bank holds interest rates but says it is ready to raise them if Iran war escalates",
-        "link": "https://www.bbc.co.uk/news/articles/cp8e6m4rndgo?at_medium=RSS&at_campaign=rss",
-        "summary": "The Bank also expects the economy to grow more than previously forecast this year, although uncertainties remain because of the Iran war.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/38e0/live/7b090d20-8b3e-11f1-b2d7-b96c6bc9d7f5.jpg",
-        "publishedAt": "2026-07-30T14:01:19.000Z",
+        "title": "British Airways flight called mayday on approach to Heathrow",
+        "link": "https://www.bbc.co.uk/news/articles/cn8n1knkkz9o?at_medium=RSS&at_campaign=rss",
+        "summary": "The call was made on an Airbus A320 flying from Dusseldorf airport in Germany on 6 July following two stall warnings.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0a69/live/a31daa00-8c3d-11f1-89bb-9b3e3c6f25f4.jpg",
+        "publishedAt": "2026-07-30T17:34:26.000Z",
         "source": "BBC"
       },
       {
@@ -361,7 +353,15 @@
         "link": "https://www.bbc.co.uk/news/articles/cq6dmjv1jpdo?at_medium=RSS&at_campaign=rss",
         "summary": "The car giant says it expects fewer than 300 people will lose their jobs.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/70f8/live/37261730-8c0e-11f1-a7ab-8b30adf0800a.jpg",
-        "publishedAt": "2026-07-30T13:47:03.000Z",
+        "publishedAt": "2026-07-30T16:53:17.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Bank holds interest rates but says it is ready to raise them if Iran war escalates",
+        "link": "https://www.bbc.co.uk/news/articles/cp8e6m4rndgo?at_medium=RSS&at_campaign=rss",
+        "summary": "The Bank also expects the economy to grow more than previously forecast this year, although uncertainties remain because of the Iran war.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/01e8/live/d51c5e70-8c29-11f1-a7ab-8b30adf0800a.jpg",
+        "publishedAt": "2026-07-30T16:33:40.000Z",
         "source": "BBC"
       },
       {
@@ -369,19 +369,27 @@
         "link": "https://www.bbc.co.uk/news/articles/c4g4dkr40deo?at_medium=RSS&at_campaign=rss",
         "summary": "Interviews online may not allow young people to \"shine\" and communicate their \"passion\", the prime minister says.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8736/live/ef68bc30-8beb-11f1-9127-6b0fc0b6fa67.jpg",
-        "publishedAt": "2026-07-30T13:17:56.000Z",
+        "publishedAt": "2026-07-30T14:40:36.000Z",
         "source": "BBC"
       },
       {
-        "title": "US economy’s growth was weaker than expected in the second quarter",
-        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBjcnpzLS1GNS1KUTctRW9ncjJIZUN3LTlZc2FPM3hsRnhLTEVQekVKeVBCR0pBSmxBOXplRDE5Ykx1b056NF9tNnB3MUtWdm9oYm5sTE9qdHJsYlR5bzd3QlRqMGhOZ2FlWGg2dm9FSXVWSVZ1MzA0?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-07-30T12:34:54.000Z",
-        "source": "CNN"
+        "title": "US economic growth sees surprise slowdown in second quarter",
+        "link": "https://www.bbc.co.uk/news/articles/cd0xvrmlx2eo?at_medium=RSS&at_campaign=rss",
+        "summary": "The economy grew at an annual rate of 1.5% in the three months to June, down from 2.1% seen in the previous quarter.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2c7d/live/d09a43a0-8c27-11f1-bdad-17769c057c64.jpg",
+        "publishedAt": "2026-07-30T14:24:41.000Z",
+        "source": "BBC"
       }
     ],
     "worldTech": [
+      {
+        "title": "Xbox tech boss says 'unacceptable' outage should not have affected disc games",
+        "link": "https://www.bbc.co.uk/news/articles/cq5637p7qpno?at_medium=RSS&at_campaign=rss",
+        "summary": "The outage meant Xbox users had trouble signing into their accounts, seeing their game library and launching games",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b5b8/live/368c8130-8c0c-11f1-8665-e382dc49dfdb.jpg",
+        "publishedAt": "2026-07-30T14:53:20.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Trump considering AI controls after OpenAI hacking incidents",
         "link": "https://www.bbc.co.uk/news/articles/c20dppq3y90o?at_medium=RSS&at_campaign=rss",
@@ -413,17 +421,41 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/52e9/live/3c2ddae0-8a9e-11f1-bdb4-61a481e25caf.jpg",
         "publishedAt": "2026-07-29T08:49:27.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Brits urged to avoid dangerous plug adaptors this summer - what to watch out for",
-        "link": "https://www.bbc.co.uk/news/articles/c5yeg1wegpno?at_medium=RSS&at_campaign=rss",
-        "summary": "Campaign group Electrical Safety First has urged those \"heading abroad this summer to think before they buy\".",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bcb4/live/f740c5a0-8a75-11f1-a7ab-8b30adf0800a.jpg",
-        "publishedAt": "2026-07-28T23:00:15.000Z",
-        "source": "BBC"
       }
     ],
     "domestic": [
+      {
+        "title": "解放军南部战区位中国黄岩岛领海领空及周边区域组织战备警巡",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-30/10669571.shtml",
+        "summary": "中新社北京7月30日电 据中国人民解放军南部战区社交平台官方账号消息，7月30日，中国人民解放军南部战区组织海空兵力位中国黄岩岛领海领空及周边海空域开展战备警巡。黄岩岛是中国固有领土。7月份以来，战区部队持续加强黄岩岛领海周边海空域巡逻警戒，有力有效应对各类侵权挑衅行径，坚决捍卫国家主权安全，坚定维...",
+        "image": "",
+        "publishedAt": "2026-07-30T15:56:24.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "何立峰与美国财政部长贝森特、贸易代表格里尔举行视频通话",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-30/10669568.shtml",
+        "summary": "新华社北京7月30日电#8195;北京时间7月30日晚，中美经贸中方牵头人、国务院副总理何立峰与美方牵头人、美国财政部长贝森特和贸易代表格里尔举行视频通话，双方围绕落实好中美两国元首北京会晤重要共识，就下一阶段中美双方保持经贸关系稳定、拓展务实合作、妥善解决彼此关切，进行了坦诚、深入、富有建设性的交...",
+        "image": "",
+        "publishedAt": "2026-07-30T14:54:16.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "中国海警位中国黄岩岛领海及周边区域执法巡查",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-30/10669567.shtml",
+        "summary": "中新网7月30日电 据“中国海警”微信公众号消息，7月30日，中国海警位中国黄岩岛领海及周边区域开展执法巡查。7月份以来，中国海警持续加强黄岩岛领海及周边区域执法巡查，依法依规采取喊话警告、拦阻管制、水炮喷射等必要措施驱离非法侵权滋扰船只，进一步强化有关海域管控，坚决维护国家领土主权和海洋权益。",
+        "image": "",
+        "publishedAt": "2026-07-30T14:39:02.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "中国人民解放军南部战区位中国黄岩岛领海领空及周边区域组织战备警巡",
+        "link": "https://www.chinanews.com.cn/gn/2026/07-30/10669566.shtml",
+        "summary": "中新网7月30日电 据“南部战区”微信公众号消息，7月30日，中国人民解放军南部战区组织海空兵力位中国黄岩岛领海领空及周边海空域开展战备警巡。黄岩岛是中国固有领土。7月份以来，战区部队持续加强黄岩岛领海周边海空域巡逻警戒，有力有效应对各类侵权挑衅行径，坚决捍卫国家主权安全，坚定维护南海地区和平稳定。",
+        "image": "",
+        "publishedAt": "2026-07-30T14:36:20.000Z",
+        "source": "中新网"
+      },
       {
         "title": "四川盆地至黄淮等地有较强降水 两部门加派工作组赴一线协助指导",
         "link": "https://www.chinanews.com.cn/gn/2026/07-30/10669520.shtml",
@@ -431,55 +463,39 @@
         "image": "",
         "publishedAt": "2026-07-30T14:12:44.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "两岸青少年“以球会友” 京台乒乓球交流赛开幕",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-30/10669560.shtml",
-        "summary": "中新社北京7月30日电 (张晓曦 姜姿屹)“爱‘乒’会赢 青聚石景山”2026京台青少年乒乓球交流赛7月30日在北京开幕，两岸青少年代表等200余人参与活动。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260730/339d4a78-bb79-4f83-8aba-1298e40d011f_zsite.jpg",
-        "publishedAt": "2026-07-30T14:01:28.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "黄汝生任广西壮族自治区副主席",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-30/10669553.shtml",
-        "summary": "中新网南宁7月30日电 (陈秋霞)7月30日，广西壮族自治区第十四届人民代表大会常务委员会第二十六次会议决定任命黄汝生为广西壮族自治区副主席。",
-        "image": "",
-        "publishedAt": "2026-07-30T13:59:13.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "水利部针对陕西、甘肃启动洪水防御Ⅳ级应急响应",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-30/10669559.shtml",
-        "summary": "中新网7月30日电 据“中国水利”微信公众号公消息，据预报，受西南季风和冷空气共同影响，7月30日20时至8月3日8时，陕西西南部、甘肃东南部局部将有暴雨，并伴有短时强降雨；30日20时至31日20时，陕西省凤县、略阳县、勉县、宁强县，甘肃省成县、徽县、康县、两当县、文县、武都区、西和县、麦积区、秦...",
-        "image": "",
-        "publishedAt": "2026-07-30T13:54:15.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "2026年武汉国际友城青年研学营闭营",
-        "link": "https://www.chinanews.com.cn/gn/2026/07-30/10669552.shtml",
-        "summary": "中新网武汉7月30日电 (记者 武一力)2026年武汉国际友城青年研学营闭营仪式30日在江汉大学举行，来自英国、法国、泰国、韩国、俄罗斯等16个国家的42名国际友城学员齐聚一堂，展示在武汉的学习成果，共话友谊与成长。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260730/55b14a08-1f8a-480b-b7be-9653ad090714_zsite.jpeg",
-        "publishedAt": "2026-07-30T13:51:23.000Z",
-        "source": "中新网"
       }
     ],
     "international": [
+      {
+        "title": "Why limited war with the US may suit Iran better than peace",
+        "link": "https://www.bbc.co.uk/news/articles/c78gnyq3wvdo?at_medium=RSS&at_campaign=rss",
+        "summary": "Iran may believe it can control its conflict carefully enough to keep pressure on the US while avoiding an all-out war.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ac59/live/96fbf5d0-8c3b-11f1-89bb-9b3e3c6f25f4.jpg",
+        "publishedAt": "2026-07-30T17:26:01.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Hundreds of migrants swim from Morocco to Spanish enclave of Ceuta",
+        "link": "https://www.bbc.co.uk/news/articles/cg4drwzkrkxo?at_medium=RSS&at_campaign=rss",
+        "summary": "The territory's leader said the influx is overwhelming resources and urged the Spanish government to intervene.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a0fd/live/af9c6590-8c2f-11f1-b8ee-9b3c26ad07bb.jpg",
+        "publishedAt": "2026-07-30T17:19:27.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Missile that left crater deep inside Poland was probably Russian - Polish PM",
         "link": "https://www.bbc.co.uk/news/articles/cwymkgenv2ro?at_medium=RSS&at_campaign=rss",
         "summary": "The missile left a 10m-wide (33ft) crater a short distance from the village of Tarnawa Kolonia, about 100km from the border with Ukraine.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/58b9/live/31742360-8c16-11f1-b2ab-0dd01740f9f6.jpg",
-        "publishedAt": "2026-07-30T13:38:50.000Z",
+        "publishedAt": "2026-07-30T15:35:50.000Z",
         "source": "BBC"
       },
       {
-        "title": "Thousands evacuated in Crete as Europe battles wildfires",
-        "link": "https://www.bbc.co.uk/news/articles/c9w01781981o?at_medium=RSS&at_campaign=rss",
-        "summary": "Strong winds have fanned the flames in the Rethymno region as wildfires continue to ravage the Greek island.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b6d0/live/fcd90940-8c15-11f1-b8ee-9b3c26ad07bb.jpg",
-        "publishedAt": "2026-07-30T12:46:16.000Z",
+        "title": "At least five members of same family killed in Russian missile attack, Zelensky says",
+        "link": "https://www.bbc.co.uk/news/articles/cy8mk59l5jzo?at_medium=RSS&at_campaign=rss",
+        "summary": "A six-year-old girl and two boys, aged 11 and 17, were among six killed in a village near the central city of Kryvyi Rih.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7ce2/live/9f464590-8c24-11f1-bdac-871e920411eb.jpg",
+        "publishedAt": "2026-07-30T15:20:19.000Z",
         "source": "BBC"
       },
       {
@@ -489,34 +505,14 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/beb2/live/84097750-8bf4-11f1-a7ab-8b30adf0800a.jpg",
         "publishedAt": "2026-07-30T10:49:14.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Three children among eight dead in Russian strikes on Ukraine, officials say",
-        "link": "https://www.bbc.co.uk/news/articles/cy8mk59l5jzo?at_medium=RSS&at_campaign=rss",
-        "summary": "A six-year-old girl and two boys, aged 11 and 17, were among six killed in a village near the central city of Kryvyi Rih.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c3a2/live/20e2a280-8bd3-11f1-8ca8-e7392cbe9869.jpg",
-        "publishedAt": "2026-07-30T09:21:55.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "In record heat, a warming world has come to rely on China to stay cool",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaURweFl3akFoczdPUlFXMUdCc2VvcWNUTmFwRWk5dzVUWjMtTmM1Nlk4M0JuQmtQVjh1cFdWQzhZS0h5OHhFOGtaN3JySHNNN2xWUDFuaWg3R3JWODZpYXZfQUdfUENlMnNVeU1BMFNta3BlX2hJREVrMU9YSDlTY1JDdlY?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-07-30T04:14:14.000Z",
-        "source": "CNN"
       }
     ],
     "nba": []
   },
   "nbaScoreboard": {
-    "date": "2026-07-30",
+    "date": "2026-07-31",
     "currentIndex": 4,
     "days": [
-      {
-        "date": "2026-07-26",
-        "games": []
-      },
       {
         "date": "2026-07-27",
         "games": []
@@ -548,12 +544,16 @@
       {
         "date": "2026-08-03",
         "games": []
+      },
+      {
+        "date": "2026-08-04",
+        "games": []
       }
     ],
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-07-30",
+    "rotationLabel": "Curated Rotation · 2026-07-31",
     "sections": [
       {
         "id": "data-storage",
@@ -561,27 +561,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-3",
-            "sectionId": "data-storage",
-            "title": "Dynamo: Amazon's Highly Available Key-value Store",
-            "authors": [
-              "Giuseppe DeCandia",
-              "Deniz Hastorun",
-              "Madan Jampani",
-              "Gunavardhan Kakulapati"
-            ],
-            "venue": "SOSP",
-            "year": 2007,
-            "quality": "顶会",
-            "categories": [
-              "key-value",
-              "distributed systems"
-            ],
-            "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
-            "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-4",
             "sectionId": "data-storage",
@@ -601,7 +580,7 @@
             ],
             "link": "https://research.google/pubs/pub36632/",
             "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-5",
@@ -622,6 +601,27 @@
             "link": "https://arxiv.org/abs/2401.08281",
             "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-6",
+            "sectionId": "data-storage",
+            "title": "DiskANN: Fast Accurate Billion-point Nearest Neighbor Search on a Single Node",
+            "authors": [
+              "Neelesh Gupta",
+              "Leland Willard",
+              "Xiangyao Yu",
+              "Yuri N."
+            ],
+            "venue": "NeurIPS",
+            "year": 2019,
+            "quality": "高影响力",
+            "categories": [
+              "vector search",
+              "ANN"
+            ],
+            "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
+            "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -631,27 +631,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-4",
-            "sectionId": "computer-vision",
-            "title": "Learning Transferable Visual Models From Natural Language Supervision",
-            "authors": [
-              "Alec Radford",
-              "Jong Wook Kim",
-              "Chris Hallacy",
-              "Aditya Ramesh"
-            ],
-            "venue": "ICML",
-            "year": 2021,
-            "quality": "顶会",
-            "categories": [
-              "vision-language",
-              "foundation model"
-            ],
-            "link": "https://arxiv.org/abs/2103.00020",
-            "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-5",
             "sectionId": "computer-vision",
@@ -671,7 +650,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.02643",
             "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-6",
@@ -693,6 +672,27 @@
             "link": "https://arxiv.org/abs/2304.07193",
             "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-1",
+            "sectionId": "computer-vision",
+            "title": "Deep Residual Learning for Image Recognition",
+            "authors": [
+              "Kaiming He",
+              "Xiangyu Zhang",
+              "Shaoqing Ren",
+              "Jian Sun"
+            ],
+            "venue": "CVPR",
+            "year": 2016,
+            "quality": "顶会",
+            "categories": [
+              "image recognition",
+              "backbone"
+            ],
+            "link": "https://arxiv.org/abs/1512.03385",
+            "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -702,27 +702,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-5",
-            "sectionId": "llm-memory",
-            "title": "LongMem: Scaling Language Model Context with Memory-Augmented Retrieval",
-            "authors": [
-              "Zeqiu Wu",
-              "Yizhong Wang",
-              "Jiacheng Liu",
-              "Yelong Shen"
-            ],
-            "venue": "ACL Findings",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "memory",
-              "long context"
-            ],
-            "link": "https://arxiv.org/abs/2306.07174",
-            "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-6",
             "sectionId": "llm-memory",
@@ -742,7 +721,7 @@
             ],
             "link": "https://arxiv.org/abs/2409.05591",
             "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-1",
@@ -764,6 +743,27 @@
             "link": "https://arxiv.org/abs/2005.11401",
             "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-2",
+            "sectionId": "llm-memory",
+            "title": "Memorizing Transformers",
+            "authors": [
+              "Yuhuai Wu",
+              "Markus N. Rabe",
+              "DeLesley Hutchins",
+              "Christian Szegedy"
+            ],
+            "venue": "ICLR",
+            "year": 2022,
+            "quality": "顶会",
+            "categories": [
+              "memory",
+              "long context"
+            ],
+            "link": "https://arxiv.org/abs/2203.08913",
+            "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -773,27 +773,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-6",
-            "sectionId": "agents",
-            "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
-            "authors": [
-              "John Yang",
-              "Carlos E. Jimenez",
-              "Alexander Wettig",
-              "Karthik Narasimhan"
-            ],
-            "venue": "ICLR",
-            "year": 2025,
-            "quality": "新近代表作",
-            "categories": [
-              "software agent",
-              "benchmark"
-            ],
-            "link": "https://arxiv.org/abs/2405.15793",
-            "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-1",
             "sectionId": "agents",
@@ -814,7 +793,7 @@
             ],
             "link": "https://arxiv.org/abs/2210.03629",
             "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-2",
@@ -835,6 +814,27 @@
             ],
             "link": "https://arxiv.org/abs/2302.04761",
             "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-3",
+            "sectionId": "agents",
+            "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+            "authors": [
+              "Joon Sung Park",
+              "Joseph O'Brien",
+              "Carrie Cai",
+              "Meredith Ringel Morris"
+            ],
+            "venue": "UIST",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "agent society",
+              "memory"
+            ],
+            "link": "https://arxiv.org/abs/2304.03442",
+            "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
             "trackLabel": "轮换精选"
           }
         ]
