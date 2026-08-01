@@ -1,36 +1,28 @@
 {
-  "generatedAt": "2026-08-01T13:47:27.935Z",
+  "generatedAt": "2026-08-01T17:10:47.862Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 32,
-      "weatherCode": 0,
-      "windSpeed": 8
+      "temperature": 30,
+      "weatherCode": 1,
+      "windSpeed": 6
     },
     "today": {
-      "date": "2026-08-01",
-      "weatherCode": 51,
-      "description": "毛毛雨",
-      "max": 37,
+      "date": "2026-08-02",
+      "weatherCode": 96,
+      "description": "天气更新中",
+      "max": 33,
       "min": 27,
-      "precipitationProbability": 54
+      "precipitationProbability": 92
     },
     "forecast": [
-      {
-        "date": "2026-08-01",
-        "weatherCode": 51,
-        "description": "毛毛雨",
-        "max": 37,
-        "min": 27,
-        "precipitationProbability": 54
-      },
       {
         "date": "2026-08-02",
         "weatherCode": 96,
         "description": "天气更新中",
         "max": 33,
         "min": 27,
-        "precipitationProbability": 90
+        "precipitationProbability": 92
       },
       {
         "date": "2026-08-03",
@@ -38,7 +30,7 @@
         "description": "天气更新中",
         "max": 33,
         "min": 25,
-        "precipitationProbability": 95
+        "precipitationProbability": 92
       },
       {
         "date": "2026-08-04",
@@ -46,7 +38,7 @@
         "description": "小雨",
         "max": 32,
         "min": 24,
-        "precipitationProbability": 65
+        "precipitationProbability": 76
       },
       {
         "date": "2026-08-05",
@@ -54,33 +46,50 @@
         "description": "毛毛雨",
         "max": 34,
         "min": 25,
-        "precipitationProbability": 21
+        "precipitationProbability": 20
+      },
+      {
+        "date": "2026-08-06",
+        "weatherCode": 51,
+        "description": "毛毛雨",
+        "max": 35,
+        "min": 26,
+        "precipitationProbability": 20
       }
     ]
   },
   "classicQuote": {
-    "id": "taoteching-accumulate",
-    "text": "合抱之木，生于毫末；九层之台，起于累土。",
+    "id": "taoteching-self",
+    "text": "知人者智，自知者明；胜人者有力，自胜者强。",
     "source": "《道德经》",
     "author": "老子",
-    "note": "再大的目标，也要拆成今天能推进的一小步。"
+    "note": "比起和别人比较，更重要的是把自己的节奏稳住。"
   },
   "bookExcerpt": {
-    "id": "camel-xiangzi-sky",
-    "text": "天是越来越晴朗了，一轮火一样的太阳悬在空中，街上的一切都像在明晃晃地发着白光。",
-    "book": "《骆驼祥子》",
-    "author": "老舍"
+    "id": "norwegian-wood-rain",
+    "text": "雨还在下，细得像雾，落在草地和树叶上，世界像被一种安静的潮气轻轻包住。",
+    "book": "《挪威的森林》",
+    "author": "村上春树"
   },
   "featuredPlace": {
-    "id": "202607311600",
-    "title": "大批熔岩流涌入大洋，大岛，夏威夷州，美国",
+    "id": "202608011600",
+    "title": "马尔萨什洛克港口五彩斑斓的渔船，马耳他",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "基拉韦厄火山的威力",
-    "image": "https://www.bing.com/th?id=OHR.HawaiiLava_ZH-CN3257621771_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E5%A4%8F%E5%A8%81%E5%A4%B7%E7%81%AB%E5%B1%B1%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
+    "summary": "色彩鲜艳的船只，历久弥新的传统",
+    "image": "https://www.bing.com/th?id=OHR.HelsinkiBlue_ZH-CN3961551568_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E9%A9%AC%E8%80%B3%E4%BB%96%E9%A9%AC%E5%B0%94%E8%90%A8%E4%BB%80%E6%B4%9B%E5%85%8B&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202608011600",
+      "title": "马尔萨什洛克港口五彩斑斓的渔船，马耳他",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "色彩鲜艳的船只，历久弥新的传统",
+      "image": "https://www.bing.com/th?id=OHR.HelsinkiBlue_ZH-CN3961551568_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E9%A9%AC%E8%80%B3%E4%BB%96%E9%A9%AC%E5%B0%94%E8%90%A8%E4%BB%80%E6%B4%9B%E5%85%8B&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202607311600",
       "title": "大批熔岩流涌入大洋，大岛，夏威夷州，美国",
@@ -143,119 +152,126 @@
       "summary": "海陆际会，生机肇始",
       "image": "https://www.bing.com/th?id=OHR.RedMangroveSunrise_ZH-CN7940335392_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E4%BF%9D%E6%8A%A4%E7%BA%A2%E6%A0%91%E6%9E%97%E7%94%9F%E6%80%81%E7%B3%BB%E7%BB%9F%E5%9B%BD%E9%99%85%E6%97%A5&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202607241600",
-      "title": "大教堂海滩，加利西亚，西班牙",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "加境幽廊",
-      "image": "https://www.bing.com/th?id=OHR.GaliciaBeach_ZH-CN1246611659_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E8%A5%BF%E7%8F%AD%E7%89%99%E5%8A%A0%E5%88%A9%E8%A5%BF%E4%BA%9A&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-08-01",
-    "dateLabel": "8月1日",
+    "dateKey": "2026-08-02",
+    "dateLabel": "8月2日",
     "items": [
       {
-        "year": "2024",
-        "text": "美國等五個西方國家與俄羅斯、白俄羅斯在埃森博阿國際機場進行冷戰結束後最大規模的換俘行動，雙方共交換26人。",
-        "link": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4"
+        "year": "2022",
+        "text": "美國眾議院議長南希·裴洛西率領美國國會代表團抵達台北松山國際機場，對台灣展開外交訪問，成為紐特·金瑞契之後第二位訪台的眾議院議長。",
+        "link": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%9C%8B%E7%9C%BE%E8%AD%B0%E9%99%A2%E8%AD%B0%E9%95%B7"
       },
       {
-        "year": "2017",
-        "text": "阿富汗赫拉特一座清真寺发生自杀式袭击，造成20人死亡。",
-        "link": "https://zh.wikipedia.org/wiki/2017%E5%B9%B4"
+        "year": "2014",
+        "text": "一款名为“蝗虫”木马的手机病毒在中国疯狂肆虐。",
+        "link": "https://zh.wikipedia.org/wiki/2014%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "从算力底座到终端应用 “中国智造”全面出海",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-01/10670631.shtml",
-        "summary": "以高技术制造业、人工智能为代表的新兴产业，正成为我国经济的核心驱动力量。国家发展改革委今日在发布会上表示，上半年，人工智能相关行业保持30%以上的高增长。",
+        "title": "高端访谈丨专访斯洛伐克总统彼得·佩列格里尼",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-01/10670652.shtml",
+        "summary": "《高端访谈》专访斯洛伐克总统彼得·佩列格里尼。就任总统后首次对中国进行国事访问，佩列格里尼总统表示，“我看到了中国十多年来发生的巨大变化，今天的中国相较十多年前取得了显著发展，我真的非常钦佩。”他说，“我认为，在习近平主席的领导下，中国近年来取得了举世瞩目的发展成就。”",
         "image": "",
-        "publishedAt": "2026-08-01T13:45:43.000Z",
+        "publishedAt": "2026-08-01T14:36:24.000Z",
         "source": "中新网"
       },
       {
-        "title": "医保基金结算堵点加快打通 减轻群众就医负担",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-01/10670630.shtml",
-        "summary": "央视网消息(新闻联播)：近年来，我国不断提升医保管理服务水平，加快打通医保基金即时结算堵点，进一步减轻群众就医负担。国家医保局最新统计显示，今年1—5月，全国跨省异地就医直接结算1.47亿人次，涉及医疗总费用1503亿元，减少群众垫付资金886亿元。",
+        "title": "长江十年行｜一条金沙江，三座城，见证绿色发展之变",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-01/10670651.shtml",
+        "summary": "央广网昆明7月31日消息(记者 赵贝贝 见习记者 冯宜)金沙江一路奔腾，在云南境内蜿蜒千余公里，串联起雪山峡谷、干热河谷和港口码头，也见证着长江上游生态保护与绿色发展的时代变迁。长江经济带发展战略实施以来，云南坚持共抓大保护、不搞大开发，持续筑牢长江上游生态安全屏障，畅通通江达海开放通道。从丽江石鼓...",
         "image": "",
-        "publishedAt": "2026-08-01T13:43:33.000Z",
+        "publishedAt": "2026-08-01T14:31:46.000Z",
         "source": "中新网"
       },
       {
-        "title": "不断推动退役军人工作高质量发展",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-01/10670629.shtml",
-        "summary": "坚持为经济社会发展服务、为国防和军队建设服务",
+        "title": "活力中国调研行｜重器从这里出海",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-01/10670650.shtml",
+        "summary": "一台能扛17级超强台风的漂浮式风机，是怎么造出来的？关键零部件如何实现全部国产化？7月31日，记者走进金风科技温州深远海风电零碳总部基地总装车间，探秘大国重器的制造现场。",
         "image": "",
-        "publishedAt": "2026-08-01T13:41:47.000Z",
+        "publishedAt": "2026-08-01T14:29:04.000Z",
         "source": "中新网"
       },
       {
-        "title": "【长江十年行】长江十年 贵州用十个故事作答",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-01/10670628.shtml",
-        "summary": "长江，中华民族的母亲河，自唐古拉山的冰川发端，奔涌六千三百余公里，枝繁脉盛、河湖共生，横贯华夏大地。",
+        "title": "传承红色基因、矢志强军保家卫国！各地多种形式庆祝中国人民解放军建军99周年",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-01/10670649.shtml",
+        "summary": "央视网消息：8月1日是“八一”建军节，全军和武警部队官兵以多种形式庆祝中国人民解放军建军99周年，激励官兵传承红色基因、矢志强军保家卫国。",
         "image": "",
-        "publishedAt": "2026-08-01T13:37:33.000Z",
+        "publishedAt": "2026-08-01T14:26:24.000Z",
         "source": "中新网"
       },
       {
-        "title": "紧急修复铁路线、无人机空投保供应……多地“汛”速出击保通保畅保安全",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-01/10670626.shtml",
-        "summary": "央视网消息：当前正值“七下八上”防汛关键期，降雨范围广、局地雨强大，洪涝灾害风险较高。国家防总、应急管理部7月31日15时针对山西、黑龙江、陕西、青海启动防汛四级应急响应。",
+        "title": "伟大征程丨坚定不移听党指挥 向着世界一流军队迈进",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-01/10670646.shtml",
+        "summary": "今天是八一建军节。强国必须强军，军强才能国安。党的十八大以来，人民军队全面贯彻新时代党的强军思想，贯彻新时代军事战略方针，坚持党对人民军队的绝对领导，坚定不移走中国特色强军之路，固本开新、革弊鼎新、守正创新，实现整体性革命性重塑。",
         "image": "",
-        "publishedAt": "2026-08-01T13:31:00.000Z",
+        "publishedAt": "2026-08-01T14:20:29.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "首届全国青少年人工智能大赛决赛在沪开幕",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-01/10670619.shtml",
-        "summary": "中新网上海8月1日电 (记者 陈静)由中国福利会和中国妇女发展基金会共同主办的首届全国青少年人工智能大赛决赛(下称：大赛决赛)1日在上海开幕。开幕式融合传统文化与前沿科技，通过人工智能生成技术，打造“从甲骨文到量子计算”视觉长卷，实现历史文明与未来科技的跨时空对话，展现中国科技的传承与突破。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260801/86d6d632-ec42-4e0e-9948-b296d37c0165_zsite.jpg",
-        "publishedAt": "2026-08-01T13:33:02.000Z",
+        "title": "乘火车、飞机这些东西不能带 暑期出行攻略→",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-01/10670672.shtml",
+        "summary": "暑期出游、探亲、研学等日程排得满满当当，不光要玩得尽兴，还要注意出行安全，不要因为一时疏忽，耽误行程。",
+        "image": "",
+        "publishedAt": "2026-08-01T15:31:22.000Z",
         "source": "中新网"
       },
       {
-        "title": "中国农业大学首届“未来农业”国际暑期学校在京开幕",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-01/10670607.shtml",
-        "summary": "中新网北京8月1日电 (记者 曾玥)7月31日，中国农业大学首届“未来农业”国际暑期学校在该校正式开幕。本届暑期学校以“绿色技术与智能创新”为主题，汇聚来自中国、巴西、美国、日本、西班牙、泰国等国农业高校的百余名青年学子与专家学者，共同开启为期14天的研学与对话。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260801/2912453b-2684-42cb-862e-254ffce2bdc7_zsite.jpeg",
-        "publishedAt": "2026-08-01T12:56:36.000Z",
+        "title": "建军99周年，军号里的9个“第一次”",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-01/10670670.shtml",
+        "summary": "军号嘹亮，九十九载冲锋向前",
+        "image": "https://v-oss.cnsimg.net/cspimp/2026/08/1/2e8bc5e3-b431-4e34-b982-f4085dfffd4d.mp4",
+        "publishedAt": "2026-08-01T15:20:09.000Z",
         "source": "中新网"
       },
       {
-        "title": "浙江立法规范生成式人工智能领域妇女权益保护",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-01/10670599.shtml",
-        "summary": "中新网杭州8月1日电(张煜欢)8月1日记者获悉，《浙江省妇女权益保障条例》(下称《条例》)经浙江省第十四届人民代表大会常务委员会第二十五次会议审议通过，将于今年9月1日起正式施行。其中，针对数字时代下女性维权的新情况、新问题，该《条例》对新就业群体女性劳动者权益保障、生成式人工智能领域妇女权益保护等...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260801/43827e8b-2069-4faa-8d38-d3c605c39014_zsite.jpg",
-        "publishedAt": "2026-08-01T12:53:46.000Z",
+        "title": "国家防总、应急管理部针对重庆启动防汛四级应急响应",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-01/10670671.shtml",
+        "summary": "据气象部门预报，8月1日至3日，重庆部分地区有大到暴雨、局地大暴雨，山洪和地质灾害、中小河流洪水等灾害风险较高。根据《国家防汛抗旱应急预案》及有关规定，国家防总、应急管理部决定于8月1日22时针对重庆启动防汛四级应急响应。",
+        "image": "",
+        "publishedAt": "2026-08-01T15:09:51.000Z",
         "source": "中新网"
       },
       {
-        "title": "浙江今年首现超40℃气温",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-01/10670597.shtml",
-        "summary": "中新网杭州8月1日电(记者 王逸飞)由于副热带高压牢牢“控场”，浙江连日来出现高温酷热天气。8月第一天，该省多地气温超过40℃，这也是浙江今年首现超40℃的气温。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260801/263085f7-c3b8-4622-9de0-71f1140b32b3_zsite.jpg",
-        "publishedAt": "2026-08-01T12:51:34.000Z",
+        "title": "科技体验、夜间研学 暑期文旅花样上新",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-01/10670648.shtml",
+        "summary": "这个暑期，各地文旅活动花样上新。不少地方推出了科技体验、夜间研学等活动。",
+        "image": "",
+        "publishedAt": "2026-08-01T14:24:08.000Z",
         "source": "中新网"
       },
       {
-        "title": "（文化中国行）粉彩瓷绘：方寸瓷器物 匠心续古香",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-01/10670609.shtml",
-        "summary": "中新社景德镇8月1日电 题：粉彩瓷绘：方寸瓷器物 匠心续古香",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260801/eba801a6-bd97-4d7c-9dbe-56fa8c9de81f_zsite.JPG",
-        "publishedAt": "2026-08-01T12:50:50.000Z",
+        "title": "黄金市场成洗钱暗道？有人被骗近600万元！套路曝光→",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-01/10670633.shtml",
+        "summary": "近600万元，从上海的一个账户里消失，只用了几分钟。",
+        "image": "",
+        "publishedAt": "2026-08-01T13:50:15.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
+      {
+        "title": "暑运过半 中国铁路发送旅客超4.3亿人次",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-01/10670647.shtml",
+        "summary": "中新社北京8月1日电 (记者 刘文文)记者8月1日从中国国家铁路集团有限公司(简称“国铁集团”)获悉，铁路暑运自7月1日启动，至7月31日已过半程，其间全国铁路累计发送旅客4.32亿人次，铁路运输安全平稳有序。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260801/5309bf89-bc1e-4d0c-8f24-02571931425b_zsite.jpg",
+        "publishedAt": "2026-08-01T14:34:18.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "开局之年看中国·解码“产业大脑”｜数据大屏跳动，全球七成假睫毛跟着“起舞”",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-01/10670634.shtml",
+        "summary": "央广网青岛7月30日消息(记者唐磊)一个“产业大脑”，让全球七成假睫毛的“出生地”变了模样。",
+        "image": "",
+        "publishedAt": "2026-08-01T13:53:11.000Z",
+        "source": "中新网"
+      },
       {
         "title": "政策发力提效 推动经济持续向新向优向好发展",
         "link": "https://www.chinanews.com.cn/cj/2026/08-01/10670623.shtml",
@@ -279,25 +295,33 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260801/feeb977c-3888-42cd-b697-be4a49434d54_zsite.jpg",
         "publishedAt": "2026-08-01T12:57:08.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "（活力中国调研行）浙江绍兴：AI赋能硅片制造 加速半导体材料国产突围",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-01/10670613.shtml",
-        "summary": "中新网绍兴8月1日电(刘子琳 项菁)“半导体硅片制造装备搭载了AI视觉系统，可依靠成像算法实时捕捉晶体生长状态、研判工艺波动，即时给出最优工艺调整方案。”8月1日，在位于浙江绍兴上虞的浙江晶盛机电股份有限公司生产车间，一套套半导体硅片制造装备有序运转，该公司抛光设备研究所所长李阳健受访时如是说。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260801/0003b81b-2443-455a-907d-474ddfffc861_zsite.jpeg",
-        "publishedAt": "2026-08-01T12:53:02.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "海南第二批7家岛内居民日用消费品免税店1日起陆续开业",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-01/10670598.shtml",
-        "summary": "中新网海口8月1日电 (记者 王子谦)继今年2月首批5家岛内居民日用消费品免税店开业后，海南自贸港第二批7家岛内居民日用消费品免税店1日起陆续开业。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260801/48bbc136-fbbd-4173-9e48-43483e279105_zsite.jpg",
-        "publishedAt": "2026-08-01T12:52:32.000Z",
-        "source": "中新网"
       }
     ],
     "worldTop": [
+      {
+        "title": "Call for 'full review' as pressure grows on Infantino",
+        "link": "https://www.bbc.co.uk/sport/football/articles/c04kr2nv3v3o?at_medium=RSS&at_campaign=rss",
+        "summary": "The leadership of Fifa is publicly questioned by football's governing bodies in Europe, North and Central America and the Caribbean.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f8ad/live/497ab970-8d91-11f1-b2ab-0dd01740f9f6.jpg",
+        "publishedAt": "2026-08-01T17:07:46.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Spain attacks 'selfish' response of some EU countries to Ceuta migrant crossings",
+        "link": "https://www.bbc.co.uk/news/articles/cx2v91xn1z9o?at_medium=RSS&at_campaign=rss",
+        "summary": "Italy has temporarily suspended the Schengen arrangement with Spain as Prime Minister Giorgia Meloni called scenes in Ceuta \"shocking\".",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9964/live/578198d0-8dc9-11f1-a7ab-8b30adf0800a.jpg",
+        "publishedAt": "2026-08-01T15:46:08.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Mountaineer Nirmal Purja killed in Pakistan avalanche, his company says",
+        "link": "https://www.bbc.co.uk/news/articles/clyljq79kdko?at_medium=RSS&at_campaign=rss",
+        "summary": "The renowned mountaineer was known for scaling the world's 14 highest peaks in just over six months in 2019.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/22bc/live/9b18d720-8da6-11f1-9e26-8164f877b701.jpg",
+        "publishedAt": "2026-08-01T15:25:30.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Nine killed in strikes on Kyiv, as Ukraine sinks Russian container ship",
         "link": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss",
@@ -307,36 +331,12 @@
         "source": "BBC"
       },
       {
-        "title": "Mountaineer Nirmal Purja killed in Pakistan avalanche, his company says",
-        "link": "https://www.bbc.co.uk/news/articles/clyljq79kdko?at_medium=RSS&at_campaign=rss",
-        "summary": "The Nepali-born climber was known for scaling the world's 14 highest peaks in just over six months in 2019.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/22bc/live/9b18d720-8da6-11f1-9e26-8164f877b701.jpg",
-        "publishedAt": "2026-08-01T13:02:04.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Spain attacks 'selfish' response of some EU countries to Ceuta migrant crossings",
-        "link": "https://www.bbc.co.uk/news/articles/cx2v91xn1z9o?at_medium=RSS&at_campaign=rss",
-        "summary": "Italy has temporarily suspended the Schengen arrangement with Spain as Prime Minister Giorgia Meloni called scenes in Ceuta \"shocking\".",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b3e1/live/98c7dee0-8d7d-11f1-b2ab-0dd01740f9f6.jpg",
-        "publishedAt": "2026-08-01T12:43:21.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Uefa has 'lost confidence' in Infantino's Fifa leadership",
-        "link": "https://www.bbc.co.uk/sport/football/articles/c04kr2nv3v3o?at_medium=RSS&at_campaign=rss",
-        "summary": "The governing body of European football says Fifa president Gianni Infantino has \"failed to deliver\" on promises he made when elected 10 years ago.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f8ad/live/497ab970-8d91-11f1-b2ab-0dd01740f9f6.jpg",
-        "publishedAt": "2026-08-01T09:51:05.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Israeli West Bank settler tells BBC attacks on Palestinians are justified as revenge",
-        "link": "https://www.bbc.co.uk/news/articles/c4g4djgdyk2o?at_medium=RSS&at_campaign=rss",
-        "summary": "Settler violence against Palestinians is on the rise in the West Bank, as settlements and outposts expand.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/678b/live/ea29f390-8c56-11f1-b8ee-9b3c26ad07bb.jpg",
-        "publishedAt": "2026-08-01T05:01:56.000Z",
-        "source": "BBC"
+        "title": "World-renowned mountaineer Nirmal Purja confirmed dead after Pakistan avalanche",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRDNMdXFxcFFfdjN4dXhaZUFHUmotX1piS19GRTh4STBhRmlueE12aEh4U25oRXB3YmNJT0pWXzlrVVZmcG5CdGdEejZ3R0VQcXNjemxyTExERXh3dk01RVZfOUd0b0k3ZXJ0R0V6MmRvYlRpLWVUMURNSmgtcWJfOUQ3MnhVbGNkcVp4RmVfWnE?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-08-01T12:46:04.000Z",
+        "source": "CNN"
       }
     ],
     "worldBusiness": [
@@ -399,6 +399,14 @@
         "source": "BBC"
       },
       {
+        "title": "Girl’s undisclosed death in gene-editing trial raises red flags in booming Chinese industry",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWXhnRlpmMGRlVGF4NzlqSkZrMGEyQ1FqX0FjQ29OY1N5TzJkQjItdWxsNlNqckFsdlV0a1BDV2xsMjlJbHBUdHhYV3ItYU5mdjhsMXJYNGVMV2NrMzgxT1Z4TUJQM2VIak1DRE1kS2RHUkhyaFMwSmdDWXl2bGpfWUZR?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-07-31T04:04:08.000Z",
+        "source": "CNN"
+      },
+      {
         "title": "Amazon and Apple just told us more about their AI plans - here are three things we learned",
         "link": "https://www.bbc.co.uk/news/articles/cp87m46g392o?at_medium=RSS&at_campaign=rss",
         "summary": "Billions of dollars are being poured into a new wave of AI technology. But will it pay off?",
@@ -413,59 +421,75 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6e04/live/545ff320-8c2c-11f1-a7ab-8b30adf0800a.jpg",
         "publishedAt": "2026-07-31T00:42:48.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "India wants to join the strawberry superpowers",
-        "link": "https://www.bbc.co.uk/news/articles/c8x274xxxpwo?at_medium=RSS&at_campaign=rss",
-        "summary": "Indian strawberry farmers rely on varieties imported from the US and Europe, but that could change.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4dc8/live/4bdd6170-7920-11f1-a627-714adb4eed6e.jpg",
-        "publishedAt": "2026-07-30T22:04:09.000Z",
-        "source": "BBC"
       }
     ],
     "domestic": [
       {
-        "title": "从算力底座到终端应用 “中国智造”全面出海",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-01/10670631.shtml",
-        "summary": "以高技术制造业、人工智能为代表的新兴产业，正成为我国经济的核心驱动力量。国家发展改革委今日在发布会上表示，上半年，人工智能相关行业保持30%以上的高增长。",
+        "title": "高端访谈丨专访斯洛伐克总统彼得·佩列格里尼",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-01/10670652.shtml",
+        "summary": "《高端访谈》专访斯洛伐克总统彼得·佩列格里尼。就任总统后首次对中国进行国事访问，佩列格里尼总统表示，“我看到了中国十多年来发生的巨大变化，今天的中国相较十多年前取得了显著发展，我真的非常钦佩。”他说，“我认为，在习近平主席的领导下，中国近年来取得了举世瞩目的发展成就。”",
         "image": "",
-        "publishedAt": "2026-08-01T13:45:43.000Z",
+        "publishedAt": "2026-08-01T14:36:24.000Z",
         "source": "中新网"
       },
       {
-        "title": "医保基金结算堵点加快打通 减轻群众就医负担",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-01/10670630.shtml",
-        "summary": "央视网消息(新闻联播)：近年来，我国不断提升医保管理服务水平，加快打通医保基金即时结算堵点，进一步减轻群众就医负担。国家医保局最新统计显示，今年1—5月，全国跨省异地就医直接结算1.47亿人次，涉及医疗总费用1503亿元，减少群众垫付资金886亿元。",
+        "title": "长江十年行｜一条金沙江，三座城，见证绿色发展之变",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-01/10670651.shtml",
+        "summary": "央广网昆明7月31日消息(记者 赵贝贝 见习记者 冯宜)金沙江一路奔腾，在云南境内蜿蜒千余公里，串联起雪山峡谷、干热河谷和港口码头，也见证着长江上游生态保护与绿色发展的时代变迁。长江经济带发展战略实施以来，云南坚持共抓大保护、不搞大开发，持续筑牢长江上游生态安全屏障，畅通通江达海开放通道。从丽江石鼓...",
         "image": "",
-        "publishedAt": "2026-08-01T13:43:33.000Z",
+        "publishedAt": "2026-08-01T14:31:46.000Z",
         "source": "中新网"
       },
       {
-        "title": "不断推动退役军人工作高质量发展",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-01/10670629.shtml",
-        "summary": "坚持为经济社会发展服务、为国防和军队建设服务",
+        "title": "活力中国调研行｜重器从这里出海",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-01/10670650.shtml",
+        "summary": "一台能扛17级超强台风的漂浮式风机，是怎么造出来的？关键零部件如何实现全部国产化？7月31日，记者走进金风科技温州深远海风电零碳总部基地总装车间，探秘大国重器的制造现场。",
         "image": "",
-        "publishedAt": "2026-08-01T13:41:47.000Z",
+        "publishedAt": "2026-08-01T14:29:04.000Z",
         "source": "中新网"
       },
       {
-        "title": "【长江十年行】长江十年 贵州用十个故事作答",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-01/10670628.shtml",
-        "summary": "长江，中华民族的母亲河，自唐古拉山的冰川发端，奔涌六千三百余公里，枝繁脉盛、河湖共生，横贯华夏大地。",
+        "title": "传承红色基因、矢志强军保家卫国！各地多种形式庆祝中国人民解放军建军99周年",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-01/10670649.shtml",
+        "summary": "央视网消息：8月1日是“八一”建军节，全军和武警部队官兵以多种形式庆祝中国人民解放军建军99周年，激励官兵传承红色基因、矢志强军保家卫国。",
         "image": "",
-        "publishedAt": "2026-08-01T13:37:33.000Z",
+        "publishedAt": "2026-08-01T14:26:24.000Z",
         "source": "中新网"
       },
       {
-        "title": "紧急修复铁路线、无人机空投保供应……多地“汛”速出击保通保畅保安全",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-01/10670626.shtml",
-        "summary": "央视网消息：当前正值“七下八上”防汛关键期，降雨范围广、局地雨强大，洪涝灾害风险较高。国家防总、应急管理部7月31日15时针对山西、黑龙江、陕西、青海启动防汛四级应急响应。",
+        "title": "伟大征程丨坚定不移听党指挥 向着世界一流军队迈进",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-01/10670646.shtml",
+        "summary": "今天是八一建军节。强国必须强军，军强才能国安。党的十八大以来，人民军队全面贯彻新时代党的强军思想，贯彻新时代军事战略方针，坚持党对人民军队的绝对领导，坚定不移走中国特色强军之路，固本开新、革弊鼎新、守正创新，实现整体性革命性重塑。",
         "image": "",
-        "publishedAt": "2026-08-01T13:31:00.000Z",
+        "publishedAt": "2026-08-01T14:20:29.000Z",
         "source": "中新网"
       }
     ],
     "international": [
+      {
+        "title": "Call for 'full review' as pressure grows on Infantino",
+        "link": "https://www.bbc.co.uk/sport/football/articles/c04kr2nv3v3o?at_medium=RSS&at_campaign=rss",
+        "summary": "The leadership of Fifa is publicly questioned by football's governing bodies in Europe, North and Central America and the Caribbean.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f8ad/live/497ab970-8d91-11f1-b2ab-0dd01740f9f6.jpg",
+        "publishedAt": "2026-08-01T17:07:46.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Spain attacks 'selfish' response of some EU countries to Ceuta migrant crossings",
+        "link": "https://www.bbc.co.uk/news/articles/cx2v91xn1z9o?at_medium=RSS&at_campaign=rss",
+        "summary": "Italy has temporarily suspended the Schengen arrangement with Spain as Prime Minister Giorgia Meloni called scenes in Ceuta \"shocking\".",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9964/live/578198d0-8dc9-11f1-a7ab-8b30adf0800a.jpg",
+        "publishedAt": "2026-08-01T15:46:08.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Mountaineer Nirmal Purja killed in Pakistan avalanche, his company says",
+        "link": "https://www.bbc.co.uk/news/articles/clyljq79kdko?at_medium=RSS&at_campaign=rss",
+        "summary": "The renowned mountaineer was known for scaling the world's 14 highest peaks in just over six months in 2019.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/22bc/live/9b18d720-8da6-11f1-9e26-8164f877b701.jpg",
+        "publishedAt": "2026-08-01T15:25:30.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Nine killed in strikes on Kyiv, as Ukraine sinks Russian container ship",
         "link": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss",
@@ -475,48 +499,20 @@
         "source": "BBC"
       },
       {
-        "title": "Mountaineer Nirmal Purja killed in Pakistan avalanche, his company says",
-        "link": "https://www.bbc.co.uk/news/articles/clyljq79kdko?at_medium=RSS&at_campaign=rss",
-        "summary": "The Nepali-born climber was known for scaling the world's 14 highest peaks in just over six months in 2019.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/22bc/live/9b18d720-8da6-11f1-9e26-8164f877b701.jpg",
-        "publishedAt": "2026-08-01T13:02:04.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Spain attacks 'selfish' response of some EU countries to Ceuta migrant crossings",
-        "link": "https://www.bbc.co.uk/news/articles/cx2v91xn1z9o?at_medium=RSS&at_campaign=rss",
-        "summary": "Italy has temporarily suspended the Schengen arrangement with Spain as Prime Minister Giorgia Meloni called scenes in Ceuta \"shocking\".",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b3e1/live/98c7dee0-8d7d-11f1-b2ab-0dd01740f9f6.jpg",
-        "publishedAt": "2026-08-01T12:43:21.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Uefa has 'lost confidence' in Infantino's Fifa leadership",
-        "link": "https://www.bbc.co.uk/sport/football/articles/c04kr2nv3v3o?at_medium=RSS&at_campaign=rss",
-        "summary": "The governing body of European football says Fifa president Gianni Infantino has \"failed to deliver\" on promises he made when elected 10 years ago.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f8ad/live/497ab970-8d91-11f1-b2ab-0dd01740f9f6.jpg",
-        "publishedAt": "2026-08-01T09:51:05.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Israeli West Bank settler tells BBC attacks on Palestinians are justified as revenge",
-        "link": "https://www.bbc.co.uk/news/articles/c4g4djgdyk2o?at_medium=RSS&at_campaign=rss",
-        "summary": "Settler violence against Palestinians is on the rise in the West Bank, as settlements and outposts expand.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/678b/live/ea29f390-8c56-11f1-b8ee-9b3c26ad07bb.jpg",
-        "publishedAt": "2026-08-01T05:01:56.000Z",
-        "source": "BBC"
+        "title": "World-renowned mountaineer Nirmal Purja confirmed dead after Pakistan avalanche",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRDNMdXFxcFFfdjN4dXhaZUFHUmotX1piS19GRTh4STBhRmlueE12aEh4U25oRXB3YmNJT0pWXzlrVVZmcG5CdGdEejZ3R0VQcXNjemxyTExERXh3dk01RVZfOUd0b0k3ZXJ0R0V6MmRvYlRpLWVUMURNSmgtcWJfOUQ3MnhVbGNkcVp4RmVfWnE?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-08-01T12:46:04.000Z",
+        "source": "CNN"
       }
     ],
     "nba": []
   },
   "nbaScoreboard": {
-    "date": "2026-08-01",
+    "date": "2026-08-02",
     "currentIndex": 4,
     "days": [
-      {
-        "date": "2026-07-28",
-        "games": []
-      },
       {
         "date": "2026-07-29",
         "games": []
@@ -548,12 +544,16 @@
       {
         "date": "2026-08-05",
         "games": []
+      },
+      {
+        "date": "2026-08-06",
+        "games": []
       }
     ],
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-08-01",
+    "rotationLabel": "Curated Rotation · 2026-08-02",
     "sections": [
       {
         "id": "data-storage",
@@ -561,27 +561,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-2",
-            "sectionId": "data-storage",
-            "title": "Bigtable: A Distributed Storage System for Structured Data",
-            "authors": [
-              "Fay Chang",
-              "Jeffrey Dean",
-              "Sanjay Ghemawat",
-              "Wilson C. Hsieh"
-            ],
-            "venue": "OSDI",
-            "year": 2006,
-            "quality": "顶会",
-            "categories": [
-              "distributed systems",
-              "database"
-            ],
-            "link": "https://research.google/pubs/pub27898/",
-            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-3",
             "sectionId": "data-storage",
@@ -601,7 +580,7 @@
             ],
             "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
             "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-4",
@@ -623,6 +602,26 @@
             "link": "https://research.google/pubs/pub36632/",
             "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-5",
+            "sectionId": "data-storage",
+            "title": "The FAISS Library",
+            "authors": [
+              "Jeff Johnson",
+              "Matthijs Douze",
+              "Herve Jegou"
+            ],
+            "venue": "IEEE T-BD",
+            "year": 2021,
+            "quality": "高影响力",
+            "categories": [
+              "vector search",
+              "ANN"
+            ],
+            "link": "https://arxiv.org/abs/2401.08281",
+            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -632,27 +631,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-3",
-            "sectionId": "computer-vision",
-            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
-            "authors": [
-              "Alexey Dosovitskiy",
-              "Lucas Beyer",
-              "Alexander Kolesnikov",
-              "Dirk Weissenborn"
-            ],
-            "venue": "ICLR",
-            "year": 2021,
-            "quality": "顶会",
-            "categories": [
-              "vision transformer",
-              "classification"
-            ],
-            "link": "https://arxiv.org/abs/2010.11929",
-            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-4",
             "sectionId": "computer-vision",
@@ -672,7 +650,7 @@
             ],
             "link": "https://arxiv.org/abs/2103.00020",
             "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-5",
@@ -694,6 +672,27 @@
             "link": "https://arxiv.org/abs/2304.02643",
             "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-6",
+            "sectionId": "computer-vision",
+            "title": "DINOv2: Learning Robust Visual Features without Supervision",
+            "authors": [
+              "Maxime Oquab",
+              "Timothée Darcet",
+              "Théo Moutakanni",
+              "Huy V. Vo"
+            ],
+            "venue": "arXiv / Meta",
+            "year": 2023,
+            "quality": "高影响力",
+            "categories": [
+              "self-supervised",
+              "representation"
+            ],
+            "link": "https://arxiv.org/abs/2304.07193",
+            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -703,27 +702,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-4",
-            "sectionId": "llm-memory",
-            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
-            "authors": [
-              "Akari Asai",
-              "Zequn Zhang",
-              "Avirup Sil",
-              "Hannaneh Hajishirzi"
-            ],
-            "venue": "ICLR",
-            "year": 2024,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "self-reflection"
-            ],
-            "link": "https://arxiv.org/abs/2310.11511",
-            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-5",
             "sectionId": "llm-memory",
@@ -743,7 +721,7 @@
             ],
             "link": "https://arxiv.org/abs/2306.07174",
             "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-6",
@@ -765,6 +743,27 @@
             "link": "https://arxiv.org/abs/2409.05591",
             "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-1",
+            "sectionId": "llm-memory",
+            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+            "authors": [
+              "Patrick Lewis",
+              "Ethan Perez",
+              "Aleksandra Piktus",
+              "Fabio Petroni"
+            ],
+            "venue": "NeurIPS",
+            "year": 2020,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "retrieval"
+            ],
+            "link": "https://arxiv.org/abs/2005.11401",
+            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -774,27 +773,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-5",
-            "sectionId": "agents",
-            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
-            "authors": [
-              "Qingyun Wu",
-              "Gagan Bansal",
-              "Jiaqi Zhang",
-              "Yiran Wu"
-            ],
-            "venue": "COLM",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "multi-agent",
-              "framework"
-            ],
-            "link": "https://arxiv.org/abs/2308.08155",
-            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-6",
             "sectionId": "agents",
@@ -814,7 +792,7 @@
             ],
             "link": "https://arxiv.org/abs/2405.15793",
             "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-1",
@@ -836,6 +814,27 @@
             ],
             "link": "https://arxiv.org/abs/2210.03629",
             "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-2",
+            "sectionId": "agents",
+            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+            "authors": [
+              "Timo Schick",
+              "Jane Dwivedi-Yu",
+              "Roberta Dessì",
+              "Ari Holtzman"
+            ],
+            "venue": "NeurIPS",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "tool use",
+              "agent"
+            ],
+            "link": "https://arxiv.org/abs/2302.04761",
+            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
             "trackLabel": "轮换精选"
           }
         ]
