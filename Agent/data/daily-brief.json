@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-08-02T17:11:15.881Z",
+  "generatedAt": "2026-08-02T21:06:51.346Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
       "temperature": 26,
-      "weatherCode": 3,
-      "windSpeed": 2
+      "weatherCode": 0,
+      "windSpeed": 4
     },
     "today": {
       "date": "2026-08-03",
       "weatherCode": 96,
       "description": "天气更新中",
-      "max": 32,
-      "min": 26,
+      "max": 35,
+      "min": 25,
       "precipitationProbability": 100
     },
     "forecast": [
@@ -20,14 +20,14 @@
         "date": "2026-08-03",
         "weatherCode": 96,
         "description": "天气更新中",
-        "max": 32,
-        "min": 26,
+        "max": 35,
+        "min": 25,
         "precipitationProbability": 100
       },
       {
         "date": "2026-08-04",
-        "weatherCode": 53,
-        "description": "小雨",
+        "weatherCode": 95,
+        "description": "雷暴",
         "max": 31,
         "min": 25,
         "precipitationProbability": 88
@@ -36,15 +36,15 @@
         "date": "2026-08-05",
         "weatherCode": 3,
         "description": "阴天",
-        "max": 33,
-        "min": 25,
+        "max": 34,
+        "min": 24,
         "precipitationProbability": 31
       },
       {
         "date": "2026-08-06",
         "weatherCode": 3,
         "description": "阴天",
-        "max": 35,
+        "max": 34,
         "min": 26,
         "precipitationProbability": 20
       },
@@ -52,7 +52,7 @@
         "date": "2026-08-07",
         "weatherCode": 96,
         "description": "天气更新中",
-        "max": 33,
+        "max": 36,
         "min": 26,
         "precipitationProbability": 57
       }
@@ -215,6 +215,14 @@
     ],
     "chinaSociety": [
       {
+        "title": "四川宜宾市高县发生4.8级地震 震源深度6千米",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-03/10670962.shtml",
+        "summary": "中新网8月3日电 中国地震台网正式测定：08月03日02时21分在四川宜宾市高县(北纬28.54度，东经104.67度)发生4.8级地震，震源深度6千米。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/08/03/171f81e8b0ce4cc3b748c076fc1d1180.jpg",
+        "publishedAt": "2026-08-02T21:02:59.000Z",
+        "source": "中新网"
+      },
+      {
         "title": "青海海南州兴海县发生3.6级地震 震源深度10千米",
         "link": "https://www.chinanews.com.cn/sh/2026/08-02/10670959.shtml",
         "summary": "中新网8月2日电 中国地震台网正式测定：08月02日22时37分在青海海南州兴海县(北纬35.36度，东经99.51度)发生3.6级地震，震源深度10千米。",
@@ -244,14 +252,6 @@
         "summary": "西藏阿里，札达县，曲松乡。",
         "image": "",
         "publishedAt": "2026-08-02T14:19:40.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "铸牢中华民族共同体意识丨戈壁清泉畔的岁岁相守",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-02/10670954.shtml",
-        "summary": "天山网-新疆日报记者 杨舒涵",
-        "image": "",
-        "publishedAt": "2026-08-02T14:16:24.000Z",
         "source": "中新网"
       }
     ],
@@ -299,6 +299,14 @@
     ],
     "worldTop": [
       {
+        "title": "Two crew killed after firefighting helicopters collide in Greece, as British pilot survives",
+        "link": "https://www.bbc.co.uk/news/articles/c1417713ve6o?at_medium=RSS&at_campaign=rss",
+        "summary": "One Danish and one Greek national died in the incident, while a British pilot and another Greek crew member survived.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/04be/live/be742720-8ea4-11f1-a7ab-8b30adf0800a.jpg",
+        "publishedAt": "2026-08-02T20:36:37.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "At least 13 killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
         "link": "https://www.bbc.co.uk/news/articles/czjlvvkzj20o?at_medium=RSS&at_campaign=rss",
         "summary": "Israel says it was targeting military operatives in the strikes on Gaza City, Khan Younis and Deir el-Balah.",
@@ -312,14 +320,6 @@
         "summary": "Russia's military says it attacked Ukraine's ports and vessels in the Black Sea overnight.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f50c/live/991bec40-8e83-11f1-9469-c37ab1100afc.png",
         "publishedAt": "2026-08-02T15:48:00.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Helicopters fighting Greece wildfires collide in mid-air",
-        "link": "https://www.bbc.co.uk/news/articles/c1417713ve6o?at_medium=RSS&at_campaign=rss",
-        "summary": "Video of the incident shows one of the helicopters hitting the propellers of the other, which bursts into flames.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/282d/live/2cbdf280-8e80-11f1-a7ab-8b30adf0800a.jpg",
-        "publishedAt": "2026-08-02T15:21:56.000Z",
         "source": "BBC"
       },
       {
@@ -373,11 +373,11 @@
         "source": "BBC"
       },
       {
-        "title": "The market’s big AI doubts are exposing the riskiest players",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOUN5MkpWcGhDZ0N1cUhmRVNDd2FLc1lnN1lRVllTUGVHTUNBM0NsQVNYNjZzdHdmX1JUdll5SmVYNlVTdnJ2ckNHSEtpSHNoX0VsLWJvWUxuakhmaGlIMFVrMWRjc0c0T2hmTmRJbVlaRVlGS1FxZXVvN2RXYWxqWUFvMVU?oc=5",
+        "title": "Fed officials warn not raising interest rates was a mistake",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5iM1hMcDFyNFhVY1lJVlVCdGxHMjZKQmhqU0UyQkZQb0psLW5PS3pmWGtnNjd3SnQ0VmJjVUd0VTR2ZmNvMkpQbGZsRC0tcEFCRWVaLXFNbXJ3V3ZXMkVXYjU2UjYzWHFQZkZPN25peGNyU2V1M1E?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-07-31T16:24:07.000Z",
+        "publishedAt": "2026-07-31T12:43:53.000Z",
         "source": "CNN"
       }
     ],
@@ -407,19 +407,19 @@
         "source": "CNN"
       },
       {
+        "title": "Girl’s undisclosed death in gene-editing trial raises red flags in booming Chinese industry",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWXhnRlpmMGRlVGF4NzlqSkZrMGEyQ1FqX0FjQ29OY1N5TzJkQjItdWxsNlNqckFsdlV0a1BDV2xsMjlJbHBUdHhYV3ItYU5mdjhsMXJYNGVMV2NrMzgxT1Z4TUJQM2VIak1DRE1kS2RHUkhyaFMwSmdDWXl2bGpfWUZR?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-07-31T04:02:18.000Z",
+        "source": "CNN"
+      },
+      {
         "title": "Amazon and Apple just told us more about their AI plans - here are three things we learned",
         "link": "https://www.bbc.co.uk/news/articles/cp87m46g392o?at_medium=RSS&at_campaign=rss",
         "summary": "Billions of dollars are being poured into a new wave of AI technology. But will it pay off?",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f63b/live/04fbebb0-8c7f-11f1-8972-83c327826a89.jpg",
         "publishedAt": "2026-07-31T01:31:50.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "How police are trying to divert teen hackers away from crime",
-        "link": "https://www.bbc.co.uk/news/articles/cn0nqpy1rk4o?at_medium=RSS&at_campaign=rss",
-        "summary": "Cyber Prevent is targeting predominantly boys and young men at risk of being drawn to cyber criminality.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6e04/live/545ff320-8c2c-11f1-a7ab-8b30adf0800a.jpg",
-        "publishedAt": "2026-07-31T00:42:48.000Z",
         "source": "BBC"
       }
     ],
@@ -467,6 +467,14 @@
     ],
     "international": [
       {
+        "title": "Two crew killed after firefighting helicopters collide in Greece, as British pilot survives",
+        "link": "https://www.bbc.co.uk/news/articles/c1417713ve6o?at_medium=RSS&at_campaign=rss",
+        "summary": "One Danish and one Greek national died in the incident, while a British pilot and another Greek crew member survived.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/04be/live/be742720-8ea4-11f1-a7ab-8b30adf0800a.jpg",
+        "publishedAt": "2026-08-02T20:36:37.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "At least 13 killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
         "link": "https://www.bbc.co.uk/news/articles/czjlvvkzj20o?at_medium=RSS&at_campaign=rss",
         "summary": "Israel says it was targeting military operatives in the strikes on Gaza City, Khan Younis and Deir el-Balah.",
@@ -480,14 +488,6 @@
         "summary": "Russia's military says it attacked Ukraine's ports and vessels in the Black Sea overnight.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f50c/live/991bec40-8e83-11f1-9469-c37ab1100afc.png",
         "publishedAt": "2026-08-02T15:48:00.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Helicopters fighting Greece wildfires collide in mid-air",
-        "link": "https://www.bbc.co.uk/news/articles/c1417713ve6o?at_medium=RSS&at_campaign=rss",
-        "summary": "Video of the incident shows one of the helicopters hitting the propellers of the other, which bursts into flames.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/282d/live/2cbdf280-8e80-11f1-a7ab-8b30adf0800a.jpg",
-        "publishedAt": "2026-08-02T15:21:56.000Z",
         "source": "BBC"
       },
       {
