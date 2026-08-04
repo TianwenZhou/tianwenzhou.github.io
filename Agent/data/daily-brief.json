@@ -1,36 +1,28 @@
 {
-  "generatedAt": "2026-08-04T14:35:24.438Z",
+  "generatedAt": "2026-08-04T18:00:27.834Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 29,
-      "weatherCode": 2,
-      "windSpeed": 1
+      "temperature": 27,
+      "weatherCode": 0,
+      "windSpeed": 0
     },
     "today": {
-      "date": "2026-08-04",
+      "date": "2026-08-05",
       "weatherCode": 53,
       "description": "小雨",
-      "max": 35,
-      "min": 25,
-      "precipitationProbability": 82
+      "max": 36,
+      "min": 26,
+      "precipitationProbability": 45
     },
     "forecast": [
-      {
-        "date": "2026-08-04",
-        "weatherCode": 53,
-        "description": "小雨",
-        "max": 35,
-        "min": 25,
-        "precipitationProbability": 82
-      },
       {
         "date": "2026-08-05",
         "weatherCode": 53,
         "description": "小雨",
         "max": 36,
         "min": 26,
-        "precipitationProbability": 33
+        "precipitationProbability": 45
       },
       {
         "date": "2026-08-06",
@@ -38,7 +30,7 @@
         "description": "毛毛雨",
         "max": 37,
         "min": 27,
-        "precipitationProbability": 12
+        "precipitationProbability": 4
       },
       {
         "date": "2026-08-07",
@@ -46,7 +38,7 @@
         "description": "天气更新中",
         "max": 37,
         "min": 25,
-        "precipitationProbability": 88
+        "precipitationProbability": 85
       },
       {
         "date": "2026-08-08",
@@ -54,33 +46,50 @@
         "description": "阵雨",
         "max": 30,
         "min": 24,
-        "precipitationProbability": 53
+        "precipitationProbability": 62
+      },
+      {
+        "date": "2026-08-09",
+        "weatherCode": 0,
+        "description": "晴朗",
+        "max": 31,
+        "min": 22,
+        "precipitationProbability": 0
       }
     ]
   },
   "classicQuote": {
-    "id": "dream-red-mansions",
-    "text": "世事洞明皆学问，人情练达即文章。",
-    "source": "《红楼梦》",
-    "author": "曹雪芹",
-    "note": "技术之外，理解人和场景，往往更能拉开差距。"
+    "id": "mencius-perseverance",
+    "text": "虽千万人，吾往矣。",
+    "source": "《孟子》",
+    "author": "孟子",
+    "note": "认准方向之后，关键是稳稳地往前走。"
   },
   "bookExcerpt": {
-    "id": "floating-life-lotus",
-    "text": "芸坐其侧，素手烹茶，窗外新荷微香，连晚风也像带着水意，从竹帘间一寸寸地漫进来。",
-    "book": "《浮生六记》",
-    "author": "沈复"
+    "id": "red-mansion-snow",
+    "text": "只见大地白茫茫一片真干净，山川树木都隐在雪光里，天地像忽然静下来，只余风过回廊的细响。",
+    "book": "《红楼梦》",
+    "author": "曹雪芹"
   },
   "featuredPlace": {
-    "id": "202608031600",
-    "title": "佛罗里达穴鸮幼鸟，开普科拉尔，佛罗里达州，美国",
+    "id": "202608041600",
+    "title": "非斯皇宫装饰华丽的大门，摩洛哥",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "呼呼，太棒了！",
-    "image": "https://www.bing.com/th?id=OHR.AdorableOwlet_ZH-CN6929234033_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E7%8C%AB%E5%A4%B4%E9%B9%B0&form=hpcapt&mkt=zh-cn"
+    "summary": "秘境之门，匠心传世",
+    "image": "https://www.bing.com/th?id=OHR.FezMorocco_ZH-CN7662339428_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E9%9D%9E%E6%96%AF%E7%9A%87%E5%AE%AB&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202608041600",
+      "title": "非斯皇宫装饰华丽的大门，摩洛哥",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "秘境之门，匠心传世",
+      "image": "https://www.bing.com/th?id=OHR.FezMorocco_ZH-CN7662339428_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E9%9D%9E%E6%96%AF%E7%9A%87%E5%AE%AB&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202608031600",
       "title": "佛罗里达穴鸮幼鸟，开普科拉尔，佛罗里达州，美国",
@@ -143,35 +152,34 @@
       "summary": "虎啸归来，锐爪重临",
       "image": "https://www.bing.com/th?id=OHR.TigerFamily_ZH-CN9064744163_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E5%85%A8%E7%90%83%E8%80%81%E8%99%8E%E6%97%A5&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202607271600",
-      "title": "一片海藻林在安纳卡帕岛附近，海峡群岛国家公园，加利福尼亚州，美国",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "生机律动，恒久之衡",
-      "image": "https://www.bing.com/th?id=OHR.ChannelKelp_ZH-CN8732903732_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E8%87%AA%E7%84%B6%E4%BF%9D%E6%8A%A4%E6%97%A5&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-08-04",
-    "dateLabel": "8月4日",
+    "dateKey": "2026-08-05",
+    "dateLabel": "8月5日",
     "items": [
       {
-        "year": "2020",
-        "text": "黎巴嫩首都貝魯特貝魯特港發生嚴重爆炸事故，造成至少200人死亡和6,500多人受傷。",
-        "link": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4"
+        "year": "2024",
+        "text": "在2024年孟加拉國公職配額改革運動示威者攻入總理府後，孟加拉總理謝赫·哈西娜辭職並流亡。",
+        "link": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4"
       },
       {
         "year": "2019",
-        "text": "美国接连发生两起枪击案，俄亥俄州代顿的枪击案造成10人死亡，27人受伤，德克萨斯州埃尔帕索的枪击案造成23人死亡。",
+        "text": "香港發動全港大罷工。",
         "link": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
+      {
+        "title": "我国加快构建绿色低碳电力供给格局",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-04/10672051.shtml",
+        "summary": "央视新闻客户端消息(新闻联播)：《新型电力系统建设“十五五”规划》今天(8月3日)发布，规划提出，到2030年，我国将基本形成绿色低碳的电力供给格局，为经济社会发展提供坚实能源保障。",
+        "image": "",
+        "publishedAt": "2026-08-04T14:31:44.000Z",
+        "source": "中新网"
+      },
       {
         "title": "从破题到奔向万亿，上半年上海三大先导产业制造业产值同比增长14.5%",
         "link": "https://www.chinanews.com.cn/gn/2026/08-04/10672049.shtml",
@@ -202,14 +210,6 @@
         "summary": "1935年召开的遵义会议，是中国革命生死攸关的伟大转折点。长征胜利90周年之际，长安大学青年学子于近日走进遵义会议纪念馆，踏寻红色足迹，聆听跨越百年的长征回响。",
         "image": "",
         "publishedAt": "2026-08-04T14:05:17.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "国防部新闻发言人陈曦就日本政府2026版《防卫白皮书》答记者问",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-04/10671981.shtml",
-        "summary": "中新网8月4日电 据“国防部发布”微信公众号消息，国防部新闻发言人陈曦就日本政府2026版《防卫白皮书》答记者问。",
-        "image": "",
-        "publishedAt": "2026-08-04T13:02:17.000Z",
         "source": "中新网"
       }
     ],
@@ -299,19 +299,35 @@
     ],
     "worldTop": [
       {
-        "title": "Mass funeral in Gaza for 112 Palestinians killed in 2023 Israeli strike",
-        "link": "https://www.bbc.co.uk/news/articles/cn0n99npjejo?at_medium=RSS&at_campaign=rss",
-        "summary": "The bodies - belonging to members of two extended families - have only recently been recovered from under rubble in Gaza City.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0f64/live/3c5e9520-8fff-11f1-9dfb-fd4408d16f2f.jpg",
-        "publishedAt": "2026-08-04T13:59:24.000Z",
+        "title": "Video shows Russian drone chasing Ukrainian street vendor in 'human safari' attack",
+        "link": "https://www.bbc.co.uk/news/articles/cn4n03xg981o?at_medium=RSS&at_campaign=rss",
+        "summary": "Ukraine said the video - showing a terrified civilian being hounded by a remotely-controlled drone - amounted to a war crime.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8528/live/11898c20-9026-11f1-b2ab-0dd01740f9f6.jpg",
+        "publishedAt": "2026-08-04T17:26:06.000Z",
         "source": "BBC"
       },
       {
-        "title": "More than 150 migrants rescued after boat catches fire in Channel",
+        "title": "More than 170 migrants rescued after boat catches fire in Channel",
         "link": "https://www.bbc.co.uk/news/articles/c4gkpeppjyqo?at_medium=RSS&at_campaign=rss",
-        "summary": "The boat was attempting to cross to the UK when its engine caught fire, according to French authorities.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/72e6/live/08945d60-8ff0-11f1-a10e-47119dd4425c.jpg",
-        "publishedAt": "2026-08-04T11:19:08.000Z",
+        "summary": "The government says all of the migrants, who were attempting to cross to the UK, will be returned to France.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d785/live/d18261f0-9012-11f1-aabc-c3c7aa714117.jpg",
+        "publishedAt": "2026-08-04T17:25:41.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Oil prices fall on hopes Strait of Hormuz could reopen",
+        "link": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss",
+        "summary": "US Secretary of State Marco Rubio and Treasury Secretary Scott Bessent both announced talks had progressed to allow shipments to resume.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5e55/live/0e092f10-9012-11f1-aabc-c3c7aa714117.jpg",
+        "publishedAt": "2026-08-04T17:06:17.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "EU commends Spain's 'swift response' to Ceuta migrant crisis",
+        "link": "https://www.bbc.co.uk/news/articles/c80n3j55g0do?at_medium=RSS&at_campaign=rss",
+        "summary": "About 70,000 of the 72,000 people who came to Ceuta illegally last week have been returned to Morocco, Spain says.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fde3/live/82720620-9020-11f1-a7ab-8b30adf0800a.jpg",
+        "publishedAt": "2026-08-04T16:07:29.000Z",
         "source": "BBC"
       },
       {
@@ -321,25 +337,17 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ad4f/live/138d6250-8fed-11f1-a10e-47119dd4425c.jpg",
         "publishedAt": "2026-08-04T11:19:01.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Explosions heard as more than 400 WWII shells found in village at center of France’s wildfire crisis",
-        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5CdkVqZUI3bW84Tll1R2JRQ2RfTVZvdzg3cHo0bnVQNG03ZWp4bmQxaTdBQkpadll6QmJWa1k4Q3FjN2tWUkRwWFhFQWJ1OXNUVzdQeFRCVWlHeVJwVnRSRU42YjBhemllOUhIdUJuX2NNLWhmN3RxVFNxYw?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-08-04T10:29:19.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "What will happen when a SpaceX rocket collides with the Moon?",
-        "link": "https://www.bbc.co.uk/news/articles/cx25yn22l97o?at_medium=RSS&at_campaign=rss",
-        "summary": "Our satellite has endured countless blows over millions of years - and astronomers think this one could be a useful accident.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bd55/live/3fa78630-8f5d-11f1-9c32-a3e1fce5018b.jpg",
-        "publishedAt": "2026-08-04T09:13:37.000Z",
-        "source": "BBC"
       }
     ],
     "worldBusiness": [
+      {
+        "title": "Oil prices fall on hopes Strait of Hormuz could reopen",
+        "link": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss",
+        "summary": "US Secretary of State Marco Rubio and Treasury Secretary Scott Bessent both announced talks had progressed to allow shipments to resume.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5e55/live/0e092f10-9012-11f1-aabc-c3c7aa714117.jpg",
+        "publishedAt": "2026-08-04T17:06:17.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Why Trump Media's sale of fast access to market-moving social posts is controversial",
         "link": "https://www.bbc.co.uk/news/articles/c4gdkl9zn8wo?at_medium=RSS&at_campaign=rss",
@@ -347,6 +355,14 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c8b7/live/86169830-8fe0-11f1-bb3b-43bf44dc94d9.jpg",
         "publishedAt": "2026-08-04T13:53:41.000Z",
         "source": "BBC"
+      },
+      {
+        "title": "The S&P 500 is back near record highs. Here’s why",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9sNTR6eTFUS1JYX1lnaWVIZGxJeVhmbENJMHN3SUc4TTlSaHpweUdwNUNLejJtSmIwb0x0SEQxalc2OVN1X2s1WFhPSWt2X2VrcFFVeXhVVVpxYVVnaUFjRDR3SUFxbzA?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-08-04T13:42:29.000Z",
+        "source": "CNN"
       },
       {
         "title": "Campaigners denied appeal over Gatwick expansion",
@@ -362,22 +378,6 @@
         "summary": "It is the latest development in the ongoing dispute between Apple and the Home Office over data privacy.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d2c/live/4e052df0-8fde-11f1-a999-eb18d79411a9.jpg",
         "publishedAt": "2026-08-04T10:22:40.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "BP's $5.7bn profit highest since 2022 as Iran war pushes up oil price",
-        "link": "https://www.bbc.co.uk/news/articles/cg5l11m02j3o?at_medium=RSS&at_campaign=rss",
-        "summary": "Higher oil prices boost the energy giant's results while environmental groups accuse it of profiteering.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d288/live/6e9f5aa0-8ff6-11f1-b2ab-0dd01740f9f6.jpg",
-        "publishedAt": "2026-08-04T10:07:05.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "US states sue to block Trump tariffs impacting dozens of countries",
-        "link": "https://www.bbc.co.uk/news/articles/cy4kp8jd0ppo?at_medium=RSS&at_campaign=rss",
-        "summary": "The duties were imposed over claims that 60 US trading partners have failed to tackle forced labour.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e5d5/live/ea554540-8fb7-11f1-a7ab-8b30adf0800a.jpg",
-        "publishedAt": "2026-08-04T09:08:40.000Z",
         "source": "BBC"
       }
     ],
@@ -425,6 +425,14 @@
     ],
     "domestic": [
       {
+        "title": "我国加快构建绿色低碳电力供给格局",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-04/10672051.shtml",
+        "summary": "央视新闻客户端消息(新闻联播)：《新型电力系统建设“十五五”规划》今天(8月3日)发布，规划提出，到2030年，我国将基本形成绿色低碳的电力供给格局，为经济社会发展提供坚实能源保障。",
+        "image": "",
+        "publishedAt": "2026-08-04T14:31:44.000Z",
+        "source": "中新网"
+      },
+      {
         "title": "从破题到奔向万亿，上半年上海三大先导产业制造业产值同比增长14.5%",
         "link": "https://www.chinanews.com.cn/gn/2026/08-04/10672049.shtml",
         "summary": "产业是时间的故事，人工智能更是与时间赛跑。2022世界人工智能大会(WAIC 2022)上，上海世博中心竖起一幅描绘AI的巨幅画卷，由中央美院教授执笔；4年后的今天，同样的画卷已交由大模型生成。时间的笔触，悄然换挡。",
@@ -455,31 +463,39 @@
         "image": "",
         "publishedAt": "2026-08-04T14:05:17.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "国防部新闻发言人陈曦就日本政府2026版《防卫白皮书》答记者问",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-04/10671981.shtml",
-        "summary": "中新网8月4日电 据“国防部发布”微信公众号消息，国防部新闻发言人陈曦就日本政府2026版《防卫白皮书》答记者问。",
-        "image": "",
-        "publishedAt": "2026-08-04T13:02:17.000Z",
-        "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "Mass funeral in Gaza for 112 Palestinians killed in 2023 Israeli strike",
-        "link": "https://www.bbc.co.uk/news/articles/cn0n99npjejo?at_medium=RSS&at_campaign=rss",
-        "summary": "The bodies - belonging to members of two extended families - have only recently been recovered from under rubble in Gaza City.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0f64/live/3c5e9520-8fff-11f1-9dfb-fd4408d16f2f.jpg",
-        "publishedAt": "2026-08-04T13:59:24.000Z",
+        "title": "Video shows Russian drone chasing Ukrainian street vendor in 'human safari' attack",
+        "link": "https://www.bbc.co.uk/news/articles/cn4n03xg981o?at_medium=RSS&at_campaign=rss",
+        "summary": "Ukraine said the video - showing a terrified civilian being hounded by a remotely-controlled drone - amounted to a war crime.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8528/live/11898c20-9026-11f1-b2ab-0dd01740f9f6.jpg",
+        "publishedAt": "2026-08-04T17:26:06.000Z",
         "source": "BBC"
       },
       {
-        "title": "More than 150 migrants rescued after boat catches fire in Channel",
+        "title": "More than 170 migrants rescued after boat catches fire in Channel",
         "link": "https://www.bbc.co.uk/news/articles/c4gkpeppjyqo?at_medium=RSS&at_campaign=rss",
-        "summary": "The boat was attempting to cross to the UK when its engine caught fire, according to French authorities.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/72e6/live/08945d60-8ff0-11f1-a10e-47119dd4425c.jpg",
-        "publishedAt": "2026-08-04T11:19:08.000Z",
+        "summary": "The government says all of the migrants, who were attempting to cross to the UK, will be returned to France.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d785/live/d18261f0-9012-11f1-aabc-c3c7aa714117.jpg",
+        "publishedAt": "2026-08-04T17:25:41.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Oil prices fall on hopes Strait of Hormuz could reopen",
+        "link": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss",
+        "summary": "US Secretary of State Marco Rubio and Treasury Secretary Scott Bessent both announced talks had progressed to allow shipments to resume.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5e55/live/0e092f10-9012-11f1-aabc-c3c7aa714117.jpg",
+        "publishedAt": "2026-08-04T17:06:17.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "EU commends Spain's 'swift response' to Ceuta migrant crisis",
+        "link": "https://www.bbc.co.uk/news/articles/c80n3j55g0do?at_medium=RSS&at_campaign=rss",
+        "summary": "About 70,000 of the 72,000 people who came to Ceuta illegally last week have been returned to Morocco, Spain says.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fde3/live/82720620-9020-11f1-a7ab-8b30adf0800a.jpg",
+        "publishedAt": "2026-08-04T16:07:29.000Z",
         "source": "BBC"
       },
       {
@@ -489,71 +505,16 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ad4f/live/138d6250-8fed-11f1-a10e-47119dd4425c.jpg",
         "publishedAt": "2026-08-04T11:19:01.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Explosions heard as more than 400 WWII shells found in village at center of France’s wildfire crisis",
-        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5CdkVqZUI3bW84Tll1R2JRQ2RfTVZvdzg3cHo0bnVQNG03ZWp4bmQxaTdBQkpadll6QmJWa1k4Q3FjN2tWUkRwWFhFQWJ1OXNUVzdQeFRCVWlHeVJwVnRSRU42YjBhemllOUhIdUJuX2NNLWhmN3RxVFNxYw?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-08-04T10:29:19.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "What will happen when a SpaceX rocket collides with the Moon?",
-        "link": "https://www.bbc.co.uk/news/articles/cx25yn22l97o?at_medium=RSS&at_campaign=rss",
-        "summary": "Our satellite has endured countless blows over millions of years - and astronomers think this one could be a useful accident.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bd55/live/3fa78630-8f5d-11f1-9c32-a3e1fce5018b.jpg",
-        "publishedAt": "2026-08-04T09:13:37.000Z",
-        "source": "BBC"
       }
     ],
     "nba": []
   },
   "nbaScoreboard": {
     "date": "2026-08-04",
-    "currentIndex": 4,
-    "days": [
-      {
-        "date": "2026-07-31",
-        "games": []
-      },
-      {
-        "date": "2026-08-01",
-        "games": []
-      },
-      {
-        "date": "2026-08-02",
-        "games": []
-      },
-      {
-        "date": "2026-08-03",
-        "games": []
-      },
-      {
-        "date": "2026-08-04",
-        "games": []
-      },
-      {
-        "date": "2026-08-05",
-        "games": []
-      },
-      {
-        "date": "2026-08-06",
-        "games": []
-      },
-      {
-        "date": "2026-08-07",
-        "games": []
-      },
-      {
-        "date": "2026-08-08",
-        "games": []
-      }
-    ],
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-08-04",
+    "rotationLabel": "Curated Rotation · 2026-08-05",
     "sections": [
       {
         "id": "data-storage",
@@ -561,26 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-5",
-            "sectionId": "data-storage",
-            "title": "The FAISS Library",
-            "authors": [
-              "Jeff Johnson",
-              "Matthijs Douze",
-              "Herve Jegou"
-            ],
-            "venue": "IEEE T-BD",
-            "year": 2021,
-            "quality": "高影响力",
-            "categories": [
-              "vector search",
-              "ANN"
-            ],
-            "link": "https://arxiv.org/abs/2401.08281",
-            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-6",
             "sectionId": "data-storage",
@@ -600,7 +541,7 @@
             ],
             "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
             "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-1",
@@ -622,6 +563,27 @@
             "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
             "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-2",
+            "sectionId": "data-storage",
+            "title": "Bigtable: A Distributed Storage System for Structured Data",
+            "authors": [
+              "Fay Chang",
+              "Jeffrey Dean",
+              "Sanjay Ghemawat",
+              "Wilson C. Hsieh"
+            ],
+            "venue": "OSDI",
+            "year": 2006,
+            "quality": "顶会",
+            "categories": [
+              "distributed systems",
+              "database"
+            ],
+            "link": "https://research.google/pubs/pub27898/",
+            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -631,27 +593,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-6",
-            "sectionId": "computer-vision",
-            "title": "DINOv2: Learning Robust Visual Features without Supervision",
-            "authors": [
-              "Maxime Oquab",
-              "Timothée Darcet",
-              "Théo Moutakanni",
-              "Huy V. Vo"
-            ],
-            "venue": "arXiv / Meta",
-            "year": 2023,
-            "quality": "高影响力",
-            "categories": [
-              "self-supervised",
-              "representation"
-            ],
-            "link": "https://arxiv.org/abs/2304.07193",
-            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-1",
             "sectionId": "computer-vision",
@@ -671,7 +612,7 @@
             ],
             "link": "https://arxiv.org/abs/1512.03385",
             "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-2",
@@ -693,6 +634,27 @@
             "link": "https://arxiv.org/abs/2005.12872",
             "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-3",
+            "sectionId": "computer-vision",
+            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+            "authors": [
+              "Alexey Dosovitskiy",
+              "Lucas Beyer",
+              "Alexander Kolesnikov",
+              "Dirk Weissenborn"
+            ],
+            "venue": "ICLR",
+            "year": 2021,
+            "quality": "顶会",
+            "categories": [
+              "vision transformer",
+              "classification"
+            ],
+            "link": "https://arxiv.org/abs/2010.11929",
+            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -702,27 +664,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-1",
-            "sectionId": "llm-memory",
-            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
-            "authors": [
-              "Patrick Lewis",
-              "Ethan Perez",
-              "Aleksandra Piktus",
-              "Fabio Petroni"
-            ],
-            "venue": "NeurIPS",
-            "year": 2020,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "retrieval"
-            ],
-            "link": "https://arxiv.org/abs/2005.11401",
-            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-2",
             "sectionId": "llm-memory",
@@ -742,7 +683,7 @@
             ],
             "link": "https://arxiv.org/abs/2203.08913",
             "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-3",
@@ -764,6 +705,27 @@
             "link": "https://arxiv.org/abs/2112.04426",
             "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-4",
+            "sectionId": "llm-memory",
+            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+            "authors": [
+              "Akari Asai",
+              "Zequn Zhang",
+              "Avirup Sil",
+              "Hannaneh Hajishirzi"
+            ],
+            "venue": "ICLR",
+            "year": 2024,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "self-reflection"
+            ],
+            "link": "https://arxiv.org/abs/2310.11511",
+            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -773,27 +735,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-2",
-            "sectionId": "agents",
-            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
-            "authors": [
-              "Timo Schick",
-              "Jane Dwivedi-Yu",
-              "Roberta Dessì",
-              "Ari Holtzman"
-            ],
-            "venue": "NeurIPS",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "tool use",
-              "agent"
-            ],
-            "link": "https://arxiv.org/abs/2302.04761",
-            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-3",
             "sectionId": "agents",
@@ -813,7 +754,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.03442",
             "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-4",
@@ -834,6 +775,27 @@
             ],
             "link": "https://arxiv.org/abs/2305.16291",
             "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-5",
+            "sectionId": "agents",
+            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+            "authors": [
+              "Qingyun Wu",
+              "Gagan Bansal",
+              "Jiaqi Zhang",
+              "Yiran Wu"
+            ],
+            "venue": "COLM",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "multi-agent",
+              "framework"
+            ],
+            "link": "https://arxiv.org/abs/2308.08155",
+            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
             "trackLabel": "轮换精选"
           }
         ]
