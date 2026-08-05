@@ -1,36 +1,28 @@
 {
-  "generatedAt": "2026-08-05T14:27:54.764Z",
+  "generatedAt": "2026-08-05T17:50:48.586Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 30,
-      "weatherCode": 0,
-      "windSpeed": 5
+      "temperature": 28,
+      "weatherCode": 1,
+      "windSpeed": 2
     },
     "today": {
-      "date": "2026-08-05",
-      "weatherCode": 80,
-      "description": "阵雨",
-      "max": 37,
+      "date": "2026-08-06",
+      "weatherCode": 51,
+      "description": "毛毛雨",
+      "max": 38,
       "min": 26,
-      "precipitationProbability": 27
+      "precipitationProbability": 2
     },
     "forecast": [
-      {
-        "date": "2026-08-05",
-        "weatherCode": 80,
-        "description": "阵雨",
-        "max": 37,
-        "min": 26,
-        "precipitationProbability": 27
-      },
       {
         "date": "2026-08-06",
         "weatherCode": 51,
         "description": "毛毛雨",
         "max": 38,
         "min": 26,
-        "precipitationProbability": 12
+        "precipitationProbability": 2
       },
       {
         "date": "2026-08-07",
@@ -38,7 +30,7 @@
         "description": "天气更新中",
         "max": 37,
         "min": 26,
-        "precipitationProbability": 92
+        "precipitationProbability": 89
       },
       {
         "date": "2026-08-08",
@@ -46,7 +38,7 @@
         "description": "中雨",
         "max": 30,
         "min": 24,
-        "precipitationProbability": 57
+        "precipitationProbability": 65
       },
       {
         "date": "2026-08-09",
@@ -55,32 +47,49 @@
         "max": 32,
         "min": 23,
         "precipitationProbability": 0
+      },
+      {
+        "date": "2026-08-10",
+        "weatherCode": 51,
+        "description": "毛毛雨",
+        "max": 34,
+        "min": 21,
+        "precipitationProbability": 16
       }
     ]
   },
   "classicQuote": {
-    "id": "mencius-perseverance",
-    "text": "虽千万人，吾往矣。",
-    "source": "《孟子》",
-    "author": "孟子",
-    "note": "认准方向之后，关键是稳稳地往前走。"
+    "id": "records-historical",
+    "text": "桃李不言，下自成蹊。",
+    "source": "《史记》",
+    "author": "司马迁",
+    "note": "真正有分量的作品，本身就会替你说话。"
   },
   "bookExcerpt": {
-    "id": "red-mansion-snow",
-    "text": "只见大地白茫茫一片真干净，山川树木都隐在雪光里，天地像忽然静下来，只余风过回廊的细响。",
-    "book": "《红楼梦》",
-    "author": "曹雪芹"
+    "id": "remembrance-madeleine",
+    "text": "那一点点浸过茶水的点心，忽然把整个旧日时光都唤醒了，仿佛往昔并未消失，只是沉在心底等待一个气味。",
+    "book": "《追忆似水年华》",
+    "author": "马塞尔·普鲁斯特"
   },
   "featuredPlace": {
-    "id": "202608041600",
-    "title": "非斯皇宫装饰华丽的大门，摩洛哥",
+    "id": "202608051600",
+    "title": "马赛马拉迁徙的角马群横渡马拉河, 肯尼亚",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "秘境之门，匠心传世",
-    "image": "https://www.bing.com/th?id=OHR.FezMorocco_ZH-CN7662339428_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E9%9D%9E%E6%96%AF%E7%9A%87%E5%AE%AB&form=hpcapt&mkt=zh-cn"
+    "summary": "生死渡口，勇者的史诗",
+    "image": "https://www.bing.com/th?id=OHR.MaraCrossing_ZH-CN8816902094_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E8%A7%92%E9%A9%AC&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202608051600",
+      "title": "马赛马拉迁徙的角马群横渡马拉河, 肯尼亚",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "生死渡口，勇者的史诗",
+      "image": "https://www.bing.com/th?id=OHR.MaraCrossing_ZH-CN8816902094_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E8%A7%92%E9%A9%AC&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202608041600",
       "title": "非斯皇宫装饰华丽的大门，摩洛哥",
@@ -143,35 +152,34 @@
       "summary": "旷野无声，活态传承之境",
       "image": "https://www.bing.com/th?id=OHR.NavajoNation_ZH-CN9274387505_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E7%BA%AA%E5%BF%B5%E7%A2%91%E8%B0%B7&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202607281600",
-      "title": "孟加拉虎一家在兰坦博尔国家公园，拉贾斯坦邦，印度",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "虎啸归来，锐爪重临",
-      "image": "https://www.bing.com/th?id=OHR.TigerFamily_ZH-CN9064744163_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E5%85%A8%E7%90%83%E8%80%81%E8%99%8E%E6%97%A5&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-08-05",
-    "dateLabel": "8月5日",
+    "dateKey": "2026-08-06",
+    "dateLabel": "8月6日",
     "items": [
       {
         "year": "2024",
-        "text": "在2024年孟加拉國公職配額改革運動示威者攻入總理府後，孟加拉總理謝赫·哈西娜辭職並流亡。",
+        "text": "烏克蘭武裝部隊從蘇梅方向開始向俄罗斯库尔斯克州展開行動，並襲擊駐扎在尼古拉耶沃-達里諾（俄语：）和奧列什尼亞（俄语：）等村庄的俄部队和边防警卫。",
         "link": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4"
       },
       {
-        "year": "2019",
-        "text": "香港發動全港大罷工。",
-        "link": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4"
+        "year": "2012",
+        "text": "美国国家航空航天局火星科学实验室辖下的火星车「好奇号」成功降落火星盖尔撞击坑。",
+        "link": "https://zh.wikipedia.org/wiki/2012%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
+      {
+        "title": "零时差 | 美企联名“说不”：中国开源模型如何成为“必选项”？",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-05/10672658.shtml",
+        "summary": "日前，近200家硅谷初创企业组成的“小型科技协会”联名致信美国政府，明确反对限制本土企业使用中国开放权重人工智能模型。理由很直白：“美国开发者需要继续使用全球已开放获取的模型”。",
+        "image": "",
+        "publishedAt": "2026-08-05T14:43:42.000Z",
+        "source": "中新网"
+      },
       {
         "title": "“暴雨+强对流”双预警 多地多部门全力投入抢险救灾工作",
         "link": "https://www.chinanews.com.cn/gn/2026/08-05/10672653.shtml",
@@ -203,59 +211,59 @@
         "image": "",
         "publishedAt": "2026-08-05T14:15:52.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "经历多个首次 实现多项突破！神二十一乘组回家后首次公开亮相",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-05/10672649.shtml",
-        "summary": "8月5日，中国航天员科研训练中心在北京航天城举办神舟二十一号航天员乘组与记者见面会。这是张陆、武飞、张洪章三名航天员返回地球并完成隔离和疗养恢复后，首次面向媒体与社会公众公开亮相。",
-        "image": "",
-        "publishedAt": "2026-08-05T14:13:40.000Z",
-        "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "福建连城非遗展演燃旺夜经济 两岸少年共续客家魂",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-05/10672645.shtml",
-        "summary": "中新网福建连城8月5日电 (黄水林 江钰婷)8月4日，福建省连城县四角井历史文化街区暑期非遗奇妙夜火热开演。活动融合非遗巡游、两岸青少年棒球交流、烟火市集多元业态，以客家文化为内核、文体活动为引流引擎，在传承非遗、增进两岸青年情谊的同时，全面激活夜游市场，撬动文旅消费，为县域经济注入强劲动能。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260805/2ed26952-3d86-4a90-aee2-2672e6b7e714_zsite.jpg",
-        "publishedAt": "2026-08-05T14:17:20.000Z",
+        "title": "人贩子“梅姨”真实姓名曝光",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-05/10672661.shtml",
+        "summary": "8月5日晚，“梅姨”案中被拐儿童钟彬告诉记者，他终于知道了那个曾被称为“梅姨”的人贩子的真实姓名一一谢家梅。他说，自己前两天收到了法院的告知书，案件已进入审查起诉环节，上面明确写着“嫌疑人谢家梅涉及拐卖儿童”。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/08/05/7e22a9cf621040a984c4514bbbb3a770.jpg",
+        "publishedAt": "2026-08-05T15:20:00.000Z",
         "source": "中新网"
       },
       {
-        "title": "西藏墨脱发生4.6级地震 暂无人员伤亡报告",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-05/10672621.shtml",
-        "summary": "中新社拉萨8月5日电 (记者 江飞波)据中国地震台网正式测定，8月5日18时6分，西藏自治区林芝市墨脱县发生4.6级地震，震源深度10公里，震中位于北纬28.91度，东经94.80度。林芝市官方介绍，截至当日19时20分许，暂未接到人员伤亡和财产损失报告。",
+        "title": "宣称对标星巴克、瑞幸，香港网红咖啡门店被曝光，竟是亿级传销骗局",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-05/10672656.shtml",
+        "summary": "中新网香港8月5日电 (记者 戴小橦)近日，一宗以养生咖啡为外壳、依托虚拟货币高额回报敛财的跨境诈骗案引发港澳社会关注。",
         "image": "",
-        "publishedAt": "2026-08-05T14:06:04.000Z",
+        "publishedAt": "2026-08-05T14:41:07.000Z",
         "source": "中新网"
       },
       {
-        "title": "两岸青年在福州探寻“文化共栖”的深层脉络",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-05/10672626.shtml",
-        "summary": "中新社福州8月5日电 (叶秋云)在三坊七巷的青砖黛瓦间共读闽台科举文化，在竹构光影里联手打造公共艺术装置，也在闽江的澄澈碧水边共同守护海峡生态……8月的福州，两岸青年的足迹串联起这座城市的文化脉络，他们找寻并触摸着“共栖”二字背后的文化根脉。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260805/f7358dd5-19ec-428b-b7b3-1af3b3b19987_zsite.JPG",
-        "publishedAt": "2026-08-05T14:04:57.000Z",
+        "title": "香港一女子虐待患病幼子致死 获刑22年",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-05/10672655.shtml",
+        "summary": "中新网香港8月5日电 (记者 戴小橦)香港高等法院5日宣判一起虐童致死案件，一名38岁女子因长期残酷虐待患有发展迟缓疾病的5岁亲生儿子，致使幼童最终因重度营养不良引发并发症死亡。被告早前承认误杀、虐儿两项罪名，法院当庭判处其监禁22年。",
+        "image": "",
+        "publishedAt": "2026-08-05T14:39:43.000Z",
         "source": "中新网"
       },
       {
-        "title": "上海野生动物园为大熊猫“嘉嘉”庆祝14岁生日",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-05/10672615.shtml",
-        "summary": "中新社上海8月5日电 (陈静 倪丽)上海野生动物园的雌性大熊猫“嘉嘉”5日迎来14岁生日，园方为这位大熊猫“辣妈”线上线下同步举行生日庆典。龙凤胎大熊猫“芊然”“芊逸”同日接受周岁前健康测评。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260805/b062111d-c50c-43ad-bfd8-fb501a362dc5_zsite.jpg",
-        "publishedAt": "2026-08-05T13:57:49.000Z",
+        "title": "广西崇左白头叶猴保护区启用三维立体模式开展野生猕猴种群调查",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-05/10672647.shtml",
+        "summary": "中新网崇左8月5日电 (梁霁鹏)广西崇左市林业局5日介绍，崇左白头叶猴国家级自然保护区近日首次启用“无人机航拍+地面手持热成像仪+人工踏查”协同调查模式，全面开展野生猕猴种群专项调查。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260805/020f181c-55ba-4b41-82ee-8c159b85f273_zsite.jpeg",
+        "publishedAt": "2026-08-05T14:31:09.000Z",
         "source": "中新网"
       },
       {
-        "title": "（侨乡新貌）江门“侨咖”香飘百年 “无中生有”铺就产业长卷",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-05/10672616.shtml",
-        "summary": "中新社广东江门8月5日电 题：江门“侨咖”香飘百年 “无中生有”铺就产业长卷",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260805/bbb47ebb-1f8c-4aef-9b07-b40aea245ef7_zsite.jpg",
-        "publishedAt": "2026-08-05T13:57:31.000Z",
+        "title": "如何让基层首诊从“有”到“优”",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-05/10672654.shtml",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-08-05T14:31:03.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
+      {
+        "title": "今年前7个月海南离岛免税购物额216亿元 同比增长17.9%",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-05/10672648.shtml",
+        "summary": "中新网海口8月5日电 (王纯豪 谢东良)海口海关5日披露，2026年1-7月海南离岛免税购物金额216亿元，购物人数311.1万人次，购物件数1765.3万件，同比分别增长17.9%、11.9%、6.9%，离岛免税产业延续强劲增长态势。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260805/39ce9794-1f3c-4ec8-a7dc-c44b732bf16a_zsite.jpg",
+        "publishedAt": "2026-08-05T14:38:09.000Z",
+        "source": "中新网"
+      },
       {
         "title": "活力中国调研行 | 不止“过江” 更要“破界” 一座城的融城与突围",
         "link": "https://www.chinanews.com.cn/cj/2026/08-05/10672651.shtml",
@@ -287,23 +295,23 @@
         "image": "",
         "publishedAt": "2026-08-05T14:04:27.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "西藏拉萨打通虫草标准化外贸通道 出口货值达850万元",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-05/10672612.shtml",
-        "summary": "中新社拉萨8月5日电 (记者 江飞波)西藏自治区拉萨市商务局5日披露，拉萨打通冬虫夏草标准化外贸通道，破解了长期以来依赖邮政小包零散邮寄的出口难题。自2025年11月以来，已实现批量规模化出口货值850万元(人民币，下同)，主要销往香港及东南亚地区。",
-        "image": "",
-        "publishedAt": "2026-08-05T14:03:15.000Z",
-        "source": "中新网"
       }
     ],
     "worldTop": [
       {
+        "title": "Left-wing political outsider wins Democratic Senate primary in Michigan",
+        "link": "https://www.bbc.co.uk/news/articles/ckgdkpz07kvo?at_medium=RSS&at_campaign=rss",
+        "summary": "Abdul El-Sayed, the son of Egyptian immigrants, would be the first Muslim US senator if elected in November.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ffa0/live/6343d230-90dc-11f1-b8ee-9b3c26ad07bb.jpg",
+        "publishedAt": "2026-08-05T16:20:14.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "Drone carrying explosives found at German airport, police say",
         "link": "https://www.bbc.co.uk/news/articles/cyvlg4q48l3o?at_medium=RSS&at_campaign=rss",
         "summary": "The drone was found near Ukrainian cargo planes before another object collided with a cargo aircraft in mid-air.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/77d2/live/427f0680-90d9-11f1-a7ab-8b30adf0800a.jpg",
-        "publishedAt": "2026-08-05T14:21:55.000Z",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/394f/live/f2659590-90da-11f1-9bd2-e326e95c9722.jpg",
+        "publishedAt": "2026-08-05T16:06:30.000Z",
         "source": "BBC"
       },
       {
@@ -315,12 +323,12 @@
         "source": "BBC"
       },
       {
-        "title": "Left-wing political outsider wins Democratic Senate primary in Michigan",
-        "link": "https://www.bbc.co.uk/news/articles/ckgdkpz07kvo?at_medium=RSS&at_campaign=rss",
-        "summary": "Abdul El-Sayed, the son of Egyptian immigrants, would be the first Muslim US senator if elected in November.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9864/live/3014fa20-8f9b-11f1-8fd1-09e03851da20.jpg",
-        "publishedAt": "2026-08-05T14:03:48.000Z",
-        "source": "BBC"
+        "title": "An agreement on the Strait of Hormuz is taking shape – but not one Trump wants",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ3FDdy1TRmo2YWxSTjdULWVJVXNVZVBfMmJEWjkxZHA5MEgzWndLM3JJN2Q3cndzMklQNk1SOW9EajlrV1B1eTh5MXowT0tLMzNraEd4UHRqdk1YZUdZaElYdnJPeFpOMEowSjV4eENUa2IzNG91eVNrcVJlNjZlNTR6VmVpRUVtWHc?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-08-05T13:29:26.000Z",
+        "source": "CNN"
       },
       {
         "title": "Russia strike kills 21 as Ukraine says it needs more missile interceptors",
@@ -328,14 +336,6 @@
         "summary": "The Russia defence ministry said it had struck logistics hubs and supply centres in Kyiv and the surrounding region.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8cab/live/189914e0-90b2-11f1-b2ab-0dd01740f9f6.jpg",
         "publishedAt": "2026-08-05T12:26:26.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "What can scientists learn from a stray SpaceX rocket hitting the Moon?",
-        "link": "https://www.bbc.co.uk/news/articles/c62q0xerzrno?at_medium=RSS&at_campaign=rss",
-        "summary": "While the collision was an accident, it is a unique scientific gift for planetary geologists that could provide important data for future space missio...",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dee7/live/863dc740-9038-11f1-a691-e5bd21941ac1.jpg",
-        "publishedAt": "2026-08-05T11:19:24.000Z",
         "source": "BBC"
       }
     ],
@@ -362,7 +362,7 @@
         "summary": "",
         "image": "",
         "publishedAt": "2026-08-05T09:00:25.000Z",
-        "source": "cnn.com"
+        "source": "CNN"
       },
       {
         "title": "Vegetables to get smaller and more expensive due to hot weather, farmers warn",
@@ -407,7 +407,7 @@
         "source": "BBC"
       },
       {
-        "title": "Anthropic AI used fake profiles to target people in hack - then hid the evidence",
+        "title": "Anthropic AI used fake profiles to target people in hack then hid the evidence",
         "link": "https://www.bbc.co.uk/news/articles/c1w1lvn7d9go?at_medium=RSS&at_campaign=rss",
         "summary": "The UK's AI Safety Institute said recent behaviour from Anthropic and OpenAI models was malicious and unprecedented.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5392/live/fbde6a50-90af-11f1-b35a-3be58eca94a8.jpg",
@@ -424,6 +424,14 @@
       }
     ],
     "domestic": [
+      {
+        "title": "零时差 | 美企联名“说不”：中国开源模型如何成为“必选项”？",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-05/10672658.shtml",
+        "summary": "日前，近200家硅谷初创企业组成的“小型科技协会”联名致信美国政府，明确反对限制本土企业使用中国开放权重人工智能模型。理由很直白：“美国开发者需要继续使用全球已开放获取的模型”。",
+        "image": "",
+        "publishedAt": "2026-08-05T14:43:42.000Z",
+        "source": "中新网"
+      },
       {
         "title": "“暴雨+强对流”双预警 多地多部门全力投入抢险救灾工作",
         "link": "https://www.chinanews.com.cn/gn/2026/08-05/10672653.shtml",
@@ -455,23 +463,23 @@
         "image": "",
         "publishedAt": "2026-08-05T14:15:52.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "经历多个首次 实现多项突破！神二十一乘组回家后首次公开亮相",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-05/10672649.shtml",
-        "summary": "8月5日，中国航天员科研训练中心在北京航天城举办神舟二十一号航天员乘组与记者见面会。这是张陆、武飞、张洪章三名航天员返回地球并完成隔离和疗养恢复后，首次面向媒体与社会公众公开亮相。",
-        "image": "",
-        "publishedAt": "2026-08-05T14:13:40.000Z",
-        "source": "中新网"
       }
     ],
     "international": [
       {
+        "title": "Left-wing political outsider wins Democratic Senate primary in Michigan",
+        "link": "https://www.bbc.co.uk/news/articles/ckgdkpz07kvo?at_medium=RSS&at_campaign=rss",
+        "summary": "Abdul El-Sayed, the son of Egyptian immigrants, would be the first Muslim US senator if elected in November.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ffa0/live/6343d230-90dc-11f1-b8ee-9b3c26ad07bb.jpg",
+        "publishedAt": "2026-08-05T16:20:14.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "Drone carrying explosives found at German airport, police say",
         "link": "https://www.bbc.co.uk/news/articles/cyvlg4q48l3o?at_medium=RSS&at_campaign=rss",
         "summary": "The drone was found near Ukrainian cargo planes before another object collided with a cargo aircraft in mid-air.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/77d2/live/427f0680-90d9-11f1-a7ab-8b30adf0800a.jpg",
-        "publishedAt": "2026-08-05T14:21:55.000Z",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/394f/live/f2659590-90da-11f1-9bd2-e326e95c9722.jpg",
+        "publishedAt": "2026-08-05T16:06:30.000Z",
         "source": "BBC"
       },
       {
@@ -483,12 +491,12 @@
         "source": "BBC"
       },
       {
-        "title": "Left-wing political outsider wins Democratic Senate primary in Michigan",
-        "link": "https://www.bbc.co.uk/news/articles/ckgdkpz07kvo?at_medium=RSS&at_campaign=rss",
-        "summary": "Abdul El-Sayed, the son of Egyptian immigrants, would be the first Muslim US senator if elected in November.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9864/live/3014fa20-8f9b-11f1-8fd1-09e03851da20.jpg",
-        "publishedAt": "2026-08-05T14:03:48.000Z",
-        "source": "BBC"
+        "title": "An agreement on the Strait of Hormuz is taking shape – but not one Trump wants",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ3FDdy1TRmo2YWxSTjdULWVJVXNVZVBfMmJEWjkxZHA5MEgzWndLM3JJN2Q3cndzMklQNk1SOW9EajlrV1B1eTh5MXowT0tLMzNraEd4UHRqdk1YZUdZaElYdnJPeFpOMEowSjV4eENUa2IzNG91eVNrcVJlNjZlNTR6VmVpRUVtWHc?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-08-05T13:29:26.000Z",
+        "source": "CNN"
       },
       {
         "title": "Russia strike kills 21 as Ukraine says it needs more missile interceptors",
@@ -496,14 +504,6 @@
         "summary": "The Russia defence ministry said it had struck logistics hubs and supply centres in Kyiv and the surrounding region.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8cab/live/189914e0-90b2-11f1-b2ab-0dd01740f9f6.jpg",
         "publishedAt": "2026-08-05T12:26:26.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "What can scientists learn from a stray SpaceX rocket hitting the Moon?",
-        "link": "https://www.bbc.co.uk/news/articles/c62q0xerzrno?at_medium=RSS&at_campaign=rss",
-        "summary": "While the collision was an accident, it is a unique scientific gift for planetary geologists that could provide important data for future space missio...",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dee7/live/863dc740-9038-11f1-a691-e5bd21941ac1.jpg",
-        "publishedAt": "2026-08-05T11:19:24.000Z",
         "source": "BBC"
       }
     ],
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-08-05",
+    "rotationLabel": "Curated Rotation · 2026-08-06",
     "sections": [
       {
         "id": "data-storage",
@@ -522,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-6",
-            "sectionId": "data-storage",
-            "title": "DiskANN: Fast Accurate Billion-point Nearest Neighbor Search on a Single Node",
-            "authors": [
-              "Neelesh Gupta",
-              "Leland Willard",
-              "Xiangyao Yu",
-              "Yuri N."
-            ],
-            "venue": "NeurIPS",
-            "year": 2019,
-            "quality": "高影响力",
-            "categories": [
-              "vector search",
-              "ANN"
-            ],
-            "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
-            "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-1",
             "sectionId": "data-storage",
@@ -562,7 +541,7 @@
             ],
             "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
             "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-2",
@@ -584,6 +563,27 @@
             "link": "https://research.google/pubs/pub27898/",
             "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-3",
+            "sectionId": "data-storage",
+            "title": "Dynamo: Amazon's Highly Available Key-value Store",
+            "authors": [
+              "Giuseppe DeCandia",
+              "Deniz Hastorun",
+              "Madan Jampani",
+              "Gunavardhan Kakulapati"
+            ],
+            "venue": "SOSP",
+            "year": 2007,
+            "quality": "顶会",
+            "categories": [
+              "key-value",
+              "distributed systems"
+            ],
+            "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
+            "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -593,27 +593,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-1",
-            "sectionId": "computer-vision",
-            "title": "Deep Residual Learning for Image Recognition",
-            "authors": [
-              "Kaiming He",
-              "Xiangyu Zhang",
-              "Shaoqing Ren",
-              "Jian Sun"
-            ],
-            "venue": "CVPR",
-            "year": 2016,
-            "quality": "顶会",
-            "categories": [
-              "image recognition",
-              "backbone"
-            ],
-            "link": "https://arxiv.org/abs/1512.03385",
-            "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-2",
             "sectionId": "computer-vision",
@@ -633,7 +612,7 @@
             ],
             "link": "https://arxiv.org/abs/2005.12872",
             "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-3",
@@ -655,6 +634,27 @@
             "link": "https://arxiv.org/abs/2010.11929",
             "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-4",
+            "sectionId": "computer-vision",
+            "title": "Learning Transferable Visual Models From Natural Language Supervision",
+            "authors": [
+              "Alec Radford",
+              "Jong Wook Kim",
+              "Chris Hallacy",
+              "Aditya Ramesh"
+            ],
+            "venue": "ICML",
+            "year": 2021,
+            "quality": "顶会",
+            "categories": [
+              "vision-language",
+              "foundation model"
+            ],
+            "link": "https://arxiv.org/abs/2103.00020",
+            "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -664,27 +664,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-2",
-            "sectionId": "llm-memory",
-            "title": "Memorizing Transformers",
-            "authors": [
-              "Yuhuai Wu",
-              "Markus N. Rabe",
-              "DeLesley Hutchins",
-              "Christian Szegedy"
-            ],
-            "venue": "ICLR",
-            "year": 2022,
-            "quality": "顶会",
-            "categories": [
-              "memory",
-              "long context"
-            ],
-            "link": "https://arxiv.org/abs/2203.08913",
-            "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-3",
             "sectionId": "llm-memory",
@@ -704,7 +683,7 @@
             ],
             "link": "https://arxiv.org/abs/2112.04426",
             "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-4",
@@ -726,6 +705,27 @@
             "link": "https://arxiv.org/abs/2310.11511",
             "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-5",
+            "sectionId": "llm-memory",
+            "title": "LongMem: Scaling Language Model Context with Memory-Augmented Retrieval",
+            "authors": [
+              "Zeqiu Wu",
+              "Yizhong Wang",
+              "Jiacheng Liu",
+              "Yelong Shen"
+            ],
+            "venue": "ACL Findings",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "memory",
+              "long context"
+            ],
+            "link": "https://arxiv.org/abs/2306.07174",
+            "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -735,27 +735,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-3",
-            "sectionId": "agents",
-            "title": "Generative Agents: Interactive Simulacra of Human Behavior",
-            "authors": [
-              "Joon Sung Park",
-              "Joseph O'Brien",
-              "Carrie Cai",
-              "Meredith Ringel Morris"
-            ],
-            "venue": "UIST",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "agent society",
-              "memory"
-            ],
-            "link": "https://arxiv.org/abs/2304.03442",
-            "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-4",
             "sectionId": "agents",
@@ -775,7 +754,7 @@
             ],
             "link": "https://arxiv.org/abs/2305.16291",
             "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-5",
@@ -796,6 +775,27 @@
             ],
             "link": "https://arxiv.org/abs/2308.08155",
             "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-6",
+            "sectionId": "agents",
+            "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+            "authors": [
+              "John Yang",
+              "Carlos E. Jimenez",
+              "Alexander Wettig",
+              "Karthik Narasimhan"
+            ],
+            "venue": "ICLR",
+            "year": 2025,
+            "quality": "新近代表作",
+            "categories": [
+              "software agent",
+              "benchmark"
+            ],
+            "link": "https://arxiv.org/abs/2405.15793",
+            "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
             "trackLabel": "轮换精选"
           }
         ]
