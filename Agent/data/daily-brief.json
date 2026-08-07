@@ -1,29 +1,21 @@
 {
-  "generatedAt": "2026-08-07T13:31:50.805Z",
+  "generatedAt": "2026-08-07T17:03:14.833Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 25,
-      "weatherCode": 51,
-      "windSpeed": 6
+      "temperature": 26,
+      "weatherCode": 3,
+      "windSpeed": 5
     },
     "today": {
-      "date": "2026-08-07",
-      "weatherCode": 96,
-      "description": "天气更新中",
-      "max": 37,
+      "date": "2026-08-08",
+      "weatherCode": 3,
+      "description": "阴天",
+      "max": 30,
       "min": 25,
-      "precipitationProbability": 98
+      "precipitationProbability": 53
     },
     "forecast": [
-      {
-        "date": "2026-08-07",
-        "weatherCode": 96,
-        "description": "天气更新中",
-        "max": 37,
-        "min": 25,
-        "precipitationProbability": 98
-      },
       {
         "date": "2026-08-08",
         "weatherCode": 3,
@@ -55,32 +47,49 @@
         "max": 33,
         "min": 25,
         "precipitationProbability": 75
+      },
+      {
+        "date": "2026-08-12",
+        "weatherCode": 95,
+        "description": "雷暴",
+        "max": 25,
+        "min": 23,
+        "precipitationProbability": 75
       }
     ]
   },
   "classicQuote": {
-    "id": "chuci-seek",
-    "text": "路漫漫其修远兮，吾将上下而求索。",
-    "source": "《离骚》",
-    "author": "屈原",
-    "note": "长期主义最难，但也最值得。"
+    "id": "analects-learning",
+    "text": "学而不思则罔，思而不学则殆。",
+    "source": "《论语》",
+    "author": "孔子",
+    "note": "提醒自己既要输入，也要沉淀，不要只忙不想。"
   },
   "bookExcerpt": {
-    "id": "border-town-river",
-    "text": "月光如银子，无处不可照及，山上篁竹在月光下变成了一片黑色，身边草丛中虫声繁密如落雨。",
-    "book": "《边城》",
-    "author": "沈从文"
+    "id": "fortress-besieged-night",
+    "text": "夜仿佛纸浸了油，变成半透明体；它给太阳拥抱住了，分不出身来，也许是给太阳溶了，所以夕照晚霞隐褪后的夜色也带着酡红。",
+    "book": "《围城》",
+    "author": "钱钟书"
   },
   "featuredPlace": {
-    "id": "202608061600",
-    "title": "圣胡安岛石灰窑灯塔，华盛顿州，美国",
+    "id": "202608071600",
+    "title": "蒂斯河畔斯托克顿无限桥，英格兰",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "指引船只穿越历史",
-    "image": "https://www.bing.com/th?id=OHR.LimeKiln_ZH-CN5664152522_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E7%9F%B3%E7%81%B0%E7%AA%91%E7%81%AF%E5%A1%94&form=hpcapt&mkt=zh-cn"
+    "summary": "迈向无限",
+    "image": "https://www.bing.com/th?id=OHR.StocktonInfinity_ZH-CN5941379745_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E5%9B%BD%E9%99%85%E6%97%A0%E9%99%90%E6%97%A5&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202608071600",
+      "title": "蒂斯河畔斯托克顿无限桥，英格兰",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "迈向无限",
+      "image": "https://www.bing.com/th?id=OHR.StocktonInfinity_ZH-CN5941379745_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E5%9B%BD%E9%99%85%E6%97%A0%E9%99%90%E6%97%A5&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202608061600",
       "title": "圣胡安岛石灰窑灯塔，华盛顿州，美国",
@@ -143,175 +152,182 @@
       "summary": "基拉韦厄火山的威力",
       "image": "https://www.bing.com/th?id=OHR.HawaiiLava_ZH-CN3257621771_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E5%A4%8F%E5%A8%81%E5%A4%B7%E7%81%AB%E5%B1%B1%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202607301600",
-      "title": "鸟瞰弗吉尼亚爬山虎步道，达马斯克斯，弗吉尼亚州，美国",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "穿越时光的足迹",
-      "image": "https://www.bing.com/th?id=OHR.VirginiaTrail_ZH-CN2299501599_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E5%BC%97%E5%90%89%E5%B0%BC%E4%BA%9A%E7%88%AC%E5%B1%B1%E8%99%8E%E6%AD%A5%E9%81%93&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-08-07",
-    "dateLabel": "8月7日",
+    "dateKey": "2026-08-08",
+    "dateLabel": "8月8日",
     "items": [
       {
-        "year": "2020",
-        "text": "印度快運航空1344號班機在印度喀拉拉邦的科澤科德國際機場跑道盡頭失控衝出跑道並墜毀，機上190人中有21人罹難。",
-        "link": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4"
+        "year": "2023",
+        "text": "美國夏威夷州茂宜島等地發生野火，造成至少110餘人死亡、60餘人受傷、1,300餘人失蹤，為夏威夷州歷史上最嚴重的自然災害。",
+        "link": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4"
       },
       {
-        "year": "2010",
-        "text": "中國甘肅省舟曲县發生特大泥石流灾害。",
-        "link": "https://zh.wikipedia.org/wiki/2010%E5%B9%B4"
+        "year": "2022",
+        "text": "韩国中部地区连日普降暴雨，造成广泛地区出现水灾，降雨量打破该国1942年以来最高纪录。",
+        "link": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "上半年中国国内居民出游人次同比增长5.4%",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-07/10673943.shtml",
-        "summary": "中新社北京8月7日电 (记者 刘文文)中国文化和旅游部7日公布，2026年上半年，中国国内居民出游人次超34亿，同比增长5.4%。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260807/378fd297-d207-427d-a80b-fd0713928dfb_zsite.jpeg",
-        "publishedAt": "2026-08-07T13:27:50.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "平陆运河电子航道图上线运行",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-07/10673890.shtml",
-        "summary": "中新网南宁8月7日电 (杨陈 雷东荣)记者7日从广西壮族自治区交通运输厅获悉，平陆运河电子航道图日前已在广西数字水运一体化平台、广西水运江河海一体化调度平台上线运行，标志着平陆运河顺利实现航道数字化导航，为平陆运河全段通航数字化、管理智能化奠定了坚实基础。",
+        "title": "外媒观察丨海外青年追捧中式生活方式 世界看见鲜活立体的中国",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-07/10674013.shtml",
+        "summary": "中国网8月7日讯(记者 李智)中国正在变“潮”吗？近来，外媒注意到一个有趣现象：打开短视频社交平台TikTok，不少海外博主热衷于分享中式生活方式，这正成为一种新风尚。德国《焦点》杂志观察到，晨起冲泡玫瑰枸杞茶、刮痧、练太极、身着旗袍唐装分享穿搭……大量欧美创作者乐于展示自己喜爱的东方生活美学。",
         "image": "",
-        "publishedAt": "2026-08-07T12:51:44.000Z",
+        "publishedAt": "2026-08-07T15:33:50.000Z",
         "source": "中新网"
       },
       {
-        "title": "中央考核巡查组向多地反馈情况，都提到同一问题",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-07/10673884.shtml",
-        "summary": "中新网北京8月7日电(记者 袁秀月)近期，多个中央安全生产考核巡查组向地方反馈明察暗访情况。",
+        "title": "活力中国调研行丨智能“好房子”什么样？看安徽科创成果如何落地",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-07/10674008.shtml",
+        "summary": "在安徽，科技创新成果走出实验室，扎根居家生活、城市运维各类场景。智能住宅优化居住体验，全域感知系统助力城市高效运转。技术落地民生场景，同时培育起潜力十足的科创产业链。一起到安徽感受科技如何改变生活。",
         "image": "",
-        "publishedAt": "2026-08-07T12:44:07.000Z",
+        "publishedAt": "2026-08-07T15:14:01.000Z",
         "source": "中新网"
       },
       {
-        "title": "学习·知行丨“敦煌，我心向往之”",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-07/10673886.shtml",
-        "summary": "飞天翩跹穹宇，驼铃回响古道。敦煌，作为古代丝绸之路重镇，多元文明在此交汇。",
+        "title": "朱卫东：统一是现在进行时 加速“台独”就是加速统一",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-07/10673989.shtml",
+        "summary": "中新社江苏无锡8月7日电 (记者 路梅)中国社会科学院台湾研究所所长、全国台湾研究会副会长朱卫东7日表示，统一既是目标也是过程，既是名词也是动词，更是现在进行时。当前，两岸统一进程正处于斗争极其复杂尖锐的战略相持阶段后期，促使统一的历史条件持续累积。加速“台独”就是加速统一，“台独”的尽头是统一。",
         "image": "",
-        "publishedAt": "2026-08-07T12:39:17.000Z",
+        "publishedAt": "2026-08-07T14:57:09.000Z",
         "source": "中新网"
       },
       {
-        "title": "时政新闻眼丨从四个维度读懂今年以来中国元首外交",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-07/10673881.shtml",
-        "summary": "“十五五”开局之年，中国元首外交精彩纷呈。迎新朋，会老友，习近平主席以大党大国领袖的宏阔视野和天下情怀，密集开展元首外交，引领中国担负起求和平、谋发展、促合作、扬正义的时代使命，为构建人类命运共同体注入强劲动力。",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/08/07/f673cc48df67461b82b1eccac8a366f9.jpg",
-        "publishedAt": "2026-08-07T12:32:22.000Z",
+        "title": "港澳大学生暑期“闯”海南：愿做逐浪未来之“桥”",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-07/10673979.shtml",
+        "summary": "中新社海口8月7日电 题：港澳大学生暑期“闯”海南：愿做逐浪未来之“桥”",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260807/dbeaf48a-12f5-4580-95fa-cb09e024e583_zsite.jpg",
+        "publishedAt": "2026-08-07T14:48:05.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "国家防总、应急管理部组织多部门联合会商 调度部署台风“白海豚”防范应对工作 国家防总提升防汛防台风应急响应至三级",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-07/10673995.shtml",
+        "summary": "中新网8月7日电 据应急管理部网站消息，8月7日下午，国家防总、应急管理部组织中国气象局、水利部、自然资源部、交通运输部、农业农村部等部门以及浙江、福建和其他可能受影响的省份联合会商，研判台风“白海豚”发展趋势，进一步研究部署台风防范应对工作。国家防总于7日16时将针对浙江、福建的防汛防台风四级应急...",
+        "image": "",
+        "publishedAt": "2026-08-07T14:33:00.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "众多科普节目亮相广州 促全民科学素质提升",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-07/10673934.shtml",
-        "summary": "中新网广州8月7日电 (记者 王坚)《核废料“刑”不行》《从O到1》《谁点燃了空气》等精彩科学实验科普节目6日在位于广州上演，为公众呈现了一场科学与艺术交融的科普盛宴。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260807/d5808ff3-b729-4d1a-ab9f-2805a4e7a811_zsite.jpeg",
-        "publishedAt": "2026-08-07T13:30:40.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "开局起步“十五五”：海南加快打造航空区域门户枢纽",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-07/10673933.shtml",
-        "summary": "中新网海口8月7日电 (记者 王子谦)记者7日从海南省新闻办公室举行的新闻发布会上获悉，“十五五”时期海南将加快航空业发展，加快打造面向太平洋、印度洋的航空区域门户枢纽。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260807/742b837a-7244-4ca0-b8fc-5e8f8758cdc8_zsite.jpg",
-        "publishedAt": "2026-08-07T13:30:28.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "迎战台风“白海豚” 浙江全方位筑牢交通安全防线",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-07/10673927.shtml",
-        "summary": "中新网杭州8月7日电(蓝伊旎)随着今年第13号台风“白海豚”持续逼近，浙江闻“风”而动、周密部署，全方位筑牢交通安全防线。据悉，截至8月7日18时，浙江交通集团已组建起养护应急抢险队伍163支，共1881人，设置清障施救驻点326个，配备巡查车、预警车、清障车、工程机械等各类应急装备1076台套。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260807/cec1dc0b-52be-4e3d-a9ef-b74acb243002_zsite.jpg",
-        "publishedAt": "2026-08-07T13:30:16.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "江苏：“冷资源”热起来",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-07/10673932.shtml",
-        "summary": "中新网南京8月7日电 (刘林 谷华)“很凉爽，也不潮，进屋感觉很舒适。”8月的江苏徐州，室外热浪翻涌，居民赵月玲家中却清凉宜人。得益于中国首个废弃矿井水集中供冷项目，不开启空调室温也保持不超过28℃。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260807/fa0c1c9a-48b4-4eac-8f8d-d867dcf82254_zsite.jpg",
-        "publishedAt": "2026-08-07T13:29:50.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "雨落立秋 京城暂别“桑拿天”",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-07/10673898.shtml",
-        "summary": "中新社北京8月7日电 (记者 陈杭)7日正值中国农历立秋节气，北京迎来短时强降雨，盘踞多日的“桑拿天”得到缓解。",
+        "title": "我们的家园｜萨迦县宗果社区灾后重建纪实：重建的是家园 温暖的是人心",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-07/10674014.shtml",
+        "summary": "中国网西藏日喀则8月7日讯(记者 郑亮)2025年1月7日9时5分，西藏自治区定日县发生6.8级地震，萨迦县萨迦镇宗果社区原本平静的生活被突然打乱，部分土木结构房屋出现主体开裂、梁柱偏移等险情，群众的居住安全受到影响。震后，社区干部、驻村工作队和包村干部迅速将居民转移至安全区域，连夜安置应急帐篷，棉...",
         "image": "",
-        "publishedAt": "2026-08-07T13:26:28.000Z",
+        "publishedAt": "2026-08-07T15:36:04.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "上半年接待境外游客超531万人次 三个场景看上海入境游新变化",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-07/10674005.shtml",
+        "summary": "上半年接待境外游客超531万人次",
+        "image": "",
+        "publishedAt": "2026-08-07T15:10:33.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "港澳大学生逐浪海南自贸港：一座岛屿张开怀抱拥抱世界",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-07/10673984.shtml",
+        "summary": "中新网海口8月7日电 (张月和 王梓懿)“海南自贸港封关运作之后，政策红利持续释放，双15%税收优惠、香港职业资格认可目录、支持港澳青年来琼就业创业的实施细则，一个个亮眼数据的背后，是一座岛屿正张开怀抱拥抱全世界。”澳门科技大学学生马茸7日在2026年海南自贸港“逐浪计划”港澳大学生暑期实习活动(简...",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260807/a6adf79d-9db7-4453-ae0c-897bdeb619b1_zsite.jpg",
+        "publishedAt": "2026-08-07T14:51:57.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "我们的家园 | 乡贤扎根乡土 共筑幸福家园",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-07/10674000.shtml",
+        "summary": "国际在线报道：8月5日，“我们的家园 幸福美丽西藏”网络主题活动采访团走进日喀则市萨迦县扎西岗乡，远山层峦绵延，田埂间金灿灿的油菜花连片盛放，一栋栋藏式民居错落排布在山脚下。",
+        "image": "",
+        "publishedAt": "2026-08-07T14:50:27.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "入境游“热力值”持续飙升 绝美景色、清凉气候、多彩民俗……海外游客沉浸体验",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-07/10673997.shtml",
+        "summary": "央视网消息：眼下，正值暑期旅游旺季。随着入境游的持续火热，四川九寨沟等地以清凉舒适的气候和优美的自然环境，吸引了大量外国游客。",
+        "image": "",
+        "publishedAt": "2026-08-07T14:42:05.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "天津金融监管首次实现“双罚”率100% 上半年罚没1352.5万元",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-07/10673935.shtml",
-        "summary": "中新网天津8月7日电 (周亚强 赵婧雯)记者从天津金融监管局7日举行的新闻发布会上获悉，该局持续强化“严监管、强监管”导向，今年上半年累计罚没1352.5万元，首次实现行政处罚案件“双罚”率达到100%，即对机构和高管人员同步追责。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260807/3e577f6d-0aa9-4ecd-afa5-e69980de27f7_zsite.jpg",
-        "publishedAt": "2026-08-07T13:30:02.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "广东江门做足准备 迎侨乡特色月饼“出口季”",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-07/10673900.shtml",
-        "summary": "中新社广东江门8月7日电 (郭军 梁海棠)中秋佳节临近，连日来江门市蓬江区香兰食品有限公司的生产车间内，自动化生产线满负荷运转，一枚枚金黄饱满的广式月饼在传送带上缓缓“走”下，香气四溢。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260807/293d77c4-66fc-4ab4-a96e-af5909f40cd9_zsite.jpg",
-        "publishedAt": "2026-08-07T13:26:54.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "中国南水北调中线工程调水突破800亿立方米",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-07/10673896.shtml",
-        "summary": "中新社北京8月7日电 记者从中国南水北调集团中线有限公司获悉，截至8月7日，中国南水北调中线工程累计向北方调水突破800亿立方米。",
+        "title": "【中国那些事儿】基建赋能、产业共进、人才共育 中非务实合作赢得非洲青年高度认同",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-07/10674012.shtml",
+        "summary": "中国日报网8月7日电 2026年是中非人文交流年，一系列合作成果正转化为非洲青年对中国的广泛认可与深厚情谊。南非智库伊奇科维茨家族基金会发布的《非洲青年调查(2026)》显示，在认为中国具有影响力的受访者中，约95%的人认为中国的影响是积极正面的。同时，95%的受访者将中国视作合作伙伴。正如基金会主...",
         "image": "",
-        "publishedAt": "2026-08-07T13:25:22.000Z",
+        "publishedAt": "2026-08-07T15:27:54.000Z",
         "source": "中新网"
       },
       {
-        "title": "北京：非京籍家庭购房社保个税缴纳年限下调为一年",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-07/10673946.shtml",
-        "summary": "北京市住房和城乡建设委员会、北京市规划和自然资源委员会、北京住房公积金管理中心7日晚联合印发《关于进一步优化调整本市房地产政策的通知》，明确非京籍家庭购买五环内商品住房的社保或个税缴纳年限由“2年”，调减为“1年”。调整后，非京籍家庭在全市范围内购买商品住房的社保或个税缴纳年限统一为“1年”，购买商...",
+        "title": "“期待从中国的发展实践中汲取经验和智慧”——访南非电力和能源部部长拉莫豪帕",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-07/10674011.shtml",
+        "summary": "人民网北京8月6日电 (陈芯仪、崔译戈)8月3日至4日，南非—中国电力和能源投资大会在北京举行。会议围绕输变电、可再生能源、电池储能、燃气、核能、绿氢和产业本地化等领域的投资机遇展开交流，旨在推动双方合作从贸易往来和单项交易迈向长期投资、技术协作和项目落地。大会期间，南非电力和能源部部长科西恩乔·拉...",
         "image": "",
-        "publishedAt": "2026-08-07T13:25:20.000Z",
+        "publishedAt": "2026-08-07T15:23:53.000Z",
         "source": "中新网"
       },
       {
-        "title": "开局起步“十五五”：海南推进西部陆海新通道国际航运枢纽建设",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-07/10673926.shtml",
-        "summary": "中新网海口8月7日电 (记者 王子谦)海南省交通运输厅总规划师彭翀7日在海口表示，“十五五”期间，海南将以提升港口通过能力、专业化水平和航运服务水平为重点，系统推进西部陆海新通道国际航运枢纽建设。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260807/9ba757b2-f2c5-4386-a1d8-7928de10cb99_zsite.jpg",
-        "publishedAt": "2026-08-07T13:23:08.000Z",
+        "title": "外国游客购物清单上“新成员”增多 离境退税措施再优化推高入境消费热力",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-07/10674010.shtml",
+        "summary": "央视网消息：暑期以来，大量外籍旅客来华旅游，带动离境退税业务增长。据北京海关统计，2026年前7个月，北京“双枢纽”机场，首都国际机场和大兴国际机场海关共验核离境退税申请单超13.1万票，相比2025年同期增长超516%；申请退税商品总金额约10.55亿元，相比2025年同期增长45.01%，入境消...",
+        "image": "",
+        "publishedAt": "2026-08-07T15:21:53.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "北京出台楼市新政 惠及非京籍家庭",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-07/10674007.shtml",
+        "summary": "中新社北京8月7日电 (记者 陈杭)北京7日发布《关于进一步优化调整本市房地产政策的通知》(下称通知)，明确非京籍家庭购买五环内商品住房的社保或个税缴纳年限由2年进一步调减为1年。",
+        "image": "",
+        "publishedAt": "2026-08-07T15:19:45.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "延伸链条，老区“长”出新产业",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-07/10674009.shtml",
+        "summary": "利用资源禀赋 攻克关键技术 实现多元发展",
+        "image": "",
+        "publishedAt": "2026-08-07T15:18:41.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
+        "title": "Spain threatens retaliation if Italy fails to lift border controls after Ceuta crossings",
+        "link": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss",
+        "summary": "Italy has said it will not accept \"ultimatums or impositions\" after the mass crossing of migrants from Morocco to Ceuta last week.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/be73/live/f8fae290-9024-11f1-a7ab-8b30adf0800a.jpg",
+        "publishedAt": "2026-08-07T16:33:50.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Spanish police arrest 78 people in bust of 'one of largest' smuggling networks",
+        "link": "https://www.bbc.co.uk/news/articles/clylejzkkx4o?at_medium=RSS&at_campaign=rss",
+        "summary": "The group moved synthetic drugs from Spain to Algeria, then used the return journey to smuggle migrants and weapons.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fc5f/live/1bb4b890-927a-11f1-b7a2-c7c91f255a18.png",
+        "publishedAt": "2026-08-07T16:13:45.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Seven killed after Thai student opens fire at home and school",
+        "link": "https://www.bbc.co.uk/news/articles/c980j3j578do?at_medium=RSS&at_campaign=rss",
+        "summary": "Authorities say the 14-year-old killed his grandparents before gunning down five teachers at his school.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cfea/live/f48efef0-927f-11f1-870d-5d08c49babb2.jpg",
+        "publishedAt": "2026-08-07T15:51:16.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "Saudi Arabia, Turkey and Pakistan sign defence pact",
         "link": "https://www.bbc.co.uk/news/articles/c30418m4mj4o?at_medium=RSS&at_campaign=rss",
         "summary": "Pakistan says an attack on any of the three will amount to an attack against all, amid conflict in the Middle East.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa68/live/d3a158e0-9258-11f1-b9ff-37ae3aba3894.png",
-        "publishedAt": "2026-08-07T13:18:33.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "US strikes $1.2bn deal to pay German firm to halt offshore wind projects",
-        "link": "https://www.bbc.co.uk/news/articles/c1e1vg0gjl5o?at_medium=RSS&at_campaign=rss",
-        "summary": "The RWE payout is the latest in a string of deals cancelling wind energy projects, a power source long derided by Trump.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5720/live/f30947f0-9240-11f1-8a95-af174e9f8ab7.jpg",
-        "publishedAt": "2026-08-07T09:50:54.000Z",
+        "publishedAt": "2026-08-07T15:48:49.000Z",
         "source": "BBC"
       },
       {
@@ -321,48 +337,40 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1611/live/29966380-9240-11f1-b2ab-0dd01740f9f6.jpg",
         "publishedAt": "2026-08-07T09:22:03.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Australian aviation crew carries out daring midwinter Antarctica rescue",
-        "link": "https://www.bbc.co.uk/news/articles/c89nqlz5p4qo?at_medium=RSS&at_campaign=rss",
-        "summary": "Team evacuated a patient from McMurdo Station after landing plane in total darkness and temperature of -43°C.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eebf/live/20d98930-9212-11f1-a7ab-8b30adf0800a.jpg",
-        "publishedAt": "2026-08-07T05:44:29.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Teen kills classmates, teachers, and his grandparents in Thai gun rampage, police say",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9lakVFOW96RXpEZDltMjZMN2ZLd1ptN2NGV0N6cXdXZEdwRWRpa1NCY2IzcnhXeHpwUU5PR1hxTUhWeWxNcncybkRPQmNuZG16VDVudm5CbERpTmtCTlhsOGpwSjVFQXhWcDRkQVFRREFJdHdsZzhqZg?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-08-07T04:05:17.000Z",
-        "source": "CNN"
       }
     ],
     "worldBusiness": [
-      {
-        "title": "Surprise fall in US jobs last month as slow summer continues",
-        "link": "https://www.bbc.co.uk/news/articles/c20j5rle717o?at_medium=RSS&at_campaign=rss",
-        "summary": "Analysts had expected an uptick in the number of jobs created, but the number of roles fell by 23,000 in July.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dbb4/live/44eb8470-925f-11f1-b9ff-37ae3aba3894.jpg",
-        "publishedAt": "2026-08-07T13:26:22.000Z",
-        "source": "BBC"
-      },
       {
         "title": "How a 90-second power outage sparked chaos for rail commuters",
         "link": "https://www.bbc.co.uk/news/articles/c3ekd5784k5o?at_medium=RSS&at_campaign=rss",
         "summary": "The incident raised questions about how a disrupted power supply can have such a widespread impact.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2293/live/c553a680-9262-11f1-b2ab-0dd01740f9f6.jpg",
-        "publishedAt": "2026-08-07T12:30:07.000Z",
+        "publishedAt": "2026-08-07T16:11:32.000Z",
         "source": "BBC"
       },
       {
-        "title": "US strikes $1.2bn deal to pay German firm to halt offshore wind projects",
+        "title": "Surprise fall in US jobs last month as slow summer continues",
+        "link": "https://www.bbc.co.uk/news/articles/c20j5rle717o?at_medium=RSS&at_campaign=rss",
+        "summary": "Analysts had expected an uptick in the number of jobs created, but the number of roles fell by 23,000 in July.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dbb4/live/44eb8470-925f-11f1-b9ff-37ae3aba3894.jpg",
+        "publishedAt": "2026-08-07T14:03:55.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Trump administration to pay German firm $1.2bn to halt US wind projects",
         "link": "https://www.bbc.co.uk/news/articles/c1e1vg0gjl5o?at_medium=RSS&at_campaign=rss",
         "summary": "The RWE payout is the latest in a string of deals cancelling wind energy projects, a power source long derided by Trump.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5720/live/f30947f0-9240-11f1-8a95-af174e9f8ab7.jpg",
-        "publishedAt": "2026-08-07T09:50:54.000Z",
+        "publishedAt": "2026-08-07T13:32:41.000Z",
         "source": "BBC"
+      },
+      {
+        "title": "July jobs report: 23,000 jobs lost, unemployment dips to 4.1%",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNGUybl9jbUxON1NYaHJBM1diVTJTS1JrWjV0YkpfMmx1VEhvNEJaOEw4N2hTMnYxZlgxajJXNE9ocC1tUHA2RmUyRjV3WDQ5TjJfREVZNnVISHFYZG50M2t6MkVsclB4UWdVMkg5RWtWWTZPYURKUG4zZWw0ZEJiRmVzV2R6OFlWcVE?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-08-07T13:32:29.000Z",
+        "source": "CNN"
       },
       {
         "title": "Meta fined $567m in largest child safety ruling against social media giant",
@@ -370,14 +378,6 @@
         "summary": "The ruling is in addition to $375m in fines Meta was already ordered to pay in the case, for a total of $942m.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1611/live/29966380-9240-11f1-b2ab-0dd01740f9f6.jpg",
         "publishedAt": "2026-08-07T09:22:03.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Argos is getting a makeover - but can it attract new shoppers?",
-        "link": "https://www.bbc.co.uk/news/articles/c2lqvwewgp2o?at_medium=RSS&at_campaign=rss",
-        "summary": "The retailer has been around for 50 years but struggled to compete with newer rivals such as Amazon. Can its new owners turn it around?",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6b55/live/2f63f710-91b3-11f1-af4d-5164294a85c7.png",
-        "publishedAt": "2026-08-06T23:03:48.000Z",
         "source": "BBC"
       }
     ],
@@ -404,7 +404,7 @@
         "summary": "",
         "image": "",
         "publishedAt": "2026-08-06T18:10:00.000Z",
-        "source": "edition.cnn.com"
+        "source": "CNN"
       },
       {
         "title": "First OpenAI, now Meta - why do AI hacks keep happening?",
@@ -425,61 +425,77 @@
     ],
     "domestic": [
       {
-        "title": "上半年中国国内居民出游人次同比增长5.4%",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-07/10673943.shtml",
-        "summary": "中新社北京8月7日电 (记者 刘文文)中国文化和旅游部7日公布，2026年上半年，中国国内居民出游人次超34亿，同比增长5.4%。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260807/378fd297-d207-427d-a80b-fd0713928dfb_zsite.jpeg",
-        "publishedAt": "2026-08-07T13:27:50.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "平陆运河电子航道图上线运行",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-07/10673890.shtml",
-        "summary": "中新网南宁8月7日电 (杨陈 雷东荣)记者7日从广西壮族自治区交通运输厅获悉，平陆运河电子航道图日前已在广西数字水运一体化平台、广西水运江河海一体化调度平台上线运行，标志着平陆运河顺利实现航道数字化导航，为平陆运河全段通航数字化、管理智能化奠定了坚实基础。",
+        "title": "外媒观察丨海外青年追捧中式生活方式 世界看见鲜活立体的中国",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-07/10674013.shtml",
+        "summary": "中国网8月7日讯(记者 李智)中国正在变“潮”吗？近来，外媒注意到一个有趣现象：打开短视频社交平台TikTok，不少海外博主热衷于分享中式生活方式，这正成为一种新风尚。德国《焦点》杂志观察到，晨起冲泡玫瑰枸杞茶、刮痧、练太极、身着旗袍唐装分享穿搭……大量欧美创作者乐于展示自己喜爱的东方生活美学。",
         "image": "",
-        "publishedAt": "2026-08-07T12:51:44.000Z",
+        "publishedAt": "2026-08-07T15:33:50.000Z",
         "source": "中新网"
       },
       {
-        "title": "中央考核巡查组向多地反馈情况，都提到同一问题",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-07/10673884.shtml",
-        "summary": "中新网北京8月7日电(记者 袁秀月)近期，多个中央安全生产考核巡查组向地方反馈明察暗访情况。",
+        "title": "活力中国调研行丨智能“好房子”什么样？看安徽科创成果如何落地",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-07/10674008.shtml",
+        "summary": "在安徽，科技创新成果走出实验室，扎根居家生活、城市运维各类场景。智能住宅优化居住体验，全域感知系统助力城市高效运转。技术落地民生场景，同时培育起潜力十足的科创产业链。一起到安徽感受科技如何改变生活。",
         "image": "",
-        "publishedAt": "2026-08-07T12:44:07.000Z",
+        "publishedAt": "2026-08-07T15:14:01.000Z",
         "source": "中新网"
       },
       {
-        "title": "学习·知行丨“敦煌，我心向往之”",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-07/10673886.shtml",
-        "summary": "飞天翩跹穹宇，驼铃回响古道。敦煌，作为古代丝绸之路重镇，多元文明在此交汇。",
+        "title": "朱卫东：统一是现在进行时 加速“台独”就是加速统一",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-07/10673989.shtml",
+        "summary": "中新社江苏无锡8月7日电 (记者 路梅)中国社会科学院台湾研究所所长、全国台湾研究会副会长朱卫东7日表示，统一既是目标也是过程，既是名词也是动词，更是现在进行时。当前，两岸统一进程正处于斗争极其复杂尖锐的战略相持阶段后期，促使统一的历史条件持续累积。加速“台独”就是加速统一，“台独”的尽头是统一。",
         "image": "",
-        "publishedAt": "2026-08-07T12:39:17.000Z",
+        "publishedAt": "2026-08-07T14:57:09.000Z",
         "source": "中新网"
       },
       {
-        "title": "时政新闻眼丨从四个维度读懂今年以来中国元首外交",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-07/10673881.shtml",
-        "summary": "“十五五”开局之年，中国元首外交精彩纷呈。迎新朋，会老友，习近平主席以大党大国领袖的宏阔视野和天下情怀，密集开展元首外交，引领中国担负起求和平、谋发展、促合作、扬正义的时代使命，为构建人类命运共同体注入强劲动力。",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/08/07/f673cc48df67461b82b1eccac8a366f9.jpg",
-        "publishedAt": "2026-08-07T12:32:22.000Z",
+        "title": "港澳大学生暑期“闯”海南：愿做逐浪未来之“桥”",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-07/10673979.shtml",
+        "summary": "中新社海口8月7日电 题：港澳大学生暑期“闯”海南：愿做逐浪未来之“桥”",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260807/dbeaf48a-12f5-4580-95fa-cb09e024e583_zsite.jpg",
+        "publishedAt": "2026-08-07T14:48:05.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "国家防总、应急管理部组织多部门联合会商 调度部署台风“白海豚”防范应对工作 国家防总提升防汛防台风应急响应至三级",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-07/10673995.shtml",
+        "summary": "中新网8月7日电 据应急管理部网站消息，8月7日下午，国家防总、应急管理部组织中国气象局、水利部、自然资源部、交通运输部、农业农村部等部门以及浙江、福建和其他可能受影响的省份联合会商，研判台风“白海豚”发展趋势，进一步研究部署台风防范应对工作。国家防总于7日16时将针对浙江、福建的防汛防台风四级应急...",
+        "image": "",
+        "publishedAt": "2026-08-07T14:33:00.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
+        "title": "Spain threatens retaliation if Italy fails to lift border controls after Ceuta crossings",
+        "link": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss",
+        "summary": "Italy has said it will not accept \"ultimatums or impositions\" after the mass crossing of migrants from Morocco to Ceuta last week.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/be73/live/f8fae290-9024-11f1-a7ab-8b30adf0800a.jpg",
+        "publishedAt": "2026-08-07T16:33:50.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Spanish police arrest 78 people in bust of 'one of largest' smuggling networks",
+        "link": "https://www.bbc.co.uk/news/articles/clylejzkkx4o?at_medium=RSS&at_campaign=rss",
+        "summary": "The group moved synthetic drugs from Spain to Algeria, then used the return journey to smuggle migrants and weapons.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fc5f/live/1bb4b890-927a-11f1-b7a2-c7c91f255a18.png",
+        "publishedAt": "2026-08-07T16:13:45.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Seven killed after Thai student opens fire at home and school",
+        "link": "https://www.bbc.co.uk/news/articles/c980j3j578do?at_medium=RSS&at_campaign=rss",
+        "summary": "Authorities say the 14-year-old killed his grandparents before gunning down five teachers at his school.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cfea/live/f48efef0-927f-11f1-870d-5d08c49babb2.jpg",
+        "publishedAt": "2026-08-07T15:51:16.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "Saudi Arabia, Turkey and Pakistan sign defence pact",
         "link": "https://www.bbc.co.uk/news/articles/c30418m4mj4o?at_medium=RSS&at_campaign=rss",
         "summary": "Pakistan says an attack on any of the three will amount to an attack against all, amid conflict in the Middle East.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa68/live/d3a158e0-9258-11f1-b9ff-37ae3aba3894.png",
-        "publishedAt": "2026-08-07T13:18:33.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "US strikes $1.2bn deal to pay German firm to halt offshore wind projects",
-        "link": "https://www.bbc.co.uk/news/articles/c1e1vg0gjl5o?at_medium=RSS&at_campaign=rss",
-        "summary": "The RWE payout is the latest in a string of deals cancelling wind energy projects, a power source long derided by Trump.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5720/live/f30947f0-9240-11f1-8a95-af174e9f8ab7.jpg",
-        "publishedAt": "2026-08-07T09:50:54.000Z",
+        "publishedAt": "2026-08-07T15:48:49.000Z",
         "source": "BBC"
       },
       {
@@ -489,22 +505,6 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1611/live/29966380-9240-11f1-b2ab-0dd01740f9f6.jpg",
         "publishedAt": "2026-08-07T09:22:03.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Australian aviation crew carries out daring midwinter Antarctica rescue",
-        "link": "https://www.bbc.co.uk/news/articles/c89nqlz5p4qo?at_medium=RSS&at_campaign=rss",
-        "summary": "Team evacuated a patient from McMurdo Station after landing plane in total darkness and temperature of -43°C.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eebf/live/20d98930-9212-11f1-a7ab-8b30adf0800a.jpg",
-        "publishedAt": "2026-08-07T05:44:29.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Teen kills classmates, teachers, and his grandparents in Thai gun rampage, police say",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9lakVFOW96RXpEZDltMjZMN2ZLd1ptN2NGV0N6cXdXZEdwRWRpa1NCY2IzcnhXeHpwUU5PR1hxTUhWeWxNcncybkRPQmNuZG16VDVudm5CbERpTmtCTlhsOGpwSjVFQXhWcDRkQVFRREFJdHdsZzhqZg?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-08-07T04:05:17.000Z",
-        "source": "CNN"
       }
     ],
     "nba": []
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-08-07",
+    "rotationLabel": "Curated Rotation · 2026-08-08",
     "sections": [
       {
         "id": "data-storage",
@@ -522,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-2",
-            "sectionId": "data-storage",
-            "title": "Bigtable: A Distributed Storage System for Structured Data",
-            "authors": [
-              "Fay Chang",
-              "Jeffrey Dean",
-              "Sanjay Ghemawat",
-              "Wilson C. Hsieh"
-            ],
-            "venue": "OSDI",
-            "year": 2006,
-            "quality": "顶会",
-            "categories": [
-              "distributed systems",
-              "database"
-            ],
-            "link": "https://research.google/pubs/pub27898/",
-            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-3",
             "sectionId": "data-storage",
@@ -562,7 +541,7 @@
             ],
             "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
             "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-4",
@@ -584,6 +563,26 @@
             "link": "https://research.google/pubs/pub36632/",
             "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-5",
+            "sectionId": "data-storage",
+            "title": "The FAISS Library",
+            "authors": [
+              "Jeff Johnson",
+              "Matthijs Douze",
+              "Herve Jegou"
+            ],
+            "venue": "IEEE T-BD",
+            "year": 2021,
+            "quality": "高影响力",
+            "categories": [
+              "vector search",
+              "ANN"
+            ],
+            "link": "https://arxiv.org/abs/2401.08281",
+            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -593,27 +592,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-3",
-            "sectionId": "computer-vision",
-            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
-            "authors": [
-              "Alexey Dosovitskiy",
-              "Lucas Beyer",
-              "Alexander Kolesnikov",
-              "Dirk Weissenborn"
-            ],
-            "venue": "ICLR",
-            "year": 2021,
-            "quality": "顶会",
-            "categories": [
-              "vision transformer",
-              "classification"
-            ],
-            "link": "https://arxiv.org/abs/2010.11929",
-            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-4",
             "sectionId": "computer-vision",
@@ -633,7 +611,7 @@
             ],
             "link": "https://arxiv.org/abs/2103.00020",
             "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-5",
@@ -655,6 +633,27 @@
             "link": "https://arxiv.org/abs/2304.02643",
             "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-6",
+            "sectionId": "computer-vision",
+            "title": "DINOv2: Learning Robust Visual Features without Supervision",
+            "authors": [
+              "Maxime Oquab",
+              "Timothée Darcet",
+              "Théo Moutakanni",
+              "Huy V. Vo"
+            ],
+            "venue": "arXiv / Meta",
+            "year": 2023,
+            "quality": "高影响力",
+            "categories": [
+              "self-supervised",
+              "representation"
+            ],
+            "link": "https://arxiv.org/abs/2304.07193",
+            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -664,27 +663,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-4",
-            "sectionId": "llm-memory",
-            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
-            "authors": [
-              "Akari Asai",
-              "Zequn Zhang",
-              "Avirup Sil",
-              "Hannaneh Hajishirzi"
-            ],
-            "venue": "ICLR",
-            "year": 2024,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "self-reflection"
-            ],
-            "link": "https://arxiv.org/abs/2310.11511",
-            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-5",
             "sectionId": "llm-memory",
@@ -704,7 +682,7 @@
             ],
             "link": "https://arxiv.org/abs/2306.07174",
             "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-6",
@@ -726,6 +704,27 @@
             "link": "https://arxiv.org/abs/2409.05591",
             "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-1",
+            "sectionId": "llm-memory",
+            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+            "authors": [
+              "Patrick Lewis",
+              "Ethan Perez",
+              "Aleksandra Piktus",
+              "Fabio Petroni"
+            ],
+            "venue": "NeurIPS",
+            "year": 2020,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "retrieval"
+            ],
+            "link": "https://arxiv.org/abs/2005.11401",
+            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -735,27 +734,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-5",
-            "sectionId": "agents",
-            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
-            "authors": [
-              "Qingyun Wu",
-              "Gagan Bansal",
-              "Jiaqi Zhang",
-              "Yiran Wu"
-            ],
-            "venue": "COLM",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "multi-agent",
-              "framework"
-            ],
-            "link": "https://arxiv.org/abs/2308.08155",
-            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-6",
             "sectionId": "agents",
@@ -775,7 +753,7 @@
             ],
             "link": "https://arxiv.org/abs/2405.15793",
             "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-1",
@@ -797,6 +775,27 @@
             ],
             "link": "https://arxiv.org/abs/2210.03629",
             "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-2",
+            "sectionId": "agents",
+            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+            "authors": [
+              "Timo Schick",
+              "Jane Dwivedi-Yu",
+              "Roberta Dessì",
+              "Ari Holtzman"
+            ],
+            "venue": "NeurIPS",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "tool use",
+              "agent"
+            ],
+            "link": "https://arxiv.org/abs/2302.04761",
+            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
             "trackLabel": "轮换精选"
           }
         ]
