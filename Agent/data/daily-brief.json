@@ -1,36 +1,28 @@
 {
-  "generatedAt": "2026-08-10T13:37:22.590Z",
+  "generatedAt": "2026-08-10T17:03:57.774Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 27,
+      "temperature": 25,
       "weatherCode": 0,
-      "windSpeed": 6
+      "windSpeed": 3
     },
     "today": {
-      "date": "2026-08-10",
-      "weatherCode": 3,
-      "description": "阴天",
-      "max": 32,
+      "date": "2026-08-11",
+      "weatherCode": 95,
+      "description": "雷暴",
+      "max": 34,
       "min": 23,
-      "precipitationProbability": 0
+      "precipitationProbability": 76
     },
     "forecast": [
-      {
-        "date": "2026-08-10",
-        "weatherCode": 3,
-        "description": "阴天",
-        "max": 32,
-        "min": 23,
-        "precipitationProbability": 0
-      },
       {
         "date": "2026-08-11",
         "weatherCode": 95,
         "description": "雷暴",
         "max": 34,
         "min": 23,
-        "precipitationProbability": 85
+        "precipitationProbability": 76
       },
       {
         "date": "2026-08-12",
@@ -38,7 +30,7 @@
         "description": "雷暴",
         "max": 26,
         "min": 23,
-        "precipitationProbability": 96
+        "precipitationProbability": 100
       },
       {
         "date": "2026-08-13",
@@ -46,7 +38,7 @@
         "description": "雷暴",
         "max": 27,
         "min": 22,
-        "precipitationProbability": 68
+        "precipitationProbability": 73
       },
       {
         "date": "2026-08-14",
@@ -54,33 +46,50 @@
         "description": "基本晴",
         "max": 30,
         "min": 21,
-        "precipitationProbability": 7
+        "precipitationProbability": 9
+      },
+      {
+        "date": "2026-08-15",
+        "weatherCode": 3,
+        "description": "阴天",
+        "max": 30,
+        "min": 21,
+        "precipitationProbability": 20
       }
     ]
   },
   "classicQuote": {
-    "id": "taoteching-self",
-    "text": "知人者智，自知者明；胜人者有力，自胜者强。",
-    "source": "《道德经》",
-    "author": "老子",
-    "note": "比起和别人比较，更重要的是把自己的节奏稳住。"
+    "id": "zhuangzi-time",
+    "text": "人生天地之间，若白驹之过隙，忽然而已。",
+    "source": "《庄子》",
+    "author": "庄周",
+    "note": "事情很多的时候，更值得把注意力放在真正重要的事上。"
   },
   "bookExcerpt": {
-    "id": "norwegian-wood-rain",
-    "text": "雨还在下，细得像雾，落在草地和树叶上，世界像被一种安静的潮气轻轻包住。",
-    "book": "《挪威的森林》",
-    "author": "村上春树"
+    "id": "one-hundred-years-yellow",
+    "text": "许多年以后，面对行刑队，奥雷里亚诺·布恩迪亚上校将会想起父亲带他去见识冰块的那个遥远的下午。",
+    "book": "《百年孤独》",
+    "author": "加西亚·马尔克斯"
   },
   "featuredPlace": {
-    "id": "202608091600",
-    "title": "约书亚树国家公园，加利福尼亚州，美国",
+    "id": "202608101600",
+    "title": "哥本哈根新港运河沿岸的彩色房屋，首都大区，丹麦",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "两片沙漠交汇之地",
-    "image": "https://www.bing.com/th?id=OHR.SandPath_ZH-CN7820825668_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E7%BA%A6%E4%B9%A6%E4%BA%9A%E6%A0%91%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
+    "summary": "绚丽多彩的哥本哈根",
+    "image": "https://www.bing.com/th?id=OHR.ColorfulCop_ZH-CN8015611442_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E5%93%A5%E6%9C%AC%E5%93%88%E6%A0%B9%E6%96%B0%E6%B8%AF%E8%BF%90%E6%B2%B3&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202608101600",
+      "title": "哥本哈根新港运河沿岸的彩色房屋，首都大区，丹麦",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "绚丽多彩的哥本哈根",
+      "image": "https://www.bing.com/th?id=OHR.ColorfulCop_ZH-CN8015611442_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E5%93%A5%E6%9C%AC%E5%93%88%E6%A0%B9%E6%96%B0%E6%B8%AF%E8%BF%90%E6%B2%B3&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202608091600",
       "title": "约书亚树国家公园，加利福尼亚州，美国",
@@ -143,183 +152,182 @@
       "summary": "呼呼，太棒了！",
       "image": "https://www.bing.com/th?id=OHR.AdorableOwlet_ZH-CN6929234033_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E7%8C%AB%E5%A4%B4%E9%B9%B0&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202608021600",
-      "title": "马尔萨什洛克港口五彩斑斓的渔船，马耳他",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "色彩鲜艳的船只，历久弥新的传统",
-      "image": "https://www.bing.com/th?id=OHR.BoatsMalta_ZH-CN4708255775_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E9%A9%AC%E8%80%B3%E4%BB%96%E9%A9%AC%E5%B0%94%E8%90%A8%E4%BB%80%E6%B4%9B%E5%85%8B&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-08-10",
-    "dateLabel": "8月10日",
+    "dateKey": "2026-08-11",
+    "dateLabel": "8月11日",
     "items": [
       {
-        "year": "2021",
-        "text": "香港教育專業人員協會宣告解散。",
-        "link": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4"
+        "year": "2024",
+        "text": "2024年夏季奧林匹克運動會閉幕式。",
+        "link": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4"
       },
       {
-        "year": "2020",
-        "text": "香港警務處國家安全處以涉嫌違反《港區國安法》拘捕壹傳媒創辦人黎智英及其兩名兒子、四名壹傳媒高級管理人員及三名社運人士周庭，期間警方曾到壹傳媒位於將軍澳工業邨的總部大樓進行搜查。",
-        "link": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4"
+        "year": "2019",
+        "text": "2019年8月11日香港反對逃犯條例修訂草案遊行。",
+        "link": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "公安部深化扫黑除恶专项斗争第一轮集中收网 抓获犯罪嫌疑人8200余名",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-10/10675405.shtml",
-        "summary": "为深入贯彻落实党中央关于开展深化扫黑除恶专项斗争的决策部署和全国扫黑除恶专项斗争视频会议要求，近日，公安部指挥全国公安机关同步开展深化扫黑除恶专项斗争第一轮集中收网行动，成功打掉各类犯罪团伙1000余个，抓获犯罪嫌疑人8200余名，破获各类刑事案件5400余起。",
+        "title": "我国生态保护“十五五”规划明确路线图",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-10/10675453.shtml",
+        "summary": "《生态保护“十五五”规划》今天(10日)出台。规划提出，到2030年，我国生态空间格局持续优化，生态质量稳步改善，生物多样性丧失趋势得到有效缓解，优质生态产品供给更加丰富，国家生态安全将得到有效保障。具体目标是：自然保护地面积占陆域国土面积比例不低于18%，生态质量指数提升至86.5，水土保持率达到...",
         "image": "",
-        "publishedAt": "2026-08-10T13:32:18.000Z",
+        "publishedAt": "2026-08-10T15:57:47.000Z",
         "source": "中新网"
       },
       {
-        "title": "调查指台湾上半年雇员经常性薪资低于平均数比例首次突破七成",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-10/10675389.shtml",
-        "summary": "中新社台北8月10日电 台当局“主计总处”10日公布最新薪资统计显示，今年1月至6月，台湾受雇员工经常性薪资低于平均数的比例首次突破七成，达70.03%，创历年新高。",
+        "title": "2026年闽台同名村镇（同宗）续缘之旅：感受根脉相连",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-10/10675452.shtml",
+        "summary": "中新社漳州8月10日电 (王雅苹)“这三十多年来，台湾高雄薛氏后人回祖籍地山重村寻根谒祖，都要来看祖辈口中的这棵古樟树，并合影留念。”10日下午，听着福建省漳州市长泰区山重村薛氏宗亲薛晓莉的讲解，参加“同名寻根 两岸同心”——2026年闽台同名村镇(同宗)续缘之旅的20位台胞纷纷拿起手机拍下这棵生长...",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260810/014714f8-d8d1-4ad3-a2e1-c658d4a0ff7f_zsite.jpg",
+        "publishedAt": "2026-08-10T15:53:09.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "中星4B卫星发射失利",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-10/10675448.shtml",
+        "summary": "8月10日20时02分，我国在文昌航天发射场使用长征七号改运载火箭发射中星4B卫星，火箭飞行异常，发射任务失利。具体原因正在进一步分析排查。",
         "image": "",
-        "publishedAt": "2026-08-10T13:20:21.000Z",
+        "publishedAt": "2026-08-10T15:16:19.000Z",
         "source": "中新网"
       },
       {
-        "title": "中方：印方公布所谓“标准名称”改变不了藏南地区属于中国的事实",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-10/10675377.shtml",
-        "summary": "中新社北京8月10日电 中国外交部发言人郭嘉昆10日在答记者问时表示，印方公布所谓“标准名称”试图取代中国长期使用的地名，是非法的、无效的，更改变不了藏南地区属于中国的事实。",
+        "title": "中国学者领衔研究：21世纪末全球高温日极端高温时长或增加4小时",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-10/10675446.shtml",
+        "summary": "中新网北京8月10日电 (记者 孙自法)施普林格·自然旗下专业学术期刊《自然-气候变化》北京时间8月10日夜间上线发表中国学者领衔的一项研究发现，在高排放场景下，到21世纪末，全球平均每个高温日的极端高温时长可能额外增加4个小时。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260810/ae55129c-7175-456d-9536-b7ba069e791b_zsite.jpeg",
+        "publishedAt": "2026-08-10T15:07:48.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "中国警方深化扫黑除恶专项斗争第一轮集中收网",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-10/10675440.shtml",
+        "summary": "中新社北京8月10日电 (记者 郭超凯)记者10日从中国公安部获悉，近日，公安部指挥全国公安机关同步开展深化扫黑除恶专项斗争第一轮集中收网行动，成功打掉各类犯罪团伙1000余个，抓获犯罪嫌疑人8200余名，破获各类刑事案件5400余起。",
         "image": "",
-        "publishedAt": "2026-08-10T13:10:59.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "总书记治国理政故事｜“我是人民的勤务员”",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-10/10675382.shtml",
-        "summary": "视频：总书记治国理政故事｜“我是人民的勤务员”来源：新华社",
-        "image": "https://poss-videocloud.cns.com.cn/oss/2026/08/10/chinanews/MEIZI_YUNSHI/onair/10BC15041B4742E9B30DA03D64CA3602.mp4",
-        "publishedAt": "2026-08-10T12:57:22.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "第四届“元明清藏文文献、图像所见民族交流史”研讨会在拉萨开幕",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-10/10675364.shtml",
-        "summary": "中新网拉萨8月10日电 (赵朗 丹增桑珍)第四届“元明清藏文文献、图像所见民族交流史”研讨会10日在拉萨开幕。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260810/bee0907b-3098-4884-a223-e3c66bc3a9e5_zsite.jpg",
-        "publishedAt": "2026-08-10T12:46:37.000Z",
+        "publishedAt": "2026-08-10T14:45:55.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "从“湘”遇到“湘”知 港澳台青年书写在湘创业就业故事",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-10/10675400.shtml",
-        "summary": "中新网长沙8月10日电(张雪盈 刘曼)“湖南的发展成果早已融入港澳台青年的生活与工作。”正在参与2026港澳台青年湖湘实践活动的香港青年林兆彦，这样形容自己对湖南的感受。在他眼中，越来越多的港澳台青年选择来湖南求学、就业、创业，参与文创研发、内容创作和产业发展，成为湖南高质量发展的“参与者”。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260810/08713666-2110-4d61-be8e-f6a96a373cce_zsite.jpg",
-        "publishedAt": "2026-08-10T13:34:20.000Z",
+        "title": "今年英仙座流星雨将至 公众或可同观“六星连珠”",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-10/10675441.shtml",
+        "summary": "中新社广州8月10日电 (郭军 梁海棠)据广州市五羊天象馆10日预测，今年英仙座流星雨即将来临，六大行星近日也汇聚在太阳的西面，公众或可观测到“六星连珠”天象。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260810/c5a97bfa-9d04-4a54-b06e-9717be7d5061_zsite.jpg",
+        "publishedAt": "2026-08-10T14:46:43.000Z",
         "source": "中新网"
       },
       {
-        "title": "台风天“白海豚”携风雨持续暴击，这份“就医防病提醒”请查收",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-10/10675401.shtml",
-        "summary": "今天(8月10日)上午9时许，申城风雨交加。从地铁顾戴路站走出来的李女士，一手撑着几乎要被风吹翻的雨伞，一手紧紧搂着3岁的女儿小雨。小雨需要去复旦大学附属儿科医院复查支气管炎，可看到漫天大雨，李女士心里直发愁。",
+        "title": "青海首个版权服务工作站落户果洛",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-10/10675434.shtml",
+        "summary": "中新网西宁8月10日电 (英毛措 多杰昂秀 孙睿)8月10日，青海省果洛州版权服务工作站揭牌仪式在州融媒体中心举行，标志着该省首个版权服务工作站落户果洛。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260810/e06fdbf2-d878-4c40-b22a-be85a7559e30_zsite.jpeg",
+        "publishedAt": "2026-08-10T14:39:42.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "甘肃敦煌景区被曝现“昂贵饮料” 调查显示系设备系统故障",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-10/10675431.shtml",
+        "summary": "中新网甘肃敦煌8月10日电 (记者 冯志军 李亚龙)10日，一段“月牙泉景区售货机芬达标价180元”的网络视频引发网友关注和热议。后经敦煌鸣沙山月牙泉景区核查，视频拍摄画面内容属实，但该标价并非景区商品实际售价，系一处自助售货机设备系统故障，造成的价格显示异常。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260810/48a5099e-59fc-4a7b-8dd6-9a8879307b82_zsite.jpg",
+        "publishedAt": "2026-08-10T14:20:05.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "大连化物所研制高能量密度一次电池功率获突破 放电倍率可提高百倍",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-10/10675428.shtml",
+        "summary": "中新网大连8月10日电 (记者 杨毅)中国科学院大连化学物理研究所10日发布消息称，该所能源催化转化全国重点实验室陈忠伟团队近日成功研制出25安时级软包金属锂一次电池，其放电倍率可提高百倍，实现10C(电池放电速度单位)短时大电流放电。这一成果标志着中国在高功率一次电池领域迈入国际前列。",
         "image": "",
-        "publishedAt": "2026-08-10T13:25:48.000Z",
+        "publishedAt": "2026-08-10T14:09:49.000Z",
         "source": "中新网"
       },
       {
-        "title": "边塞非遗接续传承 山西代县挠羊赛打造全民“村跤”IP",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-10/10675392.shtml",
-        "summary": "中新网忻州8月10日电 题：边塞非遗接续传承 山西代县挠羊赛打造全民“村跤”IP",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260810/489e2bd5-ef5c-4464-b984-6748e48500da_zsite.jpg",
-        "publishedAt": "2026-08-10T13:18:17.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "（乡村行·看振兴）广西贵港：声声鸽鸣奏响乡村振兴曲",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-10/10675388.shtml",
-        "summary": "中新网贵港8月10日电 题：广西贵港：声声鸽鸣奏响乡村振兴曲",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260810/c036fb50-9ad8-4398-a708-4c284b85ea03_zsite.JPG",
-        "publishedAt": "2026-08-10T13:17:59.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "中国发现3.6亿年前种子植物新属化石 最早叶生胚珠至少前推4000万年",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-10/10675375.shtml",
-        "summary": "中新网北京8月10日电 (记者 孙自法)记者8月10日从北京大学王德明教授团队获悉，基于约3.6亿年前华南板块早石炭世较完整保存的大化石，该团队最新研究发现了迄今最早叶生胚珠(即长在叶子上的种子，生殖叶)的种子植物新属赣羊齿化石，从而将植物叶生胚珠习性的出现时间，向前推进了至少4000万年。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260810/9c396320-cf2f-48c8-865d-251600529816_zsite.jpeg",
-        "publishedAt": "2026-08-10T13:07:23.000Z",
+        "title": "59名港澳台侨代表访问广东茂名 寻合作发展机遇",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-10/10675420.shtml",
+        "summary": "中新网茂名8月10日电 (梁盛 吴咏蔚)8日至10日，59名港澳台侨代表相聚广东茂名，在观看广东省运会开幕式及体育赛事后，实地走访城市发展点位，近距离感受当地生态风貌、产业活力与人文底蕴，寻找合作发展机遇。",
+        "image": "",
+        "publishedAt": "2026-08-10T14:00:54.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "中国规划到2030年建成煤炭产能储备每年1亿吨以上",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-10/10675393.shtml",
-        "summary": "中新社北京8月10日电 中国国家发改委、国家能源局10日公布的《煤炭工业发展“十五五”规划》(《规划》)提出，扎实推进产能储备制度实施，推动大型煤矿积极建设产能储备，持续扩大储备规模，加强储备煤矿调度监管，逐步形成规模适度、调控有效、保障有力的产能储备格局，到2030年建成煤炭产能储备每年1亿吨以上...",
+        "title": "资本引擎驱动 广东为科创企业送上成长“加速包”",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-10/10675445.shtml",
+        "summary": "中新网深圳8月10日电 (记者 索有为)“资本引擎驱动，科技创新腾飞——走进深交所项目对接会”10日在深圳证券交易所举行，超200家科创企业到场对接，“科技—产业—金融”循环正从宏观命题落地为具体服务。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260810/935277c1-c049-4605-88ce-c83599584425_zsite.jpg",
+        "publishedAt": "2026-08-10T15:08:46.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "海内外美业精英赴辽宁探寻美丽经济",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-10/10675438.shtml",
+        "summary": "中新社沈阳8月10日电 (记者 李晛 韩宏)2026全国服务消费季暨华人美业经贸交流活动10日在沈阳举行。活动以“潮起东方 美动世界”为主题，来自英国、法国、韩国、新加坡、马来西亚等20余个国家和地区的美业精英齐聚沈阳，共探美丽经济新赛道。",
         "image": "",
-        "publishedAt": "2026-08-10T13:14:59.000Z",
+        "publishedAt": "2026-08-10T14:41:18.000Z",
         "source": "中新网"
       },
       {
-        "title": "报告指全球绿色燃料需求爆发在即 供需缺口持续扩大",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-10/10675380.shtml",
-        "summary": "中新社北京8月10日电 (记者 王梦瑶)一份10日在北京发布的报告称，绿色燃料需求爆发在即，预计2030年全球航空、航运业绿色燃料总需求将达3400万吨，2026年全球可持续航空燃料产量预计仅约240万吨，占航空燃料总用量不足0.8%，供需缺口持续拉大。",
+        "title": "宁夏首次实现向内蒙古送电 外送省份扩展至23个",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-10/10675426.shtml",
+        "summary": "中新网银川8月10日电 (记者 于晶)记者10日从国网宁夏电力有限公司获悉，今年7月，宁夏外送电量达112.59亿千瓦时，同比增长5.3%；其中外送新能源电量32.72亿千瓦时，同比增长12.7%，单月外送电量及新能源外送电量双双创历史新高。同日，宁夏首次完成电力外送内蒙古，外送省份由此扩展至23个...",
         "image": "",
-        "publishedAt": "2026-08-10T13:01:18.000Z",
+        "publishedAt": "2026-08-10T14:02:14.000Z",
         "source": "中新网"
       },
       {
-        "title": "上半年新疆工商联系统引进项目87个 总投资额约386.8亿元",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-10/10675356.shtml",
-        "summary": "中新网乌鲁木齐8月10日电 (王修元)新疆维吾尔自治区工商联(总商会)十二届四次常委会议10日在乌鲁木齐召开。今年以来，新疆各级工商联紧紧围绕中心、服务大局，充分发挥桥梁纽带和助手作用，各项工作取得新进展、新成效。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260810/f0f3dc95-25ef-4126-b4fc-f5387429be10_zsite.jpg",
-        "publishedAt": "2026-08-10T12:45:17.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "中国对原产于墨西哥和美国的进口碧根果实施临时反倾销措施",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-10/10675358.shtml",
-        "summary": "中新社北京8月10日电 (记者 尹倩芸)中国商务部10日发布对原产于墨西哥和美国的进口碧根果反倾销调查的初裁公告，决定自2026年8月11日起，采用保证金形式实施临时反倾销措施。",
+        "title": "宁夏发布循环经济发展“十五五”规划 全域构建绿色循环新格局",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-10/10675421.shtml",
+        "summary": "中新网银川8月10日电 (记者 于晶)8月10日，记者从宁夏回族自治区发展和改革委员会获悉，《宁夏循环经济发展“十五五”规划》(以下简称《规划》)正式发布，明确未来五年宁夏资源节约与低碳转型路径，标志着宁夏全域绿色循环发展新格局建设全面启动。",
         "image": "",
-        "publishedAt": "2026-08-10T12:44:51.000Z",
+        "publishedAt": "2026-08-10T14:01:26.000Z",
         "source": "中新网"
       },
       {
-        "title": "四川阿坝州力争“十五五”时期经济总量再上三个百亿台阶",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-10/10675355.shtml",
-        "summary": "中新网成都8月10日电 (袁牟知博)四川省人民政府新闻办公室10日在成都举行“万千气象看四川·起步奋进‘十五五’”阿坝专场新闻发布会。据了解，“十五五”时期，阿坝州提出“经济总量再上三个百亿台阶，人均地区生产总值超过10万元”的预期目标。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260810/26620141-0d37-421e-812a-6c0335ceb7a8_zsite.jpg",
-        "publishedAt": "2026-08-10T12:40:11.000Z",
+        "title": "海南自贸港首单油田装备保税维修业务落地",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-10/10675418.shtml",
+        "summary": "中新网海口8月10日电 (刘驰 李权)海口海关10日介绍，海南龙盘油田科技有限公司承接的境外油田工业设备配套柴油发动机维修业务，在海口海关所属椰城海关完成保税维修手册设立及进口申报全流程手续。标志着海南自贸港首单油田装备保税维修业务正式落地，为封关后高端装备全球维修产业拓展注入新动能。",
+        "image": "",
+        "publishedAt": "2026-08-10T13:57:31.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
+        "title": "'Total incinerated destruction': Canada wildfire evacuees wonder if they still have homes",
+        "link": "https://www.bbc.co.uk/news/articles/cx2lwv032j9o?at_medium=RSS&at_campaign=rss",
+        "summary": "More than 12,000 people have been forced to evacuate over the weekend after a wildfire quickly tore through Canada's picturesque Okanagan region.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4e29/live/23508ac0-94d2-11f1-8a9a-13c674e4e5fe.jpg",
+        "publishedAt": "2026-08-10T16:10:56.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Netanyahu's rejection of Trump's 15-point Gaza plan unlikely to be final word",
+        "link": "https://www.bbc.co.uk/news/articles/ce3q5282ep3o?at_medium=RSS&at_campaign=rss",
+        "summary": "The Trump administration is said to be unbothered by the Israeli prime minister's rejection of the deal, viewing it as campaign rhetoric ahead of a ge...",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1688/live/5a6f2b30-94c1-11f1-adb5-bd19050a74a5.jpg",
+        "publishedAt": "2026-08-10T14:43:08.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "At least 13 killed in Ukrainian drone strike deep into Russia",
         "link": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss",
-        "summary": "Russian officials say another 75 people were injured by the attack in the Tatarstan region, one of the deadliest Ukrainian drone attacks on Russia sin...",
+        "summary": "Russian officials say another 75 people were injured by the attack - one of the deadliest Ukrainian drone attacks since Moscow's full-scale invasion.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cc11/live/b8002050-9495-11f1-9ade-bb7c8a2b6bc0.jpg",
-        "publishedAt": "2026-08-10T12:54:13.000Z",
+        "publishedAt": "2026-08-10T14:34:25.000Z",
         "source": "BBC"
       },
       {
-        "title": "Alleged rebel leader killed in Colombia as president targets armed groups",
-        "link": "https://www.bbc.co.uk/news/articles/c5yrljp9x9eo?at_medium=RSS&at_campaign=rss",
-        "summary": "The military operation against Hernando Forero Mosquera was carried out just days after Colombia's new president was sworn in.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/29af/live/fe349030-949d-11f1-9ade-bb7c8a2b6bc0.png",
-        "publishedAt": "2026-08-10T12:23:21.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Former Thai MP allegedly kills official and confesses on YouTube",
-        "link": "https://www.bbc.co.uk/news/articles/cqx7lje8l79o?at_medium=RSS&at_campaign=rss",
-        "summary": "Chalong Riewrang called a YouTube livestream to say he had shot a government official.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8278/live/f3d353e0-949f-11f1-9ade-bb7c8a2b6bc0.jpg",
-        "publishedAt": "2026-08-10T09:51:07.000Z",
+        "title": "World's oceans hit record-high July temperatures",
+        "link": "https://www.bbc.co.uk/news/articles/cpvw8vmmgrwo?at_medium=RSS&at_campaign=rss",
+        "summary": "Global oceans recorded their hottest July on record, partly fuelled by developing El Niño conditions, as wildfires continue to ravage western Europe.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c200/live/ff20a010-94ac-11f1-b2ab-0dd01740f9f6.jpg",
+        "publishedAt": "2026-08-10T10:24:46.000Z",
         "source": "BBC"
       },
       {
@@ -329,23 +337,31 @@
         "image": "",
         "publishedAt": "2026-08-10T07:40:28.000Z",
         "source": "CNN"
-      },
-      {
-        "title": "China evacuates one million from homes as massive storm arrives",
-        "link": "https://www.bbc.co.uk/news/articles/cx2rgzyplg2o?at_medium=RSS&at_campaign=rss",
-        "summary": "Typhoon Dolphin has made landfall, bringing strong winds and heavy rain across eastern China including Shanghai.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ce6/live/e2285ea0-945a-11f1-80f4-1baf774a4468.jpg",
-        "publishedAt": "2026-08-10T07:23:54.000Z",
-        "source": "BBC"
       }
     ],
     "worldBusiness": [
+      {
+        "title": "Taylor Farms recalls jalapeno products after salmonella outbreak",
+        "link": "https://www.bbc.co.uk/news/articles/cgljd9p6027o?at_medium=RSS&at_campaign=rss",
+        "summary": "Food producer Taylor Farms is recalling sandwiches, sauces and dips across 26 US states after a salmonella outbreak.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e3fb/live/f2b13e10-94cb-11f1-8dc4-8907761852f3.jpg",
+        "publishedAt": "2026-08-10T15:10:33.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Thames Water gave finance boss a £1m signing-on fee",
         "link": "https://www.bbc.co.uk/news/articles/c9d841yexe0o?at_medium=RSS&at_campaign=rss",
         "summary": "The seven-figure payment was given to Steve Buck as part of package to persuade him to join the troubled utility company.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/be7c/live/8dac15b0-9491-11f1-9ade-bb7c8a2b6bc0.jpg",
-        "publishedAt": "2026-08-10T11:48:54.000Z",
+        "publishedAt": "2026-08-10T14:49:46.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Consortium advances talks for stake in Liverpool",
+        "link": "https://www.bbc.co.uk/sport/football/articles/cgljd4kny9eo?at_medium=RSS&at_campaign=rss",
+        "summary": "A group including Amazon founder Jeff Bezos advances its talks to buy about a 30% stake in Liverpool, BBC Sport has been told.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bf9e/live/650f8d00-94b7-11f1-a7ab-8b30adf0800a.png",
+        "publishedAt": "2026-08-10T13:16:51.000Z",
         "source": "BBC"
       },
       {
@@ -363,22 +379,6 @@
         "image": "",
         "publishedAt": "2026-08-10T07:44:21.000Z",
         "source": "CNN"
-      },
-      {
-        "title": "Tech leaders say AI means less work - their staff say they work up to 90 hours a week",
-        "link": "https://www.bbc.co.uk/news/articles/cvgx4yd1gl2o?at_medium=RSS&at_campaign=rss",
-        "summary": "Tech companies are not modelling their own claims of the technology giving people more free time.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e1c0/live/bb9691e0-94b3-11f1-a7ab-8b30adf0800a.jpg",
-        "publishedAt": "2026-08-10T05:00:32.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "You could be missing out on £150 off your energy bill - here's how to check",
-        "link": "https://www.bbc.co.uk/news/articles/czjlk8wx771o?at_medium=RSS&at_campaign=rss",
-        "summary": "Some people need to ensure they are named on their energy bill before the deadline to qualify for help.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8926/live/34a4ae50-8cd0-11f1-97f5-93fc85ee9dc4.jpg",
-        "publishedAt": "2026-08-09T23:47:30.000Z",
-        "source": "BBC"
       }
     ],
     "worldTech": [
@@ -425,69 +425,77 @@
     ],
     "domestic": [
       {
-        "title": "公安部深化扫黑除恶专项斗争第一轮集中收网 抓获犯罪嫌疑人8200余名",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-10/10675405.shtml",
-        "summary": "为深入贯彻落实党中央关于开展深化扫黑除恶专项斗争的决策部署和全国扫黑除恶专项斗争视频会议要求，近日，公安部指挥全国公安机关同步开展深化扫黑除恶专项斗争第一轮集中收网行动，成功打掉各类犯罪团伙1000余个，抓获犯罪嫌疑人8200余名，破获各类刑事案件5400余起。",
+        "title": "我国生态保护“十五五”规划明确路线图",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-10/10675453.shtml",
+        "summary": "《生态保护“十五五”规划》今天(10日)出台。规划提出，到2030年，我国生态空间格局持续优化，生态质量稳步改善，生物多样性丧失趋势得到有效缓解，优质生态产品供给更加丰富，国家生态安全将得到有效保障。具体目标是：自然保护地面积占陆域国土面积比例不低于18%，生态质量指数提升至86.5，水土保持率达到...",
         "image": "",
-        "publishedAt": "2026-08-10T13:32:18.000Z",
+        "publishedAt": "2026-08-10T15:57:47.000Z",
         "source": "中新网"
       },
       {
-        "title": "调查指台湾上半年雇员经常性薪资低于平均数比例首次突破七成",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-10/10675389.shtml",
-        "summary": "中新社台北8月10日电 台当局“主计总处”10日公布最新薪资统计显示，今年1月至6月，台湾受雇员工经常性薪资低于平均数的比例首次突破七成，达70.03%，创历年新高。",
+        "title": "2026年闽台同名村镇（同宗）续缘之旅：感受根脉相连",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-10/10675452.shtml",
+        "summary": "中新社漳州8月10日电 (王雅苹)“这三十多年来，台湾高雄薛氏后人回祖籍地山重村寻根谒祖，都要来看祖辈口中的这棵古樟树，并合影留念。”10日下午，听着福建省漳州市长泰区山重村薛氏宗亲薛晓莉的讲解，参加“同名寻根 两岸同心”——2026年闽台同名村镇(同宗)续缘之旅的20位台胞纷纷拿起手机拍下这棵生长...",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260810/014714f8-d8d1-4ad3-a2e1-c658d4a0ff7f_zsite.jpg",
+        "publishedAt": "2026-08-10T15:53:09.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "中星4B卫星发射失利",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-10/10675448.shtml",
+        "summary": "8月10日20时02分，我国在文昌航天发射场使用长征七号改运载火箭发射中星4B卫星，火箭飞行异常，发射任务失利。具体原因正在进一步分析排查。",
         "image": "",
-        "publishedAt": "2026-08-10T13:20:21.000Z",
+        "publishedAt": "2026-08-10T15:16:19.000Z",
         "source": "中新网"
       },
       {
-        "title": "中方：印方公布所谓“标准名称”改变不了藏南地区属于中国的事实",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-10/10675377.shtml",
-        "summary": "中新社北京8月10日电 中国外交部发言人郭嘉昆10日在答记者问时表示，印方公布所谓“标准名称”试图取代中国长期使用的地名，是非法的、无效的，更改变不了藏南地区属于中国的事实。",
+        "title": "中国学者领衔研究：21世纪末全球高温日极端高温时长或增加4小时",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-10/10675446.shtml",
+        "summary": "中新网北京8月10日电 (记者 孙自法)施普林格·自然旗下专业学术期刊《自然-气候变化》北京时间8月10日夜间上线发表中国学者领衔的一项研究发现，在高排放场景下，到21世纪末，全球平均每个高温日的极端高温时长可能额外增加4个小时。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260810/ae55129c-7175-456d-9536-b7ba069e791b_zsite.jpeg",
+        "publishedAt": "2026-08-10T15:07:48.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "中国警方深化扫黑除恶专项斗争第一轮集中收网",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-10/10675440.shtml",
+        "summary": "中新社北京8月10日电 (记者 郭超凯)记者10日从中国公安部获悉，近日，公安部指挥全国公安机关同步开展深化扫黑除恶专项斗争第一轮集中收网行动，成功打掉各类犯罪团伙1000余个，抓获犯罪嫌疑人8200余名，破获各类刑事案件5400余起。",
         "image": "",
-        "publishedAt": "2026-08-10T13:10:59.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "总书记治国理政故事｜“我是人民的勤务员”",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-10/10675382.shtml",
-        "summary": "视频：总书记治国理政故事｜“我是人民的勤务员”来源：新华社",
-        "image": "https://poss-videocloud.cns.com.cn/oss/2026/08/10/chinanews/MEIZI_YUNSHI/onair/10BC15041B4742E9B30DA03D64CA3602.mp4",
-        "publishedAt": "2026-08-10T12:57:22.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "第四届“元明清藏文文献、图像所见民族交流史”研讨会在拉萨开幕",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-10/10675364.shtml",
-        "summary": "中新网拉萨8月10日电 (赵朗 丹增桑珍)第四届“元明清藏文文献、图像所见民族交流史”研讨会10日在拉萨开幕。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260810/bee0907b-3098-4884-a223-e3c66bc3a9e5_zsite.jpg",
-        "publishedAt": "2026-08-10T12:46:37.000Z",
+        "publishedAt": "2026-08-10T14:45:55.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
+        "title": "'Total incinerated destruction': Canada wildfire evacuees wonder if they still have homes",
+        "link": "https://www.bbc.co.uk/news/articles/cx2lwv032j9o?at_medium=RSS&at_campaign=rss",
+        "summary": "More than 12,000 people have been forced to evacuate over the weekend after a wildfire quickly tore through Canada's picturesque Okanagan region.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4e29/live/23508ac0-94d2-11f1-8a9a-13c674e4e5fe.jpg",
+        "publishedAt": "2026-08-10T16:10:56.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Netanyahu's rejection of Trump's 15-point Gaza plan unlikely to be final word",
+        "link": "https://www.bbc.co.uk/news/articles/ce3q5282ep3o?at_medium=RSS&at_campaign=rss",
+        "summary": "The Trump administration is said to be unbothered by the Israeli prime minister's rejection of the deal, viewing it as campaign rhetoric ahead of a ge...",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1688/live/5a6f2b30-94c1-11f1-adb5-bd19050a74a5.jpg",
+        "publishedAt": "2026-08-10T14:43:08.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "At least 13 killed in Ukrainian drone strike deep into Russia",
         "link": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss",
-        "summary": "Russian officials say another 75 people were injured by the attack in the Tatarstan region, one of the deadliest Ukrainian drone attacks on Russia sin...",
+        "summary": "Russian officials say another 75 people were injured by the attack - one of the deadliest Ukrainian drone attacks since Moscow's full-scale invasion.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cc11/live/b8002050-9495-11f1-9ade-bb7c8a2b6bc0.jpg",
-        "publishedAt": "2026-08-10T12:54:13.000Z",
+        "publishedAt": "2026-08-10T14:34:25.000Z",
         "source": "BBC"
       },
       {
-        "title": "Alleged rebel leader killed in Colombia as president targets armed groups",
-        "link": "https://www.bbc.co.uk/news/articles/c5yrljp9x9eo?at_medium=RSS&at_campaign=rss",
-        "summary": "The military operation against Hernando Forero Mosquera was carried out just days after Colombia's new president was sworn in.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/29af/live/fe349030-949d-11f1-9ade-bb7c8a2b6bc0.png",
-        "publishedAt": "2026-08-10T12:23:21.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Former Thai MP allegedly kills official and confesses on YouTube",
-        "link": "https://www.bbc.co.uk/news/articles/cqx7lje8l79o?at_medium=RSS&at_campaign=rss",
-        "summary": "Chalong Riewrang called a YouTube livestream to say he had shot a government official.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8278/live/f3d353e0-949f-11f1-9ade-bb7c8a2b6bc0.jpg",
-        "publishedAt": "2026-08-10T09:51:07.000Z",
+        "title": "World's oceans hit record-high July temperatures",
+        "link": "https://www.bbc.co.uk/news/articles/cpvw8vmmgrwo?at_medium=RSS&at_campaign=rss",
+        "summary": "Global oceans recorded their hottest July on record, partly fuelled by developing El Niño conditions, as wildfires continue to ravage western Europe.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c200/live/ff20a010-94ac-11f1-b2ab-0dd01740f9f6.jpg",
+        "publishedAt": "2026-08-10T10:24:46.000Z",
         "source": "BBC"
       },
       {
@@ -497,14 +505,6 @@
         "image": "",
         "publishedAt": "2026-08-10T07:40:28.000Z",
         "source": "CNN"
-      },
-      {
-        "title": "China evacuates one million from homes as massive storm arrives",
-        "link": "https://www.bbc.co.uk/news/articles/cx2rgzyplg2o?at_medium=RSS&at_campaign=rss",
-        "summary": "Typhoon Dolphin has made landfall, bringing strong winds and heavy rain across eastern China including Shanghai.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ce6/live/e2285ea0-945a-11f1-80f4-1baf774a4468.jpg",
-        "publishedAt": "2026-08-10T07:23:54.000Z",
-        "source": "BBC"
       }
     ],
     "nba": []
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-08-10",
+    "rotationLabel": "Curated Rotation · 2026-08-11",
     "sections": [
       {
         "id": "data-storage",
@@ -522,26 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-5",
-            "sectionId": "data-storage",
-            "title": "The FAISS Library",
-            "authors": [
-              "Jeff Johnson",
-              "Matthijs Douze",
-              "Herve Jegou"
-            ],
-            "venue": "IEEE T-BD",
-            "year": 2021,
-            "quality": "高影响力",
-            "categories": [
-              "vector search",
-              "ANN"
-            ],
-            "link": "https://arxiv.org/abs/2401.08281",
-            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-6",
             "sectionId": "data-storage",
@@ -561,7 +541,7 @@
             ],
             "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
             "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-1",
@@ -583,6 +563,27 @@
             "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
             "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-2",
+            "sectionId": "data-storage",
+            "title": "Bigtable: A Distributed Storage System for Structured Data",
+            "authors": [
+              "Fay Chang",
+              "Jeffrey Dean",
+              "Sanjay Ghemawat",
+              "Wilson C. Hsieh"
+            ],
+            "venue": "OSDI",
+            "year": 2006,
+            "quality": "顶会",
+            "categories": [
+              "distributed systems",
+              "database"
+            ],
+            "link": "https://research.google/pubs/pub27898/",
+            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -592,27 +593,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-6",
-            "sectionId": "computer-vision",
-            "title": "DINOv2: Learning Robust Visual Features without Supervision",
-            "authors": [
-              "Maxime Oquab",
-              "Timothée Darcet",
-              "Théo Moutakanni",
-              "Huy V. Vo"
-            ],
-            "venue": "arXiv / Meta",
-            "year": 2023,
-            "quality": "高影响力",
-            "categories": [
-              "self-supervised",
-              "representation"
-            ],
-            "link": "https://arxiv.org/abs/2304.07193",
-            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-1",
             "sectionId": "computer-vision",
@@ -632,7 +612,7 @@
             ],
             "link": "https://arxiv.org/abs/1512.03385",
             "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-2",
@@ -654,6 +634,27 @@
             "link": "https://arxiv.org/abs/2005.12872",
             "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-3",
+            "sectionId": "computer-vision",
+            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+            "authors": [
+              "Alexey Dosovitskiy",
+              "Lucas Beyer",
+              "Alexander Kolesnikov",
+              "Dirk Weissenborn"
+            ],
+            "venue": "ICLR",
+            "year": 2021,
+            "quality": "顶会",
+            "categories": [
+              "vision transformer",
+              "classification"
+            ],
+            "link": "https://arxiv.org/abs/2010.11929",
+            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -663,27 +664,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-1",
-            "sectionId": "llm-memory",
-            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
-            "authors": [
-              "Patrick Lewis",
-              "Ethan Perez",
-              "Aleksandra Piktus",
-              "Fabio Petroni"
-            ],
-            "venue": "NeurIPS",
-            "year": 2020,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "retrieval"
-            ],
-            "link": "https://arxiv.org/abs/2005.11401",
-            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-2",
             "sectionId": "llm-memory",
@@ -703,7 +683,7 @@
             ],
             "link": "https://arxiv.org/abs/2203.08913",
             "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-3",
@@ -725,6 +705,27 @@
             "link": "https://arxiv.org/abs/2112.04426",
             "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-4",
+            "sectionId": "llm-memory",
+            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+            "authors": [
+              "Akari Asai",
+              "Zequn Zhang",
+              "Avirup Sil",
+              "Hannaneh Hajishirzi"
+            ],
+            "venue": "ICLR",
+            "year": 2024,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "self-reflection"
+            ],
+            "link": "https://arxiv.org/abs/2310.11511",
+            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -734,27 +735,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-2",
-            "sectionId": "agents",
-            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
-            "authors": [
-              "Timo Schick",
-              "Jane Dwivedi-Yu",
-              "Roberta Dessì",
-              "Ari Holtzman"
-            ],
-            "venue": "NeurIPS",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "tool use",
-              "agent"
-            ],
-            "link": "https://arxiv.org/abs/2302.04761",
-            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-3",
             "sectionId": "agents",
@@ -774,7 +754,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.03442",
             "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-4",
@@ -795,6 +775,27 @@
             ],
             "link": "https://arxiv.org/abs/2305.16291",
             "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-5",
+            "sectionId": "agents",
+            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+            "authors": [
+              "Qingyun Wu",
+              "Gagan Bansal",
+              "Jiaqi Zhang",
+              "Yiran Wu"
+            ],
+            "venue": "COLM",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "multi-agent",
+              "framework"
+            ],
+            "link": "https://arxiv.org/abs/2308.08155",
+            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
             "trackLabel": "轮换精选"
           }
         ]
