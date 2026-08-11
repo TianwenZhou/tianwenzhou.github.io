@@ -1,36 +1,28 @@
 {
-  "generatedAt": "2026-08-11T13:35:22.609Z",
+  "generatedAt": "2026-08-11T17:08:36.322Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 27,
-      "weatherCode": 3,
-      "windSpeed": 6
+      "temperature": 24,
+      "weatherCode": 95,
+      "windSpeed": 5
     },
     "today": {
-      "date": "2026-08-11",
-      "weatherCode": 80,
-      "description": "阵雨",
-      "max": 31,
+      "date": "2026-08-12",
+      "weatherCode": 95,
+      "description": "雷暴",
+      "max": 27,
       "min": 24,
-      "precipitationProbability": 76
+      "precipitationProbability": 98
     },
     "forecast": [
-      {
-        "date": "2026-08-11",
-        "weatherCode": 80,
-        "description": "阵雨",
-        "max": 31,
-        "min": 24,
-        "precipitationProbability": 76
-      },
       {
         "date": "2026-08-12",
         "weatherCode": 95,
         "description": "雷暴",
         "max": 27,
         "min": 24,
-        "precipitationProbability": 100
+        "precipitationProbability": 98
       },
       {
         "date": "2026-08-13",
@@ -38,7 +30,7 @@
         "description": "毛毛雨",
         "max": 30,
         "min": 23,
-        "precipitationProbability": 55
+        "precipitationProbability": 51
       },
       {
         "date": "2026-08-14",
@@ -46,7 +38,7 @@
         "description": "毛毛雨",
         "max": 31,
         "min": 23,
-        "precipitationProbability": 6
+        "precipitationProbability": 16
       },
       {
         "date": "2026-08-15",
@@ -54,33 +46,50 @@
         "description": "阴天",
         "max": 30,
         "min": 23,
-        "precipitationProbability": 24
+        "precipitationProbability": 22
+      },
+      {
+        "date": "2026-08-16",
+        "weatherCode": 95,
+        "description": "雷暴",
+        "max": 29,
+        "min": 23,
+        "precipitationProbability": 58
       }
     ]
   },
   "classicQuote": {
-    "id": "zhuangzi-time",
-    "text": "人生天地之间，若白驹之过隙，忽然而已。",
-    "source": "《庄子》",
-    "author": "庄周",
-    "note": "事情很多的时候，更值得把注意力放在真正重要的事上。"
+    "id": "dream-red-mansions",
+    "text": "世事洞明皆学问，人情练达即文章。",
+    "source": "《红楼梦》",
+    "author": "曹雪芹",
+    "note": "技术之外，理解人和场景，往往更能拉开差距。"
   },
   "bookExcerpt": {
-    "id": "one-hundred-years-yellow",
-    "text": "许多年以后，面对行刑队，奥雷里亚诺·布恩迪亚上校将会想起父亲带他去见识冰块的那个遥远的下午。",
-    "book": "《百年孤独》",
-    "author": "加西亚·马尔克斯"
+    "id": "floating-life-lotus",
+    "text": "芸坐其侧，素手烹茶，窗外新荷微香，连晚风也像带着水意，从竹帘间一寸寸地漫进来。",
+    "book": "《浮生六记》",
+    "author": "沈复"
   },
   "featuredPlace": {
-    "id": "202608101600",
-    "title": "哥本哈根新港运河沿岸的彩色房屋，首都大区，丹麦",
+    "id": "202608111600",
+    "title": "安博塞利国家公园的非洲草原象群，卡贾多郡，肯尼亚",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "绚丽多彩的哥本哈根",
-    "image": "https://www.bing.com/th?id=OHR.ColorfulCop_ZH-CN8015611442_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E5%93%A5%E6%9C%AC%E5%93%88%E6%A0%B9%E6%96%B0%E6%B8%AF%E8%BF%90%E6%B2%B3&form=hpcapt&mkt=zh-cn"
+    "summary": "值得守护的巨兽",
+    "image": "https://www.bing.com/th?id=OHR.ElephantDay_ZH-CN8350171749_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E5%A4%A7%E8%B1%A1%E6%97%A5&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202608111600",
+      "title": "安博塞利国家公园的非洲草原象群，卡贾多郡，肯尼亚",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "值得守护的巨兽",
+      "image": "https://www.bing.com/th?id=OHR.ElephantDay_ZH-CN8350171749_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E5%A4%A7%E8%B1%A1%E6%97%A5&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202608101600",
       "title": "哥本哈根新港运河沿岸的彩色房屋，首都大区，丹麦",
@@ -143,167 +152,166 @@
       "summary": "秘境之门，匠心传世",
       "image": "https://www.bing.com/th?id=OHR.FezMorocco_ZH-CN7662339428_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E9%9D%9E%E6%96%AF%E7%9A%87%E5%AE%AB&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202608031600",
-      "title": "佛罗里达穴鸮幼鸟，开普科拉尔，佛罗里达州，美国",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "呼呼，太棒了！",
-      "image": "https://www.bing.com/th?id=OHR.AdorableOwlet_ZH-CN6929234033_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E7%8C%AB%E5%A4%B4%E9%B9%B0&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-08-11",
-    "dateLabel": "8月11日",
+    "dateKey": "2026-08-12",
+    "dateLabel": "8月12日",
     "items": [
       {
-        "year": "2024",
-        "text": "2024年夏季奧林匹克運動會閉幕式。",
-        "link": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4"
+        "year": "2018",
+        "text": "香港「長者及合資格殘疾人士公共交通票價優惠計劃」的涵蓋範圍擴展至全線「綠色」專線小巴路線。",
+        "link": "https://zh.wikipedia.org/wiki/%E9%95%B7%E8%80%85%E5%8F%8A%E5%90%88%E8%B3%87%E6%A0%BC%E6%AE%98%E7%96%BE%E4%BA%BA%E5%A3%AB%E5%85%AC%E5%85%B1%E4%BA%A4%E9%80%9A%E7%A5%A8%E5%83%B9%E5%84%AA%E6%83%A0%E8%A8%88%E5%8A%83"
       },
       {
-        "year": "2019",
-        "text": "2019年8月11日香港反對逃犯條例修訂草案遊行。",
-        "link": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4"
+        "year": "2016",
+        "text": "國營大同江啤酒廠舉辦北韓第一屆啤酒節。",
+        "link": "https://zh.wikipedia.org/wiki/%E6%9C%9D%E9%AE%AE%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9C%8B%E7%9A%84%E5%95%A4%E9%85%92"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "中方：愿向哥伦比亚提供人道主义地震救灾援助",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-11/10676003.shtml",
-        "summary": "中新社北京8月11日电 8月11日，中国国家国际发展合作署新闻发言人汤瑛表示，哥伦比亚近日发生强震，造成重大人员伤亡和财产损失。中方密切关注地震灾害，愿根据哥方需要，以适当方式提供力所能及的帮助，支持哥地震救灾。(完)",
+        "title": "中国三地检察机关线上“聊”生态",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-11/10676019.shtml",
+        "summary": "中新网包头8月11日电 (记者 李爱平)《中华人民共和国生态环境法典》将于8月15日正式施行。11日，北京、内蒙古、青海三地检察机关在线上举行了一场别开生面的活动，相关检察系统负责人在发言中，几乎三句话不离法律、绿色、环保。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260811/ac666d75-d5a8-40a9-b38f-76570f276e61_zsite.jpg",
+        "publishedAt": "2026-08-11T14:14:32.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "最新研究揭示3亿年前地球极热事件机制 为全球变暖应对提供参照",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-11/10676049.shtml",
+        "summary": "中新网北京8月11日电 (记者 孙自法)地球上“正在进行时”的全球变暖及其发展趋势、产生影响和如何应对，一直以来广受关注。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260811/5acda947-d1f1-4b07-b409-22cbfcf4a0c7_zsite.jpg",
+        "publishedAt": "2026-08-11T14:11:51.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "海峡两岸客家文化交流大会在福建长汀举行",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-11/10676040.shtml",
+        "summary": "中新社福建龙岩8月11日电 (记者 闫旭)海峡两岸客家文化交流大会系列活动11日在素有“客家首府”之称的福建龙岩长汀举行。两岸约300名客属乡亲、专家学者和青年代表齐聚，共话两岸青年在多领域深耕、融合，拥抱大陆发展机遇的故事。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260811/02d1460d-b794-4af2-9205-598e26efadd5_zsite.jpeg",
+        "publishedAt": "2026-08-11T14:10:41.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "台商聚汕头探商机共绘粤台发展新图景",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-11/10676037.shtml",
+        "summary": "中新社汕头8月11日电 (李怡青 林大森)台商助力粤东西北“融湾发展”活动暨“投资广东”政策说明会11日在广东汕头举办。通过产业对接、项目签约、实地考察一体化合作平台，推动台资融入粤港澳大湾区、推动粤台多维融合发展。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260811/7e0f70ed-2cf3-424e-8f0c-5898e38eb06b_zsite.jpeg",
+        "publishedAt": "2026-08-11T13:58:00.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "西藏活佛谈AI：善用技术辅助闻思修学",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-11/10676030.shtml",
+        "summary": "中新社拉萨8月11日电 (赵朗 丹增桑珍)西藏拉萨乃朗寺巴沃活佛近日在一场学术会上接受中新社记者采访时指出，应善用AI辅助日常学修，通过真正理解佛法智慧从容应对工作生活中的焦虑。",
         "image": "",
-        "publishedAt": "2026-08-11T13:26:20.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "拾光纪·实现高质量发展，总书记多次强调因地制宜",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-11/10675994.shtml",
-        "summary": "“因地制宜，本质是实事求是。”放眼“十五五”时期，我国发展环境面临深刻复杂变化，许多矛盾问题的破解没有先例可循。面对新情况、遇到新问题，如何实现高质量发展？习近平总书记多次强调因地制宜的工作方法。",
-        "image": "",
-        "publishedAt": "2026-08-11T13:06:53.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "第六届青藏高原发展论坛在青海海晏举行",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-11/10675988.shtml",
-        "summary": "中新网青海海晏8月11日电 (祁绣娟)11日，第六届青藏高原发展论坛暨“中国式现代化视域下青藏高原高质量发展”学术研讨会在青海省海北藏族自治州海晏县举行，论坛为期两天。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260811/cf2158c6-0420-4d31-bbe7-1471fa18522d_zsite.jpeg",
-        "publishedAt": "2026-08-11T13:05:57.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "专家：民进党长期标榜“台日友好”，但日本从未把台湾当国家",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-11/10675957.shtml",
-        "summary": "中新网8月11日电(燕新台)8月9日，日本长崎市举行原子弹爆炸81周年纪念仪式，台所谓“驻日代表”李逸洋因不满座位不在使节团区域拒绝出席，并声称台湾“国格”与地位遭到刻意“矮化”。",
-        "image": "",
-        "publishedAt": "2026-08-11T12:36:23.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "学习新语｜建设堪当民族复兴重任的高素质干部队伍",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-11/10675969.shtml",
-        "summary": "原标题：学习新语·铸魂强党｜建设堪当民族复兴重任的高素质干部队伍",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/08/11/d3a812adc0c347c486500a8f672cea74.jpg",
-        "publishedAt": "2026-08-11T12:31:45.000Z",
+        "publishedAt": "2026-08-11T13:46:39.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "受台风“白海豚”影响 河南发布暴雨预警",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-11/10676005.shtml",
-        "summary": "中新社郑州8月11日电 (记者 阚力)受台风“白海豚”带来的明显降水过程影响，11日，地处中原地区的河南省，部分列车停运，部分学校停课停学及部分景区关闭。",
+        "title": "水利部针对北京天津启动洪水防御Ⅳ级应急响应",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-11/10676072.shtml",
+        "summary": "记者从水利部了解到，据预报，8月11日夜间至13日，北京西南部、天津北部局地有暴雨到大暴雨；北京永定河、琉璃河、小清河，天津蓟运河将出现涨水过程，暴雨区内山洪灾害和中小河流洪水风险高。",
         "image": "",
-        "publishedAt": "2026-08-11T13:30:53.000Z",
+        "publishedAt": "2026-08-11T15:01:31.000Z",
         "source": "中新网"
       },
       {
-        "title": "东海“小开渔” 浙江8000余艘合规渔船集中出海",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-11/10676010.shtml",
-        "summary": "中新社杭州8月11日电 (记者 王逸飞)8月11日14时，浙江8000余艘刺网、桁杆拖虾、笼壶类、灯光围(敷)网作业渔船集中出海生产，迎来“小开渔”。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260811/2d1aaa84-390a-4c58-9257-fe1bcee54dd8_zsite.jpg",
-        "publishedAt": "2026-08-11T13:28:35.000Z",
+        "title": "西藏4名“最美基层民警”讲述雪域高原守护故事",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-11/10676067.shtml",
+        "summary": "中新网拉萨8月11日电(李林)11日，“共建中华民族共同体 书写美丽西藏新篇章”系列主题第三场记者见面会在拉萨举行。发布会聚焦2025西藏公安机关“最美基层民警”先进典型，四名来自基层一线的民警代表讲述了他们在雪域高原维护安全稳定、服务人民群众的感人故事，生动诠释了新时代西藏公安民辅警的初心本色。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260811/9038e7d5-6c21-4efd-91b7-c25731733b93_zsite.jpg",
+        "publishedAt": "2026-08-11T14:38:09.000Z",
         "source": "中新网"
       },
       {
-        "title": "“北大仓”建三江近千万亩稻田即将完成“航化”作业",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-11/10675999.shtml",
-        "summary": "中新网哈尔滨8月11日电(王妮娜 高鹏飞)眼下，在北大荒集团建三江分公司的万顷稻田上空，飞机和无人机在低空飞行，养护农田……11日，北大荒集团建三江分公司(以下简称“建三江分公司”)的农田“航化”夏管已接近尾声，今年航化作业面积超过932万亩，预计到8月下旬全部完工。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260811/4847cca8-a343-4750-ae44-ee5ecb5e08fb_zsite.jpg",
-        "publishedAt": "2026-08-11T13:14:04.000Z",
+        "title": "中新网评：“酱香酒酿酒大师”等称号撤销，然后呢？",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-11/10676064.shtml",
+        "summary": "中新网北京8月11日电(记者 王珊珊 高萌)最近，行业协会们迎来一波“大师摘牌潮”。贵州遵义市酒业协会发布了一则公告，表示根据有关要求，决定撤销该协会“中国酱香酒酿酒大师”等相关称号，此前发布的有关通知、公告、公示都废止，不能再用“中国酱香酒酿酒大师”的称号开展任何活动或宣传。",
+        "image": "https://v-oss.cnsimg.net/cspimp/2026/08/11/76bd0df8-ead0-4d85-9017-36de4f88b70b.mp4",
+        "publishedAt": "2026-08-11T14:37:43.000Z",
         "source": "中新网"
       },
       {
-        "title": "河北公安持续推进民意智感中心建设 警务服务再升级",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-11/10675993.shtml",
-        "summary": "中新网石家庄8月11日电(陈林 张建林)河北省公安厅11日透露，2026年上半年，全省各地公安机关民意智感中心累计汇集各渠道民意数据152.62万余条，意见建议办结率达92.17%。",
+        "title": "厦门探索公共信用与市场信用融合释放守信便民红利",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-11/10676065.shtml",
+        "summary": "中新网厦门8月11日电 (吴冠标)福建厦门11日启动公共信用与市场信用深度融合创新实践，厦门市民个人信用白鹭分与芝麻信用分实现分值双向互通，让守信价值转化为可感知的生活便利与实际红利。",
         "image": "",
-        "publishedAt": "2026-08-11T13:12:26.000Z",
+        "publishedAt": "2026-08-11T14:36:45.000Z",
         "source": "中新网"
       },
       {
-        "title": "湖北发布黄色山洪灾害气象预警 多景区临时闭园",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-11/10675996.shtml",
-        "summary": "中新网武汉8月11日电 (记者 梁婷)湖北省防汛抗旱指挥部办公室11日20时发布黄色山洪灾害气象预警。预计11日20时至12日20时，该省部分地区存在山洪灾害风险。",
-        "image": "",
-        "publishedAt": "2026-08-11T13:12:06.000Z",
+        "title": "草原之夜，一颗篮球滚过555个嘎查村",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-11/10676063.shtml",
+        "summary": "中新网通辽8月11日电 题：草原之夜，一颗篮球滚过555个嘎查村",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260811/e6f38524-1361-4891-a0de-14da04e25441_zsite.JPG",
+        "publishedAt": "2026-08-11T14:36:19.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "山西大同凭五大优势锚定北京算力腹地",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-11/10676012.shtml",
-        "summary": "中新社太原8月11日电 (记者 胡健)“‘十五五’末，山西大同预计承接算力订单超300亿元(人民币)。”大同市常务副市长翟永清11日在太原介绍。",
-        "image": "",
-        "publishedAt": "2026-08-11T13:32:09.000Z",
+        "title": "西藏：“数字拉萨”建设成果丰硕 数字赋能雪域高质量发展",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-11/10676070.shtml",
+        "summary": "中新网拉萨8月11日电 (贡嘎来松)11日，西藏拉萨作为全球数字经济大会中国国内唯一永久分会场，2026全球数字经济大会拉萨高层论坛新闻发布会在拉萨举行。记者从发布会上获悉，以“数聚拉萨·能创未来”为主题的拉萨高层论坛，将于8月18日在拉萨市群众文化体育中心篮球主场馆启幕，拉萨已连续五年与北京主会场...",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260811/2fc6791c-dc49-46d8-801b-b21adb0f1f9a_zsite.jpeg",
+        "publishedAt": "2026-08-11T15:49:59.000Z",
         "source": "中新网"
       },
       {
-        "title": "2026中国算力大会将于9月在河北廊坊举行",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-11/10675975.shtml",
-        "summary": "中新网北京8月11日电 (记者 刘亮)记者11日从工信部获悉，2026中国算力大会将于9月11日至13日在河北省廊坊市举行。今年大会主题为“共织算力网智启新未来”。据大会组委会介绍，本届大会有四大特色亮点。",
+        "title": "亚洲首个！我国柔直海上风电项目发电量破百亿千瓦时",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-11/10676073.shtml",
+        "summary": "8月11日，亚洲首个采用柔性直流输电技术送出的海上风电项目——三峡新能源江苏如东800兆瓦海上风电项目累计发电量突破100亿千瓦时，为我国大容量、远距离海上风电柔性直流输电技术的规模化应用提供了实践验证。",
         "image": "",
-        "publishedAt": "2026-08-11T12:49:30.000Z",
+        "publishedAt": "2026-08-11T15:08:15.000Z",
         "source": "中新网"
       },
       {
-        "title": "中国氢气年产能超5100万吨",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-11/10675963.shtml",
-        "summary": "中新社北京8月11日电 (记者 王梦瑶)中国国家能源局11日发布的《中国氢能发展报告(2026)》提到，2025年，中国氢能产业规模持续扩大，生产消费保持全球领先，清洁高效氢能供应体系建设有序推进。截至2025年底，中国氢气年产能超5100万吨，同比增长约1.4%；当年氢气产量超3900万吨，同比增...",
-        "image": "",
-        "publishedAt": "2026-08-11T12:40:15.000Z",
+        "title": "云菌“鲜”行海外 今年前7个月出口量增逾两成",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-11/10676053.shtml",
+        "summary": "中新网昆明8月11日电 (段淑敏)昆明海关11日消息，今年前7个月，云南出口至日本、德国、越南等26个国家和地区的新鲜和冷藏食用菌达1857.1吨，同比增长24.7%。曾藏于深山的时令山珍，如今已成为撬动县域经济发展、带动民众增收的“金疙瘩”。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260811/dc65b908-92c1-470e-98f5-89f14be67d80_zsite.jpg",
+        "publishedAt": "2026-08-11T14:16:40.000Z",
         "source": "中新网"
       },
       {
-        "title": "从电子卖场到科创地标 鼎好焕新北京中关村AI产业加速集聚",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-11/10675950.shtml",
-        "summary": "中新网北京8月11日电(牛琳 温展博 曾稳庭 杜心怡)北京中关村地标建筑之一——鼎好DH3(以下简称“鼎好”)，正在经历新一轮产业集聚。昔日，它(原为鼎好电子商城)与海龙电子城、中关村e世界，组成中关村电子卖场“黄金三角”。如今的鼎好华丽转身，变身科技商务综合体中关村鼎好DH3，汇聚AI(人工智能)...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260811/b9acf283-55d7-42f0-8cf7-9dd76e1d4a9c_zsite.jpg",
-        "publishedAt": "2026-08-11T12:09:48.000Z",
+        "title": "贵阳国际陆港：借力平陆运河 助“贵州造”批量走向“深蓝”",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-11/10676016.shtml",
+        "summary": "中新网贵阳8月11日电 题：贵阳国际陆港：借力平陆运河 助“贵州造”批量走向“深蓝”",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260811/cfc0c623-6a4a-41fe-b883-c53921a5d045_zsite.jpg",
+        "publishedAt": "2026-08-11T14:13:00.000Z",
         "source": "中新网"
       },
       {
-        "title": "新旧动能转换按下“加速键”激活中国经济增长潜力",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-11/10675949.shtml",
-        "summary": "晶采观察丨新旧动能转换按下“加速键”激活中国经济增长潜力",
+        "title": "广西自贸试验区全面推行政府采购制度型开放改革对接国际经贸规则",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-11/10676051.shtml",
+        "summary": "中新网南宁8月11日电(林浩 韦佳秀)广西壮族自治区财政厅日前印发通知，将在中国(广西)自由贸易试验区全面推行政府采购领域制度型开放改革试点措施，进一步对接国际高标准经贸规则，推进高水平制度型开放。",
         "image": "",
-        "publishedAt": "2026-08-11T12:00:13.000Z",
+        "publishedAt": "2026-08-11T14:12:27.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "At least 169 killed in Colombia's largest earthquake in years",
-        "link": "https://www.bbc.co.uk/news/articles/c20e360lx0vo?at_medium=RSS&at_campaign=rss",
-        "summary": "More than 480 people were injured in the quakes, with more feared trapped under collapsed buildings.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8f2f/live/f1603a50-954a-11f1-a7ab-8b30adf0800a.jpg",
-        "publishedAt": "2026-08-11T13:21:32.000Z",
+        "title": "Russia releases former US Marine reported in poor health",
+        "link": "https://www.bbc.co.uk/news/articles/cvgj4m8e1ryo?at_medium=RSS&at_campaign=rss",
+        "summary": "Trump said Robert Gilman, who was arrested in 2022, was released on a humanitarian basis, after he had reportedly been in a catatonic-like state.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/719e/live/5d95bd80-959b-11f1-a7ab-8b30adf0800a.jpg",
+        "publishedAt": "2026-08-11T17:02:22.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Russia using North Korean missiles to strike Ukraine, Zelensky says",
+        "link": "https://www.bbc.co.uk/news/articles/c151dpzwnvxo?at_medium=RSS&at_campaign=rss",
+        "summary": "Ukraine's president says strikes in Zaporizhzhia - which killed seven people - involved ballistic missiles from Russia's ally.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7862/live/6d64a760-953e-11f1-ba5b-b1a600ddfa74.jpg",
+        "publishedAt": "2026-08-11T16:19:44.000Z",
         "source": "BBC"
       },
       {
@@ -311,7 +319,7 @@
         "link": "https://www.bbc.co.uk/news/articles/ce34dkpnyg7o?at_medium=RSS&at_campaign=rss",
         "summary": "The ex-president is convicted of committing war crimes and crimes against humanity during the country's civil war.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/edd9/live/d8ac8750-956f-11f1-98c3-1da4f20b80e4.jpg",
-        "publishedAt": "2026-08-11T10:43:07.000Z",
+        "publishedAt": "2026-08-11T14:50:10.000Z",
         "source": "BBC"
       },
       {
@@ -319,42 +327,42 @@
         "link": "https://www.bbc.co.uk/news/articles/cm2g90vvy62o?at_medium=RSS&at_campaign=rss",
         "summary": "The US president was reportedly part of a ruse where reporters were falsely told he was with them on Air Force One leaving a Nato summit in Turkey.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7f69/live/2dd49110-956f-11f1-b2ab-0dd01740f9f6.jpg",
-        "publishedAt": "2026-08-11T09:58:45.000Z",
+        "publishedAt": "2026-08-11T14:47:28.000Z",
         "source": "BBC"
       },
       {
-        "title": "Russia using North Korean missiles to strike Ukraine, Zelensky says",
-        "link": "https://www.bbc.co.uk/news/articles/c151dpzwnvxo?at_medium=RSS&at_campaign=rss",
-        "summary": "Ukraine's president says strikes in Zaporizhzhia - which killed at least six and injured 19 - involved ballistic missiles from Russia's ally.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7862/live/6d64a760-953e-11f1-ba5b-b1a600ddfa74.jpg",
-        "publishedAt": "2026-08-11T09:39:58.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Libyan authorities battle big blaze at major oil refinery",
-        "link": "https://www.bbc.co.uk/news/articles/cp308z9pl30o?at_medium=RSS&at_campaign=rss",
-        "summary": "Monday's drone strike on the Zawiya refinery was the third such incident in two days.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f05f/live/dce75a90-955e-11f1-870d-5d08c49babb2.jpg",
-        "publishedAt": "2026-08-11T08:28:24.000Z",
-        "source": "BBC"
+        "title": "Hungary parliament elects former supreme court head Andras Baka as president",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9pQ1UwYmJLUXJsdi1kNnlBSE9zX3VJYjEyUTR2SnBOY1V5clRyOTJOQjNyRk9CQklMYUpUblpfVFlqMHpyRmV2T2ZrQ0huX2RCeTZUVl9UMDdwbE01ZGQ5SVVESk1jalMzd2hNOHo1V1picTFNUXVWaUs3Tm0?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-08-11T13:27:05.000Z",
+        "source": "CNN"
       }
     ],
     "worldBusiness": [
       {
-        "title": "Eclipse chasers scramble for glasses as stocks run low",
-        "link": "https://www.bbc.co.uk/news/articles/clyqxx27620o?at_medium=RSS&at_campaign=rss",
-        "summary": "Specialist glasses are all but sold out online ahead of the UK's most significant eclipse since 1999.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/432b/live/d0752bb0-9578-11f1-bfbd-3fe7d55dcf7b.jpg",
-        "publishedAt": "2026-08-11T12:37:10.000Z",
+        "title": "France bans unsolicited telemarketing calls",
+        "link": "https://www.bbc.co.uk/news/articles/cy5d11g72ppo?at_medium=RSS&at_campaign=rss",
+        "summary": "Cold calling is coming to an end in France, with one consumer group calling the ban a \"small revolution\".",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0e97/live/62cc8120-9583-11f1-8636-978a48bd79b6.jpg",
+        "publishedAt": "2026-08-11T14:19:45.000Z",
         "source": "BBC"
       },
       {
-        "title": "AI agent hacks gym to get its owner spot in pilates class",
+        "title": "AI agent hacks gym to get its user a spot in pilates class",
         "link": "https://www.bbc.co.uk/news/articles/cn0nww2qlp7o?at_medium=RSS&at_campaign=rss",
         "summary": "The incident is being seen as the latest example of the AI tools going to any lengths to complete their tasks.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2b16/live/38886b20-9576-11f1-bfbd-3fe7d55dcf7b.png",
         "publishedAt": "2026-08-11T12:09:26.000Z",
         "source": "BBC"
+      },
+      {
+        "title": "‘Brand-new everything’: How data centers transformed this small town’s economy",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBpN2VzMlc0RUNnQnBHdGtuOWRXTzBXTlRtNEU3ekJMbVplX0NmY3BUcGlGUUpkd1ltenQtbGx2MklDVWtEeTBCT2YySzJRMkk0SVFqdmhLNTJCeng1Z3QycUR5Wl8ybjZSeGx3bXY4RFY?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-08-11T10:00:29.000Z",
+        "source": "CNN"
       },
       {
         "title": "Wall Street giants hand Nvidia $500bn to fund boom in AI projects",
@@ -371,19 +379,11 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/391a/live/f6f964e0-9514-11f1-976d-475167c7f6ea.jpg",
         "publishedAt": "2026-08-11T08:08:30.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "'I started in my 20s and made £8,000': Why women are often better investors than men",
-        "link": "https://www.bbc.co.uk/news/articles/czdmgmzll1ro?at_medium=RSS&at_campaign=rss",
-        "summary": "Women can make higher returns but only about a quarter of UK women have investments, compared with about 40% of men.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c9c7/live/957b4470-93ea-11f1-8231-7d4e2048054e.jpg",
-        "publishedAt": "2026-08-10T23:32:10.000Z",
-        "source": "BBC"
       }
     ],
     "worldTech": [
       {
-        "title": "AI agent hacks gym to get its owner spot in pilates class",
+        "title": "AI agent hacks gym to get its user a spot in pilates class",
         "link": "https://www.bbc.co.uk/news/articles/cn0nww2qlp7o?at_medium=RSS&at_campaign=rss",
         "summary": "The incident is being seen as the latest example of the AI tools going to any lengths to complete their tasks.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2b16/live/38886b20-9576-11f1-bfbd-3fe7d55dcf7b.png",
@@ -397,6 +397,14 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13ae/live/d1192590-9504-11f1-bf69-07da70b136c8.jpg",
         "publishedAt": "2026-08-11T08:44:52.000Z",
         "source": "BBC"
+      },
+      {
+        "title": "Meta just picked a side in a big debate over the future of AI",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQS0dlVnMtdktjeHZPUDczQXQzLWVlenJyTHZHT3ZrVWN0eGs1NkM3UlFucjJsWnAyLVJxcUVTelZKNXNXNS1UdGlvOGlMZDY2N0ZJME0zYldLYkRQLVNzMW1DRjBRRDMtcDBKLTNEOUpYaXd6eTRXT2pGT1lOSFNKOE41VQ?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-08-10T16:48:13.000Z",
+        "source": "CNN"
       },
       {
         "title": "Tech leaders say AI means less work - their staff say they work up to 90 hours a week",
@@ -413,65 +421,65 @@
         "image": "",
         "publishedAt": "2026-08-09T10:30:30.000Z",
         "source": "CNN"
-      },
-      {
-        "title": "AI is booming on the West Coast. So why is unemployment so high there?",
-        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBUUVZPeUtxU3pCb3ZZRVNWd3FsZzRuV3YyMVNiQXdER1lRN3VzSXo4cGItbWZobVhPUG5uRk1oejBDYmJLN2JINkxtdGpwLXB5cWJQRzQ5Y0xKVGxEU0lSZ3BhYnlqQUl4UDl1a2pabDlWLWNFSDVZc2lEVQ?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-08-08T10:30:30.000Z",
-        "source": "CNN"
       }
     ],
     "domestic": [
       {
-        "title": "中方：愿向哥伦比亚提供人道主义地震救灾援助",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-11/10676003.shtml",
-        "summary": "中新社北京8月11日电 8月11日，中国国家国际发展合作署新闻发言人汤瑛表示，哥伦比亚近日发生强震，造成重大人员伤亡和财产损失。中方密切关注地震灾害，愿根据哥方需要，以适当方式提供力所能及的帮助，支持哥地震救灾。(完)",
+        "title": "中国三地检察机关线上“聊”生态",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-11/10676019.shtml",
+        "summary": "中新网包头8月11日电 (记者 李爱平)《中华人民共和国生态环境法典》将于8月15日正式施行。11日，北京、内蒙古、青海三地检察机关在线上举行了一场别开生面的活动，相关检察系统负责人在发言中，几乎三句话不离法律、绿色、环保。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260811/ac666d75-d5a8-40a9-b38f-76570f276e61_zsite.jpg",
+        "publishedAt": "2026-08-11T14:14:32.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "最新研究揭示3亿年前地球极热事件机制 为全球变暖应对提供参照",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-11/10676049.shtml",
+        "summary": "中新网北京8月11日电 (记者 孙自法)地球上“正在进行时”的全球变暖及其发展趋势、产生影响和如何应对，一直以来广受关注。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260811/5acda947-d1f1-4b07-b409-22cbfcf4a0c7_zsite.jpg",
+        "publishedAt": "2026-08-11T14:11:51.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "海峡两岸客家文化交流大会在福建长汀举行",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-11/10676040.shtml",
+        "summary": "中新社福建龙岩8月11日电 (记者 闫旭)海峡两岸客家文化交流大会系列活动11日在素有“客家首府”之称的福建龙岩长汀举行。两岸约300名客属乡亲、专家学者和青年代表齐聚，共话两岸青年在多领域深耕、融合，拥抱大陆发展机遇的故事。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260811/02d1460d-b794-4af2-9205-598e26efadd5_zsite.jpeg",
+        "publishedAt": "2026-08-11T14:10:41.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "台商聚汕头探商机共绘粤台发展新图景",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-11/10676037.shtml",
+        "summary": "中新社汕头8月11日电 (李怡青 林大森)台商助力粤东西北“融湾发展”活动暨“投资广东”政策说明会11日在广东汕头举办。通过产业对接、项目签约、实地考察一体化合作平台，推动台资融入粤港澳大湾区、推动粤台多维融合发展。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260811/7e0f70ed-2cf3-424e-8f0c-5898e38eb06b_zsite.jpeg",
+        "publishedAt": "2026-08-11T13:58:00.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "西藏活佛谈AI：善用技术辅助闻思修学",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-11/10676030.shtml",
+        "summary": "中新社拉萨8月11日电 (赵朗 丹增桑珍)西藏拉萨乃朗寺巴沃活佛近日在一场学术会上接受中新社记者采访时指出，应善用AI辅助日常学修，通过真正理解佛法智慧从容应对工作生活中的焦虑。",
         "image": "",
-        "publishedAt": "2026-08-11T13:26:20.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "拾光纪·实现高质量发展，总书记多次强调因地制宜",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-11/10675994.shtml",
-        "summary": "“因地制宜，本质是实事求是。”放眼“十五五”时期，我国发展环境面临深刻复杂变化，许多矛盾问题的破解没有先例可循。面对新情况、遇到新问题，如何实现高质量发展？习近平总书记多次强调因地制宜的工作方法。",
-        "image": "",
-        "publishedAt": "2026-08-11T13:06:53.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "第六届青藏高原发展论坛在青海海晏举行",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-11/10675988.shtml",
-        "summary": "中新网青海海晏8月11日电 (祁绣娟)11日，第六届青藏高原发展论坛暨“中国式现代化视域下青藏高原高质量发展”学术研讨会在青海省海北藏族自治州海晏县举行，论坛为期两天。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260811/cf2158c6-0420-4d31-bbe7-1471fa18522d_zsite.jpeg",
-        "publishedAt": "2026-08-11T13:05:57.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "专家：民进党长期标榜“台日友好”，但日本从未把台湾当国家",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-11/10675957.shtml",
-        "summary": "中新网8月11日电(燕新台)8月9日，日本长崎市举行原子弹爆炸81周年纪念仪式，台所谓“驻日代表”李逸洋因不满座位不在使节团区域拒绝出席，并声称台湾“国格”与地位遭到刻意“矮化”。",
-        "image": "",
-        "publishedAt": "2026-08-11T12:36:23.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "学习新语｜建设堪当民族复兴重任的高素质干部队伍",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-11/10675969.shtml",
-        "summary": "原标题：学习新语·铸魂强党｜建设堪当民族复兴重任的高素质干部队伍",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/08/11/d3a812adc0c347c486500a8f672cea74.jpg",
-        "publishedAt": "2026-08-11T12:31:45.000Z",
+        "publishedAt": "2026-08-11T13:46:39.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "At least 169 killed in Colombia's largest earthquake in years",
-        "link": "https://www.bbc.co.uk/news/articles/c20e360lx0vo?at_medium=RSS&at_campaign=rss",
-        "summary": "More than 480 people were injured in the quakes, with more feared trapped under collapsed buildings.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8f2f/live/f1603a50-954a-11f1-a7ab-8b30adf0800a.jpg",
-        "publishedAt": "2026-08-11T13:21:32.000Z",
+        "title": "Russia releases former US Marine reported in poor health",
+        "link": "https://www.bbc.co.uk/news/articles/cvgj4m8e1ryo?at_medium=RSS&at_campaign=rss",
+        "summary": "Trump said Robert Gilman, who was arrested in 2022, was released on a humanitarian basis, after he had reportedly been in a catatonic-like state.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/719e/live/5d95bd80-959b-11f1-a7ab-8b30adf0800a.jpg",
+        "publishedAt": "2026-08-11T17:02:22.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Russia using North Korean missiles to strike Ukraine, Zelensky says",
+        "link": "https://www.bbc.co.uk/news/articles/c151dpzwnvxo?at_medium=RSS&at_campaign=rss",
+        "summary": "Ukraine's president says strikes in Zaporizhzhia - which killed seven people - involved ballistic missiles from Russia's ally.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7862/live/6d64a760-953e-11f1-ba5b-b1a600ddfa74.jpg",
+        "publishedAt": "2026-08-11T16:19:44.000Z",
         "source": "BBC"
       },
       {
@@ -479,7 +487,7 @@
         "link": "https://www.bbc.co.uk/news/articles/ce34dkpnyg7o?at_medium=RSS&at_campaign=rss",
         "summary": "The ex-president is convicted of committing war crimes and crimes against humanity during the country's civil war.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/edd9/live/d8ac8750-956f-11f1-98c3-1da4f20b80e4.jpg",
-        "publishedAt": "2026-08-11T10:43:07.000Z",
+        "publishedAt": "2026-08-11T14:50:10.000Z",
         "source": "BBC"
       },
       {
@@ -487,24 +495,16 @@
         "link": "https://www.bbc.co.uk/news/articles/cm2g90vvy62o?at_medium=RSS&at_campaign=rss",
         "summary": "The US president was reportedly part of a ruse where reporters were falsely told he was with them on Air Force One leaving a Nato summit in Turkey.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7f69/live/2dd49110-956f-11f1-b2ab-0dd01740f9f6.jpg",
-        "publishedAt": "2026-08-11T09:58:45.000Z",
+        "publishedAt": "2026-08-11T14:47:28.000Z",
         "source": "BBC"
       },
       {
-        "title": "Russia using North Korean missiles to strike Ukraine, Zelensky says",
-        "link": "https://www.bbc.co.uk/news/articles/c151dpzwnvxo?at_medium=RSS&at_campaign=rss",
-        "summary": "Ukraine's president says strikes in Zaporizhzhia - which killed at least six and injured 19 - involved ballistic missiles from Russia's ally.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7862/live/6d64a760-953e-11f1-ba5b-b1a600ddfa74.jpg",
-        "publishedAt": "2026-08-11T09:39:58.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Libyan authorities battle big blaze at major oil refinery",
-        "link": "https://www.bbc.co.uk/news/articles/cp308z9pl30o?at_medium=RSS&at_campaign=rss",
-        "summary": "Monday's drone strike on the Zawiya refinery was the third such incident in two days.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f05f/live/dce75a90-955e-11f1-870d-5d08c49babb2.jpg",
-        "publishedAt": "2026-08-11T08:28:24.000Z",
-        "source": "BBC"
+        "title": "Hungary parliament elects former supreme court head Andras Baka as president",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9pQ1UwYmJLUXJsdi1kNnlBSE9zX3VJYjEyUTR2SnBOY1V5clRyOTJOQjNyRk9CQklMYUpUblpfVFlqMHpyRmV2T2ZrQ0huX2RCeTZUVl9UMDdwbE01ZGQ5SVVESk1jalMzd2hNOHo1V1picTFNUXVWaUs3Tm0?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-08-11T13:27:05.000Z",
+        "source": "CNN"
       }
     ],
     "nba": []
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-08-11",
+    "rotationLabel": "Curated Rotation · 2026-08-12",
     "sections": [
       {
         "id": "data-storage",
@@ -522,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-6",
-            "sectionId": "data-storage",
-            "title": "DiskANN: Fast Accurate Billion-point Nearest Neighbor Search on a Single Node",
-            "authors": [
-              "Neelesh Gupta",
-              "Leland Willard",
-              "Xiangyao Yu",
-              "Yuri N."
-            ],
-            "venue": "NeurIPS",
-            "year": 2019,
-            "quality": "高影响力",
-            "categories": [
-              "vector search",
-              "ANN"
-            ],
-            "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
-            "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-1",
             "sectionId": "data-storage",
@@ -562,7 +541,7 @@
             ],
             "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
             "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-2",
@@ -584,6 +563,27 @@
             "link": "https://research.google/pubs/pub27898/",
             "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-3",
+            "sectionId": "data-storage",
+            "title": "Dynamo: Amazon's Highly Available Key-value Store",
+            "authors": [
+              "Giuseppe DeCandia",
+              "Deniz Hastorun",
+              "Madan Jampani",
+              "Gunavardhan Kakulapati"
+            ],
+            "venue": "SOSP",
+            "year": 2007,
+            "quality": "顶会",
+            "categories": [
+              "key-value",
+              "distributed systems"
+            ],
+            "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
+            "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -593,27 +593,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-1",
-            "sectionId": "computer-vision",
-            "title": "Deep Residual Learning for Image Recognition",
-            "authors": [
-              "Kaiming He",
-              "Xiangyu Zhang",
-              "Shaoqing Ren",
-              "Jian Sun"
-            ],
-            "venue": "CVPR",
-            "year": 2016,
-            "quality": "顶会",
-            "categories": [
-              "image recognition",
-              "backbone"
-            ],
-            "link": "https://arxiv.org/abs/1512.03385",
-            "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-2",
             "sectionId": "computer-vision",
@@ -633,7 +612,7 @@
             ],
             "link": "https://arxiv.org/abs/2005.12872",
             "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-3",
@@ -655,6 +634,27 @@
             "link": "https://arxiv.org/abs/2010.11929",
             "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-4",
+            "sectionId": "computer-vision",
+            "title": "Learning Transferable Visual Models From Natural Language Supervision",
+            "authors": [
+              "Alec Radford",
+              "Jong Wook Kim",
+              "Chris Hallacy",
+              "Aditya Ramesh"
+            ],
+            "venue": "ICML",
+            "year": 2021,
+            "quality": "顶会",
+            "categories": [
+              "vision-language",
+              "foundation model"
+            ],
+            "link": "https://arxiv.org/abs/2103.00020",
+            "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -664,27 +664,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-2",
-            "sectionId": "llm-memory",
-            "title": "Memorizing Transformers",
-            "authors": [
-              "Yuhuai Wu",
-              "Markus N. Rabe",
-              "DeLesley Hutchins",
-              "Christian Szegedy"
-            ],
-            "venue": "ICLR",
-            "year": 2022,
-            "quality": "顶会",
-            "categories": [
-              "memory",
-              "long context"
-            ],
-            "link": "https://arxiv.org/abs/2203.08913",
-            "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-3",
             "sectionId": "llm-memory",
@@ -704,7 +683,7 @@
             ],
             "link": "https://arxiv.org/abs/2112.04426",
             "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-4",
@@ -726,6 +705,27 @@
             "link": "https://arxiv.org/abs/2310.11511",
             "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-5",
+            "sectionId": "llm-memory",
+            "title": "LongMem: Scaling Language Model Context with Memory-Augmented Retrieval",
+            "authors": [
+              "Zeqiu Wu",
+              "Yizhong Wang",
+              "Jiacheng Liu",
+              "Yelong Shen"
+            ],
+            "venue": "ACL Findings",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "memory",
+              "long context"
+            ],
+            "link": "https://arxiv.org/abs/2306.07174",
+            "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -735,27 +735,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-3",
-            "sectionId": "agents",
-            "title": "Generative Agents: Interactive Simulacra of Human Behavior",
-            "authors": [
-              "Joon Sung Park",
-              "Joseph O'Brien",
-              "Carrie Cai",
-              "Meredith Ringel Morris"
-            ],
-            "venue": "UIST",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "agent society",
-              "memory"
-            ],
-            "link": "https://arxiv.org/abs/2304.03442",
-            "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-4",
             "sectionId": "agents",
@@ -775,7 +754,7 @@
             ],
             "link": "https://arxiv.org/abs/2305.16291",
             "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-5",
@@ -796,6 +775,27 @@
             ],
             "link": "https://arxiv.org/abs/2308.08155",
             "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-6",
+            "sectionId": "agents",
+            "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+            "authors": [
+              "John Yang",
+              "Carlos E. Jimenez",
+              "Alexander Wettig",
+              "Karthik Narasimhan"
+            ],
+            "venue": "ICLR",
+            "year": 2025,
+            "quality": "新近代表作",
+            "categories": [
+              "software agent",
+              "benchmark"
+            ],
+            "link": "https://arxiv.org/abs/2405.15793",
+            "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
             "trackLabel": "轮换精选"
           }
         ]
