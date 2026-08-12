@@ -1,36 +1,28 @@
 {
-  "generatedAt": "2026-08-12T13:38:18.277Z",
+  "generatedAt": "2026-08-12T17:07:21.464Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 24,
-      "weatherCode": 3,
-      "windSpeed": 1
+      "temperature": 23,
+      "weatherCode": 95,
+      "windSpeed": 8
     },
     "today": {
-      "date": "2026-08-12",
-      "weatherCode": 80,
-      "description": "阵雨",
-      "max": 26,
-      "min": 24,
-      "precipitationProbability": 100
+      "date": "2026-08-13",
+      "weatherCode": 95,
+      "description": "雷暴",
+      "max": 30,
+      "min": 22,
+      "precipitationProbability": 47
     },
     "forecast": [
-      {
-        "date": "2026-08-12",
-        "weatherCode": 80,
-        "description": "阵雨",
-        "max": 26,
-        "min": 24,
-        "precipitationProbability": 100
-      },
       {
         "date": "2026-08-13",
         "weatherCode": 95,
         "description": "雷暴",
         "max": 30,
         "min": 22,
-        "precipitationProbability": 46
+        "precipitationProbability": 47
       },
       {
         "date": "2026-08-14",
@@ -46,7 +38,7 @@
         "description": "雷暴",
         "max": 29,
         "min": 22,
-        "precipitationProbability": 33
+        "precipitationProbability": 43
       },
       {
         "date": "2026-08-16",
@@ -54,33 +46,50 @@
         "description": "雷暴",
         "max": 28,
         "min": 21,
-        "precipitationProbability": 49
+        "precipitationProbability": 53
+      },
+      {
+        "date": "2026-08-17",
+        "weatherCode": 3,
+        "description": "阴天",
+        "max": 32,
+        "min": 22,
+        "precipitationProbability": 24
       }
     ]
   },
   "classicQuote": {
-    "id": "dream-red-mansions",
-    "text": "世事洞明皆学问，人情练达即文章。",
-    "source": "《红楼梦》",
-    "author": "曹雪芹",
-    "note": "技术之外，理解人和场景，往往更能拉开差距。"
+    "id": "mencius-perseverance",
+    "text": "虽千万人，吾往矣。",
+    "source": "《孟子》",
+    "author": "孟子",
+    "note": "认准方向之后，关键是稳稳地往前走。"
   },
   "bookExcerpt": {
-    "id": "floating-life-lotus",
-    "text": "芸坐其侧，素手烹茶，窗外新荷微香，连晚风也像带着水意，从竹帘间一寸寸地漫进来。",
-    "book": "《浮生六记》",
-    "author": "沈复"
+    "id": "red-mansion-snow",
+    "text": "只见大地白茫茫一片真干净，山川树木都隐在雪光里，天地像忽然静下来，只余风过回廊的细响。",
+    "book": "《红楼梦》",
+    "author": "曹雪芹"
   },
   "featuredPlace": {
-    "id": "202608111600",
-    "title": "安博塞利国家公园的非洲草原象群，卡贾多郡，肯尼亚",
+    "id": "202608121600",
+    "title": "泰德天文台上空的英仙座流星，加那利群岛，西班牙",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "值得守护的巨兽",
-    "image": "https://www.bing.com/th?id=OHR.ElephantDay_ZH-CN8350171749_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E5%A4%A7%E8%B1%A1%E6%97%A5&form=hpcapt&mkt=zh-cn"
+    "summary": "许个愿吧",
+    "image": "https://www.bing.com/th?id=OHR.PerseidasTenerife_ZH-CN8520379683_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E8%8B%B1%E4%BB%99%E5%BA%A7%E6%B5%81%E6%98%9F%E9%9B%A8&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202608121600",
+      "title": "泰德天文台上空的英仙座流星，加那利群岛，西班牙",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "许个愿吧",
+      "image": "https://www.bing.com/th?id=OHR.PerseidasTenerife_ZH-CN8520379683_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E8%8B%B1%E4%BB%99%E5%BA%A7%E6%B5%81%E6%98%9F%E9%9B%A8&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202608111600",
       "title": "安博塞利国家公园的非洲草原象群，卡贾多郡，肯尼亚",
@@ -143,167 +152,166 @@
       "summary": "生死渡口，勇者的史诗",
       "image": "https://www.bing.com/th?id=OHR.MaraCrossing_ZH-CN8816902094_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E8%A7%92%E9%A9%AC&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202608041600",
-      "title": "非斯皇宫装饰华丽的大门，摩洛哥",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "秘境之门，匠心传世",
-      "image": "https://www.bing.com/th?id=OHR.FezMorocco_ZH-CN7662339428_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E9%9D%9E%E6%96%AF%E7%9A%87%E5%AE%AB&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-08-12",
-    "dateLabel": "8月12日",
+    "dateKey": "2026-08-13",
+    "dateLabel": "8月13日",
     "items": [
       {
         "year": "2021",
-        "text": "在英國普利茅斯發生的一起大規模槍擊事件中，包括行兇者在內共有六人喪生。",
-        "link": "https://zh.wikipedia.org/wiki/%E6%99%AE%E5%88%A9%E8%8C%85%E6%96%AF"
+        "text": "香港民間人權陣線宣布解散。",
+        "link": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4"
       },
       {
-        "year": "2018",
-        "text": "香港「長者及合資格殘疾人士公共交通票價優惠計劃」的涵蓋範圍擴展至全線「綠色」專線小巴路線。",
-        "link": "https://zh.wikipedia.org/wiki/%E9%95%B7%E8%80%85%E5%8F%8A%E5%90%88%E8%B3%87%E6%A0%BC%E6%AE%98%E7%96%BE%E4%BA%BA%E5%A3%AB%E5%85%AC%E5%85%B1%E4%BA%A4%E9%80%9A%E7%A5%A8%E5%83%B9%E5%84%AA%E6%83%A0%E8%A8%88%E5%8A%83"
+        "year": "2020",
+        "text": "以色列和阿联酋达成和平协议。",
+        "link": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "涉嫌严重违纪违法 福建南平市委副书记、市长林建任上被查",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-12/10676597.shtml",
-        "summary": "中新网南平8月12日电 (记者 张丽君) 据福建省纪委监委通报，南平市委副书记、市长林建涉嫌严重违纪违法，目前正接受福建省纪委监委纪律审查和监察调查。",
+        "title": "青海科学技术奖励大会在西宁召开",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-12/10676661.shtml",
+        "summary": "中新网西宁8月12日电 (祁增蓓)12日，青海省科学技术奖励大会在西宁召开，对推进全省创新发展作出突出贡献的科技工作者和创新实践者进行表彰，引导企业创新和战略性新兴产业发展。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260812/f2813a1a-d20d-4d42-8f7d-997495d178a1_zsite.jpg",
+        "publishedAt": "2026-08-12T14:14:26.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "“东升西降”重塑台海博弈 两岸专家指新格局凸显时势在大陆",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-12/10676643.shtml",
+        "summary": "中新社北京8月12日电 (记者 李百加 刘大炜)第十一届京台学者共研会12日在北京举办。与会两岸专家表示，在百年变局深入演进、“东升西降”大势持续深化的时代背景下，台海新格局加速成形，凸显时势在大陆。",
         "image": "",
-        "publishedAt": "2026-08-12T13:35:20.000Z",
+        "publishedAt": "2026-08-12T14:12:02.000Z",
         "source": "中新网"
       },
       {
-        "title": "青海发布国民健康“十五五”规划 2030年人均预期寿命提升1.5岁",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-12/10676607.shtml",
-        "summary": "中新网西宁8月12日电 (记者 孙睿)8月12日，青海省政府新闻办公室在青海区域医疗中心(西安交通大学第一附属医院青海医院)召开“开局起步‘十五五’”主题系列新闻发布会国民健康专场。青海省卫生健康委党组书记、主任任延明发布《青海省国民健康“十五五”规划》，明确到2030年全省人均预期寿命将提升1.5...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260812/756e9b30-6cbe-46aa-b49a-3d2af76a32fc_zsite.jpeg",
-        "publishedAt": "2026-08-12T13:31:48.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "赖清德当局搞“断网演练”，是提升“韧性”还是“任性”？",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-12/10676602.shtml",
-        "summary": "正在进行中的台军“汉光42号演习”长达十天九夜。演习尚未收兵，民众正常生活却接连被“误伤”。",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/08/12/c2092060876947508a917ae3ab4c1817.png",
-        "publishedAt": "2026-08-12T13:25:29.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "台湾首辆张雪机车被下狠手，民进党当局究竟在怕什么？",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-12/10676599.shtml",
-        "summary": "“张雪机车”在台湾近日被盯上了。",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/08/12/0d3879ba6da14ed18af8a30bace098db.jpg",
-        "publishedAt": "2026-08-12T13:21:19.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "中方敦促有关国家停止滥用多边军控机制",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-12/10676578.shtml",
-        "summary": "中新社北京8月12日电 关于美国等国家在日内瓦裁军谈判会议搞所谓共同发言，中国外交部发言人郭嘉昆12日在答记者问时表示，中方敦促有关国家停止滥用多边军控机制，以真诚对话取代无理对抗，为加强军控领域对话交流创造必要条件。",
+        "title": "中国地震局：哥伦比亚7.5级地震发生于三大板块交汇区域 为逆冲兼走滑型破裂",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-12/10676655.shtml",
+        "summary": "中新网北京8月12日电 (记者 孙自法)中国地震局8月12日晚向媒体通报说，哥伦比亚8月10日7.5级地震发生在纳斯卡、加勒比与南美三大板块的交汇区域，是发生在俯冲板片内部的一次中源地震。其震源机制结果显示，此次地震为逆冲兼走滑型破裂。",
         "image": "",
-        "publishedAt": "2026-08-12T13:13:08.000Z",
+        "publishedAt": "2026-08-12T14:07:32.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "从集中攻坚到常态长效 云南发布省直机关党建五年“路线图”",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-12/10676583.shtml",
+        "summary": "中新网昆明8月12日电 (时文枝 游珊珊)“过去三年，通过实施机关党建三年行动计划，全省选树先进典型750余个，党建赋能质效显著提升。”中共云南省委省直机关工委常务副书记颜希权12日表示，今年5月29日正式印发执行的《省直机关党的建设高质量发展五年计划(2026—2030年)》(以下简称《五年计划》...",
+        "image": "",
+        "publishedAt": "2026-08-12T14:04:02.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "专家谈两岸经贸、民生交流前景：“存量”与“增量”并重",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-12/10676657.shtml",
+        "summary": "中新社北京8月12日电 (记者 徐雪莹 刘大炜 李百加)上海交通大学台湾研究中心主任盛九元12日在北京指出，经济合作是推动两岸关系和平发展的重要动能。面对全球产业模式变化与地缘政治等因素影响，重启两岸经济合作动能，既要注重存量也要发展增量。",
+        "image": "",
+        "publishedAt": "2026-08-12T14:02:36.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "遭遇山洪如何科学避险？三个“不要”应记牢",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-12/10676619.shtml",
-        "summary": "央视网消息：一旦遭遇山洪，哪些地方才是真的安全，该如何科学避险，一起了解。",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/08/12/0a048040a7604b90a0a28d44a02c6bb5.jpg",
-        "publishedAt": "2026-08-12T13:37:10.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "“京蒙一家亲”民族文艺进京展演登北京民族文化宫大剧院",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-12/10676586.shtml",
-        "summary": "中新网北京8月12日电 (记者 应妮)“京蒙一家亲”民族文艺进京展演11日晚在北京民族文化宫大剧院举办。展演以内蒙古特色民族文艺为载体，搭建京蒙两地文化互通、情感互通、协作互通的平台，深化京蒙两地文化交往交流交融。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260812/6103d5b2-c8f3-41aa-b74c-7caa4606e927_zsite.jpg",
-        "publishedAt": "2026-08-12T13:37:04.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "河南37座水库超汛限水位",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-12/10676612.shtml",
-        "summary": "中新社郑州8月12日电 (记者 阚力)记者12日从河南省水利厅获悉，截至当日19时，该省37座水库超汛限水位，淮河中游支流沙颍河发生2026年第1号洪水。",
+        "title": "云南华宁南盘江一民船侧翻致6人落水 目前1人获救",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-12/10676688.shtml",
+        "summary": "8月12日18时许，云南省华宁县盘溪镇水头寨南盘江水域发生一起村民自用小船侧翻事件，船上6人落水。",
         "image": "",
-        "publishedAt": "2026-08-12T13:35:56.000Z",
+        "publishedAt": "2026-08-12T15:49:28.000Z",
         "source": "中新网"
       },
       {
-        "title": "湖北山区客运司机成功避险塌方事故 获万元奖励",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-12/10676596.shtml",
-        "summary": "中新网湖北长阳8月12日电 (郭晓莹 税浪)湖北省宜昌市自然资源和城乡建设局12日向农村客运司机熊飞颁发1万元“成功避险奖金”，对其及时预判山体塌方险情、果断停车避险，保障乘客及过往车辆安全的先进事迹予以嘉奖。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260812/969acef0-0b4c-498f-bc9d-e9c2918e527f_zsite.jpg",
-        "publishedAt": "2026-08-12T13:34:48.000Z",
+        "title": "三部门调拨2万件中央救灾物资 支持河北、河南做好安置救助工作",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-12/10676685.shtml",
+        "summary": "8月12日，国家防灾减灾救灾委员会办公室、应急管理部针对今年第13号台风“白海豚”残余环流带来的强降雨影响，根据河北、河南等地受灾群众安置救助需要，会同国家粮食和物资储备局调拨折叠床、褥子、毛毯、家庭应急包等2万件中央救灾物资，支持灾区做好受灾群众安置救助和生活保障工作。",
+        "image": "",
+        "publishedAt": "2026-08-12T14:44:58.000Z",
         "source": "中新网"
       },
       {
-        "title": "（乡村行·看振兴）山西灵丘：改造荒山拓建板栗园 特色林果产业赋能村民增收",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-12/10676585.shtml",
-        "summary": "中新网大同8月12日电 题：山西灵丘：改造荒山拓建板栗园 特色林果产业赋能村民增收",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260812/d0695c89-3b6d-4b51-92d3-850c929787a6_zsite.jpg",
-        "publishedAt": "2026-08-12T13:33:18.000Z",
+        "title": "平陆运河开启通航前“大考” 实船试验攻坚四大核心难点",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-12/10676681.shtml",
+        "summary": "中新网南宁8月12日电(记者 杨陈)8月12日上午，随着首艘5000吨级试验船舶从广西南宁新福水上综合服务区起航，平陆运河实船试验正式启动。这也是平陆运河9月通航前最后一项大型现场实测。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260812/107c79f1-c9c2-41dd-8074-ac4e2bbc54ee_zsite.jpg",
+        "publishedAt": "2026-08-12T14:41:42.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "联合国任命冬奥冠军苏翊鸣为“体育促土地”大使",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-12/10676679.shtml",
+        "summary": "中新网北京8月12日电 (记者 陈溯)2026年8月12日，《联合国防治荒漠化公约》(UNCCD)正式宣布，任命中国单板滑雪冬奥冠军苏翊鸣为其“体育促土地”韧性大使(Sport4Land Champion for Resilience)。",
+        "image": "",
+        "publishedAt": "2026-08-12T14:41:04.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "湖北警方打掉涉黑恶违法犯罪团伙50余个",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-12/10676678.shtml",
+        "summary": "中新网武汉8月12日电 (武一力 李宗吾 彭黎)记者12日从湖北省公安厅获悉，湖北省公安机关全面启动深化扫黑除恶专项斗争第一轮集中收网行动，对各类涉黑恶违法犯罪发起凌厉攻势，目前已打掉犯罪团伙50余个，抓获犯罪嫌疑人300余人，破获刑事案件160余起。",
+        "image": "",
+        "publishedAt": "2026-08-12T14:40:46.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "今年以来泉州斗尾港区化工品外贸出口实现翻倍增长",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-12/10676580.shtml",
-        "summary": "中新网泉州8月12日电 (朱炳杰)12日，装载3200吨甲苯的中国籍“文竹”轮缓缓驶离泉州斗尾港区。据肖厝边检站统计，截至8月12日，斗尾港区化工品外贸出口总量达21.5万吨，较去年同期增长100.86%，为泉州石化产业转型升级持续注入新动能。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260812/337a9849-bf6a-4594-bb7c-7e5166839505_zsite.jpg",
-        "publishedAt": "2026-08-12T13:32:34.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "不只是“世界工厂”更是“世界市场”！上半年中国都在买什么？",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-12/10676608.shtml",
-        "summary": "海关总署刚刚发布了我国前七个月的外贸数据，进口增长了22%，超过出口8个百分点。中国不是什么都能造的“世界工厂”吗？为啥还要这么大量买买买呢？今天就来分析一下这份购买清单背后的门道。",
+        "title": "中国首家尼加拉瓜国家馆落地武汉",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-12/10676676.shtml",
+        "summary": "中新网武汉8月12日电 (张芹 蒋鹰)“丝路新桥·中尼同航”——中国(湖北)—尼加拉瓜经贸合作洽谈会暨国家馆授牌仪式12日在武汉举行。当日，尼加拉瓜国家馆在武汉金控华中贸易服务区正式揭牌，成为中国首家受尼加拉瓜驻华大使馆官方授牌的特色产品与文化实体展馆，同时成立中国(湖北)—尼加拉瓜经济贸易合作中心...",
         "image": "",
-        "publishedAt": "2026-08-12T13:29:03.000Z",
+        "publishedAt": "2026-08-12T14:39:50.000Z",
         "source": "中新网"
       },
       {
-        "title": "台风“白海豚”影响消退 宁波舟山港避险船舶返港",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-12/10676570.shtml",
-        "summary": "中新网宁波8月12日电 (张斌 许桃 俞斯晨)8月12日，满载近29万吨原油，沙特籍油轮“优可贝”轮顺利停靠浙江宁波舟山港大榭港区。这是台风“白海豚”过境后，该港区迎来的首艘大型原油运输船舶。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260812/d384ed38-2107-4b2c-89d6-edce462246e8_zsite.jpg",
-        "publishedAt": "2026-08-12T13:15:23.000Z",
+        "title": "央行将开展隔夜逆回购操作 每日不超过6000亿元",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-12/10676680.shtml",
+        "summary": "记者从中国人民银行了解到，为更好匹配银行体系短期流动性需求，中国人民银行将在8月14日、8月17日至8月19日开展隔夜逆回购操作，采用固定利率、数量招标，每日操作量不超过6000亿元。",
+        "image": "",
+        "publishedAt": "2026-08-12T14:34:49.000Z",
         "source": "中新网"
       },
       {
-        "title": "马绍尔群岛籍40万吨超大型矿砂船靠泊广东湛江港",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-12/10676569.shtml",
-        "summary": "中新网广东湛江8月12日电 (梁盛 谢晓琳 吴国铭)12日，马绍尔群岛籍40万吨级超大型矿砂船“撒哈姆”轮在广东湛江海事部门的护航下，满载铁矿石平稳靠泊湛江港。此举有力支撑了湛江钢铁产业链的稳定发展，也标志着海事部门在提升超大型船舶通航服务水平上迈出了新步伐。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260812/1bb736d9-74fa-4986-99cf-31ba748b0338_zsite.jpg",
-        "publishedAt": "2026-08-12T13:11:54.000Z",
+        "title": "陕南地区宠物饲料首次出海",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-12/10676647.shtml",
+        "summary": "中新网西安8月12日电 (记者 张一辰)记者12日从西安海关获悉，经该关所属汉中海关查验放行，由陕西安康一企业生产的猫粮、犬粮顺利启运发往马来西亚。这是陕南地区宠物饲料产品首次走出国门。",
+        "image": "",
+        "publishedAt": "2026-08-12T14:09:00.000Z",
         "source": "中新网"
       },
       {
-        "title": "飞抵乌兰巴托机场！国产大飞机正式执飞国际商业航线",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-12/10676574.shtml",
-        "summary": "中新网北京8月12日电(记者 张尼)记者从中国国际航空股份有限公司(以下简称“国航”)了解到，北京时间8月12日16时58分，由国航C919机型执飞的CA723航班平稳降落在乌兰巴托机场，这标志着国产大飞机正式开启国际定期商业航线运营。",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/08/12/7136e5b7ab0c47938b87ca05828c71f5.jpg",
-        "publishedAt": "2026-08-12T13:04:18.000Z",
+        "title": "上海清算所美国国债新发债券指数首次应用于存款类产品发行",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-12/10676617.shtml",
+        "summary": "中新社上海8月12日电 (记者 姜煜)记者12日从银行间市场清算所股份有限公司(“上海清算所”)获悉，上海浦东发展银行股份有限公司(“浦发银行”)近日成功落地中国金融市场首笔挂钩上海清算所美国国债新发债券指数的结构性存款。",
+        "image": "",
+        "publishedAt": "2026-08-12T14:08:04.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "海关AEO“金字招牌”拉动武汉自贸片区外贸猛增",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-12/10676644.shtml",
+        "summary": "中新网武汉8月12日电 (万宇 周静 郭俐)据武汉海关12日消息，2026年上半年，中国(湖北)自由贸易试验区武汉片区(简称“武汉自贸片区”)的企业数量保持快速增长，已达5371家；武汉自贸片区进出口货值1578.86亿元，同比增长55.57%，累计占湖北省外贸比重的36.75%。",
+        "image": "",
+        "publishedAt": "2026-08-12T14:06:38.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "US inflation eases as food costs cool",
+        "title": "US inflation eases as food and fuel costs cool",
         "link": "https://www.bbc.co.uk/news/articles/c0qv2nn1gpeo?at_medium=RSS&at_campaign=rss",
         "summary": "Annual US inflation dipped to 3.4% in July, with food costs slowing and housing keeping prices slightly higher.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a864/live/f178bef0-9648-11f1-9d8e-b1efdebf2f99.jpg",
-        "publishedAt": "2026-08-12T13:13:21.000Z",
+        "publishedAt": "2026-08-12T17:03:05.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Members of Trump's cabinet remained on decoy plane, after president's quiet exit",
+        "link": "https://www.bbc.co.uk/news/articles/c4g306eln8wo?at_medium=RSS&at_campaign=rss",
+        "summary": "Trump boarded a different plane in Turkey during a Nato summit for security reasons involving Iran.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/69ce/live/3ac23d60-9659-11f1-b2ab-0dd01740f9f6.jpg",
+        "publishedAt": "2026-08-12T16:34:01.000Z",
         "source": "BBC"
       },
       {
@@ -311,49 +319,49 @@
         "link": "https://www.bbc.co.uk/news/articles/cn0npjkqrleo?at_medium=RSS&at_campaign=rss",
         "summary": "Israeli security forces have reportedly withdrawn and about a dozen settlers are said to remain at the site where two families have been besieged sinc...",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/22b5/live/2509dcc0-9641-11f1-8414-97750c5a4202.jpg",
-        "publishedAt": "2026-08-12T12:16:22.000Z",
+        "publishedAt": "2026-08-12T16:14:08.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "LA Lakers to be sold in record $12.5bn deal",
+        "link": "https://www.bbc.co.uk/sport/basketball/articles/c04k2dn422xo?at_medium=RSS&at_campaign=rss",
+        "summary": "The Los Angeles Lakers is to be sold for a reported record $12.5bn - less than a year after Mark Walter took a majority stake in the NBA franchise.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/315f/live/02590670-9668-11f1-a6eb-474cf36e6c34.jpg",
+        "publishedAt": "2026-08-12T16:11:04.000Z",
         "source": "BBC"
       },
       {
         "title": "Woman pulled alive from rubble 36 hours after Colombia quake",
         "link": "https://www.bbc.co.uk/news/articles/cz7d2e5wlgno?at_medium=RSS&at_campaign=rss",
         "summary": "Following a 10-hour rescue operation, emergency workers pulled the 32-year-old from beneath slabs of concrete.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7a59/live/21ee2fc0-963f-11f1-8414-97750c5a4202.jpg",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b547/live/5e706700-9654-11f1-b2ab-0dd01740f9f6.jpg",
         "publishedAt": "2026-08-12T11:28:02.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Trump confirms he switched planes after Nato summit because of possible threat",
-        "link": "https://www.bbc.co.uk/news/articles/c980r4wpl9lo?at_medium=RSS&at_campaign=rss",
-        "summary": "Journalists and White House staff who were on board the jet were unaware the president had left.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e32/live/76fded00-9632-11f1-b2ab-0dd01740f9f6.jpg",
-        "publishedAt": "2026-08-12T03:44:55.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Trump's dramatic plane swap hints at personal stakes of Iran war",
-        "link": "https://www.bbc.co.uk/news/articles/cly8jexn1z9o?at_medium=RSS&at_campaign=rss",
-        "summary": "It marks another striking episode in the turbulent history of his relationship with Iran, writes the BBC's Anthony Zurcher.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ca5a/live/b1c8cd30-95cc-11f1-a7ab-8b30adf0800a.jpg",
-        "publishedAt": "2026-08-12T00:14:42.000Z",
         "source": "BBC"
       }
     ],
     "worldBusiness": [
       {
-        "title": "Burnham warned of Iran war impact on UK growth next year",
-        "link": "https://www.bbc.co.uk/news/articles/c5y3egv4m4mo?at_medium=RSS&at_campaign=rss",
-        "summary": "The conflict in the Middle East has pushed up oil and fuel prices, and also disrupted supply chains.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cf17/live/d73f4760-964e-11f1-870d-5d08c49babb2.jpg",
-        "publishedAt": "2026-08-12T13:33:58.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "US inflation eases as food costs cool",
+        "title": "US inflation eases as food and fuel costs cool",
         "link": "https://www.bbc.co.uk/news/articles/c0qv2nn1gpeo?at_medium=RSS&at_campaign=rss",
         "summary": "Annual US inflation dipped to 3.4% in July, with food costs slowing and housing keeping prices slightly higher.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a864/live/f178bef0-9648-11f1-9d8e-b1efdebf2f99.jpg",
-        "publishedAt": "2026-08-12T13:13:21.000Z",
+        "publishedAt": "2026-08-12T17:03:05.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Trump sued over Truth Social's $100,000 early access service",
+        "link": "https://www.bbc.co.uk/news/articles/cq6dpm5y0yyo?at_medium=RSS&at_campaign=rss",
+        "summary": "The suit challenges Truth Social plan selling early access to Trump's market-moving posts.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/00fb/live/14a782c0-966d-11f1-a6eb-474cf36e6c34.jpg",
+        "publishedAt": "2026-08-12T16:53:35.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Burnham warned Iran war could hit UK growth next year",
+        "link": "https://www.bbc.co.uk/news/articles/c5y3egv4m4mo?at_medium=RSS&at_campaign=rss",
+        "summary": "The conflict in the Middle East has pushed up oil and fuel prices, and also disrupted supply chains.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cf17/live/d73f4760-964e-11f1-870d-5d08c49babb2.jpg",
+        "publishedAt": "2026-08-12T14:17:26.000Z",
         "source": "BBC"
       },
       {
@@ -362,14 +370,6 @@
         "summary": "Bakery business Janes Pantry confirms its plans to reopen at least 20 of the Coughlans shops.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/84e3/live/987b6fc0-7517-11f1-adcf-e1eef1a1ef9c.jpg",
         "publishedAt": "2026-08-12T12:46:31.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Tokenomics: Why making AI pay is tricky",
-        "link": "https://www.bbc.co.uk/news/articles/c872r52x7jgo?at_medium=RSS&at_campaign=rss",
-        "summary": "Buyers of AI services are struggling to control costs and sellers are not sure how much to charge.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ae1d/live/13ce3de0-79de-11f1-a627-714adb4eed6e.jpg",
-        "publishedAt": "2026-08-11T23:03:52.000Z",
         "source": "BBC"
       },
       {
@@ -407,71 +407,79 @@
         "source": "BBC"
       },
       {
+        "title": "Chinese rocket carrying satellite explodes seconds after launch",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPekRVSU9kNVhGMFB0YU4tRTBNblFWYm9JV3c0NmxyeU5MNUhrMWJqM2ZHOTFfV3puUGE1cm9jZjZTYUZXNVdyaVE2cjZnSmI1akJ2MlhPZlQ1RXJ2TnJXQkFGbHNWRWFlVE5BX2piWUUtNXdDQktnZEpIU1hKSDY5aEFXOA?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-08-11T05:39:24.000Z",
+        "source": "CNN"
+      },
+      {
         "title": "Meta just picked a side in a big debate over the future of AI",
         "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQS0dlVnMtdktjeHZPUDczQXQzLWVlenJyTHZHT3ZrVWN0eGs1NkM3UlFucjJsWnAyLVJxcUVTelZKNXNXNS1UdGlvOGlMZDY2N0ZJME0zYldLYkRQLVNzMW1DRjBRRDMtcDBKLTNEOUpYaXd6eTRXT2pGT1lOSFNKOE41VQ?oc=5",
         "summary": "",
         "image": "",
         "publishedAt": "2026-08-10T16:48:13.000Z",
         "source": "CNN"
-      },
-      {
-        "title": "Tech leaders say AI means less work - their staff say they work up to 90 hours a week",
-        "link": "https://www.bbc.co.uk/news/articles/cvgx4yd1gl2o?at_medium=RSS&at_campaign=rss",
-        "summary": "Tech companies are not modelling their own claims of the technology giving people more free time.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e1c0/live/bb9691e0-94b3-11f1-a7ab-8b30adf0800a.jpg",
-        "publishedAt": "2026-08-10T05:00:32.000Z",
-        "source": "BBC"
       }
     ],
     "domestic": [
       {
-        "title": "涉嫌严重违纪违法 福建南平市委副书记、市长林建任上被查",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-12/10676597.shtml",
-        "summary": "中新网南平8月12日电 (记者 张丽君) 据福建省纪委监委通报，南平市委副书记、市长林建涉嫌严重违纪违法，目前正接受福建省纪委监委纪律审查和监察调查。",
+        "title": "青海科学技术奖励大会在西宁召开",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-12/10676661.shtml",
+        "summary": "中新网西宁8月12日电 (祁增蓓)12日，青海省科学技术奖励大会在西宁召开，对推进全省创新发展作出突出贡献的科技工作者和创新实践者进行表彰，引导企业创新和战略性新兴产业发展。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260812/f2813a1a-d20d-4d42-8f7d-997495d178a1_zsite.jpg",
+        "publishedAt": "2026-08-12T14:14:26.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "“东升西降”重塑台海博弈 两岸专家指新格局凸显时势在大陆",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-12/10676643.shtml",
+        "summary": "中新社北京8月12日电 (记者 李百加 刘大炜)第十一届京台学者共研会12日在北京举办。与会两岸专家表示，在百年变局深入演进、“东升西降”大势持续深化的时代背景下，台海新格局加速成形，凸显时势在大陆。",
         "image": "",
-        "publishedAt": "2026-08-12T13:35:20.000Z",
+        "publishedAt": "2026-08-12T14:12:02.000Z",
         "source": "中新网"
       },
       {
-        "title": "青海发布国民健康“十五五”规划 2030年人均预期寿命提升1.5岁",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-12/10676607.shtml",
-        "summary": "中新网西宁8月12日电 (记者 孙睿)8月12日，青海省政府新闻办公室在青海区域医疗中心(西安交通大学第一附属医院青海医院)召开“开局起步‘十五五’”主题系列新闻发布会国民健康专场。青海省卫生健康委党组书记、主任任延明发布《青海省国民健康“十五五”规划》，明确到2030年全省人均预期寿命将提升1.5...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260812/756e9b30-6cbe-46aa-b49a-3d2af76a32fc_zsite.jpeg",
-        "publishedAt": "2026-08-12T13:31:48.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "赖清德当局搞“断网演练”，是提升“韧性”还是“任性”？",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-12/10676602.shtml",
-        "summary": "正在进行中的台军“汉光42号演习”长达十天九夜。演习尚未收兵，民众正常生活却接连被“误伤”。",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/08/12/c2092060876947508a917ae3ab4c1817.png",
-        "publishedAt": "2026-08-12T13:25:29.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "台湾首辆张雪机车被下狠手，民进党当局究竟在怕什么？",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-12/10676599.shtml",
-        "summary": "“张雪机车”在台湾近日被盯上了。",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/08/12/0d3879ba6da14ed18af8a30bace098db.jpg",
-        "publishedAt": "2026-08-12T13:21:19.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "中方敦促有关国家停止滥用多边军控机制",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-12/10676578.shtml",
-        "summary": "中新社北京8月12日电 关于美国等国家在日内瓦裁军谈判会议搞所谓共同发言，中国外交部发言人郭嘉昆12日在答记者问时表示，中方敦促有关国家停止滥用多边军控机制，以真诚对话取代无理对抗，为加强军控领域对话交流创造必要条件。",
+        "title": "中国地震局：哥伦比亚7.5级地震发生于三大板块交汇区域 为逆冲兼走滑型破裂",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-12/10676655.shtml",
+        "summary": "中新网北京8月12日电 (记者 孙自法)中国地震局8月12日晚向媒体通报说，哥伦比亚8月10日7.5级地震发生在纳斯卡、加勒比与南美三大板块的交汇区域，是发生在俯冲板片内部的一次中源地震。其震源机制结果显示，此次地震为逆冲兼走滑型破裂。",
         "image": "",
-        "publishedAt": "2026-08-12T13:13:08.000Z",
+        "publishedAt": "2026-08-12T14:07:32.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "从集中攻坚到常态长效 云南发布省直机关党建五年“路线图”",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-12/10676583.shtml",
+        "summary": "中新网昆明8月12日电 (时文枝 游珊珊)“过去三年，通过实施机关党建三年行动计划，全省选树先进典型750余个，党建赋能质效显著提升。”中共云南省委省直机关工委常务副书记颜希权12日表示，今年5月29日正式印发执行的《省直机关党的建设高质量发展五年计划(2026—2030年)》(以下简称《五年计划》...",
+        "image": "",
+        "publishedAt": "2026-08-12T14:04:02.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "专家谈两岸经贸、民生交流前景：“存量”与“增量”并重",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-12/10676657.shtml",
+        "summary": "中新社北京8月12日电 (记者 徐雪莹 刘大炜 李百加)上海交通大学台湾研究中心主任盛九元12日在北京指出，经济合作是推动两岸关系和平发展的重要动能。面对全球产业模式变化与地缘政治等因素影响，重启两岸经济合作动能，既要注重存量也要发展增量。",
+        "image": "",
+        "publishedAt": "2026-08-12T14:02:36.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "US inflation eases as food costs cool",
+        "title": "US inflation eases as food and fuel costs cool",
         "link": "https://www.bbc.co.uk/news/articles/c0qv2nn1gpeo?at_medium=RSS&at_campaign=rss",
         "summary": "Annual US inflation dipped to 3.4% in July, with food costs slowing and housing keeping prices slightly higher.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a864/live/f178bef0-9648-11f1-9d8e-b1efdebf2f99.jpg",
-        "publishedAt": "2026-08-12T13:13:21.000Z",
+        "publishedAt": "2026-08-12T17:03:05.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Members of Trump's cabinet remained on decoy plane, after president's quiet exit",
+        "link": "https://www.bbc.co.uk/news/articles/c4g306eln8wo?at_medium=RSS&at_campaign=rss",
+        "summary": "Trump boarded a different plane in Turkey during a Nato summit for security reasons involving Iran.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/69ce/live/3ac23d60-9659-11f1-b2ab-0dd01740f9f6.jpg",
+        "publishedAt": "2026-08-12T16:34:01.000Z",
         "source": "BBC"
       },
       {
@@ -479,31 +487,23 @@
         "link": "https://www.bbc.co.uk/news/articles/cn0npjkqrleo?at_medium=RSS&at_campaign=rss",
         "summary": "Israeli security forces have reportedly withdrawn and about a dozen settlers are said to remain at the site where two families have been besieged sinc...",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/22b5/live/2509dcc0-9641-11f1-8414-97750c5a4202.jpg",
-        "publishedAt": "2026-08-12T12:16:22.000Z",
+        "publishedAt": "2026-08-12T16:14:08.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "LA Lakers to be sold in record $12.5bn deal",
+        "link": "https://www.bbc.co.uk/sport/basketball/articles/c04k2dn422xo?at_medium=RSS&at_campaign=rss",
+        "summary": "The Los Angeles Lakers is to be sold for a reported record $12.5bn - less than a year after Mark Walter took a majority stake in the NBA franchise.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/315f/live/02590670-9668-11f1-a6eb-474cf36e6c34.jpg",
+        "publishedAt": "2026-08-12T16:11:04.000Z",
         "source": "BBC"
       },
       {
         "title": "Woman pulled alive from rubble 36 hours after Colombia quake",
         "link": "https://www.bbc.co.uk/news/articles/cz7d2e5wlgno?at_medium=RSS&at_campaign=rss",
         "summary": "Following a 10-hour rescue operation, emergency workers pulled the 32-year-old from beneath slabs of concrete.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7a59/live/21ee2fc0-963f-11f1-8414-97750c5a4202.jpg",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b547/live/5e706700-9654-11f1-b2ab-0dd01740f9f6.jpg",
         "publishedAt": "2026-08-12T11:28:02.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Trump confirms he switched planes after Nato summit because of possible threat",
-        "link": "https://www.bbc.co.uk/news/articles/c980r4wpl9lo?at_medium=RSS&at_campaign=rss",
-        "summary": "Journalists and White House staff who were on board the jet were unaware the president had left.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e32/live/76fded00-9632-11f1-b2ab-0dd01740f9f6.jpg",
-        "publishedAt": "2026-08-12T03:44:55.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Trump's dramatic plane swap hints at personal stakes of Iran war",
-        "link": "https://www.bbc.co.uk/news/articles/cly8jexn1z9o?at_medium=RSS&at_campaign=rss",
-        "summary": "It marks another striking episode in the turbulent history of his relationship with Iran, writes the BBC's Anthony Zurcher.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ca5a/live/b1c8cd30-95cc-11f1-a7ab-8b30adf0800a.jpg",
-        "publishedAt": "2026-08-12T00:14:42.000Z",
         "source": "BBC"
       }
     ],
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-08-12",
+    "rotationLabel": "Curated Rotation · 2026-08-13",
     "sections": [
       {
         "id": "data-storage",
@@ -522,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-1",
-            "sectionId": "data-storage",
-            "title": "The Log-Structured Merge-Tree (LSM-Tree)",
-            "authors": [
-              "Patrick O'Neil",
-              "Edward Cheng",
-              "Dieter Gawlick",
-              "Elizabeth O'Neil"
-            ],
-            "venue": "Acta Informatica",
-            "year": 1996,
-            "quality": "经典基础",
-            "categories": [
-              "storage",
-              "indexing"
-            ],
-            "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
-            "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-2",
             "sectionId": "data-storage",
@@ -562,7 +541,7 @@
             ],
             "link": "https://research.google/pubs/pub27898/",
             "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-3",
@@ -584,6 +563,27 @@
             "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
             "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-4",
+            "sectionId": "data-storage",
+            "title": "Dremel: Interactive Analysis of Web-Scale Datasets",
+            "authors": [
+              "Sergey Melnik",
+              "Andrey Gubarev",
+              "Jing Jing Long",
+              "Geoffrey Romer"
+            ],
+            "venue": "VLDB",
+            "year": 2010,
+            "quality": "顶会",
+            "categories": [
+              "analytics",
+              "columnar"
+            ],
+            "link": "https://research.google/pubs/pub36632/",
+            "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -593,27 +593,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-2",
-            "sectionId": "computer-vision",
-            "title": "End-to-End Object Detection with Transformers",
-            "authors": [
-              "Nicolas Carion",
-              "Francisco Massa",
-              "Gabriel Synnaeve",
-              "Nicolas Usunier"
-            ],
-            "venue": "ECCV",
-            "year": 2020,
-            "quality": "顶会",
-            "categories": [
-              "detection",
-              "transformer"
-            ],
-            "link": "https://arxiv.org/abs/2005.12872",
-            "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-3",
             "sectionId": "computer-vision",
@@ -633,7 +612,7 @@
             ],
             "link": "https://arxiv.org/abs/2010.11929",
             "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-4",
@@ -655,6 +634,27 @@
             "link": "https://arxiv.org/abs/2103.00020",
             "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-5",
+            "sectionId": "computer-vision",
+            "title": "Segment Anything",
+            "authors": [
+              "Alexander Kirillov",
+              "Eric Mintun",
+              "Nikhila Ravi",
+              "Hanzi Mao"
+            ],
+            "venue": "ICCV",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "segmentation",
+              "foundation model"
+            ],
+            "link": "https://arxiv.org/abs/2304.02643",
+            "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -664,27 +664,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-3",
-            "sectionId": "llm-memory",
-            "title": "RETRO: Improving Language Models by Retrieving From Trillions of Tokens",
-            "authors": [
-              "Sebastian Borgeaud",
-              "Arthur Mensch",
-              "Jordan Hoffmann",
-              "Trevor Cai"
-            ],
-            "venue": "DeepMind / arXiv",
-            "year": 2022,
-            "quality": "高影响力",
-            "categories": [
-              "retrieval",
-              "language model"
-            ],
-            "link": "https://arxiv.org/abs/2112.04426",
-            "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-4",
             "sectionId": "llm-memory",
@@ -704,7 +683,7 @@
             ],
             "link": "https://arxiv.org/abs/2310.11511",
             "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-5",
@@ -726,6 +705,27 @@
             "link": "https://arxiv.org/abs/2306.07174",
             "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-6",
+            "sectionId": "llm-memory",
+            "title": "MemoRAG: Moving towards Next-Gen RAG Via Memory-Inspired Knowledge Discovery",
+            "authors": [
+              "Rulin Shao",
+              "Yue Liu",
+              "Shuo Wang",
+              "Yichi Zhang"
+            ],
+            "venue": "arXiv",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "RAG",
+              "memory bank"
+            ],
+            "link": "https://arxiv.org/abs/2409.05591",
+            "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -735,27 +735,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-4",
-            "sectionId": "agents",
-            "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
-            "authors": [
-              "Guanzhi Wang",
-              "Yuqi Xie",
-              "Zixiang Zhou",
-              "Yujin Tang"
-            ],
-            "venue": "arXiv",
-            "year": 2023,
-            "quality": "高影响力",
-            "categories": [
-              "embodied agent",
-              "planning"
-            ],
-            "link": "https://arxiv.org/abs/2305.16291",
-            "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-5",
             "sectionId": "agents",
@@ -775,7 +754,7 @@
             ],
             "link": "https://arxiv.org/abs/2308.08155",
             "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-6",
@@ -796,6 +775,28 @@
             ],
             "link": "https://arxiv.org/abs/2405.15793",
             "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-1",
+            "sectionId": "agents",
+            "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+            "authors": [
+              "Shunyu Yao",
+              "Jeffrey Zhao",
+              "Dian Yu",
+              "Nan Du"
+            ],
+            "venue": "ICLR",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "agent",
+              "reasoning",
+              "tool use"
+            ],
+            "link": "https://arxiv.org/abs/2210.03629",
+            "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
             "trackLabel": "轮换精选"
           }
         ]
