@@ -1,36 +1,28 @@
 {
-  "generatedAt": "2026-08-13T13:38:48.603Z",
+  "generatedAt": "2026-08-13T17:07:32.517Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 24,
+      "temperature": 23,
       "weatherCode": 0,
       "windSpeed": 2
     },
     "today": {
-      "date": "2026-08-13",
+      "date": "2026-08-14",
       "weatherCode": 53,
       "description": "小雨",
       "max": 30,
       "min": 22,
-      "precipitationProbability": 90
+      "precipitationProbability": 37
     },
     "forecast": [
-      {
-        "date": "2026-08-13",
-        "weatherCode": 53,
-        "description": "小雨",
-        "max": 30,
-        "min": 22,
-        "precipitationProbability": 90
-      },
       {
         "date": "2026-08-14",
         "weatherCode": 53,
         "description": "小雨",
         "max": 30,
         "min": 22,
-        "precipitationProbability": 29
+        "precipitationProbability": 37
       },
       {
         "date": "2026-08-15",
@@ -38,7 +30,7 @@
         "description": "雷暴",
         "max": 30,
         "min": 22,
-        "precipitationProbability": 56
+        "precipitationProbability": 49
       },
       {
         "date": "2026-08-16",
@@ -46,7 +38,7 @@
         "description": "雷暴",
         "max": 30,
         "min": 22,
-        "precipitationProbability": 41
+        "precipitationProbability": 35
       },
       {
         "date": "2026-08-17",
@@ -55,32 +47,49 @@
         "max": 34,
         "min": 23,
         "precipitationProbability": 7
+      },
+      {
+        "date": "2026-08-18",
+        "weatherCode": 80,
+        "description": "阵雨",
+        "max": 28,
+        "min": 23,
+        "precipitationProbability": 47
       }
     ]
   },
   "classicQuote": {
-    "id": "mencius-perseverance",
-    "text": "虽千万人，吾往矣。",
-    "source": "《孟子》",
-    "author": "孟子",
-    "note": "认准方向之后，关键是稳稳地往前走。"
+    "id": "records-historical",
+    "text": "桃李不言，下自成蹊。",
+    "source": "《史记》",
+    "author": "司马迁",
+    "note": "真正有分量的作品，本身就会替你说话。"
   },
   "bookExcerpt": {
-    "id": "red-mansion-snow",
-    "text": "只见大地白茫茫一片真干净，山川树木都隐在雪光里，天地像忽然静下来，只余风过回廊的细响。",
-    "book": "《红楼梦》",
-    "author": "曹雪芹"
+    "id": "remembrance-madeleine",
+    "text": "那一点点浸过茶水的点心，忽然把整个旧日时光都唤醒了，仿佛往昔并未消失，只是沉在心底等待一个气味。",
+    "book": "《追忆似水年华》",
+    "author": "马塞尔·普鲁斯特"
   },
   "featuredPlace": {
-    "id": "202608121600",
-    "title": "泰德天文台上空的英仙座流星，加那利群岛，西班牙",
+    "id": "202608131600",
+    "title": "扎克舒夫附近的野生动物通道，波兰",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "许个愿吧",
-    "image": "https://www.bing.com/th?id=OHR.PerseidasTenerife_ZH-CN8520379683_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E8%8B%B1%E4%BB%99%E5%BA%A7%E6%B5%81%E6%98%9F%E9%9B%A8&form=hpcapt&mkt=zh-cn"
+    "summary": "为动物脚掌而建，而非行人",
+    "image": "https://www.bing.com/th?id=OHR.WildlifeCrossingPoland_ZH-CN9439167246_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E9%87%8E%E7%94%9F%E5%8A%A8%E7%89%A9%E9%80%9A%E9%81%93&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202608131600",
+      "title": "扎克舒夫附近的野生动物通道，波兰",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "为动物脚掌而建，而非行人",
+      "image": "https://www.bing.com/th?id=OHR.WildlifeCrossingPoland_ZH-CN9439167246_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E9%87%8E%E7%94%9F%E5%8A%A8%E7%89%A9%E9%80%9A%E9%81%93&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202608121600",
       "title": "泰德天文台上空的英仙座流星，加那利群岛，西班牙",
@@ -143,29 +152,20 @@
       "summary": "指引船只穿越历史",
       "image": "https://www.bing.com/th?id=OHR.LimeKiln_ZH-CN5664152522_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E7%9F%B3%E7%81%B0%E7%AA%91%E7%81%AF%E5%A1%94&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202608051600",
-      "title": "马赛马拉迁徙的角马群横渡马拉河, 肯尼亚",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "生死渡口，勇者的史诗",
-      "image": "https://www.bing.com/th?id=OHR.MaraCrossing_ZH-CN8816902094_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E8%A7%92%E9%A9%AC&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-08-13",
-    "dateLabel": "8月13日",
+    "dateKey": "2026-08-14",
+    "dateLabel": "8月14日",
     "items": [
       {
         "year": "2021",
-        "text": "香港民間人權陣線宣布解散。",
+        "text": "海地首都太子港以西約120公里處發生芮氏7.2級地震，造成2,248人死亡和12,763人受傷。",
         "link": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4"
       },
       {
         "year": "2020",
-        "text": "以色列和阿联酋达成和平协议。",
+        "text": "先前停靈台北賓館之中華民國首任民選總統李登輝出殯。",
         "link": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4"
       }
     ]
@@ -173,47 +173,79 @@
   "news": {
     "chinaTop": [
       {
-        "title": "中国规划到2030年有效缓解生物多样性丧失趋势",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-13/10677255.shtml",
-        "summary": "中新社北京8月13日电 (记者 阮煜琳)中国生态环境部等六部门近日联合印发《生态保护“十五五”规划》。生态环境部自然生态保护司有关负责人13日解读该文件时对记者表示，《规划》提出，到2030年，生态空间格局持续优化，生态质量稳步改善，生物多样性丧失趋势得到有效缓解。",
+        "title": "宁夏积极打造中国第二个省级全域旅游示范区",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-13/10677310.shtml",
+        "summary": "中新社银川8月13日电 (记者 杨迪)记者13日从宁夏回族自治区政府新闻办新闻发布会上获悉，中国第二个省级全域旅游示范区——宁夏正推动五个下辖地级市特色发展，构建覆盖全域的康养旅居产品矩阵。",
         "image": "",
-        "publishedAt": "2026-08-13T13:31:32.000Z",
+        "publishedAt": "2026-08-13T14:11:57.000Z",
         "source": "中新网"
       },
       {
-        "title": "从“生态包袱”到“绿色资产” 山东地质科技上演“七十二变”",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-13/10677274.shtml",
-        "summary": "中新网济宁8月13日电 题：从“生态包袱”到“绿色资产” 山东地质科技上演“七十二变”",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260813/c6d6a5de-d264-400e-b611-90dcde599a65_zsite.jpg",
-        "publishedAt": "2026-08-13T13:30:06.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "从创新赛事到发展沃土：常州与台湾青年的“双向奔赴”",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-13/10677254.shtml",
-        "summary": "中新网常州8月13日电 (记者 唐娟)8月13日，正在江苏常州举行的2026海峡两岸青年创新创业大赛决赛现场气氛热烈。这项以“青春向新程两岸共未来”为主题的大赛，今年共吸引了209个项目报名，最终150个项目脱颖而出进入决赛。自2021年首届赛事落地常州以来，该项大赛已成为两岸青年互学互鉴、创新创业...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260813/24db79d6-ebf6-4164-b9c7-0f8c3ed8ae5e_zsite.jpeg",
-        "publishedAt": "2026-08-13T13:27:42.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "镜观·回响｜九曲叠翠 黄河焕新",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-13/10677251.shtml",
-        "summary": "九曲黄河万里沙。黄河是全世界泥沙含量最高、治理难度最大、水害严重的河流之一，素来“多淤、多决、多徙”。千百年来，黄河安澜是中华儿女的祈盼。",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/08/13/d86e20b8748e411fa9b18eba7f02e1fe.jpeg",
-        "publishedAt": "2026-08-13T12:44:05.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "此行间·总书记心系国家公园：给子孙后代留下珍贵的自然资产",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-13/10677250.shtml",
-        "summary": "今年是第一批国家公园正式设立5周年。中国实行国家公园体制，目的之一就是给子孙后代留下珍贵的自然资产。习近平总书记始终高度重视并亲自谋划推动国家公园建设工作。在第四个全国生态日之际，重温总书记对国家公园建设和生态环境保护的殷切嘱托。",
+        "title": "华北暴雨综合科学试验完成台风“白海豚”敏感区加密观测",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-13/10677309.shtml",
+        "summary": "中新社石家庄8月13日电 (赵丹媚 张延宾)据河北省气象局消息，8月13日，为期4天的华北暴雨综合科学试验完成台风“白海豚”敏感区加密观测。",
         "image": "",
-        "publishedAt": "2026-08-13T12:34:10.000Z",
+        "publishedAt": "2026-08-13T14:09:11.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "追忆“两弹一星”元勋王希季：转行拓荒，铺就中国航天路",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-13/10677303.shtml",
+        "summary": "中新社北京8月13日电 题：追忆“两弹一星”元勋王希季：转行拓荒，铺就中国航天路",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260813/485999bc-3115-44b2-a46c-5309d8958576_zsite.jpeg",
+        "publishedAt": "2026-08-13T13:58:04.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "两岸传媒学子采风河北长城文化和冬奥遗产",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-13/10677300.shtml",
+        "summary": "中新社唐山8月13日电 (陈林 李鹏 安麒静)为期11天的“青春相约·逐梦燕赵”——第八届两岸未来媒体人河北长城文化采风暨台湾传媒学子河北实习营活动13日落幕，来自冀台两地10余所高校新闻、影视、视觉传达类专业的近40名大学生在唐山作别，各自踏上返程。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260813/70ac93b6-80bd-449a-8057-366c9b67d20b_zsite.jpg",
+        "publishedAt": "2026-08-13T13:53:25.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "中国科学家揭示深渊看不见的微生物“绿洲”",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-13/10677288.shtml",
+        "summary": "中新社上海8月13日电 (记者 许婧)上海交通大学13日对外公布，由该校与中国科学院深海科学与工程研究所等联合发起，上海交大肖湘教授作为召集科学家的“溟渊计划”(马里亚纳海沟环境与生态研究计划)二期成果，近日以专辑形式发表于国际权威期刊《细胞·宿主与微生物》，获期刊编辑特别推荐，称“揭示了海洋最深处...",
+        "image": "",
+        "publishedAt": "2026-08-13T13:40:13.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
+      {
+        "title": "福建福安一船厂着火后爆炸 造成1名消防救援人员不幸牺牲",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-13/10677325.shtml",
+        "summary": "据福安市消防救援局通报，8月13日13时09分，福安市甘棠镇华海船厂着火。接报后，福安市消防救援局调派力量前往处置。13时25分，辖区站到场展开灭火救援。14时10分，现场突然发生爆炸，造成10名消防救援人员和2名群众受伤，均已送医救治。18时50分，1名消防救援人员经抢救无效不幸牺牲。",
+        "image": "",
+        "publishedAt": "2026-08-13T14:47:15.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "广西河池携手大湾区共育东巴凤康养文旅产业",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-13/10677311.shtml",
+        "summary": "中新网广西河池8月13日电(俞靖 黄开均)今年上半年，广西河池市以巴马国际长寿养生旅游胜地、深圳巴马大健康合作特别试验区(以下简称：深巴试验区)、东巴凤区域一体化发展三大核心任务为牵引，重塑发展格局，交出一份“世界长寿之乡”牵手粤港澳大湾区，共育康养文旅产业的发展答卷。",
+        "image": "",
+        "publishedAt": "2026-08-13T14:11:49.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "佛山南海个别学生在榕江“班超”赛事期间言行不当 官方通报致歉",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-13/10677308.shtml",
+        "summary": "中新网佛山8月13日电 (记者 程景伟)中共佛山市南海区委、佛山市南海区人民政府13日通报，近日，网传个别参赛球员在第二届全国青少年“班超”足球赛期间的不当言行，南海区委、区人民政府高度重视，第一时间进行核查处置。",
+        "image": "",
+        "publishedAt": "2026-08-13T14:05:14.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "中美青少年在青岛携手体验中华传统文化 收获跨国友谊",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-13/10677307.shtml",
+        "summary": "中新网青岛8月13日电 (张孝鹏)美国艾奥瓦州青少年代表团13日到访青岛西海岸中学，与当地学生共同开启文化交流之旅。活动通过传统文化深度体验、结对交流等形式，让美国青少年深入了解中国校园育人模式、沉浸式体验中华优秀传统文化独特魅力，并收获跨国友谊。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260813/5dd56198-e1f2-4ccc-ad96-c9b04363b76e_zsite.jpg",
+        "publishedAt": "2026-08-13T14:00:56.000Z",
+        "source": "中新网"
+      },
       {
         "title": "从驾驶员到“强军工匠”：王健的“500”坚持",
         "link": "https://www.chinanews.com.cn/sh/2026/08-13/10677278.shtml",
@@ -221,90 +253,82 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260813/d457121e-4917-4a3b-a1ca-f4ae2472c87d_zsite.jpg",
         "publishedAt": "2026-08-13T13:37:42.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "乡村教师24年寻恩人未果 锦旗送给“一群他”",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-13/10677276.shtml",
-        "summary": "中新网肇庆8月13日电 (郭军 梁海棠 何俊铭)“虽然没找到当年那位民警，但我找到了一群和他一样的人。”近日，广西崇左龙州县乡村教师莫金利专程赶到佛山铁路公安处肇庆站派出所，送来一面锦旗，并向在场民警深深鞠躬。这一天，距离他绝境获救，整整过去了24年。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260813/da1350d7-b183-4622-9d41-f1dd6e0d32da_zsite.jpg",
-        "publishedAt": "2026-08-13T13:37:08.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "内蒙古深耕草原生态保护 以生态治理书写绿富同兴答卷",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-13/10677289.shtml",
-        "summary": "和谐共生 | 内蒙古深耕草原生态保护 以生态治理书写绿富同兴答卷",
-        "image": "",
-        "publishedAt": "2026-08-13T13:34:14.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "2026年度中吉联合舒拉巴夏特古城遗址考古工作收官",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-13/10677258.shtml",
-        "summary": "中新网西安8月13日电 (记者 阿琳娜)记者13日从丝绸之路考古合作研究中心获悉，中吉联合考古队舒拉巴夏特古城遗址首年度考古工作近日顺利收官。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260813/20914407-f336-4657-86cb-33d65a1fd2af_zsite.jpg",
-        "publishedAt": "2026-08-13T13:33:28.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "受台风残涡环流影响 浙江多地出现暴雨",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-13/10677256.shtml",
-        "summary": "中新网杭州8月13日电(鲍梦妮)台风“白海豚”虽已停编，但受台风残涡环流影响，浙江多地13日多地出现暴雨。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260813/4ad45b6a-312c-4434-b6ac-866bb98bbad7_zsite.jpg",
-        "publishedAt": "2026-08-13T13:32:12.000Z",
-        "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "开局起步“十五五”：海口向国际旅游消费目的地转型",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-13/10677269.shtml",
-        "summary": "中新网海口8月13日电 (张茜翼 张芷懿)听一场高水准的演唱会，看一出驻场实景舞台剧，买几件与全球同步上新的免税品……这样的旅行体验，未来五年将在海口成为常态。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260813/17e22f80-3e07-48b4-a40e-d8f1b36c3140_zsite.jpg",
-        "publishedAt": "2026-08-13T13:24:34.000Z",
+        "title": "财经大V齐俊杰，被海南证监局点名",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-13/10677333.shtml",
+        "summary": "中新网8月13日电(吴家驹)近日，中国证监会海南监管局网站发布行政监管措施决定书，对齐家私募基金管理(海南)有限公司(简称“齐家私募基金公司”)、齐俊杰采取责令改正的行政监管措施，并记入资本市场诚信档案数据库，同时要求于2026年9月30日前提交整改报告。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/08/13/5b58ce345e7f4847a19271b419a90930.jpg",
+        "publishedAt": "2026-08-13T15:22:35.000Z",
         "source": "中新网"
       },
       {
-        "title": "天津绿色金融“碳”路记：近万亿元贷款背后的创新密码",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-13/10677262.shtml",
-        "summary": "中新网天津8月13日电 题：天津绿色金融“碳”路记：近万亿元贷款背后的创新密码",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260813/b9bb0cf8-53a7-4e23-a45c-b32f603ba325_zsite.jpg",
-        "publishedAt": "2026-08-13T13:22:38.000Z",
+        "title": "宇树科技：网上投资者放弃认购数量8734股",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-13/10677332.shtml",
+        "summary": "中新网北京8月13日电(记者 刘星晨)13日晚，宇树科技发布首次公开发行股票并在科创板上市发行结果公告。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/08/13/7811b29b25bc43988b068bb65f9112e4.jpg",
+        "publishedAt": "2026-08-13T15:21:59.000Z",
         "source": "中新网"
       },
       {
-        "title": "未来5年10万亿元消费增量目标，怎样实现？",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-13/10677273.shtml",
-        "summary": "原标题：到2030年，社会消费品零售总额达到60万亿元左右",
+        "title": "全球首单企业类自贸离岸债在上海发行",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-13/10677330.shtml",
+        "summary": "8月12日，中央结算公司支持上海电气集团股份有限公司境外子公司上海电气环球资本有限公司成功发行15亿元人民币自贸离岸债，期限3年，票面利率1.8%。",
         "image": "",
-        "publishedAt": "2026-08-13T13:15:31.000Z",
+        "publishedAt": "2026-08-13T15:03:32.000Z",
         "source": "中新网"
       },
       {
-        "title": "沪市年内已有7单公募REITs披露增持计划 合计增持金额上限约4.3亿元",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-13/10677248.shtml",
-        "summary": "中新网上海8月13日电 (高志苗)记者13日从上海证券交易所获悉，沪市年内已有7单公募REITs项目披露增持相关计划，合计增持金额上限约4.3亿元。",
+        "title": "开局起步“十五五”：三亚力推旅游产品迭代升级",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-13/10677313.shtml",
+        "summary": "中新网海口8月13日电 (张茜翼 张芷懿)中共三亚市委常委、市政府副市长向义海13日在海南省新闻办公室举行的发布会上表示，到2030年，三亚全市年接待国内外游客不低于5000万人次，年游客总花费不低于1600亿元，年接待入境游客不低于200万人次，力争达到250万人次。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260813/6b0a30e4-5e42-4a76-801a-41ad835a060e_zsite.jpg",
+        "publishedAt": "2026-08-13T14:17:01.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "京东集团发布2026年二季度及半年业绩：活跃用户保持双位数增长 服务收入占比进一步提升",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-13/10677301.shtml",
+        "summary": "北京时间8月13日，京东集团【纳斯达克代码：JD，港交所代号：9618(港币柜台)及89618(人民币柜台)】发布了2026年二季度及半年业绩，AI等新生产要素激发了供应链和产品的创新潮，京东的超级供应链优势更加凸显，围绕居家、健康、出行等需求的多样化生活服务进一步带动了用户活跃度的提升。",
         "image": "",
-        "publishedAt": "2026-08-13T13:03:31.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "浙江直播经济相关企业突破17万家",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-13/10677247.shtml",
-        "summary": "中新网杭州8月13日电(奚金燕)浙江省市场监管局13日发布消息，2025年浙江省直播电商交易规模达6734亿元，汇聚中国约70%的头部MCN机构(多频道网络机构)。截至今年上半年，该省直播经济相关企业已突破17万家。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260813/3e89e8be-0c8e-4b77-b8df-6ab63e059a0d_zsite.jpeg",
-        "publishedAt": "2026-08-13T13:02:51.000Z",
+        "publishedAt": "2026-08-13T14:06:39.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "UK defends seizing shadow fleet tanker after Putin threat",
-        "link": "https://www.bbc.co.uk/news/articles/cn0npn249qvo?at_medium=RSS&at_campaign=rss",
-        "summary": "The UK government says it is \"disrupting and deterring shadow fleet vessels\" in accordance with the law.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1476/live/59a2ade0-96fa-11f1-bb0e-6d40312a1485.png",
-        "publishedAt": "2026-08-13T11:05:03.000Z",
+        "title": "Conditions on US aircraft carrier at sea for more than 250 days raise alarms",
+        "link": "https://www.bbc.co.uk/news/articles/cyvl2d5j52lo?at_medium=RSS&at_campaign=rss",
+        "summary": "There are reports of food shortages, broken plumbing and other potential harms aboard the USS Abraham Lincoln, which has been at sea since November.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/20ef/live/60e60690-9733-11f1-bdbf-1b7b2a4a87a1.jpg",
+        "publishedAt": "2026-08-13T17:01:50.000Z",
         "source": "BBC"
+      },
+      {
+        "title": "Palestinians told to leave homes in village where Israeli settlers besieged houses",
+        "link": "https://www.bbc.co.uk/news/articles/cj4kppdk2qwo?at_medium=RSS&at_campaign=rss",
+        "summary": "The mayor of Qusra says Israeli troops have been telling families to leave their houses, using some as barracks.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4905/live/113cee30-9736-11f1-870d-5d08c49babb2.jpg",
+        "publishedAt": "2026-08-13T16:20:41.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Person fined after using foghorn to wake sleeping polar bear",
+        "link": "https://www.bbc.co.uk/news/articles/cx2k1r97vx7o?at_medium=RSS&at_campaign=rss",
+        "summary": "Under local regulations in the region, \"it is forbidden to needlessly disturb, attract or pursue a polar bear\".",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/69e0/live/7dbeac50-9728-11f1-808c-532494fd22c7.jpg",
+        "publishedAt": "2026-08-13T15:30:57.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Night moves: Riding the world’s greatest sleeper trains",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjelhLOGR0X3JFZjFwanBvbHVRNGlqU1F1Z0VlelRja1NYd2IwNnZpcHVfeVE2RUpVU1NDRnIzQU9udkpvZ2l6aHdFU3dPUnppemFQdThweWJ0Qk5Ka3VF?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-08-13T14:00:29.000Z",
+        "source": "CNN"
       },
       {
         "title": "Putin pays his first visit to Pacific island chain claimed by Japan, drawing a protest from Tokyo",
@@ -313,30 +337,6 @@
         "image": "",
         "publishedAt": "2026-08-13T09:19:58.000Z",
         "source": "CNN"
-      },
-      {
-        "title": "More troops to be sent to West Bank village besieged by Israeli settlers",
-        "link": "https://www.bbc.co.uk/news/articles/cj4kppdk2qwo?at_medium=RSS&at_campaign=rss",
-        "summary": "Two Palestinian families in the village of Qusra say they have been trapped in their homes, with water and power cut off, since Sunday.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d7e6/live/6760bdb0-96e0-11f1-9b96-77d3dc534330.jpg",
-        "publishedAt": "2026-08-13T08:12:53.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Putin can no longer claim victory in Ukraine, Nobel Peace Prize winner tells BBC",
-        "link": "https://www.bbc.co.uk/news/articles/c74grmy2v7ko?at_medium=RSS&at_campaign=rss",
-        "summary": "In an exclusive interview with the BBC’s Steve Rosenberg, Dmitry Muratov says the Kremlin leader can only \"destroy Ukraine, not conquer it\", with the...",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d25/live/1d504a60-964f-11f1-b2ab-0dd01740f9f6.jpg",
-        "publishedAt": "2026-08-13T04:55:58.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Ebola outbreak on track to be deadliest ever, WHO chief says",
-        "link": "https://www.bbc.co.uk/news/articles/cgk4pex4mn8o?at_medium=RSS&at_campaign=rss",
-        "summary": "The outbreak, declared on 15 May, has caused more than 2,000 deaths, with thousands more reported cases.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/45e0/live/2fd6c2d0-96a5-11f1-b2ab-0dd01740f9f6.jpg",
-        "publishedAt": "2026-08-13T01:31:21.000Z",
-        "source": "BBC"
       }
     ],
     "worldBusiness": [
@@ -344,8 +344,8 @@
         "title": "Harvey Nichols bought by owner of Sports Direct",
         "link": "https://www.bbc.co.uk/news/articles/cd69p89gl6xo?at_medium=RSS&at_campaign=rss",
         "summary": "The department store made famous by sitcom Absolutely Fabulous had warned it would cease trading.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a892/live/8a5b37d0-9714-11f1-bb91-6bb44c42ed47.jpg",
-        "publishedAt": "2026-08-13T13:32:40.000Z",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4fcd/live/2351ff40-9720-11f1-870d-5d08c49babb2.jpg",
+        "publishedAt": "2026-08-13T14:27:43.000Z",
         "source": "BBC"
       },
       {
@@ -353,14 +353,14 @@
         "link": "https://www.bbc.co.uk/news/articles/cx2j1j5ypjdo?at_medium=RSS&at_campaign=rss",
         "summary": "Ofwat has given provisional approval for 13 water companies to charge customers more to pay for investments.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5082/live/9e05e030-9702-11f1-b72c-211ea4e0afc4.jpg",
-        "publishedAt": "2026-08-13T13:09:38.000Z",
+        "publishedAt": "2026-08-13T13:38:30.000Z",
         "source": "BBC"
       },
       {
         "title": "Flock boss admits surveillance firm took too long to act over police abuse",
         "link": "https://www.bbc.co.uk/news/articles/crrv1rjwgl9o?at_medium=RSS&at_campaign=rss",
         "summary": "US police officers have quit after using licence plate-reading cameras to track romantic partners.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8948/live/14cb2100-9715-11f1-bb91-6bb44c42ed47.jpg",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/041d/live/7f342ef0-9720-11f1-bb91-6bb44c42ed47.jpg",
         "publishedAt": "2026-08-13T13:02:24.000Z",
         "source": "BBC"
       },
@@ -383,12 +383,28 @@
     ],
     "worldTech": [
       {
+        "title": "Bumble divides users by ditching its signature 'women-first' chat rule",
+        "link": "https://www.bbc.co.uk/news/articles/cvglzlj81x2o?at_medium=RSS&at_campaign=rss",
+        "summary": "The dating app's boss says the move is in response to a successful trial and a change in what users want.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e2c2/live/34e5f670-972b-11f1-808c-532494fd22c7.jpg",
+        "publishedAt": "2026-08-13T14:09:05.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "Flock boss admits surveillance firm took too long to act over police abuse",
         "link": "https://www.bbc.co.uk/news/articles/crrv1rjwgl9o?at_medium=RSS&at_campaign=rss",
         "summary": "US police officers have quit after using licence plate-reading cameras to track romantic partners.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8948/live/14cb2100-9715-11f1-bb91-6bb44c42ed47.jpg",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/041d/live/7f342ef0-9720-11f1-bb91-6bb44c42ed47.jpg",
         "publishedAt": "2026-08-13T13:02:24.000Z",
         "source": "BBC"
+      },
+      {
+        "title": "Flock rolls out new police auditing and accountability controls following surveillance concerns",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kSUNlZWR1UC1HZk1rZUY5SGNBb01ZYVg0NEt4MXFILU10bkJwRlViWHZ4VlVWQjJXVEoxcF8tZ29XNE5jT0sxanNxYlNRZDhIU0ZFRnJ1T1RzQ1dyXzMtWVNqWUIwSHZZajJCeThCaTF6OFROTWszU2NoZWJTRUE?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-08-13T13:00:29.000Z",
+        "source": "CNN"
       },
       {
         "title": "Twitch users outraged as Amazon uses their content to train AI in opt-out feature",
@@ -405,74 +421,82 @@
         "image": "",
         "publishedAt": "2026-08-13T09:00:29.000Z",
         "source": "CNN"
-      },
-      {
-        "title": "Amazon is using Twitch to train generative AI",
-        "link": "https://www.bbc.co.uk/news/videos/cwyq22g0ylxo?at_medium=RSS&at_campaign=rss",
-        "summary": "The streaming platform's users criticised the move to allow the use of channel content for AI training.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f293/live/a0e50b20-96dd-11f1-870d-5d08c49babb2.jpg",
-        "publishedAt": "2026-08-13T07:04:31.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Why Japanese firms are being so slow to use AI",
-        "link": "https://www.bbc.co.uk/news/articles/cwymw4434v7o?at_medium=RSS&at_campaign=rss",
-        "summary": "Japanese risk aversion and conservatism blamed for slow AI take-up by the country's business sector.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6ede/live/9f7531a0-8f41-11f1-8c3d-6f698d2b4d1e.jpg",
-        "publishedAt": "2026-08-12T23:00:47.000Z",
-        "source": "BBC"
       }
     ],
     "domestic": [
       {
-        "title": "中国规划到2030年有效缓解生物多样性丧失趋势",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-13/10677255.shtml",
-        "summary": "中新社北京8月13日电 (记者 阮煜琳)中国生态环境部等六部门近日联合印发《生态保护“十五五”规划》。生态环境部自然生态保护司有关负责人13日解读该文件时对记者表示，《规划》提出，到2030年，生态空间格局持续优化，生态质量稳步改善，生物多样性丧失趋势得到有效缓解。",
+        "title": "宁夏积极打造中国第二个省级全域旅游示范区",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-13/10677310.shtml",
+        "summary": "中新社银川8月13日电 (记者 杨迪)记者13日从宁夏回族自治区政府新闻办新闻发布会上获悉，中国第二个省级全域旅游示范区——宁夏正推动五个下辖地级市特色发展，构建覆盖全域的康养旅居产品矩阵。",
         "image": "",
-        "publishedAt": "2026-08-13T13:31:32.000Z",
+        "publishedAt": "2026-08-13T14:11:57.000Z",
         "source": "中新网"
       },
       {
-        "title": "从“生态包袱”到“绿色资产” 山东地质科技上演“七十二变”",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-13/10677274.shtml",
-        "summary": "中新网济宁8月13日电 题：从“生态包袱”到“绿色资产” 山东地质科技上演“七十二变”",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260813/c6d6a5de-d264-400e-b611-90dcde599a65_zsite.jpg",
-        "publishedAt": "2026-08-13T13:30:06.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "从创新赛事到发展沃土：常州与台湾青年的“双向奔赴”",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-13/10677254.shtml",
-        "summary": "中新网常州8月13日电 (记者 唐娟)8月13日，正在江苏常州举行的2026海峡两岸青年创新创业大赛决赛现场气氛热烈。这项以“青春向新程两岸共未来”为主题的大赛，今年共吸引了209个项目报名，最终150个项目脱颖而出进入决赛。自2021年首届赛事落地常州以来，该项大赛已成为两岸青年互学互鉴、创新创业...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260813/24db79d6-ebf6-4164-b9c7-0f8c3ed8ae5e_zsite.jpeg",
-        "publishedAt": "2026-08-13T13:27:42.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "镜观·回响｜九曲叠翠 黄河焕新",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-13/10677251.shtml",
-        "summary": "九曲黄河万里沙。黄河是全世界泥沙含量最高、治理难度最大、水害严重的河流之一，素来“多淤、多决、多徙”。千百年来，黄河安澜是中华儿女的祈盼。",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/08/13/d86e20b8748e411fa9b18eba7f02e1fe.jpeg",
-        "publishedAt": "2026-08-13T12:44:05.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "此行间·总书记心系国家公园：给子孙后代留下珍贵的自然资产",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-13/10677250.shtml",
-        "summary": "今年是第一批国家公园正式设立5周年。中国实行国家公园体制，目的之一就是给子孙后代留下珍贵的自然资产。习近平总书记始终高度重视并亲自谋划推动国家公园建设工作。在第四个全国生态日之际，重温总书记对国家公园建设和生态环境保护的殷切嘱托。",
+        "title": "华北暴雨综合科学试验完成台风“白海豚”敏感区加密观测",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-13/10677309.shtml",
+        "summary": "中新社石家庄8月13日电 (赵丹媚 张延宾)据河北省气象局消息，8月13日，为期4天的华北暴雨综合科学试验完成台风“白海豚”敏感区加密观测。",
         "image": "",
-        "publishedAt": "2026-08-13T12:34:10.000Z",
+        "publishedAt": "2026-08-13T14:09:11.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "追忆“两弹一星”元勋王希季：转行拓荒，铺就中国航天路",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-13/10677303.shtml",
+        "summary": "中新社北京8月13日电 题：追忆“两弹一星”元勋王希季：转行拓荒，铺就中国航天路",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260813/485999bc-3115-44b2-a46c-5309d8958576_zsite.jpeg",
+        "publishedAt": "2026-08-13T13:58:04.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "两岸传媒学子采风河北长城文化和冬奥遗产",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-13/10677300.shtml",
+        "summary": "中新社唐山8月13日电 (陈林 李鹏 安麒静)为期11天的“青春相约·逐梦燕赵”——第八届两岸未来媒体人河北长城文化采风暨台湾传媒学子河北实习营活动13日落幕，来自冀台两地10余所高校新闻、影视、视觉传达类专业的近40名大学生在唐山作别，各自踏上返程。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260813/70ac93b6-80bd-449a-8057-366c9b67d20b_zsite.jpg",
+        "publishedAt": "2026-08-13T13:53:25.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "中国科学家揭示深渊看不见的微生物“绿洲”",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-13/10677288.shtml",
+        "summary": "中新社上海8月13日电 (记者 许婧)上海交通大学13日对外公布，由该校与中国科学院深海科学与工程研究所等联合发起，上海交大肖湘教授作为召集科学家的“溟渊计划”(马里亚纳海沟环境与生态研究计划)二期成果，近日以专辑形式发表于国际权威期刊《细胞·宿主与微生物》，获期刊编辑特别推荐，称“揭示了海洋最深处...",
+        "image": "",
+        "publishedAt": "2026-08-13T13:40:13.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "UK defends seizing shadow fleet tanker after Putin threat",
-        "link": "https://www.bbc.co.uk/news/articles/cn0npn249qvo?at_medium=RSS&at_campaign=rss",
-        "summary": "The UK government says it is \"disrupting and deterring shadow fleet vessels\" in accordance with the law.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1476/live/59a2ade0-96fa-11f1-bb0e-6d40312a1485.png",
-        "publishedAt": "2026-08-13T11:05:03.000Z",
+        "title": "Conditions on US aircraft carrier at sea for more than 250 days raise alarms",
+        "link": "https://www.bbc.co.uk/news/articles/cyvl2d5j52lo?at_medium=RSS&at_campaign=rss",
+        "summary": "There are reports of food shortages, broken plumbing and other potential harms aboard the USS Abraham Lincoln, which has been at sea since November.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/20ef/live/60e60690-9733-11f1-bdbf-1b7b2a4a87a1.jpg",
+        "publishedAt": "2026-08-13T17:01:50.000Z",
         "source": "BBC"
+      },
+      {
+        "title": "Palestinians told to leave homes in village where Israeli settlers besieged houses",
+        "link": "https://www.bbc.co.uk/news/articles/cj4kppdk2qwo?at_medium=RSS&at_campaign=rss",
+        "summary": "The mayor of Qusra says Israeli troops have been telling families to leave their houses, using some as barracks.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4905/live/113cee30-9736-11f1-870d-5d08c49babb2.jpg",
+        "publishedAt": "2026-08-13T16:20:41.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Person fined after using foghorn to wake sleeping polar bear",
+        "link": "https://www.bbc.co.uk/news/articles/cx2k1r97vx7o?at_medium=RSS&at_campaign=rss",
+        "summary": "Under local regulations in the region, \"it is forbidden to needlessly disturb, attract or pursue a polar bear\".",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/69e0/live/7dbeac50-9728-11f1-808c-532494fd22c7.jpg",
+        "publishedAt": "2026-08-13T15:30:57.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Night moves: Riding the world’s greatest sleeper trains",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjelhLOGR0X3JFZjFwanBvbHVRNGlqU1F1Z0VlelRja1NYd2IwNnZpcHVfeVE2RUpVU1NDRnIzQU9udkpvZ2l6aHdFU3dPUnppemFQdThweWJ0Qk5Ka3VF?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-08-13T14:00:29.000Z",
+        "source": "CNN"
       },
       {
         "title": "Putin pays his first visit to Pacific island chain claimed by Japan, drawing a protest from Tokyo",
@@ -481,30 +505,6 @@
         "image": "",
         "publishedAt": "2026-08-13T09:19:58.000Z",
         "source": "CNN"
-      },
-      {
-        "title": "More troops to be sent to West Bank village besieged by Israeli settlers",
-        "link": "https://www.bbc.co.uk/news/articles/cj4kppdk2qwo?at_medium=RSS&at_campaign=rss",
-        "summary": "Two Palestinian families in the village of Qusra say they have been trapped in their homes, with water and power cut off, since Sunday.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d7e6/live/6760bdb0-96e0-11f1-9b96-77d3dc534330.jpg",
-        "publishedAt": "2026-08-13T08:12:53.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Putin can no longer claim victory in Ukraine, Nobel Peace Prize winner tells BBC",
-        "link": "https://www.bbc.co.uk/news/articles/c74grmy2v7ko?at_medium=RSS&at_campaign=rss",
-        "summary": "In an exclusive interview with the BBC’s Steve Rosenberg, Dmitry Muratov says the Kremlin leader can only \"destroy Ukraine, not conquer it\", with the...",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d25/live/1d504a60-964f-11f1-b2ab-0dd01740f9f6.jpg",
-        "publishedAt": "2026-08-13T04:55:58.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Ebola outbreak on track to be deadliest ever, WHO chief says",
-        "link": "https://www.bbc.co.uk/news/articles/cgk4pex4mn8o?at_medium=RSS&at_campaign=rss",
-        "summary": "The outbreak, declared on 15 May, has caused more than 2,000 deaths, with thousands more reported cases.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/45e0/live/2fd6c2d0-96a5-11f1-b2ab-0dd01740f9f6.jpg",
-        "publishedAt": "2026-08-13T01:31:21.000Z",
-        "source": "BBC"
       }
     ],
     "nba": []
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-08-13",
+    "rotationLabel": "Curated Rotation · 2026-08-14",
     "sections": [
       {
         "id": "data-storage",
@@ -522,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-2",
-            "sectionId": "data-storage",
-            "title": "Bigtable: A Distributed Storage System for Structured Data",
-            "authors": [
-              "Fay Chang",
-              "Jeffrey Dean",
-              "Sanjay Ghemawat",
-              "Wilson C. Hsieh"
-            ],
-            "venue": "OSDI",
-            "year": 2006,
-            "quality": "顶会",
-            "categories": [
-              "distributed systems",
-              "database"
-            ],
-            "link": "https://research.google/pubs/pub27898/",
-            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-3",
             "sectionId": "data-storage",
@@ -562,7 +541,7 @@
             ],
             "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
             "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-4",
@@ -584,6 +563,26 @@
             "link": "https://research.google/pubs/pub36632/",
             "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-5",
+            "sectionId": "data-storage",
+            "title": "The FAISS Library",
+            "authors": [
+              "Jeff Johnson",
+              "Matthijs Douze",
+              "Herve Jegou"
+            ],
+            "venue": "IEEE T-BD",
+            "year": 2021,
+            "quality": "高影响力",
+            "categories": [
+              "vector search",
+              "ANN"
+            ],
+            "link": "https://arxiv.org/abs/2401.08281",
+            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -593,27 +592,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-3",
-            "sectionId": "computer-vision",
-            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
-            "authors": [
-              "Alexey Dosovitskiy",
-              "Lucas Beyer",
-              "Alexander Kolesnikov",
-              "Dirk Weissenborn"
-            ],
-            "venue": "ICLR",
-            "year": 2021,
-            "quality": "顶会",
-            "categories": [
-              "vision transformer",
-              "classification"
-            ],
-            "link": "https://arxiv.org/abs/2010.11929",
-            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-4",
             "sectionId": "computer-vision",
@@ -633,7 +611,7 @@
             ],
             "link": "https://arxiv.org/abs/2103.00020",
             "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-5",
@@ -655,6 +633,27 @@
             "link": "https://arxiv.org/abs/2304.02643",
             "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-6",
+            "sectionId": "computer-vision",
+            "title": "DINOv2: Learning Robust Visual Features without Supervision",
+            "authors": [
+              "Maxime Oquab",
+              "Timothée Darcet",
+              "Théo Moutakanni",
+              "Huy V. Vo"
+            ],
+            "venue": "arXiv / Meta",
+            "year": 2023,
+            "quality": "高影响力",
+            "categories": [
+              "self-supervised",
+              "representation"
+            ],
+            "link": "https://arxiv.org/abs/2304.07193",
+            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -664,27 +663,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-4",
-            "sectionId": "llm-memory",
-            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
-            "authors": [
-              "Akari Asai",
-              "Zequn Zhang",
-              "Avirup Sil",
-              "Hannaneh Hajishirzi"
-            ],
-            "venue": "ICLR",
-            "year": 2024,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "self-reflection"
-            ],
-            "link": "https://arxiv.org/abs/2310.11511",
-            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-5",
             "sectionId": "llm-memory",
@@ -704,7 +682,7 @@
             ],
             "link": "https://arxiv.org/abs/2306.07174",
             "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-6",
@@ -726,6 +704,27 @@
             "link": "https://arxiv.org/abs/2409.05591",
             "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-1",
+            "sectionId": "llm-memory",
+            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+            "authors": [
+              "Patrick Lewis",
+              "Ethan Perez",
+              "Aleksandra Piktus",
+              "Fabio Petroni"
+            ],
+            "venue": "NeurIPS",
+            "year": 2020,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "retrieval"
+            ],
+            "link": "https://arxiv.org/abs/2005.11401",
+            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -735,27 +734,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-5",
-            "sectionId": "agents",
-            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
-            "authors": [
-              "Qingyun Wu",
-              "Gagan Bansal",
-              "Jiaqi Zhang",
-              "Yiran Wu"
-            ],
-            "venue": "COLM",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "multi-agent",
-              "framework"
-            ],
-            "link": "https://arxiv.org/abs/2308.08155",
-            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-6",
             "sectionId": "agents",
@@ -775,7 +753,7 @@
             ],
             "link": "https://arxiv.org/abs/2405.15793",
             "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-1",
@@ -797,6 +775,27 @@
             ],
             "link": "https://arxiv.org/abs/2210.03629",
             "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-2",
+            "sectionId": "agents",
+            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+            "authors": [
+              "Timo Schick",
+              "Jane Dwivedi-Yu",
+              "Roberta Dessì",
+              "Ari Holtzman"
+            ],
+            "venue": "NeurIPS",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "tool use",
+              "agent"
+            ],
+            "link": "https://arxiv.org/abs/2302.04761",
+            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
             "trackLabel": "轮换精选"
           }
         ]
