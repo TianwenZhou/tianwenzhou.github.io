@@ -1,29 +1,21 @@
 {
-  "generatedAt": "2026-08-16T12:56:35.832Z",
+  "generatedAt": "2026-08-16T16:37:04.743Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 24,
+      "temperature": 22,
       "weatherCode": 0,
-      "windSpeed": 1
+      "windSpeed": 2
     },
     "today": {
-      "date": "2026-08-16",
-      "weatherCode": 55,
-      "description": "中雨",
-      "max": 28,
-      "min": 23,
-      "precipitationProbability": 76
+      "date": "2026-08-17",
+      "weatherCode": 3,
+      "description": "阴天",
+      "max": 31,
+      "min": 20,
+      "precipitationProbability": 2
     },
     "forecast": [
-      {
-        "date": "2026-08-16",
-        "weatherCode": 55,
-        "description": "中雨",
-        "max": 28,
-        "min": 23,
-        "precipitationProbability": 76
-      },
       {
         "date": "2026-08-17",
         "weatherCode": 3,
@@ -38,7 +30,7 @@
         "description": "小雨",
         "max": 31,
         "min": 23,
-        "precipitationProbability": 73
+        "precipitationProbability": 61
       },
       {
         "date": "2026-08-19",
@@ -46,7 +38,7 @@
         "description": "局部多云",
         "max": 33,
         "min": 22,
-        "precipitationProbability": 20
+        "precipitationProbability": 6
       },
       {
         "date": "2026-08-20",
@@ -54,33 +46,50 @@
         "description": "毛毛雨",
         "max": 34,
         "min": 24,
-        "precipitationProbability": 31
+        "precipitationProbability": 41
+      },
+      {
+        "date": "2026-08-21",
+        "weatherCode": 96,
+        "description": "天气更新中",
+        "max": 33,
+        "min": 23,
+        "precipitationProbability": 63
       }
     ]
   },
   "classicQuote": {
-    "id": "analects-learning",
-    "text": "学而不思则罔，思而不学则殆。",
-    "source": "《论语》",
-    "author": "孔子",
-    "note": "提醒自己既要输入，也要沉淀，不要只忙不想。"
+    "id": "taoteching-accumulate",
+    "text": "合抱之木，生于毫末；九层之台，起于累土。",
+    "source": "《道德经》",
+    "author": "老子",
+    "note": "再大的目标，也要拆成今天能推进的一小步。"
   },
   "bookExcerpt": {
-    "id": "fortress-besieged-night",
-    "text": "夜仿佛纸浸了油，变成半透明体；它给太阳拥抱住了，分不出身来，也许是给太阳溶了，所以夕照晚霞隐褪后的夜色也带着酡红。",
-    "book": "《围城》",
-    "author": "钱钟书"
+    "id": "camel-xiangzi-sky",
+    "text": "天是越来越晴朗了，一轮火一样的太阳悬在空中，街上的一切都像在明晃晃地发着白光。",
+    "book": "《骆驼祥子》",
+    "author": "老舍"
   },
   "featuredPlace": {
-    "id": "202608151600",
-    "title": "戈尔韦郡罗斯埃里利方济各会修道院遗址，康诺特省，爱尔兰",
+    "id": "202608161600",
+    "title": "海葵中的三条眼斑双锯鱼，卡比劳岛，薄荷省，菲律宾",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "天鹅开启传奇之处",
-    "image": "https://www.bing.com/th?id=OHR.RossErrillyRuins_ZH-CN9986322001_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E7%88%B1%E5%B0%94%E5%85%B0%E7%BD%97%E6%96%AF%C2%B7%E5%9F%83%E9%87%8C%E5%88%A9%E4%BF%AE%E9%81%93%E9%99%A2&form=hpcapt&mkt=zh-cn"
+    "summary": "珊瑚礁上的黄金地段",
+    "image": "https://www.bing.com/th?id=OHR.CabilaoClowns_ZH-CN0147033898_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E7%9C%BC%E6%96%91%E5%8F%8C%E9%94%AF%E9%B1%BC&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202608161600",
+      "title": "海葵中的三条眼斑双锯鱼，卡比劳岛，薄荷省，菲律宾",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "珊瑚礁上的黄金地段",
+      "image": "https://www.bing.com/th?id=OHR.CabilaoClowns_ZH-CN0147033898_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E7%9C%BC%E6%96%91%E5%8F%8C%E9%94%AF%E9%B1%BC&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202608151600",
       "title": "戈尔韦郡罗斯埃里利方济各会修道院遗址，康诺特省，爱尔兰",
@@ -143,35 +152,42 @@
       "summary": "两片沙漠交汇之地",
       "image": "https://www.bing.com/th?id=OHR.SandPath_ZH-CN7820825668_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E7%BA%A6%E4%B9%A6%E4%BA%9A%E6%A0%91%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202608081600",
-      "title": "让-马里·吉巴乌文化中心，新喀里多尼亚",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "身份认同的建筑表达",
-      "image": "https://www.bing.com/th?id=OHR.JMTjibaou_ZH-CN6992670356_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E5%9C%9F%E8%91%97%E4%BA%BA%E6%B0%91%E5%9B%BD%E9%99%85%E6%97%A5&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-08-16",
-    "dateLabel": "8月16日",
+    "dateKey": "2026-08-17",
+    "dateLabel": "8月17日",
     "items": [
       {
-        "year": "2021",
-        "text": "马来西亚第八任首相慕尤丁在电视直播宣布，由于他失去多数支持，从即日起他不再是首相，而慕尤丁也被时任国家元首苏丹阿都拉委任为过渡首相（看守首相）。",
-        "link": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4"
+        "year": "2019",
+        "text": "喀布爾西部發生自殺式炸彈襲擊，造成至少63人死亡，182人受傷。",
+        "link": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4"
       },
       {
-        "year": "2012",
-        "text": "有香港人高舉中華民國以及中華人民共和國國旗強登釣魚台宣示主權，但隨後遭日本拘留，中華人民共和國隨即介入了解，中華民國則呼籲日本無條件釋放。",
-        "link": "https://zh.wikipedia.org/wiki/2012%E5%B9%B4"
+        "year": "2009",
+        "text": "俄羅斯西伯利亞薩彥-舒申斯克水電站發生嚴重事故，造成75人死亡和大範圍停電。",
+        "link": "https://zh.wikipedia.org/wiki/2009%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
+      {
+        "title": "国际锐评丨中国为什么值得“反复探索”？",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-16/10678781.shtml",
+        "summary": "“这是一个令人惊叹的国家。”英国游客乌尔维最近开启第三次中国之旅，去了西安、拉萨等地，计划明年重走丝绸之路。荷兰游客巴哈原计划来华旅行几周，结果待了半年；西班牙游客佩雷斯一家回国后意犹未尽，又开启了“二刷”。而美国特斯拉公司首席执行官马斯克日前在社交平台上点赞中国并“强烈推荐大家去看看”，更是点燃外...",
+        "image": "",
+        "publishedAt": "2026-08-16T13:05:05.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "西藏青藏高原作物种质资源中期库保存青稞资源10000余份",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-16/10678771.shtml",
+        "summary": "中新网拉萨8月16日电 (记者 赵朗)记者16日从青稞产业科技成果观摩研讨会上获悉，西藏青藏高原作物种质资源中期库，保存青稞资源10000余份。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260816/79fbe204-44be-46fe-a36e-1d7ac36a9133_zsite.jpg",
+        "publishedAt": "2026-08-16T13:02:02.000Z",
+        "source": "中新网"
+      },
       {
         "title": "活力中国调研行丨从造梦到造物！博士生用新材料造出消防“铠甲”",
         "link": "https://www.chinanews.com.cn/gn/2026/08-16/10678765.shtml",
@@ -195,25 +211,33 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260816/de1c333c-a163-46f3-9b4a-ceb5f2b1efc5_zsite.jpeg",
         "publishedAt": "2026-08-16T12:34:16.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "一见·山水间的三重对话",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-16/10678741.shtml",
-        "summary": "山清水秀，物阜民丰。",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/08/16/3a8501fa7ea04bb8a1569336d32a1d2b.png",
-        "publishedAt": "2026-08-16T12:17:19.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "学习新语·铸魂强党｜切实担负起管党治党政治责任",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-16/10678740.shtml",
-        "summary": "习近平党建思想，是习近平新时代中国特色社会主义思想的重要组成部分，是加强新时代党的建设的根本遵循。要深刻理解和把握习近平党建思想的内涵要义，必须深刻领会“十四个坚持”。",
-        "image": "https://i2.chinanews.com/simg/hnhd/2026/08/16/0/4563619976521993596.jpg",
-        "publishedAt": "2026-08-16T12:14:05.000Z",
-        "source": "中新网"
       }
     ],
     "chinaSociety": [
+      {
+        "title": "低价团曝出“转卖游客、赌团”内幕 总台曝光暑期游乱象",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-16/10678793.shtml",
+        "summary": "财经调查丨低价团曝出“转卖游客、赌团”内幕 总台曝光暑期游乱象",
+        "image": "",
+        "publishedAt": "2026-08-16T14:09:29.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "山水间的清凉，海河边的美景——老外感叹津门魅力",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-16/10678779.shtml",
+        "summary": "新华社天津8月16日电（记者白佳丽、马博文、包庆龄）最近，“China Cool”（中国又酷又凉）成为外国游客的热门选择。位于渤海湾畔的滨海城市天津，正以丰富生态资源、多元文化场景和不断升级的入境服务，吸引着越来越多的外国游客在火热余暑中体验其独特魅力。",
+        "image": "",
+        "publishedAt": "2026-08-16T13:03:57.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "【好评中国】东湖评论丨防灾前置，方能从容应对",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-16/10678778.shtml",
+        "summary": "8月16日出版的第16期《求是》杂志发表习近平总书记的重要文章《提高防灾减灾救灾能力》。文章指出，要提升大灾巨灾应对处置能力。树牢底线思维、极限思维，深入研判大灾巨灾风险，不断完善应急预案，把困难和挑战估计得更充分一些，把工作举措考虑得更周全一些。近期，受极端天气影响，陕西、甘肃、四川、黑龙江、湖北...",
+        "image": "",
+        "publishedAt": "2026-08-16T13:00:08.000Z",
+        "source": "中新网"
+      },
       {
         "title": "长江十年行|“工业岸线”变身“生态画廊” 十里江湾见证长江芜湖段绿色重生",
         "link": "https://www.chinanews.com.cn/sh/2026/08-16/10678769.shtml",
@@ -229,75 +253,67 @@
         "image": "https://i2.chinanews.com/simg/hnhd/2026/08/16/89/15462185387745774285.jpg",
         "publishedAt": "2026-08-16T12:48:13.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "“没多想就跳下去了” 辅警和外卖员暴雨中救出四人",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-16/10678764.shtml",
-        "summary": "在浙江湖州长兴县，8月13日的暴雨导致城区部分低洼路段出现严重积水。在一处铁路涵洞内，一辆途经此处的小轿车被淹，车内人员被困，紧急时刻，众人合力展开施救。",
-        "image": "https://i2.chinanews.com/simg/hnhd/2026/08/16/2/10824303291667276694.jpg",
-        "publishedAt": "2026-08-16T12:44:45.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "立秋已到，各地气温到底有哪些变化？一文了解→",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-16/10678757.shtml",
-        "summary": "央视网消息：当前已进入立秋节气，北方干冷空气日渐活跃，人们能明显察觉到风吹时体感的变化，尤其是早晚时段，盛夏湿热蒸腾的暑气缓缓收敛。但不少华南地区的公众觉得立秋后反而更热了。各地气温到底有哪些变化？我们来了解一下。",
-        "image": "",
-        "publishedAt": "2026-08-16T12:38:35.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "四川云南西藏等地部分地区发生地质灾害的气象风险较高",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-16/10678693.shtml",
-        "summary": "中新网8月16日电 据中央气象台网站消息，自然资源部与中国气象局8月16日18时联合发布黄色地质灾害气象风险预警：预计，8月16日20时至17日20时，四川中北部、云南西部、西藏东南部等地部分地区发生地质灾害的气象风险较高(黄色预警)。各级政府及有关部门按照应急预案做好地质灾害防御工作。请社会公众及...",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/08/16/b778e02eeece47db852b9336290b85c1.jpg",
-        "publishedAt": "2026-08-16T12:32:08.000Z",
-        "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "不断攀升！多组数据透视中国出口含“新”量含“绿”量",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-16/10678761.shtml",
-        "summary": "海关总署数据显示，7月份，全国货物贸易进出口总值4.66万亿元，其中，高技术产品出口增长超五成。面对全球数字化、绿色化发展趋势，中国人工智能、绿色低碳等产业出口动力强劲，出口含“新”量含“绿”量不断攀升。",
-        "image": "https://i2.chinanews.com/simg/hnhd/2026/08/16/59/9207313519862719827.jpg",
-        "publishedAt": "2026-08-16T12:41:09.000Z",
+        "title": "一店卖全球，跨境电商推动中国制造加速出海",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-16/10678783.shtml",
+        "summary": "3年时间，年销售额从400多万美元增长到6000多万美元，海外市场从北美拓展到欧洲和日本——这是鑫帕特娜丝（青岛）家居饰品有限公司通过单家跨境电商平台出海交出的成绩单。",
+        "image": "",
+        "publishedAt": "2026-08-16T13:07:03.000Z",
         "source": "中新网"
       },
       {
-        "title": "山东—新疆产业合作对接活动走进新疆兵团第十二师",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-16/10678751.shtml",
-        "summary": "中新网乌鲁木齐8月16日电 (记者 戚亚平)16日，“鲁兵携手·产业共兴”山东—新疆产业合作对接活动(新疆生产建设兵团第十二师)在乌鲁木齐市举行。活动邀请两地80余家企业参与，涉及农业机械及装备、食品、消费品、生物科技等领域；同时安排了产业合作对接推介、实地对接等环节，力争达成实质性合作。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260816/3c652d6a-a884-4a84-b830-2b822c9d404e_zsite.jpg",
-        "publishedAt": "2026-08-16T12:35:10.000Z",
+        "title": "（活力中国调研行）湖南湘西“挤满”外国人",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-16/10678773.shtml",
+        "summary": "中新社湖南湘西8月16日电 题：湖南湘西“挤满”外国人",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260816/3ec5f97c-179b-478d-b04f-27f43ff15d70_zsite.jpg",
+        "publishedAt": "2026-08-16T13:04:33.000Z",
         "source": "中新网"
       },
       {
-        "title": "“我是廊坊推荐官”走进8大领域 解锁产业发展新动能",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-16/10678749.shtml",
-        "summary": "中新网廊坊8月16日电 8月14日至15日，由中共廊坊市委网信办组织开展的“我是廊坊推荐官”之行在河北廊坊举行。活动聚焦新材料、空港装备、智慧康养、数字档案、航空实训、柔性显示、高端医疗、文化科教八大领域，系统记录并展示廊坊现代化产业体系建设的阶段性成果。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260816/6f66bcab-bc3b-4cc7-aff0-d2a37a1c0110_zsite.jpg",
-        "publishedAt": "2026-08-16T12:33:42.000Z",
+        "title": "北斗时空安全产业平台落地长沙 共建共享推动特色产业集群建设",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-16/10678775.shtml",
+        "summary": "中新网长沙8月16日电(宋倩)北斗时空安全试验基地共建启动暨产业平台建设发布会16日在长沙举行，相关专家学者、企业代表等300余人齐聚，聚焦时空安全产业，共探共建共享产业生态。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260816/07987047-ff2a-415d-8d20-8f85d3c24d34_zsite.jpg",
+        "publishedAt": "2026-08-16T13:02:40.000Z",
         "source": "中新网"
       },
       {
-        "title": "（走进中国乡村）“吃茶去”品出武夷山星村镇的茶旅共富图景",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-16/10678743.shtml",
-        "summary": "中新社福建武夷山8月16日电 题：“吃茶去”品出武夷山星村镇的茶旅共富图景",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260816/b7d8c06a-5ec3-4d1f-b163-2d6073ca710b_zsite.jpg",
-        "publishedAt": "2026-08-16T12:23:40.000Z",
+        "title": "好评中国丨2291万入境客的账单：老外们的“Chinamaxxing”都max了些啥？",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-16/10678777.shtml",
+        "summary": "2026年，“China Travel”从社交平台的热词变成海关入境章上的真实数据。上半年2291.4万人次外国人入境，同比增长20.4%，免签入境占比高达77.7%。",
+        "image": "https://i2.chinanews.com/simg/hnhd/2026/08/16/69/17888497614802890817.jpg",
+        "publishedAt": "2026-08-16T13:01:44.000Z",
         "source": "中新网"
       },
       {
-        "title": "内蒙古卓资县举办熏鸡品牌推介会 年销量突破300万只",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-16/10678713.shtml",
-        "summary": "中新网乌兰察布8月16日电 (记者 张林虎)16日，“卓资熏鸡香·四季好风光”品牌推介会暨全国美食主播溯源直播带货活动在内蒙古自治区乌兰察布市卓资县举行。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260816/8674e894-df79-47fc-afa8-9a5a36751158_zsite.jpg",
-        "publishedAt": "2026-08-16T12:01:47.000Z",
+        "title": "学者：AI革命的下半场将是技术对个人赋能",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-16/10678759.shtml",
+        "summary": "中新网上海8月16日电 (记者 陈静)15日正在举行的2026上海书展上，《微弱烛光：PA时代与人类沉浮》新书发布会举行。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260816/dc772536-9430-4e3d-9994-91627646cb38_zsite.jpg",
+        "publishedAt": "2026-08-16T13:00:32.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
+      {
+        "title": "Two dead and evacuation under way as fires break out on Greek island",
+        "link": "https://www.bbc.co.uk/news/articles/c87nnwlpe5no?at_medium=RSS&at_campaign=rss",
+        "summary": "Nearly 200 firefighters are trying to keep the two fires on Salamina apart, Greek media report.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2bdc/live/0a2927a0-9987-11f1-a4eb-59b79ff5ff4f.jpg",
+        "publishedAt": "2026-08-16T16:14:26.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Russia says at least seven killed in largest Ukrainian attack of 2026",
+        "link": "https://www.bbc.co.uk/news/articles/c1411pgje8xo?at_medium=RSS&at_campaign=rss",
+        "summary": "Moscow also launched deadly strikes against Ukraine overnight, sparking fires across the capital Kyiv.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2f78/live/bd896330-997f-11f1-a7ab-8b30adf0800a.jpg",
+        "publishedAt": "2026-08-16T15:50:12.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Hurricane Lala sparks flash floods in Hawaii as strong winds and rain persist",
         "link": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss",
@@ -315,31 +331,23 @@
         "source": "BBC"
       },
       {
-        "title": "Europe's tallest Virgin Mary statue unveiled in rural Poland",
-        "link": "https://www.bbc.co.uk/news/articles/cn5nnlq2pwpo?at_medium=RSS&at_campaign=rss",
-        "summary": "The 55.6-metre (182ft) concrete figure is head-and-shoulders above Rio de Jaineiro's Christ the Redeemer.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/17b6/live/72212bd0-9961-11f1-a7ab-8b30adf0800a.jpg",
-        "publishedAt": "2026-08-16T11:35:25.000Z",
-        "source": "BBC"
-      },
-      {
         "title": "Twelve killed as Polish bus veers off Hungarian motorway",
         "link": "https://www.bbc.co.uk/news/articles/ckg4424zd7go?at_medium=RSS&at_campaign=rss",
         "summary": "Dozens more are seriously injured after the tourist bus overturned in the early hours of Sunday morning.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2d06/live/d689cf40-995d-11f1-9712-2936f8c80214.jpg",
         "publishedAt": "2026-08-16T10:53:50.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Five killed as Russia launches fresh aerial attacks across Ukraine",
-        "link": "https://www.bbc.co.uk/news/articles/c1411pgje8xo?at_medium=RSS&at_campaign=rss",
-        "summary": "Ukrainian President Volodymyr Zelensky accuses Russia of targeting civilian infrastructure, while Moscow reports that a warehouse was hit.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1c54/live/e957d010-9947-11f1-b2ab-0dd01740f9f6.jpg",
-        "publishedAt": "2026-08-16T10:52:08.000Z",
-        "source": "BBC"
       }
     ],
     "worldBusiness": [
+      {
+        "title": "Changing pubs into homes to be made harder under new rules",
+        "link": "https://www.bbc.co.uk/news/articles/clyllg1v0kdo?at_medium=RSS&at_campaign=rss",
+        "summary": "The rules will come into force on Monday along with other changes to planning policy.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ff85/live/bb0fc5c0-9981-11f1-a4eb-59b79ff5ff4f.jpg",
+        "publishedAt": "2026-08-16T15:04:13.000Z",
+        "source": "BBC"
+      },
       {
         "title": "I survived two years as prime minister in a hit new game - then my cabinet deserted me",
         "link": "https://www.bbc.co.uk/news/articles/cq56pzqy6jvo?at_medium=RSS&at_campaign=rss",
@@ -362,14 +370,6 @@
         "summary": "Single-use grills pose a \"significant risk to the public\" in current drought and heatwave conditions, the government warns.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b53b/live/4aaee280-97eb-11f1-a76b-f1c27c51f3da.jpg",
         "publishedAt": "2026-08-15T03:58:31.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Electric vehicle sales targets could be cut after pressure from car makers",
-        "link": "https://www.bbc.co.uk/news/articles/c1l1yj0zd9no?at_medium=RSS&at_campaign=rss",
-        "summary": "The government says it is considering cutting the new electric car sales target from 80% to 50% by 2030.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ab99/live/07185cc0-97e8-11f1-a76b-f1c27c51f3da.jpg",
-        "publishedAt": "2026-08-14T15:58:21.000Z",
         "source": "BBC"
       },
       {
@@ -425,6 +425,22 @@
     ],
     "domestic": [
       {
+        "title": "国际锐评丨中国为什么值得“反复探索”？",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-16/10678781.shtml",
+        "summary": "“这是一个令人惊叹的国家。”英国游客乌尔维最近开启第三次中国之旅，去了西安、拉萨等地，计划明年重走丝绸之路。荷兰游客巴哈原计划来华旅行几周，结果待了半年；西班牙游客佩雷斯一家回国后意犹未尽，又开启了“二刷”。而美国特斯拉公司首席执行官马斯克日前在社交平台上点赞中国并“强烈推荐大家去看看”，更是点燃外...",
+        "image": "",
+        "publishedAt": "2026-08-16T13:05:05.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "西藏青藏高原作物种质资源中期库保存青稞资源10000余份",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-16/10678771.shtml",
+        "summary": "中新网拉萨8月16日电 (记者 赵朗)记者16日从青稞产业科技成果观摩研讨会上获悉，西藏青藏高原作物种质资源中期库，保存青稞资源10000余份。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260816/79fbe204-44be-46fe-a36e-1d7ac36a9133_zsite.jpg",
+        "publishedAt": "2026-08-16T13:02:02.000Z",
+        "source": "中新网"
+      },
+      {
         "title": "活力中国调研行丨从造梦到造物！博士生用新材料造出消防“铠甲”",
         "link": "https://www.chinanews.com.cn/gn/2026/08-16/10678765.shtml",
         "summary": "今天的《活力中国调研行》，一起走进安徽一个特殊的实验室。这是全国乃至全球首个以人工智能全链条驱动的科研创新实验室。",
@@ -447,25 +463,25 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260816/de1c333c-a163-46f3-9b4a-ceb5f2b1efc5_zsite.jpeg",
         "publishedAt": "2026-08-16T12:34:16.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "一见·山水间的三重对话",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-16/10678741.shtml",
-        "summary": "山清水秀，物阜民丰。",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/08/16/3a8501fa7ea04bb8a1569336d32a1d2b.png",
-        "publishedAt": "2026-08-16T12:17:19.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "学习新语·铸魂强党｜切实担负起管党治党政治责任",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-16/10678740.shtml",
-        "summary": "习近平党建思想，是习近平新时代中国特色社会主义思想的重要组成部分，是加强新时代党的建设的根本遵循。要深刻理解和把握习近平党建思想的内涵要义，必须深刻领会“十四个坚持”。",
-        "image": "https://i2.chinanews.com/simg/hnhd/2026/08/16/0/4563619976521993596.jpg",
-        "publishedAt": "2026-08-16T12:14:05.000Z",
-        "source": "中新网"
       }
     ],
     "international": [
+      {
+        "title": "Two dead and evacuation under way as fires break out on Greek island",
+        "link": "https://www.bbc.co.uk/news/articles/c87nnwlpe5no?at_medium=RSS&at_campaign=rss",
+        "summary": "Nearly 200 firefighters are trying to keep the two fires on Salamina apart, Greek media report.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2bdc/live/0a2927a0-9987-11f1-a4eb-59b79ff5ff4f.jpg",
+        "publishedAt": "2026-08-16T16:14:26.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Russia says at least seven killed in largest Ukrainian attack of 2026",
+        "link": "https://www.bbc.co.uk/news/articles/c1411pgje8xo?at_medium=RSS&at_campaign=rss",
+        "summary": "Moscow also launched deadly strikes against Ukraine overnight, sparking fires across the capital Kyiv.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2f78/live/bd896330-997f-11f1-a7ab-8b30adf0800a.jpg",
+        "publishedAt": "2026-08-16T15:50:12.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Hurricane Lala sparks flash floods in Hawaii as strong winds and rain persist",
         "link": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss",
@@ -483,27 +499,11 @@
         "source": "BBC"
       },
       {
-        "title": "Europe's tallest Virgin Mary statue unveiled in rural Poland",
-        "link": "https://www.bbc.co.uk/news/articles/cn5nnlq2pwpo?at_medium=RSS&at_campaign=rss",
-        "summary": "The 55.6-metre (182ft) concrete figure is head-and-shoulders above Rio de Jaineiro's Christ the Redeemer.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/17b6/live/72212bd0-9961-11f1-a7ab-8b30adf0800a.jpg",
-        "publishedAt": "2026-08-16T11:35:25.000Z",
-        "source": "BBC"
-      },
-      {
         "title": "Twelve killed as Polish bus veers off Hungarian motorway",
         "link": "https://www.bbc.co.uk/news/articles/ckg4424zd7go?at_medium=RSS&at_campaign=rss",
         "summary": "Dozens more are seriously injured after the tourist bus overturned in the early hours of Sunday morning.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2d06/live/d689cf40-995d-11f1-9712-2936f8c80214.jpg",
         "publishedAt": "2026-08-16T10:53:50.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Five killed as Russia launches fresh aerial attacks across Ukraine",
-        "link": "https://www.bbc.co.uk/news/articles/c1411pgje8xo?at_medium=RSS&at_campaign=rss",
-        "summary": "Ukrainian President Volodymyr Zelensky accuses Russia of targeting civilian infrastructure, while Moscow reports that a warehouse was hit.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1c54/live/e957d010-9947-11f1-b2ab-0dd01740f9f6.jpg",
-        "publishedAt": "2026-08-16T10:52:08.000Z",
         "source": "BBC"
       }
     ],
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-08-16",
+    "rotationLabel": "Curated Rotation · 2026-08-17",
     "sections": [
       {
         "id": "data-storage",
@@ -522,26 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-5",
-            "sectionId": "data-storage",
-            "title": "The FAISS Library",
-            "authors": [
-              "Jeff Johnson",
-              "Matthijs Douze",
-              "Herve Jegou"
-            ],
-            "venue": "IEEE T-BD",
-            "year": 2021,
-            "quality": "高影响力",
-            "categories": [
-              "vector search",
-              "ANN"
-            ],
-            "link": "https://arxiv.org/abs/2401.08281",
-            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-6",
             "sectionId": "data-storage",
@@ -561,7 +541,7 @@
             ],
             "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
             "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-1",
@@ -583,6 +563,27 @@
             "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
             "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-2",
+            "sectionId": "data-storage",
+            "title": "Bigtable: A Distributed Storage System for Structured Data",
+            "authors": [
+              "Fay Chang",
+              "Jeffrey Dean",
+              "Sanjay Ghemawat",
+              "Wilson C. Hsieh"
+            ],
+            "venue": "OSDI",
+            "year": 2006,
+            "quality": "顶会",
+            "categories": [
+              "distributed systems",
+              "database"
+            ],
+            "link": "https://research.google/pubs/pub27898/",
+            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -592,27 +593,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-6",
-            "sectionId": "computer-vision",
-            "title": "DINOv2: Learning Robust Visual Features without Supervision",
-            "authors": [
-              "Maxime Oquab",
-              "Timothée Darcet",
-              "Théo Moutakanni",
-              "Huy V. Vo"
-            ],
-            "venue": "arXiv / Meta",
-            "year": 2023,
-            "quality": "高影响力",
-            "categories": [
-              "self-supervised",
-              "representation"
-            ],
-            "link": "https://arxiv.org/abs/2304.07193",
-            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-1",
             "sectionId": "computer-vision",
@@ -632,7 +612,7 @@
             ],
             "link": "https://arxiv.org/abs/1512.03385",
             "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-2",
@@ -654,6 +634,27 @@
             "link": "https://arxiv.org/abs/2005.12872",
             "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-3",
+            "sectionId": "computer-vision",
+            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+            "authors": [
+              "Alexey Dosovitskiy",
+              "Lucas Beyer",
+              "Alexander Kolesnikov",
+              "Dirk Weissenborn"
+            ],
+            "venue": "ICLR",
+            "year": 2021,
+            "quality": "顶会",
+            "categories": [
+              "vision transformer",
+              "classification"
+            ],
+            "link": "https://arxiv.org/abs/2010.11929",
+            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -663,27 +664,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-1",
-            "sectionId": "llm-memory",
-            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
-            "authors": [
-              "Patrick Lewis",
-              "Ethan Perez",
-              "Aleksandra Piktus",
-              "Fabio Petroni"
-            ],
-            "venue": "NeurIPS",
-            "year": 2020,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "retrieval"
-            ],
-            "link": "https://arxiv.org/abs/2005.11401",
-            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-2",
             "sectionId": "llm-memory",
@@ -703,7 +683,7 @@
             ],
             "link": "https://arxiv.org/abs/2203.08913",
             "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-3",
@@ -725,6 +705,27 @@
             "link": "https://arxiv.org/abs/2112.04426",
             "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-4",
+            "sectionId": "llm-memory",
+            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+            "authors": [
+              "Akari Asai",
+              "Zequn Zhang",
+              "Avirup Sil",
+              "Hannaneh Hajishirzi"
+            ],
+            "venue": "ICLR",
+            "year": 2024,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "self-reflection"
+            ],
+            "link": "https://arxiv.org/abs/2310.11511",
+            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -734,27 +735,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-2",
-            "sectionId": "agents",
-            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
-            "authors": [
-              "Timo Schick",
-              "Jane Dwivedi-Yu",
-              "Roberta Dessì",
-              "Ari Holtzman"
-            ],
-            "venue": "NeurIPS",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "tool use",
-              "agent"
-            ],
-            "link": "https://arxiv.org/abs/2302.04761",
-            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-3",
             "sectionId": "agents",
@@ -774,7 +754,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.03442",
             "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-4",
@@ -795,6 +775,27 @@
             ],
             "link": "https://arxiv.org/abs/2305.16291",
             "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-5",
+            "sectionId": "agents",
+            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+            "authors": [
+              "Qingyun Wu",
+              "Gagan Bansal",
+              "Jiaqi Zhang",
+              "Yiran Wu"
+            ],
+            "venue": "COLM",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "multi-agent",
+              "framework"
+            ],
+            "link": "https://arxiv.org/abs/2308.08155",
+            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
             "trackLabel": "轮换精选"
           }
         ]
