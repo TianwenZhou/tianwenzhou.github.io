@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-08-19T16:42:09.435Z",
+  "generatedAt": "2026-08-19T20:39:21.252Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 25,
+      "temperature": 23,
       "weatherCode": 0,
-      "windSpeed": 2
+      "windSpeed": 4
     },
     "today": {
       "date": "2026-08-20",
-      "weatherCode": 53,
-      "description": "小雨",
+      "weatherCode": 95,
+      "description": "雷暴",
       "max": 31,
       "min": 23,
       "precipitationProbability": 57
@@ -18,42 +18,42 @@
     "forecast": [
       {
         "date": "2026-08-20",
-        "weatherCode": 53,
-        "description": "小雨",
+        "weatherCode": 95,
+        "description": "雷暴",
         "max": 31,
         "min": 23,
         "precipitationProbability": 57
       },
       {
         "date": "2026-08-21",
-        "weatherCode": 95,
-        "description": "雷暴",
+        "weatherCode": 55,
+        "description": "中雨",
         "max": 32,
         "min": 22,
         "precipitationProbability": 63
       },
       {
         "date": "2026-08-22",
-        "weatherCode": 95,
-        "description": "雷暴",
-        "max": 31,
+        "weatherCode": 96,
+        "description": "天气更新中",
+        "max": 32,
         "min": 23,
         "precipitationProbability": 75
       },
       {
         "date": "2026-08-23",
-        "weatherCode": 51,
-        "description": "毛毛雨",
+        "weatherCode": 55,
+        "description": "中雨",
         "max": 31,
         "min": 24,
         "precipitationProbability": 39
       },
       {
         "date": "2026-08-24",
-        "weatherCode": 3,
-        "description": "阴天",
-        "max": 33,
-        "min": 25,
+        "weatherCode": 53,
+        "description": "小雨",
+        "max": 32,
+        "min": 24,
         "precipitationProbability": 34
       }
     ]
@@ -215,6 +215,14 @@
     ],
     "chinaSociety": [
       {
+        "title": "受南海热带低压影响 广西沿海多个海上项目停航",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-20/10680713.shtml",
+        "summary": "中新社北海8月19日电 (张广权)受南海热带低压影响，广西沿海多个海上客运及旅游项目将于8月20日实施停航。",
+        "image": "",
+        "publishedAt": "2026-08-19T16:49:16.000Z",
+        "source": "中新网"
+      },
+      {
         "title": "河北石家庄一居民楼部分坍塌造成3人死亡",
         "link": "https://www.chinanews.com.cn/sh/2026/08-19/10680695.shtml",
         "summary": "中新网8月19日电 据“石家庄新华发布”微信公众号消息，石家庄新华区应急管理局发布情况通报称，8月19日5时42分，新华区某小区一四层居民楼一个单元的两户房屋发生部分坍塌。事故发生后，公安、消防、住建、应急等相关部门第一时间赶赴现场开展应急救援。截至目前，现场搜救工作已结束，被困人员已救出。两户房屋...",
@@ -244,14 +252,6 @@
         "summary": "中新网杭州8月19日电(张煜欢)七夕夜至，大运河畔古韵流转。19日，在杭州城北半山脚下，“爱在七夕·情定望宸”杭州市拱墅区第十一届大运河集体婚礼暨巧山乞巧民俗活动拉开帷幕。宋制婚典、乞巧游艺、非遗市集次第登场，千年巧山乞巧民俗借由一场沉浸式活动，让传统七夕文化走出典籍，化作可感可游的城市夜间浪漫。",
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260819/4b8f7b09-57cf-4aac-833b-27e6d17717f8_zsite.jpg",
         "publishedAt": "2026-08-19T13:59:57.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "浙江宁波少年上演“昆虫记” 九年逐虫觅趣向阳成长",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-19/10680680.shtml",
-        "summary": "中新网宁波8月19日电(林波 刘雨 冯骏)清晨的浙江宁波爱心公园，薄雾氤氲，15岁的施则行蹲在灌木旁，静静观察举腹蚁行军，用相机定格下自然微观世界的灵动瞬间。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260819/59dbe180-7eac-4a09-9227-c42a38b84f57_zsite.jpg",
-        "publishedAt": "2026-08-19T13:59:21.000Z",
         "source": "中新网"
       }
     ],
@@ -299,19 +299,35 @@
     ],
     "worldTop": [
       {
-        "title": "Israel opens up tenders for controversial West Bank settlement project",
-        "link": "https://www.bbc.co.uk/news/articles/cly50gn1e54o?at_medium=RSS&at_campaign=rss",
-        "summary": "Israeli plans to build on the area east of Jerusalem - which would divide the occupied West Bank in two - have long been internationally condemned.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e405/live/b1ef1300-9be4-11f1-ba30-ddd78081057f.jpg",
-        "publishedAt": "2026-08-19T15:50:22.000Z",
+        "title": "Sacked Ukrainian defence minister calls for presidential election",
+        "link": "https://www.bbc.co.uk/news/articles/cdew8n9erlwo?at_medium=RSS&at_campaign=rss",
+        "summary": "Martial law has been in place in Ukraine since February 2022, under which elections are suspended.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/26e2/live/88af3c20-9b5f-11f1-aed2-8d6da8d75094.jpg",
+        "publishedAt": "2026-08-19T20:34:39.000Z",
         "source": "BBC"
       },
       {
-        "title": "Trump pauses new tariffs on Canada for three days, saying deal close",
-        "link": "https://www.bbc.co.uk/news/articles/cy9wz79ze29o?at_medium=RSS&at_campaign=rss",
-        "summary": "The US president says the two sides are finalising documents to avert import taxes targeting a range of Canadian goods.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d42d/live/9ebe0f40-9b79-11f1-afeb-4d7c67d79c36.jpg",
-        "publishedAt": "2026-08-19T15:47:31.000Z",
+        "title": "South Korea shortens war games with US, citing Washington request",
+        "link": "https://www.bbc.co.uk/news/articles/cnvn0j31qj8o?at_medium=RSS&at_campaign=rss",
+        "summary": "It comes after Trump announced plans to curtail joint military exercises with South Korea, citing a \"very good\" relationship with North Korea's Kim Jo...",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b878/live/63dff0a0-9b9c-11f1-b109-879e35c24276.jpg",
+        "publishedAt": "2026-08-19T17:39:49.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Israel opens up bids for highly-sensitive West Bank settlement project",
+        "link": "https://www.bbc.co.uk/news/articles/cly50gn1e54o?at_medium=RSS&at_campaign=rss",
+        "summary": "Israeli plans to build on the area east of Jerusalem - which would divide the occupied West Bank in two - have long been internationally condemned.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e405/live/b1ef1300-9be4-11f1-ba30-ddd78081057f.jpg",
+        "publishedAt": "2026-08-19T17:16:28.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Ukrainian man arrested in Croatia over Nord Stream pipeline blasts",
+        "link": "https://www.bbc.co.uk/news/articles/c78gp7l5348o?at_medium=RSS&at_campaign=rss",
+        "summary": "The man is alleged to have been one of the scuba divers who planted explosives on the pipelines in 2022.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b940/live/10ce9110-9bcd-11f1-bb4d-1147ef2e78e5.jpg",
+        "publishedAt": "2026-08-19T16:31:48.000Z",
         "source": "BBC"
       },
       {
@@ -321,25 +337,17 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a318/live/339ec150-9bc9-11f1-98c6-93bfcdb08681.jpg",
         "publishedAt": "2026-08-19T15:33:32.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "South Korea shortens war games with US, citing Washington request",
-        "link": "https://www.bbc.co.uk/news/articles/cnvn0j31qj8o?at_medium=RSS&at_campaign=rss",
-        "summary": "It comes after Trump announced plans to curtail joint military exercises with South Korea, citing a \"very good\" relationship with North Korea's Kim Jo...",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b878/live/63dff0a0-9b9c-11f1-b109-879e35c24276.jpg",
-        "publishedAt": "2026-08-19T14:16:27.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Israeli military admits for first time to firing on car carrying 5-year-old Hind Rajab, opens criminal probe",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQc3pLYzRFcVoyN3NqU05KdWV2NW1vbVR6WElDQ3AyT0Y4UlhGZzJnbGt4RzBBNVl4MEtPWGR2RlhBMjhiQkpPUEdEaUlxT295dzZvcVJ3eWQ4SE9ac3VBY0h0Y0s1bG5HZ0NBT0JOU0JQc21LODBuR3ZkMDFWTUdWYU8wZE9UVTg2ZXp0bQ?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-08-19T11:33:31.000Z",
-        "source": "cnn.com"
       }
     ],
     "worldBusiness": [
+      {
+        "title": "US long-term borrowing costs ease after government steps in",
+        "link": "https://www.bbc.co.uk/news/articles/c70gp8252ejo?at_medium=RSS&at_campaign=rss",
+        "summary": "It comes after the interest rate on 30-year bonds reached the highest level in almost 20 years.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c600/live/6b7a29d0-9bff-11f1-aed2-8d6da8d75094.jpg",
+        "publishedAt": "2026-08-19T19:26:06.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Jump in energy bills drives UK inflation to highest rate for four months",
         "link": "https://www.bbc.co.uk/news/articles/cdrv7jr8n74o?at_medium=RSS&at_campaign=rss",
@@ -362,7 +370,7 @@
         "summary": "",
         "image": "",
         "publishedAt": "2026-08-19T13:34:04.000Z",
-        "source": "cnn.com"
+        "source": "CNN"
       },
       {
         "title": "Inflation is heating up but don't expect another crisis",
@@ -370,14 +378,6 @@
         "summary": "Rising living costs could heap pressure on PM Andy Burnham though it depends what happens in the coming months.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/71fb/live/6988a5c0-9bcd-11f1-aed2-8d6da8d75094.jpg",
         "publishedAt": "2026-08-19T11:27:39.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Trainline, Virgin Atlantic and RED Driving School investigated over 'drip pricing'",
-        "link": "https://www.bbc.co.uk/news/articles/cwyjqe62574o?at_medium=RSS&at_campaign=rss",
-        "summary": "The consumer watchdog said they were trying to find out if the three companies were not showing full prices upfront to customers.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eb7b/live/d50ea0f0-9bce-11f1-b109-879e35c24276.jpg",
-        "publishedAt": "2026-08-19T11:08:42.000Z",
         "source": "BBC"
       }
     ],
@@ -407,19 +407,19 @@
         "source": "BBC"
       },
       {
+        "title": "From heated rivalry to frenemies: Inside the cutthroat business of ruling tech in Asia",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE14LV9ZdlhHcF9RTV9hM2JWWWJhXzR4c2dsUll2VDNCQ0FHb2ZKSzUtcTdDMmpfLWMxQ1YwYk1TOE9iYkM1Y3NodUVlWllYcnRuVXpIYkptX3hBbm5SRG04eGV2bmtzN2xQT0E2NFFYWQ?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-08-18T23:52:33.000Z",
+        "source": "CNN"
+      },
+      {
         "title": "The critical tech staying safe by going underground",
         "link": "https://www.bbc.co.uk/news/articles/c20ydrndr0wo?at_medium=RSS&at_campaign=rss",
         "summary": "The war in Ukraine has spurred people to consider putting vital infrastructure underground.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cffe/live/831c08d0-7b87-11f1-bee8-53ce494e1abc.jpg",
         "publishedAt": "2026-08-18T23:25:21.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Meta hooked children on Facebook and Instagram, US court hears",
-        "link": "https://www.bbc.co.uk/news/articles/cly5r7vr7q1o?at_medium=RSS&at_campaign=rss",
-        "summary": "Meta argued social media addiction does not exist, as a trial stemming from a major lawsuit brought by US states started.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b4ee/live/4f771a70-9b84-11f1-bdab-bd265066e1df.jpg",
-        "publishedAt": "2026-08-18T22:11:07.000Z",
         "source": "BBC"
       }
     ],
@@ -467,19 +467,35 @@
     ],
     "international": [
       {
-        "title": "Israel opens up tenders for controversial West Bank settlement project",
-        "link": "https://www.bbc.co.uk/news/articles/cly50gn1e54o?at_medium=RSS&at_campaign=rss",
-        "summary": "Israeli plans to build on the area east of Jerusalem - which would divide the occupied West Bank in two - have long been internationally condemned.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e405/live/b1ef1300-9be4-11f1-ba30-ddd78081057f.jpg",
-        "publishedAt": "2026-08-19T15:50:22.000Z",
+        "title": "Sacked Ukrainian defence minister calls for presidential election",
+        "link": "https://www.bbc.co.uk/news/articles/cdew8n9erlwo?at_medium=RSS&at_campaign=rss",
+        "summary": "Martial law has been in place in Ukraine since February 2022, under which elections are suspended.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/26e2/live/88af3c20-9b5f-11f1-aed2-8d6da8d75094.jpg",
+        "publishedAt": "2026-08-19T20:34:39.000Z",
         "source": "BBC"
       },
       {
-        "title": "Trump pauses new tariffs on Canada for three days, saying deal close",
-        "link": "https://www.bbc.co.uk/news/articles/cy9wz79ze29o?at_medium=RSS&at_campaign=rss",
-        "summary": "The US president says the two sides are finalising documents to avert import taxes targeting a range of Canadian goods.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d42d/live/9ebe0f40-9b79-11f1-afeb-4d7c67d79c36.jpg",
-        "publishedAt": "2026-08-19T15:47:31.000Z",
+        "title": "South Korea shortens war games with US, citing Washington request",
+        "link": "https://www.bbc.co.uk/news/articles/cnvn0j31qj8o?at_medium=RSS&at_campaign=rss",
+        "summary": "It comes after Trump announced plans to curtail joint military exercises with South Korea, citing a \"very good\" relationship with North Korea's Kim Jo...",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b878/live/63dff0a0-9b9c-11f1-b109-879e35c24276.jpg",
+        "publishedAt": "2026-08-19T17:39:49.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Israel opens up bids for highly-sensitive West Bank settlement project",
+        "link": "https://www.bbc.co.uk/news/articles/cly50gn1e54o?at_medium=RSS&at_campaign=rss",
+        "summary": "Israeli plans to build on the area east of Jerusalem - which would divide the occupied West Bank in two - have long been internationally condemned.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e405/live/b1ef1300-9be4-11f1-ba30-ddd78081057f.jpg",
+        "publishedAt": "2026-08-19T17:16:28.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Ukrainian man arrested in Croatia over Nord Stream pipeline blasts",
+        "link": "https://www.bbc.co.uk/news/articles/c78gp7l5348o?at_medium=RSS&at_campaign=rss",
+        "summary": "The man is alleged to have been one of the scuba divers who planted explosives on the pipelines in 2022.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b940/live/10ce9110-9bcd-11f1-bb4d-1147ef2e78e5.jpg",
+        "publishedAt": "2026-08-19T16:31:48.000Z",
         "source": "BBC"
       },
       {
@@ -489,22 +505,6 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a318/live/339ec150-9bc9-11f1-98c6-93bfcdb08681.jpg",
         "publishedAt": "2026-08-19T15:33:32.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "South Korea shortens war games with US, citing Washington request",
-        "link": "https://www.bbc.co.uk/news/articles/cnvn0j31qj8o?at_medium=RSS&at_campaign=rss",
-        "summary": "It comes after Trump announced plans to curtail joint military exercises with South Korea, citing a \"very good\" relationship with North Korea's Kim Jo...",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b878/live/63dff0a0-9b9c-11f1-b109-879e35c24276.jpg",
-        "publishedAt": "2026-08-19T14:16:27.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Israeli military admits for first time to firing on car carrying 5-year-old Hind Rajab, opens criminal probe",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQc3pLYzRFcVoyN3NqU05KdWV2NW1vbVR6WElDQ3AyT0Y4UlhGZzJnbGt4RzBBNVl4MEtPWGR2RlhBMjhiQkpPUEdEaUlxT295dzZvcVJ3eWQ4SE9ac3VBY0h0Y0s1bG5HZ0NBT0JOU0JQc21LODBuR3ZkMDFWTUdWYU8wZE9UVTg2ZXp0bQ?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-08-19T11:33:31.000Z",
-        "source": "cnn.com"
       }
     ],
     "nba": []
