@@ -1,36 +1,28 @@
 {
-  "generatedAt": "2026-08-21T13:05:34.499Z",
+  "generatedAt": "2026-08-21T16:47:24.989Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 27,
-      "weatherCode": 1,
-      "windSpeed": 3
+      "temperature": 26,
+      "weatherCode": 0,
+      "windSpeed": 2
     },
     "today": {
-      "date": "2026-08-21",
+      "date": "2026-08-22",
       "weatherCode": 95,
       "description": "雷暴",
-      "max": 34,
+      "max": 31,
       "min": 23,
-      "precipitationProbability": 78
+      "precipitationProbability": 85
     },
     "forecast": [
-      {
-        "date": "2026-08-21",
-        "weatherCode": 95,
-        "description": "雷暴",
-        "max": 34,
-        "min": 23,
-        "precipitationProbability": 78
-      },
       {
         "date": "2026-08-22",
         "weatherCode": 95,
         "description": "雷暴",
         "max": 31,
         "min": 23,
-        "precipitationProbability": 82
+        "precipitationProbability": 85
       },
       {
         "date": "2026-08-23",
@@ -38,7 +30,7 @@
         "description": "雷暴",
         "max": 32,
         "min": 24,
-        "precipitationProbability": 65
+        "precipitationProbability": 49
       },
       {
         "date": "2026-08-24",
@@ -46,7 +38,7 @@
         "description": "小雨",
         "max": 33,
         "min": 24,
-        "precipitationProbability": 55
+        "precipitationProbability": 53
       },
       {
         "date": "2026-08-25",
@@ -54,33 +46,50 @@
         "description": "雷暴",
         "max": 32,
         "min": 26,
-        "precipitationProbability": 67
+        "precipitationProbability": 55
+      },
+      {
+        "date": "2026-08-26",
+        "weatherCode": 95,
+        "description": "雷暴",
+        "max": 26,
+        "min": 22,
+        "precipitationProbability": 80
       }
     ]
   },
   "classicQuote": {
-    "id": "mencius-perseverance",
-    "text": "虽千万人，吾往矣。",
-    "source": "《孟子》",
-    "author": "孟子",
-    "note": "认准方向之后，关键是稳稳地往前走。"
+    "id": "records-historical",
+    "text": "桃李不言，下自成蹊。",
+    "source": "《史记》",
+    "author": "司马迁",
+    "note": "真正有分量的作品，本身就会替你说话。"
   },
   "bookExcerpt": {
-    "id": "red-mansion-snow",
-    "text": "只见大地白茫茫一片真干净，山川树木都隐在雪光里，天地像忽然静下来，只余风过回廊的细响。",
-    "book": "《红楼梦》",
-    "author": "曹雪芹"
+    "id": "remembrance-madeleine",
+    "text": "那一点点浸过茶水的点心，忽然把整个旧日时光都唤醒了，仿佛往昔并未消失，只是沉在心底等待一个气味。",
+    "book": "《追忆似水年华》",
+    "author": "马塞尔·普鲁斯特"
   },
   "featuredPlace": {
-    "id": "202608201600",
-    "title": "尤利尔山口蜿蜒的公路，瑞士",
+    "id": "202608211600",
+    "title": "普通蓝灰蝶，德文郡，英格兰",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "攀登在召唤",
-    "image": "https://www.bing.com/th?id=OHR.JulierPass_ZH-CN3064797820_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E7%91%9E%E5%A3%AB%E5%B0%A4%E5%88%A9%E5%B0%94%E5%B1%B1%E5%8F%A3&form=hpcapt&mkt=zh-cn"
+    "summary": "天蓝色的翅膀",
+    "image": "https://www.bing.com/th?id=OHR.CommonBlue_ZH-CN8521430009_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E6%99%AE%E9%80%9A%E8%93%9D%E7%81%B0%E8%9D%B6&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202608211600",
+      "title": "普通蓝灰蝶，德文郡，英格兰",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "天蓝色的翅膀",
+      "image": "https://www.bing.com/th?id=OHR.CommonBlue_ZH-CN8521430009_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E6%99%AE%E9%80%9A%E8%93%9D%E7%81%B0%E8%9D%B6&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202608201600",
       "title": "尤利尔山口蜿蜒的公路，瑞士",
@@ -143,203 +152,202 @@
       "summary": "绝妙的平衡术",
       "image": "https://www.bing.com/th?id=OHR.ValleyDreams_ZH-CN9689713135_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E9%98%BF%E4%BB%80%E6%96%AF%E5%88%A9%E5%B8%95%E8%8D%92%E9%87%8E%E5%9C%B0&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202608131600",
-      "title": "扎克舒夫附近的野生动物通道，波兰",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "为动物脚掌而建，而非行人",
-      "image": "https://www.bing.com/th?id=OHR.WildlifeCrossingPoland_ZH-CN9439167246_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E9%87%8E%E7%94%9F%E5%8A%A8%E7%89%A9%E9%80%9A%E9%81%93&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-08-21",
-    "dateLabel": "8月21日",
+    "dateKey": "2026-08-22",
+    "dateLabel": "8月22日",
     "items": [
       {
-        "year": "2019",
-        "text": "香港中華煤氣因業績差而捱沽，股價大跌5.26%至16.2元，是2008年11月以來最大的單日跌幅，亦是表現最差的恒指成分股。",
-        "link": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4"
+        "year": "2017",
+        "text": "受熱帶氣旋天鴿外圍下沉氣流影響，香港天文台總部在下午2時錄得36.6度高溫，是自1885年有紀錄以來最高溫，天水圍濕地公園更錄得39度高溫。",
+        "link": "https://zh.wikipedia.org/wiki/2017%E5%B9%B4"
       },
       {
-        "year": "2016",
-        "text": "2016年夏季奧林匹克運動會在巴西里約熱內盧的馬拉卡納體育場舉行閉幕典禮。",
-        "link": "https://zh.wikipedia.org/wiki/2016%E5%B9%B4"
+        "year": "2013",
+        "text": "因政治斗争而下台的前重庆市委书记、中国共产党中央政治局委员薄熙来以受贿、贪污、滥用职权的罪名在济南中级人民法院开庭审理。",
+        "link": "https://zh.wikipedia.org/wiki/2013%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "两部门针对海南广西广东启动防汛防台风四级应急响应",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-21/10682063.shtml",
-        "summary": "记者从应急管理部获悉，北部湾热带低压已于21日下午加强为今年第19号台风(热带风暴级)，预计21日夜间至23日白天，该台风将在北部湾海面回旋少动，强度缓慢加强，最强可达强热带风暴级。受其和西南季风共同影响，未来三天，海南、广西南部、广东沿海地区将有大到暴雨，局地大暴雨。中央气象台8月21日18时发布...",
-        "image": "",
-        "publishedAt": "2026-08-21T13:04:43.000Z",
+        "title": "广西军区举办抢险救灾先进典型事迹报告会",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-21/10682114.shtml",
+        "summary": "中新网南宁8月21日电(韦佳秀)“只要人民有需要，我们就义无反顾、冲锋在前；只要人民有危难，我们就挺身而出、绝不退缩！”广西南宁警备区大校政治委员蒲毅21日在广西军区举办的“鏖战八桂展风采 奋进一流铸丰碑”抢险救灾先进典型事迹报告会上发言时说。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260821/3669fad7-0d7f-47fe-a154-cae13b26dd11_zsite.jpg",
+        "publishedAt": "2026-08-21T14:06:07.000Z",
         "source": "中新网"
       },
       {
-        "title": "两岸专家谈台海形势：警惕“敌意螺旋”",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-21/10682016.shtml",
-        "summary": "中新社武汉8月21日电 (记者 张晓曦 马芙蓉)20日至21日在武汉举办的2026年两岸关系研讨会上，两岸专家指出，当前台海形势复杂严峻，面对民进党刻意操弄“敌意螺旋”，应保持冷静理性与战略定力，继续深化民间交流，厚植和平发展基础。",
+        "title": "董军会见印度尼西亚国防部长",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-21/10682112.shtml",
+        "summary": "中新社雅加达8月21日电 中国国防部长董军21日在雅加达出席中印尼外长防长“2+2”对话机制第二次部长级会议期间，会见印尼国防部长沙夫里。",
         "image": "",
-        "publishedAt": "2026-08-21T12:45:36.000Z",
+        "publishedAt": "2026-08-21T13:58:44.000Z",
         "source": "中新网"
       },
       {
-        "title": "刘国中在安排部署秋粮生产和农业防灾减灾工作时强调 扎实做好农业防灾减灾工作 全力以赴夺取全年粮食丰收",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-21/10682052.shtml",
-        "summary": "新华社北京8月21日电 中共中央政治局委员、国务院副总理刘国中8月21日到农业农村部召开视频调度会，安排部署秋粮生产和农业防灾减灾工作。他强调，要认真贯彻落实习近平总书记重要指示批示精神，按照党中央、国务院部署，盯紧盯牢关键环节，落实落细关键措施，扎实做好农业防灾减灾工作，牢牢把握住秋粮生产主动权，...",
-        "image": "",
-        "publishedAt": "2026-08-21T12:41:44.000Z",
+        "title": "西藏波密开展红色课堂进校园活动 厚植师生爱国情怀",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-21/10682102.shtml",
+        "summary": "中新网拉萨8月21日电 (李林)21日，西藏林芝市波密县委宣传部介绍，波密县充分利用红色资源，开展红色课堂进校园活动。截至目前，该活动已实现全县乡镇中小学、县直中小学全覆盖，累计覆盖师生1400余人次，发放各类学习激励物资600余份。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260821/cb69f21c-753f-4004-8789-74fe76673a7e_zsite.jpg",
+        "publishedAt": "2026-08-21T13:57:34.000Z",
         "source": "中新网"
       },
       {
-        "title": "《促进网信企业高质量发展行动计划（2026-2030年）》答记者问",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-21/10682025.shtml",
-        "summary": "近日，中央网络安全和信息化委员会印发《促进网信企业高质量发展行动计划(2026-2030年)》(以下简称《行动计划》)。中央网信办有关负责同志就《行动计划》回答了记者提问。",
-        "image": "",
-        "publishedAt": "2026-08-21T12:29:37.000Z",
+        "title": "第十一届京台青年创新创业大赛在京落幕",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-21/10682101.shtml",
+        "summary": "中新网北京8月21日电 (金志成)第十一届京台青年创新创业大赛决赛暨颁奖典礼21日在北京举行。两岸青年创业团队、专家学者、投资机构及产业界代表齐聚，围绕创新项目展示、产业合作、资源对接等展开交流。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260821/2531b7f7-5c10-462f-9680-675bd48e820f_zsite.jpg",
+        "publishedAt": "2026-08-21T13:57:10.000Z",
         "source": "中新网"
       },
       {
-        "title": "杭州拱墅发布“AI+文旅”方案 为运河装上“AI大脑”",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-21/10682006.shtml",
-        "summary": "中新网杭州8月21日电(孙琳茹)“如何激活大运河这一流动的文化遗产，AI是当下最具想象力的方式之一。”8月21日，杭州市拱墅区建设“AI+文旅先行区”新闻发布会在杭州大运河畔举行，《“AI＋文旅先行区”行动方案》(以下简称《行动方案》)正式发布。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260821/fd74fb07-683d-41ee-be41-2fcb73d2941d_zsite.jpeg",
-        "publishedAt": "2026-08-21T12:15:40.000Z",
+        "title": "大陆产业升级释放新机遇 两岸专家吁深化合作",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-21/10682100.shtml",
+        "summary": "中新网武汉8月21日电 (记者 张晓曦 马芙蓉)2026年两岸关系研讨会20日至21日在武汉举办。多位专家指出，大陆超大规模市场、完整产业体系和科技创新优势持续释放，为台胞台企参与大陆发展、深化两岸产业合作带来新机遇。",
+        "image": "",
+        "publishedAt": "2026-08-21T13:54:48.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "福建漳州古雷港区凝析油进口突破三千万吨",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-21/10682029.shtml",
-        "summary": "中新网漳州8月21日电 (汪秋平 谢水龙)8月21日，随着接卸完3万余吨凝析油的喀麦隆籍“埃斯特拉(ESTELLA)”轮缓缓离泊，福建漳州边检站高效完成该轮出入境通关保障工作，标志着自2012年11月26日古雷港区首次进口凝析油以来，港区凝析油进口总量突破三千万吨，为地方石化产业高质量发展持续注入强...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260821/8f6eebce-abe8-46aa-8334-cd6b8fa06e4f_zsite.jpg",
-        "publishedAt": "2026-08-21T12:52:50.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "暑期自驾出行 这5条安全要点请牢记",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-21/10682053.shtml",
-        "summary": "眼下虽已立秋，但全国多地午后气温仍居高不下，部分地区甚至达到35℃以上；同时，昼夜温差明显增大，局地强对流天气频发，清晨易起雾、午后多阵雨，这些都给自驾出行带来考验。",
-        "image": "https://i2.chinanews.com/simg/hnhd/2026/08/21/27/7207629029117873203.jpg",
-        "publishedAt": "2026-08-21T12:44:56.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "广西推出周末短途跨境旅游新模式",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-21/10682018.shtml",
-        "summary": "【东盟专线】广西推出周末短途跨境旅游新模式",
+        "title": "山东临沂一处独立平房院落发生爆炸 致1人死亡2人失联",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-21/10682117.shtml",
+        "summary": "8月21日，山东省临沂市沂河新区联合工作组发布情况通报：",
         "image": "",
-        "publishedAt": "2026-08-21T12:37:53.000Z",
+        "publishedAt": "2026-08-21T14:03:07.000Z",
         "source": "中新网"
       },
       {
-        "title": "浙江绍兴警方通报“蓝天广场一女子受侵害”",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-21/10681998.shtml",
-        "summary": "中新网8月21日电 据浙江省绍兴市柯桥区公安分局官方微博消息，浙江绍兴市公安局柯桥区分局21日发布警情通报称，近日，“蓝天广场一女子受侵害”相关网上信息引发关注。绍兴市公安局柯桥区分局高度重视，第一时间开展核查处置。现将相关情况通报如下：",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/08/21/37374ac2f0da4accb07ab13e04ac0c76.jpg",
-        "publishedAt": "2026-08-21T12:18:22.000Z",
+        "title": "浙江开展红色根脉档案珍品故事讲座 让纸页“开口说话”",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-21/10682099.shtml",
+        "summary": "中新网杭州8月21日电(林波)杭州钱塘江大桥的钢铁骨架下，藏着茅以升怎样的家国抉择？西子湖畔的宁静院落里，新中国第一部宪法如何诞生？",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260821/ba71ad09-2e8e-4440-a163-14dd00e7e35d_zsite.jpg",
+        "publishedAt": "2026-08-21T13:55:50.000Z",
         "source": "中新网"
       },
       {
-        "title": "广西举办冰鲜预制美食暨特色米粉创新大赛 助力餐饮行业转型升级",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-21/10682007.shtml",
-        "summary": "中新网柳州8月21日电(陈梅)8月21日，2026年广西冰鲜预制美食暨广西特色米粉创新大赛在柳州市举行。活动集赛事评选、展示品鉴、产业交流、产销对接于一体，来自广西各地的63家企业及米粉技艺传承人汇聚一堂。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260821/ead90696-f5d3-4aba-aaef-f8a7f657ec2e_zsite.jpg",
-        "publishedAt": "2026-08-21T12:16:06.000Z",
+        "title": "西藏山南举办跨区域招聘会 113人实现人岗对接",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-21/10682107.shtml",
+        "summary": "中新网拉萨8月21日电 (李林)20日，一场跨越3000多公里的专场招聘会在西藏山南市乃东区举行。招聘会上，36家武汉国资国企及龙头民企集中释放455个优质岗位，现场200余名青年进场求职，最终98人达成初步就业意向，15人当场签约，合计113人成功实现人岗对接。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260821/6713987e-c2e7-4a78-bda9-d61c4893a4b4_zsite.jpg",
+        "publishedAt": "2026-08-21T13:55:24.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "引入AI参与创作 第十届浙江省十大校园新锐写手评选落幕",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-21/10682096.shtml",
+        "summary": "中新网杭州8月21日电(曹丹 张丹)8月19日至21日，第十届浙江省十大校园新锐写手评选活动决赛在浙江杭州云谷学校举行。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260821/91b4ae3e-8ab4-499e-b859-98cef1c2f2eb_zsite.JPG",
+        "publishedAt": "2026-08-21T13:55:20.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "广东台山“黑暗料理”出圈 丑萌泥虫成食客打卡新宠",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-21/10682083.shtml",
+        "summary": "中新网江门8月21日电 题：广东台山“黑暗料理”出圈丑萌泥虫成食客打卡新宠",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260821/23b840e4-6c3e-4fcf-8b93-76021430307b_zsite.jpg",
+        "publishedAt": "2026-08-21T13:35:35.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "“十五五”期间北京门头沟谋划亿元以上项目百余个",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-21/10682031.shtml",
-        "summary": "中新网北京8月21日电 (记者 吕少威)“十五五”期间，北京市门头沟区从绿色发展、创新发展、协调发展、文旅融合、开放共享、安全稳定6大维度，设定32项指标、布局9个领域重点任务，谋划亿元以上项目百余个。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260821/eaafb84a-c3ba-4836-8297-189eb83bbab1_zsite.jpg",
-        "publishedAt": "2026-08-21T12:57:54.000Z",
+        "title": "美国政府紧急下场救市难解美债危局",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-21/10682122.shtml",
+        "summary": "美国的债务问题，已经到了连自己人都捂不住的地步了。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/08/21/820a67ad17d047f2a7018257ec82e9e0.jpg",
+        "publishedAt": "2026-08-21T15:35:11.000Z",
         "source": "中新网"
       },
       {
-        "title": "聚焦人工智能赋能科学研究 2026科学智能大会在北京开幕",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-21/10682030.shtml",
-        "summary": "中新网北京8月21日电 (记者 孙自法)聚焦人工智能(AI)赋能科学研究，以“人工智能变革科研范式”为主题的2026科学智能大会，8月21日在北京中关村开幕。包括近50位院士、80余位青年学者在内，来自政府、高校、科研院所、企业等机构代表2500人参会。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260821/3236a148-200b-4b01-9404-2c4da504b4b7_zsite.jpg",
-        "publishedAt": "2026-08-21T12:56:58.000Z",
+        "title": "海南洋浦港审批便利化新举措提升国际船舶进口岸效率",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-21/10682115.shtml",
+        "summary": "中新网海南洋浦8月21日电 (贾兴宇)海南洋浦港正在高标准建设西部陆海新通道国际航运枢纽，集装箱吞吐量快速增长。洋浦海事局21日介绍，近日推出针对国际航行集装箱船舶进口岸审批便利化新举措，实现“一次信息留存、多次便利申报”。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260821/9294d9c8-b406-4648-861a-a091b71af0a9_zsite.jpg",
+        "publishedAt": "2026-08-21T14:06:29.000Z",
         "source": "中新网"
       },
       {
-        "title": "空客预计：未来20年全球约有2600架全货机交付需求",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-21/10682015.shtml",
-        "summary": "中新社北京8月21日电 (刘文文 邸子瀛)记者21日从空中客车(简称“空客”)获悉，预计未来20年全球约有2600架全货机交付需求。",
+        "title": "闽宁科技合作推进会在宁夏银川召开",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-21/10682103.shtml",
+        "summary": "中新网银川8月21日电 (记者 李佩珊)8月21日，闽宁科技合作推进会在宁夏银川召开。闽宁两省区科技主管部门、高校院所、科技企业及技术转移机构代表参会，系统总结三十年来闽宁科技协作成效经验，共商“十五五”时期科技创新务实合作举措。",
         "image": "",
-        "publishedAt": "2026-08-21T12:55:54.000Z",
+        "publishedAt": "2026-08-21T13:57:42.000Z",
         "source": "中新网"
       },
       {
-        "title": "中国44名专家获“IEC 1906奖” 创历史新高",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-21/10682051.shtml",
-        "summary": "中新社北京8月21日电 (记者 刘亮)中国国家市场监管总局21日公布，国际电工委员会(IEC)近日公布“IEC1906奖”获奖名单，中国共有44名专家荣膺该奖项，获奖人数创历史新高。",
-        "image": "",
-        "publishedAt": "2026-08-21T12:54:52.000Z",
+        "title": "临床出题、产业破题 广州医博会搭医产协同创新平台",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-21/10682106.shtml",
+        "summary": "中新网广州8月21日电 (记者 蔡敏婕)智能体打通院内诊疗与院外居家照护全链路、可穿戴式脑机接口协助改善下肢运动功能、脑机接口多感官睡眠干预系统输出个性化睡眠改善方案......21日，2026广州医疗与健康产业博览会(下称“医博会”)在广州开幕，博览会以“创新驱动健康，湾区链接全球”为主题，总展览...",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260821/2ba6ba50-e0f4-49c0-ae94-4ae3aa3df3f8_zsite.jpg",
+        "publishedAt": "2026-08-21T13:55:48.000Z",
         "source": "中新网"
       },
       {
-        "title": "7月中国全社会用电量再创新高 专家析拉动因素",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-21/10682014.shtml",
-        "summary": "中新社北京8月21日电 记者21日从中国电力企业联合会获悉，7月全国全社会用电量规模再创历史新高。有关电力专家指出，第三产业用电量增速较快，高技术及装备制造业用电量表现突出，新动能用电保持高速增长，新质生产力对用电的支撑作用持续强化。",
+        "title": "涉及汽车门把手缺陷 9家车企召回多款汽车",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-21/10682098.shtml",
+        "summary": "8月21日，市场监管总局发布公告，多家车企因车内应急机械拉手相关问题召回多款汽车，包括小米、特斯拉、零跑、小鹏、吉利、奇瑞、东风汽车、北汽蓝谷、中国一汽等。",
         "image": "",
-        "publishedAt": "2026-08-21T12:54:12.000Z",
+        "publishedAt": "2026-08-21T13:52:06.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
+        "title": "Two teenagers seriously injured after sword attack at Swedish school",
+        "link": "https://www.bbc.co.uk/news/articles/c3r0g7gj2n3o?at_medium=RSS&at_campaign=rss",
+        "summary": "Police say one man has been arrested, while several other local schools were locked down.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ef32/live/454712a0-9d7b-11f1-b109-879e35c24276.jpg",
+        "publishedAt": "2026-08-21T16:32:37.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Ebola vaccine trial to start in DR Congo as warning issued over speed of infections",
+        "link": "https://www.bbc.co.uk/news/articles/czxe9n0vxzdo?at_medium=RSS&at_campaign=rss",
+        "summary": "About half of the 2,500 recorded deaths from Ebola happened in the last 20 days, the WHO says.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/00e4/live/66300b20-9d5d-11f1-a291-b542ee92de7c.jpg",
+        "publishedAt": "2026-08-21T13:44:43.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Several people injured in sword attack at Swedish school",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9iM3JqQ3dMYUVTTFBLSUlzLUJoYzhSbUs5UllEYktwcTJhVVY5Y0RubGtKZXNpUGY0YmF3WklhN2xmT1NON0xGNEczbjdGcDdaY1lnSzdzV2RIYjBpNzJoVHVMeXFJVzZpVUxoVFFqdzJqdm9EbEVIaXln?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-08-21T13:16:15.000Z",
+        "source": "CNN"
+      },
+      {
         "title": "Rosenberg: Shortage of petrol but not patriotism as Russians feel growing impact of war",
         "link": "https://www.bbc.co.uk/news/articles/c4gknzgje7go?at_medium=RSS&at_campaign=rss",
         "summary": "Drivers are waiting hours in fuel queues, as Moscow prepares to celebrate Russian Flag Day.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/11c3/live/c7b37380-9d5a-11f1-b109-879e35c24276.jpg",
-        "publishedAt": "2026-08-21T11:31:51.000Z",
+        "publishedAt": "2026-08-21T13:07:00.000Z",
         "source": "BBC"
       },
       {
-        "title": "Eight killed in plane crash at remote Alaskan military site, air force says",
-        "link": "https://www.bbc.co.uk/news/articles/cj9dmw8183wo?at_medium=RSS&at_campaign=rss",
-        "summary": "It is unclear why the civilian-contracted plane was at the radar site on Alaska's south-west coast.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/88c1/live/024497b0-9d45-11f1-a137-179a8d1c790b.jpg",
-        "publishedAt": "2026-08-21T09:53:47.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Panama Canal to cut number of ships passing through due to El Niño",
-        "link": "https://www.bbc.co.uk/news/articles/cwyl0jkxxryo?at_medium=RSS&at_campaign=rss",
-        "summary": "The crucial waterway's operator says low rainfall caused by the ocean pattern had led to the decision.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/db42/live/677fca00-9d18-11f1-bd22-47519fb87a16.jpg",
-        "publishedAt": "2026-08-21T06:46:08.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Hong Kong's Tiananmen activists guilty in national security trial",
-        "link": "https://www.bbc.co.uk/news/articles/c1l10mdrld5o?at_medium=RSS&at_campaign=rss",
-        "summary": "Three activists were accused of inciting others to subvert state power under the China-introduced law.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d436/live/0a8eae40-9d0b-11f1-8a23-b9fc4847a391.jpg",
-        "publishedAt": "2026-08-21T05:47:32.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Mexican fishermen floating in cooler rescued after 5 days stranded at sea",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNODB5X0ZZRUR2cHJvNVprTE9KRXZaaWNycVE0ZTZYM2FfWVJzZS1KY3FvbjFIN2pnRWNadzRNSHdNdXVTNmtYRTg0MFFOOS1PVFBlQ3A0U1ZfeUZFcWltdjVxQzNjV1cxZlpYc2w0Q3pFRUpkQ2F4Q3NLUFNVTVZxb3E2VXN4cE0?oc=5",
+        "title": "After a sexual assault case went viral, China’s corporate drinking culture is under fire",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPOVd5bVA1a21KNmVTRlcwaHpuTF9WVzJ6NXIxcEJ4aWZJY2VyaFZBYnRnS0VYbG1VckoybHpNXzl1UHZsaUFiYjA0TVc2b3dwOTFXNzU4ZC14YkduckZPanBtbktIRUlHX2o3QUc1VHNHOEF1Nm1OSFdhSThiT3N5Z3JLVXJxQmFaZGFNUXFn?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-08-21T05:09:12.000Z",
+        "publishedAt": "2026-08-21T10:00:29.000Z",
         "source": "CNN"
       }
     ],
     "worldBusiness": [
+      {
+        "title": "Canada 'should fight' as US trade deadline looms, Manitoba premier says",
+        "link": "https://www.bbc.co.uk/news/articles/czjlr0evy0do?at_medium=RSS&at_campaign=rss",
+        "summary": "Premier Wab Kinew's comments signal a tough battle for Prime Minister Mark Carney to get buy-in from Canadians on a possible trade deal with the US.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/768e/live/ffd477b0-9d68-11f1-a07c-85afe5c51b6f.jpg",
+        "publishedAt": "2026-08-21T15:34:06.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Royal Mail misses delivery targets again but hails 'encouraging' signs",
         "link": "https://www.bbc.co.uk/news/articles/c1w1rg208xdo?at_medium=RSS&at_campaign=rss",
@@ -357,19 +365,11 @@
         "source": "BBC"
       },
       {
-        "title": "UK borrows more than expected in July as Healey prepares for first Budget",
-        "link": "https://www.bbc.co.uk/news/articles/cly8kzkyvwgo?at_medium=RSS&at_campaign=rss",
-        "summary": "Chancellor John Healey said the government is 'committed to meeting our fiscal rules'",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5711/live/12719030-9d21-11f1-ab6e-831b967255ae.jpg",
-        "publishedAt": "2026-08-21T09:45:11.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Panama Canal to cut number of ships passing through due to El Niño",
-        "link": "https://www.bbc.co.uk/news/articles/cwyl0jkxxryo?at_medium=RSS&at_campaign=rss",
-        "summary": "The crucial waterway's operator says low rainfall caused by the ocean pattern had led to the decision.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/db42/live/677fca00-9d18-11f1-bd22-47519fb87a16.jpg",
-        "publishedAt": "2026-08-21T06:46:08.000Z",
+        "title": "Why the US economy is ringing alarm bells",
+        "link": "https://www.bbc.co.uk/news/articles/c9d8z72nn02o?at_medium=RSS&at_campaign=rss",
+        "summary": "The US hit a debt milestone this week, but just how worried should we be about the world's largest economy?",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/30c9/live/70745c80-9d4e-11f1-854c-7d636985156c.jpg",
+        "publishedAt": "2026-08-21T08:38:18.000Z",
         "source": "BBC"
       },
       {
@@ -425,85 +425,85 @@
     ],
     "domestic": [
       {
-        "title": "两部门针对海南广西广东启动防汛防台风四级应急响应",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-21/10682063.shtml",
-        "summary": "记者从应急管理部获悉，北部湾热带低压已于21日下午加强为今年第19号台风(热带风暴级)，预计21日夜间至23日白天，该台风将在北部湾海面回旋少动，强度缓慢加强，最强可达强热带风暴级。受其和西南季风共同影响，未来三天，海南、广西南部、广东沿海地区将有大到暴雨，局地大暴雨。中央气象台8月21日18时发布...",
-        "image": "",
-        "publishedAt": "2026-08-21T13:04:43.000Z",
+        "title": "广西军区举办抢险救灾先进典型事迹报告会",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-21/10682114.shtml",
+        "summary": "中新网南宁8月21日电(韦佳秀)“只要人民有需要，我们就义无反顾、冲锋在前；只要人民有危难，我们就挺身而出、绝不退缩！”广西南宁警备区大校政治委员蒲毅21日在广西军区举办的“鏖战八桂展风采 奋进一流铸丰碑”抢险救灾先进典型事迹报告会上发言时说。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260821/3669fad7-0d7f-47fe-a154-cae13b26dd11_zsite.jpg",
+        "publishedAt": "2026-08-21T14:06:07.000Z",
         "source": "中新网"
       },
       {
-        "title": "两岸专家谈台海形势：警惕“敌意螺旋”",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-21/10682016.shtml",
-        "summary": "中新社武汉8月21日电 (记者 张晓曦 马芙蓉)20日至21日在武汉举办的2026年两岸关系研讨会上，两岸专家指出，当前台海形势复杂严峻，面对民进党刻意操弄“敌意螺旋”，应保持冷静理性与战略定力，继续深化民间交流，厚植和平发展基础。",
+        "title": "董军会见印度尼西亚国防部长",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-21/10682112.shtml",
+        "summary": "中新社雅加达8月21日电 中国国防部长董军21日在雅加达出席中印尼外长防长“2+2”对话机制第二次部长级会议期间，会见印尼国防部长沙夫里。",
         "image": "",
-        "publishedAt": "2026-08-21T12:45:36.000Z",
+        "publishedAt": "2026-08-21T13:58:44.000Z",
         "source": "中新网"
       },
       {
-        "title": "刘国中在安排部署秋粮生产和农业防灾减灾工作时强调 扎实做好农业防灾减灾工作 全力以赴夺取全年粮食丰收",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-21/10682052.shtml",
-        "summary": "新华社北京8月21日电 中共中央政治局委员、国务院副总理刘国中8月21日到农业农村部召开视频调度会，安排部署秋粮生产和农业防灾减灾工作。他强调，要认真贯彻落实习近平总书记重要指示批示精神，按照党中央、国务院部署，盯紧盯牢关键环节，落实落细关键措施，扎实做好农业防灾减灾工作，牢牢把握住秋粮生产主动权，...",
-        "image": "",
-        "publishedAt": "2026-08-21T12:41:44.000Z",
+        "title": "西藏波密开展红色课堂进校园活动 厚植师生爱国情怀",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-21/10682102.shtml",
+        "summary": "中新网拉萨8月21日电 (李林)21日，西藏林芝市波密县委宣传部介绍，波密县充分利用红色资源，开展红色课堂进校园活动。截至目前，该活动已实现全县乡镇中小学、县直中小学全覆盖，累计覆盖师生1400余人次，发放各类学习激励物资600余份。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260821/cb69f21c-753f-4004-8789-74fe76673a7e_zsite.jpg",
+        "publishedAt": "2026-08-21T13:57:34.000Z",
         "source": "中新网"
       },
       {
-        "title": "《促进网信企业高质量发展行动计划（2026-2030年）》答记者问",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-21/10682025.shtml",
-        "summary": "近日，中央网络安全和信息化委员会印发《促进网信企业高质量发展行动计划(2026-2030年)》(以下简称《行动计划》)。中央网信办有关负责同志就《行动计划》回答了记者提问。",
-        "image": "",
-        "publishedAt": "2026-08-21T12:29:37.000Z",
+        "title": "第十一届京台青年创新创业大赛在京落幕",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-21/10682101.shtml",
+        "summary": "中新网北京8月21日电 (金志成)第十一届京台青年创新创业大赛决赛暨颁奖典礼21日在北京举行。两岸青年创业团队、专家学者、投资机构及产业界代表齐聚，围绕创新项目展示、产业合作、资源对接等展开交流。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260821/2531b7f7-5c10-462f-9680-675bd48e820f_zsite.jpg",
+        "publishedAt": "2026-08-21T13:57:10.000Z",
         "source": "中新网"
       },
       {
-        "title": "杭州拱墅发布“AI+文旅”方案 为运河装上“AI大脑”",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-21/10682006.shtml",
-        "summary": "中新网杭州8月21日电(孙琳茹)“如何激活大运河这一流动的文化遗产，AI是当下最具想象力的方式之一。”8月21日，杭州市拱墅区建设“AI+文旅先行区”新闻发布会在杭州大运河畔举行，《“AI＋文旅先行区”行动方案》(以下简称《行动方案》)正式发布。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260821/fd74fb07-683d-41ee-be41-2fcb73d2941d_zsite.jpeg",
-        "publishedAt": "2026-08-21T12:15:40.000Z",
+        "title": "大陆产业升级释放新机遇 两岸专家吁深化合作",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-21/10682100.shtml",
+        "summary": "中新网武汉8月21日电 (记者 张晓曦 马芙蓉)2026年两岸关系研讨会20日至21日在武汉举办。多位专家指出，大陆超大规模市场、完整产业体系和科技创新优势持续释放，为台胞台企参与大陆发展、深化两岸产业合作带来新机遇。",
+        "image": "",
+        "publishedAt": "2026-08-21T13:54:48.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
+        "title": "Two teenagers seriously injured after sword attack at Swedish school",
+        "link": "https://www.bbc.co.uk/news/articles/c3r0g7gj2n3o?at_medium=RSS&at_campaign=rss",
+        "summary": "Police say one man has been arrested, while several other local schools were locked down.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ef32/live/454712a0-9d7b-11f1-b109-879e35c24276.jpg",
+        "publishedAt": "2026-08-21T16:32:37.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Ebola vaccine trial to start in DR Congo as warning issued over speed of infections",
+        "link": "https://www.bbc.co.uk/news/articles/czxe9n0vxzdo?at_medium=RSS&at_campaign=rss",
+        "summary": "About half of the 2,500 recorded deaths from Ebola happened in the last 20 days, the WHO says.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/00e4/live/66300b20-9d5d-11f1-a291-b542ee92de7c.jpg",
+        "publishedAt": "2026-08-21T13:44:43.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Several people injured in sword attack at Swedish school",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9iM3JqQ3dMYUVTTFBLSUlzLUJoYzhSbUs5UllEYktwcTJhVVY5Y0RubGtKZXNpUGY0YmF3WklhN2xmT1NON0xGNEczbjdGcDdaY1lnSzdzV2RIYjBpNzJoVHVMeXFJVzZpVUxoVFFqdzJqdm9EbEVIaXln?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-08-21T13:16:15.000Z",
+        "source": "CNN"
+      },
+      {
         "title": "Rosenberg: Shortage of petrol but not patriotism as Russians feel growing impact of war",
         "link": "https://www.bbc.co.uk/news/articles/c4gknzgje7go?at_medium=RSS&at_campaign=rss",
         "summary": "Drivers are waiting hours in fuel queues, as Moscow prepares to celebrate Russian Flag Day.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/11c3/live/c7b37380-9d5a-11f1-b109-879e35c24276.jpg",
-        "publishedAt": "2026-08-21T11:31:51.000Z",
+        "publishedAt": "2026-08-21T13:07:00.000Z",
         "source": "BBC"
       },
       {
-        "title": "Eight killed in plane crash at remote Alaskan military site, air force says",
-        "link": "https://www.bbc.co.uk/news/articles/cj9dmw8183wo?at_medium=RSS&at_campaign=rss",
-        "summary": "It is unclear why the civilian-contracted plane was at the radar site on Alaska's south-west coast.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/88c1/live/024497b0-9d45-11f1-a137-179a8d1c790b.jpg",
-        "publishedAt": "2026-08-21T09:53:47.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Panama Canal to cut number of ships passing through due to El Niño",
-        "link": "https://www.bbc.co.uk/news/articles/cwyl0jkxxryo?at_medium=RSS&at_campaign=rss",
-        "summary": "The crucial waterway's operator says low rainfall caused by the ocean pattern had led to the decision.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/db42/live/677fca00-9d18-11f1-bd22-47519fb87a16.jpg",
-        "publishedAt": "2026-08-21T06:46:08.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Hong Kong's Tiananmen activists guilty in national security trial",
-        "link": "https://www.bbc.co.uk/news/articles/c1l10mdrld5o?at_medium=RSS&at_campaign=rss",
-        "summary": "Three activists were accused of inciting others to subvert state power under the China-introduced law.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d436/live/0a8eae40-9d0b-11f1-8a23-b9fc4847a391.jpg",
-        "publishedAt": "2026-08-21T05:47:32.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Mexican fishermen floating in cooler rescued after 5 days stranded at sea",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNODB5X0ZZRUR2cHJvNVprTE9KRXZaaWNycVE0ZTZYM2FfWVJzZS1KY3FvbjFIN2pnRWNadzRNSHdNdXVTNmtYRTg0MFFOOS1PVFBlQ3A0U1ZfeUZFcWltdjVxQzNjV1cxZlpYc2w0Q3pFRUpkQ2F4Q3NLUFNVTVZxb3E2VXN4cE0?oc=5",
+        "title": "After a sexual assault case went viral, China’s corporate drinking culture is under fire",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPOVd5bVA1a21KNmVTRlcwaHpuTF9WVzJ6NXIxcEJ4aWZJY2VyaFZBYnRnS0VYbG1VckoybHpNXzl1UHZsaUFiYjA0TVc2b3dwOTFXNzU4ZC14YkduckZPanBtbktIRUlHX2o3QUc1VHNHOEF1Nm1OSFdhSThiT3N5Z3JLVXJxQmFaZGFNUXFn?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-08-21T05:09:12.000Z",
+        "publishedAt": "2026-08-21T10:00:29.000Z",
         "source": "CNN"
       }
     ],
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-08-21",
+    "rotationLabel": "Curated Rotation · 2026-08-22",
     "sections": [
       {
         "id": "data-storage",
@@ -522,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-4",
-            "sectionId": "data-storage",
-            "title": "Dremel: Interactive Analysis of Web-Scale Datasets",
-            "authors": [
-              "Sergey Melnik",
-              "Andrey Gubarev",
-              "Jing Jing Long",
-              "Geoffrey Romer"
-            ],
-            "venue": "VLDB",
-            "year": 2010,
-            "quality": "顶会",
-            "categories": [
-              "analytics",
-              "columnar"
-            ],
-            "link": "https://research.google/pubs/pub36632/",
-            "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-5",
             "sectionId": "data-storage",
@@ -561,7 +540,7 @@
             ],
             "link": "https://arxiv.org/abs/2401.08281",
             "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-6",
@@ -583,6 +562,27 @@
             "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
             "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-1",
+            "sectionId": "data-storage",
+            "title": "The Log-Structured Merge-Tree (LSM-Tree)",
+            "authors": [
+              "Patrick O'Neil",
+              "Edward Cheng",
+              "Dieter Gawlick",
+              "Elizabeth O'Neil"
+            ],
+            "venue": "Acta Informatica",
+            "year": 1996,
+            "quality": "经典基础",
+            "categories": [
+              "storage",
+              "indexing"
+            ],
+            "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
+            "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -592,27 +592,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-5",
-            "sectionId": "computer-vision",
-            "title": "Segment Anything",
-            "authors": [
-              "Alexander Kirillov",
-              "Eric Mintun",
-              "Nikhila Ravi",
-              "Hanzi Mao"
-            ],
-            "venue": "ICCV",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "segmentation",
-              "foundation model"
-            ],
-            "link": "https://arxiv.org/abs/2304.02643",
-            "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-6",
             "sectionId": "computer-vision",
@@ -632,7 +611,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.07193",
             "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-1",
@@ -654,6 +633,27 @@
             "link": "https://arxiv.org/abs/1512.03385",
             "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-2",
+            "sectionId": "computer-vision",
+            "title": "End-to-End Object Detection with Transformers",
+            "authors": [
+              "Nicolas Carion",
+              "Francisco Massa",
+              "Gabriel Synnaeve",
+              "Nicolas Usunier"
+            ],
+            "venue": "ECCV",
+            "year": 2020,
+            "quality": "顶会",
+            "categories": [
+              "detection",
+              "transformer"
+            ],
+            "link": "https://arxiv.org/abs/2005.12872",
+            "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -663,27 +663,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-6",
-            "sectionId": "llm-memory",
-            "title": "MemoRAG: Moving towards Next-Gen RAG Via Memory-Inspired Knowledge Discovery",
-            "authors": [
-              "Rulin Shao",
-              "Yue Liu",
-              "Shuo Wang",
-              "Yichi Zhang"
-            ],
-            "venue": "arXiv",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "RAG",
-              "memory bank"
-            ],
-            "link": "https://arxiv.org/abs/2409.05591",
-            "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-1",
             "sectionId": "llm-memory",
@@ -703,7 +682,7 @@
             ],
             "link": "https://arxiv.org/abs/2005.11401",
             "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-2",
@@ -725,6 +704,27 @@
             "link": "https://arxiv.org/abs/2203.08913",
             "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-3",
+            "sectionId": "llm-memory",
+            "title": "RETRO: Improving Language Models by Retrieving From Trillions of Tokens",
+            "authors": [
+              "Sebastian Borgeaud",
+              "Arthur Mensch",
+              "Jordan Hoffmann",
+              "Trevor Cai"
+            ],
+            "venue": "DeepMind / arXiv",
+            "year": 2022,
+            "quality": "高影响力",
+            "categories": [
+              "retrieval",
+              "language model"
+            ],
+            "link": "https://arxiv.org/abs/2112.04426",
+            "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -734,28 +734,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-1",
-            "sectionId": "agents",
-            "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
-            "authors": [
-              "Shunyu Yao",
-              "Jeffrey Zhao",
-              "Dian Yu",
-              "Nan Du"
-            ],
-            "venue": "ICLR",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "agent",
-              "reasoning",
-              "tool use"
-            ],
-            "link": "https://arxiv.org/abs/2210.03629",
-            "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-2",
             "sectionId": "agents",
@@ -775,7 +753,7 @@
             ],
             "link": "https://arxiv.org/abs/2302.04761",
             "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-3",
@@ -796,6 +774,27 @@
             ],
             "link": "https://arxiv.org/abs/2304.03442",
             "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-4",
+            "sectionId": "agents",
+            "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+            "authors": [
+              "Guanzhi Wang",
+              "Yuqi Xie",
+              "Zixiang Zhou",
+              "Yujin Tang"
+            ],
+            "venue": "arXiv",
+            "year": 2023,
+            "quality": "高影响力",
+            "categories": [
+              "embodied agent",
+              "planning"
+            ],
+            "link": "https://arxiv.org/abs/2305.16291",
+            "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
             "trackLabel": "轮换精选"
           }
         ]
