@@ -1,36 +1,28 @@
 {
-  "generatedAt": "2026-08-22T12:56:36.628Z",
+  "generatedAt": "2026-08-22T16:35:56.476Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 28,
-      "weatherCode": 0,
-      "windSpeed": 5
+      "temperature": 26,
+      "weatherCode": 51,
+      "windSpeed": 6
     },
     "today": {
-      "date": "2026-08-22",
-      "weatherCode": 51,
-      "description": "毛毛雨",
-      "max": 31,
-      "min": 23,
-      "precipitationProbability": 78
+      "date": "2026-08-23",
+      "weatherCode": 96,
+      "description": "天气更新中",
+      "max": 34,
+      "min": 25,
+      "precipitationProbability": 84
     },
     "forecast": [
-      {
-        "date": "2026-08-22",
-        "weatherCode": 51,
-        "description": "毛毛雨",
-        "max": 31,
-        "min": 23,
-        "precipitationProbability": 78
-      },
       {
         "date": "2026-08-23",
         "weatherCode": 96,
         "description": "天气更新中",
         "max": 34,
         "min": 25,
-        "precipitationProbability": 94
+        "precipitationProbability": 84
       },
       {
         "date": "2026-08-24",
@@ -38,7 +30,7 @@
         "description": "阵雨",
         "max": 32,
         "min": 24,
-        "precipitationProbability": 84
+        "precipitationProbability": 85
       },
       {
         "date": "2026-08-25",
@@ -54,33 +46,50 @@
         "description": "毛毛雨",
         "max": 28,
         "min": 24,
-        "precipitationProbability": 96
+        "precipitationProbability": 76
+      },
+      {
+        "date": "2026-08-27",
+        "weatherCode": 80,
+        "description": "阵雨",
+        "max": 26,
+        "min": 22,
+        "precipitationProbability": 92
       }
     ]
   },
   "classicQuote": {
-    "id": "records-historical",
-    "text": "桃李不言，下自成蹊。",
-    "source": "《史记》",
-    "author": "司马迁",
-    "note": "真正有分量的作品，本身就会替你说话。"
+    "id": "chuci-seek",
+    "text": "路漫漫其修远兮，吾将上下而求索。",
+    "source": "《离骚》",
+    "author": "屈原",
+    "note": "长期主义最难，但也最值得。"
   },
   "bookExcerpt": {
-    "id": "remembrance-madeleine",
-    "text": "那一点点浸过茶水的点心，忽然把整个旧日时光都唤醒了，仿佛往昔并未消失，只是沉在心底等待一个气味。",
-    "book": "《追忆似水年华》",
-    "author": "马塞尔·普鲁斯特"
+    "id": "border-town-river",
+    "text": "月光如银子，无处不可照及，山上篁竹在月光下变成了一片黑色，身边草丛中虫声繁密如落雨。",
+    "book": "《边城》",
+    "author": "沈从文"
   },
   "featuredPlace": {
-    "id": "202608211600",
-    "title": "普通蓝灰蝶，德文郡，英格兰",
+    "id": "202608221600",
+    "title": "在处暑时节的村庄田野与寺庙佛塔，江阴市，江苏省，中国",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "天蓝色的翅膀",
-    "image": "https://www.bing.com/th?id=OHR.CommonBlue_ZH-CN8521430009_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E6%99%AE%E9%80%9A%E8%93%9D%E7%81%B0%E8%9D%B6&form=hpcapt&mkt=zh-cn"
+    "summary": "暑气渐消，金秋已至",
+    "image": "https://www.bing.com/th?id=OHR.EndofHeatY26_ZH-CN8936468848_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E5%A4%84%E6%9A%91%E8%8A%82%E6%B0%94&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202608221600",
+      "title": "在处暑时节的村庄田野与寺庙佛塔，江阴市，江苏省，中国",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "暑气渐消，金秋已至",
+      "image": "https://www.bing.com/th?id=OHR.EndofHeatY26_ZH-CN8936468848_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E5%A4%84%E6%9A%91%E8%8A%82%E6%B0%94&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202608211600",
       "title": "普通蓝灰蝶，德文郡，英格兰",
@@ -143,35 +152,34 @@
       "summary": "天鹅开启传奇之处",
       "image": "https://www.bing.com/th?id=OHR.RossErrillyRuins_ZH-CN9986322001_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E7%88%B1%E5%B0%94%E5%85%B0%E7%BD%97%E6%96%AF%C2%B7%E5%9F%83%E9%87%8C%E5%88%A9%E4%BF%AE%E9%81%93%E9%99%A2&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202608141600",
-      "title": "圣胡安县阿什斯利帕荒野地的奇岩柱，新墨西哥州，美国",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "绝妙的平衡术",
-      "image": "https://www.bing.com/th?id=OHR.ValleyDreams_ZH-CN9689713135_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E9%98%BF%E4%BB%80%E6%96%AF%E5%88%A9%E5%B8%95%E8%8D%92%E9%87%8E%E5%9C%B0&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-08-22",
-    "dateLabel": "8月22日",
+    "dateKey": "2026-08-23",
+    "dateLabel": "8月23日",
     "items": [
       {
-        "year": "2017",
-        "text": "受熱帶氣旋天鴿外圍下沉氣流影響，香港天文台總部在下午2時錄得36.6度高溫，是自1885年有紀錄以來最高溫，天水圍濕地公園更錄得39度高溫。",
-        "link": "https://zh.wikipedia.org/wiki/2017%E5%B9%B4"
+        "year": "2025",
+        "text": "2025年中華民國全國性公民投票（核三延役公投）、第11屆立法委員(7人)罷免案投票皆不通過。",
+        "link": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4"
       },
       {
-        "year": "2013",
-        "text": "因政治斗争而下台的前重庆市委书记、中国共产党中央政治局委员薄熙来以受贿、贪污、滥用职权的罪名在济南中级人民法院开庭审理。",
-        "link": "https://zh.wikipedia.org/wiki/2013%E5%B9%B4"
+        "year": "2023",
+        "text": "由印度空间研究组织研制的月球探测器月船3号在月球南极成功着陆，标志着印度成为继美国、苏联和中国后，第四个探测器在月球实现软着陆的国家，同时也是第一个探测器在月球南极附近成功着陆的国家。",
+        "link": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
+      {
+        "title": "世界人形机器人运动会北京开幕 上千台机器人亮相",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-22/10682489.shtml",
+        "summary": "中新社北京8月22日电 (记者 吕少威 陈杭 徐婧)22日晚，位于北京的国家速滑馆“冰丝带”星光闪耀，第二届世界人形机器人运动会在此拉开帷幕。上千台人形机器人精彩亮相，共同开启这一科技与体育交融的全球竞技盛会。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260822/0cd20351-ebf0-480d-b3e6-3892346b4180_zsite.jpg",
+        "publishedAt": "2026-08-22T15:07:20.000Z",
+        "source": "中新网"
+      },
       {
         "title": "应急管理部针对广西启动国家地质灾害四级应急响应",
         "link": "https://www.chinanews.com.cn/gn/2026/08-22/10682458.shtml",
@@ -203,59 +211,75 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260822/d456ebb2-a43b-41c6-a134-ae1298e9fd59_zsite.JPG",
         "publishedAt": "2026-08-22T11:15:23.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "国家防总、应急管理部针对福建启动防汛防台风四级应急响应",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-22/10682407.shtml",
-        "summary": "今年第20号台风“简拉维”(热带风暴级)已于8月22日下午在西北太平洋洋面上生成，预计其将以每小时5至10公里的速度向偏西方向缓慢移动，强度变化不大。受其影响，未来三天，福建省将有大到暴雨，局地大暴雨。",
-        "image": "",
-        "publishedAt": "2026-08-22T11:10:29.000Z",
-        "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "上海推进药学服务转型 搭建交流互鉴、比武练兵平台",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-22/10682455.shtml",
-        "summary": "中新网上海8月22日电 (记者 陈静)上海一家三甲医院的总药师吕迁洲22日接受记者采访时表示，如今，药师不仅仅在医院的发药窗口，而是走进门诊、病房，直接面向病患。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260822/28aefe29-34b9-45c5-bac0-cd76c766ad1c_zsite.jpg",
-        "publishedAt": "2026-08-22T12:50:21.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "最新研究：晚期肝癌患者先服药再手术或可得无瘤生存的机会",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-22/10682447.shtml",
-        "summary": "中新网上海8月22日电 (记者 陈静)肝细胞癌(以下简称“肝癌”)是严重威胁中国民众健康的一种恶性肿瘤。中国医学专家的一项最新研究结果率先表明，医生对药物系统治疗有效的晚期肝癌患者实施手术切除，可能给患者提供无瘤生存的机会。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260822/95f6b90e-cc07-4920-a798-e734b47df6dc_zsite.jpg",
-        "publishedAt": "2026-08-22T12:31:06.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "AI重塑创业单元 重庆“一人公司”如何叩响“未来之门”",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-22/10682446.shtml",
-        "summary": "中新网重庆8月22日电(黄维正)七夕氛围刚刚散去，重庆市两江新区海王星数字文创园星运OPC社区里，同声相应(重庆)人工智能科技有限公司这家“一人公司”却一点没闲。他们刚刚赶在七夕来临前，上线了两款小程序，一款做组织活动，一款做婚恋交友，计划在这几天利用校友会资源开启测试与市场投放。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260822/ef0f193c-3605-4f11-86be-057b8d311538_zsite.jpg",
-        "publishedAt": "2026-08-22T12:29:22.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "内部渠道免试代办教师资格证？警方：警惕诈骗！",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-22/10682438.shtml",
-        "summary": "近日，有个别不法分子在网络上散布虚假信息骗取钱财。他们称教师资格证可内部渠道免试拿证，证书官网可查。北京警方近期就打掉了一个以代办教师资格证为名实施诈骗的团伙，23人被刑拘。",
+        "title": "福建启动防台风四级应急响应 平潭所有客渡船停航",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-22/10682475.shtml",
+        "summary": "中新社福州8月22日电 (记者 张金川 张丽君)受今年第20号台风“简拉维”影响，福建省防汛抗旱指挥部22日15时启动防台风四级应急响应。",
         "image": "",
-        "publishedAt": "2026-08-22T12:06:14.000Z",
+        "publishedAt": "2026-08-22T13:40:02.000Z",
         "source": "中新网"
       },
       {
-        "title": "应对台风“简拉维” 福建启动防台风四级应急响应",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-22/10682431.shtml",
-        "summary": "中新网福州8月22日电 (记者 龙敏)台湾岛以东热带低压22日下午已加强为今年第20号台风“简拉维”，将影响福建。福建省防汛抗旱指挥部当天15时启动防台风四级应急响应。",
+        "title": "“蛋饼叔叔”看望患病男孩时几度哽咽 自掏腰包垫付善款助力治疗",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-22/10682470.shtml",
+        "summary": "中新网合肥8月22日电 (彭旭升 张俊 游蕾)“乖乖的，听爸爸妈妈的话，叔叔以后还会帮你，祝你早日康复。”站在病房里，被网友称作“蛋饼叔叔”的合肥摊主王贤黄，声音哽咽地对着孩子说。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260822/7ec27ebc-cc64-4173-9ef0-f7adc41695d0_zsite.jpg",
+        "publishedAt": "2026-08-22T12:58:33.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "从摩洛哥到郊区乡村 上海援外医生让大爱薪火相传",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-22/10682466.shtml",
+        "summary": "中新网上海8月22日电 (记者 陈静)22日，“健康小院·援摩洛哥医疗队员奉贤义诊基地”正式启用。上海市卫生健康委当日表示，将全力支持义诊基地建设，把义诊服务纳入援摩洛哥医疗队员出国前培训的必修科目以及队员回国后的常规活动，由上海市医事团体联合管理发展中心统筹安排，让这份大爱薪火相传、生生不息。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260822/21d22eea-dbc6-42f1-9840-7a21677b6d2b_zsite.jpg",
+        "publishedAt": "2026-08-22T12:56:19.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "受台风“紫檀”影响 国铁广州局调整部分列车开行方案",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-22/10682457.shtml",
+        "summary": "中新网广州8月22日电 (郭军 张晓敏 谢潮方)据中央气象台消息，受第19号台风“紫檀”和西南季风共同影响，海南岛、广西南部、广东、福建、台湾岛、浙江等地部分地区有大到暴雨，局地大暴雨到特大暴雨。为确保旅客列车运行安全，国铁广州局动态调整旅客列车开行方案。预计8月23日20时至24日8时，甬广高铁部...",
         "image": "",
-        "publishedAt": "2026-08-22T11:52:31.000Z",
+        "publishedAt": "2026-08-22T12:52:09.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "肺癌全程个案管理实践指南发布 破解“出院就脱管”困境",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-22/10682456.shtml",
+        "summary": "中新网长沙8月22日电 (付敬懿)中国抗癌协会个案管理专业委员会22日在长沙发布国内首部《整合医学-全程个案管理实践指南(肺癌篇)》。该指南填补了肺癌全程个案管理领域标准化空白，助力肺癌患者获得个性化、高效率、有温度的全周期医疗服务。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260822/c5274a68-41be-4e33-aa97-48858c2257cc_zsite.jpg",
+        "publishedAt": "2026-08-22T12:50:57.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
+      {
+        "title": "侨链全球开新局 第十二届侨交会收官",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-22/10682476.shtml",
+        "summary": "中新社深圳8月22日电 (记者 索有为)第十二届华人华侨产业交易会(简称“侨交会”)暨2026亚太产业合作与出海博览会22日在深圳落下帷幕，为期三天的展会累计入场专业观众3.5万人次，来自全球50多个国家和地区的境外采购商赴会对接。",
+        "image": "",
+        "publishedAt": "2026-08-22T13:50:45.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "（经济观察）算力也能“存”和“买” 中国探索“算力银行”“算力超市”",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-22/10682472.shtml",
+        "summary": "中新社北京8月22日电(记者 刘亮)中国工信部近期发文开展“普惠算力赋能中小企业发展”专项行动，首次明确提出探索“算力银行”和“算力超市”两大创新业务。",
+        "image": "",
+        "publishedAt": "2026-08-22T13:47:40.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "世界机器人大会观察：跳出炫技 埋头“干活”",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-22/10682469.shtml",
+        "summary": "中新社北京8月22日电 (记者 陈杭 徐婧)在正于北京举行的2026世界机器人大会上，机器人除了能后空翻、会弹琴、懂书法，还擅于埋头“干活”——机械臂完成点焊、弧焊等焊接作业，机器犬搭载水炮平台助力灭火，机器人模拟长者跌倒预警。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260822/552aac1e-0ec7-43f5-bde7-347098305525_zsite.jpeg",
+        "publishedAt": "2026-08-22T12:58:53.000Z",
+        "source": "中新网"
+      },
       {
         "title": "（粤港澳大湾区）“湾区明珠 双城海上游”新航线开通",
         "link": "https://www.chinanews.com.cn/cj/2026/08-22/10682464.shtml",
@@ -271,75 +295,59 @@
         "image": "",
         "publishedAt": "2026-08-22T12:16:33.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "（活力中国调研行）从“制造”到“智造” 西安高端装备跑出加速度",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-22/10682432.shtml",
-        "summary": "中新网西安8月22日电 题：从“制造”到“智造” 西安高端装备跑出加速度",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260822/108be78e-5308-4648-9f0a-7ac5b40cc881_zsite.jpeg",
-        "publishedAt": "2026-08-22T11:50:59.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "平陆运河三大枢纽实现双电源供电",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-22/10682427.shtml",
-        "summary": "中新网南宁8月22日电(陆冬琦 翟晋升 陆小娥)日前，平陆运河电力工程建设迎来历史性时刻——青年枢纽、企石枢纽第二回外部电源线路接续投运。至此，平陆运河三大核心枢纽全面实现双电源供电，标志着这条世纪工程正式装上“电力双引擎”，驶入通航倒计时的“全速冲刺阶段”。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260822/ad5a3e77-d273-4d8d-b418-953f7ce2c0f4_zsite.jpg",
-        "publishedAt": "2026-08-22T11:49:31.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "除了LABUBU和运气，泡泡玛特还有什么？",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-22/10682422.shtml",
-        "summary": "中新网8月22日电(左雨晴) 近日，泡泡玛特交出了2026年上半年的成绩单。",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/08/21/9fc24a9e2d024b9a8a6c060e4e202e91.jpg",
-        "publishedAt": "2026-08-22T11:38:00.000Z",
-        "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike",
-        "link": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
-        "summary": "Four people are still missing after Friday's attack which killed 16 and left 130 injured, including a number of children.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aa10/live/fa462fe0-9e1d-11f1-9834-b7317ffa53cf.png",
-        "publishedAt": "2026-08-22T12:36:28.000Z",
+        "title": "Carney faces crucial test after walking away from Trump's deal",
+        "link": "https://www.bbc.co.uk/news/articles/c3040pn8lmmo?at_medium=RSS&at_campaign=rss",
+        "summary": "The Canadian prime minister will have the sell his gamble that walking away from talks with the White House will be worth the consequences.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7965/live/5fe534d0-9e38-11f1-aed2-8d6da8d75094.jpg",
+        "publishedAt": "2026-08-22T16:20:51.000Z",
         "source": "BBC"
       },
       {
-        "title": "Canada says it will match US tariffs 'dollar for dollar' as trade talks break down",
-        "link": "https://www.bbc.co.uk/news/articles/cvgvyy4x2mvo?at_medium=RSS&at_campaign=rss",
-        "summary": "A new 50% levy on $20bn of Canadian imports comes into force after a last-minute breakdown in trade talks.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ef5d/live/88423690-9ddd-11f1-b109-879e35c24276.jpg",
-        "publishedAt": "2026-08-22T12:20:46.000Z",
+        "title": "Carney calls Trump's fresh tariffs a 'miscalculation' after trade talks collapse",
+        "link": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss",
+        "summary": "In a speech on Saturday morning, Prime Minister Mark Carney said Canada walked away from the negotiation table to protect its sovereignty.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/daa9/live/22262a40-9e43-11f1-bb45-576721ee33bb.jpg",
+        "publishedAt": "2026-08-22T16:05:04.000Z",
         "source": "BBC"
       },
       {
-        "title": "TikTok to pay $400m to US in one of largest child privacy settlements",
-        "link": "https://www.bbc.co.uk/news/articles/cwyr0l45xjro?at_medium=RSS&at_campaign=rss",
-        "summary": "The deal stems from a 2024 lawsuit alleging TikTok and its parent company ByteDance collected \"vast amounts of data\" on millions of users under the ag...",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5f31/live/0a64ce80-9e10-11f1-b109-879e35c24276.jpg",
-        "publishedAt": "2026-08-21T22:36:12.000Z",
+        "title": "Fourteen killed in strike on Myanmar monastery",
+        "link": "https://www.bbc.co.uk/news/articles/cqlxlvz01z1o?at_medium=RSS&at_campaign=rss",
+        "summary": "A rescue worker said the site had been struck twice as civilians gathered for a meditation retreat.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d5bc/live/b7226f80-9e22-11f1-ac9e-fff6c50f95cd.jpg",
+        "publishedAt": "2026-08-22T13:48:06.000Z",
         "source": "BBC"
       },
       {
-        "title": "One killed in sword attack at Swedish school",
-        "link": "https://www.bbc.co.uk/news/articles/c3r0g7gj2n3o?at_medium=RSS&at_campaign=rss",
-        "summary": "Officials say another three people were injured, and an 18-year-old male suspect shot and arrested.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ef32/live/454712a0-9d7b-11f1-b109-879e35c24276.jpg",
-        "publishedAt": "2026-08-21T21:03:24.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "In the city where Haitian deportees are being sent, locals say they’re not ready",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZ3kyejJ0Z29MWjFTS0Zrc3lRVW8xN0RtdXdPS2dyUkFUSHRBdDBka3dER0MzaXhmelhjbXY5ajFyb1AyOHB4MGtNd1dSc1BnLU9Ka2FVeFBIeHMtdXpKZlRacHBLUzZrZ2FPcmZkbFR0MjFtTXNJdXZITnNCemZvQkFLaWM?oc=5",
+        "title": "The US-Mexico cattle border is reopening. Not every American rancher is celebrating",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRkhjUndlXzZVbzkzbmZLZnhaU3Y3ald6Wl9sRi0xbWxnajRhYlUzUVJobDg4ZUxNemJ5S0RZNWk5aHpOTnBrLUkzR3lDdnpUUmdBbF9lMW9CVmZvcGZGRl9RU1BOV2poSnV1VEhwdURYdm9pZTh2bjZrbi1hOVlmQ2lfS2h3TVJtR05mMg?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-08-21T17:37:05.000Z",
+        "publishedAt": "2026-08-22T10:00:30.000Z",
+        "source": "CNN"
+      },
+      {
+        "title": "Marcos Rodríguez Pantoja, Spain’s “wolf boy of Sierra Morena,” dies aged 80",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQ1BqZVFOTTd4QkhDckxldzUzWko5V0Y1Rk9JT2t2bzMwbWNIVldsU3JSV01uUVFiU01oTnRubUtEakJPc1RncXRLYXpJdjU4TVNaNV9SbDJOVkpIUmRfLW12UHEwM2NMa0R0RVVTNmxlTVZ3d0pVeWZ6aENCNVhQbEt3SUw2UE16NF9RVGpuTTlNbG52cGc?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-08-22T08:00:23.000Z",
         "source": "CNN"
       }
     ],
     "worldBusiness": [
+      {
+        "title": "How the US and Middle East allies flipped the oil script on Iran",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9YTC0xeHFnRksyMW1Za2NzTTNEdGNRTkpfRXIxNkppdklHTEpDUUd2QXdZd3EzbXB3SVpuVkFsVkUwNHMweVNnNkYwVHZfM3pyM3BnLXp2eTRjeFFPbXVTTmxjY0ZqdlgwSWRlUm9taTdoUFU?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-08-22T09:00:29.000Z",
+        "source": "CNN"
+      },
       {
         "title": "'We have more work to do', says Canada negotiator as US trade deadline looms",
         "link": "https://www.bbc.co.uk/news/articles/czjlr0evy0do?at_medium=RSS&at_campaign=rss",
@@ -362,14 +370,6 @@
         "summary": "",
         "image": "",
         "publishedAt": "2026-08-21T19:01:22.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "Marc Stad buying controlling stake in Minnesota Timberwolves, Lynx for $4.5 billion",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSDJwbXp5SE5WU1ZhWXFOTnphWkVYQ1JKb2k1bFZvWmJUSTZjTjZza005bGZKX2Q5clo5NDZpZzVUMFBXd1FNTTI3d1RoTjgzXzQ4UzZNYXJnSWY3ei04SVRiRzhNNVJ0RDU2aGZjdnhGWWtHMTZRUy1ORzlmU2NvcjlGcU1WZGlDcnc?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-08-21T18:50:40.000Z",
         "source": "CNN"
       },
       {
@@ -425,6 +425,14 @@
     ],
     "domestic": [
       {
+        "title": "世界人形机器人运动会北京开幕 上千台机器人亮相",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-22/10682489.shtml",
+        "summary": "中新社北京8月22日电 (记者 吕少威 陈杭 徐婧)22日晚，位于北京的国家速滑馆“冰丝带”星光闪耀，第二届世界人形机器人运动会在此拉开帷幕。上千台人形机器人精彩亮相，共同开启这一科技与体育交融的全球竞技盛会。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260822/0cd20351-ebf0-480d-b3e6-3892346b4180_zsite.jpg",
+        "publishedAt": "2026-08-22T15:07:20.000Z",
+        "source": "中新网"
+      },
+      {
         "title": "应急管理部针对广西启动国家地质灾害四级应急响应",
         "link": "https://www.chinanews.com.cn/gn/2026/08-22/10682458.shtml",
         "summary": "据气象部门预测，受今年第19号台风“紫檀”、第20号台风“简拉维”的共同影响，8月22日至25日，广西南部部分地区有大到暴雨，其中广西西南部局地大暴雨至特大暴雨。经与自然资源部联合会商研判，广西南部部分地区发生地质灾害的风险高。根据《国家突发地质灾害应急预案》及有关规定，应急管理部于8月22日针对广...",
@@ -455,55 +463,47 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260822/d456ebb2-a43b-41c6-a134-ae1298e9fd59_zsite.JPG",
         "publishedAt": "2026-08-22T11:15:23.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "国家防总、应急管理部针对福建启动防汛防台风四级应急响应",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-22/10682407.shtml",
-        "summary": "今年第20号台风“简拉维”(热带风暴级)已于8月22日下午在西北太平洋洋面上生成，预计其将以每小时5至10公里的速度向偏西方向缓慢移动，强度变化不大。受其影响，未来三天，福建省将有大到暴雨，局地大暴雨。",
-        "image": "",
-        "publishedAt": "2026-08-22T11:10:29.000Z",
-        "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike",
-        "link": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
-        "summary": "Four people are still missing after Friday's attack which killed 16 and left 130 injured, including a number of children.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aa10/live/fa462fe0-9e1d-11f1-9834-b7317ffa53cf.png",
-        "publishedAt": "2026-08-22T12:36:28.000Z",
+        "title": "Carney faces crucial test after walking away from Trump's deal",
+        "link": "https://www.bbc.co.uk/news/articles/c3040pn8lmmo?at_medium=RSS&at_campaign=rss",
+        "summary": "The Canadian prime minister will have the sell his gamble that walking away from talks with the White House will be worth the consequences.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7965/live/5fe534d0-9e38-11f1-aed2-8d6da8d75094.jpg",
+        "publishedAt": "2026-08-22T16:20:51.000Z",
         "source": "BBC"
       },
       {
-        "title": "Canada says it will match US tariffs 'dollar for dollar' as trade talks break down",
-        "link": "https://www.bbc.co.uk/news/articles/cvgvyy4x2mvo?at_medium=RSS&at_campaign=rss",
-        "summary": "A new 50% levy on $20bn of Canadian imports comes into force after a last-minute breakdown in trade talks.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ef5d/live/88423690-9ddd-11f1-b109-879e35c24276.jpg",
-        "publishedAt": "2026-08-22T12:20:46.000Z",
+        "title": "Carney calls Trump's fresh tariffs a 'miscalculation' after trade talks collapse",
+        "link": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss",
+        "summary": "In a speech on Saturday morning, Prime Minister Mark Carney said Canada walked away from the negotiation table to protect its sovereignty.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/daa9/live/22262a40-9e43-11f1-bb45-576721ee33bb.jpg",
+        "publishedAt": "2026-08-22T16:05:04.000Z",
         "source": "BBC"
       },
       {
-        "title": "TikTok to pay $400m to US in one of largest child privacy settlements",
-        "link": "https://www.bbc.co.uk/news/articles/cwyr0l45xjro?at_medium=RSS&at_campaign=rss",
-        "summary": "The deal stems from a 2024 lawsuit alleging TikTok and its parent company ByteDance collected \"vast amounts of data\" on millions of users under the ag...",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5f31/live/0a64ce80-9e10-11f1-b109-879e35c24276.jpg",
-        "publishedAt": "2026-08-21T22:36:12.000Z",
+        "title": "Fourteen killed in strike on Myanmar monastery",
+        "link": "https://www.bbc.co.uk/news/articles/cqlxlvz01z1o?at_medium=RSS&at_campaign=rss",
+        "summary": "A rescue worker said the site had been struck twice as civilians gathered for a meditation retreat.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d5bc/live/b7226f80-9e22-11f1-ac9e-fff6c50f95cd.jpg",
+        "publishedAt": "2026-08-22T13:48:06.000Z",
         "source": "BBC"
       },
       {
-        "title": "One killed in sword attack at Swedish school",
-        "link": "https://www.bbc.co.uk/news/articles/c3r0g7gj2n3o?at_medium=RSS&at_campaign=rss",
-        "summary": "Officials say another three people were injured, and an 18-year-old male suspect shot and arrested.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ef32/live/454712a0-9d7b-11f1-b109-879e35c24276.jpg",
-        "publishedAt": "2026-08-21T21:03:24.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "In the city where Haitian deportees are being sent, locals say they’re not ready",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZ3kyejJ0Z29MWjFTS0Zrc3lRVW8xN0RtdXdPS2dyUkFUSHRBdDBka3dER0MzaXhmelhjbXY5ajFyb1AyOHB4MGtNd1dSc1BnLU9Ka2FVeFBIeHMtdXpKZlRacHBLUzZrZ2FPcmZkbFR0MjFtTXNJdXZITnNCemZvQkFLaWM?oc=5",
+        "title": "The US-Mexico cattle border is reopening. Not every American rancher is celebrating",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRkhjUndlXzZVbzkzbmZLZnhaU3Y3ald6Wl9sRi0xbWxnajRhYlUzUVJobDg4ZUxNemJ5S0RZNWk5aHpOTnBrLUkzR3lDdnpUUmdBbF9lMW9CVmZvcGZGRl9RU1BOV2poSnV1VEhwdURYdm9pZTh2bjZrbi1hOVlmQ2lfS2h3TVJtR05mMg?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-08-21T17:37:05.000Z",
+        "publishedAt": "2026-08-22T10:00:30.000Z",
+        "source": "CNN"
+      },
+      {
+        "title": "Marcos Rodríguez Pantoja, Spain’s “wolf boy of Sierra Morena,” dies aged 80",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQ1BqZVFOTTd4QkhDckxldzUzWko5V0Y1Rk9JT2t2bzMwbWNIVldsU3JSV01uUVFiU01oTnRubUtEakJPc1RncXRLYXpJdjU4TVNaNV9SbDJOVkpIUmRfLW12UHEwM2NMa0R0RVVTNmxlTVZ3d0pVeWZ6aENCNVhQbEt3SUw2UE16NF9RVGpuTTlNbG52cGc?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-08-22T08:00:23.000Z",
         "source": "CNN"
       }
     ],
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-08-22",
+    "rotationLabel": "Curated Rotation · 2026-08-23",
     "sections": [
       {
         "id": "data-storage",
@@ -522,26 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-5",
-            "sectionId": "data-storage",
-            "title": "The FAISS Library",
-            "authors": [
-              "Jeff Johnson",
-              "Matthijs Douze",
-              "Herve Jegou"
-            ],
-            "venue": "IEEE T-BD",
-            "year": 2021,
-            "quality": "高影响力",
-            "categories": [
-              "vector search",
-              "ANN"
-            ],
-            "link": "https://arxiv.org/abs/2401.08281",
-            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-6",
             "sectionId": "data-storage",
@@ -561,7 +541,7 @@
             ],
             "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
             "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-1",
@@ -583,6 +563,27 @@
             "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
             "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-2",
+            "sectionId": "data-storage",
+            "title": "Bigtable: A Distributed Storage System for Structured Data",
+            "authors": [
+              "Fay Chang",
+              "Jeffrey Dean",
+              "Sanjay Ghemawat",
+              "Wilson C. Hsieh"
+            ],
+            "venue": "OSDI",
+            "year": 2006,
+            "quality": "顶会",
+            "categories": [
+              "distributed systems",
+              "database"
+            ],
+            "link": "https://research.google/pubs/pub27898/",
+            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -592,27 +593,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-6",
-            "sectionId": "computer-vision",
-            "title": "DINOv2: Learning Robust Visual Features without Supervision",
-            "authors": [
-              "Maxime Oquab",
-              "Timothée Darcet",
-              "Théo Moutakanni",
-              "Huy V. Vo"
-            ],
-            "venue": "arXiv / Meta",
-            "year": 2023,
-            "quality": "高影响力",
-            "categories": [
-              "self-supervised",
-              "representation"
-            ],
-            "link": "https://arxiv.org/abs/2304.07193",
-            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-1",
             "sectionId": "computer-vision",
@@ -632,7 +612,7 @@
             ],
             "link": "https://arxiv.org/abs/1512.03385",
             "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-2",
@@ -654,6 +634,27 @@
             "link": "https://arxiv.org/abs/2005.12872",
             "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-3",
+            "sectionId": "computer-vision",
+            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+            "authors": [
+              "Alexey Dosovitskiy",
+              "Lucas Beyer",
+              "Alexander Kolesnikov",
+              "Dirk Weissenborn"
+            ],
+            "venue": "ICLR",
+            "year": 2021,
+            "quality": "顶会",
+            "categories": [
+              "vision transformer",
+              "classification"
+            ],
+            "link": "https://arxiv.org/abs/2010.11929",
+            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -663,27 +664,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-1",
-            "sectionId": "llm-memory",
-            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
-            "authors": [
-              "Patrick Lewis",
-              "Ethan Perez",
-              "Aleksandra Piktus",
-              "Fabio Petroni"
-            ],
-            "venue": "NeurIPS",
-            "year": 2020,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "retrieval"
-            ],
-            "link": "https://arxiv.org/abs/2005.11401",
-            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-2",
             "sectionId": "llm-memory",
@@ -703,7 +683,7 @@
             ],
             "link": "https://arxiv.org/abs/2203.08913",
             "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-3",
@@ -725,6 +705,27 @@
             "link": "https://arxiv.org/abs/2112.04426",
             "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-4",
+            "sectionId": "llm-memory",
+            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+            "authors": [
+              "Akari Asai",
+              "Zequn Zhang",
+              "Avirup Sil",
+              "Hannaneh Hajishirzi"
+            ],
+            "venue": "ICLR",
+            "year": 2024,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "self-reflection"
+            ],
+            "link": "https://arxiv.org/abs/2310.11511",
+            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -734,27 +735,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-2",
-            "sectionId": "agents",
-            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
-            "authors": [
-              "Timo Schick",
-              "Jane Dwivedi-Yu",
-              "Roberta Dessì",
-              "Ari Holtzman"
-            ],
-            "venue": "NeurIPS",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "tool use",
-              "agent"
-            ],
-            "link": "https://arxiv.org/abs/2302.04761",
-            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-3",
             "sectionId": "agents",
@@ -774,7 +754,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.03442",
             "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-4",
@@ -795,6 +775,27 @@
             ],
             "link": "https://arxiv.org/abs/2305.16291",
             "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-5",
+            "sectionId": "agents",
+            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+            "authors": [
+              "Qingyun Wu",
+              "Gagan Bansal",
+              "Jiaqi Zhang",
+              "Yiran Wu"
+            ],
+            "venue": "COLM",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "multi-agent",
+              "framework"
+            ],
+            "link": "https://arxiv.org/abs/2308.08155",
+            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
             "trackLabel": "轮换精选"
           }
         ]
