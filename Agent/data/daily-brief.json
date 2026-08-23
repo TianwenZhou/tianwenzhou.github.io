@@ -1,29 +1,21 @@
 {
-  "generatedAt": "2026-08-23T12:58:09.636Z",
+  "generatedAt": "2026-08-23T16:37:35.268Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 28,
-      "weatherCode": 95,
-      "windSpeed": 3
+      "temperature": 25,
+      "weatherCode": 96,
+      "windSpeed": 4
     },
     "today": {
-      "date": "2026-08-23",
+      "date": "2026-08-24",
       "weatherCode": 96,
       "description": "天气更新中",
-      "max": 31,
-      "min": 25,
+      "max": 30,
+      "min": 23,
       "precipitationProbability": 100
     },
     "forecast": [
-      {
-        "date": "2026-08-23",
-        "weatherCode": 96,
-        "description": "天气更新中",
-        "max": 31,
-        "min": 25,
-        "precipitationProbability": 100
-      },
       {
         "date": "2026-08-24",
         "weatherCode": 96,
@@ -46,7 +38,7 @@
         "description": "小雨",
         "max": 27,
         "min": 24,
-        "precipitationProbability": 82
+        "precipitationProbability": 67
       },
       {
         "date": "2026-08-27",
@@ -54,33 +46,50 @@
         "description": "小雨",
         "max": 24,
         "min": 20,
-        "precipitationProbability": 86
+        "precipitationProbability": 80
+      },
+      {
+        "date": "2026-08-28",
+        "weatherCode": 81,
+        "description": "强阵雨",
+        "max": 23,
+        "min": 18,
+        "precipitationProbability": 98
       }
     ]
   },
   "classicQuote": {
-    "id": "chuci-seek",
-    "text": "路漫漫其修远兮，吾将上下而求索。",
-    "source": "《离骚》",
-    "author": "屈原",
-    "note": "长期主义最难，但也最值得。"
+    "id": "analects-learning",
+    "text": "学而不思则罔，思而不学则殆。",
+    "source": "《论语》",
+    "author": "孔子",
+    "note": "提醒自己既要输入，也要沉淀，不要只忙不想。"
   },
   "bookExcerpt": {
-    "id": "border-town-river",
-    "text": "月光如银子，无处不可照及，山上篁竹在月光下变成了一片黑色，身边草丛中虫声繁密如落雨。",
-    "book": "《边城》",
-    "author": "沈从文"
+    "id": "fortress-besieged-night",
+    "text": "夜仿佛纸浸了油，变成半透明体；它给太阳拥抱住了，分不出身来，也许是给太阳溶了，所以夕照晚霞隐褪后的夜色也带着酡红。",
+    "book": "《围城》",
+    "author": "钱钟书"
   },
   "featuredPlace": {
-    "id": "202608221600",
-    "title": "在处暑时节的村庄田野与寺庙佛塔，江阴市，江苏省，中国",
+    "id": "202608231600",
+    "title": "布鲁克林大桥，纽约市，美国",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "暑气渐消，金秋已至",
-    "image": "https://www.bing.com/th?id=OHR.EndofHeatY26_ZH-CN8936468848_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E5%A4%84%E6%9A%91%E8%8A%82%E6%B0%94&form=hpcapt&mkt=zh-cn"
+    "summary": "跨越历史",
+    "image": "https://www.bing.com/th?id=OHR.BKBridge_ZH-CN3870511222_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E5%B8%83%E9%B2%81%E5%85%8B%E6%9E%97%E5%A4%A7%E6%A1%A5&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202608231600",
+      "title": "布鲁克林大桥，纽约市，美国",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "跨越历史",
+      "image": "https://www.bing.com/th?id=OHR.BKBridge_ZH-CN3870511222_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E5%B8%83%E9%B2%81%E5%85%8B%E6%9E%97%E5%A4%A7%E6%A1%A5&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202608221600",
       "title": "在处暑时节的村庄田野与寺庙佛塔，江阴市，江苏省，中国",
@@ -143,119 +152,134 @@
       "summary": "珊瑚礁上的黄金地段",
       "image": "https://www.bing.com/th?id=OHR.CabilaoClowns_ZH-CN0147033898_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E7%9C%BC%E6%96%91%E5%8F%8C%E9%94%AF%E9%B1%BC&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202608151600",
-      "title": "戈尔韦郡罗斯埃里利方济各会修道院遗址，康诺特省，爱尔兰",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "天鹅开启传奇之处",
-      "image": "https://www.bing.com/th?id=OHR.RossErrillyRuins_ZH-CN9986322001_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E7%88%B1%E5%B0%94%E5%85%B0%E7%BD%97%E6%96%AF%C2%B7%E5%9F%83%E9%87%8C%E5%88%A9%E4%BF%AE%E9%81%93%E9%99%A2&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-08-23",
-    "dateLabel": "8月23日",
+    "dateKey": "2026-08-24",
+    "dateLabel": "8月24日",
     "items": [
       {
-        "year": "2025",
-        "text": "2025年中華民國全國性公民投票（核三延役公投）、第11屆立法委員(7人)罷免案投票皆不通過。",
-        "link": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4"
+        "year": "2023",
+        "text": "葉夫根尼·普里格津及德米特里·烏特金等瓦格納集團領導人據稱在俄羅斯特維爾州庫任基諾飛機失事中身亡。",
+        "link": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4"
       },
       {
         "year": "2023",
-        "text": "由印度空间研究组织研制的月球探测器月船3号在月球南极成功着陆，标志着印度成为继美国、苏联和中国后，第四个探测器在月球实现软着陆的国家，同时也是第一个探测器在月球南极附近成功着陆的国家。",
-        "link": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4"
+        "text": "日本福岛第一核电厂开始向太平洋排放核污水。",
+        "link": "https://zh.wikipedia.org/wiki/%E7%A6%8F%E5%B3%B6%E7%AC%AC%E4%B8%80%E6%A0%B8%E9%9B%BB%E5%BB%A0"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "覃卫国任合肥市委书记",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-23/10682820.shtml",
-        "summary": "中新网合肥8月23日电(记者 赵强)据安徽省委组织部23日消息称，日前安徽省委决定：覃卫国同志任合肥市委书记。",
+        "title": "桂台两地青少年以球为媒叙情谊",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-23/10682857.shtml",
+        "summary": "中新社南宁8月23日电 (俞靖)2026“桂花杯”暨第九届“海花杯”桂台青少年足球友谊赛(南宁站)23日在南宁市开赛。来自台湾的足球少年与广西球员齐聚绿茵场，以球会友、增进情谊。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260823/540cdc69-df53-4924-b617-f8f8999b2f8c_zsite.jpg",
+        "publishedAt": "2026-08-23T14:44:12.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "二十五载汉语为桥 五洲青年厦门逐冠",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-23/10682855.shtml",
+        "summary": "中新社厦门8月23日电 (吴冠标)第25届“汉语桥”世界大学生中文比赛全球总决赛23日在厦门举行，德国选手黎维获全球总冠军。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260823/d74e6c7b-1e1b-4332-8b29-023f47f3ba57_zsite.jpg",
+        "publishedAt": "2026-08-23T14:39:02.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "嫦娥七号任务不满足发射条件 不能在今年预定窗口实施",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-23/10682844.shtml",
+        "summary": "中新社海南文昌8月23日电 据中国载人航天工程办公室23日消息，本着稳妥可靠、万无一失的原则，经综合研判，嫦娥七号任务不满足发射条件，不能在今年预定窗口实施。(完)",
         "image": "",
-        "publishedAt": "2026-08-23T12:44:45.000Z",
+        "publishedAt": "2026-08-23T13:33:38.000Z",
         "source": "中新网"
       },
       {
-        "title": "台湾南部强降雨致271件淹水灾情 多地24日停班停课",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-23/10682814.shtml",
-        "summary": "中新社台北8月23日电 (记者 朱贺)受西南风偏强及低压带影响，台湾南部迎来持续降雨，截至23日17时，全台累计发生271件淹水灾情。高雄市、台南市、屏东县宣布24日停止上班上课。",
+        "title": "中国多部门指导地方快速处置“白菜收购环节蘸取甲醛溶液”问题",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-23/10682835.shtml",
+        "summary": "中新社北京8月23日电 (记者 刘亮)中国国家市场监管总局23日公布，针对舆论关注的河北省张家口市康保县“白菜收购环节蘸取甲醛溶液”问题，中国国务院食安办、农业农村部、国家市场监管总局高度重视，第一时间指导属地调查核实，依法从严从快处置，对涉事白菜流向进行追查，严防问题产品流入市场。",
         "image": "",
-        "publishedAt": "2026-08-23T12:34:00.000Z",
+        "publishedAt": "2026-08-23T13:11:29.000Z",
         "source": "中新网"
       },
       {
-        "title": "覃卫国任合肥市委书记",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-23/10682815.shtml",
-        "summary": "日前省委决定：覃卫国同志任合肥市委书记。",
-        "image": "",
-        "publishedAt": "2026-08-23T12:32:28.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "侧记：一张跨越海峡的青年创业“名片”",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-23/10682811.shtml",
-        "summary": "中新网8月23日电 (记者 李柏涛 徐峻杰 实习生 胡叶羽)“我把这次的参赛经历，看作自己的一张‘名片’。”21日，第十一届京台青年创新创业大赛决赛暨颁奖典礼在北京圆满落幕。上届大赛斩获冠军的台青连唯证在分享自己的参赛经历时感慨道，“它不仅仅是一场比赛，更是一个连接两岸创业青年、产业资源、投资机构和...",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/08/23/15e91e2afd764d3ba2d74a9aa189474c.jpg",
-        "publishedAt": "2026-08-23T12:31:26.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "微视频｜此情寄山水",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-23/10682807.shtml",
-        "summary": "视频：微视频｜此情寄山水来源：央视网",
-        "image": "https://poss-videocloud.cns.com.cn/oss/2026/08/23/chinanews/MEIZI_YUNSHI/onair/36E4E9C6E1BC4FA2B3308C433E93363A.mp4",
-        "publishedAt": "2026-08-23T12:19:40.000Z",
+        "title": "“王阳明与九华山——2026中华优秀传统文化浸润佛教”学术研讨会在九华山举行",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-23/10682829.shtml",
+        "summary": "中新网安徽池州8月23日电 “王阳明与九华山——2026中华优秀传统文化浸润佛教”学术研讨会21日在安徽池州九华山举行，相关领域专家学者与佛教界代表人士共百余人出席。安徽省民宗委和池州市委统战部负责同志出席开幕式并致辞。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260823/36625aa8-1999-4181-a35a-d64d550c52b7_zsite.jpeg",
+        "publishedAt": "2026-08-23T12:58:56.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "园区治理难题何解？专家建言规则更加清晰可预期",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-23/10682826.shtml",
-        "summary": "中新网北京8月23日电 题：园区治理难题何解？专家建言规则更加清晰可预期",
+        "title": "“紫檀”造成广西10条河流15个站超警 紧急转移安置8087人",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-23/10682867.shtml",
+        "summary": "受今年第19号台风“紫檀”影响，广西多地出现暴雨到大暴雨、局地特大暴雨，多条河流超警戒水位，防城港市、崇左市等部分乡镇遭遇洪水险情。",
         "image": "",
-        "publishedAt": "2026-08-23T12:57:54.000Z",
+        "publishedAt": "2026-08-23T15:35:40.000Z",
         "source": "中新网"
       },
       {
-        "title": "防汛关键期叠加暑期出游高峰 如何保障游客游玩安全？",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-23/10682803.shtml",
-        "summary": "焦点访谈｜防汛关键期叠加暑期出游高峰 如何保障游客游玩安全？",
+        "title": "广西南宁市郁江防洪四级应急响应提升为三级应急响应",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-23/10682865.shtml",
+        "summary": "8月23日，记者从广西南宁市应急管理委员会了解到，8月23日20时，邕江南宁水文站水位已达71.41米，预计8月24日上午郁江南宁城区河段将出现超警戒水位(73.0米)的洪水。",
         "image": "",
-        "publishedAt": "2026-08-23T12:15:51.000Z",
+        "publishedAt": "2026-08-23T14:58:45.000Z",
         "source": "中新网"
       },
       {
-        "title": "中国动物学会第27届学术年会暨理事会扩大会议在成都开幕",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-23/10682800.shtml",
-        "summary": "中新网成都8月23日电 (王利文 罗梅歌)中国动物学会第27届学术年会暨理事会扩大会议23日在成都开幕。该活动由中国动物学会主办，中国科学院成都生物研究所、西华师范大学共同承办，来自全国高校、科研院所及相关单位的1000余名动物学领域专家学者、科技工作者和青年代表齐聚蓉城，交流动物学学科前沿最新研究...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260823/718af227-b00e-46e2-8d98-01c00580f832_zsite.jpg",
-        "publishedAt": "2026-08-23T12:08:41.000Z",
+        "title": "“赛考斯”与殷玉珍重逢：时隔26年的拥抱",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-23/10682854.shtml",
+        "summary": "中新社内蒙古鄂尔多斯8月23日电 题：“赛考斯”与殷玉珍重逢：时隔26年的拥抱",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260823/a159edd8-f824-4cc6-a3be-885df28ea01a_zsite.jpg",
+        "publishedAt": "2026-08-23T14:38:10.000Z",
         "source": "中新网"
       },
       {
-        "title": "2026湖南旅博会闭幕 数融文旅绘就潇湘发展新图景",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-23/10682798.shtml",
-        "summary": "中新网长沙8月23日电(向一鹏)23日，为期3天的第五届马栏山数字文化产业嘉年华与2026湖南文化旅游产业博览会(简称“旅博会”)在长沙闭幕。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260823/27ff5cca-695d-4fd2-8eb9-df1daf2ab3f9_zsite.jpg",
-        "publishedAt": "2026-08-23T12:08:07.000Z",
+        "title": "现场直击：见到赛考斯，殷玉珍练了很久的英文，一句也没能说出口",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-23/10682849.shtml",
+        "summary": "8月23日下午，中国“治沙劳模”殷玉珍早早来到内蒙古鄂尔多斯伊金霍洛国际机场，等待迎接一位阔别26年的美国故人。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/08/23/64d77142368045999b4c6dea5133118c.jpg",
+        "publishedAt": "2026-08-23T13:53:59.000Z",
         "source": "中新网"
       },
       {
-        "title": "探访西吉龙王坝：苦瘠旱塬升腾乡村新烟火",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-23/10682775.shtml",
-        "summary": "中新网宁夏西吉8月23日电 题：探访西吉龙王坝：苦瘠旱塬升腾乡村新烟火",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260823/fedfcbeb-7aa3-4b52-8a79-d60fb680b9d2_zsite.jpeg",
-        "publishedAt": "2026-08-23T11:14:08.000Z",
+        "title": "云南凤庆泥石流和滑坡灾害：已致2人遇难4人失联",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-23/10682846.shtml",
+        "summary": "中新网昆明8月23日电 (记者 缪超)记者23日晚从云南省临沧市凤庆县政府新闻办公室获悉，8月23日凌晨1时至8时，凤庆县凤山镇遭遇持续性强降雨天气，安石村诱发泥石流灾害，造成2名群众失联；水箐村诱发滑坡灾害，造成4名群众失联。",
+        "image": "",
+        "publishedAt": "2026-08-23T13:37:08.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
+      {
+        "title": "从凭经验到“慧”种田 广西蔗田里算出产业“甜账本”",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-23/10682843.shtml",
+        "summary": "中新网广西崇左8月23日电(涂丽莎 陈沿佑)秋日时节，广西崇左市扶绥县渠黎镇甜蜜之光现代甘蔗产业园满目青绿。桂糖44号、云蔗081609、桂糖76号、中糖3号、中辐1号等甘蔗品种长势喜人，大多数蔗株高度超3米。园区采用的多品种轮作、分区种植方式，保障了这片土地长期稳产与生态韧性。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260823/1df8d5a7-0b86-457e-8901-4272ef3fa4cc_zsite.jpg",
+        "publishedAt": "2026-08-23T13:29:26.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "光伏板下奶牛“享清凉” 中国多地竞逐“光伏+”新赛道",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-23/10682841.shtml",
+        "summary": "中新网合肥8月23日电(江婉琪 赵强)在安徽省蚌埠市五河县朱顶镇，一些牛舍屋顶上铺满了深蓝色光伏板，正静静地把阳光转化为电流。与此同时，舍内奶牛正埋头啃食饲料。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260823/ab68fe1a-1f8d-4ff5-bc36-aefd9d4f9459_zsite.JPG",
+        "publishedAt": "2026-08-23T13:27:34.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "破题具身智能“数据荒” 北京中关村机器人“训练基地”揭秘",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-23/10682837.shtml",
+        "summary": "中新网北京8月23日电 题：破题具身智能“数据荒” 北京中关村机器人“训练基地”揭秘",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260823/61622563-e4f0-4956-be68-3485e8de234d_zsite.jpg",
+        "publishedAt": "2026-08-23T13:13:47.000Z",
+        "source": "中新网"
+      },
       {
         "title": "三部门指导地方快速处置“白菜收购环节蘸取甲醛溶液”问题",
         "link": "https://www.chinanews.com.cn/cj/2026/08-23/10682818.shtml",
@@ -271,72 +295,48 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260823/adca7b32-add5-4ad3-8546-ceefa429ee53_zsite.jpg",
         "publishedAt": "2026-08-23T12:43:25.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "中钢协：继续推动钢铁剩余产能全面完成超低排放改造",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-23/10682822.shtml",
-        "summary": "中新网北京8月23日电 (记者 阮煜琳)中国钢铁工业协会消息，河钢集团有限公司党委书记、董事长刘键就任新一任钢协会长。",
-        "image": "",
-        "publishedAt": "2026-08-23T12:42:51.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "报告显示中国CAD市场在AI驱动下延续增长",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-23/10682795.shtml",
-        "summary": "中新网北京8月23日电 (记者 张素)CAD(计算机辅助设计)软件是研发设计类工业软件的核心，利用计算机图形设备辅助设计人员开展产品设计，精准完成从概念构思到原型设计的数字化建模。近年来，全球CAD市场保持稳健增长，中国CAD市场增速高于全球平均，国产厂商份额持续提升。",
-        "image": "",
-        "publishedAt": "2026-08-23T12:07:03.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "“词元”像商品一样买卖 解码AI时代的“前店后厂”如何运转",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-23/10682781.shtml",
-        "summary": "随着人工智能大模型加速落地，词元时代到来，全国各地掀起布局热潮——从词元工厂到词元超市，从数据标注基地到AI模型工场，各类新业态层出不穷。陕西今年6月上线了西部首个词元交易平台——陕西丝路词元交易平台。平台运行两个月来效果如何？词元从生产到交易总共分几步？词元消费时代，下一个竞争重点是什么？",
-        "image": "",
-        "publishedAt": "2026-08-23T11:26:10.000Z",
-        "source": "中新网"
       }
     ],
     "worldTop": [
       {
+        "title": "France links rise in drownings to heatwaves",
+        "link": "https://www.bbc.co.uk/news/articles/cqlxlp4lx9yo?at_medium=RSS&at_campaign=rss",
+        "summary": "A government minister says people have been taking risks by going into the water, with 301 deaths since 19 June.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8dc9/live/a89a9c70-9eff-11f1-aed2-8d6da8d75094.jpg",
+        "publishedAt": "2026-08-23T15:00:17.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "Zelensky should be asked what he knew about government corruption, sacked minister tells BBC",
         "link": "https://www.bbc.co.uk/news/articles/cwy4ypzvd7po?at_medium=RSS&at_campaign=rss",
-        "summary": "The former defence minister has also called for wartime elections to be held in Ukraine.",
+        "summary": "Mykhailo Fedorov has also called for wartime elections to be held in Ukraine.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f1da/live/9dcc87a0-9ecc-11f1-a6c1-71ec82f18bdc.jpg",
         "publishedAt": "2026-08-23T12:56:43.000Z",
         "source": "BBC"
       },
       {
-        "title": "Man leaves tired 7-year-old son alone on Mount Fuji during family hike",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZmpyNlRqV2RPX1h0cFI0bU4xdXg3a3lZUGVPWXd0eFo5NlhUa3lfTG5HcGZEY1UzZGtQY3N3S2pDc1g1dTQ5MEdvRzJ1XzVhNURWVHpFbkVWa096QWFoT3Y1U0ZtNDQxVngza1dQTzZIR1hkdEFCZ1JMZDJOQ2NhdDJn?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-08-23T06:57:09.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "It’s ‘Black August’ in Russia, but Putin is sweeping this summer’s crisis under the rug",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZXNONE4yM0Nuck9uelQwOHNyM2pSNGRLdG9kbTFmb2FUM1dRN3hxUTAzcVBoMmc4V0h0YmY3QUFHQ3FIRTQ0LTRpbTlhdmwtS1RMR2FJX0R6d2k3Y1IzY2J1M0ZZOTlINUpqczkzZkJhV3ZOcHBaLTJoQVd0U1RicU1YRQ?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-08-23T06:35:29.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
-        "link": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss",
-        "summary": "Canada's PM said he was \"reluctantly\" announcing retaliatory tariffs and accused the US of starting a trade war.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0b8b/live/0b4b35a0-9eba-11f1-8afa-6d906fcc4949.jpg",
-        "publishedAt": "2026-08-23T05:46:43.000Z",
+        "title": "DR Congo and M23 rebels agree roadmap for peace talks",
+        "link": "https://www.bbc.co.uk/news/articles/cre4e1q3wewo?at_medium=RSS&at_campaign=rss",
+        "summary": "Representatives met in Switzerland to work out next steps to resolve the conflict.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b82b/live/77503d50-9ee6-11f1-9797-eb684645fdf7.jpg",
+        "publishedAt": "2026-08-23T12:52:08.000Z",
         "source": "BBC"
       },
       {
-        "title": "US supplies most of the world’s plasma. No country depends on it more than China",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWnZ3V2U1a1VJSXpIZ0tNQkVrTUFkNmtIZjd4T2kwdEJCQjlOT29sWVB3WkE0a0N2czNVcUVSOVYydmxralNoOUUzcFVERGU2RmhxSzZIN0NnLThrVTczRnl4djlqRFBGdDY1bGNzdGtWZ1YySWxjSVA4Nm1MX1NDeg?oc=5",
+        "title": "Russia likely to mobilize at least 300,000 more troops to Ukraine war, Zelensky warns",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMGJRQmhkR0ROQmwxN09qQ2dYWHRjbjdfVmJwSFhvSG8zNkxUYllNcXhXa1RJVTF3VUs4OVlDSGZ4VS16cmd6R2JKOGFfUGM5QVVMb3l2S3UzLXgxU1dSTUwtRzNVR3JzOVBRM3hVbWs4bk1HNVYycER2UHBTWHVmbm1pTEMyUQ?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-08-23T04:01:29.000Z",
+        "publishedAt": "2026-08-23T12:00:10.000Z",
         "source": "CNN"
+      },
+      {
+        "title": "Dozens of co-ordinated arson attacks hit southern Thailand",
+        "link": "https://www.bbc.co.uk/news/articles/c8enegx4xy3o?at_medium=RSS&at_campaign=rss",
+        "summary": "No group has claimed responsibility for the attacks, which the military said \"aimed at creating unrest\".",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cb09/live/98ca1da0-9ee8-11f1-9ebe-a78ab900c4a7.jpg",
+        "publishedAt": "2026-08-23T11:50:59.000Z",
+        "source": "BBC"
       }
     ],
     "worldBusiness": [
@@ -344,8 +344,8 @@
         "title": "CrossCountry cancels 'almost all' UK services after power cut",
         "link": "https://www.bbc.co.uk/news/articles/cy9w9y0lz5go?at_medium=RSS&at_campaign=rss",
         "summary": "Customers say the disruption to virtually all UK CrossCountry services is the \"worst case scenario\".",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/79f9/live/840c8b30-9ee5-11f1-a291-b542ee92de7c.jpg",
-        "publishedAt": "2026-08-23T12:38:01.000Z",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8766/live/9b0d2440-9ef2-11f1-aed4-af6fe65bfcd6.jpg",
+        "publishedAt": "2026-08-23T14:05:16.000Z",
         "source": "BBC"
       },
       {
@@ -425,86 +425,86 @@
     ],
     "domestic": [
       {
-        "title": "覃卫国任合肥市委书记",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-23/10682820.shtml",
-        "summary": "中新网合肥8月23日电(记者 赵强)据安徽省委组织部23日消息称，日前安徽省委决定：覃卫国同志任合肥市委书记。",
+        "title": "桂台两地青少年以球为媒叙情谊",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-23/10682857.shtml",
+        "summary": "中新社南宁8月23日电 (俞靖)2026“桂花杯”暨第九届“海花杯”桂台青少年足球友谊赛(南宁站)23日在南宁市开赛。来自台湾的足球少年与广西球员齐聚绿茵场，以球会友、增进情谊。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260823/540cdc69-df53-4924-b617-f8f8999b2f8c_zsite.jpg",
+        "publishedAt": "2026-08-23T14:44:12.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "二十五载汉语为桥 五洲青年厦门逐冠",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-23/10682855.shtml",
+        "summary": "中新社厦门8月23日电 (吴冠标)第25届“汉语桥”世界大学生中文比赛全球总决赛23日在厦门举行，德国选手黎维获全球总冠军。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260823/d74e6c7b-1e1b-4332-8b29-023f47f3ba57_zsite.jpg",
+        "publishedAt": "2026-08-23T14:39:02.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "嫦娥七号任务不满足发射条件 不能在今年预定窗口实施",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-23/10682844.shtml",
+        "summary": "中新社海南文昌8月23日电 据中国载人航天工程办公室23日消息，本着稳妥可靠、万无一失的原则，经综合研判，嫦娥七号任务不满足发射条件，不能在今年预定窗口实施。(完)",
         "image": "",
-        "publishedAt": "2026-08-23T12:44:45.000Z",
+        "publishedAt": "2026-08-23T13:33:38.000Z",
         "source": "中新网"
       },
       {
-        "title": "台湾南部强降雨致271件淹水灾情 多地24日停班停课",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-23/10682814.shtml",
-        "summary": "中新社台北8月23日电 (记者 朱贺)受西南风偏强及低压带影响，台湾南部迎来持续降雨，截至23日17时，全台累计发生271件淹水灾情。高雄市、台南市、屏东县宣布24日停止上班上课。",
+        "title": "中国多部门指导地方快速处置“白菜收购环节蘸取甲醛溶液”问题",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-23/10682835.shtml",
+        "summary": "中新社北京8月23日电 (记者 刘亮)中国国家市场监管总局23日公布，针对舆论关注的河北省张家口市康保县“白菜收购环节蘸取甲醛溶液”问题，中国国务院食安办、农业农村部、国家市场监管总局高度重视，第一时间指导属地调查核实，依法从严从快处置，对涉事白菜流向进行追查，严防问题产品流入市场。",
         "image": "",
-        "publishedAt": "2026-08-23T12:34:00.000Z",
+        "publishedAt": "2026-08-23T13:11:29.000Z",
         "source": "中新网"
       },
       {
-        "title": "覃卫国任合肥市委书记",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-23/10682815.shtml",
-        "summary": "日前省委决定：覃卫国同志任合肥市委书记。",
-        "image": "",
-        "publishedAt": "2026-08-23T12:32:28.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "侧记：一张跨越海峡的青年创业“名片”",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-23/10682811.shtml",
-        "summary": "中新网8月23日电 (记者 李柏涛 徐峻杰 实习生 胡叶羽)“我把这次的参赛经历，看作自己的一张‘名片’。”21日，第十一届京台青年创新创业大赛决赛暨颁奖典礼在北京圆满落幕。上届大赛斩获冠军的台青连唯证在分享自己的参赛经历时感慨道，“它不仅仅是一场比赛，更是一个连接两岸创业青年、产业资源、投资机构和...",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/08/23/15e91e2afd764d3ba2d74a9aa189474c.jpg",
-        "publishedAt": "2026-08-23T12:31:26.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "微视频｜此情寄山水",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-23/10682807.shtml",
-        "summary": "视频：微视频｜此情寄山水来源：央视网",
-        "image": "https://poss-videocloud.cns.com.cn/oss/2026/08/23/chinanews/MEIZI_YUNSHI/onair/36E4E9C6E1BC4FA2B3308C433E93363A.mp4",
-        "publishedAt": "2026-08-23T12:19:40.000Z",
+        "title": "“王阳明与九华山——2026中华优秀传统文化浸润佛教”学术研讨会在九华山举行",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-23/10682829.shtml",
+        "summary": "中新网安徽池州8月23日电 “王阳明与九华山——2026中华优秀传统文化浸润佛教”学术研讨会21日在安徽池州九华山举行，相关领域专家学者与佛教界代表人士共百余人出席。安徽省民宗委和池州市委统战部负责同志出席开幕式并致辞。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260823/36625aa8-1999-4181-a35a-d64d550c52b7_zsite.jpeg",
+        "publishedAt": "2026-08-23T12:58:56.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
+        "title": "France links rise in drownings to heatwaves",
+        "link": "https://www.bbc.co.uk/news/articles/cqlxlp4lx9yo?at_medium=RSS&at_campaign=rss",
+        "summary": "A government minister says people have been taking risks by going into the water, with 301 deaths since 19 June.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8dc9/live/a89a9c70-9eff-11f1-aed2-8d6da8d75094.jpg",
+        "publishedAt": "2026-08-23T15:00:17.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "Zelensky should be asked what he knew about government corruption, sacked minister tells BBC",
         "link": "https://www.bbc.co.uk/news/articles/cwy4ypzvd7po?at_medium=RSS&at_campaign=rss",
-        "summary": "The former defence minister has also called for wartime elections to be held in Ukraine.",
+        "summary": "Mykhailo Fedorov has also called for wartime elections to be held in Ukraine.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f1da/live/9dcc87a0-9ecc-11f1-a6c1-71ec82f18bdc.jpg",
         "publishedAt": "2026-08-23T12:56:43.000Z",
         "source": "BBC"
       },
       {
-        "title": "Man leaves tired 7-year-old son alone on Mount Fuji during family hike",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZmpyNlRqV2RPX1h0cFI0bU4xdXg3a3lZUGVPWXd0eFo5NlhUa3lfTG5HcGZEY1UzZGtQY3N3S2pDc1g1dTQ5MEdvRzJ1XzVhNURWVHpFbkVWa096QWFoT3Y1U0ZtNDQxVngza1dQTzZIR1hkdEFCZ1JMZDJOQ2NhdDJn?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-08-23T06:57:09.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "It’s ‘Black August’ in Russia, but Putin is sweeping this summer’s crisis under the rug",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZXNONE4yM0Nuck9uelQwOHNyM2pSNGRLdG9kbTFmb2FUM1dRN3hxUTAzcVBoMmc4V0h0YmY3QUFHQ3FIRTQ0LTRpbTlhdmwtS1RMR2FJX0R6d2k3Y1IzY2J1M0ZZOTlINUpqczkzZkJhV3ZOcHBaLTJoQVd0U1RicU1YRQ?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-08-23T06:35:29.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
-        "link": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss",
-        "summary": "Canada's PM said he was \"reluctantly\" announcing retaliatory tariffs and accused the US of starting a trade war.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0b8b/live/0b4b35a0-9eba-11f1-8afa-6d906fcc4949.jpg",
-        "publishedAt": "2026-08-23T05:46:43.000Z",
+        "title": "DR Congo and M23 rebels agree roadmap for peace talks",
+        "link": "https://www.bbc.co.uk/news/articles/cre4e1q3wewo?at_medium=RSS&at_campaign=rss",
+        "summary": "Representatives met in Switzerland to work out next steps to resolve the conflict.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b82b/live/77503d50-9ee6-11f1-9797-eb684645fdf7.jpg",
+        "publishedAt": "2026-08-23T12:52:08.000Z",
         "source": "BBC"
       },
       {
-        "title": "US supplies most of the world’s plasma. No country depends on it more than China",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWnZ3V2U1a1VJSXpIZ0tNQkVrTUFkNmtIZjd4T2kwdEJCQjlOT29sWVB3WkE0a0N2czNVcUVSOVYydmxralNoOUUzcFVERGU2RmhxSzZIN0NnLThrVTczRnl4djlqRFBGdDY1bGNzdGtWZ1YySWxjSVA4Nm1MX1NDeg?oc=5",
+        "title": "Russia likely to mobilize at least 300,000 more troops to Ukraine war, Zelensky warns",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMGJRQmhkR0ROQmwxN09qQ2dYWHRjbjdfVmJwSFhvSG8zNkxUYllNcXhXa1RJVTF3VUs4OVlDSGZ4VS16cmd6R2JKOGFfUGM5QVVMb3l2S3UzLXgxU1dSTUwtRzNVR3JzOVBRM3hVbWs4bk1HNVYycER2UHBTWHVmbm1pTEMyUQ?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-08-23T04:01:29.000Z",
+        "publishedAt": "2026-08-23T12:00:10.000Z",
         "source": "CNN"
+      },
+      {
+        "title": "Dozens of co-ordinated arson attacks hit southern Thailand",
+        "link": "https://www.bbc.co.uk/news/articles/c8enegx4xy3o?at_medium=RSS&at_campaign=rss",
+        "summary": "No group has claimed responsibility for the attacks, which the military said \"aimed at creating unrest\".",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cb09/live/98ca1da0-9ee8-11f1-9ebe-a78ab900c4a7.jpg",
+        "publishedAt": "2026-08-23T11:50:59.000Z",
+        "source": "BBC"
       }
     ],
     "nba": []
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-08-23",
+    "rotationLabel": "Curated Rotation · 2026-08-24",
     "sections": [
       {
         "id": "data-storage",
@@ -522,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-6",
-            "sectionId": "data-storage",
-            "title": "DiskANN: Fast Accurate Billion-point Nearest Neighbor Search on a Single Node",
-            "authors": [
-              "Neelesh Gupta",
-              "Leland Willard",
-              "Xiangyao Yu",
-              "Yuri N."
-            ],
-            "venue": "NeurIPS",
-            "year": 2019,
-            "quality": "高影响力",
-            "categories": [
-              "vector search",
-              "ANN"
-            ],
-            "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
-            "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-1",
             "sectionId": "data-storage",
@@ -562,7 +541,7 @@
             ],
             "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
             "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-2",
@@ -584,6 +563,27 @@
             "link": "https://research.google/pubs/pub27898/",
             "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-3",
+            "sectionId": "data-storage",
+            "title": "Dynamo: Amazon's Highly Available Key-value Store",
+            "authors": [
+              "Giuseppe DeCandia",
+              "Deniz Hastorun",
+              "Madan Jampani",
+              "Gunavardhan Kakulapati"
+            ],
+            "venue": "SOSP",
+            "year": 2007,
+            "quality": "顶会",
+            "categories": [
+              "key-value",
+              "distributed systems"
+            ],
+            "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
+            "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -593,27 +593,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-1",
-            "sectionId": "computer-vision",
-            "title": "Deep Residual Learning for Image Recognition",
-            "authors": [
-              "Kaiming He",
-              "Xiangyu Zhang",
-              "Shaoqing Ren",
-              "Jian Sun"
-            ],
-            "venue": "CVPR",
-            "year": 2016,
-            "quality": "顶会",
-            "categories": [
-              "image recognition",
-              "backbone"
-            ],
-            "link": "https://arxiv.org/abs/1512.03385",
-            "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-2",
             "sectionId": "computer-vision",
@@ -633,7 +612,7 @@
             ],
             "link": "https://arxiv.org/abs/2005.12872",
             "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-3",
@@ -655,6 +634,27 @@
             "link": "https://arxiv.org/abs/2010.11929",
             "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-4",
+            "sectionId": "computer-vision",
+            "title": "Learning Transferable Visual Models From Natural Language Supervision",
+            "authors": [
+              "Alec Radford",
+              "Jong Wook Kim",
+              "Chris Hallacy",
+              "Aditya Ramesh"
+            ],
+            "venue": "ICML",
+            "year": 2021,
+            "quality": "顶会",
+            "categories": [
+              "vision-language",
+              "foundation model"
+            ],
+            "link": "https://arxiv.org/abs/2103.00020",
+            "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -664,27 +664,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-2",
-            "sectionId": "llm-memory",
-            "title": "Memorizing Transformers",
-            "authors": [
-              "Yuhuai Wu",
-              "Markus N. Rabe",
-              "DeLesley Hutchins",
-              "Christian Szegedy"
-            ],
-            "venue": "ICLR",
-            "year": 2022,
-            "quality": "顶会",
-            "categories": [
-              "memory",
-              "long context"
-            ],
-            "link": "https://arxiv.org/abs/2203.08913",
-            "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-3",
             "sectionId": "llm-memory",
@@ -704,7 +683,7 @@
             ],
             "link": "https://arxiv.org/abs/2112.04426",
             "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-4",
@@ -726,6 +705,27 @@
             "link": "https://arxiv.org/abs/2310.11511",
             "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-5",
+            "sectionId": "llm-memory",
+            "title": "LongMem: Scaling Language Model Context with Memory-Augmented Retrieval",
+            "authors": [
+              "Zeqiu Wu",
+              "Yizhong Wang",
+              "Jiacheng Liu",
+              "Yelong Shen"
+            ],
+            "venue": "ACL Findings",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "memory",
+              "long context"
+            ],
+            "link": "https://arxiv.org/abs/2306.07174",
+            "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -735,27 +735,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-3",
-            "sectionId": "agents",
-            "title": "Generative Agents: Interactive Simulacra of Human Behavior",
-            "authors": [
-              "Joon Sung Park",
-              "Joseph O'Brien",
-              "Carrie Cai",
-              "Meredith Ringel Morris"
-            ],
-            "venue": "UIST",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "agent society",
-              "memory"
-            ],
-            "link": "https://arxiv.org/abs/2304.03442",
-            "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-4",
             "sectionId": "agents",
@@ -775,7 +754,7 @@
             ],
             "link": "https://arxiv.org/abs/2305.16291",
             "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-5",
@@ -796,6 +775,27 @@
             ],
             "link": "https://arxiv.org/abs/2308.08155",
             "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-6",
+            "sectionId": "agents",
+            "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+            "authors": [
+              "John Yang",
+              "Carlos E. Jimenez",
+              "Alexander Wettig",
+              "Karthik Narasimhan"
+            ],
+            "venue": "ICLR",
+            "year": 2025,
+            "quality": "新近代表作",
+            "categories": [
+              "software agent",
+              "benchmark"
+            ],
+            "link": "https://arxiv.org/abs/2405.15793",
+            "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
             "trackLabel": "轮换精选"
           }
         ]
