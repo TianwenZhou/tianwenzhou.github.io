@@ -1,36 +1,28 @@
 {
-  "generatedAt": "2026-08-25T13:06:18.754Z",
+  "generatedAt": "2026-08-25T16:50:52.238Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
       "temperature": 24,
-      "weatherCode": 1,
-      "windSpeed": 6
+      "weatherCode": 3,
+      "windSpeed": 5
     },
     "today": {
-      "date": "2026-08-25",
-      "weatherCode": 96,
-      "description": "天气更新中",
-      "max": 31,
-      "min": 24,
-      "precipitationProbability": 100
+      "date": "2026-08-26",
+      "weatherCode": 61,
+      "description": "小雨",
+      "max": 24,
+      "min": 22,
+      "precipitationProbability": 77
     },
     "forecast": [
-      {
-        "date": "2026-08-25",
-        "weatherCode": 96,
-        "description": "天气更新中",
-        "max": 31,
-        "min": 24,
-        "precipitationProbability": 100
-      },
       {
         "date": "2026-08-26",
         "weatherCode": 61,
         "description": "小雨",
         "max": 24,
         "min": 22,
-        "precipitationProbability": 73
+        "precipitationProbability": 77
       },
       {
         "date": "2026-08-27",
@@ -38,7 +30,7 @@
         "description": "阴天",
         "max": 27,
         "min": 21,
-        "precipitationProbability": 20
+        "precipitationProbability": 24
       },
       {
         "date": "2026-08-28",
@@ -46,7 +38,7 @@
         "description": "中雨",
         "max": 24,
         "min": 19,
-        "precipitationProbability": 68
+        "precipitationProbability": 59
       },
       {
         "date": "2026-08-29",
@@ -54,33 +46,50 @@
         "description": "阴天",
         "max": 30,
         "min": 18,
+        "precipitationProbability": 3
+      },
+      {
+        "date": "2026-08-30",
+        "weatherCode": 0,
+        "description": "晴朗",
+        "max": 31,
+        "min": 19,
         "precipitationProbability": 2
       }
     ]
   },
   "classicQuote": {
-    "id": "taoteching-accumulate",
-    "text": "合抱之木，生于毫末；九层之台，起于累土。",
+    "id": "taoteching-self",
+    "text": "知人者智，自知者明；胜人者有力，自胜者强。",
     "source": "《道德经》",
     "author": "老子",
-    "note": "再大的目标，也要拆成今天能推进的一小步。"
+    "note": "比起和别人比较，更重要的是把自己的节奏稳住。"
   },
   "bookExcerpt": {
-    "id": "camel-xiangzi-sky",
-    "text": "天是越来越晴朗了，一轮火一样的太阳悬在空中，街上的一切都像在明晃晃地发着白光。",
-    "book": "《骆驼祥子》",
-    "author": "老舍"
+    "id": "norwegian-wood-rain",
+    "text": "雨还在下，细得像雾，落在草地和树叶上，世界像被一种安静的潮气轻轻包住。",
+    "book": "《挪威的森林》",
+    "author": "村上春树"
   },
   "featuredPlace": {
-    "id": "202608241600",
-    "title": "红木国家与州立公园的日出，加利福尼亚州，美国",
+    "id": "202608251600",
+    "title": "基尔丘山上空的极光，冰岛",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "守护美国瑰宝",
-    "image": "https://www.bing.com/th?id=OHR.RedwoodPark_ZH-CN9513051062_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E7%BA%A2%E6%9D%89%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD%E4%B8%8E%E5%B7%9E%E7%AB%8B%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
+    "summary": "流光溢彩的天空",
+    "image": "https://www.bing.com/th?id=OHR.AurorasIceland_ZH-CN9781322454_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E5%8C%97%E6%9E%81%E5%85%89&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202608251600",
+      "title": "基尔丘山上空的极光，冰岛",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "流光溢彩的天空",
+      "image": "https://www.bing.com/th?id=OHR.AurorasIceland_ZH-CN9781322454_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E5%8C%97%E6%9E%81%E5%85%89&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202608241600",
       "title": "红木国家与州立公园的日出，加利福尼亚州，美国",
@@ -143,171 +152,178 @@
       "summary": "浪潮间的通道",
       "image": "https://www.bing.com/th?id=OHR.WhyteCliffP_ZH-CN0573407830_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E6%80%80%E7%89%B9%E5%85%8B%E5%88%A9%E5%A4%AB%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202608171600",
-      "title": "弗留利要塞城市帕尔马诺瓦航拍图，意大利",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "星形城市的几何之美",
-      "image": "https://www.bing.com/th?id=OHR.Palmanova_ZH-CN0378401592_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E6%84%8F%E5%A4%A7%E5%88%A9%E5%B8%95%E5%B0%94%E9%A9%AC%E8%AF%BA%E7%93%A6&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-08-25",
-    "dateLabel": "8月25日",
+    "dateKey": "2026-08-26",
+    "dateLabel": "8月26日",
     "items": [
       {
-        "year": "2020",
-        "text": "非洲地區根除脊髓灰質炎認證委員會宣布非洲已根除野生脊髓灰質炎（小兒麻痺）病毒。",
-        "link": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4"
+        "year": "2021",
+        "text": "阿富汗首都喀布尔哈米德·卡尔扎伊国际机场发生自杀式炸弹袭击，至少造成103人死亡，200多人受伤，伤者包括阿富汗民众、外国军队及塔利班武装人员。",
+        "link": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4"
       },
       {
-        "year": "2017",
-        "text": "由中華民國國家太空中心自行研製的福爾摩沙衛星五號搭載SpaceX的獵鷹9號運載火箭在美國范登堡空軍基地發射升空，在低地球軌道運行。",
-        "link": "https://zh.wikipedia.org/wiki/2017%E5%B9%B4"
+        "year": "2021",
+        "text": "香港最後一名泛民主派立法會議員鄭松泰無法通過選委會資格審查，即時喪失立法會議席。",
+        "link": "https://zh.wikipedia.org/wiki/%E9%84%AD%E6%9D%BE%E6%B3%B0"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "大国外交最前线丨共叙友谊、携手发展 中约元首会谈释放新信号",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-25/10684143.shtml",
-        "summary": "8月24日下午，国家主席习近平在北京人民大会堂同来华进行国事访问的约旦哈希姆王国国王阿卜杜拉二世举行会谈。",
+        "title": "中印边界问题特别代表在北京举行会晤",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-25/10684210.shtml",
+        "summary": "中新社北京8月25日电 8月25日，中印边界问题特别代表第25次会晤在北京举行。中方特别代表、中共中央政治局委员、中央外办主任王毅同印方特别代表、国家安全顾问多瓦尔就中印边界问题和双边关系等进行了全面深入、友好坦诚的沟通。",
         "image": "",
-        "publishedAt": "2026-08-25T13:03:58.000Z",
+        "publishedAt": "2026-08-25T15:47:34.000Z",
         "source": "中新网"
       },
       {
-        "title": "天天学习｜创新不问出身",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-25/10684142.shtml",
-        "summary": "|天天学习|“全部科技史都证明，谁拥有了一流创新人才、拥有了一流科学家，谁就能在科技创新中占据优势。”习近平总书记深知创新人才培养的重要性。",
-        "image": "",
-        "publishedAt": "2026-08-25T13:01:58.000Z",
+        "title": "马龙邀请台湾青年“登陆”：“大陆适合每一位热爱运动的年轻人”",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-25/10684196.shtml",
+        "summary": "中新社上海8月25日电 (记者 陈建新 缪璐)“欢迎大家来大陆，走进校园、走进训练基地，参与训练交流、赛事活动、学习实践。”25日在上海出席一场两岸青年交流活动时，奥运冠军马龙向台湾青年发出邀请。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260825/e59c0fe0-b10f-4e76-a075-6dce0dd1305d_zsite.jpg",
+        "publishedAt": "2026-08-25T14:43:34.000Z",
         "source": "中新网"
       },
       {
-        "title": "四川省人大常委会原委员、经济委员会原主任委员刘中伯因严重违纪违法被开除党籍和公职",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-25/10684123.shtml",
-        "summary": "中新网成都8月25日电 (记者 张浪)四川省纪委监委25日消息：日前，经四川省委批准，四川省纪委监委对省人大常委会原委员、经济委员会原主任委员刘中伯严重违纪违法问题进行了立案审查调查。",
+        "title": "中印边界问题特别代表在北京举行会晤",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-25/10684194.shtml",
+        "summary": "新华社北京8月25日电(记者伍岳)中印边界问题特别代表第25次会晤25日在北京举行。中方特别代表、中共中央政治局委员、中央外办主任王毅同印方特别代表、国家安全顾问多瓦尔就中印边界问题和双边关系等进行了全面深入、友好坦诚的沟通。",
         "image": "",
-        "publishedAt": "2026-08-25T13:00:42.000Z",
+        "publishedAt": "2026-08-25T14:08:30.000Z",
         "source": "中新网"
       },
       {
-        "title": "内蒙古自治区妇女第十三次代表大会在呼和浩特召开",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-25/10684117.shtml",
-        "summary": "中新网呼和浩特8月25日电 (崔博群 赵晓雨)25日，内蒙古自治区妇女第十三次代表大会在内蒙古自治区呼和浩特市开幕。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260825/24fd68d6-30ac-4d4d-98a3-32a59dcc1131_zsite.jpeg",
-        "publishedAt": "2026-08-25T12:49:50.000Z",
+        "title": "第十一届APEC粮食安全部长级会议在浙江杭州举行",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-25/10684188.shtml",
+        "summary": "中新社杭州8月25日电 (王逸飞 鲍梦妮)作为亚太经合组织(APEC)“中国年”系列活动之一，第十一届APEC粮食安全部长级会议8月25日在浙江杭州举行。",
+        "image": "",
+        "publishedAt": "2026-08-25T14:02:05.000Z",
         "source": "中新网"
       },
       {
-        "title": "学习快评丨树立和践行正确政绩观必须久久为功",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-25/10684119.shtml",
-        "summary": "“树立和践行正确政绩观是一项长期任务，必须久久为功”。习近平总书记近日就树立和践行正确政绩观学习教育作出重要指示，为不断巩固拓展学习教育成果，持续推动各级党组织和广大党员、干部立党为公、为民造福、科学决策、真抓实干指明了前进方向、提供了重要遵循。",
+        "title": "向失职失责“亮剑” 为美丽中国“护航”——中央组织部负责人就修订颁布《党政领导干部生态环境损害责任追究办法》答记者问",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-25/10684191.shtml",
+        "summary": "新华社北京8月25日电 近日，中共中央办公厅印发新修订的《党政领导干部生态环境损害责任追究办法》(以下简称《办法》)。日前，中央组织部负责人就《办法》修订和贯彻实施等问题回答了记者提问。",
         "image": "",
-        "publishedAt": "2026-08-25T12:46:40.000Z",
+        "publishedAt": "2026-08-25T13:58:31.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "“人造太阳”中国环流四号目标图像发布",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-25/10684137.shtml",
-        "summary": "中新社上海8月25日电 (记者 庞无忌)2026核聚变能大会暨核聚变活动周25日在上海开幕。“人造太阳”中国环流四号目标图像在开幕式上发布。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260825/0b1af2f6-f07c-4442-a488-7bb3eb95076f_zsite.jpg",
-        "publishedAt": "2026-08-25T13:03:24.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "《红楼梦》舞剧里“灼热的青春”和“遗憾的真心”",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-25/10684139.shtml",
-        "summary": "中新社北京8月25日电 题：《红楼梦》舞剧里“灼热的青春”和“遗憾的真心”",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260825/be2949fd-4fe6-4187-85c5-087be1a50f3c_zsite.jpg",
-        "publishedAt": "2026-08-25T13:03:00.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "应对“沙德尔” 浙江防台风应急响应提升至Ⅲ级",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-25/10684127.shtml",
-        "summary": "中新网杭州8月25日电 (钱晨菲)根据《浙江省防汛防台抗旱应急预案》和第18号台风“沙德尔”防御工作方案，经会商研判，浙江省防指决定于8月25日20时将防台风应急响应提升至Ⅲ级。",
+        "title": "一名在韩失踪中国公民遇害 嫌疑人已被捕",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-25/10684207.shtml",
+        "summary": "中新社首尔8月25日电 (记者 金旭)中国驻釜山总领事馆当地时间25日称，经同韩国警方核实，一名失踪数日的中国女留学生当天被发现死亡，警方已以涉嫌杀人罪逮捕一名30多岁男子。",
         "image": "",
-        "publishedAt": "2026-08-25T13:02:20.000Z",
+        "publishedAt": "2026-08-25T15:23:16.000Z",
         "source": "中新网"
       },
       {
-        "title": "出台新政搭建智慧平台 吉林多举措守护“蓝天白云”",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-25/10684106.shtml",
-        "summary": "中新网长春8月25日电 (高龙安 吕盛楠)25日，记者从吉林省生态环境厅召开的新闻发布会获悉，该省在完成“十四五”大气污染防治规划基础上，高标准编制“十五五”空气质量改善计划，锚定细颗粒物(PM2.5)与臭氧“双控双减”核心目标，布局产业绿色转型、清洁运输、秸秆综合利用与焚烧管控、排污企业绩效升级等...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260825/3b1e3afc-729a-4ddb-bf9e-e2138acb5326_zsite.jpg",
-        "publishedAt": "2026-08-25T13:02:00.000Z",
+        "title": "广西9条河流超警 左江崇左水文站超警7.59米",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-25/10684195.shtml",
+        "summary": "中新网南宁8月25日电 (陈秋霞 周也茹)广西壮族自治区水文中心25日提供的信息显示，当天20时，广西仍有郁江及支流青龙江，明江及支流派连河，左江及支流客兰河等9条河流14个水文站超警0.15米至7.59米。",
+        "image": "",
+        "publishedAt": "2026-08-25T14:19:14.000Z",
         "source": "中新网"
       },
       {
-        "title": "迎战“沙德尔” 浙江温州抢卸19.1万吨电煤保供",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-25/10684107.shtml",
-        "summary": "中新网温州8月25日电(胡丰盛 尤川川)在台风“沙德尔”迫近之际，浙江温州海事部门科学规划船舶进港时序，组织电煤运输船舶快速完成靠泊及抢卸。截至8月25日12时，当地苍南辖区最后一艘电煤船舶完成剩余煤炭抢卸，赶在水上防台Ⅱ级应急响应启动前完成既定任务。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260825/215d5fb7-b054-42be-a8be-f6a790333b1b_zsite.jpg",
-        "publishedAt": "2026-08-25T13:01:46.000Z",
+        "title": "南宁海事局使用重载无人机成功救助3艘遇险船舶",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-25/10684193.shtml",
+        "summary": "中新网广西崇左8月25日电(李帅 郑清欣 黄艳梅)8月25日，受左江2026年第1号洪水影响，左江水域成片漂浮物下漂。当日16时，3艘在扶绥海螺码头附近防洪停泊船舶的螺旋桨被缠绕、舷侧受漂浮物和水流挤压，面临断缆走锚风险，船员向海事部门求救。当时左江扶绥水位达到86.22米，超警戒水位4.42米。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260825/bf853baa-0974-4de3-836c-21d49d25adec_zsite.jpg",
+        "publishedAt": "2026-08-25T14:08:28.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "鸠山由纪夫：对历史真诚反省并表达共情，才能通向真正和解",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-25/10684187.shtml",
+        "summary": "中新社北京8月25日电 (马帅莎 余湛奕 刘纪)“促进建设和平与繁荣的亚洲命运共同体”对话大会25日在北京举办。日本前首相鸠山由纪夫在开幕式上表示，对历史真诚反省并表达共情，才能通向真正和解之路。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260825/52c145dc-b602-44a0-9a65-a47a0bf97106_zsite.jpg",
+        "publishedAt": "2026-08-25T13:59:47.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "江苏常州通报“星宇股份被曝批量劝退应届生”",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-25/10684190.shtml",
+        "summary": "中新网8月25日电 据常州市人民政府网站消息，8月25日晚，江苏省常州市人力资源和社会保障局发布星宇股份解聘应届大学毕业生情况通报。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/08/25/621415eb58d84194a2a4127b68e800b4.jpg",
+        "publishedAt": "2026-08-25T13:59:29.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "吉林推出多项涉农金融举措 精准赋能乡村振兴",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-25/10684097.shtml",
-        "summary": "中新网长春8月25日电 (高龙安 李彦国)25日，吉林省政府新闻办围绕金融助力“三农”、支持乡村振兴举行第二场新闻发布会，相关银行机构介绍了专属金融政策和特色金融产品。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260825/75da7357-2de5-4fc9-90e5-66fa7b5dae1d_zsite.jpg",
-        "publishedAt": "2026-08-25T13:02:08.000Z",
+        "title": "沪港数字合作成果丰硕 将深化数据标准对接",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-25/10684192.shtml",
+        "summary": "中新网上海8月25日电 (记者 陈静)上海市数据局副局长钱晓25日表示，过去一年，沪港数字合作在机制深化、数据跨境流通、便民利企服务等方面取得丰硕成果。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260825/cf8c41af-4df6-4998-a8c4-3fcd8ab4b7ba_zsite.jpg",
+        "publishedAt": "2026-08-25T14:03:09.000Z",
         "source": "中新网"
       },
       {
-        "title": "中国经济怎么看、怎么干？人民日报连发4篇钟才文文章",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-25/10684129.shtml",
-        "summary": "今年上半年",
+        "title": "湖北形成“海陆空多向联动”的国际物流格局",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-25/10684189.shtml",
+        "summary": "中新网武汉8月25日电 (梁婷 潘庆芳)记者25日从2026年加快建设交通强国大会获悉，依托近洋直航与陆上铁路、航空枢纽互补，湖北形成“海陆空多向联动”的国际物流格局。",
         "image": "",
-        "publishedAt": "2026-08-25T12:53:57.000Z",
+        "publishedAt": "2026-08-25T14:01:27.000Z",
         "source": "中新网"
       },
       {
-        "title": "呼和浩特市本级财政科技投入拟2年增至4倍",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-25/10684116.shtml",
-        "summary": "中新网呼和浩特8月25日电 (记者 刘文华)呼和浩特市促进科技创新与产业创新深度融合大会25日召开。会上印发的相关措施提出，以2025年市本级财政科技投入为基数，2026年翻一番，2027年再翻一番。按此计算，2027年投入规模将是2025年的4倍。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260825/eca60a6c-e147-43ea-a948-273a1fbb7c5e_zsite.jpg",
-        "publishedAt": "2026-08-25T12:49:58.000Z",
+        "title": "上海冀“十五五”期间新增认定跨国公司地区总部数量逾300家",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-25/10684185.shtml",
+        "summary": "中新社上海8月25日电 上海市政府25日发布的《上海市加快国际贸易中心建设“十五五”规划》提出，“十五五”期间，上海将新增认定跨国公司地区总部数量达300家以上。上海将优化升级支持总部经济发展政策，支持总部集聚研发创新、财资管理、投资决策、供应链管理等多项功能，升级成为亚太区总部、事业部全球总部。",
+        "image": "",
+        "publishedAt": "2026-08-25T13:57:19.000Z",
         "source": "中新网"
       },
       {
-        "title": "浙江诸永改扩建首个收费站投用 助力区域交通提速",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-25/10684111.shtml",
-        "summary": "中新网绍兴8月25日电(蓝伊旎 华晟 成江喜)25日，随着最后一组隔离墩移开，历经121天全封闭集约化施工的浙江交通集团诸永高速改扩建项目诸暨北收费站杭州方向上下匝道，正式恢复通行。作为该项目首个完成改造的收费站，其顺利通车也标志着诸永改扩建工程收费站改造取得阶段性突破。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260825/de9ab178-a6b2-40a0-b179-680a91943af0_zsite.jpg",
-        "publishedAt": "2026-08-25T12:48:10.000Z",
+        "title": "浙江制造业深度拥抱人工智能 加快推进体系化落地",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-25/10684180.shtml",
+        "summary": "中新网绍兴8月25日电(蓝伊旎)8月25日，浙江省“十链百场万企”系列对接活动之“AI+制造”专场在浙江杭州举办。人工智能服务商、制造业企业面对面对接，共同推动AI与制造业深度融合。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260825/4fb7001f-efd2-4576-b654-cf460ae5970d_zsite.jpg",
+        "publishedAt": "2026-08-25T13:48:12.000Z",
         "source": "中新网"
       },
       {
-        "title": "湖南省农村产权交易中心揭牌 9月起“三资”交易“应进必进”",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-25/10684100.shtml",
-        "summary": "中新网长沙8月25日电 (记者 刘双双)8月25日，湖南省农村产权交易中心揭牌，省级农村产权交易平台同步正式上线，标志着湖南农村产权交易市场体系建设进入省级统筹、数字赋能、规范运营的新阶段。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260825/42d5caff-9400-4355-b3a6-acd80d1c85fb_zsite.jpg",
-        "publishedAt": "2026-08-25T12:39:04.000Z",
+        "title": "天工机器人百米竞速跑出8.86秒 再创纪录",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-25/10684177.shtml",
+        "summary": "中新网北京8月25日电 (记者 吕少威 陈杭 徐婧)第二届世界人形机器人运动会正在北京进行中。在25日举行的100米大型组复赛中，第一组成绩再次刷新纪录。",
+        "image": "",
+        "publishedAt": "2026-08-25T13:40:44.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "Lockerbie bombing trial postponed days before it was due to start",
-        "link": "https://www.bbc.co.uk/news/articles/cq63rmj1zl1o?at_medium=RSS&at_campaign=rss",
-        "summary": "The trial of a Libyan man is delayed for a third time, after new evidence on the 37-year-old case came to light three days ago.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9057/live/3d1ddb50-cf68-11ef-94cb-5f844ceb9e30.jpg",
-        "publishedAt": "2026-08-25T11:54:03.000Z",
+        "title": "CIA chief in Moscow for unannounced talks, US media reports",
+        "link": "https://www.bbc.co.uk/news/articles/c87vg9x5d7do?at_medium=RSS&at_campaign=rss",
+        "summary": "Flight tracking data confirms an American military aircraft travelled to Russia from the US via Latvia on Tuesday.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/32e3/live/0854ea30-a095-11f1-91dc-4919512f173f.jpg",
+        "publishedAt": "2026-08-25T16:49:31.000Z",
         "source": "BBC"
       },
       {
-        "title": "China warns it will protect its interests after US widens sanctions against Iran",
+        "title": "Two unvaccinated people die of measles in Pennsylvania",
+        "link": "https://www.bbc.co.uk/news/articles/c5yednen30go?at_medium=RSS&at_campaign=rss",
+        "summary": "Cases in the US have hit the highest point since the virus was eliminated, as vaccination rates decline.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4a64/live/340bd9d0-a091-11f1-b11c-1bea5fc925f5.jpg",
+        "publishedAt": "2026-08-25T16:43:08.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Brain disease in dead NFL players 'higher than previously shown'",
+        "link": "https://www.bbc.co.uk/sport/american-football/articles/cew9l95kyp0o?at_medium=RSS&at_campaign=rss",
+        "summary": "A new study says at least one in four ex-NFL players who died between 2016 and 2021 had a degenerative brain disease but the true figure could be much...",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/549e/live/2fb714c0-a088-11f1-bfeb-dfb02ea642ef.jpg",
+        "publishedAt": "2026-08-25T11:54:40.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "China hits out at 'illegal' new US sanctions on Iran and trading partners",
         "link": "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss",
         "summary": "The US has threatened to isolate nations that continue to do business with Tehran, which sells much of its oil to Beijing.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fc68/live/708dead0-a076-11f1-bf10-9547e884d7b7.jpg",
@@ -321,32 +337,24 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/940f/live/15a64300-a00e-11f1-9bf0-5f4ec548648d.jpg",
         "publishedAt": "2026-08-25T08:52:17.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Kit Harington replaces Nicholas Hoult in HBO's Harry Potter series",
-        "link": "https://www.bbc.co.uk/news/articles/c783lnz12vlo?at_medium=RSS&at_campaign=rss",
-        "summary": "Hoult was announced as Gilderoy Lockhart two weeks ago but has dropped out due to scheduling issues.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5dc9/live/90c5d940-a04c-11f1-b109-879e35c24276.jpg",
-        "publishedAt": "2026-08-25T07:39:25.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "As elections near, Netanyahu casts Turkey as Israel’s latest enemy",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSHc3UlJ5YlBXNHZNTnNjeHF1a2dla04tYVZqUndNZFNvS21rdnBqTzk1OFEyQmh4ck9uc081b0dDM3R2dDM1bjZ6UGFrd2d4WVV0U0dtaHNkeDBtQlZueGRhVmpDMU5CaDYyMkNhYUdJcFptQU4yWU93aVV6bkxpdnpzV2VsSmVfTmlVSGx0N0RpVVVGeHhGSDY5ell2dFFtQUFHWV80b2EzSXdu?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-08-25T04:00:29.000Z",
-        "source": "CNN"
       }
     ],
     "worldBusiness": [
       {
-        "title": "OnlyFans owner was paid over $700m before his death",
-        "link": "https://www.bbc.co.uk/news/articles/c8d3p2g2p05o?at_medium=RSS&at_campaign=rss",
-        "summary": "The site hosts a range of subscription-based content from cooking to fitness videos, but it is best known for pornography.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e7a/live/91d81fb0-a064-11f1-ab55-41a63a22b55d.jpg",
-        "publishedAt": "2026-08-25T10:09:00.000Z",
+        "title": "Who does Iran trade with and what could Trump's 'economic D-Day' mean?",
+        "link": "https://www.bbc.co.uk/news/articles/cqxvj1zd4qjo?at_medium=RSS&at_campaign=rss",
+        "summary": "Iran is no stranger to US sanctions and has developed deep economic ties with several countries.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6358/live/a03a3710-a09f-11f1-84a9-276d1a8e5a22.jpg",
+        "publishedAt": "2026-08-25T15:04:52.000Z",
         "source": "BBC"
+      },
+      {
+        "title": "Canada just announced new tariffs on US goods. Here’s how the growing trade war could hurt Americans",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSl83YVdteHJRemxNWlBpWUJLa3JkbDZMalFaNFc3c2tvX0xQNWFpWlVLaEppWWFaSmx4aHRZTVBmRWUxMXVKbVpaS20zSUVKaGlRRnU3TWlBajFBbHRLRElWbVNDYkN2SDVMY2NhRG83V29zVUxQQ2JOWFRNdG1tUUZB?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-08-25T12:15:09.000Z",
+        "source": "CNN"
       },
       {
         "title": "Iran says it is 'fully prepared' to counter widened US economic sanctions",
@@ -371,14 +379,6 @@
         "image": "",
         "publishedAt": "2026-08-25T06:00:29.000Z",
         "source": "CNN"
-      },
-      {
-        "title": "How Canada could hit back to hurt the US economy - and Trump",
-        "link": "https://www.bbc.co.uk/news/articles/c05rj80ve56o?at_medium=RSS&at_campaign=rss",
-        "summary": "What leverage does Canada, which sells about 70% of its exports to the US, actually have in this spiralling trade dispute?",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7b4c/live/df25db30-a01a-11f1-aed2-8d6da8d75094.jpg",
-        "publishedAt": "2026-08-25T02:49:22.000Z",
-        "source": "BBC"
       }
     ],
     "worldTech": [
@@ -425,57 +425,73 @@
     ],
     "domestic": [
       {
-        "title": "大国外交最前线丨共叙友谊、携手发展 中约元首会谈释放新信号",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-25/10684143.shtml",
-        "summary": "8月24日下午，国家主席习近平在北京人民大会堂同来华进行国事访问的约旦哈希姆王国国王阿卜杜拉二世举行会谈。",
+        "title": "中印边界问题特别代表在北京举行会晤",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-25/10684210.shtml",
+        "summary": "中新社北京8月25日电 8月25日，中印边界问题特别代表第25次会晤在北京举行。中方特别代表、中共中央政治局委员、中央外办主任王毅同印方特别代表、国家安全顾问多瓦尔就中印边界问题和双边关系等进行了全面深入、友好坦诚的沟通。",
         "image": "",
-        "publishedAt": "2026-08-25T13:03:58.000Z",
+        "publishedAt": "2026-08-25T15:47:34.000Z",
         "source": "中新网"
       },
       {
-        "title": "天天学习｜创新不问出身",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-25/10684142.shtml",
-        "summary": "|天天学习|“全部科技史都证明，谁拥有了一流创新人才、拥有了一流科学家，谁就能在科技创新中占据优势。”习近平总书记深知创新人才培养的重要性。",
-        "image": "",
-        "publishedAt": "2026-08-25T13:01:58.000Z",
+        "title": "马龙邀请台湾青年“登陆”：“大陆适合每一位热爱运动的年轻人”",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-25/10684196.shtml",
+        "summary": "中新社上海8月25日电 (记者 陈建新 缪璐)“欢迎大家来大陆，走进校园、走进训练基地，参与训练交流、赛事活动、学习实践。”25日在上海出席一场两岸青年交流活动时，奥运冠军马龙向台湾青年发出邀请。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260825/e59c0fe0-b10f-4e76-a075-6dce0dd1305d_zsite.jpg",
+        "publishedAt": "2026-08-25T14:43:34.000Z",
         "source": "中新网"
       },
       {
-        "title": "四川省人大常委会原委员、经济委员会原主任委员刘中伯因严重违纪违法被开除党籍和公职",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-25/10684123.shtml",
-        "summary": "中新网成都8月25日电 (记者 张浪)四川省纪委监委25日消息：日前，经四川省委批准，四川省纪委监委对省人大常委会原委员、经济委员会原主任委员刘中伯严重违纪违法问题进行了立案审查调查。",
+        "title": "中印边界问题特别代表在北京举行会晤",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-25/10684194.shtml",
+        "summary": "新华社北京8月25日电(记者伍岳)中印边界问题特别代表第25次会晤25日在北京举行。中方特别代表、中共中央政治局委员、中央外办主任王毅同印方特别代表、国家安全顾问多瓦尔就中印边界问题和双边关系等进行了全面深入、友好坦诚的沟通。",
         "image": "",
-        "publishedAt": "2026-08-25T13:00:42.000Z",
+        "publishedAt": "2026-08-25T14:08:30.000Z",
         "source": "中新网"
       },
       {
-        "title": "内蒙古自治区妇女第十三次代表大会在呼和浩特召开",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-25/10684117.shtml",
-        "summary": "中新网呼和浩特8月25日电 (崔博群 赵晓雨)25日，内蒙古自治区妇女第十三次代表大会在内蒙古自治区呼和浩特市开幕。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260825/24fd68d6-30ac-4d4d-98a3-32a59dcc1131_zsite.jpeg",
-        "publishedAt": "2026-08-25T12:49:50.000Z",
+        "title": "第十一届APEC粮食安全部长级会议在浙江杭州举行",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-25/10684188.shtml",
+        "summary": "中新社杭州8月25日电 (王逸飞 鲍梦妮)作为亚太经合组织(APEC)“中国年”系列活动之一，第十一届APEC粮食安全部长级会议8月25日在浙江杭州举行。",
+        "image": "",
+        "publishedAt": "2026-08-25T14:02:05.000Z",
         "source": "中新网"
       },
       {
-        "title": "学习快评丨树立和践行正确政绩观必须久久为功",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-25/10684119.shtml",
-        "summary": "“树立和践行正确政绩观是一项长期任务，必须久久为功”。习近平总书记近日就树立和践行正确政绩观学习教育作出重要指示，为不断巩固拓展学习教育成果，持续推动各级党组织和广大党员、干部立党为公、为民造福、科学决策、真抓实干指明了前进方向、提供了重要遵循。",
+        "title": "向失职失责“亮剑” 为美丽中国“护航”——中央组织部负责人就修订颁布《党政领导干部生态环境损害责任追究办法》答记者问",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-25/10684191.shtml",
+        "summary": "新华社北京8月25日电 近日，中共中央办公厅印发新修订的《党政领导干部生态环境损害责任追究办法》(以下简称《办法》)。日前，中央组织部负责人就《办法》修订和贯彻实施等问题回答了记者提问。",
         "image": "",
-        "publishedAt": "2026-08-25T12:46:40.000Z",
+        "publishedAt": "2026-08-25T13:58:31.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "Lockerbie bombing trial postponed days before it was due to start",
-        "link": "https://www.bbc.co.uk/news/articles/cq63rmj1zl1o?at_medium=RSS&at_campaign=rss",
-        "summary": "The trial of a Libyan man is delayed for a third time, after new evidence on the 37-year-old case came to light three days ago.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9057/live/3d1ddb50-cf68-11ef-94cb-5f844ceb9e30.jpg",
-        "publishedAt": "2026-08-25T11:54:03.000Z",
+        "title": "CIA chief in Moscow for unannounced talks, US media reports",
+        "link": "https://www.bbc.co.uk/news/articles/c87vg9x5d7do?at_medium=RSS&at_campaign=rss",
+        "summary": "Flight tracking data confirms an American military aircraft travelled to Russia from the US via Latvia on Tuesday.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/32e3/live/0854ea30-a095-11f1-91dc-4919512f173f.jpg",
+        "publishedAt": "2026-08-25T16:49:31.000Z",
         "source": "BBC"
       },
       {
-        "title": "China warns it will protect its interests after US widens sanctions against Iran",
+        "title": "Two unvaccinated people die of measles in Pennsylvania",
+        "link": "https://www.bbc.co.uk/news/articles/c5yednen30go?at_medium=RSS&at_campaign=rss",
+        "summary": "Cases in the US have hit the highest point since the virus was eliminated, as vaccination rates decline.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4a64/live/340bd9d0-a091-11f1-b11c-1bea5fc925f5.jpg",
+        "publishedAt": "2026-08-25T16:43:08.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Brain disease in dead NFL players 'higher than previously shown'",
+        "link": "https://www.bbc.co.uk/sport/american-football/articles/cew9l95kyp0o?at_medium=RSS&at_campaign=rss",
+        "summary": "A new study says at least one in four ex-NFL players who died between 2016 and 2021 had a degenerative brain disease but the true figure could be much...",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/549e/live/2fb714c0-a088-11f1-bfeb-dfb02ea642ef.jpg",
+        "publishedAt": "2026-08-25T11:54:40.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "China hits out at 'illegal' new US sanctions on Iran and trading partners",
         "link": "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss",
         "summary": "The US has threatened to isolate nations that continue to do business with Tehran, which sells much of its oil to Beijing.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fc68/live/708dead0-a076-11f1-bf10-9547e884d7b7.jpg",
@@ -489,22 +505,6 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/940f/live/15a64300-a00e-11f1-9bf0-5f4ec548648d.jpg",
         "publishedAt": "2026-08-25T08:52:17.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Kit Harington replaces Nicholas Hoult in HBO's Harry Potter series",
-        "link": "https://www.bbc.co.uk/news/articles/c783lnz12vlo?at_medium=RSS&at_campaign=rss",
-        "summary": "Hoult was announced as Gilderoy Lockhart two weeks ago but has dropped out due to scheduling issues.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5dc9/live/90c5d940-a04c-11f1-b109-879e35c24276.jpg",
-        "publishedAt": "2026-08-25T07:39:25.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "As elections near, Netanyahu casts Turkey as Israel’s latest enemy",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSHc3UlJ5YlBXNHZNTnNjeHF1a2dla04tYVZqUndNZFNvS21rdnBqTzk1OFEyQmh4ck9uc081b0dDM3R2dDM1bjZ6UGFrd2d4WVV0U0dtaHNkeDBtQlZueGRhVmpDMU5CaDYyMkNhYUdJcFptQU4yWU93aVV6bkxpdnpzV2VsSmVfTmlVSGx0N0RpVVVGeHhGSDY5ell2dFFtQUFHWV80b2EzSXdu?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-08-25T04:00:29.000Z",
-        "source": "CNN"
       }
     ],
     "nba": []
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-08-25",
+    "rotationLabel": "Curated Rotation · 2026-08-26",
     "sections": [
       {
         "id": "data-storage",
@@ -522,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-2",
-            "sectionId": "data-storage",
-            "title": "Bigtable: A Distributed Storage System for Structured Data",
-            "authors": [
-              "Fay Chang",
-              "Jeffrey Dean",
-              "Sanjay Ghemawat",
-              "Wilson C. Hsieh"
-            ],
-            "venue": "OSDI",
-            "year": 2006,
-            "quality": "顶会",
-            "categories": [
-              "distributed systems",
-              "database"
-            ],
-            "link": "https://research.google/pubs/pub27898/",
-            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-3",
             "sectionId": "data-storage",
@@ -562,7 +541,7 @@
             ],
             "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
             "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-4",
@@ -584,6 +563,26 @@
             "link": "https://research.google/pubs/pub36632/",
             "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-5",
+            "sectionId": "data-storage",
+            "title": "The FAISS Library",
+            "authors": [
+              "Jeff Johnson",
+              "Matthijs Douze",
+              "Herve Jegou"
+            ],
+            "venue": "IEEE T-BD",
+            "year": 2021,
+            "quality": "高影响力",
+            "categories": [
+              "vector search",
+              "ANN"
+            ],
+            "link": "https://arxiv.org/abs/2401.08281",
+            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -593,27 +592,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-3",
-            "sectionId": "computer-vision",
-            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
-            "authors": [
-              "Alexey Dosovitskiy",
-              "Lucas Beyer",
-              "Alexander Kolesnikov",
-              "Dirk Weissenborn"
-            ],
-            "venue": "ICLR",
-            "year": 2021,
-            "quality": "顶会",
-            "categories": [
-              "vision transformer",
-              "classification"
-            ],
-            "link": "https://arxiv.org/abs/2010.11929",
-            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-4",
             "sectionId": "computer-vision",
@@ -633,7 +611,7 @@
             ],
             "link": "https://arxiv.org/abs/2103.00020",
             "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-5",
@@ -655,6 +633,27 @@
             "link": "https://arxiv.org/abs/2304.02643",
             "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-6",
+            "sectionId": "computer-vision",
+            "title": "DINOv2: Learning Robust Visual Features without Supervision",
+            "authors": [
+              "Maxime Oquab",
+              "Timothée Darcet",
+              "Théo Moutakanni",
+              "Huy V. Vo"
+            ],
+            "venue": "arXiv / Meta",
+            "year": 2023,
+            "quality": "高影响力",
+            "categories": [
+              "self-supervised",
+              "representation"
+            ],
+            "link": "https://arxiv.org/abs/2304.07193",
+            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -664,27 +663,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-4",
-            "sectionId": "llm-memory",
-            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
-            "authors": [
-              "Akari Asai",
-              "Zequn Zhang",
-              "Avirup Sil",
-              "Hannaneh Hajishirzi"
-            ],
-            "venue": "ICLR",
-            "year": 2024,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "self-reflection"
-            ],
-            "link": "https://arxiv.org/abs/2310.11511",
-            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-5",
             "sectionId": "llm-memory",
@@ -704,7 +682,7 @@
             ],
             "link": "https://arxiv.org/abs/2306.07174",
             "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-6",
@@ -726,6 +704,27 @@
             "link": "https://arxiv.org/abs/2409.05591",
             "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-1",
+            "sectionId": "llm-memory",
+            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+            "authors": [
+              "Patrick Lewis",
+              "Ethan Perez",
+              "Aleksandra Piktus",
+              "Fabio Petroni"
+            ],
+            "venue": "NeurIPS",
+            "year": 2020,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "retrieval"
+            ],
+            "link": "https://arxiv.org/abs/2005.11401",
+            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -735,27 +734,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-5",
-            "sectionId": "agents",
-            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
-            "authors": [
-              "Qingyun Wu",
-              "Gagan Bansal",
-              "Jiaqi Zhang",
-              "Yiran Wu"
-            ],
-            "venue": "COLM",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "multi-agent",
-              "framework"
-            ],
-            "link": "https://arxiv.org/abs/2308.08155",
-            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-6",
             "sectionId": "agents",
@@ -775,7 +753,7 @@
             ],
             "link": "https://arxiv.org/abs/2405.15793",
             "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-1",
@@ -797,6 +775,27 @@
             ],
             "link": "https://arxiv.org/abs/2210.03629",
             "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-2",
+            "sectionId": "agents",
+            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+            "authors": [
+              "Timo Schick",
+              "Jane Dwivedi-Yu",
+              "Roberta Dessì",
+              "Ari Holtzman"
+            ],
+            "venue": "NeurIPS",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "tool use",
+              "agent"
+            ],
+            "link": "https://arxiv.org/abs/2302.04761",
+            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
             "trackLabel": "轮换精选"
           }
         ]
