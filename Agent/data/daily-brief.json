@@ -1,49 +1,41 @@
 {
-  "generatedAt": "2026-08-27T09:33:30.993Z",
+  "generatedAt": "2026-08-27T22:12:31.705Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 28,
+      "temperature": 22,
       "weatherCode": 3,
-      "windSpeed": 4
+      "windSpeed": 1
     },
     "today": {
-      "date": "2026-08-27",
-      "weatherCode": 51,
-      "description": "毛毛雨",
-      "max": 30,
-      "min": 22,
-      "precipitationProbability": 24
+      "date": "2026-08-28",
+      "weatherCode": 53,
+      "description": "小雨",
+      "max": 23,
+      "min": 19,
+      "precipitationProbability": 73
     },
     "forecast": [
       {
-        "date": "2026-08-27",
-        "weatherCode": 51,
-        "description": "毛毛雨",
-        "max": 30,
-        "min": 22,
-        "precipitationProbability": 24
-      },
-      {
         "date": "2026-08-28",
-        "weatherCode": 80,
-        "description": "阵雨",
+        "weatherCode": 53,
+        "description": "小雨",
         "max": 23,
-        "min": 20,
-        "precipitationProbability": 88
+        "min": 19,
+        "precipitationProbability": 73
       },
       {
         "date": "2026-08-29",
         "weatherCode": 3,
         "description": "阴天",
-        "max": 31,
+        "max": 29,
         "min": 18,
-        "precipitationProbability": 3
+        "precipitationProbability": 0
       },
       {
         "date": "2026-08-30",
-        "weatherCode": 0,
-        "description": "晴朗",
+        "weatherCode": 1,
+        "description": "基本晴",
         "max": 31,
         "min": 17,
         "precipitationProbability": 0
@@ -52,35 +44,52 @@
         "date": "2026-08-31",
         "weatherCode": 0,
         "description": "晴朗",
+        "max": 28,
+        "min": 18,
+        "precipitationProbability": 2
+      },
+      {
+        "date": "2026-09-01",
+        "weatherCode": 1,
+        "description": "基本晴",
         "max": 27,
         "min": 19,
-        "precipitationProbability": 6
+        "precipitationProbability": 12
       }
     ]
   },
   "classicQuote": {
-    "id": "zhuangzi-time",
-    "text": "人生天地之间，若白驹之过隙，忽然而已。",
-    "source": "《庄子》",
-    "author": "庄周",
-    "note": "事情很多的时候，更值得把注意力放在真正重要的事上。"
+    "id": "dream-red-mansions",
+    "text": "世事洞明皆学问，人情练达即文章。",
+    "source": "《红楼梦》",
+    "author": "曹雪芹",
+    "note": "技术之外，理解人和场景，往往更能拉开差距。"
   },
   "bookExcerpt": {
-    "id": "one-hundred-years-yellow",
-    "text": "许多年以后，面对行刑队，奥雷里亚诺·布恩迪亚上校将会想起父亲带他去见识冰块的那个遥远的下午。",
-    "book": "《百年孤独》",
-    "author": "加西亚·马尔克斯"
+    "id": "floating-life-lotus",
+    "text": "芸坐其侧，素手烹茶，窗外新荷微香，连晚风也像带着水意，从竹帘间一寸寸地漫进来。",
+    "book": "《浮生六记》",
+    "author": "沈复"
   },
   "featuredPlace": {
-    "id": "202608261600",
-    "title": "日出时的小红鹳群，马加迪湖，肯尼亚",
+    "id": "202608271600",
+    "title": "涨潮时的圣米歇尔山，芒什省，诺曼底，法国",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "湖水、野生动物与奇景",
-    "image": "https://www.bing.com/th?id=OHR.LakeMagadi_ZH-CN0601527009_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E6%B9%96%E6%B3%8A%E6%97%A5&form=hpcapt&mkt=zh-cn"
+    "summary": "潮汐塑造的传奇",
+    "image": "https://www.bing.com/th?id=OHR.MichelSunset_ZH-CN0822968543_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E5%9C%A3%E7%B1%B3%E6%AD%87%E5%B0%94%E5%B1%B1&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202608271600",
+      "title": "涨潮时的圣米歇尔山，芒什省，诺曼底，法国",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "潮汐塑造的传奇",
+      "image": "https://www.bing.com/th?id=OHR.MichelSunset_ZH-CN0822968543_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E5%9C%A3%E7%B1%B3%E6%AD%87%E5%B0%94%E5%B1%B1&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202608261600",
       "title": "日出时的小红鹳群，马加迪湖，肯尼亚",
@@ -143,245 +152,260 @@
       "summary": "攀登在召唤",
       "image": "https://www.bing.com/th?id=OHR.JulierPass_ZH-CN3064797820_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E7%91%9E%E5%A3%AB%E5%B0%A4%E5%88%A9%E5%B0%94%E5%B1%B1%E5%8F%A3&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202608191600",
-      "title": "林恩运河中浮出水面的虎鲸，奇尔卡特山脉附近，阿拉斯加州，美国",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "鲸群之声",
-      "image": "https://www.bing.com/th?id=OHR.LynnCanalOrca_ZH-CN0719217908_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E8%99%8E%E9%B2%B8&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-08-27",
-    "dateLabel": "8月27日",
+    "dateKey": "2026-08-28",
+    "dateLabel": "8月28日",
     "items": [
       {
-        "year": "2017",
-        "text": "強烈熱帶風暴帕卡吹襲香港和澳門兩地至超強颱風天鴿後，五日內再次發出八號烈風或暴風信號和八號風球。",
-        "link": "https://zh.wikipedia.org/wiki/2017%E5%B9%B4"
+        "year": "2024",
+        "text": "第17届残疾人奥林匹克运动会在法国巴黎开幕。",
+        "link": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4"
       },
       {
-        "year": "2011",
-        "text": "台大醫院發生台灣史上最嚴重的愛滋病感染事件，因該院檢驗部門溝通問題導致多名接受器捐病患誤植遭感染愛滋病毒的器官，另有數名醫護人員可能有感染風險。",
-        "link": "https://zh.wikipedia.org/wiki/2011%E5%B9%B4"
+        "year": "2017",
+        "text": "中印軍隊洞朗對峙事件：印度共和國宣佈相關人員與裝備於14:30左右全部撤離洞朗高原，中華人民共和國與印度共和國兩國結束對峙。",
+        "link": "https://zh.wikipedia.org/wiki/2017%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "东西问丨阿根廷学者何广思：AI会让拉美了解中国的“滤镜”更厚吗？",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-27/10685339.shtml",
-        "summary": "中新社北京8月27日电 题：AI会让拉美了解中国的“滤镜”更厚吗？",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/08/27/d2b51163374a410eade4b3437ae60949.jpg",
-        "publishedAt": "2026-08-27T09:30:14.000Z",
+        "title": "2026年亚太经合组织会议筹备进程进入冲刺阶段",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-27/10685523.shtml",
+        "summary": "中新社大连8月27日电 (记者 周昕 杨毅)2026年亚太经合组织(APEC)第三次高官会27日在辽宁大连举行开幕式。记者了解到，第三次高官会标志着今年APEC会议筹备进程进入冲刺阶段。",
+        "image": "",
+        "publishedAt": "2026-08-27T15:27:56.000Z",
         "source": "中新网"
       },
       {
-        "title": "中国工商银行内部审计局天津分局原副局长陈兵被“双开”",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-27/10685343.shtml",
-        "summary": "中新网8月27日电 据中央纪委国家监委驻中国工商银行纪检监察组、天津市纪委监委消息：日前，中央纪委国家监委驻中国工商银行纪检监察组、天津市监察委员会对中国工商银行内部审计局天津分局原副局长陈兵严重违纪违法问题进行了立案审查调查。",
+        "title": "水利部针对西藏启动洪水防御Ⅳ级应急响应",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-27/10685467.shtml",
+        "summary": "中新网8月27日电 据“中国水利”微信公众号消息，受8月26日尼泊尔一侧发生泥石流灾害影响，尼泊尔错坚河汇入我国境内普热普强藏布的交汇处附近形成堰塞湖，截至8月27日上午估算蓄水量约200万立方米。据预报，受降雨影响，堰塞湖未来3天入湖水量约300万立方米，溃泄风险高，可能造成吉隆口岸等下游沿线地区...",
         "image": "",
-        "publishedAt": "2026-08-27T09:29:00.000Z",
+        "publishedAt": "2026-08-27T12:47:10.000Z",
         "source": "中新网"
       },
       {
-        "title": "甘肃省民政厅党组成员、副厅长张鸿接受审查调查",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-27/10685342.shtml",
-        "summary": "中新网8月27日电 据甘肃省纪委监委消息：甘肃省民政厅党组成员、副厅长张鸿涉嫌严重违纪违法，目前正接受甘肃省纪委监委纪律审查和监察调查。",
+        "title": "中国国防部：靖国神社是名副其实的“战犯神社”",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-27/10685463.shtml",
+        "summary": "中新社北京8月27日电 (记者 李纯)中国国防部新闻发言人张晓刚在27日的例行记者会上指出，靖国神社是名副其实的“战犯神社”、军国主义招魂所。民进党当局媚日恋殖、认贼作父，令人不齿。",
         "image": "",
-        "publishedAt": "2026-08-27T09:28:40.000Z",
+        "publishedAt": "2026-08-27T12:41:41.000Z",
         "source": "中新网"
       },
       {
-        "title": "四部门开展专项行动集中整治车辆可靠性耐久性等问题",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-27/10685341.shtml",
-        "summary": "中新网8月27日电 据“工信微报”微信公众号消息，工业和信息化部、公安部、生态环境部、市场监管总局等四部门近日联合印发通知，组织开展道路机动车辆产品生产一致性和质量提升专项行动，为期一年。检查对象包括道路机动车辆生产企业及产品、有关道路机动车辆检验检测机构。通过开展专项行动，集中整治道路机动车辆产品...",
+        "title": "司法部：“九五”普法要做到人群在哪里，普法就跟进到哪里",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-27/10685444.shtml",
+        "summary": "中新网北京8月27日电 (记者 马帅莎)司法部副部长胡卫列8月27日在北京表示，“九五”普法在宣传形式上，要着力破解部分地方普法针对性不够、效果感知不强等问题，深入落实公民终身法治教育制度，做到人群在哪里，普法就跟进到哪里。探索精准普法新模式，让普法跳出展板、跳出传单，更加鲜活接地气。",
         "image": "",
-        "publishedAt": "2026-08-27T09:12:17.000Z",
+        "publishedAt": "2026-08-27T12:25:07.000Z",
         "source": "中新网"
       },
       {
-        "title": "《习近平文化文选》第一卷、第二卷出版发行",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-27/10685327.shtml",
-        "summary": "新华社北京8月27日电#8195;中共中央党史和文献研究院编辑的《习近平文化文选》第一卷、第二卷，近日由中央文献出版社出版，在全国发行。",
+        "title": "中国发布首版全国几何基准影像",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-27/10685443.shtml",
+        "summary": "中新社北京8月27日电 (记者 庞无忌)中国自然资源部国土卫星遥感应用中心副主任于德全27日在北京发布中国首版全国几何基准影像。这是中国首版覆盖全部陆地国土的国家级几何基准影像。",
         "image": "",
-        "publishedAt": "2026-08-27T09:04:20.000Z",
+        "publishedAt": "2026-08-27T12:23:06.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "广西首创“三员联检”模式 深化儿童产品质量消费安全守护行动",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-27/10685330.shtml",
-        "summary": "中新网南宁8月27日电(张秀英)8月27日，广西壮族自治区市场监督管理局介绍，为提升监管精准度与执法效率，广西持续深化儿童产品质量消费安全守护行动，在全国首创产品检验员、抽样员、监管员“三员联检”监管新模式，有效杜绝不合格儿童产品流入市场。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260827/5582c558-1f6a-44cb-a1fb-99399565a9e5_zsite.jpg",
-        "publishedAt": "2026-08-27T09:30:10.000Z",
+        "title": "“赛考斯”的中国故乡：鄂尔多斯属于22世纪",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-28/10685537.shtml",
+        "summary": "中新社鄂尔多斯8月27日电 题：“赛考斯”的中国故乡：鄂尔多斯属于22世纪",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260828/8cb394e9-4701-4ba6-b214-d8c4f6257fdc_zsite.jpg",
+        "publishedAt": "2026-08-27T21:53:46.000Z",
         "source": "中新网"
       },
       {
-        "title": "两架翼龙无人机高原架起“空中生命线”助力吉隆灾区救援",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-27/10685329.shtml",
-        "summary": "中新网成都8月27日电 (刘忠俊 朱海海)8月27日11时10分，在西藏日喀则市完成首次任务的一架翼龙无人机，经快速地面保障后再次升空，继续投入救援。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260827/ddd12a3f-5d41-4b36-868c-95baafa84771_zsite.jpg",
-        "publishedAt": "2026-08-27T09:29:00.000Z",
+        "title": "青海昂赛雪豹主题生态特色小镇投运",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-28/10685536.shtml",
+        "summary": "中新社青海杂多8月28日电 (祁增蓓)世界首个雪豹主题生态特色小镇——三江源昂赛雪豹小镇27日下午正式投入运营。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260828/beac2769-ee86-4580-9d4b-864d8b284b55_zsite.jpg",
+        "publishedAt": "2026-08-27T21:53:04.000Z",
         "source": "中新网"
       },
       {
-        "title": "从“有水喝”到“喝好水” 2026年江西农村自来水普及率达95.5%",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-27/10685346.shtml",
-        "summary": "中新网南昌8月27日电 (朱莹)27日，江西省农村供水保障新闻发布会在南昌举行。江西省水利厅党组书记、厅长罗传彬在会上透露，2026年江西全省农村自来水普及率达95.5%，规模化供水工程覆盖农村人口比例达82.5%，农村供水县域统管比例达91.6%，已累计解决薄弱环节2.3万余个。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260827/5598e244-612c-4eac-a84b-fc4d93e1c722_zsite.jpg",
-        "publishedAt": "2026-08-27T09:24:09.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "尼泊尔山洪死亡人数升至270人",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-27/10685332.shtml",
-        "summary": "据尼泊尔警方通报，截至当地时间8月27日13时30分，尼泊尔山洪死亡人数已升至270人。",
+        "title": "西藏吉隆泥石流原因查明：尼泊尔境内高山冰崩",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-27/10685521.shtml",
+        "summary": "中新网8月27日电 据“自然资源部”微信公众号消息，8月26日10时30分许，因尼泊尔一侧发生泥石流灾害，造成西藏日喀则市吉隆县吉隆口岸重大人员伤亡、失联。自然资源部专家分析，此次灾害是由尼泊尔境内高位冰川崩塌引发的碎屑流链式灾害。冰崩物质高速下泄，沿沟道裹挟冰碛物演变为碎屑流，进而汇入东林藏布形成...",
         "image": "",
-        "publishedAt": "2026-08-27T09:07:44.000Z",
+        "publishedAt": "2026-08-27T15:08:09.000Z",
         "source": "中新网"
       },
       {
-        "title": "海外博主看中国｜“中国机器人的迭代速度令人震撼”",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-27/10685331.shtml",
-        "summary": "第二届世界人形机器人运动会8月26日在北京落幕，南非自媒体博主利兹在最新发布的视频中向网友们介绍了她眼中的机器人版“奥运会”。",
-        "image": "https://poss-videocloud.cns.com.cn/oss/2026/08/27/chinanews/MEIZI_YUNSHI/onair/DBB53BA392094BA995AF45B7F5CB2D9F.mp4",
-        "publishedAt": "2026-08-27T09:07:26.000Z",
+        "title": "指尖笛韵谱新生 四川阿坝古羌文化焕发新机",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-27/10685515.shtml",
+        "summary": "中新网阿坝8月27日电 (祝欢 安源)27日，在四川省阿坝州汶川县映秀镇非遗羌绣生活馆一角，一位绣娘飞针走线，不一会一朵羊角花的轮廓便在深蓝色的布上渐渐清晰。一根根彩线在绣娘手中仿佛有了生命，翻飞、缠绕、交织，将古老的羌族纹样一寸寸唤醒。馆内挂满了绣娘们的作品，从传统的羌族服饰、鞋垫，到创新的手提包...",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260827/e4be428c-d31b-4057-8308-38f8f2b367d9_zsite.jpeg",
+        "publishedAt": "2026-08-27T14:16:38.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "西藏日喀则164名公安交管民警坚守一线 吉隆民警转移群众320余人",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-27/10685509.shtml",
+        "summary": "中新网北京8月27日电 (记者 郭超凯)记者从公安部获悉，为全力确保应急抢险、物资运输等车辆安全有序通行，截至8月27日11时，西藏日喀则公安机关统筹调派164名公安交管民警全力投入吉隆泥石流抢险救援、路面保通、交通秩序维护等工作。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260827/0ac9e364-b8b2-4ec4-8e69-d70880ab8888_zsite.jpg",
+        "publishedAt": "2026-08-27T14:08:33.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "7月末中国境内上市公司达5541家",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-27/10685347.shtml",
-        "summary": "中新社北京8月27日电 (记者 陈康亮)据中国上市公司协会27日发布的数据，截至2026年7月31日，中国境内股票市场(下称“全市场”)共有上市公司5541家，上海、深圳、北京证券交易所上市公司数量分别为2313家、2897家、331家。",
+        "title": "大学专业迎来一轮“上新” 就业前景如何？",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-28/10685542.shtml",
+        "summary": "又是一年开学季，大学专业也迎来一轮“上新”。今年，教育部新增38个本科专业，具身智能、智慧植保、国际组织与全球治理等专业集中亮相。这些新专业究竟学什么？就业前景如何？",
         "image": "",
-        "publishedAt": "2026-08-27T09:23:43.000Z",
+        "publishedAt": "2026-08-27T22:09:20.000Z",
         "source": "中新网"
       },
       {
-        "title": "潍宿高铁至青岛连接线两处关键连续梁顺利合龙",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-27/10685315.shtml",
-        "summary": "中新网济南8月27日电 (周艺伟)8月27日凌晨，由中铁十局承建的潍宿高铁至青岛连接线跨胶黄铁路特大桥——双线段跨胶州湾高速80米连续梁、跨红柳河路64米连续梁顺利合龙。这一关键节点的突破，标志着该连续梁主体结构施工圆满完成，为后续架梁作业顺利开展筑牢基础。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260827/036298ec-2752-4f59-9c3f-b0c3bce7f463_zsite.jpg",
-        "publishedAt": "2026-08-27T09:01:36.000Z",
+        "title": "（活力中国调研行）“工厂”变“景区” 山东探索工业旅游新路径",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-27/10685519.shtml",
+        "summary": "中新社山东菏泽8月27日电 题：“工厂”变“景区” 山东探索工业旅游新路径",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260827/8dc792be-c98c-4e67-b0f5-f46dbaacf9ed_zsite.jpg",
+        "publishedAt": "2026-08-27T14:59:56.000Z",
         "source": "中新网"
       },
       {
-        "title": "商务部：截至目前全国共有37个航空保税维修项目",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-27/10685313.shtml",
-        "summary": "中新网8月27日电 商务部于27日举行新闻发布会，介绍近期商务领域重点工作有关情况。会上，有记者提问，近日，商务部等9部门印发《关于促进航空保税维修高质量发展的意见》，能否具体介绍一下有关情况？下一步将如何促进航空保税维修高质量发展？",
+        "title": "中国官方：力争“十五五”时期地理信息产业年均总产值突破万亿元大关",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-27/10685520.shtml",
+        "summary": "中新社北京8月27日电 (记者 庞无忌)中国自然资源部地理信息管理司司长陈平27日在北京表示，力争“十五五”时期地理信息产业年均总产值突破万亿元(人民币，下同)大关。",
         "image": "",
-        "publishedAt": "2026-08-27T08:59:37.000Z",
+        "publishedAt": "2026-08-27T14:59:08.000Z",
         "source": "中新网"
       },
       {
-        "title": "新疆吉木萨尔：“微经济”让村民在家里实现创收",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-27/10685304.shtml",
-        "summary": "中新网乌鲁木齐8月27日电 (叶钰 张蓉)眼下，新疆吉木萨尔县庆阳湖乡的农家小院里绿意盎然。一串串翠绿饱满的豇豆挂满藤蔓，农户们正忙着采摘、分拣。这些曾经闲置的庭院空地，如今已变成民众增收的新途径。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260827/936c61f4-4a3e-4ce6-be6d-762c6c5cd268_zsite.jpg",
-        "publishedAt": "2026-08-27T08:58:59.000Z",
+        "title": "逾30支团队在穗同台竞技 展示AI技术在交通领域创新成果",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-27/10685516.shtml",
+        "summary": "中新网广州8月27日电 (记者 蔡敏婕)“当前人工智能与交通运输的融合已经取得良好的起步阶段。智能体和数字员工的应用，已成功将原本以小时计的工作流程缩短至秒级完成，展现了AI技术的生产力。”广东省智能交通协会会长谢振东27日表示，行业发展将从单一智能体向多智能体融合方向迈进，人工智能也将逐步从感知智...",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260827/61bf7360-569d-443f-88bb-9be2994b1e7b_zsite.jpg",
+        "publishedAt": "2026-08-27T14:16:14.000Z",
         "source": "中新网"
       },
       {
-        "title": "事关垄断协议个人责任追责范围等 市场监管总局公开征求意见",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-27/10685305.shtml",
-        "summary": "中新网8月27日电 据“市说新语”微信公众号消息，为贯彻落实党中央、国务院关于强化反垄断的决策部署，实现对垄断违法主体实际控制人、最终受益人有效追责，近日市场监管总局发布《垄断协议个人责任适用指引(征求意见稿)》(以下简称《征求意见稿》)，明确垄断协议个人责任的追责范围、追责情形和裁量因素等，提升反...",
+        "title": "郑州国际陆港航空港片区首列混装拼箱班列发运",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-27/10685510.shtml",
+        "summary": "中新网郑州8月27日电 (陈贵洋)一列满载11种货品的中欧班列27日从郑州国际陆港航空港片区驶出，前往俄罗斯。这标志着该片区混装拼箱出口通道实现高效畅通，为多品类、小批量货物的跨境运输提供了新路径。",
         "image": "",
-        "publishedAt": "2026-08-27T08:58:53.000Z",
+        "publishedAt": "2026-08-27T14:10:07.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "Norway's royal family gathers at King Harald's bedside as his condition worsens",
-        "link": "https://www.bbc.co.uk/news/articles/cqxvrnvrr5do?at_medium=RSS&at_campaign=rss",
-        "summary": "The 89-year-old has been in hospital for over a week receiving treatment for a rare blood condition.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/06e5/live/35ac1170-a1f3-11f1-bf30-b9c45f18ad85.png",
-        "publishedAt": "2026-08-27T08:59:53.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Collapsed glacier likely caused devastating Nepal-Tibet floods, scientists say",
-        "link": "https://www.bbc.co.uk/news/articles/cly464k252yo?at_medium=RSS&at_campaign=rss",
-        "summary": "Preliminary investigations by scientists have pointed to a collapsed glacier as the cause, highlighting the issue of rapidly melting Himalayan ice.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c636/live/3c7f9eb0-a1e7-11f1-bf30-b9c45f18ad85.jpg",
-        "publishedAt": "2026-08-27T07:47:12.000Z",
+        "title": "Jury deliberating in trial of Lindsay Clancy, US woman accused of killing her children",
+        "link": "https://www.bbc.co.uk/news/articles/c33keeyyv70o?at_medium=RSS&at_campaign=rss",
+        "summary": "Prosecutors argued Clancy made a calculated decision to murder the children, while the defence argued that she was suffering from postpartum psychosis...",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a8d1/live/4db59af0-a240-11f1-804a-af7f2afa0e85.jpg",
+        "publishedAt": "2026-08-27T20:39:16.000Z",
         "source": "BBC"
       },
       {
         "title": "What we know about deadly Nepal-Tibet floods",
         "link": "https://www.bbc.co.uk/news/articles/cd948kn02e5o?at_medium=RSS&at_campaign=rss",
-        "summary": "Hundreds have died in flooding and landslides on the border of Nepal and Tibet.",
+        "summary": "Hundreds have died or are missing in Wednesday's flooding and landslides on the border of Nepal and Tibet.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9aa6/live/67c06430-a1f4-11f1-aed2-8d6da8d75094.jpg",
-        "publishedAt": "2026-08-27T07:43:04.000Z",
+        "publishedAt": "2026-08-27T20:38:48.000Z",
         "source": "BBC"
       },
       {
-        "title": "‘We will retaliate like an earthquake:’ How Iran could respond to Trump’s economic ‘D-Day’",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZEJWU21tTlFXMW1yNnRIbGhuUVkzbDRNV0lBd3pIVWc3aG9xa2JGb1pmemdxbTZsS2FYd2YxMmR6ODBJX3dQckoyZXRYY0k5aFRpUUlKTW5fUTFib29wYVB0b1g3OV9VdExjbUg2bmtLLU93bkN3WlB2R19tRWlsN1I0eDhBcXhHTUI3LTEtUEZXSFB1QUVXbUh3?oc=5",
+        "title": "El Niño events are becoming stronger as the world warms",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1IZkQwZEZCdjlDY0lOY05pUy04S3FYZHhCVy1MS183aVF1UDlOZmNxUXA5bDNHeTQwbTFEZXVyWDJpVVBWSFJmY0JfRHViZ1cyek1xUG9TNGZIZ1p1bWZXU0hzbmlmTFpjVmdwdzBPQXNNcUFTclE?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-08-27T04:01:29.000Z",
+        "publishedAt": "2026-08-27T18:00:16.000Z",
         "source": "CNN"
       },
       {
-        "title": "Incredible shortlisted images from Wildlife Photographer of the Year",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdmlVRENqczVQekgwOHg0Nk51U0RxN2dXbTNrd0xIQXBsdVdTNUloZS1mVTNQc3J3NmxBdi1XazAzM3haZFBwbEY5ZURnRlFEZWlZdUlVYnBObjJTYnZIUEVJdUp5clVISTE2UW1FMVlBRnBvQXFYSVNsVmo1NnJEMDNpTzBRWi1xYkUxTQ?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-08-26T16:01:14.000Z",
-        "source": "CNN"
+        "title": "Norwegians lay flowers at palace as King Harald's condition worsens",
+        "link": "https://www.bbc.co.uk/news/articles/cqxvrnvrr5do?at_medium=RSS&at_campaign=rss",
+        "summary": "The 89-year-old's condition is described as \"extremely serious\" and members of his family have visited him in hospital.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eaed/live/393c1ec0-a22f-11f1-80a2-67c89a95284e.jpg",
+        "publishedAt": "2026-08-27T17:42:04.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Convicted Bosnian Serb war criminal Mladić dies aged 84",
+        "link": "https://www.bbc.co.uk/news/articles/c5ywxpryj95o?at_medium=RSS&at_campaign=rss",
+        "summary": "He was jailed for life in 2017 for genocide, war crimes and crimes against humanity during the wars in the ex-Yugoslavia in 1992-95.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bfd1/live/703cbea0-a218-11f1-aed2-8d6da8d75094.jpg",
+        "publishedAt": "2026-08-27T17:05:22.000Z",
+        "source": "BBC"
       }
     ],
     "worldBusiness": [
       {
-        "title": "How to make your rental feel like home - from lighting to vintage gems?",
-        "link": "https://www.bbc.co.uk/news/articles/c3w0972z5d8o?at_medium=RSS&at_campaign=rss",
-        "summary": "Experts share tips on how to make a flat or house feel like your own without annoying the landlord.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7ae4/live/33456200-a140-11f1-9311-09d4e1fc9016.jpg",
-        "publishedAt": "2026-08-26T23:08:42.000Z",
+        "title": "'Cowboy builders' targeted in new government clampdown",
+        "link": "https://www.bbc.co.uk/news/articles/cx2z44982e4o?at_medium=RSS&at_campaign=rss",
+        "summary": "A database of trusted tradespeople and a system to protect customers' money is being launched by the government next month.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3e64/live/5cd9a9c0-a22e-11f1-bd54-531a21306a62.jpg",
+        "publishedAt": "2026-08-27T21:44:02.000Z",
         "source": "BBC"
       },
       {
-        "title": "Plug-in solar panels are coming to a shop near you - here's what to know",
-        "link": "https://www.bbc.co.uk/news/articles/c4g3y6398nwo?at_medium=RSS&at_campaign=rss",
-        "summary": "The UK government claimes panels could help homes \"significantly cut\" energy bills.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9bb3/live/fda8dc80-a086-11f1-bfeb-dfb02ea642ef.jpg",
-        "publishedAt": "2026-08-26T23:06:41.000Z",
+        "title": "Sports Direct founder attacks Burnham's 'populist' High Street plans",
+        "link": "https://www.bbc.co.uk/news/articles/cn74mm2jz8jo?at_medium=RSS&at_campaign=rss",
+        "summary": "In a letter, the entrepreneur accuses the prime minister of \"jumping on 'everyday fixes' or bandwagons\" with his latest cost of living and retail poli...",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a954/live/16d5b030-a25c-11f1-a2c3-9b22da0a32fd.jpg",
+        "publishedAt": "2026-08-27T20:03:34.000Z",
         "source": "BBC"
       },
       {
-        "title": "Meta's $18bn settlement may hasten reckoning for social media on child safety",
-        "link": "https://www.bbc.co.uk/news/articles/clyq4gxwe7go?at_medium=RSS&at_campaign=rss",
-        "summary": "Perhaps our days of doomscrolling are numbered, writes the BBC's technology editor Zoe Kleinman.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e8a1/live/dac60130-a193-11f1-9e49-ab6cded816f9.jpg",
-        "publishedAt": "2026-08-26T23:04:24.000Z",
+        "title": "Hackers steal data from millions of airport customers",
+        "link": "https://www.bbc.co.uk/news/articles/c7v4353rry7o?at_medium=RSS&at_campaign=rss",
+        "summary": "About 8.7 million customers had their data accessed and a ransom was demanded.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f25f/live/59771ca0-a214-11f1-9090-b51af3a01fc2.jpg",
+        "publishedAt": "2026-08-27T16:07:26.000Z",
         "source": "BBC"
       },
       {
-        "title": "How Dolly Parton's business savvy helped her succeed far beyond the charts",
-        "link": "https://www.bbc.co.uk/news/articles/c0klj72p66lo?at_medium=RSS&at_campaign=rss",
-        "summary": "While country music and films brought her fame, her entrepreneurial zeal brought her fortune.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/40b0/live/6a960df0-a13a-11f1-9d37-9b3d56456ba1.jpg",
-        "publishedAt": "2026-08-26T23:03:46.000Z",
+        "title": "What the Meta settlement means for the UK, and other questions after the deal",
+        "link": "https://www.bbc.co.uk/news/articles/cg49q4xydq0o?at_medium=RSS&at_campaign=rss",
+        "summary": "Other social media firms are yet to respond, while the debate from campaigners is far from over.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3471/live/51e2ea60-a213-11f1-9090-b51af3a01fc2.jpg",
+        "publishedAt": "2026-08-27T13:24:03.000Z",
         "source": "BBC"
       },
       {
-        "title": "Nvidia revenue doubles on continued AI demand",
-        "link": "https://www.bbc.co.uk/news/articles/ce871n7lyvlo?at_medium=RSS&at_campaign=rss",
-        "summary": "Chipmaker's $96bn quarter beat forecasts as demand for AI hardware continues to accelerate.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7234/live/2da1a9f0-a193-11f1-aed2-8d6da8d75094.jpg",
-        "publishedAt": "2026-08-26T21:49:26.000Z",
-        "source": "BBC"
+        "title": "Cup of ambition: How Dolly Parton’s business empire transformed her corner of Appalachia",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1kc1h4R3llUURqR2pYMXJEVTA4SGlYbW1aTklnWEdzV2h0clZMS09kTGxPVVJCQlFTZG03dTBBSFpldXlWakMxRTJjSUZOdk02X2JEODBiZHpWYzY5ZWw5djd4NUsxZlc0Tk5sMlNIUGVnbnNER1JHNw?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-08-27T10:30:29.000Z",
+        "source": "CNN"
       }
     ],
     "worldTech": [
+      {
+        "title": "Time is running out for cyber security, warn top tech firms",
+        "link": "https://www.bbc.co.uk/news/articles/cwyz11475l1o?at_medium=RSS&at_campaign=rss",
+        "summary": "The letter warns cyber-attacks which use AI will become more sophisticated in a matter of months.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/76e0/live/18ba43f0-a236-11f1-80a2-67c89a95284e.jpg",
+        "publishedAt": "2026-08-27T19:44:27.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Reform of all social media should come with Meta changes, UN says",
+        "link": "https://www.bbc.co.uk/news/articles/c17j00lnn41o?at_medium=RSS&at_campaign=rss",
+        "summary": "California's attorney general is now looking at TikTok and YouTube to enact teen safety features.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5901/live/e330e520-a228-11f1-bd6a-3d72a7f54a3e.jpg",
+        "publishedAt": "2026-08-27T19:31:10.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "What the Meta settlement means for the UK, and other questions after the deal",
+        "link": "https://www.bbc.co.uk/news/articles/cg49q4xydq0o?at_medium=RSS&at_campaign=rss",
+        "summary": "Other social media firms are yet to respond, while the debate from campaigners is far from over.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3471/live/51e2ea60-a213-11f1-9090-b51af3a01fc2.jpg",
+        "publishedAt": "2026-08-27T13:24:03.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Unexpected chat between OpenAI agents led to Hugging Face hack",
         "link": "https://www.bbc.co.uk/news/articles/cj9xj89dk40o?at_medium=RSS&at_campaign=rss",
@@ -397,114 +421,90 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7234/live/2da1a9f0-a193-11f1-aed2-8d6da8d75094.jpg",
         "publishedAt": "2026-08-26T21:49:26.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Meta to pay up to $18bn to settle claims its platforms harm children",
-        "link": "https://www.bbc.co.uk/news/articles/cd68q3wynnqo?at_medium=RSS&at_campaign=rss",
-        "summary": "The deal has been reached during a California federal court trial over claims brought by US states.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aa89/live/9a0f4c00-a152-11f1-aed2-8d6da8d75094.jpg",
-        "publishedAt": "2026-08-26T21:27:23.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Xbox boss 'thinking about affordability' of next-gen console",
-        "link": "https://www.bbc.co.uk/news/articles/c17jlngexy9o?at_medium=RSS&at_campaign=rss",
-        "summary": "In an exclusive interview with the BBC, Asha Sharma also discusses giving gamers digital versions of games they own.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8e75/live/80f6b0f0-a15c-11f1-aaf8-119f176ff4ce.jpg",
-        "publishedAt": "2026-08-26T15:38:49.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Ring hopes new encryption tech will ease surveillance fears around its home security cameras",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE52NnRWMEFHME1GcGlUajltV0hoOG9kWVJ1cGNDM2lZX0tZQy01bGpFYk1ud1VBRWhIcE5uSUFMU0UzcDNzS0N1c3lVNVNjUWpoWEllV3k1cXZqcHdvdnkycldWQjVLMk02VVZVZkZzNXFzTkp6?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-08-26T13:00:30.000Z",
-        "source": "CNN"
       }
     ],
     "domestic": [
       {
-        "title": "东西问丨阿根廷学者何广思：AI会让拉美了解中国的“滤镜”更厚吗？",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-27/10685339.shtml",
-        "summary": "中新社北京8月27日电 题：AI会让拉美了解中国的“滤镜”更厚吗？",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/08/27/d2b51163374a410eade4b3437ae60949.jpg",
-        "publishedAt": "2026-08-27T09:30:14.000Z",
+        "title": "2026年亚太经合组织会议筹备进程进入冲刺阶段",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-27/10685523.shtml",
+        "summary": "中新社大连8月27日电 (记者 周昕 杨毅)2026年亚太经合组织(APEC)第三次高官会27日在辽宁大连举行开幕式。记者了解到，第三次高官会标志着今年APEC会议筹备进程进入冲刺阶段。",
+        "image": "",
+        "publishedAt": "2026-08-27T15:27:56.000Z",
         "source": "中新网"
       },
       {
-        "title": "中国工商银行内部审计局天津分局原副局长陈兵被“双开”",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-27/10685343.shtml",
-        "summary": "中新网8月27日电 据中央纪委国家监委驻中国工商银行纪检监察组、天津市纪委监委消息：日前，中央纪委国家监委驻中国工商银行纪检监察组、天津市监察委员会对中国工商银行内部审计局天津分局原副局长陈兵严重违纪违法问题进行了立案审查调查。",
+        "title": "水利部针对西藏启动洪水防御Ⅳ级应急响应",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-27/10685467.shtml",
+        "summary": "中新网8月27日电 据“中国水利”微信公众号消息，受8月26日尼泊尔一侧发生泥石流灾害影响，尼泊尔错坚河汇入我国境内普热普强藏布的交汇处附近形成堰塞湖，截至8月27日上午估算蓄水量约200万立方米。据预报，受降雨影响，堰塞湖未来3天入湖水量约300万立方米，溃泄风险高，可能造成吉隆口岸等下游沿线地区...",
         "image": "",
-        "publishedAt": "2026-08-27T09:29:00.000Z",
+        "publishedAt": "2026-08-27T12:47:10.000Z",
         "source": "中新网"
       },
       {
-        "title": "甘肃省民政厅党组成员、副厅长张鸿接受审查调查",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-27/10685342.shtml",
-        "summary": "中新网8月27日电 据甘肃省纪委监委消息：甘肃省民政厅党组成员、副厅长张鸿涉嫌严重违纪违法，目前正接受甘肃省纪委监委纪律审查和监察调查。",
+        "title": "中国国防部：靖国神社是名副其实的“战犯神社”",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-27/10685463.shtml",
+        "summary": "中新社北京8月27日电 (记者 李纯)中国国防部新闻发言人张晓刚在27日的例行记者会上指出，靖国神社是名副其实的“战犯神社”、军国主义招魂所。民进党当局媚日恋殖、认贼作父，令人不齿。",
         "image": "",
-        "publishedAt": "2026-08-27T09:28:40.000Z",
+        "publishedAt": "2026-08-27T12:41:41.000Z",
         "source": "中新网"
       },
       {
-        "title": "四部门开展专项行动集中整治车辆可靠性耐久性等问题",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-27/10685341.shtml",
-        "summary": "中新网8月27日电 据“工信微报”微信公众号消息，工业和信息化部、公安部、生态环境部、市场监管总局等四部门近日联合印发通知，组织开展道路机动车辆产品生产一致性和质量提升专项行动，为期一年。检查对象包括道路机动车辆生产企业及产品、有关道路机动车辆检验检测机构。通过开展专项行动，集中整治道路机动车辆产品...",
+        "title": "司法部：“九五”普法要做到人群在哪里，普法就跟进到哪里",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-27/10685444.shtml",
+        "summary": "中新网北京8月27日电 (记者 马帅莎)司法部副部长胡卫列8月27日在北京表示，“九五”普法在宣传形式上，要着力破解部分地方普法针对性不够、效果感知不强等问题，深入落实公民终身法治教育制度，做到人群在哪里，普法就跟进到哪里。探索精准普法新模式，让普法跳出展板、跳出传单，更加鲜活接地气。",
         "image": "",
-        "publishedAt": "2026-08-27T09:12:17.000Z",
+        "publishedAt": "2026-08-27T12:25:07.000Z",
         "source": "中新网"
       },
       {
-        "title": "《习近平文化文选》第一卷、第二卷出版发行",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-27/10685327.shtml",
-        "summary": "新华社北京8月27日电#8195;中共中央党史和文献研究院编辑的《习近平文化文选》第一卷、第二卷，近日由中央文献出版社出版，在全国发行。",
+        "title": "中国发布首版全国几何基准影像",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-27/10685443.shtml",
+        "summary": "中新社北京8月27日电 (记者 庞无忌)中国自然资源部国土卫星遥感应用中心副主任于德全27日在北京发布中国首版全国几何基准影像。这是中国首版覆盖全部陆地国土的国家级几何基准影像。",
         "image": "",
-        "publishedAt": "2026-08-27T09:04:20.000Z",
+        "publishedAt": "2026-08-27T12:23:06.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "Norway's royal family gathers at King Harald's bedside as his condition worsens",
-        "link": "https://www.bbc.co.uk/news/articles/cqxvrnvrr5do?at_medium=RSS&at_campaign=rss",
-        "summary": "The 89-year-old has been in hospital for over a week receiving treatment for a rare blood condition.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/06e5/live/35ac1170-a1f3-11f1-bf30-b9c45f18ad85.png",
-        "publishedAt": "2026-08-27T08:59:53.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Collapsed glacier likely caused devastating Nepal-Tibet floods, scientists say",
-        "link": "https://www.bbc.co.uk/news/articles/cly464k252yo?at_medium=RSS&at_campaign=rss",
-        "summary": "Preliminary investigations by scientists have pointed to a collapsed glacier as the cause, highlighting the issue of rapidly melting Himalayan ice.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c636/live/3c7f9eb0-a1e7-11f1-bf30-b9c45f18ad85.jpg",
-        "publishedAt": "2026-08-27T07:47:12.000Z",
+        "title": "Jury deliberating in trial of Lindsay Clancy, US woman accused of killing her children",
+        "link": "https://www.bbc.co.uk/news/articles/c33keeyyv70o?at_medium=RSS&at_campaign=rss",
+        "summary": "Prosecutors argued Clancy made a calculated decision to murder the children, while the defence argued that she was suffering from postpartum psychosis...",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a8d1/live/4db59af0-a240-11f1-804a-af7f2afa0e85.jpg",
+        "publishedAt": "2026-08-27T20:39:16.000Z",
         "source": "BBC"
       },
       {
         "title": "What we know about deadly Nepal-Tibet floods",
         "link": "https://www.bbc.co.uk/news/articles/cd948kn02e5o?at_medium=RSS&at_campaign=rss",
-        "summary": "Hundreds have died in flooding and landslides on the border of Nepal and Tibet.",
+        "summary": "Hundreds have died or are missing in Wednesday's flooding and landslides on the border of Nepal and Tibet.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9aa6/live/67c06430-a1f4-11f1-aed2-8d6da8d75094.jpg",
-        "publishedAt": "2026-08-27T07:43:04.000Z",
+        "publishedAt": "2026-08-27T20:38:48.000Z",
         "source": "BBC"
       },
       {
-        "title": "‘We will retaliate like an earthquake:’ How Iran could respond to Trump’s economic ‘D-Day’",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZEJWU21tTlFXMW1yNnRIbGhuUVkzbDRNV0lBd3pIVWc3aG9xa2JGb1pmemdxbTZsS2FYd2YxMmR6ODBJX3dQckoyZXRYY0k5aFRpUUlKTW5fUTFib29wYVB0b1g3OV9VdExjbUg2bmtLLU93bkN3WlB2R19tRWlsN1I0eDhBcXhHTUI3LTEtUEZXSFB1QUVXbUh3?oc=5",
+        "title": "El Niño events are becoming stronger as the world warms",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1IZkQwZEZCdjlDY0lOY05pUy04S3FYZHhCVy1MS183aVF1UDlOZmNxUXA5bDNHeTQwbTFEZXVyWDJpVVBWSFJmY0JfRHViZ1cyek1xUG9TNGZIZ1p1bWZXU0hzbmlmTFpjVmdwdzBPQXNNcUFTclE?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-08-27T04:01:29.000Z",
+        "publishedAt": "2026-08-27T18:00:16.000Z",
         "source": "CNN"
       },
       {
-        "title": "Incredible shortlisted images from Wildlife Photographer of the Year",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdmlVRENqczVQekgwOHg0Nk51U0RxN2dXbTNrd0xIQXBsdVdTNUloZS1mVTNQc3J3NmxBdi1XazAzM3haZFBwbEY5ZURnRlFEZWlZdUlVYnBObjJTYnZIUEVJdUp5clVISTE2UW1FMVlBRnBvQXFYSVNsVmo1NnJEMDNpTzBRWi1xYkUxTQ?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-08-26T16:01:14.000Z",
-        "source": "CNN"
+        "title": "Norwegians lay flowers at palace as King Harald's condition worsens",
+        "link": "https://www.bbc.co.uk/news/articles/cqxvrnvrr5do?at_medium=RSS&at_campaign=rss",
+        "summary": "The 89-year-old's condition is described as \"extremely serious\" and members of his family have visited him in hospital.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eaed/live/393c1ec0-a22f-11f1-80a2-67c89a95284e.jpg",
+        "publishedAt": "2026-08-27T17:42:04.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Convicted Bosnian Serb war criminal Mladić dies aged 84",
+        "link": "https://www.bbc.co.uk/news/articles/c5ywxpryj95o?at_medium=RSS&at_campaign=rss",
+        "summary": "He was jailed for life in 2017 for genocide, war crimes and crimes against humanity during the wars in the ex-Yugoslavia in 1992-95.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bfd1/live/703cbea0-a218-11f1-aed2-8d6da8d75094.jpg",
+        "publishedAt": "2026-08-27T17:05:22.000Z",
+        "source": "BBC"
       }
     ],
     "nba": []
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-08-27",
+    "rotationLabel": "Curated Rotation · 2026-08-28",
     "sections": [
       {
         "id": "data-storage",
@@ -522,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-4",
-            "sectionId": "data-storage",
-            "title": "Dremel: Interactive Analysis of Web-Scale Datasets",
-            "authors": [
-              "Sergey Melnik",
-              "Andrey Gubarev",
-              "Jing Jing Long",
-              "Geoffrey Romer"
-            ],
-            "venue": "VLDB",
-            "year": 2010,
-            "quality": "顶会",
-            "categories": [
-              "analytics",
-              "columnar"
-            ],
-            "link": "https://research.google/pubs/pub36632/",
-            "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-5",
             "sectionId": "data-storage",
@@ -561,7 +540,7 @@
             ],
             "link": "https://arxiv.org/abs/2401.08281",
             "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-6",
@@ -583,6 +562,27 @@
             "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
             "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-1",
+            "sectionId": "data-storage",
+            "title": "The Log-Structured Merge-Tree (LSM-Tree)",
+            "authors": [
+              "Patrick O'Neil",
+              "Edward Cheng",
+              "Dieter Gawlick",
+              "Elizabeth O'Neil"
+            ],
+            "venue": "Acta Informatica",
+            "year": 1996,
+            "quality": "经典基础",
+            "categories": [
+              "storage",
+              "indexing"
+            ],
+            "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
+            "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -592,27 +592,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-5",
-            "sectionId": "computer-vision",
-            "title": "Segment Anything",
-            "authors": [
-              "Alexander Kirillov",
-              "Eric Mintun",
-              "Nikhila Ravi",
-              "Hanzi Mao"
-            ],
-            "venue": "ICCV",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "segmentation",
-              "foundation model"
-            ],
-            "link": "https://arxiv.org/abs/2304.02643",
-            "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-6",
             "sectionId": "computer-vision",
@@ -632,7 +611,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.07193",
             "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-1",
@@ -654,6 +633,27 @@
             "link": "https://arxiv.org/abs/1512.03385",
             "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-2",
+            "sectionId": "computer-vision",
+            "title": "End-to-End Object Detection with Transformers",
+            "authors": [
+              "Nicolas Carion",
+              "Francisco Massa",
+              "Gabriel Synnaeve",
+              "Nicolas Usunier"
+            ],
+            "venue": "ECCV",
+            "year": 2020,
+            "quality": "顶会",
+            "categories": [
+              "detection",
+              "transformer"
+            ],
+            "link": "https://arxiv.org/abs/2005.12872",
+            "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -663,27 +663,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-6",
-            "sectionId": "llm-memory",
-            "title": "MemoRAG: Moving towards Next-Gen RAG Via Memory-Inspired Knowledge Discovery",
-            "authors": [
-              "Rulin Shao",
-              "Yue Liu",
-              "Shuo Wang",
-              "Yichi Zhang"
-            ],
-            "venue": "arXiv",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "RAG",
-              "memory bank"
-            ],
-            "link": "https://arxiv.org/abs/2409.05591",
-            "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-1",
             "sectionId": "llm-memory",
@@ -703,7 +682,7 @@
             ],
             "link": "https://arxiv.org/abs/2005.11401",
             "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-2",
@@ -725,6 +704,27 @@
             "link": "https://arxiv.org/abs/2203.08913",
             "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-3",
+            "sectionId": "llm-memory",
+            "title": "RETRO: Improving Language Models by Retrieving From Trillions of Tokens",
+            "authors": [
+              "Sebastian Borgeaud",
+              "Arthur Mensch",
+              "Jordan Hoffmann",
+              "Trevor Cai"
+            ],
+            "venue": "DeepMind / arXiv",
+            "year": 2022,
+            "quality": "高影响力",
+            "categories": [
+              "retrieval",
+              "language model"
+            ],
+            "link": "https://arxiv.org/abs/2112.04426",
+            "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -734,28 +734,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-1",
-            "sectionId": "agents",
-            "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
-            "authors": [
-              "Shunyu Yao",
-              "Jeffrey Zhao",
-              "Dian Yu",
-              "Nan Du"
-            ],
-            "venue": "ICLR",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "agent",
-              "reasoning",
-              "tool use"
-            ],
-            "link": "https://arxiv.org/abs/2210.03629",
-            "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-2",
             "sectionId": "agents",
@@ -775,7 +753,7 @@
             ],
             "link": "https://arxiv.org/abs/2302.04761",
             "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-3",
@@ -796,6 +774,27 @@
             ],
             "link": "https://arxiv.org/abs/2304.03442",
             "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-4",
+            "sectionId": "agents",
+            "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+            "authors": [
+              "Guanzhi Wang",
+              "Yuqi Xie",
+              "Zixiang Zhou",
+              "Yujin Tang"
+            ],
+            "venue": "arXiv",
+            "year": 2023,
+            "quality": "高影响力",
+            "categories": [
+              "embodied agent",
+              "planning"
+            ],
+            "link": "https://arxiv.org/abs/2305.16291",
+            "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
             "trackLabel": "轮换精选"
           }
         ]
