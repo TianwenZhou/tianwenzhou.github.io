@@ -1,52 +1,44 @@
 {
-  "generatedAt": "2026-08-28T11:16:34.964Z",
+  "generatedAt": "2026-08-28T22:13:36.038Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 20,
+      "temperature": 18,
       "weatherCode": 3,
-      "windSpeed": 2
+      "windSpeed": 3
     },
     "today": {
-      "date": "2026-08-28",
-      "weatherCode": 55,
-      "description": "中雨",
-      "max": 22,
-      "min": 19,
-      "precipitationProbability": 81
+      "date": "2026-08-29",
+      "weatherCode": 3,
+      "description": "阴天",
+      "max": 29,
+      "min": 18,
+      "precipitationProbability": 0
     },
     "forecast": [
-      {
-        "date": "2026-08-28",
-        "weatherCode": 55,
-        "description": "中雨",
-        "max": 22,
-        "min": 19,
-        "precipitationProbability": 81
-      },
       {
         "date": "2026-08-29",
         "weatherCode": 3,
         "description": "阴天",
-        "max": 30,
+        "max": 29,
         "min": 18,
         "precipitationProbability": 0
       },
       {
         "date": "2026-08-30",
-        "weatherCode": 0,
-        "description": "晴朗",
-        "max": 32,
+        "weatherCode": 1,
+        "description": "基本晴",
+        "max": 31,
         "min": 18,
         "precipitationProbability": 0
       },
       {
         "date": "2026-08-31",
-        "weatherCode": 0,
-        "description": "晴朗",
+        "weatherCode": 51,
+        "description": "毛毛雨",
         "max": 28,
         "min": 18,
-        "precipitationProbability": 2
+        "precipitationProbability": 4
       },
       {
         "date": "2026-09-01",
@@ -54,33 +46,50 @@
         "description": "毛毛雨",
         "max": 26,
         "min": 19,
-        "precipitationProbability": 14
+        "precipitationProbability": 6
+      },
+      {
+        "date": "2026-09-02",
+        "weatherCode": 0,
+        "description": "晴朗",
+        "max": 29,
+        "min": 18,
+        "precipitationProbability": 2
       }
     ]
   },
   "classicQuote": {
-    "id": "dream-red-mansions",
-    "text": "世事洞明皆学问，人情练达即文章。",
-    "source": "《红楼梦》",
-    "author": "曹雪芹",
-    "note": "技术之外，理解人和场景，往往更能拉开差距。"
+    "id": "mencius-perseverance",
+    "text": "虽千万人，吾往矣。",
+    "source": "《孟子》",
+    "author": "孟子",
+    "note": "认准方向之后，关键是稳稳地往前走。"
   },
   "bookExcerpt": {
-    "id": "floating-life-lotus",
-    "text": "芸坐其侧，素手烹茶，窗外新荷微香，连晚风也像带着水意，从竹帘间一寸寸地漫进来。",
-    "book": "《浮生六记》",
-    "author": "沈复"
+    "id": "red-mansion-snow",
+    "text": "只见大地白茫茫一片真干净，山川树木都隐在雪光里，天地像忽然静下来，只余风过回廊的细响。",
+    "book": "《红楼梦》",
+    "author": "曹雪芹"
   },
   "featuredPlace": {
-    "id": "202608271600",
-    "title": "涨潮时的圣米歇尔山，芒什省，诺曼底，法国",
+    "id": "202608281600",
+    "title": "冲浪者航拍图，圣卡塔琳娜州，巴西",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "潮汐塑造的传奇",
-    "image": "https://www.bing.com/th?id=OHR.MichelSunset_ZH-CN0822968543_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E5%9C%A3%E7%B1%B3%E6%AD%87%E5%B0%94%E5%B1%B1&form=hpcapt&mkt=zh-cn"
+    "summary": "读懂浪涛之间的讯息",
+    "image": "https://www.bing.com/th?id=OHR.SantaCatarina_ZH-CN4170292043_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E5%B7%B4%E8%A5%BF%E5%9C%A3%E5%8D%A1%E5%A1%94%E7%90%B3%E5%A8%9C%E5%B7%9E&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202608281600",
+      "title": "冲浪者航拍图，圣卡塔琳娜州，巴西",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "读懂浪涛之间的讯息",
+      "image": "https://www.bing.com/th?id=OHR.SantaCatarina_ZH-CN4170292043_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E5%B7%B4%E8%A5%BF%E5%9C%A3%E5%8D%A1%E5%A1%94%E7%90%B3%E5%A8%9C%E5%B7%9E&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202608271600",
       "title": "涨潮时的圣米歇尔山，芒什省，诺曼底，法国",
@@ -143,225 +152,216 @@
       "summary": "天蓝色的翅膀",
       "image": "https://www.bing.com/th?id=OHR.CommonBlue_ZH-CN8521430009_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E6%99%AE%E9%80%9A%E8%93%9D%E7%81%B0%E8%9D%B6&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202608201600",
-      "title": "尤利尔山口蜿蜒的公路，瑞士",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "攀登在召唤",
-      "image": "https://www.bing.com/th?id=OHR.JulierPass_ZH-CN3064797820_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E7%91%9E%E5%A3%AB%E5%B0%A4%E5%88%A9%E5%B0%94%E5%B1%B1%E5%8F%A3&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-08-28",
-    "dateLabel": "8月28日",
+    "dateKey": "2026-08-29",
+    "dateLabel": "8月29日",
     "items": [
       {
-        "year": "2024",
-        "text": "第17届残疾人奥林匹克运动会在法国巴黎开幕。",
-        "link": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4"
+        "year": "2021",
+        "text": "北京地铁1号线及八通线实现贯通运营。",
+        "link": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4"
       },
       {
-        "year": "2017",
-        "text": "中印軍隊洞朗對峙事件：印度共和國宣佈相關人員與裝備於14:30左右全部撤離洞朗高原，中華人民共和國與印度共和國兩國結束對峙。",
-        "link": "https://zh.wikipedia.org/wiki/2017%E5%B9%B4"
+        "year": "2016",
+        "text": "陳全國成為中共新疆黨委書記，並在此職位上監督了新疆再教育營的建立。",
+        "link": "https://zh.wikipedia.org/wiki/2016%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "国家主席习近平任免驻外大使",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-28/10686083.shtml",
-        "summary": "新华社北京8月28日电 中华人民共和国主席习近平根据全国人民代表大会常务委员会的决定任免下列驻外大使：",
-        "image": "",
-        "publishedAt": "2026-08-28T11:06:44.000Z",
+        "title": "传承抗战精神 台盟爱国主义教育基地在沈阳揭牌",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-28/10686242.shtml",
+        "summary": "中新社沈阳8月28日电 (姜月恒)“勿忘九一八 传承抗战精神”暨纪念九一八事变爆发95周年活动28日在沈阳举行。活动回顾两岸同胞共御外侮的峥嵘岁月，深挖抗战精神所蕴含的两岸共同精神内核，“台盟爱国主义教育基地”在沈阳“九·一八”历史博物馆揭牌。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260828/455db12a-1567-4245-8963-8386b304e9d2_zsite.jpeg",
+        "publishedAt": "2026-08-28T15:54:10.000Z",
         "source": "中新网"
       },
       {
-        "title": "上海市嘉定区政协原党组书记、主席刘海涛被开除党籍",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-28/10686077.shtml",
-        "summary": "中新网8月28日电 据上海市纪委监委消息：日前，经中共上海市委批准，上海市纪委监委对上海市嘉定区政协原党组书记、主席刘海涛严重违纪违法问题进行了立案审查调查。",
+        "title": "从天津到比什凯克，全球聚焦“上合时间”",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-28/10686243.shtml",
+        "summary": "中新社北京8月28日电 题：从天津到比什凯克，全球聚焦“上合时间”",
         "image": "",
-        "publishedAt": "2026-08-28T11:01:02.000Z",
+        "publishedAt": "2026-08-28T15:46:26.000Z",
         "source": "中新网"
       },
       {
-        "title": "安徽省亳州市人大常委会原副主任哈薇被开除党籍",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-28/10686074.shtml",
-        "summary": "中新网8月28日电 据安徽省纪委监委消息：日前，经中共安徽省委批准，安徽省纪委监委对亳州市人大常委会原副主任哈薇严重违纪违法问题进行了立案审查调查。",
+        "title": "中国科学家破解亚非水稻种间生殖隔离之谜",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-28/10686237.shtml",
+        "summary": "中新社南京8月28日电 (记者 徐珊珊)中国工程院院士万建民领衔的研究团队28日在国际学术期刊《科学》在线发表最新研究成果，首次揭示了亚洲栽培稻与非洲栽培稻种间生殖隔离的分子机制，并找到了打破这一屏障的“钥匙”。该成果为培育超高产亚非杂交稻新品种提供了重要理论基础和种质资源。",
         "image": "",
-        "publishedAt": "2026-08-28T11:00:44.000Z",
+        "publishedAt": "2026-08-28T15:08:06.000Z",
         "source": "中新网"
       },
       {
-        "title": "十四届全国人大常委会第二十四次会议在京闭幕",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-28/10686057.shtml",
-        "summary": "",
+        "title": "中国通过新修订的农业法 保障农民权益增加农民收入",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-28/10686238.shtml",
+        "summary": "中新社北京8月28日电 (记者 李京泽 郭超凯)十四届全国人大常委会第二十四次会议28日表决通过新修订的农业法。全国人大常委会法工委经济法室负责人当日在答记者问时表示，保障农民权益，增加农民收入是此次修法的重要内容之一。",
         "image": "",
-        "publishedAt": "2026-08-28T10:41:53.000Z",
+        "publishedAt": "2026-08-28T15:07:04.000Z",
         "source": "中新网"
       },
       {
-        "title": "十四届全国人大常委会举行第七十三次委员长会议 决定将医疗保障法草案等交付常委会会议表决 赵乐际主持会议",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-28/10686055.shtml",
-        "summary": "新华社北京8月28日电 十四届全国人大常委会第七十三次委员长会议28日下午在北京人民大会堂举行。赵乐际委员长主持会议。",
+        "title": "军事专家：“中华第一舰”退役是中国海军装备现代化重要节点",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-28/10686240.shtml",
+        "summary": "中新社北京8月28日电 (记者 李纯)据中国官媒报道，中国第二代国产导弹驱逐舰首舰112舰，28日退出现役。军事专家张军社接受中新社记者专访时指出，作为中国海军052型导弹驱逐舰的首舰，112舰退役是海军装备现代化进程中的一个重要节点。",
         "image": "",
-        "publishedAt": "2026-08-28T10:40:10.000Z",
+        "publishedAt": "2026-08-28T15:04:45.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "浙江防台风特写：基层干部的不眠夜",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-28/10686070.shtml",
-        "summary": "中新网温州8月28日电(王逸飞 傅飞扬 吴君毅)今年第18号台风“沙德尔”于28日8时5分在浙江台州玉环市坎门街道沿海登陆；随后于9时10分前后在温州市龙湾区沿海再次登陆，走出与台风“巴威”“白海豚”相似的登陆路径。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260828/e0a82a1c-24b7-4a4f-af93-058c06051b18_zsite.jpg",
-        "publishedAt": "2026-08-28T11:02:58.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "京玉文化交流周临近启幕 首钢园将化身“微缩玉树”",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-28/10686069.shtml",
-        "summary": "中新网北京8月28日电 (记者 高凯)金秋九月，首钢园将化身“微缩玉树”，游客可于其中一站式打卡三江源全域风光、沉浸式体验藏地人文烟火。记者28日从主办方了解到，9月9日，由青海省商务厅、玉树藏族自治州人民政府、北京市支援合作工作领导小组青海玉树指挥部联合主办，玉树藏族自治州文体旅游广电局承办的“三...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260828/e28f594d-e1af-4edd-8ac5-fd3a66cdbe90_zsite.jpg",
-        "publishedAt": "2026-08-28T11:01:20.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "福建全力以赴防御台风“沙德尔” 转移人员超24万人",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-28/10686068.shtml",
-        "summary": "中新网福州8月28日电 (记者 龙敏)福建全力以赴做好今年第18号台风“沙德尔”和近期强降雨各项防御工作。福建省防汛办28日通报，充分考虑双台风、前后轮降雨、天文大潮与风暴潮“三叠加”风险，持续抓实海上、陆上安全管控，截至28日7时，共转移人员24.77万人。",
+        "title": "西藏吉隆泥石流灾害已致7人遇难554人失联",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-29/10686252.shtml",
+        "summary": "记者从西藏自治区应急管理厅获悉，截至29日1时，已救出热索村群众2人，吉隆泥石流灾害已造成7人遇难，554人失联。(记者刘洲鹏、格桑朗杰、丁增尼达）",
         "image": "",
-        "publishedAt": "2026-08-28T11:01:02.000Z",
+        "publishedAt": "2026-08-28T17:24:02.000Z",
         "source": "中新网"
       },
       {
-        "title": "大兴机场开通往返蓟州的省际巴士线路",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-28/10686060.shtml",
-        "summary": "中新网北京8月28日电 (记者 刘文文)近日，大兴机场往返天津市蓟州区的省际直达巴士线路(以下简称“蓟州线”)正式开通运行，进一步丰富了大兴机场地面交通网络，有效连接机场航空客流与蓟州文旅资源，为京津冀区域互联互通、文旅融合、产业协同赋能增效。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260828/2f61709d-33b4-4524-a6ea-3373f2a235b4_zsite.jpg",
-        "publishedAt": "2026-08-28T10:50:59.000Z",
+        "title": "翻山越岭、向险而行 中国救援队挺进吉隆口岸救援核心位置开展不间断搜救作业",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-29/10686251.shtml",
+        "summary": "中新网日喀则8月29日电 题：翻山越岭、向险而行 中国救援队挺进吉隆口岸救援核心位置开展不间断搜救作业",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/08/29/434d2f634632480e8b2760d48d61b678.jpg",
+        "publishedAt": "2026-08-28T16:20:40.000Z",
         "source": "中新网"
       },
       {
-        "title": "天津重拳扫黑除恶 4起涉黑恶案件集中宣判20人落网",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-28/10686066.shtml",
-        "summary": "中新网天津8月28日电 (江莹)全国为期一年的深化扫黑除恶专项斗争全面启动以来，天津市始终保持高压态势。28日，天津市法院集中宣判4起案件，其中包括静海区周某某恶势力犯罪集团案、蓟州区李某某恶势力犯罪团伙案、蓟州区黄某某恶势力犯罪集团案，20名被告人一审分别被判处有期徒刑十七年至一年一个月不等刑罚，...",
+        "title": "西藏吉隆泥石流到底是如何发生的？独家动画演示灾害全程",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-28/10686234.shtml",
+        "summary": "8月26日10时30分许，尼泊尔一侧发生泥石流灾害，造成西藏日喀则市吉隆县吉隆口岸重大人员伤亡、失联。这场泥石流到底是如何发生的？为什么有如此强的破坏力？来看中央广播电视总台制作的全过程动画演示。",
+        "image": "https://poss-videocloud.cns.com.cn/oss/2026/08/28/chinanews/MEIZI_YUNSHI/onair/930951692BFB4D85A2531242A5C343A2.mp4",
+        "publishedAt": "2026-08-28T14:46:38.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "广西13条河流超警 郁江2026年第2号洪水过境南宁城区",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-28/10686217.shtml",
+        "summary": "中新网南宁8月28日电 (陈秋霞 周也茹)广西壮族自治区水文中心28日提供的信息显示，郁江南宁水文站于8月28日13时05分出现75.47米的洪峰水位(警戒水位73.0米)，超警2.47米，相应流量10600立方米每秒。",
         "image": "",
-        "publishedAt": "2026-08-28T10:50:41.000Z",
+        "publishedAt": "2026-08-28T14:19:18.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "探访上海南外滩量身定制中心：多举措升级，让外国游客乐享“中国购”",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-28/10686213.shtml",
+        "summary": "中新网上海8月28日电 题：探访上海南外滩量身定制中心：多举措升级，让外国游客乐享“中国购”",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260828/76d8bbc2-3997-4ca8-bd72-b7c10d958cfe_zsite.jpeg",
+        "publishedAt": "2026-08-28T14:13:40.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "中国证监会发布《关于资本市场支持构建房地产发展新模式的意见》",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-28/10686084.shtml",
-        "summary": "为贯彻落实党中央、国务院关于加快构建房地产发展新模式、推动房地产高质量发展的重大决策部署，加快构建与房地产发展新模式相匹配的资本市场服务体系，服务住房品质提升和企业转型发展，促进金融与房地产良性循环，中国证监会制定了《关于资本市场支持构建房地产发展新模式的意见》(以下简称《意见》)。",
+        "title": "中基协：7月ABS新增备案规模逾1900亿元",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-28/10686216.shtml",
+        "summary": "中新网北京8月28日电 (记者 陈康亮)根据中国证券投资基金业协会(下称中基协)28日披露的数据，2026年7月，资产支持专项计划(下称ABS)新增备案189只，新增备案规模合计1956.14亿元(人民币，下同)。",
         "image": "",
-        "publishedAt": "2026-08-28T11:10:05.000Z",
+        "publishedAt": "2026-08-28T14:18:02.000Z",
         "source": "中新网"
       },
       {
-        "title": "两部门发文改革完善房地产信贷管理",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-28/10686081.shtml",
-        "summary": "中新网8月28日电 据央行网站消息，中国人民银行、国家金融监督管理总局印发《关于改革完善房地产信贷管理 推动加快构建房地产发展新模式的意见》。具体内容如下：",
+        "title": "粤开证券谈美债波动：政策干预难以根本上破除市场担忧",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-28/10686215.shtml",
+        "summary": "中新网北京8月28日电 (记者 陈康亮)关于近期美债市场波动，粤开证券28日发布的一份研报指出，政策干预难以根本上破除市场担忧。",
         "image": "",
-        "publishedAt": "2026-08-28T11:08:30.000Z",
+        "publishedAt": "2026-08-28T14:15:38.000Z",
         "source": "中新网"
       },
       {
-        "title": "天津武清智造出海 高端水下装备出口“破零”",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-28/10686065.shtml",
-        "summary": "中新网天津8月28日电 (孙翼飞)记者28日从天津市武清区获悉，三台由该区本土企业天津清润博智能科技有限公司自主研发的水下机器人正搭乘航班出口海外。此举标志着武清区在高端水下智能装备领域实现出口“零的突破”，为区域“新新三样”产业增添了一份亮眼的出海成绩单。",
+        "title": "（经济观察）中国楼市大步迈向“现房销售时代”",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-28/10686211.shtml",
+        "summary": "中新社北京8月28日电 (记者 庞无忌)在中国实施30余年的商品房预售制度，迎来重大改革。中国住房和城乡建设部等三部门28日对外发布《关于完善商品住房销售制度的通知》，大幅提高商品房预售条件的同时，明确将现房销售作为新房销售的“优先”选项。行业专家认为，今后，现房销售有望取代预售，成为中国商品房销售...",
         "image": "",
-        "publishedAt": "2026-08-28T10:51:09.000Z",
+        "publishedAt": "2026-08-28T14:10:36.000Z",
         "source": "中新网"
       },
       {
-        "title": "山东济南开辟空中经贸新通道 30余吨货物直飞韩国仁川",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-28/10686063.shtml",
-        "summary": "中新网济南8月28日电 (陈宛婷)8月28日10时40分，装载着30余吨医药原料药、汽车零部件及跨境电商产品等货物的顺丰航空O3235航班，从济南遥墙国际机场腾空而起，直飞韩国仁川国际机场，标志着由济南城市建设集团有限公司(以下简称“济南城市建设集团”)所属创联港(山东)产业投资有限公司运营的济南—...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260828/270b431b-ce5e-4b06-b5fe-c1af480f7a59_zsite.jpg",
-        "publishedAt": "2026-08-28T10:50:27.000Z",
+        "title": "央企消费帮扶聚力行动在山西大同启动",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-28/10686199.shtml",
+        "summary": "中新网大同8月28日电 (记者 刘亮)“智赋和美乡村 携手同心共晋”央企消费帮扶聚力行动28日在山西省大同市工人文化宫启幕。活动立足数字技术赋能乡村产业，整合发挥央企资源优势与协同力量，为全面推进乡村振兴、农业农村现代化建设助力。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260828/997b7c8c-b370-41e8-a53d-dfaed263310a_zsite.jpg",
+        "publishedAt": "2026-08-28T13:49:06.000Z",
         "source": "中新网"
       },
       {
-        "title": "广东已有测绘资质单位超1500家 形成全国领先测绘产业集群",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-28/10686062.shtml",
-        "summary": "中新网惠州8月28日电 (孙秋霞 冯建奎)第23个全国测绘法宣传日暨国家版图意识宣传周广东省主场活动28日在惠州举办。据悉，目前广东拥有测绘资质单位超1500家、上市企业23家，已形成全国领先的测绘产业集群。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260828/28d4e16d-f341-4464-b03e-fe814a39a75b_zsite.jpg",
-        "publishedAt": "2026-08-28T10:50:19.000Z",
+        "title": "出行平台报告：中国暑期出入境游双升温",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-28/10686196.shtml",
+        "summary": "中新社北京8月28日电 伴随大中小学陆续开学，中国暑运进入收官阶段。出行平台航旅纵横28日发布的《2026年暑运出行总结报告》称，中国居民暑期出入境市场双向升温。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260828/24549e3e-5322-4dbd-af3a-0016c77cc903_zsite.jpg",
+        "publishedAt": "2026-08-28T13:46:22.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "What we know after the big Grand Theft Auto 6 preview",
-        "link": "https://www.bbc.co.uk/news/articles/c3d7exngd5no?at_medium=RSS&at_campaign=rss",
-        "summary": "The official look at the blockbuster video game leaves fans and critics impressed.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/956b/live/a59bfb30-a25c-11f1-a291-b542ee92de7c.jpg",
-        "publishedAt": "2026-08-28T11:04:11.000Z",
+        "title": "Berlin is being blackmailed by hackers, mayor says",
+        "link": "https://www.bbc.co.uk/news/articles/cm2q7gv3l5qo?at_medium=RSS&at_campaign=rss",
+        "summary": "Kai Wegner says the German capital and city-state would not cave in to a ransom demand for data stolen in a cyber-attack.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/85e3/live/544e16f0-a324-11f1-8d63-4fed9aaab467.jpg",
+        "publishedAt": "2026-08-28T21:29:01.000Z",
         "source": "BBC"
       },
       {
-        "title": "'High risk' of lake breaching and causing second flood, warns China",
-        "link": "https://www.bbc.co.uk/news/articles/ckg8l2x8wr8o?at_medium=RSS&at_campaign=rss",
-        "summary": "Authorities say a lake formed after a recent landslide near the Nepal-Tibet border may breach in the coming days.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/52e4/live/e6ac0c40-a2a3-11f1-ab20-f9f4f61e8913.jpg",
-        "publishedAt": "2026-08-28T10:50:34.000Z",
+        "title": "Right-wing commentator Milo Yiannopoulos detained by ICE",
+        "link": "https://www.bbc.co.uk/news/articles/cj06jgq62v9o?at_medium=RSS&at_campaign=rss",
+        "summary": "The British citizen, who lives and works in the US, has supported Trump and ICE agents in the past.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e120/live/d58e6a30-a31f-11f1-92a5-fbd6f5289e6b.jpg",
+        "publishedAt": "2026-08-28T21:01:39.000Z",
         "source": "BBC"
       },
       {
-        "title": "Trump signs order to rename Lake Ontario as Lake America",
-        "link": "https://www.bbc.co.uk/news/articles/ckgwdn1g58yo?at_medium=RSS&at_campaign=rss",
-        "summary": "Canada has rejected the new name of the lake, which straddles both countries, as their row deepens.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9493/live/3093a800-a2cb-11f1-aed2-8d6da8d75094.jpg",
-        "publishedAt": "2026-08-28T08:26:09.000Z",
+        "title": "Norway mourns King Harald as Haakon VIII ascends throne",
+        "link": "https://www.bbc.co.uk/news/articles/cm2rzxrdr71o?at_medium=RSS&at_campaign=rss",
+        "summary": "Mourners gather outside the palace as royals, politicians and citizens remember a beloved king, whose son has adopted the family motto \"all for norway...",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d541/live/c766ada0-a2ed-11f1-a789-b16da4059b6b.jpg",
+        "publishedAt": "2026-08-28T19:40:45.000Z",
         "source": "BBC"
       },
       {
-        "title": "‘World’s first solar ambulance’ just proved it works",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBEUGRCVEJqVTJVYzhraGdPN3lHTlJwbWJKY2VmOThkS0Nfd0gwYVloM1hwbE92VzlDdVhfcE5IOFk3MGgwT0lSczhZVm8tanFCMTVwdDhfVFNjai04X2tlSEJNN2p6c3lYcXpzTnh1MTEycUZ4dF9tYw?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-08-28T06:03:15.000Z",
-        "source": "CNN"
+        "title": "Russia ramps up rhetoric but wants to avoid war with Nato, Western officials say",
+        "link": "https://www.bbc.co.uk/news/articles/cz0zm2j7ld1o?at_medium=RSS&at_campaign=rss",
+        "summary": "But they say Moscow will likely continue its \"hybrid activity\" against Nato members, short of direct military action.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7710/live/8f66bdd0-a312-11f1-b109-879e35c24276.jpg",
+        "publishedAt": "2026-08-28T19:05:23.000Z",
+        "source": "BBC"
       },
       {
-        "title": "Trump administration illegally retaliated against Anthropic, judge rules",
-        "link": "https://www.bbc.co.uk/news/articles/cm2q7z5mlrmo?at_medium=RSS&at_campaign=rss",
-        "summary": "The AI startup has been at loggerheads with the Pentagon over the use of AI by the US military.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8a72/live/1e9bf7b0-a299-11f1-b81f-99addc8c0403.jpg",
-        "publishedAt": "2026-08-28T03:41:59.000Z",
+        "title": "Oslo mayor calls off wedding ceremony after death of Norway's king",
+        "link": "https://www.bbc.co.uk/news/articles/c5ydgk3v60eo?at_medium=RSS&at_campaign=rss",
+        "summary": "Anne Lindboe, the mayor of Norway's capital, had planned to marry her fiance on Friday.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c75/live/2ad87650-a2dc-11f1-ba94-c782670d1920.jpg",
+        "publishedAt": "2026-08-28T13:50:34.000Z",
         "source": "BBC"
       }
     ],
     "worldBusiness": [
       {
-        "title": "'Cowboy builders' targeted in new government clampdown",
-        "link": "https://www.bbc.co.uk/news/articles/cx2z44982e4o?at_medium=RSS&at_campaign=rss",
-        "summary": "A database of trusted tradespeople and a system to protect customers' money is being launched by the government next month.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3e64/live/5cd9a9c0-a22e-11f1-bd54-531a21306a62.jpg",
-        "publishedAt": "2026-08-28T10:49:38.000Z",
+        "title": "Fed has 'work to do' if price rises don't ease for Americans, Warsh says",
+        "link": "https://www.bbc.co.uk/news/articles/cy9zjgv9lgdo?at_medium=RSS&at_campaign=rss",
+        "summary": "Kevin Warsh remarks suggest interest rates could be increased if policymakers think inflation is running too high.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5899/live/39824e70-a2fe-11f1-80b3-bf1a174ac193.jpg",
+        "publishedAt": "2026-08-28T15:15:26.000Z",
         "source": "BBC"
       },
       {
-        "title": "'Not far enough' - US parents and teens on Meta's new limits for young users",
-        "link": "https://www.bbc.co.uk/news/articles/cx2zn9zj361o?at_medium=RSS&at_campaign=rss",
-        "summary": "As part of an $18bn settlement in a child-safety lawsuit, Meta announced new restrictions on its apps. We asked families what they thought.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8e90/live/9843a980-a25f-11f1-883e-b50da2634501.jpg",
-        "publishedAt": "2026-08-28T09:32:14.000Z",
-        "source": "BBC"
+        "title": "Young adults under 21 traded $5 billion on Kalshi this year, amid prediction market frenzy",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBacmROampXRGw3XzBhZV9wRzduZncwMDVMU0ZFOXpoalhVdDgzdHZOTk5CbmJyamlGS01acThRYXBCaS1xajRfX3l2c0ZiQ2NtVGxDYTg4T1FSS2JDWU9zY192cGxYV3VOM01kanoxODNteXcyeGc?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-08-28T09:00:29.000Z",
+        "source": "CNN"
       },
       {
-        "title": "Sports Direct founder attacks Burnham's 'populist' High Street plans",
-        "link": "https://www.bbc.co.uk/news/articles/cn74mm2jz8jo?at_medium=RSS&at_campaign=rss",
-        "summary": "In a letter, the entrepreneur accuses the prime minister of \"jumping on 'everyday fixes' or bandwagons\" with his latest cost of living and retail poli...",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1264/live/525dbc40-a2ae-11f1-ab20-f9f4f61e8913.jpg",
-        "publishedAt": "2026-08-28T07:40:00.000Z",
+        "title": "Selena Gomez pushes back against 'frivolous' fraud claims",
+        "link": "https://www.bbc.co.uk/news/articles/cz0z4k28804o?at_medium=RSS&at_campaign=rss",
+        "summary": "Selena Gomez's lawyer says the fraud case is \"absurd\" - but it is far from unusual for celebrity family business relationships to go wrong.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b96e/live/2b586050-a20e-11f1-9090-b51af3a01fc2.jpg",
+        "publishedAt": "2026-08-28T05:53:05.000Z",
         "source": "BBC"
       },
       {
@@ -425,85 +425,85 @@
     ],
     "domestic": [
       {
-        "title": "国家主席习近平任免驻外大使",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-28/10686083.shtml",
-        "summary": "新华社北京8月28日电 中华人民共和国主席习近平根据全国人民代表大会常务委员会的决定任免下列驻外大使：",
-        "image": "",
-        "publishedAt": "2026-08-28T11:06:44.000Z",
+        "title": "传承抗战精神 台盟爱国主义教育基地在沈阳揭牌",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-28/10686242.shtml",
+        "summary": "中新社沈阳8月28日电 (姜月恒)“勿忘九一八 传承抗战精神”暨纪念九一八事变爆发95周年活动28日在沈阳举行。活动回顾两岸同胞共御外侮的峥嵘岁月，深挖抗战精神所蕴含的两岸共同精神内核，“台盟爱国主义教育基地”在沈阳“九·一八”历史博物馆揭牌。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260828/455db12a-1567-4245-8963-8386b304e9d2_zsite.jpeg",
+        "publishedAt": "2026-08-28T15:54:10.000Z",
         "source": "中新网"
       },
       {
-        "title": "上海市嘉定区政协原党组书记、主席刘海涛被开除党籍",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-28/10686077.shtml",
-        "summary": "中新网8月28日电 据上海市纪委监委消息：日前，经中共上海市委批准，上海市纪委监委对上海市嘉定区政协原党组书记、主席刘海涛严重违纪违法问题进行了立案审查调查。",
+        "title": "从天津到比什凯克，全球聚焦“上合时间”",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-28/10686243.shtml",
+        "summary": "中新社北京8月28日电 题：从天津到比什凯克，全球聚焦“上合时间”",
         "image": "",
-        "publishedAt": "2026-08-28T11:01:02.000Z",
+        "publishedAt": "2026-08-28T15:46:26.000Z",
         "source": "中新网"
       },
       {
-        "title": "安徽省亳州市人大常委会原副主任哈薇被开除党籍",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-28/10686074.shtml",
-        "summary": "中新网8月28日电 据安徽省纪委监委消息：日前，经中共安徽省委批准，安徽省纪委监委对亳州市人大常委会原副主任哈薇严重违纪违法问题进行了立案审查调查。",
+        "title": "中国科学家破解亚非水稻种间生殖隔离之谜",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-28/10686237.shtml",
+        "summary": "中新社南京8月28日电 (记者 徐珊珊)中国工程院院士万建民领衔的研究团队28日在国际学术期刊《科学》在线发表最新研究成果，首次揭示了亚洲栽培稻与非洲栽培稻种间生殖隔离的分子机制，并找到了打破这一屏障的“钥匙”。该成果为培育超高产亚非杂交稻新品种提供了重要理论基础和种质资源。",
         "image": "",
-        "publishedAt": "2026-08-28T11:00:44.000Z",
+        "publishedAt": "2026-08-28T15:08:06.000Z",
         "source": "中新网"
       },
       {
-        "title": "十四届全国人大常委会第二十四次会议在京闭幕",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-28/10686057.shtml",
-        "summary": "",
+        "title": "中国通过新修订的农业法 保障农民权益增加农民收入",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-28/10686238.shtml",
+        "summary": "中新社北京8月28日电 (记者 李京泽 郭超凯)十四届全国人大常委会第二十四次会议28日表决通过新修订的农业法。全国人大常委会法工委经济法室负责人当日在答记者问时表示，保障农民权益，增加农民收入是此次修法的重要内容之一。",
         "image": "",
-        "publishedAt": "2026-08-28T10:41:53.000Z",
+        "publishedAt": "2026-08-28T15:07:04.000Z",
         "source": "中新网"
       },
       {
-        "title": "十四届全国人大常委会举行第七十三次委员长会议 决定将医疗保障法草案等交付常委会会议表决 赵乐际主持会议",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-28/10686055.shtml",
-        "summary": "新华社北京8月28日电 十四届全国人大常委会第七十三次委员长会议28日下午在北京人民大会堂举行。赵乐际委员长主持会议。",
+        "title": "军事专家：“中华第一舰”退役是中国海军装备现代化重要节点",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-28/10686240.shtml",
+        "summary": "中新社北京8月28日电 (记者 李纯)据中国官媒报道，中国第二代国产导弹驱逐舰首舰112舰，28日退出现役。军事专家张军社接受中新社记者专访时指出，作为中国海军052型导弹驱逐舰的首舰，112舰退役是海军装备现代化进程中的一个重要节点。",
         "image": "",
-        "publishedAt": "2026-08-28T10:40:10.000Z",
+        "publishedAt": "2026-08-28T15:04:45.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "What we know after the big Grand Theft Auto 6 preview",
-        "link": "https://www.bbc.co.uk/news/articles/c3d7exngd5no?at_medium=RSS&at_campaign=rss",
-        "summary": "The official look at the blockbuster video game leaves fans and critics impressed.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/956b/live/a59bfb30-a25c-11f1-a291-b542ee92de7c.jpg",
-        "publishedAt": "2026-08-28T11:04:11.000Z",
+        "title": "Berlin is being blackmailed by hackers, mayor says",
+        "link": "https://www.bbc.co.uk/news/articles/cm2q7gv3l5qo?at_medium=RSS&at_campaign=rss",
+        "summary": "Kai Wegner says the German capital and city-state would not cave in to a ransom demand for data stolen in a cyber-attack.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/85e3/live/544e16f0-a324-11f1-8d63-4fed9aaab467.jpg",
+        "publishedAt": "2026-08-28T21:29:01.000Z",
         "source": "BBC"
       },
       {
-        "title": "'High risk' of lake breaching and causing second flood, warns China",
-        "link": "https://www.bbc.co.uk/news/articles/ckg8l2x8wr8o?at_medium=RSS&at_campaign=rss",
-        "summary": "Authorities say a lake formed after a recent landslide near the Nepal-Tibet border may breach in the coming days.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/52e4/live/e6ac0c40-a2a3-11f1-ab20-f9f4f61e8913.jpg",
-        "publishedAt": "2026-08-28T10:50:34.000Z",
+        "title": "Right-wing commentator Milo Yiannopoulos detained by ICE",
+        "link": "https://www.bbc.co.uk/news/articles/cj06jgq62v9o?at_medium=RSS&at_campaign=rss",
+        "summary": "The British citizen, who lives and works in the US, has supported Trump and ICE agents in the past.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e120/live/d58e6a30-a31f-11f1-92a5-fbd6f5289e6b.jpg",
+        "publishedAt": "2026-08-28T21:01:39.000Z",
         "source": "BBC"
       },
       {
-        "title": "Trump signs order to rename Lake Ontario as Lake America",
-        "link": "https://www.bbc.co.uk/news/articles/ckgwdn1g58yo?at_medium=RSS&at_campaign=rss",
-        "summary": "Canada has rejected the new name of the lake, which straddles both countries, as their row deepens.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9493/live/3093a800-a2cb-11f1-aed2-8d6da8d75094.jpg",
-        "publishedAt": "2026-08-28T08:26:09.000Z",
+        "title": "Norway mourns King Harald as Haakon VIII ascends throne",
+        "link": "https://www.bbc.co.uk/news/articles/cm2rzxrdr71o?at_medium=RSS&at_campaign=rss",
+        "summary": "Mourners gather outside the palace as royals, politicians and citizens remember a beloved king, whose son has adopted the family motto \"all for norway...",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d541/live/c766ada0-a2ed-11f1-a789-b16da4059b6b.jpg",
+        "publishedAt": "2026-08-28T19:40:45.000Z",
         "source": "BBC"
       },
       {
-        "title": "‘World’s first solar ambulance’ just proved it works",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBEUGRCVEJqVTJVYzhraGdPN3lHTlJwbWJKY2VmOThkS0Nfd0gwYVloM1hwbE92VzlDdVhfcE5IOFk3MGgwT0lSczhZVm8tanFCMTVwdDhfVFNjai04X2tlSEJNN2p6c3lYcXpzTnh1MTEycUZ4dF9tYw?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-08-28T06:03:15.000Z",
-        "source": "CNN"
+        "title": "Russia ramps up rhetoric but wants to avoid war with Nato, Western officials say",
+        "link": "https://www.bbc.co.uk/news/articles/cz0zm2j7ld1o?at_medium=RSS&at_campaign=rss",
+        "summary": "But they say Moscow will likely continue its \"hybrid activity\" against Nato members, short of direct military action.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7710/live/8f66bdd0-a312-11f1-b109-879e35c24276.jpg",
+        "publishedAt": "2026-08-28T19:05:23.000Z",
+        "source": "BBC"
       },
       {
-        "title": "Trump administration illegally retaliated against Anthropic, judge rules",
-        "link": "https://www.bbc.co.uk/news/articles/cm2q7z5mlrmo?at_medium=RSS&at_campaign=rss",
-        "summary": "The AI startup has been at loggerheads with the Pentagon over the use of AI by the US military.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8a72/live/1e9bf7b0-a299-11f1-b81f-99addc8c0403.jpg",
-        "publishedAt": "2026-08-28T03:41:59.000Z",
+        "title": "Oslo mayor calls off wedding ceremony after death of Norway's king",
+        "link": "https://www.bbc.co.uk/news/articles/c5ydgk3v60eo?at_medium=RSS&at_campaign=rss",
+        "summary": "Anne Lindboe, the mayor of Norway's capital, had planned to marry her fiance on Friday.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c75/live/2ad87650-a2dc-11f1-ba94-c782670d1920.jpg",
+        "publishedAt": "2026-08-28T13:50:34.000Z",
         "source": "BBC"
       }
     ],
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-08-28",
+    "rotationLabel": "Curated Rotation · 2026-08-29",
     "sections": [
       {
         "id": "data-storage",
@@ -522,26 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-5",
-            "sectionId": "data-storage",
-            "title": "The FAISS Library",
-            "authors": [
-              "Jeff Johnson",
-              "Matthijs Douze",
-              "Herve Jegou"
-            ],
-            "venue": "IEEE T-BD",
-            "year": 2021,
-            "quality": "高影响力",
-            "categories": [
-              "vector search",
-              "ANN"
-            ],
-            "link": "https://arxiv.org/abs/2401.08281",
-            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-6",
             "sectionId": "data-storage",
@@ -561,7 +541,7 @@
             ],
             "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
             "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-1",
@@ -583,6 +563,27 @@
             "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
             "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-2",
+            "sectionId": "data-storage",
+            "title": "Bigtable: A Distributed Storage System for Structured Data",
+            "authors": [
+              "Fay Chang",
+              "Jeffrey Dean",
+              "Sanjay Ghemawat",
+              "Wilson C. Hsieh"
+            ],
+            "venue": "OSDI",
+            "year": 2006,
+            "quality": "顶会",
+            "categories": [
+              "distributed systems",
+              "database"
+            ],
+            "link": "https://research.google/pubs/pub27898/",
+            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -592,27 +593,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-6",
-            "sectionId": "computer-vision",
-            "title": "DINOv2: Learning Robust Visual Features without Supervision",
-            "authors": [
-              "Maxime Oquab",
-              "Timothée Darcet",
-              "Théo Moutakanni",
-              "Huy V. Vo"
-            ],
-            "venue": "arXiv / Meta",
-            "year": 2023,
-            "quality": "高影响力",
-            "categories": [
-              "self-supervised",
-              "representation"
-            ],
-            "link": "https://arxiv.org/abs/2304.07193",
-            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-1",
             "sectionId": "computer-vision",
@@ -632,7 +612,7 @@
             ],
             "link": "https://arxiv.org/abs/1512.03385",
             "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-2",
@@ -654,6 +634,27 @@
             "link": "https://arxiv.org/abs/2005.12872",
             "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-3",
+            "sectionId": "computer-vision",
+            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+            "authors": [
+              "Alexey Dosovitskiy",
+              "Lucas Beyer",
+              "Alexander Kolesnikov",
+              "Dirk Weissenborn"
+            ],
+            "venue": "ICLR",
+            "year": 2021,
+            "quality": "顶会",
+            "categories": [
+              "vision transformer",
+              "classification"
+            ],
+            "link": "https://arxiv.org/abs/2010.11929",
+            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -663,27 +664,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-1",
-            "sectionId": "llm-memory",
-            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
-            "authors": [
-              "Patrick Lewis",
-              "Ethan Perez",
-              "Aleksandra Piktus",
-              "Fabio Petroni"
-            ],
-            "venue": "NeurIPS",
-            "year": 2020,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "retrieval"
-            ],
-            "link": "https://arxiv.org/abs/2005.11401",
-            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-2",
             "sectionId": "llm-memory",
@@ -703,7 +683,7 @@
             ],
             "link": "https://arxiv.org/abs/2203.08913",
             "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-3",
@@ -725,6 +705,27 @@
             "link": "https://arxiv.org/abs/2112.04426",
             "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-4",
+            "sectionId": "llm-memory",
+            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+            "authors": [
+              "Akari Asai",
+              "Zequn Zhang",
+              "Avirup Sil",
+              "Hannaneh Hajishirzi"
+            ],
+            "venue": "ICLR",
+            "year": 2024,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "self-reflection"
+            ],
+            "link": "https://arxiv.org/abs/2310.11511",
+            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -734,27 +735,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-2",
-            "sectionId": "agents",
-            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
-            "authors": [
-              "Timo Schick",
-              "Jane Dwivedi-Yu",
-              "Roberta Dessì",
-              "Ari Holtzman"
-            ],
-            "venue": "NeurIPS",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "tool use",
-              "agent"
-            ],
-            "link": "https://arxiv.org/abs/2302.04761",
-            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-3",
             "sectionId": "agents",
@@ -774,7 +754,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.03442",
             "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-4",
@@ -795,6 +775,27 @@
             ],
             "link": "https://arxiv.org/abs/2305.16291",
             "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-5",
+            "sectionId": "agents",
+            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+            "authors": [
+              "Qingyun Wu",
+              "Gagan Bansal",
+              "Jiaqi Zhang",
+              "Yiran Wu"
+            ],
+            "venue": "COLM",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "multi-agent",
+              "framework"
+            ],
+            "link": "https://arxiv.org/abs/2308.08155",
+            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
             "trackLabel": "轮换精选"
           }
         ]
