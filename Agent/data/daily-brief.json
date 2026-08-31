@@ -1,86 +1,95 @@
 {
-  "generatedAt": "2026-08-31T05:24:19.381Z",
+  "generatedAt": "2026-08-31T16:07:05.310Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 29,
+      "temperature": 21,
       "weatherCode": 0,
-      "windSpeed": 8
+      "windSpeed": 4
     },
     "today": {
-      "date": "2026-08-31",
-      "weatherCode": 1,
-      "description": "基本晴",
+      "date": "2026-09-01",
+      "weatherCode": 0,
+      "description": "晴朗",
       "max": 29,
-      "min": 18,
+      "min": 19,
       "precipitationProbability": 0
     },
     "forecast": [
       {
-        "date": "2026-08-31",
-        "weatherCode": 1,
-        "description": "基本晴",
-        "max": 29,
-        "min": 18,
-        "precipitationProbability": 0
-      },
-      {
         "date": "2026-09-01",
         "weatherCode": 0,
         "description": "晴朗",
-        "max": 28,
+        "max": 29,
         "min": 19,
         "precipitationProbability": 0
       },
       {
         "date": "2026-09-02",
-        "weatherCode": 0,
-        "description": "晴朗",
+        "weatherCode": 1,
+        "description": "基本晴",
         "max": 30,
-        "min": 17,
+        "min": 18,
         "precipitationProbability": 0
       },
       {
         "date": "2026-09-03",
         "weatherCode": 0,
         "description": "晴朗",
-        "max": 32,
-        "min": 18,
+        "max": 33,
+        "min": 19,
         "precipitationProbability": 0
       },
       {
         "date": "2026-09-04",
         "weatherCode": 3,
         "description": "阴天",
-        "max": 32,
+        "max": 31,
         "min": 20,
         "precipitationProbability": 0
+      },
+      {
+        "date": "2026-09-05",
+        "weatherCode": 2,
+        "description": "局部多云",
+        "max": 31,
+        "min": 22,
+        "precipitationProbability": 2
       }
     ]
   },
   "classicQuote": {
-    "id": "chuci-seek",
-    "text": "路漫漫其修远兮，吾将上下而求索。",
-    "source": "《离骚》",
-    "author": "屈原",
-    "note": "长期主义最难，但也最值得。"
+    "id": "mencius-perseverance",
+    "text": "虽千万人，吾往矣。",
+    "source": "《孟子》",
+    "author": "孟子",
+    "note": "认准方向之后，关键是稳稳地往前走。"
   },
   "bookExcerpt": {
-    "id": "border-town-river",
-    "text": "月光如银子，无处不可照及，山上篁竹在月光下变成了一片黑色，身边草丛中虫声繁密如落雨。",
-    "book": "《边城》",
-    "author": "沈从文"
+    "id": "red-mansion-snow",
+    "text": "只见大地白茫茫一片真干净，山川树木都隐在雪光里，天地像忽然静下来，只余风过回廊的细响。",
+    "book": "《红楼梦》",
+    "author": "曹雪芹"
   },
   "featuredPlace": {
-    "id": "202608301600",
-    "title": "雷吉斯坦广场的建筑细节，撒马尔罕，乌兹别克斯坦",
+    "id": "202608311600",
+    "title": "马鬃小皮伞，白俄罗斯",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "图案艺术的典范",
-    "image": "https://www.bing.com/th?id=OHR.SamarkandCeiling_ZH-CN1818913296_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E6%92%92%E9%A9%AC%E5%B0%94%E7%BD%95&form=hpcapt&mkt=zh-cn"
+    "summary": "脚下的世界",
+    "image": "https://www.bing.com/th?id=OHR.HorseHairShroom_ZH-CN2241458451_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E9%A9%AC%E9%AC%83%E5%B0%8F%E7%9A%AE%E4%BC%9E&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202608311600",
+      "title": "马鬃小皮伞，白俄罗斯",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "脚下的世界",
+      "image": "https://www.bing.com/th?id=OHR.HorseHairShroom_ZH-CN2241458451_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E9%A9%AC%E9%AC%83%E5%B0%8F%E7%9A%AE%E4%BC%9E&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202608301600",
       "title": "雷吉斯坦广场的建筑细节，撒马尔罕，乌兹别克斯坦",
@@ -143,200 +152,191 @@
       "summary": "守护美国瑰宝",
       "image": "https://www.bing.com/th?id=OHR.RedwoodPark_ZH-CN9513051062_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E7%BA%A2%E6%9D%89%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD%E4%B8%8E%E5%B7%9E%E7%AB%8B%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202608231600",
-      "title": "布鲁克林大桥，纽约市，美国",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "跨越历史",
-      "image": "https://www.bing.com/th?id=OHR.BKBridge_ZH-CN3870511222_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E5%B8%83%E9%B2%81%E5%85%8B%E6%9E%97%E5%A4%A7%E6%A1%A5&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-08-31",
-    "dateLabel": "8月31日",
+    "dateKey": "2026-09-01",
+    "dateLabel": "9月1日",
     "items": [
       {
-        "year": "2025",
-        "text": "阿富汗東部發生MW 6.0地震，造成至少1,100人死亡、3,500餘人受傷。",
-        "link": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4"
+        "year": "2022",
+        "text": "阿根廷副总统克里斯蒂娜·费尔南德斯·德基什内尔遭一名巴西籍男子在幾厘米距離用一把半自動手枪指脸，該男子雖然扣動了扳機，但並沒有子彈射出，所以克里斯蒂娜未中枪，該男子则被警方当场逮捕。",
+        "link": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4"
       },
       {
-        "year": "2023",
-        "text": "南非約翰內斯堡一座住宅樓發生致命火災，造成76人死亡、88人受傷。",
-        "link": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4"
+        "year": "2020",
+        "text": "Facebook宣布，如果澳大利亞政府如果啟動立法程序，要求該國科技公司向當地新聞機構付款，會考慮封鎖在平台上分享地區及國際新聞的澳大利亞用戶。",
+        "link": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "国家主席习近平出席吉尔吉斯斯坦总统扎帕罗夫举行的欢迎仪式",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-31/10687167.shtml",
-        "summary": "视频：国家主席习近平出席吉尔吉斯斯坦总统扎帕罗夫举行的欢迎仪式来源：新华社",
-        "image": "https://poss-videocloud.cns.com.cn/oss/2026/08/31/chinanews/MEIZI_YUNSHI/onair/CF3256205247484FAD83333AE6F29A5A.mp4",
-        "publishedAt": "2026-08-31T04:50:40.000Z",
+        "title": "中华人民共和国和吉尔吉斯共和国永久睦邻友好合作条约",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-31/10687578.shtml",
+        "summary": "新华社比什凯克8月31日电",
+        "image": "",
+        "publishedAt": "2026-08-31T15:28:07.000Z",
         "source": "中新网"
       },
       {
-        "title": "尼泊尔泥石流灾害已致903人遇难",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-31/10687164.shtml",
-        "summary": "据尼泊尔国家减少灾害风险管理局公布的数据，截至当地时间8月31日9时，尼泊尔泥石流灾害造成的遇难人数升至903人，失联人数为4247人。(央视新闻客户端 总台记者 石玥)",
+        "title": "以政治学创新赋能中国式现代化 首届政治学前沿论坛在京举办",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-31/10687572.shtml",
+        "summary": "中新网北京8月31日电 (记者 谭雨果)近日，中国社会科学杂志社与中国政法大学共同主办的中国社会科学杂志社首届政治学前沿论坛(2026)举行，论坛以“中国式现代化与中国政治学的时代命题”为主题，国内政治学领域百余位专家学者汇聚一堂，围绕中国式现代化理论内涵、制度基础、自主知识体系建设、数智时代政治学...",
         "image": "",
-        "publishedAt": "2026-08-31T04:42:50.000Z",
+        "publishedAt": "2026-08-31T14:59:49.000Z",
         "source": "中新网"
       },
       {
-        "title": "国家主席习近平同吉尔吉斯斯坦总统扎帕罗夫举行会谈",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-31/10687157.shtml",
-        "summary": "新华社快讯：当地时间8月31日上午，国家主席习近平同吉尔吉斯斯坦总统扎帕罗夫举行会谈。",
+        "title": "第38届中共党史党建学位点会议暨推进中共党史党建学科高质量发展学术研讨会在北京召开",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-31/10687567.shtml",
+        "summary": "中新网北京8月31日电(谭雨果 冯艺璇)近日，由张静如中共党史党建基金会主办，北京师范大学马克思主义学院、北京师范大学中共党史党建研究院承办的第38届“中共党史党建学位点会议暨推进中共党史党建学科高质量发展学术研讨会”在北京师范大学举行，本次会议正值学位点会议创办40周年之际，与会学者围绕中共党史党...",
         "image": "",
-        "publishedAt": "2026-08-31T04:17:41.000Z",
+        "publishedAt": "2026-08-31T14:50:18.000Z",
         "source": "中新网"
       },
       {
-        "title": "国家主席习近平出席吉尔吉斯斯坦总统扎帕罗夫举行的欢迎仪式",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-31/10687149.shtml",
-        "summary": "新华社快讯：当地时间8月31日上午，国家主席习近平出席吉尔吉斯斯坦总统扎帕罗夫举行的欢迎仪式。",
+        "title": "习近平会见俄罗斯总统普京",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-31/10687564.shtml",
+        "summary": "中新社比什凯克8月31日电 (记者 郭金超 黄钰钦)当地时间8月31日下午，中国国家主席习近平在比什凯克出席2026年上海合作组织峰会期间会见俄罗斯总统普京。",
         "image": "",
-        "publishedAt": "2026-08-31T04:05:46.000Z",
+        "publishedAt": "2026-08-31T14:46:54.000Z",
         "source": "中新网"
       },
       {
-        "title": "时政快讯丨习近平抵达比什凯克和谐宫 出席欢迎仪式",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-31/10687148.shtml",
-        "summary": "当地时间8月31日上午，国家主席习近平乘车抵达比什凯克和谐宫，出席吉尔吉斯斯坦总统扎帕罗夫举行的欢迎仪式。",
+        "title": "习近平会见乌兹别克斯坦总统米尔济约耶夫",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-31/10687555.shtml",
+        "summary": "中新社比什凯克8月31日电 (记者 郭金超 黄钰钦)当地时间8月31日下午，中国国家主席习近平在比什凯克出席2026年上海合作组织峰会期间会见乌兹别克斯坦总统米尔济约耶夫。",
         "image": "",
-        "publishedAt": "2026-08-31T03:59:37.000Z",
+        "publishedAt": "2026-08-31T14:42:04.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "因违法占地破坏耕地、非法采矿等，5地被通报",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-31/10687160.shtml",
-        "summary": "中新网北京8月31日电 (记者 庞无忌)记者31日从自然资源部获悉，自然资源部、国家林业和草原局2026年二季度发现，部分地方存在违法占地破坏耕地、非法采矿、毁林毁草破坏生态等问题。为发挥警示教育作用，自然资源部、国家林业和草原局决定通报5个违法违规典型问题。",
+        "title": "（乡村行·看振兴）定远张桥：从“水泥”路到海外“商路”",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-31/10687577.shtml",
+        "summary": "中新网滁州8月31日电 题：定远张桥：从“水泥”路到海外“商路”",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260831/c64eb83c-2344-4323-b92c-b55358b29666_zsite.jpg",
+        "publishedAt": "2026-08-31T15:01:51.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "广州市无管中心建设标准化培训基地启动",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-31/10687574.shtml",
+        "summary": "中新网广州8月31日电 (记者 蔡敏婕)广州市无管中心建设标准化培训基地启动会31日在广州举行，全市20余家医疗机构成为试点单位。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260831/80ca85a0-cc61-4af0-a644-f1c93f3b1eab_zsite.jpg",
+        "publishedAt": "2026-08-31T15:00:09.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "APAI亚太人工智能青少年科技创新大赛开放报名",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-31/10687553.shtml",
+        "summary": "中新网北京8月31日电 (记者 张素)记者31日采访获悉，2026—2027年度APAI亚太人工智能青少年科技创新大赛开放报名，报名将截止到9月15日。",
         "image": "",
-        "publishedAt": "2026-08-31T04:55:47.000Z",
+        "publishedAt": "2026-08-31T14:53:54.000Z",
         "source": "中新网"
       },
       {
-        "title": "广西8条河流10个水文站超警 调整发布洪水蓝色预警",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-31/10687159.shtml",
-        "summary": "中新网南宁8月31日电(俞靖 周也茹)广西壮族自治区水文中心31日提供的信息显示，当前，郁江南宁城区河段水位已退至警戒以下。8月31日10时，广西仍有郁江及支流蒙江河、武思江等8条河流10个水文站超警0.15米至2.79米；西江梧州水文站水位13.01米(警戒水位18.5米)，流量17700立方米每...",
-        "image": "",
-        "publishedAt": "2026-08-31T04:55:05.000Z",
+        "title": "事业单位招聘存在“高分断层”情况？吉林白城通报",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-31/10687517.shtml",
+        "summary": "中新网8月31日电 据“白城发布”微信公众号消息，吉林省白城市人民政府发布情况通报称，8月31日，部分媒体报道有考生质疑2026年白城市市直事业单位公开招聘存在“高分断层”情况。白城市高度重视，立即组织纪检、人社、公安、工信等部门成立联合调查组，对此次招聘工作进行全面调查。白城市人民政府将及时向社会...",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/08/31/1ac3a4bb84f34844b4187c14d0b15f2c.jpg",
+        "publishedAt": "2026-08-31T14:35:41.000Z",
         "source": "中新网"
       },
       {
-        "title": "浙江省第三届智运会开幕 VR电竞展现科技体育魅力",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-31/10687158.shtml",
-        "summary": "中新网杭州8月31日电(张煜欢)8月30日晚，浙江省第三届智力运动会(下称“智运会”)在杭州市滨江区电竞馆正式启幕。本届智运会以“智竞浙里·向新而行”为主题，由浙江省体育局、杭州市人民政府主办。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260831/27ca9732-f6be-4093-8dd1-6a694de1f702_zsite.jpg",
-        "publishedAt": "2026-08-31T04:54:15.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "新疆青少年幸福逐梦绿茵场",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-31/10687152.shtml",
-        "summary": "中新网乌鲁木齐8月31日电 (胡嘉琛)清晨，当帕米尔高原的第一缕阳光洒在新疆阿图什市依克萨克小学的绿茵场上，约麦尔·阿布都克热木的身影已在此跃动。他的书包内装着父母准备的巧克力等能量补品。“家人很支持我踢足球。”",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260831/455e42bc-1169-43ce-8e77-51ae1d5d1e2e_zsite.jpg",
-        "publishedAt": "2026-08-31T04:38:06.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "东吕高速山西榆社段：两辆货车碰撞起火被塑料燃烧物“粘连” 多部门联动救援",
-        "link": "https://www.chinanews.com.cn/sh/2026/08-31/10687136.shtml",
-        "summary": "中新网晋中8月31日电 (陆祁国 孙春旺) 一辆钢材运输车碰撞另一辆拉运塑料颗粒的货车致两车起火，塑料颗粒燃烧后形成的结块把两辆货车“粘连”在一起，导致被结块遮挡的阴燃火难以扑灭。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260831/d98bbd69-3c12-46d7-acb6-6e6acc8a903f_zsite.jpg",
-        "publishedAt": "2026-08-31T03:47:36.000Z",
+        "title": "湖北黄龙观村：从“废弃矿山”到“旅游景区”的生态修复之路",
+        "link": "https://www.chinanews.com.cn/sh/2026/08-31/10687549.shtml",
+        "summary": "中新网湖北襄阳8月31日电 (记者 阮煜琳)云上餐厅、云上足球场、高山运动场、国家级4A景区......湖北省襄阳市保康县马桥镇黄龙观村，面对长达十年粗放式开采留下的满目疮痍的废弃矿沟，开启了一场历时十余年的生态修复和乡村重塑之路。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260831/ce195c4a-6988-4c42-979c-22ca82d8f8d9_zsite.jpg",
+        "publishedAt": "2026-08-31T14:27:21.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "服务消费广度深度显著拓展",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-31/10687169.shtml",
-        "summary": "数据来源 京东消费及产业发展研究院 国家统计局数据显示，上半年我国居民人均服务性消费支出占居民消费支出的比重较上年同期继续提高。从“买商品”到“享服务”，居民消费结构发生了明显变化。",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/08/31/60c66dd3dc5f4a3f801f4d7e7b4a4f10.jpg",
-        "publishedAt": "2026-08-31T05:01:59.000Z",
+        "title": "十五五·同心聚力自贸港：“迫切需要国有基金进一步发挥资本引擎作用”",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-31/10687561.shtml",
+        "summary": "中新网海口8月31日电 (记者 王子谦)“当前，海南正处于高标准建设自贸港的关键阶段。”8月31日在海口举办的2026“十五五·同心聚力自贸港”首期沙龙活动上，致公党党员、海南省财金集团有限公司总经理肖能表示，迫切需要国有基金进一步发挥资本引擎作用，以基金撬动社会资本，以投资带动产业落地，以耐心资本...",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260831/c7dd2e24-1276-4ba5-8036-a1f96e1b10bc_zsite.jpg",
+        "publishedAt": "2026-08-31T14:52:40.000Z",
         "source": "中新网"
       },
       {
-        "title": "从“舞台动起来”到“干活用起来” 如何让机器人更有“力”",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-31/10687150.shtml",
-        "summary": "中新网北京8月31日电 题：从“舞台动起来”到“干活用起来” 如何让机器人更有“力”",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260831/c3f3b49d-ff88-4a38-9c3a-0420c6931743_zsite.jpg",
-        "publishedAt": "2026-08-31T04:12:36.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "7月份全国贸促系统优惠原产地证书签证金额同比增长24.77%",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-31/10687147.shtml",
-        "summary": "今天上午，中国贸促会举办新闻发布会。发布会上，中国贸促会公布了7月份全国贸促系统签发的原产地证书和商事证明书等数据情况。",
+        "title": "南航物流广州新国际进港货站正式启用",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-31/10687518.shtml",
+        "summary": "中新社广州8月31日电 (记者 郭军)据南方航空物流股份有限公司(下称“南航物流”)8月31日消息，南航物流广州新国际进港货站近日正式启用，这是南航首次将人工智能算法应用于航空物流全流程智慧化的国际货站。",
         "image": "",
-        "publishedAt": "2026-08-31T03:51:33.000Z",
+        "publishedAt": "2026-08-31T13:49:54.000Z",
         "source": "中新网"
       },
       {
-        "title": "沪市半年报披露收官 近八成公司实现盈利",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-31/10687142.shtml",
-        "summary": "中新网上海8月31日电 (高志苗)上海证券交易所30日晚间发布消息称，沪市上市公司完成2026年半年报披露。数据显示，沪市公司加快推进科技创新和产业升级，营收净利实现双增长，呈现出动能向新、结构向优的稳健发展态势。",
+        "title": "北京制定规划促高水平开放型经济发展",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-31/10687519.shtml",
+        "summary": "中新社北京8月31日电 (记者 吕少威)根据8月31日发布的《北京市“十五五”时期高水平开放型经济发展规划》(下称发展规划)，北京力争到2035年，在服务国家对外开放新格局中走在前列，参与国际经贸规则治理能力大幅提升，更高水平开放型经济新优势进一步增强。",
         "image": "",
-        "publishedAt": "2026-08-31T03:51:21.000Z",
+        "publishedAt": "2026-08-31T13:48:16.000Z",
         "source": "中新网"
       },
       {
-        "title": "新疆克拉玛依市第二届人工智能应用大赛决赛举行",
-        "link": "https://www.chinanews.com.cn/cj/2026/08-31/10687141.shtml",
-        "summary": "中新网新疆克拉玛依8月31日电 (张家伟)新疆克拉玛依市第二届人工智能应用大赛决赛30日举行。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260831/b4de3e53-23a7-4caa-a5ba-28a72ad189dd_zsite.JPG",
-        "publishedAt": "2026-08-31T03:50:05.000Z",
+        "title": "今年以来广东小微经营主体实现“以信换贷”超973亿元",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-31/10687512.shtml",
+        "summary": "中新网广州8月31日电 (孙秋霞 岳瑞轩)记者31日从国家税务总局广东省税务局获悉，广东税务深化纳税信用信息跨部门共享与增值应用，2026年以来全省超12.7万户小微经营主体实现“以信换贷”超973亿元。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260831/754daaa8-5855-4401-aaa6-e78ae78acb2b_zsite.jpg",
+        "publishedAt": "2026-08-31T13:42:30.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "湖北碳市场累计成交额突破105亿元",
+        "link": "https://www.chinanews.com.cn/cj/2026/08-31/10687511.shtml",
+        "summary": "中新网武汉8月31日电 (记者 梁婷)2026年碳市场大会媒体见面会31日在武汉举行。记者会上获悉，截至8月31日，湖北碳市场累计成交量4.25亿吨、成交额105.67亿元，均占全国40%以上，为首个成交额破百亿元的试点碳市场。",
+        "image": "",
+        "publishedAt": "2026-08-31T13:35:34.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
+        "title": "'She slipped out of my hand' - children missing after ferry sinks off northern Cyprus",
+        "link": "https://www.bbc.co.uk/news/articles/c1mv5ggg1l8o?at_medium=RSS&at_campaign=rss",
+        "summary": "Ayten and Hayri Bicer's two young children are among 20 missing in an incident that killed eight people.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78e7/live/97d65330-a548-11f1-8689-6589354d0f8e.png",
+        "publishedAt": "2026-08-31T14:50:36.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "US and Iran trade strikes for first time in weeks",
         "link": "https://www.bbc.co.uk/news/articles/cx2z72x5z1po?at_medium=RSS&at_campaign=rss",
-        "summary": "Iran says the attack on Larak Island, the first known US strikes since late July, killed two people and injured two others.",
+        "summary": "The attack on Larak Island in the Strait of Hormuz - the first known US strike since late July - has killed two people and injured two others.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/baab/live/f7f345a0-a4b4-11f1-b109-879e35c24276.jpg",
-        "publishedAt": "2026-08-31T04:54:32.000Z",
+        "publishedAt": "2026-08-31T13:47:30.000Z",
         "source": "BBC"
       },
       {
-        "title": "Eight killed and 18 missing after ferry capsizes off northern Cyprus",
-        "link": "https://www.bbc.co.uk/news/articles/c770jyd4l7lo?at_medium=RSS&at_campaign=rss",
-        "summary": "A search and rescue operation is under way after a ferry carrying nearly 270 people turns over after leaving port.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b564/live/7bd43000-a492-11f1-a291-b542ee92de7c.jpg",
-        "publishedAt": "2026-08-31T03:56:15.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "15 hikers feared missing after 'terrifying' flash flooding hits Grand Canyon",
-        "link": "https://www.bbc.co.uk/news/articles/clylkjyez1do?at_medium=RSS&at_campaign=rss",
-        "summary": "\"It was a beautiful day - and then people were screaming,\" one hiker who was airlifted to safety tells the BBC.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ff7/live/2c0e39a0-a4bd-11f1-aed2-8d6da8d75094.png",
-        "publishedAt": "2026-08-30T23:52:27.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Manhunt after shooting at Swiss rave kills woman, 22, and injures five",
-        "link": "https://www.bbc.co.uk/news/articles/c9qr750je1go?at_medium=RSS&at_campaign=rss",
-        "summary": "Five others in their twenties were injured after shots were fired at a techno event near Zurich.",
+        "title": "Man arrested after Swiss rave shooting that killed woman",
+        "link": "https://www.bbc.co.uk/news/articles/cddv92n194vo?at_medium=RSS&at_campaign=rss",
+        "summary": "A 22-year-old Italian woman was killed and several injured at a techno rave in Aarau.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2dc4/live/0a7a6950-a466-11f1-b370-b9b7934350c8.jpg",
-        "publishedAt": "2026-08-30T17:49:31.000Z",
+        "publishedAt": "2026-08-31T13:11:35.000Z",
         "source": "BBC"
       },
       {
-        "title": "West Bank: Israeli settlers storm Palestinian village, seizing home with owner inside",
-        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTW1oTXpaamJPY2FFZ3pBOUhNbkV3SFRLUGJrMDV1Qm1QdmJ4VVItd1hCcmdKejk0WlcwOU90elhsSllReVBWU2RNTjQxTkxYREd3VzdPeGE3LU9FRzk3YTQwbXlJU0hPS2pIRGV3c0czS29sS0JHYk0xSUQ2a0VIUG5tUkN2R2xYY3JLN05Fa250ZUk?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-08-30T16:58:53.000Z",
-        "source": "CNN"
+        "title": "The jury's options in Lindsay Clancy's murder trial",
+        "link": "https://www.bbc.co.uk/news/articles/c93vgv4kr49o?at_medium=RSS&at_campaign=rss",
+        "summary": "Jurors have five options before them as they decide the fate of the former nurse charged with killing her three children.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c17/live/80180ab0-a4d3-11f1-b109-879e35c24276.jpg",
+        "publishedAt": "2026-08-31T11:53:21.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "South African airline defends low-altitude aerial stunt over packed stadium",
+        "link": "https://www.bbc.co.uk/news/articles/c3rew8jqny5o?at_medium=RSS&at_campaign=rss",
+        "summary": "Airlink says the manoeuvre with two planes in close formation involved careful and precise planning.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/04bd/live/21055af0-a528-11f1-a291-b542ee92de7c.png",
+        "publishedAt": "2026-08-31T10:18:07.000Z",
+        "source": "BBC"
       }
     ],
     "worldBusiness": [
@@ -357,14 +357,6 @@
         "source": "BBC"
       },
       {
-        "title": "‘This is an all-out war’: Inside the casino industry’s fight to stop prediction markets",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNM2VuSmhOV0oxSzdVa2xTc0p3c2I0bDBJM19sSG1mLUM4TzRnQUxRQ2JtVDlZdDlmS0c4b0VrandrVFZ4NnFOZjI5WEpsakhvVVI2UmhVVEkzd3ZqOTF3YXhXaVZtMkF2dnFhX0cyXzBtQ3JXZE1OdjJGX3pQLWhsS2FB?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-08-30T11:00:29.000Z",
-        "source": "CNN"
-      },
-      {
         "title": "Trump hails 'historic' deal to control 65 billion barrels of Venezuelan oil",
         "link": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss",
         "summary": "Venezuelan interim president says the unusual agreement will help revive her country's economy.",
@@ -373,12 +365,20 @@
         "source": "BBC"
       },
       {
-        "title": "States can regulate prediction markets as gambling, federal appeals court rules",
-        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNenJGUEZWM2JoaW1vc1NwQ0pwREUwTkJLaDVFN3JmWklIWXI3aVhQeE9DRDdzU1AyaGxoUjJabDNZQ0RDVVhBb2RUUkdGSWNVZW5LV1dJM3lqN2FialhzcnB0RnA2LU9GUURSUkFVSk8wbG1LV0pHS1JoaG1VTDVVNzhoZFR1OE1fM3l0WGZTRktIRTJBZHhRNzNVTDI?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-08-28T18:17:58.000Z",
-        "source": "CNN"
+        "title": "Wife of man who died after turbulence sues airline",
+        "link": "https://www.bbc.co.uk/news/articles/cqlwrpey1epo?at_medium=RSS&at_campaign=rss",
+        "summary": "Lawyers for Linda Kitchen say her husband was \"fatally injured\" after the flight dropped 6,000 ft.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9fd5/live/2730a430-a301-11f1-a291-b542ee92de7c.jpg",
+        "publishedAt": "2026-08-28T17:47:00.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Fed has 'work to do' if price rises don't ease for Americans, Warsh says",
+        "link": "https://www.bbc.co.uk/news/articles/cy9zjgv9lgdo?at_medium=RSS&at_campaign=rss",
+        "summary": "Kevin Warsh remarks suggest interest rates could be increased if policymakers think inflation is running too high.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5899/live/39824e70-a2fe-11f1-80b3-bf1a174ac193.jpg",
+        "publishedAt": "2026-08-28T15:15:26.000Z",
+        "source": "BBC"
       }
     ],
     "worldTech": [
@@ -425,86 +425,86 @@
     ],
     "domestic": [
       {
-        "title": "国家主席习近平出席吉尔吉斯斯坦总统扎帕罗夫举行的欢迎仪式",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-31/10687167.shtml",
-        "summary": "视频：国家主席习近平出席吉尔吉斯斯坦总统扎帕罗夫举行的欢迎仪式来源：新华社",
-        "image": "https://poss-videocloud.cns.com.cn/oss/2026/08/31/chinanews/MEIZI_YUNSHI/onair/CF3256205247484FAD83333AE6F29A5A.mp4",
-        "publishedAt": "2026-08-31T04:50:40.000Z",
+        "title": "中华人民共和国和吉尔吉斯共和国永久睦邻友好合作条约",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-31/10687578.shtml",
+        "summary": "新华社比什凯克8月31日电",
+        "image": "",
+        "publishedAt": "2026-08-31T15:28:07.000Z",
         "source": "中新网"
       },
       {
-        "title": "尼泊尔泥石流灾害已致903人遇难",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-31/10687164.shtml",
-        "summary": "据尼泊尔国家减少灾害风险管理局公布的数据，截至当地时间8月31日9时，尼泊尔泥石流灾害造成的遇难人数升至903人，失联人数为4247人。(央视新闻客户端 总台记者 石玥)",
+        "title": "以政治学创新赋能中国式现代化 首届政治学前沿论坛在京举办",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-31/10687572.shtml",
+        "summary": "中新网北京8月31日电 (记者 谭雨果)近日，中国社会科学杂志社与中国政法大学共同主办的中国社会科学杂志社首届政治学前沿论坛(2026)举行，论坛以“中国式现代化与中国政治学的时代命题”为主题，国内政治学领域百余位专家学者汇聚一堂，围绕中国式现代化理论内涵、制度基础、自主知识体系建设、数智时代政治学...",
         "image": "",
-        "publishedAt": "2026-08-31T04:42:50.000Z",
+        "publishedAt": "2026-08-31T14:59:49.000Z",
         "source": "中新网"
       },
       {
-        "title": "国家主席习近平同吉尔吉斯斯坦总统扎帕罗夫举行会谈",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-31/10687157.shtml",
-        "summary": "新华社快讯：当地时间8月31日上午，国家主席习近平同吉尔吉斯斯坦总统扎帕罗夫举行会谈。",
+        "title": "第38届中共党史党建学位点会议暨推进中共党史党建学科高质量发展学术研讨会在北京召开",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-31/10687567.shtml",
+        "summary": "中新网北京8月31日电(谭雨果 冯艺璇)近日，由张静如中共党史党建基金会主办，北京师范大学马克思主义学院、北京师范大学中共党史党建研究院承办的第38届“中共党史党建学位点会议暨推进中共党史党建学科高质量发展学术研讨会”在北京师范大学举行，本次会议正值学位点会议创办40周年之际，与会学者围绕中共党史党...",
         "image": "",
-        "publishedAt": "2026-08-31T04:17:41.000Z",
+        "publishedAt": "2026-08-31T14:50:18.000Z",
         "source": "中新网"
       },
       {
-        "title": "国家主席习近平出席吉尔吉斯斯坦总统扎帕罗夫举行的欢迎仪式",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-31/10687149.shtml",
-        "summary": "新华社快讯：当地时间8月31日上午，国家主席习近平出席吉尔吉斯斯坦总统扎帕罗夫举行的欢迎仪式。",
+        "title": "习近平会见俄罗斯总统普京",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-31/10687564.shtml",
+        "summary": "中新社比什凯克8月31日电 (记者 郭金超 黄钰钦)当地时间8月31日下午，中国国家主席习近平在比什凯克出席2026年上海合作组织峰会期间会见俄罗斯总统普京。",
         "image": "",
-        "publishedAt": "2026-08-31T04:05:46.000Z",
+        "publishedAt": "2026-08-31T14:46:54.000Z",
         "source": "中新网"
       },
       {
-        "title": "时政快讯丨习近平抵达比什凯克和谐宫 出席欢迎仪式",
-        "link": "https://www.chinanews.com.cn/gn/2026/08-31/10687148.shtml",
-        "summary": "当地时间8月31日上午，国家主席习近平乘车抵达比什凯克和谐宫，出席吉尔吉斯斯坦总统扎帕罗夫举行的欢迎仪式。",
+        "title": "习近平会见乌兹别克斯坦总统米尔济约耶夫",
+        "link": "https://www.chinanews.com.cn/gn/2026/08-31/10687555.shtml",
+        "summary": "中新社比什凯克8月31日电 (记者 郭金超 黄钰钦)当地时间8月31日下午，中国国家主席习近平在比什凯克出席2026年上海合作组织峰会期间会见乌兹别克斯坦总统米尔济约耶夫。",
         "image": "",
-        "publishedAt": "2026-08-31T03:59:37.000Z",
+        "publishedAt": "2026-08-31T14:42:04.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
+        "title": "'She slipped out of my hand' - children missing after ferry sinks off northern Cyprus",
+        "link": "https://www.bbc.co.uk/news/articles/c1mv5ggg1l8o?at_medium=RSS&at_campaign=rss",
+        "summary": "Ayten and Hayri Bicer's two young children are among 20 missing in an incident that killed eight people.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78e7/live/97d65330-a548-11f1-8689-6589354d0f8e.png",
+        "publishedAt": "2026-08-31T14:50:36.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "US and Iran trade strikes for first time in weeks",
         "link": "https://www.bbc.co.uk/news/articles/cx2z72x5z1po?at_medium=RSS&at_campaign=rss",
-        "summary": "Iran says the attack on Larak Island, the first known US strikes since late July, killed two people and injured two others.",
+        "summary": "The attack on Larak Island in the Strait of Hormuz - the first known US strike since late July - has killed two people and injured two others.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/baab/live/f7f345a0-a4b4-11f1-b109-879e35c24276.jpg",
-        "publishedAt": "2026-08-31T04:54:32.000Z",
+        "publishedAt": "2026-08-31T13:47:30.000Z",
         "source": "BBC"
       },
       {
-        "title": "Eight killed and 18 missing after ferry capsizes off northern Cyprus",
-        "link": "https://www.bbc.co.uk/news/articles/c770jyd4l7lo?at_medium=RSS&at_campaign=rss",
-        "summary": "A search and rescue operation is under way after a ferry carrying nearly 270 people turns over after leaving port.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b564/live/7bd43000-a492-11f1-a291-b542ee92de7c.jpg",
-        "publishedAt": "2026-08-31T03:56:15.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "15 hikers feared missing after 'terrifying' flash flooding hits Grand Canyon",
-        "link": "https://www.bbc.co.uk/news/articles/clylkjyez1do?at_medium=RSS&at_campaign=rss",
-        "summary": "\"It was a beautiful day - and then people were screaming,\" one hiker who was airlifted to safety tells the BBC.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ff7/live/2c0e39a0-a4bd-11f1-aed2-8d6da8d75094.png",
-        "publishedAt": "2026-08-30T23:52:27.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Manhunt after shooting at Swiss rave kills woman, 22, and injures five",
-        "link": "https://www.bbc.co.uk/news/articles/c9qr750je1go?at_medium=RSS&at_campaign=rss",
-        "summary": "Five others in their twenties were injured after shots were fired at a techno event near Zurich.",
+        "title": "Man arrested after Swiss rave shooting that killed woman",
+        "link": "https://www.bbc.co.uk/news/articles/cddv92n194vo?at_medium=RSS&at_campaign=rss",
+        "summary": "A 22-year-old Italian woman was killed and several injured at a techno rave in Aarau.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2dc4/live/0a7a6950-a466-11f1-b370-b9b7934350c8.jpg",
-        "publishedAt": "2026-08-30T17:49:31.000Z",
+        "publishedAt": "2026-08-31T13:11:35.000Z",
         "source": "BBC"
       },
       {
-        "title": "West Bank: Israeli settlers storm Palestinian village, seizing home with owner inside",
-        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTW1oTXpaamJPY2FFZ3pBOUhNbkV3SFRLUGJrMDV1Qm1QdmJ4VVItd1hCcmdKejk0WlcwOU90elhsSllReVBWU2RNTjQxTkxYREd3VzdPeGE3LU9FRzk3YTQwbXlJU0hPS2pIRGV3c0czS29sS0JHYk0xSUQ2a0VIUG5tUkN2R2xYY3JLN05Fa250ZUk?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-08-30T16:58:53.000Z",
-        "source": "CNN"
+        "title": "The jury's options in Lindsay Clancy's murder trial",
+        "link": "https://www.bbc.co.uk/news/articles/c93vgv4kr49o?at_medium=RSS&at_campaign=rss",
+        "summary": "Jurors have five options before them as they decide the fate of the former nurse charged with killing her three children.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c17/live/80180ab0-a4d3-11f1-b109-879e35c24276.jpg",
+        "publishedAt": "2026-08-31T11:53:21.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "South African airline defends low-altitude aerial stunt over packed stadium",
+        "link": "https://www.bbc.co.uk/news/articles/c3rew8jqny5o?at_medium=RSS&at_campaign=rss",
+        "summary": "Airlink says the manoeuvre with two planes in close formation involved careful and precise planning.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/04bd/live/21055af0-a528-11f1-a291-b542ee92de7c.png",
+        "publishedAt": "2026-08-31T10:18:07.000Z",
+        "source": "BBC"
       }
     ],
     "nba": []
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-08-31",
+    "rotationLabel": "Curated Rotation · 2026-09-01",
     "sections": [
       {
         "id": "data-storage",
@@ -522,6 +522,48 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
+          {
+            "id": "data-storage-6",
+            "sectionId": "data-storage",
+            "title": "DiskANN: Fast Accurate Billion-point Nearest Neighbor Search on a Single Node",
+            "authors": [
+              "Neelesh Gupta",
+              "Leland Willard",
+              "Xiangyao Yu",
+              "Yuri N."
+            ],
+            "venue": "NeurIPS",
+            "year": 2019,
+            "quality": "高影响力",
+            "categories": [
+              "vector search",
+              "ANN"
+            ],
+            "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
+            "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
+            "trackLabel": "今日主推"
+          },
+          {
+            "id": "data-storage-1",
+            "sectionId": "data-storage",
+            "title": "The Log-Structured Merge-Tree (LSM-Tree)",
+            "authors": [
+              "Patrick O'Neil",
+              "Edward Cheng",
+              "Dieter Gawlick",
+              "Elizabeth O'Neil"
+            ],
+            "venue": "Acta Informatica",
+            "year": 1996,
+            "quality": "经典基础",
+            "categories": [
+              "storage",
+              "indexing"
+            ],
+            "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
+            "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
+            "trackLabel": "轮换精选"
+          },
           {
             "id": "data-storage-2",
             "sectionId": "data-storage",
@@ -541,48 +583,6 @@
             ],
             "link": "https://research.google/pubs/pub27898/",
             "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
-            "trackLabel": "今日主推"
-          },
-          {
-            "id": "data-storage-3",
-            "sectionId": "data-storage",
-            "title": "Dynamo: Amazon's Highly Available Key-value Store",
-            "authors": [
-              "Giuseppe DeCandia",
-              "Deniz Hastorun",
-              "Madan Jampani",
-              "Gunavardhan Kakulapati"
-            ],
-            "venue": "SOSP",
-            "year": 2007,
-            "quality": "顶会",
-            "categories": [
-              "key-value",
-              "distributed systems"
-            ],
-            "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
-            "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
-            "trackLabel": "轮换精选"
-          },
-          {
-            "id": "data-storage-4",
-            "sectionId": "data-storage",
-            "title": "Dremel: Interactive Analysis of Web-Scale Datasets",
-            "authors": [
-              "Sergey Melnik",
-              "Andrey Gubarev",
-              "Jing Jing Long",
-              "Geoffrey Romer"
-            ],
-            "venue": "VLDB",
-            "year": 2010,
-            "quality": "顶会",
-            "categories": [
-              "analytics",
-              "columnar"
-            ],
-            "link": "https://research.google/pubs/pub36632/",
-            "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
             "trackLabel": "轮换精选"
           }
         ]
@@ -593,6 +593,48 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
+          {
+            "id": "computer-vision-1",
+            "sectionId": "computer-vision",
+            "title": "Deep Residual Learning for Image Recognition",
+            "authors": [
+              "Kaiming He",
+              "Xiangyu Zhang",
+              "Shaoqing Ren",
+              "Jian Sun"
+            ],
+            "venue": "CVPR",
+            "year": 2016,
+            "quality": "顶会",
+            "categories": [
+              "image recognition",
+              "backbone"
+            ],
+            "link": "https://arxiv.org/abs/1512.03385",
+            "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
+            "trackLabel": "今日主推"
+          },
+          {
+            "id": "computer-vision-2",
+            "sectionId": "computer-vision",
+            "title": "End-to-End Object Detection with Transformers",
+            "authors": [
+              "Nicolas Carion",
+              "Francisco Massa",
+              "Gabriel Synnaeve",
+              "Nicolas Usunier"
+            ],
+            "venue": "ECCV",
+            "year": 2020,
+            "quality": "顶会",
+            "categories": [
+              "detection",
+              "transformer"
+            ],
+            "link": "https://arxiv.org/abs/2005.12872",
+            "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
+            "trackLabel": "轮换精选"
+          },
           {
             "id": "computer-vision-3",
             "sectionId": "computer-vision",
@@ -612,48 +654,6 @@
             ],
             "link": "https://arxiv.org/abs/2010.11929",
             "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
-            "trackLabel": "今日主推"
-          },
-          {
-            "id": "computer-vision-4",
-            "sectionId": "computer-vision",
-            "title": "Learning Transferable Visual Models From Natural Language Supervision",
-            "authors": [
-              "Alec Radford",
-              "Jong Wook Kim",
-              "Chris Hallacy",
-              "Aditya Ramesh"
-            ],
-            "venue": "ICML",
-            "year": 2021,
-            "quality": "顶会",
-            "categories": [
-              "vision-language",
-              "foundation model"
-            ],
-            "link": "https://arxiv.org/abs/2103.00020",
-            "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
-            "trackLabel": "轮换精选"
-          },
-          {
-            "id": "computer-vision-5",
-            "sectionId": "computer-vision",
-            "title": "Segment Anything",
-            "authors": [
-              "Alexander Kirillov",
-              "Eric Mintun",
-              "Nikhila Ravi",
-              "Hanzi Mao"
-            ],
-            "venue": "ICCV",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "segmentation",
-              "foundation model"
-            ],
-            "link": "https://arxiv.org/abs/2304.02643",
-            "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
             "trackLabel": "轮换精选"
           }
         ]
@@ -664,6 +664,48 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
+          {
+            "id": "llm-memory-2",
+            "sectionId": "llm-memory",
+            "title": "Memorizing Transformers",
+            "authors": [
+              "Yuhuai Wu",
+              "Markus N. Rabe",
+              "DeLesley Hutchins",
+              "Christian Szegedy"
+            ],
+            "venue": "ICLR",
+            "year": 2022,
+            "quality": "顶会",
+            "categories": [
+              "memory",
+              "long context"
+            ],
+            "link": "https://arxiv.org/abs/2203.08913",
+            "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
+            "trackLabel": "今日主推"
+          },
+          {
+            "id": "llm-memory-3",
+            "sectionId": "llm-memory",
+            "title": "RETRO: Improving Language Models by Retrieving From Trillions of Tokens",
+            "authors": [
+              "Sebastian Borgeaud",
+              "Arthur Mensch",
+              "Jordan Hoffmann",
+              "Trevor Cai"
+            ],
+            "venue": "DeepMind / arXiv",
+            "year": 2022,
+            "quality": "高影响力",
+            "categories": [
+              "retrieval",
+              "language model"
+            ],
+            "link": "https://arxiv.org/abs/2112.04426",
+            "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
+            "trackLabel": "轮换精选"
+          },
           {
             "id": "llm-memory-4",
             "sectionId": "llm-memory",
@@ -683,48 +725,6 @@
             ],
             "link": "https://arxiv.org/abs/2310.11511",
             "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
-            "trackLabel": "今日主推"
-          },
-          {
-            "id": "llm-memory-5",
-            "sectionId": "llm-memory",
-            "title": "LongMem: Scaling Language Model Context with Memory-Augmented Retrieval",
-            "authors": [
-              "Zeqiu Wu",
-              "Yizhong Wang",
-              "Jiacheng Liu",
-              "Yelong Shen"
-            ],
-            "venue": "ACL Findings",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "memory",
-              "long context"
-            ],
-            "link": "https://arxiv.org/abs/2306.07174",
-            "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
-            "trackLabel": "轮换精选"
-          },
-          {
-            "id": "llm-memory-6",
-            "sectionId": "llm-memory",
-            "title": "MemoRAG: Moving towards Next-Gen RAG Via Memory-Inspired Knowledge Discovery",
-            "authors": [
-              "Rulin Shao",
-              "Yue Liu",
-              "Shuo Wang",
-              "Yichi Zhang"
-            ],
-            "venue": "arXiv",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "RAG",
-              "memory bank"
-            ],
-            "link": "https://arxiv.org/abs/2409.05591",
-            "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
             "trackLabel": "轮换精选"
           }
         ]
@@ -735,6 +735,48 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
+          {
+            "id": "agents-3",
+            "sectionId": "agents",
+            "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+            "authors": [
+              "Joon Sung Park",
+              "Joseph O'Brien",
+              "Carrie Cai",
+              "Meredith Ringel Morris"
+            ],
+            "venue": "UIST",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "agent society",
+              "memory"
+            ],
+            "link": "https://arxiv.org/abs/2304.03442",
+            "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
+            "trackLabel": "今日主推"
+          },
+          {
+            "id": "agents-4",
+            "sectionId": "agents",
+            "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+            "authors": [
+              "Guanzhi Wang",
+              "Yuqi Xie",
+              "Zixiang Zhou",
+              "Yujin Tang"
+            ],
+            "venue": "arXiv",
+            "year": 2023,
+            "quality": "高影响力",
+            "categories": [
+              "embodied agent",
+              "planning"
+            ],
+            "link": "https://arxiv.org/abs/2305.16291",
+            "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
+            "trackLabel": "轮换精选"
+          },
           {
             "id": "agents-5",
             "sectionId": "agents",
@@ -754,49 +796,6 @@
             ],
             "link": "https://arxiv.org/abs/2308.08155",
             "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
-            "trackLabel": "今日主推"
-          },
-          {
-            "id": "agents-6",
-            "sectionId": "agents",
-            "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
-            "authors": [
-              "John Yang",
-              "Carlos E. Jimenez",
-              "Alexander Wettig",
-              "Karthik Narasimhan"
-            ],
-            "venue": "ICLR",
-            "year": 2025,
-            "quality": "新近代表作",
-            "categories": [
-              "software agent",
-              "benchmark"
-            ],
-            "link": "https://arxiv.org/abs/2405.15793",
-            "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
-            "trackLabel": "轮换精选"
-          },
-          {
-            "id": "agents-1",
-            "sectionId": "agents",
-            "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
-            "authors": [
-              "Shunyu Yao",
-              "Jeffrey Zhao",
-              "Dian Yu",
-              "Nan Du"
-            ],
-            "venue": "ICLR",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "agent",
-              "reasoning",
-              "tool use"
-            ],
-            "link": "https://arxiv.org/abs/2210.03629",
-            "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
             "trackLabel": "轮换精选"
           }
         ]
