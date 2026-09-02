@@ -1,33 +1,25 @@
 {
-  "generatedAt": "2026-09-02T12:43:49.112Z",
+  "generatedAt": "2026-09-02T19:21:27.344Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 25,
+      "temperature": 20,
       "weatherCode": 0,
-      "windSpeed": 7
+      "windSpeed": 1
     },
     "today": {
-      "date": "2026-09-02",
+      "date": "2026-09-03",
       "weatherCode": 0,
       "description": "晴朗",
-      "max": 30,
+      "max": 32,
       "min": 18,
       "precipitationProbability": 0
     },
     "forecast": [
       {
-        "date": "2026-09-02",
+        "date": "2026-09-03",
         "weatherCode": 0,
         "description": "晴朗",
-        "max": 30,
-        "min": 18,
-        "precipitationProbability": 0
-      },
-      {
-        "date": "2026-09-03",
-        "weatherCode": 3,
-        "description": "阴天",
         "max": 32,
         "min": 18,
         "precipitationProbability": 0
@@ -44,7 +36,7 @@
         "date": "2026-09-05",
         "weatherCode": 3,
         "description": "阴天",
-        "max": 34,
+        "max": 33,
         "min": 21,
         "precipitationProbability": 0
       },
@@ -53,34 +45,51 @@
         "weatherCode": 3,
         "description": "阴天",
         "max": 32,
-        "min": 21,
+        "min": 22,
         "precipitationProbability": 0
+      },
+      {
+        "date": "2026-09-07",
+        "weatherCode": 51,
+        "description": "毛毛雨",
+        "max": 32,
+        "min": 22,
+        "precipitationProbability": 37
       }
     ]
   },
   "classicQuote": {
-    "id": "records-historical",
-    "text": "桃李不言，下自成蹊。",
-    "source": "《史记》",
-    "author": "司马迁",
-    "note": "真正有分量的作品，本身就会替你说话。"
+    "id": "chuci-seek",
+    "text": "路漫漫其修远兮，吾将上下而求索。",
+    "source": "《离骚》",
+    "author": "屈原",
+    "note": "长期主义最难，但也最值得。"
   },
   "bookExcerpt": {
-    "id": "remembrance-madeleine",
-    "text": "那一点点浸过茶水的点心，忽然把整个旧日时光都唤醒了，仿佛往昔并未消失，只是沉在心底等待一个气味。",
-    "book": "《追忆似水年华》",
-    "author": "马塞尔·普鲁斯特"
+    "id": "border-town-river",
+    "text": "月光如银子，无处不可照及，山上篁竹在月光下变成了一片黑色，身边草丛中虫声繁密如落雨。",
+    "book": "《边城》",
+    "author": "沈从文"
   },
   "featuredPlace": {
-    "id": "202609011600",
-    "title": "传统海滩小屋，索思沃尔德，萨福克遗产海岸，英格兰",
+    "id": "202609021600",
+    "title": "郊狼丘，朱红悬崖国家纪念区，亚利桑那州，美国",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "海岸边的缤纷色彩",
-    "image": "https://www.bing.com/th?id=OHR.SuffolkHuts_ZH-CN2463818981_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E8%90%A8%E7%A6%8F%E5%85%8B%E9%83%A1%E7%B4%A2%E6%96%AF%E6%B2%83%E5%B0%94%E5%BE%B7&form=hpcapt&mkt=zh-cn"
+    "summary": "一部守护荒野的法案",
+    "image": "https://www.bing.com/th?id=OHR.AZWilderness_ZH-CN2664566131_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E6%9C%B1%E7%BA%A2%E6%82%AC%E5%B4%96%E5%9B%BD%E5%AE%B6%E7%BA%AA%E5%BF%B5%E5%8C%BA&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202609021600",
+      "title": "郊狼丘，朱红悬崖国家纪念区，亚利桑那州，美国",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "一部守护荒野的法案",
+      "image": "https://www.bing.com/th?id=OHR.AZWilderness_ZH-CN2664566131_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E6%9C%B1%E7%BA%A2%E6%82%AC%E5%B4%96%E5%9B%BD%E5%AE%B6%E7%BA%AA%E5%BF%B5%E5%8C%BA&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202609011600",
       "title": "传统海滩小屋，索思沃尔德，萨福克遗产海岸，英格兰",
@@ -143,167 +152,174 @@
       "summary": "湖水、野生动物与奇景",
       "image": "https://www.bing.com/th?id=OHR.LakeMagadi_ZH-CN0601527009_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E6%B9%96%E6%B3%8A%E6%97%A5&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202608251600",
-      "title": "基尔丘山上空的极光，冰岛",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "流光溢彩的天空",
-      "image": "https://www.bing.com/th?id=OHR.AurorasIceland_ZH-CN9781322454_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E5%8C%97%E6%9E%81%E5%85%89&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-09-02",
-    "dateLabel": "9月2日",
+    "dateKey": "2026-09-03",
+    "dateLabel": "9月3日",
     "items": [
       {
-        "year": "2020",
-        "text": "德國政府宣布俄羅斯反對派領袖阿列克謝·納瓦爾尼遭到神經毒劑諾維喬克攻擊。",
-        "link": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4"
+        "year": "2021",
+        "text": "前黨主席鄭松泰上周被政府裁定第七屆換屆選舉議員資格的提名無效，即時喪失第六屆立法會議席，該亦於宣佈該黨在政治上再無前路而解散熱血公民的同日分別向所屬大埔、元朗區議會黃兆健及王頴思請辭。",
+        "link": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4"
       },
       {
-        "year": "2016",
-        "text": "首届金砖国家电影节在印度新德里举办。",
-        "link": "https://zh.wikipedia.org/wiki/2016%E5%B9%B4"
+        "year": "2017",
+        "text": "朝鲜于咸镜北道进行核试验。",
+        "link": "https://zh.wikipedia.org/wiki/2017%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "四川省绵阳市人大常委会原党组成员、副主任周琳接受审查调查",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-02/10689023.shtml",
-        "summary": "中新网成都9月2日电 (记者 张浪)四川省纪委监委2日消息：绵阳市人大常委会原党组成员、副主任周琳涉嫌严重违纪违法，主动投案，目前正接受四川省纪委监委纪律审查和监察调查。",
-        "image": "https://www.chinanews.com.cn/ad2008/U947P4T175D633F27513DT20260901095008.jpg",
-        "publishedAt": "2026-09-02T12:33:53.000Z",
+        "title": "新闻背景：大埃及博物馆",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-03/10689165.shtml",
+        "summary": "中新社开罗9月2日电 2025年11月1日正式开馆的大埃及博物馆是世界最大单一文明博物馆，占地约50万平方米，馆藏文物超过10万件，集纳了埃及从史前时代到罗马时期的大量珍贵文物，涵盖埃及数千年历史。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260903/1d4b7a76-6a5e-4a4d-a227-4fdb77b5d55c_zsite.JPG",
+        "publishedAt": "2026-09-02T19:19:47.000Z",
         "source": "中新网"
       },
       {
-        "title": "国家医保局：去年按病种付费人次已占医保出院总人次的91.8%",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-02/10689013.shtml",
-        "summary": "中新网北京9月2日电 (记者 李纯)国家医疗保障局9月2日在北京举行新闻发布会。国家医保局医药管理司司长黄心宇介绍说，2025年按病种付费的人次已占医保出院总人次的91.8%。",
-        "image": "https://www.chinanews.com.cn/ad2008/U947P4T175D633F27513DT20260901095008.jpg",
-        "publishedAt": "2026-09-02T12:32:55.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "西藏吉隆泥石流灾害累计接到家属来电876人次",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-02/10689025.shtml",
-        "summary": "新华社西藏吉隆9月2日电 记者从9月2日西藏自治区政府新闻办召开的新闻发布会上获悉，截至9月2日12时，当地累计接到家属来电876人次(其中国内448人次、国外428人次)，并及时登记、逐步回复相关咨询诉求。",
-        "image": "https://www.chinanews.com.cn/ad2008/U947P4T175D633F27513DT20260901095008.jpg",
-        "publishedAt": "2026-09-02T12:29:51.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "彭丽媛同埃及总统塞西夫人依缇萨尔茶叙并参观小型手工艺品展",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-02/10689022.shtml",
-        "summary": "中新社开罗9月2日电 当地时间9月2日上午，中国国家主席习近平夫人彭丽媛在开罗同埃及总统塞西夫人依缇萨尔茶叙并参观小型手工艺品展。",
+        "title": "习近平圆满结束对埃及的国事访问",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-03/10689164.shtml",
+        "summary": "中新社开罗9月2日电 (记者 郭金超 谢雁冰)当地时间9月2日晚，中国国家主席习近平结束对埃及的国事访问。",
         "image": "",
-        "publishedAt": "2026-09-02T12:29:15.000Z",
+        "publishedAt": "2026-09-02T19:12:40.000Z",
         "source": "中新网"
       },
       {
-        "title": "习近平同埃及总统塞西会谈",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-02/10689004.shtml",
-        "summary": "中新社开罗9月2日电 (记者 郭金超 谢雁冰)当地时间9月2日上午，埃及总统塞西同中国国家主席习近平在开罗太阳宫举行会谈。",
+        "title": "习近平和彭丽媛同埃及总统塞西夫妇共同参观大埃及博物馆",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-03/10689163.shtml",
+        "summary": "中新社开罗9月2日电 (记者 郭金超 谢雁冰)当地时间9月2日下午，中国国家主席习近平和夫人彭丽媛在埃及总统塞西和夫人依缇萨尔陪同下参观大埃及博物馆。",
         "image": "",
-        "publishedAt": "2026-09-02T12:26:36.000Z",
+        "publishedAt": "2026-09-02T19:09:26.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "新华图讯｜习近平圆满结束对埃及的国事访问",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-03/10689161.shtml",
+        "summary": "当地时间9月2日晚，国家主席习近平结束对埃及的国事访问。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/09/03/4419394d59134f0ea959f120e3725442.jpeg",
+        "publishedAt": "2026-09-02T18:33:38.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "新华图讯｜习近平和彭丽媛同埃及总统塞西夫妇共同参观大埃及博物馆",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-03/10689162.shtml",
+        "summary": "当地时间9月2日下午，国家主席习近平和夫人彭丽媛在埃及总统塞西和夫人依缇萨尔陪同下参观大埃及博物馆。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/09/03/26e144dcb2f04ee4a16651e8b85bf3dc.jpg",
+        "publishedAt": "2026-09-02T18:30:56.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "塑料箱为舟、课桌搭桥 福建福安全力开展防汛救援工作",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-02/10688996.shtml",
-        "summary": "中新网宁德9月2日电 (吴允杰 林铃鸣 林平)2日，受台风“沙德尔”外围环流影响，福建省宁德福安市普降大暴雨，局部特大暴雨，叠加上游及浙江境内流域来水汇流，交溪(赛江)干流迎来历史级洪峰过境，造成福安市城区严重内涝，部分路段积水深达数米，国道、省道等多处路段被洪水淹没，城乡交通一度中断，给民众出行、...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260902/0d90f987-99b3-45c5-8bfb-ec120b6d70d3_zsite.jpg",
-        "publishedAt": "2026-09-02T12:32:05.000Z",
+        "title": "千年茶乡再添新茶缘 两岸茶人云南昌宁共建“同心茶园”",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-02/10689139.shtml",
+        "summary": "中新网保山9月2日电 (陆希成)“茶是两岸共同的文化记忆，也是连接彼此情感的媒介。接过树苗的瞬间，我明白种下的不仅是生机，更是未来加深合作的契机。”台湾原生山茶文化学会学术顾问陈国任2日如是说。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260902/e17e0817-fba5-4f40-8f87-3ba71433da4b_zsite.jpg",
+        "publishedAt": "2026-09-02T14:39:07.000Z",
         "source": "中新网"
       },
       {
-        "title": "2026中国人博会在沈阳举行 聚力产教融合共筑人才高地",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-02/10688987.shtml",
-        "summary": "中新网沈阳9月2日电 (记者 李晛)9月2日，2026中国制博会人才发展交流活动暨人力资源服务业与重点产业融合发展大会、产教融合与政校企协同发展交流大会(以下简称“中国人博会”)主会场会议在沈阳举行。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260902/296871e8-d253-4597-b159-f3b4df4147f7_zsite.jpg",
-        "publishedAt": "2026-09-02T12:31:11.000Z",
+        "title": "全城迎世赛 上海地铁以流动窗口传递技能之美",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-02/10689138.shtml",
+        "summary": "中新网上海9月2日电 (记者 许婧)第48届世界技能大赛倒计时20天暨点亮技能之光主题活动2日在上海地铁人民广场站举行。活动现场正式启用世赛倒计时装置，同步首发地铁2号线世赛主题列车，依托城市公共交通窗口，全方位营造世赛浓厚氛围。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260902/3754bd32-c5b7-433b-9650-eb52bc5a0798_zsite.jpg",
+        "publishedAt": "2026-09-02T14:37:51.000Z",
         "source": "中新网"
       },
       {
-        "title": "贵州：计划到2030年让城市成为民众宜居宜业的活力空间",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-02/10688977.shtml",
-        "summary": "中新网贵阳9月2日电 (记者 张伟)贵州省政府新闻办2日举行“走好高质量发展新路，展现贵州新风采”系列主题新闻发布会，介绍“十五五”时期城市更新有关情况。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260902/5514982a-9121-4424-9685-95d95062c325_zsite.jpg",
-        "publishedAt": "2026-09-02T12:27:11.000Z",
+        "title": "辽宁辽阳“十五五”发力七大领域 推动全面振兴取得新突破",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-02/10689136.shtml",
+        "summary": "中新网沈阳9月2日电 (王涵) 辽宁省政府新闻办9月2日在沈阳召开“开局起步‘十五五’奋力推动新时代辽宁全面振兴取得新突破”系列主题新闻发布会辽阳专场，辽阳市政府在会上介绍该市“十五五”时期经济社会发展相关情况，明确经济发展、创新驱动等5大类20项主要指标，部署11个领域重点任务，将聚焦七个方面重点...",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260902/e5535bde-0c5a-41f3-b2b3-2b9149f808c7_zsite.jpeg",
+        "publishedAt": "2026-09-02T14:37:05.000Z",
         "source": "中新网"
       },
       {
-        "title": "江苏盐城一饭店“挂驴头卖马肉” 涉案金额高达70余万元",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-02/10689008.shtml",
-        "summary": "中新网盐城9月2日电 (记者 谷华)花高价在饭店点的“干切驴肉”和“石锅驴肉”竟然是马肉做的。9月1日，盐城市市场监管局公布2026盐城市“守护消费”铁拳行动典型案例(第一批)，其中查处了一起“挂驴头卖马肉”案件，涉案金额高达70余万元。",
-        "image": "https://www.chinanews.com.cn/ad2008/U947P4T175D633F27513DT20260901095008.jpg",
-        "publishedAt": "2026-09-02T12:25:36.000Z",
+        "title": "守护绿水青山 海南构建生态环境信用监管体系",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-02/10689129.shtml",
+        "summary": "中新网海口9月2日电 (张茜翼 王俞力)信用正在成为海南生态环境治理的“硬标尺”。2日海南省新闻办公室举行的发布会上，海南省生态环境厅副厅长、新闻发言人李小山透露，“十五五”期间，海南将以优化提升环境信用评价体系为核心，构建更加科学、精准、高效的生态环境信用监管体系，推动信用监管与生态环境治理深度融...",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260902/6baeccfd-344c-4906-a6d5-5036ac9c5e84_zsite.jpg",
+        "publishedAt": "2026-09-02T14:24:20.000Z",
         "source": "中新网"
       },
       {
-        "title": "（长征胜利90周年）重走长征路的青年学子：红色研学为何持续升温？",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-02/10689017.shtml",
-        "summary": "中新网昆明9月2日电 (记者 韩帅南)在刚刚结束的2026年暑假，云南多所高校的红色研学活动热度高涨。从金沙江畔的皎平渡到乌蒙山深处的扎西会议旧址，一群青年学子用脚步丈量长征路。他们为何热衷追寻红色足迹？记者采访多支实践团队，探寻热潮背后的动因。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260902/b81d7615-40b8-4b9b-a63c-ea412f17fbc6_zsite.jpg",
-        "publishedAt": "2026-09-02T12:24:42.000Z",
+        "title": "五大议题45场报告 第八届中国边疆考古学术研讨会在呼伦贝尔举行",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-02/10689125.shtml",
+        "summary": "中新网内蒙古呼伦贝尔9月2日电 (记者 孙自法)第八届中国边疆考古学术研讨会9月2日在内蒙古自治区呼伦贝尔市举行。来自全国的考古学、历史学、民族学等专家学者代表相聚一堂，聚焦“考古学视野下的北部边疆”主题分享最新研究成果，展开深度交流与研讨。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260902/f86b3583-69a8-4e0f-9e3c-9e5859505792_zsite.jpeg",
+        "publishedAt": "2026-09-02T14:22:06.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "“十五五”时期北京海淀剑指全球人工智能创新策源地和产业高地",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-02/10689010.shtml",
-        "summary": "中新网北京9月2日电 (记者 陈杭)“十五五”时期，北京市海淀区将形成一批具有全球技术主导权和核心竞争力的世界级产业集群，成为全球人工智能创新策源地和产业高地，预计到2030年地区生产总值在2020年基础上翻一番，年均增速5.5%，新增3到5个千亿级产业集群。",
+        "title": "“大”和“新”的中国市场为外企提供机会清单",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-02/10689154.shtml",
+        "summary": "“放眼世界，中国可能是唯一兼具‘大’和‘新’两个特点的富有潜力市场。”",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/09/02/75f3779cf9d04f8f81c2c8fda0ff967d.jpg",
+        "publishedAt": "2026-09-02T15:10:55.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "从1.4亿人“全球购”看中国机遇2.0",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-02/10689153.shtml",
+        "summary": "",
         "image": "https://www.chinanews.com.cn/ad2008/U947P4T175D633F27513DT20260901095008.jpg",
-        "publishedAt": "2026-09-02T12:13:30.000Z",
+        "publishedAt": "2026-09-02T14:52:51.000Z",
         "source": "中新网"
       },
       {
-        "title": "（活力中国调研行）黑龙江青冈：科技赋能 百亿级农牧食品产业集群加速成型",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-02/10688983.shtml",
-        "summary": "中新网青冈9月2日电(姜禹帆 李梦 刘璐)初秋的松嫩平原黑土广袤、物产丰饶。作为黑龙江省农牧产业重点县域，绥化市青冈县立足黑土资源禀赋，持续深耕农牧食品全产业链，以科技赋能生产、以标准严控品质、以产业集群激活县域动能。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260902/86e4985d-806c-41fb-afbe-dac6c5b862c5_zsite.jpg",
-        "publishedAt": "2026-09-02T12:11:54.000Z",
+        "title": "天津出台2026年营商环境“施工图” 部署五大行动",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-02/10689147.shtml",
+        "summary": "中新网天津9月2日电 (记者 周亚强)天津市政府新闻办2日举行政策吹风会，解读《2026年天津市推进营商环境提质升级行动计划》。该计划提出五项行动、23项任务，为全年营商环境优化提供具体抓手和实施路径。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260902/e45d0694-5a25-4d42-864f-7457bc8ea95d_zsite.jpg",
+        "publishedAt": "2026-09-02T14:45:19.000Z",
         "source": "中新网"
       },
       {
-        "title": "海南产经新观察：环新英湾自贸港新城推进“港产城科”融合发展",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-02/10689006.shtml",
-        "summary": "中新网海口9月2日电 (记者 符宇群)环新英湾自贸港新城是海南儋洋一体化核心区和海南自贸港“港产城科”融合发展先行区、示范区。“十五五”时期，儋州市如何统筹推进这个自贸港新城融合发展？",
+        "title": "天津出台方案推进交旅融合 到2028年培育超40个特色产品",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-02/10689146.shtml",
+        "summary": "中新网天津9月2日电 (记者 周亚强)记者2日从天津市交通运输委员会获悉，该委日前会同天津市文化和旅游局印发《天津市交通运输与旅游融合高质量发展实施方案(2026—2028年)》(下称《方案》)，提出到2028年培育形成40个以上交旅融合特色产品，年直接服务人次突破470万，年均增长10%以上。",
         "image": "https://www.chinanews.com.cn/ad2008/U947P4T175D633F27513DT20260901095008.jpg",
-        "publishedAt": "2026-09-02T12:11:32.000Z",
+        "publishedAt": "2026-09-02T14:44:59.000Z",
         "source": "中新网"
       },
       {
-        "title": "（投资中国）强生医疗科技苏州产业园成立20周年 持续扩大本土化版图",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-02/10688994.shtml",
-        "summary": "中新社苏州9月2日电 (记者 钟升)强生医疗科技9月2日在江苏苏州庆祝其苏州产业园成立20周年，同时宣布公司在华首条心电生理产线落成及外科工厂完成新一轮产能扩容升级。",
+        "title": "聚焦全球皮革行业风向 2026中国国际皮革展在上海举行",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-02/10689141.shtml",
+        "summary": "中新网上海9月2日电 为期三天的2026中国国际皮革展(ACLE)1日在上海新国际博览中心拉开帷幕。该展会汇集皮革、鞋材等展商，为行业打造了一个贯穿全产业链的高品质展会，被喻为“世界皮革行业发展的晴雨表”。",
         "image": "https://www.chinanews.com.cn/ad2008/U947P4T175D633F27513DT20260901095008.jpg",
-        "publishedAt": "2026-09-02T12:09:58.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "聚焦装备制造等优势产业 中央企业采购对接会助辽企拓市场",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-02/10688978.shtml",
-        "summary": "中新网沈阳9月2日电 (记者 李晛)第三届沈阳市制造业经贸活动周的重要配套活动中央企业采购对接会9月1日在沈阳举行。中国国际贸易促进委员会辽宁省分会党组书记王冰，中国机电产品进出口商会秘书长郭奎龙出席对接会并致辞。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260902/c3a6fb4b-dd82-478e-8ba0-e80842a9a439_zsite.jpg",
-        "publishedAt": "2026-09-02T11:55:36.000Z",
+        "publishedAt": "2026-09-02T14:44:19.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "Nepal intensifies relief and recovery efforts after deadly floods, UN says",
-        "link": "https://www.bbc.co.uk/news/articles/c8xk45k9r1go?at_medium=RSS&at_campaign=rss",
-        "summary": "More than 1,000 people have died and thousands are missing, as rescue efforts continue and aid is airlifted to villages.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bf1d/live/babee4c0-a6b5-11f1-bf9b-4185c128a665.jpg",
-        "publishedAt": "2026-09-02T12:33:15.000Z",
+        "title": "Iranian attack on Saudi tanker killed two Filipino sailors, Saudi Arabia says",
+        "link": "https://www.bbc.co.uk/news/articles/cx2zxgg4mx9o?at_medium=RSS&at_campaign=rss",
+        "summary": "The kingdom condemns the targeting of Sidr, which was reportedly hit by unknown projectiles in the Strait of Hormuz on Monday.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7003/live/d674cf10-a6ef-11f1-9e4c-79c1c0e340c6.jpg",
+        "publishedAt": "2026-09-02T17:33:45.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "EU and Nato vow to step up pressure on Russia after 'new escalation' in Germany",
+        "link": "https://www.bbc.co.uk/news/articles/ce9e810pg7ko?at_medium=RSS&at_campaign=rss",
+        "summary": "Russia is accused of growing increasingly reckless after Berlin blamed Russia for a failed drone attack on Leipzig airport.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e37a/live/fe3f01b0-a6cb-11f1-b0c9-07afcdd8053c.jpg",
+        "publishedAt": "2026-09-02T16:49:00.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Iran says US strike killed four at wedding in 'war crime' as US denies targeting civilians",
+        "link": "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss",
+        "summary": "Iranian media reports two children were among those killed when shrapnel hit a home. Iran then launched missiles and drones at US targets in the Middl...",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f37/live/8eb97870-a6e4-11f1-9e4c-79c1c0e340c6.jpg",
+        "publishedAt": "2026-09-02T15:33:19.000Z",
         "source": "BBC"
       },
       {
@@ -318,28 +334,36 @@
         "title": "US sailors arrive in Thailand's Pattaya after record 250 days at sea",
         "link": "https://www.bbc.co.uk/news/articles/cg7k09z4lj9o?at_medium=RSS&at_campaign=rss",
         "summary": "The USS Abraham Lincoln is docking close to Pattaya, known for its neon-lit nightlife, and for sex tourism.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/88f1/live/abdafbf0-a6b6-11f1-b109-879e35c24276.jpg",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/54f9/live/eb5af6f0-a6d8-11f1-a291-b542ee92de7c.jpg",
         "publishedAt": "2026-09-02T10:04:28.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Zelensky says airlines should avoid Russian airspace as Ukraine escalates drone operations",
-        "link": "https://www.bbc.co.uk/news/articles/c9v9yydy2wvo?at_medium=RSS&at_campaign=rss",
-        "summary": "Chinese and Gulf state airlines are among those still using Russian airspace. Meanwhile, Russia says it will intensify its own attacks on Ukraine.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a3a3/live/cb052080-a663-11f1-8e27-73ef28718a3e.jpg",
-        "publishedAt": "2026-09-02T10:00:08.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Why US troops have a history in this raucous Thai city",
-        "link": "https://www.bbc.co.uk/news/videos/c5yw03jr892o?at_medium=RSS&at_campaign=rss",
-        "summary": "The BBC's Jonathan Head looks at the historical echoes of US troops arriving in Pattaya, a beach resort famous for its racy bars.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/95b2/live/cdf05af0-a6a2-11f1-aed2-8d6da8d75094.jpg",
-        "publishedAt": "2026-09-02T07:18:39.000Z",
         "source": "BBC"
       }
     ],
     "worldBusiness": [
+      {
+        "title": "Uber to cut over 3,000 jobs in major global restructuring",
+        "link": "https://www.bbc.co.uk/news/articles/cp3ky2w4y9no?at_medium=RSS&at_campaign=rss",
+        "summary": "The company says cutting roles would make its operations \"simpler and faster\".",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4149/live/2053ede0-a6ec-11f1-9e4c-79c1c0e340c6.jpg",
+        "publishedAt": "2026-09-02T16:51:49.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Lords call for AI 'kill switch' powers in UK",
+        "link": "https://www.bbc.co.uk/news/articles/cn9wv80j9w9o?at_medium=RSS&at_campaign=rss",
+        "summary": "Its backers say it would provide a \"vital safety net\" against runaway AI systems such as those from OpenAI and Anthropic.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b07b/live/7b001b20-a6d7-11f1-acae-21b536d72e0e.jpg",
+        "publishedAt": "2026-09-02T14:41:52.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Faisal Islam: Why bond market wildfire is keeping world leaders up at night",
+        "link": "https://www.bbc.co.uk/news/articles/c0rez9zegj5o?at_medium=RSS&at_campaign=rss",
+        "summary": "Huge AI spending plans and the ongoing war in Iran are driving up borrowing costs around the world.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/47b0/live/d36b9110-a6cb-11f1-a291-b542ee92de7c.jpg",
+        "publishedAt": "2026-09-02T13:20:11.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Why are UK borrowing costs rising and what does it mean for me?",
         "link": "https://www.bbc.co.uk/news/articles/cwyxydr7gv9o?at_medium=RSS&at_campaign=rss",
@@ -349,39 +373,31 @@
         "source": "BBC"
       },
       {
-        "title": "Fake 10 Downing Street listing exposes 'unfit' Booking.com, says consumer group",
-        "link": "https://www.bbc.co.uk/news/articles/cly4e0wn452o?at_medium=RSS&at_campaign=rss",
-        "summary": "Booking.com said the \"limited test\" was \"not a true reflection of the experience of millions of listings or reviews\".",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6f10/live/ff12f590-a5f1-11f1-8348-fb0cb1cd9761.jpg",
-        "publishedAt": "2026-09-02T01:27:34.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "UK long-term borrowing costs highest since 1998 ahead of October Budget",
-        "link": "https://www.bbc.co.uk/news/articles/c8d39vq779no?at_medium=RSS&at_campaign=rss",
-        "summary": "Higher borrowing costs have piled fresh pressure on Andy Burnham ahead of his first Budget.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d389/live/9e6500a0-a62b-11f1-aed2-8d6da8d75094.jpg",
-        "publishedAt": "2026-09-02T01:23:00.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Range Rover launches first fully electric model",
-        "link": "https://www.bbc.co.uk/news/articles/clyk5016mpyo?at_medium=RSS&at_campaign=rss",
-        "summary": "The vehicle is being built at JLR's manufacturing plant in Solihull, in the West Midlands.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9615/live/00a52b50-a613-11f1-9a0e-e95c171695e2.jpg",
-        "publishedAt": "2026-09-01T23:43:47.000Z",
-        "source": "BBC"
-      },
-      {
         "title": "Kids eat free and loyalty points - six ways to eat out but not break the bank",
         "link": "https://www.bbc.co.uk/news/articles/c2dy8kz867go?at_medium=RSS&at_campaign=rss",
         "summary": "The cost of dining out is getting increasingly hard to swallow - but clever planning can get you cheaper deals.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f0f5/live/a9551230-a6a7-11f1-b048-153395f36aa1.jpg",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8874/live/950889e0-a6cc-11f1-aed2-8d6da8d75094.jpg",
         "publishedAt": "2026-09-01T23:26:38.000Z",
         "source": "BBC"
       }
     ],
     "worldTech": [
+      {
+        "title": "Uber to cut over 3,000 jobs in major global restructuring",
+        "link": "https://www.bbc.co.uk/news/articles/cp3ky2w4y9no?at_medium=RSS&at_campaign=rss",
+        "summary": "The company says cutting roles would make its operations \"simpler and faster\".",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4149/live/2053ede0-a6ec-11f1-9e4c-79c1c0e340c6.jpg",
+        "publishedAt": "2026-09-02T16:51:49.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Lords call for AI 'kill switch' powers in UK",
+        "link": "https://www.bbc.co.uk/news/articles/cn9wv80j9w9o?at_medium=RSS&at_campaign=rss",
+        "summary": "Its backers say it would provide a \"vital safety net\" against runaway AI systems such as those from OpenAI and Anthropic.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b07b/live/7b001b20-a6d7-11f1-acae-21b536d72e0e.jpg",
+        "publishedAt": "2026-09-02T14:41:52.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Criminals publish data of 8.7m people after airports hack",
         "link": "https://www.bbc.co.uk/news/articles/c74k39g3ee5o?at_medium=RSS&at_campaign=rss",
@@ -405,73 +421,73 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a73/live/30054c70-971f-11f1-a7ab-8b30adf0800a.jpg",
         "publishedAt": "2026-09-01T23:27:35.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "AI could cause global economic downturn, Andrew Bailey warns G20",
-        "link": "https://www.bbc.co.uk/news/articles/c99dym3prl1o?at_medium=RSS&at_campaign=rss",
-        "summary": "The governor of the Bank of England warned of AI's “volatility” caused by energy shocks from the US-Iran war.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0b34/live/537541c0-a556-11f1-aed2-8d6da8d75094.jpg",
-        "publishedAt": "2026-09-01T10:18:47.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Japan is using AI, drones and wolf robots to keep bears at bay",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaWZrSTQzRDBrVDZOX29laU9OTV9nODFlNy1uYklyMUZQYno3U05TUEpvR09pT2FlMHNCbkF2eEFhOFR5clNhT1NDXzRNcVQ2NFpoZnhUVjVCdU04ZFN5dkFJYTZsZlROZnV4N3g3R19LQTlDNEtOUVFHY1pxM3hFOVpiZC1HS0taZDY1ZUE2MVFjS2JZb0lzOUt5UUNiQQ?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-09-01T01:27:00.000Z",
-        "source": "CNN"
       }
     ],
     "domestic": [
       {
-        "title": "四川省绵阳市人大常委会原党组成员、副主任周琳接受审查调查",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-02/10689023.shtml",
-        "summary": "中新网成都9月2日电 (记者 张浪)四川省纪委监委2日消息：绵阳市人大常委会原党组成员、副主任周琳涉嫌严重违纪违法，主动投案，目前正接受四川省纪委监委纪律审查和监察调查。",
-        "image": "https://www.chinanews.com.cn/ad2008/U947P4T175D633F27513DT20260901095008.jpg",
-        "publishedAt": "2026-09-02T12:33:53.000Z",
+        "title": "新闻背景：大埃及博物馆",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-03/10689165.shtml",
+        "summary": "中新社开罗9月2日电 2025年11月1日正式开馆的大埃及博物馆是世界最大单一文明博物馆，占地约50万平方米，馆藏文物超过10万件，集纳了埃及从史前时代到罗马时期的大量珍贵文物，涵盖埃及数千年历史。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260903/1d4b7a76-6a5e-4a4d-a227-4fdb77b5d55c_zsite.JPG",
+        "publishedAt": "2026-09-02T19:19:47.000Z",
         "source": "中新网"
       },
       {
-        "title": "国家医保局：去年按病种付费人次已占医保出院总人次的91.8%",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-02/10689013.shtml",
-        "summary": "中新网北京9月2日电 (记者 李纯)国家医疗保障局9月2日在北京举行新闻发布会。国家医保局医药管理司司长黄心宇介绍说，2025年按病种付费的人次已占医保出院总人次的91.8%。",
-        "image": "https://www.chinanews.com.cn/ad2008/U947P4T175D633F27513DT20260901095008.jpg",
-        "publishedAt": "2026-09-02T12:32:55.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "西藏吉隆泥石流灾害累计接到家属来电876人次",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-02/10689025.shtml",
-        "summary": "新华社西藏吉隆9月2日电 记者从9月2日西藏自治区政府新闻办召开的新闻发布会上获悉，截至9月2日12时，当地累计接到家属来电876人次(其中国内448人次、国外428人次)，并及时登记、逐步回复相关咨询诉求。",
-        "image": "https://www.chinanews.com.cn/ad2008/U947P4T175D633F27513DT20260901095008.jpg",
-        "publishedAt": "2026-09-02T12:29:51.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "彭丽媛同埃及总统塞西夫人依缇萨尔茶叙并参观小型手工艺品展",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-02/10689022.shtml",
-        "summary": "中新社开罗9月2日电 当地时间9月2日上午，中国国家主席习近平夫人彭丽媛在开罗同埃及总统塞西夫人依缇萨尔茶叙并参观小型手工艺品展。",
+        "title": "习近平圆满结束对埃及的国事访问",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-03/10689164.shtml",
+        "summary": "中新社开罗9月2日电 (记者 郭金超 谢雁冰)当地时间9月2日晚，中国国家主席习近平结束对埃及的国事访问。",
         "image": "",
-        "publishedAt": "2026-09-02T12:29:15.000Z",
+        "publishedAt": "2026-09-02T19:12:40.000Z",
         "source": "中新网"
       },
       {
-        "title": "习近平同埃及总统塞西会谈",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-02/10689004.shtml",
-        "summary": "中新社开罗9月2日电 (记者 郭金超 谢雁冰)当地时间9月2日上午，埃及总统塞西同中国国家主席习近平在开罗太阳宫举行会谈。",
+        "title": "习近平和彭丽媛同埃及总统塞西夫妇共同参观大埃及博物馆",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-03/10689163.shtml",
+        "summary": "中新社开罗9月2日电 (记者 郭金超 谢雁冰)当地时间9月2日下午，中国国家主席习近平和夫人彭丽媛在埃及总统塞西和夫人依缇萨尔陪同下参观大埃及博物馆。",
         "image": "",
-        "publishedAt": "2026-09-02T12:26:36.000Z",
+        "publishedAt": "2026-09-02T19:09:26.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "新华图讯｜习近平圆满结束对埃及的国事访问",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-03/10689161.shtml",
+        "summary": "当地时间9月2日晚，国家主席习近平结束对埃及的国事访问。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/09/03/4419394d59134f0ea959f120e3725442.jpeg",
+        "publishedAt": "2026-09-02T18:33:38.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "新华图讯｜习近平和彭丽媛同埃及总统塞西夫妇共同参观大埃及博物馆",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-03/10689162.shtml",
+        "summary": "当地时间9月2日下午，国家主席习近平和夫人彭丽媛在埃及总统塞西和夫人依缇萨尔陪同下参观大埃及博物馆。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/09/03/26e144dcb2f04ee4a16651e8b85bf3dc.jpg",
+        "publishedAt": "2026-09-02T18:30:56.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "Nepal intensifies relief and recovery efforts after deadly floods, UN says",
-        "link": "https://www.bbc.co.uk/news/articles/c8xk45k9r1go?at_medium=RSS&at_campaign=rss",
-        "summary": "More than 1,000 people have died and thousands are missing, as rescue efforts continue and aid is airlifted to villages.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bf1d/live/babee4c0-a6b5-11f1-bf9b-4185c128a665.jpg",
-        "publishedAt": "2026-09-02T12:33:15.000Z",
+        "title": "Iranian attack on Saudi tanker killed two Filipino sailors, Saudi Arabia says",
+        "link": "https://www.bbc.co.uk/news/articles/cx2zxgg4mx9o?at_medium=RSS&at_campaign=rss",
+        "summary": "The kingdom condemns the targeting of Sidr, which was reportedly hit by unknown projectiles in the Strait of Hormuz on Monday.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7003/live/d674cf10-a6ef-11f1-9e4c-79c1c0e340c6.jpg",
+        "publishedAt": "2026-09-02T17:33:45.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "EU and Nato vow to step up pressure on Russia after 'new escalation' in Germany",
+        "link": "https://www.bbc.co.uk/news/articles/ce9e810pg7ko?at_medium=RSS&at_campaign=rss",
+        "summary": "Russia is accused of growing increasingly reckless after Berlin blamed Russia for a failed drone attack on Leipzig airport.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e37a/live/fe3f01b0-a6cb-11f1-b0c9-07afcdd8053c.jpg",
+        "publishedAt": "2026-09-02T16:49:00.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Iran says US strike killed four at wedding in 'war crime' as US denies targeting civilians",
+        "link": "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss",
+        "summary": "Iranian media reports two children were among those killed when shrapnel hit a home. Iran then launched missiles and drones at US targets in the Middl...",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f37/live/8eb97870-a6e4-11f1-9e4c-79c1c0e340c6.jpg",
+        "publishedAt": "2026-09-02T15:33:19.000Z",
         "source": "BBC"
       },
       {
@@ -486,24 +502,8 @@
         "title": "US sailors arrive in Thailand's Pattaya after record 250 days at sea",
         "link": "https://www.bbc.co.uk/news/articles/cg7k09z4lj9o?at_medium=RSS&at_campaign=rss",
         "summary": "The USS Abraham Lincoln is docking close to Pattaya, known for its neon-lit nightlife, and for sex tourism.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/88f1/live/abdafbf0-a6b6-11f1-b109-879e35c24276.jpg",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/54f9/live/eb5af6f0-a6d8-11f1-a291-b542ee92de7c.jpg",
         "publishedAt": "2026-09-02T10:04:28.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Zelensky says airlines should avoid Russian airspace as Ukraine escalates drone operations",
-        "link": "https://www.bbc.co.uk/news/articles/c9v9yydy2wvo?at_medium=RSS&at_campaign=rss",
-        "summary": "Chinese and Gulf state airlines are among those still using Russian airspace. Meanwhile, Russia says it will intensify its own attacks on Ukraine.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a3a3/live/cb052080-a663-11f1-8e27-73ef28718a3e.jpg",
-        "publishedAt": "2026-09-02T10:00:08.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Why US troops have a history in this raucous Thai city",
-        "link": "https://www.bbc.co.uk/news/videos/c5yw03jr892o?at_medium=RSS&at_campaign=rss",
-        "summary": "The BBC's Jonathan Head looks at the historical echoes of US troops arriving in Pattaya, a beach resort famous for its racy bars.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/95b2/live/cdf05af0-a6a2-11f1-aed2-8d6da8d75094.jpg",
-        "publishedAt": "2026-09-02T07:18:39.000Z",
         "source": "BBC"
       }
     ],
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-09-02",
+    "rotationLabel": "Curated Rotation · 2026-09-03",
     "sections": [
       {
         "id": "data-storage",
@@ -522,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-1",
-            "sectionId": "data-storage",
-            "title": "The Log-Structured Merge-Tree (LSM-Tree)",
-            "authors": [
-              "Patrick O'Neil",
-              "Edward Cheng",
-              "Dieter Gawlick",
-              "Elizabeth O'Neil"
-            ],
-            "venue": "Acta Informatica",
-            "year": 1996,
-            "quality": "经典基础",
-            "categories": [
-              "storage",
-              "indexing"
-            ],
-            "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
-            "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-2",
             "sectionId": "data-storage",
@@ -562,7 +541,7 @@
             ],
             "link": "https://research.google/pubs/pub27898/",
             "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-3",
@@ -584,6 +563,27 @@
             "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
             "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-4",
+            "sectionId": "data-storage",
+            "title": "Dremel: Interactive Analysis of Web-Scale Datasets",
+            "authors": [
+              "Sergey Melnik",
+              "Andrey Gubarev",
+              "Jing Jing Long",
+              "Geoffrey Romer"
+            ],
+            "venue": "VLDB",
+            "year": 2010,
+            "quality": "顶会",
+            "categories": [
+              "analytics",
+              "columnar"
+            ],
+            "link": "https://research.google/pubs/pub36632/",
+            "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -593,27 +593,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-2",
-            "sectionId": "computer-vision",
-            "title": "End-to-End Object Detection with Transformers",
-            "authors": [
-              "Nicolas Carion",
-              "Francisco Massa",
-              "Gabriel Synnaeve",
-              "Nicolas Usunier"
-            ],
-            "venue": "ECCV",
-            "year": 2020,
-            "quality": "顶会",
-            "categories": [
-              "detection",
-              "transformer"
-            ],
-            "link": "https://arxiv.org/abs/2005.12872",
-            "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-3",
             "sectionId": "computer-vision",
@@ -633,7 +612,7 @@
             ],
             "link": "https://arxiv.org/abs/2010.11929",
             "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-4",
@@ -655,6 +634,27 @@
             "link": "https://arxiv.org/abs/2103.00020",
             "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-5",
+            "sectionId": "computer-vision",
+            "title": "Segment Anything",
+            "authors": [
+              "Alexander Kirillov",
+              "Eric Mintun",
+              "Nikhila Ravi",
+              "Hanzi Mao"
+            ],
+            "venue": "ICCV",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "segmentation",
+              "foundation model"
+            ],
+            "link": "https://arxiv.org/abs/2304.02643",
+            "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -664,27 +664,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-3",
-            "sectionId": "llm-memory",
-            "title": "RETRO: Improving Language Models by Retrieving From Trillions of Tokens",
-            "authors": [
-              "Sebastian Borgeaud",
-              "Arthur Mensch",
-              "Jordan Hoffmann",
-              "Trevor Cai"
-            ],
-            "venue": "DeepMind / arXiv",
-            "year": 2022,
-            "quality": "高影响力",
-            "categories": [
-              "retrieval",
-              "language model"
-            ],
-            "link": "https://arxiv.org/abs/2112.04426",
-            "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-4",
             "sectionId": "llm-memory",
@@ -704,7 +683,7 @@
             ],
             "link": "https://arxiv.org/abs/2310.11511",
             "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-5",
@@ -726,6 +705,27 @@
             "link": "https://arxiv.org/abs/2306.07174",
             "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-6",
+            "sectionId": "llm-memory",
+            "title": "MemoRAG: Moving towards Next-Gen RAG Via Memory-Inspired Knowledge Discovery",
+            "authors": [
+              "Rulin Shao",
+              "Yue Liu",
+              "Shuo Wang",
+              "Yichi Zhang"
+            ],
+            "venue": "arXiv",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "RAG",
+              "memory bank"
+            ],
+            "link": "https://arxiv.org/abs/2409.05591",
+            "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -735,27 +735,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-4",
-            "sectionId": "agents",
-            "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
-            "authors": [
-              "Guanzhi Wang",
-              "Yuqi Xie",
-              "Zixiang Zhou",
-              "Yujin Tang"
-            ],
-            "venue": "arXiv",
-            "year": 2023,
-            "quality": "高影响力",
-            "categories": [
-              "embodied agent",
-              "planning"
-            ],
-            "link": "https://arxiv.org/abs/2305.16291",
-            "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-5",
             "sectionId": "agents",
@@ -775,7 +754,7 @@
             ],
             "link": "https://arxiv.org/abs/2308.08155",
             "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-6",
@@ -796,6 +775,28 @@
             ],
             "link": "https://arxiv.org/abs/2405.15793",
             "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-1",
+            "sectionId": "agents",
+            "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+            "authors": [
+              "Shunyu Yao",
+              "Jeffrey Zhao",
+              "Dian Yu",
+              "Nan Du"
+            ],
+            "venue": "ICLR",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "agent",
+              "reasoning",
+              "tool use"
+            ],
+            "link": "https://arxiv.org/abs/2210.03629",
+            "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
             "trackLabel": "轮换精选"
           }
         ]
