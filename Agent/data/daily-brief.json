@@ -1,29 +1,21 @@
 {
-  "generatedAt": "2026-09-03T12:47:05.186Z",
+  "generatedAt": "2026-09-03T19:15:58.757Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 27,
-      "weatherCode": 2,
-      "windSpeed": 6
+      "temperature": 21,
+      "weatherCode": 1,
+      "windSpeed": 2
     },
     "today": {
-      "date": "2026-09-03",
+      "date": "2026-09-04",
       "weatherCode": 3,
       "description": "阴天",
-      "max": 33,
-      "min": 18,
+      "max": 34,
+      "min": 19,
       "precipitationProbability": 0
     },
     "forecast": [
-      {
-        "date": "2026-09-03",
-        "weatherCode": 3,
-        "description": "阴天",
-        "max": 33,
-        "min": 18,
-        "precipitationProbability": 0
-      },
       {
         "date": "2026-09-04",
         "weatherCode": 3,
@@ -36,7 +28,7 @@
         "date": "2026-09-05",
         "weatherCode": 3,
         "description": "阴天",
-        "max": 34,
+        "max": 33,
         "min": 21,
         "precipitationProbability": 0
       },
@@ -52,35 +44,52 @@
         "date": "2026-09-07",
         "weatherCode": 80,
         "description": "阵雨",
-        "max": 32,
+        "max": 31,
         "min": 21,
-        "precipitationProbability": 57
+        "precipitationProbability": 49
+      },
+      {
+        "date": "2026-09-08",
+        "weatherCode": 53,
+        "description": "小雨",
+        "max": 20,
+        "min": 17,
+        "precipitationProbability": 59
       }
     ]
   },
   "classicQuote": {
-    "id": "chuci-seek",
-    "text": "路漫漫其修远兮，吾将上下而求索。",
-    "source": "《离骚》",
-    "author": "屈原",
-    "note": "长期主义最难，但也最值得。"
+    "id": "analects-learning",
+    "text": "学而不思则罔，思而不学则殆。",
+    "source": "《论语》",
+    "author": "孔子",
+    "note": "提醒自己既要输入，也要沉淀，不要只忙不想。"
   },
   "bookExcerpt": {
-    "id": "border-town-river",
-    "text": "月光如银子，无处不可照及，山上篁竹在月光下变成了一片黑色，身边草丛中虫声繁密如落雨。",
-    "book": "《边城》",
-    "author": "沈从文"
+    "id": "fortress-besieged-night",
+    "text": "夜仿佛纸浸了油，变成半透明体；它给太阳拥抱住了，分不出身来，也许是给太阳溶了，所以夕照晚霞隐褪后的夜色也带着酡红。",
+    "book": "《围城》",
+    "author": "钱钟书"
   },
   "featuredPlace": {
-    "id": "202609021600",
-    "title": "郊狼丘，朱红悬崖国家纪念区，亚利桑那州，美国",
+    "id": "202609031600",
+    "title": "韦斯特黑弗的韦斯特黑弗桑德灯塔，石勒苏益格-荷尔斯泰因州，德国",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "一部守护荒野的法案",
-    "image": "https://www.bing.com/th?id=OHR.AZWilderness_ZH-CN2664566131_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E6%9C%B1%E7%BA%A2%E6%82%AC%E5%B4%96%E5%9B%BD%E5%AE%B6%E7%BA%AA%E5%BF%B5%E5%8C%BA&form=hpcapt&mkt=zh-cn"
+    "summary": "地平线上的红与白",
+    "image": "https://www.bing.com/th?id=OHR.Westerheversand_ZH-CN0517707643_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E9%9F%A6%E6%96%AF%E7%89%B9%E9%BB%91%E5%BC%97%E6%A1%91%E5%BE%B7%E7%81%AF%E5%A1%94&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202609031600",
+      "title": "韦斯特黑弗的韦斯特黑弗桑德灯塔，石勒苏益格-荷尔斯泰因州，德国",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "地平线上的红与白",
+      "image": "https://www.bing.com/th?id=OHR.Westerheversand_ZH-CN0517707643_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E9%9F%A6%E6%96%AF%E7%89%B9%E9%BB%91%E5%BC%97%E6%A1%91%E5%BE%B7%E7%81%AF%E5%A1%94&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202609021600",
       "title": "郊狼丘，朱红悬崖国家纪念区，亚利桑那州，美国",
@@ -143,157 +152,148 @@
       "summary": "潮汐塑造的传奇",
       "image": "https://www.bing.com/th?id=OHR.MichelSunset_ZH-CN0822968543_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E5%9C%A3%E7%B1%B3%E6%AD%87%E5%B0%94%E5%B1%B1&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202608261600",
-      "title": "日出时的小红鹳群，马加迪湖，肯尼亚",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "湖水、野生动物与奇景",
-      "image": "https://www.bing.com/th?id=OHR.LakeMagadi_ZH-CN0601527009_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E6%B9%96%E6%B3%8A%E6%97%A5&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-09-03",
-    "dateLabel": "9月3日",
+    "dateKey": "2026-09-04",
+    "dateLabel": "9月4日",
     "items": [
       {
-        "year": "2021",
-        "text": "前黨主席鄭松泰上周被政府裁定第七屆換屆選舉議員資格的提名無效，即時喪失第六屆立法會議席，該亦於宣佈該黨在政治上再無前路而解散熱血公民的同日分別向所屬大埔、元朗區議會黃兆健及王頴思請辭。",
-        "link": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4"
+        "year": "2020",
+        "text": "塞爾維亞總統亞歷山大·武契奇與科索沃總理阿夫杜拉·霍蒂在美國白宮簽署一項「經濟正常化」協議。",
+        "link": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4"
       },
       {
-        "year": "2017",
-        "text": "朝鲜于咸镜北道进行核试验。",
-        "link": "https://zh.wikipedia.org/wiki/2017%E5%B9%B4"
+        "year": "2016",
+        "text": "香港舉行第六屆立法會選舉。當天的地區選舉投票率達58.28%，而功能界別選舉的投票率則達57.09%。",
+        "link": "https://zh.wikipedia.org/wiki/2016%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "尼泊尔外长希西尔感谢中国紧急援助支持 强调不会向中国等国家寻求“气候正义赔偿”",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-03/10689839.shtml",
-        "summary": "9月3日，中国驻尼泊尔大使张茂明会见尼泊尔外交部长希西尔。",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/09/03/fe369807a3b24c7f99adc83f6fb6fa01.png",
-        "publishedAt": "2026-09-03T12:40:18.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "习语｜“中华民族伟大复兴势不可挡！”",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-03/10689826.shtml",
-        "summary": "视频：习语｜“中华民族伟大复兴势不可挡！”来源：人民日报客户端",
-        "image": "https://poss-videocloud.cns.com.cn/oss/2026/09/03/chinanews/MEIZI_YUNSHI/onair/006816D114AD454A97B6E641D3799C0F.mp4",
-        "publishedAt": "2026-09-03T12:21:13.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "联播+｜路相通 心相连",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-03/10689823.shtml",
-        "summary": "视频：联播+｜路相通 心相连来源：央视网",
-        "image": "https://poss-videocloud.cns.com.cn/oss/2026/09/03/chinanews/MEIZI_YUNSHI/onair/DD60D5F4FFE340BBB4510C4819677353.mp4",
-        "publishedAt": "2026-09-03T12:19:43.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "中国地震局解读地震预警：如何实现“稳准快”？有哪些技术局限？",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-03/10689790.shtml",
-        "summary": "中新网北京9月3日电 (记者 孙自法)中国国家地震烈度速报与预警工程2024年7月全面建成后，作为全球规模最大的地震预警网络，在华北、东南沿海、南北地震带、新疆天山中段、西藏拉萨5个重点区域实现秒级地震预警能力，在全国范围内具备分钟级地震动参数与烈度速报能力。",
+        "title": "应急管理部调派央企力量全力支持吉隆泥石流灾害抢险救援",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-04/10689974.shtml",
+        "summary": "西藏日喀则市吉隆县泥石流灾害发生后，应急管理部迅速调派中央企业工程应急救援力量796人、522台(套)装备驰援西藏，在现场指挥部统一指挥下，协同开展排查搜救、道路抢通、风险监测等抢险救援工作。此外，中交集团、中国中铁还选派7名隧道专家赴尼泊尔灾区协助开展隧道救援工作。",
         "image": "https://www.chinanews.com.cn/ad2008/U947P4T175D633F27513DT20260901095008.jpg",
-        "publishedAt": "2026-09-03T12:18:31.000Z",
+        "publishedAt": "2026-09-03T16:03:33.000Z",
         "source": "中新网"
       },
       {
-        "title": "西藏吉隆口岸核心区域临时供电线路已抢通",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-03/10689819.shtml",
-        "summary": "记者今天从国家电网了解到，经过电力工人昼夜奋战，9月3日晚，西藏日喀则市吉隆口岸核心区域的临时供电线路已全部抢通，全力保障核心区域抢险救援用电需求。",
+        "title": "史前甘肃人群为何形成独特遗传演化和社会结构？古基因组研究揭示",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-03/10689968.shtml",
+        "summary": "中新网北京9月3日电 (记者 孙自法)甘肃地区位于中国黄土高原、青藏高原、蒙古高原三大地理单元交汇地带，在亚欧史前交流特别是农牧业交流进程中扮演了重要的枢纽角色。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260903/b83febe9-e08d-43ae-87b9-aa7d89931889_zsite.jpg",
+        "publishedAt": "2026-09-03T15:01:41.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "【讲习所·中国与世界】习近平以4点主张推动上合组织实现更高质量发展",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-03/10689967.shtml",
+        "summary": "【本期导读】",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/09/03/5703e4436a814a928770076fe931cb83.jpg",
+        "publishedAt": "2026-09-03T14:57:28.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "韩国光州双年展主办方顽固坚持错误做法 中方已提出严正交涉",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-03/10689961.shtml",
+        "summary": "中新社北京9月3日电 (记者 张素)中国外交部发言人郭嘉昆3日表示，韩国光州双年展主办方顽固坚持错误做法，纵容中国台湾地区使用完全不符合其身份的名称参展，公然违反一个中国原则，中方对此坚决反对，并已向韩方提出严正交涉。",
         "image": "https://www.chinanews.com.cn/ad2008/U947P4T175D633F27513DT20260901095008.jpg",
-        "publishedAt": "2026-09-03T12:17:31.000Z",
+        "publishedAt": "2026-09-03T14:48:42.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "粮食安全问题如何破解？多国水稻专家在滇共探新品种培育之法",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-03/10689907.shtml",
+        "summary": "中新网昆明9月3日电 (罗婕)9月1日至4日，2026年南亚东南亚陆稻协作网暨南亚东南亚水稻分子设计育种协作网研讨会在云南昆明举行。来自中国、孟加拉国、泰国、伊朗、埃塞俄比亚、尼泊尔、缅甸等多国水稻研究专家学者共聚于此，合力探索培育具备气候弹性的水稻新品种，携手筑牢区域粮食安全屏障。",
+        "image": "https://www.chinanews.com.cn/ad2008/U947P4T175D633F27513DT20260901095008.jpg",
+        "publishedAt": "2026-09-03T14:25:27.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "青春华章 | 皖北制造“强磁场”：青年工程师的“无线”青春",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-03/10689838.shtml",
-        "summary": "中新网安徽阜阳9月3日电 题：皖北制造“强磁场”：青年工程师的“无线”青春",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260903/01e8a374-f9a4-4cac-8674-d42ded3f8875_zsite.jpeg",
-        "publishedAt": "2026-09-03T12:41:00.000Z",
+        "title": "粤东持续强降雨 韩江发生2026年第1号洪水",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-03/10689972.shtml",
+        "summary": "中新社广州9月3日电 (记者 王坚)受台风“沙德尔”影响，9月2日以来，粤东等地出现一轮强降雨过程。广东省水利厅3日晚通报称，广东韩江高陂水利枢纽(广东梅州)当日18时入库流量涨至4850立方米每秒，依据主要江河洪水编号规定，此次洪水编号为“韩江2026年第1号洪水”。",
+        "image": "https://www.chinanews.com.cn/ad2008/U947P4T175D633F27513DT20260901095008.jpg",
+        "publishedAt": "2026-09-03T15:29:57.000Z",
         "source": "中新网"
       },
       {
-        "title": "山西：深耕数字乡村建设 用科技赋能乡村共富",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-03/10689828.shtml",
-        "summary": "中新网太原9月3日电 题：山西：深耕数字乡村建设 用科技赋能乡村共富",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260903/a972276a-3d5d-4552-9461-8281daeb1d05_zsite.jpg",
-        "publishedAt": "2026-09-03T12:26:47.000Z",
+        "title": "西藏吉隆泥石流灾害核心区见闻：科技助力搜寻，护航救援",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-03/10689970.shtml",
+        "summary": "中新社西藏吉隆9月3日电 题：西藏吉隆泥石流灾害核心区见闻：科技助力搜寻，护航救援",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260903/e4796f97-e6f4-47a6-9a2b-680e62f3544a_zsite.JPG",
+        "publishedAt": "2026-09-03T15:20:14.000Z",
         "source": "中新网"
       },
       {
-        "title": "“远海丝路”轮试航：全球首艘数字交付+甲醇双燃料超大型矿砂船",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-03/10689829.shtml",
-        "summary": "中新网扬州9月3日电 (陈菊琴 徐宝龙)9月3日，全球首艘搭载船舶数字化交付系统的32.5万吨甲醇双燃料超大型矿砂船(VLOC)“远海丝路”轮，在扬州海事部门全程精准保障下安全离泊码头，进入锚地，正式开启海上试航之旅。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260903/8f11d119-1cdd-46b0-b24c-d388eee9e0cc_zsite.jpg",
-        "publishedAt": "2026-09-03T12:26:17.000Z",
+        "title": "每一分钟仿佛都长得不止60秒(记者手记)",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-03/10689969.shtml",
+        "summary": "通往吉隆口岸的路，通了。",
+        "image": "https://www.chinanews.com.cn/ad2008/U947P4T175D633F27513DT20260901095008.jpg",
+        "publishedAt": "2026-09-03T15:08:47.000Z",
         "source": "中新网"
       },
       {
-        "title": "贵州：以法治暖阳 护佑少年向阳",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-03/10689815.shtml",
-        "summary": "中新网贵阳9月3日电 (记者 张伟)贵州省高级人民法院3日举行新闻发布会，通报贵州全省法院涉未成年司法救助工作。记者会上获悉，2023年至2026年8月31日，贵州全省法院共受理司法救助案件2278件，结案2180件，决定救助1978件，救助3255人，救助金额7991.2万元。其中，救助未成年人4...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260903/a4bbcc41-4c87-4977-ab49-956763910650_zsite.jpg",
-        "publishedAt": "2026-09-03T12:24:25.000Z",
+        "title": "南孔文化旅游季启幕 浙江衢州探索传统文化新表达",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-03/10689965.shtml",
+        "summary": "中新网衢州9月3日电 (骆泽明)“AI宣讲儒学文化，北京大学、复旦大学辩手同台论道，青年学子与学术大咖夜话南孔……”",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260903/ab5cb2cc-6368-425f-ba74-729e10b39a18_zsite.jpeg",
+        "publishedAt": "2026-09-03T14:50:20.000Z",
         "source": "中新网"
       },
       {
-        "title": "闽东北文旅推介会亮相银川 八闽风情入塞上",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-03/10689801.shtml",
-        "summary": "中新网银川9月3日电 (记者 李佩珊)9月3日，“清新闽东北 闽宁山海情”——2026年闽东北协同发展区文旅推介交流活动在宁夏银川举办。活动以闽宁协作30年为契机，通过沉浸式展演、惠民福利、产业对接等多元形式，让八闽山海风情走进塞上江南。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260903/66fb8767-7774-4186-8589-692a04708c7c_zsite.jpg",
-        "publishedAt": "2026-09-03T12:23:17.000Z",
+        "title": "京宁慈善协作再结硕果：“大爱正心·善行宁夏”公益活动在银川温情启幕",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-03/10689964.shtml",
+        "summary": "中新网银川9月3日电 (记者 李佩珊)9月3日，“大爱正心·善行宁夏”第十一届“中华慈善日”主题宣传暨救助困境先心病儿童公益活动在银川市“看见贺兰”沉浸式演艺小镇温情启幕。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260903/259675fd-b6c2-45d7-ac4d-86452e955518_zsite.jpeg",
+        "publishedAt": "2026-09-03T14:49:52.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "“为企办实事”落地有声 浙江经济高质量发展的增量密码",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-03/10689831.shtml",
-        "summary": "中新网丽水9月3日电(傅飞扬)地处浙西南，“九山半水半分田”的丽水属于浙江发展队列中的“小个子”。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260903/f4fddeb6-1f62-47f7-9523-3d276724f951_zsite.jpg",
-        "publishedAt": "2026-09-03T12:30:05.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "海南产经新观察：定安打造百亿级热带食品加工产业集群",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-03/10689830.shtml",
-        "summary": "中新网海口9月3日电 (记者 王晓斌)“建设百亿级热带食品加工产业集群”，成为海南传统农业大县定安县“十五五”发展的新坐标。",
+        "title": "AI短剧刷来刷去都是同一张脸 是技术难题还是创作取舍？",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-03/10689966.shtml",
+        "summary": "今年，AI短剧可谓十分火爆。今年1月至5月，AI短剧市场规模已突破220亿元，全年有望冲击400亿元大关；国内AI短剧用户在上半年突破6亿；一季度全行业上线的微短剧中，AI微短剧占比超过95%。产量井喷、用户暴增。但打开手机刷上几部，很多人却陷入了困惑：这部女主杏仁眼花瓣唇，换一部还是杏仁眼花瓣唇，...",
         "image": "https://www.chinanews.com.cn/ad2008/U947P4T175D633F27513DT20260901095008.jpg",
-        "publishedAt": "2026-09-03T12:26:05.000Z",
+        "publishedAt": "2026-09-03T14:54:06.000Z",
         "source": "中新网"
       },
       {
-        "title": "张掖甘味优品南下大湾区 亮相SIAL国际食品展觅商机",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-03/10689820.shtml",
-        "summary": "中新网广州9月3日电 (记者 方伟彬 王坚)2026 SIAL西雅国际食品和饮料展览会(下称“SIAL国际食品展”)3日在广州开幕。甘肃省张掖市以“有机张掖·甄选优品”为主题组团参展，并同步举办专场推介会，推动“甘味”品牌深耕粤港澳大湾区市场。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260903/93d72199-09d2-4393-a9a7-df72c806895a_zsite.jpg",
-        "publishedAt": "2026-09-03T12:25:41.000Z",
+        "title": "（活力中国调研行）“快餐式”杂粮走俏 中国黑土地农产品端上全球餐桌",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-03/10689957.shtml",
+        "summary": "中新社哈尔滨9月3日电 题：“快餐式”杂粮走俏 中国黑土地农产品端上全球餐桌",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260903/553287a9-08fe-4981-82ce-45e287314a4f_zsite.JPG",
+        "publishedAt": "2026-09-03T14:43:36.000Z",
         "source": "中新网"
       },
       {
-        "title": "重庆巴南力争2030年规上工业总产值超1400亿元",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-03/10689810.shtml",
-        "summary": "中新网重庆9月3日电 (记者 钟旖)重庆市巴南区委书记陶世祥3日在当地召开的新闻发布会上透露，面向“十五五”，巴南将从空间布局、产业体系、营商环境三个维度发力，力争到2030年规上工业总产值超1400亿元。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260903/cd80b1ac-85a0-42d8-93c4-34e4da9cdec4_zsite.jpg",
-        "publishedAt": "2026-09-03T12:21:25.000Z",
+        "title": "中基协举办2026年公募基金首席信息官培训",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-03/10689955.shtml",
+        "summary": "中新网北京9月3日电 (记者 陈康亮)据中国证券投资基金业协会(下称中基协)3日消息，为帮助行业机构把握科技监管导向、跟踪前沿技术动态，加快业务数字化、智能化转型与融合创新，促进行业科创成果高效转化运用，近日，中基协与四川省投资基金业协会在成都共同举办公募基金首席信息官培训班。",
+        "image": "https://www.chinanews.com.cn/ad2008/U947P4T175D633F27513DT20260901095008.jpg",
+        "publishedAt": "2026-09-03T14:40:47.000Z",
         "source": "中新网"
       },
       {
-        "title": "身份证十五分钟送达，“空中邮路”背后靠什么托底？",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-03/10689795.shtml",
-        "summary": "中新网合肥9月3日电(记者 左雨晴) 在合肥市政务服务中心楼前的一块空地上，一架六旋翼无人机正在起飞。它载着身份证、公文等，准备飞往15公里外的合肥火车站邮件处理中心。这段路程，地面开车需要一个多小时，而无人机只用了15分钟，节约了近10倍的时间。",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/09/03/9b25d3e7365e4553b380c460ae362a05.jpg",
-        "publishedAt": "2026-09-03T12:14:16.000Z",
+        "title": "银川出台工业转型升级实施意见 加快构建现代化产业体系",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-03/10689952.shtml",
+        "summary": "中新网银川9月3日电 (记者 李佩珊)9月3日，中共银川市委十五届十六次全体会议审议通过《关于加快推动工业转型升级的实施意见》，锚定全国重要的能源产业基地、西北先进制造业基地两大定位，以发展新质生产力为主线，部署七大工程、十二项行动计划，系统推进新型工业化建设，为黄河流域生态保护和高质量发展先行区示...",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260903/ccc25d50-cfe2-4c70-90f9-4ee24ebb8b60_zsite.jpeg",
+        "publishedAt": "2026-09-03T14:39:51.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "2026中国航空金融（东疆）国际论坛天津举行 国际参与度创新高",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-03/10689951.shtml",
+        "summary": "中新网天津9月3日电 (记者 周亚强)9月2日至3日，2026中国航空金融(东疆)国际论坛在天津举行。来自国内外200余家航空公司、租赁公司、航空制造企业、融资机构及专业咨询服务机构的代表参会，共商中国航空金融发展新机遇。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260903/09ce81be-82a9-4fc0-91d6-6d6531f57001_zsite.jpeg",
+        "publishedAt": "2026-09-03T14:28:39.000Z",
         "source": "中新网"
       }
     ],
@@ -303,8 +303,32 @@
         "link": "https://www.bbc.co.uk/news/articles/clyeq3ngwe4o?at_medium=RSS&at_campaign=rss",
         "summary": "Her foundation said she \"passed away peacefully\" at her home in New York City, \"surrounded by many who loved her\".",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/23c8/live/cf91da40-a784-11f1-b2d5-535b3b3d379f.jpg",
-        "publishedAt": "2026-09-03T11:45:22.000Z",
+        "publishedAt": "2026-09-03T18:04:34.000Z",
         "source": "BBC"
+      },
+      {
+        "title": "Palestinian teens killed during settler attack on West Bank village, officials say",
+        "link": "https://www.bbc.co.uk/news/articles/cj6482r6yl4o?at_medium=RSS&at_campaign=rss",
+        "summary": "Al-Mughayyir's council says they were trying to stop settlers stealing sheep, but the Israeli military says they threw stones at its troops.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4cc0/live/a22ffbc0-a772-11f1-993c-a325009c1935.jpg",
+        "publishedAt": "2026-09-03T15:05:57.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Dozens feared dead after migrant boat found drifting near Spain’s Canary Islands",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOd0ktalVVczVNNTc3ZS15dHpZS19IUk1fbTJyZmk1VV9hMHFMNjVaczh3YUFPN00wWG15bDVOT05aV0NWdGdwUXczOUJNWDFtRjRKT0dCMFMyakFqTGp2TjNpTC1vYmFmcHl2eHBHckVyQzVISUtJeWVzUm9kMzl6eEtkUWxORS0wWHBTVUg5WWlvbjNu?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-09-03T14:45:40.000Z",
+        "source": "CNN"
+      },
+      {
+        "title": "Russian general accused of masterminding the attack against Kyiv’s children’s hospital injured in assassination attempt",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxONmlhRkNOT1pLYlM2aFM4NDRieGtDenlNdlpJUllwQUxjYWYxOHZnUkxHV0tnYnlzMjBGd0JwWEJUTS1zYW5STklXQVNZVFBBMzdpVHlRdWg2OU1wZ2l3S2hCczZad0RnMmxIVDlwS1l0YnMtQ0N1bXdqZzFXeS1xXy1FV1RZUQ?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-09-03T14:30:14.000Z",
+        "source": "CNN"
       },
       {
         "title": "Toxic wildfire haze spreads across South East Asia as 'super' El Niño intensifies",
@@ -313,63 +337,23 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4952/live/e2983d40-a77b-11f1-b2d5-535b3b3d379f.jpg",
         "publishedAt": "2026-09-03T11:35:52.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "More than 80 migrants feared dead after boat rescued off Canary Islands",
-        "link": "https://www.bbc.co.uk/news/articles/c33kzv7kly4o?at_medium=RSS&at_campaign=rss",
-        "summary": "Rescuers found 44 survivors on board the vessel but bad weather meant they had to leave five bodies behind.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0d3f/live/2ff9a0d0-a77f-11f1-b2d5-535b3b3d379f.png",
-        "publishedAt": "2026-09-03T10:37:06.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "UN warns of 'supersized' El Niño as countries prepare for impact",
-        "link": "https://www.bbc.co.uk/news/articles/c17jqp0xzpzo?at_medium=RSS&at_campaign=rss",
-        "summary": "The WMO has warned that the natural weather phenomenon could bring disruption to global economies.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/067c/live/99ebc3c0-a70b-11f1-b109-879e35c24276.jpg",
-        "publishedAt": "2026-09-03T06:01:54.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Channel smuggling gangs resort to 'mega-dinghies' as crackdown limits small boat supply",
-        "link": "https://www.bbc.co.uk/news/articles/ce3rn93de9eo?at_medium=RSS&at_campaign=rss",
-        "summary": "Once-rival criminal groups are being forced to work together because of a shortage of small boats, a BBC investigation has found.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2bb1/live/cf1e6580-a764-11f1-a291-b542ee92de7c.jpg",
-        "publishedAt": "2026-09-03T05:00:04.000Z",
-        "source": "BBC"
       }
     ],
     "worldBusiness": [
       {
-        "title": "Almost half of households do not see benefits of economic growth, report says",
-        "link": "https://www.bbc.co.uk/news/articles/crerw510gdzo?at_medium=RSS&at_campaign=rss",
-        "summary": "Analysis has found a \"stark\" gap in the spending power of households in the north and south of England on average.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6d15/live/ed462620-a6cd-11f1-b0c9-07afcdd8053c.jpg",
-        "publishedAt": "2026-09-03T05:47:11.000Z",
+        "title": "Nvidia strikes $12.9bn deal to buy AI platform Hugging Face",
+        "link": "https://www.bbc.co.uk/news/articles/cr4vnr5g1k7o?at_medium=RSS&at_campaign=rss",
+        "summary": "The deal gives Nvidia control of a leading open-source AI platform and developer community.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d9a5/live/f7099cf0-a7a9-11f1-aed2-8d6da8d75094.jpg",
+        "publishedAt": "2026-09-03T16:32:05.000Z",
         "source": "BBC"
       },
       {
-        "title": "Hundreds of North Sea workers too heavy for new helicopter rules",
-        "link": "https://www.bbc.co.uk/news/articles/c4gk2zlv0e6o?at_medium=RSS&at_campaign=rss",
-        "summary": "Workers should weigh no more than 19.5st fully clothed so that they can be winched to safety in an emergency.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03b1/live/adfb8a10-bbea-11f0-8669-5560f5c90fbe.jpg",
-        "publishedAt": "2026-09-03T05:06:55.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Stingy bosses and spare change: How much should you give to the office whip-round?",
-        "link": "https://www.bbc.co.uk/news/articles/c2el0v48v0xo?at_medium=RSS&at_campaign=rss",
-        "summary": "Office whip-rounds are a staple of working life but they can raise a lot of awkward questions.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/309d/live/9ac025f0-a767-11f1-b109-879e35c24276.jpg",
-        "publishedAt": "2026-09-02T23:25:50.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "How Victoria Beckham turned her fashion firm around and made it profitable",
-        "link": "https://www.bbc.co.uk/articles/cj647xd596xo?at_medium=RSS&at_campaign=rss",
-        "summary": "The pop star formerly known as Posh Spice has taken nearly two decades to turn a profit.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/24df/live/da8cbe80-a782-11f1-b109-879e35c24276.jpg",
-        "publishedAt": "2026-09-02T23:24:06.000Z",
+        "title": "Households warned gas price spike could pile fresh pressure on energy bills",
+        "link": "https://www.bbc.co.uk/news/articles/cm274mwxy1vo?at_medium=RSS&at_campaign=rss",
+        "summary": "Experts warn low storage levels could push up gas prices further, leaving households with higher bills.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e55d/live/76f88ba0-a792-11f1-b64a-71b1e45ff5c7.jpg",
+        "publishedAt": "2026-09-03T13:26:54.000Z",
         "source": "BBC"
       },
       {
@@ -377,11 +361,51 @@
         "link": "https://www.bbc.co.uk/news/articles/c39mv4vm7exo?at_medium=RSS&at_campaign=rss",
         "summary": "More than 600 companies underpaid staff, with £4m returned to workers, according to the government.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1bcf/live/73721d70-a765-11f1-a291-b542ee92de7c.jpg",
-        "publishedAt": "2026-09-02T23:08:05.000Z",
+        "publishedAt": "2026-09-03T12:50:14.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Inflation is a drug and Washington is high on it",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBNY1Y3TUxCQzRQYVlHV3VfNVBQakYzMl9uNkJ2NWlrd2lfbnB2ZUptc2NENnoyWkJuaEtORDVlcXZrM29BTk5ya25yaEwzQzJuTVMwSXFndFo1U3BkeTBlWUFtYkZnRVhwU1liYnJaUzk4bnMx?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-09-03T10:00:29.000Z",
+        "source": "CNN"
+      },
+      {
+        "title": "Almost half of households do not see benefits of economic growth, report says",
+        "link": "https://www.bbc.co.uk/news/articles/crerw510gdzo?at_medium=RSS&at_campaign=rss",
+        "summary": "Analysis has found a \"stark\" gap in the spending power of households in the north and south of England on average.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6d15/live/ed462620-a6cd-11f1-b0c9-07afcdd8053c.jpg",
+        "publishedAt": "2026-09-03T05:47:11.000Z",
         "source": "BBC"
       }
     ],
     "worldTech": [
+      {
+        "title": "Data centres are booming in Australia - but at what cost?",
+        "link": "https://www.bbc.co.uk/news/articles/cgl3we7wdr3o?at_medium=RSS&at_campaign=rss",
+        "summary": "Advocates say data centres will bring jobs but others worry they will suck up resources while providing little advantage.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9176/live/0e5ba530-a5a5-11f1-b109-879e35c24276.jpg",
+        "publishedAt": "2026-09-03T18:32:03.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Nvidia strikes $12.9bn deal to buy AI platform Hugging Face",
+        "link": "https://www.bbc.co.uk/news/articles/cr4vnr5g1k7o?at_medium=RSS&at_campaign=rss",
+        "summary": "The deal gives Nvidia control of a leading open-source AI platform and developer community.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d9a5/live/f7099cf0-a7a9-11f1-aed2-8d6da8d75094.jpg",
+        "publishedAt": "2026-09-03T16:32:05.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Nvidia inks $13 billion deal to buy the AI startup that was hacked by OpenAI",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBGbmlldUxDS3BrSWVDUHFYb3dBOC1QeVZ6U081YlozYkNPcUpCcTJpblh0bEJkbFpfT2NjSkY1OWxyalZBQjdCZzdYODJBVkc0a1hHdkE4Nl9SMTlMWEVWTVY2YUNGVHU4LWZvYXpxcng3QTR2Tmkzd1ln?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-09-03T13:07:50.000Z",
+        "source": "CNN"
+      },
       {
         "title": "Watch: BBC travels in self-driving Uber around London",
         "link": "https://www.bbc.co.uk/news/videos/cwyzeyd7peeo?at_medium=RSS&at_campaign=rss",
@@ -397,71 +421,47 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d608/live/9029a2e0-a6e7-11f1-a291-b542ee92de7c.jpg",
         "publishedAt": "2026-09-02T23:36:49.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Uber to cut over 3,000 jobs in major global restructuring",
-        "link": "https://www.bbc.co.uk/news/articles/cp3ky2w4y9no?at_medium=RSS&at_campaign=rss",
-        "summary": "The company says cutting roles would make its operations \"simpler and faster\".",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4149/live/2053ede0-a6ec-11f1-9e4c-79c1c0e340c6.jpg",
-        "publishedAt": "2026-09-02T16:51:49.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Lords call for AI 'kill switch' powers in UK",
-        "link": "https://www.bbc.co.uk/news/articles/cn9wv80j9w9o?at_medium=RSS&at_campaign=rss",
-        "summary": "Its backers say it would provide a \"vital safety net\" against runaway AI systems such as those from OpenAI and Anthropic.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b07b/live/7b001b20-a6d7-11f1-acae-21b536d72e0e.jpg",
-        "publishedAt": "2026-09-02T14:41:52.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Criminals publish data of 8.7m people after airports hack",
-        "link": "https://www.bbc.co.uk/news/articles/c74k39g3ee5o?at_medium=RSS&at_campaign=rss",
-        "summary": "The company, which owns Manchester, Stansted and East Midlands airports, was hacked last month.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa2e/live/1c4ecf40-a6be-11f1-ae1e-219da1d6451a.jpg",
-        "publishedAt": "2026-09-02T11:00:59.000Z",
-        "source": "BBC"
       }
     ],
     "domestic": [
       {
-        "title": "尼泊尔外长希西尔感谢中国紧急援助支持 强调不会向中国等国家寻求“气候正义赔偿”",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-03/10689839.shtml",
-        "summary": "9月3日，中国驻尼泊尔大使张茂明会见尼泊尔外交部长希西尔。",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/09/03/fe369807a3b24c7f99adc83f6fb6fa01.png",
-        "publishedAt": "2026-09-03T12:40:18.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "习语｜“中华民族伟大复兴势不可挡！”",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-03/10689826.shtml",
-        "summary": "视频：习语｜“中华民族伟大复兴势不可挡！”来源：人民日报客户端",
-        "image": "https://poss-videocloud.cns.com.cn/oss/2026/09/03/chinanews/MEIZI_YUNSHI/onair/006816D114AD454A97B6E641D3799C0F.mp4",
-        "publishedAt": "2026-09-03T12:21:13.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "联播+｜路相通 心相连",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-03/10689823.shtml",
-        "summary": "视频：联播+｜路相通 心相连来源：央视网",
-        "image": "https://poss-videocloud.cns.com.cn/oss/2026/09/03/chinanews/MEIZI_YUNSHI/onair/DD60D5F4FFE340BBB4510C4819677353.mp4",
-        "publishedAt": "2026-09-03T12:19:43.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "中国地震局解读地震预警：如何实现“稳准快”？有哪些技术局限？",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-03/10689790.shtml",
-        "summary": "中新网北京9月3日电 (记者 孙自法)中国国家地震烈度速报与预警工程2024年7月全面建成后，作为全球规模最大的地震预警网络，在华北、东南沿海、南北地震带、新疆天山中段、西藏拉萨5个重点区域实现秒级地震预警能力，在全国范围内具备分钟级地震动参数与烈度速报能力。",
+        "title": "应急管理部调派央企力量全力支持吉隆泥石流灾害抢险救援",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-04/10689974.shtml",
+        "summary": "西藏日喀则市吉隆县泥石流灾害发生后，应急管理部迅速调派中央企业工程应急救援力量796人、522台(套)装备驰援西藏，在现场指挥部统一指挥下，协同开展排查搜救、道路抢通、风险监测等抢险救援工作。此外，中交集团、中国中铁还选派7名隧道专家赴尼泊尔灾区协助开展隧道救援工作。",
         "image": "https://www.chinanews.com.cn/ad2008/U947P4T175D633F27513DT20260901095008.jpg",
-        "publishedAt": "2026-09-03T12:18:31.000Z",
+        "publishedAt": "2026-09-03T16:03:33.000Z",
         "source": "中新网"
       },
       {
-        "title": "西藏吉隆口岸核心区域临时供电线路已抢通",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-03/10689819.shtml",
-        "summary": "记者今天从国家电网了解到，经过电力工人昼夜奋战，9月3日晚，西藏日喀则市吉隆口岸核心区域的临时供电线路已全部抢通，全力保障核心区域抢险救援用电需求。",
+        "title": "史前甘肃人群为何形成独特遗传演化和社会结构？古基因组研究揭示",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-03/10689968.shtml",
+        "summary": "中新网北京9月3日电 (记者 孙自法)甘肃地区位于中国黄土高原、青藏高原、蒙古高原三大地理单元交汇地带，在亚欧史前交流特别是农牧业交流进程中扮演了重要的枢纽角色。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260903/b83febe9-e08d-43ae-87b9-aa7d89931889_zsite.jpg",
+        "publishedAt": "2026-09-03T15:01:41.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "【讲习所·中国与世界】习近平以4点主张推动上合组织实现更高质量发展",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-03/10689967.shtml",
+        "summary": "【本期导读】",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/09/03/5703e4436a814a928770076fe931cb83.jpg",
+        "publishedAt": "2026-09-03T14:57:28.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "韩国光州双年展主办方顽固坚持错误做法 中方已提出严正交涉",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-03/10689961.shtml",
+        "summary": "中新社北京9月3日电 (记者 张素)中国外交部发言人郭嘉昆3日表示，韩国光州双年展主办方顽固坚持错误做法，纵容中国台湾地区使用完全不符合其身份的名称参展，公然违反一个中国原则，中方对此坚决反对，并已向韩方提出严正交涉。",
         "image": "https://www.chinanews.com.cn/ad2008/U947P4T175D633F27513DT20260901095008.jpg",
-        "publishedAt": "2026-09-03T12:17:31.000Z",
+        "publishedAt": "2026-09-03T14:48:42.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "粮食安全问题如何破解？多国水稻专家在滇共探新品种培育之法",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-03/10689907.shtml",
+        "summary": "中新网昆明9月3日电 (罗婕)9月1日至4日，2026年南亚东南亚陆稻协作网暨南亚东南亚水稻分子设计育种协作网研讨会在云南昆明举行。来自中国、孟加拉国、泰国、伊朗、埃塞俄比亚、尼泊尔、缅甸等多国水稻研究专家学者共聚于此，合力探索培育具备气候弹性的水稻新品种，携手筑牢区域粮食安全屏障。",
+        "image": "https://www.chinanews.com.cn/ad2008/U947P4T175D633F27513DT20260901095008.jpg",
+        "publishedAt": "2026-09-03T14:25:27.000Z",
         "source": "中新网"
       }
     ],
@@ -471,8 +471,32 @@
         "link": "https://www.bbc.co.uk/news/articles/clyeq3ngwe4o?at_medium=RSS&at_campaign=rss",
         "summary": "Her foundation said she \"passed away peacefully\" at her home in New York City, \"surrounded by many who loved her\".",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/23c8/live/cf91da40-a784-11f1-b2d5-535b3b3d379f.jpg",
-        "publishedAt": "2026-09-03T11:45:22.000Z",
+        "publishedAt": "2026-09-03T18:04:34.000Z",
         "source": "BBC"
+      },
+      {
+        "title": "Palestinian teens killed during settler attack on West Bank village, officials say",
+        "link": "https://www.bbc.co.uk/news/articles/cj6482r6yl4o?at_medium=RSS&at_campaign=rss",
+        "summary": "Al-Mughayyir's council says they were trying to stop settlers stealing sheep, but the Israeli military says they threw stones at its troops.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4cc0/live/a22ffbc0-a772-11f1-993c-a325009c1935.jpg",
+        "publishedAt": "2026-09-03T15:05:57.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Dozens feared dead after migrant boat found drifting near Spain’s Canary Islands",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOd0ktalVVczVNNTc3ZS15dHpZS19IUk1fbTJyZmk1VV9hMHFMNjVaczh3YUFPN00wWG15bDVOT05aV0NWdGdwUXczOUJNWDFtRjRKT0dCMFMyakFqTGp2TjNpTC1vYmFmcHl2eHBHckVyQzVISUtJeWVzUm9kMzl6eEtkUWxORS0wWHBTVUg5WWlvbjNu?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-09-03T14:45:40.000Z",
+        "source": "CNN"
+      },
+      {
+        "title": "Russian general accused of masterminding the attack against Kyiv’s children’s hospital injured in assassination attempt",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxONmlhRkNOT1pLYlM2aFM4NDRieGtDenlNdlpJUllwQUxjYWYxOHZnUkxHV0tnYnlzMjBGd0JwWEJUTS1zYW5STklXQVNZVFBBMzdpVHlRdWg2OU1wZ2l3S2hCczZad0RnMmxIVDlwS1l0YnMtQ0N1bXdqZzFXeS1xXy1FV1RZUQ?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-09-03T14:30:14.000Z",
+        "source": "CNN"
       },
       {
         "title": "Toxic wildfire haze spreads across South East Asia as 'super' El Niño intensifies",
@@ -480,30 +504,6 @@
         "summary": "Millions of people have been exposed to the smog, with more than 12,000 children suffering respiratory issues.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4952/live/e2983d40-a77b-11f1-b2d5-535b3b3d379f.jpg",
         "publishedAt": "2026-09-03T11:35:52.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "More than 80 migrants feared dead after boat rescued off Canary Islands",
-        "link": "https://www.bbc.co.uk/news/articles/c33kzv7kly4o?at_medium=RSS&at_campaign=rss",
-        "summary": "Rescuers found 44 survivors on board the vessel but bad weather meant they had to leave five bodies behind.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0d3f/live/2ff9a0d0-a77f-11f1-b2d5-535b3b3d379f.png",
-        "publishedAt": "2026-09-03T10:37:06.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "UN warns of 'supersized' El Niño as countries prepare for impact",
-        "link": "https://www.bbc.co.uk/news/articles/c17jqp0xzpzo?at_medium=RSS&at_campaign=rss",
-        "summary": "The WMO has warned that the natural weather phenomenon could bring disruption to global economies.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/067c/live/99ebc3c0-a70b-11f1-b109-879e35c24276.jpg",
-        "publishedAt": "2026-09-03T06:01:54.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Channel smuggling gangs resort to 'mega-dinghies' as crackdown limits small boat supply",
-        "link": "https://www.bbc.co.uk/news/articles/ce3rn93de9eo?at_medium=RSS&at_campaign=rss",
-        "summary": "Once-rival criminal groups are being forced to work together because of a shortage of small boats, a BBC investigation has found.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2bb1/live/cf1e6580-a764-11f1-a291-b542ee92de7c.jpg",
-        "publishedAt": "2026-09-03T05:00:04.000Z",
         "source": "BBC"
       }
     ],
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-09-03",
+    "rotationLabel": "Curated Rotation · 2026-09-04",
     "sections": [
       {
         "id": "data-storage",
@@ -522,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-2",
-            "sectionId": "data-storage",
-            "title": "Bigtable: A Distributed Storage System for Structured Data",
-            "authors": [
-              "Fay Chang",
-              "Jeffrey Dean",
-              "Sanjay Ghemawat",
-              "Wilson C. Hsieh"
-            ],
-            "venue": "OSDI",
-            "year": 2006,
-            "quality": "顶会",
-            "categories": [
-              "distributed systems",
-              "database"
-            ],
-            "link": "https://research.google/pubs/pub27898/",
-            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-3",
             "sectionId": "data-storage",
@@ -562,7 +541,7 @@
             ],
             "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
             "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-4",
@@ -584,6 +563,26 @@
             "link": "https://research.google/pubs/pub36632/",
             "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-5",
+            "sectionId": "data-storage",
+            "title": "The FAISS Library",
+            "authors": [
+              "Jeff Johnson",
+              "Matthijs Douze",
+              "Herve Jegou"
+            ],
+            "venue": "IEEE T-BD",
+            "year": 2021,
+            "quality": "高影响力",
+            "categories": [
+              "vector search",
+              "ANN"
+            ],
+            "link": "https://arxiv.org/abs/2401.08281",
+            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -593,27 +592,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-3",
-            "sectionId": "computer-vision",
-            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
-            "authors": [
-              "Alexey Dosovitskiy",
-              "Lucas Beyer",
-              "Alexander Kolesnikov",
-              "Dirk Weissenborn"
-            ],
-            "venue": "ICLR",
-            "year": 2021,
-            "quality": "顶会",
-            "categories": [
-              "vision transformer",
-              "classification"
-            ],
-            "link": "https://arxiv.org/abs/2010.11929",
-            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-4",
             "sectionId": "computer-vision",
@@ -633,7 +611,7 @@
             ],
             "link": "https://arxiv.org/abs/2103.00020",
             "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-5",
@@ -655,6 +633,27 @@
             "link": "https://arxiv.org/abs/2304.02643",
             "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-6",
+            "sectionId": "computer-vision",
+            "title": "DINOv2: Learning Robust Visual Features without Supervision",
+            "authors": [
+              "Maxime Oquab",
+              "Timothée Darcet",
+              "Théo Moutakanni",
+              "Huy V. Vo"
+            ],
+            "venue": "arXiv / Meta",
+            "year": 2023,
+            "quality": "高影响力",
+            "categories": [
+              "self-supervised",
+              "representation"
+            ],
+            "link": "https://arxiv.org/abs/2304.07193",
+            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -664,27 +663,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-4",
-            "sectionId": "llm-memory",
-            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
-            "authors": [
-              "Akari Asai",
-              "Zequn Zhang",
-              "Avirup Sil",
-              "Hannaneh Hajishirzi"
-            ],
-            "venue": "ICLR",
-            "year": 2024,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "self-reflection"
-            ],
-            "link": "https://arxiv.org/abs/2310.11511",
-            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-5",
             "sectionId": "llm-memory",
@@ -704,7 +682,7 @@
             ],
             "link": "https://arxiv.org/abs/2306.07174",
             "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-6",
@@ -726,6 +704,27 @@
             "link": "https://arxiv.org/abs/2409.05591",
             "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-1",
+            "sectionId": "llm-memory",
+            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+            "authors": [
+              "Patrick Lewis",
+              "Ethan Perez",
+              "Aleksandra Piktus",
+              "Fabio Petroni"
+            ],
+            "venue": "NeurIPS",
+            "year": 2020,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "retrieval"
+            ],
+            "link": "https://arxiv.org/abs/2005.11401",
+            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -735,27 +734,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-5",
-            "sectionId": "agents",
-            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
-            "authors": [
-              "Qingyun Wu",
-              "Gagan Bansal",
-              "Jiaqi Zhang",
-              "Yiran Wu"
-            ],
-            "venue": "COLM",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "multi-agent",
-              "framework"
-            ],
-            "link": "https://arxiv.org/abs/2308.08155",
-            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-6",
             "sectionId": "agents",
@@ -775,7 +753,7 @@
             ],
             "link": "https://arxiv.org/abs/2405.15793",
             "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-1",
@@ -797,6 +775,27 @@
             ],
             "link": "https://arxiv.org/abs/2210.03629",
             "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-2",
+            "sectionId": "agents",
+            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+            "authors": [
+              "Timo Schick",
+              "Jane Dwivedi-Yu",
+              "Roberta Dessì",
+              "Ari Holtzman"
+            ],
+            "venue": "NeurIPS",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "tool use",
+              "agent"
+            ],
+            "link": "https://arxiv.org/abs/2302.04761",
+            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
             "trackLabel": "轮换精选"
           }
         ]
