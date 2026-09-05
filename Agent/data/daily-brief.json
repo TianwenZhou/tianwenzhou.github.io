@@ -1,29 +1,21 @@
 {
-  "generatedAt": "2026-09-05T15:06:26.572Z",
+  "generatedAt": "2026-09-05T18:12:12.511Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 26,
+      "temperature": 23,
       "weatherCode": 0,
-      "windSpeed": 3
+      "windSpeed": 2
     },
     "today": {
-      "date": "2026-09-05",
+      "date": "2026-09-06",
       "weatherCode": 3,
       "description": "阴天",
-      "max": 34,
+      "max": 32,
       "min": 21,
       "precipitationProbability": 0
     },
     "forecast": [
-      {
-        "date": "2026-09-05",
-        "weatherCode": 3,
-        "description": "阴天",
-        "max": 34,
-        "min": 21,
-        "precipitationProbability": 0
-      },
       {
         "date": "2026-09-06",
         "weatherCode": 3,
@@ -55,32 +47,49 @@
         "max": 24,
         "min": 15,
         "precipitationProbability": 6
+      },
+      {
+        "date": "2026-09-10",
+        "weatherCode": 1,
+        "description": "基本晴",
+        "max": 28,
+        "min": 13,
+        "precipitationProbability": 0
       }
     ]
   },
   "classicQuote": {
-    "id": "taoteching-accumulate",
-    "text": "合抱之木，生于毫末；九层之台，起于累土。",
+    "id": "taoteching-self",
+    "text": "知人者智，自知者明；胜人者有力，自胜者强。",
     "source": "《道德经》",
     "author": "老子",
-    "note": "再大的目标，也要拆成今天能推进的一小步。"
+    "note": "比起和别人比较，更重要的是把自己的节奏稳住。"
   },
   "bookExcerpt": {
-    "id": "camel-xiangzi-sky",
-    "text": "天是越来越晴朗了，一轮火一样的太阳悬在空中，街上的一切都像在明晃晃地发着白光。",
-    "book": "《骆驼祥子》",
-    "author": "老舍"
+    "id": "norwegian-wood-rain",
+    "text": "雨还在下，细得像雾，落在草地和树叶上，世界像被一种安静的潮气轻轻包住。",
+    "book": "《挪威的森林》",
+    "author": "村上春树"
   },
   "featuredPlace": {
-    "id": "202609041600",
-    "title": "龙虾爪花上取食的绿顶辉蜂鸟，哥斯达黎加",
+    "id": "202609051600",
+    "title": "菲安斯湖，格兰屏国家公园，维多利亚州，澳大利亚",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "小小鸟儿，巨大影响",
-    "image": "https://www.bing.com/th?id=OHR.GreenCrowned_ZH-CN0697075036_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E5%85%A8%E5%9B%BD%E8%9C%82%E9%B8%9F%E6%97%A5&form=hpcapt&mkt=zh-cn"
+    "summary": "倒影满湖的水库",
+    "image": "https://www.bing.com/th?id=OHR.LakeFyans_ZH-CN1067187791_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9A%E7%BB%B4%E5%A4%9A%E5%88%A9%E4%BA%9A%E5%B7%9E%E6%A0%BC%E5%85%B0%E5%B1%8F%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202609051600",
+      "title": "菲安斯湖，格兰屏国家公园，维多利亚州，澳大利亚",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "倒影满湖的水库",
+      "image": "https://www.bing.com/th?id=OHR.LakeFyans_ZH-CN1067187791_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9A%E7%BB%B4%E5%A4%9A%E5%88%A9%E4%BA%9A%E5%B7%9E%E6%A0%BC%E5%85%B0%E5%B1%8F%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202609041600",
       "title": "龙虾爪花上取食的绿顶辉蜂鸟，哥斯达黎加",
@@ -143,199 +152,190 @@
       "summary": "名为鲨鱼的巨型鱼类",
       "image": "https://www.bing.com/th?id=OHR.YellowShark_ZH-CN1570569826_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E9%B2%B8%E9%B2%A8&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202608281600",
-      "title": "冲浪者航拍图，圣卡塔琳娜州，巴西",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "读懂浪涛之间的讯息",
-      "image": "https://www.bing.com/th?id=OHR.SantaCatarina_ZH-CN4170292043_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E5%B7%B4%E8%A5%BF%E5%9C%A3%E5%8D%A1%E5%A1%94%E7%90%B3%E5%A8%9C%E5%B7%9E&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-09-05",
-    "dateLabel": "9月5日",
+    "dateKey": "2026-09-06",
+    "dateLabel": "9月6日",
     "items": [
       {
         "year": "2022",
-        "text": "中國四川省甘孜藏族自治州瀘定縣發生Ms 6.8地震，造成至少86人死亡和400多人受傷。",
+        "text": "莉茲·特拉斯在2022年7月英國政府危機後接替鮑里斯·強森成為首相。",
         "link": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4"
       },
       {
-        "year": "2022",
-        "text": "香港天文台總部錄得最高氣溫35.3℃，超越1963年9月錄得全月最高氣溫35.2℃，打破自1884年以來9月最高氣溫記錄。上水錄得最高氣溫37.3℃，相對濕度低見35%，是全港最熱及最...",
-        "link": "https://zh.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF%E5%A4%A9%E6%96%87%E5%8F%B0%E7%B8%BD%E9%83%A8"
+        "year": "2020",
+        "text": "香港原定舉行第七屆立法會選舉，但政府因應疫情延後一年，引起眾多巿民不滿並發起9月6日九龍大遊行。",
+        "link": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "青春华章丨2026“把青春华章写在祖国大地上”大思政课网络主题宣传和互动引导活动将在合肥举行",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-05/10691165.shtml",
-        "summary": "中新网合肥9月5日电 (记者 张强)2026“把青春华章写在祖国大地上”大思政课网络主题宣传和互动引导活动将于9月6日晚在位于安徽合肥的中国科学技术大学举行。",
+        "title": "台湾鲜果“朝摘夕至” 岛内文旦柚登陆南京",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-06/10691222.shtml",
+        "summary": "中新社南京9月5日电 (记者 朱晓颖)依托宁台直航定班全货机空中通道，来自台湾花莲的文旦柚5日在南京开柜上架。该批文旦柚从台湾果园采摘、完成报关清关，到运达南京农副产品物流中心，全程不到24小时，较传统方式节省了近一周时间。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/ebd1a5aa-26b9-4219-b470-82a594e8b0cd_zsite.jpg",
+        "publishedAt": "2026-09-05T16:07:34.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "国际地热论坛：中外专家山西共议地热赋能低碳未来",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-05/10691204.shtml",
+        "summary": "中新网太原9月5日电 (记者 范丽芳)“全球能源系统脱碳的紧迫性不容忽视。地热能具有独特优势，应在实现减碳目标中发挥重要作用，而通过国际协作和知识共享来发展地热产业至关重要。”",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/d347ea8e-b2e7-4e36-842d-1e51a950b56f_zsite.jpg",
+        "publishedAt": "2026-09-05T15:51:03.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "重庆与新疆哈密互推精品文旅线路 “哈密号”主题列车亮相",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-05/10691174.shtml",
+        "summary": "中新网重庆9月5日电 (记者 钟旖)5日，重庆·哈密文旅推介暨2026巴蜀文化旅游走廊精品旅游线路专场推介会在重庆市九龙坡区举行。重庆轨道“哈密号”主题列车在轨道交通2号线首发亮相。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/87162ec7-c094-4cb4-b0dd-ef663de3a0e8_zsite.JPG",
+        "publishedAt": "2026-09-05T15:20:37.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "一个智库论坛如何解码中国边疆经济十年之变？",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-05/10691175.shtml",
+        "summary": "中新网吉林延吉9月5日电 题：一个智库论坛如何解码中国边疆经济十年之变？",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/c6d6bf74-660c-44cd-96e4-52eeab4fa354_zsite.jpg",
+        "publishedAt": "2026-09-05T15:19:51.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "韩江水库群拦洪2.5亿立方米",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-05/10691173.shtml",
+        "summary": "中新网广州9月5日电 (记者 王坚)水利部珠江水利委员会(下称“珠江委”)5日通报称，受台风“沙德尔”影响，2日至4日，珠江流域东部出现一次较强降雨过程，其中韩江流域面平均降雨量为104毫米。强降雨导致韩江流域共有11条河流发生超警洪水，韩江发生2026年第1次编号洪水。该委联合调度以棉花滩水库为核...",
         "image": "",
-        "publishedAt": "2026-09-05T14:56:37.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "产购储加销全链条协同 第八届中国粮食交易大会在长沙开幕",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-05/10691161.shtml",
-        "summary": "中新网长沙9月5日电(付敬懿)以“粮安天下聚合力、产销融通促发展”为主题的第八届中国粮食交易大会5日在湖南长沙开幕。大会聚焦粮食产购储加销全链条协同，促进粮食产销协作，助推粮食产业升级，深化粮食领域国际合作，吸引3100余家企业参展、2万余名行业人员参会，共话粮食产业发展新机遇。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/5ca471ce-a812-4025-a04e-8e3db1f80b9c_zsite.jpg",
-        "publishedAt": "2026-09-05T14:53:57.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "云南计划新建临普铁路 串联滇西南联通东南亚",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-05/10691157.shtml",
-        "summary": "中新网昆明9月5日电 (记者 杜潇潇)近日，中国国家铁路集团有限公司发布临沧至普洱铁路勘察设计项目招标公告，标志着这条串联滇西南、衔接国际大通道的铁路干线距离开工建设更近一步。",
-        "image": "",
-        "publishedAt": "2026-09-05T14:51:19.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "中外代表讲述：产业融合架起亚太“连心桥”",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-05/10691152.shtml",
-        "summary": "中新网深圳9月5日电 题：中外代表讲述：产业融合架起亚太“连心桥”",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/226a2bd5-3b41-4705-9f75-a5af45c747e7_zsite.jpg",
-        "publishedAt": "2026-09-05T14:19:31.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "亚太媒体高端论坛发布一批重要合作成果 达成深圳共识",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-05/10691136.shtml",
-        "summary": "中新社深圳9月5日电 (记者 郭军 程景伟)亚太媒体高端论坛5日在广东深圳举办。亚太媒体合作伙伴计划筹备委员会在开幕式上成立，并举行了中外媒体合作成果文件交换仪式。论坛同时发起“共赴深圳之约 共创美好亚太”媒体合作行动，达成《亚太媒体高端论坛深圳共识》。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/a709b7c2-ef6e-4763-98f0-ffd9767f7945_zsite.jpg",
-        "publishedAt": "2026-09-05T14:13:05.000Z",
+        "publishedAt": "2026-09-05T15:19:35.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "强降雨致莆田鞋产业受灾 鞋企自救力争尽快复工复产",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-05/10691163.shtml",
-        "summary": "中新网莆田9月5日电 (叶秋云)连日来，受强降雨引发的洪涝灾害影响，莆田多家制鞋企业厂区遭遇水淹，生产设备、原材料等不同程度受损。5日，莆田市城厢区华亭镇的积水退去，当地鞋企正抓紧开展清淤消杀、设备检修、损失盘点等灾后自救工作，力争尽快复工复产。",
+        "title": "641名救援人员抵达江西遂川泥石流灾害现场开展搜救工作",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-06/10691226.shtml",
+        "summary": "受台风“沙德尔”持续强降雨天气影响，9月5日，江西省遂川县高坪镇明坑村石下组突发泥石流地质灾害。",
         "image": "",
-        "publishedAt": "2026-09-05T14:59:16.000Z",
+        "publishedAt": "2026-09-05T17:00:14.000Z",
         "source": "中新网"
       },
       {
-        "title": "（乡村行·看振兴）浙江鱼米之乡新风景：鱼跃虾肥，“数智”当家",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-05/10691159.shtml",
-        "summary": "中新网湖州9月5日电(黄彦君)连日来，在“中国青虾之乡”浙江湖州德清下渚湖街道，双桥村一处青虾繁育养殖工厂迎来“丰收”：40余个恒温虾池整齐排列，一层层虾窝在水中堆叠，青虾攀附其间。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/ed462a15-505b-4ea3-a54a-79dc3c4882c3_zsite.jpg",
-        "publishedAt": "2026-09-05T14:52:15.000Z",
+        "title": "厦门口岸多措并举助力第二十六届投洽会旅客便捷通关",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-06/10691220.shtml",
+        "summary": "中新社厦门9月5日电 (吴冠标)第二十六届中国国际投资贸易洽谈会(简称“投洽会”)将于9月8日至11日在福建厦门举行。厦门边检总站高崎边检站5日通报，9月以来，厦门口岸日均入境外籍旅客量较去年同期增长超23%。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/9aa5e6b9-ffd6-4679-a8e5-2877f6079b33_zsite.jpg",
+        "publishedAt": "2026-09-05T16:05:36.000Z",
         "source": "中新网"
       },
       {
-        "title": "湖南多措并举弘扬慈善文化 慈善组织达834家年均募款超20亿元",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-05/10691156.shtml",
-        "summary": "中新网长沙9月5日电 (裴玲)9月5日是第十一个“中华慈善日”。围绕民政部确定的“弘扬慈善文化 践行慈善惠民”主题，湖南省民政厅动员全省民政系统和慈善组织广泛开展宣传活动，让崇德向善的新风吹拂三湘四水。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/4aca2007-3b63-4843-a8ae-52114cc62685_zsite.jpg",
-        "publishedAt": "2026-09-05T14:33:44.000Z",
+        "title": "旅博会观察：科技为文旅提速，人文给生活留白",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-05/10691197.shtml",
+        "summary": "中新网天津9月5日电 题：旅博会观察：科技为文旅提速，人文给生活留白",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/35267b24-05f6-446e-9951-424d3ee3b25c_zsite.jpeg",
+        "publishedAt": "2026-09-05T15:40:56.000Z",
         "source": "中新网"
       },
       {
-        "title": "赖岳谦夫妇参访重庆摩托产业：两岸携手能把产业做大做强",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-05/10691153.shtml",
-        "summary": "中新网重庆9月5日电 (梁钦卿)“我油门可以拉到多少？”台湾知名时事评论员赖岳谦5日走进位于重庆的宗申产业集团，坐在一台宗申机车上问道。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/57143181-a77d-43ed-a06f-35e75dd8cd3d_zsite.jpg",
-        "publishedAt": "2026-09-05T14:28:14.000Z",
+        "title": "走进行业一线 北京中学生探索AI奥秘",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-05/10691196.shtml",
+        "summary": "中新网北京9月5日电 题：走进行业一线 北京中学生探索AI奥秘",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/0b2dede4-96f5-4d41-a65f-b6afd790991e_zsite.jpg",
+        "publishedAt": "2026-09-05T15:38:02.000Z",
         "source": "中新网"
       },
       {
-        "title": "福建莆田内涝退去 转入灾后恢复",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-05/10691150.shtml",
-        "summary": "中新社福建莆田9月5日电 (叶秋云)5日上午，福建省莆田市城厢区华亭镇霞皋村内涝积水已基本退去，村民们满身泥浆，忙着清理家中物品。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/457fb5ad-38f1-4d72-a01e-56ca76e0d945_zsite.JPG",
-        "publishedAt": "2026-09-05T14:24:02.000Z",
+        "title": "19国“Z世代”青年走进成都了解美丽中国生态故事",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-05/10691193.shtml",
+        "summary": "中新网成都9月5日电 “Z世代”国际生态环境小记者工作坊(第二期)日前在成都开营。本期工作坊由生态环境部宣传教育中心等共同主办，来自19个国家的34名在华国际青年学生参加。",
+        "image": "",
+        "publishedAt": "2026-09-05T15:37:32.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "“万里茶路中国行2026”长沙启动 “五彩湘茶”再赴丝路之约",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-05/10691155.shtml",
-        "summary": "中新网长沙9月5日电 (记者 邓霞)9月5日，“五彩湘茶·万里远征——片叶度关山·万里茶路中国行2026”出征仪式在长沙举行。即日起，采风团将从长沙出发，沿丝绸之路西进，跨越陕西、宁夏、甘肃、青海、新疆五省区，全程超5000公里。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/cc1e8993-7cff-48f7-816e-6d5208194934_zsite.jpg",
-        "publishedAt": "2026-09-05T14:32:50.000Z",
+        "title": "中外专家共议地热脱碳：国际合作是发展关键",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-06/10691218.shtml",
+        "summary": "中新社太原9月5日电 (记者 范丽芳)“全球能源系统脱碳的紧迫性不容忽视。地热能具有独特优势，应在实现减碳目标中发挥重要作用，而通过国际协作和知识共享来发展地热产业至关重要。”",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/237fbc19-5fb9-4ca4-b960-c364f80ede2a_zsite.jpg",
+        "publishedAt": "2026-09-05T16:04:44.000Z",
         "source": "中新网"
       },
       {
-        "title": "中外嘉宾深度对谈：探寻AI治理的“最大公约数”",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-05/10691151.shtml",
-        "summary": "中新社深圳9月5日电 (记者 郭军 索有为)亚太媒体高端论坛5日在广东深圳举行。论坛期间，主办方围绕多个主题设置了约20场中外嘉宾“深度对谈”。北京大学长聘正教授王栋、马来西亚《亚洲时报》董事会主席张丹华、斯里兰卡锡兰联合报业公司总编辑亚帕·哈米拉奇·西西拉·西里帕拉·亚帕，就“AI治理如何找到‘最...",
-        "image": "",
-        "publishedAt": "2026-09-05T14:18:39.000Z",
+        "title": "打通产销链路 福建平和举办蜜柚购销·招商引资大会",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-05/10691210.shtml",
+        "summary": "中新网福建平和9月5日电 (记者 张金川)9月5日，以“福柚兴业 产业强县”为主题的2026年平和县蜜柚购销·招商引资大会在福建省漳州市平和县开幕。本次大会以柚为媒、以会聚力，打通产销链路、集聚招商动能，为平和蜜柚全产业链升级、乡村全面振兴注入强劲动力。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/e6f8b355-0610-4c24-820c-d61e7fc07f87_zsite.jpg",
+        "publishedAt": "2026-09-05T15:51:45.000Z",
         "source": "中新网"
       },
       {
-        "title": "中外嘉宾深圳探讨共建人形机器人产业链",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-05/10691145.shtml",
-        "summary": "中新社深圳9月5日电 (记者 程景伟)亚太媒体高端论坛5日在深圳举行，其间进行的中外嘉宾深度对谈中，深圳市众擎机器人科技有限公司联合创始人姚淇元与马来西亚东南亚社科研究中心政治与国际关系研究主任廖朝骥，就“中国机器人的成长路径与亚太价值”议题展开交流。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/074cf0c2-d51b-4496-b2bd-cb8eec503b0b_zsite.jpeg",
-        "publishedAt": "2026-09-05T14:09:43.000Z",
+        "title": "外贸服务搬进宠博会 “浙里出海”助绍兴企业掘金新蓝海",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-05/10691192.shtml",
+        "summary": "中新网绍兴9月5日电(蓝伊旎)9月4日至6日，2026绍兴国际宠物用品博览会在浙江绍兴举办，汇聚100余家宠物行业展商，宠物食品、日用用品、医疗健康、智能设备等丰富类目吸引中外客商采购。其间，由浙江省贸促会主办的2026“浙里出海”—1+N跨境电商助企行动(绍兴站)同步开展，旨在把外贸服务融入行业展...",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/207337a0-5302-404d-abbc-eaf136561f90_zsite.jpg",
+        "publishedAt": "2026-09-05T15:32:04.000Z",
         "source": "中新网"
       },
       {
-        "title": "CFA协会中国区总经理：中国绿色金融人才需求现三大结构性转变",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-05/10691121.shtml",
-        "summary": "中新网北京9月5日电 (邸子瀛)由全球投资专业人士组成的机构CFA(特许金融分析师)协会近日发布《2026中国绿色金融与ESG投资调研报告》称，当前中国绿色金融人才供需矛盾已经从数量缺口转向质量缺口，行业人才需求呈现新的结构性特征。",
-        "image": "",
-        "publishedAt": "2026-09-05T13:01:07.000Z",
+        "title": "广东省人工智能核心产业规模突破3000亿元",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-05/10691181.shtml",
+        "summary": "中新网广州9月5日电 (记者 许青青)由广东省工业和信息化厅、广东省通信管理局共同主办的“人工智能赋能中小企业数智化转型”活动4日在广州举行。记者从活动上获悉，截至目前，广东省人工智能核心产业规模突破3000亿元。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/a5380c37-7cd5-4c68-9266-3e2e83c48599_zsite.jpeg",
+        "publishedAt": "2026-09-05T15:23:53.000Z",
         "source": "中新网"
       },
       {
-        "title": "岭南万物竞蓬勃——广东涵养经济生态助推高质量发展",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-05/10691090.shtml",
-        "summary": "今年上半年，广东地区生产总值(GDP)同比增长4.5%，增速高于去年同期和去年全年。规上工业增加值增长5.8%，进出口增长20.8%，实时在粤人口迈上1.7亿新台阶。",
-        "image": "",
-        "publishedAt": "2026-09-05T12:21:38.000Z",
+        "title": "亚太中小企业数智技术供需对接活动在穗举行",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-05/10691169.shtml",
+        "summary": "中新网广州9月5日电 (记者 王坚)第21届中国国际中小企业博览会(简称“中博会”)正在广州举行。其间，作为中博会配套活动，亚太中小企业数智技术与应用场景供需对接活动4日在广州举行。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/b12e1800-10dc-4e01-8697-294a6b8680d2_zsite.jpeg",
+        "publishedAt": "2026-09-05T15:16:49.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "US envoys arrive in Moscow ahead of Ukraine talks",
+        "title": "US envoys meet Putin in Moscow for Ukraine talks",
         "link": "https://www.bbc.co.uk/news/articles/cx2zqp46g8eo?at_medium=RSS&at_campaign=rss",
-        "summary": "Steve Witkoff and Jared Kushner are due to hold talks with Russia before travelling to Ukraine on Sunday.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7a17/live/0cde6b70-a910-11f1-9eff-150801023722.jpg",
-        "publishedAt": "2026-09-05T15:05:14.000Z",
+        "summary": "President Trump says his envoys Steve Witkoff and Jared Kushner are \"bringing with them a proposal to end the war\".",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d7d/live/1a5083e0-a953-11f1-adf0-6d46cbf5ba37.png",
+        "publishedAt": "2026-09-05T17:18:31.000Z",
         "source": "BBC"
       },
       {
         "title": "US hits three Iranian oil tankers after saying its warships were targeted",
         "link": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss",
-        "summary": "US Central Command says the attacks came after Iran launched ballistic missiles at two of its Navy warships.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e249/live/f2d95940-a934-11f1-bb81-8fbd2d2d397c.jpg",
-        "publishedAt": "2026-09-05T14:40:53.000Z",
+        "summary": "The strikes come nearly a week after fighting between the US and Iran flared again following weeks of relative calm.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9613/live/a1c35120-a93c-11f1-a291-b542ee92de7c.png",
+        "publishedAt": "2026-09-05T17:15:05.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Three Iranian tankers struck in retaliation for missile attacks, US military says",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9tVlZfRVpnZHk5LUZINnd1bUh0Mkp3N3FoU3ZpT1Rad3ZwbzU2SllpNEUzeFpjdms2SWI4MWFCSVU4S2JtQ3BRTUNRQ01ybWprRmFybkNUdDk4TWxtZTFiWV9CQzJha0JWdlh0XzhHUzJSa2hEQkE?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-09-05T13:52:09.000Z",
-        "source": "CNN"
       },
       {
         "title": "What different world maps get right - and what they get wrong",
         "link": "https://www.bbc.co.uk/news/articles/cly5r60v4mro?at_medium=RSS&at_campaign=rss",
         "summary": "As the UN adopts a new world map to reflect Africa's true size, let's take a closer look at what different maps get right and wrong.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e80e/live/d224a510-a92f-11f1-bb81-8fbd2d2d397c.jpg",
-        "publishedAt": "2026-09-05T13:46:02.000Z",
+        "publishedAt": "2026-09-05T16:14:24.000Z",
         "source": "BBC"
       },
       {
-        "title": "Putin orders pause on strikes on Kyiv as Witkoff and Kushner arrive in Moscow for peace talks",
-        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNU82NHAyZUtQaVg0RDMyajVhdjNiZlFsaUN0RnZ5SWFDWEgyMnZYcVN2LUJDNkJOZFBnOWdDOHh2T1BPOG5SYWtROVoyd1pRVWwxVjhkNTE1X2I3MW5rb2V6Sm40TGJyRDk5YnJuTDdFMkQ2Wk1HRVlmWkxEdXVrMUdwOXRjM2RPVlFF?oc=5",
+        "title": "At least two dead in blast at Bolivia military barracks",
+        "link": "https://www.bbc.co.uk/news/articles/c3v45xy67g5o?at_medium=RSS&at_campaign=rss",
+        "summary": "Authorities fear the death toll in Viacha will rise and warn people to stay away from the barracks due to a risk of further explosions.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cea5/live/8e7be190-a905-11f1-b109-879e35c24276.jpg",
+        "publishedAt": "2026-09-05T15:22:41.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "US military strikes three Iranian tankers in retaliation for missile attacks",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9tVlZfRVpnZHk5LUZINnd1bUh0Mkp3N3FoU3ZpT1Rad3ZwbzU2SllpNEUzeFpjdms2SWI4MWFCSVU4S2JtQ3BRTUNRQ01ybWprRmFybkNUdDk4TWxtZTFiWV9CQzJha0JWdlh0XzhHUzJSa2hEQkE?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-09-05T10:08:47.000Z",
+        "publishedAt": "2026-09-05T13:52:09.000Z",
         "source": "CNN"
       }
     ],
@@ -373,12 +373,12 @@
         "source": "BBC"
       },
       {
-        "title": "Prosecco, cakes and beauty products - how to get birthday freebies and why there's a catch",
-        "link": "https://www.bbc.co.uk/news/articles/c5y4jr4yr2eo?at_medium=RSS&at_campaign=rss",
-        "summary": "Cake, coffee, make-up and burgers are just some of the free things you can get on your birthday.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7bc4/live/46d54550-a853-11f1-aed2-8d6da8d75094.jpg",
-        "publishedAt": "2026-09-04T07:19:06.000Z",
-        "source": "BBC"
+        "title": "Labor Day gas has never been this expensive. Trump is scrambling for answers",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBGd3k2Yk9yZ29EdmdmOVZJYy04M2V3OWUycTJEYVdjTE1oU2JieHpqQXVGemtmc2VYTzY4dDNKVjJ2ZW9MSmF4cVN2ZElIaTNFZ2JmN0pRZTI0RHY3NVhhMEoxVllRQnF3UDBvLTF3QTFjRzg?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-09-04T10:30:29.000Z",
+        "source": "CNN"
       }
     ],
     "worldTech": [
@@ -425,85 +425,85 @@
     ],
     "domestic": [
       {
-        "title": "青春华章丨2026“把青春华章写在祖国大地上”大思政课网络主题宣传和互动引导活动将在合肥举行",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-05/10691165.shtml",
-        "summary": "中新网合肥9月5日电 (记者 张强)2026“把青春华章写在祖国大地上”大思政课网络主题宣传和互动引导活动将于9月6日晚在位于安徽合肥的中国科学技术大学举行。",
+        "title": "台湾鲜果“朝摘夕至” 岛内文旦柚登陆南京",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-06/10691222.shtml",
+        "summary": "中新社南京9月5日电 (记者 朱晓颖)依托宁台直航定班全货机空中通道，来自台湾花莲的文旦柚5日在南京开柜上架。该批文旦柚从台湾果园采摘、完成报关清关，到运达南京农副产品物流中心，全程不到24小时，较传统方式节省了近一周时间。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/ebd1a5aa-26b9-4219-b470-82a594e8b0cd_zsite.jpg",
+        "publishedAt": "2026-09-05T16:07:34.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "国际地热论坛：中外专家山西共议地热赋能低碳未来",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-05/10691204.shtml",
+        "summary": "中新网太原9月5日电 (记者 范丽芳)“全球能源系统脱碳的紧迫性不容忽视。地热能具有独特优势，应在实现减碳目标中发挥重要作用，而通过国际协作和知识共享来发展地热产业至关重要。”",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/d347ea8e-b2e7-4e36-842d-1e51a950b56f_zsite.jpg",
+        "publishedAt": "2026-09-05T15:51:03.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "重庆与新疆哈密互推精品文旅线路 “哈密号”主题列车亮相",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-05/10691174.shtml",
+        "summary": "中新网重庆9月5日电 (记者 钟旖)5日，重庆·哈密文旅推介暨2026巴蜀文化旅游走廊精品旅游线路专场推介会在重庆市九龙坡区举行。重庆轨道“哈密号”主题列车在轨道交通2号线首发亮相。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/87162ec7-c094-4cb4-b0dd-ef663de3a0e8_zsite.JPG",
+        "publishedAt": "2026-09-05T15:20:37.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "一个智库论坛如何解码中国边疆经济十年之变？",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-05/10691175.shtml",
+        "summary": "中新网吉林延吉9月5日电 题：一个智库论坛如何解码中国边疆经济十年之变？",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/c6d6bf74-660c-44cd-96e4-52eeab4fa354_zsite.jpg",
+        "publishedAt": "2026-09-05T15:19:51.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "韩江水库群拦洪2.5亿立方米",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-05/10691173.shtml",
+        "summary": "中新网广州9月5日电 (记者 王坚)水利部珠江水利委员会(下称“珠江委”)5日通报称，受台风“沙德尔”影响，2日至4日，珠江流域东部出现一次较强降雨过程，其中韩江流域面平均降雨量为104毫米。强降雨导致韩江流域共有11条河流发生超警洪水，韩江发生2026年第1次编号洪水。该委联合调度以棉花滩水库为核...",
         "image": "",
-        "publishedAt": "2026-09-05T14:56:37.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "产购储加销全链条协同 第八届中国粮食交易大会在长沙开幕",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-05/10691161.shtml",
-        "summary": "中新网长沙9月5日电(付敬懿)以“粮安天下聚合力、产销融通促发展”为主题的第八届中国粮食交易大会5日在湖南长沙开幕。大会聚焦粮食产购储加销全链条协同，促进粮食产销协作，助推粮食产业升级，深化粮食领域国际合作，吸引3100余家企业参展、2万余名行业人员参会，共话粮食产业发展新机遇。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/5ca471ce-a812-4025-a04e-8e3db1f80b9c_zsite.jpg",
-        "publishedAt": "2026-09-05T14:53:57.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "云南计划新建临普铁路 串联滇西南联通东南亚",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-05/10691157.shtml",
-        "summary": "中新网昆明9月5日电 (记者 杜潇潇)近日，中国国家铁路集团有限公司发布临沧至普洱铁路勘察设计项目招标公告，标志着这条串联滇西南、衔接国际大通道的铁路干线距离开工建设更近一步。",
-        "image": "",
-        "publishedAt": "2026-09-05T14:51:19.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "中外代表讲述：产业融合架起亚太“连心桥”",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-05/10691152.shtml",
-        "summary": "中新网深圳9月5日电 题：中外代表讲述：产业融合架起亚太“连心桥”",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/226a2bd5-3b41-4705-9f75-a5af45c747e7_zsite.jpg",
-        "publishedAt": "2026-09-05T14:19:31.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "亚太媒体高端论坛发布一批重要合作成果 达成深圳共识",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-05/10691136.shtml",
-        "summary": "中新社深圳9月5日电 (记者 郭军 程景伟)亚太媒体高端论坛5日在广东深圳举办。亚太媒体合作伙伴计划筹备委员会在开幕式上成立，并举行了中外媒体合作成果文件交换仪式。论坛同时发起“共赴深圳之约 共创美好亚太”媒体合作行动，达成《亚太媒体高端论坛深圳共识》。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/a709b7c2-ef6e-4763-98f0-ffd9767f7945_zsite.jpg",
-        "publishedAt": "2026-09-05T14:13:05.000Z",
+        "publishedAt": "2026-09-05T15:19:35.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "US envoys arrive in Moscow ahead of Ukraine talks",
+        "title": "US envoys meet Putin in Moscow for Ukraine talks",
         "link": "https://www.bbc.co.uk/news/articles/cx2zqp46g8eo?at_medium=RSS&at_campaign=rss",
-        "summary": "Steve Witkoff and Jared Kushner are due to hold talks with Russia before travelling to Ukraine on Sunday.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7a17/live/0cde6b70-a910-11f1-9eff-150801023722.jpg",
-        "publishedAt": "2026-09-05T15:05:14.000Z",
+        "summary": "President Trump says his envoys Steve Witkoff and Jared Kushner are \"bringing with them a proposal to end the war\".",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d7d/live/1a5083e0-a953-11f1-adf0-6d46cbf5ba37.png",
+        "publishedAt": "2026-09-05T17:18:31.000Z",
         "source": "BBC"
       },
       {
         "title": "US hits three Iranian oil tankers after saying its warships were targeted",
         "link": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss",
-        "summary": "US Central Command says the attacks came after Iran launched ballistic missiles at two of its Navy warships.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e249/live/f2d95940-a934-11f1-bb81-8fbd2d2d397c.jpg",
-        "publishedAt": "2026-09-05T14:40:53.000Z",
+        "summary": "The strikes come nearly a week after fighting between the US and Iran flared again following weeks of relative calm.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9613/live/a1c35120-a93c-11f1-a291-b542ee92de7c.png",
+        "publishedAt": "2026-09-05T17:15:05.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Three Iranian tankers struck in retaliation for missile attacks, US military says",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9tVlZfRVpnZHk5LUZINnd1bUh0Mkp3N3FoU3ZpT1Rad3ZwbzU2SllpNEUzeFpjdms2SWI4MWFCSVU4S2JtQ3BRTUNRQ01ybWprRmFybkNUdDk4TWxtZTFiWV9CQzJha0JWdlh0XzhHUzJSa2hEQkE?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-09-05T13:52:09.000Z",
-        "source": "CNN"
       },
       {
         "title": "What different world maps get right - and what they get wrong",
         "link": "https://www.bbc.co.uk/news/articles/cly5r60v4mro?at_medium=RSS&at_campaign=rss",
         "summary": "As the UN adopts a new world map to reflect Africa's true size, let's take a closer look at what different maps get right and wrong.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e80e/live/d224a510-a92f-11f1-bb81-8fbd2d2d397c.jpg",
-        "publishedAt": "2026-09-05T13:46:02.000Z",
+        "publishedAt": "2026-09-05T16:14:24.000Z",
         "source": "BBC"
       },
       {
-        "title": "Putin orders pause on strikes on Kyiv as Witkoff and Kushner arrive in Moscow for peace talks",
-        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNU82NHAyZUtQaVg0RDMyajVhdjNiZlFsaUN0RnZ5SWFDWEgyMnZYcVN2LUJDNkJOZFBnOWdDOHh2T1BPOG5SYWtROVoyd1pRVWwxVjhkNTE1X2I3MW5rb2V6Sm40TGJyRDk5YnJuTDdFMkQ2Wk1HRVlmWkxEdXVrMUdwOXRjM2RPVlFF?oc=5",
+        "title": "At least two dead in blast at Bolivia military barracks",
+        "link": "https://www.bbc.co.uk/news/articles/c3v45xy67g5o?at_medium=RSS&at_campaign=rss",
+        "summary": "Authorities fear the death toll in Viacha will rise and warn people to stay away from the barracks due to a risk of further explosions.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cea5/live/8e7be190-a905-11f1-b109-879e35c24276.jpg",
+        "publishedAt": "2026-09-05T15:22:41.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "US military strikes three Iranian tankers in retaliation for missile attacks",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9tVlZfRVpnZHk5LUZINnd1bUh0Mkp3N3FoU3ZpT1Rad3ZwbzU2SllpNEUzeFpjdms2SWI4MWFCSVU4S2JtQ3BRTUNRQ01ybWprRmFybkNUdDk4TWxtZTFiWV9CQzJha0JWdlh0XzhHUzJSa2hEQkE?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-09-05T10:08:47.000Z",
+        "publishedAt": "2026-09-05T13:52:09.000Z",
         "source": "CNN"
       }
     ],
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-09-05",
+    "rotationLabel": "Curated Rotation · 2026-09-06",
     "sections": [
       {
         "id": "data-storage",
@@ -522,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-4",
-            "sectionId": "data-storage",
-            "title": "Dremel: Interactive Analysis of Web-Scale Datasets",
-            "authors": [
-              "Sergey Melnik",
-              "Andrey Gubarev",
-              "Jing Jing Long",
-              "Geoffrey Romer"
-            ],
-            "venue": "VLDB",
-            "year": 2010,
-            "quality": "顶会",
-            "categories": [
-              "analytics",
-              "columnar"
-            ],
-            "link": "https://research.google/pubs/pub36632/",
-            "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-5",
             "sectionId": "data-storage",
@@ -561,7 +540,7 @@
             ],
             "link": "https://arxiv.org/abs/2401.08281",
             "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-6",
@@ -583,6 +562,27 @@
             "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
             "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-1",
+            "sectionId": "data-storage",
+            "title": "The Log-Structured Merge-Tree (LSM-Tree)",
+            "authors": [
+              "Patrick O'Neil",
+              "Edward Cheng",
+              "Dieter Gawlick",
+              "Elizabeth O'Neil"
+            ],
+            "venue": "Acta Informatica",
+            "year": 1996,
+            "quality": "经典基础",
+            "categories": [
+              "storage",
+              "indexing"
+            ],
+            "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
+            "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -592,27 +592,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-5",
-            "sectionId": "computer-vision",
-            "title": "Segment Anything",
-            "authors": [
-              "Alexander Kirillov",
-              "Eric Mintun",
-              "Nikhila Ravi",
-              "Hanzi Mao"
-            ],
-            "venue": "ICCV",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "segmentation",
-              "foundation model"
-            ],
-            "link": "https://arxiv.org/abs/2304.02643",
-            "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-6",
             "sectionId": "computer-vision",
@@ -632,7 +611,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.07193",
             "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-1",
@@ -654,6 +633,27 @@
             "link": "https://arxiv.org/abs/1512.03385",
             "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-2",
+            "sectionId": "computer-vision",
+            "title": "End-to-End Object Detection with Transformers",
+            "authors": [
+              "Nicolas Carion",
+              "Francisco Massa",
+              "Gabriel Synnaeve",
+              "Nicolas Usunier"
+            ],
+            "venue": "ECCV",
+            "year": 2020,
+            "quality": "顶会",
+            "categories": [
+              "detection",
+              "transformer"
+            ],
+            "link": "https://arxiv.org/abs/2005.12872",
+            "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -663,27 +663,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-6",
-            "sectionId": "llm-memory",
-            "title": "MemoRAG: Moving towards Next-Gen RAG Via Memory-Inspired Knowledge Discovery",
-            "authors": [
-              "Rulin Shao",
-              "Yue Liu",
-              "Shuo Wang",
-              "Yichi Zhang"
-            ],
-            "venue": "arXiv",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "RAG",
-              "memory bank"
-            ],
-            "link": "https://arxiv.org/abs/2409.05591",
-            "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-1",
             "sectionId": "llm-memory",
@@ -703,7 +682,7 @@
             ],
             "link": "https://arxiv.org/abs/2005.11401",
             "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-2",
@@ -725,6 +704,27 @@
             "link": "https://arxiv.org/abs/2203.08913",
             "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-3",
+            "sectionId": "llm-memory",
+            "title": "RETRO: Improving Language Models by Retrieving From Trillions of Tokens",
+            "authors": [
+              "Sebastian Borgeaud",
+              "Arthur Mensch",
+              "Jordan Hoffmann",
+              "Trevor Cai"
+            ],
+            "venue": "DeepMind / arXiv",
+            "year": 2022,
+            "quality": "高影响力",
+            "categories": [
+              "retrieval",
+              "language model"
+            ],
+            "link": "https://arxiv.org/abs/2112.04426",
+            "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -734,28 +734,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-1",
-            "sectionId": "agents",
-            "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
-            "authors": [
-              "Shunyu Yao",
-              "Jeffrey Zhao",
-              "Dian Yu",
-              "Nan Du"
-            ],
-            "venue": "ICLR",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "agent",
-              "reasoning",
-              "tool use"
-            ],
-            "link": "https://arxiv.org/abs/2210.03629",
-            "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-2",
             "sectionId": "agents",
@@ -775,7 +753,7 @@
             ],
             "link": "https://arxiv.org/abs/2302.04761",
             "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-3",
@@ -796,6 +774,27 @@
             ],
             "link": "https://arxiv.org/abs/2304.03442",
             "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-4",
+            "sectionId": "agents",
+            "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+            "authors": [
+              "Guanzhi Wang",
+              "Yuqi Xie",
+              "Zixiang Zhou",
+              "Yujin Tang"
+            ],
+            "venue": "arXiv",
+            "year": 2023,
+            "quality": "高影响力",
+            "categories": [
+              "embodied agent",
+              "planning"
+            ],
+            "link": "https://arxiv.org/abs/2305.16291",
+            "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
             "trackLabel": "轮换精选"
           }
         ]
