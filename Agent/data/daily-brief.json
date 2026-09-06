@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-05T22:01:55.743Z",
+  "generatedAt": "2026-09-06T04:28:36.051Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 21,
-      "weatherCode": 0,
-      "windSpeed": 3
+      "temperature": 30,
+      "weatherCode": 1,
+      "windSpeed": 7
     },
     "today": {
       "date": "2026-09-06",
@@ -26,35 +26,35 @@
       },
       {
         "date": "2026-09-07",
-        "weatherCode": 80,
-        "description": "阵雨",
-        "max": 30,
+        "weatherCode": 81,
+        "description": "强阵雨",
+        "max": 31,
         "min": 21,
-        "precipitationProbability": 73
+        "precipitationProbability": 78
       },
       {
         "date": "2026-09-08",
-        "weatherCode": 55,
-        "description": "中雨",
+        "weatherCode": 61,
+        "description": "小雨",
         "max": 21,
-        "min": 16,
-        "precipitationProbability": 87
+        "min": 18,
+        "precipitationProbability": 86
       },
       {
         "date": "2026-09-09",
         "weatherCode": 3,
         "description": "阴天",
-        "max": 25,
-        "min": 14,
-        "precipitationProbability": 6
+        "max": 24,
+        "min": 15,
+        "precipitationProbability": 2
       },
       {
         "date": "2026-09-10",
-        "weatherCode": 2,
-        "description": "局部多云",
-        "max": 28,
+        "weatherCode": 0,
+        "description": "晴朗",
+        "max": 25,
         "min": 13,
-        "precipitationProbability": 0
+        "precipitationProbability": 2
       }
     ]
   },
@@ -173,137 +173,161 @@
   "news": {
     "chinaTop": [
       {
-        "title": "台湾鲜果“朝摘夕至” 岛内文旦柚登陆南京",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-06/10691222.shtml",
-        "summary": "中新社南京9月5日电 (记者 朱晓颖)依托宁台直航定班全货机空中通道，来自台湾花莲的文旦柚5日在南京开柜上架。该批文旦柚从台湾果园采摘、完成报关清关，到运达南京农副产品物流中心，全程不到24小时，较传统方式节省了近一周时间。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/ebd1a5aa-26b9-4219-b470-82a594e8b0cd_zsite.jpg",
-        "publishedAt": "2026-09-05T16:07:34.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "国际地热论坛：中外专家山西共议地热赋能低碳未来",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-05/10691204.shtml",
-        "summary": "中新网太原9月5日电 (记者 范丽芳)“全球能源系统脱碳的紧迫性不容忽视。地热能具有独特优势，应在实现减碳目标中发挥重要作用，而通过国际协作和知识共享来发展地热产业至关重要。”",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/d347ea8e-b2e7-4e36-842d-1e51a950b56f_zsite.jpg",
-        "publishedAt": "2026-09-05T15:51:03.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "重庆与新疆哈密互推精品文旅线路 “哈密号”主题列车亮相",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-05/10691174.shtml",
-        "summary": "中新网重庆9月5日电 (记者 钟旖)5日，重庆·哈密文旅推介暨2026巴蜀文化旅游走廊精品旅游线路专场推介会在重庆市九龙坡区举行。重庆轨道“哈密号”主题列车在轨道交通2号线首发亮相。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/87162ec7-c094-4cb4-b0dd-ef663de3a0e8_zsite.JPG",
-        "publishedAt": "2026-09-05T15:20:37.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "一个智库论坛如何解码中国边疆经济十年之变？",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-05/10691175.shtml",
-        "summary": "中新网吉林延吉9月5日电 题：一个智库论坛如何解码中国边疆经济十年之变？",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/c6d6bf74-660c-44cd-96e4-52eeab4fa354_zsite.jpg",
-        "publishedAt": "2026-09-05T15:19:51.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "韩江水库群拦洪2.5亿立方米",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-05/10691173.shtml",
-        "summary": "中新网广州9月5日电 (记者 王坚)水利部珠江水利委员会(下称“珠江委”)5日通报称，受台风“沙德尔”影响，2日至4日，珠江流域东部出现一次较强降雨过程，其中韩江流域面平均降雨量为104毫米。强降雨导致韩江流域共有11条河流发生超警洪水，韩江发生2026年第1次编号洪水。该委联合调度以棉花滩水库为核...",
+        "title": "APEC“深圳时间”：创新之城定义亚太合作新坐标",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-06/10691325.shtml",
+        "summary": "“深圳是中国向世界发出的邀请。”9月4日，在以“中国式现代化的深圳故事”为主题的亚太媒体高端论坛深圳分论坛上，来自美国的雪牛资本创始人兼首席执行官泰勒·欧根这样说道。",
         "image": "",
-        "publishedAt": "2026-09-05T15:19:35.000Z",
+        "publishedAt": "2026-09-06T04:22:43.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "在广东，看见中国机遇",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-06/10691324.shtml",
+        "summary": "潮涌亚太，大道同行",
+        "image": "",
+        "publishedAt": "2026-09-06T04:18:00.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "亚太媒体高端论坛嘉宾参访广州、佛山——“中国智造动能澎湃、享誉全球”",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-06/10691323.shtml",
+        "summary": "亚太媒体高端论坛嘉宾参访广州、佛山——",
+        "image": "",
+        "publishedAt": "2026-09-06T04:06:04.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "水利部：全国10条河流仍维持超警 赣江1号洪水洪峰已过樟树江段",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-06/10691320.shtml",
+        "summary": "记者从水利部了解到，今天(9月6日)上午，水利部组织滚动会商，分析研判全国雨水情态势，安排部署重点防御工作。截至9月6日11时，浙江、江西、黑龙江等地10条河流仍维持超警，最大超警幅度1.04米，江西赣江1号洪水洪峰已通过樟树江段，预计未来24小时内赣江干流全线将退至警戒水位以下。",
+        "image": "",
+        "publishedAt": "2026-09-06T03:59:09.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "亚太媒体代表广东行：探访开放、创新、合作新机遇",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-06/10691318.shtml",
+        "summary": "初秋时节，珠江两岸海风拂面，生机盎然。亚太媒体高端论坛5日在深圳开幕。2日至4日，与会嘉宾在论坛开幕前分赴广州、深圳、东莞、中山、珠海等广东多地参访，以深入一线的调研，感知中国高质量发展的强劲脉搏，探寻亚太开放、创新、合作的新机遇。",
+        "image": "",
+        "publishedAt": "2026-09-06T03:55:37.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "641名救援人员抵达江西遂川泥石流灾害现场开展搜救工作",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-06/10691226.shtml",
-        "summary": "受台风“沙德尔”持续强降雨天气影响，9月5日，江西省遂川县高坪镇明坑村石下组突发泥石流地质灾害。",
+        "title": "更周到、更友好：中国多地兴起婴幼儿托育“新风”",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-06/10691314.shtml",
+        "summary": "新华社兰州9月4日电题：更周到、更友好：中国多地兴起婴幼儿托育“新风”",
         "image": "",
-        "publishedAt": "2026-09-05T17:00:14.000Z",
+        "publishedAt": "2026-09-06T03:45:48.000Z",
         "source": "中新网"
       },
       {
-        "title": "厦门口岸多措并举助力第二十六届投洽会旅客便捷通关",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-06/10691220.shtml",
-        "summary": "中新社厦门9月5日电 (吴冠标)第二十六届中国国际投资贸易洽谈会(简称“投洽会”)将于9月8日至11日在福建厦门举行。厦门边检总站高崎边检站5日通报，9月以来，厦门口岸日均入境外籍旅客量较去年同期增长超23%。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/9aa5e6b9-ffd6-4679-a8e5-2877f6079b33_zsite.jpg",
-        "publishedAt": "2026-09-05T16:05:36.000Z",
+        "title": "（文化中国行）兴安岭森林号子再响起：见证中国林区的绿色转身",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-06/10691305.shtml",
+        "summary": "中新网伊春9月6日电 题：兴安岭森林号子再响起：见证中国林区的绿色转身",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260906/06567d44-1636-4378-9e1b-7a831fd729e2_zsite.jpg",
+        "publishedAt": "2026-09-06T03:41:02.000Z",
         "source": "中新网"
       },
       {
-        "title": "旅博会观察：科技为文旅提速，人文给生活留白",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-05/10691197.shtml",
-        "summary": "中新网天津9月5日电 题：旅博会观察：科技为文旅提速，人文给生活留白",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/35267b24-05f6-446e-9951-424d3ee3b25c_zsite.jpeg",
-        "publishedAt": "2026-09-05T15:40:56.000Z",
+        "title": "侨乡泉州迎“中华慈善日” 海内外乡贤认捐约4亿元",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-06/10691273.shtml",
+        "summary": "中新网泉州9月6日电(记者 孙虹)9月5日是“中华慈善日”，也是联合国“国际慈善日”。在5日晚上举办的“中华慈善日”泉州市慈善总会公益晚会上，海内外乡贤现场举牌认捐善款约4亿元，以实际行动传递公益力量。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260906/242d9d67-4a5e-4cd6-a272-36024043f3a5_zsite.jpg",
+        "publishedAt": "2026-09-06T03:33:13.000Z",
         "source": "中新网"
       },
       {
-        "title": "走进行业一线 北京中学生探索AI奥秘",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-05/10691196.shtml",
-        "summary": "中新网北京9月5日电 题：走进行业一线 北京中学生探索AI奥秘",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/0b2dede4-96f5-4d41-a65f-b6afd790991e_zsite.jpg",
-        "publishedAt": "2026-09-05T15:38:02.000Z",
+        "title": "青春华章丨“90后”贺羽：以量子为尺，丈量“为国造仪”的青春之路",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-06/10691304.shtml",
+        "summary": "中新网合肥9月6日电 题：“90后”贺羽：以量子为尺，丈量“为国造仪”的青春之路",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260906/e2b4eac0-e318-490d-bd10-74651d49ea8e_zsite.jpeg",
+        "publishedAt": "2026-09-06T03:28:05.000Z",
         "source": "中新网"
       },
       {
-        "title": "19国“Z世代”青年走进成都了解美丽中国生态故事",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-05/10691193.shtml",
-        "summary": "中新网成都9月5日电 “Z世代”国际生态环境小记者工作坊(第二期)日前在成都开营。本期工作坊由生态环境部宣传教育中心等共同主办，来自19个国家的34名在华国际青年学生参加。",
+        "title": "从“一房难求”到房间空置，年轻人不爱住民宿了吗？",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-06/10691298.shtml",
+        "summary": "暑假旅游旺季，一些民宿入住率不升反降，有的甚至“旺铺转让”",
         "image": "",
-        "publishedAt": "2026-09-05T15:37:32.000Z",
+        "publishedAt": "2026-09-06T02:59:13.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "中外专家共议地热脱碳：国际合作是发展关键",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-06/10691218.shtml",
-        "summary": "中新社太原9月5日电 (记者 范丽芳)“全球能源系统脱碳的紧迫性不容忽视。地热能具有独特优势，应在实现减碳目标中发挥重要作用，而通过国际协作和知识共享来发展地热产业至关重要。”",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/237fbc19-5fb9-4ca4-b960-c364f80ede2a_zsite.jpg",
-        "publishedAt": "2026-09-05T16:04:44.000Z",
+        "title": "福建首条直飞英国客运航线在厦门开通",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-06/10691302.shtml",
+        "summary": "【欧洲专线】福建首条直飞英国客运航线在厦门开通",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260906/1bde2b0e-e981-4d94-b7e5-d76dbde733b7_zsite.jpg",
+        "publishedAt": "2026-09-06T03:47:58.000Z",
         "source": "中新网"
       },
       {
-        "title": "打通产销链路 福建平和举办蜜柚购销·招商引资大会",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-05/10691210.shtml",
-        "summary": "中新网福建平和9月5日电 (记者 张金川)9月5日，以“福柚兴业 产业强县”为主题的2026年平和县蜜柚购销·招商引资大会在福建省漳州市平和县开幕。本次大会以柚为媒、以会聚力，打通产销链路、集聚招商动能，为平和蜜柚全产业链升级、乡村全面振兴注入强劲动力。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/e6f8b355-0610-4c24-820c-d61e7fc07f87_zsite.jpg",
-        "publishedAt": "2026-09-05T15:51:45.000Z",
+        "title": "云南怒江咖啡数字科创技术首次反向落地非洲咖啡核心产区",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-06/10691285.shtml",
+        "summary": "中新网昆明9月6日电(杜潇潇 张春丰)记者6日从云南省怒江州委宣传部获悉，怒江云咖生物科技有限公司与肯尼亚本土互联网科技企业Xcado Limited于近日签署《咖啡数字化溯源技术合作备忘录》，实现云南咖啡数字科创技术首次反向落地非洲咖啡核心产区，开启中非咖啡数字合作全新篇章。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260906/0a07e9c3-080a-4f61-8ae0-331225128d93_zsite.jpg",
+        "publishedAt": "2026-09-06T03:46:14.000Z",
         "source": "中新网"
       },
       {
-        "title": "外贸服务搬进宠博会 “浙里出海”助绍兴企业掘金新蓝海",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-05/10691192.shtml",
-        "summary": "中新网绍兴9月5日电(蓝伊旎)9月4日至6日，2026绍兴国际宠物用品博览会在浙江绍兴举办，汇聚100余家宠物行业展商，宠物食品、日用用品、医疗健康、智能设备等丰富类目吸引中外客商采购。其间，由浙江省贸促会主办的2026“浙里出海”—1+N跨境电商助企行动(绍兴站)同步开展，旨在把外贸服务融入行业展...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/207337a0-5302-404d-abbc-eaf136561f90_zsite.jpg",
-        "publishedAt": "2026-09-05T15:32:04.000Z",
+        "title": "上半年我国支持城市更新减税降费及退税4870亿元",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-06/10691312.shtml",
+        "summary": "央视网消息(新闻联播)：国家税务总局发布的最新税收数据显示，今年上半年，各项支持城市更新的税费优惠政策累计减税降费及退税4870亿元。",
+        "image": "",
+        "publishedAt": "2026-09-06T03:36:26.000Z",
         "source": "中新网"
       },
       {
-        "title": "广东省人工智能核心产业规模突破3000亿元",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-05/10691181.shtml",
-        "summary": "中新网广州9月5日电 (记者 许青青)由广东省工业和信息化厅、广东省通信管理局共同主办的“人工智能赋能中小企业数智化转型”活动4日在广州举行。记者从活动上获悉，截至目前，广东省人工智能核心产业规模突破3000亿元。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/a5380c37-7cd5-4c68-9266-3e2e83c48599_zsite.jpeg",
-        "publishedAt": "2026-09-05T15:23:53.000Z",
+        "title": "前7个月我国服务贸易保持较快增长",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-06/10691306.shtml",
+        "summary": "央视网消息(新闻联播)：商务部发布的数据显示，今年前7个月，我国服务贸易保持较快增长。知识密集型服务和传统服务出口协同发力，带动服务贸易结构持续优化。",
+        "image": "",
+        "publishedAt": "2026-09-06T03:28:51.000Z",
         "source": "中新网"
       },
       {
-        "title": "亚太中小企业数智技术供需对接活动在穗举行",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-05/10691169.shtml",
-        "summary": "中新网广州9月5日电 (记者 王坚)第21届中国国际中小企业博览会(简称“中博会”)正在广州举行。其间，作为中博会配套活动，亚太中小企业数智技术与应用场景供需对接活动4日在广州举行。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/b12e1800-10dc-4e01-8697-294a6b8680d2_zsite.jpeg",
-        "publishedAt": "2026-09-05T15:16:49.000Z",
+        "title": "购买消暑、智能产品，游览“宝藏小城” 暑期入境消费为啥这么火？",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-06/10691301.shtml",
+        "summary": "购买消暑、智能产品，游览“宝藏小城”——",
+        "image": "",
+        "publishedAt": "2026-09-06T03:09:28.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "US envoys meet Putin in Moscow for Ukraine talks",
-        "link": "https://www.bbc.co.uk/news/articles/cx2zqp46g8eo?at_medium=RSS&at_campaign=rss",
-        "summary": "Footage shows Vladimir Putin greeting Steve Witkoff and Jared Kushner, before saying the current situation \"is not so easy\".",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d7d/live/1a5083e0-a953-11f1-adf0-6d46cbf5ba37.png",
-        "publishedAt": "2026-09-05T21:39:02.000Z",
+        "title": "US envoys set for Ukraine talks after meeting Putin in Moscow",
+        "link": "https://www.bbc.co.uk/news/articles/c6248nvqy8po?at_medium=RSS&at_campaign=rss",
+        "summary": "Steve Witkoff and Jared Kushner leave Moscow talks with hopes for \"equally productive meetings\" in Ukraine.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f8dc/live/731248d0-a997-11f1-a291-b542ee92de7c.jpg",
+        "publishedAt": "2026-09-06T02:24:16.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Watch: Moment 64-year-old Nepali woman is found alive in mud-buried home",
+        "link": "https://www.bbc.co.uk/news/videos/c4gd24d1d0do?at_medium=RSS&at_campaign=rss",
+        "summary": "Chandika Shrestha was airlifted to hospital after spending more than 10 days in her partially buried house.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/645e/live/47458b70-a994-11f1-b109-879e35c24276.jpg",
+        "publishedAt": "2026-09-06T01:54:29.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "US and Iran trade retaliatory attacks on ships as conflict flares",
+        "link": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss",
+        "summary": "The US says it hit three Iranian oil tankers, while Iran says it targeted three US-linked ships.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9613/live/a1c35120-a93c-11f1-a291-b542ee92de7c.png",
+        "publishedAt": "2026-09-05T22:44:07.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "TV presenter among 11 sentenced to death in Egypt drugs case",
+        "link": "https://www.bbc.co.uk/news/articles/c5y7gk9knnlo?at_medium=RSS&at_campaign=rss",
+        "summary": "Sarah Khalifa is best known for her TV programme Mission Impossible which dealt with crime issues.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6328/live/f1a48620-a95d-11f1-99c3-dba02712eb49.png",
+        "publishedAt": "2026-09-05T21:29:38.000Z",
         "source": "BBC"
       },
       {
@@ -312,30 +336,6 @@
         "summary": "The Prince of Wales will represent the King at the funeral of Harald V in Oslo next week.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2c5f/live/c032d030-a2b2-11f1-9024-715001d09aeb.jpg",
         "publishedAt": "2026-09-05T21:00:02.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "US hits three Iranian oil tankers after saying its warships were targeted",
-        "link": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss",
-        "summary": "Iran's state media reported that Tehran has launched retaliatory attacks against three US-affiliated vessels; the US is yet to comment.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9613/live/a1c35120-a93c-11f1-a291-b542ee92de7c.png",
-        "publishedAt": "2026-09-05T20:41:59.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "UN adopts new map to fix world’s proportions",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQa2F2TmdMZmd2OEc2WFZFZ3YwWkl5RDRaU0Zxd3hpSGZWY3FOY3UzNTFPUFNGc0JKMW93d2xqLWZRT3BlTU40ZG1JcEV0UThGb3BEUk9TMmItVTY2YV9CWmN6ZjRoaG96d0VmT3RGZmRzQk5mNUVzTDVtZVo5MzRjcXFxZWl3UVI1STY5UVltTnlzOGN2VEpoZkhUMDNMdEU?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-09-05T15:49:00.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "At least two dead in blast at Bolivia military barracks",
-        "link": "https://www.bbc.co.uk/news/articles/c3v45xy67g5o?at_medium=RSS&at_campaign=rss",
-        "summary": "Authorities fear the death toll in Viacha will rise and warn people to stay away from the barracks due to a risk of further explosions.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cea5/live/8e7be190-a905-11f1-b109-879e35c24276.jpg",
-        "publishedAt": "2026-09-05T15:22:41.000Z",
         "source": "BBC"
       }
     ],
@@ -425,53 +425,77 @@
     ],
     "domestic": [
       {
-        "title": "台湾鲜果“朝摘夕至” 岛内文旦柚登陆南京",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-06/10691222.shtml",
-        "summary": "中新社南京9月5日电 (记者 朱晓颖)依托宁台直航定班全货机空中通道，来自台湾花莲的文旦柚5日在南京开柜上架。该批文旦柚从台湾果园采摘、完成报关清关，到运达南京农副产品物流中心，全程不到24小时，较传统方式节省了近一周时间。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/ebd1a5aa-26b9-4219-b470-82a594e8b0cd_zsite.jpg",
-        "publishedAt": "2026-09-05T16:07:34.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "国际地热论坛：中外专家山西共议地热赋能低碳未来",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-05/10691204.shtml",
-        "summary": "中新网太原9月5日电 (记者 范丽芳)“全球能源系统脱碳的紧迫性不容忽视。地热能具有独特优势，应在实现减碳目标中发挥重要作用，而通过国际协作和知识共享来发展地热产业至关重要。”",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/d347ea8e-b2e7-4e36-842d-1e51a950b56f_zsite.jpg",
-        "publishedAt": "2026-09-05T15:51:03.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "重庆与新疆哈密互推精品文旅线路 “哈密号”主题列车亮相",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-05/10691174.shtml",
-        "summary": "中新网重庆9月5日电 (记者 钟旖)5日，重庆·哈密文旅推介暨2026巴蜀文化旅游走廊精品旅游线路专场推介会在重庆市九龙坡区举行。重庆轨道“哈密号”主题列车在轨道交通2号线首发亮相。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/87162ec7-c094-4cb4-b0dd-ef663de3a0e8_zsite.JPG",
-        "publishedAt": "2026-09-05T15:20:37.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "一个智库论坛如何解码中国边疆经济十年之变？",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-05/10691175.shtml",
-        "summary": "中新网吉林延吉9月5日电 题：一个智库论坛如何解码中国边疆经济十年之变？",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260905/c6d6bf74-660c-44cd-96e4-52eeab4fa354_zsite.jpg",
-        "publishedAt": "2026-09-05T15:19:51.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "韩江水库群拦洪2.5亿立方米",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-05/10691173.shtml",
-        "summary": "中新网广州9月5日电 (记者 王坚)水利部珠江水利委员会(下称“珠江委”)5日通报称，受台风“沙德尔”影响，2日至4日，珠江流域东部出现一次较强降雨过程，其中韩江流域面平均降雨量为104毫米。强降雨导致韩江流域共有11条河流发生超警洪水，韩江发生2026年第1次编号洪水。该委联合调度以棉花滩水库为核...",
+        "title": "APEC“深圳时间”：创新之城定义亚太合作新坐标",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-06/10691325.shtml",
+        "summary": "“深圳是中国向世界发出的邀请。”9月4日，在以“中国式现代化的深圳故事”为主题的亚太媒体高端论坛深圳分论坛上，来自美国的雪牛资本创始人兼首席执行官泰勒·欧根这样说道。",
         "image": "",
-        "publishedAt": "2026-09-05T15:19:35.000Z",
+        "publishedAt": "2026-09-06T04:22:43.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "在广东，看见中国机遇",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-06/10691324.shtml",
+        "summary": "潮涌亚太，大道同行",
+        "image": "",
+        "publishedAt": "2026-09-06T04:18:00.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "亚太媒体高端论坛嘉宾参访广州、佛山——“中国智造动能澎湃、享誉全球”",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-06/10691323.shtml",
+        "summary": "亚太媒体高端论坛嘉宾参访广州、佛山——",
+        "image": "",
+        "publishedAt": "2026-09-06T04:06:04.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "水利部：全国10条河流仍维持超警 赣江1号洪水洪峰已过樟树江段",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-06/10691320.shtml",
+        "summary": "记者从水利部了解到，今天(9月6日)上午，水利部组织滚动会商，分析研判全国雨水情态势，安排部署重点防御工作。截至9月6日11时，浙江、江西、黑龙江等地10条河流仍维持超警，最大超警幅度1.04米，江西赣江1号洪水洪峰已通过樟树江段，预计未来24小时内赣江干流全线将退至警戒水位以下。",
+        "image": "",
+        "publishedAt": "2026-09-06T03:59:09.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "亚太媒体代表广东行：探访开放、创新、合作新机遇",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-06/10691318.shtml",
+        "summary": "初秋时节，珠江两岸海风拂面，生机盎然。亚太媒体高端论坛5日在深圳开幕。2日至4日，与会嘉宾在论坛开幕前分赴广州、深圳、东莞、中山、珠海等广东多地参访，以深入一线的调研，感知中国高质量发展的强劲脉搏，探寻亚太开放、创新、合作的新机遇。",
+        "image": "",
+        "publishedAt": "2026-09-06T03:55:37.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "US envoys meet Putin in Moscow for Ukraine talks",
-        "link": "https://www.bbc.co.uk/news/articles/cx2zqp46g8eo?at_medium=RSS&at_campaign=rss",
-        "summary": "Footage shows Vladimir Putin greeting Steve Witkoff and Jared Kushner, before saying the current situation \"is not so easy\".",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d7d/live/1a5083e0-a953-11f1-adf0-6d46cbf5ba37.png",
-        "publishedAt": "2026-09-05T21:39:02.000Z",
+        "title": "US envoys set for Ukraine talks after meeting Putin in Moscow",
+        "link": "https://www.bbc.co.uk/news/articles/c6248nvqy8po?at_medium=RSS&at_campaign=rss",
+        "summary": "Steve Witkoff and Jared Kushner leave Moscow talks with hopes for \"equally productive meetings\" in Ukraine.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f8dc/live/731248d0-a997-11f1-a291-b542ee92de7c.jpg",
+        "publishedAt": "2026-09-06T02:24:16.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Watch: Moment 64-year-old Nepali woman is found alive in mud-buried home",
+        "link": "https://www.bbc.co.uk/news/videos/c4gd24d1d0do?at_medium=RSS&at_campaign=rss",
+        "summary": "Chandika Shrestha was airlifted to hospital after spending more than 10 days in her partially buried house.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/645e/live/47458b70-a994-11f1-b109-879e35c24276.jpg",
+        "publishedAt": "2026-09-06T01:54:29.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "US and Iran trade retaliatory attacks on ships as conflict flares",
+        "link": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss",
+        "summary": "The US says it hit three Iranian oil tankers, while Iran says it targeted three US-linked ships.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9613/live/a1c35120-a93c-11f1-a291-b542ee92de7c.png",
+        "publishedAt": "2026-09-05T22:44:07.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "TV presenter among 11 sentenced to death in Egypt drugs case",
+        "link": "https://www.bbc.co.uk/news/articles/c5y7gk9knnlo?at_medium=RSS&at_campaign=rss",
+        "summary": "Sarah Khalifa is best known for her TV programme Mission Impossible which dealt with crime issues.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6328/live/f1a48620-a95d-11f1-99c3-dba02712eb49.png",
+        "publishedAt": "2026-09-05T21:29:38.000Z",
         "source": "BBC"
       },
       {
@@ -481,36 +505,12 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2c5f/live/c032d030-a2b2-11f1-9024-715001d09aeb.jpg",
         "publishedAt": "2026-09-05T21:00:02.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "US hits three Iranian oil tankers after saying its warships were targeted",
-        "link": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss",
-        "summary": "Iran's state media reported that Tehran has launched retaliatory attacks against three US-affiliated vessels; the US is yet to comment.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9613/live/a1c35120-a93c-11f1-a291-b542ee92de7c.png",
-        "publishedAt": "2026-09-05T20:41:59.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "UN adopts new map to fix world’s proportions",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQa2F2TmdMZmd2OEc2WFZFZ3YwWkl5RDRaU0Zxd3hpSGZWY3FOY3UzNTFPUFNGc0JKMW93d2xqLWZRT3BlTU40ZG1JcEV0UThGb3BEUk9TMmItVTY2YV9CWmN6ZjRoaG96d0VmT3RGZmRzQk5mNUVzTDVtZVo5MzRjcXFxZWl3UVI1STY5UVltTnlzOGN2VEpoZkhUMDNMdEU?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-09-05T15:49:00.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "At least two dead in blast at Bolivia military barracks",
-        "link": "https://www.bbc.co.uk/news/articles/c3v45xy67g5o?at_medium=RSS&at_campaign=rss",
-        "summary": "Authorities fear the death toll in Viacha will rise and warn people to stay away from the barracks due to a risk of further explosions.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cea5/live/8e7be190-a905-11f1-b109-879e35c24276.jpg",
-        "publishedAt": "2026-09-05T15:22:41.000Z",
-        "source": "BBC"
       }
     ],
     "nba": []
   },
   "nbaScoreboard": {
-    "date": "2026-09-05",
+    "date": "2026-09-06",
     "games": []
   },
   "aiPapers": {
