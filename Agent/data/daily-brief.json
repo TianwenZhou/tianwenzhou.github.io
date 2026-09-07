@@ -1,50 +1,42 @@
 {
-  "generatedAt": "2026-09-07T14:12:22.516Z",
+  "generatedAt": "2026-09-07T19:53:11.849Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 20,
-      "weatherCode": 61,
-      "windSpeed": 14
+      "temperature": 18,
+      "weatherCode": 51,
+      "windSpeed": 7
     },
     "today": {
-      "date": "2026-09-07",
-      "weatherCode": 81,
-      "description": "强阵雨",
-      "max": 30,
-      "min": 19,
-      "precipitationProbability": 82
+      "date": "2026-09-08",
+      "weatherCode": 53,
+      "description": "小雨",
+      "max": 22,
+      "min": 17,
+      "precipitationProbability": 100
     },
     "forecast": [
       {
-        "date": "2026-09-07",
-        "weatherCode": 81,
-        "description": "强阵雨",
-        "max": 30,
-        "min": 19,
-        "precipitationProbability": 82
-      },
-      {
         "date": "2026-09-08",
-        "weatherCode": 55,
-        "description": "中雨",
-        "max": 21,
+        "weatherCode": 53,
+        "description": "小雨",
+        "max": 22,
         "min": 17,
-        "precipitationProbability": 98
+        "precipitationProbability": 100
       },
       {
         "date": "2026-09-09",
         "weatherCode": 3,
         "description": "阴天",
         "max": 24,
-        "min": 16,
+        "min": 15,
         "precipitationProbability": 0
       },
       {
         "date": "2026-09-10",
-        "weatherCode": 2,
-        "description": "局部多云",
-        "max": 27,
+        "weatherCode": 0,
+        "description": "晴朗",
+        "max": 28,
         "min": 13,
         "precipitationProbability": 0
       },
@@ -52,35 +44,52 @@
         "date": "2026-09-11",
         "weatherCode": 3,
         "description": "阴天",
-        "max": 28,
+        "max": 29,
         "min": 14,
+        "precipitationProbability": 0
+      },
+      {
+        "date": "2026-09-12",
+        "weatherCode": 3,
+        "description": "阴天",
+        "max": 29,
+        "min": 17,
         "precipitationProbability": 0
       }
     ]
   },
   "classicQuote": {
-    "id": "zhuangzi-time",
-    "text": "人生天地之间，若白驹之过隙，忽然而已。",
-    "source": "《庄子》",
-    "author": "庄周",
-    "note": "事情很多的时候，更值得把注意力放在真正重要的事上。"
+    "id": "dream-red-mansions",
+    "text": "世事洞明皆学问，人情练达即文章。",
+    "source": "《红楼梦》",
+    "author": "曹雪芹",
+    "note": "技术之外，理解人和场景，往往更能拉开差距。"
   },
   "bookExcerpt": {
-    "id": "one-hundred-years-yellow",
-    "text": "许多年以后，面对行刑队，奥雷里亚诺·布恩迪亚上校将会想起父亲带他去见识冰块的那个遥远的下午。",
-    "book": "《百年孤独》",
-    "author": "加西亚·马尔克斯"
+    "id": "floating-life-lotus",
+    "text": "芸坐其侧，素手烹茶，窗外新荷微香，连晚风也像带着水意，从竹帘间一寸寸地漫进来。",
+    "book": "《浮生六记》",
+    "author": "沈复"
   },
   "featuredPlace": {
-    "id": "202609061600",
-    "title": "老市政厅，班贝格，德国",
+    "id": "202609071600",
+    "title": "东米恩南唐斯国家公园谷物田中的山毛榉树，汉普郡，英格兰",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "历史沿运河流淌之地",
-    "image": "https://www.bing.com/th?id=OHR.BambergTownhall_ZH-CN1407954732_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E7%8F%AD%E8%B4%9D%E6%A0%BC&form=hpcapt&mkt=zh-cn"
+    "summary": "金色田野",
+    "image": "https://www.bing.com/th?id=OHR.BeechEngland_ZH-CN1807343872_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E8%8B%B1%E6%A0%BC%E5%85%B0%E6%B1%89%E6%99%AE%E9%83%A1&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202609071600",
+      "title": "东米恩南唐斯国家公园谷物田中的山毛榉树，汉普郡，英格兰",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "金色田野",
+      "image": "https://www.bing.com/th?id=OHR.BeechEngland_ZH-CN1807343872_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E8%8B%B1%E6%A0%BC%E5%85%B0%E6%B1%89%E6%99%AE%E9%83%A1&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202609061600",
       "title": "老市政厅，班贝格，德国",
@@ -143,35 +152,50 @@
       "summary": "脚下的世界",
       "image": "https://www.bing.com/th?id=OHR.HorseHairShroom_ZH-CN2241458451_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E9%A9%AC%E9%AC%83%E5%B0%8F%E7%9A%AE%E4%BC%9E&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202608301600",
-      "title": "雷吉斯坦广场的建筑细节，撒马尔罕，乌兹别克斯坦",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "图案艺术的典范",
-      "image": "https://www.bing.com/th?id=OHR.SamarkandCeiling_ZH-CN1818913296_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E6%92%92%E9%A9%AC%E5%B0%94%E7%BD%95&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-09-07",
-    "dateLabel": "9月7日",
+    "dateKey": "2026-09-08",
+    "dateLabel": "9月8日",
     "items": [
       {
-        "year": "2012",
-        "text": "中国云南省彝良县附近地区连续发生两场地震，至少造成80人死数百人伤。",
-        "link": "https://zh.wikipedia.org/wiki/2012%E5%B9%B4"
+        "year": "2025",
+        "text": "尼泊爾爆發反政府示威，導致總理卡德加·普拉薩德·夏爾馬·奧利辭職。",
+        "link": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4"
       },
       {
-        "year": "2011",
-        "text": "俄罗斯雅罗斯拉夫尔发生空难，造成43人当场罹难，其中包括雅罗斯拉夫尔火车头冰球队全体运动员。",
-        "link": "https://zh.wikipedia.org/wiki/2011%E5%B9%B4"
+        "year": "2023",
+        "text": "摩洛哥馬拉喀什-薩菲大區發生MW 6.8的強烈地震，造成2,946人死亡、5,647人受傷。",
+        "link": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
+      {
+        "title": "驻华使节沪苏行活动在上海启幕",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-07/10692288.shtml",
+        "summary": "中新社上海9月7日电 （许婧 娄瀚锟 张亨伟）“走进人民城市：中国之治与全球互鉴”驻华使节沪苏行活动启动仪式7日在上海举行。来自白俄罗斯、西班牙、孟加拉国、塞浦路斯、纳米比亚等20个国家的30位驻华使节及外交官，将赴沪苏两地实地参访，共享城市发展先进理念和成功经验。",
+        "image": "",
+        "publishedAt": "2026-09-07T15:36:30.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "王毅同墨西哥外长贝拉斯科会谈",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-07/10692285.shtml",
+        "summary": "中新社北京9月7日电 9月7日，中共中央政治局委员、外交部长王毅在北京同墨西哥外长贝拉斯科会谈。",
+        "image": "",
+        "publishedAt": "2026-09-07T14:27:33.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "平陆运河通航在即：解码西南出海与向海发展关键",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-07/10692264.shtml",
+        "summary": "中新网南宁9月7日电(记者 杨陈)9月7日，广西官方在南宁举行新闻发布会宣布，新中国成立以来首条国家层面统筹建设的通江达海运河——平陆运河，将于9月16日正式通航。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260907/3b9a3515-b4df-4246-abf7-a2860bd33187_zsite.JPG",
+        "publishedAt": "2026-09-07T14:06:40.000Z",
+        "source": "中新网"
+      },
       {
         "title": "服务全球发展大局 中国政法大学国际组织人才培养研讨会举办",
         "link": "https://www.chinanews.com.cn/gn/2026/09-07/10692263.shtml",
@@ -187,75 +211,67 @@
         "image": "",
         "publishedAt": "2026-09-07T13:58:23.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "吉林省成功放归38只救护野生动物",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-07/10692251.shtml",
-        "summary": "中新网长春9月7日电 (张瑶 吴林锡)近日，在吉林省长春市双阳区吊水壶森林公园，38只经过专业救护的野生动物被放归大自然。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260907/880f49e5-9119-41a5-a0e3-3ae37c0cb9b0_zsite.jpeg",
-        "publishedAt": "2026-09-07T13:57:49.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "宁夏玉米刷新西北干旱半干旱区高产纪录",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-07/10692250.shtml",
-        "summary": "中新网银川9月7日电 (记者 李佩珊)地处中国西北干旱半干旱地带的宁夏，依托种业攻关与栽培技术持续创新，玉米种植接连刷新区域高产纪录，为全球干旱半干旱地区农业提质增产提供了可复制的中国技术方案与实践范例。记者7日从宁夏农林科学院了解到，玉米是宁夏第一大农作物，种植面积近900万亩，贡献全自治区粮食总...",
-        "image": "",
-        "publishedAt": "2026-09-07T13:57:13.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "2026海洋合作发展论坛将在青岛举办 聚焦未来海洋产业发展等议题",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-07/10692242.shtml",
-        "summary": "中新网济南9月7日电 (记者 孙婷婷)“海洋合作发展论坛已经成为深化海洋合作交流、促进海洋经济发展、推动海洋科技创新和全球海洋治理的重要平台。”山东省人民政府副省长李晓龙7日表示，2026海洋合作发展论坛将于9月16日至9月18日在青岛西海岸新区举办，主题为“从蔚蓝到未来——发展可持续海洋经济，共建...",
-        "image": "",
-        "publishedAt": "2026-09-07T13:47:21.000Z",
-        "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "杂交水稻大面积超高产制种亩产创新高 首次突破1000斤大关",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-07/10692259.shtml",
-        "summary": "中新网长沙9月7日电 (记者 唐小晴)9月7日，经湖南省农学会组织省内外权威专家现场测产验收，湖南邵阳市绥宁县武阳镇布局超级稻爽两优138大面积制种示范片亩产达530.4公斤，首次突破1000斤大关。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260907/65588ec0-7f24-4460-965e-c64c2a5a7b89_zsite.jpg",
-        "publishedAt": "2026-09-07T13:59:27.000Z",
+        "title": "“无糖”≠零糖零卡！含甜味剂饮料喝多也伤身",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-08/10692297.shtml",
+        "summary": "现在大家都很注意饮食健康，市面上也有不少所谓的无糖饮料打着零糖、零卡的旗号。很多人认为，既然是“无糖”饮料，那就意味着完全不含糖和热量，更健康，可以随意喝。",
+        "image": "",
+        "publishedAt": "2026-09-07T16:00:17.000Z",
         "source": "中新网"
       },
       {
-        "title": "（乡村行·看振兴）浙江云和：小工坊迸发大能量 山区百姓家门口增收",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-07/10692256.shtml",
-        "summary": "中新网丽水9月7日电(傅飞扬 俞海友)“这次是9400包木玩算术棒，总共1222元，我马上转给你。”近日，在浙江省丽水市云和县，一句简单对账、一次即时结算，让山乡的共富链条开启了新一天的运转。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260907/fe43022e-b680-46af-8d24-e8377a117419_zsite.jpg",
-        "publishedAt": "2026-09-07T13:59:05.000Z",
+        "title": "定动力、装“耳朵”、防风险 我国牵头制定多项汽车国际标准",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-07/10692296.shtml",
+        "summary": "记者今天从国家标准委了解到，由我国牵头完成的纯电动汽车整车领域首个国际标准，《电动车辆道路运行特性-第1部分：乘用车和轻型货车》近日正式发布。",
+        "image": "",
+        "publishedAt": "2026-09-07T15:58:09.000Z",
         "source": "中新网"
       },
       {
-        "title": "广州东部再添优质公办教育新力量",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-07/10692252.shtml",
-        "summary": "中新网广州9月7日电 (记者 程景伟)华中师范大学黄埔实验学校7日举行揭牌活动，近300名新生在全体老师及家长代表的见证下，正式开启求学新篇章。这所由华中师范大学与广州市黄埔区合办的12年制公办学校进入实质性办学阶段。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260907/4ced8ebb-a9bc-411a-92d3-873aebc4b42a_zsite.jpeg",
-        "publishedAt": "2026-09-07T13:57:33.000Z",
+        "title": "探营世赛集训基地：全英文高难度比拼 物流与货运代理项目全力备战",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-07/10692287.shtml",
+        "summary": "中新网上海9月7日电 (雷莹 许婧)第48届世界技能大赛即将在上海拉开帷幕。7日，记者来到物流与货运代理项目的上海集训基地实地探访。凭借扎实的人才储备与体系化训练，中国代表团已连续两届斩获该项目金牌，目前国家队集训团队正在上海全力冲刺主场赛事，力争延续优势、再创佳绩。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260907/7e531d2b-e72e-4af1-b51e-f70565be8e35_zsite.jpg",
+        "publishedAt": "2026-09-07T15:21:01.000Z",
         "source": "中新网"
       },
       {
-        "title": "什么是AI替代不了的画面？35位职工网络达人基层找答案",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-07/10692245.shtml",
-        "summary": "中新网太原9月7日电 (记者 范丽芳)“人工智能效率虽高，却生不成基层的泥土和汗水。AI是工具，本真才是灵魂。真正打动人心、能够沉淀下来的，永远是不加修饰的真实瞬间。”9月7日，“燃情三晋 职V聚力”职工网络达人山西行启动现场，来自山西省消防救援局的职工网络达人侯佳一道出此次活动的意义。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260907/286e445e-aae9-4924-84dc-d8661a023361_zsite.jpeg",
-        "publishedAt": "2026-09-07T13:51:55.000Z",
+        "title": "宁夏科技特派员引智下乡 撬动亿元资本助产业振兴",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-07/10692272.shtml",
+        "summary": "中新网银川9月7日电 (记者 李佩珊)记者7日从宁夏科技厅获悉，截至2025年末，宁夏科技特派员队伍规模达4602人(家)，同比增长9.7%。其中，区外科技特派员249人(家)，增幅高达47.3%。外地高端智力持续下沉宁夏乡村一线，有效补齐基层产业技术短板，破解县域发展人才瓶颈。",
+        "image": "",
+        "publishedAt": "2026-09-07T14:16:47.000Z",
         "source": "中新网"
       },
       {
-        "title": "船员意外摔伤昏迷 就医专线助打通海上生命通道",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-07/10692244.shtml",
-        "summary": "中新网广州9月7日电 (郭军 陈秀慧 王潇悦)9月7日14时36分，广州海事部门接到南沙120急救中心紧急通报，辖区船舶“桂平海宏XXXX”轮一名水手在休息期间意外摔落，陷入昏迷，急需专业医疗救治。接报后，海事部门第一时间启动“船员就医专线”应急救助机制，快速联动多方力量开展紧急救援，为受伤船员打通...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260907/82654305-adf3-4abc-ae98-8f78f421021d_zsite.jpg",
-        "publishedAt": "2026-09-07T13:46:25.000Z",
+        "title": "三亚港口岸清水湾港区对外开放后首艘出境游艇顺利通关",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-07/10692270.shtml",
+        "summary": "中新网三亚9月7日电 (丛高)据三亚出入境边防检查站消息，9月7日，中国籍游艇“洋都通”号在办理出境手续后缓缓驶离陵水清水湾游艇码头前往中国香港，这标志着海南三亚港口岸清水湾港区正式对国际航行船舶开放后，首艘出境游艇顺利通关。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260907/dda8defe-0fb1-447f-aaf2-e89d594ecdf3_zsite.jpg",
+        "publishedAt": "2026-09-07T14:13:01.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
+      {
+        "title": "中国央行连续22个月增持黄金 储备规模升至7673万盎司",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-07/10692283.shtml",
+        "summary": "中新社北京9月7日电 (陶思阅)据中国央行7日公布的数据，8月末黄金储备报7673万盎司，环比增加65万盎司。",
+        "image": "",
+        "publishedAt": "2026-09-07T14:26:59.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "中国提出到2030年全面建成覆盖完善、性能领先的新一代通信网",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-07/10692282.shtml",
+        "summary": "中新社北京9月7日电 中国工业和信息化部7日公布的《信息通信行业发展“十五五”规划》提出，到2030年，全面建成覆盖完善、性能领先的新一代通信网。",
+        "image": "",
+        "publishedAt": "2026-09-07T14:26:07.000Z",
+        "source": "中新网"
+      },
       {
         "title": "聚焦前沿科技与智能制造 台商台企在渝感受产业新动能",
         "link": "https://www.chinanews.com.cn/cj/2026/09-07/10692265.shtml",
@@ -279,25 +295,41 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260907/2d7346ef-bc1d-4c2f-8152-0b573b66ccf7_zsite.jpg",
         "publishedAt": "2026-09-07T13:52:11.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "中亚、北非代表走进浙江 共促经贸合作提质升级",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-07/10692243.shtml",
-        "summary": "中新网杭州9月7日电(蓝伊旎)9月7日，“浙里出海”中国(浙江)—中亚、北非经贸研讨会在杭州举办，来自埃及、摩洛哥、哈萨克斯坦、乌兹别克斯坦的政商界代表与浙江企业家齐聚一堂，共商合作新机遇。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260907/89a4cf0c-4d52-4ef6-853b-89de79975be0_zsite.jpg",
-        "publishedAt": "2026-09-07T13:51:39.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "两部门发文推动车企规范供应商账款支付优化账期管理",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-07/10692257.shtml",
-        "summary": "中新网北京9月7日电 工业和信息化部、市场监管总局7日联合发布《关于推动汽车企业规范供应商账款支付优化账期管理的通知》(以下简称《通知》)。这是国家层面出台的首个面向行业领域的账期管理文件，旨在推动解决汽车行业账款支付重点、难点问题。",
-        "image": "",
-        "publishedAt": "2026-09-07T13:49:05.000Z",
-        "source": "中新网"
       }
     ],
     "worldTop": [
+      {
+        "title": "Investigators begin work on why cargo plane overran Miami runway",
+        "link": "https://www.bbc.co.uk/news/articles/c0e3p1j7n3ro?at_medium=RSS&at_campaign=rss",
+        "summary": "Five people died and five others were injured as the Amazon plane overshot the runway after landing at Miami International Airport.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d36/live/ead9f6b0-aa73-11f1-8722-09fc3b051866.jpg",
+        "publishedAt": "2026-09-07T17:46:25.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Trump’s blockade pushes Iran toward military escalation",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUXZJVVgtNGFzbUw2dFlzcE5UY3cxMEpZeDR5SU03WGMyeXFfbjM2c011bzVyaktKd2k4UU8zT0FLUzM2Q2VQc3N0U2tKRDFHcjNOLVJQbHRFVHItcGhlZU5GeE9wNmRtZGpkYjRJaFlmTVpZM1A1ZVFkNHpUS3pweVB2MGtaQ2c5dld3LVNvd213TlFsbXhJ?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-09-07T17:19:23.000Z",
+        "source": "CNN"
+      },
+      {
+        "title": "Grindr to pay £26m to settle claims it allegedly shared users' HIV status",
+        "link": "https://www.bbc.co.uk/news/articles/cn8e63qdqwzo?at_medium=RSS&at_campaign=rss",
+        "summary": "The long-running claim alleges Grindr breached UK privacy laws by sharing data with third parties.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b63e/live/b7a99d40-aacd-11f1-9f87-35997bdaf8f4.jpg",
+        "publishedAt": "2026-09-07T15:27:50.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Thousands turn out in Serbia for funeral of 'Butcher of Bosnia' Ratko Mladić",
+        "link": "https://www.bbc.co.uk/news/articles/cn5dkk7yw74o?at_medium=RSS&at_campaign=rss",
+        "summary": "Mladić was jailed for genocide during the 1990s Bosnian war and the EU warned Serbia not to glorify the convicted war criminal.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1cbf/live/7beeaca0-aac3-11f1-9bcd-4de40c4158ea.jpg",
+        "publishedAt": "2026-09-07T14:50:50.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Germany's far-right AfD says 'democracy demands' parties work with them after state election win",
         "link": "https://www.bbc.co.uk/news/articles/cpd0113082eo?at_medium=RSS&at_campaign=rss",
@@ -305,63 +337,39 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/742c/live/a801c5d0-aa9a-11f1-ab09-7f2415c9a652.jpg",
         "publishedAt": "2026-09-07T14:04:01.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Israeli strikes in southern Lebanese village kill 12",
-        "link": "https://www.bbc.co.uk/news/articles/c5yl96vz0edo?at_medium=RSS&at_campaign=rss",
-        "summary": "Lebanon says a recent Israeli escalation is jeopardising a US-brokered ceasefire meant to end the conflict between Israel and Hezbollah.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/73bc/live/047b0dc0-aa8d-11f1-b109-879e35c24276.jpg",
-        "publishedAt": "2026-09-07T13:39:23.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "War criminal Ratko Mladić to receive full military honors in funeral as crowds gather",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZ1hZbTRySEdwYVZlOWg2aWVHd1ZHOW1QWHFsM1ZDUDQxS2tuaTFHN2lQeXRFWm5fNDBhQzhyT0pTYW5wa0lzVXZnd1VKRmluZkZpRGVzUXZzcWtULXpCZnRkbWw0cWRzV0xOaklzNXBsbUJ4VWY3ODNMVHVWVHRYdw?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-09-07T10:20:53.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "Probe begins into why cargo plane overran Miami runway",
-        "link": "https://www.bbc.co.uk/news/articles/c0e3p1j7n3ro?at_medium=RSS&at_campaign=rss",
-        "summary": "Five people died and five others were injured as the Amazon plane overshot the runway after landing at Miami International Airport.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d36/live/ead9f6b0-aa73-11f1-8722-09fc3b051866.jpg",
-        "publishedAt": "2026-09-07T09:54:40.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Kyiv air raid alerts at record high as Russia launches round-the-clock strikes",
-        "link": "https://www.bbc.co.uk/news/articles/cjdvx9pz44ro?at_medium=RSS&at_campaign=rss",
-        "summary": "Schools, businesses and public transport are all struggling with the surge in Russian air attacks.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b166/live/63ecaa80-a884-11f1-824a-0fc4c5d895ae.jpg",
-        "publishedAt": "2026-09-07T07:03:44.000Z",
-        "source": "BBC"
       }
     ],
     "worldBusiness": [
       {
-        "title": "Why Jaguar Land Rover has decided change is needed",
-        "link": "https://www.bbc.co.uk/news/articles/c5y4l22p262o?at_medium=RSS&at_campaign=rss",
-        "summary": "Job cuts come as JLR faces falling sales and intense Chinese competition while trying to switch to electric vehicles.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2bb7/live/3ca652b0-aabd-11f1-b960-379ca4827622.jpg",
-        "publishedAt": "2026-09-07T13:32:39.000Z",
+        "title": "Next wins key appeal to overturn £30m equal pay ruling",
+        "link": "https://www.bbc.co.uk/news/articles/c05r61rqe4yo?at_medium=RSS&at_campaign=rss",
+        "summary": "A judge ruled Next can pay warehouse workers more because it is harder to recruit and retain them.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/83ff/live/152fc380-aacf-11f1-9f87-35997bdaf8f4.jpg",
+        "publishedAt": "2026-09-07T16:25:41.000Z",
         "source": "BBC"
       },
       {
-        "title": "Chancellor refuses to rule out tax hikes in October Budget",
+        "title": "Chancellor calls for 'confidence about Britain' despite 'historic high' borrowing costs",
         "link": "https://www.bbc.co.uk/news/articles/cgjqg450w28o?at_medium=RSS&at_campaign=rss",
         "summary": "John Healey detailed plans to spread growth more widely across the UK, ahead of his first Budget.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/337d/live/666febe0-aaa6-11f1-9eba-7de947fa7cd1.jpg",
-        "publishedAt": "2026-09-07T12:48:28.000Z",
+        "publishedAt": "2026-09-07T16:05:37.000Z",
         "source": "BBC"
       },
       {
-        "title": "Jaguar Land Rover to cut 4,000 jobs over next two years",
-        "link": "https://www.bbc.co.uk/news/articles/c36lx560jjko?at_medium=RSS&at_campaign=rss",
-        "summary": "The cuts come as the carmaker struggles with Chinese competition, US tariffs, and the transition to electric vehicles.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c067/live/5d770b70-aaa3-11f1-b109-879e35c24276.jpg",
-        "publishedAt": "2026-09-07T11:51:54.000Z",
+        "title": "Faisal Islam: Chancellor's attempts to boost vibes may limit tax rises",
+        "link": "https://www.bbc.co.uk/news/articles/c39mz7xlvjzo?at_medium=RSS&at_campaign=rss",
+        "summary": "The new leadership is trying to maintain both confidence and the promotion of economic animal spirits.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cc41/live/b8f9f260-aaca-11f1-9f87-35997bdaf8f4.jpg",
+        "publishedAt": "2026-09-07T15:41:52.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Why the 'Temu Range Rover' is such a threat to Jaguar Land Rover",
+        "link": "https://www.bbc.co.uk/news/articles/c5y4l22p262o?at_medium=RSS&at_campaign=rss",
+        "summary": "Job cuts come as JLR faces falling sales and intense Chinese competition while trying to switch to electric vehicles.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2bb7/live/3ca652b0-aabd-11f1-b960-379ca4827622.jpg",
+        "publishedAt": "2026-09-07T14:36:37.000Z",
         "source": "BBC"
       },
       {
@@ -371,19 +379,19 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2ff9/live/508ded00-a78a-11f1-9bb7-af8e8fd3d806.jpg",
         "publishedAt": "2026-09-07T08:50:55.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "China to pump $54bn into state banks and insurers to boost economy",
-        "link": "https://www.bbc.co.uk/news/articles/cx2z37qj4wno?at_medium=RSS&at_campaign=rss",
-        "summary": "It comes as Beijing is aiming to reshape its economy in the face of a number of challenges.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6782/live/9df185f0-aa6b-11f1-a525-873a5928ac64.jpg",
-        "publishedAt": "2026-09-07T02:26:12.000Z",
-        "source": "BBC"
       }
     ],
     "worldTech": [
       {
-        "title": "OpenAI chief scientist warns no one is prepared for consequences of AI",
+        "title": "Grindr to pay £26m to settle claims it allegedly shared users' HIV status",
+        "link": "https://www.bbc.co.uk/news/articles/cn8e63qdqwzo?at_medium=RSS&at_campaign=rss",
+        "summary": "The long-running claim alleges Grindr breached UK privacy laws by sharing data with third parties.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b63e/live/b7a99d40-aacd-11f1-9f87-35997bdaf8f4.jpg",
+        "publishedAt": "2026-09-07T15:27:50.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "OpenAI chief scientist warns no-one is prepared for consequences of AI",
         "link": "https://www.bbc.co.uk/news/articles/cwyzrrd0kp7o?at_medium=RSS&at_campaign=rss",
         "summary": "The post comes as the firm releases GPT-6 Astra, which it says is its most powerful product yet.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9408/live/98bd0c70-aaa8-11f1-9eba-7de947fa7cd1.jpg",
@@ -413,17 +421,33 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/067c/live/895a4a20-a84d-11f1-80f8-c33181935c5a.jpg",
         "publishedAt": "2026-09-04T11:48:24.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "‘Extremely rare event:’ Miles-long microalgae bloom knocks out most of Israel’s desalination plants",
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTXZHMUlNb1pad3NWemt2UjNsckpEVnhCRWo0NUFkUnloQnVjbExWQ091cWlqcjRzcUZLNEY5SW11ZHQyZTVUQlVKaG9EaEZjS0hTckZ0a3NEemM4TGExUEdaZlNQVzFwSEpxRHJMV3h5TjlWbmg0ZGh5M3JvYVJuYVZieHVZOGN5NTdySmQ2TWoxLVd6eFE?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-09-04T10:00:29.000Z",
-        "source": "CNN"
       }
     ],
     "domestic": [
+      {
+        "title": "驻华使节沪苏行活动在上海启幕",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-07/10692288.shtml",
+        "summary": "中新社上海9月7日电 （许婧 娄瀚锟 张亨伟）“走进人民城市：中国之治与全球互鉴”驻华使节沪苏行活动启动仪式7日在上海举行。来自白俄罗斯、西班牙、孟加拉国、塞浦路斯、纳米比亚等20个国家的30位驻华使节及外交官，将赴沪苏两地实地参访，共享城市发展先进理念和成功经验。",
+        "image": "",
+        "publishedAt": "2026-09-07T15:36:30.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "王毅同墨西哥外长贝拉斯科会谈",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-07/10692285.shtml",
+        "summary": "中新社北京9月7日电 9月7日，中共中央政治局委员、外交部长王毅在北京同墨西哥外长贝拉斯科会谈。",
+        "image": "",
+        "publishedAt": "2026-09-07T14:27:33.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "平陆运河通航在即：解码西南出海与向海发展关键",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-07/10692264.shtml",
+        "summary": "中新网南宁9月7日电(记者 杨陈)9月7日，广西官方在南宁举行新闻发布会宣布，新中国成立以来首条国家层面统筹建设的通江达海运河——平陆运河，将于9月16日正式通航。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260907/3b9a3515-b4df-4246-abf7-a2860bd33187_zsite.JPG",
+        "publishedAt": "2026-09-07T14:06:40.000Z",
+        "source": "中新网"
+      },
       {
         "title": "服务全球发展大局 中国政法大学国际组织人才培养研讨会举办",
         "link": "https://www.chinanews.com.cn/gn/2026/09-07/10692263.shtml",
@@ -439,71 +463,47 @@
         "image": "",
         "publishedAt": "2026-09-07T13:58:23.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "吉林省成功放归38只救护野生动物",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-07/10692251.shtml",
-        "summary": "中新网长春9月7日电 (张瑶 吴林锡)近日，在吉林省长春市双阳区吊水壶森林公园，38只经过专业救护的野生动物被放归大自然。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260907/880f49e5-9119-41a5-a0e3-3ae37c0cb9b0_zsite.jpeg",
-        "publishedAt": "2026-09-07T13:57:49.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "宁夏玉米刷新西北干旱半干旱区高产纪录",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-07/10692250.shtml",
-        "summary": "中新网银川9月7日电 (记者 李佩珊)地处中国西北干旱半干旱地带的宁夏，依托种业攻关与栽培技术持续创新，玉米种植接连刷新区域高产纪录，为全球干旱半干旱地区农业提质增产提供了可复制的中国技术方案与实践范例。记者7日从宁夏农林科学院了解到，玉米是宁夏第一大农作物，种植面积近900万亩，贡献全自治区粮食总...",
-        "image": "",
-        "publishedAt": "2026-09-07T13:57:13.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "2026海洋合作发展论坛将在青岛举办 聚焦未来海洋产业发展等议题",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-07/10692242.shtml",
-        "summary": "中新网济南9月7日电 (记者 孙婷婷)“海洋合作发展论坛已经成为深化海洋合作交流、促进海洋经济发展、推动海洋科技创新和全球海洋治理的重要平台。”山东省人民政府副省长李晓龙7日表示，2026海洋合作发展论坛将于9月16日至9月18日在青岛西海岸新区举办，主题为“从蔚蓝到未来——发展可持续海洋经济，共建...",
-        "image": "",
-        "publishedAt": "2026-09-07T13:47:21.000Z",
-        "source": "中新网"
       }
     ],
     "international": [
+      {
+        "title": "Investigators begin work on why cargo plane overran Miami runway",
+        "link": "https://www.bbc.co.uk/news/articles/c0e3p1j7n3ro?at_medium=RSS&at_campaign=rss",
+        "summary": "Five people died and five others were injured as the Amazon plane overshot the runway after landing at Miami International Airport.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d36/live/ead9f6b0-aa73-11f1-8722-09fc3b051866.jpg",
+        "publishedAt": "2026-09-07T17:46:25.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Trump’s blockade pushes Iran toward military escalation",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUXZJVVgtNGFzbUw2dFlzcE5UY3cxMEpZeDR5SU03WGMyeXFfbjM2c011bzVyaktKd2k4UU8zT0FLUzM2Q2VQc3N0U2tKRDFHcjNOLVJQbHRFVHItcGhlZU5GeE9wNmRtZGpkYjRJaFlmTVpZM1A1ZVFkNHpUS3pweVB2MGtaQ2c5dld3LVNvd213TlFsbXhJ?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-09-07T17:19:23.000Z",
+        "source": "CNN"
+      },
+      {
+        "title": "Grindr to pay £26m to settle claims it allegedly shared users' HIV status",
+        "link": "https://www.bbc.co.uk/news/articles/cn8e63qdqwzo?at_medium=RSS&at_campaign=rss",
+        "summary": "The long-running claim alleges Grindr breached UK privacy laws by sharing data with third parties.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b63e/live/b7a99d40-aacd-11f1-9f87-35997bdaf8f4.jpg",
+        "publishedAt": "2026-09-07T15:27:50.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Thousands turn out in Serbia for funeral of 'Butcher of Bosnia' Ratko Mladić",
+        "link": "https://www.bbc.co.uk/news/articles/cn5dkk7yw74o?at_medium=RSS&at_campaign=rss",
+        "summary": "Mladić was jailed for genocide during the 1990s Bosnian war and the EU warned Serbia not to glorify the convicted war criminal.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1cbf/live/7beeaca0-aac3-11f1-9bcd-4de40c4158ea.jpg",
+        "publishedAt": "2026-09-07T14:50:50.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Germany's far-right AfD says 'democracy demands' parties work with them after state election win",
         "link": "https://www.bbc.co.uk/news/articles/cpd0113082eo?at_medium=RSS&at_campaign=rss",
         "summary": "The far-right party is trying to form a government in the state after falling three seats short of a majority.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/742c/live/a801c5d0-aa9a-11f1-ab09-7f2415c9a652.jpg",
         "publishedAt": "2026-09-07T14:04:01.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Israeli strikes in southern Lebanese village kill 12",
-        "link": "https://www.bbc.co.uk/news/articles/c5yl96vz0edo?at_medium=RSS&at_campaign=rss",
-        "summary": "Lebanon says a recent Israeli escalation is jeopardising a US-brokered ceasefire meant to end the conflict between Israel and Hezbollah.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/73bc/live/047b0dc0-aa8d-11f1-b109-879e35c24276.jpg",
-        "publishedAt": "2026-09-07T13:39:23.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "War criminal Ratko Mladić to receive full military honors in funeral as crowds gather",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZ1hZbTRySEdwYVZlOWg2aWVHd1ZHOW1QWHFsM1ZDUDQxS2tuaTFHN2lQeXRFWm5fNDBhQzhyT0pTYW5wa0lzVXZnd1VKRmluZkZpRGVzUXZzcWtULXpCZnRkbWw0cWRzV0xOaklzNXBsbUJ4VWY3ODNMVHVWVHRYdw?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-09-07T10:20:53.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "Probe begins into why cargo plane overran Miami runway",
-        "link": "https://www.bbc.co.uk/news/articles/c0e3p1j7n3ro?at_medium=RSS&at_campaign=rss",
-        "summary": "Five people died and five others were injured as the Amazon plane overshot the runway after landing at Miami International Airport.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d36/live/ead9f6b0-aa73-11f1-8722-09fc3b051866.jpg",
-        "publishedAt": "2026-09-07T09:54:40.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Kyiv air raid alerts at record high as Russia launches round-the-clock strikes",
-        "link": "https://www.bbc.co.uk/news/articles/cjdvx9pz44ro?at_medium=RSS&at_campaign=rss",
-        "summary": "Schools, businesses and public transport are all struggling with the surge in Russian air attacks.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b166/live/63ecaa80-a884-11f1-824a-0fc4c5d895ae.jpg",
-        "publishedAt": "2026-09-07T07:03:44.000Z",
         "source": "BBC"
       }
     ],
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-09-07",
+    "rotationLabel": "Curated Rotation · 2026-09-08",
     "sections": [
       {
         "id": "data-storage",
@@ -522,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-6",
-            "sectionId": "data-storage",
-            "title": "DiskANN: Fast Accurate Billion-point Nearest Neighbor Search on a Single Node",
-            "authors": [
-              "Neelesh Gupta",
-              "Leland Willard",
-              "Xiangyao Yu",
-              "Yuri N."
-            ],
-            "venue": "NeurIPS",
-            "year": 2019,
-            "quality": "高影响力",
-            "categories": [
-              "vector search",
-              "ANN"
-            ],
-            "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
-            "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-1",
             "sectionId": "data-storage",
@@ -562,7 +541,7 @@
             ],
             "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
             "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-2",
@@ -584,6 +563,27 @@
             "link": "https://research.google/pubs/pub27898/",
             "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-3",
+            "sectionId": "data-storage",
+            "title": "Dynamo: Amazon's Highly Available Key-value Store",
+            "authors": [
+              "Giuseppe DeCandia",
+              "Deniz Hastorun",
+              "Madan Jampani",
+              "Gunavardhan Kakulapati"
+            ],
+            "venue": "SOSP",
+            "year": 2007,
+            "quality": "顶会",
+            "categories": [
+              "key-value",
+              "distributed systems"
+            ],
+            "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
+            "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -593,27 +593,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-1",
-            "sectionId": "computer-vision",
-            "title": "Deep Residual Learning for Image Recognition",
-            "authors": [
-              "Kaiming He",
-              "Xiangyu Zhang",
-              "Shaoqing Ren",
-              "Jian Sun"
-            ],
-            "venue": "CVPR",
-            "year": 2016,
-            "quality": "顶会",
-            "categories": [
-              "image recognition",
-              "backbone"
-            ],
-            "link": "https://arxiv.org/abs/1512.03385",
-            "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-2",
             "sectionId": "computer-vision",
@@ -633,7 +612,7 @@
             ],
             "link": "https://arxiv.org/abs/2005.12872",
             "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-3",
@@ -655,6 +634,27 @@
             "link": "https://arxiv.org/abs/2010.11929",
             "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-4",
+            "sectionId": "computer-vision",
+            "title": "Learning Transferable Visual Models From Natural Language Supervision",
+            "authors": [
+              "Alec Radford",
+              "Jong Wook Kim",
+              "Chris Hallacy",
+              "Aditya Ramesh"
+            ],
+            "venue": "ICML",
+            "year": 2021,
+            "quality": "顶会",
+            "categories": [
+              "vision-language",
+              "foundation model"
+            ],
+            "link": "https://arxiv.org/abs/2103.00020",
+            "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -664,27 +664,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-2",
-            "sectionId": "llm-memory",
-            "title": "Memorizing Transformers",
-            "authors": [
-              "Yuhuai Wu",
-              "Markus N. Rabe",
-              "DeLesley Hutchins",
-              "Christian Szegedy"
-            ],
-            "venue": "ICLR",
-            "year": 2022,
-            "quality": "顶会",
-            "categories": [
-              "memory",
-              "long context"
-            ],
-            "link": "https://arxiv.org/abs/2203.08913",
-            "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-3",
             "sectionId": "llm-memory",
@@ -704,7 +683,7 @@
             ],
             "link": "https://arxiv.org/abs/2112.04426",
             "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-4",
@@ -726,6 +705,27 @@
             "link": "https://arxiv.org/abs/2310.11511",
             "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-5",
+            "sectionId": "llm-memory",
+            "title": "LongMem: Scaling Language Model Context with Memory-Augmented Retrieval",
+            "authors": [
+              "Zeqiu Wu",
+              "Yizhong Wang",
+              "Jiacheng Liu",
+              "Yelong Shen"
+            ],
+            "venue": "ACL Findings",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "memory",
+              "long context"
+            ],
+            "link": "https://arxiv.org/abs/2306.07174",
+            "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -735,27 +735,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-3",
-            "sectionId": "agents",
-            "title": "Generative Agents: Interactive Simulacra of Human Behavior",
-            "authors": [
-              "Joon Sung Park",
-              "Joseph O'Brien",
-              "Carrie Cai",
-              "Meredith Ringel Morris"
-            ],
-            "venue": "UIST",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "agent society",
-              "memory"
-            ],
-            "link": "https://arxiv.org/abs/2304.03442",
-            "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-4",
             "sectionId": "agents",
@@ -775,7 +754,7 @@
             ],
             "link": "https://arxiv.org/abs/2305.16291",
             "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-5",
@@ -796,6 +775,27 @@
             ],
             "link": "https://arxiv.org/abs/2308.08155",
             "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-6",
+            "sectionId": "agents",
+            "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+            "authors": [
+              "John Yang",
+              "Carlos E. Jimenez",
+              "Alexander Wettig",
+              "Karthik Narasimhan"
+            ],
+            "venue": "ICLR",
+            "year": 2025,
+            "quality": "新近代表作",
+            "categories": [
+              "software agent",
+              "benchmark"
+            ],
+            "link": "https://arxiv.org/abs/2405.15793",
+            "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
             "trackLabel": "轮换精选"
           }
         ]
