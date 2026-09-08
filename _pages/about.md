@@ -19,7 +19,7 @@ redirect_from:
 
 # Bio
 
-Tianwen Zhou is currently an AI Researcher in the Data Storage Technical Research Department at Huawei Technologies Co., Ltd. He received his Master's degree in Computer Graphics, Vision and Imaging from the Department of Computer Science, University College London (UCL). He received his Bachelor's degree in Mathematics and Applied Mathematics from Beijing Normal University. He works on end-to-end acceleration of large-scale LLM inference, systematically optimizing the full inference stack—from inference frameworks and model operators, through RoCE-based cluster communication, to storage systems and KV cache offloading—within Huawei’s core data storage research team.
+Tianwen Zhou is currently an AI Researcher in the Data Storage Technical Research Department at Huawei Technologies Co., Ltd. He received his Master's degree in Computer Graphics, Vision and Imaging from the Department of Computer Science, University College London (UCL). He received his Bachelor's degree in Mathematics and Applied Mathematics from Beijing Normal University. He works on system-level acceleration for large-scale LLM inference, focusing on the co-design of GPU computing, high-performance networking, and storage systems. His work spans inference frameworks and KV cache management, GPU-driven RoCE/UBoE communication, direct GPU–storage data paths, and memory-semantic storage, with the goal of reducing data-movement overhead and improving end-to-end inference efficiency within Huawei’s core data storage research team.
 
 *Note: The one on the top of the picture **with tie and glasses** is Tianwen Zhou.*
 
