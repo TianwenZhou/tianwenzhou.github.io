@@ -1,42 +1,95 @@
 {
-  "generatedAt": "2026-09-11T12:47:14.311Z",
+  "generatedAt": "2026-09-11T19:07:46.524Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": "--",
+      "temperature": 17,
       "weatherCode": 0,
-      "windSpeed": "--"
+      "windSpeed": 2
     },
     "today": {
-      "max": "--",
-      "min": "--",
-      "precipitationProbability": "--"
+      "date": "2026-09-12",
+      "weatherCode": 2,
+      "description": "局部多云",
+      "max": 28,
+      "min": 16,
+      "precipitationProbability": 0
     },
-    "forecast": []
+    "forecast": [
+      {
+        "date": "2026-09-12",
+        "weatherCode": 2,
+        "description": "局部多云",
+        "max": 28,
+        "min": 16,
+        "precipitationProbability": 0
+      },
+      {
+        "date": "2026-09-13",
+        "weatherCode": 0,
+        "description": "晴朗",
+        "max": 29,
+        "min": 17,
+        "precipitationProbability": 0
+      },
+      {
+        "date": "2026-09-14",
+        "weatherCode": 3,
+        "description": "阴天",
+        "max": 27,
+        "min": 16,
+        "precipitationProbability": 2
+      },
+      {
+        "date": "2026-09-15",
+        "weatherCode": 1,
+        "description": "基本晴",
+        "max": 29,
+        "min": 16,
+        "precipitationProbability": 0
+      },
+      {
+        "date": "2026-09-16",
+        "weatherCode": 3,
+        "description": "阴天",
+        "max": 31,
+        "min": 19,
+        "precipitationProbability": 0
+      }
+    ]
   },
   "classicQuote": {
-    "id": "chuci-seek",
-    "text": "路漫漫其修远兮，吾将上下而求索。",
-    "source": "《离骚》",
-    "author": "屈原",
-    "note": "长期主义最难，但也最值得。"
+    "id": "analects-learning",
+    "text": "学而不思则罔，思而不学则殆。",
+    "source": "《论语》",
+    "author": "孔子",
+    "note": "提醒自己既要输入，也要沉淀，不要只忙不想。"
   },
   "bookExcerpt": {
-    "id": "border-town-river",
-    "text": "月光如银子，无处不可照及，山上篁竹在月光下变成了一片黑色，身边草丛中虫声繁密如落雨。",
-    "book": "《边城》",
-    "author": "沈从文"
+    "id": "fortress-besieged-night",
+    "text": "夜仿佛纸浸了油，变成半透明体；它给太阳拥抱住了，分不出身来，也许是给太阳溶了，所以夕照晚霞隐褪后的夜色也带着酡红。",
+    "book": "《围城》",
+    "author": "钱钟书"
   },
   "featuredPlace": {
-    "id": "202609101600",
-    "title": "滨海自由城，法国里维埃拉，法国",
+    "id": "202609111600",
+    "title": "墨西哥近海围猎沙丁鱼饵球的加州海狮，太平洋",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "地中海风情尽显",
-    "image": "https://www.bing.com/th?id=OHR.FrenchRivieraVillage_ZH-CN2888811422_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E6%BB%A8%E6%B5%B7%E8%87%AA%E7%94%B1%E5%9F%8E&form=hpcapt&mkt=zh-cn"
+    "summary": "海浪与海岸的高手",
+    "image": "https://www.bing.com/th?id=OHR.SardineBait_ZH-CN3256234033_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E5%8A%A0%E5%B7%9E%E6%B5%B7%E7%8B%AE&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202609111600",
+      "title": "墨西哥近海围猎沙丁鱼饵球的加州海狮，太平洋",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "海浪与海岸的高手",
+      "image": "https://www.bing.com/th?id=OHR.SardineBait_ZH-CN3256234033_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E5%8A%A0%E5%B7%9E%E6%B5%B7%E7%8B%AE&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202609101600",
       "title": "滨海自由城，法国里维埃拉，法国",
@@ -99,167 +152,166 @@
       "summary": "小小鸟儿，巨大影响",
       "image": "https://www.bing.com/th?id=OHR.GreenCrowned_ZH-CN0697075036_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E5%85%A8%E5%9B%BD%E8%9C%82%E9%B8%9F%E6%97%A5&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202609031600",
-      "title": "韦斯特黑弗的韦斯特黑弗桑德灯塔，石勒苏益格-荷尔斯泰因州，德国",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "地平线上的红与白",
-      "image": "https://www.bing.com/th?id=OHR.Westerheversand_ZH-CN0517707643_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E9%9F%A6%E6%96%AF%E7%89%B9%E9%BB%91%E5%BC%97%E6%A1%91%E5%BE%B7%E7%81%AF%E5%A1%94&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-09-11",
-    "dateLabel": "9月11日",
+    "dateKey": "2026-09-12",
+    "dateLabel": "9月12日",
     "items": [
       {
-        "year": "2025",
-        "text": "巴西前總統雅伊爾·波索納洛因涉入政變陰謀，被判處27年有期徒刑。",
-        "link": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4"
+        "year": "2024",
+        "text": "載著北極星黎明人員的獵鷹9號運載火箭發射升空，打破私人載人飛行任務最遠紀錄，並進行人類首次私人太空行走。",
+        "link": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4"
       },
       {
-        "year": "2020",
-        "text": "在美國總統唐納·川普斡旋下，巴林與以色列達成「《巴林－以色列和平協議》」，成為第4個以及近一個月內第2個與以色列建交的阿拉伯國家與波斯灣國家。",
-        "link": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4"
+        "year": "2021",
+        "text": "澳門在部分民主派人士撤銷參選資格下舉行2021年立法會選舉，選舉投票率是澳門回歸以來歷史最低。",
+        "link": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "国资委公布17户中央企业23名领导人员职务任免",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-11/10694870.shtml",
-        "summary": "中新网9月11日电 据“国资小新”微信公众号消息，国资委9月11日公布17户中央企业23名领导人员职务任免。",
+        "title": "话剧《寻味》：两岸戏剧人共述“回家”故事",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-11/10695082.shtml",
+        "summary": "中新社北京9月11日电 (记者 张杨彬)上海话、温州话、四川话、广东话……话剧《寻味》11日在北京上演。舞台上各地方言交织，台湾演员李志希对此并不陌生——他幼时曾到二伯居住的眷村玩耍，他说，真实的眷村就是这样，方言、食物与乡愁融在一起。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260911/51e0a990-0798-4d75-9b52-551e23cf45de_zsite.jpg",
+        "publishedAt": "2026-09-11T14:52:45.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "第三届赣台青年短视频创作大赛颁奖仪式在江西庐山举行",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-11/10695043.shtml",
+        "summary": "中新网江西庐山9月11日电 (朱莹 刘力鑫 吴思瑜)9月11日晚，赣台荟·第三届赣台青年短视频创作大赛颁奖仪式在江西庐山举行。作为第二十届赣台(庐山)经贸文化合作交流大会的重要专题活动之一，本次颁奖仪式吸引了700余名两岸同胞齐聚现场，共赏两岸青年影像佳作，共叙赣台同根深情。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260911/b69ac04c-94ac-41e7-90e9-6526629d7d33_zsite.jpg",
+        "publishedAt": "2026-09-11T14:04:22.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "专家：中国下一代碳卫星将有能力区分碳汇和碳排放",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-11/10695038.shtml",
+        "summary": "中新社北京9月11日电 中国科学院大气物理研究所(大气所)11日披露，中国科学家团队提出并研制的面向中国下一代碳卫星(TanSat-2)碳监测、核算的新方法、新系统，在仿真观测中，成功实现碳汇和人为碳排放的区分核算。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260911/9565e7b3-f71d-4be0-b4a0-710244392351_zsite.jpeg",
+        "publishedAt": "2026-09-11T14:01:58.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "长三角两岸青年龙舟友谊赛在沪举行",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-11/10695035.shtml",
+        "summary": "中新社上海9月11日电 (范宇斌)第二届“青龙同舟”长三角两岸青年龙舟友谊赛11日在上海市青浦区水城门水域开赛。本次赛事吸引台湾地区，和长江三角洲地区上海青浦、江苏吴江、浙江嘉善共9支青年队伍参赛，设置12人混合龙舟400米直道竞速项目，旨在以传统龙舟文化为纽带，深化两岸青年交流。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260911/28af13e6-bb1e-45bc-b022-b11e4cd52903_zsite.jpg",
+        "publishedAt": "2026-09-11T14:01:06.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "内蒙古自治区阿拉善盟原副盟长刘德被开除公职",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-11/10695017.shtml",
+        "summary": "中新网9月11日电 据内蒙古自治区纪委监委消息：经内蒙古自治区党委批准，内蒙古自治区监委对阿拉善盟原副盟长、九三学社内蒙古自治区委员会副主委刘德严重违法问题进行了立案调查。",
         "image": "https://www.chinanews.com.cn/ad2008/U435P4T175D633F27513DT20260910152815.jpg",
-        "publishedAt": "2026-09-11T12:40:11.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "赵乐际同安哥拉国民议会议长德阿尔梅达会谈",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-11/10694958.shtml",
-        "summary": "新华社北京9月11日电 全国人大常委会委员长赵乐际11日在北京人民大会堂同安哥拉国民议会议长德阿尔梅达举行会谈。",
-        "image": "",
-        "publishedAt": "2026-09-11T12:19:06.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "李干杰在宁夏调研时强调 深入贯彻实施民族团结进步促进法 加强宗教事务治理法治化 进一步做好新时代党的民族宗教工作",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-11/10694957.shtml",
-        "summary": "新华社银川9月11日电 9月9日至11日，中共中央政治局委员、中央统战部部长李干杰在宁夏调研时强调，要坚持以习近平新时代中国特色社会主义思想为指导，深入贯彻落实党中央重大决策部署，以铸牢中华民族共同体意识为主线，贯彻实施民族团结进步促进法，提升宗教事务治理法治化水平，扎实做好新时代党的民族宗教工作。",
-        "image": "",
-        "publishedAt": "2026-09-11T12:16:40.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "海协会会长张志军：祖国大陆仍是广大台商台胞发展的最优选择",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-11/10694946.shtml",
-        "summary": "中新社江西庐山9月11日电 (朱莹 刘占昆 刘力鑫)海峡两岸关系协会会长张志军11日在江西庐山表示，尽管当前外部形势变乱交织、严峻复杂，但大陆经济航船顶压前行、向优向好，持续保持经济快速发展和社会长期稳定，祖国大陆仍是广大台商台胞发展的最优选择。",
-        "image": "https://www.chinanews.com.cn/ad2008/U435P4T175D633F27513DT20260910152815.jpg",
-        "publishedAt": "2026-09-11T12:09:41.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "青海基层立法联系点：立法“直通车”助“石榴籽”抱得更紧",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-11/10694947.shtml",
-        "summary": "中新社西宁9月11日电 题：青海基层立法联系点：立法“直通车”助“石榴籽”抱得更紧",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260911/30cb10bd-b295-46d6-b139-c4426715b15e_zsite.jpg",
-        "publishedAt": "2026-09-11T12:07:25.000Z",
+        "publishedAt": "2026-09-11T13:48:37.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "从游客到“新海南人”：意大利籍学者看见自贸港的现在与未来",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-11/10694954.shtml",
-        "summary": "中新网海口9月11日电 题：从游客到“新海南人”：意大利籍学者看见自贸港的现在与未来",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260911/318bd6d5-1d3f-4d9f-b1aa-a2a9aea7e9e9_zsite.jpg",
-        "publishedAt": "2026-09-11T12:17:38.000Z",
+        "title": "广西船员培训教师教学能力竞赛举办",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-11/10695044.shtml",
+        "summary": "中新网钦州9月11日电(黄艳梅 蒋瑞卿 黄镁光)广西船员培训教师教学能力竞赛11日在钦州市举办。广西各航海院校、职业院校及船员培训机构的教师代表同台竞技、相互交流，集中展示广西船员培训教学水平。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260911/c148c55e-c1ad-4893-a82b-eafc2e4b11b6_zsite.jpg",
+        "publishedAt": "2026-09-11T14:04:36.000Z",
         "source": "中新网"
       },
       {
-        "title": "中老边境磨憨口岸深夜3次开启“生命绿色通道”",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-11/10694953.shtml",
-        "summary": "中新网云南西双版纳9月11日电 (赶四 黄远飞)磨憨出入境边防检查站11日通报称，9月10日凌晨，该站执勤一队在3小时内，连续接到3起境外危重症患者紧急入境求助。执勤民警快速响应、接力处置，3次开启口岸“生命绿色通道”，为患者救治抢出宝贵时间。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260911/f110aeb6-9e1a-4df4-98b3-297bb4b0bc3f_zsite.jpg",
-        "publishedAt": "2026-09-11T12:09:39.000Z",
+        "title": "云南元江成功引种矮种椰子 干热河谷结出“海岸特产”",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-11/10695029.shtml",
+        "summary": "中新网云南玉溪9月11日电 (陈卓 何磊)中共元江县委宣传部11日消息，位于该县的中国萨王纳植物园种植示范基地的12亩椰子试验田于近日结束今年的采摘季。依托得天独厚的干热河谷光热水土资源，元江县成功引种矮种椰子“文椰2号”“文椰3号”，让“海岸特产”在河谷热土落地结果，填补云南干热河谷椰子产业种植的...",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260911/b929c73e-730b-4c97-b169-812abd749f06_zsite.jpg",
+        "publishedAt": "2026-09-11T14:01:26.000Z",
         "source": "中新网"
       },
       {
-        "title": "黑龙江全面推开长期护理保险制度 破解失能家庭“照护难”",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-11/10694941.shtml",
-        "summary": "中新网哈尔滨9月11日电 (史轶夫 王迎春)在我们国家长护险制度从局部试点转向全国推行的大背景下，近日，黑龙江省出台了《黑龙江省建立长期护理保险制度实施方案》。9月11日，黑龙江省人民政府新闻办公室召开专题发布会，介绍和解读建立长期护理保险制度的相关政策和配套措施。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260911/ba7b2a4c-78fc-4685-964f-8e5189a00704_zsite.jpg",
-        "publishedAt": "2026-09-11T12:05:41.000Z",
+        "title": "欧洲9国旅行商与媒体考察团走进宁夏",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-11/10695040.shtml",
+        "summary": "中新社银川9月11日电 (记者 于晶)由中国文化和旅游部国际交流与合作局组织的欧洲旅行商及旅游媒体考察团11日抵达银川，开启为期五天四晚的深度踩线考察。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260911/82ce778c-fda2-4972-990d-4110226d0494_zsite.jpeg",
+        "publishedAt": "2026-09-11T14:00:06.000Z",
         "source": "中新网"
       },
       {
-        "title": "访青海索南达杰自然保护站：“情”“法”共护“生命树”",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-11/10694922.shtml",
-        "summary": "中新社青海玉树9月11日电 题：访青海索南达杰自然保护站：“情”“法”共护“生命树”",
-        "image": "https://www.chinanews.com.cn/ad2008/U435P4T175D633F27513DT20260910152815.jpg",
-        "publishedAt": "2026-09-11T11:43:01.000Z",
+        "title": "西大数学课堂里的坚守与传承：手写板书藏底蕴，薪火相传育桃李",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-11/10695007.shtml",
+        "summary": "中新网西安9月11日电 (阿琳娜 魏梦鸽)黑板上遒劲或清秀的字迹、擦了又写的公式、飘落的粉笔灰……在多媒体教学普及的今天，西北大学数学学院的教师们始终坚守手写板书传统。一笔一划之间，流淌着教师们“以德立身、以德立学、以德施教”的师德传承，书写着一堂跨越百年、初心不改的育人课。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260911/aec295ea-a2a0-40f0-b970-ae02edb2ff1b_zsite.jpg",
+        "publishedAt": "2026-09-11T13:21:14.000Z",
         "source": "中新网"
       },
       {
-        "title": "葫芦挂回去了！“葫芦娃爷爷”发声：不能让游客的心冷掉",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-11/10694934.shtml",
-        "summary": "原标题：葫芦挂回去了！“葫芦娃爷爷”发声：许多人千里赶来只为看一眼，不能让他们热乎乎的心冷掉",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/09/11/3d1d42352a684a41a86f09a6c5981c8b.jpg",
-        "publishedAt": "2026-09-11T11:42:03.000Z",
+        "title": "洱海鱼类生态调控将启 再现“渔灯如星”美景",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-11/10695005.shtml",
+        "summary": "中新网昆明9月11日电 (记者 韩帅南)记者11日从云南大理市洱海管理局获悉，2026年洱海鱼类生态调控工作将于9月15日起针对外来小型鱼类鲤、鲫鱼、鲢鳙鱼等种类分阶段开展生态调控。届时，“渔灯如星、点缀洱海”的美景即将再现。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260911/2495456d-8b54-47a8-b798-aa948fdeaf15_zsite.jpg",
+        "publishedAt": "2026-09-11T13:20:58.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "2026年粤港澳海洋合作发展论坛在广州举行",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-11/10694944.shtml",
-        "summary": "中新网广州9月11日电 (记者 孙秋霞)2026年粤港澳海洋合作发展论坛11日在广州举行，本次论坛由广州市人民政府和广东省自然资源厅(广东省海洋局)主办，来自香港、澳门、广州等地的专家与行业代表展开深入交流，探索粤港澳在海洋产业领域进一步资源互通、优势互补，拓展蓝色经济合作新空间。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260911/201c452b-28bd-420b-871f-68f9f9a98ccf_zsite.jpg",
-        "publishedAt": "2026-09-11T12:06:49.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "广西11个水文（位）站赋能西部陆海新通道",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-11/10694938.shtml",
-        "summary": "中新网钦州9月11日(陈秋霞 周也茹)近日，西部陆海新通道(平陆)运河水文站专项工程使用权交付仪式在广西钦州市久隆水文站举行。项目完成11座水文(位)站使用权交接，标志着平陆运河水文保障体系建设取得阶段性成果，为运河通航调度和钦江流域防汛抗旱提供坚实的水文技术支撑。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260911/09b2cb44-43a2-439d-b0a9-db680aed5b47_zsite.jpg",
-        "publishedAt": "2026-09-11T12:06:21.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "国际航标业者浙江温州探寻“他山之石” 共推海洋事业发展",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-11/10694939.shtml",
-        "summary": "中新网温州9月11日电(周健)9月11日，2026年国际海上导助航高级管理人员培训班正式开启浙江温州阶段培训，在当日召开的航标管理和技术研讨会上，来自14个国家和地区的近20名航标管理机构代表分享航标管理中的创新实践经验，围绕航标发展前沿问题开展深入研讨，共同推动区域助航服务能力建设。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260911/9949d1b5-d611-42d1-a6e5-b633d54df817_zsite.JPG",
-        "publishedAt": "2026-09-11T12:03:31.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "前8月宁夏外贸进出口177.2亿元 同比增23.9%",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-11/10694949.shtml",
-        "summary": "中新网银川9月11日电 (记者 李佩珊)记者11日从银川海关获悉，2026年前8个月，宁夏外贸进出口总值达177.2亿元，同比增长23.9%，增速较全国平均水平高出6.3个百分点。其中，出口134.6亿元，同比增长28.7%；进口42.6亿元，同比增长10.8%。8月当月，宁夏实现外贸进出口22.4...",
+        "title": "百公里11.5度电！2030年新能源汽车什么样？",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-11/10695088.shtml",
+        "summary": "工业和信息化部等九部门今天(11日)发布了《智能网联新能源汽车产业发展“十五五”规划》。规划中提到“纯电动乘用车平均电能消耗量达到每百公里11.5千瓦时左右”、“高速公路、城市快速路、部分城市道路等场景实现高度自动驾驶”、国内市场新能源乘用车新车总销量占比达到70%……可以说目标相当明确。",
         "image": "https://www.chinanews.com.cn/ad2008/U435P4T175D633F27513DT20260910152815.jpg",
-        "publishedAt": "2026-09-11T12:02:27.000Z",
+        "publishedAt": "2026-09-11T15:21:17.000Z",
         "source": "中新网"
       },
       {
-        "title": "（经济观察）“加仓”在华布局 外企“看多”中国经济新意",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-11/10694945.shtml",
-        "summary": "中新社北京9月11日电 (记者 周兆军 吕少威 谢龙飞)2026年中国国际服务贸易交易会(“服贸会”)正在北京首钢园举行。其间，多家参会外资企业高管在接受中新社记者专访时指出，中国扩大开放的制度红利持续释放，服务贸易发展前景广阔，将持续加码在华投资与业务布局，愿与中国经济高质量发展同频共振、双向赋能...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260911/487bc369-6fcd-4c62-9227-66e78bf0a7a6_zsite.JPG",
-        "publishedAt": "2026-09-11T12:01:55.000Z",
+        "title": "服务消费如何高质量发展？多方共探新路径",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-11/10695074.shtml",
+        "summary": "中新网北京9月11日电 (钟余)2026年中国国际服务贸易交易会主题论坛——2026国际消费趋势大会暨服务消费高质量发展论坛日前在首钢园举行，本次论坛以“开放合作共赢 创新服务消费”为主题，围绕内外市场融通、服务消费创新等议题展开研讨，探寻服务消费高质量发展新路径。",
+        "image": "https://www.chinanews.com.cn/ad2008/U435P4T175D633F27513DT20260910152815.jpg",
+        "publishedAt": "2026-09-11T14:31:12.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "lululemon营收下滑，千元瑜伽裤不香了？",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-11/10695070.shtml",
+        "summary": "中新网北京9月11日电(记者 谢艺观)一条瑜伽裤卖到近千元，照样有人抢着买——lululemon，一个在高净值人群口中高频出现的品牌，最近被浇了冷水：最新一季财报全球收入下滑、71岁的创始人奇普·威尔逊被外媒曝出正与妻子办理离婚手续。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/09/09/4c03fbf249c94369a237154e1ba76453.jpg",
+        "publishedAt": "2026-09-11T14:22:39.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "中越跨境游持续升温 云南铁路河口北站服务越南旅客增幅明显",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-11/10695050.shtml",
+        "summary": "中新网昆明9月11日电 (王一翔 刘昊亮)据中国铁路昆明局集团有限公司消息，今年前8个月，位于中国与越南边境的云南铁路河口北站累计服务越南跨境旅客达9.4万人次，较2025年同期的7.4万人次增长2万人次，增幅达27%，中越跨境游热度持续攀升。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260911/01010b67-ff22-4405-9ce4-4f5da3a9d482_zsite.jpeg",
+        "publishedAt": "2026-09-11T14:05:36.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "2026广东旅博会开幕 首次设立国际医疗旅游展区",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-11/10695027.shtml",
+        "summary": "中新网广州9月11日电 (记者 程景伟)2026广东国际旅游产业博览会11日在广州广交会展馆开幕。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260911/19b7064a-461b-4730-957b-18aae73004cf_zsite.jpg",
+        "publishedAt": "2026-09-11T14:05:16.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "Princess Diana's 'revenge dress' goes up for auction",
-        "link": "https://www.bbc.co.uk/news/articles/c0lrk7d7j0no?at_medium=RSS&at_campaign=rss",
-        "summary": "Auction house Sotheby's expects the dress to sell for up to $300,000 (£220,000) when it goes under the hammer on 9 December.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/712b/live/9583d4a0-ad80-11f1-b787-81bf75d2ae07.jpg",
-        "publishedAt": "2026-09-11T12:04:46.000Z",
+        "title": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
+        "link": "https://www.bbc.co.uk/news/articles/c23x72yx2rvo?at_medium=RSS&at_campaign=rss",
+        "summary": "The Iran-backed Houthis are also reported to have seized Perim - a strategic island on the major shipping route.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/09dc/live/6dac0640-adcc-11f1-a540-61c3f7fc4e6c.jpg",
+        "publishedAt": "2026-09-11T16:58:34.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Norway's Princess Astrid dies two days after attending brother King Harald's funeral",
+        "link": "https://www.bbc.co.uk/news/articles/cgjq1qy98vjo?at_medium=RSS&at_campaign=rss",
+        "summary": "Princess Astrid \"represented the Royal House in a warm and dutiful manner\", the new king, Haakon VIII, said in a tribute to his aunt.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4871/live/931f3ad0-adfb-11f1-8169-6fdea7f79791.png",
+        "publishedAt": "2026-09-11T16:00:59.000Z",
         "source": "BBC"
       },
       {
@@ -267,41 +319,49 @@
         "link": "https://www.bbc.co.uk/news/articles/c4gl92lw8vpo?at_medium=RSS&at_campaign=rss",
         "summary": "The powerful blast registered as the equivalent of a magnitude 4.1 earthquake, according to the US Geological Survey.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5eb3/live/845b2920-adc7-11f1-a540-61c3f7fc4e6c.jpg",
-        "publishedAt": "2026-09-11T11:34:07.000Z",
+        "publishedAt": "2026-09-11T15:50:23.000Z",
         "source": "BBC"
       },
       {
-        "title": "Buddhist monk arrested in suspected $3m embezzlement scandal",
-        "link": "https://www.bbc.co.uk/news/articles/c5yjkxlngjyo?at_medium=RSS&at_campaign=rss",
-        "summary": "Thai police also arrested a suspected female accomplice with whom the monk, who had taken a vow of celibacy, was filmed having sex.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/797d/live/a0a3a660-adc8-11f1-82c1-5ff19bf7a2f2.jpg",
-        "publishedAt": "2026-09-11T10:50:04.000Z",
-        "source": "BBC"
+        "title": "Six Nigerians being extradited to US for swindling women out of $6M in romance scams",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPU3dJWElSVkdQSzBMX1hDRWJQaEg1Rml4alZfR3c2WXhmSVRNQV84aE9DT3J4RG9IR05TczJ4MnpuZXR4TmtHenZWMkNLTzhYQ2tyVnJuZURBUUhKa3ZicUQtR3JZVWlRT0doNk8tQXdCT0hxNm5sY09TYXRSYXFYMTh3Y25KNG5kUUhibg?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-09-11T12:53:20.000Z",
+        "source": "CNN"
       },
       {
-        "title": "Anthropic blocks possible attempt to use AI to make biological weapons",
-        "link": "https://www.bbc.co.uk/news/articles/cx2zrrpkx20o?at_medium=RSS&at_campaign=rss",
-        "summary": "The revelations in Anthropic's threat intelligence report come after a former top researcher at the company warned of the risks of AI to humanity.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/090c/live/88ca35f0-ad6d-11f1-8edd-ada2fcb84b27.jpg",
-        "publishedAt": "2026-09-11T08:15:25.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Hong Kong's Tiananmen activists sentenced to up to seven years in prison",
-        "link": "https://www.bbc.co.uk/news/articles/cvgyvk2djk4o?at_medium=RSS&at_campaign=rss",
-        "summary": "Hong Kong used to be one of the only places in Chinese territory where people could gather to mark the 1989 crackdown.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c23c/live/9ec505e0-adc9-11f1-b1d1-571ed4d7ff2c.jpg",
-        "publishedAt": "2026-09-11T05:41:54.000Z",
+        "title": "Princess Diana's 'revenge dress' goes up for auction",
+        "link": "https://www.bbc.co.uk/news/articles/c0lrk7d7j0no?at_medium=RSS&at_campaign=rss",
+        "summary": "Auction house Sotheby's expects the dress to sell for up to $300,000 (£220,000) when it goes under the hammer on 9 December.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/712b/live/9583d4a0-ad80-11f1-b787-81bf75d2ae07.jpg",
+        "publishedAt": "2026-09-11T12:04:46.000Z",
         "source": "BBC"
       }
     ],
     "worldBusiness": [
       {
-        "title": "US inflation holds steady as diesel prices pass $6 a gallon",
+        "title": "Ryanair boss O'Leary defends 'high-fare rapists' airlines remarks",
+        "link": "https://www.bbc.co.uk/news/articles/c5yejw9pjjyo?at_medium=RSS&at_campaign=rss",
+        "summary": "O'Leary has said airline passengers \"can't afford to fly with the high-fare rapists around Europe\".",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e56/live/494cd5f0-adee-11f1-9a5c-a7a4083eb832.jpg",
+        "publishedAt": "2026-09-11T15:37:25.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "US prices remain high as fuel costs squeeze household budgets",
         "link": "https://www.bbc.co.uk/news/articles/cly41rdkrleo?at_medium=RSS&at_campaign=rss",
-        "summary": "Prices in the US rose 3.4% in the 12 months to August, according to the latest official figures.",
+        "summary": "Prices in the US rose 3.4% in the 12 months to August, according to the latest official report on inflation.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/39dc/live/efa1fdd0-addb-11f1-8b98-35ffe039e825.jpg",
-        "publishedAt": "2026-09-11T12:46:22.000Z",
+        "publishedAt": "2026-09-11T14:22:42.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Interest rates could rise again across the world – here's why",
+        "link": "https://www.bbc.co.uk/news/articles/cew9nkx7v9eo?at_medium=RSS&at_campaign=rss",
+        "summary": "As countries grapple with energy costs pushing up inflation, this month will see how central banks respond.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6586/live/365b8a30-ad4a-11f1-8963-d14e6edce0d0.jpg",
+        "publishedAt": "2026-09-11T13:35:29.000Z",
         "source": "BBC"
       },
       {
@@ -313,31 +373,31 @@
         "source": "BBC"
       },
       {
-        "title": "Interest rates could rise again across the world – here's why",
-        "link": "https://www.bbc.co.uk/news/articles/cew9nkx7v9eo?at_medium=RSS&at_campaign=rss",
-        "summary": "As countries grapple with energy costs pushing up inflation, this month will see how central banks respond.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6586/live/365b8a30-ad4a-11f1-8963-d14e6edce0d0.jpg",
-        "publishedAt": "2026-09-11T08:28:47.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Can Europe recharge its battery industry?",
-        "link": "https://www.bbc.co.uk/news/articles/cjeg8ly0qd3o?at_medium=RSS&at_campaign=rss",
-        "summary": "Europe has some promising battery tech, but can it make up ground lost to Chinese battery giants?",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ac3e/live/cd5970d0-acf2-11f1-a540-61c3f7fc4e6c.jpg",
-        "publishedAt": "2026-09-10T23:05:47.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "I asked my husband to pay into my pension when we had a child - here's why",
-        "link": "https://www.bbc.co.uk/news/articles/cde02k65427o?at_medium=RSS&at_campaign=rss",
-        "summary": "Molly and Taylor Haylett explain the changes to how they managed their finances when they started a family.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a593/live/bd412620-a7a2-11f1-a7ad-37a1f7dc081c.jpg",
-        "publishedAt": "2026-09-10T23:04:30.000Z",
-        "source": "BBC"
+        "title": "Everyone hates data centers. Lawyers love them",
+        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9vaVlsRTM0VW9pWDg5QjVLN2xJTUVvQ0NBZUZPaWxRRlFxYXlqcjNGZ3pVVGN4cnBGTDBoSEQ0Zk5nNVN2WU5BbkFnaDA0SWZXbDJCem84TUVCNDY2aU5kSnlXMGF6bkl6NTVmdXBRazdEZWQ2MHJz?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-09-11T10:00:28.000Z",
+        "source": "CNN"
       }
     ],
     "worldTech": [
+      {
+        "title": "UK government rejects 'kill switch' idea for dangerous AI",
+        "link": "https://www.bbc.co.uk/news/articles/c3eq7kl5l00o?at_medium=RSS&at_campaign=rss",
+        "summary": "The Cabinet Office, which leads on AI safety, says the UK \"cannot simply turn AI off\".",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/63e1/live/212f16d0-adeb-11f1-9a5c-a7a4083eb832.jpg",
+        "publishedAt": "2026-09-11T15:07:07.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Does this AI comic make you laugh?",
+        "link": "https://www.bbc.co.uk/news/videos/c5yjk63ww1ro?at_medium=RSS&at_campaign=rss",
+        "summary": "Comedian Garrett Millerick has created an AI avatar based on his own material. Is it any good?",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2a77/live/af54b2d0-addc-11f1-b1d1-571ed4d7ff2c.jpg",
+        "publishedAt": "2026-09-11T12:49:30.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Anthropic blocks possible attempt to use AI to make biological weapons",
         "link": "https://www.bbc.co.uk/news/articles/cx2zrrpkx20o?at_medium=RSS&at_campaign=rss",
@@ -360,74 +420,66 @@
         "summary": "",
         "image": "",
         "publishedAt": "2026-09-10T03:52:50.000Z",
-        "source": "cnn.com"
-      },
-      {
-        "title": "UK needs new laws for AI in healthcare, says watchdog",
-        "link": "https://www.bbc.co.uk/news/articles/c3wjn3pl63xo?at_medium=RSS&at_campaign=rss",
-        "summary": "The technology will soon be routinely used within the NHS, MHRA chief Lawrence Tallon tells the BBC.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c4b9/live/69dbfa80-ac63-11f1-be57-03729df1d736.jpg",
-        "publishedAt": "2026-09-10T00:48:35.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Godfather of AI says AI companies have ‘no idea’ how to control the technology",
-        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOa0ctMDNLLWpTWW92NTZXZVozdUxyMGNKeHotcmJOaTY0OVowMHB1UDZNWWtIeWlyS3QzRTNqRmF3SFktMVFkM2xZRHhaVEViRkNEN0oyeTJ4dUIxOE1BMHZ5bU4zTlc0dE5HWmtLQmgwUWkyYUlCcUcxMUVLS1owYnItUmtrSUkxYm1UODE3Smg1c2ZrelFzNGtuMS10dWdIa0RVMzQtTklDX2VzS0swS0NrRUxicHdGdkg0?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-09-09T21:32:14.000Z",
-        "source": "cnn.com"
+        "source": "CNN"
       }
     ],
     "domestic": [
       {
-        "title": "国资委公布17户中央企业23名领导人员职务任免",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-11/10694870.shtml",
-        "summary": "中新网9月11日电 据“国资小新”微信公众号消息，国资委9月11日公布17户中央企业23名领导人员职务任免。",
+        "title": "话剧《寻味》：两岸戏剧人共述“回家”故事",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-11/10695082.shtml",
+        "summary": "中新社北京9月11日电 (记者 张杨彬)上海话、温州话、四川话、广东话……话剧《寻味》11日在北京上演。舞台上各地方言交织，台湾演员李志希对此并不陌生——他幼时曾到二伯居住的眷村玩耍，他说，真实的眷村就是这样，方言、食物与乡愁融在一起。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260911/51e0a990-0798-4d75-9b52-551e23cf45de_zsite.jpg",
+        "publishedAt": "2026-09-11T14:52:45.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "第三届赣台青年短视频创作大赛颁奖仪式在江西庐山举行",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-11/10695043.shtml",
+        "summary": "中新网江西庐山9月11日电 (朱莹 刘力鑫 吴思瑜)9月11日晚，赣台荟·第三届赣台青年短视频创作大赛颁奖仪式在江西庐山举行。作为第二十届赣台(庐山)经贸文化合作交流大会的重要专题活动之一，本次颁奖仪式吸引了700余名两岸同胞齐聚现场，共赏两岸青年影像佳作，共叙赣台同根深情。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260911/b69ac04c-94ac-41e7-90e9-6526629d7d33_zsite.jpg",
+        "publishedAt": "2026-09-11T14:04:22.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "专家：中国下一代碳卫星将有能力区分碳汇和碳排放",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-11/10695038.shtml",
+        "summary": "中新社北京9月11日电 中国科学院大气物理研究所(大气所)11日披露，中国科学家团队提出并研制的面向中国下一代碳卫星(TanSat-2)碳监测、核算的新方法、新系统，在仿真观测中，成功实现碳汇和人为碳排放的区分核算。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260911/9565e7b3-f71d-4be0-b4a0-710244392351_zsite.jpeg",
+        "publishedAt": "2026-09-11T14:01:58.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "长三角两岸青年龙舟友谊赛在沪举行",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-11/10695035.shtml",
+        "summary": "中新社上海9月11日电 (范宇斌)第二届“青龙同舟”长三角两岸青年龙舟友谊赛11日在上海市青浦区水城门水域开赛。本次赛事吸引台湾地区，和长江三角洲地区上海青浦、江苏吴江、浙江嘉善共9支青年队伍参赛，设置12人混合龙舟400米直道竞速项目，旨在以传统龙舟文化为纽带，深化两岸青年交流。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260911/28af13e6-bb1e-45bc-b022-b11e4cd52903_zsite.jpg",
+        "publishedAt": "2026-09-11T14:01:06.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "内蒙古自治区阿拉善盟原副盟长刘德被开除公职",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-11/10695017.shtml",
+        "summary": "中新网9月11日电 据内蒙古自治区纪委监委消息：经内蒙古自治区党委批准，内蒙古自治区监委对阿拉善盟原副盟长、九三学社内蒙古自治区委员会副主委刘德严重违法问题进行了立案调查。",
         "image": "https://www.chinanews.com.cn/ad2008/U435P4T175D633F27513DT20260910152815.jpg",
-        "publishedAt": "2026-09-11T12:40:11.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "赵乐际同安哥拉国民议会议长德阿尔梅达会谈",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-11/10694958.shtml",
-        "summary": "新华社北京9月11日电 全国人大常委会委员长赵乐际11日在北京人民大会堂同安哥拉国民议会议长德阿尔梅达举行会谈。",
-        "image": "",
-        "publishedAt": "2026-09-11T12:19:06.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "李干杰在宁夏调研时强调 深入贯彻实施民族团结进步促进法 加强宗教事务治理法治化 进一步做好新时代党的民族宗教工作",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-11/10694957.shtml",
-        "summary": "新华社银川9月11日电 9月9日至11日，中共中央政治局委员、中央统战部部长李干杰在宁夏调研时强调，要坚持以习近平新时代中国特色社会主义思想为指导，深入贯彻落实党中央重大决策部署，以铸牢中华民族共同体意识为主线，贯彻实施民族团结进步促进法，提升宗教事务治理法治化水平，扎实做好新时代党的民族宗教工作。",
-        "image": "",
-        "publishedAt": "2026-09-11T12:16:40.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "海协会会长张志军：祖国大陆仍是广大台商台胞发展的最优选择",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-11/10694946.shtml",
-        "summary": "中新社江西庐山9月11日电 (朱莹 刘占昆 刘力鑫)海峡两岸关系协会会长张志军11日在江西庐山表示，尽管当前外部形势变乱交织、严峻复杂，但大陆经济航船顶压前行、向优向好，持续保持经济快速发展和社会长期稳定，祖国大陆仍是广大台商台胞发展的最优选择。",
-        "image": "https://www.chinanews.com.cn/ad2008/U435P4T175D633F27513DT20260910152815.jpg",
-        "publishedAt": "2026-09-11T12:09:41.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "青海基层立法联系点：立法“直通车”助“石榴籽”抱得更紧",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-11/10694947.shtml",
-        "summary": "中新社西宁9月11日电 题：青海基层立法联系点：立法“直通车”助“石榴籽”抱得更紧",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260911/30cb10bd-b295-46d6-b139-c4426715b15e_zsite.jpg",
-        "publishedAt": "2026-09-11T12:07:25.000Z",
+        "publishedAt": "2026-09-11T13:48:37.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "Princess Diana's 'revenge dress' goes up for auction",
-        "link": "https://www.bbc.co.uk/news/articles/c0lrk7d7j0no?at_medium=RSS&at_campaign=rss",
-        "summary": "Auction house Sotheby's expects the dress to sell for up to $300,000 (£220,000) when it goes under the hammer on 9 December.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/712b/live/9583d4a0-ad80-11f1-b787-81bf75d2ae07.jpg",
-        "publishedAt": "2026-09-11T12:04:46.000Z",
+        "title": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
+        "link": "https://www.bbc.co.uk/news/articles/c23x72yx2rvo?at_medium=RSS&at_campaign=rss",
+        "summary": "The Iran-backed Houthis are also reported to have seized Perim - a strategic island on the major shipping route.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/09dc/live/6dac0640-adcc-11f1-a540-61c3f7fc4e6c.jpg",
+        "publishedAt": "2026-09-11T16:58:34.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Norway's Princess Astrid dies two days after attending brother King Harald's funeral",
+        "link": "https://www.bbc.co.uk/news/articles/cgjq1qy98vjo?at_medium=RSS&at_campaign=rss",
+        "summary": "Princess Astrid \"represented the Royal House in a warm and dutiful manner\", the new king, Haakon VIII, said in a tribute to his aunt.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4871/live/931f3ad0-adfb-11f1-8169-6fdea7f79791.png",
+        "publishedAt": "2026-09-11T16:00:59.000Z",
         "source": "BBC"
       },
       {
@@ -435,31 +487,23 @@
         "link": "https://www.bbc.co.uk/news/articles/c4gl92lw8vpo?at_medium=RSS&at_campaign=rss",
         "summary": "The powerful blast registered as the equivalent of a magnitude 4.1 earthquake, according to the US Geological Survey.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5eb3/live/845b2920-adc7-11f1-a540-61c3f7fc4e6c.jpg",
-        "publishedAt": "2026-09-11T11:34:07.000Z",
+        "publishedAt": "2026-09-11T15:50:23.000Z",
         "source": "BBC"
       },
       {
-        "title": "Buddhist monk arrested in suspected $3m embezzlement scandal",
-        "link": "https://www.bbc.co.uk/news/articles/c5yjkxlngjyo?at_medium=RSS&at_campaign=rss",
-        "summary": "Thai police also arrested a suspected female accomplice with whom the monk, who had taken a vow of celibacy, was filmed having sex.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/797d/live/a0a3a660-adc8-11f1-82c1-5ff19bf7a2f2.jpg",
-        "publishedAt": "2026-09-11T10:50:04.000Z",
-        "source": "BBC"
+        "title": "Six Nigerians being extradited to US for swindling women out of $6M in romance scams",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPU3dJWElSVkdQSzBMX1hDRWJQaEg1Rml4alZfR3c2WXhmSVRNQV84aE9DT3J4RG9IR05TczJ4MnpuZXR4TmtHenZWMkNLTzhYQ2tyVnJuZURBUUhKa3ZicUQtR3JZVWlRT0doNk8tQXdCT0hxNm5sY09TYXRSYXFYMTh3Y25KNG5kUUhibg?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-09-11T12:53:20.000Z",
+        "source": "CNN"
       },
       {
-        "title": "Anthropic blocks possible attempt to use AI to make biological weapons",
-        "link": "https://www.bbc.co.uk/news/articles/cx2zrrpkx20o?at_medium=RSS&at_campaign=rss",
-        "summary": "The revelations in Anthropic's threat intelligence report come after a former top researcher at the company warned of the risks of AI to humanity.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/090c/live/88ca35f0-ad6d-11f1-8edd-ada2fcb84b27.jpg",
-        "publishedAt": "2026-09-11T08:15:25.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Hong Kong's Tiananmen activists sentenced to up to seven years in prison",
-        "link": "https://www.bbc.co.uk/news/articles/cvgyvk2djk4o?at_medium=RSS&at_campaign=rss",
-        "summary": "Hong Kong used to be one of the only places in Chinese territory where people could gather to mark the 1989 crackdown.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c23c/live/9ec505e0-adc9-11f1-b1d1-571ed4d7ff2c.jpg",
-        "publishedAt": "2026-09-11T05:41:54.000Z",
+        "title": "Princess Diana's 'revenge dress' goes up for auction",
+        "link": "https://www.bbc.co.uk/news/articles/c0lrk7d7j0no?at_medium=RSS&at_campaign=rss",
+        "summary": "Auction house Sotheby's expects the dress to sell for up to $300,000 (£220,000) when it goes under the hammer on 9 December.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/712b/live/9583d4a0-ad80-11f1-b787-81bf75d2ae07.jpg",
+        "publishedAt": "2026-09-11T12:04:46.000Z",
         "source": "BBC"
       }
     ],
@@ -470,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-09-11",
+    "rotationLabel": "Curated Rotation · 2026-09-12",
     "sections": [
       {
         "id": "data-storage",
@@ -478,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-4",
-            "sectionId": "data-storage",
-            "title": "Dremel: Interactive Analysis of Web-Scale Datasets",
-            "authors": [
-              "Sergey Melnik",
-              "Andrey Gubarev",
-              "Jing Jing Long",
-              "Geoffrey Romer"
-            ],
-            "venue": "VLDB",
-            "year": 2010,
-            "quality": "顶会",
-            "categories": [
-              "analytics",
-              "columnar"
-            ],
-            "link": "https://research.google/pubs/pub36632/",
-            "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-5",
             "sectionId": "data-storage",
@@ -517,7 +540,7 @@
             ],
             "link": "https://arxiv.org/abs/2401.08281",
             "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-6",
@@ -539,6 +562,27 @@
             "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
             "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-1",
+            "sectionId": "data-storage",
+            "title": "The Log-Structured Merge-Tree (LSM-Tree)",
+            "authors": [
+              "Patrick O'Neil",
+              "Edward Cheng",
+              "Dieter Gawlick",
+              "Elizabeth O'Neil"
+            ],
+            "venue": "Acta Informatica",
+            "year": 1996,
+            "quality": "经典基础",
+            "categories": [
+              "storage",
+              "indexing"
+            ],
+            "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
+            "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -548,27 +592,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-5",
-            "sectionId": "computer-vision",
-            "title": "Segment Anything",
-            "authors": [
-              "Alexander Kirillov",
-              "Eric Mintun",
-              "Nikhila Ravi",
-              "Hanzi Mao"
-            ],
-            "venue": "ICCV",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "segmentation",
-              "foundation model"
-            ],
-            "link": "https://arxiv.org/abs/2304.02643",
-            "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-6",
             "sectionId": "computer-vision",
@@ -588,7 +611,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.07193",
             "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-1",
@@ -610,6 +633,27 @@
             "link": "https://arxiv.org/abs/1512.03385",
             "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-2",
+            "sectionId": "computer-vision",
+            "title": "End-to-End Object Detection with Transformers",
+            "authors": [
+              "Nicolas Carion",
+              "Francisco Massa",
+              "Gabriel Synnaeve",
+              "Nicolas Usunier"
+            ],
+            "venue": "ECCV",
+            "year": 2020,
+            "quality": "顶会",
+            "categories": [
+              "detection",
+              "transformer"
+            ],
+            "link": "https://arxiv.org/abs/2005.12872",
+            "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -619,27 +663,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-6",
-            "sectionId": "llm-memory",
-            "title": "MemoRAG: Moving towards Next-Gen RAG Via Memory-Inspired Knowledge Discovery",
-            "authors": [
-              "Rulin Shao",
-              "Yue Liu",
-              "Shuo Wang",
-              "Yichi Zhang"
-            ],
-            "venue": "arXiv",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "RAG",
-              "memory bank"
-            ],
-            "link": "https://arxiv.org/abs/2409.05591",
-            "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-1",
             "sectionId": "llm-memory",
@@ -659,7 +682,7 @@
             ],
             "link": "https://arxiv.org/abs/2005.11401",
             "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-2",
@@ -681,6 +704,27 @@
             "link": "https://arxiv.org/abs/2203.08913",
             "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-3",
+            "sectionId": "llm-memory",
+            "title": "RETRO: Improving Language Models by Retrieving From Trillions of Tokens",
+            "authors": [
+              "Sebastian Borgeaud",
+              "Arthur Mensch",
+              "Jordan Hoffmann",
+              "Trevor Cai"
+            ],
+            "venue": "DeepMind / arXiv",
+            "year": 2022,
+            "quality": "高影响力",
+            "categories": [
+              "retrieval",
+              "language model"
+            ],
+            "link": "https://arxiv.org/abs/2112.04426",
+            "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -690,28 +734,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-1",
-            "sectionId": "agents",
-            "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
-            "authors": [
-              "Shunyu Yao",
-              "Jeffrey Zhao",
-              "Dian Yu",
-              "Nan Du"
-            ],
-            "venue": "ICLR",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "agent",
-              "reasoning",
-              "tool use"
-            ],
-            "link": "https://arxiv.org/abs/2210.03629",
-            "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-2",
             "sectionId": "agents",
@@ -731,7 +753,7 @@
             ],
             "link": "https://arxiv.org/abs/2302.04761",
             "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-3",
@@ -752,6 +774,27 @@
             ],
             "link": "https://arxiv.org/abs/2304.03442",
             "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-4",
+            "sectionId": "agents",
+            "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+            "authors": [
+              "Guanzhi Wang",
+              "Yuqi Xie",
+              "Zixiang Zhou",
+              "Yujin Tang"
+            ],
+            "venue": "arXiv",
+            "year": 2023,
+            "quality": "高影响力",
+            "categories": [
+              "embodied agent",
+              "planning"
+            ],
+            "link": "https://arxiv.org/abs/2305.16291",
+            "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
             "trackLabel": "轮换精选"
           }
         ]
