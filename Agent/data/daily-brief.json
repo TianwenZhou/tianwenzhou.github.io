@@ -1,29 +1,21 @@
 {
-  "generatedAt": "2026-09-12T12:07:37.018Z",
+  "generatedAt": "2026-09-12T18:18:39.387Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 24,
+      "temperature": 19,
       "weatherCode": 0,
-      "windSpeed": 10
+      "windSpeed": 4
     },
     "today": {
-      "date": "2026-09-12",
-      "weatherCode": 3,
-      "description": "阴天",
+      "date": "2026-09-13",
+      "weatherCode": 0,
+      "description": "晴朗",
       "max": 29,
-      "min": 16,
+      "min": 17,
       "precipitationProbability": 0
     },
     "forecast": [
-      {
-        "date": "2026-09-12",
-        "weatherCode": 3,
-        "description": "阴天",
-        "max": 29,
-        "min": 16,
-        "precipitationProbability": 0
-      },
       {
         "date": "2026-09-13",
         "weatherCode": 0,
@@ -36,7 +28,7 @@
         "date": "2026-09-14",
         "weatherCode": 0,
         "description": "晴朗",
-        "max": 26,
+        "max": 27,
         "min": 16,
         "precipitationProbability": 0
       },
@@ -53,34 +45,51 @@
         "weatherCode": 3,
         "description": "阴天",
         "max": 31,
-        "min": 19,
+        "min": 18,
         "precipitationProbability": 0
+      },
+      {
+        "date": "2026-09-17",
+        "weatherCode": 3,
+        "description": "阴天",
+        "max": 31,
+        "min": 20,
+        "precipitationProbability": 6
       }
     ]
   },
   "classicQuote": {
-    "id": "analects-learning",
-    "text": "学而不思则罔，思而不学则殆。",
-    "source": "《论语》",
-    "author": "孔子",
-    "note": "提醒自己既要输入，也要沉淀，不要只忙不想。"
+    "id": "taoteching-accumulate",
+    "text": "合抱之木，生于毫末；九层之台，起于累土。",
+    "source": "《道德经》",
+    "author": "老子",
+    "note": "再大的目标，也要拆成今天能推进的一小步。"
   },
   "bookExcerpt": {
-    "id": "fortress-besieged-night",
-    "text": "夜仿佛纸浸了油，变成半透明体；它给太阳拥抱住了，分不出身来，也许是给太阳溶了，所以夕照晚霞隐褪后的夜色也带着酡红。",
-    "book": "《围城》",
-    "author": "钱钟书"
+    "id": "camel-xiangzi-sky",
+    "text": "天是越来越晴朗了，一轮火一样的太阳悬在空中，街上的一切都像在明晃晃地发着白光。",
+    "book": "《骆驼祥子》",
+    "author": "老舍"
   },
   "featuredPlace": {
-    "id": "202609111600",
-    "title": "墨西哥近海围猎沙丁鱼饵球的加州海狮，太平洋",
+    "id": "202609121600",
+    "title": "米苏里纳群峰，多洛米蒂山脉，威尼托大区，意大利",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "海浪与海岸的高手",
-    "image": "https://www.bing.com/th?id=OHR.SardineBait_ZH-CN3256234033_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E5%8A%A0%E5%B7%9E%E6%B5%B7%E7%8B%AE&form=hpcapt&mkt=zh-cn"
+    "summary": "高处的珊瑚礁",
+    "image": "https://www.bing.com/th?id=OHR.MisurinaPeak_ZH-CN3877105161_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E5%A4%9A%E6%B4%9B%E7%B1%B3%E8%92%82%E5%B1%B1%E8%84%89%E7%B1%B3%E8%8B%8F%E9%87%8C%E7%BA%B3%E7%BE%A4%E5%B3%B0&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202609121600",
+      "title": "米苏里纳群峰，多洛米蒂山脉，威尼托大区，意大利",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "高处的珊瑚礁",
+      "image": "https://www.bing.com/th?id=OHR.MisurinaPeak_ZH-CN3877105161_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E5%A4%9A%E6%B4%9B%E7%B1%B3%E8%92%82%E5%B1%B1%E8%84%89%E7%B1%B3%E8%8B%8F%E9%87%8C%E7%BA%B3%E7%BE%A4%E5%B3%B0&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202609111600",
       "title": "墨西哥近海围猎沙丁鱼饵球的加州海狮，太平洋",
@@ -143,29 +152,20 @@
       "summary": "倒影满湖的水库",
       "image": "https://www.bing.com/th?id=OHR.LakeFyans_ZH-CN1067187791_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9A%E7%BB%B4%E5%A4%9A%E5%88%A9%E4%BA%9A%E5%B7%9E%E6%A0%BC%E5%85%B0%E5%B1%8F%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202609041600",
-      "title": "龙虾爪花上取食的绿顶辉蜂鸟，哥斯达黎加",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "小小鸟儿，巨大影响",
-      "image": "https://www.bing.com/th?id=OHR.GreenCrowned_ZH-CN0697075036_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E5%85%A8%E5%9B%BD%E8%9C%82%E9%B8%9F%E6%97%A5&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-09-12",
-    "dateLabel": "9月12日",
+    "dateKey": "2026-09-13",
+    "dateLabel": "9月13日",
     "items": [
       {
         "year": "2024",
-        "text": "載著北極星黎明人員的獵鷹9號運載火箭發射升空，打破私人載人飛行任務最遠紀錄，並進行人類首次私人太空行走。",
+        "text": "中国全国人民代表大会常务委员会通过延迟退休方案，自2025年起的15年间逐步将男职工退休年龄从60岁延迟到63岁，女职工退休年龄从50岁、55岁分别延迟到55岁、58岁。",
         "link": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4"
       },
       {
         "year": "2021",
-        "text": "澳門在部分民主派人士撤銷參選資格下舉行2021年立法會選舉，選舉投票率是澳門回歸以來歷史最低。",
+        "text": "約納斯·加爾·斯特勒領導的挪威工黨及其他中間偏左政黨在2021年國會選舉中勝出。",
         "link": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4"
       }
     ]
@@ -173,137 +173,153 @@
   "news": {
     "chinaTop": [
       {
-        "title": "千余专家学者齐聚哈尔滨 共研动力装备关键技术",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-12/10695393.shtml",
-        "summary": "中新网哈尔滨9月12日电(刘涛)9月12日，2026年中国工程热物理学会热机气动热力学和流体机械学术会议在哈尔滨召开。来自中国各地高校与科研机构的千余名专家学者，围绕气动热力与整机性能、涡轮流动与设计、压气机流动稳定性等11个前沿方向进行交流研讨。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260912/db4d7df1-304b-48fb-ab57-dd59667ed094_zsite.jpg",
-        "publishedAt": "2026-09-12T12:04:37.000Z",
+        "title": "新华图讯｜习近平会见印度总理莫迪",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-13/10695498.shtml",
+        "summary": "当地时间9月12日，国家主席习近平在新德里会见印度总理莫迪。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/09/13/ed5726b399e74344bf2bc7f3ef8f3c98.jpeg",
+        "publishedAt": "2026-09-12T16:54:45.000Z",
         "source": "中新网"
       },
       {
-        "title": "（长征胜利90周年）甘肃哈达铺：长征旧址传薪火 九十余载初心不改",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-12/10695380.shtml",
-        "summary": "中新社兰州9月12日电 (记者 闫姣)“进入回民区，先派代表同阿訇(回教首领)接洽，说明红军北上抗日的意义，征得回民同意后，方能进入回民村庄宿营，否则应露宿；保护回民信仰自由，不得擅入清真寺，不得损坏回民经典；不准借用回民器皿用具，不得在回民地区吃猪肉、猪油……”",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260912/44df4664-997d-403d-86f4-488248894b94_zsite.jpg",
-        "publishedAt": "2026-09-12T12:02:09.000Z",
+        "title": "习近平会见印度总理莫迪",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-12/10695496.shtml",
+        "summary": "中新社新德里9月12日电 （记者 郭金超 黄钰钦）当地时间9月12日下午，中国国家主席习近平在印度新德里出席金砖国家领导人第十八次会晤期间会见印度总理莫迪。两国领导人坦诚深入交换意见，就中印要做伙伴达成重要共识。",
+        "image": "",
+        "publishedAt": "2026-09-12T15:54:33.000Z",
         "source": "中新网"
       },
       {
-        "title": "浦江创新论坛首个非洲主宾国南非冀多领域技术合作",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-12/10695379.shtml",
-        "summary": "中新社上海9月12日电 (记者 郑莹莹 孙自法)作为南非一家生态农业企业的负责人，这是西德韦尔·姆塞博·西赫兰古(Sydwell Mcebo Sihlangu)第一次来到中国，并参加2026浦江创新论坛。“中国的技术水平遥遥领先，我留意到这里很多设备均已实现自动化，我们期待与中国在农业等领域展开合作...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260912/0cf8309f-bfcd-4cdb-91a1-d4cb5114cc81_zsite.jpeg",
-        "publishedAt": "2026-09-12T12:01:07.000Z",
+        "title": "李鸿忠赴俄罗斯出席第七届中俄中小企业实业论坛并访问伊尔库茨克州",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-12/10695491.shtml",
+        "summary": "新华社莫斯科9月12日电(记者侯鸣)9月9日至12日，中共中央政治局委员，全国人大常委会副委员长，中俄友好、和平与发展委员会中方主席李鸿忠在莫斯科出席第七届中俄中小企业实业论坛开幕式并致辞；与俄罗斯联邦委员会主席马特维延科，国家杜马第一副主席梅利尼科夫，中俄友好、和平与发展委员会俄方主席季托夫会见，...",
+        "image": "",
+        "publishedAt": "2026-09-12T14:52:34.000Z",
         "source": "中新网"
       },
       {
-        "title": "探访重庆长江文化：还江于民，让历史在江岸新生",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-12/10695367.shtml",
-        "summary": "中新网重庆9月12日电 题：探访重庆长江文化：还江于民，让历史在江岸新生",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260912/2c6e72df-a923-4555-84ed-2278fa705dc5_zsite.JPG",
-        "publishedAt": "2026-09-12T12:00:17.000Z",
+        "title": "习近平会见印度总理莫迪",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-12/10695490.shtml",
+        "summary": "新华社新德里9月12日电(记者郝薇薇#8195;刘锴)当地时间9月12日下午，国家主席习近平在印度新德里出席金砖国家领导人第十八次会晤期间会见印度总理莫迪。两国领导人坦诚深入交换意见，就中印要做伙伴达成重要共识。",
+        "image": "",
+        "publishedAt": "2026-09-12T14:49:09.000Z",
         "source": "中新网"
       },
       {
-        "title": "锡林浩特城市那达慕：民俗进城市，文化融邻里",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-12/10695360.shtml",
-        "summary": "中新网锡林郭勒9月12日电 题：锡林浩特城市那达慕：民俗进城市，文化融邻里",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260912/d2802c10-c188-4359-9d0c-69843a129ef2_zsite.jpeg",
-        "publishedAt": "2026-09-12T11:59:55.000Z",
+        "title": "详讯：习近平出席金砖国家领导人第十八次会晤第一阶段会议并发表重要讲话",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-12/10695481.shtml",
+        "summary": "中新社新德里9月12日电 (记者 郭金超 黄钰钦)当地时间9月12日下午，中国国家主席习近平在新德里出席金砖国家领导人第十八次会晤第一阶段会议。",
+        "image": "",
+        "publishedAt": "2026-09-12T14:17:02.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "中国“村钓”开赛 钓友相聚宁夏贺兰竞逐渔乐",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-12/10695384.shtml",
-        "summary": "中新网银川9月12日电 (记者 李佩珊)9月12日，2026年全国“和美乡村 ‘村钓’展示交流活动”在银川市贺兰县常信乡开赛，300名垂钓爱好者齐聚现场，开启一场乡土气息浓厚的垂钓盛会。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260912/d8b092ce-ad39-421f-8387-c04269705134_zsite.jpeg",
-        "publishedAt": "2026-09-12T12:02:29.000Z",
+        "title": "中新网评宁大校长雨中三句话致辞：比仪式更重要的是体谅",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-12/10695488.shtml",
+        "summary": "中新网北京9月12日电(记者 高萌)当开学典礼遇上大雨，作为校长是选择念完准备好的发言稿，还是让同学们先避雨？",
+        "image": "https://v-oss.cnsimg.net/cspimp/2026/09/12/4bd48a68-62ed-4fb7-918a-6a8f9483ed1e.mp4",
+        "publishedAt": "2026-09-12T14:31:48.000Z",
         "source": "中新网"
       },
       {
-        "title": "广西多举措保护野生动植物 遏制非法交易",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-12/10695373.shtml",
-        "summary": "中新网北海9月12日电 (黄令妍 李荣霞)9月11日，2026年广西野生动植物保护宣传月主题宣传活动在北海市启动。活动主题为“拒绝野味消费，共护八桂生灵”，聚焦抵制滥食野生动物陋习，从消费源头遏制野生动植物非法交易链条。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260912/d186f250-b9a7-4991-ac11-f27ea9e2f4cc_zsite.jpeg",
-        "publishedAt": "2026-09-12T11:57:40.000Z",
+        "title": "中国内地单跨跨径最大的双层钢桁梁桥实现合龙",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-12/10695483.shtml",
+        "summary": "中新社广州9月12日电 (记者 蔡敏婕)粤港澳大湾区核心枢纽工程——狮子洋通道跨西樵水道钢桁梁桥12日完成11个节段拼装，实现精准合龙。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260912/b9bbf04a-a4b5-4724-a496-d084ba9dd3a9_zsite.jpg",
+        "publishedAt": "2026-09-12T14:16:12.000Z",
         "source": "中新网"
       },
       {
-        "title": "山西公安公布6起涉嫌新型黑恶违法犯罪典型案例 31人落网",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-12/10695365.shtml",
-        "summary": "中新网太原9月12日电 (记者 李庭耀)全国为期一年的深化扫黑除恶专项斗争全面启动以来，山西省公安机关精准发力、重拳出击，严厉打击各类新型涉恶违法犯罪。山西省公安厅11日晚公布6起涉嫌新型黑恶违法犯罪典型案例。",
-        "image": "",
-        "publishedAt": "2026-09-12T11:53:06.000Z",
+        "title": "广西合浦中秋国庆非遗系列活动启幕 168斤的大月饼免费吃",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-12/10695429.shtml",
+        "summary": "中新网北海9月12日电(翟李强 罗虹莉 林启波)9月12日，2026年合浦县中秋国庆非遗系列活动在广西合浦月饼小镇启动。活动以非遗月饼为核心纽带，串联千年海丝文脉、本土民俗风情与文旅特色产业，为民众打造一场沉浸式、多样化的非遗盛宴，系列活动将持续开展至10月3日。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260912/78c48b69-086c-405e-a6fe-323bbdd79791_zsite.JPG",
+        "publishedAt": "2026-09-12T12:58:22.000Z",
         "source": "中新网"
       },
       {
-        "title": "从6岁到67岁，锡林河畔四代棋手同场对弈喜塔尔",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-12/10695359.shtml",
-        "summary": "中新网锡林郭勒9月12日电 (奥蓝 宝勒尔)12日，“锡林河畔石榴红 以棋为桥促交融”非遗喜塔尔(蒙古族象棋)交流大赛在内蒙古自治区锡林郭勒盟锡林浩特会展中心开赛，来自赤峰市、锡林郭勒盟等地的128名棋手同场竞技，在方寸棋盘间切磋棋艺、交流互动。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260912/a2e1b6ed-0d89-4edd-ab1d-39fdff5202b5_zsite.jpeg",
-        "publishedAt": "2026-09-12T11:51:08.000Z",
+        "title": "从单机突围到集群拓局 上合示范区小农机耕拓印度大市场",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-12/10695427.shtml",
+        "summary": "中新网青岛9月12日电 (王禹)印度辣椒加工厂里，一台蓝白相间的“箱子”正快速输出去柄后的辣椒。这台由胶州市胶莱街道农民李志敏研发的辣椒除柄机，在当地被亲切地称作“中国的宝马”。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260912/3e6f3f3a-745a-4665-afa1-d2e0c35dd1ca_zsite.jpg",
+        "publishedAt": "2026-09-12T12:51:04.000Z",
         "source": "中新网"
       },
       {
-        "title": "“红通人员”、外逃职务犯罪嫌疑人曾能贵被引渡回中国",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-12/10695307.shtml",
-        "summary": "中新社北京9月12日电 中国官方12日通报，近日，在中央反腐败协调小组国际追逃追赃工作办公室统筹协调下，经国际执法司法合作，“红通人员”、外逃职务犯罪嫌疑人曾能贵被引渡回国。",
-        "image": "",
-        "publishedAt": "2026-09-12T10:01:42.000Z",
+        "title": "京津冀残疾人艺术作品展在津举行 166件作品集中亮相",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-12/10695424.shtml",
+        "summary": "中新网天津9月12日电 (薛淳月)京津冀残疾人艺术作品展11日在天津图书馆文化中心馆举行，经专家评审后甄选166件作品入展，涵盖书法、绘画、摄影等类别，集中展现京津冀三地残疾人创作者的艺术实践。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260912/1857c246-93e0-4ebf-ae07-ed1bf7ca55ed_zsite.jpg",
+        "publishedAt": "2026-09-12T12:50:02.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "绥芬河口岸深耕“双买双卖”做强跨境贸易新业态",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-12/10695416.shtml",
-        "summary": "中新网绥芬河9月12日电(史轶夫 田晓慧)货运列车汽笛鸣响，国产家电、百货整装驶出绥芬河铁路口岸奔赴俄罗斯；仓储车间内，来自俄方的蜂蜜、粮油完成清关分拣，发往国内各地。一进一出的繁忙场景，正是“百年口岸”绥芬河实践“双买双卖”，打造向北开放前沿的生动缩影。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260912/01d89689-bf87-460d-815c-39912d333fdd_zsite.jpg",
-        "publishedAt": "2026-09-12T12:02:31.000Z",
+        "title": "当物流装上“AI引擎” 如何跑出新速度？",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-13/10695500.shtml",
+        "summary": "网上下单、家门口收快递，早已融入普通人的日常生活。但亿万件包裹如何实现高效流转、精准投递？在服贸会上，记者发现，人工智能正在改变传统物流的运行逻辑。",
+        "image": "",
+        "publishedAt": "2026-09-12T17:03:56.000Z",
         "source": "中新网"
       },
       {
-        "title": "贺兰佳酿飘香黔中 22家宁夏企组团亮相贵州酒博会",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-12/10695399.shtml",
-        "summary": "中新网银川9月12日电 (记者 于晶)记者12日从宁夏贸促会获悉，宁夏组织22家企业赴贵阳，参加第十五届中国(贵州)国际酒类博览会，并举办“品牌宁夏中华行”走进贵州暨宁夏专场推介会，借力国家级展会平台推介塞上优品，深化省际经贸往来，积极开拓西南市场。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260912/ee597214-8c94-404e-a002-c6db8b88978b_zsite.jpeg",
-        "publishedAt": "2026-09-12T12:01:39.000Z",
+        "title": "第48届世界技能大赛将在上海启幕 创多项历届之最",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-12/10695482.shtml",
+        "summary": "中新社上海9月12日电 (范宇斌)距离9月22日启幕的第48届世界技能大赛(简称“世赛”)仅剩10天，各项筹备工作已进入收官冲刺阶段。",
+        "image": "",
+        "publishedAt": "2026-09-12T14:28:24.000Z",
         "source": "中新网"
       },
       {
-        "title": "《2026中国餐饮业年度报告》发布",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-12/10695387.shtml",
-        "summary": "中新网北京9月12日电 (记者 刘文文)2026年中国国际服务贸易交易会期间，《2026中国餐饮业年度报告》在北京正式发布。本年度发布的报告首次通过大数据描绘出行业全景画像，维度更全，剖析更深。中国饭店协会副秘书长张翔在12日举行的发布会上说，可以用九个字概括报告的核心判断：大盘稳、结构优、动能新。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260912/f6950db4-9e11-4660-a6d4-356fad24abcf_zsite.jpg",
-        "publishedAt": "2026-09-12T12:01:23.000Z",
+        "title": "多国好物跨越疆界 服贸会联通中外互惠共享",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-12/10695445.shtml",
+        "summary": "中新社北京9月12日电 (记者 周兆军 陈杭)埃塞俄比亚咖啡、斯里兰卡红茶、叙利亚阿勒颇古皂……正在北京举行的2026年中国国际服务贸易交易会上，第十一届“炫彩世界”文化展示交流活动集中展示环球风物，将不同国家的风味、工艺与文化带到前来参观的各国观众身边。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260912/0e046834-9471-4015-a044-8cbb2e21ebb1_zsite.jpg",
+        "publishedAt": "2026-09-12T13:22:14.000Z",
         "source": "中新网"
       },
       {
-        "title": "从机器人到光伏储能 中澳经贸合作向新向绿",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-12/10695377.shtml",
-        "summary": "中新社墨尔本9月12日电 (记者 薄雯雯)9月10日至12日，2026澳中博览会暨中国消费品(澳大利亚)品牌展在澳大利亚墨尔本举行。300多家中澳企业和机构带来的产品与技术，展现出两国经贸合作在科技创新、绿色能源和智能生活等领域的新机遇。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260912/b8189863-5d1e-464d-997b-20739c3faeca_zsite.JPG",
-        "publishedAt": "2026-09-12T12:00:41.000Z",
+        "title": "广西首个“用机器人造机器人”工厂投产",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-12/10695446.shtml",
+        "summary": "中新社广西柳州9月12日电 (林馨)柳州优必选工业人形机器人超级智慧工厂投产仪式12日在广西柳州市举行。该项目依托工业仿真系统智能规划、数字化“智慧大脑”全域调度，成为广西首个实现“用机器人造机器人”闭环的智造工厂。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260912/27182944-6a6e-4cb6-be25-768465e53ebf_zsite.JPG",
+        "publishedAt": "2026-09-12T13:19:28.000Z",
         "source": "中新网"
       },
       {
-        "title": "经济观察：AI加速“跑入”千行百业 拓宽场景供给成共识",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-12/10695375.shtml",
-        "summary": "中新网宁波9月12日电 (张斌)天蒙蒙亮，浙江宁波舟山港梅山港区空箱查验场地上，一只机器狗穿梭自如于集装箱之间，时而驻足“端详”箱体，时而灵巧地钻入箱内探查，执行自动巡查、箱号识别、异物识别等一系列任务。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260912/b2b0598e-5a1b-4d53-ada9-638f7d8f4c69_zsite.jpg",
-        "publishedAt": "2026-09-12T11:58:14.000Z",
+        "title": "服贸会期间多项法商服务成果在北京发布",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-12/10695450.shtml",
+        "summary": "中新网北京9月12日电 (记者 陈杭)2026年中国国际服务贸易交易会期间，第一届“一带一路”法商服务保障发布会11日在北京举办，集中发布《全球数据跨境流动治理实践》等法商服务成果。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260912/2887289a-b140-4474-ad08-eced3c5b8fbb_zsite.jpg",
+        "publishedAt": "2026-09-12T13:15:02.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
+        "title": "Anthropic boss Dario Amodei calls for AI development to slow down",
+        "link": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
+        "summary": "The call comes amid growing concerns that AI models may become able to inflict serious damage worldwide.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9256/live/a1802a30-aeb9-11f1-b1d1-571ed4d7ff2c.jpg",
+        "publishedAt": "2026-09-12T17:42:38.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "French officials investigate if malicious act caused train derailment",
+        "link": "https://www.bbc.co.uk/news/articles/c33kp533nn6o?at_medium=RSS&at_campaign=rss",
+        "summary": "Officials say a rail fragment was found on the tracks after Friday's crash of a passenger train that left 44 people injured.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/57a4/live/cdfa4090-aea6-11f1-8972-d5c52a82c3b8.jpg",
+        "publishedAt": "2026-09-12T15:05:53.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "A united Ireland would be 'fantastic' says Trump during Irish visit",
         "link": "https://www.bbc.co.uk/news/articles/cy0zvx15rywo?at_medium=RSS&at_campaign=rss",
-        "summary": "Trump is holding meetings in Dublin before attending the Irish Open golf tournament in Doonbeg, County Clare.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/af5a/live/a555a260-ae9c-11f1-8972-d5c52a82c3b8.jpg",
-        "publishedAt": "2026-09-12T11:27:44.000Z",
+        "summary": "Trump made the comments during a meeting with Irish leader Micheál Martin, but Downing Street says it will \"stick to the Good Friday Agreement\".",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a39c/live/b6611ef0-aec3-11f1-b1d1-571ed4d7ff2c.jpg",
+        "publishedAt": "2026-09-12T13:56:20.000Z",
         "source": "BBC"
       },
       {
@@ -311,41 +327,25 @@
         "link": "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss",
         "summary": "Iraq removes a military commander and opens investigations into the attack that came from an area bordering Iran.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03a0/live/0047f800-ae96-11f1-b92e-1f49080ec3cb.jpg",
-        "publishedAt": "2026-09-12T11:00:34.000Z",
+        "publishedAt": "2026-09-12T12:15:50.000Z",
         "source": "BBC"
       },
       {
-        "title": "The world’s deadliest sea route keeps getting busier",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdjNEME14X1FLOHg5RmdweERQUFZqZHBhcVVuY3JITHZONEoxOUVneUlqSDZ2N1RjTWZkNXE5ME1HYnE3R1JWaElYSVg2dmFDZXZNLUZSR1MtcDNWX1dJRFVkbC1SdEI0dmdJVnVPQ3hWLWNOTWNGSVR6X05ZYU44LUZfSjlPdzltNHJkNFFn?oc=5",
+        "title": "Trump says Iran likely responsible for attack that shut vital Saudi oil pipeline",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBCN05SU2luNWgwQnpYOGtmWndwclVrMERSUmFna1RDQnVRM1J4SEd3TUxieTMwSWNTcnNycXNUMWZ1cFdjalpVMVNxZHhsdFA2RUNmc2RMeXk3aHhrLWU2YURqZDdwU3ZTTGppTjZxX3NSYTBIcXdPdlEyZDI?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-09-12T04:00:29.000Z",
+        "publishedAt": "2026-09-12T11:20:31.000Z",
         "source": "CNN"
-      },
+      }
+    ],
+    "worldBusiness": [
       {
         "title": "Karaoke for one: China’s $1 trillion ‘loneliness economy’ gives a glimpse of the world’s future",
         "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNWN5ZHd5MmFTSUF1T3J6ZUhYVE1kdFROUlNjTkVZTjBxWjNMblpYV1lNNlA5VFhjbUFaMjJhZ1gzVkJNTXR6VThPUUNMclNfYmpKcGo2bVN1RWN4LTUyY082bngwd2NLV0pvZUZfelM4N0NEbGZHRUxCX1JDcFQ1bXhn?oc=5",
         "summary": "",
         "image": "",
         "publishedAt": "2026-09-12T04:00:29.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "Death toll from Philippines ferry fire climbs to 35, with dozens still missing",
-        "link": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o?at_medium=RSS&at_campaign=rss",
-        "summary": "Access to the burnt-out boat has been slowed by toxic fumes and lingering heat, the country's coast guard says.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28b9/live/a4414240-ae46-11f1-bc1f-3f186ca4140c.jpg",
-        "publishedAt": "2026-09-12T03:02:28.000Z",
-        "source": "BBC"
-      }
-    ],
-    "worldBusiness": [
-      {
-        "title": "Dating apps are ditching ‘the swipe’ for meet-ups IRL",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNemUxOC1TX3BsQzkwd3o1UnQwZ0gxWDNyQXZxanM1dHJacWUtMF93bFRBbzlTRDJ0YktmaDlnYTFwNUlYSUdlSEYycGl1WHRPR3g0anBrc2l2MHBrWEF4R2k5azdndURzMTFtNXFFMFhlQ2hUZEFhcGx3Um5xak1DdkxR?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-09-12T09:00:30.000Z",
         "source": "CNN"
       },
       {
@@ -383,6 +383,22 @@
     ],
     "worldTech": [
       {
+        "title": "Anthropic boss Dario Amodei calls for AI development to slow down",
+        "link": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
+        "summary": "The call comes amid growing concerns that AI models may become able to inflict serious damage worldwide.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9256/live/a1802a30-aeb9-11f1-b1d1-571ed4d7ff2c.jpg",
+        "publishedAt": "2026-09-12T17:42:38.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Dramatic insider warnings over AI fall flat with some in Silicon Valley",
+        "link": "https://www.bbc.co.uk/news/articles/cq635037g18o?at_medium=RSS&at_campaign=rss",
+        "summary": "A recent spate of stark warnings about the dangers of AI has been met with scepticism by executives and investors.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/203a/live/5d11e480-ae26-11f1-a540-61c3f7fc4e6c.jpg",
+        "publishedAt": "2026-09-12T17:28:53.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "PlayStation gambles with 18-rated Wolverine game - will it pay off?",
         "link": "https://www.bbc.co.uk/news/articles/cy0zq2n9gggo?at_medium=RSS&at_campaign=rss",
         "summary": "The BBC's Tom Gerken plays the hotly anticipated superhero game from Spider-Man makers Insomniac.",
@@ -405,73 +421,73 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2a77/live/af54b2d0-addc-11f1-b1d1-571ed4d7ff2c.jpg",
         "publishedAt": "2026-09-11T12:49:30.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Anthropic blocks possible attempt to use AI to make biological weapons",
-        "link": "https://www.bbc.co.uk/news/articles/cx2zrrpkx20o?at_medium=RSS&at_campaign=rss",
-        "summary": "The revelations in Anthropic's threat intelligence report come after a former top researcher at the company warned of the risks of AI to humanity.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/090c/live/88ca35f0-ad6d-11f1-8edd-ada2fcb84b27.jpg",
-        "publishedAt": "2026-09-11T08:15:25.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Can Europe recharge its battery industry?",
-        "link": "https://www.bbc.co.uk/news/articles/cjeg8ly0qd3o?at_medium=RSS&at_campaign=rss",
-        "summary": "Europe has some promising battery tech, but can it make up ground lost to Chinese battery giants?",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ac3e/live/cd5970d0-acf2-11f1-a540-61c3f7fc4e6c.jpg",
-        "publishedAt": "2026-09-10T23:05:47.000Z",
-        "source": "BBC"
       }
     ],
     "domestic": [
       {
-        "title": "千余专家学者齐聚哈尔滨 共研动力装备关键技术",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-12/10695393.shtml",
-        "summary": "中新网哈尔滨9月12日电(刘涛)9月12日，2026年中国工程热物理学会热机气动热力学和流体机械学术会议在哈尔滨召开。来自中国各地高校与科研机构的千余名专家学者，围绕气动热力与整机性能、涡轮流动与设计、压气机流动稳定性等11个前沿方向进行交流研讨。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260912/db4d7df1-304b-48fb-ab57-dd59667ed094_zsite.jpg",
-        "publishedAt": "2026-09-12T12:04:37.000Z",
+        "title": "新华图讯｜习近平会见印度总理莫迪",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-13/10695498.shtml",
+        "summary": "当地时间9月12日，国家主席习近平在新德里会见印度总理莫迪。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/09/13/ed5726b399e74344bf2bc7f3ef8f3c98.jpeg",
+        "publishedAt": "2026-09-12T16:54:45.000Z",
         "source": "中新网"
       },
       {
-        "title": "（长征胜利90周年）甘肃哈达铺：长征旧址传薪火 九十余载初心不改",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-12/10695380.shtml",
-        "summary": "中新社兰州9月12日电 (记者 闫姣)“进入回民区，先派代表同阿訇(回教首领)接洽，说明红军北上抗日的意义，征得回民同意后，方能进入回民村庄宿营，否则应露宿；保护回民信仰自由，不得擅入清真寺，不得损坏回民经典；不准借用回民器皿用具，不得在回民地区吃猪肉、猪油……”",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260912/44df4664-997d-403d-86f4-488248894b94_zsite.jpg",
-        "publishedAt": "2026-09-12T12:02:09.000Z",
+        "title": "习近平会见印度总理莫迪",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-12/10695496.shtml",
+        "summary": "中新社新德里9月12日电 （记者 郭金超 黄钰钦）当地时间9月12日下午，中国国家主席习近平在印度新德里出席金砖国家领导人第十八次会晤期间会见印度总理莫迪。两国领导人坦诚深入交换意见，就中印要做伙伴达成重要共识。",
+        "image": "",
+        "publishedAt": "2026-09-12T15:54:33.000Z",
         "source": "中新网"
       },
       {
-        "title": "浦江创新论坛首个非洲主宾国南非冀多领域技术合作",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-12/10695379.shtml",
-        "summary": "中新社上海9月12日电 (记者 郑莹莹 孙自法)作为南非一家生态农业企业的负责人，这是西德韦尔·姆塞博·西赫兰古(Sydwell Mcebo Sihlangu)第一次来到中国，并参加2026浦江创新论坛。“中国的技术水平遥遥领先，我留意到这里很多设备均已实现自动化，我们期待与中国在农业等领域展开合作...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260912/0cf8309f-bfcd-4cdb-91a1-d4cb5114cc81_zsite.jpeg",
-        "publishedAt": "2026-09-12T12:01:07.000Z",
+        "title": "李鸿忠赴俄罗斯出席第七届中俄中小企业实业论坛并访问伊尔库茨克州",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-12/10695491.shtml",
+        "summary": "新华社莫斯科9月12日电(记者侯鸣)9月9日至12日，中共中央政治局委员，全国人大常委会副委员长，中俄友好、和平与发展委员会中方主席李鸿忠在莫斯科出席第七届中俄中小企业实业论坛开幕式并致辞；与俄罗斯联邦委员会主席马特维延科，国家杜马第一副主席梅利尼科夫，中俄友好、和平与发展委员会俄方主席季托夫会见，...",
+        "image": "",
+        "publishedAt": "2026-09-12T14:52:34.000Z",
         "source": "中新网"
       },
       {
-        "title": "探访重庆长江文化：还江于民，让历史在江岸新生",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-12/10695367.shtml",
-        "summary": "中新网重庆9月12日电 题：探访重庆长江文化：还江于民，让历史在江岸新生",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260912/2c6e72df-a923-4555-84ed-2278fa705dc5_zsite.JPG",
-        "publishedAt": "2026-09-12T12:00:17.000Z",
+        "title": "习近平会见印度总理莫迪",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-12/10695490.shtml",
+        "summary": "新华社新德里9月12日电(记者郝薇薇#8195;刘锴)当地时间9月12日下午，国家主席习近平在印度新德里出席金砖国家领导人第十八次会晤期间会见印度总理莫迪。两国领导人坦诚深入交换意见，就中印要做伙伴达成重要共识。",
+        "image": "",
+        "publishedAt": "2026-09-12T14:49:09.000Z",
         "source": "中新网"
       },
       {
-        "title": "锡林浩特城市那达慕：民俗进城市，文化融邻里",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-12/10695360.shtml",
-        "summary": "中新网锡林郭勒9月12日电 题：锡林浩特城市那达慕：民俗进城市，文化融邻里",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260912/d2802c10-c188-4359-9d0c-69843a129ef2_zsite.jpeg",
-        "publishedAt": "2026-09-12T11:59:55.000Z",
+        "title": "详讯：习近平出席金砖国家领导人第十八次会晤第一阶段会议并发表重要讲话",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-12/10695481.shtml",
+        "summary": "中新社新德里9月12日电 (记者 郭金超 黄钰钦)当地时间9月12日下午，中国国家主席习近平在新德里出席金砖国家领导人第十八次会晤第一阶段会议。",
+        "image": "",
+        "publishedAt": "2026-09-12T14:17:02.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
+        "title": "Anthropic boss Dario Amodei calls for AI development to slow down",
+        "link": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
+        "summary": "The call comes amid growing concerns that AI models may become able to inflict serious damage worldwide.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9256/live/a1802a30-aeb9-11f1-b1d1-571ed4d7ff2c.jpg",
+        "publishedAt": "2026-09-12T17:42:38.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "French officials investigate if malicious act caused train derailment",
+        "link": "https://www.bbc.co.uk/news/articles/c33kp533nn6o?at_medium=RSS&at_campaign=rss",
+        "summary": "Officials say a rail fragment was found on the tracks after Friday's crash of a passenger train that left 44 people injured.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/57a4/live/cdfa4090-aea6-11f1-8972-d5c52a82c3b8.jpg",
+        "publishedAt": "2026-09-12T15:05:53.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "A united Ireland would be 'fantastic' says Trump during Irish visit",
         "link": "https://www.bbc.co.uk/news/articles/cy0zvx15rywo?at_medium=RSS&at_campaign=rss",
-        "summary": "Trump is holding meetings in Dublin before attending the Irish Open golf tournament in Doonbeg, County Clare.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/af5a/live/a555a260-ae9c-11f1-8972-d5c52a82c3b8.jpg",
-        "publishedAt": "2026-09-12T11:27:44.000Z",
+        "summary": "Trump made the comments during a meeting with Irish leader Micheál Martin, but Downing Street says it will \"stick to the Good Friday Agreement\".",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a39c/live/b6611ef0-aec3-11f1-b1d1-571ed4d7ff2c.jpg",
+        "publishedAt": "2026-09-12T13:56:20.000Z",
         "source": "BBC"
       },
       {
@@ -479,32 +495,16 @@
         "link": "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss",
         "summary": "Iraq removes a military commander and opens investigations into the attack that came from an area bordering Iran.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03a0/live/0047f800-ae96-11f1-b92e-1f49080ec3cb.jpg",
-        "publishedAt": "2026-09-12T11:00:34.000Z",
+        "publishedAt": "2026-09-12T12:15:50.000Z",
         "source": "BBC"
       },
       {
-        "title": "The world’s deadliest sea route keeps getting busier",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdjNEME14X1FLOHg5RmdweERQUFZqZHBhcVVuY3JITHZONEoxOUVneUlqSDZ2N1RjTWZkNXE5ME1HYnE3R1JWaElYSVg2dmFDZXZNLUZSR1MtcDNWX1dJRFVkbC1SdEI0dmdJVnVPQ3hWLWNOTWNGSVR6X05ZYU44LUZfSjlPdzltNHJkNFFn?oc=5",
+        "title": "Trump says Iran likely responsible for attack that shut vital Saudi oil pipeline",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBCN05SU2luNWgwQnpYOGtmWndwclVrMERSUmFna1RDQnVRM1J4SEd3TUxieTMwSWNTcnNycXNUMWZ1cFdjalpVMVNxZHhsdFA2RUNmc2RMeXk3aHhrLWU2YURqZDdwU3ZTTGppTjZxX3NSYTBIcXdPdlEyZDI?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-09-12T04:00:29.000Z",
+        "publishedAt": "2026-09-12T11:20:31.000Z",
         "source": "CNN"
-      },
-      {
-        "title": "Karaoke for one: China’s $1 trillion ‘loneliness economy’ gives a glimpse of the world’s future",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNWN5ZHd5MmFTSUF1T3J6ZUhYVE1kdFROUlNjTkVZTjBxWjNMblpYV1lNNlA5VFhjbUFaMjJhZ1gzVkJNTXR6VThPUUNMclNfYmpKcGo2bVN1RWN4LTUyY082bngwd2NLV0pvZUZfelM4N0NEbGZHRUxCX1JDcFQ1bXhn?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-09-12T04:00:29.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "Death toll from Philippines ferry fire climbs to 35, with dozens still missing",
-        "link": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o?at_medium=RSS&at_campaign=rss",
-        "summary": "Access to the burnt-out boat has been slowed by toxic fumes and lingering heat, the country's coast guard says.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28b9/live/a4414240-ae46-11f1-bc1f-3f186ca4140c.jpg",
-        "publishedAt": "2026-09-12T03:02:28.000Z",
-        "source": "BBC"
       }
     ],
     "nba": []
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-09-12",
+    "rotationLabel": "Curated Rotation · 2026-09-13",
     "sections": [
       {
         "id": "data-storage",
@@ -522,26 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-5",
-            "sectionId": "data-storage",
-            "title": "The FAISS Library",
-            "authors": [
-              "Jeff Johnson",
-              "Matthijs Douze",
-              "Herve Jegou"
-            ],
-            "venue": "IEEE T-BD",
-            "year": 2021,
-            "quality": "高影响力",
-            "categories": [
-              "vector search",
-              "ANN"
-            ],
-            "link": "https://arxiv.org/abs/2401.08281",
-            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-6",
             "sectionId": "data-storage",
@@ -561,7 +541,7 @@
             ],
             "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
             "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-1",
@@ -583,6 +563,27 @@
             "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
             "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-2",
+            "sectionId": "data-storage",
+            "title": "Bigtable: A Distributed Storage System for Structured Data",
+            "authors": [
+              "Fay Chang",
+              "Jeffrey Dean",
+              "Sanjay Ghemawat",
+              "Wilson C. Hsieh"
+            ],
+            "venue": "OSDI",
+            "year": 2006,
+            "quality": "顶会",
+            "categories": [
+              "distributed systems",
+              "database"
+            ],
+            "link": "https://research.google/pubs/pub27898/",
+            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -592,27 +593,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-6",
-            "sectionId": "computer-vision",
-            "title": "DINOv2: Learning Robust Visual Features without Supervision",
-            "authors": [
-              "Maxime Oquab",
-              "Timothée Darcet",
-              "Théo Moutakanni",
-              "Huy V. Vo"
-            ],
-            "venue": "arXiv / Meta",
-            "year": 2023,
-            "quality": "高影响力",
-            "categories": [
-              "self-supervised",
-              "representation"
-            ],
-            "link": "https://arxiv.org/abs/2304.07193",
-            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-1",
             "sectionId": "computer-vision",
@@ -632,7 +612,7 @@
             ],
             "link": "https://arxiv.org/abs/1512.03385",
             "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-2",
@@ -654,6 +634,27 @@
             "link": "https://arxiv.org/abs/2005.12872",
             "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-3",
+            "sectionId": "computer-vision",
+            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+            "authors": [
+              "Alexey Dosovitskiy",
+              "Lucas Beyer",
+              "Alexander Kolesnikov",
+              "Dirk Weissenborn"
+            ],
+            "venue": "ICLR",
+            "year": 2021,
+            "quality": "顶会",
+            "categories": [
+              "vision transformer",
+              "classification"
+            ],
+            "link": "https://arxiv.org/abs/2010.11929",
+            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -663,27 +664,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-1",
-            "sectionId": "llm-memory",
-            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
-            "authors": [
-              "Patrick Lewis",
-              "Ethan Perez",
-              "Aleksandra Piktus",
-              "Fabio Petroni"
-            ],
-            "venue": "NeurIPS",
-            "year": 2020,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "retrieval"
-            ],
-            "link": "https://arxiv.org/abs/2005.11401",
-            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-2",
             "sectionId": "llm-memory",
@@ -703,7 +683,7 @@
             ],
             "link": "https://arxiv.org/abs/2203.08913",
             "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-3",
@@ -725,6 +705,27 @@
             "link": "https://arxiv.org/abs/2112.04426",
             "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-4",
+            "sectionId": "llm-memory",
+            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+            "authors": [
+              "Akari Asai",
+              "Zequn Zhang",
+              "Avirup Sil",
+              "Hannaneh Hajishirzi"
+            ],
+            "venue": "ICLR",
+            "year": 2024,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "self-reflection"
+            ],
+            "link": "https://arxiv.org/abs/2310.11511",
+            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -734,27 +735,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-2",
-            "sectionId": "agents",
-            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
-            "authors": [
-              "Timo Schick",
-              "Jane Dwivedi-Yu",
-              "Roberta Dessì",
-              "Ari Holtzman"
-            ],
-            "venue": "NeurIPS",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "tool use",
-              "agent"
-            ],
-            "link": "https://arxiv.org/abs/2302.04761",
-            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-3",
             "sectionId": "agents",
@@ -774,7 +754,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.03442",
             "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-4",
@@ -795,6 +775,27 @@
             ],
             "link": "https://arxiv.org/abs/2305.16291",
             "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-5",
+            "sectionId": "agents",
+            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+            "authors": [
+              "Qingyun Wu",
+              "Gagan Bansal",
+              "Jiaqi Zhang",
+              "Yiran Wu"
+            ],
+            "venue": "COLM",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "multi-agent",
+              "framework"
+            ],
+            "link": "https://arxiv.org/abs/2308.08155",
+            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
             "trackLabel": "轮换精选"
           }
         ]
