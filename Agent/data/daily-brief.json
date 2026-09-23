@@ -1,52 +1,44 @@
 {
-  "generatedAt": "2026-09-23T13:35:08.499Z",
+  "generatedAt": "2026-09-23T19:38:22.144Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 27,
+      "temperature": 23,
       "weatherCode": 3,
       "windSpeed": 6
     },
     "today": {
-      "date": "2026-09-23",
-      "weatherCode": 3,
-      "description": "阴天",
-      "max": 32,
-      "min": 20,
-      "precipitationProbability": 0
+      "date": "2026-09-24",
+      "weatherCode": 55,
+      "description": "中雨",
+      "max": 25,
+      "min": 19,
+      "precipitationProbability": 80
     },
     "forecast": [
       {
-        "date": "2026-09-23",
-        "weatherCode": 3,
-        "description": "阴天",
-        "max": 32,
-        "min": 20,
-        "precipitationProbability": 0
-      },
-      {
         "date": "2026-09-24",
-        "weatherCode": 80,
-        "description": "阵雨",
-        "max": 24,
+        "weatherCode": 55,
+        "description": "中雨",
+        "max": 25,
         "min": 19,
-        "precipitationProbability": 63
+        "precipitationProbability": 80
       },
       {
         "date": "2026-09-25",
-        "weatherCode": 53,
-        "description": "小雨",
-        "max": 25,
-        "min": 18,
-        "precipitationProbability": 65
+        "weatherCode": 51,
+        "description": "毛毛雨",
+        "max": 26,
+        "min": 19,
+        "precipitationProbability": 49
       },
       {
         "date": "2026-09-26",
         "weatherCode": 95,
         "description": "雷暴",
-        "max": 27,
+        "max": 26,
         "min": 18,
-        "precipitationProbability": 73
+        "precipitationProbability": 80
       },
       {
         "date": "2026-09-27",
@@ -54,33 +46,50 @@
         "description": "毛毛雨",
         "max": 27,
         "min": 17,
-        "precipitationProbability": 34
+        "precipitationProbability": 44
+      },
+      {
+        "date": "2026-09-28",
+        "weatherCode": 3,
+        "description": "阴天",
+        "max": 26,
+        "min": 17,
+        "precipitationProbability": 8
       }
     ]
   },
   "classicQuote": {
-    "id": "zhuangzi-time",
-    "text": "人生天地之间，若白驹之过隙，忽然而已。",
-    "source": "《庄子》",
-    "author": "庄周",
-    "note": "事情很多的时候，更值得把注意力放在真正重要的事上。"
+    "id": "dream-red-mansions",
+    "text": "世事洞明皆学问，人情练达即文章。",
+    "source": "《红楼梦》",
+    "author": "曹雪芹",
+    "note": "技术之外，理解人和场景，往往更能拉开差距。"
   },
   "bookExcerpt": {
-    "id": "one-hundred-years-yellow",
-    "text": "许多年以后，面对行刑队，奥雷里亚诺·布恩迪亚上校将会想起父亲带他去见识冰块的那个遥远的下午。",
-    "book": "《百年孤独》",
-    "author": "加西亚·马尔克斯"
+    "id": "floating-life-lotus",
+    "text": "芸坐其侧，素手烹茶，窗外新荷微香，连晚风也像带着水意，从竹帘间一寸寸地漫进来。",
+    "book": "《浮生六记》",
+    "author": "沈复"
   },
   "featuredPlace": {
-    "id": "202609221600",
-    "title": "地坛公园秋日美景，北京，中国",
+    "id": "202609231600",
+    "title": "黑色熔岩海滩鸟瞰图，埃尔戈尔福，兰萨罗特岛，加那利群岛，西班牙",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "金秋平分，地坛染黄",
-    "image": "https://www.bing.com/th?id=OHR.AutumnEquinoxY26_ZH-CN7957453091_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E7%A7%8B%E5%88%86&form=hpcapt&mkt=zh-cn"
+    "summary": "火山灰与浪花相遇",
+    "image": "https://www.bing.com/th?id=OHR.ElGolfo_ZH-CN8329995759_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E8%A5%BF%E7%8F%AD%E7%89%99%E5%85%B0%E8%90%A8%E7%BD%97%E7%89%B9%E5%B2%9B&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202609231600",
+      "title": "黑色熔岩海滩鸟瞰图，埃尔戈尔福，兰萨罗特岛，加那利群岛，西班牙",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "火山灰与浪花相遇",
+      "image": "https://www.bing.com/th?id=OHR.ElGolfo_ZH-CN8329995759_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E8%A5%BF%E7%8F%AD%E7%89%99%E5%85%B0%E8%90%A8%E7%BD%97%E7%89%B9%E5%B2%9B&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202609221600",
       "title": "地坛公园秋日美景，北京，中国",
@@ -143,241 +152,232 @@
       "summary": "为丰收举杯",
       "image": "https://www.bing.com/th?id=OHR.Santenay_ZH-CN5676942384_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E6%A1%91%E7%89%B9%E5%A5%88%E8%91%A1%E8%90%84%E9%85%92%E4%BA%A7%E5%8C%BA&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202609151600",
-      "title": "斯瓦尔巴群岛玩耍的北极熊幼崽，挪威",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "北极的新晋探索者",
-      "image": "https://www.bing.com/th?id=OHR.IcyCubs_ZH-CN5287408951_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E5%8C%97%E6%9E%81%E7%86%8A&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-09-23",
-    "dateLabel": "9月23日",
+    "dateKey": "2026-09-24",
+    "dateLabel": "9月24日",
     "items": [
       {
-        "year": "2025",
-        "text": "受強烈颱風樺加沙帶來的風雨影響，臺灣花蓮縣萬榮鄉馬太鞍溪上游的堰塞湖壩體溢流數次，造成大潰壩，導致下游光復鄉遭洪水淹沒，造成14人死亡、11人失蹤。",
-        "link": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4"
+        "year": "2008",
+        "text": "麻生太郎当选日本首相。",
+        "link": "https://zh.wikipedia.org/wiki/2008%E5%B9%B4"
       },
       {
-        "year": "2024",
-        "text": "以色列與黎巴嫩真主黨爆發衝突，並空襲該國多地，造成至少492人死亡、1,600餘人受傷。",
-        "link": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4"
+        "year": "2006",
+        "text": "中共上海市委书记陈良宇因涉嫌贪污被免职并立案侦查。",
+        "link": "https://zh.wikipedia.org/wiki/2006%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "中国研发机构深耕第三代半导体 打通碳化硅产品到场景应用完整体系",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-23/10702573.shtml",
-        "summary": "中新网北京9月23日电 (记者 孙自法)中国电科近日以“光联万物·智创未来”为主题举办“与光同行”媒体开放活动，记者采访获悉，作为中国半导体产业重要发源地，中国电科产业基础研究院深耕第三代半导体创新赛道，持续推进碳化硅产品技术攻关与产业化落地，打通了碳化硅产品到场景应用完整体系。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260923/c3fbc717-9765-4e8f-9b15-d8ce2d0219f5_zsite.jpg",
-        "publishedAt": "2026-09-23T13:04:47.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "2026空天信息和卫星互联网创新发展大会举办",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-23/10702537.shtml",
-        "summary": "中新社河北雄安9月23日电 (赵丹媚 韩冰)2026空天信息和卫星互联网创新发展大会9月22日至23日在河北雄安新区举办。",
+        "title": "中国成功发射卫星互联网低轨26组卫星",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-24/10702669.shtml",
+        "summary": "中新社北京9月23日电 (记者 马帅莎)据中国航天科技集团消息，北京时间9月23日21时32分，中国在海南商业航天发射场使用长征八号甲运载火箭，成功将卫星互联网低轨26组卫星发射升空，卫星顺利进入预定轨道，发射任务获得圆满成功。",
         "image": "",
-        "publishedAt": "2026-09-23T12:56:58.000Z",
+        "publishedAt": "2026-09-23T16:12:16.000Z",
         "source": "中新网"
       },
       {
-        "title": "山东法院深耕涉农司法服务 全方位护航农业农村现代化",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-23/10702510.shtml",
-        "summary": "中新网济南9月23日电(周艺伟)山东省高级人民法院党组副书记、副院长傅国庆23日表示，山东法院精准对接农业农村现代化建设目标任务，着力促进农业高质高效、乡村宜居宜业、农民富裕富足，2023年以来，依法妥善审结各类涉农纠纷5.2万件。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260923/35909829-5e00-489d-8b3f-72158246e1b8_zsite.jpg",
-        "publishedAt": "2026-09-23T12:52:13.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "宁夏农民丰收节主会场活动在西吉启幕",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-23/10702511.shtml",
-        "summary": "中新网宁夏西吉9月23日电 (记者 李佩珊)9月23日，宁夏2026年中国农民丰收节暨中秋节主会场活动在位于固原市西吉县的宁夏将台堡红军长征会师纪念园广场举行。活动以“丰收开新局 实干促振兴”为主题，融合庆丰收、迎中秋、促消费、助振兴多重内涵，集中展示宁夏农业农村高质量发展成果，生动展现闽宁协作帮扶...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260923/d513c54e-aef5-4bcc-9893-c4b455844a31_zsite.jpg",
-        "publishedAt": "2026-09-23T12:51:51.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "李九红辞去陕西省副省长职务",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-23/10702530.shtml",
-        "summary": "中新网西安9月23日电 (记者 杨英琦)9月23日下午，陕西省第十四届人民代表大会常务委员会第二十五次会议举行第二次全体会议，会议表决通过了省人大常委会关于接受李九红辞去陕西省副省长职务的请求的决定。(完)",
+        "title": "广西壮族自治区贵港市政协副主席黄星荣接受审查调查",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-23/10702563.shtml",
+        "summary": "中新网9月23日电 据广西壮族自治区纪委监委消息：广西壮族自治区贵港市政协党组成员、副主席黄星荣涉嫌严重违纪违法，目前正接受广西壮族自治区纪委监委纪律审查和监察调查。",
         "image": "",
-        "publishedAt": "2026-09-23T12:51:13.000Z",
+        "publishedAt": "2026-09-23T15:41:32.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "原重庆新华书店集团一级专务肖陵被开除党籍",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-23/10702564.shtml",
+        "summary": "中新网9月23日电 据重庆市纪委监委消息：经重庆市委批准，重庆市纪委监委对原重庆新华书店集团一级专务肖陵严重违纪违法问题进行了立案审查调查。",
+        "image": "",
+        "publishedAt": "2026-09-23T15:40:12.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "甘肃省兰州市政协原党组成员、副主席芮文刚被\"双开\"",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-23/10702561.shtml",
+        "summary": "中新网9月23日电 据甘肃省纪委监委消息：日前，经甘肃省委批准，甘肃省纪委监委对兰州市政协原党组成员、副主席，兰州高新区党工委原书记芮文刚严重违纪违法问题进行了立案审查调查。",
+        "image": "",
+        "publishedAt": "2026-09-23T15:38:38.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "海南热带海洋学院原副院长吴清江接受审查调查",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-23/10702558.shtml",
+        "summary": "中新网9月23日电 据海南省纪委监委消息：海南热带海洋学院原党委委员、副院长吴清江涉嫌严重违纪违法，经海南省纪委监委指定管辖，目前正接受三亚市纪委监委纪律审查和监察调查。",
+        "image": "",
+        "publishedAt": "2026-09-23T15:37:54.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "旱季不再“缺水愁” 湖南祁阳清泉入户润民心",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-23/10702555.shtml",
-        "summary": "中新网永州9月23日电(郑宏)曾经旱季缺水、水质浑浊，如今清泉入户、饮水无忧。今年以来，湖南祁阳靶向整治农村饮水问题，提速供水提质工程，以精准监督护航民生实事，让群众彻底告别季节性“缺水愁”。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260923/2296c1d9-8bc9-4adf-b599-ffcb33a6a62e_zsite.jpg",
-        "publishedAt": "2026-09-23T13:34:36.000Z",
+        "title": "警惕套路！利用AI批量生成软文“搭车”引流被判侵权",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-24/10702670.shtml",
+        "summary": "明明搜的是自家产品，跳出来的却是竞争对手的广告？这种“李鬼”变“李逵”的闹剧，如今有了新花样。近日，最高人民法院发布了一起反不正当竞争典型案例，有公司利用AI批量炮制虚假测评文章，专门蹭同行热度，把潜在客户硬生生“拐”到自家店里。这种靠AI技术“搭便车”、截和流量的做法，不仅让消费者晕头转向，还可能...",
+        "image": "",
+        "publishedAt": "2026-09-23T16:18:13.000Z",
         "source": "中新网"
       },
       {
-        "title": "铁路国庆中秋假期运输启动 国铁北京局预计发送旅客超2200万人次",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-23/10702553.shtml",
-        "summary": "中新网北京9月23日电(记者 贾天勇)记者从中国铁路北京局集团有限公司获悉：2026年铁路国庆中秋假期运输期限为9月23日至10月8日，共计16天。国铁北京局预计发送旅客2232万人次，预计客流高峰日为10月1日，客流以旅游、探亲、学生为主。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260923/96884ae4-1639-4123-a232-a18c714cb442_zsite.jpg",
-        "publishedAt": "2026-09-23T13:33:50.000Z",
+        "title": "五万张卡片与三千场球赛：美国教师池欧的洛阳十二载",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-24/10702668.shtml",
+        "summary": "22年前，51岁的美国教师池欧女士通过中国教育国际交流协会与美中关系全国委员会合作开展的中美教师交换项目来到洛阳市第二外国语学校任教。一年期满后，她主动提出留下来长期任教，把人生中12年的时光留在了中国。",
+        "image": "",
+        "publishedAt": "2026-09-23T16:01:42.000Z",
         "source": "中新网"
       },
       {
-        "title": "融合园林资源与丝路文化 “丝路园博·花咖共生”特色科普活动在重庆举行",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-23/10702550.shtml",
-        "summary": "中新网重庆9月23日电(记者 肖江川)23日，2026年重庆市全国科普月市级学会联合行动“丝路园博·花咖共生”特色活动在重庆园博园举行。活动紧扣“科技改变生活，创新赢得未来”主题，以植物传播为核心载体，融合园林资源与丝绸之路文化，串联起从一粒种子到一杯咖啡的科普之旅。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260923/95becb0e-b9cc-4f66-b84d-807c8d1a6ae5_zsite.jpg",
-        "publishedAt": "2026-09-23T13:33:42.000Z",
+        "title": "两岸广泽尊王信众相聚福建南安庆中秋",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-23/10702624.shtml",
+        "summary": "中新社福建南安9月23日电 (记者 孙虹)以“月满凤山承忠孝·两岸同源庆中秋”为主题的2026闽台广泽尊王中秋团圆联谊活动，23日晚在福建泉州南安凤山寺举办。包括120余名台湾同胞在内的两岸及海外信众于此间庆中秋、话团圆。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260923/6ddcc49f-f081-4ee8-aff1-3f48007a0619_zsite.jpg",
+        "publishedAt": "2026-09-23T14:24:51.000Z",
         "source": "中新网"
       },
       {
-        "title": "重庆发布商品住房“好房子”项目评价标准 促产业发展",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-23/10702551.shtml",
-        "summary": "中新网重庆9月23日电 (张旭)9月23日，2026重庆市“好房子”产业链对接暨技术创新应用大会在当地举行。政府部门、行业专家、企业及媒体代表齐聚现场，共促产业发展。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260923/8bc6a578-0d5d-4e12-a3de-331c6a2ae62a_zsite.JPG",
-        "publishedAt": "2026-09-23T13:31:16.000Z",
+        "title": "重庆市已完成375条重点河流“一河一策一图”建设",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-23/10702580.shtml",
+        "summary": "中新网重庆9月23日电 (梁钦卿)重庆市生态环境局23日对外公布，重庆市已完成375条重点河流“一河一策一图”建设，全面摸清流域环境风险底数，优化应急防控布局。“一河一策一图”为每条重点河流建立专属应急档案与作战地图，明确污染拦截点位、应急处置路径，是高效处置流域水污染突发事件的重要技术支撑。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260923/126f9459-321a-45f6-b5e8-aa7e1b1333ec_zsite.JPG",
+        "publishedAt": "2026-09-23T14:17:51.000Z",
         "source": "中新网"
       },
       {
-        "title": "宁夏兴庆：赶集庆丰年 打通农货进城双向路",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-23/10702552.shtml",
-        "summary": "中新网银川9月23日电 (记者 李佩珊)摊位前人头攒动，大锅宴香气漫开，各色瓜果水产摆满展台……9月23日，黄河岸边的宁夏银川市兴庆区通贵大集人声鼎沸，兴庆区2026年中国农民丰收节活动在此拉开帷幕。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260923/f40d7563-6f35-47dc-8800-b92263bf868c_zsite.jpg",
-        "publishedAt": "2026-09-23T13:31:10.000Z",
+        "title": "2026上海赛艇公开赛暨世界赛艇联合会上海冲刺赛开赛",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-23/10702617.shtml",
+        "summary": "中新网上海9月23日电 (狄权 缪璐)2026上海赛艇公开赛暨世界赛艇联合会上海冲刺赛开赛仪式23日在黄浦江畔的北外滩国际客运中心举行。本届上海赛艇公开赛全面聚焦500米城市冲刺赛，同时首次引入世界赛艇联合会上海冲刺赛。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260923/97220c84-63cb-4b9c-a0e4-9ca6b465c3db_zsite.JPG",
+        "publishedAt": "2026-09-23T14:12:33.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "辐射渝鄂湘黔 百亿级农产品流通枢纽在重庆酉阳投用",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-23/10702547.shtml",
-        "summary": "中新网重庆9月23日电 (罗永皓)23日，红星酉阳武陵山农批中心启动仪式举行。至此，这一辐射渝鄂湘黔四省市约3000万人口的百亿级农产品流通枢纽正式投用。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260923/beac6b3a-cd47-4ee6-b074-405d3b482929_zsite.jpg",
-        "publishedAt": "2026-09-23T13:32:38.000Z",
+        "title": "辽宁搭建农产品展示推介平台 激发城乡消费潜力",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-23/10702588.shtml",
+        "summary": "中新网沈阳9月23日电 (记者 韩宏)中国农民丰收节·辽宁金秋消费季主题活动23日在沈阳启动。",
+        "image": "",
+        "publishedAt": "2026-09-23T14:23:41.000Z",
         "source": "中新网"
       },
       {
-        "title": "深化国际农业交流合作 第三十三届杨凌农高会50余国企业报名参展",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-23/10702522.shtml",
-        "summary": "中新网西安9月23日电 (记者 阿琳娜)记者23日从第三十三届中国杨凌农业高新科技成果博览会和2026上合组织农业博览会新闻发布会获悉，第三十三届杨凌农高会将于10月25日至29日在陕西省杨凌示范区举办，目前已有50多个国家和地区2000余家企业报名参展。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260923/911bb29f-6d5b-489d-bb61-f2bd0184c4ee_zsite.jpg",
-        "publishedAt": "2026-09-23T12:55:18.000Z",
+        "title": "环鄱赛如何促进江西商农文旅体健融合发展？",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-23/10702601.shtml",
+        "summary": "中新网南昌9月23日电 题：环鄱赛如何促进江西商农文旅体健融合发展？",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260923/0d3cd83e-1f43-47be-90fe-86e92e28ce70_zsite.jpg",
+        "publishedAt": "2026-09-23T14:22:31.000Z",
         "source": "中新网"
       },
       {
-        "title": "华彬强化产业链主企业责任：品控、智造和绿色发展",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-23/10702540.shtml",
-        "summary": "9月22日，2026年全国食品安全宣传周活动正式启动，活动围绕“尚德守法共享食安——深化全链条监管”主题展开。在同日召开的食品安全与健康大会暨食品产业F50论坛上，华彬快消品集团作为企业代表分享了从链主企业视角出发的全链条品控经验。31年来，华彬集团和中国红牛长年持续压实食品安全企业主体责任，以科技...",
-        "image": "https://www.chinanews.com/cr/2026/0923/2742353462.JPG",
-        "publishedAt": "2026-09-23T12:53:49.000Z",
+        "title": "2026碳达峰碳中和论坛暨深圳国家低碳城论坛举办",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-23/10702598.shtml",
+        "summary": "中新网深圳9月23日电 (记者 索有为)2026碳达峰碳中和论坛暨深圳国家低碳城论坛22日至23日在深圳龙岗区举办。论坛以“创新发展绿色经济，共筑城市零碳未来”为主题，来自多地政府部门、科研院校、行业协会、绿色企业及金融机构代表齐聚，探讨绿色低碳高质量发展新路径。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260923/afb7f01f-d968-4985-8088-1152da3b5d62_zsite.jpeg",
+        "publishedAt": "2026-09-23T14:20:23.000Z",
         "source": "中新网"
       },
       {
-        "title": "全球企业持续“加仓”：南京金洽会诚邀共“赢”未来",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-23/10702516.shtml",
-        "summary": "中新网南京9月23日电 (王雷 张文耀)9月23日，2026南京金秋经贸洽谈会在南京国际博览中心举行。作为南京历史最久、规模最大、影响力最强的经贸交流盛会，金洽会自1990年创办以来，始终是南京展示城市投资势能、链接全球要素资源、深化双向经贸合作的核心平台。本届金洽会紧扣高水平开放、高质量出海、高品...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260923/f0b5b9d4-9a2a-4cea-99f3-159893f2a704_zsite.jpg",
-        "publishedAt": "2026-09-23T12:53:15.000Z",
+        "title": "青海2026年食品安全宣传周启动 发布多项监管与产业成果",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-23/10702577.shtml",
+        "summary": "中新网西宁9月23日电(祁增蓓)23日，以“尚德守法 共享食安”为主题的2026年青海省食品安全宣传周活动启动仪式在青海西宁举行。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260923/6466f439-40bc-4257-ad34-4a105c855ba0_zsite.jpg",
+        "publishedAt": "2026-09-23T14:15:43.000Z",
         "source": "中新网"
       },
       {
-        "title": "中韩专家学者聚沈阳共探AI时代文创产业发展新路径",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-23/10702507.shtml",
-        "summary": "中新网沈阳9月23日电 (记者 李晛)第七届中韩文创企业发展交流活动22日在沈阳举办。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260923/564cf58c-e5d7-42eb-ba73-0f5aaf1c6f75_zsite.jpg",
-        "publishedAt": "2026-09-23T12:47:25.000Z",
+        "title": "西藏农牧民人均收入增速13年间居中国首位",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-23/10702620.shtml",
+        "summary": "中新社拉萨9月23日电 (记者 贡桑拉姆)西藏自治区农业农村厅官网23日发布的数据显示，西藏农村居民人均可支配收入已从2012年的5698元(人民币，下同)稳步提高到2025年的23184元，13年间年均增长11.4%，增速位居中国第一。",
+        "image": "",
+        "publishedAt": "2026-09-23T14:11:23.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "Ethiopia and Tigray accuse each of launching offensives, fuelling fears of new war",
-        "link": "https://www.bbc.co.uk/news/articles/cry8zwwq21pxo?at_medium=RSS&at_campaign=rss",
-        "summary": "The local authorities reportedly seize Tigray's airports following reports of recent drone strikes.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dd1c/live/f9fdfbe0-b74e-11f1-a430-4d16ee157c41.png",
-        "publishedAt": "2026-09-23T13:17:11.000Z",
+        "title": "Iran's president tells Trump it will never 'bend the knee'",
+        "link": "https://www.bbc.co.uk/news/articles/cqvgyjy23ggjo?at_medium=RSS&at_campaign=rss",
+        "summary": "Masoud Pezeshkian's defiant speech to the UN comes after the US president threatened to \"annihilate\" Iran if a peace deal is not agreed soon.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fe3f/live/8c85eb50-b766-11f1-b1d1-571ed4d7ff2c.jpg",
+        "publishedAt": "2026-09-23T18:15:31.000Z",
         "source": "BBC"
       },
       {
-        "title": "Dramatic eviction of woman aged 87 highlights Spain's housing shortage",
-        "link": "https://www.bbc.co.uk/news/articles/c6vgy55lm8z1o?at_medium=RSS&at_campaign=rss",
-        "summary": "The tenant of the flat in Madrid, Maricarmen, was unable to pay the rent set by the firm which recently bought it.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bc76/live/1fb1ec20-b740-11f1-aa9c-3d062fa3aea7.jpg",
-        "publishedAt": "2026-09-23T12:31:31.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Dolly Parton's manager accuses her nephew of 'threats and intimidation'",
-        "link": "https://www.bbc.co.uk/news/articles/c670lydl5wg5o?at_medium=RSS&at_campaign=rss",
-        "summary": "Bryan Seaver, who announced Parton's death to the world, is accused of trying to extort her estate.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c5d/live/94bf0a90-b72f-11f1-9f81-a10976817ca3.jpg",
-        "publishedAt": "2026-09-23T12:22:53.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Rome’s Colosseum in rare closure after worker falls to his death",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZkE3RmttbnNzTmRtaWlqTC1xZl9kUDkyX1dvc01tSXZQZGloU1FoQVNKa2ZTbjBndWh4TVc4SDU0XzVhcDFGWlZ0QVp0ZGtqUFNpcm81bUlmWU9BVWNFWmlETi15dVozWEhnTGtrSmVKR21MeVJRbGtzS1FwZDRnOFJETQ?oc=5",
+        "title": "Son of Israeli ambassador to US critically injured in West Bank ramming attack",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVDd2amRPX1laSzVTcWdWN25PMEZFMHhlWG5JcWVmY2pWSC1mQTdFSExXaFRMMkNManJVdlFxREhjVFNUcXNQRmU2S2dCc3NsMXhyVkVram1DY3FESHdYc1Y3MHo2YWZtSHpYREFoa3dBc1BHM0FxYTNJYzZRTC1uazcxZ0NJemc?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-09-23T11:14:10.000Z",
+        "publishedAt": "2026-09-23T17:11:14.000Z",
         "source": "CNN"
       },
       {
-        "title": "Gunmen attack South Africa house party, killing 11, including woman believed to be pregnant",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMVlhbF9LeE9sSnUzLTNLV25ybWh4TXZWd1BBcDlUcE1iZlJ4LWRXYmFOWG0yQW5CVGl5TVhvUEl3eWgwTVRGYnJOcVVhVXpZczRIbjdyLVh6UjROeEI1R2hjWkp2ZkFiQ1FCSTR5UnJ1Wk8yYTFJNmJkUmRabjRKSzgwX0Q?oc=5",
+        "title": "Ethiopia and Tigray accuse each of launching offensives, fuelling fears of new war",
+        "link": "https://www.bbc.co.uk/news/articles/cry8zwwq21pxo?at_medium=RSS&at_campaign=rss",
+        "summary": "The local authorities reportedly seize Tigray's airports following reports of recent drone strikes.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9b8d/live/5b472620-b767-11f1-a7b2-f3bdba1cd194.jpg",
+        "publishedAt": "2026-09-23T16:53:37.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "White House rolling out red carpet for historic Xi Jinping visit",
+        "link": "https://www.bbc.co.uk/news/articles/c6n9w410v3vzo?at_medium=RSS&at_campaign=rss",
+        "summary": "Trump and Xi are expected to discuss a range of issues from trade to AI during the latter's multi-day visit to Washington.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/15e9/live/9da0b090-b6d1-11f1-b2fe-f10f693c3bae.jpg",
+        "publishedAt": "2026-09-23T14:32:37.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Prince Harry calls AI the ‘ultimate sycophant,’ urging swift slowdown to protect children",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0tTDRVdjdwVFk5cDJsZzc4UDVGY3d2RUVhNWhudHdmd2ZJemNLMmhSa0xoTVFxb3FJd2RuSUhfQ0h6aXgtLTk5d3MtNTN3OWhuMHRERXRfbnU4dHBfMDFYMmo3TER3ZzE2QlRhaHgtTy0?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-09-23T08:17:02.000Z",
+        "publishedAt": "2026-09-23T13:08:12.000Z",
         "source": "CNN"
       }
     ],
     "worldBusiness": [
       {
+        "title": "Bentley unveils its first fully electric car",
+        "link": "https://www.bbc.co.uk/news/articles/c65ymznkr291o?at_medium=RSS&at_campaign=rss",
+        "summary": "The SUVs will be built on a new production line in Crewe, which has been Bentley's base since 1946.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5d28/live/4a744720-b77f-11f1-82bf-a7fbaca3dc9e.jpg",
+        "publishedAt": "2026-09-23T19:21:10.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Barrecore and Boom Cycle owner suddenly shuts studios",
+        "link": "https://www.bbc.co.uk/news/articles/ckzdzeedmqm4o?at_medium=RSS&at_campaign=rss",
+        "summary": "Common Bond has emailed customers announcing its locations were closed \"until further notice\".",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e68a/live/b1d1e440-b752-11f1-97a1-31b436cb8908.jpg",
+        "publishedAt": "2026-09-23T19:10:22.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Trump reveals millions of dollars' worth of share deals in big tech and AI",
+        "link": "https://www.bbc.co.uk/news/articles/c6p3kxpp8lezo?at_medium=RSS&at_campaign=rss",
+        "summary": "Stock in major firms such as Microsoft, Nvidia and SpaceX was bought and sold on behalf of the US president.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4148/live/6d68fee0-b745-11f1-aa9c-3d062fa3aea7.jpg",
+        "publishedAt": "2026-09-23T16:42:47.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Now AI is trying to gobble up dinner reservations",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQlYtak1LSkZ3TWQ2Y210VFNsM2ZmNGhYUjVTemtfVVZPdjFVa25LQmZnVlM1dHdUcjdzOEJHczRhQk4tbmtValJCeFpHUGVwbTdKWk1rRmNFQjlVUzRMSWcxLTlzczBfSG9YR1FCb0lQOTRWQk1SczA5b1JHc09HeGM0bWhCemJ3cWlqcjFmVQ?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-09-23T16:00:29.000Z",
+        "source": "CNN"
+      },
+      {
         "title": "UK warned over ballooning debt costs and slower growth ahead of Budget",
         "link": "https://www.bbc.co.uk/news/articles/c607ly09y7rlo?at_medium=RSS&at_campaign=rss",
         "summary": "Higher energy prices due to the conflict in the Middle East and climate change could hit growth.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5243/live/91e405b0-b751-11f1-bc1f-3f186ca4140c.jpg",
-        "publishedAt": "2026-09-23T13:28:08.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Off sick? You need to phone your boss, back-to-work adviser says",
-        "link": "https://www.bbc.co.uk/news/articles/cq0lry248y2zo?at_medium=RSS&at_campaign=rss",
-        "summary": "Relying on text and email means sick workers disengaged and were less likely to work again, says Sir Charlie Mayfield.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/019d/live/f9eba800-b730-11f1-9f81-a10976817ca3.jpg",
-        "publishedAt": "2026-09-23T10:49:51.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "UK and US warned to take action on spiralling debt costs by IMF",
-        "link": "https://www.bbc.co.uk/news/articles/cx305ymq4ldqo?at_medium=RSS&at_campaign=rss",
-        "summary": "In an interview with the BBC, Kristalina Georgieva says economic shocks had pushed \"debt levels up like a staircase not to heaven\".",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3223/live/1ab42030-b713-11f1-a430-4d16ee157c41.jpg",
-        "publishedAt": "2026-09-23T08:31:16.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Trump wants AI to be rebranded as super intelligence. Will it work?",
-        "link": "https://www.bbc.co.uk/news/articles/cqy4z9pv4w0po?at_medium=RSS&at_campaign=rss",
-        "summary": "Some people close to the president have started to use the term but experts say it is unlikely to catch on.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/891c/live/a452a4e0-b6ed-11f1-af5e-b359cc50acc4.jpg",
-        "publishedAt": "2026-09-23T03:20:30.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Europe's car makers are in crisis. Will the threat of war rescue them?",
-        "link": "https://www.bbc.co.uk/news/articles/c6vgyq598k9po?at_medium=RSS&at_campaign=rss",
-        "summary": "Auto executives across Europe hope rearmament can help them flex their industrial muscles once more.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9282/live/a5ccbcd0-b660-11f1-b1d1-571ed4d7ff2c.jpg",
-        "publishedAt": "2026-09-22T23:11:33.000Z",
+        "publishedAt": "2026-09-23T13:50:25.000Z",
         "source": "BBC"
       }
     ],
@@ -387,7 +387,7 @@
         "link": "https://www.bbc.co.uk/news/articles/c6eq8dw3dlyqo?at_medium=RSS&at_campaign=rss",
         "summary": "The regulator says it has concerns over how the site is relying on third party checks provided by Apple for some users.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ef85/live/76f98710-b72a-11f1-a430-4d16ee157c41.jpg",
-        "publishedAt": "2026-09-23T13:15:24.000Z",
+        "publishedAt": "2026-09-23T15:56:44.000Z",
         "source": "BBC"
       },
       {
@@ -425,85 +425,85 @@
     ],
     "domestic": [
       {
-        "title": "中国研发机构深耕第三代半导体 打通碳化硅产品到场景应用完整体系",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-23/10702573.shtml",
-        "summary": "中新网北京9月23日电 (记者 孙自法)中国电科近日以“光联万物·智创未来”为主题举办“与光同行”媒体开放活动，记者采访获悉，作为中国半导体产业重要发源地，中国电科产业基础研究院深耕第三代半导体创新赛道，持续推进碳化硅产品技术攻关与产业化落地，打通了碳化硅产品到场景应用完整体系。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260923/c3fbc717-9765-4e8f-9b15-d8ce2d0219f5_zsite.jpg",
-        "publishedAt": "2026-09-23T13:04:47.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "2026空天信息和卫星互联网创新发展大会举办",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-23/10702537.shtml",
-        "summary": "中新社河北雄安9月23日电 (赵丹媚 韩冰)2026空天信息和卫星互联网创新发展大会9月22日至23日在河北雄安新区举办。",
+        "title": "中国成功发射卫星互联网低轨26组卫星",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-24/10702669.shtml",
+        "summary": "中新社北京9月23日电 (记者 马帅莎)据中国航天科技集团消息，北京时间9月23日21时32分，中国在海南商业航天发射场使用长征八号甲运载火箭，成功将卫星互联网低轨26组卫星发射升空，卫星顺利进入预定轨道，发射任务获得圆满成功。",
         "image": "",
-        "publishedAt": "2026-09-23T12:56:58.000Z",
+        "publishedAt": "2026-09-23T16:12:16.000Z",
         "source": "中新网"
       },
       {
-        "title": "山东法院深耕涉农司法服务 全方位护航农业农村现代化",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-23/10702510.shtml",
-        "summary": "中新网济南9月23日电(周艺伟)山东省高级人民法院党组副书记、副院长傅国庆23日表示，山东法院精准对接农业农村现代化建设目标任务，着力促进农业高质高效、乡村宜居宜业、农民富裕富足，2023年以来，依法妥善审结各类涉农纠纷5.2万件。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260923/35909829-5e00-489d-8b3f-72158246e1b8_zsite.jpg",
-        "publishedAt": "2026-09-23T12:52:13.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "宁夏农民丰收节主会场活动在西吉启幕",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-23/10702511.shtml",
-        "summary": "中新网宁夏西吉9月23日电 (记者 李佩珊)9月23日，宁夏2026年中国农民丰收节暨中秋节主会场活动在位于固原市西吉县的宁夏将台堡红军长征会师纪念园广场举行。活动以“丰收开新局 实干促振兴”为主题，融合庆丰收、迎中秋、促消费、助振兴多重内涵，集中展示宁夏农业农村高质量发展成果，生动展现闽宁协作帮扶...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260923/d513c54e-aef5-4bcc-9893-c4b455844a31_zsite.jpg",
-        "publishedAt": "2026-09-23T12:51:51.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "李九红辞去陕西省副省长职务",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-23/10702530.shtml",
-        "summary": "中新网西安9月23日电 (记者 杨英琦)9月23日下午，陕西省第十四届人民代表大会常务委员会第二十五次会议举行第二次全体会议，会议表决通过了省人大常委会关于接受李九红辞去陕西省副省长职务的请求的决定。(完)",
+        "title": "广西壮族自治区贵港市政协副主席黄星荣接受审查调查",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-23/10702563.shtml",
+        "summary": "中新网9月23日电 据广西壮族自治区纪委监委消息：广西壮族自治区贵港市政协党组成员、副主席黄星荣涉嫌严重违纪违法，目前正接受广西壮族自治区纪委监委纪律审查和监察调查。",
         "image": "",
-        "publishedAt": "2026-09-23T12:51:13.000Z",
+        "publishedAt": "2026-09-23T15:41:32.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "原重庆新华书店集团一级专务肖陵被开除党籍",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-23/10702564.shtml",
+        "summary": "中新网9月23日电 据重庆市纪委监委消息：经重庆市委批准，重庆市纪委监委对原重庆新华书店集团一级专务肖陵严重违纪违法问题进行了立案审查调查。",
+        "image": "",
+        "publishedAt": "2026-09-23T15:40:12.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "甘肃省兰州市政协原党组成员、副主席芮文刚被\"双开\"",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-23/10702561.shtml",
+        "summary": "中新网9月23日电 据甘肃省纪委监委消息：日前，经甘肃省委批准，甘肃省纪委监委对兰州市政协原党组成员、副主席，兰州高新区党工委原书记芮文刚严重违纪违法问题进行了立案审查调查。",
+        "image": "",
+        "publishedAt": "2026-09-23T15:38:38.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "海南热带海洋学院原副院长吴清江接受审查调查",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-23/10702558.shtml",
+        "summary": "中新网9月23日电 据海南省纪委监委消息：海南热带海洋学院原党委委员、副院长吴清江涉嫌严重违纪违法，经海南省纪委监委指定管辖，目前正接受三亚市纪委监委纪律审查和监察调查。",
+        "image": "",
+        "publishedAt": "2026-09-23T15:37:54.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "Ethiopia and Tigray accuse each of launching offensives, fuelling fears of new war",
-        "link": "https://www.bbc.co.uk/news/articles/cry8zwwq21pxo?at_medium=RSS&at_campaign=rss",
-        "summary": "The local authorities reportedly seize Tigray's airports following reports of recent drone strikes.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dd1c/live/f9fdfbe0-b74e-11f1-a430-4d16ee157c41.png",
-        "publishedAt": "2026-09-23T13:17:11.000Z",
+        "title": "Iran's president tells Trump it will never 'bend the knee'",
+        "link": "https://www.bbc.co.uk/news/articles/cqvgyjy23ggjo?at_medium=RSS&at_campaign=rss",
+        "summary": "Masoud Pezeshkian's defiant speech to the UN comes after the US president threatened to \"annihilate\" Iran if a peace deal is not agreed soon.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fe3f/live/8c85eb50-b766-11f1-b1d1-571ed4d7ff2c.jpg",
+        "publishedAt": "2026-09-23T18:15:31.000Z",
         "source": "BBC"
       },
       {
-        "title": "Dramatic eviction of woman aged 87 highlights Spain's housing shortage",
-        "link": "https://www.bbc.co.uk/news/articles/c6vgy55lm8z1o?at_medium=RSS&at_campaign=rss",
-        "summary": "The tenant of the flat in Madrid, Maricarmen, was unable to pay the rent set by the firm which recently bought it.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bc76/live/1fb1ec20-b740-11f1-aa9c-3d062fa3aea7.jpg",
-        "publishedAt": "2026-09-23T12:31:31.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Dolly Parton's manager accuses her nephew of 'threats and intimidation'",
-        "link": "https://www.bbc.co.uk/news/articles/c670lydl5wg5o?at_medium=RSS&at_campaign=rss",
-        "summary": "Bryan Seaver, who announced Parton's death to the world, is accused of trying to extort her estate.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c5d/live/94bf0a90-b72f-11f1-9f81-a10976817ca3.jpg",
-        "publishedAt": "2026-09-23T12:22:53.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Rome’s Colosseum in rare closure after worker falls to his death",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZkE3RmttbnNzTmRtaWlqTC1xZl9kUDkyX1dvc01tSXZQZGloU1FoQVNKa2ZTbjBndWh4TVc4SDU0XzVhcDFGWlZ0QVp0ZGtqUFNpcm81bUlmWU9BVWNFWmlETi15dVozWEhnTGtrSmVKR21MeVJRbGtzS1FwZDRnOFJETQ?oc=5",
+        "title": "Son of Israeli ambassador to US critically injured in West Bank ramming attack",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVDd2amRPX1laSzVTcWdWN25PMEZFMHhlWG5JcWVmY2pWSC1mQTdFSExXaFRMMkNManJVdlFxREhjVFNUcXNQRmU2S2dCc3NsMXhyVkVram1DY3FESHdYc1Y3MHo2YWZtSHpYREFoa3dBc1BHM0FxYTNJYzZRTC1uazcxZ0NJemc?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-09-23T11:14:10.000Z",
+        "publishedAt": "2026-09-23T17:11:14.000Z",
         "source": "CNN"
       },
       {
-        "title": "Gunmen attack South Africa house party, killing 11, including woman believed to be pregnant",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMVlhbF9LeE9sSnUzLTNLV25ybWh4TXZWd1BBcDlUcE1iZlJ4LWRXYmFOWG0yQW5CVGl5TVhvUEl3eWgwTVRGYnJOcVVhVXpZczRIbjdyLVh6UjROeEI1R2hjWkp2ZkFiQ1FCSTR5UnJ1Wk8yYTFJNmJkUmRabjRKSzgwX0Q?oc=5",
+        "title": "Ethiopia and Tigray accuse each of launching offensives, fuelling fears of new war",
+        "link": "https://www.bbc.co.uk/news/articles/cry8zwwq21pxo?at_medium=RSS&at_campaign=rss",
+        "summary": "The local authorities reportedly seize Tigray's airports following reports of recent drone strikes.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9b8d/live/5b472620-b767-11f1-a7b2-f3bdba1cd194.jpg",
+        "publishedAt": "2026-09-23T16:53:37.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "White House rolling out red carpet for historic Xi Jinping visit",
+        "link": "https://www.bbc.co.uk/news/articles/c6n9w410v3vzo?at_medium=RSS&at_campaign=rss",
+        "summary": "Trump and Xi are expected to discuss a range of issues from trade to AI during the latter's multi-day visit to Washington.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/15e9/live/9da0b090-b6d1-11f1-b2fe-f10f693c3bae.jpg",
+        "publishedAt": "2026-09-23T14:32:37.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Prince Harry calls AI the ‘ultimate sycophant,’ urging swift slowdown to protect children",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0tTDRVdjdwVFk5cDJsZzc4UDVGY3d2RUVhNWhudHdmd2ZJemNLMmhSa0xoTVFxb3FJd2RuSUhfQ0h6aXgtLTk5d3MtNTN3OWhuMHRERXRfbnU4dHBfMDFYMmo3TER3ZzE2QlRhaHgtTy0?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-09-23T08:17:02.000Z",
+        "publishedAt": "2026-09-23T13:08:12.000Z",
         "source": "CNN"
       }
     ],
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-09-23",
+    "rotationLabel": "Curated Rotation · 2026-09-24",
     "sections": [
       {
         "id": "data-storage",
@@ -522,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-4",
-            "sectionId": "data-storage",
-            "title": "Dremel: Interactive Analysis of Web-Scale Datasets",
-            "authors": [
-              "Sergey Melnik",
-              "Andrey Gubarev",
-              "Jing Jing Long",
-              "Geoffrey Romer"
-            ],
-            "venue": "VLDB",
-            "year": 2010,
-            "quality": "顶会",
-            "categories": [
-              "analytics",
-              "columnar"
-            ],
-            "link": "https://research.google/pubs/pub36632/",
-            "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-5",
             "sectionId": "data-storage",
@@ -561,7 +540,7 @@
             ],
             "link": "https://arxiv.org/abs/2401.08281",
             "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-6",
@@ -583,6 +562,27 @@
             "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
             "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-1",
+            "sectionId": "data-storage",
+            "title": "The Log-Structured Merge-Tree (LSM-Tree)",
+            "authors": [
+              "Patrick O'Neil",
+              "Edward Cheng",
+              "Dieter Gawlick",
+              "Elizabeth O'Neil"
+            ],
+            "venue": "Acta Informatica",
+            "year": 1996,
+            "quality": "经典基础",
+            "categories": [
+              "storage",
+              "indexing"
+            ],
+            "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
+            "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -592,27 +592,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-5",
-            "sectionId": "computer-vision",
-            "title": "Segment Anything",
-            "authors": [
-              "Alexander Kirillov",
-              "Eric Mintun",
-              "Nikhila Ravi",
-              "Hanzi Mao"
-            ],
-            "venue": "ICCV",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "segmentation",
-              "foundation model"
-            ],
-            "link": "https://arxiv.org/abs/2304.02643",
-            "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-6",
             "sectionId": "computer-vision",
@@ -632,7 +611,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.07193",
             "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-1",
@@ -654,6 +633,27 @@
             "link": "https://arxiv.org/abs/1512.03385",
             "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-2",
+            "sectionId": "computer-vision",
+            "title": "End-to-End Object Detection with Transformers",
+            "authors": [
+              "Nicolas Carion",
+              "Francisco Massa",
+              "Gabriel Synnaeve",
+              "Nicolas Usunier"
+            ],
+            "venue": "ECCV",
+            "year": 2020,
+            "quality": "顶会",
+            "categories": [
+              "detection",
+              "transformer"
+            ],
+            "link": "https://arxiv.org/abs/2005.12872",
+            "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -663,27 +663,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-6",
-            "sectionId": "llm-memory",
-            "title": "MemoRAG: Moving towards Next-Gen RAG Via Memory-Inspired Knowledge Discovery",
-            "authors": [
-              "Rulin Shao",
-              "Yue Liu",
-              "Shuo Wang",
-              "Yichi Zhang"
-            ],
-            "venue": "arXiv",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "RAG",
-              "memory bank"
-            ],
-            "link": "https://arxiv.org/abs/2409.05591",
-            "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-1",
             "sectionId": "llm-memory",
@@ -703,7 +682,7 @@
             ],
             "link": "https://arxiv.org/abs/2005.11401",
             "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-2",
@@ -725,6 +704,27 @@
             "link": "https://arxiv.org/abs/2203.08913",
             "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-3",
+            "sectionId": "llm-memory",
+            "title": "RETRO: Improving Language Models by Retrieving From Trillions of Tokens",
+            "authors": [
+              "Sebastian Borgeaud",
+              "Arthur Mensch",
+              "Jordan Hoffmann",
+              "Trevor Cai"
+            ],
+            "venue": "DeepMind / arXiv",
+            "year": 2022,
+            "quality": "高影响力",
+            "categories": [
+              "retrieval",
+              "language model"
+            ],
+            "link": "https://arxiv.org/abs/2112.04426",
+            "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -734,28 +734,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-1",
-            "sectionId": "agents",
-            "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
-            "authors": [
-              "Shunyu Yao",
-              "Jeffrey Zhao",
-              "Dian Yu",
-              "Nan Du"
-            ],
-            "venue": "ICLR",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "agent",
-              "reasoning",
-              "tool use"
-            ],
-            "link": "https://arxiv.org/abs/2210.03629",
-            "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-2",
             "sectionId": "agents",
@@ -775,7 +753,7 @@
             ],
             "link": "https://arxiv.org/abs/2302.04761",
             "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-3",
@@ -796,6 +774,27 @@
             ],
             "link": "https://arxiv.org/abs/2304.03442",
             "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-4",
+            "sectionId": "agents",
+            "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+            "authors": [
+              "Guanzhi Wang",
+              "Yuqi Xie",
+              "Zixiang Zhou",
+              "Yujin Tang"
+            ],
+            "venue": "arXiv",
+            "year": 2023,
+            "quality": "高影响力",
+            "categories": [
+              "embodied agent",
+              "planning"
+            ],
+            "link": "https://arxiv.org/abs/2305.16291",
+            "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
             "trackLabel": "轮换精选"
           }
         ]
