@@ -1,36 +1,28 @@
 {
-  "generatedAt": "2026-09-26T13:00:34.060Z",
+  "generatedAt": "2026-09-26T19:10:53.729Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
       "temperature": 18,
-      "weatherCode": 81,
-      "windSpeed": 6
+      "weatherCode": 51,
+      "windSpeed": 8
     },
     "today": {
-      "date": "2026-09-26",
-      "weatherCode": 95,
-      "description": "雷暴",
+      "date": "2026-09-27",
+      "weatherCode": 51,
+      "description": "毛毛雨",
       "max": 27,
       "min": 18,
-      "precipitationProbability": 71
+      "precipitationProbability": 79
     },
     "forecast": [
-      {
-        "date": "2026-09-26",
-        "weatherCode": 95,
-        "description": "雷暴",
-        "max": 27,
-        "min": 18,
-        "precipitationProbability": 71
-      },
       {
         "date": "2026-09-27",
         "weatherCode": 51,
         "description": "毛毛雨",
         "max": 27,
         "min": 18,
-        "precipitationProbability": 67
+        "precipitationProbability": 79
       },
       {
         "date": "2026-09-28",
@@ -46,7 +38,7 @@
         "description": "阴天",
         "max": 26,
         "min": 15,
-        "precipitationProbability": 10
+        "precipitationProbability": 25
       },
       {
         "date": "2026-09-30",
@@ -55,32 +47,49 @@
         "max": 20,
         "min": 12,
         "precipitationProbability": 0
+      },
+      {
+        "date": "2026-10-01",
+        "weatherCode": 0,
+        "description": "晴朗",
+        "max": 24,
+        "min": 8,
+        "precipitationProbability": 0
       }
     ]
   },
   "classicQuote": {
-    "id": "records-historical",
-    "text": "桃李不言，下自成蹊。",
-    "source": "《史记》",
-    "author": "司马迁",
-    "note": "真正有分量的作品，本身就会替你说话。"
+    "id": "chuci-seek",
+    "text": "路漫漫其修远兮，吾将上下而求索。",
+    "source": "《离骚》",
+    "author": "屈原",
+    "note": "长期主义最难，但也最值得。"
   },
   "bookExcerpt": {
-    "id": "remembrance-madeleine",
-    "text": "那一点点浸过茶水的点心，忽然把整个旧日时光都唤醒了，仿佛往昔并未消失，只是沉在心底等待一个气味。",
-    "book": "《追忆似水年华》",
-    "author": "马塞尔·普鲁斯特"
+    "id": "border-town-river",
+    "text": "月光如银子，无处不可照及，山上篁竹在月光下变成了一片黑色，身边草丛中虫声繁密如落雨。",
+    "book": "《边城》",
+    "author": "沈从文"
   },
   "featuredPlace": {
-    "id": "202609251600",
-    "title": "熊耳国家纪念区附近的雪松台地和骡子角，犹他州，美国",
+    "id": "202609261600",
+    "title": "海笔上的装饰蟹，科莫多国家公园，印度尼西亚",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "写在大地上的故事",
-    "image": "https://www.bing.com/th?id=OHR.BearsEars_ZH-CN0496897450_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E7%86%8A%E8%80%B3%E5%9B%BD%E5%AE%B6%E7%BA%AA%E5%BF%B5%E5%8C%BA&form=hpcapt&mkt=zh-cn"
+    "summary": "深海夜花园",
+    "image": "https://www.bing.com/th?id=OHR.DecoCrab_ZH-CN0973306994_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E7%A7%91%E8%8E%AB%E5%A4%9A%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202609261600",
+      "title": "海笔上的装饰蟹，科莫多国家公园，印度尼西亚",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "深海夜花园",
+      "image": "https://www.bing.com/th?id=OHR.DecoCrab_ZH-CN0973306994_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E7%A7%91%E8%8E%AB%E5%A4%9A%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202609251600",
       "title": "熊耳国家纪念区附近的雪松台地和骡子角，犹他州，美国",
@@ -143,35 +152,42 @@
       "summary": "终获巴黎青睐的铁塔",
       "image": "https://www.bing.com/th?id=OHR.ParisSunset_ZH-CN6050686638_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E5%B7%B4%E9%BB%8E&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202609181600",
-      "title": "阿尔卑斯长号演奏者，巴伐利亚州，德国",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "慕尼黑啤酒节的阿尔卑斯之声",
-      "image": "https://www.bing.com/th?id=OHR.AlphornBavaria_ZH-CN5896237112_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E6%85%95%E5%B0%BC%E9%BB%91%E5%95%A4%E9%85%92%E8%8A%82&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-09-26",
-    "dateLabel": "9月26日",
+    "dateKey": "2026-09-27",
+    "dateLabel": "9月27日",
     "items": [
       {
-        "year": "2021",
-        "text": "聖馬利諾以約77.3%得票率通過懷孕12週以下或特殊情況者可以進行人工流產的公民投票。",
-        "link": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4"
+        "year": "2022",
+        "text": "由俄羅斯控制的頓涅茨克人民共和國、盧甘斯克人民共和國、俄占赫爾松和俄占扎波羅熱通過加入俄羅斯的吞併公投。",
+        "link": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4"
       },
       {
-        "year": "2021",
-        "text": "瑞士舉行針對同性婚姻合法化及相關事項的公民投票，結果以64.1％的支持率通過。",
-        "link": "https://zh.wikipedia.org/wiki/%E5%90%8C%E6%80%A7%E5%A9%9A%E5%A7%BB"
+        "year": "2020",
+        "text": "2020年9月納戈爾諾－卡拉巴赫衝突:亞塞拜疆與亞美尼亞在納戈爾諾-卡拉巴赫地區爆發激烈軍事衝突，亞美尼亞宣佈戒嚴令以及進入戰爭狀態開始全國總動員，亞塞拜疆則宣佈實行戒嚴和宵禁。",
+        "link": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
+      {
+        "title": "厦金大桥关键工程合龙",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-26/10704263.shtml",
+        "summary": "中新网厦门9月26日电 (记者 闫旭)记者26日从福建省交通运输厅获悉，厦金大桥(厦门段)项目24日迎来关键节点，刘五店悬索桥顺利合龙。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260926/e57e13c8-7d19-429c-aa3a-cd5317d463e5_zsite.jpg",
+        "publishedAt": "2026-09-26T13:20:43.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "20世纪60年代林野云南边陲写生作品展为民族“三交”留影",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-26/10704267.shtml",
+        "summary": "中新网上饶9月26日电 作为文化和旅游部2026年全国美术馆青年策展项目扶持计划提名项目，“情感的共生——20世纪60年代林野云南边陲写生作品展”日前亮相江西上饶美术馆。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260926/22c4b98d-13e6-4cf5-bf93-2d464d16609c_zsite.jpg",
+        "publishedAt": "2026-09-26T13:19:51.000Z",
+        "source": "中新网"
+      },
       {
         "title": "习言道｜共同在中美关系发展史上写下浓墨重彩的一笔",
         "link": "https://www.chinanews.com.cn/gn/2026/09-26/10704250.shtml",
@@ -195,151 +211,143 @@
         "image": "",
         "publishedAt": "2026-09-26T11:07:01.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "戈壁深处，一座摄影图书馆的“和合”故事",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-26/10704204.shtml",
-        "summary": "中新网杭州9月26日电 (钱晨菲)从杭州一路向西，穿过2700多公里，可以抵达青海茫崖。那里城市与城市之间相隔甚远，戈壁、盐湖、星空构成了独特的地理景观，也让其被称为“中国最孤独的城市”。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260926/10755e54-4a97-4c00-8b75-918eedd52b55_zsite.jpeg",
-        "publishedAt": "2026-09-26T11:06:17.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "开辟大国相处正确之道 书写中美关系历史新篇——中共中央政治局委员、外交部长王毅谈习近平主席对美国进行国事访问",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-26/10704199.shtml",
-        "summary": "新华社北京9月26日电 开辟大国相处正确之道 书写中美关系历史新篇",
-        "image": "",
-        "publishedAt": "2026-09-26T10:50:05.000Z",
-        "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "不止拼技术：世赛竞技，美也是硬实力",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-26/10704253.shtml",
-        "summary": "中新社上海9月26日电 题：不止拼技术：世赛竞技，美也是硬实力",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260926/fa079d64-ad67-4959-8d8a-e23e1d95b96d_zsite.jpg",
-        "publishedAt": "2026-09-26T12:47:35.000Z",
+        "title": "福建罗源县碧里乡发生滑坡泥石流险情 3人暂未联系上",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-27/10704301.shtml",
+        "summary": "记者从福建省福州市罗源县应急指挥部了解到： 9月26日17时03分，罗源县碧里乡发生一起土地平整项目滑坡-泥石流险情。险情发生后，当地第一时间组织6支、116名专业力量，开展人员搜救、应急抢险，并做好现场清理、道路疏通、人员安置等工作。目前，有2处房屋受损、3人暂未联系上，受阻道路已抢通。",
+        "image": "",
+        "publishedAt": "2026-09-26T16:05:06.000Z",
         "source": "中新网"
       },
       {
-        "title": "西藏接连发布暴雪预警 冈仁波齐景区暂停进入",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-26/10704240.shtml",
-        "summary": "中新网拉萨9月26日电 (记者 江飞波)西藏自治区气象局9月26日16时继续发布暴雪黄色预警：预计9月26日20时至27日20时，阿里、日喀则南部和西部有强雨雪天气，其中普兰、札达、噶尔、革吉、吉隆、聂拉木、仲巴和萨嘎的部分高海拔乡镇有暴雪，局地有大暴雪或特大暴雪(20毫米至50毫米)，新增积雪深度...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260926/4e606c06-309b-4f3d-95e4-ea16bcdd26f7_zsite.jpg",
-        "publishedAt": "2026-09-26T12:26:20.000Z",
+        "title": "“十一”假期前四川、陕西等地部分地区有大到暴雨 注意防范",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-26/10704297.shtml",
+        "summary": "今天(9月26日)至月底，华西到黄淮一带仍多降雨，四川、陕西、河南等地部分地区有大到暴雨。同时，江南、华南将持续闷热天气，浙江、福建等地部分地区还有持续性高温。",
+        "image": "",
+        "publishedAt": "2026-09-26T15:08:02.000Z",
         "source": "中新网"
       },
       {
-        "title": "“半山腰太挤了，要去山顶看看”：世赛木作赛场多国青年以技相逢",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-26/10704239.shtml",
-        "summary": "中新网上海9月26日电 (记者 李姝徵)9月26日14时57分许，距离本届世界技能大赛(以下简称“世赛”)木工项目比赛结束不到3分钟。赛场上，已竖起一栋栋木结构小屋。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260926/87b2cc85-222a-4ae2-93e3-5c3d999aab81_zsite.jpeg",
-        "publishedAt": "2026-09-26T12:21:23.000Z",
+        "title": "包月饼、写家书 中秋佳节感受军营里的暖意融融",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-26/10704293.shtml",
+        "summary": "月到中秋分外明，在大江南北的座座军营，官兵们用自己的方式，共同庆祝这个团圆的日子。",
+        "image": "",
+        "publishedAt": "2026-09-26T14:57:23.000Z",
         "source": "中新网"
       },
       {
-        "title": "广东连南：又“土”又浪漫 梯田音乐节唱响千年瑶寨",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-26/10704237.shtml",
-        "summary": "中新网清远9月26日电 (记者 程景伟)一场跨越12天的梯田音乐节26日在广东清远连南千年瑶寨启幕。据悉，音乐节以“千年回响 大地之眼”为主题，打破传统舞台局限，将层层梯田化作露天舞台，以青山为幕、瑶风为伴，将多元曲风演绎与瑶族长鼓舞、非遗巡游、“瑶王招亲”、“源远流长”敬酒礼结合，打造一场又“土”...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260926/eae87621-119e-442e-82b7-9a09251c7f8f_zsite.jpeg",
-        "publishedAt": "2026-09-26T12:19:43.000Z",
+        "title": "三代接力，从一个人到一群人",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-26/10704291.shtml",
+        "summary": "重庆市綦江区石壕镇推动红色精神薪火相传",
+        "image": "",
+        "publishedAt": "2026-09-26T14:55:11.000Z",
         "source": "中新网"
       },
       {
-        "title": "云南援老挝医疗队2个月开展12台冠脉介入手术 创多个首例纪录",
-        "link": "https://www.chinanews.com.cn/sh/2026/09-26/10704236.shtml",
-        "summary": "中新网昆明9月26日电 (记者 陈静)云南省第一人民医院(下称云南省一院)26日透露，该院援助老挝琅勃拉邦省医院医疗队入驻当地2个月，累计指导开展12台冠脉介入手术，创造多个琅勃拉邦省医院历史上乃至老挝北部六省医疗史上的首例。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260926/b23a38d5-205f-430b-a373-42ba924152ca_zsite.jpg",
-        "publishedAt": "2026-09-26T12:18:47.000Z",
+        "title": "月明照万家 同心共此时——全国各地群众欢度中秋",
+        "link": "https://www.chinanews.com.cn/sh/2026/09-26/10704290.shtml",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-09-26T14:53:59.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "非洲安哥拉凯凯水电站欢度“跨国中秋节”",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-26/10704200.shtml",
-        "summary": "中新网昆明9月26日电 (张翼鹏 闭英)中国能建葛洲坝集团26日消息称，中秋佳节期间，由其承建的非洲安哥拉凯凯水电站里，中安两国青年员工欢聚尾水瀑布现场，在山水风光中开展中秋文化交流活动，以中华传统节日架起中安文化互鉴、民心相通的桥梁。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260926/08f6d67a-9db0-45af-afce-fd202f8cdbdf_zsite.jpg",
-        "publishedAt": "2026-09-26T11:00:55.000Z",
+        "title": "全球媒体聚焦 | 全球发展倡议5周年 切实助力世界可持续发展",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-26/10704296.shtml",
+        "summary": "当地时间9月25日，全球发展倡议5周年高级别对话会在纽约联合国总部举行。多国媒体报道称，此次会议回顾了全球发展倡议过去5年取得的丰硕成果，凸显了中国在国际发展和全球减贫事业中日益重要的作用，也彰显了各方共建更加繁荣、公平世界的共同承诺。",
+        "image": "",
+        "publishedAt": "2026-09-26T15:03:12.000Z",
         "source": "中新网"
       },
       {
-        "title": "万亿度用电账单里藏着经济新动能",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-26/10704201.shtml",
-        "summary": "10332亿千瓦时！",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/09/26/990c9cf4d29f4b70b4d06d604173faaa.jpg",
-        "publishedAt": "2026-09-26T10:55:32.000Z",
+        "title": "尺子量精度、眼睛看创意 世界技能大赛评分标准揭秘",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-26/10704294.shtml",
+        "summary": "第48届世界技能大赛正在上海举行。世赛赛场上，有的项目科技感满满，有的项目香气扑鼻，还有一些项目是看不见的“隐形”较量。选手坐在电脑前，较量发生在逻辑、数据和系统之间，考验着一个人解决复杂问题的本领。",
+        "image": "",
+        "publishedAt": "2026-09-26T15:00:36.000Z",
         "source": "中新网"
       },
       {
-        "title": "优化营商环境 海南保亭促进民营经济发展",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-26/10704183.shtml",
-        "summary": "中新网海口9月26日电 (张月和)步入“十五五”，海南省保亭黎族苗族自治县正以制度集成创新为抓手，以优化营商环境为重点，进一步激发市场主体活力，促进民营经济高质量发展。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260926/e09f8093-97d0-41a3-b347-9efdf42eee69_zsite.jpg",
-        "publishedAt": "2026-09-26T10:50:47.000Z",
+        "title": "链上天津｜天津如何解码“绿色生意链”？",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-26/10704292.shtml",
+        "summary": "从子牙经开区二十余年的循环经济探索，到中国资源循环集团这一“中字头”央企总部落户，从退役风机“再上岗”，到废旧电池“返产线”，天津正把资源综合利用从环保“成本项”变成一门有政策护航、有资金支撑、有平台依托的“绿色生意链”。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/09/26/80cdfdc543b64b71a8b993c88ec1bf32.jpg",
+        "publishedAt": "2026-09-26T14:56:25.000Z",
         "source": "中新网"
       },
       {
-        "title": "世界技能大赛上，一声黑陶脆响引来“跨国知音”",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-26/10704182.shtml",
-        "summary": "中新网上海9月26日电 (高志苗)第48届世界技能大赛正在上海举行。在百工集展示区里，一只黑陶被轻轻敲响，发出清脆如金属的声音，让一位做了20年陶艺的外国手艺人与上海市非物质文化遗产黑陶制作技艺代表性传承人宋秋军不期而遇。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260926/c1897dc4-9a13-45ba-8cd4-35c4f94de2b5_zsite.jpeg",
-        "publishedAt": "2026-09-26T10:50:01.000Z",
+        "title": "不到30小时，宁夏牛肉“直奔”长三角餐桌 ｜活力中国调研行",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-26/10704289.shtml",
+        "summary": "傍晚，长三角一位市民打开在线上生鲜平台采购的货品，里面是一块色泽红润的鲜牛肉。消费者未必知道，不到30个小时前，它还在宁夏六盘山下的车间里。",
+        "image": "",
+        "publishedAt": "2026-09-26T14:52:41.000Z",
         "source": "中新网"
       },
       {
-        "title": "阿拉伯数字经济联盟中国区总部落地浙江杭州",
-        "link": "https://www.chinanews.com.cn/cj/2026/09-26/10704181.shtml",
-        "summary": "中新网杭州9月26日电(奚金燕)9月23日至27日，第五届全球数字贸易博览会在杭州举行。其间，中阿人工智能国际合作暨阿拉伯数字经济联盟首届中阿数字对话在杭州大会展中心成功举办。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260926/65ad60e7-ccc2-4f07-9993-dfbc93b0792a_zsite.jpg",
-        "publishedAt": "2026-09-26T10:48:57.000Z",
+        "title": "各地商圈新场景新业态加快“上新” 特色服务让消费“品味”加速升级",
+        "link": "https://www.chinanews.com.cn/cj/2026/09-26/10704275.shtml",
+        "summary": "央视网消息：每到节日假期，各地各具特色的步行街、商业街客流明显增多，新场景新业态也加快“上新”。从城市商圈到县域商圈，消费正在实现从“买商品”转变为“重体验”。下面，我们就一起去各地“品味”商圈。",
+        "image": "",
+        "publishedAt": "2026-09-26T13:36:34.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "Huge crowds greet Pope in Paris ahead of open-air Mass",
+        "title": "Trump rejects Iran deal to reopen Strait of Hormuz in seven days",
+        "link": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss",
+        "summary": "The US president says Tehran had only put forward the proposal because it is losing the war.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/adf9/live/6f8e27d0-b9c1-11f1-9190-07b6ee147cf1.png",
+        "publishedAt": "2026-09-26T18:17:12.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Pope praises young people's 'energy and commitment' at huge open-air Mass in Paris",
         "link": "https://www.bbc.co.uk/news/articles/cm4gjjwvvlzro?at_medium=RSS&at_campaign=rss",
-        "summary": "More than half a million people are expected to attend the event in the heart of the French capital.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9589/live/54ec10f0-b9a7-11f1-bc1f-3f186ca4140c.jpg",
-        "publishedAt": "2026-09-26T12:51:10.000Z",
+        "summary": "Around 700,000 people gathered in central Paris to hear the Catholic leader speak and offer prayer.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/217d/live/4be6b6f0-b9b0-11f1-a430-4d16ee157c41.jpg",
+        "publishedAt": "2026-09-26T16:53:32.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "German town bans 'stumbling stone' memorials to Nazi victims",
+        "link": "https://www.bbc.co.uk/news/articles/cqm2mm4y5dkko?at_medium=RSS&at_campaign=rss",
+        "summary": "Germany's education minister has branded the ban on the small brass memorial plaques a \"scandal\".",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c3b9/live/73f91880-b9c0-11f1-a430-4d16ee157c41.jpg",
+        "publishedAt": "2026-09-26T15:48:51.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Security lapses at Utah campus where Charlie Kirk was killed, review says",
+        "link": "https://www.bbc.co.uk/news/articles/cq4g55r76d9lo?at_medium=RSS&at_campaign=rss",
+        "summary": "The indpendent report also says Kirk's aides insisted he speak outdoors, overriding concerns from campus officials.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c708/live/4e426b20-b9b9-11f1-8b0a-2d37feea76dc.png",
+        "publishedAt": "2026-09-26T15:12:25.000Z",
         "source": "BBC"
       },
       {
         "title": "British national among six dead in building explosion close to Acropolis in Athens",
         "link": "https://www.bbc.co.uk/news/articles/c6p3kk78l4l1o?at_medium=RSS&at_campaign=rss",
         "summary": "Four Americans and a Greek national are among those killed in a suspected gas explosion, officials said.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7057/live/b65e6fe0-b984-11f1-a8ed-73305fe15fa1.jpg",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c8e5/live/83c97ed0-b9ac-11f1-8a1a-0176f978c211.png",
         "publishedAt": "2026-09-26T12:47:25.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Bangkok roads submerged as flood disaster declared",
-        "link": "https://www.bbc.co.uk/news/articles/ck1wxx8n2x3zo?at_medium=RSS&at_campaign=rss",
-        "summary": "An emergency has been declared across the capital of Thailand as days of heavy rain leave the city inundated.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2b19/live/342eea60-b978-11f1-97d9-a9cee45390c5.jpg",
-        "publishedAt": "2026-09-26T07:21:30.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Iran offers US deal to reopen Strait of Hormuz in seven days",
-        "link": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss",
-        "summary": "Asked about the Iranian proposal, a US official told the BBC \"constructive discussions\" were taking place through mediators.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/50c9/live/f69f3490-b97f-11f1-8fe1-e102ea0756fc.jpg",
-        "publishedAt": "2026-09-26T05:03:09.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "The US wants the world to pick a side on AI. But for many countries, China’s pitch may be more compelling",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5vRUl6Q2h1UHdYQk1fN0M5dm5vWEJLU3Fqb1MxUndVZFdLZHRUYWxsblIzRHJ0RG9jR2RPY1V6WlBjajFsNTVLWDZpNWNROHdkYV9WaDl4YUxLcGxkUzZROGJYb0hqUTdoMTIzSmFsR3VWZk9M?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-09-26T04:00:29.000Z",
-        "source": "CNN"
       }
     ],
     "worldBusiness": [
+      {
+        "title": "Rogue OpenAI agents targeted three separate US government websites",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbkQyN1dNYTkzeGFDN0hQSHVZNGxVUEcyb0trcGo1SmZMeWxNRmYwOTNHRGo1eVVrWTBqYkVoUmxpV2xuVnlURWtpY3FRTG5zRGNQdk90SjdwblZVVzlfQWk1UGJsTGNhQVF2MXZ2QjFLYV9iZ0FrWElzSFhIWGhFZw?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-09-26T14:54:41.000Z",
+        "source": "CNN"
+      },
       {
         "title": "Could an iced coffee freeze you out of the job market?",
         "link": "https://www.bbc.co.uk/news/articles/cv62k9p1rz4do?at_medium=RSS&at_campaign=rss",
@@ -371,17 +379,17 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8b69/live/25d24650-b8f2-11f1-bd4a-e9ce4be469f6.jpg",
         "publishedAt": "2026-09-25T16:00:44.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Author of America’s tariff statute: Trump’s tariffs are illegal",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9xNEdDangtcEpkbFlENkhidm1FN0syOEhXVmxnMHQzOHJSOFNJMmhENktfVnc4bVFzeW5nWldxQllFbmVxdDZXMWVpcTBGMHhqWlVzb2dKekdSTHZlN0trUFJuNU8wdXNZc2hfMEU2cWdDcXI2QVZCXw?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-09-25T09:00:31.000Z",
-        "source": "CNN"
       }
     ],
     "worldTech": [
+      {
+        "title": "The US wants the world to pick a side on AI. But for many countries, China’s pitch may be more compelling",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5vRUl6Q2h1UHdYQk1fN0M5dm5vWEJLU3Fqb1MxUndVZFdLZHRUYWxsblIzRHJ0RG9jR2RPY1V6WlBjajFsNTVLWDZpNWNROHdkYV9WaDl4YUxLcGxkUzZROGJYb0hqUTdoMTIzSmFsR3VWZk9M?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-09-26T04:00:29.000Z",
+        "source": "CNN"
+      },
       {
         "title": "OpenAI bots meddled with multiple US government agency sites",
         "link": "https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&at_campaign=rss",
@@ -413,17 +421,25 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fed0/live/93ad40c0-b8c1-11f1-ad1f-538855f30ba1.jpg",
         "publishedAt": "2026-09-25T09:48:33.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "X-planes: Are they needed in the new era of drones?",
-        "link": "https://www.bbc.co.uk/news/articles/c9q92x359xdo?at_medium=RSS&at_campaign=rss",
-        "summary": "Where do America's X-plane projects fit in an era of cheap drones?",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/44d0/live/25738d60-97e9-11f1-a7ab-8b30adf0800a.jpg",
-        "publishedAt": "2026-09-24T23:03:53.000Z",
-        "source": "BBC"
       }
     ],
     "domestic": [
+      {
+        "title": "厦金大桥关键工程合龙",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-26/10704263.shtml",
+        "summary": "中新网厦门9月26日电 (记者 闫旭)记者26日从福建省交通运输厅获悉，厦金大桥(厦门段)项目24日迎来关键节点，刘五店悬索桥顺利合龙。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260926/e57e13c8-7d19-429c-aa3a-cd5317d463e5_zsite.jpg",
+        "publishedAt": "2026-09-26T13:20:43.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "20世纪60年代林野云南边陲写生作品展为民族“三交”留影",
+        "link": "https://www.chinanews.com.cn/gn/2026/09-26/10704267.shtml",
+        "summary": "中新网上饶9月26日电 作为文化和旅游部2026年全国美术馆青年策展项目扶持计划提名项目，“情感的共生——20世纪60年代林野云南边陲写生作品展”日前亮相江西上饶美术馆。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260926/22c4b98d-13e6-4cf5-bf93-2d464d16609c_zsite.jpg",
+        "publishedAt": "2026-09-26T13:19:51.000Z",
+        "source": "中新网"
+      },
       {
         "title": "习言道｜共同在中美关系发展史上写下浓墨重彩的一笔",
         "link": "https://www.chinanews.com.cn/gn/2026/09-26/10704250.shtml",
@@ -447,64 +463,48 @@
         "image": "",
         "publishedAt": "2026-09-26T11:07:01.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "戈壁深处，一座摄影图书馆的“和合”故事",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-26/10704204.shtml",
-        "summary": "中新网杭州9月26日电 (钱晨菲)从杭州一路向西，穿过2700多公里，可以抵达青海茫崖。那里城市与城市之间相隔甚远，戈壁、盐湖、星空构成了独特的地理景观，也让其被称为“中国最孤独的城市”。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/260926/10755e54-4a97-4c00-8b75-918eedd52b55_zsite.jpeg",
-        "publishedAt": "2026-09-26T11:06:17.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "开辟大国相处正确之道 书写中美关系历史新篇——中共中央政治局委员、外交部长王毅谈习近平主席对美国进行国事访问",
-        "link": "https://www.chinanews.com.cn/gn/2026/09-26/10704199.shtml",
-        "summary": "新华社北京9月26日电 开辟大国相处正确之道 书写中美关系历史新篇",
-        "image": "",
-        "publishedAt": "2026-09-26T10:50:05.000Z",
-        "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "Huge crowds greet Pope in Paris ahead of open-air Mass",
+        "title": "Trump rejects Iran deal to reopen Strait of Hormuz in seven days",
+        "link": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss",
+        "summary": "The US president says Tehran had only put forward the proposal because it is losing the war.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/adf9/live/6f8e27d0-b9c1-11f1-9190-07b6ee147cf1.png",
+        "publishedAt": "2026-09-26T18:17:12.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Pope praises young people's 'energy and commitment' at huge open-air Mass in Paris",
         "link": "https://www.bbc.co.uk/news/articles/cm4gjjwvvlzro?at_medium=RSS&at_campaign=rss",
-        "summary": "More than half a million people are expected to attend the event in the heart of the French capital.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9589/live/54ec10f0-b9a7-11f1-bc1f-3f186ca4140c.jpg",
-        "publishedAt": "2026-09-26T12:51:10.000Z",
+        "summary": "Around 700,000 people gathered in central Paris to hear the Catholic leader speak and offer prayer.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/217d/live/4be6b6f0-b9b0-11f1-a430-4d16ee157c41.jpg",
+        "publishedAt": "2026-09-26T16:53:32.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "German town bans 'stumbling stone' memorials to Nazi victims",
+        "link": "https://www.bbc.co.uk/news/articles/cqm2mm4y5dkko?at_medium=RSS&at_campaign=rss",
+        "summary": "Germany's education minister has branded the ban on the small brass memorial plaques a \"scandal\".",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c3b9/live/73f91880-b9c0-11f1-a430-4d16ee157c41.jpg",
+        "publishedAt": "2026-09-26T15:48:51.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Security lapses at Utah campus where Charlie Kirk was killed, review says",
+        "link": "https://www.bbc.co.uk/news/articles/cq4g55r76d9lo?at_medium=RSS&at_campaign=rss",
+        "summary": "The indpendent report also says Kirk's aides insisted he speak outdoors, overriding concerns from campus officials.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c708/live/4e426b20-b9b9-11f1-8b0a-2d37feea76dc.png",
+        "publishedAt": "2026-09-26T15:12:25.000Z",
         "source": "BBC"
       },
       {
         "title": "British national among six dead in building explosion close to Acropolis in Athens",
         "link": "https://www.bbc.co.uk/news/articles/c6p3kk78l4l1o?at_medium=RSS&at_campaign=rss",
         "summary": "Four Americans and a Greek national are among those killed in a suspected gas explosion, officials said.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7057/live/b65e6fe0-b984-11f1-a8ed-73305fe15fa1.jpg",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c8e5/live/83c97ed0-b9ac-11f1-8a1a-0176f978c211.png",
         "publishedAt": "2026-09-26T12:47:25.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Bangkok roads submerged as flood disaster declared",
-        "link": "https://www.bbc.co.uk/news/articles/ck1wxx8n2x3zo?at_medium=RSS&at_campaign=rss",
-        "summary": "An emergency has been declared across the capital of Thailand as days of heavy rain leave the city inundated.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2b19/live/342eea60-b978-11f1-97d9-a9cee45390c5.jpg",
-        "publishedAt": "2026-09-26T07:21:30.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Iran offers US deal to reopen Strait of Hormuz in seven days",
-        "link": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss",
-        "summary": "Asked about the Iranian proposal, a US official told the BBC \"constructive discussions\" were taking place through mediators.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/50c9/live/f69f3490-b97f-11f1-8fe1-e102ea0756fc.jpg",
-        "publishedAt": "2026-09-26T05:03:09.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "The US wants the world to pick a side on AI. But for many countries, China’s pitch may be more compelling",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5vRUl6Q2h1UHdYQk1fN0M5dm5vWEJLU3Fqb1MxUndVZFdLZHRUYWxsblIzRHJ0RG9jR2RPY1V6WlBjajFsNTVLWDZpNWNROHdkYV9WaDl4YUxLcGxkUzZROGJYb0hqUTdoMTIzSmFsR3VWZk9M?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-09-26T04:00:29.000Z",
-        "source": "CNN"
       }
     ],
     "nba": []
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-09-26",
+    "rotationLabel": "Curated Rotation · 2026-09-27",
     "sections": [
       {
         "id": "data-storage",
@@ -522,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-1",
-            "sectionId": "data-storage",
-            "title": "The Log-Structured Merge-Tree (LSM-Tree)",
-            "authors": [
-              "Patrick O'Neil",
-              "Edward Cheng",
-              "Dieter Gawlick",
-              "Elizabeth O'Neil"
-            ],
-            "venue": "Acta Informatica",
-            "year": 1996,
-            "quality": "经典基础",
-            "categories": [
-              "storage",
-              "indexing"
-            ],
-            "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
-            "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-2",
             "sectionId": "data-storage",
@@ -562,7 +541,7 @@
             ],
             "link": "https://research.google/pubs/pub27898/",
             "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-3",
@@ -584,6 +563,27 @@
             "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
             "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-4",
+            "sectionId": "data-storage",
+            "title": "Dremel: Interactive Analysis of Web-Scale Datasets",
+            "authors": [
+              "Sergey Melnik",
+              "Andrey Gubarev",
+              "Jing Jing Long",
+              "Geoffrey Romer"
+            ],
+            "venue": "VLDB",
+            "year": 2010,
+            "quality": "顶会",
+            "categories": [
+              "analytics",
+              "columnar"
+            ],
+            "link": "https://research.google/pubs/pub36632/",
+            "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -593,27 +593,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-2",
-            "sectionId": "computer-vision",
-            "title": "End-to-End Object Detection with Transformers",
-            "authors": [
-              "Nicolas Carion",
-              "Francisco Massa",
-              "Gabriel Synnaeve",
-              "Nicolas Usunier"
-            ],
-            "venue": "ECCV",
-            "year": 2020,
-            "quality": "顶会",
-            "categories": [
-              "detection",
-              "transformer"
-            ],
-            "link": "https://arxiv.org/abs/2005.12872",
-            "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-3",
             "sectionId": "computer-vision",
@@ -633,7 +612,7 @@
             ],
             "link": "https://arxiv.org/abs/2010.11929",
             "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-4",
@@ -655,6 +634,27 @@
             "link": "https://arxiv.org/abs/2103.00020",
             "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-5",
+            "sectionId": "computer-vision",
+            "title": "Segment Anything",
+            "authors": [
+              "Alexander Kirillov",
+              "Eric Mintun",
+              "Nikhila Ravi",
+              "Hanzi Mao"
+            ],
+            "venue": "ICCV",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "segmentation",
+              "foundation model"
+            ],
+            "link": "https://arxiv.org/abs/2304.02643",
+            "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -664,27 +664,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-3",
-            "sectionId": "llm-memory",
-            "title": "RETRO: Improving Language Models by Retrieving From Trillions of Tokens",
-            "authors": [
-              "Sebastian Borgeaud",
-              "Arthur Mensch",
-              "Jordan Hoffmann",
-              "Trevor Cai"
-            ],
-            "venue": "DeepMind / arXiv",
-            "year": 2022,
-            "quality": "高影响力",
-            "categories": [
-              "retrieval",
-              "language model"
-            ],
-            "link": "https://arxiv.org/abs/2112.04426",
-            "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-4",
             "sectionId": "llm-memory",
@@ -704,7 +683,7 @@
             ],
             "link": "https://arxiv.org/abs/2310.11511",
             "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-5",
@@ -726,6 +705,27 @@
             "link": "https://arxiv.org/abs/2306.07174",
             "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-6",
+            "sectionId": "llm-memory",
+            "title": "MemoRAG: Moving towards Next-Gen RAG Via Memory-Inspired Knowledge Discovery",
+            "authors": [
+              "Rulin Shao",
+              "Yue Liu",
+              "Shuo Wang",
+              "Yichi Zhang"
+            ],
+            "venue": "arXiv",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "RAG",
+              "memory bank"
+            ],
+            "link": "https://arxiv.org/abs/2409.05591",
+            "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -735,27 +735,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-4",
-            "sectionId": "agents",
-            "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
-            "authors": [
-              "Guanzhi Wang",
-              "Yuqi Xie",
-              "Zixiang Zhou",
-              "Yujin Tang"
-            ],
-            "venue": "arXiv",
-            "year": 2023,
-            "quality": "高影响力",
-            "categories": [
-              "embodied agent",
-              "planning"
-            ],
-            "link": "https://arxiv.org/abs/2305.16291",
-            "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-5",
             "sectionId": "agents",
@@ -775,7 +754,7 @@
             ],
             "link": "https://arxiv.org/abs/2308.08155",
             "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-6",
@@ -796,6 +775,28 @@
             ],
             "link": "https://arxiv.org/abs/2405.15793",
             "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-1",
+            "sectionId": "agents",
+            "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+            "authors": [
+              "Shunyu Yao",
+              "Jeffrey Zhao",
+              "Dian Yu",
+              "Nan Du"
+            ],
+            "venue": "ICLR",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "agent",
+              "reasoning",
+              "tool use"
+            ],
+            "link": "https://arxiv.org/abs/2210.03629",
+            "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
             "trackLabel": "轮换精选"
           }
         ]
