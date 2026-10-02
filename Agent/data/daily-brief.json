@@ -1,42 +1,34 @@
 {
-  "generatedAt": "2026-10-02T14:41:37.285Z",
+  "generatedAt": "2026-10-02T20:39:42.798Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 16,
-      "weatherCode": 1,
-      "windSpeed": 9
+      "temperature": 13,
+      "weatherCode": 0,
+      "windSpeed": 3
     },
     "today": {
-      "date": "2026-10-02",
-      "weatherCode": 1,
-      "description": "基本晴",
+      "date": "2026-10-03",
+      "weatherCode": 51,
+      "description": "毛毛雨",
       "max": 23,
-      "min": 10,
-      "precipitationProbability": 0
+      "min": 12,
+      "precipitationProbability": 6
     },
     "forecast": [
-      {
-        "date": "2026-10-02",
-        "weatherCode": 1,
-        "description": "基本晴",
-        "max": 23,
-        "min": 10,
-        "precipitationProbability": 0
-      },
       {
         "date": "2026-10-03",
         "weatherCode": 51,
         "description": "毛毛雨",
         "max": 23,
-        "min": 11,
-        "precipitationProbability": 8
+        "min": 12,
+        "precipitationProbability": 6
       },
       {
         "date": "2026-10-04",
         "weatherCode": 2,
         "description": "局部多云",
-        "max": 20,
+        "max": 21,
         "min": 14,
         "precipitationProbability": 0
       },
@@ -50,37 +42,54 @@
       },
       {
         "date": "2026-10-06",
-        "weatherCode": 1,
-        "description": "基本晴",
+        "weatherCode": 0,
+        "description": "晴朗",
         "max": 25,
         "min": 11,
+        "precipitationProbability": 0
+      },
+      {
+        "date": "2026-10-07",
+        "weatherCode": 2,
+        "description": "局部多云",
+        "max": 26,
+        "min": 12,
         "precipitationProbability": 0
       }
     ]
   },
   "classicQuote": {
-    "id": "taoteching-self",
-    "text": "知人者智，自知者明；胜人者有力，自胜者强。",
-    "source": "《道德经》",
-    "author": "老子",
-    "note": "比起和别人比较，更重要的是把自己的节奏稳住。"
+    "id": "zhuangzi-time",
+    "text": "人生天地之间，若白驹之过隙，忽然而已。",
+    "source": "《庄子》",
+    "author": "庄周",
+    "note": "事情很多的时候，更值得把注意力放在真正重要的事上。"
   },
   "bookExcerpt": {
-    "id": "norwegian-wood-rain",
-    "text": "雨还在下，细得像雾，落在草地和树叶上，世界像被一种安静的潮气轻轻包住。",
-    "book": "《挪威的森林》",
-    "author": "村上春树"
+    "id": "one-hundred-years-yellow",
+    "text": "许多年以后，面对行刑队，奥雷里亚诺·布恩迪亚上校将会想起父亲带他去见识冰块的那个遥远的下午。",
+    "book": "《百年孤独》",
+    "author": "加西亚·马尔克斯"
   },
   "featuredPlace": {
-    "id": "202610011600",
-    "title": "查图加河，阿巴拉契亚山脉，北卡罗来纳州，美国",
+    "id": "202610021600",
+    "title": "美国阿拉斯加州克拉克湖国家公园和自然保护区银鲑溪中的棕熊",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "一条值得保护的河流",
-    "image": "https://www.bing.com/th?id=OHR.ChattoogaRiver_ZH-CN9453791496_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E7%BE%8E%E5%9B%BD%E9%98%BF%E5%B7%B4%E6%8B%89%E5%A5%91%E4%BA%9A%E5%B1%B1%E8%84%89&form=hpcapt&mkt=zh-cn"
+    "summary": "捕捉、进食、重复",
+    "image": "https://www.bing.com/th?id=OHR.GrizzlySwim_ZH-CN1005455737_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E6%A3%95%E7%86%8A&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202610021600",
+      "title": "美国阿拉斯加州克拉克湖国家公园和自然保护区银鲑溪中的棕熊",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "捕捉、进食、重复",
+      "image": "https://www.bing.com/th?id=OHR.GrizzlySwim_ZH-CN1005455737_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E6%A3%95%E7%86%8A&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202610011600",
       "title": "查图加河，阿巴拉契亚山脉，北卡罗来纳州，美国",
@@ -143,30 +152,21 @@
       "summary": "写在大地上的故事",
       "image": "https://www.bing.com/th?id=OHR.BearsEars_ZH-CN0496897450_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E7%86%8A%E8%80%B3%E5%9B%BD%E5%AE%B6%E7%BA%AA%E5%BF%B5%E5%8C%BA&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202609241600",
-      "title": "庆祝中秋节的中国灯笼",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "当月亮也来赴会",
-      "image": "https://www.bing.com/th?id=OHR.MidAutumn2026_ZH-CN8947536773_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E4%B8%AD%E7%A7%8B%E8%8A%82&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-10-02",
-    "dateLabel": "10月2日",
+    "dateKey": "2026-10-03",
+    "dateLabel": "10月3日",
     "items": [
       {
-        "year": "2007",
-        "text": "2007年世界夏季特殊奧林匹克運動會在上海体育场开幕。",
-        "link": "https://zh.wikipedia.org/wiki/2007%E5%B9%B4"
+        "year": "2024",
+        "text": "颱風山陀兒在臺灣高雄市登陸，為當地帶來重大影響，造成4人死亡、700餘人受傷。",
+        "link": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4"
       },
       {
-        "year": "2006",
-        "text": "一名槍手在美國賓夕法尼亞州尼克爾礦鎮（英语：）的一間單室學校內，殺害了五名阿米什女童後自盡。",
-        "link": "https://zh.wikipedia.org/wiki/2006%E5%B9%B4"
+        "year": "2023",
+        "text": "美国众议院以216票赞成、210票反对，通过罢免议长凯文·麦卡锡，麦卡锡成为美国史上首位被罢免的众议院议长。",
+        "link": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4"
       }
     ]
   },
@@ -299,47 +299,63 @@
     ],
     "worldTop": [
       {
-        "title": "I've seen nearly 500 executions - but never one like Christa Pike's",
-        "link": "https://www.bbc.co.uk/news/articles/c6d949gq47x9o?at_medium=RSS&at_campaign=rss",
-        "summary": "Texas reporter Michael Graczyk has seen botched executions in his time, but not one in which an inmate survived.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/283a/live/966b10b0-be31-11f1-babe-4199b0e7ccea.jpg",
-        "publishedAt": "2026-10-02T14:01:09.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "US pressures Europe to release diesel reserves ‘immediately’ to tame prices",
-        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBubGJEb0ZxVzJFSG0wMERBU0tfR2dyZ0VueHZOWW9MZUxjdXZvZENlcXgtZnBDUDRtbFUwbG9ic0RqejhVYXVaUko0a25aQklERFY1S3J6bGJHSGsyOC1MRTV6emZ5STdhaWxucFowbFJzbHNfWHZR?oc=5",
+        "title": "Man accused of murdering UK politician charged with preparing terror acts against Nigel Farage",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWjBaWGZQUW9TWXpZQl92MzE0aG9ibkMzdHo2NWR3YTk2N2NydnNBb25VWDJVYlBOZVpjQ2Y1UVFrcUVORG9oV3hIcUctNThDSmhSNXhPc2lQWDFreFc4TjY2LXhxWVFCbXJDT2l3YXNsTTBDckZCUm1YcTdjOGduN1hEYjFzWm9KNFRSQnVsMks?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-10-02T12:38:23.000Z",
+        "publishedAt": "2026-10-02T18:32:22.000Z",
         "source": "CNN"
       },
       {
-        "title": "Police and high school students clash across France in protests over underfunded education",
-        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5fanV0OUM2ZXRYZlM3ZXlULUIzZUpibjV5d19hWkY0NEpSX2ltc2hNQWdoZkJjT0pod0ZjaWd4R0l5eGxrMlBVbnFkWV9TN0hFVmgxTlA3d044SmVlLTVGOXdwQzNmUGk0SmpYMVlvVjluMzNpdXJXZTFqRlo?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-10-02T11:14:12.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "Cornell students gather to voice anger over alleged gang rape",
-        "link": "https://www.bbc.co.uk/news/articles/cm0e3ed1er1yo?at_medium=RSS&at_campaign=rss",
-        "summary": "Students tell the BBC that the tension on campus has become palpable since allegations from 2024 resurfaced.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0d63/live/bac2f6c0-be4b-11f1-babe-4199b0e7ccea.jpg",
-        "publishedAt": "2026-10-02T10:00:24.000Z",
+        "title": "Woman at centre of Cornell rape inquiry was 'failed' by officials, says New York governor",
+        "link": "https://www.bbc.co.uk/news/articles/cqvg04718lr9o?at_medium=RSS&at_campaign=rss",
+        "summary": "The woman, known as Jane Doe, alleges she was raped by seven students at a fraternity house at the university in 2024.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d36/live/09d5ba60-be7c-11f1-a64c-550be9e3c66b.jpg",
+        "publishedAt": "2026-10-02T17:44:08.000Z",
         "source": "BBC"
       },
       {
-        "title": "'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by co-pilot",
-        "link": "https://www.bbc.co.uk/news/articles/c639m98gde00o?at_medium=RSS&at_campaign=rss",
-        "summary": "Capt Smit Machchhar tells Indian Prime Minister Narendra Modi he opened the cockpit door to let others in during the attack.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8316/live/441b8c40-be3b-11f1-a64c-550be9e3c66b.jpg",
-        "publishedAt": "2026-10-02T09:08:06.000Z",
+        "title": "Riot police clash with students as education protests rage in France",
+        "link": "https://www.bbc.co.uk/news/articles/ck3r5dxxwqzpo?at_medium=RSS&at_campaign=rss",
+        "summary": "More than 600 schools have faced disruption as protests over standards and lack of teachers continue.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/061e/live/ef36beb0-be8b-11f1-888b-4d28ea12c7e2.jpg",
+        "publishedAt": "2026-10-02T17:43:10.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Ukraine says it forced 250 Russian soldiers to surrender in daring operation",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRlI2RVIwRkJVclNFTnlpTlFick81UFZkQ1FmRWQxcHJvQ3FUb1psc19uVXNWQ0tZRG5KS0lDaGdpU2JRVzl4NUpTeVVMWDJSWGhkdjVzMUNHWEF0MGJUdnFpbDJEU0ZTckM3MlZIbHE4RVlyMzBTT2p0LWFaN1FlZmM3N0Z4Q3A1S1QwWg?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-10-02T15:34:41.000Z",
+        "source": "CNN"
+      },
+      {
+        "title": "Spanish PM Sánchez loses key housing crisis vote after eviction of woman, 87",
+        "link": "https://www.bbc.co.uk/news/articles/c623dlk4y75mo?at_medium=RSS&at_campaign=rss",
+        "summary": "The defeat raises pressure on Sánchez to call a snap election, after a series of scandals affecting his party and allies.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/810a/live/a7710370-be62-11f1-b36c-81ad410b221e.jpg",
+        "publishedAt": "2026-10-02T15:30:12.000Z",
         "source": "BBC"
       }
     ],
     "worldBusiness": [
+      {
+        "title": "G7 to release 100 million barrels of oil and diesel after Trump export ban threat",
+        "link": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
+        "summary": "The coordinated release is aimed at heading off further price spikes and avoiding a ban on US diesel exports.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1c16/live/be292300-be89-11f1-babe-4199b0e7ccea.jpg",
+        "publishedAt": "2026-10-02T20:25:19.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "UK diesel prices top £2 a litre for first time, RAC says",
+        "link": "https://www.bbc.co.uk/news/articles/crn8e86y5n0zo?at_medium=RSS&at_campaign=rss",
+        "summary": "The rise in global oil prices has been pushing up the pump prices of petrol and diesel in the UK.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/95e2/live/57b2dba0-be95-11f1-babe-4199b0e7ccea.jpg",
+        "publishedAt": "2026-10-02T15:50:05.000Z",
+        "source": "BBC"
+      },
       {
         "title": "US jobs market sees sharp slowdown ahead of midterm elections",
         "link": "https://www.bbc.co.uk/news/articles/cm2d6gg0642yo?at_medium=RSS&at_campaign=rss",
@@ -349,12 +365,12 @@
         "source": "BBC"
       },
       {
-        "title": "UK diesel price hits £2 a litre as US calls for Europe to release more stocks",
-        "link": "https://www.bbc.co.uk/news/articles/crn8e86y5n0zo?at_medium=RSS&at_campaign=rss",
-        "summary": "The RAC says diesel price rises are showing no signs of slowing, \"heaping more misery\" onto drivers.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eafc/live/b2d4f150-bd71-11f1-8134-9503562e5ca9.jpg",
-        "publishedAt": "2026-10-02T11:17:31.000Z",
-        "source": "BBC"
+        "title": "Trump announced a $54 billion energy investment from South Korea. South Korea said he jumped the gun",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNd3hRMlZCQ0xRUWRZUTZfXzFpWFpsWU5aN3FVSWNnN3FkcG9YOUpZNTA5QjRXMGNHbFJTQjRLRWc5MXF4aTBqcDVZeXBhUVdsdFRreVdsX1N6b0hGWEN4TTZpZjQxM0JPblJReDBHOF9HbjFGbHFldWNnRy1pQUNSTVVacnB6Z3M4U1E?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-10-02T09:02:02.000Z",
+        "source": "CNN"
       },
       {
         "title": "What's gone wrong at Nike? How the world's sportswear giant lost its mojo",
@@ -362,22 +378,6 @@
         "summary": "Several self-inflicted mistakes have cost the biggest sportswear brand on the planet in recent years.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ca3a/live/a79a57d0-be2a-11f1-bc2e-018d645d8d21.jpg",
         "publishedAt": "2026-10-01T23:32:59.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "'It could cost me £10k but I need the money now': Why Gen Z are opting out of pensions",
-        "link": "https://www.bbc.co.uk/news/articles/c68xk0ndqz8jo?at_medium=RSS&at_campaign=rss",
-        "summary": "A growing number of people are opting out of these schemes due to cost-of-living pressures.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/166e/live/9297b320-bcd4-11f1-9f83-d9975ff80416.png",
-        "publishedAt": "2026-10-01T23:00:06.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "The wealthy Cuban Americans ready and waiting for Havana to fall",
-        "link": "https://www.bbc.co.uk/news/articles/ckrerylrlg9vo?at_medium=RSS&at_campaign=rss",
-        "summary": "Cuban exiles in Florida are increasingly hopeful that regime change in Cuba is now on the horizon.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f157/live/3b2f3340-bca9-11f1-a3e9-bbda6f9b9e25.jpg",
-        "publishedAt": "2026-10-01T23:00:05.000Z",
         "source": "BBC"
       }
     ],
@@ -467,43 +467,43 @@
     ],
     "international": [
       {
-        "title": "I've seen nearly 500 executions - but never one like Christa Pike's",
-        "link": "https://www.bbc.co.uk/news/articles/c6d949gq47x9o?at_medium=RSS&at_campaign=rss",
-        "summary": "Texas reporter Michael Graczyk has seen botched executions in his time, but not one in which an inmate survived.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/283a/live/966b10b0-be31-11f1-babe-4199b0e7ccea.jpg",
-        "publishedAt": "2026-10-02T14:01:09.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "US pressures Europe to release diesel reserves ‘immediately’ to tame prices",
-        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBubGJEb0ZxVzJFSG0wMERBU0tfR2dyZ0VueHZOWW9MZUxjdXZvZENlcXgtZnBDUDRtbFUwbG9ic0RqejhVYXVaUko0a25aQklERFY1S3J6bGJHSGsyOC1MRTV6emZ5STdhaWxucFowbFJzbHNfWHZR?oc=5",
+        "title": "Man accused of murdering UK politician charged with preparing terror acts against Nigel Farage",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWjBaWGZQUW9TWXpZQl92MzE0aG9ibkMzdHo2NWR3YTk2N2NydnNBb25VWDJVYlBOZVpjQ2Y1UVFrcUVORG9oV3hIcUctNThDSmhSNXhPc2lQWDFreFc4TjY2LXhxWVFCbXJDT2l3YXNsTTBDckZCUm1YcTdjOGduN1hEYjFzWm9KNFRSQnVsMks?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-10-02T12:38:23.000Z",
+        "publishedAt": "2026-10-02T18:32:22.000Z",
         "source": "CNN"
       },
       {
-        "title": "Police and high school students clash across France in protests over underfunded education",
-        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5fanV0OUM2ZXRYZlM3ZXlULUIzZUpibjV5d19hWkY0NEpSX2ltc2hNQWdoZkJjT0pod0ZjaWd4R0l5eGxrMlBVbnFkWV9TN0hFVmgxTlA3d044SmVlLTVGOXdwQzNmUGk0SmpYMVlvVjluMzNpdXJXZTFqRlo?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-10-02T11:14:12.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "Cornell students gather to voice anger over alleged gang rape",
-        "link": "https://www.bbc.co.uk/news/articles/cm0e3ed1er1yo?at_medium=RSS&at_campaign=rss",
-        "summary": "Students tell the BBC that the tension on campus has become palpable since allegations from 2024 resurfaced.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0d63/live/bac2f6c0-be4b-11f1-babe-4199b0e7ccea.jpg",
-        "publishedAt": "2026-10-02T10:00:24.000Z",
+        "title": "Woman at centre of Cornell rape inquiry was 'failed' by officials, says New York governor",
+        "link": "https://www.bbc.co.uk/news/articles/cqvg04718lr9o?at_medium=RSS&at_campaign=rss",
+        "summary": "The woman, known as Jane Doe, alleges she was raped by seven students at a fraternity house at the university in 2024.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d36/live/09d5ba60-be7c-11f1-a64c-550be9e3c66b.jpg",
+        "publishedAt": "2026-10-02T17:44:08.000Z",
         "source": "BBC"
       },
       {
-        "title": "'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by co-pilot",
-        "link": "https://www.bbc.co.uk/news/articles/c639m98gde00o?at_medium=RSS&at_campaign=rss",
-        "summary": "Capt Smit Machchhar tells Indian Prime Minister Narendra Modi he opened the cockpit door to let others in during the attack.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8316/live/441b8c40-be3b-11f1-a64c-550be9e3c66b.jpg",
-        "publishedAt": "2026-10-02T09:08:06.000Z",
+        "title": "Riot police clash with students as education protests rage in France",
+        "link": "https://www.bbc.co.uk/news/articles/ck3r5dxxwqzpo?at_medium=RSS&at_campaign=rss",
+        "summary": "More than 600 schools have faced disruption as protests over standards and lack of teachers continue.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/061e/live/ef36beb0-be8b-11f1-888b-4d28ea12c7e2.jpg",
+        "publishedAt": "2026-10-02T17:43:10.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Ukraine says it forced 250 Russian soldiers to surrender in daring operation",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRlI2RVIwRkJVclNFTnlpTlFick81UFZkQ1FmRWQxcHJvQ3FUb1psc19uVXNWQ0tZRG5KS0lDaGdpU2JRVzl4NUpTeVVMWDJSWGhkdjVzMUNHWEF0MGJUdnFpbDJEU0ZTckM3MlZIbHE4RVlyMzBTT2p0LWFaN1FlZmM3N0Z4Q3A1S1QwWg?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-10-02T15:34:41.000Z",
+        "source": "CNN"
+      },
+      {
+        "title": "Spanish PM Sánchez loses key housing crisis vote after eviction of woman, 87",
+        "link": "https://www.bbc.co.uk/news/articles/c623dlk4y75mo?at_medium=RSS&at_campaign=rss",
+        "summary": "The defeat raises pressure on Sánchez to call a snap election, after a series of scandals affecting his party and allies.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/810a/live/a7710370-be62-11f1-b36c-81ad410b221e.jpg",
+        "publishedAt": "2026-10-02T15:30:12.000Z",
         "source": "BBC"
       }
     ],
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-10-02",
+    "rotationLabel": "Curated Rotation · 2026-10-03",
     "sections": [
       {
         "id": "data-storage",
@@ -522,26 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-5",
-            "sectionId": "data-storage",
-            "title": "The FAISS Library",
-            "authors": [
-              "Jeff Johnson",
-              "Matthijs Douze",
-              "Herve Jegou"
-            ],
-            "venue": "IEEE T-BD",
-            "year": 2021,
-            "quality": "高影响力",
-            "categories": [
-              "vector search",
-              "ANN"
-            ],
-            "link": "https://arxiv.org/abs/2401.08281",
-            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-6",
             "sectionId": "data-storage",
@@ -561,7 +541,7 @@
             ],
             "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
             "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-1",
@@ -583,6 +563,27 @@
             "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
             "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-2",
+            "sectionId": "data-storage",
+            "title": "Bigtable: A Distributed Storage System for Structured Data",
+            "authors": [
+              "Fay Chang",
+              "Jeffrey Dean",
+              "Sanjay Ghemawat",
+              "Wilson C. Hsieh"
+            ],
+            "venue": "OSDI",
+            "year": 2006,
+            "quality": "顶会",
+            "categories": [
+              "distributed systems",
+              "database"
+            ],
+            "link": "https://research.google/pubs/pub27898/",
+            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -592,27 +593,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-6",
-            "sectionId": "computer-vision",
-            "title": "DINOv2: Learning Robust Visual Features without Supervision",
-            "authors": [
-              "Maxime Oquab",
-              "Timothée Darcet",
-              "Théo Moutakanni",
-              "Huy V. Vo"
-            ],
-            "venue": "arXiv / Meta",
-            "year": 2023,
-            "quality": "高影响力",
-            "categories": [
-              "self-supervised",
-              "representation"
-            ],
-            "link": "https://arxiv.org/abs/2304.07193",
-            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-1",
             "sectionId": "computer-vision",
@@ -632,7 +612,7 @@
             ],
             "link": "https://arxiv.org/abs/1512.03385",
             "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-2",
@@ -654,6 +634,27 @@
             "link": "https://arxiv.org/abs/2005.12872",
             "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-3",
+            "sectionId": "computer-vision",
+            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+            "authors": [
+              "Alexey Dosovitskiy",
+              "Lucas Beyer",
+              "Alexander Kolesnikov",
+              "Dirk Weissenborn"
+            ],
+            "venue": "ICLR",
+            "year": 2021,
+            "quality": "顶会",
+            "categories": [
+              "vision transformer",
+              "classification"
+            ],
+            "link": "https://arxiv.org/abs/2010.11929",
+            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -663,27 +664,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-1",
-            "sectionId": "llm-memory",
-            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
-            "authors": [
-              "Patrick Lewis",
-              "Ethan Perez",
-              "Aleksandra Piktus",
-              "Fabio Petroni"
-            ],
-            "venue": "NeurIPS",
-            "year": 2020,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "retrieval"
-            ],
-            "link": "https://arxiv.org/abs/2005.11401",
-            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-2",
             "sectionId": "llm-memory",
@@ -703,7 +683,7 @@
             ],
             "link": "https://arxiv.org/abs/2203.08913",
             "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-3",
@@ -725,6 +705,27 @@
             "link": "https://arxiv.org/abs/2112.04426",
             "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-4",
+            "sectionId": "llm-memory",
+            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+            "authors": [
+              "Akari Asai",
+              "Zequn Zhang",
+              "Avirup Sil",
+              "Hannaneh Hajishirzi"
+            ],
+            "venue": "ICLR",
+            "year": 2024,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "self-reflection"
+            ],
+            "link": "https://arxiv.org/abs/2310.11511",
+            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -734,27 +735,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-2",
-            "sectionId": "agents",
-            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
-            "authors": [
-              "Timo Schick",
-              "Jane Dwivedi-Yu",
-              "Roberta Dessì",
-              "Ari Holtzman"
-            ],
-            "venue": "NeurIPS",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "tool use",
-              "agent"
-            ],
-            "link": "https://arxiv.org/abs/2302.04761",
-            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-3",
             "sectionId": "agents",
@@ -774,7 +754,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.03442",
             "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-4",
@@ -795,6 +775,27 @@
             ],
             "link": "https://arxiv.org/abs/2305.16291",
             "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-5",
+            "sectionId": "agents",
+            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+            "authors": [
+              "Qingyun Wu",
+              "Gagan Bansal",
+              "Jiaqi Zhang",
+              "Yiran Wu"
+            ],
+            "venue": "COLM",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "multi-agent",
+              "framework"
+            ],
+            "link": "https://arxiv.org/abs/2308.08155",
+            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
             "trackLabel": "轮换精选"
           }
         ]
