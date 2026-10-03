@@ -1,41 +1,33 @@
 {
-  "generatedAt": "2026-10-03T13:18:30.453Z",
+  "generatedAt": "2026-10-03T19:10:48.858Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 17,
-      "weatherCode": 2,
+      "temperature": 15,
+      "weatherCode": 1,
       "windSpeed": 24
     },
     "today": {
-      "date": "2026-10-03",
-      "weatherCode": 51,
-      "description": "毛毛雨",
-      "max": 24,
-      "min": 12,
-      "precipitationProbability": 2
+      "date": "2026-10-04",
+      "weatherCode": 1,
+      "description": "基本晴",
+      "max": 20,
+      "min": 14,
+      "precipitationProbability": 0
     },
     "forecast": [
       {
-        "date": "2026-10-03",
-        "weatherCode": 51,
-        "description": "毛毛雨",
-        "max": 24,
-        "min": 12,
-        "precipitationProbability": 2
-      },
-      {
         "date": "2026-10-04",
-        "weatherCode": 3,
-        "description": "阴天",
-        "max": 21,
+        "weatherCode": 1,
+        "description": "基本晴",
+        "max": 20,
         "min": 14,
         "precipitationProbability": 0
       },
       {
         "date": "2026-10-05",
-        "weatherCode": 1,
-        "description": "基本晴",
+        "weatherCode": 2,
+        "description": "局部多云",
         "max": 24,
         "min": 10,
         "precipitationProbability": 0
@@ -44,8 +36,8 @@
         "date": "2026-10-06",
         "weatherCode": 0,
         "description": "晴朗",
-        "max": 25,
-        "min": 11,
+        "max": 26,
+        "min": 12,
         "precipitationProbability": 0
       },
       {
@@ -55,32 +47,49 @@
         "max": 27,
         "min": 12,
         "precipitationProbability": 0
+      },
+      {
+        "date": "2026-10-08",
+        "weatherCode": 0,
+        "description": "晴朗",
+        "max": 26,
+        "min": 13,
+        "precipitationProbability": 0
       }
     ]
   },
   "classicQuote": {
-    "id": "zhuangzi-time",
-    "text": "人生天地之间，若白驹之过隙，忽然而已。",
-    "source": "《庄子》",
-    "author": "庄周",
-    "note": "事情很多的时候，更值得把注意力放在真正重要的事上。"
+    "id": "dream-red-mansions",
+    "text": "世事洞明皆学问，人情练达即文章。",
+    "source": "《红楼梦》",
+    "author": "曹雪芹",
+    "note": "技术之外，理解人和场景，往往更能拉开差距。"
   },
   "bookExcerpt": {
-    "id": "one-hundred-years-yellow",
-    "text": "许多年以后，面对行刑队，奥雷里亚诺·布恩迪亚上校将会想起父亲带他去见识冰块的那个遥远的下午。",
-    "book": "《百年孤独》",
-    "author": "加西亚·马尔克斯"
+    "id": "floating-life-lotus",
+    "text": "芸坐其侧，素手烹茶，窗外新荷微香，连晚风也像带着水意，从竹帘间一寸寸地漫进来。",
+    "book": "《浮生六记》",
+    "author": "沈复"
   },
   "featuredPlace": {
-    "id": "202610021600",
-    "title": "美国阿拉斯加州克拉克湖国家公园和自然保护区银鲑溪中的棕熊",
+    "id": "202610031600",
+    "title": "阿尔忒弥斯1号月球火箭，39B发射台，肯尼迪航天中心，佛罗里达州，2022年6月15日",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "捕捉、进食、重复",
-    "image": "https://www.bing.com/th?id=OHR.GrizzlySwim_ZH-CN1005455737_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E6%A3%95%E7%86%8A&form=hpcapt&mkt=zh-cn"
+    "summary": "宇宙在召唤",
+    "image": "https://www.bing.com/th?id=OHR.ArtemisRocket_ZH-CN1768541365_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E7%A9%BA%E9%97%B4%E5%91%A8&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202610031600",
+      "title": "阿尔忒弥斯1号月球火箭，39B发射台，肯尼迪航天中心，佛罗里达州，2022年6月15日",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "宇宙在召唤",
+      "image": "https://www.bing.com/th?id=OHR.ArtemisRocket_ZH-CN1768541365_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E7%A9%BA%E9%97%B4%E5%91%A8&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202610021600",
       "title": "美国阿拉斯加州克拉克湖国家公园和自然保护区银鲑溪中的棕熊",
@@ -143,77 +152,84 @@
       "summary": "深海夜花园",
       "image": "https://www.bing.com/th?id=OHR.DecoCrab_ZH-CN0973306994_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E7%A7%91%E8%8E%AB%E5%A4%9A%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202609251600",
-      "title": "熊耳国家纪念区附近的雪松台地和骡子角，犹他州，美国",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "写在大地上的故事",
-      "image": "https://www.bing.com/th?id=OHR.BearsEars_ZH-CN0496897450_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E7%86%8A%E8%80%B3%E5%9B%BD%E5%AE%B6%E7%BA%AA%E5%BF%B5%E5%8C%BA&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-10-03",
-    "dateLabel": "10月3日",
+    "dateKey": "2026-10-04",
+    "dateLabel": "10月4日",
     "items": [
       {
-        "year": "2024",
-        "text": "颱風山陀兒在臺灣高雄市登陸，為當地帶來重大影響，造成4人死亡、700餘人受傷。",
-        "link": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4"
+        "year": "2018",
+        "text": "自2003年4月28日以來香港恒生指數首次被美國道瓊斯工業平均指數超越。",
+        "link": "https://zh.wikipedia.org/wiki/2018%E5%B9%B4"
       },
       {
-        "year": "2023",
-        "text": "美国众议院以216票赞成、210票反对，通过罢免议长凯文·麦卡锡，麦卡锡成为美国史上首位被罢免的众议院议长。",
-        "link": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4"
+        "year": "1993",
+        "text": "俄罗斯总统鲍里斯·叶利钦命令战车部队炮轰莫斯科白宫，结束俄罗斯宪政危机。",
+        "link": "https://zh.wikipedia.org/wiki/1993%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "中国外交部：一贯反对将民用无人机用于军事目的",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-03/10707633.shtml",
-        "summary": "中新社北京10月3日电 中国外交部发言人郭嘉昆10月3日答记者问时表示，中方一贯反对将民用无人机用于军事目的。各方应为乌克兰危机的政治解决发挥建设性作用，而非无端炒作和恶意关联。",
+        "title": "我国首个深水油田流花油田取得新突破 “国之重器”协同运转",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-03/10707663.shtml",
+        "summary": "这个国庆假期，我国深水油田产油量再获新突破。今天，我国首个深水油田——流花油田二次开发项目累计生产原油突破200万吨。截至目前，油田已生产原油超过4000万吨，日产量达到了投产22年来的新高，为保障国家能源安全提供了坚实保障。",
         "image": "",
-        "publishedAt": "2026-10-03T13:16:56.000Z",
+        "publishedAt": "2026-10-03T14:10:57.000Z",
         "source": "中新网"
       },
       {
-        "title": "“四季童读·书香校园行”启动 馆校协同让优质阅读资源走进校园",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-03/10707629.shtml",
-        "summary": "中新网北京10月3日电 (记者 应妮)国家图书馆“四季童读·书香校园行”专项行动日前在京正式启动。这是《全民阅读促进条例》实施后，国家图书馆面向校园推出的又一少儿阅读推广举措，标志着“四季童读”从公共图书馆系统向校园场景系统性延伸。",
+        "title": "国庆假期 海军编队坚守战位 护卫国际航道安全",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-03/10707660.shtml",
+        "summary": "这个假期，有人假日不休、生产不停，还有人坚守战位、守护安全。国庆佳节，正在远海执行护航任务的海军第49批护航编队，举行了一场特殊的升旗仪式。五星红旗在深蓝大洋上升起，护航官兵坚守战位，用忠诚与担当，在远海大洋护卫国际航道安全。",
         "image": "",
-        "publishedAt": "2026-10-03T13:10:55.000Z",
+        "publishedAt": "2026-10-03T14:07:07.000Z",
         "source": "中新网"
       },
       {
-        "title": "“人工智能治理研究的延续与变革”学术研讨会在京举办",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-03/10707631.shtml",
-        "summary": "中新网北京10月3日电 (曾玥 贾海语)“人工智能治理研究的延续与变革”学术研讨会暨中国科技新闻学会数字传播伦理专委会年会(2026)近日在中国传媒大学举办。来自新闻传播学、公共管理、国际关系、政治学等多个学科领域的专家学者，围绕人工智能治理的经典理论、前沿问题、政策实践以及全球治理与伦理问题展开深...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261003/1a36bd63-8941-4325-80eb-90c03595d537_zsite.jpg",
-        "publishedAt": "2026-10-03T13:07:31.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "（文化中国行·校馆弦歌）西工大图书馆：书香承三航 铸剑启后学",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-03/10707605.shtml",
-        "summary": "中新网西安10月3日电 题：西工大图书馆：书香承三航 铸剑启后学",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261003/2efbb390-f1eb-43cc-8968-a1e84ec86b5f_zsite.jpg",
-        "publishedAt": "2026-10-03T12:39:39.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "美方称星巴克在新疆开设门店“道德沦丧” 外交部回应",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-03/10707597.shtml",
-        "summary": "中新网10月3日电 据外交部网站消息，10月3日，外交部发言人郭嘉昆答记者问。",
+        "title": "新的长征之路 | 九十载军民情 小小“红军粉”铺就富民振兴路",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-03/10707653.shtml",
+        "summary": "央视网消息：长征的征途，既有翻越天险的战斗行军，也有军民共处的岁月。1935年，红一方面军和红四方面军先后完成翻雪山、过草地的艰苦行军。同年8月，红二十五军先期北上，进入宁夏南部地区，他们在西吉兴隆镇一带休整，与当地百姓结下了不解之缘。",
         "image": "",
-        "publishedAt": "2026-10-03T12:06:49.000Z",
+        "publishedAt": "2026-10-03T14:00:04.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "学习进行时丨中国式现代化，民生为大",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-03/10707627.shtml",
+        "summary": "策划：张芮绮、丁翊睿",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/10/03/7134be12d08d4c08aeec08a6e45db372.png",
+        "publishedAt": "2026-10-03T13:35:43.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "中方：欢迎普京总统出席APEC领导人非正式会议",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-03/10707638.shtml",
+        "summary": "中新社北京10月3日电 中国外交部发言人郭嘉昆10月3日答记者问时表示，中方欢迎普京总统出席今年11月将在深圳举行的亚太经合组织(APEC)领导人非正式会议。",
+        "image": "",
+        "publishedAt": "2026-10-03T13:24:30.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
+      {
+        "title": "美国咖啡品牌新疆开店受欢迎",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-03/10707661.shtml",
+        "summary": "中新社乌鲁木齐10月3日电 (胡嘉琛)“我来新疆旅游，得知这里开了首店，就来打卡体验。”上海游客杜怡申3日在乌鲁木齐市接受中新社采访时说，她在星巴克点了一杯以新疆赛里木湖蓝色为创意灵感的饮品，选购了一个穿着新疆艾德莱斯绸服饰的玩偶，一切都很圆满。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261003/36c9a128-dc2e-4abd-b646-97d43d802bfb_zsite.jpg",
+        "publishedAt": "2026-10-03T14:09:33.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "假期返程要记得准备厚外套！假期天气情况提前了解",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-03/10707649.shtml",
+        "summary": "今天是国庆假期的第三天，各地天气情况如何？哪些地方会有影响出行和旅游的天气？",
+        "image": "",
+        "publishedAt": "2026-10-03T13:51:25.000Z",
+        "source": "中新网"
+      },
       {
         "title": "九寨沟景区迎来2026年度第500万名游客",
         "link": "https://www.chinanews.com.cn/sh/2026/10-03/10707628.shtml",
@@ -237,105 +253,89 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261003/fe7a9bac-0ad6-46b4-89e3-3395a0ac3c55_zsite.jpg",
         "publishedAt": "2026-10-03T12:34:49.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "东航再通报“空姐下跪道歉”事件：已报案",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-03/10707556.shtml",
-        "summary": "中新网10月3日电 据中国东方航空微博消息，10月3日，东航发布情况通报：在9月28日MU6741航班客舱事件前期复盘调查基础上，公司已基本完成证据固定、事实核查与法律评估工作。公司认为，该航班旅客欧某某相关行为涉嫌扰乱民用航空器内秩序，严重侵害公司员工人格尊严和履职权益。针对上述侵权扰序行为，公司...",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/10/03/ad59bf9359b342ba87dd0790f0a32008.jpg",
-        "publishedAt": "2026-10-03T11:52:14.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "长沙开启国庆非遗系列活动 多元体验感受湖湘传统文化",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-03/10707579.shtml",
-        "summary": "中新网长沙10月3日电 (谭芳)为丰富国庆群众文化生活，传承弘扬中华优秀传统文化，厚植家国情怀，今年国庆假期期间，“星城时序非遗万象——我们的节日·国庆”长沙非遗系列活动举行。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261003/542c9b8b-3c81-4931-92a0-d3e0a58dead4_zsite.jpg",
-        "publishedAt": "2026-10-03T11:11:34.000Z",
-        "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "“北大仓”百余台农机昼夜不停抢收水稻 确保秋粮归仓",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-03/10707632.shtml",
-        "summary": "中新网佳木斯10月3日电(王妮娜 高鹏飞)3日，黑龙江水稻秋收进入割晒收获关键期，北大荒集团建三江分公司所属八五九农场、大兴农场、前进农场等多个农场开启昼夜抢收模式，防范降温、降雨造成粮食倒伏、霉变，确保秋粮归仓。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261003/ce74aae8-d4c0-41fd-83d9-49119fe711d4_zsite.jpg",
-        "publishedAt": "2026-10-03T13:08:35.000Z",
+        "title": "工业母机产业链如何高质量发展？院士专家共议新路径",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-03/10707667.shtml",
+        "summary": "中新网嘉兴10月3日电 (钟余)工业母机产业如何实现开道超车、跨越发展？中国机械工程学会荣誉理事长、中国工程院院士周济日前指出，以新一代智能制造为主攻方向，用新一代人工智能赋能数控机床，是我国工业母机创新发展要走的技术路线。",
+        "image": "",
+        "publishedAt": "2026-10-03T14:30:26.000Z",
         "source": "中新网"
       },
       {
-        "title": "以会促产 江西瑞昌全力打造智能疏浚产业集群",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-03/10707624.shtml",
-        "summary": "中新网江西瑞昌10月3日电 (卢梦梦)第六届瑞昌市政疏浚设备博览会3日在江西省瑞昌市疏浚产业配套中心开幕，全国百余家知名疏浚设备企业参会，全方位展示国内疏通机械设备、智能管网设备、管道修复材料等领域的创新成果。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261003/30a0c575-e9a3-434c-a3cc-b6bbee796c26_zsite.jpeg",
-        "publishedAt": "2026-10-03T13:01:09.000Z",
+        "title": "国际能源署：已释放约3.25亿桶战略石油储备",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-03/10707668.shtml",
+        "summary": "国际能源署日前发布公告显示，该机构今年3月宣布计划释放的4亿桶战略石油储备中，目前已释放约3.25亿桶。",
+        "image": "",
+        "publishedAt": "2026-10-03T14:27:56.000Z",
         "source": "中新网"
       },
       {
-        "title": "浙江高速服务区焕新迎客 交旅融合激活假日消费",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-03/10707606.shtml",
-        "summary": "中新网杭州10月3日电(奚金燕 张睿)国庆假期，浙江高速路网迎来出行高峰，假日消费热度持续攀升。在嘉兴服务区复古老站台前，旅客拖着行李箱拍照打卡；常山服务区“胡柚”IP人偶一现身，就被孩子们围住合影；太湖服务区二楼观景平台上，湖风拂面，不少司乘举着手机记录秋景。一幕幕鲜活场景，折射出浙江高速服务区从...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261003/6887149c-1961-41de-8d41-8e2f911323ed_zsite.jpeg",
-        "publishedAt": "2026-10-03T12:33:31.000Z",
+        "title": "改革激活创新源力 产业集聚硬核势能 陕西培育壮大新质生产力",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-03/10707665.shtml",
+        "summary": "教育科技人才体制机制一体改革，是激活硬科技、培育新质生产力的关键抓手。立足秦创原创新驱动平台总窗口优势，陕西聚力发展光子、高端科学仪器、新能源装备等硬科技产业。高校厚植学科根基，科研团队聚力攻坚技术难题，大批工程技术人才持续输送至产业一线，创新链、产业链、人才链深度咬合。实验室科研成果加速落地转化，...",
+        "image": "",
+        "publishedAt": "2026-10-03T14:16:53.000Z",
         "source": "中新网"
       },
       {
-        "title": "西部陆海新通道核心物流节点柳州铁路港国庆假期调车忙",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-03/10707590.shtml",
-        "summary": "中新网广西柳州10月3日电 (李德 赵波 张艺霖)国庆假期，广西柳州铁路港里门吊起落，装卸繁忙。作为西部陆海新通道核心物流节点，柳州铁路港依托“铁江海”联运模式，日均300余车货物从这里集结始发，将钢材、机械、新能源汽车等货品送往全球各地。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261003/fddc957a-83f2-403c-967e-7b2b823bf2c2_zsite.jpg",
-        "publishedAt": "2026-10-03T11:37:19.000Z",
+        "title": "我国多举措支持服务业扩能提质",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-03/10707664.shtml",
+        "summary": "央视新闻客户端消息(新闻联播)：记者从国家发展改革委了解到，我国推出一系列政策举措，支持服务业扩能提质：在生产性服务业方面，推动研发设计、现代物流、软件信息等专业服务深度嵌入产业链供应链；在生活性服务业方面，全面推开养老服务消费补贴项目，持续增加居民服务优质供给。与此同时，加强土地、金融等要素保障：...",
+        "image": "",
+        "publishedAt": "2026-10-03T14:13:25.000Z",
         "source": "中新网"
       },
       {
-        "title": "福建厦门构筑育成生态助力科研成果“落地生金”",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-03/10707567.shtml",
-        "summary": "中新社厦门10月3日电 (吴冠标)在厦门火炬高新区高新广场，一座高校区域技术转移转化中心正高效运转。钙钛矿-晶硅叠层光伏技术等多项高校科研成果在这里加速迈向产业化，有力推动了新型显示、集成电路等当地主导产业的提质升级。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261003/0c53ea23-81f8-4c58-91bf-d1fa4f18d64a_zsite.jpg",
-        "publishedAt": "2026-10-03T11:13:18.000Z",
+        "title": "通胀冲击历史性升温，日本民众餐桌承压",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-03/10707662.shtml",
+        "summary": "最近，日本企业们都在忙一件事，涨价。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/10/03/a0f59acfa8ee4e1a96dddc717d3ec4a4.jpg",
+        "publishedAt": "2026-10-03T14:13:23.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
+        "title": "Tennessee prison chief to resign after Christa Pike's failed execution",
+        "link": "https://www.bbc.co.uk/news/articles/c8zxl62yzxzxo?at_medium=RSS&at_campaign=rss",
+        "summary": "Pike's lawyers said the failure \"goes far beyond any one person\". Pike is in critical condition after surviving two lethal injections.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a5d3/live/7d12d1b0-bf45-11f1-babe-4199b0e7ccea.jpg",
+        "publishedAt": "2026-10-03T17:48:42.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "Russia hits second major bridge in Ukraine's capital Kyiv",
         "link": "https://www.bbc.co.uk/news/articles/c83vqxzdg1yko?at_medium=RSS&at_campaign=rss",
         "summary": "The strike on the Pivnichnyi (Northern) Bridge comes after repeat attacks on another major bridge in Ukraine's capital.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/554e/live/87c08780-bf1b-11f1-9b47-174f268aae1d.jpg",
-        "publishedAt": "2026-10-03T12:59:10.000Z",
+        "publishedAt": "2026-10-03T16:16:49.000Z",
         "source": "BBC"
       },
       {
-        "title": "Protesters across Spain demand action over housing crisis",
-        "link": "https://www.bbc.co.uk/news/articles/cm2kej47095no?at_medium=RSS&at_campaign=rss",
-        "summary": "More than 50 protests are planned to take place on Saturday after the government failed to get emergency legislation through parliament.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/225b/live/a58f5d00-bf24-11f1-bc2e-018d645d8d21.jpg",
-        "publishedAt": "2026-10-03T12:16:15.000Z",
-        "source": "BBC"
+        "title": "2 Iranian men charged over alleged bomb plot to target UK Jewish community appear in court",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORkVlZjN5ay1lbzVTMnhIUkc3Z1N6STlNRVAxb282OGpacVptaVFlc184eWlDQU5ubmMxWjRQWFVoQjdzaGZVbFVBSEprd3lBeEhwaUJFWTR6cW85d2thX0gxUFV4YWFwOTJNX1RZaXhza2UyTnZYbWZHT3JETnMycEh6N0tUbnBPaVJj?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-10-03T14:38:00.000Z",
+        "source": "CNN"
       },
       {
         "title": "Flydubai co-pilot attacked captain with axe, UAE official says",
         "link": "https://www.bbc.co.uk/news/articles/c61wv7lgex13o?at_medium=RSS&at_campaign=rss",
         "summary": "The man accused of trying to take over the Israel-bound jet is named as Hamam al-Hammami by several media outlets.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2448/live/1043b780-befe-11f1-bc2e-018d645d8d21.jpg",
-        "publishedAt": "2026-10-03T11:20:21.000Z",
+        "publishedAt": "2026-10-03T14:27:33.000Z",
         "source": "BBC"
       },
       {
-        "title": "G7 to release millions of barrels of oil and diesel after Trump threat",
-        "link": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
-        "summary": "The co-ordinated release is aimed at heading off further price spikes and avoiding a ban on US diesel exports.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/44c3/live/c89e9510-beff-11f1-babe-4199b0e7ccea.jpg",
-        "publishedAt": "2026-10-03T04:38:31.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Deadly bear attacks are rattling Russian Siberia. Why now?",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xNk51bHNGaVJhNWU0TkNrZXU3OGhOdlg1RHBHaUt4ak1sTzJKMlM4ZndzZGJ6ZnJSSm5SczVjdGF5ZVhZT0xXXzdZVEdpclZTTXN1aFg0OUlaZ2xNamg1djdaUUpodWNHdGF6TUZJTFU5aVFBWnFFOQ?oc=5",
+        "title": "Russia strikes another major bridge in Kyiv as attacks on Ukrainian capital escalate",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaHFSem5DOG51RTg1cVRhcmlDU3ozY1BCTmk0RThmOGh2a3NoaDIwM21ZSE5vb1RJMU1Pb0ZrbkZNMUcweHJ5cmhTbnBVeXgwY3pVeURoZ29SSzNZd1RYWTBEVy0yNFFHVUl5c0YxcGJGMWlmSkxobzU3dVE2VzB4c25XY3BvTVNrUGpTM1dkN0VFdWxUelZGcGh1ZUw?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-10-03T04:01:45.000Z",
+        "publishedAt": "2026-10-03T14:02:50.000Z",
         "source": "CNN"
       }
     ],
@@ -425,85 +425,85 @@
     ],
     "domestic": [
       {
-        "title": "中国外交部：一贯反对将民用无人机用于军事目的",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-03/10707633.shtml",
-        "summary": "中新社北京10月3日电 中国外交部发言人郭嘉昆10月3日答记者问时表示，中方一贯反对将民用无人机用于军事目的。各方应为乌克兰危机的政治解决发挥建设性作用，而非无端炒作和恶意关联。",
+        "title": "我国首个深水油田流花油田取得新突破 “国之重器”协同运转",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-03/10707663.shtml",
+        "summary": "这个国庆假期，我国深水油田产油量再获新突破。今天，我国首个深水油田——流花油田二次开发项目累计生产原油突破200万吨。截至目前，油田已生产原油超过4000万吨，日产量达到了投产22年来的新高，为保障国家能源安全提供了坚实保障。",
         "image": "",
-        "publishedAt": "2026-10-03T13:16:56.000Z",
+        "publishedAt": "2026-10-03T14:10:57.000Z",
         "source": "中新网"
       },
       {
-        "title": "“四季童读·书香校园行”启动 馆校协同让优质阅读资源走进校园",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-03/10707629.shtml",
-        "summary": "中新网北京10月3日电 (记者 应妮)国家图书馆“四季童读·书香校园行”专项行动日前在京正式启动。这是《全民阅读促进条例》实施后，国家图书馆面向校园推出的又一少儿阅读推广举措，标志着“四季童读”从公共图书馆系统向校园场景系统性延伸。",
+        "title": "国庆假期 海军编队坚守战位 护卫国际航道安全",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-03/10707660.shtml",
+        "summary": "这个假期，有人假日不休、生产不停，还有人坚守战位、守护安全。国庆佳节，正在远海执行护航任务的海军第49批护航编队，举行了一场特殊的升旗仪式。五星红旗在深蓝大洋上升起，护航官兵坚守战位，用忠诚与担当，在远海大洋护卫国际航道安全。",
         "image": "",
-        "publishedAt": "2026-10-03T13:10:55.000Z",
+        "publishedAt": "2026-10-03T14:07:07.000Z",
         "source": "中新网"
       },
       {
-        "title": "“人工智能治理研究的延续与变革”学术研讨会在京举办",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-03/10707631.shtml",
-        "summary": "中新网北京10月3日电 (曾玥 贾海语)“人工智能治理研究的延续与变革”学术研讨会暨中国科技新闻学会数字传播伦理专委会年会(2026)近日在中国传媒大学举办。来自新闻传播学、公共管理、国际关系、政治学等多个学科领域的专家学者，围绕人工智能治理的经典理论、前沿问题、政策实践以及全球治理与伦理问题展开深...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261003/1a36bd63-8941-4325-80eb-90c03595d537_zsite.jpg",
-        "publishedAt": "2026-10-03T13:07:31.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "（文化中国行·校馆弦歌）西工大图书馆：书香承三航 铸剑启后学",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-03/10707605.shtml",
-        "summary": "中新网西安10月3日电 题：西工大图书馆：书香承三航 铸剑启后学",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261003/2efbb390-f1eb-43cc-8968-a1e84ec86b5f_zsite.jpg",
-        "publishedAt": "2026-10-03T12:39:39.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "美方称星巴克在新疆开设门店“道德沦丧” 外交部回应",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-03/10707597.shtml",
-        "summary": "中新网10月3日电 据外交部网站消息，10月3日，外交部发言人郭嘉昆答记者问。",
+        "title": "新的长征之路 | 九十载军民情 小小“红军粉”铺就富民振兴路",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-03/10707653.shtml",
+        "summary": "央视网消息：长征的征途，既有翻越天险的战斗行军，也有军民共处的岁月。1935年，红一方面军和红四方面军先后完成翻雪山、过草地的艰苦行军。同年8月，红二十五军先期北上，进入宁夏南部地区，他们在西吉兴隆镇一带休整，与当地百姓结下了不解之缘。",
         "image": "",
-        "publishedAt": "2026-10-03T12:06:49.000Z",
+        "publishedAt": "2026-10-03T14:00:04.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "学习进行时丨中国式现代化，民生为大",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-03/10707627.shtml",
+        "summary": "策划：张芮绮、丁翊睿",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/10/03/7134be12d08d4c08aeec08a6e45db372.png",
+        "publishedAt": "2026-10-03T13:35:43.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "中方：欢迎普京总统出席APEC领导人非正式会议",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-03/10707638.shtml",
+        "summary": "中新社北京10月3日电 中国外交部发言人郭嘉昆10月3日答记者问时表示，中方欢迎普京总统出席今年11月将在深圳举行的亚太经合组织(APEC)领导人非正式会议。",
+        "image": "",
+        "publishedAt": "2026-10-03T13:24:30.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
+        "title": "Tennessee prison chief to resign after Christa Pike's failed execution",
+        "link": "https://www.bbc.co.uk/news/articles/c8zxl62yzxzxo?at_medium=RSS&at_campaign=rss",
+        "summary": "Pike's lawyers said the failure \"goes far beyond any one person\". Pike is in critical condition after surviving two lethal injections.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a5d3/live/7d12d1b0-bf45-11f1-babe-4199b0e7ccea.jpg",
+        "publishedAt": "2026-10-03T17:48:42.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "Russia hits second major bridge in Ukraine's capital Kyiv",
         "link": "https://www.bbc.co.uk/news/articles/c83vqxzdg1yko?at_medium=RSS&at_campaign=rss",
         "summary": "The strike on the Pivnichnyi (Northern) Bridge comes after repeat attacks on another major bridge in Ukraine's capital.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/554e/live/87c08780-bf1b-11f1-9b47-174f268aae1d.jpg",
-        "publishedAt": "2026-10-03T12:59:10.000Z",
+        "publishedAt": "2026-10-03T16:16:49.000Z",
         "source": "BBC"
       },
       {
-        "title": "Protesters across Spain demand action over housing crisis",
-        "link": "https://www.bbc.co.uk/news/articles/cm2kej47095no?at_medium=RSS&at_campaign=rss",
-        "summary": "More than 50 protests are planned to take place on Saturday after the government failed to get emergency legislation through parliament.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/225b/live/a58f5d00-bf24-11f1-bc2e-018d645d8d21.jpg",
-        "publishedAt": "2026-10-03T12:16:15.000Z",
-        "source": "BBC"
+        "title": "2 Iranian men charged over alleged bomb plot to target UK Jewish community appear in court",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORkVlZjN5ay1lbzVTMnhIUkc3Z1N6STlNRVAxb282OGpacVptaVFlc184eWlDQU5ubmMxWjRQWFVoQjdzaGZVbFVBSEprd3lBeEhwaUJFWTR6cW85d2thX0gxUFV4YWFwOTJNX1RZaXhza2UyTnZYbWZHT3JETnMycEh6N0tUbnBPaVJj?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-10-03T14:38:00.000Z",
+        "source": "CNN"
       },
       {
         "title": "Flydubai co-pilot attacked captain with axe, UAE official says",
         "link": "https://www.bbc.co.uk/news/articles/c61wv7lgex13o?at_medium=RSS&at_campaign=rss",
         "summary": "The man accused of trying to take over the Israel-bound jet is named as Hamam al-Hammami by several media outlets.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2448/live/1043b780-befe-11f1-bc2e-018d645d8d21.jpg",
-        "publishedAt": "2026-10-03T11:20:21.000Z",
+        "publishedAt": "2026-10-03T14:27:33.000Z",
         "source": "BBC"
       },
       {
-        "title": "G7 to release millions of barrels of oil and diesel after Trump threat",
-        "link": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
-        "summary": "The co-ordinated release is aimed at heading off further price spikes and avoiding a ban on US diesel exports.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/44c3/live/c89e9510-beff-11f1-babe-4199b0e7ccea.jpg",
-        "publishedAt": "2026-10-03T04:38:31.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Deadly bear attacks are rattling Russian Siberia. Why now?",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xNk51bHNGaVJhNWU0TkNrZXU3OGhOdlg1RHBHaUt4ak1sTzJKMlM4ZndzZGJ6ZnJSSm5SczVjdGF5ZVhZT0xXXzdZVEdpclZTTXN1aFg0OUlaZ2xNamg1djdaUUpodWNHdGF6TUZJTFU5aVFBWnFFOQ?oc=5",
+        "title": "Russia strikes another major bridge in Kyiv as attacks on Ukrainian capital escalate",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaHFSem5DOG51RTg1cVRhcmlDU3ozY1BCTmk0RThmOGh2a3NoaDIwM21ZSE5vb1RJMU1Pb0ZrbkZNMUcweHJ5cmhTbnBVeXgwY3pVeURoZ29SSzNZd1RYWTBEVy0yNFFHVUl5c0YxcGJGMWlmSkxobzU3dVE2VzB4c25XY3BvTVNrUGpTM1dkN0VFdWxUelZGcGh1ZUw?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-10-03T04:01:45.000Z",
+        "publishedAt": "2026-10-03T14:02:50.000Z",
         "source": "CNN"
       }
     ],
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-10-03",
+    "rotationLabel": "Curated Rotation · 2026-10-04",
     "sections": [
       {
         "id": "data-storage",
@@ -522,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-6",
-            "sectionId": "data-storage",
-            "title": "DiskANN: Fast Accurate Billion-point Nearest Neighbor Search on a Single Node",
-            "authors": [
-              "Neelesh Gupta",
-              "Leland Willard",
-              "Xiangyao Yu",
-              "Yuri N."
-            ],
-            "venue": "NeurIPS",
-            "year": 2019,
-            "quality": "高影响力",
-            "categories": [
-              "vector search",
-              "ANN"
-            ],
-            "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
-            "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-1",
             "sectionId": "data-storage",
@@ -562,7 +541,7 @@
             ],
             "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
             "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-2",
@@ -584,6 +563,27 @@
             "link": "https://research.google/pubs/pub27898/",
             "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-3",
+            "sectionId": "data-storage",
+            "title": "Dynamo: Amazon's Highly Available Key-value Store",
+            "authors": [
+              "Giuseppe DeCandia",
+              "Deniz Hastorun",
+              "Madan Jampani",
+              "Gunavardhan Kakulapati"
+            ],
+            "venue": "SOSP",
+            "year": 2007,
+            "quality": "顶会",
+            "categories": [
+              "key-value",
+              "distributed systems"
+            ],
+            "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
+            "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -593,27 +593,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-1",
-            "sectionId": "computer-vision",
-            "title": "Deep Residual Learning for Image Recognition",
-            "authors": [
-              "Kaiming He",
-              "Xiangyu Zhang",
-              "Shaoqing Ren",
-              "Jian Sun"
-            ],
-            "venue": "CVPR",
-            "year": 2016,
-            "quality": "顶会",
-            "categories": [
-              "image recognition",
-              "backbone"
-            ],
-            "link": "https://arxiv.org/abs/1512.03385",
-            "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-2",
             "sectionId": "computer-vision",
@@ -633,7 +612,7 @@
             ],
             "link": "https://arxiv.org/abs/2005.12872",
             "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-3",
@@ -655,6 +634,27 @@
             "link": "https://arxiv.org/abs/2010.11929",
             "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-4",
+            "sectionId": "computer-vision",
+            "title": "Learning Transferable Visual Models From Natural Language Supervision",
+            "authors": [
+              "Alec Radford",
+              "Jong Wook Kim",
+              "Chris Hallacy",
+              "Aditya Ramesh"
+            ],
+            "venue": "ICML",
+            "year": 2021,
+            "quality": "顶会",
+            "categories": [
+              "vision-language",
+              "foundation model"
+            ],
+            "link": "https://arxiv.org/abs/2103.00020",
+            "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -664,27 +664,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-2",
-            "sectionId": "llm-memory",
-            "title": "Memorizing Transformers",
-            "authors": [
-              "Yuhuai Wu",
-              "Markus N. Rabe",
-              "DeLesley Hutchins",
-              "Christian Szegedy"
-            ],
-            "venue": "ICLR",
-            "year": 2022,
-            "quality": "顶会",
-            "categories": [
-              "memory",
-              "long context"
-            ],
-            "link": "https://arxiv.org/abs/2203.08913",
-            "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-3",
             "sectionId": "llm-memory",
@@ -704,7 +683,7 @@
             ],
             "link": "https://arxiv.org/abs/2112.04426",
             "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-4",
@@ -726,6 +705,27 @@
             "link": "https://arxiv.org/abs/2310.11511",
             "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-5",
+            "sectionId": "llm-memory",
+            "title": "LongMem: Scaling Language Model Context with Memory-Augmented Retrieval",
+            "authors": [
+              "Zeqiu Wu",
+              "Yizhong Wang",
+              "Jiacheng Liu",
+              "Yelong Shen"
+            ],
+            "venue": "ACL Findings",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "memory",
+              "long context"
+            ],
+            "link": "https://arxiv.org/abs/2306.07174",
+            "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -735,27 +735,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-3",
-            "sectionId": "agents",
-            "title": "Generative Agents: Interactive Simulacra of Human Behavior",
-            "authors": [
-              "Joon Sung Park",
-              "Joseph O'Brien",
-              "Carrie Cai",
-              "Meredith Ringel Morris"
-            ],
-            "venue": "UIST",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "agent society",
-              "memory"
-            ],
-            "link": "https://arxiv.org/abs/2304.03442",
-            "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-4",
             "sectionId": "agents",
@@ -775,7 +754,7 @@
             ],
             "link": "https://arxiv.org/abs/2305.16291",
             "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-5",
@@ -796,6 +775,27 @@
             ],
             "link": "https://arxiv.org/abs/2308.08155",
             "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-6",
+            "sectionId": "agents",
+            "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+            "authors": [
+              "John Yang",
+              "Carlos E. Jimenez",
+              "Alexander Wettig",
+              "Karthik Narasimhan"
+            ],
+            "venue": "ICLR",
+            "year": 2025,
+            "quality": "新近代表作",
+            "categories": [
+              "software agent",
+              "benchmark"
+            ],
+            "link": "https://arxiv.org/abs/2405.15793",
+            "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
             "trackLabel": "轮换精选"
           }
         ]
