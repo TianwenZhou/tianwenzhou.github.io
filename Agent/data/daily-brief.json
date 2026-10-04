@@ -1,42 +1,34 @@
 {
-  "generatedAt": "2026-10-04T13:53:39.335Z",
+  "generatedAt": "2026-10-04T19:32:58.609Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 15,
+      "temperature": 11,
       "weatherCode": 0,
-      "windSpeed": 6
+      "windSpeed": 4
     },
     "today": {
-      "date": "2026-10-04",
-      "weatherCode": 1,
-      "description": "基本晴",
-      "max": 20,
-      "min": 14,
+      "date": "2026-10-05",
+      "weatherCode": 2,
+      "description": "局部多云",
+      "max": 24,
+      "min": 10,
       "precipitationProbability": 0
     },
     "forecast": [
       {
-        "date": "2026-10-04",
-        "weatherCode": 1,
-        "description": "基本晴",
-        "max": 20,
-        "min": 14,
-        "precipitationProbability": 0
-      },
-      {
         "date": "2026-10-05",
-        "weatherCode": 1,
-        "description": "基本晴",
+        "weatherCode": 2,
+        "description": "局部多云",
         "max": 24,
-        "min": 9,
+        "min": 10,
         "precipitationProbability": 0
       },
       {
         "date": "2026-10-06",
         "weatherCode": 0,
         "description": "晴朗",
-        "max": 26,
+        "max": 25,
         "min": 12,
         "precipitationProbability": 0
       },
@@ -45,7 +37,7 @@
         "weatherCode": 0,
         "description": "晴朗",
         "max": 27,
-        "min": 13,
+        "min": 12,
         "precipitationProbability": 0
       },
       {
@@ -55,32 +47,49 @@
         "max": 26,
         "min": 13,
         "precipitationProbability": 0
+      },
+      {
+        "date": "2026-10-09",
+        "weatherCode": 3,
+        "description": "阴天",
+        "max": 26,
+        "min": 14,
+        "precipitationProbability": 6
       }
     ]
   },
   "classicQuote": {
-    "id": "dream-red-mansions",
-    "text": "世事洞明皆学问，人情练达即文章。",
-    "source": "《红楼梦》",
-    "author": "曹雪芹",
-    "note": "技术之外，理解人和场景，往往更能拉开差距。"
+    "id": "mencius-perseverance",
+    "text": "虽千万人，吾往矣。",
+    "source": "《孟子》",
+    "author": "孟子",
+    "note": "认准方向之后，关键是稳稳地往前走。"
   },
   "bookExcerpt": {
-    "id": "floating-life-lotus",
-    "text": "芸坐其侧，素手烹茶，窗外新荷微香，连晚风也像带着水意，从竹帘间一寸寸地漫进来。",
-    "book": "《浮生六记》",
-    "author": "沈复"
+    "id": "red-mansion-snow",
+    "text": "只见大地白茫茫一片真干净，山川树木都隐在雪光里，天地像忽然静下来，只余风过回廊的细响。",
+    "book": "《红楼梦》",
+    "author": "曹雪芹"
   },
   "featuredPlace": {
-    "id": "202610031600",
-    "title": "阿尔忒弥斯1号月球火箭，39B发射台，肯尼迪航天中心，佛罗里达州，2022年6月15日",
+    "id": "202610041600",
+    "title": "南极洲的阿德利企鹅",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "宇宙在召唤",
-    "image": "https://www.bing.com/th?id=OHR.ArtemisRocket_ZH-CN1768541365_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E7%A9%BA%E9%97%B4%E5%91%A8&form=hpcapt&mkt=zh-cn"
+    "summary": "纵身一跃，一次一课",
+    "image": "https://www.bing.com/th?id=OHR.AdelieTeacher_ZH-CN2201820679_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E6%95%99%E5%B8%88%E6%97%A5&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202610041600",
+      "title": "南极洲的阿德利企鹅",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "纵身一跃，一次一课",
+      "image": "https://www.bing.com/th?id=OHR.AdelieTeacher_ZH-CN2201820679_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E6%95%99%E5%B8%88%E6%97%A5&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202610031600",
       "title": "阿尔忒弥斯1号月球火箭，39B发射台，肯尼迪航天中心，佛罗里达州，2022年6月15日",
@@ -143,30 +152,21 @@
       "summary": "可览美景的历史胜地",
       "image": "https://www.bing.com/th?id=OHR.AmberHall_ZH-CN1223127100_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E5%8D%B0%E5%BA%A6%E6%8B%89%E8%B4%BE%E6%96%AF%E5%9D%A6%E9%82%A6%E6%96%8B%E6%B5%A6%E5%B0%94%E7%90%A5%E7%8F%80%E5%A0%A1&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202609261600",
-      "title": "海笔上的装饰蟹，科莫多国家公园，印度尼西亚",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "深海夜花园",
-      "image": "https://www.bing.com/th?id=OHR.DecoCrab_ZH-CN0973306994_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E7%A7%91%E8%8E%AB%E5%A4%9A%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-10-04",
-    "dateLabel": "10月4日",
+    "dateKey": "2026-10-05",
+    "dateLabel": "10月5日",
     "items": [
       {
-        "year": "2018",
-        "text": "自2003年4月28日以來香港恒生指數首次被美國道瓊斯工業平均指數超越。",
-        "link": "https://zh.wikipedia.org/wiki/2018%E5%B9%B4"
+        "year": "2021",
+        "text": "美國電腦科技公司微軟正式發布作業系統Microsoft Windows最新版本Windows 11。",
+        "link": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4"
       },
       {
-        "year": "2006",
-        "text": "澳大利亞記者朱利安·阿桑奇創立維基解密，該網站與維基百科無關。",
-        "link": "https://zh.wikipedia.org/wiki/2006%E5%B9%B4"
+        "year": "2020",
+        "text": "哈維·阿爾特、麥可·霍頓和查爾斯·M·賴斯因發現C型肝炎病毒而獲得諾貝爾生理學或醫學獎。",
+        "link": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4"
       }
     ]
   },
@@ -215,6 +215,22 @@
     ],
     "chinaSociety": [
       {
+        "title": "假期提示：遭遇霸王条款和消费陷阱 如何维权？",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-04/10707986.shtml",
+        "summary": "正值国庆假期，各地迎来消费高峰。在线上线下购物时，您是否遇到过，货不对板、实物和宣传存在明显差距、虚假宣传等问题呢？假日外出聚餐，您是否遇到过包间设置最低消费？在结账时，凭空多出来没有提前告知的服务费，要不要接受呢？节假日如果商家只允许购买套餐、不能单点菜品，又该怎么办？遭遇霸王条款，我们该如何维权...",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/10/04/08ad973512ee4bf0b53e4d8fd0877254.jpg",
+        "publishedAt": "2026-10-04T14:33:03.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "好了好了这下坏了！别人都活力四射，只有我在倒立玩手机，这假白放了......",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-04/10707985.shtml",
+        "summary": "每逢长假，身边的人大抵分成两种状态：",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/10/04/848a83b51fd548a8800848ff8b56806a.jpg",
+        "publishedAt": "2026-10-04T14:17:44.000Z",
+        "source": "中新网"
+      },
+      {
         "title": "重庆：焕新历史街巷唤醒城市记忆",
         "link": "https://www.chinanews.com.cn/sh/2026/10-04/10707973.shtml",
         "summary": "新华社重庆10月3日电 题：重庆：焕新历史街巷唤醒城市记忆",
@@ -236,22 +252,6 @@
         "summary": "原标题：我的铁路风景｜候车室里搭“文化集市”，将赣西三地风光送到旅客身边！",
         "image": "",
         "publishedAt": "2026-10-04T13:02:31.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "浙江宁波举办辣味海鲜争霸赛 开辟鲜辣美食赛道",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-04/10707936.shtml",
-        "summary": "中新网宁波10月4日电(林波)10月4日，宁波辣味海鲜争霸赛预热展示活动在浙江宁波举行，16家旅游饭店同台亮相，名厨现场掌勺展演辣味海鲜烹制技艺，首期《宁波辣味海鲜美食地图》同步对外发布。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261004/ec82889c-0bae-4c2d-b47e-e24d6e105836_zsite.JPG",
-        "publishedAt": "2026-10-04T13:00:00.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "百姓的“小确幸”绘就城市幸福底色",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-04/10707965.shtml",
-        "summary": "原标题：追光的你丨百姓的“小确幸”绘就城市幸福底色",
-        "image": "",
-        "publishedAt": "2026-10-04T12:58:14.000Z",
         "source": "中新网"
       }
     ],
@@ -299,43 +299,43 @@
     ],
     "worldTop": [
       {
-        "title": "Ethiopian rebel forces withdraw from Tigray regional capital",
-        "link": "https://www.bbc.co.uk/news/articles/cqm249v07j4xo?at_medium=RSS&at_campaign=rss",
-        "summary": "Two residents in Mekelle tell the BBC pro-government forces have taken control of the city.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/965b/live/ca8ca230-bfeb-11f1-8c3e-3b2eab095459.jpg",
-        "publishedAt": "2026-10-04T13:33:05.000Z",
+        "title": "Yemen's government announces all-out war to reclaim land from Houthis",
+        "link": "https://www.bbc.co.uk/news/articles/cx8dzj9vpp01o?at_medium=RSS&at_campaign=rss",
+        "summary": "The Yemeni president's announcement comes amid an exchange of strikes between the Houthis and the Saudi-led coalition.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7653/live/2853dd30-bffa-11f1-8c3e-3b2eab095459.jpg",
+        "publishedAt": "2026-10-04T16:51:30.000Z",
         "source": "BBC"
       },
       {
-        "title": "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit",
-        "link": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss",
-        "summary": "Footage shows a drone hitting the Pivnichyi (Northern) Bridge as vehicles move across it, creating a large fireball.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6c25/live/34af1c20-bff5-11f1-bc2e-018d645d8d21.png",
-        "publishedAt": "2026-10-04T12:09:04.000Z",
+        "title": "Christa Pike's prognosis still unclear after failed execution, lawyer says",
+        "link": "https://www.bbc.co.uk/news/articles/ckgelynyg7d3o?at_medium=RSS&at_campaign=rss",
+        "summary": "Pike's lawyer says doctors are still trying to clear two lethal doses of pentobarbital from her body.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c825/live/b05bacc0-c00a-11f1-bc2e-018d645d8d21.jpg",
+        "publishedAt": "2026-10-04T16:24:48.000Z",
         "source": "BBC"
       },
       {
-        "title": "What to know about Brazil's election pitting Lula against Flávio Bolsonaro",
-        "link": "https://www.bbc.co.uk/news/articles/c6wyz0r2n0djo?at_medium=RSS&at_campaign=rss",
-        "summary": "Polls suggest the election will be a closely run contest between the left-wing incumbent and his right-wing rival.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/70fc/live/b2ed88c0-bd79-11f1-babe-4199b0e7ccea.png",
-        "publishedAt": "2026-10-04T11:03:20.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Australia investigating Flydubai co-pilot's links to country",
-        "link": "https://www.bbc.co.uk/news/articles/cxly4nym57q9o?at_medium=RSS&at_campaign=rss",
-        "summary": "State police and the country's security agency are looking into the co-pilot, who attempted to take control of a Flydubai plane travelling to Israel.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8092/live/6ab37a20-bfbc-11f1-a64c-550be9e3c66b.png",
-        "publishedAt": "2026-10-04T06:19:17.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Japan PM registers protest to US after Marine arrested on suspicion of murder in Okinawa",
-        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYnNScVdlMGIzVWZEY1pLeng5dTc4YkhYRXZKOF93emtxc3NmYkZTa3MxelR1ZmxvLWxiNXE4NlNMcnljR3lrazdmZHpLS3gxYW4wWlVQdlB4d1B5b1o0QXZ1NjI4THdtcGsyZmxJT250TktjNnpzN2RvUGhEbFMtTXZWYU9nQ3JpUzI4?oc=5",
+        "title": "Researcher at Russian plague laboratory dies of ‘unknown’ infection",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZV9DaDFJbWhKbXBBOUZFQkJyWjYtUFpmcnVlS1E4TWFoMGN5ZEp1UmVoazlQVHFVSTFDMnJJejRheDJuNTJ2d2lPdElZUlI2STBGXzBZc09vWWdrSTNtMFFFaW9PdU9MdWpIWXNVUGZ6UHNLWVVIanFmelRsU04yNFdR?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-10-04T04:50:39.000Z",
+        "publishedAt": "2026-10-04T16:23:05.000Z",
+        "source": "CNN"
+      },
+      {
+        "title": "Watch: What we know about Russian strikes on Kyiv bridges",
+        "link": "https://www.bbc.co.uk/news/videos/cmglwkyl9djyo?at_medium=RSS&at_campaign=rss",
+        "summary": "BBC Ukraine correspondent Dan Johnson is near Kyiv's Northern Bridge, which has been hit for the second day in a row.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/df42/live/012a8270-bff2-11f1-a64c-550be9e3c66b.jpg",
+        "publishedAt": "2026-10-04T14:25:32.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Yemen’s Saudi-backed government announces major offensive against Iran-backed Houthis",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5hdkdCTGNrOXhaMEo4eEsxbk1jSVhhTjVfcTdDMWpXWmFZTTZJMzNvVGtlZUtuSTNKWXdZaFhCcUhmc0ZsTF9NMG94YkxPQmhVaDRxX0FzNmtoQ3NBSUJkWEJ2OV9fOUttWnpKSjFvUXRfMGJJMFpHaVhR?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-10-04T14:08:35.000Z",
         "source": "CNN"
       }
     ],
@@ -373,12 +373,12 @@
         "source": "CNN"
       },
       {
-        "title": "U.S. economy adds just 29,000 jobs in September",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNc3NMRlVaSzVMLW1wSkw2aWExWUZHY2F2aXE2aUliYVBYdmxGbG8zWnhOdzh4Y1RsZVk3NXdfa0FZWUs1NW1DMlVUeUhxRU4xUHZCM2FwWDlpRmhmTEE0Zjk0Vzg1N3lQUFFxWEJJX3BkWkFvTkN4OHVzZ09MNlhtdlljZjJhR2t5S0ZaY1FXNkF5TEN2ODE5TTY5ekYzemJnSUlFb0NFc0ZOeE1WekJTVHNDcUs3QQ?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-10-02T22:27:01.000Z",
-        "source": "CNN"
+        "title": "UK diesel prices top £2 a litre for first time, RAC says",
+        "link": "https://www.bbc.co.uk/news/articles/crn8e86y5n0zo?at_medium=RSS&at_campaign=rss",
+        "summary": "The rise in global oil prices has been pushing up the pump prices of petrol and diesel in the UK.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ea0f/live/8e1b93c0-beeb-11f1-ba3c-a5b1d911ee67.jpg",
+        "publishedAt": "2026-10-02T15:50:05.000Z",
+        "source": "BBC"
       }
     ],
     "worldTech": [
@@ -467,43 +467,43 @@
     ],
     "international": [
       {
-        "title": "Ethiopian rebel forces withdraw from Tigray regional capital",
-        "link": "https://www.bbc.co.uk/news/articles/cqm249v07j4xo?at_medium=RSS&at_campaign=rss",
-        "summary": "Two residents in Mekelle tell the BBC pro-government forces have taken control of the city.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/965b/live/ca8ca230-bfeb-11f1-8c3e-3b2eab095459.jpg",
-        "publishedAt": "2026-10-04T13:33:05.000Z",
+        "title": "Yemen's government announces all-out war to reclaim land from Houthis",
+        "link": "https://www.bbc.co.uk/news/articles/cx8dzj9vpp01o?at_medium=RSS&at_campaign=rss",
+        "summary": "The Yemeni president's announcement comes amid an exchange of strikes between the Houthis and the Saudi-led coalition.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7653/live/2853dd30-bffa-11f1-8c3e-3b2eab095459.jpg",
+        "publishedAt": "2026-10-04T16:51:30.000Z",
         "source": "BBC"
       },
       {
-        "title": "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit",
-        "link": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss",
-        "summary": "Footage shows a drone hitting the Pivnichyi (Northern) Bridge as vehicles move across it, creating a large fireball.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6c25/live/34af1c20-bff5-11f1-bc2e-018d645d8d21.png",
-        "publishedAt": "2026-10-04T12:09:04.000Z",
+        "title": "Christa Pike's prognosis still unclear after failed execution, lawyer says",
+        "link": "https://www.bbc.co.uk/news/articles/ckgelynyg7d3o?at_medium=RSS&at_campaign=rss",
+        "summary": "Pike's lawyer says doctors are still trying to clear two lethal doses of pentobarbital from her body.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c825/live/b05bacc0-c00a-11f1-bc2e-018d645d8d21.jpg",
+        "publishedAt": "2026-10-04T16:24:48.000Z",
         "source": "BBC"
       },
       {
-        "title": "What to know about Brazil's election pitting Lula against Flávio Bolsonaro",
-        "link": "https://www.bbc.co.uk/news/articles/c6wyz0r2n0djo?at_medium=RSS&at_campaign=rss",
-        "summary": "Polls suggest the election will be a closely run contest between the left-wing incumbent and his right-wing rival.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/70fc/live/b2ed88c0-bd79-11f1-babe-4199b0e7ccea.png",
-        "publishedAt": "2026-10-04T11:03:20.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Australia investigating Flydubai co-pilot's links to country",
-        "link": "https://www.bbc.co.uk/news/articles/cxly4nym57q9o?at_medium=RSS&at_campaign=rss",
-        "summary": "State police and the country's security agency are looking into the co-pilot, who attempted to take control of a Flydubai plane travelling to Israel.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8092/live/6ab37a20-bfbc-11f1-a64c-550be9e3c66b.png",
-        "publishedAt": "2026-10-04T06:19:17.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Japan PM registers protest to US after Marine arrested on suspicion of murder in Okinawa",
-        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYnNScVdlMGIzVWZEY1pLeng5dTc4YkhYRXZKOF93emtxc3NmYkZTa3MxelR1ZmxvLWxiNXE4NlNMcnljR3lrazdmZHpLS3gxYW4wWlVQdlB4d1B5b1o0QXZ1NjI4THdtcGsyZmxJT250TktjNnpzN2RvUGhEbFMtTXZWYU9nQ3JpUzI4?oc=5",
+        "title": "Researcher at Russian plague laboratory dies of ‘unknown’ infection",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZV9DaDFJbWhKbXBBOUZFQkJyWjYtUFpmcnVlS1E4TWFoMGN5ZEp1UmVoazlQVHFVSTFDMnJJejRheDJuNTJ2d2lPdElZUlI2STBGXzBZc09vWWdrSTNtMFFFaW9PdU9MdWpIWXNVUGZ6UHNLWVVIanFmelRsU04yNFdR?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-10-04T04:50:39.000Z",
+        "publishedAt": "2026-10-04T16:23:05.000Z",
+        "source": "CNN"
+      },
+      {
+        "title": "Watch: What we know about Russian strikes on Kyiv bridges",
+        "link": "https://www.bbc.co.uk/news/videos/cmglwkyl9djyo?at_medium=RSS&at_campaign=rss",
+        "summary": "BBC Ukraine correspondent Dan Johnson is near Kyiv's Northern Bridge, which has been hit for the second day in a row.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/df42/live/012a8270-bff2-11f1-a64c-550be9e3c66b.jpg",
+        "publishedAt": "2026-10-04T14:25:32.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Yemen’s Saudi-backed government announces major offensive against Iran-backed Houthis",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5hdkdCTGNrOXhaMEo4eEsxbk1jSVhhTjVfcTdDMWpXWmFZTTZJMzNvVGtlZUtuSTNKWXdZaFhCcUhmc0ZsTF9NMG94YkxPQmhVaDRxX0FzNmtoQ3NBSUJkWEJ2OV9fOUttWnpKSjFvUXRfMGJJMFpHaVhR?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-10-04T14:08:35.000Z",
         "source": "CNN"
       }
     ],
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-10-04",
+    "rotationLabel": "Curated Rotation · 2026-10-05",
     "sections": [
       {
         "id": "data-storage",
@@ -522,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-1",
-            "sectionId": "data-storage",
-            "title": "The Log-Structured Merge-Tree (LSM-Tree)",
-            "authors": [
-              "Patrick O'Neil",
-              "Edward Cheng",
-              "Dieter Gawlick",
-              "Elizabeth O'Neil"
-            ],
-            "venue": "Acta Informatica",
-            "year": 1996,
-            "quality": "经典基础",
-            "categories": [
-              "storage",
-              "indexing"
-            ],
-            "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
-            "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-2",
             "sectionId": "data-storage",
@@ -562,7 +541,7 @@
             ],
             "link": "https://research.google/pubs/pub27898/",
             "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-3",
@@ -584,6 +563,27 @@
             "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
             "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-4",
+            "sectionId": "data-storage",
+            "title": "Dremel: Interactive Analysis of Web-Scale Datasets",
+            "authors": [
+              "Sergey Melnik",
+              "Andrey Gubarev",
+              "Jing Jing Long",
+              "Geoffrey Romer"
+            ],
+            "venue": "VLDB",
+            "year": 2010,
+            "quality": "顶会",
+            "categories": [
+              "analytics",
+              "columnar"
+            ],
+            "link": "https://research.google/pubs/pub36632/",
+            "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -593,27 +593,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-2",
-            "sectionId": "computer-vision",
-            "title": "End-to-End Object Detection with Transformers",
-            "authors": [
-              "Nicolas Carion",
-              "Francisco Massa",
-              "Gabriel Synnaeve",
-              "Nicolas Usunier"
-            ],
-            "venue": "ECCV",
-            "year": 2020,
-            "quality": "顶会",
-            "categories": [
-              "detection",
-              "transformer"
-            ],
-            "link": "https://arxiv.org/abs/2005.12872",
-            "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-3",
             "sectionId": "computer-vision",
@@ -633,7 +612,7 @@
             ],
             "link": "https://arxiv.org/abs/2010.11929",
             "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-4",
@@ -655,6 +634,27 @@
             "link": "https://arxiv.org/abs/2103.00020",
             "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-5",
+            "sectionId": "computer-vision",
+            "title": "Segment Anything",
+            "authors": [
+              "Alexander Kirillov",
+              "Eric Mintun",
+              "Nikhila Ravi",
+              "Hanzi Mao"
+            ],
+            "venue": "ICCV",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "segmentation",
+              "foundation model"
+            ],
+            "link": "https://arxiv.org/abs/2304.02643",
+            "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -664,27 +664,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-3",
-            "sectionId": "llm-memory",
-            "title": "RETRO: Improving Language Models by Retrieving From Trillions of Tokens",
-            "authors": [
-              "Sebastian Borgeaud",
-              "Arthur Mensch",
-              "Jordan Hoffmann",
-              "Trevor Cai"
-            ],
-            "venue": "DeepMind / arXiv",
-            "year": 2022,
-            "quality": "高影响力",
-            "categories": [
-              "retrieval",
-              "language model"
-            ],
-            "link": "https://arxiv.org/abs/2112.04426",
-            "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-4",
             "sectionId": "llm-memory",
@@ -704,7 +683,7 @@
             ],
             "link": "https://arxiv.org/abs/2310.11511",
             "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-5",
@@ -726,6 +705,27 @@
             "link": "https://arxiv.org/abs/2306.07174",
             "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-6",
+            "sectionId": "llm-memory",
+            "title": "MemoRAG: Moving towards Next-Gen RAG Via Memory-Inspired Knowledge Discovery",
+            "authors": [
+              "Rulin Shao",
+              "Yue Liu",
+              "Shuo Wang",
+              "Yichi Zhang"
+            ],
+            "venue": "arXiv",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "RAG",
+              "memory bank"
+            ],
+            "link": "https://arxiv.org/abs/2409.05591",
+            "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -735,27 +735,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-4",
-            "sectionId": "agents",
-            "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
-            "authors": [
-              "Guanzhi Wang",
-              "Yuqi Xie",
-              "Zixiang Zhou",
-              "Yujin Tang"
-            ],
-            "venue": "arXiv",
-            "year": 2023,
-            "quality": "高影响力",
-            "categories": [
-              "embodied agent",
-              "planning"
-            ],
-            "link": "https://arxiv.org/abs/2305.16291",
-            "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-5",
             "sectionId": "agents",
@@ -775,7 +754,7 @@
             ],
             "link": "https://arxiv.org/abs/2308.08155",
             "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-6",
@@ -796,6 +775,28 @@
             ],
             "link": "https://arxiv.org/abs/2405.15793",
             "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-1",
+            "sectionId": "agents",
+            "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+            "authors": [
+              "Shunyu Yao",
+              "Jeffrey Zhao",
+              "Dian Yu",
+              "Nan Du"
+            ],
+            "venue": "ICLR",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "agent",
+              "reasoning",
+              "tool use"
+            ],
+            "link": "https://arxiv.org/abs/2210.03629",
+            "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
             "trackLabel": "轮换精选"
           }
         ]
