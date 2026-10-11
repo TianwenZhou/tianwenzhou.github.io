@@ -1,50 +1,42 @@
 {
-  "generatedAt": "2026-10-11T14:52:28.485Z",
+  "generatedAt": "2026-10-11T20:11:56.171Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 20,
+      "temperature": 16,
       "weatherCode": 2,
-      "windSpeed": 4
+      "windSpeed": 1
     },
     "today": {
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "weatherCode": 3,
       "description": "阴天",
-      "max": 26,
-      "min": 14,
-      "precipitationProbability": 0
+      "max": 22,
+      "min": 15,
+      "precipitationProbability": 17
     },
     "forecast": [
-      {
-        "date": "2026-10-11",
-        "weatherCode": 3,
-        "description": "阴天",
-        "max": 26,
-        "min": 14,
-        "precipitationProbability": 0
-      },
       {
         "date": "2026-10-12",
         "weatherCode": 3,
         "description": "阴天",
-        "max": 23,
+        "max": 22,
         "min": 15,
         "precipitationProbability": 17
       },
       {
         "date": "2026-10-13",
-        "weatherCode": 0,
-        "description": "晴朗",
-        "max": 21,
+        "weatherCode": 1,
+        "description": "基本晴",
+        "max": 22,
         "min": 13,
         "precipitationProbability": 2
       },
       {
         "date": "2026-10-14",
-        "weatherCode": 1,
-        "description": "基本晴",
-        "max": 21,
+        "weatherCode": 2,
+        "description": "局部多云",
+        "max": 22,
         "min": 9,
         "precipitationProbability": 2
       },
@@ -55,32 +47,49 @@
         "max": 25,
         "min": 11,
         "precipitationProbability": 2
+      },
+      {
+        "date": "2026-10-16",
+        "weatherCode": 81,
+        "description": "强阵雨",
+        "max": 22,
+        "min": 15,
+        "precipitationProbability": 33
       }
     ]
   },
   "classicQuote": {
-    "id": "zhuangzi-time",
-    "text": "人生天地之间，若白驹之过隙，忽然而已。",
-    "source": "《庄子》",
-    "author": "庄周",
-    "note": "事情很多的时候，更值得把注意力放在真正重要的事上。"
+    "id": "dream-red-mansions",
+    "text": "世事洞明皆学问，人情练达即文章。",
+    "source": "《红楼梦》",
+    "author": "曹雪芹",
+    "note": "技术之外，理解人和场景，往往更能拉开差距。"
   },
   "bookExcerpt": {
-    "id": "one-hundred-years-yellow",
-    "text": "许多年以后，面对行刑队，奥雷里亚诺·布恩迪亚上校将会想起父亲带他去见识冰块的那个遥远的下午。",
-    "book": "《百年孤独》",
-    "author": "加西亚·马尔克斯"
+    "id": "floating-life-lotus",
+    "text": "芸坐其侧，素手烹茶，窗外新荷微香，连晚风也像带着水意，从竹帘间一寸寸地漫进来。",
+    "book": "《浮生六记》",
+    "author": "沈复"
   },
   "featuredPlace": {
-    "id": "202610101600",
-    "title": "格莱德溪磨坊，巴布科克州立公园，西弗吉尼亚州，美国",
+    "id": "202610111600",
+    "title": "曼布尔斯码头，斯旺西，威尔士",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "秋色中转动的水轮",
-    "image": "https://www.bing.com/th?id=OHR.BabcockSP_ZH-CN5266848536_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E5%B7%B4%E5%B8%83%E7%A7%91%E5%85%8B%E5%B7%9E%E7%AB%8B%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
+    "summary": "从铁轨到潮汐",
+    "image": "https://www.bing.com/th?id=OHR.MumblesSwansea2026_ZH-CN5419531039_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E5%A8%81%E5%B0%94%E5%A3%AB%E6%9B%BC%E5%B8%83%E5%B0%94%E6%96%AF%E7%A0%81%E5%A4%B4&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202610111600",
+      "title": "曼布尔斯码头，斯旺西，威尔士",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "从铁轨到潮汐",
+      "image": "https://www.bing.com/th?id=OHR.MumblesSwansea2026_ZH-CN5419531039_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E5%A8%81%E5%B0%94%E5%A3%AB%E6%9B%BC%E5%B8%83%E5%B0%94%E6%96%AF%E7%A0%81%E5%A4%B4&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202610101600",
       "title": "格莱德溪磨坊，巴布科克州立公园，西弗吉尼亚州，美国",
@@ -143,35 +152,42 @@
       "summary": "纵身一跃，一次一课",
       "image": "https://www.bing.com/th?id=OHR.AdelieTeacher_ZH-CN2201820679_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E6%95%99%E5%B8%88%E6%97%A5&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202610031600",
-      "title": "阿尔忒弥斯1号月球火箭，39B发射台，肯尼迪航天中心，佛罗里达州，2022年6月15日",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "宇宙在召唤",
-      "image": "https://www.bing.com/th?id=OHR.ArtemisRocket_ZH-CN1768541365_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E7%A9%BA%E9%97%B4%E5%91%A8&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-10-11",
-    "dateLabel": "10月11日",
+    "dateKey": "2026-10-12",
+    "dateLabel": "10月12日",
     "items": [
       {
-        "year": "2021",
-        "text": "中國河北省平山縣滹沱河大橋施工輔路發生通勤大巴士墜河事故，造成14人死亡。",
-        "link": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4"
+        "year": "2019",
+        "text": "肯亞長跑選手埃利乌德·基普乔盖在英力士1:59挑战赛中以1小時59分40.2秒完賽，成為世界上首位馬拉松跑進2小時的選手。",
+        "link": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4"
       },
       {
-        "year": "2020",
-        "text": "泰國一輛旅遊巴士與一輛載貨火車相撞，釀成至少二十人死，三十人受傷。",
-        "link": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4"
+        "year": "2012",
+        "text": "中国南方航空327号班机改用空中客车A380客机执飞，成为中国由该款客机执飞的首条远程定期国际航班。",
+        "link": "https://zh.wikipedia.org/wiki/2012%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
+      {
+        "title": "泰国前外长：乐见中方调停斡旋泰柬边境冲突",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-11/10711145.shtml",
+        "summary": "中新社深圳10月11日电 (记者 郭超凯)由中国外交学院主办的第三次中柬泰二轨对话会11日在深圳举行。泰国前外长甲西·披龙耶在参会期间接受中新社记者采访时表示，乐见中方调停斡旋泰柬边境冲突，泰柬须尊重中国对两国释放的善意。",
+        "image": "",
+        "publishedAt": "2026-10-11T15:31:41.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "第三次中柬泰二轨对话会举行 推动落实抚仙会晤共识",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-11/10711142.shtml",
+        "summary": "中新社深圳10月11日电 (记者 郭超凯)由中国外交学院主办的“落实抚仙会晤共识 夯实持久和平根基”第三次中柬泰二轨对话会11日在深圳举行。来自中国、柬埔寨、泰国三国的智库学者、社会组织和人道机构代表以及高校青年学子等近百人参会。",
+        "image": "",
+        "publishedAt": "2026-10-11T15:12:12.000Z",
+        "source": "中新网"
+      },
       {
         "title": "《苍穹之剑——纪念无名英雄蔡威百幅画卷》在福建宁德首展",
         "link": "https://www.chinanews.com.cn/gn/2026/10-11/10711124.shtml",
@@ -195,25 +211,33 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261011/38881a54-df78-4a82-bfb4-bdca6a83ba84_zsite.jpg",
         "publishedAt": "2026-10-11T11:55:51.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "“一带一路”地区极端气候事件及影响国际培训班在西安开班",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-11/10711087.shtml",
-        "summary": "中新网西安10月11日电 (记者 孙自法)记者10月11日从中国科学院地球环境研究所(地环所)获悉，“一带一路”地区极端气候事件及影响国际培训班当天在陕西西安开班，以“极端气候事件重建、预警与影响评估”为核心主题，对来自10多个国家的20余名优秀学员，开展为期14天的培训。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261011/63ea233b-acdc-4c35-b86f-c4d37fa25f1e_zsite.jpeg",
-        "publishedAt": "2026-10-11T11:55:09.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "广东围绕纪念中国工农红军长征胜利90周年开展系列活动",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-11/10711086.shtml",
-        "summary": "中新网广州10月11日电 (记者 程景伟)为纪念中国工农红军长征胜利90周年，广东推出形式多样、内容丰富的展览展示、展演展映，并举办系列群众活动，团结动员广大南粤儿女弘扬伟大长征精神，走好新时代的长征路，为奋力推进中国式现代化的广东实践凝心聚力。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261011/52e67189-765c-4bd7-8ef4-44f1e7c0f102_zsite.jpg",
-        "publishedAt": "2026-10-11T11:54:01.000Z",
-        "source": "中新网"
       }
     ],
     "chinaSociety": [
+      {
+        "title": "“袁稻思源”杂交水稻智能育种平台长沙发布 AI赋能育种创新",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-11/10711148.shtml",
+        "summary": "中新社长沙10月11日电 (记者 唐小晴)“袁稻思源”杂交水稻智能育种平台11日在长沙正式上线。这意味着湖南杂交水稻育种告别传统经验模式，迈入数据驱动、智能决策的全新发展阶段。",
+        "image": "",
+        "publishedAt": "2026-10-11T15:46:44.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "长春书写生态“立体答卷”：虎豹归林 笑语满河",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-11/10711141.shtml",
+        "summary": "中新社长春10月11日电 题：长春书写生态“立体答卷”：虎豹归林 笑语满河",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261011/430eb5be-8bce-4d02-9fba-60d5efc548bb_zsite.jpg",
+        "publishedAt": "2026-10-11T15:11:18.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "（文化新纪行）从一座古城读懂千年吴越",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-11/10711140.shtml",
+        "summary": "中新社杭州10月11日电 题：从一座古城读懂千年吴越",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261011/e7a05d96-f459-4fdc-ab69-f0e7293d8194_zsite.jpg",
+        "publishedAt": "2026-10-11T15:10:14.000Z",
+        "source": "中新网"
+      },
       {
         "title": "新疆新星市举办奇石文化旅游活动",
         "link": "https://www.chinanews.com.cn/sh/2026/10-11/10711131.shtml",
@@ -228,30 +252,6 @@
         "summary": "中新网广州10月11日电 (记者 程景伟)全球航空业界约600名嘉宾代表11日下午走进广州永庆坊，在青砖镬耳墙之间交错穿行，感受岭南园林艺术之美；在粤剧艺术博物馆欣赏粤语歌曲及醒狮表演、品尝特色美食，体验广府人文风情。",
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261011/a4737784-937b-4c86-8283-ff012ef5fd28_zsite.jpeg",
         "publishedAt": "2026-10-11T12:57:13.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "浙江乡村化身“毛孩子”度假区 吸引携宠游客",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-11/10711123.shtml",
-        "summary": "中新网杭州10月11日电(蓝伊旎)每逢周末和节假日，杭州上城区皋城村的皋亭山千桃园里总会迎来许多“毛孩子”打卡。萌宠们在嬉水池中溅起阵阵水花，在草坪上围着露营桌追逐打转，主人们便不时用镜头定格它们撒欢的美好瞬间。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261011/ba4a5b7d-5b4a-4ef9-9c99-062ddb4bff79_zsite.jpg",
-        "publishedAt": "2026-10-11T12:53:42.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "万吨巨梁精准转体 津潍高铁胡家园特大桥取得关键突破",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-11/10711116.shtml",
-        "summary": "中新网天津10月11日电 (记者 周亚强)10月11日凌晨，津潍高铁天津枢纽胡家园双线特大桥连续梁完成转体作业，两幅总重18100吨的梁体同步相向转动，实现毫米级精准落位，为后续箱梁架设及全线建设奠定基础。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261011/488668d5-499f-43a2-9d70-1d25b9ae8587_zsite.jpg",
-        "publishedAt": "2026-10-11T12:52:44.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "从草场放牧到高原种菊 西藏特色种养产业让群众致富增收",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-11/10711122.shtml",
-        "summary": "近年来，在党中央关心关怀和全国人民支援下，西藏从脱贫攻坚到乡村振兴接续发力，620多个边境村全部建成了小康村，绘就边疆长治久安、人民安居乐业的壮美画卷。",
-        "image": "",
-        "publishedAt": "2026-10-11T12:47:26.000Z",
         "source": "中新网"
       }
     ],
@@ -299,27 +299,35 @@
     ],
     "worldTop": [
       {
+        "title": "Poland detains man suspected of planning assassination of PM Tusk",
+        "link": "https://www.bbc.co.uk/news/articles/c6n9rvynl5p5o?at_medium=RSS&at_campaign=rss",
+        "summary": "Police received credible information about possible attacks against Donald Tusk and his defence minister.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/187d/live/a4be0650-c592-11f1-9d5a-23156cc094cf.jpg",
+        "publishedAt": "2026-10-11T17:27:24.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Saudi capital airport hit by second Houthi strike in two days",
+        "link": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
+        "summary": "The Yemeni group says it carried out attacks that killed 13 people in Riyadh over the weekend and targeted two airports and oil facilities.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/01f0/live/59d06e70-c57a-11f1-a64c-550be9e3c66b.jpg",
+        "publishedAt": "2026-10-11T16:41:37.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Poland stabbings driven by online glorification of violence, Tusk says",
+        "link": "https://www.bbc.co.uk/news/articles/ckp8gyd65z2go?at_medium=RSS&at_campaign=rss",
+        "summary": "The PM was speaking after violent attacks at Polish schools this week left one dead and others injured.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5288/live/10c1e1e0-c585-11f1-80f2-5bd1e5df7ada.jpg",
+        "publishedAt": "2026-10-11T15:18:52.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "Ukraine strikes Yandex data centre in third attack on Russian tech giant",
         "link": "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&at_campaign=rss",
         "summary": "It is the third time this week that Ukraine has targeted Russian tech giant Yandex, forcing the company to suspend its operations.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/92b1/live/fca86430-c56c-11f1-a64c-550be9e3c66b.jpg",
         "publishedAt": "2026-10-11T14:38:10.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Pope Leo to have surgery after lump found on lung",
-        "link": "https://www.bbc.co.uk/news/articles/c6m2dnngvw8xo?at_medium=RSS&at_campaign=rss",
-        "summary": "The 71-year-old pontiff said the nodule was identified \"at a very early stage\".",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13bb/live/c2ac8480-c569-11f1-bd33-db1f7eaf2b30.jpg",
-        "publishedAt": "2026-10-11T13:38:55.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Children among 109 dead after boat capsizes off Djibouti, UN says",
-        "link": "https://www.bbc.co.uk/news/articles/cwy7lxx60dg5o?at_medium=RSS&at_campaign=rss",
-        "summary": "The boat was travelling from Djibouti to Yemen with 350 people on board, when it capsized near the port town of Obock on Thursday night.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/24cd/live/140fac20-c56b-11f1-bd33-db1f7eaf2b30.jpg",
-        "publishedAt": "2026-10-11T12:08:20.000Z",
         "source": "BBC"
       },
       {
@@ -329,20 +337,36 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9cf2/live/9cbf47b0-c56b-11f1-9a39-31b474234113.jpg",
         "publishedAt": "2026-10-11T12:03:52.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "US justice department investigates TV networks over Trump pool coverage",
-        "link": "https://www.bbc.co.uk/news/articles/c9vgregzk6gro?at_medium=RSS&at_campaign=rss",
-        "summary": "The White House had blocked access for CNN, MS Now and Politico, leading them to restrict pool coverage.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1dbb/live/9bb34c30-c53a-11f1-ae34-756aa0b18b99.jpg",
-        "publishedAt": "2026-10-11T05:05:43.000Z",
-        "source": "BBC"
       }
     ],
     "worldBusiness": [
       {
+        "title": "Citroen revives the 2CV for an electric age",
+        "link": "https://www.bbc.co.uk/news/articles/c620r33plgppo?at_medium=RSS&at_campaign=rss",
+        "summary": "The French firm is reinventing the classic model as carmakers come under pressure from Chinese rivals.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b9db/live/c47fea70-c3f4-11f1-97a9-2d4b5e26e282.jpg",
+        "publishedAt": "2026-10-11T17:00:05.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Ukraine strikes Yandex data centre in third attack on Russian tech giant",
+        "link": "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&at_campaign=rss",
+        "summary": "It is the third time this week that Ukraine has targeted Russian tech giant Yandex, forcing the company to suspend its operations.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/92b1/live/fca86430-c56c-11f1-a64c-550be9e3c66b.jpg",
+        "publishedAt": "2026-10-11T14:38:10.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Trump’s DOJ probes major TV networks over response to White House ban of CNN",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQd2hCNnF3cERmMVI2dUMtUzZacTBWcGZPVEVKTnljc25RX25URjNva1kxU0FsZmZKcEJXSFZrVThLcmJObHpFQ0NMVFNwaTd5S0tpQWo0Z3hwYnAxSGZCNFFZT2pLQzNmV3ZjbXFucEdfamlIaGlTWWJjWm5GaUFuYXI5WE91YlFuZi1GbHZ0aWxPdHZJM2ZwTjFSRmtocHM?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-10-11T01:52:00.000Z",
+        "source": "CNN"
+      },
+      {
         "title": "Jaguar reveals a $130,000 all-electric vehicle. Why?",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5kUXl1Wk56TkJuYXZWMWJSOC0zQ2psNHhvbGItMzRKVDV1TjBLMnZkX290T1VNYl81N1ZJUEVDdnhXOUZYYm44Wi1WZnlvWVM3UXVmZEFOTUZkT25lQ3p1MFRFZ19Sbmpp?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0zLWJHQ0p1LVVyN0dzQzRmMHdleHhYZG15UGRPLTlxRW54My1LQVlYb1FmZUFDcEtiRWVnWHNsX1hZbFRGQTItdTFZcjRWak5GUE94RS1uLU9ycVFiYVFxZ1FYM2hkcjVTWHN4bHBR?oc=5",
         "summary": "",
         "image": "",
         "publishedAt": "2026-10-10T16:00:45.000Z",
@@ -354,30 +378,6 @@
         "summary": "Ukraine's president sharply criticised the move, calling it an \"investment in war that must be ended, not prolonged\".",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d06b/live/625e43c0-c54b-11f1-b4f1-2359026a88ee.jpg",
         "publishedAt": "2026-10-10T14:24:14.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Savings Challenge: | CNN Business",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaks3ZGdIX3VudEd6Q090QlFJM2hpeW1IaTB1SVYxZmtsUUZqbkp4dUlsaGNzd3Z5QlVIaWpvNnJFS05yR2lXNDk1bEtvWW8tOUtCQXFrdG5oQjRCY01tTFhRZjJpRGk0b29IdEhpajdzakVFekVpZVFVSVlzQnBReVFfbUxtcDR4MkQwT3JEMmxjeV94LXg1UQ?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-10-10T10:00:46.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "Boots has a new owner: Three ways it could affect you",
-        "link": "https://www.bbc.co.uk/news/articles/c63djxry8124o?at_medium=RSS&at_campaign=rss",
-        "summary": "The stalwart of Britain's High Street has been sold to a Canadian billionaire family. What will that mean for you?",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/120c/live/9c937870-c489-11f1-a915-a1cdb09cbaf6.jpg",
-        "publishedAt": "2026-10-09T23:01:14.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices",
-        "link": "https://www.bbc.co.uk/news/articles/c5lye9z4xw4yo?at_medium=RSS&at_campaign=rss",
-        "summary": "The US president hopes to ease his party's pain before next month's midterm elections, writes the BBC's North America correspondent.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/200a/live/11ffab00-c472-11f1-9fee-49b2288eef07.jpg",
-        "publishedAt": "2026-10-09T22:30:22.000Z",
         "source": "BBC"
       }
     ],
@@ -425,6 +425,22 @@
     ],
     "domestic": [
       {
+        "title": "泰国前外长：乐见中方调停斡旋泰柬边境冲突",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-11/10711145.shtml",
+        "summary": "中新社深圳10月11日电 (记者 郭超凯)由中国外交学院主办的第三次中柬泰二轨对话会11日在深圳举行。泰国前外长甲西·披龙耶在参会期间接受中新社记者采访时表示，乐见中方调停斡旋泰柬边境冲突，泰柬须尊重中国对两国释放的善意。",
+        "image": "",
+        "publishedAt": "2026-10-11T15:31:41.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "第三次中柬泰二轨对话会举行 推动落实抚仙会晤共识",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-11/10711142.shtml",
+        "summary": "中新社深圳10月11日电 (记者 郭超凯)由中国外交学院主办的“落实抚仙会晤共识 夯实持久和平根基”第三次中柬泰二轨对话会11日在深圳举行。来自中国、柬埔寨、泰国三国的智库学者、社会组织和人道机构代表以及高校青年学子等近百人参会。",
+        "image": "",
+        "publishedAt": "2026-10-11T15:12:12.000Z",
+        "source": "中新网"
+      },
+      {
         "title": "《苍穹之剑——纪念无名英雄蔡威百幅画卷》在福建宁德首展",
         "link": "https://www.chinanews.com.cn/gn/2026/10-11/10711124.shtml",
         "summary": "中新网宁德10月11日电 (记者 叶茂)2026年是中国工农红军长征胜利90周年。11日，《苍穹之剑——纪念无名英雄蔡威百幅画卷》展览在福建省宁德市举办。",
@@ -447,25 +463,33 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261011/38881a54-df78-4a82-bfb4-bdca6a83ba84_zsite.jpg",
         "publishedAt": "2026-10-11T11:55:51.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "“一带一路”地区极端气候事件及影响国际培训班在西安开班",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-11/10711087.shtml",
-        "summary": "中新网西安10月11日电 (记者 孙自法)记者10月11日从中国科学院地球环境研究所(地环所)获悉，“一带一路”地区极端气候事件及影响国际培训班当天在陕西西安开班，以“极端气候事件重建、预警与影响评估”为核心主题，对来自10多个国家的20余名优秀学员，开展为期14天的培训。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261011/63ea233b-acdc-4c35-b86f-c4d37fa25f1e_zsite.jpeg",
-        "publishedAt": "2026-10-11T11:55:09.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "广东围绕纪念中国工农红军长征胜利90周年开展系列活动",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-11/10711086.shtml",
-        "summary": "中新网广州10月11日电 (记者 程景伟)为纪念中国工农红军长征胜利90周年，广东推出形式多样、内容丰富的展览展示、展演展映，并举办系列群众活动，团结动员广大南粤儿女弘扬伟大长征精神，走好新时代的长征路，为奋力推进中国式现代化的广东实践凝心聚力。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261011/52e67189-765c-4bd7-8ef4-44f1e7c0f102_zsite.jpg",
-        "publishedAt": "2026-10-11T11:54:01.000Z",
-        "source": "中新网"
       }
     ],
     "international": [
+      {
+        "title": "Poland detains man suspected of planning assassination of PM Tusk",
+        "link": "https://www.bbc.co.uk/news/articles/c6n9rvynl5p5o?at_medium=RSS&at_campaign=rss",
+        "summary": "Police received credible information about possible attacks against Donald Tusk and his defence minister.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/187d/live/a4be0650-c592-11f1-9d5a-23156cc094cf.jpg",
+        "publishedAt": "2026-10-11T17:27:24.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Saudi capital airport hit by second Houthi strike in two days",
+        "link": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
+        "summary": "The Yemeni group says it carried out attacks that killed 13 people in Riyadh over the weekend and targeted two airports and oil facilities.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/01f0/live/59d06e70-c57a-11f1-a64c-550be9e3c66b.jpg",
+        "publishedAt": "2026-10-11T16:41:37.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Poland stabbings driven by online glorification of violence, Tusk says",
+        "link": "https://www.bbc.co.uk/news/articles/ckp8gyd65z2go?at_medium=RSS&at_campaign=rss",
+        "summary": "The PM was speaking after violent attacks at Polish schools this week left one dead and others injured.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5288/live/10c1e1e0-c585-11f1-80f2-5bd1e5df7ada.jpg",
+        "publishedAt": "2026-10-11T15:18:52.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Ukraine strikes Yandex data centre in third attack on Russian tech giant",
         "link": "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&at_campaign=rss",
@@ -475,35 +499,11 @@
         "source": "BBC"
       },
       {
-        "title": "Pope Leo to have surgery after lump found on lung",
-        "link": "https://www.bbc.co.uk/news/articles/c6m2dnngvw8xo?at_medium=RSS&at_campaign=rss",
-        "summary": "The 71-year-old pontiff said the nodule was identified \"at a very early stage\".",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13bb/live/c2ac8480-c569-11f1-bd33-db1f7eaf2b30.jpg",
-        "publishedAt": "2026-10-11T13:38:55.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Children among 109 dead after boat capsizes off Djibouti, UN says",
-        "link": "https://www.bbc.co.uk/news/articles/cwy7lxx60dg5o?at_medium=RSS&at_campaign=rss",
-        "summary": "The boat was travelling from Djibouti to Yemen with 350 people on board, when it capsized near the port town of Obock on Thursday night.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/24cd/live/140fac20-c56b-11f1-bd33-db1f7eaf2b30.jpg",
-        "publishedAt": "2026-10-11T12:08:20.000Z",
-        "source": "BBC"
-      },
-      {
         "title": "Homes and bridges swept away as fresh floods hit Nepal",
         "link": "https://www.bbc.co.uk/news/articles/ck86zppejjw3o?at_medium=RSS&at_campaign=rss",
         "summary": "Nepal is still trying to recover from catastrophic floods that hit less than two months ago, leaving thousands dead and missing.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9cf2/live/9cbf47b0-c56b-11f1-9a39-31b474234113.jpg",
         "publishedAt": "2026-10-11T12:03:52.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "US justice department investigates TV networks over Trump pool coverage",
-        "link": "https://www.bbc.co.uk/news/articles/c9vgregzk6gro?at_medium=RSS&at_campaign=rss",
-        "summary": "The White House had blocked access for CNN, MS Now and Politico, leading them to restrict pool coverage.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1dbb/live/9bb34c30-c53a-11f1-ae34-756aa0b18b99.jpg",
-        "publishedAt": "2026-10-11T05:05:43.000Z",
         "source": "BBC"
       }
     ],
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-10-11",
+    "rotationLabel": "Curated Rotation · 2026-10-12",
     "sections": [
       {
         "id": "data-storage",
@@ -522,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-2",
-            "sectionId": "data-storage",
-            "title": "Bigtable: A Distributed Storage System for Structured Data",
-            "authors": [
-              "Fay Chang",
-              "Jeffrey Dean",
-              "Sanjay Ghemawat",
-              "Wilson C. Hsieh"
-            ],
-            "venue": "OSDI",
-            "year": 2006,
-            "quality": "顶会",
-            "categories": [
-              "distributed systems",
-              "database"
-            ],
-            "link": "https://research.google/pubs/pub27898/",
-            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-3",
             "sectionId": "data-storage",
@@ -562,7 +541,7 @@
             ],
             "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
             "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-4",
@@ -584,6 +563,26 @@
             "link": "https://research.google/pubs/pub36632/",
             "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-5",
+            "sectionId": "data-storage",
+            "title": "The FAISS Library",
+            "authors": [
+              "Jeff Johnson",
+              "Matthijs Douze",
+              "Herve Jegou"
+            ],
+            "venue": "IEEE T-BD",
+            "year": 2021,
+            "quality": "高影响力",
+            "categories": [
+              "vector search",
+              "ANN"
+            ],
+            "link": "https://arxiv.org/abs/2401.08281",
+            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -593,27 +592,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-3",
-            "sectionId": "computer-vision",
-            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
-            "authors": [
-              "Alexey Dosovitskiy",
-              "Lucas Beyer",
-              "Alexander Kolesnikov",
-              "Dirk Weissenborn"
-            ],
-            "venue": "ICLR",
-            "year": 2021,
-            "quality": "顶会",
-            "categories": [
-              "vision transformer",
-              "classification"
-            ],
-            "link": "https://arxiv.org/abs/2010.11929",
-            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-4",
             "sectionId": "computer-vision",
@@ -633,7 +611,7 @@
             ],
             "link": "https://arxiv.org/abs/2103.00020",
             "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-5",
@@ -655,6 +633,27 @@
             "link": "https://arxiv.org/abs/2304.02643",
             "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-6",
+            "sectionId": "computer-vision",
+            "title": "DINOv2: Learning Robust Visual Features without Supervision",
+            "authors": [
+              "Maxime Oquab",
+              "Timothée Darcet",
+              "Théo Moutakanni",
+              "Huy V. Vo"
+            ],
+            "venue": "arXiv / Meta",
+            "year": 2023,
+            "quality": "高影响力",
+            "categories": [
+              "self-supervised",
+              "representation"
+            ],
+            "link": "https://arxiv.org/abs/2304.07193",
+            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -664,27 +663,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-4",
-            "sectionId": "llm-memory",
-            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
-            "authors": [
-              "Akari Asai",
-              "Zequn Zhang",
-              "Avirup Sil",
-              "Hannaneh Hajishirzi"
-            ],
-            "venue": "ICLR",
-            "year": 2024,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "self-reflection"
-            ],
-            "link": "https://arxiv.org/abs/2310.11511",
-            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-5",
             "sectionId": "llm-memory",
@@ -704,7 +682,7 @@
             ],
             "link": "https://arxiv.org/abs/2306.07174",
             "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-6",
@@ -726,6 +704,27 @@
             "link": "https://arxiv.org/abs/2409.05591",
             "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-1",
+            "sectionId": "llm-memory",
+            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+            "authors": [
+              "Patrick Lewis",
+              "Ethan Perez",
+              "Aleksandra Piktus",
+              "Fabio Petroni"
+            ],
+            "venue": "NeurIPS",
+            "year": 2020,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "retrieval"
+            ],
+            "link": "https://arxiv.org/abs/2005.11401",
+            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -735,27 +734,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-5",
-            "sectionId": "agents",
-            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
-            "authors": [
-              "Qingyun Wu",
-              "Gagan Bansal",
-              "Jiaqi Zhang",
-              "Yiran Wu"
-            ],
-            "venue": "COLM",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "multi-agent",
-              "framework"
-            ],
-            "link": "https://arxiv.org/abs/2308.08155",
-            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-6",
             "sectionId": "agents",
@@ -775,7 +753,7 @@
             ],
             "link": "https://arxiv.org/abs/2405.15793",
             "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-1",
@@ -797,6 +775,27 @@
             ],
             "link": "https://arxiv.org/abs/2210.03629",
             "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-2",
+            "sectionId": "agents",
+            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+            "authors": [
+              "Timo Schick",
+              "Jane Dwivedi-Yu",
+              "Roberta Dessì",
+              "Ari Holtzman"
+            ],
+            "venue": "NeurIPS",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "tool use",
+              "agent"
+            ],
+            "link": "https://arxiv.org/abs/2302.04761",
+            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
             "trackLabel": "轮换精选"
           }
         ]
