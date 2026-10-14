@@ -1,86 +1,95 @@
 {
-  "generatedAt": "2026-10-14T13:38:08.992Z",
+  "generatedAt": "2026-10-14T20:09:30.406Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 16,
+      "temperature": 11,
       "weatherCode": 0,
-      "windSpeed": 6
+      "windSpeed": 4
     },
     "today": {
-      "date": "2026-10-14",
+      "date": "2026-10-15",
       "weatherCode": 2,
       "description": "局部多云",
-      "max": 21,
-      "min": 8,
+      "max": 26,
+      "min": 10,
       "precipitationProbability": 0
     },
     "forecast": [
       {
-        "date": "2026-10-14",
+        "date": "2026-10-15",
         "weatherCode": 2,
         "description": "局部多云",
-        "max": 21,
-        "min": 8,
-        "precipitationProbability": 0
-      },
-      {
-        "date": "2026-10-15",
-        "weatherCode": 3,
-        "description": "阴天",
         "max": 26,
         "min": 10,
         "precipitationProbability": 0
       },
       {
         "date": "2026-10-16",
-        "weatherCode": 51,
-        "description": "毛毛雨",
-        "max": 19,
-        "min": 13,
-        "precipitationProbability": 80
+        "weatherCode": 53,
+        "description": "小雨",
+        "max": 20,
+        "min": 14,
+        "precipitationProbability": 55
       },
       {
         "date": "2026-10-17",
-        "weatherCode": 80,
-        "description": "阵雨",
-        "max": 16,
-        "min": 13,
+        "weatherCode": 81,
+        "description": "强阵雨",
+        "max": 15,
+        "min": 12,
         "precipitationProbability": 100
       },
       {
         "date": "2026-10-18",
+        "weatherCode": 3,
+        "description": "阴天",
+        "max": 17,
+        "min": 7,
+        "precipitationProbability": 44
+      },
+      {
+        "date": "2026-10-19",
         "weatherCode": 2,
         "description": "局部多云",
         "max": 17,
-        "min": 7,
-        "precipitationProbability": 36
+        "min": 5,
+        "precipitationProbability": 0
       }
     ]
   },
   "classicQuote": {
-    "id": "records-historical",
-    "text": "桃李不言，下自成蹊。",
-    "source": "《史记》",
-    "author": "司马迁",
-    "note": "真正有分量的作品，本身就会替你说话。"
+    "id": "chuci-seek",
+    "text": "路漫漫其修远兮，吾将上下而求索。",
+    "source": "《离骚》",
+    "author": "屈原",
+    "note": "长期主义最难，但也最值得。"
   },
   "bookExcerpt": {
-    "id": "remembrance-madeleine",
-    "text": "那一点点浸过茶水的点心，忽然把整个旧日时光都唤醒了，仿佛往昔并未消失，只是沉在心底等待一个气味。",
-    "book": "《追忆似水年华》",
-    "author": "马塞尔·普鲁斯特"
+    "id": "border-town-river",
+    "text": "月光如银子，无处不可照及，山上篁竹在月光下变成了一片黑色，身边草丛中虫声繁密如落雨。",
+    "book": "《边城》",
+    "author": "沈从文"
   },
   "featuredPlace": {
-    "id": "202610131600",
-    "title": "侏罗纪时期的菊石化石",
+    "id": "202610141600",
+    "title": "弗罗茨瓦夫集市广场景观，摄自女巫桥，弗罗茨瓦夫，波兰",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "穿越时间的螺旋",
-    "image": "https://www.bing.com/th?id=OHR.AmmoniteFossils_ZH-CN5825251327_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E5%9B%BD%E5%AE%B6%E5%8C%96%E7%9F%B3%E6%97%A5&form=hpcapt&mkt=zh-cn"
+    "summary": "桥梁、屋顶与暮色",
+    "image": "https://www.bing.com/th?id=OHR.WroclawPoland_ZH-CN6042428292_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E5%BC%97%E7%BD%97%E8%8C%A8%E7%93%A6%E5%A4%AB&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202610141600",
+      "title": "弗罗茨瓦夫集市广场景观，摄自女巫桥，弗罗茨瓦夫，波兰",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "桥梁、屋顶与暮色",
+      "image": "https://www.bing.com/th?id=OHR.WroclawPoland_ZH-CN6042428292_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E5%BC%97%E7%BD%97%E8%8C%A8%E7%93%A6%E5%A4%AB&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202610131600",
       "title": "侏罗纪时期的菊石化石",
@@ -143,233 +152,224 @@
       "summary": "现在你“海”能看见我……",
       "image": "https://www.bing.com/th?id=OHR.MayotteOctopus_ZH-CN2837659998_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E7%AB%A0%E9%B1%BC%E6%97%A5&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202610061600",
-      "title": "覆满苔藓的岩石，英国格洛斯特郡谜林，迪恩森林，格洛斯特郡，英格兰",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "迷惑不解？沿着小径走",
-      "image": "https://www.bing.com/th?id=OHR.ForestofDean_ZH-CN2654753621_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E8%8B%B1%E5%9B%BD%E6%A0%BC%E6%B4%9B%E6%96%AF%E7%89%B9%E9%83%A1%E8%B0%9C%E6%9E%97&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-10-14",
-    "dateLabel": "10月14日",
+    "dateKey": "2026-10-15",
+    "dateLabel": "10月15日",
     "items": [
       {
-        "year": "2025",
-        "text": "马来西亚雪蘭莪發生校園刺殺案，16歲女學生葉芯嫙身中200多刀身亡，為馬來西亞獨立後首個校園刺殺案件。",
-        "link": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4"
+        "year": "2024",
+        "text": "朝鮮民主主義人民共和國炸毀连接朝鲜半岛的公路京義線及東海線。",
+        "link": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4"
       },
       {
-        "year": "2025",
-        "text": "Windows 11發布以後，美國微軟公司宣布停止對長期服務版本以外的所有Windows 10版本提供版本支援。",
-        "link": "https://zh.wikipedia.org/wiki/Windows_11"
+        "year": "2016",
+        "text": "台灣澎湖縣舉第二次博弈公投，投票結果為否決。",
+        "link": "https://zh.wikipedia.org/wiki/2016%E5%B9%B4%E6%BE%8E%E6%B9%96%E7%B8%A3%E5%8D%9A%E5%BC%88%E5%85%AC%E6%B0%91%E6%8A%95%E7%A5%A8"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "上海市“党的诞生地”红色文化育人工程“走进一大”红色研学活动正式启动",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-14/10714706.shtml",
-        "summary": "中新网上海10月14日电 (记者 许婧)上海是中国共产党的诞生地、初心始发地和伟大建党精神孕育地。14日，上海市“党的诞生地”红色文化育人工程“走进一大”红色研学活动在中共一大纪念馆启动。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261014/072be19f-a8e2-4996-a314-22893e51ad2f_zsite.jpg",
-        "publishedAt": "2026-10-14T13:36:17.000Z",
+        "title": "全国职工红色主题阅读活动走进甘肃会宁",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-14/10714737.shtml",
+        "summary": "中新网北京10月14日电 (记者 余湛奕)甘肃省白银市会宁县是红军长征三大主力会师的红色圣地。10月14日，“重走长征路 书香悟初心”全国职工红色主题阅读活动走进甘肃会宁，引导广大职工在红色阅读中传承红色基因，汲取奋进力量。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261014/b898cf50-3288-4de8-8ee7-5997a8581dcf_zsite.jpg",
+        "publishedAt": "2026-10-14T15:25:13.000Z",
         "source": "中新网"
       },
       {
-        "title": "“四川与智利、西班牙、巴西文化邂逅之旅”在成都举行",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-14/10714648.shtml",
-        "summary": "中新社成都10月14日电 (单鹏)“这么近 那么远 咫尺山海 川遇西葡语世界—四川与智利、西班牙、巴西文化邂逅之旅”活动14日在成都举行。此次活动以文化为纽带，搭建四川对接西葡语世界的交流平台。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261014/801d2779-9d94-4526-b836-40c1f75d0079_zsite.jpeg",
-        "publishedAt": "2026-10-14T13:16:36.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "一日跨越南京 外媒记者感受智造、生态与文脉",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-14/10714657.shtml",
-        "summary": "中新网南京10月14日电 (记者 徐珊珊)10月13日，在2026年“一带一路”记者组织论坛暨主题采风活动上，来自13个国家的20多名中外记者齐聚南京，走进智慧工厂、长江岸边、AI街区、数字展馆，感受这座城市的科创活力与人文温度。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261014/df076102-b93e-4101-ae48-b21ece151fef_zsite.jpg",
-        "publishedAt": "2026-10-14T13:15:44.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "第六届百城万人健心跑公益活动东莞开跑",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-14/10714656.shtml",
-        "summary": "中新网东莞10月14日电 (记者 许青青)“爱在岭南 同心守护”第六届百城万人健心跑公益活动14日在东莞旗峰公园温情开跑。本次活动由北京尚善公益基金会、星云文化教育公益基金会主办，广东省海峡两岸交流促进会联合主办，200余名台湾爱心同胞跨越海峡而来，与大陆爱心同仁、志愿者及各界群众并肩开跑、同心相聚...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261014/3e2a332f-449d-41ec-9d69-cddc7b05f625_zsite.jpg",
-        "publishedAt": "2026-10-14T13:15:42.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "新时代“枫桥经验”工会实践取得积极成效",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-14/10714652.shtml",
-        "summary": "中新网北京10月14日电 (记者 余湛奕)记者从全国总工会获悉，全国新时代“枫桥经验”工会实践工作会议14日在武汉召开，会议总结了各地工会新时代“枫桥经验”工会实践的经验做法，并研究部署下一步工作。",
+        "title": "李强在第140届中国进出口商品交易会开幕式上的主旨演讲（全文）",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-14/10714723.shtml",
+        "summary": "新华社广州10月14日电",
         "image": "",
-        "publishedAt": "2026-10-14T13:15:30.000Z",
+        "publishedAt": "2026-10-14T13:58:44.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "赵乐际集体会见出席2026年国际议员友好交流论坛的各国代表",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-14/10714688.shtml",
+        "summary": "中新社北京10月14日电 全国人大常委会委员长赵乐际14日在北京集体会见出席2026年国际议员友好交流论坛的各国代表。",
+        "image": "",
+        "publishedAt": "2026-10-14T13:58:12.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "中国社会科学院第二届青年学术大会在北京召开",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-14/10714722.shtml",
+        "summary": "中新网北京10月14日电(记者 李京泽)中国社会科学院第二届青年学术大会13日在北京召开。中国社会科学院院长、党组书记高翔出席会议并作学术报告。中央纪委国家监委驻院纪检监察组组长、院党组成员杭元祥，副院长、党组成员李雪松，院党组成员、当代中国研究所所长金民卿，秘书长、党组成员薛松岩出席会议。",
+        "image": "",
+        "publishedAt": "2026-10-14T13:54:18.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "（长征胜利90周年）“天险”腊子口的“红绿交辉”",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-14/10714721.shtml",
+        "summary": "中新网甘肃甘南10月14日电 (记者 冯志军)在甘肃甘南藏族自治州迭部县腊子口镇的腊子口战役遗址，至今仍保留着91年前红军长征北上时原始的峡谷峭壁、战役旧址地貌，“一夫当关，万夫莫开”的峡谷地形，直观还原了当年战斗的险峻环境。时至今日，“读万卷书，不如走一遍天险”也成为众多实地探访者的共鸣。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261014/630fcd88-25c6-46ca-92d5-0727e4d3dcb0_zsite.jpg",
+        "publishedAt": "2026-10-14T13:54:14.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "超强厄尔尼诺事件对中国的影响预计将持续到2027年夏季",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-14/10714670.shtml",
-        "summary": "中新社北京10月14日电 记者14日从中国自然资源部国家海洋环境预报中心获悉，超强厄尔尼诺事件持续发展，对中国的影响预计将持续到2027年夏季。",
+        "title": "从“煤焦重镇”到“智算高地”：解读山西临汾产业跃迁密码",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-14/10714735.shtml",
+        "summary": "中新网临汾10月14日电 (任丽娜)10月14日，2026临汾市“人工智能+”产业生态暨招商引资交流会举行。这场以“智汇临汾·数创未来”为主题的大会，正悄然改写着这座传统资源型城市的产业底色。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261014/6720b2f9-8224-49ab-8555-5bf40a296c41_zsite.jpg",
+        "publishedAt": "2026-10-14T15:21:58.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "中国发现侏罗纪不会飞鸟类杨源&#183834;&#183846; 颠覆鸟类早期演化传统认知",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-14/10714740.shtml",
+        "summary": "中新网北京10月14日电 (记者 孙自法)“鸟类的起源和早期演化始终以适应飞行为主”这一传统认知，最近被中国的化石新发现和中国科研团队的研究成果所打破。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261014/735062a9-638d-4ee1-a9cb-3cdf9a10701b_zsite.jpeg",
+        "publishedAt": "2026-10-14T15:07:16.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "广东发布总林长令加强森林防灭火与鸟类保护工作",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-14/10714733.shtml",
+        "summary": "中新网广州10月14日电 (程景伟 林荫)据广东省林业局14日消息，广东省近日发布2026年第3号总林长令——《关于加强森林防灭火与鸟类保护工作的令》，强调10月起该省将进入森林特别防护期，也是候鸟迁徙过境、越冬栖息的关键时期。总林长令要求各级林长要一体谋划、一体落实森林防灭火和候鸟保护工作。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261014/84b959c1-7090-4053-b523-77bba2ed6545_zsite.jpeg",
+        "publishedAt": "2026-10-14T15:01:13.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "低俗广告不能出现一次热议一次，要让品牌不敢发、不能发、不想发",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-14/10714739.shtml",
+        "summary": "“跟8个男人接吻都没问题”“我就是个出来卖的”“制服派对”…...低俗广告不能出现一次热议一次，要让品牌不敢发、不能发、不想发",
         "image": "",
-        "publishedAt": "2026-10-14T13:36:31.000Z",
+        "publishedAt": "2026-10-14T14:58:21.000Z",
         "source": "中新网"
       },
       {
-        "title": "上海初步形成现代职业教育发展格局",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-14/10714654.shtml",
-        "summary": "中新网上海10月14日电 (记者 陈静)上海市教委职业教育处方面14日对记者介绍，上海已初步形成中高本纵向贯通、职普横向融通、产教融合持续深化的现代职业教育发展格局，人才培养规模和质量不断提升，为城市建设和经济社会发展提供了坚实的人才支撑。",
-        "image": "",
-        "publishedAt": "2026-10-14T13:15:40.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "湖南湘潭公共资源交易装上“AI大脑” 校园餐实现“降价不降质”",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-14/10714653.shtml",
-        "summary": "中新网湘潭10月14日电(冯军)“校园餐不是一签了之，中标只是开始。”湖南湘潭市公共资源交易中心副主任徐海峰说。过去一学年，该中心对市直23所学校、14家中标供应商开展三轮全覆盖履约核验，实现招投标承诺100%履约，大宗食材采购均价稳步下降，节约经费全部反哺学生餐食，做到“降价不降质”。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261014/033b77f3-df9c-4737-ab77-69e3de53c929_zsite.jpg",
-        "publishedAt": "2026-10-14T13:15:32.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "外媒记者走进南京云锦博物馆 感受“寸锦寸金”里的文明互鉴",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-14/10714623.shtml",
-        "summary": "中新网南京10月14日电 (记者 徐珊珊)10月14日，参加2026年“一带一路”记者组织论坛暨主题采风活动的中外记者走进南京云锦博物馆，了解非物质文化遗产南京云锦织造技艺。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261014/2036893b-b0fa-4342-afa1-d95d8aebf339_zsite.jpg",
-        "publishedAt": "2026-10-14T11:53:51.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "红胸黑雁现身青海湖国家级自然保护区",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-14/10714613.shtml",
-        "summary": "中新网西宁10月14日电 (记者 潘雨洁)14日，记者从青海湖国家级自然保护区管理局获悉，该局工作人员于13日在青海湖鸟岛湿地内发现一只国家二级重点保护野生动物红胸黑雁。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261014/869bafb1-e91a-4364-aea5-3e331eaecc25_zsite.jpg",
-        "publishedAt": "2026-10-14T11:50:37.000Z",
+        "title": "一条施工道路成为连接中资企业与柬埔寨民心的纽带",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-14/10714732.shtml",
+        "summary": "中新网金边10月14日电 题：一条施工道路成为连接中资企业与柬埔寨民心的纽带",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261014/886f63c1-a07b-45a2-9396-ef5aa17d5629_zsite.jpg",
+        "publishedAt": "2026-10-14T14:35:58.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "2026四川雪茄博览会暨第八届“中国雪茄之都”全球推介之旅开幕",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-14/10714672.shtml",
-        "summary": "中新网成都10月14日电 (王利文)10月14日，2026四川雪茄博览会暨第八届“中国雪茄之都”全球推介之旅在成都开幕。本届博览会以“古蜀文脉、中式茄韵、匠心共生”为主题，秉持“特色化、多元化、市场化”发展理念，以产品创新、模式创新、品牌创新为总体思路，聚力搭建全国性产业交流、技术竞技、品牌推介、文...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261014/6c04f5d7-6767-4abd-ad6c-0d00d7b5fbe1_zsite.jpg",
-        "publishedAt": "2026-10-14T13:37:43.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "外银：看好中国A股人工智能板块",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-14/10714704.shtml",
-        "summary": "中新社上海10月14日电 (记者 姜煜)摩根大通中国股票策略师张晓宁14日发表研究观点称，中国最新出台的政策对A股人工智能(AI)板块释放了明确的利好信号。",
+        "title": "（经济观察）70年广交会，见证中国与世界的双向奔赴",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-14/10714744.shtml",
+        "summary": "中新社北京10月14日电 题：70年广交会，见证中国与世界的双向奔赴",
         "image": "",
-        "publishedAt": "2026-10-14T13:37:39.000Z",
+        "publishedAt": "2026-10-14T15:30:51.000Z",
         "source": "中新网"
       },
       {
-        "title": "国际货币基金组织与世界银行集团发布“曼谷蓝图”促打击网络金融诈骗",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-14/10714665.shtml",
-        "summary": "中新社曼谷10月14日电 (王茜 李映民)国际货币基金组织(IMF)与世界银行集团14日在曼谷发布“曼谷蓝图”，呼吁各国加强跨部门、跨行业及跨境合作，共同防范和打击数字金融领域日益突出的网络诈骗风险。",
-        "image": "",
-        "publishedAt": "2026-10-14T13:36:23.000Z",
+        "title": "广西里高糯香米饼：老手艺“揉”出乡村新产业",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-14/10714736.shtml",
+        "summary": "中新网柳州10月14日电(牙春柳 周晓玉)里高糯香米饼是广西柳州市柳江区里高镇家喻户晓的传统美食。一方小小的米饼，揉进了一代代里高人的节庆记忆，也包裹着浓浓乡土情怀。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261014/c604eff8-3e39-4d10-b6e9-2137a7fed73b_zsite.JPG",
+        "publishedAt": "2026-10-14T15:23:51.000Z",
         "source": "中新网"
       },
       {
-        "title": "中期协：9月全国期货交易市场成交额同比增逾18%",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-14/10714701.shtml",
-        "summary": "中新网北京10月14日电 (记者 陈康亮)中国期货业协会(下称中期协)14日披露的数据显示，以单边计算，9月全国期货交易市场成交量约1189.74百万手，成交额约84.52万亿元，同比分别增长53.9%和18.21%。",
-        "image": "",
-        "publishedAt": "2026-10-14T13:35:21.000Z",
+        "title": "中国首批绿证跨境集中交易达成 联通香港国际绿色金融市场",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-14/10714731.shtml",
+        "summary": "中新社广州10月14日电 (王华 蓝旺)中国首批绿证跨境集中交易(香港)发布活动14日在广州举行。本次集中交易共成交绿证约10万个，对应可再生能源电量近1亿千瓦时，标志着中国可再生能源绿色电力证书(GEC)规模化落地香港市场，打通内地绿证市场与香港国际绿色金融市场联通渠道。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261014/58869cb9-4890-4f40-99b2-3e7dadeee437_zsite.jpg",
+        "publishedAt": "2026-10-14T14:31:54.000Z",
         "source": "中新网"
       },
       {
-        "title": "（投资中国）百隆中国总部迁址焕新 持续加码中国市场",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-14/10714663.shtml",
-        "summary": "中新社上海10月14日电 (高志苗)奥地利企业百隆(Blum)中国公司新总部14日在上海市青浦区启用。这家全球家具五金配件领域的“隐形冠军”，以一座集办公、展示、培训与创新于一体的现代化基地，再次向中国市场投下“信任票”。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261014/c817825b-ce67-4403-8da5-d7f04cfbdc29_zsite.jpeg",
-        "publishedAt": "2026-10-14T13:28:22.000Z",
+        "title": "社保服务进万家 湖南多措保障新就业劳动者权益",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-14/10714719.shtml",
+        "summary": "中新网益阳10月14日电 (唐小晴 曾鹤群)2026年湖南省“社保服务进万家”活动14日在湖南安化县启动。据悉，活动在该省14个市州同步开展，聚焦灵活就业人员、农民工、新就业形态人员、高校毕业生等重点群体，推进精准扩面和高质量参保，推动社保服务向基层延伸。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261014/c1f7ea02-5d02-4cf6-a90c-968c705c7cfb_zsite.jpg",
+        "publishedAt": "2026-10-14T13:54:10.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "黑龙江部署“十五五”科创任务 以科技创新引领产业全面振兴",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-14/10714718.shtml",
+        "summary": "中新网哈尔滨10月14日电 (韩雪 贾欣燃)14日，黑龙江省人民政府新闻办公室举行“开局起步‘十五五’”系列主题新闻发布会科技厅专场，介绍黑龙江省推动发展方式从资源驱动为主向创新引领为主转变的进展成效。黑龙江省科学技术厅党组书记、厅长陈苏作主旨发布，黑龙江省科学技术厅党组成员、副厅长张喆、黑龙江省科...",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261014/7f260a2b-cbfe-4ca3-b8e0-67099884a73d_zsite.jpg",
+        "publishedAt": "2026-10-14T13:54:08.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "US inflation rises more than expected ahead of midterm elections",
+        "title": "Sally Rooney’s books no longer sold in UK over support for banned pro-Palestinian group",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNb3IwV21jUnd3a0NQbGZENUVoRUZsbktfYkFYNzF3LTdWWDlTdDJjX2FHTUZ6UFNYbk1PMnNkUDhlQXd6THN5U0R4YTlob2VwbG5zY25WSUJNRFVvYXFzQU1mSnRHTWlCM05oSUpENmozT2tReWgtWFJKMG5UMElBVTlJeXc5SElNSVVZ?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-10-14T17:07:05.000Z",
+        "source": "CNN"
+      },
+      {
+        "title": "Gift for Putin as fears grow that Trump is turning the screws on Ukraine",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNT0V2UnlGNTVvWG9odEZHMk9lcEs5VVN1UnVTUWR5MzBjWThMcU9zWG1jeWtHVm45VEZLRWRfUjR1R1hvc19MWnBWT285QWt6bU9EcFh1aVdKa0JFTVJRRXZDSXZqZHAwNmtWYndxcy1qeWhiZ3oyV0ttZlBuWDZ5OGgyOFcyNXBGbXBWXw?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-10-14T16:57:26.000Z",
+        "source": "CNN"
+      },
+      {
+        "title": "US inflation rises more than expected - here's what is happening with prices",
         "link": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
         "summary": "The pace of price rises increased to 3.7% in the year to September, driving by higher motor fuel costs.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bd50/live/e1cf6860-c7cf-11f1-9e10-4dcbd31d4273.jpg",
-        "publishedAt": "2026-10-14T13:26:15.000Z",
+        "publishedAt": "2026-10-14T15:26:14.000Z",
         "source": "BBC"
       },
       {
-        "title": "Starlink restrictions affecting Ukraine's front line operations, Kyiv says",
-        "link": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss",
-        "summary": "Elon Musk's system allows Kyiv to protect Ukrainian skies and effectively guide drones to Russian targets.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d0ee/live/d48bf4b0-c7c6-11f1-9a39-31b474234113.jpg",
-        "publishedAt": "2026-10-14T13:11:17.000Z",
+        "title": "Pope walking and recovering 'as expected' after surgery, doctors say",
+        "link": "https://www.bbc.co.uk/news/articles/cwx28r0zvm6lo?at_medium=RSS&at_campaign=rss",
+        "summary": "The 71-year-old Pope was diagnosed with lung cancer after the 90-minute procedure on Tuesday.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c622/live/69064170-c7e2-11f1-a64c-550be9e3c66b.jpg",
+        "publishedAt": "2026-10-14T15:12:46.000Z",
         "source": "BBC"
       },
       {
-        "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
-        "link": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss",
-        "summary": "Four years after the attacks, Serhii Kuznetsov appears in court accused of a plot to destroy Russia's gas pipelines to Germany.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41b7/live/66289890-c7c4-11f1-993a-152cbb068da1.jpg",
-        "publishedAt": "2026-10-14T12:27:00.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
-        "link": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
-        "summary": "Pope Leo had a \"peaceful night\" in the hospital after the surgery to remove a lower lobe of his right lung, the Vatican says.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e2a0/live/ccd96d30-c792-11f1-a64c-550be9e3c66b.jpg",
-        "publishedAt": "2026-10-14T11:17:51.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Thousands of refrigerators were hacked across France. How worried should you be?",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOY1FIemJmYWM4cnV6MzZ3RS05QmtuZjZXT0V4ei0xV0x3R1Y4ZTZ5M1NGaS1UeEYySGxQSmtuMlNBWFFTMVNEa29ldFpXUnZzbmFfajVaa1NKNjhMTG5POFpDcnFwbE9xSzY5eWhtUTlxSHljUlBzaXpUUzJSTXBHamFIU3BYNFk5?oc=5",
+        "title": "German police launch investigation after robot allegedly gropes teenage girl",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNR0JiX2NneVZncDZ3OE1pbHh0Uml2NWtSa0RTN3JBNVl2WFI1THFFa1N0WmVFUE9PTUVyb2R6UzA2OHBGclVGd1FHaDI2aDA5cWtDb3V6Zmk4NG9UQjVEYVpCMk03ZzdyZ2NEYU9ZT2xkS0o5SnhFMFdCbEtHZUlTTDU4ajc?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-10-14T11:02:44.000Z",
+        "publishedAt": "2026-10-14T15:11:28.000Z",
         "source": "CNN"
       }
     ],
     "worldBusiness": [
       {
-        "title": "US inflation rises more than expected ahead of midterm elections",
-        "link": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
-        "summary": "The pace of price rises increased to 3.7% in the year to September, driving by higher motor fuel costs.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bd50/live/e1cf6860-c7cf-11f1-9e10-4dcbd31d4273.jpg",
-        "publishedAt": "2026-10-14T13:26:15.000Z",
+        "title": "Drop-off charges at UK airports to be reviewed after sharp increase",
+        "link": "https://www.bbc.co.uk/news/articles/cwp8gynk13rro?at_medium=RSS&at_campaign=rss",
+        "summary": "Confirming the review, the government said it was \"vital to ensure travel remains accessible and that passengers are treated fairly\".",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4555/live/2b5614e0-c7f6-11f1-970c-196b57378f40.jpg",
+        "publishedAt": "2026-10-14T17:46:30.000Z",
         "source": "BBC"
       },
       {
-        "title": "Inflation was hotter than expected in September, rising to 3.7% | CNN Business",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1hd3dLa3hMTUR4ZW5LRDh4R2U0RzRQVzVHLTVSdllES0VXQl82LVNDSmplZERpSVd6elo0a0Z5UG9Xc2ZvT2hHcHBlS1NINndRZjFHVVR3UDlvaGlKNW9LaGQ2WmpZMHRPanBpTkpBbF8xWXc?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-10-14T12:36:05.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "Wayfair among firms fined millions for misleading sales tactics",
-        "link": "https://www.bbc.co.uk/news/articles/cqx298e5rr3po?at_medium=RSS&at_campaign=rss",
-        "summary": "The Competition and Markets Authority has fined Wayfair, Appliances Direct, and Gold's Gym £6m in total.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ae51/live/acad1cb0-c7aa-11f1-a624-a3d8608fc192.jpg",
-        "publishedAt": "2026-10-14T12:09:45.000Z",
+        "title": "Netflix to shed 1,000 jobs in steepest cuts since 2022",
+        "link": "https://www.bbc.co.uk/news/articles/c6zxj0gzk4x4o?at_medium=RSS&at_campaign=rss",
+        "summary": "The cuts equate to around 6% of the streaming giant's total workforce worldwide.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/877e/live/417f8270-c7f0-11f1-a64c-550be9e3c66b.jpg",
+        "publishedAt": "2026-10-14T16:47:32.000Z",
         "source": "BBC"
       },
       {
-        "title": "Civil servant faked illness with make-up to juggle five jobs, court hears",
-        "link": "https://www.bbc.co.uk/news/articles/cqgkvdyx5d6jo?at_medium=RSS&at_campaign=rss",
-        "summary": "Kashim Chowdhury is accused of fraudulently juggling multiple government jobs while working from home.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2437/live/04805c60-c7c2-11f1-993a-152cbb068da1.jpg",
-        "publishedAt": "2026-10-14T11:57:22.000Z",
+        "title": "Toilet paper and secret recorders: What we know about the arrest of the Saudi OpenAI engineer",
+        "link": "https://www.bbc.co.uk/news/articles/cm04054ykqqqo?at_medium=RSS&at_campaign=rss",
+        "summary": "Abdulrahman Alfozan had worked for the AI giant for more than a year before he was arrested by the FBI.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9074/live/83100400-c7bc-11f1-9a39-31b474234113.jpg",
+        "publishedAt": "2026-10-14T15:54:04.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Driving test waits fall to two-year low - but still average 20 weeks",
+        "link": "https://www.bbc.co.uk/news/articles/c94g1kvz006ko?at_medium=RSS&at_campaign=rss",
+        "summary": "Learner drivers in September had to wait an average of 19.7 weeks, or around five months, for a practical test.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/95a5/live/6ec3c040-c7d5-11f1-9671-5b70c6e774ea.jpg",
+        "publishedAt": "2026-10-14T13:45:34.000Z",
         "source": "BBC"
       },
       {
@@ -382,6 +382,14 @@
       }
     ],
     "worldTech": [
+      {
+        "title": "Toilet paper and secret recorders: What we know about the arrest of the Saudi OpenAI engineer",
+        "link": "https://www.bbc.co.uk/news/articles/cm04054ykqqqo?at_medium=RSS&at_campaign=rss",
+        "summary": "Abdulrahman Alfozan had worked for the AI giant for more than a year before he was arrested by the FBI.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9074/live/83100400-c7bc-11f1-9a39-31b474234113.jpg",
+        "publishedAt": "2026-10-14T15:54:04.000Z",
+        "source": "BBC"
+      },
       {
         "title": "'I applied for 200 jobs' - How 'spray and pray' AI job applications can backfire",
         "link": "https://www.bbc.co.uk/news/articles/c623dnkn8pkyo?at_medium=RSS&at_campaign=rss",
@@ -413,97 +421,89 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ca77/live/ea185dd0-c6e2-11f1-bf38-57dc5cd42af2.jpg",
         "publishedAt": "2026-10-13T09:34:43.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "The US is fighting over data centers. China is building them fast",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNGktaGJUa1ZadHhiRDVHUVlPbXBRTGxiU2JnSDRVVjRKQzVxUGJiSmdQYmxSa2dydklBaUtyT0c5ZG1fbmFpb3prWnVGai1vMlVNWjVNaEVUTlRGdDVSN1NwZTE1U1l6TzBHWEdfUHRRRWJLcDVJRkxwUGxZWGVsZ2ZB?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-10-13T04:22:39.000Z",
-        "source": "CNN"
       }
     ],
     "domestic": [
       {
-        "title": "上海市“党的诞生地”红色文化育人工程“走进一大”红色研学活动正式启动",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-14/10714706.shtml",
-        "summary": "中新网上海10月14日电 (记者 许婧)上海是中国共产党的诞生地、初心始发地和伟大建党精神孕育地。14日，上海市“党的诞生地”红色文化育人工程“走进一大”红色研学活动在中共一大纪念馆启动。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261014/072be19f-a8e2-4996-a314-22893e51ad2f_zsite.jpg",
-        "publishedAt": "2026-10-14T13:36:17.000Z",
+        "title": "全国职工红色主题阅读活动走进甘肃会宁",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-14/10714737.shtml",
+        "summary": "中新网北京10月14日电 (记者 余湛奕)甘肃省白银市会宁县是红军长征三大主力会师的红色圣地。10月14日，“重走长征路 书香悟初心”全国职工红色主题阅读活动走进甘肃会宁，引导广大职工在红色阅读中传承红色基因，汲取奋进力量。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261014/b898cf50-3288-4de8-8ee7-5997a8581dcf_zsite.jpg",
+        "publishedAt": "2026-10-14T15:25:13.000Z",
         "source": "中新网"
       },
       {
-        "title": "“四川与智利、西班牙、巴西文化邂逅之旅”在成都举行",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-14/10714648.shtml",
-        "summary": "中新社成都10月14日电 (单鹏)“这么近 那么远 咫尺山海 川遇西葡语世界—四川与智利、西班牙、巴西文化邂逅之旅”活动14日在成都举行。此次活动以文化为纽带，搭建四川对接西葡语世界的交流平台。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261014/801d2779-9d94-4526-b836-40c1f75d0079_zsite.jpeg",
-        "publishedAt": "2026-10-14T13:16:36.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "一日跨越南京 外媒记者感受智造、生态与文脉",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-14/10714657.shtml",
-        "summary": "中新网南京10月14日电 (记者 徐珊珊)10月13日，在2026年“一带一路”记者组织论坛暨主题采风活动上，来自13个国家的20多名中外记者齐聚南京，走进智慧工厂、长江岸边、AI街区、数字展馆，感受这座城市的科创活力与人文温度。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261014/df076102-b93e-4101-ae48-b21ece151fef_zsite.jpg",
-        "publishedAt": "2026-10-14T13:15:44.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "第六届百城万人健心跑公益活动东莞开跑",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-14/10714656.shtml",
-        "summary": "中新网东莞10月14日电 (记者 许青青)“爱在岭南 同心守护”第六届百城万人健心跑公益活动14日在东莞旗峰公园温情开跑。本次活动由北京尚善公益基金会、星云文化教育公益基金会主办，广东省海峡两岸交流促进会联合主办，200余名台湾爱心同胞跨越海峡而来，与大陆爱心同仁、志愿者及各界群众并肩开跑、同心相聚...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261014/3e2a332f-449d-41ec-9d69-cddc7b05f625_zsite.jpg",
-        "publishedAt": "2026-10-14T13:15:42.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "新时代“枫桥经验”工会实践取得积极成效",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-14/10714652.shtml",
-        "summary": "中新网北京10月14日电 (记者 余湛奕)记者从全国总工会获悉，全国新时代“枫桥经验”工会实践工作会议14日在武汉召开，会议总结了各地工会新时代“枫桥经验”工会实践的经验做法，并研究部署下一步工作。",
+        "title": "李强在第140届中国进出口商品交易会开幕式上的主旨演讲（全文）",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-14/10714723.shtml",
+        "summary": "新华社广州10月14日电",
         "image": "",
-        "publishedAt": "2026-10-14T13:15:30.000Z",
+        "publishedAt": "2026-10-14T13:58:44.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "赵乐际集体会见出席2026年国际议员友好交流论坛的各国代表",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-14/10714688.shtml",
+        "summary": "中新社北京10月14日电 全国人大常委会委员长赵乐际14日在北京集体会见出席2026年国际议员友好交流论坛的各国代表。",
+        "image": "",
+        "publishedAt": "2026-10-14T13:58:12.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "中国社会科学院第二届青年学术大会在北京召开",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-14/10714722.shtml",
+        "summary": "中新网北京10月14日电(记者 李京泽)中国社会科学院第二届青年学术大会13日在北京召开。中国社会科学院院长、党组书记高翔出席会议并作学术报告。中央纪委国家监委驻院纪检监察组组长、院党组成员杭元祥，副院长、党组成员李雪松，院党组成员、当代中国研究所所长金民卿，秘书长、党组成员薛松岩出席会议。",
+        "image": "",
+        "publishedAt": "2026-10-14T13:54:18.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "（长征胜利90周年）“天险”腊子口的“红绿交辉”",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-14/10714721.shtml",
+        "summary": "中新网甘肃甘南10月14日电 (记者 冯志军)在甘肃甘南藏族自治州迭部县腊子口镇的腊子口战役遗址，至今仍保留着91年前红军长征北上时原始的峡谷峭壁、战役旧址地貌，“一夫当关，万夫莫开”的峡谷地形，直观还原了当年战斗的险峻环境。时至今日，“读万卷书，不如走一遍天险”也成为众多实地探访者的共鸣。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261014/630fcd88-25c6-46ca-92d5-0727e4d3dcb0_zsite.jpg",
+        "publishedAt": "2026-10-14T13:54:14.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "US inflation rises more than expected ahead of midterm elections",
+        "title": "Sally Rooney’s books no longer sold in UK over support for banned pro-Palestinian group",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNb3IwV21jUnd3a0NQbGZENUVoRUZsbktfYkFYNzF3LTdWWDlTdDJjX2FHTUZ6UFNYbk1PMnNkUDhlQXd6THN5U0R4YTlob2VwbG5zY25WSUJNRFVvYXFzQU1mSnRHTWlCM05oSUpENmozT2tReWgtWFJKMG5UMElBVTlJeXc5SElNSVVZ?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-10-14T17:07:05.000Z",
+        "source": "CNN"
+      },
+      {
+        "title": "Gift for Putin as fears grow that Trump is turning the screws on Ukraine",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNT0V2UnlGNTVvWG9odEZHMk9lcEs5VVN1UnVTUWR5MzBjWThMcU9zWG1jeWtHVm45VEZLRWRfUjR1R1hvc19MWnBWT285QWt6bU9EcFh1aVdKa0JFTVJRRXZDSXZqZHAwNmtWYndxcy1qeWhiZ3oyV0ttZlBuWDZ5OGgyOFcyNXBGbXBWXw?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-10-14T16:57:26.000Z",
+        "source": "CNN"
+      },
+      {
+        "title": "US inflation rises more than expected - here's what is happening with prices",
         "link": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
         "summary": "The pace of price rises increased to 3.7% in the year to September, driving by higher motor fuel costs.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bd50/live/e1cf6860-c7cf-11f1-9e10-4dcbd31d4273.jpg",
-        "publishedAt": "2026-10-14T13:26:15.000Z",
+        "publishedAt": "2026-10-14T15:26:14.000Z",
         "source": "BBC"
       },
       {
-        "title": "Starlink restrictions affecting Ukraine's front line operations, Kyiv says",
-        "link": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss",
-        "summary": "Elon Musk's system allows Kyiv to protect Ukrainian skies and effectively guide drones to Russian targets.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d0ee/live/d48bf4b0-c7c6-11f1-9a39-31b474234113.jpg",
-        "publishedAt": "2026-10-14T13:11:17.000Z",
+        "title": "Pope walking and recovering 'as expected' after surgery, doctors say",
+        "link": "https://www.bbc.co.uk/news/articles/cwx28r0zvm6lo?at_medium=RSS&at_campaign=rss",
+        "summary": "The 71-year-old Pope was diagnosed with lung cancer after the 90-minute procedure on Tuesday.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c622/live/69064170-c7e2-11f1-a64c-550be9e3c66b.jpg",
+        "publishedAt": "2026-10-14T15:12:46.000Z",
         "source": "BBC"
       },
       {
-        "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
-        "link": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss",
-        "summary": "Four years after the attacks, Serhii Kuznetsov appears in court accused of a plot to destroy Russia's gas pipelines to Germany.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41b7/live/66289890-c7c4-11f1-993a-152cbb068da1.jpg",
-        "publishedAt": "2026-10-14T12:27:00.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
-        "link": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
-        "summary": "Pope Leo had a \"peaceful night\" in the hospital after the surgery to remove a lower lobe of his right lung, the Vatican says.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e2a0/live/ccd96d30-c792-11f1-a64c-550be9e3c66b.jpg",
-        "publishedAt": "2026-10-14T11:17:51.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Thousands of refrigerators were hacked across France. How worried should you be?",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOY1FIemJmYWM4cnV6MzZ3RS05QmtuZjZXT0V4ei0xV0x3R1Y4ZTZ5M1NGaS1UeEYySGxQSmtuMlNBWFFTMVNEa29ldFpXUnZzbmFfajVaa1NKNjhMTG5POFpDcnFwbE9xSzY5eWhtUTlxSHljUlBzaXpUUzJSTXBHamFIU3BYNFk5?oc=5",
+        "title": "German police launch investigation after robot allegedly gropes teenage girl",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNR0JiX2NneVZncDZ3OE1pbHh0Uml2NWtSa0RTN3JBNVl2WFI1THFFa1N0WmVFUE9PTUVyb2R6UzA2OHBGclVGd1FHaDI2aDA5cWtDb3V6Zmk4NG9UQjVEYVpCMk03ZzdyZ2NEYU9ZT2xkS0o5SnhFMFdCbEtHZUlTTDU4ajc?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-10-14T11:02:44.000Z",
+        "publishedAt": "2026-10-14T15:11:28.000Z",
         "source": "CNN"
       }
     ],
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-10-14",
+    "rotationLabel": "Curated Rotation · 2026-10-15",
     "sections": [
       {
         "id": "data-storage",
@@ -522,26 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-5",
-            "sectionId": "data-storage",
-            "title": "The FAISS Library",
-            "authors": [
-              "Jeff Johnson",
-              "Matthijs Douze",
-              "Herve Jegou"
-            ],
-            "venue": "IEEE T-BD",
-            "year": 2021,
-            "quality": "高影响力",
-            "categories": [
-              "vector search",
-              "ANN"
-            ],
-            "link": "https://arxiv.org/abs/2401.08281",
-            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-6",
             "sectionId": "data-storage",
@@ -561,7 +541,7 @@
             ],
             "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
             "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-1",
@@ -583,6 +563,27 @@
             "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
             "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-2",
+            "sectionId": "data-storage",
+            "title": "Bigtable: A Distributed Storage System for Structured Data",
+            "authors": [
+              "Fay Chang",
+              "Jeffrey Dean",
+              "Sanjay Ghemawat",
+              "Wilson C. Hsieh"
+            ],
+            "venue": "OSDI",
+            "year": 2006,
+            "quality": "顶会",
+            "categories": [
+              "distributed systems",
+              "database"
+            ],
+            "link": "https://research.google/pubs/pub27898/",
+            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -592,27 +593,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-6",
-            "sectionId": "computer-vision",
-            "title": "DINOv2: Learning Robust Visual Features without Supervision",
-            "authors": [
-              "Maxime Oquab",
-              "Timothée Darcet",
-              "Théo Moutakanni",
-              "Huy V. Vo"
-            ],
-            "venue": "arXiv / Meta",
-            "year": 2023,
-            "quality": "高影响力",
-            "categories": [
-              "self-supervised",
-              "representation"
-            ],
-            "link": "https://arxiv.org/abs/2304.07193",
-            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-1",
             "sectionId": "computer-vision",
@@ -632,7 +612,7 @@
             ],
             "link": "https://arxiv.org/abs/1512.03385",
             "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-2",
@@ -654,6 +634,27 @@
             "link": "https://arxiv.org/abs/2005.12872",
             "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-3",
+            "sectionId": "computer-vision",
+            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+            "authors": [
+              "Alexey Dosovitskiy",
+              "Lucas Beyer",
+              "Alexander Kolesnikov",
+              "Dirk Weissenborn"
+            ],
+            "venue": "ICLR",
+            "year": 2021,
+            "quality": "顶会",
+            "categories": [
+              "vision transformer",
+              "classification"
+            ],
+            "link": "https://arxiv.org/abs/2010.11929",
+            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -663,27 +664,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-1",
-            "sectionId": "llm-memory",
-            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
-            "authors": [
-              "Patrick Lewis",
-              "Ethan Perez",
-              "Aleksandra Piktus",
-              "Fabio Petroni"
-            ],
-            "venue": "NeurIPS",
-            "year": 2020,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "retrieval"
-            ],
-            "link": "https://arxiv.org/abs/2005.11401",
-            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-2",
             "sectionId": "llm-memory",
@@ -703,7 +683,7 @@
             ],
             "link": "https://arxiv.org/abs/2203.08913",
             "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-3",
@@ -725,6 +705,27 @@
             "link": "https://arxiv.org/abs/2112.04426",
             "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-4",
+            "sectionId": "llm-memory",
+            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+            "authors": [
+              "Akari Asai",
+              "Zequn Zhang",
+              "Avirup Sil",
+              "Hannaneh Hajishirzi"
+            ],
+            "venue": "ICLR",
+            "year": 2024,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "self-reflection"
+            ],
+            "link": "https://arxiv.org/abs/2310.11511",
+            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -734,27 +735,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-2",
-            "sectionId": "agents",
-            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
-            "authors": [
-              "Timo Schick",
-              "Jane Dwivedi-Yu",
-              "Roberta Dessì",
-              "Ari Holtzman"
-            ],
-            "venue": "NeurIPS",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "tool use",
-              "agent"
-            ],
-            "link": "https://arxiv.org/abs/2302.04761",
-            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-3",
             "sectionId": "agents",
@@ -774,7 +754,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.03442",
             "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-4",
@@ -795,6 +775,27 @@
             ],
             "link": "https://arxiv.org/abs/2305.16291",
             "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-5",
+            "sectionId": "agents",
+            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+            "authors": [
+              "Qingyun Wu",
+              "Gagan Bansal",
+              "Jiaqi Zhang",
+              "Yiran Wu"
+            ],
+            "venue": "COLM",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "multi-agent",
+              "framework"
+            ],
+            "link": "https://arxiv.org/abs/2308.08155",
+            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
             "trackLabel": "轮换精选"
           }
         ]
