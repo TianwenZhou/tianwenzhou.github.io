@@ -1,36 +1,28 @@
 {
-  "generatedAt": "2026-10-17T12:08:02.474Z",
+  "generatedAt": "2026-10-17T18:24:44.507Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 16,
-      "weatherCode": 3,
+      "temperature": 13,
+      "weatherCode": 0,
       "windSpeed": 14
     },
     "today": {
-      "date": "2026-10-17",
-      "weatherCode": 81,
-      "description": "强阵雨",
-      "max": 16,
-      "min": 12,
-      "precipitationProbability": 100
+      "date": "2026-10-18",
+      "weatherCode": 1,
+      "description": "基本晴",
+      "max": 17,
+      "min": 10,
+      "precipitationProbability": 0
     },
     "forecast": [
-      {
-        "date": "2026-10-17",
-        "weatherCode": 81,
-        "description": "强阵雨",
-        "max": 16,
-        "min": 12,
-        "precipitationProbability": 100
-      },
       {
         "date": "2026-10-18",
         "weatherCode": 1,
         "description": "基本晴",
         "max": 17,
         "min": 10,
-        "precipitationProbability": 10
+        "precipitationProbability": 0
       },
       {
         "date": "2026-10-19",
@@ -45,42 +37,59 @@
         "weatherCode": 51,
         "description": "毛毛雨",
         "max": 16,
-        "min": 8,
-        "precipitationProbability": 22
+        "min": 7,
+        "precipitationProbability": 20
       },
       {
         "date": "2026-10-21",
         "weatherCode": 0,
         "description": "晴朗",
         "max": 15,
-        "min": 5,
+        "min": 4,
         "precipitationProbability": 0
+      },
+      {
+        "date": "2026-10-22",
+        "weatherCode": 3,
+        "description": "阴天",
+        "max": 14,
+        "min": 3,
+        "precipitationProbability": 2
       }
     ]
   },
   "classicQuote": {
-    "id": "taoteching-accumulate",
-    "text": "合抱之木，生于毫末；九层之台，起于累土。",
+    "id": "taoteching-self",
+    "text": "知人者智，自知者明；胜人者有力，自胜者强。",
     "source": "《道德经》",
     "author": "老子",
-    "note": "再大的目标，也要拆成今天能推进的一小步。"
+    "note": "比起和别人比较，更重要的是把自己的节奏稳住。"
   },
   "bookExcerpt": {
-    "id": "camel-xiangzi-sky",
-    "text": "天是越来越晴朗了，一轮火一样的太阳悬在空中，街上的一切都像在明晃晃地发着白光。",
-    "book": "《骆驼祥子》",
-    "author": "老舍"
+    "id": "norwegian-wood-rain",
+    "text": "雨还在下，细得像雾，落在草地和树叶上，世界像被一种安静的潮气轻轻包住。",
+    "book": "《挪威的森林》",
+    "author": "村上春树"
   },
   "featuredPlace": {
-    "id": "202610161600",
-    "title": "肖维岩洞艺术作品等比例复制品，瓦隆蓬达尔克，法国",
+    "id": "202610171600",
+    "title": "多巴达恩城堡，兰贝里斯，斯诺登尼亚国家公园，威尔士",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "发掘尘封的过去",
-    "image": "https://www.bing.com/th?id=OHR.ChauvetPaintingsFrance_ZH-CN3150703955_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E5%9B%BD%E9%99%85%E8%80%83%E5%8F%A4%E6%97%A5&form=hpcapt&mkt=zh-cn"
+    "summary": "75载，风华正茂",
+    "image": "https://www.bing.com/th?id=OHR.DolbadarnWales_ZH-CN3649667806_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E5%A8%81%E5%B0%94%E5%A3%AB%E6%96%AF%E8%AF%BA%E7%99%BB%E5%B0%BC%E4%BA%9A%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202610171600",
+      "title": "多巴达恩城堡，兰贝里斯，斯诺登尼亚国家公园，威尔士",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "75载，风华正茂",
+      "image": "https://www.bing.com/th?id=OHR.DolbadarnWales_ZH-CN3649667806_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E5%A8%81%E5%B0%94%E5%A3%AB%E6%96%AF%E8%AF%BA%E7%99%BB%E5%B0%BC%E4%BA%9A%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202610161600",
       "title": "肖维岩洞艺术作品等比例复制品，瓦隆蓬达尔克，法国",
@@ -143,161 +152,160 @@
       "summary": "秋色中转动的水轮",
       "image": "https://www.bing.com/th?id=OHR.BabcockSP_ZH-CN5266848536_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E5%B7%B4%E5%B8%83%E7%A7%91%E5%85%8B%E5%B7%9E%E7%AB%8B%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202610091600",
-      "title": "蒙特雷湾上空的双冠鸬鹚，加利福尼亚州，美国",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "迁飞路线上的生命",
-      "image": "https://www.bing.com/th?id=OHR.CormorantsFlight_ZH-CN0770863330_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E5%80%99%E9%B8%9F%E6%97%A5&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-10-17",
-    "dateLabel": "10月17日",
+    "dateKey": "2026-10-18",
+    "dateLabel": "10月18日",
     "items": [
       {
-        "year": "2024",
-        "text": "以色列军方确认哈马斯最高领导人叶海亚·辛瓦尔在加沙走廊的南部城市拉法被击杀。",
-        "link": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4"
+        "year": "2019",
+        "text": "智利聖地牙哥的抗議活動在持續11天後升級為與智利卡賓槍騎兵的公開衝突，迫使總統塞瓦斯蒂安·皮涅拉宣布進入緊急狀態。",
+        "link": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4"
       },
       {
-        "year": "2023",
-        "text": "位於加薩走廊的阿赫利阿拉伯醫院發生爆炸，造成至少500人死亡。",
-        "link": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4"
+        "year": "2015",
+        "text": "Windows 8主流支援到期。",
+        "link": "https://zh.wikipedia.org/wiki/2015%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "李强在2026世界传统医药大会开幕式上的致辞（全文）",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-17/10716350.shtml",
-        "summary": "新华社北京10月17日电",
+        "title": "冀中能源集团董事会原董事陈亚杰接受审查调查",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-17/10716463.shtml",
+        "summary": "中新网10月17日电 据河北省纪委监委消息，冀中能源集团有限责任公司董事会原董事，峰峰集团有限公司原党委书记、董事长陈亚杰涉嫌严重违纪违法，目前正接受河北省纪委监委纪律审查和监察调查。",
         "image": "",
-        "publishedAt": "2026-10-17T11:24:11.000Z",
+        "publishedAt": "2026-10-17T14:32:30.000Z",
         "source": "中新网"
       },
       {
-        "title": "李强出席2026世界传统医药大会开幕式并致辞",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-17/10716342.shtml",
-        "summary": "新华社北京10月17日电 10月17日上午，国务院总理李强在北京出席2026世界传统医药大会开幕式并致辞。",
+        "title": "辽宁省本溪市政协原党组副书记、副主席邵涛被“双开”",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-17/10716464.shtml",
+        "summary": "中新网10月17日电 据辽宁省纪委监委消息，日前，经辽宁省委批准，辽宁省纪委监委对本溪市政协原党组副书记、副主席邵涛严重违纪违法问题进行了立案审查调查。",
         "image": "",
-        "publishedAt": "2026-10-17T11:22:59.000Z",
+        "publishedAt": "2026-10-17T14:31:36.000Z",
         "source": "中新网"
       },
       {
-        "title": "李强抵达塔什干开始对乌兹别克斯坦进行正式访问",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-17/10716348.shtml",
-        "summary": "中新社塔什干10月17日电 10月17日上午，应乌兹别克斯坦总理阿里波夫邀请，中国国务院总理李强乘包机离开北京，对乌兹别克斯坦进行正式访问。国务委员兼国务院秘书长吴政隆等陪同人员同机离京。",
+        "title": "辽宁省沈阳市委原常委、政法委原书记郭忠孝被“双开”",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-17/10716465.shtml",
+        "summary": "中新网10月17日电 据辽宁省纪委监委消息，日前，经辽宁省委批准，辽宁省纪委监委对沈阳市委原常委、政法委原书记，沈阳市铁西区委原书记郭忠孝严重违纪违法问题进行了立案审查调查。",
         "image": "",
-        "publishedAt": "2026-10-17T11:11:45.000Z",
+        "publishedAt": "2026-10-17T14:30:42.000Z",
         "source": "中新网"
       },
       {
-        "title": "让民营企业敢投、愿投、能投",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-17/10716341.shtml",
-        "summary": "【理响中国】让民营企业敢投、愿投、能投",
-        "image": "",
-        "publishedAt": "2026-10-17T10:47:57.000Z",
+        "title": "做世界减贫事业的有力推动者",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-17/10716325.shtml",
+        "summary": "10月17日是国际消除贫困日。",
+        "image": "https://poss-videocloud.cns.com.cn/oss/2026/10/17/chinanews/MEIZI_YUNSHI/onair/35CAF70518AE410CBF16A9F0F963E355.mp4",
+        "publishedAt": "2026-10-17T14:29:35.000Z",
         "source": "中新网"
       },
       {
-        "title": "王沪宁在四川调研时强调 坚持为推进中国式现代化凝心聚力 扎实做好新时代党的民族宗教工作",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-17/10716329.shtml",
-        "summary": "新华社成都10月17日电(记者丁小溪)中共中央政治局常委、全国政协主席王沪宁10月13日至16日在四川成都市、德阳市、甘孜藏族自治州调研。他表示，要以习近平新时代中国特色社会主义思想为指导，深入贯彻落实党的二十届四中全会精神，着眼为实现“十五五”时期发展、推进中国式现代化凝心聚力，扎实抓好铸牢中华民...",
-        "image": "",
-        "publishedAt": "2026-10-17T10:47:15.000Z",
+        "title": "学习手记｜答好“长征三问” 坚定必胜信念",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-17/10716338.shtml",
+        "summary": "“长征中能活下来的有多少人？红军战士靠的是什么？图的是什么呢？”",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/10/17/1007847af1df4664a39eea2ac925c348.png",
+        "publishedAt": "2026-10-17T14:27:55.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "台湾地区云南同乡会代表走进世遗景迈山：看茶林共生 品千年茶香",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-17/10716364.shtml",
-        "summary": "中新网普洱10月17日电 (罗婕)秋日，云南省普洱市澜沧拉祜族自治县景迈山上，万亩茶林层峦叠翠，吸引各地游客纷至沓来。近日，正在普洱市参访的台湾地区云南同乡会代表走进景迈山，一同感受千年古茶林的魅力。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261017/f4d7b39a-1104-45cd-a21c-3a1f8082d44b_zsite.JPG",
-        "publishedAt": "2026-10-17T11:56:31.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "从江南烟火到智造前沿 外国记者感受江苏活力",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-17/10716362.shtml",
-        "summary": "中新网南京10月17日电 (记者 梁晓辉 孙晨慧)秋日江苏，桂香浮动，江水奔流。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261017/a689945c-17f7-4fa8-b6cc-b94683f5a858_zsite.jpg",
-        "publishedAt": "2026-10-17T11:56:07.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "45国发布首个国际职业教育标准《北京协议》",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-17/10716358.shtml",
-        "summary": "中新社天津10月17日电 (记者 周亚强)45个国家17日在天津共同发布《世界职业技术教育标准框架》(《北京协议》)。这是中国牵头推动研制形成的首个国际职业教育标准。",
+        "title": "澳门卫生局局长：发挥澳门独特优势 助力中医药创新出海",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-17/10716469.shtml",
+        "summary": "中新社北京10月17日电 (记者 李纯 周昕 马帅莎)2026世界传统医药大会17日在北京启幕。澳门特区政府卫生局局长罗奕龙当日在接受媒体采访时表示，依托制度优势，澳门持续深化中医药守正创新，搭建传统医药国际交流桥梁，服务健康中国与粤港澳大湾区建设。",
         "image": "",
-        "publishedAt": "2026-10-17T11:49:15.000Z",
+        "publishedAt": "2026-10-17T14:21:39.000Z",
         "source": "中新网"
       },
       {
-        "title": "大范围雨雪降温影响中国 局地降温幅度超12℃",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-17/10716357.shtml",
-        "summary": "中新社北京10月17日电 (记者 陈溯)记者17日从中国气象局获悉，受较强冷空气影响，16日夜间至18日，中国出现大范围降水、大风、降温天气，局地降温幅度超过12℃。",
-        "image": "",
-        "publishedAt": "2026-10-17T11:49:13.000Z",
+        "title": "（乡村行·看振兴）“茶”中建起黄金屋 湖南苗寨产业焕新见闻",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-17/10716414.shtml",
+        "summary": "中新网湘西10月17日电 题：“茶”中建起黄金屋 湖南苗寨产业焕新见闻",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261017/ee9377a1-db4f-4749-a9bc-fa146144a2e7_zsite.JPG",
+        "publishedAt": "2026-10-17T13:34:02.000Z",
         "source": "中新网"
       },
       {
-        "title": "野象踩踏致人死伤 柬埔寨柏威夏加强监测",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-17/10716356.shtml",
-        "summary": "中新社金边10月17日电 (记者 杨强)柬埔寨环境部当地时间17日在社交媒体发布消息说，该国柏威夏省相关当局正在密切监测一群野生大象的活动轨迹，该象群已从柏威夏省宗克桑县向库伦县移动。当局敦促民众避开象群活动区域，并采取预防措施，避免与象群近距离接触。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261017/1baa6dfa-c443-4abe-ade7-c50a527b79db_zsite.jpg",
-        "publishedAt": "2026-10-17T11:49:11.000Z",
+        "title": "全国堆肥专家齐聚呼和浩特 探索绿色农牧循环新路径",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-17/10716402.shtml",
+        "summary": "中新网呼和浩特10月17日电 (记者 刘文华)第二十届全国堆肥技术与工程研讨会17日在呼和浩特开幕。会议以“有机废弃物资源与绿色农牧循环”为主题，聚焦高寒旱区有机废弃物资源化利用的关键瓶颈。来自全国高校、科研院所和企业的专家学者参会交流。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261017/8efb638d-96c9-413e-9326-d8ebd70bed16_zsite.JPG",
+        "publishedAt": "2026-10-17T13:21:38.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "美国青年贵州行：在社区看见真实中国 在抗战公路读懂合作共赢",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-17/10716400.shtml",
+        "summary": "中新社贵阳10月17日电 (记者 周燕玲)17日，贵州省贵阳市观山湖区金元社区广场上，一名老人正缓缓打着太极，十多名美国青年在后面有模有样地学了起来；社区活动室内，老年合唱团排练《铃儿响叮当》，一名美国青年取出随身带的尤克里里加入伴奏，有人跟着节奏跳起舞，笑声和掌声混在一起。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261017/7e492060-3d5f-4564-9a6b-10668be004a1_zsite.jpg",
+        "publishedAt": "2026-10-17T13:15:49.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "“救援先锋”王晓成：洪水中驾动力舟桥转移广西贵港被困师生",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-17/10716398.shtml",
+        "summary": "中新网北京10月17日电 题：“救援先锋”王晓成：洪水中驾动力舟桥转移广西贵港被困师生",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261017/d2a90bbc-47ed-4798-b4fe-7f9de02a8a3b_zsite.JPG",
+        "publishedAt": "2026-10-17T13:07:35.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "专家学者南昌研讨全国统一大市场与区域高质量发展",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-17/10716361.shtml",
-        "summary": "中新网南昌10月17日电 (记者 吴鹏泉)由江西省社会科学院、江西省新型智库联盟主办的“全国统一大市场与区域高质量发展研讨会”17日在南昌举行，来自全国30余所高校、党校和科研机构的120余名专家学者围绕主题展开研讨。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261017/f078fdd6-5e35-45c6-8250-e2b4778ea196_zsite.jpg",
-        "publishedAt": "2026-10-17T11:55:49.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "AI营销迎来分水岭，品牌只剩两种结局",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-17/10716317.shtml",
-        "summary": "未来 AI时代的营销，会出现两个极端。",
-        "image": "https://v-oss.cnsimg.net/cspcrm-hyzx/2026/10/17/fce0394b-66e8-4306-a935-2fb54b93b8cb.mp4",
-        "publishedAt": "2026-10-17T11:54:57.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "苏州“两岸两链”先进制造业专场举行",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-17/10716333.shtml",
-        "summary": "中新网苏州10月17日电 (记者 钟升)苏州市“两岸两链”融合发展对接会——先进制造业专场16日举行。活动旨在推动两岸企业在先进制造领域实现更深层次合作，深化“两岸两链”对接、促进台企与本地企业精准对接。",
+        "title": "（友城故事）福建拓国际友城务实合作 达成系列合作成果",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-17/10716471.shtml",
+        "summary": "中新社福州10月17日电 (记者 闫旭)“马普托是南部非洲重要滨海港口城市，与福建在海洋产业、临港经济合作潜力巨大。”莫桑比克马普托市市长拉萨克·马尼克17日在福州表示，希望深化与福建友好城市交往，拓展海洋经济务实合作。",
         "image": "",
-        "publishedAt": "2026-10-17T11:43:49.000Z",
+        "publishedAt": "2026-10-17T14:12:45.000Z",
         "source": "中新网"
       },
       {
-        "title": "智慧农机与时间“赛跑”抢收抢种 各地打出“组合拳”保障秋粮安全入库",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-17/10716355.shtml",
-        "summary": "央视网消息：金秋时节，各地田间繁忙又充满了丰收的喜悦。安徽马鞍山市位于我国长江流域水稻主产区。眼下，马鞍山市含山县的46万亩水稻已经进入收获期。气象部门预计，近期当地将有降雨过程，这两天含山县正抓紧抢收，保障秋粮安全入库。具体情况如何？",
-        "image": "",
-        "publishedAt": "2026-10-17T11:28:52.000Z",
+        "title": "当AI开始替人做决定，谁在杀死“租流量”的品牌？",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-17/10716410.shtml",
+        "summary": "很多老板最近都在焦虑：AI越来越聪明，消费者以后买东西是不是直接让AI比价、比参数了？既然AI能自动筛选出“性价比最高”的产品，那品牌是不是就不重要了？",
+        "image": "https://www.chinanews.com/cr/2026/1017/4149204106.JPG",
+        "publishedAt": "2026-10-17T13:31:04.000Z",
         "source": "中新网"
       },
       {
-        "title": "生产消费齐发力 三季度出口首破8万亿元",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-17/10716354.shtml",
-        "summary": "“经”彩新图景丨生产消费齐发力 三季度出口首破8万亿元",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/10/17/e84b1aaf42b24a7f9ceac418cb8c78d5.jpg",
-        "publishedAt": "2026-10-17T11:25:40.000Z",
+        "title": "2026珠江国际贸易论坛举行 聚焦中国企业出海新赛道",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-17/10716459.shtml",
+        "summary": "中新网广州10月17日电 (记者 程景伟)在广交会创办70周年之际，2026珠江国际贸易论坛16日在广州广交会堂举办。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261017/b0b2ef1b-a252-4263-ade1-ce5a3430ebc0_zsite.jpeg",
+        "publishedAt": "2026-10-17T13:21:20.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "中国首家白俄罗斯产品馆落户黑河 推动中白合作从“握手”走向“携手”",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-17/10716441.shtml",
+        "summary": "中新网黑河10月17日电 (记者 王琳)17日，由白俄罗斯驻华大使馆授权的中国首家白俄罗斯产品馆在黑河大岛国贸城俄品多启幕。场馆定位展示窗口、经贸平台、对外名片三重功能，依托黑河自贸片区的区位优势，打造白俄罗斯商品进入中国的集散枢纽。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261017/71031c84-b749-4ee5-9daa-4fda2e89b87c_zsite.jpg",
+        "publishedAt": "2026-10-17T13:04:39.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "2026大湾区绿能大会在广东阳江举行",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-17/10716452.shtml",
+        "summary": "中新网阳江10月17日电 (孙秋霞 罗超益)2026大湾区科学论坛绿能产业科技创新分论坛暨大湾区绿能大会16日至17日在阳江举行，本次活动汇聚诺贝尔化学奖得主、中国科学院院士等国内外专家学者，共商绿能产业科技创新与国际化发展路径，为粤港澳大湾区乃至全球绿色低碳发展注入新动能。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261017/f8acbb98-9e5a-4ace-bcfa-e18cd05f3ff9_zsite.JPG",
+        "publishedAt": "2026-10-17T12:58:51.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
+      {
+        "title": "Nursery owner in China jailed for life after hundreds of children poisoned",
+        "link": "https://www.bbc.co.uk/news/articles/cqe9lx54g7x9o?at_medium=RSS&at_campaign=rss",
+        "summary": "She and five staff members were found to have used the inedible paint in meals to make them look more appealing.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5bff/live/9df7c880-ca1d-11f1-a64c-550be9e3c66b.png",
+        "publishedAt": "2026-10-17T12:11:58.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
         "link": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
@@ -307,7 +315,15 @@
         "source": "BBC"
       },
       {
-        "title": "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
+        "title": "Exclusive: Inside Erik Prince’s secretive operation taking on Haiti’s gangs",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE8tblkyTGdPd2dmUm1qOEU1a3p2Ty1WTVhyUjZTejFPN0hsUHJYM3NFQmhBTXNEUkdrN3FFY3NwZlh6VGtOdWlJNUJOYlQ4N3V5VEhDZXEwTFY5OEVDVGVObWVKTGNzNlUydVY3RmU3SUF3Zw?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-10-17T10:00:44.000Z",
+        "source": "CNN"
+      },
+      {
+        "title": "Teacher fought US school attacker before armed dad shot suspect 'multiple times'",
         "link": "https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o?at_medium=RSS&at_campaign=rss",
         "summary": "The 16-year-old suspect previously attended the primary school and had targeted a special educational needs classroom, police say.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7c80/live/72894110-c9b4-11f1-9409-01a8c77950d7.jpg",
@@ -315,31 +331,23 @@
         "source": "BBC"
       },
       {
-        "title": "Katie Zacharia leaving White House role less than five days into job",
-        "link": "https://www.bbc.co.uk/news/articles/c32l4ekpvzl8o?at_medium=RSS&at_campaign=rss",
-        "summary": "Her public debut as press secretary ended with a flurry of media criticism about her credentials and preparedness.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8455/live/c34abe60-c99d-11f1-8844-b58b162b44d4.jpg",
-        "publishedAt": "2026-10-17T09:14:10.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Ukraine targets Russia’s ‘Google’ as the internet becomes a new front line",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOT0ROLUZzSFR2WGJPQldiVWQwVjFBZElTdll4ZGRGNFdkM0llZEl3dDFHRjlrN2JxRW16ZW4xZUhpbk5DU2gxUzR6RmI1MzBFc3V4NXBORDN1Sm53UFN2TGtFQ3EzMTFpaTlwaW5ZTFlnWjdrTjBrYlA5dmVwWm5jRDlnX2I4eXRqM09JX3lR?oc=5",
+        "title": "Three men sentenced to more than 158 years for the killings of Australian, US surfers in Mexico",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQWm0wVER0c2dvem1TdUpZbVZCMWlRaGlUS3VoVjVKQmtaQ25XbTlIaTRpRzBnWm9SNEVHRkhyMDJuU25KbnprLTRUOWFiU29abjYzYjNPUV9wY0lKa213eW8xaDlKQk9ybE1wN21GbDZtSEl0Q243LXlOdUpSVFB4d0g0R0FUWUZoUHc?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-10-17T04:00:45.000Z",
+        "publishedAt": "2026-10-17T05:35:49.000Z",
         "source": "CNN"
-      },
-      {
-        "title": "Three men jailed for 158 years each for murdering Australian and US surfers in Mexico",
-        "link": "https://www.bbc.co.uk/news/articles/c3kgqjkzw29wo?at_medium=RSS&at_campaign=rss",
-        "summary": "Brothers Jake and Callum Robinson and their friend Carter Rhoad were killed on a surfing trip in an apparent botched robbery.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ab9/live/138578c0-c453-11f1-bc2e-018d645d8d21.jpg",
-        "publishedAt": "2026-10-17T03:11:10.000Z",
-        "source": "BBC"
       }
     ],
     "worldBusiness": [
+      {
+        "title": "A $2 trillion deficit looms over the midterms",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZVFHZURyZVhCZWtkYjdEZ256ZDlOSVNUbk5tY0pJdzlYWVRneEZJMVZIMDBnYmU0bjc1bC1tMDl0YV9MRWhnWkpqYUt3TnFLeEpKWjlUaWJXLXUzY29aeml0OFdieklCbU1OWWFTNXM2VjJqLU5tQzBWUnBleFduRGRjT2FTczA?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-10-16T22:40:54.000Z",
+        "source": "CNN"
+      },
       {
         "title": "Watch: Did Tesla really just unveil a flying car?",
         "link": "https://www.bbc.co.uk/news/videos/ckly4mj1g3n9o?at_medium=RSS&at_campaign=rss",
@@ -365,20 +373,12 @@
         "source": "BBC"
       },
       {
-        "title": "Business",
+        "title": "World News | CNN Business",
         "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxON29hdGlTQ2JMTGNKdy1UMG4yd0FkZzZuc1oya09ydXpLaklYMUZvOEdRMzFMc2V2NURNSi1XUi1iYXkza2hEZTBIVWJvRzdrTHN0OWFEZmMwMjI2bXc1QWJtWUhFcEZ3Y3VEYXhNNmw1elVrZ1FkbUlpbzZfMzVRbGpobmpzTm9ZZkhpZGhCWDktN1RRS3YtU29VRjMtczZsX1pMbm1TWWttV3hiMlR4U1FySUVXRkFp?oc=5",
         "summary": "",
         "image": "",
         "publishedAt": "2026-10-16T07:29:08.000Z",
         "source": "CNN"
-      },
-      {
-        "title": "Ship attack reports near Hormuz reach record high as oil exports slow",
-        "link": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&at_campaign=rss",
-        "summary": "BBC Verify analysis of data from a UK maritime agency shows 12 vessels were struck in a week.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/139a/live/0f24b0c0-c8b3-11f1-bc2e-018d645d8d21.png",
-        "publishedAt": "2026-10-16T05:00:17.000Z",
-        "source": "BBC"
       }
     ],
     "worldTech": [
@@ -425,47 +425,55 @@
     ],
     "domestic": [
       {
-        "title": "李强在2026世界传统医药大会开幕式上的致辞（全文）",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-17/10716350.shtml",
-        "summary": "新华社北京10月17日电",
+        "title": "冀中能源集团董事会原董事陈亚杰接受审查调查",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-17/10716463.shtml",
+        "summary": "中新网10月17日电 据河北省纪委监委消息，冀中能源集团有限责任公司董事会原董事，峰峰集团有限公司原党委书记、董事长陈亚杰涉嫌严重违纪违法，目前正接受河北省纪委监委纪律审查和监察调查。",
         "image": "",
-        "publishedAt": "2026-10-17T11:24:11.000Z",
+        "publishedAt": "2026-10-17T14:32:30.000Z",
         "source": "中新网"
       },
       {
-        "title": "李强出席2026世界传统医药大会开幕式并致辞",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-17/10716342.shtml",
-        "summary": "新华社北京10月17日电 10月17日上午，国务院总理李强在北京出席2026世界传统医药大会开幕式并致辞。",
+        "title": "辽宁省本溪市政协原党组副书记、副主席邵涛被“双开”",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-17/10716464.shtml",
+        "summary": "中新网10月17日电 据辽宁省纪委监委消息，日前，经辽宁省委批准，辽宁省纪委监委对本溪市政协原党组副书记、副主席邵涛严重违纪违法问题进行了立案审查调查。",
         "image": "",
-        "publishedAt": "2026-10-17T11:22:59.000Z",
+        "publishedAt": "2026-10-17T14:31:36.000Z",
         "source": "中新网"
       },
       {
-        "title": "李强抵达塔什干开始对乌兹别克斯坦进行正式访问",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-17/10716348.shtml",
-        "summary": "中新社塔什干10月17日电 10月17日上午，应乌兹别克斯坦总理阿里波夫邀请，中国国务院总理李强乘包机离开北京，对乌兹别克斯坦进行正式访问。国务委员兼国务院秘书长吴政隆等陪同人员同机离京。",
+        "title": "辽宁省沈阳市委原常委、政法委原书记郭忠孝被“双开”",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-17/10716465.shtml",
+        "summary": "中新网10月17日电 据辽宁省纪委监委消息，日前，经辽宁省委批准，辽宁省纪委监委对沈阳市委原常委、政法委原书记，沈阳市铁西区委原书记郭忠孝严重违纪违法问题进行了立案审查调查。",
         "image": "",
-        "publishedAt": "2026-10-17T11:11:45.000Z",
+        "publishedAt": "2026-10-17T14:30:42.000Z",
         "source": "中新网"
       },
       {
-        "title": "让民营企业敢投、愿投、能投",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-17/10716341.shtml",
-        "summary": "【理响中国】让民营企业敢投、愿投、能投",
-        "image": "",
-        "publishedAt": "2026-10-17T10:47:57.000Z",
+        "title": "做世界减贫事业的有力推动者",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-17/10716325.shtml",
+        "summary": "10月17日是国际消除贫困日。",
+        "image": "https://poss-videocloud.cns.com.cn/oss/2026/10/17/chinanews/MEIZI_YUNSHI/onair/35CAF70518AE410CBF16A9F0F963E355.mp4",
+        "publishedAt": "2026-10-17T14:29:35.000Z",
         "source": "中新网"
       },
       {
-        "title": "王沪宁在四川调研时强调 坚持为推进中国式现代化凝心聚力 扎实做好新时代党的民族宗教工作",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-17/10716329.shtml",
-        "summary": "新华社成都10月17日电(记者丁小溪)中共中央政治局常委、全国政协主席王沪宁10月13日至16日在四川成都市、德阳市、甘孜藏族自治州调研。他表示，要以习近平新时代中国特色社会主义思想为指导，深入贯彻落实党的二十届四中全会精神，着眼为实现“十五五”时期发展、推进中国式现代化凝心聚力，扎实抓好铸牢中华民...",
-        "image": "",
-        "publishedAt": "2026-10-17T10:47:15.000Z",
+        "title": "学习手记｜答好“长征三问” 坚定必胜信念",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-17/10716338.shtml",
+        "summary": "“长征中能活下来的有多少人？红军战士靠的是什么？图的是什么呢？”",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/10/17/1007847af1df4664a39eea2ac925c348.png",
+        "publishedAt": "2026-10-17T14:27:55.000Z",
         "source": "中新网"
       }
     ],
     "international": [
+      {
+        "title": "Nursery owner in China jailed for life after hundreds of children poisoned",
+        "link": "https://www.bbc.co.uk/news/articles/cqe9lx54g7x9o?at_medium=RSS&at_campaign=rss",
+        "summary": "She and five staff members were found to have used the inedible paint in meals to make them look more appealing.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5bff/live/9df7c880-ca1d-11f1-a64c-550be9e3c66b.png",
+        "publishedAt": "2026-10-17T12:11:58.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
         "link": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
@@ -475,7 +483,15 @@
         "source": "BBC"
       },
       {
-        "title": "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
+        "title": "Exclusive: Inside Erik Prince’s secretive operation taking on Haiti’s gangs",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE8tblkyTGdPd2dmUm1qOEU1a3p2Ty1WTVhyUjZTejFPN0hsUHJYM3NFQmhBTXNEUkdrN3FFY3NwZlh6VGtOdWlJNUJOYlQ4N3V5VEhDZXEwTFY5OEVDVGVObWVKTGNzNlUydVY3RmU3SUF3Zw?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-10-17T10:00:44.000Z",
+        "source": "CNN"
+      },
+      {
+        "title": "Teacher fought US school attacker before armed dad shot suspect 'multiple times'",
         "link": "https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o?at_medium=RSS&at_campaign=rss",
         "summary": "The 16-year-old suspect previously attended the primary school and had targeted a special educational needs classroom, police say.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7c80/live/72894110-c9b4-11f1-9409-01a8c77950d7.jpg",
@@ -483,28 +499,12 @@
         "source": "BBC"
       },
       {
-        "title": "Katie Zacharia leaving White House role less than five days into job",
-        "link": "https://www.bbc.co.uk/news/articles/c32l4ekpvzl8o?at_medium=RSS&at_campaign=rss",
-        "summary": "Her public debut as press secretary ended with a flurry of media criticism about her credentials and preparedness.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8455/live/c34abe60-c99d-11f1-8844-b58b162b44d4.jpg",
-        "publishedAt": "2026-10-17T09:14:10.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Ukraine targets Russia’s ‘Google’ as the internet becomes a new front line",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOT0ROLUZzSFR2WGJPQldiVWQwVjFBZElTdll4ZGRGNFdkM0llZEl3dDFHRjlrN2JxRW16ZW4xZUhpbk5DU2gxUzR6RmI1MzBFc3V4NXBORDN1Sm53UFN2TGtFQ3EzMTFpaTlwaW5ZTFlnWjdrTjBrYlA5dmVwWm5jRDlnX2I4eXRqM09JX3lR?oc=5",
+        "title": "Three men sentenced to more than 158 years for the killings of Australian, US surfers in Mexico",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQWm0wVER0c2dvem1TdUpZbVZCMWlRaGlUS3VoVjVKQmtaQ25XbTlIaTRpRzBnWm9SNEVHRkhyMDJuU25KbnprLTRUOWFiU29abjYzYjNPUV9wY0lKa213eW8xaDlKQk9ybE1wN21GbDZtSEl0Q243LXlOdUpSVFB4d0g0R0FUWUZoUHc?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-10-17T04:00:45.000Z",
+        "publishedAt": "2026-10-17T05:35:49.000Z",
         "source": "CNN"
-      },
-      {
-        "title": "Three men jailed for 158 years each for murdering Australian and US surfers in Mexico",
-        "link": "https://www.bbc.co.uk/news/articles/c3kgqjkzw29wo?at_medium=RSS&at_campaign=rss",
-        "summary": "Brothers Jake and Callum Robinson and their friend Carter Rhoad were killed on a surfing trip in an apparent botched robbery.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ab9/live/138578c0-c453-11f1-bc2e-018d645d8d21.jpg",
-        "publishedAt": "2026-10-17T03:11:10.000Z",
-        "source": "BBC"
       }
     ],
     "nba": []
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-10-17",
+    "rotationLabel": "Curated Rotation · 2026-10-18",
     "sections": [
       {
         "id": "data-storage",
@@ -522,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-2",
-            "sectionId": "data-storage",
-            "title": "Bigtable: A Distributed Storage System for Structured Data",
-            "authors": [
-              "Fay Chang",
-              "Jeffrey Dean",
-              "Sanjay Ghemawat",
-              "Wilson C. Hsieh"
-            ],
-            "venue": "OSDI",
-            "year": 2006,
-            "quality": "顶会",
-            "categories": [
-              "distributed systems",
-              "database"
-            ],
-            "link": "https://research.google/pubs/pub27898/",
-            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-3",
             "sectionId": "data-storage",
@@ -562,7 +541,7 @@
             ],
             "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
             "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-4",
@@ -584,6 +563,26 @@
             "link": "https://research.google/pubs/pub36632/",
             "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-5",
+            "sectionId": "data-storage",
+            "title": "The FAISS Library",
+            "authors": [
+              "Jeff Johnson",
+              "Matthijs Douze",
+              "Herve Jegou"
+            ],
+            "venue": "IEEE T-BD",
+            "year": 2021,
+            "quality": "高影响力",
+            "categories": [
+              "vector search",
+              "ANN"
+            ],
+            "link": "https://arxiv.org/abs/2401.08281",
+            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -593,27 +592,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-3",
-            "sectionId": "computer-vision",
-            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
-            "authors": [
-              "Alexey Dosovitskiy",
-              "Lucas Beyer",
-              "Alexander Kolesnikov",
-              "Dirk Weissenborn"
-            ],
-            "venue": "ICLR",
-            "year": 2021,
-            "quality": "顶会",
-            "categories": [
-              "vision transformer",
-              "classification"
-            ],
-            "link": "https://arxiv.org/abs/2010.11929",
-            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-4",
             "sectionId": "computer-vision",
@@ -633,7 +611,7 @@
             ],
             "link": "https://arxiv.org/abs/2103.00020",
             "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-5",
@@ -655,6 +633,27 @@
             "link": "https://arxiv.org/abs/2304.02643",
             "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-6",
+            "sectionId": "computer-vision",
+            "title": "DINOv2: Learning Robust Visual Features without Supervision",
+            "authors": [
+              "Maxime Oquab",
+              "Timothée Darcet",
+              "Théo Moutakanni",
+              "Huy V. Vo"
+            ],
+            "venue": "arXiv / Meta",
+            "year": 2023,
+            "quality": "高影响力",
+            "categories": [
+              "self-supervised",
+              "representation"
+            ],
+            "link": "https://arxiv.org/abs/2304.07193",
+            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -664,27 +663,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-4",
-            "sectionId": "llm-memory",
-            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
-            "authors": [
-              "Akari Asai",
-              "Zequn Zhang",
-              "Avirup Sil",
-              "Hannaneh Hajishirzi"
-            ],
-            "venue": "ICLR",
-            "year": 2024,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "self-reflection"
-            ],
-            "link": "https://arxiv.org/abs/2310.11511",
-            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-5",
             "sectionId": "llm-memory",
@@ -704,7 +682,7 @@
             ],
             "link": "https://arxiv.org/abs/2306.07174",
             "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-6",
@@ -726,6 +704,27 @@
             "link": "https://arxiv.org/abs/2409.05591",
             "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-1",
+            "sectionId": "llm-memory",
+            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+            "authors": [
+              "Patrick Lewis",
+              "Ethan Perez",
+              "Aleksandra Piktus",
+              "Fabio Petroni"
+            ],
+            "venue": "NeurIPS",
+            "year": 2020,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "retrieval"
+            ],
+            "link": "https://arxiv.org/abs/2005.11401",
+            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -735,27 +734,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-5",
-            "sectionId": "agents",
-            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
-            "authors": [
-              "Qingyun Wu",
-              "Gagan Bansal",
-              "Jiaqi Zhang",
-              "Yiran Wu"
-            ],
-            "venue": "COLM",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "multi-agent",
-              "framework"
-            ],
-            "link": "https://arxiv.org/abs/2308.08155",
-            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-6",
             "sectionId": "agents",
@@ -775,7 +753,7 @@
             ],
             "link": "https://arxiv.org/abs/2405.15793",
             "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-1",
@@ -797,6 +775,27 @@
             ],
             "link": "https://arxiv.org/abs/2210.03629",
             "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-2",
+            "sectionId": "agents",
+            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+            "authors": [
+              "Timo Schick",
+              "Jane Dwivedi-Yu",
+              "Roberta Dessì",
+              "Ari Holtzman"
+            ],
+            "venue": "NeurIPS",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "tool use",
+              "agent"
+            ],
+            "link": "https://arxiv.org/abs/2302.04761",
+            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
             "trackLabel": "轮换精选"
           }
         ]
