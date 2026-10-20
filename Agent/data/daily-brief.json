@@ -1,86 +1,95 @@
 {
-  "generatedAt": "2026-10-20T13:30:58.620Z",
+  "generatedAt": "2026-10-20T19:57:58.528Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 9,
+      "temperature": 4,
       "weatherCode": 0,
-      "windSpeed": 12
+      "windSpeed": 5
     },
     "today": {
-      "date": "2026-10-20",
-      "weatherCode": 53,
-      "description": "小雨",
-      "max": 13,
-      "min": 7,
-      "precipitationProbability": 97
+      "date": "2026-10-21",
+      "weatherCode": 0,
+      "description": "晴朗",
+      "max": 15,
+      "min": 3,
+      "precipitationProbability": 0
     },
     "forecast": [
-      {
-        "date": "2026-10-20",
-        "weatherCode": 53,
-        "description": "小雨",
-        "max": 13,
-        "min": 7,
-        "precipitationProbability": 97
-      },
       {
         "date": "2026-10-21",
         "weatherCode": 0,
         "description": "晴朗",
         "max": 15,
-        "min": 2,
+        "min": 3,
         "precipitationProbability": 0
       },
       {
         "date": "2026-10-22",
-        "weatherCode": 3,
-        "description": "阴天",
+        "weatherCode": 2,
+        "description": "局部多云",
         "max": 15,
         "min": 3,
-        "precipitationProbability": 8
+        "precipitationProbability": 2
       },
       {
         "date": "2026-10-23",
         "weatherCode": 3,
         "description": "阴天",
         "max": 15,
-        "min": 6,
-        "precipitationProbability": 6
+        "min": 5,
+        "precipitationProbability": 1
       },
       {
         "date": "2026-10-24",
-        "weatherCode": 2,
-        "description": "局部多云",
+        "weatherCode": 1,
+        "description": "基本晴",
         "max": 17,
         "min": 7,
-        "precipitationProbability": 22
+        "precipitationProbability": 6
+      },
+      {
+        "date": "2026-10-25",
+        "weatherCode": 55,
+        "description": "中雨",
+        "max": 12,
+        "min": 10,
+        "precipitationProbability": 67
       }
     ]
   },
   "classicQuote": {
-    "id": "dream-red-mansions",
-    "text": "世事洞明皆学问，人情练达即文章。",
-    "source": "《红楼梦》",
-    "author": "曹雪芹",
-    "note": "技术之外，理解人和场景，往往更能拉开差距。"
+    "id": "mencius-perseverance",
+    "text": "虽千万人，吾往矣。",
+    "source": "《孟子》",
+    "author": "孟子",
+    "note": "认准方向之后，关键是稳稳地往前走。"
   },
   "bookExcerpt": {
-    "id": "floating-life-lotus",
-    "text": "芸坐其侧，素手烹茶，窗外新荷微香，连晚风也像带着水意，从竹帘间一寸寸地漫进来。",
-    "book": "《浮生六记》",
-    "author": "沈复"
+    "id": "red-mansion-snow",
+    "text": "只见大地白茫茫一片真干净，山川树木都隐在雪光里，天地像忽然静下来，只余风过回廊的细响。",
+    "book": "《红楼梦》",
+    "author": "曹雪芹"
   },
   "featuredPlace": {
-    "id": "202610191600",
-    "title": "褐喉三趾树懒，塔拉曼卡旧港，哥斯达黎加",
+    "id": "202610201600",
+    "title": "香江上的阮潢桥，顺化，越南",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "慢节奏生活",
-    "image": "https://www.bing.com/th?id=OHR.BrownSloth_ZH-CN5776383136_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E5%9B%BD%E9%99%85%E6%A0%91%E6%87%92%E6%97%A5&form=hpcapt&mkt=zh-cn"
+    "summary": "飞掠河面",
+    "image": "https://www.bing.com/th?id=OHR.VietnamBridge_ZH-CN6134321119_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E8%B6%8A%E5%8D%97%E9%A1%BA%E5%8C%96%E5%B8%82&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202610201600",
+      "title": "香江上的阮潢桥，顺化，越南",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "飞掠河面",
+      "image": "https://www.bing.com/th?id=OHR.VietnamBridge_ZH-CN6134321119_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E8%B6%8A%E5%8D%97%E9%A1%BA%E5%8C%96%E5%B8%82&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202610191600",
       "title": "褐喉三趾树懒，塔拉曼卡旧港，哥斯达黎加",
@@ -143,175 +152,166 @@
       "summary": "穿越时间的螺旋",
       "image": "https://www.bing.com/th?id=OHR.AmmoniteFossils_ZH-CN5825251327_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E5%9B%BD%E5%AE%B6%E5%8C%96%E7%9F%B3%E6%97%A5&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202610121600",
-      "title": "普利特维采湖群国家公园，克罗地亚",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "蓝与绿的交响曲",
-      "image": "https://www.bing.com/th?id=OHR.PlitviceAutumn_ZH-CN5646237897_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E6%99%AE%E5%88%A9%E7%89%B9%E7%BB%B4%E9%87%87%E6%B9%96%E7%BE%A4%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-10-20",
-    "dateLabel": "10月20日",
+    "dateKey": "2026-10-21",
+    "dateLabel": "10月21日",
     "items": [
       {
-        "year": "2023",
-        "text": "緬甸北部果敢電信詐騙園區「臥虎山莊」在轉移詐騙分子的過程中發生大規模屠殺事件，造成約70名中國公民遇害，其中有4人据称為中國公安臥底（后辟谣）。事件被認為是緬甸民族民主同盟軍向緬甸政府...",
-        "link": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4"
+        "year": "2025",
+        "text": "日本國會選舉自由民主黨總裁高市早苗為首位女性內閣總理大臣。",
+        "link": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4"
       },
       {
-        "year": "2022",
-        "text": "英国首相莉茲·特拉斯宣布辞职，但在英国保守党决定新党魁前将会继续作为英国首相。",
-        "link": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4"
+        "year": "2020",
+        "text": "國泰航空宣布大幅裁員8,500人，其中5,300名為香港員工，並宣布有35年歷史的國泰港龍航空即日停止營運。",
+        "link": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "四川省南充市嘉陵区人民政府原党组成员、副区长任毅被“双开”",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-20/10718089.shtml",
-        "summary": "中新网成都10月20日电 (记者 张浪)四川省南充市纪委监委20日消息：日前，经南充市委批准，南充市纪委监委对南充市嘉陵区人民政府原党组成员、副区长任毅严重违纪违法问题进行了立案审查调查。",
-        "image": "",
-        "publishedAt": "2026-10-20T12:32:46.000Z",
+        "title": "国考报名时间过半，热门岗位报录比超2800:1",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-21/10718213.shtml",
+        "summary": "中新网北京10月21日电(记者 李京统)2027年度国考报名已经过半，报名热度持续攀升，热门岗位报录比超2800:1。",
+        "image": "https://i2.chinanews.com.cn/simg/hd/2025/11/30/4-426/mdmedia_3845629c618547e9913cb6199a266200.jpeg",
+        "publishedAt": "2026-10-20T16:01:37.000Z",
         "source": "中新网"
       },
       {
-        "title": "西藏出台陆生野生动物致害补偿地方性法规 补偿周期缩短至一个月",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-20/10718091.shtml",
-        "summary": "中新网拉萨10月20日电 (记者 江飞波)西藏是中国野生动物种类最为丰富的省区之一。西藏自治区人大20日举行新闻发布会介绍，《西藏自治区陆生野生动物致害补偿若干规定》近日出台，将于2027年1月1日起施行。新规进一步明晰补偿标准、办理程序和经费保障，补偿周期由原来的约三个月缩短至一个月。",
+        "title": "刘海星分别会见意大利、阿联酋客人",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-20/10718211.shtml",
+        "summary": "新华社北京10月20日电 10月20日，中共中央对外联络部部长刘海星在北京分别会见党的副主席、参议院外委会副主席利凯里率领的意大利五星运动代表团和阿布扎比执行办公室代理主任卡比率领的阿联酋第一梯队领导人才代表团，就加强双边交流合作、推动国家关系发展等交换意见。",
         "image": "",
-        "publishedAt": "2026-10-20T12:32:10.000Z",
+        "publishedAt": "2026-10-20T15:37:38.000Z",
         "source": "中新网"
       },
       {
-        "title": "四川省攀枝花市公安局党委委员、副局长蒋光红接受纪律审查和监察调查",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-20/10718079.shtml",
-        "summary": "中新网成都10月20日电 (记者 张浪)四川省攀枝花市纪委监委20日消息：攀枝花市公安局党委委员、副局长蒋光红涉嫌严重违纪违法，目前正接受攀枝花市纪委监委纪律审查和监察调查。",
+        "title": "中埃签署地震减灾合作谅解备忘录 深化地震监测预警合作",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-20/10718197.shtml",
+        "summary": "中新网北京10月20日电 (记者 孙自法)据中国地震局10月20日消息，近日，中国地震局与埃及高教科研部国家天文和地球物理研究所签署地震减灾合作谅解备忘录，就深化地震监测预警等领域合作达成共识。",
         "image": "",
-        "publishedAt": "2026-10-20T12:24:47.000Z",
+        "publishedAt": "2026-10-20T15:00:04.000Z",
         "source": "中新网"
       },
       {
-        "title": "西藏自治区人大出台民族团结进步促进法实施决定",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-20/10718072.shtml",
-        "summary": "中新网拉萨10月20日电 (记者 江飞波)西藏自治区人大常委会近日通过《西藏自治区人民代表大会常务委员会关于全面贯彻实施〈中华人民共和国民族团结进步促进法〉的决定》(以下简称决定)，以9条内容明确该法在西藏贯彻实施的重点任务和保障措施。西藏自治区人大常委会办公厅副主任马伟茗20日在新闻发布会上表示，...",
+        "title": "长征文物资源家底基本摸清",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-20/10718191.shtml",
+        "summary": "新华社北京10月20日电(记者徐壮)记者从国家文物局了解到，我国长征文物资源家底基本摸清。全国长征主题不可移动文物2100余处，第四次全国文物普查新发现长征遗址遗迹63处。长征主题纪念设施以纪念馆、纪念碑、烈士墓、陵园居多，其中长征纪念馆74个，国家级烈士纪念设施21处、省级烈士纪念设施11处，已被...",
         "image": "",
-        "publishedAt": "2026-10-20T12:17:21.000Z",
+        "publishedAt": "2026-10-20T14:42:31.000Z",
         "source": "中新网"
       },
       {
-        "title": "重庆力争到2030年基本建成知识产权强市",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-20/10718066.shtml",
-        "summary": "中新网重庆10月20日电 (记者 钟旖)20日在重庆举行的“开局起步十五五·建设现代化新重庆”——《重庆市“十五五”知识产权保护和运用规划(2026—2030年)》(以下简称《规划》)解读新闻发布会上，重庆市知识产权局局长何大伟表示，重庆力争到2030年基本建成知识产权强市，知识产权综合实力进入全国...",
-        "image": "",
-        "publishedAt": "2026-10-20T12:16:05.000Z",
+        "title": "2026年“中国新闻传播大讲堂”启动",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-20/10718187.shtml",
+        "summary": "中新网北京10月20日电 2026年“中国新闻传播大讲堂”20日在京启动。今年的大讲堂以“扎根人民 书写时代：记者的初心与使命”为主题，邀请来自全国22家媒体单位的32位优秀新闻工作者担任主讲人，围绕新闻采写、深度报道、新闻评论、国际传播和记者成长成才等内容板块，录制了32集课程视频。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261020/14096af7-5c54-4dd1-b291-36b08ffb4e09_zsite.jpeg",
+        "publishedAt": "2026-10-20T14:39:28.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "意大利街头艺术家“但丁爷爷”现身开封，与游客亲切互动",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-20/10718131.shtml",
-        "summary": "原标题：意大利街头艺术家“但丁爷爷”现身开封，与游客亲切互动，游客“感觉到打动人心的信念感，不白来！”",
-        "image": "https://poss-videocloud.cns.com.cn/oss/2026/10/20/chinanews/MEIZI_YUNSHI/onair/F9980253ACD94FAAAB8729763BBBF8C5.mp4",
-        "publishedAt": "2026-10-20T13:29:37.000Z",
+        "title": "邯郸涉县“独臂信使”：五十载坚守报答乡土恩情",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-20/10718206.shtml",
+        "summary": "中新网邯郸10月20日电 题：邯郸涉县“独臂信使”：五十载坚守报答乡土恩情",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261020/615ae21a-66fa-4c98-916f-dec04aa5be41_zsite.jpg",
+        "publishedAt": "2026-10-20T15:26:01.000Z",
         "source": "中新网"
       },
       {
-        "title": "广东农村地区“一老一小”流感疫苗免费接种开打",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-20/10718125.shtml",
-        "summary": "中新网广州10月20日电 (记者 蔡敏婕)广东省疾控局20日发布消息称，今年广东省农村地区的65岁以上老年人和义务教育阶段中小学生可免费接种流感疫苗，相关接种工作已经开始。",
+        "title": "2026年农村创业大赛全国总决赛在浙江举行 技术赋能作用凸显",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-20/10718205.shtml",
+        "summary": "中新网绍兴10月20日电(项菁)“以往茶叶口感依靠人的感官品鉴，近些年我们运用数字技术、智能设备，对龙井茶风味建立量化指标，以数字指标定义茶叶标准，解决了茶叶标准化难、风味不稳定的痛点。”在龙井茶重要产区——浙江绍兴新昌县，农创客张黎20日受访时说。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261020/281f3d5e-91f5-403d-bd8e-bb609cded024_zsite.jpg",
+        "publishedAt": "2026-10-20T15:25:29.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "2026第八届“文化北海”建设活动周启幕 以文润城",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-20/10718204.shtml",
+        "summary": "中新网北海10月20日电(翟李强)10月20日，随着大型舞剧《大浪千帆》的大幕在广西北海市人民剧场徐徐拉开，舞者随着韵律翩跹，两千年前海丝古港筑港图景跃然舞台，2026第八届“文化北海”建设活动周就此启幕。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261020/82c6b32a-72cd-4957-8471-5d51b37d4ec7_zsite.JPG",
+        "publishedAt": "2026-10-20T15:24:33.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "全国医保影像AI识图大赛决赛将在广西南宁举行",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-20/10718201.shtml",
+        "summary": "中新网南宁10月20日电(记者 黄艳梅)记者20日从全国医保影像AI识图大赛组委会获悉，由中国国家医疗保障局与广西壮族自治区人民政府联合主办的全国医保影像AI识图大赛，将于10月22日至23日在广西南宁迎来线下竞技，展开最终角逐。",
         "image": "",
-        "publishedAt": "2026-10-20T13:19:56.000Z",
+        "publishedAt": "2026-10-20T15:20:43.000Z",
         "source": "中新网"
       },
       {
-        "title": "中国与阿塞拜疆青年在新疆赴“青春之约”",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-20/10718097.shtml",
-        "summary": "中新社乌鲁木齐10月20日电 (记者 苟继鹏)“我见过机器人，但像这样能跳街舞、表演中国功夫的机器人还是第一次见到。”阿塞拜疆纳希切万国立大学学生侯赛因·塔希罗夫20日在乌鲁木齐市接受中新社记者采访时说。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261020/04b44b9a-eec3-4206-901c-9267bde3d770_zsite.jpg",
-        "publishedAt": "2026-10-20T13:17:18.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "宁夏地级城市建成区13条黑臭水体全部消除 未发生返黑返臭",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-20/10718110.shtml",
-        "summary": "中新网银川10月20日电 (记者 于晶)10月20日记者从宁夏回族自治区住房和城乡建设厅获悉，目前宁夏地级城市建成区13条黑臭水体已全部消除，未出现返黑返臭现象；12个县城(含红寺堡区)建成区经排查，未发现黑臭水体。",
-        "image": "",
-        "publishedAt": "2026-10-20T13:14:18.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "宁夏4307名河湖长守护全域河湖 黄河干流宁夏段水质连续9年保持Ⅱ类",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-20/10718117.shtml",
-        "summary": "中新网银川10月20日电 (记者 于晶)10月20日，记者从“全面推行河湖长制10周年 奋力绘就人水和谐新画卷”新闻发布会获悉，推行河湖长制10年来，宁夏建成五级河湖管护体系，4307名区、市、县、乡、村五级河湖长全覆盖管护907条河流、61个湖泊，黄河干流宁夏段水质连续9年稳定保持Ⅱ类进出。",
-        "image": "",
-        "publishedAt": "2026-10-20T13:13:16.000Z",
+        "title": "全国教育系统关工委主题教育活动成果展示在北京举办",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-20/10718200.shtml",
+        "summary": "中新网北京10月20日电 (记者 陈杭)记者20日从北京市委教育工委获悉，“立德树人 与爱同行”全国教育系统关工委主题教育活动成果展示在中国人民大学举办。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261020/51096d42-cadd-4473-aaae-34409125159d_zsite.jpg",
+        "publishedAt": "2026-10-20T15:05:20.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "青藏集团公司今年货物发送量同比上升8.3%",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-20/10718124.shtml",
-        "summary": "中新网西宁10月20日电(祁增蓓 桂连鑫 张艳)记者20日从中国铁路青藏集团有限公司(以下简称：青藏集团公司)2026年度铁路战略合作客户大会获悉，今年以来，青藏集团公司货物发送量同比上升8.3%；先后实现青藏高原直通东盟、青海直达中亚两大“零的突破”，内外铁路物流通道持续拓宽。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261020/dfdbf790-ac21-4738-b85d-ef2d50057006_zsite.jpg",
-        "publishedAt": "2026-10-20T13:18:18.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "湖南永州开放34个AI应用场景 打造绿能智算产业高地",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-20/10718121.shtml",
-        "summary": "中新网永州10月20日电 (记者 唐小晴)湖南永州市20日对外发布首批34个“人工智能+”开放应用场景，涵盖智慧教育、文旅文创、智慧农业、交通治理、社会治理、智能制造、智慧医疗七大领域，适配具身智能、AIGC微短剧与游戏、跨境电商、AI硬件制造、AI智能体五大赛道。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261020/f844e2f4-2d1c-4826-9d51-b039b31d3283_zsite.jpg",
-        "publishedAt": "2026-10-20T13:16:14.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "足球世界杯效应持续 9月中国彩票销售大涨27.3%",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-20/10718103.shtml",
-        "summary": "中新社北京10月20日电 (记者 赵建华)中国财政部20日公布的数据显示，今年9月份，全国共销售彩票673.89亿元(人民币，下同)，同比增长27.3%。其中，福利彩票机构销售165.69亿元，下降5%；体育彩票机构销售508.20亿元，增长43.2%。",
+        "title": "商务部回应美发布针对中企的联邦采购排除和移除命令通知",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-21/10718216.shtml",
+        "summary": "中新社北京10月20日电 (记者 尹倩芸)就美国土安全部发布针对中国企业的联邦采购排除和移除命令通知，中国商务部新闻发言人20日晚间称，中方对此强烈不满、坚决反对。",
         "image": "",
-        "publishedAt": "2026-10-20T13:15:42.000Z",
+        "publishedAt": "2026-10-20T16:34:29.000Z",
         "source": "中新网"
       },
       {
-        "title": "苏州阳澄湖大闸蟹近期价格保持稳定",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-20/10718099.shtml",
-        "summary": "中新社江苏苏州10月20日电 (记者 钟升)秋风起，蟹脚痒，又是一年大闸蟹上市时。中新社记者20日前往苏州阳澄湖周边了解大闸蟹产销情况，多位蟹农表示，今年阳澄湖大闸蟹的价格较去年略微下降，但近期价格保持稳定。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261020/d44b1662-b858-4ccc-86e6-5311a313e00a_zsite.jpg",
-        "publishedAt": "2026-10-20T13:15:00.000Z",
+        "title": "美以窃取商业秘密为由制裁中企 中国商务部回应",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-21/10718214.shtml",
+        "summary": "中新社北京10月20日电 (记者 尹倩芸)就美以窃取商业秘密为由制裁中国企业，中国商务部新闻发言人20日晚间表示，中方坚决反对美方污名化中国企业并实施制裁，敦促美方尽快纠正错误做法。",
+        "image": "",
+        "publishedAt": "2026-10-20T16:14:06.000Z",
         "source": "中新网"
       },
       {
-        "title": "2026中欧企业家青岛论坛将举办 首次聚焦国企、民企、外企协同发展",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-20/10718113.shtml",
-        "summary": "中新网青岛10月20日电 (张孝鹏)记者从青岛市官方20日举行的新闻发布会上获悉，2026中欧企业家青岛论坛将于10月26日至27日在青岛西海岸新区举办。本届论坛首次聚焦国企、民企、外企协同发展，拟邀请海内外业界专家、企业负责人、商协会代表等参会，总规模约300人。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261020/7f832072-fd06-4ed3-83ab-49ac0ebf54b6_zsite.jpeg",
-        "publishedAt": "2026-10-20T13:14:00.000Z",
+        "title": "2026中国品牌国际化论坛在海口开幕 探讨中国品牌出海路径",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-20/10718202.shtml",
+        "summary": "中新网海口10月20日电 (记者 王子谦)以“潮涌自贸港·品牌链全球”为主题的2026中国品牌国际化论坛20日在海口开幕。论坛汇聚超2000名中外嘉宾，共同探讨中国品牌从“产品出海”迈向“品牌出海”的战略路径。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261020/8e17d7b8-65e4-4241-ac11-0efd759fad7c_zsite.jpg",
+        "publishedAt": "2026-10-20T15:21:35.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "报告称高碳行业转型、气候适应与生态保护蕴藏巨大投资就业潜力",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-20/10718198.shtml",
+        "summary": "中新网上海10月20日电 (高志苗)20日，在由中国金融四十人论坛(CF40)与清华大学联合主办的2026外滩年会上，《外滩绿色金融报告》(下称“报告”)发布。本次报告主题为“绿色低碳协同发展及金融支持研究”。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261020/838956b1-718b-4bb8-8537-bdc2c0a87f2a_zsite.jpeg",
+        "publishedAt": "2026-10-20T15:00:46.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "金融支持建设北京（京津冀）国际科技创新中心实施方案在京发布",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-20/10718180.shtml",
+        "summary": "中新网北京10月20日电 (记者 吕少威 迟瀚宇)2026金融街论坛年会金融支持北京(京津冀)国际科创中心建设专场活动20日在京举办。活动上，《金融支持建设北京(京津冀)国际科技创新中心实施方案》(以下简称《实施方案》)发布，聚焦国际科技创新中心核心功能建设、京津冀创新协同和产业协作，出台一系列政策...",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261020/dfa5b2bf-aca5-49d2-8ef7-bb89f6d61bf1_zsite.jpg",
+        "publishedAt": "2026-10-20T14:27:12.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "Kenya cult leader's children still being starved weeks before trial, son says",
-        "link": "https://www.bbc.co.uk/news/articles/c6d7q2rxqxgxo?at_medium=RSS&at_campaign=rss",
-        "summary": "Dan Mackenzie initially defended his father but now says he felt he had to report his own grandmother.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/26e3/live/1f907b20-cc6d-11f1-baeb-8d65d4bcd7ab.jpg",
-        "publishedAt": "2026-10-20T13:23:32.000Z",
+        "title": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
+        "link": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss",
+        "summary": "A truck carrying people to a funeral and a market alleged to be supplying fuel to the RSF were targeted.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/008d/live/4e35d850-cc8e-11f1-bc2e-018d645d8d21.png",
+        "publishedAt": "2026-10-20T17:30:15.000Z",
         "source": "BBC"
       },
       {
-        "title": "Zelensky prepares for Oslo talks with US envoys as Rubio denies withholding intelligence",
-        "link": "https://www.bbc.co.uk/news/articles/ck9qzn193lrlo?at_medium=RSS&at_campaign=rss",
-        "summary": "The US secretary of state rejects accusations Ukrainians were dying because the US was withholding intelligence.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/20fb/live/f03704d0-cc7a-11f1-bed8-c51b95c602ec.jpg",
-        "publishedAt": "2026-10-20T12:08:41.000Z",
+        "title": "'Great result for Canada', says Carney as Alberta votes to reject separatism",
+        "link": "https://www.bbc.co.uk/news/articles/cxr5yqqd7nlpo?at_medium=RSS&at_campaign=rss",
+        "summary": "The Canadian province has voted overwhelmingly to remain part of Canada, though deep political divisions endure.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f36/live/37d43d30-cc67-11f1-b1a3-5bda642ff934.jpg",
+        "publishedAt": "2026-10-20T16:59:06.000Z",
         "source": "BBC"
       },
       {
@@ -341,47 +341,71 @@
     ],
     "worldBusiness": [
       {
+        "title": "Trump sued over Canadian tariffs in latest legal challenge",
+        "link": "https://www.bbc.co.uk/news/articles/cqrkyj13m588o?at_medium=RSS&at_campaign=rss",
+        "summary": "The lawsuit argues the White House exceeded its authority in imposing the latest tariffs on the country and caused \"immediate harm to American busines...",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/18fe/live/5bca92c0-ccb7-11f1-a64c-550be9e3c66b.jpg",
+        "publishedAt": "2026-10-20T19:30:05.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Google resolves cloud outage affecting UK banks and websites",
+        "link": "https://www.bbc.co.uk/news/articles/cxdd8mm6qy4mo?at_medium=RSS&at_campaign=rss",
+        "summary": "Revolut was one of the hardest hit, with banking services going down for many customers.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f03a/live/ea64c5b0-ccac-11f1-8789-fd6bb060c3f9.jpg",
+        "publishedAt": "2026-10-20T18:03:19.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "UK government to make Jackdaw gas field announcement",
+        "link": "https://www.bbc.co.uk/news/articles/cvze4wx3elj1o?at_medium=RSS&at_campaign=rss",
+        "summary": "The long-awaited decision about the controversial North Sea field is expected on Wednesday morning.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f31e/live/85d6bcc0-ccac-11f1-8789-fd6bb060c3f9.jpg",
+        "publishedAt": "2026-10-20T17:33:42.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "Paddy Power cuts 1,400 jobs and blames betting tax rises",
         "link": "https://www.bbc.co.uk/news/articles/cqzrdpkm3g84o?at_medium=RSS&at_campaign=rss",
         "summary": "The government increased taxes on online casino and sports betting in last year's Budget.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/826e/live/4d1d92e0-cc80-11f1-9a39-31b474234113.jpg",
-        "publishedAt": "2026-10-20T13:07:49.000Z",
+        "publishedAt": "2026-10-20T15:53:13.000Z",
         "source": "BBC"
       },
       {
-        "title": "Jobless rate falls but small firms cut back hiring",
-        "link": "https://www.bbc.co.uk/news/articles/c6eq327pzr53o?at_medium=RSS&at_campaign=rss",
-        "summary": "Small firms cite labour costs as a key factor in scaling back hiring, the Office for National Statistics says.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c778/live/bb751480-cc48-11f1-9a30-cb277859b43a.jpg",
-        "publishedAt": "2026-10-20T11:26:48.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "'I'm fed up of swiping': The singles choosing dating events over apps",
-        "link": "https://www.bbc.co.uk/news/articles/cj62y9dnd6pwo?at_medium=RSS&at_campaign=rss",
-        "summary": "The BBC hears from people who think dating events are better value for money than dating apps.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6ca8/live/4a070320-cbc7-11f1-9a39-31b474234113.jpg",
-        "publishedAt": "2026-10-20T10:28:36.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Chancellor rejects calls to raise Capital Gains Tax in Budget",
-        "link": "https://www.bbc.co.uk/news/articles/c50me4w4x1vyo?at_medium=RSS&at_campaign=rss",
-        "summary": "Influential Labour figures had been pushing for equalising CGT and income tax, but critics have said this could drive wealthy people out of Britain.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/95e7/live/6cd357a0-cc17-11f1-b7d0-7f346cefa9a9.jpg",
-        "publishedAt": "2026-10-20T10:06:34.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Burnham vows end to 'rip-off parking charges' under new rules",
-        "link": "https://www.bbc.co.uk/news/articles/ck87ze7wl4qno?at_medium=RSS&at_campaign=rss",
-        "summary": "The changes come after concerns that penalties issued by private providers are too harsh and leave motorists unfairly punished.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a50c/live/322c6e70-cc62-11f1-9a39-31b474234113.jpg",
-        "publishedAt": "2026-10-20T08:55:02.000Z",
+        "title": "Union attacks NatWest plans to get workers back to the office",
+        "link": "https://www.bbc.co.uk/news/articles/cmly0qwnlgdvo?at_medium=RSS&at_campaign=rss",
+        "summary": "The bank says workers will be required to attend the office at least two days a week from February.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7ac8/live/b29c3c60-cc8b-11f1-bed8-c51b95c602ec.jpg",
+        "publishedAt": "2026-10-20T14:50:19.000Z",
         "source": "BBC"
       }
     ],
     "worldTech": [
+      {
+        "title": "OpenAI CEO Sam Altman wins dismissal of sister's lawsuit",
+        "link": "https://www.bbc.co.uk/news/articles/c94g1502el58o?at_medium=RSS&at_campaign=rss",
+        "summary": "A US district judge dismissed the case after Ann Altman had refused to attend an independent medical examination.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4b56/live/9be50560-cc9f-11f1-94e6-edd4c60b2e1d.jpg",
+        "publishedAt": "2026-10-20T19:42:32.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Google resolves cloud outage affecting UK banks and websites",
+        "link": "https://www.bbc.co.uk/news/articles/cxdd8mm6qy4mo?at_medium=RSS&at_campaign=rss",
+        "summary": "Revolut was one of the hardest hit, with banking services going down for many customers.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f03a/live/ea64c5b0-ccac-11f1-8789-fd6bb060c3f9.jpg",
+        "publishedAt": "2026-10-20T18:03:19.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Christina Applegate, a leading MS advocate, says doctors found she doesn’t have the disease after all",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaWdTSUUxUjM5eUVZRjZNUFpwVzBTRm9LbV8yVjgyYkF4cVNnTE9ROUxlTjZTSnUtU1NYeUdBcFF5MXFWNUhab05hS3c4Z2ZuZUVqSTFXZW1vMmg0TWVBMEM3RDNUYlR4SWNsV3pYZndZNzFESHppTmtMLUE5eXNVWlVSeGZJeDg?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-10-20T16:14:37.000Z",
+        "source": "CNN"
+      },
       {
         "title": "UK asks Apple to widen access to its payment tech",
         "link": "https://www.bbc.co.uk/news/articles/cqm26zzl0k12o?at_medium=RSS&at_campaign=rss",
@@ -391,95 +415,71 @@
         "source": "BBC"
       },
       {
-        "title": "Google Cloud says 'power event' behind outage hitting UK banks and websites",
-        "link": "https://www.bbc.co.uk/news/articles/cxdd8mm6qy4mo?at_medium=RSS&at_campaign=rss",
-        "summary": "It has since been linked to a number of services, most notably British neobank Revolut, going down for customers or suffering problems on Tuesday morn...",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4333/live/71103e60-cc61-11f1-b1a3-5bda642ff934.jpg",
-        "publishedAt": "2026-10-20T12:09:25.000Z",
-        "source": "BBC"
-      },
-      {
         "title": "Ex-OpenAI worker accused of planting bug had Saudi support, claims prosecutors",
         "link": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo?at_medium=RSS&at_campaign=rss",
         "summary": "Abdulrahman Alfozan, who is accused of planting a recording device, has been denied bail.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ad18/live/95af9980-cbd2-11f1-aba9-2bb2608f11d9.png",
         "publishedAt": "2026-10-19T21:12:30.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "US bans China's DeepSeek from government in race for AI dominance",
-        "link": "https://www.bbc.co.uk/news/articles/cjkgeq0k1wevo?at_medium=RSS&at_campaign=rss",
-        "summary": "The Chinese technology is removed from most US government agencies as race for AI dominance steps up.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/76fb/live/a102f4a0-cbe9-11f1-ad7b-fd8c269705fe.jpg",
-        "publishedAt": "2026-10-19T18:21:54.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Uber wins bid to throw out £200m black cab claims",
-        "link": "https://www.bbc.co.uk/news/articles/cv5ynp1j45x2o?at_medium=RSS&at_campaign=rss",
-        "summary": "Claims that Uber misled TfL over its licence were thrown out because they were brought too late.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/55c0/live/e258cdd0-0819-11ef-8205-3fa833ece17b.jpg",
-        "publishedAt": "2026-10-19T12:58:39.000Z",
-        "source": "BBC"
       }
     ],
     "domestic": [
       {
-        "title": "四川省南充市嘉陵区人民政府原党组成员、副区长任毅被“双开”",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-20/10718089.shtml",
-        "summary": "中新网成都10月20日电 (记者 张浪)四川省南充市纪委监委20日消息：日前，经南充市委批准，南充市纪委监委对南充市嘉陵区人民政府原党组成员、副区长任毅严重违纪违法问题进行了立案审查调查。",
-        "image": "",
-        "publishedAt": "2026-10-20T12:32:46.000Z",
+        "title": "国考报名时间过半，热门岗位报录比超2800:1",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-21/10718213.shtml",
+        "summary": "中新网北京10月21日电(记者 李京统)2027年度国考报名已经过半，报名热度持续攀升，热门岗位报录比超2800:1。",
+        "image": "https://i2.chinanews.com.cn/simg/hd/2025/11/30/4-426/mdmedia_3845629c618547e9913cb6199a266200.jpeg",
+        "publishedAt": "2026-10-20T16:01:37.000Z",
         "source": "中新网"
       },
       {
-        "title": "西藏出台陆生野生动物致害补偿地方性法规 补偿周期缩短至一个月",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-20/10718091.shtml",
-        "summary": "中新网拉萨10月20日电 (记者 江飞波)西藏是中国野生动物种类最为丰富的省区之一。西藏自治区人大20日举行新闻发布会介绍，《西藏自治区陆生野生动物致害补偿若干规定》近日出台，将于2027年1月1日起施行。新规进一步明晰补偿标准、办理程序和经费保障，补偿周期由原来的约三个月缩短至一个月。",
+        "title": "刘海星分别会见意大利、阿联酋客人",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-20/10718211.shtml",
+        "summary": "新华社北京10月20日电 10月20日，中共中央对外联络部部长刘海星在北京分别会见党的副主席、参议院外委会副主席利凯里率领的意大利五星运动代表团和阿布扎比执行办公室代理主任卡比率领的阿联酋第一梯队领导人才代表团，就加强双边交流合作、推动国家关系发展等交换意见。",
         "image": "",
-        "publishedAt": "2026-10-20T12:32:10.000Z",
+        "publishedAt": "2026-10-20T15:37:38.000Z",
         "source": "中新网"
       },
       {
-        "title": "四川省攀枝花市公安局党委委员、副局长蒋光红接受纪律审查和监察调查",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-20/10718079.shtml",
-        "summary": "中新网成都10月20日电 (记者 张浪)四川省攀枝花市纪委监委20日消息：攀枝花市公安局党委委员、副局长蒋光红涉嫌严重违纪违法，目前正接受攀枝花市纪委监委纪律审查和监察调查。",
+        "title": "中埃签署地震减灾合作谅解备忘录 深化地震监测预警合作",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-20/10718197.shtml",
+        "summary": "中新网北京10月20日电 (记者 孙自法)据中国地震局10月20日消息，近日，中国地震局与埃及高教科研部国家天文和地球物理研究所签署地震减灾合作谅解备忘录，就深化地震监测预警等领域合作达成共识。",
         "image": "",
-        "publishedAt": "2026-10-20T12:24:47.000Z",
+        "publishedAt": "2026-10-20T15:00:04.000Z",
         "source": "中新网"
       },
       {
-        "title": "西藏自治区人大出台民族团结进步促进法实施决定",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-20/10718072.shtml",
-        "summary": "中新网拉萨10月20日电 (记者 江飞波)西藏自治区人大常委会近日通过《西藏自治区人民代表大会常务委员会关于全面贯彻实施〈中华人民共和国民族团结进步促进法〉的决定》(以下简称决定)，以9条内容明确该法在西藏贯彻实施的重点任务和保障措施。西藏自治区人大常委会办公厅副主任马伟茗20日在新闻发布会上表示，...",
+        "title": "长征文物资源家底基本摸清",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-20/10718191.shtml",
+        "summary": "新华社北京10月20日电(记者徐壮)记者从国家文物局了解到，我国长征文物资源家底基本摸清。全国长征主题不可移动文物2100余处，第四次全国文物普查新发现长征遗址遗迹63处。长征主题纪念设施以纪念馆、纪念碑、烈士墓、陵园居多，其中长征纪念馆74个，国家级烈士纪念设施21处、省级烈士纪念设施11处，已被...",
         "image": "",
-        "publishedAt": "2026-10-20T12:17:21.000Z",
+        "publishedAt": "2026-10-20T14:42:31.000Z",
         "source": "中新网"
       },
       {
-        "title": "重庆力争到2030年基本建成知识产权强市",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-20/10718066.shtml",
-        "summary": "中新网重庆10月20日电 (记者 钟旖)20日在重庆举行的“开局起步十五五·建设现代化新重庆”——《重庆市“十五五”知识产权保护和运用规划(2026—2030年)》(以下简称《规划》)解读新闻发布会上，重庆市知识产权局局长何大伟表示，重庆力争到2030年基本建成知识产权强市，知识产权综合实力进入全国...",
-        "image": "",
-        "publishedAt": "2026-10-20T12:16:05.000Z",
+        "title": "2026年“中国新闻传播大讲堂”启动",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-20/10718187.shtml",
+        "summary": "中新网北京10月20日电 2026年“中国新闻传播大讲堂”20日在京启动。今年的大讲堂以“扎根人民 书写时代：记者的初心与使命”为主题，邀请来自全国22家媒体单位的32位优秀新闻工作者担任主讲人，围绕新闻采写、深度报道、新闻评论、国际传播和记者成长成才等内容板块，录制了32集课程视频。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261020/14096af7-5c54-4dd1-b291-36b08ffb4e09_zsite.jpeg",
+        "publishedAt": "2026-10-20T14:39:28.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "Kenya cult leader's children still being starved weeks before trial, son says",
-        "link": "https://www.bbc.co.uk/news/articles/c6d7q2rxqxgxo?at_medium=RSS&at_campaign=rss",
-        "summary": "Dan Mackenzie initially defended his father but now says he felt he had to report his own grandmother.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/26e3/live/1f907b20-cc6d-11f1-baeb-8d65d4bcd7ab.jpg",
-        "publishedAt": "2026-10-20T13:23:32.000Z",
+        "title": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
+        "link": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss",
+        "summary": "A truck carrying people to a funeral and a market alleged to be supplying fuel to the RSF were targeted.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/008d/live/4e35d850-cc8e-11f1-bc2e-018d645d8d21.png",
+        "publishedAt": "2026-10-20T17:30:15.000Z",
         "source": "BBC"
       },
       {
-        "title": "Zelensky prepares for Oslo talks with US envoys as Rubio denies withholding intelligence",
-        "link": "https://www.bbc.co.uk/news/articles/ck9qzn193lrlo?at_medium=RSS&at_campaign=rss",
-        "summary": "The US secretary of state rejects accusations Ukrainians were dying because the US was withholding intelligence.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/20fb/live/f03704d0-cc7a-11f1-bed8-c51b95c602ec.jpg",
-        "publishedAt": "2026-10-20T12:08:41.000Z",
+        "title": "'Great result for Canada', says Carney as Alberta votes to reject separatism",
+        "link": "https://www.bbc.co.uk/news/articles/cxr5yqqd7nlpo?at_medium=RSS&at_campaign=rss",
+        "summary": "The Canadian province has voted overwhelmingly to remain part of Canada, though deep political divisions endure.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f36/live/37d43d30-cc67-11f1-b1a3-5bda642ff934.jpg",
+        "publishedAt": "2026-10-20T16:59:06.000Z",
         "source": "BBC"
       },
       {
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-10-20",
+    "rotationLabel": "Curated Rotation · 2026-10-21",
     "sections": [
       {
         "id": "data-storage",
@@ -522,26 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-5",
-            "sectionId": "data-storage",
-            "title": "The FAISS Library",
-            "authors": [
-              "Jeff Johnson",
-              "Matthijs Douze",
-              "Herve Jegou"
-            ],
-            "venue": "IEEE T-BD",
-            "year": 2021,
-            "quality": "高影响力",
-            "categories": [
-              "vector search",
-              "ANN"
-            ],
-            "link": "https://arxiv.org/abs/2401.08281",
-            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-6",
             "sectionId": "data-storage",
@@ -561,7 +541,7 @@
             ],
             "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
             "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-1",
@@ -583,6 +563,27 @@
             "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
             "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-2",
+            "sectionId": "data-storage",
+            "title": "Bigtable: A Distributed Storage System for Structured Data",
+            "authors": [
+              "Fay Chang",
+              "Jeffrey Dean",
+              "Sanjay Ghemawat",
+              "Wilson C. Hsieh"
+            ],
+            "venue": "OSDI",
+            "year": 2006,
+            "quality": "顶会",
+            "categories": [
+              "distributed systems",
+              "database"
+            ],
+            "link": "https://research.google/pubs/pub27898/",
+            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -592,27 +593,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-6",
-            "sectionId": "computer-vision",
-            "title": "DINOv2: Learning Robust Visual Features without Supervision",
-            "authors": [
-              "Maxime Oquab",
-              "Timothée Darcet",
-              "Théo Moutakanni",
-              "Huy V. Vo"
-            ],
-            "venue": "arXiv / Meta",
-            "year": 2023,
-            "quality": "高影响力",
-            "categories": [
-              "self-supervised",
-              "representation"
-            ],
-            "link": "https://arxiv.org/abs/2304.07193",
-            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-1",
             "sectionId": "computer-vision",
@@ -632,7 +612,7 @@
             ],
             "link": "https://arxiv.org/abs/1512.03385",
             "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-2",
@@ -654,6 +634,27 @@
             "link": "https://arxiv.org/abs/2005.12872",
             "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-3",
+            "sectionId": "computer-vision",
+            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+            "authors": [
+              "Alexey Dosovitskiy",
+              "Lucas Beyer",
+              "Alexander Kolesnikov",
+              "Dirk Weissenborn"
+            ],
+            "venue": "ICLR",
+            "year": 2021,
+            "quality": "顶会",
+            "categories": [
+              "vision transformer",
+              "classification"
+            ],
+            "link": "https://arxiv.org/abs/2010.11929",
+            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -663,27 +664,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-1",
-            "sectionId": "llm-memory",
-            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
-            "authors": [
-              "Patrick Lewis",
-              "Ethan Perez",
-              "Aleksandra Piktus",
-              "Fabio Petroni"
-            ],
-            "venue": "NeurIPS",
-            "year": 2020,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "retrieval"
-            ],
-            "link": "https://arxiv.org/abs/2005.11401",
-            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-2",
             "sectionId": "llm-memory",
@@ -703,7 +683,7 @@
             ],
             "link": "https://arxiv.org/abs/2203.08913",
             "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-3",
@@ -725,6 +705,27 @@
             "link": "https://arxiv.org/abs/2112.04426",
             "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-4",
+            "sectionId": "llm-memory",
+            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+            "authors": [
+              "Akari Asai",
+              "Zequn Zhang",
+              "Avirup Sil",
+              "Hannaneh Hajishirzi"
+            ],
+            "venue": "ICLR",
+            "year": 2024,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "self-reflection"
+            ],
+            "link": "https://arxiv.org/abs/2310.11511",
+            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -734,27 +735,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-2",
-            "sectionId": "agents",
-            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
-            "authors": [
-              "Timo Schick",
-              "Jane Dwivedi-Yu",
-              "Roberta Dessì",
-              "Ari Holtzman"
-            ],
-            "venue": "NeurIPS",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "tool use",
-              "agent"
-            ],
-            "link": "https://arxiv.org/abs/2302.04761",
-            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-3",
             "sectionId": "agents",
@@ -774,7 +754,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.03442",
             "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-4",
@@ -795,6 +775,27 @@
             ],
             "link": "https://arxiv.org/abs/2305.16291",
             "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-5",
+            "sectionId": "agents",
+            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+            "authors": [
+              "Qingyun Wu",
+              "Gagan Bansal",
+              "Jiaqi Zhang",
+              "Yiran Wu"
+            ],
+            "venue": "COLM",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "multi-agent",
+              "framework"
+            ],
+            "link": "https://arxiv.org/abs/2308.08155",
+            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
             "trackLabel": "轮换精选"
           }
         ]
