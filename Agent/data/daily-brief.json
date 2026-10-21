@@ -1,29 +1,21 @@
 {
-  "generatedAt": "2026-10-21T13:42:03.129Z",
+  "generatedAt": "2026-10-21T20:04:43.150Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 9,
+      "temperature": 4,
       "weatherCode": 0,
-      "windSpeed": 10
+      "windSpeed": 2
     },
     "today": {
-      "date": "2026-10-21",
-      "weatherCode": 0,
-      "description": "晴朗",
-      "max": 16,
+      "date": "2026-10-22",
+      "weatherCode": 3,
+      "description": "阴天",
+      "max": 15,
       "min": 3,
       "precipitationProbability": 0
     },
     "forecast": [
-      {
-        "date": "2026-10-21",
-        "weatherCode": 0,
-        "description": "晴朗",
-        "max": 16,
-        "min": 3,
-        "precipitationProbability": 0
-      },
       {
         "date": "2026-10-22",
         "weatherCode": 3,
@@ -38,7 +30,7 @@
         "description": "晴朗",
         "max": 15,
         "min": 5,
-        "precipitationProbability": 0
+        "precipitationProbability": 2
       },
       {
         "date": "2026-10-24",
@@ -46,41 +38,58 @@
         "description": "阴天",
         "max": 18,
         "min": 7,
-        "precipitationProbability": 12
+        "precipitationProbability": 6
       },
       {
         "date": "2026-10-25",
         "weatherCode": 55,
         "description": "中雨",
         "max": 13,
-        "min": 11,
-        "precipitationProbability": 88
+        "min": 10,
+        "precipitationProbability": 76
+      },
+      {
+        "date": "2026-10-26",
+        "weatherCode": 3,
+        "description": "阴天",
+        "max": 19,
+        "min": 10,
+        "precipitationProbability": 29
       }
     ]
   },
   "classicQuote": {
-    "id": "mencius-perseverance",
-    "text": "虽千万人，吾往矣。",
-    "source": "《孟子》",
-    "author": "孟子",
-    "note": "认准方向之后，关键是稳稳地往前走。"
+    "id": "records-historical",
+    "text": "桃李不言，下自成蹊。",
+    "source": "《史记》",
+    "author": "司马迁",
+    "note": "真正有分量的作品，本身就会替你说话。"
   },
   "bookExcerpt": {
-    "id": "red-mansion-snow",
-    "text": "只见大地白茫茫一片真干净，山川树木都隐在雪光里，天地像忽然静下来，只余风过回廊的细响。",
-    "book": "《红楼梦》",
-    "author": "曹雪芹"
+    "id": "remembrance-madeleine",
+    "text": "那一点点浸过茶水的点心，忽然把整个旧日时光都唤醒了，仿佛往昔并未消失，只是沉在心底等待一个气味。",
+    "book": "《追忆似水年华》",
+    "author": "马塞尔·普鲁斯特"
   },
   "featuredPlace": {
-    "id": "202610201600",
-    "title": "香江上的阮潢桥，顺化，越南",
+    "id": "202610211600",
+    "title": "内藏山国立公园的秋景，韩国",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "飞掠河面",
-    "image": "https://www.bing.com/th?id=OHR.VietnamBridge_ZH-CN6134321119_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E8%B6%8A%E5%8D%97%E9%A1%BA%E5%8C%96%E5%B8%82&form=hpcapt&mkt=zh-cn"
+    "summary": "静水映斑斓",
+    "image": "https://www.bing.com/th?id=OHR.NaejangsanNP_ZH-CN6538893004_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E5%86%85%E8%97%8F%E5%B1%B1%E5%9B%BD%E7%AB%8B%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202610211600",
+      "title": "内藏山国立公园的秋景，韩国",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "静水映斑斓",
+      "image": "https://www.bing.com/th?id=OHR.NaejangsanNP_ZH-CN6538893004_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E5%86%85%E8%97%8F%E5%B1%B1%E5%9B%BD%E7%AB%8B%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202610201600",
       "title": "香江上的阮潢桥，顺化，越南",
@@ -143,209 +152,208 @@
       "summary": "桥梁、屋顶与暮色",
       "image": "https://www.bing.com/th?id=OHR.WroclawPoland_ZH-CN6042428292_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E5%BC%97%E7%BD%97%E8%8C%A8%E7%93%A6%E5%A4%AB&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202610131600",
-      "title": "侏罗纪时期的菊石化石",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "穿越时间的螺旋",
-      "image": "https://www.bing.com/th?id=OHR.AmmoniteFossils_ZH-CN5825251327_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E5%9B%BD%E5%AE%B6%E5%8C%96%E7%9F%B3%E6%97%A5&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-10-21",
-    "dateLabel": "10月21日",
+    "dateKey": "2026-10-22",
+    "dateLabel": "10月22日",
     "items": [
       {
-        "year": "2025",
-        "text": "日本國會選舉自由民主黨總裁高市早苗為首位女性內閣總理大臣。",
-        "link": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4"
+        "year": "2022",
+        "text": "中國共產黨第二十屆中央委員會第一次全體會議選出新一屆中央政治局常務委員，習近平第三度擔任總書記。",
+        "link": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4"
       },
       {
-        "year": "2020",
-        "text": "國泰航空宣布大幅裁員8,500人，其中5,300名為香港員工，並宣布有35年歷史的國泰港龍航空即日停止營運。",
-        "link": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4"
+        "year": "2021",
+        "text": "CCTV-16中央电视台奥林匹克频道试验开播。",
+        "link": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "重庆市原江北区委副书记、区长何贵接受审查调查",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-21/10718752.shtml",
-        "summary": "中新网10月21日电 据重庆市纪委监委消息：重庆市原江北区委副书记、区长何贵涉嫌严重违纪违法，目前正接受重庆市纪委监委纪律审查和监察调查。",
-        "image": "",
-        "publishedAt": "2026-10-21T13:26:19.000Z",
+        "title": "第四届海洋负排放开放科学大会厦门举行 推进全球气候治理行动",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-21/10718801.shtml",
+        "summary": "中新网厦门10月21日电 (李思源 戴佩琪)第四届海洋负排放开放科学大会21日在福建厦门开幕。本届大会由厦门大学、海洋负排放国际大科学计划(以下简称ONCE计划)联合主办。来自中国、美国、法国、英国、德国、巴西和智利等17个国家的专家学者、国际组织代表、政府官员及厦大师生代表围绕“拓展海洋负排放国际...",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261021/2480de61-8e48-4eda-9554-cdeaaa9327f8_zsite.jpg",
+        "publishedAt": "2026-10-21T15:22:49.000Z",
         "source": "中新网"
       },
       {
-        "title": "于都：一根纱线织出千亿产业（看中国好物七十二变）",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-21/10718745.shtml",
-        "summary": "人民日报记者 周 欢",
-        "image": "",
-        "publishedAt": "2026-10-21T13:19:51.000Z",
+        "title": "台青周代祥南宁别样创业：从“玩泥巴”到“玩AI”",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-21/10718804.shtml",
+        "summary": "中新网南宁10月21日电 题：台青周代祥南宁别样创业：从“玩泥巴”到“玩AI”",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261021/095c259b-068d-4df5-b815-d168c3f49ed4_zsite.jpg",
+        "publishedAt": "2026-10-21T15:20:43.000Z",
         "source": "中新网"
       },
       {
-        "title": "今后五年中国将构建“空天地海”一体现代化地震监测预报预警体系",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-21/10718742.shtml",
-        "summary": "中新社北京10月21日电 (记者 郭超凯)中国地震局副局长张勤21日在北京表示，今后5年，中国将着力构建“空天地海”一体、智能高效的现代化地震监测预报预警体系。",
-        "image": "",
-        "publishedAt": "2026-10-21T13:17:26.000Z",
+        "title": "多位司法行政一线代表共话平安中国、法治中国建设",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-21/10718805.shtml",
+        "summary": "中新网北京10月21日电 (记者 周昕)10月21日，国务院新闻办公室举行“新征程上的奋斗者”中外记者见面会。多位司法行政领域代表围绕“扎根司法行政一线，服务更高水平平安中国、法治中国建设”，从不同岗位讲述以实际行动为法治中国建设贡献力量的故事。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261021/fa8a3a77-ec9a-4b6d-8522-bd33ba959956_zsite.jpeg",
+        "publishedAt": "2026-10-21T15:20:19.000Z",
         "source": "中新网"
       },
       {
-        "title": "中国海警局新闻发言人发表谈话",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-21/10718735.shtml",
-        "summary": "中新社北京10月21日电 中国海警局新闻发言人姜略21日表示，当日，经中方允许，菲律宾对其非法“坐滩”仁爱礁船只运送生活物资，中国海警对菲船只询问确认并全程监管。中国海警将持续依法在包括仁爱礁在内的南沙群岛及其附近海域开展维权执法活动。(完)",
+        "title": "广东举行2026年度全省海洋产业高质量发展推进工作会",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-21/10718808.shtml",
+        "summary": "中新网深圳10月21日电 (索有为 胡俊瑶)2026年度广东全省海洋产业高质量发展推进工作会议21日在深圳举行。广东省委副书记、省长孟凡利出席会议并讲话，强调要奋发进取、积极作为，加快发展海洋经济、海洋产业，奋力书写全面建设海洋强省的新篇章。",
         "image": "",
-        "publishedAt": "2026-10-21T13:10:52.000Z",
+        "publishedAt": "2026-10-21T15:18:45.000Z",
         "source": "中新网"
       },
       {
-        "title": "科技部解读《关于推动科技创新和产业创新深度融合的意见》",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-21/10718734.shtml",
-        "summary": "中新网北京10月21日电 (记者 孙自法)中共中央办公厅、国务院办公厅10月21日发布《关于推动科技创新和产业创新深度融合的意见》(以下简称《意见》)。科技部有关负责人就《意见》接受采访表示，《意见》从战略和全局高度，对新形势下推动形成科技创新和产业创新深度融合作出全面谋划，对于加快高水平科技自立自...",
+        "title": "中央安全生产考核巡查二、三季度明查暗访发现重大事故隐患950项",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-21/10718789.shtml",
+        "summary": "中新网北京10月21日电 (记者 郭超凯)应急管理部副部长宋元明21日在北京表示，中央安全生产考核巡查二、三季度明查暗访共发现重大事故隐患950项，从严查处了一批煤矿隐蔽工作面开采、货车“百吨王”运输、瞒报事故、检验检测机构弄虚作假等违法行为。",
         "image": "",
-        "publishedAt": "2026-10-21T13:07:46.000Z",
+        "publishedAt": "2026-10-21T14:44:53.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "科技援疆赋能 新疆兵团第十二师农业育种迈向“选育创造”",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-21/10718760.shtml",
-        "summary": "中新网乌鲁木齐10月21日电 (刘刚峰 巩小妮)近日，刚下飞机的山东省果树研究所副研究员王甲威，就被新疆生产建设兵团第十二师农科所新技术推广科科长梁武军，拽进设施樱桃示范棚。棚里，两人敲定下一阶段修剪方案。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261021/802a5cb9-058e-409e-89b9-fc408ca959f7_zsite.jpg",
-        "publishedAt": "2026-10-21T13:36:07.000Z",
+        "title": "中俄界湖秋色“出圈” 兴凯湖五彩林海成千里打卡“目的地”",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-21/10718799.shtml",
+        "summary": "中新网哈尔滨10月21日电 (王妮娜 刘方正)10月21日，中俄界湖兴凯湖秋色铺展，湖岗上的“网红树洞”迎来观赏旺季。辽阔湖水与五彩林海相映，吸引各地游客不远千里前来打卡。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261021/53b9eb76-0172-42bd-8b4e-40960d69df49_zsite.jpg",
+        "publishedAt": "2026-10-21T15:24:09.000Z",
         "source": "中新网"
       },
       {
-        "title": "通用人工智能大会行业智能体创新挑战赛在渝开赛",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-21/10718756.shtml",
-        "summary": "中新网重庆10月21日电(记者 周毅)21日，围绕城市治理主题的通用人工智能大会·行业智能体创新挑战赛在重庆开赛。",
-        "image": "",
-        "publishedAt": "2026-10-21T13:32:47.000Z",
+        "title": "深化陕台科创协同 政企学者西安共探具身智能产业发展新路径",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-21/10718802.shtml",
+        "summary": "中新网西安10月21日电 (记者 张一辰 杨英琦)21日，由陕西省海外联谊会指导，民革陕西省委会、陕西省海峡两岸交流合作促进会主办的第四届“革创谷”民革助力秦创原科技创新暨新质生产力发展交流活动在西安举行。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261021/5b2781c0-e3c5-482d-ac6f-a403e073d9b1_zsite.jpg",
+        "publishedAt": "2026-10-21T15:21:49.000Z",
         "source": "中新网"
       },
       {
-        "title": "国际青年福建中医药文化研习营福州开营",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-21/10718751.shtml",
-        "summary": "中新社福州10月21日电 (叶秋云)“青囊探闽：国际青年福建中医药文化研习营”21日在福建中医药大学开营，来自美国、新加坡、马来西亚、菲律宾、越南等国家和地区的70余名青年学子参加。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261021/7981f3ed-da9a-4776-a343-8edb06ad2a3e_zsite.jpg",
-        "publishedAt": "2026-10-21T13:24:53.000Z",
+        "title": "联合国旅游组织/亚太旅游协会旅游趋势与展望大会在桂林闭幕",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-21/10718806.shtml",
+        "summary": "中新网桂林10月21日电(周利朔 欧惠兰)10月21日，第二十届联合国旅游组织/亚太旅游协会旅游趋势与展望大会在广西桂林闭幕。桂林市委常委、统战部部长朱鹃屏致辞时表示，本届大会形成了重要共识——让技术更好地服务于人、让数据更好地赋能治理、让创新更好地惠及社区，将对亚太乃至全球旅游业的发展产生积极而深...",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261021/5405bd3e-9af6-4af5-a352-3e94512878be_zsite.jpg",
+        "publishedAt": "2026-10-21T15:20:29.000Z",
         "source": "中新网"
       },
       {
-        "title": "又见·长征丨“局部打光了，也得打” 这句话藏着长征胜利的密码",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-21/10718749.shtml",
-        "summary": "这支军队只有一万人，却牵制了十几万的敌军兵力，他们是怎么做到的？看这场被毛主席称赞的经典战例——乌蒙山回旋战。",
-        "image": "",
-        "publishedAt": "2026-10-21T13:22:35.000Z",
+        "title": "河北怀安：“一只羊”到“一条链”的产业致富经",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-21/10718807.shtml",
+        "summary": "中新网张家口10月21日电 题：河北怀安：“一只羊”到“一条链”的产业致富经",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261021/dbbc53f1-9329-4987-9850-f69600367cbc_zsite.jpg",
+        "publishedAt": "2026-10-21T15:18:59.000Z",
         "source": "中新网"
       },
       {
-        "title": "何以中国·新时代的长江之歌丨诗意长江焕发蓬勃生机",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-21/10718746.shtml",
-        "summary": "新华网北京10月20日电 题：诗意长江焕发蓬勃生机",
-        "image": "",
-        "publishedAt": "2026-10-21T13:21:17.000Z",
+        "title": "长春大冬会吉林市分赛区雪上项目赛道基础施工收官",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-21/10718794.shtml",
+        "summary": "中新网吉林10月21日电 (记者 苍雁 石洪宇)长春2027第33届世界大学生冬季运动会(下称“长春大冬会”)吉林市分赛区委员会相关负责人21日介绍，吉林市分赛区筹备工作总体进展符合预期，赛道基础施工与赛道平整工程已全面完工。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261021/8928e5f4-9b44-42ae-9c72-48b1a4c24b99_zsite.jpg",
+        "publishedAt": "2026-10-21T14:48:29.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "《金融支持建设北京（京津冀）国际科技创新中心实施方案》发布",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-21/10718754.shtml",
-        "summary": "记者从北京举办的2026金融街论坛年会获悉，《金融支持建设北京(京津冀)国际科技创新中心实施方案》(以下简称《实施方案》)正式发布，由六方面十五条组成，为打造京津冀科技金融协同发展高地、实现高水平科技自立自强提供有力支撑。",
-        "image": "",
-        "publishedAt": "2026-10-21T13:29:27.000Z",
+        "title": "2026金融街论坛年会金融科技大会在京举办",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-21/10718797.shtml",
+        "summary": "中新网北京10月21日电 2026金融街论坛年会正在北京举行。20日，以“智能驱动 融合共生——智能经济新形态下的金融科技”为主题的2026金融街论坛年会金融科技大会在京开幕。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261021/8754a354-68bf-441a-a64f-5185f4236473_zsite.jpeg",
+        "publishedAt": "2026-10-21T15:24:45.000Z",
         "source": "中新网"
       },
       {
-        "title": "《电动汽车动力蓄电池在役检测试验方法》国标发布",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-21/10718753.shtml",
-        "summary": "记者今天(21日)了解到，市场监管总局近日发布国家标准《电动汽车动力蓄电池在役检测试验方法》，自2027年3月1日正式实施。",
-        "image": "",
-        "publishedAt": "2026-10-21T13:28:43.000Z",
+        "title": "四川搭建欧资企业政企沟通平台 以对话回应关切",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-21/10718798.shtml",
+        "summary": "中新网成都10月21日电 (单鹏)四川省服务外资企业政企对话会(欧盟专场)21日在成都举行。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261021/b49bfb27-e88a-43bd-848c-ba1bd454d8eb_zsite.jpg",
+        "publishedAt": "2026-10-21T15:23:59.000Z",
         "source": "中新网"
       },
       {
-        "title": "蓝佛安：第33届APEC财长会达成一系列务实成果",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-21/10718743.shtml",
-        "summary": "中新社香港10月21日电 (记者 戴小橦)第33届亚太经济合作组织(APEC)财长会21日在香港顺利闭幕，会议主席、中国财政部部长蓝佛安在会后举行的新闻发布会上表示，本次会议达成一系列务实成果，取得圆满成功。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261021/763ab584-8cbc-41d7-bb4f-d9832af5c1b6_zsite.jpeg",
-        "publishedAt": "2026-10-21T13:18:20.000Z",
+        "title": "桂台经贸融合发展与玉林产业发展对接会在广西玉林举行",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-21/10718800.shtml",
+        "summary": "中新网玉林10月21日电(翟李强 曾玉红)10月21日，桂台经贸融合发展与玉林产业发展对接会在广西玉林举行，大陆各省份台协和台商台企代表齐聚一堂，叙亲情、谈发展。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261021/3bfb544f-0a0f-45ed-99f9-4d311593f2ff_zsite.JPG",
+        "publishedAt": "2026-10-21T15:22:59.000Z",
         "source": "中新网"
       },
       {
-        "title": "“浙里共赢” 搭台 助浙江储能产业链接全球市场",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-21/10718739.shtml",
-        "summary": "中新网杭州10月21日电(蓝伊旎)10月20日，“浙里共赢”储能产业链国际采购暨“十链百场万企”对接会专场活动在杭州举办。来自欧盟、东南亚等地的49位海外机构、采购商代表赴杭州对接，意向采购金额约4.5亿美元。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261021/aa89930b-cdb1-4b9b-98db-ba05d6c6731c_zsite.jpg",
-        "publishedAt": "2026-10-21T13:15:16.000Z",
+        "title": "首届湖南安全应急装备产业博览会开幕 全链条装备亮相",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-21/10718785.shtml",
+        "summary": "中新网长沙10月21日电(刘国永)21日，首届湖南安全应急装备产业博览会(简称“湖南安博会”)在湘潭开幕，奏响湖南应急装备产业高质量发展乐章。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261021/1e7f0286-f392-4653-89dd-da1eafaadf6f_zsite.jpg",
+        "publishedAt": "2026-10-21T14:24:08.000Z",
         "source": "中新网"
       },
       {
-        "title": "人工智能技术加速演进 业界如何驭智前行？",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-21/10718738.shtml",
-        "summary": "中新网北京10月21日电 (记者 吕少威)“网络安全领域正迎来根本性范式转变，AI驱动的智能自主攻击正在超越人类专家能力边界，应将安全深度融入数字系统的设计与制造全流程，从根源层面解决安全本质问题。”国家数字交换系统工程技术研究中心主任邬江兴21日在2026 TechWorld智慧安全大会上说。",
-        "image": "",
-        "publishedAt": "2026-10-21T13:14:32.000Z",
+        "title": "小米创始人雷军：智能网联汽车“下半场”关键是拼生态",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-21/10718770.shtml",
+        "summary": "中新社北京10月21日电 (记者 刘亮)小米集团创始人、董事长兼CEO雷军21日在北京举行的2026世界智能网联汽车大会上表示，智能网联汽车“下半场”比的不仅仅是车有多聪明，而是生态有多强大，这是中国的优势。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261021/bfbb8e9e-2cdb-406d-ac29-f5459c06e23e_zsite.jpg",
+        "publishedAt": "2026-10-21T13:57:09.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "US citizen Stephen Hubbard freed by Russia as Trump envoy meets Putin",
-        "link": "https://www.bbc.co.uk/news/articles/c6m24l9v3745o?at_medium=RSS&at_campaign=rss",
-        "summary": "The 74-year-old former teacher, who was captured, has been released without any \"swap\" required, Trump says.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a22e/live/83914ac0-8497-11ef-bf4c-1f355eb87d3c.jpg",
-        "publishedAt": "2026-10-21T12:32:01.000Z",
+        "title": "'Targeted' attack on much-loved MP leaves Australian town heartbroken",
+        "link": "https://www.bbc.co.uk/news/articles/cmgr8q88r5eqo?at_medium=RSS&at_campaign=rss",
+        "summary": "Locals describe the MP, who had to have both legs amputated, as a genuinely kind person who fought for the community.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce68/live/40f9c020-cd60-11f1-bc2e-018d645d8d21.jpg",
+        "publishedAt": "2026-10-21T18:10:42.000Z",
         "source": "BBC"
       },
       {
-        "title": "Russia frees 74-year-old American Stephen Hubbard it captured in occupied Ukraine",
-        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSUJpOE5OMUs1S2VFa2FKZGNmTktfRXNxTThCUkRLVVpZWVdlb0tUTGhGeVVYR2VmZGdRREY4TFV0dzQ5alNyaG13Y1E3Q3NnbWhjRERXeEVVX3dnRU5KNGNWcDVnVVhtMlpITXdXQUV2YWlwV1Atd0xLYTRZMVhSSEdCUFFXU0VaRjFzdmZibEpLQQ?oc=5",
+        "title": "Russia says it is ready to resume talks with Ukraine and US to end war",
+        "link": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
+        "summary": "The announcement came after Russian President Vladimir Putin met US President Donald Trump's special envoy Steve Witkoff in St Petersburg.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/808c/live/f0408560-cd64-11f1-bc2e-018d645d8d21.jpg",
+        "publishedAt": "2026-10-21T17:42:34.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Family of prison officer killed by IRA receives state apology",
+        "link": "https://www.bbc.co.uk/news/articles/ck20rver1j31o?at_medium=RSS&at_campaign=rss",
+        "summary": "Brian Stack was crossing a street in Dublin in 1983 when he was shot in the back of the neck and died 18 months later.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ef0/live/3613e220-cd70-11f1-bbdb-c39c91930f26.jpg",
+        "publishedAt": "2026-10-21T16:58:16.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Macron accuses foreign leaders of exploiting French riots",
+        "link": "https://www.bbc.co.uk/news/articles/ckjrw044ggxgo?at_medium=RSS&at_campaign=rss",
+        "summary": "The comment is an apparent swipe at Benjamin Netanyahu and Donald Trump, who both face elections in coming weeks.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b6f4/live/ad9474c0-cd63-11f1-9a39-31b474234113.jpg",
+        "publishedAt": "2026-10-21T14:04:28.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Astonishing winning images from Nikon’s Small World photography competition 2026",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYW4yU2tyMXc0MmNCRlNaVURQbDVwTXFYR1lXVXR1SWF4dVNtZVlGNkJCN1dqWUZ4bFRVWTJhLUQ0LTBQNU9sRlVSZnAwZm9xVlJuOXhSUTgtRGF1azR4c00zSW1JZUpUaURuQTM5OEcwSFg2MDNZTjhNZjE0czQ3bWZSbUZCVHNUQndFRFhDWQ?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-10-21T09:08:41.000Z",
+        "publishedAt": "2026-10-21T14:00:55.000Z",
         "source": "CNN"
-      },
-      {
-        "title": "Elon Musk confirms he is considering merging Tesla and SpaceX",
-        "link": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss",
-        "summary": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/819f/live/f7b5d9b0-ccd0-11f1-b06b-25a52a186d15.png",
-        "publishedAt": "2026-10-21T08:42:49.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Australian MP loses both legs after alleged car attack, husband says",
-        "link": "https://www.bbc.co.uk/news/articles/ckwyqdqxw6d0o?at_medium=RSS&at_campaign=rss",
-        "summary": "Her alleged attacker, 43-year-old Brendan Nugent, faces multiple charges and appeared in court for the first time on Wednesday.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/16b5/live/2cbe53a0-cd29-11f1-a64c-550be9e3c66b.jpg",
-        "publishedAt": "2026-10-21T07:56:30.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Katya Adler: France divided over who to blame for riots and what to learn from them",
-        "link": "https://www.bbc.co.uk/news/articles/cq0me4g9p970o?at_medium=RSS&at_campaign=rss",
-        "summary": "In France and beyond there is widespread disagreement over what led to some of the worst unrest seen in French cities in modern history.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f8fb/live/9d496cd0-cc9e-11f1-94e6-edd4c60b2e1d.jpg",
-        "publishedAt": "2026-10-21T06:50:40.000Z",
-        "source": "BBC"
       }
     ],
     "worldBusiness": [
       {
-        "title": "Civil servant admits he 'made mistakes' juggling five government jobs",
-        "link": "https://www.bbc.co.uk/news/articles/cmze4w63ly42o?at_medium=RSS&at_campaign=rss",
-        "summary": "Kashim Chowdhury was contracted for 183 hours a week, more than the number of hours in seven days.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ca73/live/aa125910-cd46-11f1-8177-0f8bd59b54c4.jpg",
-        "publishedAt": "2026-10-21T12:17:12.000Z",
+        "title": "Meta fined $25bn for 'lies' over user data privacy",
+        "link": "https://www.bbc.co.uk/news/articles/cqdr8zxrr3dxo?at_medium=RSS&at_campaign=rss",
+        "summary": "The fine is the largest to date against Facebook's owner, larger than an $18bn deal with California.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6026/live/1fd68c80-cd78-11f1-bc2e-018d645d8d21.jpg",
+        "publishedAt": "2026-10-21T19:54:16.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Burnham proposes plan to cut standing charges from gas bills",
+        "link": "https://www.bbc.co.uk/news/articles/cw0541p65dyzo?at_medium=RSS&at_campaign=rss",
+        "summary": "The prime minister provided little detail, and there are questions over shifting the fees onto unit costs.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8b7c/live/04502cf0-cd5a-11f1-b962-b7ff822cde72.jpg",
+        "publishedAt": "2026-10-21T17:06:16.000Z",
         "source": "BBC"
       },
       {
@@ -365,14 +373,6 @@
         "source": "BBC"
       },
       {
-        "title": "Elon Musk confirms he is considering merging Tesla and SpaceX",
-        "link": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss",
-        "summary": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/819f/live/f7b5d9b0-ccd0-11f1-b06b-25a52a186d15.png",
-        "publishedAt": "2026-10-21T08:42:49.000Z",
-        "source": "BBC"
-      },
-      {
         "title": "The tech helping crack decades-old cold cases",
         "link": "https://www.bbc.co.uk/news/articles/c370pzdkw77jo?at_medium=RSS&at_campaign=rss",
         "summary": "Investigative genetic genealogy can help hunt down criminals but raises worries over privacy.",
@@ -383,11 +383,19 @@
     ],
     "worldTech": [
       {
-        "title": "Cyber chiefs tell websites to make critical safety update or go offline",
+        "title": "Websites taken down worldwide as critical cyber-security update issued",
         "link": "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o?at_medium=RSS&at_campaign=rss",
-        "summary": "Two critical vulnerabilities have been identified with PHP, a programming language which is widely used across the internet.",
+        "summary": "The vulnerabilities with PHP, a programming language widely used across the internet, have been described as the most significant ever found by AI.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eb5e/live/02351720-cd44-11f1-8177-0f8bd59b54c4.jpg",
-        "publishedAt": "2026-10-21T12:35:36.000Z",
+        "publishedAt": "2026-10-21T19:54:57.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Just Eat apologises for AI food mistakes after social media ridicule",
+        "link": "https://www.bbc.co.uk/news/articles/crz981p0klvgo?at_medium=RSS&at_campaign=rss",
+        "summary": "A spokesperson said it was removing inaccurate AI images and pausing the rollout of the tool.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f80b/live/ce035410-cd6d-11f1-bc2e-018d645d8d21.png",
+        "publishedAt": "2026-10-21T17:04:13.000Z",
         "source": "BBC"
       },
       {
@@ -413,98 +421,90 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d033/live/5b8c8300-c16c-11f1-babe-4199b0e7ccea.jpg",
         "publishedAt": "2026-10-20T23:13:24.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "OpenAI CEO Sam Altman wins dismissal of sister's lawsuit",
-        "link": "https://www.bbc.co.uk/news/articles/c94g1502el58o?at_medium=RSS&at_campaign=rss",
-        "summary": "A US district judge dismissed the case after Ann Altman had refused to attend an independent medical examination.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4b56/live/9be50560-cc9f-11f1-94e6-edd4c60b2e1d.jpg",
-        "publishedAt": "2026-10-20T19:42:32.000Z",
-        "source": "BBC"
       }
     ],
     "domestic": [
       {
-        "title": "重庆市原江北区委副书记、区长何贵接受审查调查",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-21/10718752.shtml",
-        "summary": "中新网10月21日电 据重庆市纪委监委消息：重庆市原江北区委副书记、区长何贵涉嫌严重违纪违法，目前正接受重庆市纪委监委纪律审查和监察调查。",
-        "image": "",
-        "publishedAt": "2026-10-21T13:26:19.000Z",
+        "title": "第四届海洋负排放开放科学大会厦门举行 推进全球气候治理行动",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-21/10718801.shtml",
+        "summary": "中新网厦门10月21日电 (李思源 戴佩琪)第四届海洋负排放开放科学大会21日在福建厦门开幕。本届大会由厦门大学、海洋负排放国际大科学计划(以下简称ONCE计划)联合主办。来自中国、美国、法国、英国、德国、巴西和智利等17个国家的专家学者、国际组织代表、政府官员及厦大师生代表围绕“拓展海洋负排放国际...",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261021/2480de61-8e48-4eda-9554-cdeaaa9327f8_zsite.jpg",
+        "publishedAt": "2026-10-21T15:22:49.000Z",
         "source": "中新网"
       },
       {
-        "title": "于都：一根纱线织出千亿产业（看中国好物七十二变）",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-21/10718745.shtml",
-        "summary": "人民日报记者 周 欢",
-        "image": "",
-        "publishedAt": "2026-10-21T13:19:51.000Z",
+        "title": "台青周代祥南宁别样创业：从“玩泥巴”到“玩AI”",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-21/10718804.shtml",
+        "summary": "中新网南宁10月21日电 题：台青周代祥南宁别样创业：从“玩泥巴”到“玩AI”",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261021/095c259b-068d-4df5-b815-d168c3f49ed4_zsite.jpg",
+        "publishedAt": "2026-10-21T15:20:43.000Z",
         "source": "中新网"
       },
       {
-        "title": "今后五年中国将构建“空天地海”一体现代化地震监测预报预警体系",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-21/10718742.shtml",
-        "summary": "中新社北京10月21日电 (记者 郭超凯)中国地震局副局长张勤21日在北京表示，今后5年，中国将着力构建“空天地海”一体、智能高效的现代化地震监测预报预警体系。",
-        "image": "",
-        "publishedAt": "2026-10-21T13:17:26.000Z",
+        "title": "多位司法行政一线代表共话平安中国、法治中国建设",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-21/10718805.shtml",
+        "summary": "中新网北京10月21日电 (记者 周昕)10月21日，国务院新闻办公室举行“新征程上的奋斗者”中外记者见面会。多位司法行政领域代表围绕“扎根司法行政一线，服务更高水平平安中国、法治中国建设”，从不同岗位讲述以实际行动为法治中国建设贡献力量的故事。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261021/fa8a3a77-ec9a-4b6d-8522-bd33ba959956_zsite.jpeg",
+        "publishedAt": "2026-10-21T15:20:19.000Z",
         "source": "中新网"
       },
       {
-        "title": "中国海警局新闻发言人发表谈话",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-21/10718735.shtml",
-        "summary": "中新社北京10月21日电 中国海警局新闻发言人姜略21日表示，当日，经中方允许，菲律宾对其非法“坐滩”仁爱礁船只运送生活物资，中国海警对菲船只询问确认并全程监管。中国海警将持续依法在包括仁爱礁在内的南沙群岛及其附近海域开展维权执法活动。(完)",
+        "title": "广东举行2026年度全省海洋产业高质量发展推进工作会",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-21/10718808.shtml",
+        "summary": "中新网深圳10月21日电 (索有为 胡俊瑶)2026年度广东全省海洋产业高质量发展推进工作会议21日在深圳举行。广东省委副书记、省长孟凡利出席会议并讲话，强调要奋发进取、积极作为，加快发展海洋经济、海洋产业，奋力书写全面建设海洋强省的新篇章。",
         "image": "",
-        "publishedAt": "2026-10-21T13:10:52.000Z",
+        "publishedAt": "2026-10-21T15:18:45.000Z",
         "source": "中新网"
       },
       {
-        "title": "科技部解读《关于推动科技创新和产业创新深度融合的意见》",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-21/10718734.shtml",
-        "summary": "中新网北京10月21日电 (记者 孙自法)中共中央办公厅、国务院办公厅10月21日发布《关于推动科技创新和产业创新深度融合的意见》(以下简称《意见》)。科技部有关负责人就《意见》接受采访表示，《意见》从战略和全局高度，对新形势下推动形成科技创新和产业创新深度融合作出全面谋划，对于加快高水平科技自立自...",
+        "title": "中央安全生产考核巡查二、三季度明查暗访发现重大事故隐患950项",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-21/10718789.shtml",
+        "summary": "中新网北京10月21日电 (记者 郭超凯)应急管理部副部长宋元明21日在北京表示，中央安全生产考核巡查二、三季度明查暗访共发现重大事故隐患950项，从严查处了一批煤矿隐蔽工作面开采、货车“百吨王”运输、瞒报事故、检验检测机构弄虚作假等违法行为。",
         "image": "",
-        "publishedAt": "2026-10-21T13:07:46.000Z",
+        "publishedAt": "2026-10-21T14:44:53.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "US citizen Stephen Hubbard freed by Russia as Trump envoy meets Putin",
-        "link": "https://www.bbc.co.uk/news/articles/c6m24l9v3745o?at_medium=RSS&at_campaign=rss",
-        "summary": "The 74-year-old former teacher, who was captured, has been released without any \"swap\" required, Trump says.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a22e/live/83914ac0-8497-11ef-bf4c-1f355eb87d3c.jpg",
-        "publishedAt": "2026-10-21T12:32:01.000Z",
+        "title": "'Targeted' attack on much-loved MP leaves Australian town heartbroken",
+        "link": "https://www.bbc.co.uk/news/articles/cmgr8q88r5eqo?at_medium=RSS&at_campaign=rss",
+        "summary": "Locals describe the MP, who had to have both legs amputated, as a genuinely kind person who fought for the community.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce68/live/40f9c020-cd60-11f1-bc2e-018d645d8d21.jpg",
+        "publishedAt": "2026-10-21T18:10:42.000Z",
         "source": "BBC"
       },
       {
-        "title": "Russia frees 74-year-old American Stephen Hubbard it captured in occupied Ukraine",
-        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSUJpOE5OMUs1S2VFa2FKZGNmTktfRXNxTThCUkRLVVpZWVdlb0tUTGhGeVVYR2VmZGdRREY4TFV0dzQ5alNyaG13Y1E3Q3NnbWhjRERXeEVVX3dnRU5KNGNWcDVnVVhtMlpITXdXQUV2YWlwV1Atd0xLYTRZMVhSSEdCUFFXU0VaRjFzdmZibEpLQQ?oc=5",
+        "title": "Russia says it is ready to resume talks with Ukraine and US to end war",
+        "link": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
+        "summary": "The announcement came after Russian President Vladimir Putin met US President Donald Trump's special envoy Steve Witkoff in St Petersburg.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/808c/live/f0408560-cd64-11f1-bc2e-018d645d8d21.jpg",
+        "publishedAt": "2026-10-21T17:42:34.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Family of prison officer killed by IRA receives state apology",
+        "link": "https://www.bbc.co.uk/news/articles/ck20rver1j31o?at_medium=RSS&at_campaign=rss",
+        "summary": "Brian Stack was crossing a street in Dublin in 1983 when he was shot in the back of the neck and died 18 months later.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ef0/live/3613e220-cd70-11f1-bbdb-c39c91930f26.jpg",
+        "publishedAt": "2026-10-21T16:58:16.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Macron accuses foreign leaders of exploiting French riots",
+        "link": "https://www.bbc.co.uk/news/articles/ckjrw044ggxgo?at_medium=RSS&at_campaign=rss",
+        "summary": "The comment is an apparent swipe at Benjamin Netanyahu and Donald Trump, who both face elections in coming weeks.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b6f4/live/ad9474c0-cd63-11f1-9a39-31b474234113.jpg",
+        "publishedAt": "2026-10-21T14:04:28.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Astonishing winning images from Nikon’s Small World photography competition 2026",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYW4yU2tyMXc0MmNCRlNaVURQbDVwTXFYR1lXVXR1SWF4dVNtZVlGNkJCN1dqWUZ4bFRVWTJhLUQ0LTBQNU9sRlVSZnAwZm9xVlJuOXhSUTgtRGF1azR4c00zSW1JZUpUaURuQTM5OEcwSFg2MDNZTjhNZjE0czQ3bWZSbUZCVHNUQndFRFhDWQ?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-10-21T09:08:41.000Z",
+        "publishedAt": "2026-10-21T14:00:55.000Z",
         "source": "CNN"
-      },
-      {
-        "title": "Elon Musk confirms he is considering merging Tesla and SpaceX",
-        "link": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss",
-        "summary": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/819f/live/f7b5d9b0-ccd0-11f1-b06b-25a52a186d15.png",
-        "publishedAt": "2026-10-21T08:42:49.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Australian MP loses both legs after alleged car attack, husband says",
-        "link": "https://www.bbc.co.uk/news/articles/ckwyqdqxw6d0o?at_medium=RSS&at_campaign=rss",
-        "summary": "Her alleged attacker, 43-year-old Brendan Nugent, faces multiple charges and appeared in court for the first time on Wednesday.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/16b5/live/2cbe53a0-cd29-11f1-a64c-550be9e3c66b.jpg",
-        "publishedAt": "2026-10-21T07:56:30.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Katya Adler: France divided over who to blame for riots and what to learn from them",
-        "link": "https://www.bbc.co.uk/news/articles/cq0me4g9p970o?at_medium=RSS&at_campaign=rss",
-        "summary": "In France and beyond there is widespread disagreement over what led to some of the worst unrest seen in French cities in modern history.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f8fb/live/9d496cd0-cc9e-11f1-94e6-edd4c60b2e1d.jpg",
-        "publishedAt": "2026-10-21T06:50:40.000Z",
-        "source": "BBC"
       }
     ],
     "nba": []
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-10-21",
+    "rotationLabel": "Curated Rotation · 2026-10-22",
     "sections": [
       {
         "id": "data-storage",
@@ -522,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-6",
-            "sectionId": "data-storage",
-            "title": "DiskANN: Fast Accurate Billion-point Nearest Neighbor Search on a Single Node",
-            "authors": [
-              "Neelesh Gupta",
-              "Leland Willard",
-              "Xiangyao Yu",
-              "Yuri N."
-            ],
-            "venue": "NeurIPS",
-            "year": 2019,
-            "quality": "高影响力",
-            "categories": [
-              "vector search",
-              "ANN"
-            ],
-            "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
-            "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-1",
             "sectionId": "data-storage",
@@ -562,7 +541,7 @@
             ],
             "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
             "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-2",
@@ -584,6 +563,27 @@
             "link": "https://research.google/pubs/pub27898/",
             "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-3",
+            "sectionId": "data-storage",
+            "title": "Dynamo: Amazon's Highly Available Key-value Store",
+            "authors": [
+              "Giuseppe DeCandia",
+              "Deniz Hastorun",
+              "Madan Jampani",
+              "Gunavardhan Kakulapati"
+            ],
+            "venue": "SOSP",
+            "year": 2007,
+            "quality": "顶会",
+            "categories": [
+              "key-value",
+              "distributed systems"
+            ],
+            "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
+            "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -593,27 +593,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-1",
-            "sectionId": "computer-vision",
-            "title": "Deep Residual Learning for Image Recognition",
-            "authors": [
-              "Kaiming He",
-              "Xiangyu Zhang",
-              "Shaoqing Ren",
-              "Jian Sun"
-            ],
-            "venue": "CVPR",
-            "year": 2016,
-            "quality": "顶会",
-            "categories": [
-              "image recognition",
-              "backbone"
-            ],
-            "link": "https://arxiv.org/abs/1512.03385",
-            "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-2",
             "sectionId": "computer-vision",
@@ -633,7 +612,7 @@
             ],
             "link": "https://arxiv.org/abs/2005.12872",
             "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-3",
@@ -655,6 +634,27 @@
             "link": "https://arxiv.org/abs/2010.11929",
             "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-4",
+            "sectionId": "computer-vision",
+            "title": "Learning Transferable Visual Models From Natural Language Supervision",
+            "authors": [
+              "Alec Radford",
+              "Jong Wook Kim",
+              "Chris Hallacy",
+              "Aditya Ramesh"
+            ],
+            "venue": "ICML",
+            "year": 2021,
+            "quality": "顶会",
+            "categories": [
+              "vision-language",
+              "foundation model"
+            ],
+            "link": "https://arxiv.org/abs/2103.00020",
+            "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -664,27 +664,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-2",
-            "sectionId": "llm-memory",
-            "title": "Memorizing Transformers",
-            "authors": [
-              "Yuhuai Wu",
-              "Markus N. Rabe",
-              "DeLesley Hutchins",
-              "Christian Szegedy"
-            ],
-            "venue": "ICLR",
-            "year": 2022,
-            "quality": "顶会",
-            "categories": [
-              "memory",
-              "long context"
-            ],
-            "link": "https://arxiv.org/abs/2203.08913",
-            "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-3",
             "sectionId": "llm-memory",
@@ -704,7 +683,7 @@
             ],
             "link": "https://arxiv.org/abs/2112.04426",
             "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-4",
@@ -726,6 +705,27 @@
             "link": "https://arxiv.org/abs/2310.11511",
             "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-5",
+            "sectionId": "llm-memory",
+            "title": "LongMem: Scaling Language Model Context with Memory-Augmented Retrieval",
+            "authors": [
+              "Zeqiu Wu",
+              "Yizhong Wang",
+              "Jiacheng Liu",
+              "Yelong Shen"
+            ],
+            "venue": "ACL Findings",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "memory",
+              "long context"
+            ],
+            "link": "https://arxiv.org/abs/2306.07174",
+            "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -735,27 +735,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-3",
-            "sectionId": "agents",
-            "title": "Generative Agents: Interactive Simulacra of Human Behavior",
-            "authors": [
-              "Joon Sung Park",
-              "Joseph O'Brien",
-              "Carrie Cai",
-              "Meredith Ringel Morris"
-            ],
-            "venue": "UIST",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "agent society",
-              "memory"
-            ],
-            "link": "https://arxiv.org/abs/2304.03442",
-            "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-4",
             "sectionId": "agents",
@@ -775,7 +754,7 @@
             ],
             "link": "https://arxiv.org/abs/2305.16291",
             "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-5",
@@ -796,6 +775,27 @@
             ],
             "link": "https://arxiv.org/abs/2308.08155",
             "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-6",
+            "sectionId": "agents",
+            "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+            "authors": [
+              "John Yang",
+              "Carlos E. Jimenez",
+              "Alexander Wettig",
+              "Karthik Narasimhan"
+            ],
+            "venue": "ICLR",
+            "year": 2025,
+            "quality": "新近代表作",
+            "categories": [
+              "software agent",
+              "benchmark"
+            ],
+            "link": "https://arxiv.org/abs/2405.15793",
+            "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
             "trackLabel": "轮换精选"
           }
         ]
