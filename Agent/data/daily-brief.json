@@ -1,44 +1,36 @@
 {
-  "generatedAt": "2026-10-22T13:43:06.630Z",
+  "generatedAt": "2026-10-22T20:00:09.701Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 10,
-      "weatherCode": 2,
-      "windSpeed": 10
+      "temperature": 7,
+      "weatherCode": 0,
+      "windSpeed": 4
     },
     "today": {
-      "date": "2026-10-22",
-      "weatherCode": 3,
-      "description": "阴天",
+      "date": "2026-10-23",
+      "weatherCode": 2,
+      "description": "局部多云",
       "max": 15,
-      "min": 3,
+      "min": 6,
       "precipitationProbability": 0
     },
     "forecast": [
       {
-        "date": "2026-10-22",
-        "weatherCode": 3,
-        "description": "阴天",
-        "max": 15,
-        "min": 3,
-        "precipitationProbability": 0
-      },
-      {
         "date": "2026-10-23",
-        "weatherCode": 0,
-        "description": "晴朗",
+        "weatherCode": 2,
+        "description": "局部多云",
         "max": 15,
         "min": 6,
         "precipitationProbability": 0
       },
       {
         "date": "2026-10-24",
-        "weatherCode": 3,
-        "description": "阴天",
-        "max": 18,
+        "weatherCode": 51,
+        "description": "毛毛雨",
+        "max": 17,
         "min": 7,
-        "precipitationProbability": 6
+        "precipitationProbability": 14
       },
       {
         "date": "2026-10-25",
@@ -46,41 +38,58 @@
         "description": "小雨",
         "max": 14,
         "min": 10,
-        "precipitationProbability": 81
+        "precipitationProbability": 88
       },
       {
         "date": "2026-10-26",
-        "weatherCode": 3,
-        "description": "阴天",
-        "max": 18,
+        "weatherCode": 51,
+        "description": "毛毛雨",
+        "max": 16,
         "min": 9,
-        "precipitationProbability": 60
+        "precipitationProbability": 51
+      },
+      {
+        "date": "2026-10-27",
+        "weatherCode": 0,
+        "description": "晴朗",
+        "max": 14,
+        "min": 3,
+        "precipitationProbability": 0
       }
     ]
   },
   "classicQuote": {
-    "id": "records-historical",
-    "text": "桃李不言，下自成蹊。",
-    "source": "《史记》",
-    "author": "司马迁",
-    "note": "真正有分量的作品，本身就会替你说话。"
+    "id": "chuci-seek",
+    "text": "路漫漫其修远兮，吾将上下而求索。",
+    "source": "《离骚》",
+    "author": "屈原",
+    "note": "长期主义最难，但也最值得。"
   },
   "bookExcerpt": {
-    "id": "remembrance-madeleine",
-    "text": "那一点点浸过茶水的点心，忽然把整个旧日时光都唤醒了，仿佛往昔并未消失，只是沉在心底等待一个气味。",
-    "book": "《追忆似水年华》",
-    "author": "马塞尔·普鲁斯特"
+    "id": "border-town-river",
+    "text": "月光如银子，无处不可照及，山上篁竹在月光下变成了一片黑色，身边草丛中虫声繁密如落雨。",
+    "book": "《边城》",
+    "author": "沈从文"
   },
   "featuredPlace": {
-    "id": "202610211600",
-    "title": "内藏山国立公园的秋景，韩国",
+    "id": "202610221600",
+    "title": "两只灰狼，黄石国家公园，怀俄明州，美国",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "静水映斑斓",
-    "image": "https://www.bing.com/th?id=OHR.NaejangsanNP_ZH-CN6538893004_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E5%86%85%E8%97%8F%E5%B1%B1%E5%9B%BD%E7%AB%8B%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
+    "summary": "荒野伙伴",
+    "image": "https://www.bing.com/th?id=OHR.YellowstoneWolves_ZH-CN6767268961_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E7%81%B0%E7%8B%BC&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202610221600",
+      "title": "两只灰狼，黄石国家公园，怀俄明州，美国",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "荒野伙伴",
+      "image": "https://www.bing.com/th?id=OHR.YellowstoneWolves_ZH-CN6767268961_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E7%81%B0%E7%8B%BC&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202610211600",
       "title": "内藏山国立公园的秋景，韩国",
@@ -143,209 +152,216 @@
       "summary": "一窥科罗拉多群峰",
       "image": "https://www.bing.com/th?id=OHR.SneffelsAutumn_ZH-CN3002661429_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E6%96%AF%E5%A5%88%E8%B4%B9%E5%B0%94%E6%96%AF%E5%B1%B1&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202610141600",
-      "title": "弗罗茨瓦夫集市广场景观，摄自女巫桥，弗罗茨瓦夫，波兰",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "桥梁、屋顶与暮色",
-      "image": "https://www.bing.com/th?id=OHR.WroclawPoland_ZH-CN6042428292_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E5%BC%97%E7%BD%97%E8%8C%A8%E7%93%A6%E5%A4%AB&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-10-22",
-    "dateLabel": "10月22日",
+    "dateKey": "2026-10-23",
+    "dateLabel": "10月23日",
     "items": [
       {
-        "year": "2022",
-        "text": "中國共產黨第二十屆中央委員會第一次全體會議選出新一屆中央政治局常務委員，習近平第三度擔任總書記。",
-        "link": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4"
+        "year": "2021",
+        "text": "中華民國臺中市第二選舉區立法委員陳柏惟遭到投票罷免，是中華民國歷史上首位遭罷免的立法委員。",
+        "link": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4"
       },
       {
         "year": "2021",
-        "text": "CCTV-16中央电视台奥林匹克频道试验开播。",
-        "link": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4"
+        "text": "紐西蘭奧克蘭結束為期1年7個月的一級灌溉禁令。",
+        "link": "https://zh.wikipedia.org/wiki/%E6%96%B0%E8%A5%BF%E5%85%B0"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "青海发布科技创新“十五五”规划",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-22/10719374.shtml",
-        "summary": "中新网西宁10月22日电(祁增蓓)10月22日，青海省“十五五”开局起步主题系列新闻发布会科技创新专场在西宁举行，会上发布《青海省科技创新“十五五”规划》，明确提出打造青藏高原科技创新高地，在做强本土科研能力同时，扩大国内外科技协同，开放共享高原科学研究成果。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261022/b3e06e37-54da-441c-bf6f-275eb6868ff0_zsite.jpg",
-        "publishedAt": "2026-10-22T13:38:32.000Z",
+        "title": "西藏那曲市巴青县发生7.0级地震，震源深度10千米",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-22/10719432.shtml",
+        "summary": "中国地震台网正式测定：10月22日22时33分在西藏那曲市巴青县(北纬32.40度，东经93.79度)发生7.0级地震，震源深度10千米。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/10/22/6d3bcbf5c9ad46f4af0c3287a61a36af.jpg",
+        "publishedAt": "2026-10-22T14:49:32.000Z",
         "source": "中新网"
       },
       {
-        "title": "山东法院立案登记制改革十余年收案超2200万件",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-22/10719370.shtml",
-        "summary": "中新网济南10月22日电 (记者 梁犇)山东省高级人民法院22日在济南召开新闻发布会，山东省高级人民法院审判委员会专职审判委员、一级高级法官于晓东介绍，自2015年5月实行立案登记制改革以来，山东法院始终坚持“保护诉权”与“减轻诉累”有机统一，累计受理案件2205.8万件，较上个十年收案增加近两倍，...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261022/5d29e281-9c15-4798-8731-4b213d0fb7cc_zsite.jpg",
-        "publishedAt": "2026-10-22T13:30:32.000Z",
+        "title": "西藏那曲市巴青县附近发生6.7级左右地震",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-22/10719430.shtml",
+        "summary": "中国地震台网自动测定：10月22日22时33分在西藏那曲市巴青县附近(北纬32.43度，东经93.82度)发生6.7级左右地震，最终结果以正式速报为准。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/10/22/203762c6bb77412dbbdae7bc156f5669.jpg",
+        "publishedAt": "2026-10-22T14:44:08.000Z",
         "source": "中新网"
       },
       {
-        "title": "“前沿星球奖”来到北京 学者建言推动学术发现走向现实应用",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-22/10719364.shtml",
-        "summary": "中新网北京10月22日电 题：“前沿星球奖”来到北京 学者建言推动学术发现走向现实应用",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261022/69791033-10cb-4d51-aee5-e26b4436e725_zsite.jpg",
-        "publishedAt": "2026-10-22T13:17:51.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "江西交通职业技术学院原院长黄明忠接受审查调查",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-22/10719339.shtml",
-        "summary": "中新网10月22日电 据江西省纪委监委消息：江西交通职业技术学院原党委副书记、院长黄明忠涉嫌严重违纪违法，主动向组织交代问题，目前正接受江西省纪委监委纪律审查和监察调查。",
+        "title": "全国台企联西南西北区第六十届会长联谊会在广西玉林举行",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-22/10719426.shtml",
+        "summary": "中新网玉林10月22日电(翟李强 曾玉红)10月22日，全国台企联西南西北区第六十届会长联谊会暨玉林市台湾同胞投资企业协会第五届理监事就职典礼，在广西玉林市举行。长期扎根玉林的台商谢固本接任玉林市台湾同胞投资企业协会理事会第五届会长。",
         "image": "",
-        "publishedAt": "2026-10-22T12:52:42.000Z",
+        "publishedAt": "2026-10-22T14:39:56.000Z",
         "source": "中新网"
       },
       {
-        "title": "内蒙古自治区民政厅原副厅长刘程民接受审查调查",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-22/10719338.shtml",
-        "summary": "中新网10月22日电 据内蒙古自治区纪委监委消息：内蒙古自治区民政厅原党组成员、副厅长刘程民涉嫌严重违纪违法，目前正接受内蒙古自治区纪委监委纪律审查和监察调查。",
-        "image": "",
-        "publishedAt": "2026-10-22T12:49:54.000Z",
+        "title": "台商黄一成：让台湾养殖技术在广西北海渔村“落地生根”",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-22/10719424.shtml",
+        "summary": "中新网南宁10月22日电 题：台商黄一成：让台湾养殖技术在广西北海渔村“落地生根”",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261022/ec79dccb-5122-426f-ac90-c1bf068f5274_zsite.jpg",
+        "publishedAt": "2026-10-22T14:37:25.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "海南推出纪录片《中国南繁故事》献礼南繁70年",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-22/10719412.shtml",
+        "summary": "中新网海口10月22日电 (张月和)22日在海口举行的“讲好中国南繁故事 推动文化传承创新”专场新闻发布会上，作为献礼南繁事业70周年的重点纪实影视作品——五集纪录片《中国南繁故事》上线。这是南繁题材首次系统性面向国际受众进行影像表达，旨在通过外国人视角讲述中国南繁故事，向全世界展示中国农业育种的前...",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261022/31f0d01b-87b3-41ea-9ac1-f4f65b1315ce_zsite.jpg",
+        "publishedAt": "2026-10-22T14:06:18.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "西藏第一届航空器外场维护员职业技能大赛圆满落幕",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-22/10719376.shtml",
-        "summary": "中新网拉萨10月22日电 (贡嘎来松)10月20日至22日，2026年中国技能大赛——西藏自治区第一届航空器外场维护员职业技能大赛决赛在拉萨贡嘎国际机场圆满收官。这是西藏民航机务维修领域首届最高规格职业技能赛事，以赛促学、以赛促练，搭建起西藏全区民航机务骨干切磋技艺、互学共进的平台，是劳模精神、劳动...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261022/afc78fcc-fce6-4ba2-b346-b1058d5f91b5_zsite.jpg",
-        "publishedAt": "2026-10-22T13:38:30.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "榆林至西双版纳航线即将开通",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-22/10719373.shtml",
-        "summary": "中新网西安10月22日电 (记者 阿琳娜)记者22日从天津航空西北分公司获悉，由该公司执飞的榆林—西双版纳航线计划10月27日开通，西安—烟台—丹东航线计划11月17日开通。",
+        "title": "两部门启动国家地震灾害四级应急响应",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-22/10719441.shtml",
+        "summary": "西藏那曲巴青县发生7.0级地震",
         "image": "",
-        "publishedAt": "2026-10-22T13:33:00.000Z",
+        "publishedAt": "2026-10-22T15:58:24.000Z",
         "source": "中新网"
       },
       {
-        "title": "广西大明山发现马兜铃属新物种 目前记录个体数量不足10株",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-22/10719371.shtml",
-        "summary": "中新网南宁10月22日电 (许倩)广西大明山国家级自然保护区管理局22日介绍，近日，大明山保护区再添一新物种——大明山马兜铃，目前记录的个体数量不足10株。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261022/678559d3-9cde-485d-8c34-38d2c8626745_zsite.JPG",
-        "publishedAt": "2026-10-22T13:32:50.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "海南律协与泛非律师联盟签约 拓展中非跨境法律服务网络",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-22/10719355.shtml",
-        "summary": "中新网海口10月22日电 (记者 王晓斌)记者从海南省新闻办公室22日举行的新闻发布会获悉，2026海南自由贸易港法律周期间，海南省律师协会与泛非律师联盟(PALU)签署了合作框架协议，双方在涉外法律人才培养、跨境法律服务协作、跨境多元争议解决三大领域建立常态化合作机制。这是海南自贸港进一步拓宽涉外...",
+        "title": "中国地震局对西藏那曲市巴青县地震启动二级应急响应",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-22/10719438.shtml",
+        "summary": "中新网10月22日电 据中国地震局网站消息，据中国地震台网正式测定，2026年10月22日22时33分，在西藏那曲市巴青县(北纬32.40度，东经93.79度)发生7.0级地震，震源深度10公里。中国地震局启动二级应急响应。",
         "image": "",
-        "publishedAt": "2026-10-22T13:06:19.000Z",
+        "publishedAt": "2026-10-22T15:30:26.000Z",
         "source": "中新网"
       },
       {
-        "title": "楚雄彝绣非遗版权沪滇合作运营中心在沪启动",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-22/10719353.shtml",
-        "summary": "中新网上海10月22日电 (记者 陈静)记者22日获悉，“智创未来·专利赋能：人工智能产业高价值专利运营与长三角协同新生态”——第九届知识产权运营大会(下称：大会)21日在沪举办。为深化区域协作、推动非遗版权价值转化，楚雄彝绣非遗版权沪滇合作运营中心(下称：运营中心)在沪启动。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261022/d4a969c8-ba11-4064-81c4-0ae1dc4ff03e_zsite.jpg",
-        "publishedAt": "2026-10-22T13:06:13.000Z",
+        "title": "西藏那曲市巴青县发生7.0级地震 震源深度10千米",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-22/10719432.shtml",
+        "summary": "中新网10月22日电 据中国地震台网官方微博消息，中国地震台网正式测定：10月22日22时33分在西藏那曲市巴青县(北纬32.40度，东经93.79度)发生7.0级地震，震源深度10千米。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/10/22/6d3bcbf5c9ad46f4af0c3287a61a36af.jpg",
+        "publishedAt": "2026-10-22T14:49:32.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "西藏那曲市巴青县附近发生6.7级左右地震",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-22/10719430.shtml",
+        "summary": "中新网10月22日电 据中国地震台网官方微博消息，中国地震台网自动测定：10月22日22时33分在西藏那曲市巴青县附近(北纬32.43度，东经93.82度)发生6.7级左右地震，最终结果以正式速报为准。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/10/22/203762c6bb77412dbbdae7bc156f5669.jpg",
+        "publishedAt": "2026-10-22T14:44:08.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "直面山区百姓就医难题 浙江常山探索县域均衡健康服务路径",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-22/10719425.shtml",
+        "summary": "中新网杭州10月22日电(张煜欢)“就近享受优质高效的医疗服务，是山区群众普遍性的迫切需求。”22日，浙江省“十五五”卫生健康事业发展规划新闻发布会在浙江杭州举行。发布会上，浙江衢州市常山县委书记王永明直面山区海岛医疗均衡这一民生考题，介绍当地如何围绕人才培养、养老照护、普惠托育持续推进改革，让城乡...",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261022/35aff85d-ceed-4e2d-a9dd-f25bbbfe671d_zsite.jpg",
+        "publishedAt": "2026-10-22T14:38:44.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "国家大宗商品储运产业计量测试中心在浙江舟山揭牌",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-22/10719377.shtml",
-        "summary": "中新网舟山10月22日电 (张斌)第九届油商大会全体会议22日在舟山举行。会议期间，国家大宗商品储运产业计量测试中心正式揭牌。该中心由国家市场监督管理总局复函浙江省人民政府同意设立，将提供“全溯源链、全产业链、全寿命周期”和具有前瞻性的计量测试技术服务。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261022/1c9119af-1168-4dd3-93ac-764c55856a4c_zsite.jpg",
-        "publishedAt": "2026-10-22T13:38:38.000Z",
+        "title": "2026中国·安平国际丝网博览会开幕 海外客商点赞“数字智造”",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-22/10719427.shtml",
+        "summary": "中新网衡水10月22日电 (赵丹媚 孟宪峰)2026中国·安平国际丝网博览会22日在河北衡水安平启幕，吸引了来自俄罗斯、白俄罗斯、巴基斯坦、埃及、意大利等60多个国家的300余名境外采购商现场洽谈贸易与合作。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261022/500ad24d-d627-4e28-93a0-4f495b02e78f_zsite.JPG",
+        "publishedAt": "2026-10-22T14:55:34.000Z",
         "source": "中新网"
       },
       {
-        "title": "广州储备五年内城市更新项目超2300个",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-22/10719369.shtml",
-        "summary": "中新社广州10月22日电 (记者 王华)首批标志性重大应用场景(广州)发布活动22日举办。其间，广州市住建局局长蔡胜表示，广州共谋划储备了“十五五”(2026年至2030年)期间城市更新项目超2300个。",
+        "title": "2026中国海洋经济博览会开幕",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-22/10719422.shtml",
+        "summary": "中新社深圳10月22日电 (记者 阮煜琳 索有为)2026中国海洋经济博览会(下称“海博会”)22日在深圳启幕。",
         "image": "",
-        "publishedAt": "2026-10-22T13:29:14.000Z",
+        "publishedAt": "2026-10-22T14:35:51.000Z",
         "source": "中新网"
       },
       {
-        "title": "广州联合6省区21地市打造7600公里清洁能源走廊",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-22/10719368.shtml",
-        "summary": "中新社广州10月22日电 (记者 王华)首批标志性重大应用场景(广州)发布活动22日在广州举行。其间透露，广州将联合粤湘鄂赣桂皖6省区21个地市，携手南方电网、中国石化、国家能源集团等百家企业和研发机构，依托广州为枢纽的水路物流通道网络，打造总里程超7600公里的多省联动跨区域水陆清洁能源走廊，建设...",
-        "image": "",
-        "publishedAt": "2026-10-22T13:29:06.000Z",
+        "title": "制冷产业掀起出海“热” 100余国客商赴浙江展会淘货",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-22/10719421.shtml",
+        "summary": "中新网杭州10月22日电(蓝伊旎)10月22日，2026国际空调通风制冷及冷链产业展览会(RACC2026)在杭州开幕。本届展会汇聚528家国内外参展企业，集中展示前沿技术与创新产品。截至目前，已有109个国家和地区的超2000名专业观众报名参会。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261022/81a80962-b4dc-4aa1-95e8-1380c15349c8_zsite.jpg",
+        "publishedAt": "2026-10-22T14:34:53.000Z",
         "source": "中新网"
       },
       {
-        "title": "周小川：中国现有金融工具应对AI风险仍有效",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-22/10719365.shtml",
-        "summary": "中新社北京10月22日电 (陶思阅)当前市场高度关注人工智能(AI)等技术发展，AI热潮是否会催生系统性金融风险引发讨论。中国央行原行长周小川22日在北京表示，金融领域长期以来具备成熟的风险管理机制，应继续利用现有工具来管控风险，这些工具在当前及未来一段时间内仍然有效。",
-        "image": "",
-        "publishedAt": "2026-10-22T13:19:13.000Z",
+        "title": "企步新长征 | 九十年，山河续写长征",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-22/10719402.shtml",
+        "summary": "中新网北京10月22日电 长风未老，征旗如新。",
+        "image": "https://i2.chinanews.com.cn/simg/hd/2026/10/21/4-426/mdmedia_cf406ef6dc224b1faede4dbb416e74bb.jpg",
+        "publishedAt": "2026-10-22T14:00:07.000Z",
         "source": "中新网"
       },
       {
-        "title": "（经济观察）重庆消费凭什么跑出“加速度”？",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-22/10719354.shtml",
-        "summary": "中新网重庆10月22日电 题：重庆消费凭什么跑出“加速度”？",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261022/6d8c9feb-ca44-4ca4-bcc7-0aed311a53d2_zsite.JPG",
-        "publishedAt": "2026-10-22T13:06:15.000Z",
+        "title": "2026西岸国际科技消费嘉年华：AI催生消费新赛道",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-22/10719397.shtml",
+        "summary": "中新网上海10月22日电 (记者 郑莹莹)2026西岸国际科技消费嘉年华(WTCC2026)22日至25日在上海举办，吸引400多个全球科技品牌亮相。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261022/39a3625d-c28d-4569-ba13-a1a957ef1518_zsite.jpeg",
+        "publishedAt": "2026-10-22T13:58:17.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "Ilhan Omar says 'bizarre' pre-dawn raid on her home is forcing her to leave",
-        "link": "https://www.bbc.co.uk/news/articles/cm75p1kxryl5o?at_medium=RSS&at_campaign=rss",
-        "summary": "The congresswoman said federal agents seized over a dozen items, including cell phones and notebooks, as part of a federal investigation.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/972d/live/a8e0d8b0-ce1c-11f1-906e-e3128518d85d.jpg",
-        "publishedAt": "2026-10-22T13:36:21.000Z",
+        "title": "Trump ordered to answer questions under oath in BBC lawsuit",
+        "link": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o?at_medium=RSS&at_campaign=rss",
+        "summary": "Trump is suing the BBC over an episode of Panorama that edited together two different sections of a speech he gave in 2021.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6bf5/live/f171dec0-ce3b-11f1-a86f-f78305ec9987.jpg",
+        "publishedAt": "2026-10-22T17:14:04.000Z",
         "source": "BBC"
       },
       {
-        "title": "Two European women held captive for more than a year in Niger freed in Libya",
-        "link": "https://www.bbc.co.uk/news/articles/cq62y0v7434yo?at_medium=RSS&at_campaign=rss",
-        "summary": "The Swiss government told the BBC that the freed national was on her way back to Switzerland.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9aa6/live/1aa67a70-1416-11f1-9120-a910fc22c6ac.jpg",
-        "publishedAt": "2026-10-22T13:22:39.000Z",
+        "title": "Race to update services' computer systems after cyber-security flaw found",
+        "link": "https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o?at_medium=RSS&at_campaign=rss",
+        "summary": "Websites were taken offline after the developers of programming language PHP said \"critical vulnerabilities\" had been discovered.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/20cc/live/75f1ced0-ce46-11f1-9b4c-4dd353c15d43.jpg",
+        "publishedAt": "2026-10-22T17:12:51.000Z",
         "source": "BBC"
       },
       {
-        "title": "At least four dead after storm brings flooding to southern France",
-        "link": "https://www.bbc.co.uk/news/articles/cm5ynl4v4wgwo?at_medium=RSS&at_campaign=rss",
-        "summary": "The deaths include two women found drowned in a cellar in the Bouches-du-Rhône region.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ba84/live/388ad750-cdf9-11f1-9a39-31b474234113.jpg",
-        "publishedAt": "2026-10-22T11:23:16.000Z",
+        "title": "Germany target of 'intensive' espionage, Merz says after suspected Russian spy arrest",
+        "link": "https://www.bbc.co.uk/news/articles/cmx28y5e04ggo?at_medium=RSS&at_campaign=rss",
+        "summary": "A Ukrainian man was arrested on suspicion of spying for Russia - one of several such cases in Germany this year.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ae81/live/811fe3f0-ce37-11f1-a68f-db480c983a58.jpg",
+        "publishedAt": "2026-10-22T17:07:03.000Z",
         "source": "BBC"
       },
       {
-        "title": "Celebrity shark guided out of South Korea canal refuses to swim out to sea",
-        "link": "https://www.bbc.co.uk/news/articles/cr3wv99614deo?at_medium=RSS&at_campaign=rss",
-        "summary": "Bukangi the shark became an unlikely sensation after it was spotted in a canal in Busan weeks ago.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b8eb/live/0ca70d20-cdc2-11f1-ae0b-3f5d64e6a869.jpg",
-        "publishedAt": "2026-10-22T10:16:35.000Z",
+        "title": "Crowd of 50 beats foreigner to death in South Africa",
+        "link": "https://www.bbc.co.uk/news/articles/ck5yn9z3vnego?at_medium=RSS&at_campaign=rss",
+        "summary": "The attack on the unidentified victim follows a wave of anti-migrants protests in South Africa this year.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fe24/live/7227bf90-ce27-11f1-9f18-490cec60aa0f.png",
+        "publishedAt": "2026-10-22T16:15:25.000Z",
         "source": "BBC"
       },
       {
-        "title": "Police investigate Married at First Sight Australia after 'inappropriate' allegations",
-        "link": "https://www.bbc.co.uk/news/articles/cry83vyw3y4lo?at_medium=RSS&at_campaign=rss",
-        "summary": "New South Wales Police say inquiries took place \"following a report of inappropriate content being shared\".",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2961/live/b6042340-68e5-11f1-8e1d-bbbb1017d210.jpg",
-        "publishedAt": "2026-10-22T09:47:54.000Z",
+        "title": "Newborn twins fight for survival as conflict fuels Yemen's hunger crisis",
+        "link": "https://www.bbc.co.uk/news/articles/cr5ynl63v0pyo?at_medium=RSS&at_campaign=rss",
+        "summary": "Raghad and Raad's family had to flee their home on foot because of the fighting between pro-government forces and the Houthis.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6f6f/live/0c562b60-ce2d-11f1-9f18-490cec60aa0f.jpg",
+        "publishedAt": "2026-10-22T15:56:36.000Z",
         "source": "BBC"
       }
     ],
     "worldBusiness": [
       {
+        "title": "Zuckerberg wins Meta deal to help him foot bill for possible California billionaire tax",
+        "link": "https://www.bbc.co.uk/news/articles/cky83vwnyglno?at_medium=RSS&at_campaign=rss",
+        "summary": "The Meta boss had said he would exit the state over a wealth tax that has not yet come into force.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0031/live/77724130-ce2e-11f1-9f18-490cec60aa0f.jpg",
+        "publishedAt": "2026-10-22T18:26:56.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "'I wasn't thinking straight' says five jobs civil servant",
+        "link": "https://www.bbc.co.uk/news/articles/cmx23dwp3qzro?at_medium=RSS&at_campaign=rss",
+        "summary": "Kashim Chowdhury is accused of fraudulently juggling multiple public sector jobs.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1a08/live/66d2ad60-ce29-11f1-9f18-490cec60aa0f.jpg",
+        "publishedAt": "2026-10-22T15:05:47.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "Barclays cutting 5,000 jobs as it increases reliance on AI",
         "link": "https://www.bbc.co.uk/news/articles/cm4g1p347qgxo?at_medium=RSS&at_campaign=rss",
         "summary": "The bank says it is using more AI leading to a 5% reduction in its workforce.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d20/live/5fb48ff0-622b-11f0-8e4a-613b923287ab.jpg",
-        "publishedAt": "2026-10-22T12:54:36.000Z",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8549/live/51056ff0-ce37-11f1-9a39-31b474234113.jpg",
+        "publishedAt": "2026-10-22T14:28:59.000Z",
         "source": "BBC"
       },
       {
@@ -353,15 +369,7 @@
         "link": "https://www.bbc.co.uk/news/articles/cm70pj51zdk4o?at_medium=RSS&at_campaign=rss",
         "summary": "The defence secretary says the UK is \"back in the business of making weapons\" for its armed forces.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/57ea/live/ff2243b0-ce05-11f1-8991-296181d7e3de.jpg",
-        "publishedAt": "2026-10-22T12:14:19.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Is an 'AI war' complicating your job search?",
-        "link": "https://www.bbc.co.uk/news/articles/cm9qzgg5z89no?at_medium=RSS&at_campaign=rss",
-        "summary": "How fair are AI recruitment tools that help decide our future, and what happens when we click \"apply\"?",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b0fd/live/7fe856d0-cca1-11f1-94e6-edd4c60b2e1d.jpg",
-        "publishedAt": "2026-10-22T05:01:31.000Z",
+        "publishedAt": "2026-10-22T13:45:19.000Z",
         "source": "BBC"
       },
       {
@@ -371,17 +379,25 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/219e/live/8e724170-cda0-11f1-9a39-31b474234113.jpg",
         "publishedAt": "2026-10-21T23:27:05.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Websites taken down worldwide as critical cyber-security update issued",
-        "link": "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o?at_medium=RSS&at_campaign=rss",
-        "summary": "The vulnerabilities with PHP, a programming language widely used across the internet, have been described as the most significant ever found by AI.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6136/live/b103d880-cd90-11f1-b1e7-39558e114359.jpg",
-        "publishedAt": "2026-10-21T19:54:57.000Z",
-        "source": "BBC"
       }
     ],
     "worldTech": [
+      {
+        "title": "Zuckerberg wins Meta deal to help him foot bill for possible California billionaire tax",
+        "link": "https://www.bbc.co.uk/news/articles/cky83vwnyglno?at_medium=RSS&at_campaign=rss",
+        "summary": "The Meta boss had said he would exit the state over a wealth tax that has not yet come into force.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0031/live/77724130-ce2e-11f1-9f18-490cec60aa0f.jpg",
+        "publishedAt": "2026-10-22T18:26:56.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Race to update services' computer systems after cyber-security flaw found",
+        "link": "https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o?at_medium=RSS&at_campaign=rss",
+        "summary": "Websites were taken offline after the developers of programming language PHP said \"critical vulnerabilities\" had been discovered.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/20cc/live/75f1ced0-ce46-11f1-9b4c-4dd353c15d43.jpg",
+        "publishedAt": "2026-10-22T17:12:51.000Z",
+        "source": "BBC"
+      },
       {
         "title": "What is PHP and why did it spark a global cyber-security scramble?",
         "link": "https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&at_campaign=rss",
@@ -405,105 +421,89 @@
         "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/db54/live/d468ebc0-cdfa-11f1-bc2e-018d645d8d21.jpg",
         "publishedAt": "2026-10-22T10:08:44.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "UK working to identify exposure after global cyber-security warning",
-        "link": "https://www.bbc.co.uk/news/articles/cmx23d0k57d3o?at_medium=RSS&at_campaign=rss",
-        "summary": "Governments and companies are scrambling to protect their websites, as Amazon says it experienced attacks before the warning was made public.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f340/live/eba975d0-cdcc-11f1-bd0d-75577ccf219c.jpg",
-        "publishedAt": "2026-10-22T08:23:42.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Trump's green card curbs test Indian tech workers' American dream",
-        "link": "https://www.bbc.co.uk/news/articles/cqj34j7dk771o?at_medium=RSS&at_campaign=rss",
-        "summary": "With immigration curbs and tech firms cutting foreign hiring, US residency is becoming a distant dream for many Indians.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/51e1/live/804b8da0-cc6e-11f1-baeb-8d65d4bcd7ab.jpg",
-        "publishedAt": "2026-10-21T23:06:37.000Z",
-        "source": "BBC"
       }
     ],
     "domestic": [
       {
-        "title": "青海发布科技创新“十五五”规划",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-22/10719374.shtml",
-        "summary": "中新网西宁10月22日电(祁增蓓)10月22日，青海省“十五五”开局起步主题系列新闻发布会科技创新专场在西宁举行，会上发布《青海省科技创新“十五五”规划》，明确提出打造青藏高原科技创新高地，在做强本土科研能力同时，扩大国内外科技协同，开放共享高原科学研究成果。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261022/b3e06e37-54da-441c-bf6f-275eb6868ff0_zsite.jpg",
-        "publishedAt": "2026-10-22T13:38:32.000Z",
+        "title": "西藏那曲市巴青县发生7.0级地震，震源深度10千米",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-22/10719432.shtml",
+        "summary": "中国地震台网正式测定：10月22日22时33分在西藏那曲市巴青县(北纬32.40度，东经93.79度)发生7.0级地震，震源深度10千米。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/10/22/6d3bcbf5c9ad46f4af0c3287a61a36af.jpg",
+        "publishedAt": "2026-10-22T14:49:32.000Z",
         "source": "中新网"
       },
       {
-        "title": "山东法院立案登记制改革十余年收案超2200万件",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-22/10719370.shtml",
-        "summary": "中新网济南10月22日电 (记者 梁犇)山东省高级人民法院22日在济南召开新闻发布会，山东省高级人民法院审判委员会专职审判委员、一级高级法官于晓东介绍，自2015年5月实行立案登记制改革以来，山东法院始终坚持“保护诉权”与“减轻诉累”有机统一，累计受理案件2205.8万件，较上个十年收案增加近两倍，...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261022/5d29e281-9c15-4798-8731-4b213d0fb7cc_zsite.jpg",
-        "publishedAt": "2026-10-22T13:30:32.000Z",
+        "title": "西藏那曲市巴青县附近发生6.7级左右地震",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-22/10719430.shtml",
+        "summary": "中国地震台网自动测定：10月22日22时33分在西藏那曲市巴青县附近(北纬32.43度，东经93.82度)发生6.7级左右地震，最终结果以正式速报为准。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/10/22/203762c6bb77412dbbdae7bc156f5669.jpg",
+        "publishedAt": "2026-10-22T14:44:08.000Z",
         "source": "中新网"
       },
       {
-        "title": "“前沿星球奖”来到北京 学者建言推动学术发现走向现实应用",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-22/10719364.shtml",
-        "summary": "中新网北京10月22日电 题：“前沿星球奖”来到北京 学者建言推动学术发现走向现实应用",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261022/69791033-10cb-4d51-aee5-e26b4436e725_zsite.jpg",
-        "publishedAt": "2026-10-22T13:17:51.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "江西交通职业技术学院原院长黄明忠接受审查调查",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-22/10719339.shtml",
-        "summary": "中新网10月22日电 据江西省纪委监委消息：江西交通职业技术学院原党委副书记、院长黄明忠涉嫌严重违纪违法，主动向组织交代问题，目前正接受江西省纪委监委纪律审查和监察调查。",
+        "title": "全国台企联西南西北区第六十届会长联谊会在广西玉林举行",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-22/10719426.shtml",
+        "summary": "中新网玉林10月22日电(翟李强 曾玉红)10月22日，全国台企联西南西北区第六十届会长联谊会暨玉林市台湾同胞投资企业协会第五届理监事就职典礼，在广西玉林市举行。长期扎根玉林的台商谢固本接任玉林市台湾同胞投资企业协会理事会第五届会长。",
         "image": "",
-        "publishedAt": "2026-10-22T12:52:42.000Z",
+        "publishedAt": "2026-10-22T14:39:56.000Z",
         "source": "中新网"
       },
       {
-        "title": "内蒙古自治区民政厅原副厅长刘程民接受审查调查",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-22/10719338.shtml",
-        "summary": "中新网10月22日电 据内蒙古自治区纪委监委消息：内蒙古自治区民政厅原党组成员、副厅长刘程民涉嫌严重违纪违法，目前正接受内蒙古自治区纪委监委纪律审查和监察调查。",
-        "image": "",
-        "publishedAt": "2026-10-22T12:49:54.000Z",
+        "title": "台商黄一成：让台湾养殖技术在广西北海渔村“落地生根”",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-22/10719424.shtml",
+        "summary": "中新网南宁10月22日电 题：台商黄一成：让台湾养殖技术在广西北海渔村“落地生根”",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261022/ec79dccb-5122-426f-ac90-c1bf068f5274_zsite.jpg",
+        "publishedAt": "2026-10-22T14:37:25.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "海南推出纪录片《中国南繁故事》献礼南繁70年",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-22/10719412.shtml",
+        "summary": "中新网海口10月22日电 (张月和)22日在海口举行的“讲好中国南繁故事 推动文化传承创新”专场新闻发布会上，作为献礼南繁事业70周年的重点纪实影视作品——五集纪录片《中国南繁故事》上线。这是南繁题材首次系统性面向国际受众进行影像表达，旨在通过外国人视角讲述中国南繁故事，向全世界展示中国农业育种的前...",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261022/31f0d01b-87b3-41ea-9ac1-f4f65b1315ce_zsite.jpg",
+        "publishedAt": "2026-10-22T14:06:18.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "Ilhan Omar says 'bizarre' pre-dawn raid on her home is forcing her to leave",
-        "link": "https://www.bbc.co.uk/news/articles/cm75p1kxryl5o?at_medium=RSS&at_campaign=rss",
-        "summary": "The congresswoman said federal agents seized over a dozen items, including cell phones and notebooks, as part of a federal investigation.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/972d/live/a8e0d8b0-ce1c-11f1-906e-e3128518d85d.jpg",
-        "publishedAt": "2026-10-22T13:36:21.000Z",
+        "title": "Trump ordered to answer questions under oath in BBC lawsuit",
+        "link": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o?at_medium=RSS&at_campaign=rss",
+        "summary": "Trump is suing the BBC over an episode of Panorama that edited together two different sections of a speech he gave in 2021.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6bf5/live/f171dec0-ce3b-11f1-a86f-f78305ec9987.jpg",
+        "publishedAt": "2026-10-22T17:14:04.000Z",
         "source": "BBC"
       },
       {
-        "title": "Two European women held captive for more than a year in Niger freed in Libya",
-        "link": "https://www.bbc.co.uk/news/articles/cq62y0v7434yo?at_medium=RSS&at_campaign=rss",
-        "summary": "The Swiss government told the BBC that the freed national was on her way back to Switzerland.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9aa6/live/1aa67a70-1416-11f1-9120-a910fc22c6ac.jpg",
-        "publishedAt": "2026-10-22T13:22:39.000Z",
+        "title": "Race to update services' computer systems after cyber-security flaw found",
+        "link": "https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o?at_medium=RSS&at_campaign=rss",
+        "summary": "Websites were taken offline after the developers of programming language PHP said \"critical vulnerabilities\" had been discovered.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/20cc/live/75f1ced0-ce46-11f1-9b4c-4dd353c15d43.jpg",
+        "publishedAt": "2026-10-22T17:12:51.000Z",
         "source": "BBC"
       },
       {
-        "title": "At least four dead after storm brings flooding to southern France",
-        "link": "https://www.bbc.co.uk/news/articles/cm5ynl4v4wgwo?at_medium=RSS&at_campaign=rss",
-        "summary": "The deaths include two women found drowned in a cellar in the Bouches-du-Rhône region.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ba84/live/388ad750-cdf9-11f1-9a39-31b474234113.jpg",
-        "publishedAt": "2026-10-22T11:23:16.000Z",
+        "title": "Germany target of 'intensive' espionage, Merz says after suspected Russian spy arrest",
+        "link": "https://www.bbc.co.uk/news/articles/cmx28y5e04ggo?at_medium=RSS&at_campaign=rss",
+        "summary": "A Ukrainian man was arrested on suspicion of spying for Russia - one of several such cases in Germany this year.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ae81/live/811fe3f0-ce37-11f1-a68f-db480c983a58.jpg",
+        "publishedAt": "2026-10-22T17:07:03.000Z",
         "source": "BBC"
       },
       {
-        "title": "Celebrity shark guided out of South Korea canal refuses to swim out to sea",
-        "link": "https://www.bbc.co.uk/news/articles/cr3wv99614deo?at_medium=RSS&at_campaign=rss",
-        "summary": "Bukangi the shark became an unlikely sensation after it was spotted in a canal in Busan weeks ago.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b8eb/live/0ca70d20-cdc2-11f1-ae0b-3f5d64e6a869.jpg",
-        "publishedAt": "2026-10-22T10:16:35.000Z",
+        "title": "Crowd of 50 beats foreigner to death in South Africa",
+        "link": "https://www.bbc.co.uk/news/articles/ck5yn9z3vnego?at_medium=RSS&at_campaign=rss",
+        "summary": "The attack on the unidentified victim follows a wave of anti-migrants protests in South Africa this year.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fe24/live/7227bf90-ce27-11f1-9f18-490cec60aa0f.png",
+        "publishedAt": "2026-10-22T16:15:25.000Z",
         "source": "BBC"
       },
       {
-        "title": "Police investigate Married at First Sight Australia after 'inappropriate' allegations",
-        "link": "https://www.bbc.co.uk/news/articles/cry83vyw3y4lo?at_medium=RSS&at_campaign=rss",
-        "summary": "New South Wales Police say inquiries took place \"following a report of inappropriate content being shared\".",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2961/live/b6042340-68e5-11f1-8e1d-bbbb1017d210.jpg",
-        "publishedAt": "2026-10-22T09:47:54.000Z",
+        "title": "Newborn twins fight for survival as conflict fuels Yemen's hunger crisis",
+        "link": "https://www.bbc.co.uk/news/articles/cr5ynl63v0pyo?at_medium=RSS&at_campaign=rss",
+        "summary": "Raghad and Raad's family had to flee their home on foot because of the fighting between pro-government forces and the Houthis.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6f6f/live/0c562b60-ce2d-11f1-9f18-490cec60aa0f.jpg",
+        "publishedAt": "2026-10-22T15:56:36.000Z",
         "source": "BBC"
       }
     ],
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-10-22",
+    "rotationLabel": "Curated Rotation · 2026-10-23",
     "sections": [
       {
         "id": "data-storage",
@@ -522,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-1",
-            "sectionId": "data-storage",
-            "title": "The Log-Structured Merge-Tree (LSM-Tree)",
-            "authors": [
-              "Patrick O'Neil",
-              "Edward Cheng",
-              "Dieter Gawlick",
-              "Elizabeth O'Neil"
-            ],
-            "venue": "Acta Informatica",
-            "year": 1996,
-            "quality": "经典基础",
-            "categories": [
-              "storage",
-              "indexing"
-            ],
-            "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
-            "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-2",
             "sectionId": "data-storage",
@@ -562,7 +541,7 @@
             ],
             "link": "https://research.google/pubs/pub27898/",
             "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-3",
@@ -584,6 +563,27 @@
             "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
             "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-4",
+            "sectionId": "data-storage",
+            "title": "Dremel: Interactive Analysis of Web-Scale Datasets",
+            "authors": [
+              "Sergey Melnik",
+              "Andrey Gubarev",
+              "Jing Jing Long",
+              "Geoffrey Romer"
+            ],
+            "venue": "VLDB",
+            "year": 2010,
+            "quality": "顶会",
+            "categories": [
+              "analytics",
+              "columnar"
+            ],
+            "link": "https://research.google/pubs/pub36632/",
+            "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -593,27 +593,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-2",
-            "sectionId": "computer-vision",
-            "title": "End-to-End Object Detection with Transformers",
-            "authors": [
-              "Nicolas Carion",
-              "Francisco Massa",
-              "Gabriel Synnaeve",
-              "Nicolas Usunier"
-            ],
-            "venue": "ECCV",
-            "year": 2020,
-            "quality": "顶会",
-            "categories": [
-              "detection",
-              "transformer"
-            ],
-            "link": "https://arxiv.org/abs/2005.12872",
-            "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-3",
             "sectionId": "computer-vision",
@@ -633,7 +612,7 @@
             ],
             "link": "https://arxiv.org/abs/2010.11929",
             "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-4",
@@ -655,6 +634,27 @@
             "link": "https://arxiv.org/abs/2103.00020",
             "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-5",
+            "sectionId": "computer-vision",
+            "title": "Segment Anything",
+            "authors": [
+              "Alexander Kirillov",
+              "Eric Mintun",
+              "Nikhila Ravi",
+              "Hanzi Mao"
+            ],
+            "venue": "ICCV",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "segmentation",
+              "foundation model"
+            ],
+            "link": "https://arxiv.org/abs/2304.02643",
+            "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -664,27 +664,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-3",
-            "sectionId": "llm-memory",
-            "title": "RETRO: Improving Language Models by Retrieving From Trillions of Tokens",
-            "authors": [
-              "Sebastian Borgeaud",
-              "Arthur Mensch",
-              "Jordan Hoffmann",
-              "Trevor Cai"
-            ],
-            "venue": "DeepMind / arXiv",
-            "year": 2022,
-            "quality": "高影响力",
-            "categories": [
-              "retrieval",
-              "language model"
-            ],
-            "link": "https://arxiv.org/abs/2112.04426",
-            "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-4",
             "sectionId": "llm-memory",
@@ -704,7 +683,7 @@
             ],
             "link": "https://arxiv.org/abs/2310.11511",
             "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-5",
@@ -726,6 +705,27 @@
             "link": "https://arxiv.org/abs/2306.07174",
             "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-6",
+            "sectionId": "llm-memory",
+            "title": "MemoRAG: Moving towards Next-Gen RAG Via Memory-Inspired Knowledge Discovery",
+            "authors": [
+              "Rulin Shao",
+              "Yue Liu",
+              "Shuo Wang",
+              "Yichi Zhang"
+            ],
+            "venue": "arXiv",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "RAG",
+              "memory bank"
+            ],
+            "link": "https://arxiv.org/abs/2409.05591",
+            "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -735,27 +735,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-4",
-            "sectionId": "agents",
-            "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
-            "authors": [
-              "Guanzhi Wang",
-              "Yuqi Xie",
-              "Zixiang Zhou",
-              "Yujin Tang"
-            ],
-            "venue": "arXiv",
-            "year": 2023,
-            "quality": "高影响力",
-            "categories": [
-              "embodied agent",
-              "planning"
-            ],
-            "link": "https://arxiv.org/abs/2305.16291",
-            "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-5",
             "sectionId": "agents",
@@ -775,7 +754,7 @@
             ],
             "link": "https://arxiv.org/abs/2308.08155",
             "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-6",
@@ -796,6 +775,28 @@
             ],
             "link": "https://arxiv.org/abs/2405.15793",
             "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-1",
+            "sectionId": "agents",
+            "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+            "authors": [
+              "Shunyu Yao",
+              "Jeffrey Zhao",
+              "Dian Yu",
+              "Nan Du"
+            ],
+            "venue": "ICLR",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "agent",
+              "reasoning",
+              "tool use"
+            ],
+            "link": "https://arxiv.org/abs/2210.03629",
+            "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
             "trackLabel": "轮换精选"
           }
         ]
