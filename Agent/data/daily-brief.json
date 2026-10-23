@@ -1,52 +1,44 @@
 {
-  "generatedAt": "2026-10-23T13:19:53.293Z",
+  "generatedAt": "2026-10-23T19:55:24.821Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 10,
-      "weatherCode": 0,
-      "windSpeed": 2
+      "temperature": 8,
+      "weatherCode": 1,
+      "windSpeed": 5
     },
     "today": {
-      "date": "2026-10-23",
+      "date": "2026-10-24",
       "weatherCode": 3,
       "description": "阴天",
-      "max": 15,
-      "min": 6,
-      "precipitationProbability": 5
+      "max": 17,
+      "min": 8,
+      "precipitationProbability": 6
     },
     "forecast": [
-      {
-        "date": "2026-10-23",
-        "weatherCode": 3,
-        "description": "阴天",
-        "max": 15,
-        "min": 6,
-        "precipitationProbability": 5
-      },
       {
         "date": "2026-10-24",
         "weatherCode": 3,
         "description": "阴天",
         "max": 17,
-        "min": 7,
-        "precipitationProbability": 20
+        "min": 8,
+        "precipitationProbability": 6
       },
       {
         "date": "2026-10-25",
-        "weatherCode": 55,
-        "description": "中雨",
+        "weatherCode": 53,
+        "description": "小雨",
         "max": 14,
         "min": 10,
-        "precipitationProbability": 75
+        "precipitationProbability": 77
       },
       {
         "date": "2026-10-26",
         "weatherCode": 53,
         "description": "小雨",
         "max": 16,
-        "min": 9,
-        "precipitationProbability": 58
+        "min": 8,
+        "precipitationProbability": 65
       },
       {
         "date": "2026-10-27",
@@ -55,32 +47,49 @@
         "max": 15,
         "min": 4,
         "precipitationProbability": 0
+      },
+      {
+        "date": "2026-10-28",
+        "weatherCode": 3,
+        "description": "阴天",
+        "max": 13,
+        "min": 2,
+        "precipitationProbability": 0
       }
     ]
   },
   "classicQuote": {
-    "id": "chuci-seek",
-    "text": "路漫漫其修远兮，吾将上下而求索。",
-    "source": "《离骚》",
-    "author": "屈原",
-    "note": "长期主义最难，但也最值得。"
+    "id": "analects-learning",
+    "text": "学而不思则罔，思而不学则殆。",
+    "source": "《论语》",
+    "author": "孔子",
+    "note": "提醒自己既要输入，也要沉淀，不要只忙不想。"
   },
   "bookExcerpt": {
-    "id": "border-town-river",
-    "text": "月光如银子，无处不可照及，山上篁竹在月光下变成了一片黑色，身边草丛中虫声繁密如落雨。",
-    "book": "《边城》",
-    "author": "沈从文"
+    "id": "fortress-besieged-night",
+    "text": "夜仿佛纸浸了油，变成半透明体；它给太阳拥抱住了，分不出身来，也许是给太阳溶了，所以夕照晚霞隐褪后的夜色也带着酡红。",
+    "book": "《围城》",
+    "author": "钱钟书"
   },
   "featuredPlace": {
-    "id": "202610221600",
-    "title": "两只灰狼，黄石国家公园，怀俄明州，美国",
+    "id": "202610231600",
+    "title": "皇家葡萄牙语阅览室，里约热内卢，巴西",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "荒野伙伴",
-    "image": "https://www.bing.com/th?id=OHR.YellowstoneWolves_ZH-CN6767268961_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E7%81%B0%E7%8B%BC&form=hpcapt&mkt=zh-cn"
+    "summary": "书香里的极致华美",
+    "image": "https://www.bing.com/th?id=OHR.PortugueseLibrary_ZH-CN7096893027_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E7%9A%87%E5%AE%B6%E8%91%A1%E8%90%84%E7%89%99%E8%AF%AD%E9%98%85%E8%A7%88%E5%AE%A4&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202610231600",
+      "title": "皇家葡萄牙语阅览室，里约热内卢，巴西",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "书香里的极致华美",
+      "image": "https://www.bing.com/th?id=OHR.PortugueseLibrary_ZH-CN7096893027_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E7%9A%87%E5%AE%B6%E8%91%A1%E8%90%84%E7%89%99%E8%AF%AD%E9%98%85%E8%A7%88%E5%AE%A4&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202610221600",
       "title": "两只灰狼，黄石国家公园，怀俄明州，美国",
@@ -143,203 +152,202 @@
       "summary": "发掘尘封的过去",
       "image": "https://www.bing.com/th?id=OHR.ChauvetPaintingsFrance_ZH-CN3150703955_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E5%9B%BD%E9%99%85%E8%80%83%E5%8F%A4%E6%97%A5&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202610151600",
-      "title": "斯奈费尔斯山，里奇韦附近的圣胡安山脉，科罗拉多州，美国",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "一窥科罗拉多群峰",
-      "image": "https://www.bing.com/th?id=OHR.SneffelsAutumn_ZH-CN3002661429_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E6%96%AF%E5%A5%88%E8%B4%B9%E5%B0%94%E6%96%AF%E5%B1%B1&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-10-23",
-    "dateLabel": "10月23日",
+    "dateKey": "2026-10-24",
+    "dateLabel": "10月24日",
     "items": [
+      {
+        "year": "2023",
+        "text": "第十四屆全國人大常委會第六次會議表決通過《中華人民共和國愛國主義教育法》，自2024年1月1日起施行。",
+        "link": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4"
+      },
       {
         "year": "2021",
         "text": "中華民國臺中市第二選舉區立法委員陳柏惟遭到投票罷免，是中華民國歷史上首位遭罷免的立法委員。",
         "link": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4"
-      },
-      {
-        "year": "2021",
-        "text": "新西兰奧克蘭結束為期1年7個月的一級灌溉禁令。",
-        "link": "https://zh.wikipedia.org/wiki/%E5%A5%A7%E5%85%8B%E8%98%AD"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "台胞畅游平陆运河：百年构想终成“通江达海”实景",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-23/10720050.shtml",
-        "summary": "中新网广西钦州10月23日电 题：台胞畅游平陆运河：百年构想终成“通江达海”实景",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261023/7212c86c-2f91-48eb-8e68-853480994154_zsite.jpg",
-        "publishedAt": "2026-10-23T13:16:02.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "【我们的长征路】习言道｜总书记又一次谈到“半条被子”",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-23/10720025.shtml",
-        "summary": "中新网10月23日电 题：总书记又一次谈到“半条被子”",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/10/23/16be10533e5249b9aebe2bd6bbf17a9a.jpg",
-        "publishedAt": "2026-10-23T13:09:11.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "关于加强外空治理的中国立场",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-23/10720042.shtml",
-        "summary": "新华社雄安10月23日电",
+        "title": "王毅宣布中方进一步落实全球治理倡议的务实行动",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-24/10720161.shtml",
+        "summary": "2026年10月23日，中共中央政治局委员、外交部长王毅在2026全球治理论坛(雄安)开幕式上表示，全球治理追求的是各国人民的共同福祉，依靠的是国际社会的共同努力。今年是新中国恢复联合国合法席位55周年。作为联合国创始会员国和安理会常任理事国，中国愿同世界各国一道，起而行之，携手共进，为构建更加公正...",
         "image": "",
-        "publishedAt": "2026-10-23T12:57:15.000Z",
+        "publishedAt": "2026-10-23T17:58:28.000Z",
         "source": "中新网"
       },
       {
-        "title": "制度破壁，文化出海 北京朝阳构筑高水平文化开放新格局",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-23/10720033.shtml",
-        "summary": "中新网北京10月23日电 秋日的莱锦文化创意产业园晴光满院。园区内，北京市朝阳区文化企业出海实战营正火热举办。活动瞄准AIGC浪潮下微短剧、AI漫剧出海新赛道，政策专家逐条拆解跨境监管要点，头部企业现场分享海外落地实战经验，政企学研围坐在一起碰思路、解难题，实打实帮文创企业打通出海道路。",
+        "title": "中国人民大学区域国别学院正式成立",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-23/10720148.shtml",
+        "summary": "中新网北京10月23日电 (记者 李京泽)10月23日，“中国人民大学区域国别学院成立暨中国区域国别研究自主知识体系研究联盟启动与研讨会”在北京举办。会上，中国人民大学区域国别学院正式成立，中国区域国别学自主知识体系联盟同步启动。",
         "image": "",
-        "publishedAt": "2026-10-23T12:52:52.000Z",
+        "publishedAt": "2026-10-23T15:33:19.000Z",
         "source": "中新网"
       },
       {
-        "title": "国家防总、应急管理部针对江苏启动防汛防台风四级应急响应",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-23/10720031.shtml",
-        "summary": "今年第30号台风“蔷琵”(超强台风级)中心10月23日18时距离台湾台北市东偏南方向约180公里，中心附近最大风力14级(45米每秒)。预计，“蔷琵”将以每小时5-10公里速度向西偏北方向缓慢移动，逐渐向台湾东北部靠近，移入东海南部后，将于25日前后沿浙江东部近海北上，之后转向东北方向。受冷空气和台...",
+        "title": "2026两岸青年创新创业大赛决赛举行 共吸引近千人参赛",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-23/10720147.shtml",
+        "summary": "中新网绍兴10月23日电(项菁)以“两岸同‘芯’·心向未来”为主题的2026两岸青年创新创业大赛决赛23日在浙江绍兴举行。此次大赛设置了“创新组”与“创业组”两大组别，两岸青年围绕绿色经济、数字未来、先进制造等5条赛道展开角逐。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261023/3fc7215e-077a-4906-a3af-b308db6c41e9_zsite.jpeg",
+        "publishedAt": "2026-10-23T15:32:09.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "王毅会见美国亚洲协会董事会共同主席桑顿、《纽约时报》专栏作家弗里德曼",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-23/10720094.shtml",
+        "summary": "中新社河北雄安10月23日电 (记者 曾玥 周昕)10月23日，中共中央政治局委员、外交部长王毅在河北雄安新区会见来华出席2026全球治理论坛(雄安)的美国亚洲协会董事会共同主席桑顿和《纽约时报》专栏作家弗里德曼。",
         "image": "",
-        "publishedAt": "2026-10-23T12:47:18.000Z",
+        "publishedAt": "2026-10-23T14:27:38.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "台湾退役海军少校吕礼诗天津寻根：愿两岸大家小家皆团聚",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-23/10720100.shtml",
+        "summary": "中新社天津10月23日电 (孙翼飞)台湾退役海军少校、前“新江舰”舰长吕礼诗23日到天津天后宫参访。在宫内祈福牌上，他写下“两岸大家、小家团聚”的心愿。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261023/811b5c5e-a193-41f5-bc87-96897a43b7a7_zsite.jpeg",
+        "publishedAt": "2026-10-23T14:03:24.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "青海与阿拉木图动物园推进跨国雪豹保护",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-23/10720057.shtml",
-        "summary": "中新社西宁10月23日电 (祁增蓓)“中国、哈萨克斯坦同为雪豹核心栖息地，西宁野生动物园与阿拉木图动物园技术互补，可共享圈养雪豹种群资源，联合推进跨国物种保护工作。”青海省野生动物救护繁育中心科普宣教与对外交流部负责人齐新章23日在西宁表示。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261023/e61a8ef4-0242-4549-b086-8db357ad2caa_zsite.jpg",
-        "publishedAt": "2026-10-23T13:18:40.000Z",
+        "title": "上海举行女农人庆丰收活动 巾帼好物市集搬进田间",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-23/10720153.shtml",
+        "summary": "中新网上海10月23日电 (蒋小威)2026年上海市女农人庆丰收主题活动23日在金山区廊下镇友好村举行。活动现场设有女性社会组织市集、“金山游礼”巾帼好物后备箱市集、稻田T台秀、游园体验、萌宠互动等环节。女农人、女企业家、驻村书记等带来特色产品，摊位前人头攒动。稻田边，女农人、女企业家、女大学生等身...",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261023/1a76f26f-6ba0-447c-add4-868b10acc9c2_zsite.jpg",
+        "publishedAt": "2026-10-23T15:43:50.000Z",
         "source": "中新网"
       },
       {
-        "title": "三餐四季，浙江温州托稳舌尖上的民生“基本盘”",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-23/10720049.shtml",
-        "summary": "中新网温州10月23日电(黄彦君)清晨的浙江温州，城市还未完全“苏醒”，一条农副产品供应链已经悄然运转：刚捕捞的海鲜送到菜市档口，带着露水的果蔬摆上摊位，米面制品的热气开始升腾。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261023/f25a2c51-d2c0-4d46-b291-3f05b0fb0064_zsite.jpg",
-        "publishedAt": "2026-10-23T13:15:56.000Z",
+        "title": "撂荒土地溢菊香 青海民和山村撑起“金”产业",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-23/10720151.shtml",
+        "summary": "中新网青海民和10月23日电 题：撂荒土地溢菊香 青海民和山村撑起“金”产业",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261023/4fc1b7b1-f5f3-4eb7-966f-fdb958b510cd_zsite.jpg",
+        "publishedAt": "2026-10-23T15:39:51.000Z",
         "source": "中新网"
       },
       {
-        "title": "枸杞橙遇见靛蓝：扎染技艺的银川表达",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-23/10720048.shtml",
-        "summary": "中新网银川10月23日电 题：枸杞橙遇见靛蓝：扎染技艺的银川表达",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261023/b92233b9-8f06-4f8e-9c5d-54b28b16c778_zsite.jpeg",
-        "publishedAt": "2026-10-23T13:15:28.000Z",
+        "title": "中国电建成都院驰援西藏巴青抗震救灾 调运40套板房100套取暖器",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-23/10720149.shtml",
+        "summary": "中新网拉萨10月23日电(白玛玉珍)10月22日22时33分，西藏自治区那曲市巴青县发生7.0级地震，震源深度10千米，造成重大人员伤亡。震区平均海拔接近4800米，夜间气温低，民众安置和防寒保暖成为震后最紧迫的民生任务之一。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261023/a1738301-ea47-4285-a3b4-d805f7cf4c84_zsite.jpeg",
+        "publishedAt": "2026-10-23T15:35:59.000Z",
         "source": "中新网"
       },
       {
-        "title": "警惕涉西藏巴青7.0级地震不实信息（2026·10·23）",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-23/10720058.shtml",
-        "summary": "辟 谣 警惕涉西藏巴青7.0级地震不实信息",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/10/23/93bf5fc45baf496d95760ebbb229eda7.jpg",
-        "publishedAt": "2026-10-23T13:14:18.000Z",
+        "title": "湖北宜昌：“电化长江” 从蓝图照进现实",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-23/10720145.shtml",
+        "summary": "中新网湖北宜都10月23日电 题：湖北宜昌：“电化长江”从蓝图照进现实",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261023/15bdbfcf-34bd-4867-bde5-8d1967ece5da_zsite.jpg",
+        "publishedAt": "2026-10-23T15:30:03.000Z",
         "source": "中新网"
       },
       {
-        "title": "2026年全国公安机关警务实战教官技能比武圆满结束",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-23/10720047.shtml",
-        "summary": "中新网杭州10月23日电 (记者 郭超凯 孙杨洋)经过5天紧张激烈的比拼，2026年全国公安机关警务实战教官技能比武于10月23日在杭州落下帷幕。",
+        "title": "COP17中国角主题边会举行，呼吁携手应对生物多样性丧失挑战",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-23/10720110.shtml",
+        "summary": "中新网10月23日电 当地时间10月21日，《生物多样性公约》第十七次缔约方大会(COP17)中国角系列活动之一“保护生物多样性 尊重多元文化 践行多边主义”主题边会在亚美尼亚埃里温举行。",
         "image": "",
-        "publishedAt": "2026-10-23T13:04:17.000Z",
+        "publishedAt": "2026-10-23T15:21:22.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "1-9月中国发行新增专项债券35608亿元",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-23/10720055.shtml",
-        "summary": "中新社北京10月23日电 (记者 赵建华)中国财政部23日公布，1-9月，全国共发行新增专项债券35608亿元(人民币，下同)。其中，9月份发行6339亿元，较去年同期增加2148亿元，发行明显提速。",
+        "title": "山海好物走进上海市民“菜篮子” 603家企业携特产亮相",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-23/10720154.shtml",
+        "summary": "中新网上海10月23日电 (记者 李姝徵)第九届上海市对口地区特色商品展销会23日开幕，603家企业带着家乡好物来到上海，让市民在家门口选购远方风物，也为产地寻找更多生意机会。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261023/9c3c587e-9b03-4cb7-bb10-43ce96be9c46_zsite.jpeg",
+        "publishedAt": "2026-10-23T15:43:44.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "武汉经开区强化“内功” “车谷造”加速出海",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-23/10720152.shtml",
+        "summary": "中新网武汉10月23日电(余哲)“底盘减震出色，新能源动力模式精准契合海外市场需求。”在武汉经开区岚图汽车黄金工厂试驾完岚图新能源车后，新西兰《华新时报》社长蒋佳柽这样评价。22日，约20家海外华文媒体代表走进岚图汽车智慧工厂，近距离观察“中国车谷”如何以自研技术、出海通道强化“内功”，让新能源汽车...",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261023/6cbb4172-9425-440c-b9f4-5c27e5be77ee_zsite.jpg",
+        "publishedAt": "2026-10-23T15:41:22.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "上海推动人工智能赋能工业服务业",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-23/10720144.shtml",
+        "summary": "中新网上海10月23日电 (记者 郑莹莹)据上海市经济和信息化委员会23日发布的消息，《上海市加快推动人工智能赋能工业服务业高质量发展行动方案(2027-2028年)》(简称“行动方案”)于近日印发。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261023/4daaba0e-d116-4fa2-8bfa-2b72b4df9163_zsite.jpeg",
+        "publishedAt": "2026-10-23T15:24:43.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "今年前三季度唐山港京唐港区保税物流中心（B型）进口贸易额居中国首位",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-23/10720136.shtml",
+        "summary": "中新网唐山10月23日电 (王夏菲 刘姿含 李海天)京唐港海关23日消息，今年前三季度，唐山港京唐港区保税物流中心(B型)进出口贸易额突破200.6亿元，同比增长389.6%，位列全国同类保税物流中心第2位。其中，进口贸易额突破199亿元，同比增长387.9%，居全国第1位，持续领跑河北省同类对外开...",
         "image": "",
-        "publishedAt": "2026-10-23T13:18:34.000Z",
+        "publishedAt": "2026-10-23T15:09:54.000Z",
         "source": "中新网"
       },
       {
-        "title": "安徽计划培育4个以上万亿级先进制造业集群",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-23/10720052.shtml",
-        "summary": "中新网合肥10月23日电 (记者 张强)记者23日从中共安徽省委举行的新闻发布会上获悉，该省将实施先进制造业集群培育壮大工程，加快培育4个以上万亿级集群和20个以上千亿级产业链。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261023/670e0e6c-86b2-46d9-b1fb-92e4840ebe28_zsite.jpeg",
-        "publishedAt": "2026-10-23T13:16:46.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "蓉链全球·中国（成都）—葡萄牙政企经贸对接会在蓉举办",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-23/10720051.shtml",
-        "summary": "中新网成都10月23日电 (记者 岳依桐)蓉链全球·中国(成都)—葡萄牙政企经贸对接会23日在蓉举办，聚焦农业食品、商务咨询、法律服务、高等教育等重点领域，搭建中葡政企对接、产业互通的高效交流平台。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261023/58e5ae6c-b549-442a-a0ff-642f7ce707ed_zsite.jpg",
-        "publishedAt": "2026-10-23T13:16:42.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "青海前三季度GDP同比增长5.1%",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-23/10720043.shtml",
-        "summary": "中新网西宁10月23日电 (记者 孙睿)“今年前三季度，全省实现地区生产总值3150.37亿元(人民币，下同)，同比增长5.1%。”23日，青海省统计局党组成员、副局长陈宇祺表示，该省今年一季度GDP增速实现2024年来首次高于全国增速，前三季度延续，且高于全国的幅度由上半年的0.3个百分点扩大到0...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261023/24112760-2857-4876-a074-7f3ef4aeaf4d_zsite.jpeg",
-        "publishedAt": "2026-10-23T13:02:59.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "中国国库资金汇划开通“绿色通道” 支持西藏抗震救灾工作",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-23/10720041.shtml",
-        "summary": "中新社北京10月23日电 10月22日22时33分许，西藏那曲市巴青县发生7.0级地震，造成重大人员伤亡。中国央行组织国库部门立即启动应急预案，及时开通国库资金汇划“绿色通道”，全力保障救灾资金准确及时拨付到位。",
+        "title": "广西“梧州制造”产品8小时直达香港",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-23/10720134.shtml",
+        "summary": "中新网广西梧州10月23日电(陈秋霞 张广权)广西梧州本地运输企业自有车辆23日首次承运“梧州制造”产品直达香港，全程约8小时，较水路快近6倍，较经广东转驳陆运快近50%，物流成本节省约25%。香港民众日后选购梧州产品，有望更快、更便宜到手。",
         "image": "",
-        "publishedAt": "2026-10-23T12:57:43.000Z",
+        "publishedAt": "2026-10-23T15:08:10.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "Seven shot dead by gunmen at church funeral in Jordan, state media say",
+        "title": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
         "link": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o?at_medium=RSS&at_campaign=rss",
-        "summary": "Another 10 people are injured in the southern Karak governorate, and a manhunt is now under way.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/824e/live/d493de60-cee1-11f1-bdca-23c64447299f.png",
-        "publishedAt": "2026-10-23T13:12:15.000Z",
+        "summary": "Thirty-four people are also injured in the attack in southern Karak governorate, and a manhunt is now under way.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fd9e/live/bb37b200-cee8-11f1-b441-2b33b063138f.jpg",
+        "publishedAt": "2026-10-23T19:46:30.000Z",
         "source": "BBC"
       },
       {
-        "title": "Two Israeli soldiers killed in attack by suspected Palestinian gunmen in West Bank",
-        "link": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&at_campaign=rss",
-        "summary": "The two attackers were shot dead after a gun battle outside Hebron, four days before Israel's general election.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a095/live/c39c9a30-cec7-11f1-b9e0-e5f0da03dc7f.jpg",
-        "publishedAt": "2026-10-23T12:48:52.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Anti-terror police investigate as one person killed in shooting near Paris",
+        "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
         "link": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
-        "summary": "French Prime Minister Sébastien Lecornu describes the gun attack in Trappes as \"very serious\".",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/35ff/live/d6558960-ced2-11f1-8507-45cb00a1c41c.jpg",
-        "publishedAt": "2026-10-23T12:47:01.000Z",
+        "summary": "One person is killed and five wounded in a series of attacks and the suspected gunman has been apprehended.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7c59/live/b8966750-cef5-11f1-a701-fddedf244c16.jpg",
+        "publishedAt": "2026-10-23T19:42:08.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "White House says Melania Trump brokers truce for Ukraine city 'on brink of disaster'",
+        "link": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
+        "summary": "Ukraine and Russia confirm the truce in Russian-occupied Oleshky, where residents have had to eat garden weeds to survive.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7099/live/5602f2d0-b770-11f1-a7b2-f3bdba1cd194.jpg",
+        "publishedAt": "2026-10-23T19:30:19.000Z",
         "source": "BBC"
       },
       {
         "title": "Ukraine says Starlink still restricted after Trump says limits lifted",
         "link": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss",
-        "summary": "Issues remain with the network used by the Ukrainian military, sources say, after repeated denials of a deliberate slowdown.",
+        "summary": "The network is used by the Ukrainian military, sources say, and Trump says \"if there is a problem, I'll get it straightened out\".",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/271c/live/d171b6a0-cebc-11f1-a64c-550be9e3c66b.jpg",
-        "publishedAt": "2026-10-23T11:01:08.000Z",
+        "publishedAt": "2026-10-23T18:52:17.000Z",
         "source": "BBC"
       },
       {
-        "title": "Cyprus police open investigation into financial affairs of Roman Abramovich",
-        "link": "https://www.bbc.co.uk/news/articles/c875p1yy90ryo?at_medium=RSS&at_campaign=rss",
-        "summary": "Questions about the integrity of some of Abramovich's professional advisers, were raised earlier this month.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f0d1/live/72654850-ce28-11f1-9a39-31b474234113.jpg",
-        "publishedAt": "2026-10-23T10:14:37.000Z",
+        "title": "Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead",
+        "link": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&at_campaign=rss",
+        "summary": "The soldiers were killed in an attack by two Palestinian gunmen at a checkpoint outside the West Bank city on Friday morning.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bbd8/live/36f17b50-cef9-11f1-accf-3309656ad0bb.jpg",
+        "publishedAt": "2026-10-23T15:37:07.000Z",
         "source": "BBC"
       }
     ],
     "worldBusiness": [
+      {
+        "title": "Civil servant who juggled five jobs says he was 'surprised' to be charged with fraud",
+        "link": "https://www.bbc.co.uk/news/articles/c6lykzwjkj1eo?at_medium=RSS&at_campaign=rss",
+        "summary": "Kashim Chowdhury denied being dishonest when not telling employers he had other jobs.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/77ce/live/5103dfb0-ceef-11f1-b2ae-23f8d2a0e0c0.jpg",
+        "publishedAt": "2026-10-23T15:15:13.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Earnings limit of up to £140K for first-time buyers loan scheme",
         "link": "https://www.bbc.co.uk/news/articles/c6n8dex0zeg9o?at_medium=RSS&at_campaign=rss",
@@ -370,14 +378,6 @@
         "summary": "Grandma Droniak, Nonna Gracie, Viv Truran and Barbara Costello have all found fame on social media in their later years.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c74/live/1831c620-ce40-11f1-9a39-31b474234113.jpg",
         "publishedAt": "2026-10-22T23:20:38.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "L'Oreal says weight loss drugs are impacting beauty and skincare sales",
-        "link": "https://www.bbc.co.uk/news/articles/cvglwgwpgrlpo?at_medium=RSS&at_campaign=rss",
-        "summary": "The beauty giant's CEO says the use of GLP-1s is \"a very important phenomenon for us\".",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/04f7/live/62d395b0-ce5d-11f1-a64c-550be9e3c66b.jpg",
-        "publishedAt": "2026-10-22T22:27:53.000Z",
         "source": "BBC"
       }
     ],
@@ -425,85 +425,85 @@
     ],
     "domestic": [
       {
-        "title": "台胞畅游平陆运河：百年构想终成“通江达海”实景",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-23/10720050.shtml",
-        "summary": "中新网广西钦州10月23日电 题：台胞畅游平陆运河：百年构想终成“通江达海”实景",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261023/7212c86c-2f91-48eb-8e68-853480994154_zsite.jpg",
-        "publishedAt": "2026-10-23T13:16:02.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "【我们的长征路】习言道｜总书记又一次谈到“半条被子”",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-23/10720025.shtml",
-        "summary": "中新网10月23日电 题：总书记又一次谈到“半条被子”",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/10/23/16be10533e5249b9aebe2bd6bbf17a9a.jpg",
-        "publishedAt": "2026-10-23T13:09:11.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "关于加强外空治理的中国立场",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-23/10720042.shtml",
-        "summary": "新华社雄安10月23日电",
+        "title": "王毅宣布中方进一步落实全球治理倡议的务实行动",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-24/10720161.shtml",
+        "summary": "2026年10月23日，中共中央政治局委员、外交部长王毅在2026全球治理论坛(雄安)开幕式上表示，全球治理追求的是各国人民的共同福祉，依靠的是国际社会的共同努力。今年是新中国恢复联合国合法席位55周年。作为联合国创始会员国和安理会常任理事国，中国愿同世界各国一道，起而行之，携手共进，为构建更加公正...",
         "image": "",
-        "publishedAt": "2026-10-23T12:57:15.000Z",
+        "publishedAt": "2026-10-23T17:58:28.000Z",
         "source": "中新网"
       },
       {
-        "title": "制度破壁，文化出海 北京朝阳构筑高水平文化开放新格局",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-23/10720033.shtml",
-        "summary": "中新网北京10月23日电 秋日的莱锦文化创意产业园晴光满院。园区内，北京市朝阳区文化企业出海实战营正火热举办。活动瞄准AIGC浪潮下微短剧、AI漫剧出海新赛道，政策专家逐条拆解跨境监管要点，头部企业现场分享海外落地实战经验，政企学研围坐在一起碰思路、解难题，实打实帮文创企业打通出海道路。",
+        "title": "中国人民大学区域国别学院正式成立",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-23/10720148.shtml",
+        "summary": "中新网北京10月23日电 (记者 李京泽)10月23日，“中国人民大学区域国别学院成立暨中国区域国别研究自主知识体系研究联盟启动与研讨会”在北京举办。会上，中国人民大学区域国别学院正式成立，中国区域国别学自主知识体系联盟同步启动。",
         "image": "",
-        "publishedAt": "2026-10-23T12:52:52.000Z",
+        "publishedAt": "2026-10-23T15:33:19.000Z",
         "source": "中新网"
       },
       {
-        "title": "国家防总、应急管理部针对江苏启动防汛防台风四级应急响应",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-23/10720031.shtml",
-        "summary": "今年第30号台风“蔷琵”(超强台风级)中心10月23日18时距离台湾台北市东偏南方向约180公里，中心附近最大风力14级(45米每秒)。预计，“蔷琵”将以每小时5-10公里速度向西偏北方向缓慢移动，逐渐向台湾东北部靠近，移入东海南部后，将于25日前后沿浙江东部近海北上，之后转向东北方向。受冷空气和台...",
+        "title": "2026两岸青年创新创业大赛决赛举行 共吸引近千人参赛",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-23/10720147.shtml",
+        "summary": "中新网绍兴10月23日电(项菁)以“两岸同‘芯’·心向未来”为主题的2026两岸青年创新创业大赛决赛23日在浙江绍兴举行。此次大赛设置了“创新组”与“创业组”两大组别，两岸青年围绕绿色经济、数字未来、先进制造等5条赛道展开角逐。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261023/3fc7215e-077a-4906-a3af-b308db6c41e9_zsite.jpeg",
+        "publishedAt": "2026-10-23T15:32:09.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "王毅会见美国亚洲协会董事会共同主席桑顿、《纽约时报》专栏作家弗里德曼",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-23/10720094.shtml",
+        "summary": "中新社河北雄安10月23日电 (记者 曾玥 周昕)10月23日，中共中央政治局委员、外交部长王毅在河北雄安新区会见来华出席2026全球治理论坛(雄安)的美国亚洲协会董事会共同主席桑顿和《纽约时报》专栏作家弗里德曼。",
         "image": "",
-        "publishedAt": "2026-10-23T12:47:18.000Z",
+        "publishedAt": "2026-10-23T14:27:38.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "台湾退役海军少校吕礼诗天津寻根：愿两岸大家小家皆团聚",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-23/10720100.shtml",
+        "summary": "中新社天津10月23日电 (孙翼飞)台湾退役海军少校、前“新江舰”舰长吕礼诗23日到天津天后宫参访。在宫内祈福牌上，他写下“两岸大家、小家团聚”的心愿。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261023/811b5c5e-a193-41f5-bc87-96897a43b7a7_zsite.jpeg",
+        "publishedAt": "2026-10-23T14:03:24.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "Seven shot dead by gunmen at church funeral in Jordan, state media say",
+        "title": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
         "link": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o?at_medium=RSS&at_campaign=rss",
-        "summary": "Another 10 people are injured in the southern Karak governorate, and a manhunt is now under way.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/824e/live/d493de60-cee1-11f1-bdca-23c64447299f.png",
-        "publishedAt": "2026-10-23T13:12:15.000Z",
+        "summary": "Thirty-four people are also injured in the attack in southern Karak governorate, and a manhunt is now under way.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fd9e/live/bb37b200-cee8-11f1-b441-2b33b063138f.jpg",
+        "publishedAt": "2026-10-23T19:46:30.000Z",
         "source": "BBC"
       },
       {
-        "title": "Two Israeli soldiers killed in attack by suspected Palestinian gunmen in West Bank",
-        "link": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&at_campaign=rss",
-        "summary": "The two attackers were shot dead after a gun battle outside Hebron, four days before Israel's general election.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a095/live/c39c9a30-cec7-11f1-b9e0-e5f0da03dc7f.jpg",
-        "publishedAt": "2026-10-23T12:48:52.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Anti-terror police investigate as one person killed in shooting near Paris",
+        "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
         "link": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
-        "summary": "French Prime Minister Sébastien Lecornu describes the gun attack in Trappes as \"very serious\".",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/35ff/live/d6558960-ced2-11f1-8507-45cb00a1c41c.jpg",
-        "publishedAt": "2026-10-23T12:47:01.000Z",
+        "summary": "One person is killed and five wounded in a series of attacks and the suspected gunman has been apprehended.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7c59/live/b8966750-cef5-11f1-a701-fddedf244c16.jpg",
+        "publishedAt": "2026-10-23T19:42:08.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "White House says Melania Trump brokers truce for Ukraine city 'on brink of disaster'",
+        "link": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
+        "summary": "Ukraine and Russia confirm the truce in Russian-occupied Oleshky, where residents have had to eat garden weeds to survive.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7099/live/5602f2d0-b770-11f1-a7b2-f3bdba1cd194.jpg",
+        "publishedAt": "2026-10-23T19:30:19.000Z",
         "source": "BBC"
       },
       {
         "title": "Ukraine says Starlink still restricted after Trump says limits lifted",
         "link": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss",
-        "summary": "Issues remain with the network used by the Ukrainian military, sources say, after repeated denials of a deliberate slowdown.",
+        "summary": "The network is used by the Ukrainian military, sources say, and Trump says \"if there is a problem, I'll get it straightened out\".",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/271c/live/d171b6a0-cebc-11f1-a64c-550be9e3c66b.jpg",
-        "publishedAt": "2026-10-23T11:01:08.000Z",
+        "publishedAt": "2026-10-23T18:52:17.000Z",
         "source": "BBC"
       },
       {
-        "title": "Cyprus police open investigation into financial affairs of Roman Abramovich",
-        "link": "https://www.bbc.co.uk/news/articles/c875p1yy90ryo?at_medium=RSS&at_campaign=rss",
-        "summary": "Questions about the integrity of some of Abramovich's professional advisers, were raised earlier this month.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f0d1/live/72654850-ce28-11f1-9a39-31b474234113.jpg",
-        "publishedAt": "2026-10-23T10:14:37.000Z",
+        "title": "Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead",
+        "link": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&at_campaign=rss",
+        "summary": "The soldiers were killed in an attack by two Palestinian gunmen at a checkpoint outside the West Bank city on Friday morning.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bbd8/live/36f17b50-cef9-11f1-accf-3309656ad0bb.jpg",
+        "publishedAt": "2026-10-23T15:37:07.000Z",
         "source": "BBC"
       }
     ],
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-10-23",
+    "rotationLabel": "Curated Rotation · 2026-10-24",
     "sections": [
       {
         "id": "data-storage",
@@ -522,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-2",
-            "sectionId": "data-storage",
-            "title": "Bigtable: A Distributed Storage System for Structured Data",
-            "authors": [
-              "Fay Chang",
-              "Jeffrey Dean",
-              "Sanjay Ghemawat",
-              "Wilson C. Hsieh"
-            ],
-            "venue": "OSDI",
-            "year": 2006,
-            "quality": "顶会",
-            "categories": [
-              "distributed systems",
-              "database"
-            ],
-            "link": "https://research.google/pubs/pub27898/",
-            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-3",
             "sectionId": "data-storage",
@@ -562,7 +541,7 @@
             ],
             "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
             "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-4",
@@ -584,6 +563,26 @@
             "link": "https://research.google/pubs/pub36632/",
             "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-5",
+            "sectionId": "data-storage",
+            "title": "The FAISS Library",
+            "authors": [
+              "Jeff Johnson",
+              "Matthijs Douze",
+              "Herve Jegou"
+            ],
+            "venue": "IEEE T-BD",
+            "year": 2021,
+            "quality": "高影响力",
+            "categories": [
+              "vector search",
+              "ANN"
+            ],
+            "link": "https://arxiv.org/abs/2401.08281",
+            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -593,27 +592,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-3",
-            "sectionId": "computer-vision",
-            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
-            "authors": [
-              "Alexey Dosovitskiy",
-              "Lucas Beyer",
-              "Alexander Kolesnikov",
-              "Dirk Weissenborn"
-            ],
-            "venue": "ICLR",
-            "year": 2021,
-            "quality": "顶会",
-            "categories": [
-              "vision transformer",
-              "classification"
-            ],
-            "link": "https://arxiv.org/abs/2010.11929",
-            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-4",
             "sectionId": "computer-vision",
@@ -633,7 +611,7 @@
             ],
             "link": "https://arxiv.org/abs/2103.00020",
             "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-5",
@@ -655,6 +633,27 @@
             "link": "https://arxiv.org/abs/2304.02643",
             "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-6",
+            "sectionId": "computer-vision",
+            "title": "DINOv2: Learning Robust Visual Features without Supervision",
+            "authors": [
+              "Maxime Oquab",
+              "Timothée Darcet",
+              "Théo Moutakanni",
+              "Huy V. Vo"
+            ],
+            "venue": "arXiv / Meta",
+            "year": 2023,
+            "quality": "高影响力",
+            "categories": [
+              "self-supervised",
+              "representation"
+            ],
+            "link": "https://arxiv.org/abs/2304.07193",
+            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -664,27 +663,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-4",
-            "sectionId": "llm-memory",
-            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
-            "authors": [
-              "Akari Asai",
-              "Zequn Zhang",
-              "Avirup Sil",
-              "Hannaneh Hajishirzi"
-            ],
-            "venue": "ICLR",
-            "year": 2024,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "self-reflection"
-            ],
-            "link": "https://arxiv.org/abs/2310.11511",
-            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-5",
             "sectionId": "llm-memory",
@@ -704,7 +682,7 @@
             ],
             "link": "https://arxiv.org/abs/2306.07174",
             "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-6",
@@ -726,6 +704,27 @@
             "link": "https://arxiv.org/abs/2409.05591",
             "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-1",
+            "sectionId": "llm-memory",
+            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+            "authors": [
+              "Patrick Lewis",
+              "Ethan Perez",
+              "Aleksandra Piktus",
+              "Fabio Petroni"
+            ],
+            "venue": "NeurIPS",
+            "year": 2020,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "retrieval"
+            ],
+            "link": "https://arxiv.org/abs/2005.11401",
+            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -735,27 +734,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-5",
-            "sectionId": "agents",
-            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
-            "authors": [
-              "Qingyun Wu",
-              "Gagan Bansal",
-              "Jiaqi Zhang",
-              "Yiran Wu"
-            ],
-            "venue": "COLM",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "multi-agent",
-              "framework"
-            ],
-            "link": "https://arxiv.org/abs/2308.08155",
-            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-6",
             "sectionId": "agents",
@@ -775,7 +753,7 @@
             ],
             "link": "https://arxiv.org/abs/2405.15793",
             "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-1",
@@ -797,6 +775,27 @@
             ],
             "link": "https://arxiv.org/abs/2210.03629",
             "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-2",
+            "sectionId": "agents",
+            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+            "authors": [
+              "Timo Schick",
+              "Jane Dwivedi-Yu",
+              "Roberta Dessì",
+              "Ari Holtzman"
+            ],
+            "venue": "NeurIPS",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "tool use",
+              "agent"
+            ],
+            "link": "https://arxiv.org/abs/2302.04761",
+            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
             "trackLabel": "轮换精选"
           }
         ]
