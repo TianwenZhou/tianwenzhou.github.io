@@ -1,36 +1,28 @@
 {
-  "generatedAt": "2026-10-25T13:08:41.765Z",
+  "generatedAt": "2026-10-25T18:57:20.085Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
       "temperature": 11,
-      "weatherCode": 61,
-      "windSpeed": 4
+      "weatherCode": 2,
+      "windSpeed": 0
     },
     "today": {
-      "date": "2026-10-25",
-      "weatherCode": 61,
-      "description": "小雨",
-      "max": 13,
-      "min": 11,
-      "precipitationProbability": 100
+      "date": "2026-10-26",
+      "weatherCode": 51,
+      "description": "毛毛雨",
+      "max": 17,
+      "min": 9,
+      "precipitationProbability": 86
     },
     "forecast": [
-      {
-        "date": "2026-10-25",
-        "weatherCode": 61,
-        "description": "小雨",
-        "max": 13,
-        "min": 11,
-        "precipitationProbability": 100
-      },
       {
         "date": "2026-10-26",
         "weatherCode": 51,
         "description": "毛毛雨",
         "max": 17,
         "min": 9,
-        "precipitationProbability": 79
+        "precipitationProbability": 86
       },
       {
         "date": "2026-10-27",
@@ -55,32 +47,49 @@
         "max": 17,
         "min": 4,
         "precipitationProbability": 0
+      },
+      {
+        "date": "2026-10-30",
+        "weatherCode": 1,
+        "description": "基本晴",
+        "max": 17,
+        "min": 5,
+        "precipitationProbability": 0
       }
     ]
   },
   "classicQuote": {
-    "id": "taoteching-accumulate",
-    "text": "合抱之木，生于毫末；九层之台，起于累土。",
+    "id": "taoteching-self",
+    "text": "知人者智，自知者明；胜人者有力，自胜者强。",
     "source": "《道德经》",
     "author": "老子",
-    "note": "再大的目标，也要拆成今天能推进的一小步。"
+    "note": "比起和别人比较，更重要的是把自己的节奏稳住。"
   },
   "bookExcerpt": {
-    "id": "camel-xiangzi-sky",
-    "text": "天是越来越晴朗了，一轮火一样的太阳悬在空中，街上的一切都像在明晃晃地发着白光。",
-    "book": "《骆驼祥子》",
-    "author": "老舍"
+    "id": "norwegian-wood-rain",
+    "text": "雨还在下，细得像雾，落在草地和树叶上，世界像被一种安静的潮气轻轻包住。",
+    "book": "《挪威的森林》",
+    "author": "村上春树"
   },
   "featuredPlace": {
-    "id": "202610241600",
-    "title": "玛琳湖，贾斯珀国家公园，艾伯塔省，加拿大",
+    "id": "202610251600",
+    "title": "秋日瀑布，西托沃附近，普罗夫迪夫州，保加利亚",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "群峰与宁静相遇之地",
-    "image": "https://www.bing.com/th?id=OHR.MaligneFest_ZH-CN8343066766_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E7%8E%9B%E7%90%B3%E6%B9%96&form=hpcapt&mkt=zh-cn"
+    "summary": "大自然的秋日乐章",
+    "image": "https://www.bing.com/th?id=OHR.SitovoWaterfall_ZH-CN8495214046_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E4%BF%9D%E5%8A%A0%E5%88%A9%E4%BA%9A%E6%99%AE%E7%BD%97%E5%A4%AB%E8%BF%AA%E5%A4%AB%E8%A5%BF%E6%89%98%E6%B2%83&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202610251600",
+      "title": "秋日瀑布，西托沃附近，普罗夫迪夫州，保加利亚",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "大自然的秋日乐章",
+      "image": "https://www.bing.com/th?id=OHR.SitovoWaterfall_ZH-CN8495214046_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E4%BF%9D%E5%8A%A0%E5%88%A9%E4%BA%9A%E6%99%AE%E7%BD%97%E5%A4%AB%E8%BF%AA%E5%A4%AB%E8%A5%BF%E6%89%98%E6%B2%83&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202610241600",
       "title": "玛琳湖，贾斯珀国家公园，艾伯塔省，加拿大",
@@ -143,35 +152,42 @@
       "summary": "水上通衢",
       "image": "https://www.bing.com/th?id=OHR.VeniceSunrise_ZH-CN5251815339_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E5%A8%81%E5%B0%BC%E6%96%AF%E5%A4%A7%E8%BF%90%E6%B2%B3&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202610171600",
-      "title": "多巴达恩城堡，兰贝里斯，斯诺登尼亚国家公园，威尔士",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "75载，风华正茂",
-      "image": "https://www.bing.com/th?id=OHR.DolbadarnWales_ZH-CN3649667806_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E5%A8%81%E5%B0%94%E5%A3%AB%E6%96%AF%E8%AF%BA%E7%99%BB%E5%B0%BC%E4%BA%9A%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-10-25",
-    "dateLabel": "10月25日",
+    "dateKey": "2026-10-26",
+    "dateLabel": "10月26日",
     "items": [
       {
-        "year": "2025",
-        "text": "東帝汶成為東南亞國家協會第11個成員國，並使該組織涵蓋東南亞地區所有國家。",
-        "link": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4"
+        "year": "2019",
+        "text": "恐怖組織伊斯蘭國頭目阿布·貝克爾·巴格達迪在美軍於敘利亞伊德利卜的空襲行動中自殺身亡。",
+        "link": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4"
       },
       {
-        "year": "2022",
-        "text": "莉茲·特拉斯以49天的時間結束了英國最短的首相任期。",
-        "link": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4"
+        "year": "2017",
+        "text": "泰国国王拉玛九世的世纪葬礼于曼谷皇家田广场举行。",
+        "link": "https://zh.wikipedia.org/wiki/2017%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
+      {
+        "title": "两岸同忆台静农：渡海传薪续文脉 “歇脚庵”里话古今",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-25/10720855.shtml",
+        "summary": "中新社安徽六安10月25日电 题：两岸同忆台静农：渡海传薪续文脉 “歇脚庵”里话古今",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261025/cffb3dc6-2fad-43d3-8ab0-091a17ddb6ea_zsite.jpeg",
+        "publishedAt": "2026-10-25T14:09:08.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "在榕台青于非遗与新媒体碰撞中感悟闽都文脉",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-25/10720843.shtml",
+        "summary": "中新网福州10月25日电 (郑江洛)25日，“新媒传情·华裳漆韵”新媒体技能培训与非遗交流体验活动在福州举行，30名在榕高校台青代表相聚于此，在技艺学习与沉浸式体验中，共品闽都文化魅力，缔结两岸青年情谊。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261025/ad51eca6-702f-4b98-b607-b18a96f8e559_zsite.jpg",
+        "publishedAt": "2026-10-25T13:13:27.000Z",
+        "source": "中新网"
+      },
       {
         "title": "2026年闽台青少年街舞展演在福州举办",
         "link": "https://www.chinanews.com.cn/gn/2026/10-25/10720840.shtml",
@@ -195,25 +211,17 @@
         "image": "",
         "publishedAt": "2026-10-25T12:49:13.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "宁夏知识产权保护和运用“十五五”规划获批 锚定2030年知识产权强区建设目标",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-25/10720828.shtml",
-        "summary": "中新网银川10月25日电 (记者 于晶)25日，记者从宁夏回族自治区市场监督管理厅(知识产权局)获悉，宁夏政府常务会议审议通过《宁夏回族自治区知识产权保护和运用“十五五”规划》，为未来五年宁夏知识产权治理体系完善、保护运用效能提升划定路线图。",
-        "image": "",
-        "publishedAt": "2026-10-25T12:48:05.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "2026年武台定光文化交流活动在福建武平举办",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-25/10720823.shtml",
-        "summary": "中新网福建武平10月25日电 (李源杰 王展雄 邱靖)10月23日至25日，2026年武台定光文化交流活动在福建省龙岩市武平县举办。活动以“武台同源，两岸共福”为主题，助推海峡两岸文化交流样板建设，增进两岸同胞心灵契合。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261025/7b6e938b-95ae-4674-b801-884655f4aed0_zsite.jpg",
-        "publishedAt": "2026-10-25T12:45:55.000Z",
-        "source": "中新网"
       }
     ],
     "chinaSociety": [
+      {
+        "title": "西藏那曲巴青7.0级地震震区玛如乡二村受灾群众安置点活动板房顺利通电",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-25/10720856.shtml",
+        "summary": "10月25日20时，经过连续8小时奋战，西藏那曲巴青县玛如乡二村受灾群众安置点活动板房顺利通电。",
+        "image": "",
+        "publishedAt": "2026-10-25T14:16:14.000Z",
+        "source": "中新网"
+      },
       {
         "title": "草方格锁黄沙 鹅喉羚蹄印见证中卫生态之变",
         "link": "https://www.chinanews.com.cn/sh/2026/10-25/10720842.shtml",
@@ -244,14 +252,6 @@
         "summary": "中新网银川10月25日电(记者 于晶)10月25日，宁夏引黄灌区2026年度冬灌正式开闸启动。本次冬灌计划引水9.71亿立方米，灌溉周期31天，水利部门坚持优先次序配置水量，重点保障人畜饮水蓄水供水，以及冬小麦、葡萄、枸杞、黄花菜等越冬作物灌溉需求。",
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261025/402da2c8-4a40-4ce8-808a-11a5e89d4afe_zsite.jpeg",
         "publishedAt": "2026-10-25T12:27:32.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "西藏那曲市巴青县发生5.7级地震",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-25/10720792.shtml",
-        "summary": "中新网10月25日电 据中国地震台网微博消息，中国地震台网正式测定：10月25日19时25分在西藏那曲市巴青县(北纬32.43度，东经93.99度)发生5.7级地震，震源深度10千米。",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/10/25/24022da973114cb3accee8236a8b877f.jpg",
-        "publishedAt": "2026-10-25T11:37:46.000Z",
         "source": "中新网"
       }
     ],
@@ -299,20 +299,36 @@
     ],
     "worldTop": [
       {
-        "title": "Voters in Brazil head to polls as Lula goes up against Bolsonaro's son",
-        "link": "https://www.bbc.co.uk/news/articles/cxp8g21j4648o?at_medium=RSS&at_campaign=rss",
-        "summary": "Flávio Bolsonaro, the son of Brazil's imprisoned ex-president, is challenging Lula, who is seeking a fourth term in office.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c93/live/6c2dbd80-d064-11f1-bbf5-99ed69f0d81f.jpg",
-        "publishedAt": "2026-10-25T11:54:16.000Z",
+        "title": "Venezuelan opposition leader María Machado returns after months in exile",
+        "link": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
+        "summary": "Machado had left the country just a month before the US government seized Venezuelan President Nicolás Maduro.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/116f/live/8cce05e0-d096-11f1-b441-2b33b063138f.jpg",
+        "publishedAt": "2026-10-25T18:29:00.000Z",
         "source": "BBC"
       },
       {
-        "title": "More than 1,300 arrested as clashes follow another day of mass protests across France",
-        "link": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
-        "summary": "Hundreds of thousands took part in demonstrations in France, with protests also taking place in other European countries.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d00/live/edf93830-cffb-11f1-b444-6fb1f13f8d87.jpg",
-        "publishedAt": "2026-10-25T10:38:15.000Z",
+        "title": "Early reports suggest record high turnout in Serbia elections",
+        "link": "https://www.bbc.co.uk/news/articles/c6jdmj1ej715o?at_medium=RSS&at_campaign=rss",
+        "summary": "Serbia is heading to the polls as a student movement attempts to oust longtime populist leader Aleksandar Vučić.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fffb/live/26f0ac80-d089-11f1-92f6-357f3b0f345f.jpg",
+        "publishedAt": "2026-10-25T16:05:15.000Z",
         "source": "BBC"
+      },
+      {
+        "title": "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
+        "link": "https://www.bbc.co.uk/news/articles/c6e3xek2457wo?at_medium=RSS&at_campaign=rss",
+        "summary": "He will be observed to evaluate whether his \"psychiatric health is compatible with pursuing his interrogation\", authorities said.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2825/live/a8b0e250-d07d-11f1-a4ba-351760cfea6a.jpg",
+        "publishedAt": "2026-10-25T15:32:51.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Why aviation’s strangest four-engine giant passenger plane is vanishing from the skies",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBHcnM3WkRSc19ib182ZThkNEVLWU82U1h5WWdEVHRIWktHak04amVnUlVNT052UHlWWTRsRUxaRUhsaGQtUTNVNHlDcVluQWpZU1hzVkZlRnRIVUU2bEtiSTk4aDNvZmNia2VuN0xfYw?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-10-25T11:00:15.000Z",
+        "source": "CNN"
       },
       {
         "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
@@ -320,22 +336,6 @@
         "summary": "The tech billionaire accuses Ukraine of violating its terms of service by using the network for military activity.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5b53/live/c94ca0d0-d041-11f1-950a-2dcbf5245e34.jpg",
         "publishedAt": "2026-10-25T09:00:00.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Israel to close West Bank crossings on election day as crackdown escalates",
-        "link": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_medium=RSS&at_campaign=rss",
-        "summary": "The Israeli Defense Forces announces restrictions on the movement of Palestinian workers in the run-up to Tuesday's election.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5815/live/ca832c30-d019-11f1-b441-2b33b063138f.jpg",
-        "publishedAt": "2026-10-25T05:15:52.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Gunmen kill at least 10 villagers and loot shops in north-east Nigeria",
-        "link": "https://www.bbc.co.uk/news/articles/cq1kdlm1ze7do?at_medium=RSS&at_campaign=rss",
-        "summary": "Police are searching for other casualties, with officials warning the actual death toll could rise further.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/db2e/live/b3593830-d017-11f1-b0c1-71a61e4adacb.jpg",
-        "publishedAt": "2026-10-25T03:20:16.000Z",
         "source": "BBC"
       }
     ],
@@ -415,15 +415,31 @@
         "source": "BBC"
       },
       {
-        "title": "Experimental mRNA vaccine cuts risk that melanoma returns by 42%",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE84bGY0Xy1wTEdfQ0UxQUtWV2pIVVRyMkVnZ1AxbC1WZGotMWUtM3NFbU55T2ZOYmlCNXN3QndmUDdWRmZMbjZfWDBnZmh5MkpLbXNQOFh1RmZNX3hiOFAwSzhMQkloaWFOS1BzVWlYS0pwaFk?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-10-22T20:26:51.000Z",
-        "source": "CNN"
+        "title": "Zuckerberg wins Meta deal to help him foot bill for possible California billionaire tax",
+        "link": "https://www.bbc.co.uk/news/articles/cky83vwnyglno?at_medium=RSS&at_campaign=rss",
+        "summary": "The Meta boss had said he would exit the state over a wealth tax that has not yet come into force.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0031/live/77724130-ce2e-11f1-9f18-490cec60aa0f.jpg",
+        "publishedAt": "2026-10-22T18:26:56.000Z",
+        "source": "BBC"
       }
     ],
     "domestic": [
+      {
+        "title": "两岸同忆台静农：渡海传薪续文脉 “歇脚庵”里话古今",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-25/10720855.shtml",
+        "summary": "中新社安徽六安10月25日电 题：两岸同忆台静农：渡海传薪续文脉 “歇脚庵”里话古今",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261025/cffb3dc6-2fad-43d3-8ab0-091a17ddb6ea_zsite.jpeg",
+        "publishedAt": "2026-10-25T14:09:08.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "在榕台青于非遗与新媒体碰撞中感悟闽都文脉",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-25/10720843.shtml",
+        "summary": "中新网福州10月25日电 (郑江洛)25日，“新媒传情·华裳漆韵”新媒体技能培训与非遗交流体验活动在福州举行，30名在榕高校台青代表相聚于此，在技艺学习与沉浸式体验中，共品闽都文化魅力，缔结两岸青年情谊。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261025/ad51eca6-702f-4b98-b607-b18a96f8e559_zsite.jpg",
+        "publishedAt": "2026-10-25T13:13:27.000Z",
+        "source": "中新网"
+      },
       {
         "title": "2026年闽台青少年街舞展演在福州举办",
         "link": "https://www.chinanews.com.cn/gn/2026/10-25/10720840.shtml",
@@ -447,40 +463,40 @@
         "image": "",
         "publishedAt": "2026-10-25T12:49:13.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "宁夏知识产权保护和运用“十五五”规划获批 锚定2030年知识产权强区建设目标",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-25/10720828.shtml",
-        "summary": "中新网银川10月25日电 (记者 于晶)25日，记者从宁夏回族自治区市场监督管理厅(知识产权局)获悉，宁夏政府常务会议审议通过《宁夏回族自治区知识产权保护和运用“十五五”规划》，为未来五年宁夏知识产权治理体系完善、保护运用效能提升划定路线图。",
-        "image": "",
-        "publishedAt": "2026-10-25T12:48:05.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "2026年武台定光文化交流活动在福建武平举办",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-25/10720823.shtml",
-        "summary": "中新网福建武平10月25日电 (李源杰 王展雄 邱靖)10月23日至25日，2026年武台定光文化交流活动在福建省龙岩市武平县举办。活动以“武台同源，两岸共福”为主题，助推海峡两岸文化交流样板建设，增进两岸同胞心灵契合。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261025/7b6e938b-95ae-4674-b801-884655f4aed0_zsite.jpg",
-        "publishedAt": "2026-10-25T12:45:55.000Z",
-        "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "Voters in Brazil head to polls as Lula goes up against Bolsonaro's son",
-        "link": "https://www.bbc.co.uk/news/articles/cxp8g21j4648o?at_medium=RSS&at_campaign=rss",
-        "summary": "Flávio Bolsonaro, the son of Brazil's imprisoned ex-president, is challenging Lula, who is seeking a fourth term in office.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c93/live/6c2dbd80-d064-11f1-bbf5-99ed69f0d81f.jpg",
-        "publishedAt": "2026-10-25T11:54:16.000Z",
+        "title": "Venezuelan opposition leader María Machado returns after months in exile",
+        "link": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
+        "summary": "Machado had left the country just a month before the US government seized Venezuelan President Nicolás Maduro.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/116f/live/8cce05e0-d096-11f1-b441-2b33b063138f.jpg",
+        "publishedAt": "2026-10-25T18:29:00.000Z",
         "source": "BBC"
       },
       {
-        "title": "More than 1,300 arrested as clashes follow another day of mass protests across France",
-        "link": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
-        "summary": "Hundreds of thousands took part in demonstrations in France, with protests also taking place in other European countries.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d00/live/edf93830-cffb-11f1-b444-6fb1f13f8d87.jpg",
-        "publishedAt": "2026-10-25T10:38:15.000Z",
+        "title": "Early reports suggest record high turnout in Serbia elections",
+        "link": "https://www.bbc.co.uk/news/articles/c6jdmj1ej715o?at_medium=RSS&at_campaign=rss",
+        "summary": "Serbia is heading to the polls as a student movement attempts to oust longtime populist leader Aleksandar Vučić.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fffb/live/26f0ac80-d089-11f1-92f6-357f3b0f345f.jpg",
+        "publishedAt": "2026-10-25T16:05:15.000Z",
         "source": "BBC"
+      },
+      {
+        "title": "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
+        "link": "https://www.bbc.co.uk/news/articles/c6e3xek2457wo?at_medium=RSS&at_campaign=rss",
+        "summary": "He will be observed to evaluate whether his \"psychiatric health is compatible with pursuing his interrogation\", authorities said.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2825/live/a8b0e250-d07d-11f1-a4ba-351760cfea6a.jpg",
+        "publishedAt": "2026-10-25T15:32:51.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Why aviation’s strangest four-engine giant passenger plane is vanishing from the skies",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBHcnM3WkRSc19ib182ZThkNEVLWU82U1h5WWdEVHRIWktHak04amVnUlVNT052UHlWWTRsRUxaRUhsaGQtUTNVNHlDcVluQWpZU1hzVkZlRnRIVUU2bEtiSTk4aDNvZmNia2VuN0xfYw?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-10-25T11:00:15.000Z",
+        "source": "CNN"
       },
       {
         "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
@@ -488,22 +504,6 @@
         "summary": "The tech billionaire accuses Ukraine of violating its terms of service by using the network for military activity.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5b53/live/c94ca0d0-d041-11f1-950a-2dcbf5245e34.jpg",
         "publishedAt": "2026-10-25T09:00:00.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Israel to close West Bank crossings on election day as crackdown escalates",
-        "link": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_medium=RSS&at_campaign=rss",
-        "summary": "The Israeli Defense Forces announces restrictions on the movement of Palestinian workers in the run-up to Tuesday's election.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5815/live/ca832c30-d019-11f1-b441-2b33b063138f.jpg",
-        "publishedAt": "2026-10-25T05:15:52.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Gunmen kill at least 10 villagers and loot shops in north-east Nigeria",
-        "link": "https://www.bbc.co.uk/news/articles/cq1kdlm1ze7do?at_medium=RSS&at_campaign=rss",
-        "summary": "Police are searching for other casualties, with officials warning the actual death toll could rise further.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/db2e/live/b3593830-d017-11f1-b0c1-71a61e4adacb.jpg",
-        "publishedAt": "2026-10-25T03:20:16.000Z",
         "source": "BBC"
       }
     ],
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-10-25",
+    "rotationLabel": "Curated Rotation · 2026-10-26",
     "sections": [
       {
         "id": "data-storage",
@@ -522,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-4",
-            "sectionId": "data-storage",
-            "title": "Dremel: Interactive Analysis of Web-Scale Datasets",
-            "authors": [
-              "Sergey Melnik",
-              "Andrey Gubarev",
-              "Jing Jing Long",
-              "Geoffrey Romer"
-            ],
-            "venue": "VLDB",
-            "year": 2010,
-            "quality": "顶会",
-            "categories": [
-              "analytics",
-              "columnar"
-            ],
-            "link": "https://research.google/pubs/pub36632/",
-            "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-5",
             "sectionId": "data-storage",
@@ -561,7 +540,7 @@
             ],
             "link": "https://arxiv.org/abs/2401.08281",
             "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-6",
@@ -583,6 +562,27 @@
             "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
             "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-1",
+            "sectionId": "data-storage",
+            "title": "The Log-Structured Merge-Tree (LSM-Tree)",
+            "authors": [
+              "Patrick O'Neil",
+              "Edward Cheng",
+              "Dieter Gawlick",
+              "Elizabeth O'Neil"
+            ],
+            "venue": "Acta Informatica",
+            "year": 1996,
+            "quality": "经典基础",
+            "categories": [
+              "storage",
+              "indexing"
+            ],
+            "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
+            "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -592,27 +592,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-5",
-            "sectionId": "computer-vision",
-            "title": "Segment Anything",
-            "authors": [
-              "Alexander Kirillov",
-              "Eric Mintun",
-              "Nikhila Ravi",
-              "Hanzi Mao"
-            ],
-            "venue": "ICCV",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "segmentation",
-              "foundation model"
-            ],
-            "link": "https://arxiv.org/abs/2304.02643",
-            "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-6",
             "sectionId": "computer-vision",
@@ -632,7 +611,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.07193",
             "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-1",
@@ -654,6 +633,27 @@
             "link": "https://arxiv.org/abs/1512.03385",
             "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-2",
+            "sectionId": "computer-vision",
+            "title": "End-to-End Object Detection with Transformers",
+            "authors": [
+              "Nicolas Carion",
+              "Francisco Massa",
+              "Gabriel Synnaeve",
+              "Nicolas Usunier"
+            ],
+            "venue": "ECCV",
+            "year": 2020,
+            "quality": "顶会",
+            "categories": [
+              "detection",
+              "transformer"
+            ],
+            "link": "https://arxiv.org/abs/2005.12872",
+            "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -663,27 +663,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-6",
-            "sectionId": "llm-memory",
-            "title": "MemoRAG: Moving towards Next-Gen RAG Via Memory-Inspired Knowledge Discovery",
-            "authors": [
-              "Rulin Shao",
-              "Yue Liu",
-              "Shuo Wang",
-              "Yichi Zhang"
-            ],
-            "venue": "arXiv",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "RAG",
-              "memory bank"
-            ],
-            "link": "https://arxiv.org/abs/2409.05591",
-            "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-1",
             "sectionId": "llm-memory",
@@ -703,7 +682,7 @@
             ],
             "link": "https://arxiv.org/abs/2005.11401",
             "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-2",
@@ -725,6 +704,27 @@
             "link": "https://arxiv.org/abs/2203.08913",
             "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-3",
+            "sectionId": "llm-memory",
+            "title": "RETRO: Improving Language Models by Retrieving From Trillions of Tokens",
+            "authors": [
+              "Sebastian Borgeaud",
+              "Arthur Mensch",
+              "Jordan Hoffmann",
+              "Trevor Cai"
+            ],
+            "venue": "DeepMind / arXiv",
+            "year": 2022,
+            "quality": "高影响力",
+            "categories": [
+              "retrieval",
+              "language model"
+            ],
+            "link": "https://arxiv.org/abs/2112.04426",
+            "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -734,28 +734,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-1",
-            "sectionId": "agents",
-            "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
-            "authors": [
-              "Shunyu Yao",
-              "Jeffrey Zhao",
-              "Dian Yu",
-              "Nan Du"
-            ],
-            "venue": "ICLR",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "agent",
-              "reasoning",
-              "tool use"
-            ],
-            "link": "https://arxiv.org/abs/2210.03629",
-            "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-2",
             "sectionId": "agents",
@@ -775,7 +753,7 @@
             ],
             "link": "https://arxiv.org/abs/2302.04761",
             "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-3",
@@ -796,6 +774,27 @@
             ],
             "link": "https://arxiv.org/abs/2304.03442",
             "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-4",
+            "sectionId": "agents",
+            "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+            "authors": [
+              "Guanzhi Wang",
+              "Yuqi Xie",
+              "Zixiang Zhou",
+              "Yujin Tang"
+            ],
+            "venue": "arXiv",
+            "year": 2023,
+            "quality": "高影响力",
+            "categories": [
+              "embodied agent",
+              "planning"
+            ],
+            "link": "https://arxiv.org/abs/2305.16291",
+            "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
             "trackLabel": "轮换精选"
           }
         ]
