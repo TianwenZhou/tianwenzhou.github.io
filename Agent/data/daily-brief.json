@@ -1,34 +1,26 @@
 {
-  "generatedAt": "2026-10-27T14:22:04.182Z",
+  "generatedAt": "2026-10-27T20:37:56.982Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 8,
+      "temperature": 3,
       "weatherCode": 0,
-      "windSpeed": 7
+      "windSpeed": 1
     },
     "today": {
-      "date": "2026-10-27",
-      "weatherCode": 0,
-      "description": "晴朗",
+      "date": "2026-10-28",
+      "weatherCode": 2,
+      "description": "局部多云",
       "max": 14,
-      "min": 6,
+      "min": 2,
       "precipitationProbability": 0
     },
     "forecast": [
       {
-        "date": "2026-10-27",
-        "weatherCode": 0,
-        "description": "晴朗",
-        "max": 14,
-        "min": 6,
-        "precipitationProbability": 0
-      },
-      {
         "date": "2026-10-28",
         "weatherCode": 2,
         "description": "局部多云",
-        "max": 13,
+        "max": 14,
         "min": 2,
         "precipitationProbability": 0
       },
@@ -45,42 +37,59 @@
         "weatherCode": 0,
         "description": "晴朗",
         "max": 19,
-        "min": 6,
+        "min": 5,
         "precipitationProbability": 0
       },
       {
         "date": "2026-10-31",
         "weatherCode": 3,
         "description": "阴天",
-        "max": 9,
-        "min": 5,
-        "precipitationProbability": 12
+        "max": 10,
+        "min": 4,
+        "precipitationProbability": 29
+      },
+      {
+        "date": "2026-11-01",
+        "weatherCode": 3,
+        "description": "阴天",
+        "max": 16,
+        "min": 4,
+        "precipitationProbability": 28
       }
     ]
   },
   "classicQuote": {
-    "id": "zhuangzi-time",
-    "text": "人生天地之间，若白驹之过隙，忽然而已。",
-    "source": "《庄子》",
-    "author": "庄周",
-    "note": "事情很多的时候，更值得把注意力放在真正重要的事上。"
+    "id": "dream-red-mansions",
+    "text": "世事洞明皆学问，人情练达即文章。",
+    "source": "《红楼梦》",
+    "author": "曹雪芹",
+    "note": "技术之外，理解人和场景，往往更能拉开差距。"
   },
   "bookExcerpt": {
-    "id": "one-hundred-years-yellow",
-    "text": "许多年以后，面对行刑队，奥雷里亚诺·布恩迪亚上校将会想起父亲带他去见识冰块的那个遥远的下午。",
-    "book": "《百年孤独》",
-    "author": "加西亚·马尔克斯"
+    "id": "floating-life-lotus",
+    "text": "芸坐其侧，素手烹茶，窗外新荷微香，连晚风也像带着水意，从竹帘间一寸寸地漫进来。",
+    "book": "《浮生六记》",
+    "author": "沈复"
   },
   "featuredPlace": {
-    "id": "202610261600",
-    "title": "秋叶缤纷的池杉林，乔治亚州，美国",
+    "id": "202610271600",
+    "title": "库涅季采山城堡，波希米亚，捷克",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "大自然的金色明镜",
-    "image": "https://www.bing.com/th?id=OHR.PondCypress_ZH-CN9472607734_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E6%B1%A0%E6%9D%89&form=hpcapt&mkt=zh-cn"
+    "summary": "历史守望之地",
+    "image": "https://www.bing.com/th?id=OHR.KuneticeCastle_ZH-CN8895858920_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E5%BA%93%E6%B6%85%E5%AD%A3%E9%87%87%E5%B1%B1%E5%9F%8E%E5%A0%A1&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202610271600",
+      "title": "库涅季采山城堡，波希米亚，捷克",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "历史守望之地",
+      "image": "https://www.bing.com/th?id=OHR.KuneticeCastle_ZH-CN8895858920_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E5%BA%93%E6%B6%85%E5%AD%A3%E9%87%87%E5%B1%B1%E5%9F%8E%E5%A0%A1&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202610261600",
       "title": "秋叶缤纷的池杉林，乔治亚州，美国",
@@ -143,30 +152,21 @@
       "summary": "飞掠河面",
       "image": "https://www.bing.com/th?id=OHR.VietnamBridge_ZH-CN6134321119_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E8%B6%8A%E5%8D%97%E9%A1%BA%E5%8C%96%E5%B8%82&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202610191600",
-      "title": "褐喉三趾树懒，塔拉曼卡旧港，哥斯达黎加",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "慢节奏生活",
-      "image": "https://www.bing.com/th?id=OHR.BrownSloth_ZH-CN5776383136_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E5%9B%BD%E9%99%85%E6%A0%91%E6%87%92%E6%97%A5&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-10-27",
-    "dateLabel": "10月27日",
+    "dateKey": "2026-10-28",
+    "dateLabel": "10月28日",
     "items": [
       {
-        "year": "2023",
-        "text": "中国前国务院总理李克强因突发性心脏病，经抢救无效，于0时10分在上海逝世，享年68岁。",
-        "link": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4"
+        "year": "2021",
+        "text": "為了強調元宇宙願景，美國社群媒體網站Facebook創始人馬克·祖克柏宣布將公司名稱變更為「Meta」。",
+        "link": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4"
       },
       {
-        "year": "2023",
-        "text": "由缅甸民族民主同盟军、若开军及德昂民族解放军组成的缅北联合阵线向缅甸掸邦东北地区的缅甸军政府军队发动“1027行动”。",
-        "link": "https://zh.wikipedia.org/wiki/%E8%8B%A5%E5%BC%80%E5%86%9B"
+        "year": "2018",
+        "text": "重慶萬州巴士墜江事故。",
+        "link": "https://zh.wikipedia.org/wiki/2018%E5%B9%B4"
       }
     ]
   },
@@ -215,6 +215,30 @@
     ],
     "chinaSociety": [
       {
+        "title": "全球和合文化实践案例发布 “和合之花”跨越山海次第开",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-27/10721954.shtml",
+        "summary": "中新网台州10月27日电(黄彦君)和合文化，历久弥新。这种“贵和尚中、善解能容，厚德载物、和而不同”的宽容品格，为时代发展注入源头活水，也为世界文明贡献东方智慧。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261027/c50b07cd-ce8c-4406-9ef8-e1c20c993502_zsite.jpg",
+        "publishedAt": "2026-10-27T14:49:04.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "九旬老兵大别山守墓58年：“他们没有亲人，我就做他们的亲人”",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-27/10721947.shtml",
+        "summary": "中新网信阳10月27日电(王佳宁)10月底，大别山北麓的风带着凉意。从山下到9座红军烈士墓碑前，一共97级台阶，89岁的王茂贵一步步往上走，尽量使气息平稳些，“年龄大了！”",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261027/c414630b-bff6-4d40-b206-8d28a6c76664_zsite.jpg",
+        "publishedAt": "2026-10-27T14:22:52.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "从化橘红到沉香手串 广东各地山林物产集中亮相",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-27/10721941.shtml",
+        "summary": "中新网江门10月27日电 (程景伟 林荫)庆祝2026年中国农民丰收节广东省第四届经济林金秋消费季活动27日在江门台山启幕。来自全省21个地市的60余家林业经营主体携经济林产品参展。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261027/bc272656-e63c-49e9-a3a6-6f48722f628c_zsite.jpeg",
+        "publishedAt": "2026-10-27T14:22:22.000Z",
+        "source": "中新网"
+      },
+      {
         "title": "搭建国际学术交流平台 《智能装备（英文）》正式创刊发布",
         "link": "https://www.chinanews.com.cn/sh/2026/10-27/10721940.shtml",
         "summary": "中新网西安10月27日电 (记者 阿琳娜)记者27日从西安交通大学获悉，由西安交通大学主办，机械工程学院、精密微纳制造技术全国重点实验室、期刊中心承办，高等教育出版社支持的Intelligent Equipment(《智能装备(英文)》)创刊发布会近日在西安举行。",
@@ -229,33 +253,41 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261027/99ccb087-48f6-469e-b804-9257e575402e_zsite.jpeg",
         "publishedAt": "2026-10-27T14:07:09.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "云南新修订安全生产条例11月起施行 重特大事故责任追究加码",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-27/10721937.shtml",
-        "summary": "中新网昆明10月27日电 (陆希成 贝文)新修订的《云南省安全生产条例》(以下简称《条例》)将于11月1日起施行。《条例》大幅提高违法惩戒力度，明确对重大、特别重大生产安全事故负有责任的企业主要负责人，终身不得担任本行业生产经营单位的主要负责人；同时保障从业人员拒绝违章指挥和强令冒险作业的权利，并明...",
-        "image": "",
-        "publishedAt": "2026-10-27T14:07:05.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "重庆酉阳南腰界红三军革命旧址群整体对外展示开放",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-27/10721930.shtml",
-        "summary": "中新网重庆10月27日电 (马佳欣)历史场景复原、口述史料展陈、革命遗址连片呈现……27日，南腰界红三军革命旧址群整体展示开放活动在重庆市酉阳土家族苗族自治县南腰界镇会师广场举行。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261027/419c2553-4fbb-4fb3-8a1c-ed004bc887e5_zsite.JPG",
-        "publishedAt": "2026-10-27T14:03:07.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "从挖掘机穿针到人形机器人训练 欧洲华媒感受湖南智造硬核实力",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-27/10721934.shtml",
-        "summary": "中新网长沙10月27日电(冯军)10月27日，参加湘江“对话”塞纳河——2026欧洲华文媒体长沙行的华媒代表走进中联重科智慧产业城，观摩智能制造产线和人形机器人训练，实地感受湖南智能制造的硬核实力。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261027/e17f6972-9e90-4725-b26a-263f2788d23d_zsite.jpg",
-        "publishedAt": "2026-10-27T14:01:39.000Z",
-        "source": "中新网"
       }
     ],
     "chinaFinance": [
+      {
+        "title": "首届“飞阅中国”低空经济应用场景大赛决赛在重庆梁平举行",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-27/10721955.shtml",
+        "summary": "中新网重庆10月27日电(记者 肖江川)27日，首届“飞阅中国”低空经济应用场景大赛决赛启动仪式在“西部低空之城”重庆梁平举行。大赛以“构建协同生态 筑梦西部低空”为主题，汇聚政产学研用各方力量，共同挖掘低空应用创新成果，探索低空产业场景化落地的实践路径，助力西部低空经济高质量发展。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261027/617b6c35-5f79-4c52-97bf-31f8cbce0259_zsite.jpg",
+        "publishedAt": "2026-10-27T14:49:34.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "2026中欧企业家青岛论坛在青岛西海岸新区举办",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-27/10721952.shtml",
+        "summary": "中新网青岛10月27日电 (张孝鹏)2026中欧企业家青岛论坛27日在山东省青岛西海岸新区举办。本届论坛以“央地国企民企外企协同创新与高质量发展”为主题，首次聚焦央地国企、民企、外企协同发展，吸引海内外300余家企业、商协会等机构的嘉宾与会。",
+        "image": "",
+        "publishedAt": "2026-10-27T14:36:33.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "以质量强链赋能产业升级 多省区齐聚宁夏共探煤化工绿色转型之路",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-27/10721946.shtml",
+        "summary": "中新网银川10月27日电(记者 于晶)10月27日，宁夏现代煤化工产业链质量强链技术交流活动在宁东能源化工基地举办。活动汇聚国家市场监管总局及山西、山东、陕西、新疆等多地市场监管部门、煤化工企业、科研院所专家，搭建跨区域协同对接平台，推动现代煤化工产业质量提升与绿色技术创新。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261027/bba22c97-c4c2-43c5-96df-f419aab63d86_zsite.jpeg",
+        "publishedAt": "2026-10-27T14:22:42.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "山东企业谋“抱团出海”新路径 中亚绿色经济赛道受关注",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-27/10721945.shtml",
+        "summary": "中新网济南10月27日电 (记者 孙婷婷)“抱团出海·携手共赢”——高新区企业国际化发展实战沙龙27日在济南高新技术产业开发区(以下简称“济南高新区”)举办，旨在帮助济南高新区民营企业精准把握海外市场机遇，破解出海信息不对称、经验不足等难题。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261027/c9f473ae-e410-4a7c-b819-57c453b30d52_zsite.jpg",
+        "publishedAt": "2026-10-27T14:22:36.000Z",
+        "source": "中新网"
+      },
       {
         "title": "供销合作社科技成果在山东集中推介 促科研成果与产业需求精准对接",
         "link": "https://www.chinanews.com.cn/cj/2026/10-27/10721926.shtml",
@@ -263,83 +295,41 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261027/434fe49d-441c-4a1f-9bf6-2dc5a7607aaa_zsite.jpg",
         "publishedAt": "2026-10-27T13:51:32.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "西藏航空西宁至西双版纳直飞航线通航",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-27/10721905.shtml",
-        "summary": "中新网西宁10月27日电 (孙睿 荣甜甜)10月27日，由西藏航空执飞的西宁至西双版纳航线通航。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261027/831ea6bf-e37e-4523-8e2b-2d38d556c9d2_zsite.jpeg",
-        "publishedAt": "2026-10-27T13:42:16.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "广东出台深化金融支持现代化农业产业高质量发展举措十三条",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-27/10721898.shtml",
-        "summary": "中新社广州10月27日电 (记者 郭军)广东金融监管局27日宣布，该局近日牵头联合广东省农业农村厅、广东省供销合作联社制发《深化金融支持广东现代化农业产业高质量发展 助力“百千万工程”实现五年显著变化实施方案》，加力推进涉农金融服务扩面增量、提质增效，力争“十五五”期间广东辖内涉农贷款余额突破3万亿...",
-        "image": "",
-        "publishedAt": "2026-10-27T13:33:01.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "广交会“中国瓷”遇上AI 传统工艺品成潮流爆品",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-27/10721899.shtml",
-        "summary": "中新社广州10月27日电 (记者 程景伟 张璐)在广东阳江海陵岛上，南宋古沉船“南海一号”已出水外销瓷器约16万件，成为古代中国瓷器行销世界的见证。数百公里外，第140届广交会正在广州举行，中国最新潮的瓷器于此与全球采购商见面。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261027/ce9b5892-dae3-4527-93e8-a92fdfcbd7a2_zsite.jpeg",
-        "publishedAt": "2026-10-27T13:32:41.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "智能建造产业链先进成果在湖北集中展示",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-27/10721890.shtml",
-        "summary": "中新网武汉10月27日电 (王梦媛 张世宇 张思聪)2026国际(武汉)智能建造产业博览会(以下简称“智博会”)27日在武汉光谷科技会展中心拉开帷幕，来自全球10余个国家及地区的知名高校、科研院所、建筑龙头企业、互联网大厂、专精特新“小巨人”企业、科技公司等共200余家单位携1400余项创新成果参展...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261027/c41f2be1-91d5-4897-9f26-febf90724373_zsite.jpg",
-        "publishedAt": "2026-10-27T13:22:57.000Z",
-        "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "Ballon d'Or ceremony raises case of French sports journalist jailed in Algeria",
-        "link": "https://www.bbc.co.uk/news/articles/c6x2qgyqr79wo?at_medium=RSS&at_campaign=rss",
-        "summary": "He is in jail accused of supporting terrorism after travelling to the politically sensitive region Kabylie.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f138/live/2d67b730-d204-11f1-b441-2b33b063138f.png",
-        "publishedAt": "2026-10-27T13:59:42.000Z",
+        "title": "Ceasefire extended across Ukraine's Kherson region, officials say",
+        "link": "https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&at_campaign=rss",
+        "summary": "The truce was originally planned for the stranded residents of Oleshky, and Russia and Ukraine say no breaches have been reported.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/97b7/live/fc424bf0-d23c-11f1-904a-5b90e72e87ff.jpg",
+        "publishedAt": "2026-10-27T20:19:53.000Z",
         "source": "BBC"
       },
       {
-        "title": "Mbappé sorry for 'ill-judged' Mao remark after backlash in China",
-        "link": "https://www.bbc.co.uk/news/articles/cv62yg0erp8zo?at_medium=RSS&at_campaign=rss",
-        "summary": "The France star had referred to the former Chinese leader as a \"dictator\" during an interview about memes.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e10e/live/f7b26730-d1c6-11f1-9381-5f06d29fdf11.jpg",
-        "publishedAt": "2026-10-27T13:25:54.000Z",
+        "title": "Dutch zookeeper dies after being mauled in leopard enclosure",
+        "link": "https://www.bbc.co.uk/news/articles/crwyq90gwg8jo?at_medium=RSS&at_campaign=rss",
+        "summary": "The woman began her career at the park when she was 17 and had worked there on-and-off for four decades.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d5f/live/cfa3dd20-d22d-11f1-b8e4-17c9744a7f8e.jpg",
+        "publishedAt": "2026-10-27T19:30:37.000Z",
         "source": "BBC"
       },
       {
         "title": "Norway and Finland leaders hold rare call with Putin",
         "link": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
-        "summary": "This is the first time European leaders have had direct communication with Russia's president in more than a year.",
+        "summary": "An end to the conflict in Ukraine \"will not be achieved through silence,\" Finland's President Alexander Stubb said.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/62a7/live/0a738c90-d1fa-11f1-8c9f-8d21fef6ffad.jpg",
-        "publishedAt": "2026-10-27T13:12:24.000Z",
+        "publishedAt": "2026-10-27T18:28:23.000Z",
         "source": "BBC"
       },
       {
-        "title": "Truce begins in Ukraine city where residents ate weeds to survive",
-        "link": "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&at_campaign=rss",
-        "summary": "The Oleshky ceasefire, which the White House said was secured by US First Lady Melania Trump, is meant to allow aid to get in and civilians to get out...",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/af90/live/ca109650-d1b0-11f1-93f3-e3ba7480d857.jpg",
-        "publishedAt": "2026-10-27T11:53:57.000Z",
-        "source": "BBC"
+        "title": "Defeated candidate Flávio Bolsonaro defies Brazil travel ban with flight to US, sources say",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUzBQcGFLclZ1aFRtd0h5Y3Y4RGhYdmlXUXBNUnFOd0lUcXhQYXRtVFhISXktRDFHWmQxZzRRS3hsb2lYdjBaelpzQnUyblpFLThqVjMtZV9jUGpfaGM5cEQ2Qm1FUDZ6MTdXT0ZGWmtYNTRxa0VBekdTVDJSWk1KWkhHdjQ4OFFZOS1ROA?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-10-27T17:22:41.000Z",
+        "source": "CNN"
       },
-      {
-        "title": "Turnout so far highest on record as Israelis vote in pivotal election",
-        "link": "https://www.bbc.co.uk/news/articles/c3j47l4kdez4o?at_medium=RSS&at_campaign=rss",
-        "summary": "The elections - the first since the Hamas-led attacks on Israel and the wars which followed - are widely seen as a referendum on Benjamin Netanyahu.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9543/live/7b21c3e0-d1cc-11f1-837e-832a94a7445c.png",
-        "publishedAt": "2026-10-27T11:11:33.000Z",
-        "source": "BBC"
-      }
-    ],
-    "worldBusiness": [
       {
         "title": "Mbappé sorry for 'ill-judged' Mao remark after backlash in China",
         "link": "https://www.bbc.co.uk/news/articles/cv62yg0erp8zo?at_medium=RSS&at_campaign=rss",
@@ -347,13 +337,23 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e10e/live/f7b26730-d1c6-11f1-9381-5f06d29fdf11.jpg",
         "publishedAt": "2026-10-27T13:25:54.000Z",
         "source": "BBC"
-      },
+      }
+    ],
+    "worldBusiness": [
       {
         "title": "Minimum wage set to rise but 18-20 year-olds will not get bigger increase",
         "link": "https://www.bbc.co.uk/news/articles/c6d93gq1xdgno?at_medium=RSS&at_campaign=rss",
         "summary": "Chancellor John Healey will reveal the new pay rates in the Budget, and has also announced measures to help households with the cost of living.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5ea9/live/b5489540-d1fd-11f1-b30f-21253679b290.jpg",
-        "publishedAt": "2026-10-27T13:18:37.000Z",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4419/live/b4233800-d211-11f1-93e1-3b657b665bcf.jpg",
+        "publishedAt": "2026-10-27T15:01:27.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Mbappé sorry for 'ill-judged' Mao remark after backlash in China",
+        "link": "https://www.bbc.co.uk/news/articles/cv62yg0erp8zo?at_medium=RSS&at_campaign=rss",
+        "summary": "The France star had referred to the former Chinese leader as a \"dictator\" during an interview about memes.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e10e/live/f7b26730-d1c6-11f1-9381-5f06d29fdf11.jpg",
+        "publishedAt": "2026-10-27T13:25:54.000Z",
         "source": "BBC"
       },
       {
@@ -365,19 +365,19 @@
         "source": "BBC"
       },
       {
+        "title": "Business risks to Anthropic’s IPO spans from bioweapons to AI blackmail",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcUlEYlR2VzlKY2NraFVLd0FPOVBPd3llb2FJVGRnMEtlZHBYdXZYYTQ4Nm03NTVqbGVwZ29FZ3RUYlFpdXg3X2MxdDM1UzVSdlRzZ1lGT2tVLVZaQXNjV3JTTWp5dUlWWGJXRXFkYWhXWHI1eG1EaTRBT2lTVFg2NXVxQWNlWXlXQzh4Rg?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-10-27T10:02:46.000Z",
+        "source": "CNN"
+      },
+      {
         "title": "From bioweapons to blackmail, here’s what’s in Anthropic’s nearly 100-page list of risks, including ‘risks to humanity’",
         "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQjE5ZEVPX0FkZTdEbUtabi1sc1plMWlIWWZ0bV80MUxKTlNhUGlDQ0Qwb2NrT2VCTXNXLXFJVWlTLS1YU011QTgxTW51RVhlczJHemNMeGt4WjdVeEFrcDduZVhrcV91YzNJcG9RbEdrQ0ttdjlTTG1nVUs5QTMzV000Sm5aYms?oc=5",
         "summary": "",
         "image": "",
         "publishedAt": "2026-10-27T10:00:16.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "Workers are getting a shrinking slice of America’s economic pie",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JTXhTR0xheE1iU05OX1MwNWRxSXN2Qld6ZzdCMHZkS2swaEx6aEdWVHJqZ0FRMjFXWUtZSl9fNXU0RTRLa3FZd3diTjc2clh3bS1BMTVMQkt3bzFNTG0tOHEzbmV1Ry1lWlV5T3BrczVrTzJkMHJNUEVrT2xRSkE?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-10-27T09:00:15.000Z",
         "source": "CNN"
       }
     ],
@@ -415,12 +415,12 @@
         "source": "CNN"
       },
       {
-        "title": "AI is exposing how fragile the web really is. What you can do to stay safe",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5tOUtsckc0UjJWSmszOGxSZmxuVmZpN1B2Ni1qOUZZbWJhN3dORzhIMXlEQ3h3MXJVdkFjOVZ5VzJXa1l1V1BPSWpGRkNsbkZfZWpQelU1UU5wQVhHUlV0TmxaLUpXTVZjd1pV?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-10-26T10:30:15.000Z",
-        "source": "CNN"
+        "title": "Big, noisy and coming to a town near you - why the data centre backlash is growing",
+        "link": "https://www.bbc.co.uk/news/articles/cq2e9we7w2ejo?at_medium=RSS&at_campaign=rss",
+        "summary": "Data centres are the lifeblood of our digital world, but there are growing concerns about their environmental impact. The BBC explores their rise in c...",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/68b2/live/52453c80-cc82-11f1-bc2e-018d645d8d21.png",
+        "publishedAt": "2026-10-25T23:44:34.000Z",
+        "source": "BBC"
       }
     ],
     "domestic": [
@@ -467,12 +467,36 @@
     ],
     "international": [
       {
-        "title": "Ballon d'Or ceremony raises case of French sports journalist jailed in Algeria",
-        "link": "https://www.bbc.co.uk/news/articles/c6x2qgyqr79wo?at_medium=RSS&at_campaign=rss",
-        "summary": "He is in jail accused of supporting terrorism after travelling to the politically sensitive region Kabylie.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f138/live/2d67b730-d204-11f1-b441-2b33b063138f.png",
-        "publishedAt": "2026-10-27T13:59:42.000Z",
+        "title": "Ceasefire extended across Ukraine's Kherson region, officials say",
+        "link": "https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&at_campaign=rss",
+        "summary": "The truce was originally planned for the stranded residents of Oleshky, and Russia and Ukraine say no breaches have been reported.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/97b7/live/fc424bf0-d23c-11f1-904a-5b90e72e87ff.jpg",
+        "publishedAt": "2026-10-27T20:19:53.000Z",
         "source": "BBC"
+      },
+      {
+        "title": "Dutch zookeeper dies after being mauled in leopard enclosure",
+        "link": "https://www.bbc.co.uk/news/articles/crwyq90gwg8jo?at_medium=RSS&at_campaign=rss",
+        "summary": "The woman began her career at the park when she was 17 and had worked there on-and-off for four decades.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d5f/live/cfa3dd20-d22d-11f1-b8e4-17c9744a7f8e.jpg",
+        "publishedAt": "2026-10-27T19:30:37.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Norway and Finland leaders hold rare call with Putin",
+        "link": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
+        "summary": "An end to the conflict in Ukraine \"will not be achieved through silence,\" Finland's President Alexander Stubb said.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/62a7/live/0a738c90-d1fa-11f1-8c9f-8d21fef6ffad.jpg",
+        "publishedAt": "2026-10-27T18:28:23.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Defeated candidate Flávio Bolsonaro defies Brazil travel ban with flight to US, sources say",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUzBQcGFLclZ1aFRtd0h5Y3Y4RGhYdmlXUXBNUnFOd0lUcXhQYXRtVFhISXktRDFHWmQxZzRRS3hsb2lYdjBaelpzQnUyblpFLThqVjMtZV9jUGpfaGM5cEQ2Qm1FUDZ6MTdXT0ZGWmtYNTRxa0VBekdTVDJSWk1KWkhHdjQ4OFFZOS1ROA?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-10-27T17:22:41.000Z",
+        "source": "CNN"
       },
       {
         "title": "Mbappé sorry for 'ill-judged' Mao remark after backlash in China",
@@ -480,30 +504,6 @@
         "summary": "The France star had referred to the former Chinese leader as a \"dictator\" during an interview about memes.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e10e/live/f7b26730-d1c6-11f1-9381-5f06d29fdf11.jpg",
         "publishedAt": "2026-10-27T13:25:54.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Norway and Finland leaders hold rare call with Putin",
-        "link": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
-        "summary": "This is the first time European leaders have had direct communication with Russia's president in more than a year.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/62a7/live/0a738c90-d1fa-11f1-8c9f-8d21fef6ffad.jpg",
-        "publishedAt": "2026-10-27T13:12:24.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Truce begins in Ukraine city where residents ate weeds to survive",
-        "link": "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&at_campaign=rss",
-        "summary": "The Oleshky ceasefire, which the White House said was secured by US First Lady Melania Trump, is meant to allow aid to get in and civilians to get out...",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/af90/live/ca109650-d1b0-11f1-93f3-e3ba7480d857.jpg",
-        "publishedAt": "2026-10-27T11:53:57.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Turnout so far highest on record as Israelis vote in pivotal election",
-        "link": "https://www.bbc.co.uk/news/articles/c3j47l4kdez4o?at_medium=RSS&at_campaign=rss",
-        "summary": "The elections - the first since the Hamas-led attacks on Israel and the wars which followed - are widely seen as a referendum on Benjamin Netanyahu.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9543/live/7b21c3e0-d1cc-11f1-837e-832a94a7445c.png",
-        "publishedAt": "2026-10-27T11:11:33.000Z",
         "source": "BBC"
       }
     ],
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-10-27",
+    "rotationLabel": "Curated Rotation · 2026-10-28",
     "sections": [
       {
         "id": "data-storage",
@@ -522,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-6",
-            "sectionId": "data-storage",
-            "title": "DiskANN: Fast Accurate Billion-point Nearest Neighbor Search on a Single Node",
-            "authors": [
-              "Neelesh Gupta",
-              "Leland Willard",
-              "Xiangyao Yu",
-              "Yuri N."
-            ],
-            "venue": "NeurIPS",
-            "year": 2019,
-            "quality": "高影响力",
-            "categories": [
-              "vector search",
-              "ANN"
-            ],
-            "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
-            "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-1",
             "sectionId": "data-storage",
@@ -562,7 +541,7 @@
             ],
             "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
             "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-2",
@@ -584,6 +563,27 @@
             "link": "https://research.google/pubs/pub27898/",
             "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-3",
+            "sectionId": "data-storage",
+            "title": "Dynamo: Amazon's Highly Available Key-value Store",
+            "authors": [
+              "Giuseppe DeCandia",
+              "Deniz Hastorun",
+              "Madan Jampani",
+              "Gunavardhan Kakulapati"
+            ],
+            "venue": "SOSP",
+            "year": 2007,
+            "quality": "顶会",
+            "categories": [
+              "key-value",
+              "distributed systems"
+            ],
+            "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
+            "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -593,27 +593,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-1",
-            "sectionId": "computer-vision",
-            "title": "Deep Residual Learning for Image Recognition",
-            "authors": [
-              "Kaiming He",
-              "Xiangyu Zhang",
-              "Shaoqing Ren",
-              "Jian Sun"
-            ],
-            "venue": "CVPR",
-            "year": 2016,
-            "quality": "顶会",
-            "categories": [
-              "image recognition",
-              "backbone"
-            ],
-            "link": "https://arxiv.org/abs/1512.03385",
-            "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-2",
             "sectionId": "computer-vision",
@@ -633,7 +612,7 @@
             ],
             "link": "https://arxiv.org/abs/2005.12872",
             "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-3",
@@ -655,6 +634,27 @@
             "link": "https://arxiv.org/abs/2010.11929",
             "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-4",
+            "sectionId": "computer-vision",
+            "title": "Learning Transferable Visual Models From Natural Language Supervision",
+            "authors": [
+              "Alec Radford",
+              "Jong Wook Kim",
+              "Chris Hallacy",
+              "Aditya Ramesh"
+            ],
+            "venue": "ICML",
+            "year": 2021,
+            "quality": "顶会",
+            "categories": [
+              "vision-language",
+              "foundation model"
+            ],
+            "link": "https://arxiv.org/abs/2103.00020",
+            "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -664,27 +664,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-2",
-            "sectionId": "llm-memory",
-            "title": "Memorizing Transformers",
-            "authors": [
-              "Yuhuai Wu",
-              "Markus N. Rabe",
-              "DeLesley Hutchins",
-              "Christian Szegedy"
-            ],
-            "venue": "ICLR",
-            "year": 2022,
-            "quality": "顶会",
-            "categories": [
-              "memory",
-              "long context"
-            ],
-            "link": "https://arxiv.org/abs/2203.08913",
-            "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-3",
             "sectionId": "llm-memory",
@@ -704,7 +683,7 @@
             ],
             "link": "https://arxiv.org/abs/2112.04426",
             "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-4",
@@ -726,6 +705,27 @@
             "link": "https://arxiv.org/abs/2310.11511",
             "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-5",
+            "sectionId": "llm-memory",
+            "title": "LongMem: Scaling Language Model Context with Memory-Augmented Retrieval",
+            "authors": [
+              "Zeqiu Wu",
+              "Yizhong Wang",
+              "Jiacheng Liu",
+              "Yelong Shen"
+            ],
+            "venue": "ACL Findings",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "memory",
+              "long context"
+            ],
+            "link": "https://arxiv.org/abs/2306.07174",
+            "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -735,27 +735,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-3",
-            "sectionId": "agents",
-            "title": "Generative Agents: Interactive Simulacra of Human Behavior",
-            "authors": [
-              "Joon Sung Park",
-              "Joseph O'Brien",
-              "Carrie Cai",
-              "Meredith Ringel Morris"
-            ],
-            "venue": "UIST",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "agent society",
-              "memory"
-            ],
-            "link": "https://arxiv.org/abs/2304.03442",
-            "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-4",
             "sectionId": "agents",
@@ -775,7 +754,7 @@
             ],
             "link": "https://arxiv.org/abs/2305.16291",
             "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-5",
@@ -796,6 +775,27 @@
             ],
             "link": "https://arxiv.org/abs/2308.08155",
             "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-6",
+            "sectionId": "agents",
+            "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+            "authors": [
+              "John Yang",
+              "Carlos E. Jimenez",
+              "Alexander Wettig",
+              "Karthik Narasimhan"
+            ],
+            "venue": "ICLR",
+            "year": 2025,
+            "quality": "新近代表作",
+            "categories": [
+              "software agent",
+              "benchmark"
+            ],
+            "link": "https://arxiv.org/abs/2405.15793",
+            "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
             "trackLabel": "轮换精选"
           }
         ]
