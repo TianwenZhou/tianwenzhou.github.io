@@ -1,29 +1,21 @@
 {
-  "generatedAt": "2026-10-28T15:02:39.663Z",
+  "generatedAt": "2026-10-28T20:59:28.331Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 7,
+      "temperature": 5,
       "weatherCode": 0,
-      "windSpeed": 5
+      "windSpeed": 6
     },
     "today": {
-      "date": "2026-10-28",
-      "weatherCode": 3,
-      "description": "阴天",
-      "max": 14,
-      "min": 1,
+      "date": "2026-10-29",
+      "weatherCode": 0,
+      "description": "晴朗",
+      "max": 17,
+      "min": 3,
       "precipitationProbability": 0
     },
     "forecast": [
-      {
-        "date": "2026-10-28",
-        "weatherCode": 3,
-        "description": "阴天",
-        "max": 14,
-        "min": 1,
-        "precipitationProbability": 0
-      },
       {
         "date": "2026-10-29",
         "weatherCode": 0,
@@ -45,7 +37,7 @@
         "weatherCode": 3,
         "description": "阴天",
         "max": 8,
-        "min": 4,
+        "min": 3,
         "precipitationProbability": 10
       },
       {
@@ -53,34 +45,51 @@
         "weatherCode": 3,
         "description": "阴天",
         "max": 16,
-        "min": 5,
-        "precipitationProbability": 9
+        "min": 4,
+        "precipitationProbability": 8
+      },
+      {
+        "date": "2026-11-02",
+        "weatherCode": 0,
+        "description": "晴朗",
+        "max": 15,
+        "min": 2,
+        "precipitationProbability": 0
       }
     ]
   },
   "classicQuote": {
-    "id": "dream-red-mansions",
-    "text": "世事洞明皆学问，人情练达即文章。",
-    "source": "《红楼梦》",
-    "author": "曹雪芹",
-    "note": "技术之外，理解人和场景，往往更能拉开差距。"
+    "id": "mencius-perseverance",
+    "text": "虽千万人，吾往矣。",
+    "source": "《孟子》",
+    "author": "孟子",
+    "note": "认准方向之后，关键是稳稳地往前走。"
   },
   "bookExcerpt": {
-    "id": "floating-life-lotus",
-    "text": "芸坐其侧，素手烹茶，窗外新荷微香，连晚风也像带着水意，从竹帘间一寸寸地漫进来。",
-    "book": "《浮生六记》",
-    "author": "沈复"
+    "id": "red-mansion-snow",
+    "text": "只见大地白茫茫一片真干净，山川树木都隐在雪光里，天地像忽然静下来，只余风过回廊的细响。",
+    "book": "《红楼梦》",
+    "author": "曹雪芹"
   },
   "featuredPlace": {
-    "id": "202610271600",
-    "title": "库涅季采山城堡，波希米亚，捷克",
+    "id": "202610281600",
+    "title": "立石，埃夫伯里，威尔特郡，英格兰",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "历史守望之地",
-    "image": "https://www.bing.com/th?id=OHR.KuneticeCastle_ZH-CN8895858920_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E5%BA%93%E6%B6%85%E5%AD%A3%E9%87%87%E5%B1%B1%E5%9F%8E%E5%A0%A1&form=hpcapt&mkt=zh-cn"
+    "summary": "薄雾邂逅千年时光",
+    "image": "https://www.bing.com/th?id=OHR.AveburyStones_ZH-CN9127100951_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E5%A8%81%E5%B0%94%E7%89%B9%E9%83%A1%E5%9F%83%E5%A4%AB%E4%BC%AF%E9%87%8C%E7%8E%AF%E5%BD%A2%E9%81%97%E5%9D%80&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202610281600",
+      "title": "立石，埃夫伯里，威尔特郡，英格兰",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "薄雾邂逅千年时光",
+      "image": "https://www.bing.com/th?id=OHR.AveburyStones_ZH-CN9127100951_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E5%A8%81%E5%B0%94%E7%89%B9%E9%83%A1%E5%9F%83%E5%A4%AB%E4%BC%AF%E9%87%8C%E7%8E%AF%E5%BD%A2%E9%81%97%E5%9D%80&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202610271600",
       "title": "库涅季采山城堡，波希米亚，捷克",
@@ -143,30 +152,21 @@
       "summary": "静水映斑斓",
       "image": "https://www.bing.com/th?id=OHR.NaejangsanNP_ZH-CN6538893004_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E5%86%85%E8%97%8F%E5%B1%B1%E5%9B%BD%E7%AB%8B%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202610201600",
-      "title": "香江上的阮潢桥，顺化，越南",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "飞掠河面",
-      "image": "https://www.bing.com/th?id=OHR.VietnamBridge_ZH-CN6134321119_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E8%B6%8A%E5%8D%97%E9%A1%BA%E5%8C%96%E5%B8%82&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-10-28",
-    "dateLabel": "10月28日",
+    "dateKey": "2026-10-29",
+    "dateLabel": "10月29日",
     "items": [
       {
-        "year": "2021",
-        "text": "為了強調元宇宙願景，美國社群媒體網站Facebook創始人馬克·祖克柏宣布將公司名稱變更為「Meta」。",
-        "link": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4"
+        "year": "2024",
+        "text": "西班牙东南部巴倫西亞自治區、卡斯蒂利亚-拉曼恰和安達盧西亞等地因暴雨发生洪水，至少217人死亡、2000多人失踪，为西班牙历史上死伤最严重的洪水。",
+        "link": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4"
       },
       {
-        "year": "2018",
-        "text": "重慶萬州巴士墜江事故。",
-        "link": "https://zh.wikipedia.org/wiki/2018%E5%B9%B4"
+        "year": "2022",
+        "text": "韓國首爾龍山區梨泰院舉行的萬聖節活動發生踩踏事故，造成至少151人死亡、82人受傷。",
+        "link": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4"
       }
     ]
   },
@@ -299,89 +299,97 @@
     ],
     "worldTop": [
       {
+        "title": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
+        "link": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
+        "summary": "With 85% of ballots counted, Netanyahu's Likud party and its allies are set to win 53 seats in the 120-seat Knesset.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3381/live/719a4410-d2f2-11f1-8d86-83eebc838351.jpg",
+        "publishedAt": "2026-10-28T20:24:39.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Flávio Bolsonaro lands in Miami after defeat in Brazil's presidential election",
+        "link": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss",
+        "summary": "Bolsonaro's arrival in the US ends speculation about his whereabouts after he failed to comply with an order to surrender his passports.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2c2c/live/4c19c1e0-d2eb-11f1-b441-2b33b063138f.jpg",
+        "publishedAt": "2026-10-28T20:22:49.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Hell will freeze over before Havana gives in to Trump. But regular Cubans don’t have that long",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWE92dEZkWF9Oc3JOTVJNVWZ5YkU5d0FLQldwY0tpbjFmclJwemZPZHNwMnVSSjE0Z2toaUw3aFJEaGNUdWp1Y2xpZEF2MGVHSWNEbWNVWk1PZGVCM0tNUDBER25ZSl9qaUVzSUg5WmZSQWpUUjd5bTJJb0R1OHFfS05EQlpmMEJDOXc?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-10-28T16:02:12.000Z",
+        "source": "CNN"
+      },
+      {
+        "title": "How could Israel break election deadlock? Here are four scenarios",
+        "link": "https://www.bbc.co.uk/news/articles/cm62y46d97wwo?at_medium=RSS&at_campaign=rss",
+        "summary": "With 85% of votes counted, all signs point to an impasse. The most likely outcome may be new elections.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c6a/live/eef90440-d2d5-11f1-b677-b762d2f83f6e.jpg",
+        "publishedAt": "2026-10-28T14:30:31.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "Dutch zookeeper dies after being attacked by leopard",
         "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTUxaWk1fZnVJMUotbU9hN2RCcDZ2bENNYXpqWWVBVFB5amF0c25PSXNYV3QyNTJTQ19tTkFWbjB3Yk5rOVpSU092cXpQVWhTekJxbjhZUTBONVFzZTBZNzRKOU1lYkRTa0piTkVNLUZOa1ZaWDNlS0k2UUNlMFhnMDE4Rld4bXp5Umxv?oc=5",
         "summary": "",
         "image": "",
         "publishedAt": "2026-10-28T13:51:43.000Z",
         "source": "CNN"
-      },
-      {
-        "title": "Who will be the next CNN Hero of the Year? Get to know the Top 5",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YZzBmYVJRV0tfVVpDWC1sU3JBRlktTDJOVFNmU05TZC01V25rRXhTV2dMU1FXbHl2dDBwRmprdnJsR3BzNGpUS0VZNHBwS3pDVGktRENLZVhKT3J3bzM4R0NJRU50dzZ5Q2c?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-10-28T12:57:08.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
-        "link": "https://www.bbc.co.uk/news/articles/cwj342k62exyo?at_medium=RSS&at_campaign=rss",
-        "summary": "The Villa Vie Odyssey suspended its voyage and is working with passengers on \"temporary living arrangements\".",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7eaf/live/69ded4d0-d26f-11f1-a4f1-4fff2e6cf5f3.jpg",
-        "publishedAt": "2026-10-28T10:31:22.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Tanzania celebrates first natural gas discovery in more than 10 years",
-        "link": "https://www.bbc.co.uk/news/articles/c5m2dry2xwwvo?at_medium=RSS&at_campaign=rss",
-        "summary": "The energy minister described it as a \"major milestone\" for the East African nation.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0a9d/live/58c194a0-d2ae-11f1-b441-2b33b063138f.png",
-        "publishedAt": "2026-10-28T10:18:40.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
-        "link": "https://www.bbc.co.uk/news/articles/ck5ynj4eeyj2o?at_medium=RSS&at_campaign=rss",
-        "summary": "Authorities say the attacker in Belgrade was an underage male who was being monitored by security services.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f8aa/live/94f66d00-d2b4-11f1-8cf0-c5d120932f9f.jpg",
-        "publishedAt": "2026-10-28T10:17:54.000Z",
-        "source": "BBC"
       }
     ],
     "worldBusiness": [
       {
-        "title": "How much is the minimum wage going up by?",
-        "link": "https://www.bbc.co.uk/news/articles/cy7e8mpdxpro?at_medium=RSS&at_campaign=rss",
-        "summary": "What are the National Minimum Wage and the National Living Wage, and how much are they worth?",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2639/live/ce1249e0-a9c2-11f0-8da2-811fba9518ff.jpg",
-        "publishedAt": "2026-10-28T14:53:29.000Z",
+        "title": "What we now know about the UK economy in four charts",
+        "link": "https://www.bbc.co.uk/news/articles/c9x28350ly07o?at_medium=RSS&at_campaign=rss",
+        "summary": "The Office for Budget Responsibility says higher energy prices will impact everything from prices and living standards to economic growth.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/302d/live/da4a7910-d2ea-11f1-8d86-83eebc838351.jpg",
+        "publishedAt": "2026-10-28T20:08:45.000Z",
         "source": "BBC"
       },
       {
-        "title": "Budget 2026: Key points at a glance",
-        "link": "https://www.bbc.co.uk/news/articles/c6x2zrjl7kjno?at_medium=RSS&at_campaign=rss",
-        "summary": "Here’s what you need to know from John Healey’s first Budget, as the chancellor sets out the government’s tax and spending plans.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1a8c/live/b075b800-d21f-11f1-b441-2b33b063138f.jpg",
-        "publishedAt": "2026-10-28T14:52:42.000Z",
+        "title": "What the Budget offers for under 25s - and what it leaves out",
+        "link": "https://www.bbc.co.uk/news/articles/c60e05yn3w9zo?at_medium=RSS&at_campaign=rss",
+        "summary": "The chancellor announced a series of measures which will impact under-25 year-olds from housing to minimum wage.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f96e/live/0a45b830-d2de-11f1-93e1-3b657b665bcf.jpg",
+        "publishedAt": "2026-10-28T20:02:38.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Dharshini David: Healey buys himself some time, but big questions still unanswered",
+        "link": "https://www.bbc.co.uk/news/articles/cqe9l4px0yzxo?at_medium=RSS&at_campaign=rss",
+        "summary": "The chancellor talked of charting a new course for Britain, but the impact of Iran war has limited his options.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/426f/live/d5d2d7e0-d21f-11f1-b8e4-17c9744a7f8e.jpg",
+        "publishedAt": "2026-10-28T19:51:01.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Healey unveils £100 for energy bills and bank tax in first Budget",
+        "link": "https://www.bbc.co.uk/news/articles/cqpvgxz3y49go?at_medium=RSS&at_campaign=rss",
+        "summary": "The chancellor targets the cost of living amid global economic turmoil but opposition parties say he has not been bold enough.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ab01/live/ce128db0-d2fc-11f1-a701-fddedf244c16.jpg",
+        "publishedAt": "2026-10-28T18:45:09.000Z",
         "source": "BBC"
       },
       {
         "title": "Your pay, energy bills and savings: How the Budget affects you",
         "link": "https://www.bbc.co.uk/news/articles/cr0j05vxlwjzo?at_medium=RSS&at_campaign=rss",
         "summary": "Changes announced by Chancellor John Healey in his first Budget will affect your finances directly. Here's how.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/79ee/live/d1c1f870-d1fc-11f1-b093-bfeeb34f4026.jpg",
-        "publishedAt": "2026-10-28T14:50:31.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "I get £4,062 a year and am trying my best - here's what I want from the Budget",
-        "link": "https://www.bbc.co.uk/news/articles/cmx235r9wr3yo?at_medium=RSS&at_campaign=rss",
-        "summary": "People on a range of incomes from £4,062 to £150,000 a year tell the BBC what they want to see in this year's Budget.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1484/live/60f61940-d225-11f1-93e1-3b657b665bcf.jpg",
-        "publishedAt": "2026-10-28T11:30:26.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "'An annoying buzz': The search for stealthier drones",
-        "link": "https://www.bbc.co.uk/news/articles/ck1exgejq3xvo?at_medium=RSS&at_campaign=rss",
-        "summary": "As drone deliveries become more commonplace, their makers are looking for ways to make them quieter.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a5b2/live/ad407780-c7b4-11f1-a64c-550be9e3c66b.jpg",
-        "publishedAt": "2026-10-28T00:01:10.000Z",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5846/live/65892820-d2e4-11f1-8d3a-ef62f316044e.jpg",
+        "publishedAt": "2026-10-28T16:43:35.000Z",
         "source": "BBC"
       }
     ],
     "worldTech": [
+      {
+        "title": "Elon Musk is a 'real genius', Putin says after satellite talks with SpaceX boss",
+        "link": "https://www.bbc.co.uk/news/articles/c63djl148n3eo?at_medium=RSS&at_campaign=rss",
+        "summary": "The Russian President praised Musk and said they are in \"close\" contact.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6a4e/live/248d87d0-d2fd-11f1-8091-57f2713cabe8.jpg",
+        "publishedAt": "2026-10-28T19:15:58.000Z",
+        "source": "BBC"
+      },
       {
         "title": "'An annoying buzz': The search for stealthier drones",
         "link": "https://www.bbc.co.uk/news/articles/ck1exgejq3xvo?at_medium=RSS&at_campaign=rss",
@@ -413,14 +421,6 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e394/live/7affbe60-d147-11f1-93e1-3b657b665bcf.jpg",
         "publishedAt": "2026-10-26T16:27:17.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Covid launched a new era of technology-led learning. Now, some parents and school districts are ready to toss devices",
-        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9XVFgwM0tscE9PamVTTEdObTRkbzIwWk40WTh1ZDR1TURPblQ5QTRQMEtad3o2VktBZmRqODJVN09jMWlOZGplVHJHbWtFSzlNOEdxbVduYTc0TV9rQ2xXZGlzQmQzSC1aNWFPemw1cU1xZzZYVHFN?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-10-26T10:30:15.000Z",
-        "source": "CNN"
       }
     ],
     "domestic": [
@@ -467,44 +467,44 @@
     ],
     "international": [
       {
+        "title": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
+        "link": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
+        "summary": "With 85% of ballots counted, Netanyahu's Likud party and its allies are set to win 53 seats in the 120-seat Knesset.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3381/live/719a4410-d2f2-11f1-8d86-83eebc838351.jpg",
+        "publishedAt": "2026-10-28T20:24:39.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Flávio Bolsonaro lands in Miami after defeat in Brazil's presidential election",
+        "link": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss",
+        "summary": "Bolsonaro's arrival in the US ends speculation about his whereabouts after he failed to comply with an order to surrender his passports.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2c2c/live/4c19c1e0-d2eb-11f1-b441-2b33b063138f.jpg",
+        "publishedAt": "2026-10-28T20:22:49.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Hell will freeze over before Havana gives in to Trump. But regular Cubans don’t have that long",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWE92dEZkWF9Oc3JOTVJNVWZ5YkU5d0FLQldwY0tpbjFmclJwemZPZHNwMnVSSjE0Z2toaUw3aFJEaGNUdWp1Y2xpZEF2MGVHSWNEbWNVWk1PZGVCM0tNUDBER25ZSl9qaUVzSUg5WmZSQWpUUjd5bTJJb0R1OHFfS05EQlpmMEJDOXc?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-10-28T16:02:12.000Z",
+        "source": "CNN"
+      },
+      {
+        "title": "How could Israel break election deadlock? Here are four scenarios",
+        "link": "https://www.bbc.co.uk/news/articles/cm62y46d97wwo?at_medium=RSS&at_campaign=rss",
+        "summary": "With 85% of votes counted, all signs point to an impasse. The most likely outcome may be new elections.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c6a/live/eef90440-d2d5-11f1-b677-b762d2f83f6e.jpg",
+        "publishedAt": "2026-10-28T14:30:31.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "Dutch zookeeper dies after being attacked by leopard",
         "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTUxaWk1fZnVJMUotbU9hN2RCcDZ2bENNYXpqWWVBVFB5amF0c25PSXNYV3QyNTJTQ19tTkFWbjB3Yk5rOVpSU092cXpQVWhTekJxbjhZUTBONVFzZTBZNzRKOU1lYkRTa0piTkVNLUZOa1ZaWDNlS0k2UUNlMFhnMDE4Rld4bXp5Umxv?oc=5",
         "summary": "",
         "image": "",
         "publishedAt": "2026-10-28T13:51:43.000Z",
         "source": "CNN"
-      },
-      {
-        "title": "Who will be the next CNN Hero of the Year? Get to know the Top 5",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YZzBmYVJRV0tfVVpDWC1sU3JBRlktTDJOVFNmU05TZC01V25rRXhTV2dMU1FXbHl2dDBwRmprdnJsR3BzNGpUS0VZNHBwS3pDVGktRENLZVhKT3J3bzM4R0NJRU50dzZ5Q2c?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-10-28T12:57:08.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
-        "link": "https://www.bbc.co.uk/news/articles/cwj342k62exyo?at_medium=RSS&at_campaign=rss",
-        "summary": "The Villa Vie Odyssey suspended its voyage and is working with passengers on \"temporary living arrangements\".",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7eaf/live/69ded4d0-d26f-11f1-a4f1-4fff2e6cf5f3.jpg",
-        "publishedAt": "2026-10-28T10:31:22.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Tanzania celebrates first natural gas discovery in more than 10 years",
-        "link": "https://www.bbc.co.uk/news/articles/c5m2dry2xwwvo?at_medium=RSS&at_campaign=rss",
-        "summary": "The energy minister described it as a \"major milestone\" for the East African nation.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0a9d/live/58c194a0-d2ae-11f1-b441-2b33b063138f.png",
-        "publishedAt": "2026-10-28T10:18:40.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
-        "link": "https://www.bbc.co.uk/news/articles/ck5ynj4eeyj2o?at_medium=RSS&at_campaign=rss",
-        "summary": "Authorities say the attacker in Belgrade was an underage male who was being monitored by security services.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f8aa/live/94f66d00-d2b4-11f1-8cf0-c5d120932f9f.jpg",
-        "publishedAt": "2026-10-28T10:17:54.000Z",
-        "source": "BBC"
       }
     ],
     "nba": []
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-10-28",
+    "rotationLabel": "Curated Rotation · 2026-10-29",
     "sections": [
       {
         "id": "data-storage",
@@ -522,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-1",
-            "sectionId": "data-storage",
-            "title": "The Log-Structured Merge-Tree (LSM-Tree)",
-            "authors": [
-              "Patrick O'Neil",
-              "Edward Cheng",
-              "Dieter Gawlick",
-              "Elizabeth O'Neil"
-            ],
-            "venue": "Acta Informatica",
-            "year": 1996,
-            "quality": "经典基础",
-            "categories": [
-              "storage",
-              "indexing"
-            ],
-            "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
-            "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-2",
             "sectionId": "data-storage",
@@ -562,7 +541,7 @@
             ],
             "link": "https://research.google/pubs/pub27898/",
             "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-3",
@@ -584,6 +563,27 @@
             "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
             "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-4",
+            "sectionId": "data-storage",
+            "title": "Dremel: Interactive Analysis of Web-Scale Datasets",
+            "authors": [
+              "Sergey Melnik",
+              "Andrey Gubarev",
+              "Jing Jing Long",
+              "Geoffrey Romer"
+            ],
+            "venue": "VLDB",
+            "year": 2010,
+            "quality": "顶会",
+            "categories": [
+              "analytics",
+              "columnar"
+            ],
+            "link": "https://research.google/pubs/pub36632/",
+            "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -593,27 +593,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-2",
-            "sectionId": "computer-vision",
-            "title": "End-to-End Object Detection with Transformers",
-            "authors": [
-              "Nicolas Carion",
-              "Francisco Massa",
-              "Gabriel Synnaeve",
-              "Nicolas Usunier"
-            ],
-            "venue": "ECCV",
-            "year": 2020,
-            "quality": "顶会",
-            "categories": [
-              "detection",
-              "transformer"
-            ],
-            "link": "https://arxiv.org/abs/2005.12872",
-            "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-3",
             "sectionId": "computer-vision",
@@ -633,7 +612,7 @@
             ],
             "link": "https://arxiv.org/abs/2010.11929",
             "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-4",
@@ -655,6 +634,27 @@
             "link": "https://arxiv.org/abs/2103.00020",
             "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-5",
+            "sectionId": "computer-vision",
+            "title": "Segment Anything",
+            "authors": [
+              "Alexander Kirillov",
+              "Eric Mintun",
+              "Nikhila Ravi",
+              "Hanzi Mao"
+            ],
+            "venue": "ICCV",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "segmentation",
+              "foundation model"
+            ],
+            "link": "https://arxiv.org/abs/2304.02643",
+            "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -664,27 +664,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-3",
-            "sectionId": "llm-memory",
-            "title": "RETRO: Improving Language Models by Retrieving From Trillions of Tokens",
-            "authors": [
-              "Sebastian Borgeaud",
-              "Arthur Mensch",
-              "Jordan Hoffmann",
-              "Trevor Cai"
-            ],
-            "venue": "DeepMind / arXiv",
-            "year": 2022,
-            "quality": "高影响力",
-            "categories": [
-              "retrieval",
-              "language model"
-            ],
-            "link": "https://arxiv.org/abs/2112.04426",
-            "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-4",
             "sectionId": "llm-memory",
@@ -704,7 +683,7 @@
             ],
             "link": "https://arxiv.org/abs/2310.11511",
             "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-5",
@@ -726,6 +705,27 @@
             "link": "https://arxiv.org/abs/2306.07174",
             "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-6",
+            "sectionId": "llm-memory",
+            "title": "MemoRAG: Moving towards Next-Gen RAG Via Memory-Inspired Knowledge Discovery",
+            "authors": [
+              "Rulin Shao",
+              "Yue Liu",
+              "Shuo Wang",
+              "Yichi Zhang"
+            ],
+            "venue": "arXiv",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "RAG",
+              "memory bank"
+            ],
+            "link": "https://arxiv.org/abs/2409.05591",
+            "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -735,27 +735,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-4",
-            "sectionId": "agents",
-            "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
-            "authors": [
-              "Guanzhi Wang",
-              "Yuqi Xie",
-              "Zixiang Zhou",
-              "Yujin Tang"
-            ],
-            "venue": "arXiv",
-            "year": 2023,
-            "quality": "高影响力",
-            "categories": [
-              "embodied agent",
-              "planning"
-            ],
-            "link": "https://arxiv.org/abs/2305.16291",
-            "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-5",
             "sectionId": "agents",
@@ -775,7 +754,7 @@
             ],
             "link": "https://arxiv.org/abs/2308.08155",
             "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-6",
@@ -796,6 +775,28 @@
             ],
             "link": "https://arxiv.org/abs/2405.15793",
             "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-1",
+            "sectionId": "agents",
+            "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+            "authors": [
+              "Shunyu Yao",
+              "Jeffrey Zhao",
+              "Dian Yu",
+              "Nan Du"
+            ],
+            "venue": "ICLR",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "agent",
+              "reasoning",
+              "tool use"
+            ],
+            "link": "https://arxiv.org/abs/2210.03629",
+            "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
             "trackLabel": "轮换精选"
           }
         ]
