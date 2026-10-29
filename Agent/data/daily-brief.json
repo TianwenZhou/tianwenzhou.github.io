@@ -1,35 +1,27 @@
 {
-  "generatedAt": "2026-10-29T15:10:23.245Z",
+  "generatedAt": "2026-10-29T21:01:44.519Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
       "temperature": 7,
       "weatherCode": 0,
-      "windSpeed": 4
+      "windSpeed": 7
     },
     "today": {
-      "date": "2026-10-29",
+      "date": "2026-10-30",
       "weatherCode": 0,
       "description": "晴朗",
-      "max": 18,
-      "min": 3,
+      "max": 20,
+      "min": 6,
       "precipitationProbability": 0
     },
     "forecast": [
       {
-        "date": "2026-10-29",
-        "weatherCode": 0,
-        "description": "晴朗",
-        "max": 18,
-        "min": 3,
-        "precipitationProbability": 0
-      },
-      {
         "date": "2026-10-30",
         "weatherCode": 0,
         "description": "晴朗",
-        "max": 19,
-        "min": 5,
+        "max": 20,
+        "min": 6,
         "precipitationProbability": 0
       },
       {
@@ -38,7 +30,7 @@
         "description": "阴天",
         "max": 10,
         "min": 3,
-        "precipitationProbability": 6
+        "precipitationProbability": 10
       },
       {
         "date": "2026-11-01",
@@ -46,7 +38,7 @@
         "description": "阴天",
         "max": 16,
         "min": 4,
-        "precipitationProbability": 5
+        "precipitationProbability": 8
       },
       {
         "date": "2026-11-02",
@@ -55,32 +47,49 @@
         "max": 15,
         "min": 2,
         "precipitationProbability": 0
+      },
+      {
+        "date": "2026-11-03",
+        "weatherCode": 1,
+        "description": "基本晴",
+        "max": 16,
+        "min": 3,
+        "precipitationProbability": 0
       }
     ]
   },
   "classicQuote": {
-    "id": "mencius-perseverance",
-    "text": "虽千万人，吾往矣。",
-    "source": "《孟子》",
-    "author": "孟子",
-    "note": "认准方向之后，关键是稳稳地往前走。"
+    "id": "records-historical",
+    "text": "桃李不言，下自成蹊。",
+    "source": "《史记》",
+    "author": "司马迁",
+    "note": "真正有分量的作品，本身就会替你说话。"
   },
   "bookExcerpt": {
-    "id": "red-mansion-snow",
-    "text": "只见大地白茫茫一片真干净，山川树木都隐在雪光里，天地像忽然静下来，只余风过回廊的细响。",
-    "book": "《红楼梦》",
-    "author": "曹雪芹"
+    "id": "remembrance-madeleine",
+    "text": "那一点点浸过茶水的点心，忽然把整个旧日时光都唤醒了，仿佛往昔并未消失，只是沉在心底等待一个气味。",
+    "book": "《追忆似水年华》",
+    "author": "马塞尔·普鲁斯特"
   },
   "featuredPlace": {
-    "id": "202610281600",
-    "title": "立石，埃夫伯里，威尔特郡，英格兰",
+    "id": "202610291600",
+    "title": "沙丘鹤，博斯克德尔阿帕奇国家野生动物保护区，新墨西哥州，美国",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "薄雾邂逅千年时光",
-    "image": "https://www.bing.com/th?id=OHR.AveburyStones_ZH-CN9127100951_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E5%A8%81%E5%B0%94%E7%89%B9%E9%83%A1%E5%9F%83%E5%A4%AB%E4%BC%AF%E9%87%8C%E7%8E%AF%E5%BD%A2%E9%81%97%E5%9D%80&form=hpcapt&mkt=zh-cn"
+    "summary": "展翅高飞的时节",
+    "image": "https://www.bing.com/th?id=OHR.AutumnCranes_ZH-CN5772055404_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E6%B2%99%E4%B8%98%E9%B9%A4&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202610291600",
+      "title": "沙丘鹤，博斯克德尔阿帕奇国家野生动物保护区，新墨西哥州，美国",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "展翅高飞的时节",
+      "image": "https://www.bing.com/th?id=OHR.AutumnCranes_ZH-CN5772055404_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E6%B2%99%E4%B8%98%E9%B9%A4&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202610281600",
       "title": "立石，埃夫伯里，威尔特郡，英格兰",
@@ -143,77 +152,84 @@
       "summary": "荒野伙伴",
       "image": "https://www.bing.com/th?id=OHR.YellowstoneWolves_ZH-CN6767268961_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E7%81%B0%E7%8B%BC&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202610211600",
-      "title": "内藏山国立公园的秋景，韩国",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "静水映斑斓",
-      "image": "https://www.bing.com/th?id=OHR.NaejangsanNP_ZH-CN6538893004_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E5%86%85%E8%97%8F%E5%B1%B1%E5%9B%BD%E7%AB%8B%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-10-29",
-    "dateLabel": "10月29日",
+    "dateKey": "2026-10-30",
+    "dateLabel": "10月30日",
     "items": [
       {
-        "year": "2024",
-        "text": "西班牙东南部巴倫西亞自治區、卡斯蒂利亚-拉曼恰和安達盧西亞等地因暴雨发生洪水，至少217人死亡、2000多人失踪，为西班牙历史上死伤最严重的洪水。",
-        "link": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4"
+        "year": "2022",
+        "text": "印度古吉拉特邦莫尔比市一座百年吊桥坍塌，上百余人遇难。",
+        "link": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4"
       },
       {
-        "year": "2022",
-        "text": "韓國首爾龍山區梨泰院舉行的萬聖節活動發生踩踏事故，造成至少151人死亡、82人受傷。",
-        "link": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4"
+        "year": "2020",
+        "text": "希臘與土耳其之間的愛琴海發生Mww7.0地震，引發海嘯並造成119人死亡。",
+        "link": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "重庆彭水“十五五”谋文旅发展蓝图：品山水、宿苗乡、盼再来",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-29/10723042.shtml",
-        "summary": "中新网重庆10月29日电 (罗永皓)在重庆市彭水苗族土家族自治县，“世界苗乡”已经成为当地城市IP，约8万个家庭吃上“旅游饭”。“十五五”时期，当地将以“三张名片”为支撑，进一步提升知名度和吸引力，力争接待游客总量突破4000万人次。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261029/974e1d31-385f-440e-9340-ef204b3dc4c8_zsite.jpg",
-        "publishedAt": "2026-10-29T15:01:28.000Z",
+        "title": "2023年以来江西法院共办理司法救助案件1.1万余件",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-29/10723080.shtml",
+        "summary": "中新网南昌10月29日电 (记者 李韵涵)29日，江西省高级人民法院召开新闻发布会通报江西法院司法救助工作情况。记者从会上了解到，2023年以来，江西法院共办理司法救助案件11319件。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261029/43c112d1-e264-43bf-895c-b5958623801d_zsite.jpg",
+        "publishedAt": "2026-10-29T15:51:28.000Z",
         "source": "中新网"
       },
       {
-        "title": "青海省第八座民用运输机场投产校飞成功",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-29/10723039.shtml",
-        "summary": "中新社西宁10月29日电 (记者 孙睿)青海省海南州共和机场29日完成投产校飞。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261029/eefc6183-4b34-464b-bb54-8e86b57a4a4b_zsite.jpeg",
-        "publishedAt": "2026-10-29T14:49:47.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "德国总统施泰因迈尔访问中国科学院",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-29/10723038.shtml",
-        "summary": "中新社北京10月29日电 (记者 孙自法)德国总统施泰因迈尔10月29日在北京访问中国科学院，应邀参观中国科学院大气物理研究所(大气所)。中国科学院副院长何宏平陪同参加活动。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261029/abc0760d-0a5b-4d72-a166-9c6b2a305080_zsite.jpg",
-        "publishedAt": "2026-10-29T14:49:39.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "专家吁坚定中华文化认同 促进两岸同胞心灵契合",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-29/10723037.shtml",
-        "summary": "中新社北京10月29日电 (记者 陈建新 李百加)29日在北京举行的第十二届中华文化论坛上，两岸多位专家呼吁坚定中华文化认同，促进两岸同胞心灵契合。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261029/f9bb7f7b-4213-4417-b120-4d17701e7dbf_zsite.jpg",
-        "publishedAt": "2026-10-29T14:49:13.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "报告：中国健康扶贫的经验启示将为他国提供重要借鉴",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-29/10723036.shtml",
-        "summary": "中新社北京10月29日电 (记者 李纯)《柳叶刀》中国健康扶贫委员会重大报告29日在清华大学万科公共卫生与健康学院发布。该报告指出，中国在探索可持续健康扶贫过程中积累的实践经验和政策启示，将为其他国家制定和完善以健康促进减贫的相关政策提供重要借鉴。",
+        "title": "“中国蓝色海湾整治行动”获评2026年联合国“世界生态恢复旗舰项目”",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-29/10723076.shtml",
+        "summary": "中新社北京10月29日电 (记者 阮煜琳)中国自然资源部29日消息，当日，在亚美尼亚埃里温举办的《生物多样性公约》第十七次缔约方大会(COP17)“恢复日”活动上，联合国环境规划署正式宣布，因中国在海洋生态保护修复方面取得的突出成效，“中国蓝色海湾整治行动”获评2026年联合国“世界生态恢复旗舰项目...",
         "image": "",
-        "publishedAt": "2026-10-29T14:49:03.000Z",
+        "publishedAt": "2026-10-29T15:43:20.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "天津开展巾帼宣讲员风采展示活动 讲好巾帼建功奋斗故事",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-29/10723069.shtml",
+        "summary": "中新网天津10月29日电 (记者 江莹)28日，由天津市委市级机关工委、市妇联联合主办的2026年天津市巾帼宣讲员风采展示暨示范宣讲活动举行，活动以“巾帼津声理润津沽 凝心筑梦奋进新程”为主题，充分展现新时代天津女性担当风采。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261029/056d6fcb-ac64-4f8a-8fbc-fd077f5d7e35_zsite.jpg",
+        "publishedAt": "2026-10-29T15:34:19.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "中宣部组织召开学习宣传贯彻党的二十届五中全会精神电视电话会议",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-29/10723073.shtml",
+        "summary": "新华社北京10月29日电 中宣部29日晚在京召开学习宣传贯彻党的二十届五中全会精神电视电话会议。中共中央政治局委员、中宣部部长李书磊出席会议并讲话。",
+        "image": "",
+        "publishedAt": "2026-10-29T15:34:03.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "王毅同冰岛外长贡纳尔斯多蒂尔会谈",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-29/10723067.shtml",
+        "summary": "中新社北京10月29日电 10月29日，中共中央政治局委员、外交部长王毅在北京同冰岛外长贡纳尔斯多蒂尔举行会谈。",
+        "image": "",
+        "publishedAt": "2026-10-29T15:33:35.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
+      {
+        "title": "“行走的川菜非遗”美食推介在伦敦举行",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-29/10723072.shtml",
+        "summary": "中新网伦敦10月29日电 (欧阳开宇 卢映菏)在中国驻伦敦旅游办支持下，由四川旅游学院与英国重庆商会联合主办的“行走的川菜非遗”(伦敦站)活动日前在伦敦举行。活动以川菜非物质文化遗产为核心纽带，搭建交流平台，积极推动川菜非遗海外传承发展，深化中英两国在教育、文化、餐饮及旅游领域的务实合作与友好往来。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261029/30b5cb95-347b-4641-8d4c-94078451cb01_zsite.jpeg",
+        "publishedAt": "2026-10-29T15:45:46.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "湖南新化一照相馆三代人守护红军合影 接力讲述长征故事",
+        "link": "https://www.chinanews.com.cn/sh/2026/10-29/10723064.shtml",
+        "summary": "中新网娄底10月29日电 (周澜 罗忠 曾振科)清晨，湖南娄底新化县城青石街。一阵卷帘门的响动，撕开了巷子里的晨光。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261029/fdc38c5c-18e3-4cad-a1c5-fc4a339f6f3e_zsite.jpg",
+        "publishedAt": "2026-10-29T15:23:09.000Z",
+        "source": "中新网"
+      },
       {
         "title": "“中国甜糯玉米之乡”山西五寨：聚力有机旱作 升级特优农业",
         "link": "https://www.chinanews.com.cn/sh/2026/10-29/10723046.shtml",
@@ -237,81 +253,73 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261029/75fff9c5-e385-47c3-beec-c5b27c9e5119_zsite.jpg",
         "publishedAt": "2026-10-29T14:05:20.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "我国铁路物流提质增效步伐加快",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-29/10723014.shtml",
-        "summary": "央视网消息(新闻联播)：前三季度，我国铁路货运量稳步增长，物流产品不断丰富，通道效率显著提升。",
-        "image": "",
-        "publishedAt": "2026-10-29T13:48:22.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "海外客商在上海寻找机器人“工友”",
-        "link": "https://www.chinanews.com.cn/sh/2026/10-29/10723005.shtml",
-        "summary": "中新社上海10月29日电 (李姝徵 狄权)2026智元创新日29日在上海举行，吸引来自全球各地的逾千名科研伙伴、开发者、商业伙伴参与。会场里，海外客商既了解机器人具备哪些新本领，也寻找能够带回国、解决实际问题的机器人“工友”。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261029/3748da31-d1ee-4451-970a-b67515d4ca9d_zsite.jpg",
-        "publishedAt": "2026-10-29T13:27:52.000Z",
-        "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "CHIPS2026在横琴开幕 搭建平台汇聚资源促合作",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-29/10723049.shtml",
-        "summary": "中新网珠海10月29日电 (记者 邓媛雯)为期三天的2026全球创新药械中国投融资与权益交易大会(CHIPS2026)29日在横琴天沐琴台会议会展中心拉开帷幕。大会吸引近千位来自全球的医疗企业、科研与临床机构、投资机构、监管及专业服务等领域的嘉宾，围绕医疗健康产业创新、国际化发展、资本支持及生态协同...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261029/5c3df13e-b1c8-475e-b92b-fa1972e61695_zsite.jpeg",
-        "publishedAt": "2026-10-29T15:07:50.000Z",
+        "title": "2026年中国贵金属论坛在昆明举行 AI与贵金属“双向奔赴”成焦点",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-29/10723082.shtml",
+        "summary": "中新网昆明10月29日电 (记者 陈静)2026年中国贵金属论坛29日在昆明开幕。在这场行业盛会上，AI与人工智能成为高频词汇，一方面，人工智能大模型的应用加速贵金属新材料研发，另一方面，AI产业崛起对贵金属产生新需求，二者双向赋能、双向奔赴。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261029/9175fa09-10b9-4aac-9b6f-2a72879fb34b_zsite.jpg",
+        "publishedAt": "2026-10-29T15:51:56.000Z",
         "source": "中新网"
       },
       {
-        "title": "2026巴彦淖尔农牧业高质量发展成果推介会举行",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-29/10723048.shtml",
-        "summary": "中新网北京10月29日电 (记者 陈溯)29日，以“绘和美新卷·启振兴新程”为主题的2026巴彦淖尔农牧业高质量发展成果推介会在北京举行，推介会旨在系统展示农牧业发展成效，总结区域公用品牌建设、乡村振兴、和美乡村建设实践经验，搭建成果展示、品牌推介、产销对接、资源合作平台，推动河套优质农产品更好地走...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261029/b556a7d0-b688-4406-8b22-9ec1b24fed88_zsite.jpeg",
-        "publishedAt": "2026-10-29T15:06:32.000Z",
+        "title": "广西加快打造国内国际双循环市场经营便利地",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-29/10723079.shtml",
+        "summary": "中新网南宁10月29日电(黄艳梅 杨彩虹)广西壮族自治区发展和改革委员会副主任李文纲29日介绍，广西积极推进市场化法治化国际化营商环境建设，不断擦亮“营商广西·桂在便利”服务品牌，持续提升投资、贸易、消费、资金流动、人员往来、物流畅通等便利化水平，加快打造国内国际双循环市场经营便利地。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261029/5b6496a3-c34e-4a08-8eb6-b30f20b351be_zsite.jpg",
+        "publishedAt": "2026-10-29T15:48:52.000Z",
         "source": "中新网"
       },
       {
-        "title": "近30个国家和地区800多名嘉宾报名参加广州国际投资年会",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-29/10723043.shtml",
-        "summary": "中新网广州10月29日电(记者 王华)记者从第十二届广州国际投资年会新闻发布会上获悉，目前，已有近30个国家和地区的800多名嘉宾报名参加全体大会；年会期间，广州将举办近30场配套活动。",
+        "title": "“北京太古坊”正式启用，为太古地产在中国内地单体投资额最高项目",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-29/10723071.shtml",
+        "summary": "中新网北京10月29日电 (记者 庞无忌)太古地产29日宣布，位于北京市朝阳区的地标性综合发展项目“颐堤港”(INDIGO)正式更名为“北京太古坊”(Taikoo Place Beijing)。此次更名将现有颐堤港项目与即将落成的二期扩建部分统一纳入太古地产“太古坊”品牌体系。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261029/f0059d6b-90f5-4bd0-899b-6ad09bff7016_zsite.jpg",
+        "publishedAt": "2026-10-29T15:37:10.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "前三季度海南货物贸易跨境人民币收付同比增长超五成",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-29/10723070.shtml",
+        "summary": "中新网海口10月29日电 (记者 王晓斌)记者从中国人民银行海南省分行29日召开的新闻发布会获悉，今年1至9月，海南全省跨境人民币收付额达4362亿元，同比增长16.9%。其中，货物贸易跨境人民币收付额为1074亿元，同比增长51.0%，占同期本外币跨境收付比重提升至30.5%。",
         "image": "",
-        "publishedAt": "2026-10-29T15:02:54.000Z",
+        "publishedAt": "2026-10-29T15:34:23.000Z",
         "source": "中新网"
       },
       {
-        "title": "青海省河南县冬肉美食节火热开幕",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-29/10723041.shtml",
-        "summary": "中新网青海黄南10月29日电(祁绣娟)29日，河南蒙古族自治县第二届冬肉美食节在青海黄南藏族自治州同仁市热贡广场启幕，雪多牦牛、苏呼欧拉羊等有机农畜产品集中亮相，活动持续至10月30日。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261029/939864b9-fded-4da5-b8da-2910fcc50361_zsite.jpg",
-        "publishedAt": "2026-10-29T15:00:50.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "新疆—成渝地区双城经济圈氢能综合应用试点城市群工作部署会在渝举行",
-        "link": "https://www.chinanews.com.cn/cj/2026/10-29/10723021.shtml",
-        "summary": "中新网重庆10月29日电(景诗雁)新疆—成渝地区双城经济圈氢能综合应用试点城市群工作部署会29日在重庆举行，标志着该项试点工作步入落地实施阶段。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261029/856938ca-9a33-4d81-8816-fa303b0fcd0d_zsite.jpg",
-        "publishedAt": "2026-10-29T13:58:54.000Z",
+        "title": "“中国芯”鲜切花月季“文秀”“娇龙”正式上市",
+        "link": "https://www.chinanews.com.cn/cj/2026/10-29/10723063.shtml",
+        "summary": "中新网昆明10月29日电 (贝文)29日，国产鲜切花月季“文秀”“娇龙”正式上市，由云南自主培育、承载时代精神的两款“中国芯”鲜切花正式面向全国消费者销售。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261029/de185ad1-fc2f-43ff-b074-f72a05c4bb3e_zsite.jpg",
+        "publishedAt": "2026-10-29T15:23:05.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
-        "link": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss",
-        "summary": "At least 14 others were wounded in the attack in the central city of Dnipro, including an 11-year-old boy.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c3f6/live/c8559bf0-d389-11f1-b5f4-fd541fd21001.jpg",
-        "publishedAt": "2026-10-29T14:17:35.000Z",
+        "title": "'The city is alive': A brief peace in Kherson, but residents fear what comes next",
+        "link": "https://www.bbc.co.uk/news/articles/ck1l393pyrylo?at_medium=RSS&at_campaign=rss",
+        "summary": "A temporary ceasefire has brought rare quiet to Kherson, offering its residents a glimpse of normal life before fighting resumes.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cbb9/live/fe693560-d3c2-11f1-93e1-3b657b665bcf.jpg",
+        "publishedAt": "2026-10-29T20:05:57.000Z",
         "source": "BBC"
       },
       {
-        "title": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
-        "link": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
-        "summary": "With 93% of ballots counted, Netanyahu's Likud party and its allies are set to win 53 seats in the 120-seat Knesset.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3381/live/719a4410-d2f2-11f1-8d86-83eebc838351.jpg",
-        "publishedAt": "2026-10-29T13:49:04.000Z",
+        "title": "Flávio Bolsonaro calls himself 'leader of Brazil' after election loss",
+        "link": "https://www.bbc.co.uk/news/articles/c3x2w4109pj8o?at_medium=RSS&at_campaign=rss",
+        "summary": "The defeated presidential candidate says he will lead the opposition from the US.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/57ed/live/bd177c10-d3aa-11f1-b441-2b33b063138f.jpg",
+        "publishedAt": "2026-10-29T14:58:28.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
+        "link": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss",
+        "summary": "At least 14 others were wounded in the attack in the central city of Dnipro, including an 11-year-old boy.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9946/live/591e3810-d3b5-11f1-a701-fddedf244c16.jpg",
+        "publishedAt": "2026-10-29T14:17:35.000Z",
         "source": "BBC"
       },
       {
@@ -323,61 +331,53 @@
         "source": "BBC"
       },
       {
-        "title": "Audio reveals exchanges between control centre and drivers before deadly Spain train crash",
+        "title": "Audio reveals exchanges between Spain train operators and drivers moments before deadly crash",
         "link": "https://www.bbc.co.uk/news/articles/cmqxnl312v34o?at_medium=RSS&at_campaign=rss",
-        "summary": "The recordings appear to show one high-speed train was given clearance to move even though another up ahead had stalled.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/26f6/live/810fd9c0-d39a-11f1-b441-2b33b063138f.jpg",
+        "summary": "The leaked tapes appear to show one high-speed train was given clearance to move at normal speed, even though another up ahead had stalled.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d3bc/live/1e706fb0-d3c1-11f1-a62f-fd53d503ac8d.jpg",
         "publishedAt": "2026-10-29T11:07:35.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
-        "link": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss",
-        "summary": "The defeated Brazilian candidate claims to be the victim of a coup d’état and political persecution, recycling unsubstantiated allegations of “elector...",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2c2c/live/4c19c1e0-d2eb-11f1-b441-2b33b063138f.jpg",
-        "publishedAt": "2026-10-29T01:14:01.000Z",
         "source": "BBC"
       }
     ],
     "worldBusiness": [
       {
-        "title": "Poundland's future hangs in the balance as chain edges towards collapse",
+        "title": "Burnham 'ready to support' Poundland staff as retailer faces collapse",
         "link": "https://www.bbc.co.uk/news/articles/cqrky1p4dlm7o?at_medium=RSS&at_campaign=rss",
-        "summary": "Poundland's bosses is filing a notice of intention to appoint administrators to the business.",
+        "summary": "Poundland's bosses are filing a notice of intention to appoint administrators to the business.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cd3d/live/2cdccc40-d378-11f1-bf63-739fb2907d03.jpg",
-        "publishedAt": "2026-10-29T15:02:31.000Z",
+        "publishedAt": "2026-10-29T19:11:10.000Z",
         "source": "BBC"
       },
       {
-        "title": "Faisal Islam: The 10-year plan will have to fill the gaps from this 'micro Budget'",
+        "title": "US interest rates held steady and economy grows - what it means for you",
+        "link": "https://www.bbc.co.uk/news/articles/cr15jxzv4w24o?at_medium=RSS&at_campaign=rss",
+        "summary": "The Federal Reserve's interest rate decisions affect everything from mortgages to car loans",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/47d7/live/753fb120-d30d-11f1-ad4f-5d2bbacf0caf.jpg",
+        "publishedAt": "2026-10-29T17:15:05.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Faisal Islam: This Budget was micro and that was deliberate",
         "link": "https://www.bbc.co.uk/news/articles/cwx283zynnv3o?at_medium=RSS&at_campaign=rss",
         "summary": "Chancellor John Healey's plans fall short of radical action to create a promised new economic model.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8ec0/live/8d883540-d3a3-11f1-a5cd-49637fcbd4e4.jpg",
-        "publishedAt": "2026-10-29T14:58:04.000Z",
+        "publishedAt": "2026-10-29T15:48:44.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Bereaved families will not face tax bill over pension delays under new rules",
+        "link": "https://www.bbc.co.uk/news/articles/cr5yn9zwnp3qo?at_medium=RSS&at_campaign=rss",
+        "summary": "Campaigners had warned some families could face an unfair financial penalty because of delays which were not their fault.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d97f/live/92781b20-d3a7-11f1-a5cd-49637fcbd4e4.jpg",
+        "publishedAt": "2026-10-29T15:18:04.000Z",
         "source": "BBC"
       },
       {
         "title": "'Painful' years ahead, think tanks warn, as living standards set to fall",
         "link": "https://www.bbc.co.uk/news/articles/c6z7x8214np7o?at_medium=RSS&at_campaign=rss",
         "summary": "Budget forecasts show growth in living standards grinding almost to a halt.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/45cd/live/c93e7220-d385-11f1-b5f4-fd541fd21001.jpg",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7565/live/8d520610-d3cf-11f1-b441-2b33b063138f.jpg",
         "publishedAt": "2026-10-29T13:19:24.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "DoorDash is buying Instacart for $17 billion",
-        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9UVF9iUkMzQU5mMnU0MkVLTFNHdFZxQ2k2ZUhMWmozVXEyT2FCNmV5U29YU1B6clJodlc1V09WSXRXTmhWU2lCVVdQZXVwNHJsM255WEN6dkRINU9NVkZ1c09uYS1nVTRrcEFZMTNkdVVzaEJ6emVqNFZR?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-10-29T12:37:36.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "I earn £30,000. I'm angry there was no fuel duty cut in the Budget",
-        "link": "https://www.bbc.co.uk/news/articles/cmx235r9wr3yo?at_medium=RSS&at_campaign=rss",
-        "summary": "People on a range of incomes from £4,062 to £150,000 a year tell the BBC what they made of this year's Budget.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5570/live/b5261da0-d304-11f1-a9bf-3316693f55f0.jpg",
-        "publishedAt": "2026-10-29T11:52:55.000Z",
         "source": "BBC"
       }
     ],
@@ -425,61 +425,69 @@
     ],
     "domestic": [
       {
-        "title": "重庆彭水“十五五”谋文旅发展蓝图：品山水、宿苗乡、盼再来",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-29/10723042.shtml",
-        "summary": "中新网重庆10月29日电 (罗永皓)在重庆市彭水苗族土家族自治县，“世界苗乡”已经成为当地城市IP，约8万个家庭吃上“旅游饭”。“十五五”时期，当地将以“三张名片”为支撑，进一步提升知名度和吸引力，力争接待游客总量突破4000万人次。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261029/974e1d31-385f-440e-9340-ef204b3dc4c8_zsite.jpg",
-        "publishedAt": "2026-10-29T15:01:28.000Z",
+        "title": "2023年以来江西法院共办理司法救助案件1.1万余件",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-29/10723080.shtml",
+        "summary": "中新网南昌10月29日电 (记者 李韵涵)29日，江西省高级人民法院召开新闻发布会通报江西法院司法救助工作情况。记者从会上了解到，2023年以来，江西法院共办理司法救助案件11319件。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261029/43c112d1-e264-43bf-895c-b5958623801d_zsite.jpg",
+        "publishedAt": "2026-10-29T15:51:28.000Z",
         "source": "中新网"
       },
       {
-        "title": "青海省第八座民用运输机场投产校飞成功",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-29/10723039.shtml",
-        "summary": "中新社西宁10月29日电 (记者 孙睿)青海省海南州共和机场29日完成投产校飞。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261029/eefc6183-4b34-464b-bb54-8e86b57a4a4b_zsite.jpeg",
-        "publishedAt": "2026-10-29T14:49:47.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "德国总统施泰因迈尔访问中国科学院",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-29/10723038.shtml",
-        "summary": "中新社北京10月29日电 (记者 孙自法)德国总统施泰因迈尔10月29日在北京访问中国科学院，应邀参观中国科学院大气物理研究所(大气所)。中国科学院副院长何宏平陪同参加活动。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261029/abc0760d-0a5b-4d72-a166-9c6b2a305080_zsite.jpg",
-        "publishedAt": "2026-10-29T14:49:39.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "专家吁坚定中华文化认同 促进两岸同胞心灵契合",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-29/10723037.shtml",
-        "summary": "中新社北京10月29日电 (记者 陈建新 李百加)29日在北京举行的第十二届中华文化论坛上，两岸多位专家呼吁坚定中华文化认同，促进两岸同胞心灵契合。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261029/f9bb7f7b-4213-4417-b120-4d17701e7dbf_zsite.jpg",
-        "publishedAt": "2026-10-29T14:49:13.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "报告：中国健康扶贫的经验启示将为他国提供重要借鉴",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-29/10723036.shtml",
-        "summary": "中新社北京10月29日电 (记者 李纯)《柳叶刀》中国健康扶贫委员会重大报告29日在清华大学万科公共卫生与健康学院发布。该报告指出，中国在探索可持续健康扶贫过程中积累的实践经验和政策启示，将为其他国家制定和完善以健康促进减贫的相关政策提供重要借鉴。",
+        "title": "“中国蓝色海湾整治行动”获评2026年联合国“世界生态恢复旗舰项目”",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-29/10723076.shtml",
+        "summary": "中新社北京10月29日电 (记者 阮煜琳)中国自然资源部29日消息，当日，在亚美尼亚埃里温举办的《生物多样性公约》第十七次缔约方大会(COP17)“恢复日”活动上，联合国环境规划署正式宣布，因中国在海洋生态保护修复方面取得的突出成效，“中国蓝色海湾整治行动”获评2026年联合国“世界生态恢复旗舰项目...",
         "image": "",
-        "publishedAt": "2026-10-29T14:49:03.000Z",
+        "publishedAt": "2026-10-29T15:43:20.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "天津开展巾帼宣讲员风采展示活动 讲好巾帼建功奋斗故事",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-29/10723069.shtml",
+        "summary": "中新网天津10月29日电 (记者 江莹)28日，由天津市委市级机关工委、市妇联联合主办的2026年天津市巾帼宣讲员风采展示暨示范宣讲活动举行，活动以“巾帼津声理润津沽 凝心筑梦奋进新程”为主题，充分展现新时代天津女性担当风采。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261029/056d6fcb-ac64-4f8a-8fbc-fd077f5d7e35_zsite.jpg",
+        "publishedAt": "2026-10-29T15:34:19.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "中宣部组织召开学习宣传贯彻党的二十届五中全会精神电视电话会议",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-29/10723073.shtml",
+        "summary": "新华社北京10月29日电 中宣部29日晚在京召开学习宣传贯彻党的二十届五中全会精神电视电话会议。中共中央政治局委员、中宣部部长李书磊出席会议并讲话。",
+        "image": "",
+        "publishedAt": "2026-10-29T15:34:03.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "王毅同冰岛外长贡纳尔斯多蒂尔会谈",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-29/10723067.shtml",
+        "summary": "中新社北京10月29日电 10月29日，中共中央政治局委员、外交部长王毅在北京同冰岛外长贡纳尔斯多蒂尔举行会谈。",
+        "image": "",
+        "publishedAt": "2026-10-29T15:33:35.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
-        "link": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss",
-        "summary": "At least 14 others were wounded in the attack in the central city of Dnipro, including an 11-year-old boy.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c3f6/live/c8559bf0-d389-11f1-b5f4-fd541fd21001.jpg",
-        "publishedAt": "2026-10-29T14:17:35.000Z",
+        "title": "'The city is alive': A brief peace in Kherson, but residents fear what comes next",
+        "link": "https://www.bbc.co.uk/news/articles/ck1l393pyrylo?at_medium=RSS&at_campaign=rss",
+        "summary": "A temporary ceasefire has brought rare quiet to Kherson, offering its residents a glimpse of normal life before fighting resumes.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cbb9/live/fe693560-d3c2-11f1-93e1-3b657b665bcf.jpg",
+        "publishedAt": "2026-10-29T20:05:57.000Z",
         "source": "BBC"
       },
       {
-        "title": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
-        "link": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
-        "summary": "With 93% of ballots counted, Netanyahu's Likud party and its allies are set to win 53 seats in the 120-seat Knesset.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3381/live/719a4410-d2f2-11f1-8d86-83eebc838351.jpg",
-        "publishedAt": "2026-10-29T13:49:04.000Z",
+        "title": "Flávio Bolsonaro calls himself 'leader of Brazil' after election loss",
+        "link": "https://www.bbc.co.uk/news/articles/c3x2w4109pj8o?at_medium=RSS&at_campaign=rss",
+        "summary": "The defeated presidential candidate says he will lead the opposition from the US.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/57ed/live/bd177c10-d3aa-11f1-b441-2b33b063138f.jpg",
+        "publishedAt": "2026-10-29T14:58:28.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
+        "link": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss",
+        "summary": "At least 14 others were wounded in the attack in the central city of Dnipro, including an 11-year-old boy.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9946/live/591e3810-d3b5-11f1-a701-fddedf244c16.jpg",
+        "publishedAt": "2026-10-29T14:17:35.000Z",
         "source": "BBC"
       },
       {
@@ -491,19 +499,11 @@
         "source": "BBC"
       },
       {
-        "title": "Audio reveals exchanges between control centre and drivers before deadly Spain train crash",
+        "title": "Audio reveals exchanges between Spain train operators and drivers moments before deadly crash",
         "link": "https://www.bbc.co.uk/news/articles/cmqxnl312v34o?at_medium=RSS&at_campaign=rss",
-        "summary": "The recordings appear to show one high-speed train was given clearance to move even though another up ahead had stalled.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/26f6/live/810fd9c0-d39a-11f1-b441-2b33b063138f.jpg",
+        "summary": "The leaked tapes appear to show one high-speed train was given clearance to move at normal speed, even though another up ahead had stalled.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d3bc/live/1e706fb0-d3c1-11f1-a62f-fd53d503ac8d.jpg",
         "publishedAt": "2026-10-29T11:07:35.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
-        "link": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss",
-        "summary": "The defeated Brazilian candidate claims to be the victim of a coup d’état and political persecution, recycling unsubstantiated allegations of “elector...",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2c2c/live/4c19c1e0-d2eb-11f1-b441-2b33b063138f.jpg",
-        "publishedAt": "2026-10-29T01:14:01.000Z",
         "source": "BBC"
       }
     ],
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-10-29",
+    "rotationLabel": "Curated Rotation · 2026-10-30",
     "sections": [
       {
         "id": "data-storage",
@@ -522,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-2",
-            "sectionId": "data-storage",
-            "title": "Bigtable: A Distributed Storage System for Structured Data",
-            "authors": [
-              "Fay Chang",
-              "Jeffrey Dean",
-              "Sanjay Ghemawat",
-              "Wilson C. Hsieh"
-            ],
-            "venue": "OSDI",
-            "year": 2006,
-            "quality": "顶会",
-            "categories": [
-              "distributed systems",
-              "database"
-            ],
-            "link": "https://research.google/pubs/pub27898/",
-            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-3",
             "sectionId": "data-storage",
@@ -562,7 +541,7 @@
             ],
             "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
             "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-4",
@@ -584,6 +563,26 @@
             "link": "https://research.google/pubs/pub36632/",
             "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-5",
+            "sectionId": "data-storage",
+            "title": "The FAISS Library",
+            "authors": [
+              "Jeff Johnson",
+              "Matthijs Douze",
+              "Herve Jegou"
+            ],
+            "venue": "IEEE T-BD",
+            "year": 2021,
+            "quality": "高影响力",
+            "categories": [
+              "vector search",
+              "ANN"
+            ],
+            "link": "https://arxiv.org/abs/2401.08281",
+            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -593,27 +592,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-3",
-            "sectionId": "computer-vision",
-            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
-            "authors": [
-              "Alexey Dosovitskiy",
-              "Lucas Beyer",
-              "Alexander Kolesnikov",
-              "Dirk Weissenborn"
-            ],
-            "venue": "ICLR",
-            "year": 2021,
-            "quality": "顶会",
-            "categories": [
-              "vision transformer",
-              "classification"
-            ],
-            "link": "https://arxiv.org/abs/2010.11929",
-            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-4",
             "sectionId": "computer-vision",
@@ -633,7 +611,7 @@
             ],
             "link": "https://arxiv.org/abs/2103.00020",
             "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-5",
@@ -655,6 +633,27 @@
             "link": "https://arxiv.org/abs/2304.02643",
             "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-6",
+            "sectionId": "computer-vision",
+            "title": "DINOv2: Learning Robust Visual Features without Supervision",
+            "authors": [
+              "Maxime Oquab",
+              "Timothée Darcet",
+              "Théo Moutakanni",
+              "Huy V. Vo"
+            ],
+            "venue": "arXiv / Meta",
+            "year": 2023,
+            "quality": "高影响力",
+            "categories": [
+              "self-supervised",
+              "representation"
+            ],
+            "link": "https://arxiv.org/abs/2304.07193",
+            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -664,27 +663,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-4",
-            "sectionId": "llm-memory",
-            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
-            "authors": [
-              "Akari Asai",
-              "Zequn Zhang",
-              "Avirup Sil",
-              "Hannaneh Hajishirzi"
-            ],
-            "venue": "ICLR",
-            "year": 2024,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "self-reflection"
-            ],
-            "link": "https://arxiv.org/abs/2310.11511",
-            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-5",
             "sectionId": "llm-memory",
@@ -704,7 +682,7 @@
             ],
             "link": "https://arxiv.org/abs/2306.07174",
             "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-6",
@@ -726,6 +704,27 @@
             "link": "https://arxiv.org/abs/2409.05591",
             "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-1",
+            "sectionId": "llm-memory",
+            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+            "authors": [
+              "Patrick Lewis",
+              "Ethan Perez",
+              "Aleksandra Piktus",
+              "Fabio Petroni"
+            ],
+            "venue": "NeurIPS",
+            "year": 2020,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "retrieval"
+            ],
+            "link": "https://arxiv.org/abs/2005.11401",
+            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -735,27 +734,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-5",
-            "sectionId": "agents",
-            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
-            "authors": [
-              "Qingyun Wu",
-              "Gagan Bansal",
-              "Jiaqi Zhang",
-              "Yiran Wu"
-            ],
-            "venue": "COLM",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "multi-agent",
-              "framework"
-            ],
-            "link": "https://arxiv.org/abs/2308.08155",
-            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-6",
             "sectionId": "agents",
@@ -775,7 +753,7 @@
             ],
             "link": "https://arxiv.org/abs/2405.15793",
             "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-1",
@@ -797,6 +775,27 @@
             ],
             "link": "https://arxiv.org/abs/2210.03629",
             "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-2",
+            "sectionId": "agents",
+            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+            "authors": [
+              "Timo Schick",
+              "Jane Dwivedi-Yu",
+              "Roberta Dessì",
+              "Ari Holtzman"
+            ],
+            "venue": "NeurIPS",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "tool use",
+              "agent"
+            ],
+            "link": "https://arxiv.org/abs/2302.04761",
+            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
             "trackLabel": "轮换精选"
           }
         ]
