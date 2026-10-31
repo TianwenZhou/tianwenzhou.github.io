@@ -1,36 +1,28 @@
 {
-  "generatedAt": "2026-10-31T14:28:42.022Z",
+  "generatedAt": "2026-10-31T19:54:50.731Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 9,
+      "temperature": 6,
       "weatherCode": 3,
-      "windSpeed": 1
+      "windSpeed": 3
     },
     "today": {
-      "date": "2026-10-31",
+      "date": "2026-11-01",
       "weatherCode": 3,
       "description": "阴天",
-      "max": 11,
-      "min": 4,
-      "precipitationProbability": 29
+      "max": 16,
+      "min": 5,
+      "precipitationProbability": 18
     },
     "forecast": [
-      {
-        "date": "2026-10-31",
-        "weatherCode": 3,
-        "description": "阴天",
-        "max": 11,
-        "min": 4,
-        "precipitationProbability": 29
-      },
       {
         "date": "2026-11-01",
         "weatherCode": 3,
         "description": "阴天",
         "max": 16,
         "min": 5,
-        "precipitationProbability": 21
+        "precipitationProbability": 18
       },
       {
         "date": "2026-11-02",
@@ -54,33 +46,50 @@
         "description": "毛毛雨",
         "max": 11,
         "min": 5,
-        "precipitationProbability": 6
+        "precipitationProbability": 8
+      },
+      {
+        "date": "2026-11-05",
+        "weatherCode": 45,
+        "description": "有雾",
+        "max": 16,
+        "min": 5,
+        "precipitationProbability": 0
       }
     ]
   },
   "classicQuote": {
-    "id": "chuci-seek",
-    "text": "路漫漫其修远兮，吾将上下而求索。",
-    "source": "《离骚》",
-    "author": "屈原",
-    "note": "长期主义最难，但也最值得。"
+    "id": "mencius-perseverance",
+    "text": "虽千万人，吾往矣。",
+    "source": "《孟子》",
+    "author": "孟子",
+    "note": "认准方向之后，关键是稳稳地往前走。"
   },
   "bookExcerpt": {
-    "id": "border-town-river",
-    "text": "月光如银子，无处不可照及，山上篁竹在月光下变成了一片黑色，身边草丛中虫声繁密如落雨。",
-    "book": "《边城》",
-    "author": "沈从文"
+    "id": "red-mansion-snow",
+    "text": "只见大地白茫茫一片真干净，山川树木都隐在雪光里，天地像忽然静下来，只余风过回廊的细响。",
+    "book": "《红楼梦》",
+    "author": "曹雪芹"
   },
   "featuredPlace": {
-    "id": "202610301600",
-    "title": "圣巴尔多禄茂教堂，法兰克福，德国",
+    "id": "202610311600",
+    "title": "黑森林，巴登-符腾堡州，德国",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "往昔帝国的幽影",
-    "image": "https://www.bing.com/th?id=OHR.FrankfurtHalloween_ZH-CN5998782698_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E4%B8%87%E5%9C%A3%E8%8A%82&form=hpcapt&mkt=zh-cn"
+    "summary": "林间迷雾",
+    "image": "https://www.bing.com/th?id=OHR.SchwarzwaldAutumn_ZH-CN6323627599_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E5%BE%B7%E5%9B%BD%E9%BB%91%E6%A3%AE%E6%9E%97&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202610311600",
+      "title": "黑森林，巴登-符腾堡州，德国",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "林间迷雾",
+      "image": "https://www.bing.com/th?id=OHR.SchwarzwaldAutumn_ZH-CN6323627599_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E5%BE%B7%E5%9B%BD%E9%BB%91%E6%A3%AE%E6%9E%97&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202610301600",
       "title": "圣巴尔多禄茂教堂，法兰克福，德国",
@@ -143,35 +152,34 @@
       "summary": "群峰与宁静相遇之地",
       "image": "https://www.bing.com/th?id=OHR.MaligneFest_ZH-CN8343066766_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E7%8E%9B%E7%90%B3%E6%B9%96&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202610231600",
-      "title": "皇家葡萄牙语阅览室，里约热内卢，巴西",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "书香里的极致华美",
-      "image": "https://www.bing.com/th?id=OHR.PortugueseLibrary_ZH-CN7096893027_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E7%9A%87%E5%AE%B6%E8%91%A1%E8%90%84%E7%89%99%E8%AF%AD%E9%98%85%E8%A7%88%E5%AE%A4&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-10-31",
-    "dateLabel": "10月31日",
+    "dateKey": "2026-11-01",
+    "dateLabel": "11月1日",
     "items": [
       {
-        "year": "2022",
-        "text": "香港受股災影響，恒生指數早段低見14597.31點，創2009年4月28日以來最低。",
-        "link": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4"
+        "year": "2011",
+        "text": "中国载人航天工程总指挥、总装备部部长常万全宣布“神舟八号”发射成功。",
+        "link": "https://zh.wikipedia.org/wiki/2011%E5%B9%B4"
       },
       {
-        "year": "2021",
-        "text": "《聯合國氣候變化綱要公約》第26屆締約方會議召開。",
-        "link": "https://zh.wikipedia.org/wiki/%E8%81%94%E5%90%88%E5%9B%BD%E6%B0%94%E5%80%99%E5%8F%98%E5%8C%96%E6%A1%86%E6%9E%B6%E5%85%AC%E7%BA%A6"
+        "year": "2010",
+        "text": "中华人民共和国第六次全国人口普查正式开始入户登记。",
+        "link": "https://zh.wikipedia.org/wiki/2010%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
+      {
+        "title": "中国海警位中国台湾岛以东海域依法开展常态化执法巡查",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-31/10724111.shtml",
+        "summary": "中新社北京10月31日电 中国海警局新闻发言人姜略10月31日表示，当日，中国海警虎狮舰编队位中国台湾岛以东海域依法开展常态化执法巡查。",
+        "image": "",
+        "publishedAt": "2026-10-31T14:28:03.000Z",
+        "source": "中新网"
+      },
       {
         "title": "景德镇等中外五座城市获全球可持续发展城市奖（上海奖）",
         "link": "https://www.chinanews.com.cn/gn/2026/10-31/10724108.shtml",
@@ -202,14 +210,6 @@
         "summary": "中新网南昌10月31日电 (记者 吴鹏泉)江西省交通运输执法局31日消息，一件国产大飞机零部件生产的关键工艺设备当日在江西境内完成转运，平安运抵南昌。此次运输任务刷新江西大件运输宽度纪录。",
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261031/6b8caefd-519e-4b01-b032-af714244110a_zsite.jpg",
         "publishedAt": "2026-10-31T14:08:20.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "中国科学院第九届科学节开幕 激发社会公众尤其是青少年探索未知",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-31/10724094.shtml",
-        "summary": "中新网北京10月31日电 (记者 孙自法)在中国科学院将于2026年11月1日迎来建院77周年纪念日之际，该院第九届科学节10月31日正式拉开帷幕，旨在通过丰富的系列科研成果展示、科普文艺展演、项目实践与互动，营造浓厚的科学节日氛围，吸引公众走进科学，激发社会公众尤其是青少年探索未知的好奇心。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261031/7943427a-bf9d-456f-9dbe-86442a548efc_zsite.jpeg",
-        "publishedAt": "2026-10-31T14:08:10.000Z",
         "source": "中新网"
       }
     ],
@@ -299,44 +299,44 @@
     ],
     "worldTop": [
       {
-        "title": "Evacuees from Russia-occupied city where residents ate weeds arrive in Ukraine",
+        "title": "Clashes erupt between police and protesters in Paris",
+        "link": "https://www.bbc.co.uk/news/videos/ck0j0y87j303o?at_medium=RSS&at_campaign=rss",
+        "summary": "Over 320,000 people protested around France in a third weekend of demonstrations against the rising cost of living and poor public services.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9670/live/78247d30-d560-11f1-93e1-3b657b665bcf.jpg",
+        "publishedAt": "2026-10-31T19:37:43.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "'We came back from hell', say Ukrainians after years in Russia-occupied frontline city",
+        "link": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&at_campaign=rss",
+        "summary": "One evacuated couple says they crossed minefields in Oleshky in a search for food.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/053a/live/d1a9e840-d54c-11f1-bcb7-8f812b44c2e5.jpg",
+        "publishedAt": "2026-10-31T19:22:26.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Ukrainian evacuees reunite with family after years trapped in Russia-occupied city",
         "link": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss",
-        "summary": "Residents left the devastated city on Friday following a ceasefire brokered by US First Lady Melania Trump.",
+        "summary": "Oleshky residents had been without food, water and electricity, with many resorting to cooking garden weeds to survive.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41b8/live/9f93a310-d532-11f1-b441-2b33b063138f.jpg",
-        "publishedAt": "2026-10-31T13:45:34.000Z",
+        "publishedAt": "2026-10-31T17:53:35.000Z",
         "source": "BBC"
       },
       {
-        "title": "US approves sale of 500 Patriot missiles to Ukraine",
-        "link": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
-        "summary": "The American-made interceptors are the only effective weapon for downing Russia's ballistic missiles.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ea75/live/f93e2820-d4b7-11f1-a701-fddedf244c16.jpg",
-        "publishedAt": "2026-10-31T12:21:25.000Z",
+        "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+        "link": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
+        "summary": "Two analytics firms say they have robust intelligence pointing to a North Korean state-backed group as the likely culprit.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e52/live/ccbb9490-d53e-11f1-93de-81de9e959fac.jpg",
+        "publishedAt": "2026-10-31T16:32:08.000Z",
         "source": "BBC"
       },
       {
-        "title": "Spain train disaster clouds Sánchez chances of re-election",
-        "link": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss",
-        "summary": "The Spanish PM is hit by a succession of crises just weeks before a snap general election.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a970/live/20e78ee0-d4ed-11f1-93e1-3b657b665bcf.jpg",
-        "publishedAt": "2026-10-31T05:44:21.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Police detain 3 protesters during overnight rally as Polish president backs suspended judge",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNENPNVZlNVVHX2wyRkpHVnRMb2NqaWZKNG1KbjBjbVU4NjZhWnRLemc2Q1dScGg5MEFxaDJSWVM1SHZBQ1ZBNzhaM1QtbHBxemk2a0lkdW53RWZZN3NSTW9VSHhEb29weUVxaXdvWTJpRHpOU2gtNWd3d04zUjRTLWRIT3hFWWk4U0xqc3ByeENzZW9zUzlCWjFLcDh5QzA?oc=5",
+        "title": "Why this year’s World Series won’t prevent a labor dispute that imperils the 2027 season",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4xdXgyN1lKZGhUemsyd1otT3hwaG9YMXE5M2xvbHRHdVVmYWNfQ2thZ0p6cXlwM0c2VjMxQkFhc25oSFl4Y2JyMnUxWUNOWjBVVGRGcEg1eUVjUHBxb053LWtKdHdGUXF6UnRQY1VUMERQWGFE?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-10-31T04:23:49.000Z",
+        "publishedAt": "2026-10-31T16:00:16.000Z",
         "source": "CNN"
-      },
-      {
-        "title": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
-        "link": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&at_campaign=rss",
-        "summary": "If the accusations are true, the record-making heist shows how powerful suspected North Korean hackers have become.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7b98/live/c9241530-d4aa-11f1-b441-2b33b063138f.jpg",
-        "publishedAt": "2026-10-31T02:12:19.000Z",
-        "source": "BBC"
       }
     ],
     "worldBusiness": [
@@ -425,6 +425,14 @@
     ],
     "domestic": [
       {
+        "title": "中国海警位中国台湾岛以东海域依法开展常态化执法巡查",
+        "link": "https://www.chinanews.com.cn/gn/2026/10-31/10724111.shtml",
+        "summary": "中新社北京10月31日电 中国海警局新闻发言人姜略10月31日表示，当日，中国海警虎狮舰编队位中国台湾岛以东海域依法开展常态化执法巡查。",
+        "image": "",
+        "publishedAt": "2026-10-31T14:28:03.000Z",
+        "source": "中新网"
+      },
+      {
         "title": "景德镇等中外五座城市获全球可持续发展城市奖（上海奖）",
         "link": "https://www.chinanews.com.cn/gn/2026/10-31/10724108.shtml",
         "summary": "中新社福州10月31日电 (记者 闫旭)2026年世界城市日全球主场活动暨第四届全球可持续发展城市奖(上海奖)颁奖活动10月31日在福州开幕，中国景德镇、波兰卡托维兹、土耳其伊斯坦布尔、哥伦比亚圣地亚哥德卡利、埃塞俄比亚亚的斯亚贝巴五座城市获该奖项。",
@@ -455,56 +463,48 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261031/6b8caefd-519e-4b01-b032-af714244110a_zsite.jpg",
         "publishedAt": "2026-10-31T14:08:20.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "中国科学院第九届科学节开幕 激发社会公众尤其是青少年探索未知",
-        "link": "https://www.chinanews.com.cn/gn/2026/10-31/10724094.shtml",
-        "summary": "中新网北京10月31日电 (记者 孙自法)在中国科学院将于2026年11月1日迎来建院77周年纪念日之际，该院第九届科学节10月31日正式拉开帷幕，旨在通过丰富的系列科研成果展示、科普文艺展演、项目实践与互动，营造浓厚的科学节日氛围，吸引公众走进科学，激发社会公众尤其是青少年探索未知的好奇心。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261031/7943427a-bf9d-456f-9dbe-86442a548efc_zsite.jpeg",
-        "publishedAt": "2026-10-31T14:08:10.000Z",
-        "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "Evacuees from Russia-occupied city where residents ate weeds arrive in Ukraine",
+        "title": "Clashes erupt between police and protesters in Paris",
+        "link": "https://www.bbc.co.uk/news/videos/ck0j0y87j303o?at_medium=RSS&at_campaign=rss",
+        "summary": "Over 320,000 people protested around France in a third weekend of demonstrations against the rising cost of living and poor public services.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9670/live/78247d30-d560-11f1-93e1-3b657b665bcf.jpg",
+        "publishedAt": "2026-10-31T19:37:43.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "'We came back from hell', say Ukrainians after years in Russia-occupied frontline city",
+        "link": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&at_campaign=rss",
+        "summary": "One evacuated couple says they crossed minefields in Oleshky in a search for food.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/053a/live/d1a9e840-d54c-11f1-bcb7-8f812b44c2e5.jpg",
+        "publishedAt": "2026-10-31T19:22:26.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Ukrainian evacuees reunite with family after years trapped in Russia-occupied city",
         "link": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss",
-        "summary": "Residents left the devastated city on Friday following a ceasefire brokered by US First Lady Melania Trump.",
+        "summary": "Oleshky residents had been without food, water and electricity, with many resorting to cooking garden weeds to survive.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41b8/live/9f93a310-d532-11f1-b441-2b33b063138f.jpg",
-        "publishedAt": "2026-10-31T13:45:34.000Z",
+        "publishedAt": "2026-10-31T17:53:35.000Z",
         "source": "BBC"
       },
       {
-        "title": "US approves sale of 500 Patriot missiles to Ukraine",
-        "link": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
-        "summary": "The American-made interceptors are the only effective weapon for downing Russia's ballistic missiles.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ea75/live/f93e2820-d4b7-11f1-a701-fddedf244c16.jpg",
-        "publishedAt": "2026-10-31T12:21:25.000Z",
+        "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+        "link": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
+        "summary": "Two analytics firms say they have robust intelligence pointing to a North Korean state-backed group as the likely culprit.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e52/live/ccbb9490-d53e-11f1-93de-81de9e959fac.jpg",
+        "publishedAt": "2026-10-31T16:32:08.000Z",
         "source": "BBC"
       },
       {
-        "title": "Spain train disaster clouds Sánchez chances of re-election",
-        "link": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss",
-        "summary": "The Spanish PM is hit by a succession of crises just weeks before a snap general election.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a970/live/20e78ee0-d4ed-11f1-93e1-3b657b665bcf.jpg",
-        "publishedAt": "2026-10-31T05:44:21.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Police detain 3 protesters during overnight rally as Polish president backs suspended judge",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNENPNVZlNVVHX2wyRkpHVnRMb2NqaWZKNG1KbjBjbVU4NjZhWnRLemc2Q1dScGg5MEFxaDJSWVM1SHZBQ1ZBNzhaM1QtbHBxemk2a0lkdW53RWZZN3NSTW9VSHhEb29weUVxaXdvWTJpRHpOU2gtNWd3d04zUjRTLWRIT3hFWWk4U0xqc3ByeENzZW9zUzlCWjFLcDh5QzA?oc=5",
+        "title": "Why this year’s World Series won’t prevent a labor dispute that imperils the 2027 season",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4xdXgyN1lKZGhUemsyd1otT3hwaG9YMXE5M2xvbHRHdVVmYWNfQ2thZ0p6cXlwM0c2VjMxQkFhc25oSFl4Y2JyMnUxWUNOWjBVVGRGcEg1eUVjUHBxb053LWtKdHdGUXF6UnRQY1VUMERQWGFE?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-10-31T04:23:49.000Z",
+        "publishedAt": "2026-10-31T16:00:16.000Z",
         "source": "CNN"
-      },
-      {
-        "title": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
-        "link": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&at_campaign=rss",
-        "summary": "If the accusations are true, the record-making heist shows how powerful suspected North Korean hackers have become.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7b98/live/c9241530-d4aa-11f1-b441-2b33b063138f.jpg",
-        "publishedAt": "2026-10-31T02:12:19.000Z",
-        "source": "BBC"
       }
     ],
     "nba": []
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-10-31",
+    "rotationLabel": "Curated Rotation · 2026-11-01",
     "sections": [
       {
         "id": "data-storage",
@@ -522,6 +522,48 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
+          {
+            "id": "data-storage-2",
+            "sectionId": "data-storage",
+            "title": "Bigtable: A Distributed Storage System for Structured Data",
+            "authors": [
+              "Fay Chang",
+              "Jeffrey Dean",
+              "Sanjay Ghemawat",
+              "Wilson C. Hsieh"
+            ],
+            "venue": "OSDI",
+            "year": 2006,
+            "quality": "顶会",
+            "categories": [
+              "distributed systems",
+              "database"
+            ],
+            "link": "https://research.google/pubs/pub27898/",
+            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
+            "trackLabel": "今日主推"
+          },
+          {
+            "id": "data-storage-3",
+            "sectionId": "data-storage",
+            "title": "Dynamo: Amazon's Highly Available Key-value Store",
+            "authors": [
+              "Giuseppe DeCandia",
+              "Deniz Hastorun",
+              "Madan Jampani",
+              "Gunavardhan Kakulapati"
+            ],
+            "venue": "SOSP",
+            "year": 2007,
+            "quality": "顶会",
+            "categories": [
+              "key-value",
+              "distributed systems"
+            ],
+            "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
+            "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
+            "trackLabel": "轮换精选"
+          },
           {
             "id": "data-storage-4",
             "sectionId": "data-storage",
@@ -541,47 +583,6 @@
             ],
             "link": "https://research.google/pubs/pub36632/",
             "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
-            "trackLabel": "今日主推"
-          },
-          {
-            "id": "data-storage-5",
-            "sectionId": "data-storage",
-            "title": "The FAISS Library",
-            "authors": [
-              "Jeff Johnson",
-              "Matthijs Douze",
-              "Herve Jegou"
-            ],
-            "venue": "IEEE T-BD",
-            "year": 2021,
-            "quality": "高影响力",
-            "categories": [
-              "vector search",
-              "ANN"
-            ],
-            "link": "https://arxiv.org/abs/2401.08281",
-            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
-            "trackLabel": "轮换精选"
-          },
-          {
-            "id": "data-storage-6",
-            "sectionId": "data-storage",
-            "title": "DiskANN: Fast Accurate Billion-point Nearest Neighbor Search on a Single Node",
-            "authors": [
-              "Neelesh Gupta",
-              "Leland Willard",
-              "Xiangyao Yu",
-              "Yuri N."
-            ],
-            "venue": "NeurIPS",
-            "year": 2019,
-            "quality": "高影响力",
-            "categories": [
-              "vector search",
-              "ANN"
-            ],
-            "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
-            "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
             "trackLabel": "轮换精选"
           }
         ]
@@ -592,6 +593,48 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
+          {
+            "id": "computer-vision-3",
+            "sectionId": "computer-vision",
+            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+            "authors": [
+              "Alexey Dosovitskiy",
+              "Lucas Beyer",
+              "Alexander Kolesnikov",
+              "Dirk Weissenborn"
+            ],
+            "venue": "ICLR",
+            "year": 2021,
+            "quality": "顶会",
+            "categories": [
+              "vision transformer",
+              "classification"
+            ],
+            "link": "https://arxiv.org/abs/2010.11929",
+            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
+            "trackLabel": "今日主推"
+          },
+          {
+            "id": "computer-vision-4",
+            "sectionId": "computer-vision",
+            "title": "Learning Transferable Visual Models From Natural Language Supervision",
+            "authors": [
+              "Alec Radford",
+              "Jong Wook Kim",
+              "Chris Hallacy",
+              "Aditya Ramesh"
+            ],
+            "venue": "ICML",
+            "year": 2021,
+            "quality": "顶会",
+            "categories": [
+              "vision-language",
+              "foundation model"
+            ],
+            "link": "https://arxiv.org/abs/2103.00020",
+            "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
+            "trackLabel": "轮换精选"
+          },
           {
             "id": "computer-vision-5",
             "sectionId": "computer-vision",
@@ -611,48 +654,6 @@
             ],
             "link": "https://arxiv.org/abs/2304.02643",
             "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
-            "trackLabel": "今日主推"
-          },
-          {
-            "id": "computer-vision-6",
-            "sectionId": "computer-vision",
-            "title": "DINOv2: Learning Robust Visual Features without Supervision",
-            "authors": [
-              "Maxime Oquab",
-              "Timothée Darcet",
-              "Théo Moutakanni",
-              "Huy V. Vo"
-            ],
-            "venue": "arXiv / Meta",
-            "year": 2023,
-            "quality": "高影响力",
-            "categories": [
-              "self-supervised",
-              "representation"
-            ],
-            "link": "https://arxiv.org/abs/2304.07193",
-            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
-            "trackLabel": "轮换精选"
-          },
-          {
-            "id": "computer-vision-1",
-            "sectionId": "computer-vision",
-            "title": "Deep Residual Learning for Image Recognition",
-            "authors": [
-              "Kaiming He",
-              "Xiangyu Zhang",
-              "Shaoqing Ren",
-              "Jian Sun"
-            ],
-            "venue": "CVPR",
-            "year": 2016,
-            "quality": "顶会",
-            "categories": [
-              "image recognition",
-              "backbone"
-            ],
-            "link": "https://arxiv.org/abs/1512.03385",
-            "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
             "trackLabel": "轮换精选"
           }
         ]
@@ -663,6 +664,48 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
+          {
+            "id": "llm-memory-4",
+            "sectionId": "llm-memory",
+            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+            "authors": [
+              "Akari Asai",
+              "Zequn Zhang",
+              "Avirup Sil",
+              "Hannaneh Hajishirzi"
+            ],
+            "venue": "ICLR",
+            "year": 2024,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "self-reflection"
+            ],
+            "link": "https://arxiv.org/abs/2310.11511",
+            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
+            "trackLabel": "今日主推"
+          },
+          {
+            "id": "llm-memory-5",
+            "sectionId": "llm-memory",
+            "title": "LongMem: Scaling Language Model Context with Memory-Augmented Retrieval",
+            "authors": [
+              "Zeqiu Wu",
+              "Yizhong Wang",
+              "Jiacheng Liu",
+              "Yelong Shen"
+            ],
+            "venue": "ACL Findings",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "memory",
+              "long context"
+            ],
+            "link": "https://arxiv.org/abs/2306.07174",
+            "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
+            "trackLabel": "轮换精选"
+          },
           {
             "id": "llm-memory-6",
             "sectionId": "llm-memory",
@@ -682,48 +725,6 @@
             ],
             "link": "https://arxiv.org/abs/2409.05591",
             "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
-            "trackLabel": "今日主推"
-          },
-          {
-            "id": "llm-memory-1",
-            "sectionId": "llm-memory",
-            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
-            "authors": [
-              "Patrick Lewis",
-              "Ethan Perez",
-              "Aleksandra Piktus",
-              "Fabio Petroni"
-            ],
-            "venue": "NeurIPS",
-            "year": 2020,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "retrieval"
-            ],
-            "link": "https://arxiv.org/abs/2005.11401",
-            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
-            "trackLabel": "轮换精选"
-          },
-          {
-            "id": "llm-memory-2",
-            "sectionId": "llm-memory",
-            "title": "Memorizing Transformers",
-            "authors": [
-              "Yuhuai Wu",
-              "Markus N. Rabe",
-              "DeLesley Hutchins",
-              "Christian Szegedy"
-            ],
-            "venue": "ICLR",
-            "year": 2022,
-            "quality": "顶会",
-            "categories": [
-              "memory",
-              "long context"
-            ],
-            "link": "https://arxiv.org/abs/2203.08913",
-            "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
             "trackLabel": "轮换精选"
           }
         ]
@@ -734,6 +735,48 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
+          {
+            "id": "agents-5",
+            "sectionId": "agents",
+            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+            "authors": [
+              "Qingyun Wu",
+              "Gagan Bansal",
+              "Jiaqi Zhang",
+              "Yiran Wu"
+            ],
+            "venue": "COLM",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "multi-agent",
+              "framework"
+            ],
+            "link": "https://arxiv.org/abs/2308.08155",
+            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
+            "trackLabel": "今日主推"
+          },
+          {
+            "id": "agents-6",
+            "sectionId": "agents",
+            "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+            "authors": [
+              "John Yang",
+              "Carlos E. Jimenez",
+              "Alexander Wettig",
+              "Karthik Narasimhan"
+            ],
+            "venue": "ICLR",
+            "year": 2025,
+            "quality": "新近代表作",
+            "categories": [
+              "software agent",
+              "benchmark"
+            ],
+            "link": "https://arxiv.org/abs/2405.15793",
+            "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
+            "trackLabel": "轮换精选"
+          },
           {
             "id": "agents-1",
             "sectionId": "agents",
@@ -754,48 +797,6 @@
             ],
             "link": "https://arxiv.org/abs/2210.03629",
             "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
-            "trackLabel": "今日主推"
-          },
-          {
-            "id": "agents-2",
-            "sectionId": "agents",
-            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
-            "authors": [
-              "Timo Schick",
-              "Jane Dwivedi-Yu",
-              "Roberta Dessì",
-              "Ari Holtzman"
-            ],
-            "venue": "NeurIPS",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "tool use",
-              "agent"
-            ],
-            "link": "https://arxiv.org/abs/2302.04761",
-            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
-            "trackLabel": "轮换精选"
-          },
-          {
-            "id": "agents-3",
-            "sectionId": "agents",
-            "title": "Generative Agents: Interactive Simulacra of Human Behavior",
-            "authors": [
-              "Joon Sung Park",
-              "Joseph O'Brien",
-              "Carrie Cai",
-              "Meredith Ringel Morris"
-            ],
-            "venue": "UIST",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "agent society",
-              "memory"
-            ],
-            "link": "https://arxiv.org/abs/2304.03442",
-            "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
             "trackLabel": "轮换精选"
           }
         ]
