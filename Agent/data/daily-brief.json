@@ -1,35 +1,27 @@
 {
-  "generatedAt": "2026-11-01T14:59:32.536Z",
+  "generatedAt": "2026-11-01T20:26:50.727Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 9,
+      "temperature": 3,
       "weatherCode": 0,
-      "windSpeed": 1
+      "windSpeed": 3
     },
     "today": {
-      "date": "2026-11-01",
-      "weatherCode": 3,
-      "description": "阴天",
-      "max": 16,
-      "min": 4,
-      "precipitationProbability": 24
+      "date": "2026-11-02",
+      "weatherCode": 0,
+      "description": "晴朗",
+      "max": 15,
+      "min": 3,
+      "precipitationProbability": 0
     },
     "forecast": [
-      {
-        "date": "2026-11-01",
-        "weatherCode": 3,
-        "description": "阴天",
-        "max": 16,
-        "min": 4,
-        "precipitationProbability": 24
-      },
       {
         "date": "2026-11-02",
         "weatherCode": 0,
         "description": "晴朗",
         "max": 15,
-        "min": 2,
+        "min": 3,
         "precipitationProbability": 0
       },
       {
@@ -42,45 +34,62 @@
       },
       {
         "date": "2026-11-04",
-        "weatherCode": 3,
-        "description": "阴天",
-        "max": 12,
+        "weatherCode": 51,
+        "description": "毛毛雨",
+        "max": 11,
         "min": 5,
-        "precipitationProbability": 6
+        "precipitationProbability": 4
       },
       {
         "date": "2026-11-05",
-        "weatherCode": 2,
-        "description": "局部多云",
-        "max": 17,
+        "weatherCode": 45,
+        "description": "有雾",
+        "max": 16,
         "min": 4,
+        "precipitationProbability": 0
+      },
+      {
+        "date": "2026-11-06",
+        "weatherCode": 1,
+        "description": "基本晴",
+        "max": 10,
+        "min": 1,
         "precipitationProbability": 0
       }
     ]
   },
   "classicQuote": {
-    "id": "mencius-perseverance",
-    "text": "虽千万人，吾往矣。",
-    "source": "《孟子》",
-    "author": "孟子",
-    "note": "认准方向之后，关键是稳稳地往前走。"
+    "id": "records-historical",
+    "text": "桃李不言，下自成蹊。",
+    "source": "《史记》",
+    "author": "司马迁",
+    "note": "真正有分量的作品，本身就会替你说话。"
   },
   "bookExcerpt": {
-    "id": "red-mansion-snow",
-    "text": "只见大地白茫茫一片真干净，山川树木都隐在雪光里，天地像忽然静下来，只余风过回廊的细响。",
-    "book": "《红楼梦》",
-    "author": "曹雪芹"
+    "id": "remembrance-madeleine",
+    "text": "那一点点浸过茶水的点心，忽然把整个旧日时光都唤醒了，仿佛往昔并未消失，只是沉在心底等待一个气味。",
+    "book": "《追忆似水年华》",
+    "author": "马塞尔·普鲁斯特"
   },
   "featuredPlace": {
-    "id": "202610311600",
-    "title": "黑森林，巴登-符腾堡州，德国",
+    "id": "202611011600",
+    "title": "北极熊和幼崽，哈得孙湾畔，马尼托巴省，加拿大",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "林间迷雾",
-    "image": "https://www.bing.com/th?id=OHR.SchwarzwaldAutumn_ZH-CN6323627599_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E5%BE%B7%E5%9B%BD%E9%BB%91%E6%A3%AE%E6%9E%97&form=hpcapt&mkt=zh-cn"
+    "summary": "写在冰上的未来",
+    "image": "https://www.bing.com/th?id=OHR.HudsonBear_ZH-CN6630706907_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E5%8C%97%E6%9E%81%E7%86%8A%E5%91%A8&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202611011600",
+      "title": "北极熊和幼崽，哈得孙湾畔，马尼托巴省，加拿大",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "写在冰上的未来",
+      "image": "https://www.bing.com/th?id=OHR.HudsonBear_ZH-CN6630706907_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E5%8C%97%E6%9E%81%E7%86%8A%E5%91%A8&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202610311600",
       "title": "黑森林，巴登-符腾堡州，德国",
@@ -143,30 +152,21 @@
       "summary": "大自然的秋日乐章",
       "image": "https://www.bing.com/th?id=OHR.SitovoWaterfall_ZH-CN8495214046_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E4%BF%9D%E5%8A%A0%E5%88%A9%E4%BA%9A%E6%99%AE%E7%BD%97%E5%A4%AB%E8%BF%AA%E5%A4%AB%E8%A5%BF%E6%89%98%E6%B2%83&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202610241600",
-      "title": "玛琳湖，贾斯珀国家公园，艾伯塔省，加拿大",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "群峰与宁静相遇之地",
-      "image": "https://www.bing.com/th?id=OHR.MaligneFest_ZH-CN8343066766_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E7%8E%9B%E7%90%B3%E6%B9%96&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-11-01",
-    "dateLabel": "11月1日",
+    "dateKey": "2026-11-02",
+    "dateLabel": "11月2日",
     "items": [
       {
-        "year": "2011",
-        "text": "中国载人航天工程总指挥、总装备部部长常万全宣布“神舟八号”发射成功。",
-        "link": "https://zh.wikipedia.org/wiki/2011%E5%B9%B4"
+        "year": "2021",
+        "text": "由於提格雷人民解放陣線攻占衣索比亞首都阿迪斯阿貝巴附近城市，衣索比亞宣布全國進入緊急狀態。",
+        "link": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4"
       },
       {
-        "year": "2010",
-        "text": "中华人民共和国第六次全国人口普查正式开始入户登记。",
-        "link": "https://zh.wikipedia.org/wiki/2010%E5%B9%B4"
+        "year": "2016",
+        "text": "芝加哥小熊隊在2016年世界大賽第七戰中以8:7的比數擊敗克里夫蘭印地安人隊，取得睽違108年的世界冠軍，終結美國職棒大聯盟史上最長的冠軍魔咒。",
+        "link": "https://zh.wikipedia.org/wiki/2016%E5%B9%B4"
       }
     ]
   },
@@ -257,6 +257,22 @@
     ],
     "chinaFinance": [
       {
+        "title": "“欧佩克+”主要产油国决定12月维持产量不变",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-02/10724524.shtml",
+        "summary": "石油输出国组织(欧佩克)11月1日发表声明说，7个“欧佩克+”主要产油国决定12月继续维持当前原油产量不变。",
+        "image": "",
+        "publishedAt": "2026-11-01T16:29:51.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "厦门首条邮轮无目的地海上游航线启航",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-01/10724517.shtml",
+        "summary": "中新社厦门11月1日电 (吴冠标)厦门首条邮轮无目的地海上游航线11月1日晚启航，标志着邮轮无目的地海上游试点在厦门正式落地。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261101/15a2408c-5df2-48ce-b664-657566a89fa9_zsite.jpg",
+        "publishedAt": "2026-11-01T15:22:53.000Z",
+        "source": "中新网"
+      },
+      {
         "title": "“理财产品要变相保本了”是误读政策",
         "link": "https://www.chinanews.com.cn/cj/2026/11-01/10724506.shtml",
         "summary": "真相来了丨“理财产品要变相保本了”是误读政策",
@@ -279,67 +295,59 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261101/75bba196-8823-4256-b59c-84362bf06e76_zsite.jpg",
         "publishedAt": "2026-11-01T13:16:02.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "钢铁智能制造相关国家标准发布 让智能体系建设有章可循",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-01/10724492.shtml",
-        "summary": "记者今天了解到，市场监管总局发布《智能制造 废钢智能工厂设计要求》《智能制造 钢铁智能工厂数字孪生系统技术要求》《智能制造 钢铁工业多基地制造资源协同管控系统技术要求》三项国家标准，分别锚定废钢工厂、数字孪生、多基地协同等关键环节，支撑构建钢铁先进制造技术要求体系。",
-        "image": "",
-        "publishedAt": "2026-11-01T12:51:47.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "报告预计，2026年中国大宗商品价格指数均值为132.1点",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-01/10724484.shtml",
-        "summary": "中新网北京11月1日电 (记者 阮煜琳)中国物流与采购联合会1日在2026大宗商品国际化发展论坛上发布《中国大宗商品价格指数报告(2026)》。",
-        "image": "",
-        "publishedAt": "2026-11-01T12:38:32.000Z",
-        "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "Shops looted as German cost-of-living protests turn violent",
-        "link": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
-        "summary": "The protests in cities across Germany - including Berlin, Hamburg and Frankfurt - came on the same day hundreds of thousands also protested in France.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0ace/live/3e4ef120-d5d4-11f1-8629-7b9503d639be.jpg",
-        "publishedAt": "2026-11-01T11:57:48.000Z",
+        "title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire to end",
+        "link": "https://www.bbc.co.uk/news/articles/c64g1y90p71eo?at_medium=RSS&at_campaign=rss",
+        "summary": "A rare humanitarian ceasefire has allowed civilians to evacuate the Russian-occupied city of Oleshky.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d8e6/live/7871d270-d627-11f1-a947-0507737f09b2.jpg",
+        "publishedAt": "2026-11-01T19:48:17.000Z",
         "source": "BBC"
       },
       {
-        "title": "India's opposition holds mega rally seeking election chief's resignation",
-        "link": "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_medium=RSS&at_campaign=rss",
-        "summary": "Thousands gathered in the heart of delhi, calling for the chief election commissioner to step down.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ab52/live/e490a850-d5d2-11f1-8629-7b9503d639be.jpg",
-        "publishedAt": "2026-11-01T07:00:55.000Z",
+        "title": "Armed police start patrols in Sydney after Bondi Beach attack",
+        "link": "https://www.bbc.co.uk/news/articles/c9kgj7k7ry0ro?at_medium=RSS&at_campaign=rss",
+        "summary": "The new police unit is a security measure in response to last year's deadly shooting attack at a Hanukkah festival.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce75/live/a6edaf70-d618-11f1-93e1-3b657b665bcf.jpg",
+        "publishedAt": "2026-11-01T17:56:47.000Z",
         "source": "BBC"
       },
       {
-        "title": "Italian taxpayers are paying millions to keep Russian yachts afloat",
-        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcW5FdmdpY3VLMjBucUd6cGl0OXpJcTh4X1RPY2IyRUZwQ0FKQ3gwalNvdm9DZjF5VlRkUFFrcjhXVDBFMjV2ZHA2a3ZDYzNMY09maE5sR051czNadDZHdk1jN0ZOZFd2dVJZRUJfRm5iZDNmSExIaFdPWXNGNGFUUDIxRDdVbC1WMzd3dVFhZmcyQQ?oc=5",
+        "title": "Israeli strikes in Gaza kill eight including child, hospitals say",
+        "link": "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss",
+        "summary": "Five officers from the Hamas-run police have been killed in Khan Younis and three people, including a child, killed in Gaza City, officials say.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c922/live/4fe4c8d0-d5fa-11f1-a701-fddedf244c16.jpg",
+        "publishedAt": "2026-11-01T17:06:32.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "University of Cambridge scientist among those who died in Spanish train crash",
+        "link": "https://www.bbc.co.uk/news/articles/cq5ynzvkn1d8o?at_medium=RSS&at_campaign=rss",
+        "summary": "Marta Shahbazi was an \"inspiring, talented and passionate scientist\", says the laboratory where she worked.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ea05/live/c6f18070-d5ec-11f1-bfdd-73f39e6db31d.jpg",
+        "publishedAt": "2026-11-01T17:05:18.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Bitter spat between Poland’s pro-Europe PM and pro-Trump president erupts",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQU9wNTJvemVMSURuUU1uYXU1ellGZnp2Z19sS1NkQnYtX0t2dGl6d1RsZVJtdmozakh4WU5JMEV2WXAxaW9oZjcxU1lvMElPX3NNeGZUQzJzcTNJa2ZMV044Wk5yZU1jYklNcVJuYnhCSllyaWx2X19tRGl2cGVzRWhkSTc?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-11-01T05:00:15.000Z",
+        "publishedAt": "2026-11-01T14:28:41.000Z",
         "source": "CNN"
-      },
-      {
-        "title": "Judge dismisses Trump's lawsuit against Wall Street Journal over Epstein birthday book",
-        "link": "https://www.bbc.co.uk/news/articles/cwr5yj2lj9myo?at_medium=RSS&at_campaign=rss",
-        "summary": "Trump had sued the media outlet after it published a letter to Epstein purportedly written and signed by the president as part of a birthday book.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5cde/live/f5e426a0-d586-11f1-a6a4-9b195a139571.jpg",
-        "publishedAt": "2026-11-01T00:41:24.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "'We came back from hell', say Ukrainians after years in Russia-occupied front-line city",
-        "link": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&at_campaign=rss",
-        "summary": "One evacuated couple says they crossed minefields in Oleshky in search of food.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/053a/live/d1a9e840-d54c-11f1-bcb7-8f812b44c2e5.jpg",
-        "publishedAt": "2026-10-31T19:22:26.000Z",
-        "source": "BBC"
       }
     ],
     "worldBusiness": [
+      {
+        "title": "Thousands of jobs at Virgin Media O2 to be cut",
+        "link": "https://www.bbc.co.uk/news/articles/c6rry8x9d9qko?at_medium=RSS&at_campaign=rss",
+        "summary": "The broadband provider has not finalised the number of roles to be axed but it will likely be a sizeable chunk of its workforce, the BBC understands.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ac17/live/9ec7c8b0-d610-11f1-bdc5-33a5057f63d4.jpg",
+        "publishedAt": "2026-11-01T16:57:14.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
         "link": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
@@ -371,14 +379,6 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/10b0/live/dcdf2a60-d46e-11f1-9dda-1ba6fcc7d159.jpg",
         "publishedAt": "2026-10-30T20:34:46.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "The real question we should all be asking about AI",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9qZ3JlNnk1blNjRnBVN0NIQWcxS19rMWhsSFFOenQxT0JQVzUtTldqU0RhSTdHSEVoZkpqLWtzZDdPazdtbTJxeVVpR0VGS2hIZkItbzN2cFFHMFJCUEd2M2VGMzFZa0w0M3QtRg?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-10-30T20:25:44.000Z",
-        "source": "CNN"
       }
     ],
     "worldTech": [
@@ -467,44 +467,44 @@
     ],
     "international": [
       {
-        "title": "Shops looted as German cost-of-living protests turn violent",
-        "link": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
-        "summary": "The protests in cities across Germany - including Berlin, Hamburg and Frankfurt - came on the same day hundreds of thousands also protested in France.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0ace/live/3e4ef120-d5d4-11f1-8629-7b9503d639be.jpg",
-        "publishedAt": "2026-11-01T11:57:48.000Z",
+        "title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire to end",
+        "link": "https://www.bbc.co.uk/news/articles/c64g1y90p71eo?at_medium=RSS&at_campaign=rss",
+        "summary": "A rare humanitarian ceasefire has allowed civilians to evacuate the Russian-occupied city of Oleshky.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d8e6/live/7871d270-d627-11f1-a947-0507737f09b2.jpg",
+        "publishedAt": "2026-11-01T19:48:17.000Z",
         "source": "BBC"
       },
       {
-        "title": "India's opposition holds mega rally seeking election chief's resignation",
-        "link": "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_medium=RSS&at_campaign=rss",
-        "summary": "Thousands gathered in the heart of delhi, calling for the chief election commissioner to step down.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ab52/live/e490a850-d5d2-11f1-8629-7b9503d639be.jpg",
-        "publishedAt": "2026-11-01T07:00:55.000Z",
+        "title": "Armed police start patrols in Sydney after Bondi Beach attack",
+        "link": "https://www.bbc.co.uk/news/articles/c9kgj7k7ry0ro?at_medium=RSS&at_campaign=rss",
+        "summary": "The new police unit is a security measure in response to last year's deadly shooting attack at a Hanukkah festival.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce75/live/a6edaf70-d618-11f1-93e1-3b657b665bcf.jpg",
+        "publishedAt": "2026-11-01T17:56:47.000Z",
         "source": "BBC"
       },
       {
-        "title": "Italian taxpayers are paying millions to keep Russian yachts afloat",
-        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcW5FdmdpY3VLMjBucUd6cGl0OXpJcTh4X1RPY2IyRUZwQ0FKQ3gwalNvdm9DZjF5VlRkUFFrcjhXVDBFMjV2ZHA2a3ZDYzNMY09maE5sR051czNadDZHdk1jN0ZOZFd2dVJZRUJfRm5iZDNmSExIaFdPWXNGNGFUUDIxRDdVbC1WMzd3dVFhZmcyQQ?oc=5",
+        "title": "Israeli strikes in Gaza kill eight including child, hospitals say",
+        "link": "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss",
+        "summary": "Five officers from the Hamas-run police have been killed in Khan Younis and three people, including a child, killed in Gaza City, officials say.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c922/live/4fe4c8d0-d5fa-11f1-a701-fddedf244c16.jpg",
+        "publishedAt": "2026-11-01T17:06:32.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "University of Cambridge scientist among those who died in Spanish train crash",
+        "link": "https://www.bbc.co.uk/news/articles/cq5ynzvkn1d8o?at_medium=RSS&at_campaign=rss",
+        "summary": "Marta Shahbazi was an \"inspiring, talented and passionate scientist\", says the laboratory where she worked.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ea05/live/c6f18070-d5ec-11f1-bfdd-73f39e6db31d.jpg",
+        "publishedAt": "2026-11-01T17:05:18.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Bitter spat between Poland’s pro-Europe PM and pro-Trump president erupts",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQU9wNTJvemVMSURuUU1uYXU1ellGZnp2Z19sS1NkQnYtX0t2dGl6d1RsZVJtdmozakh4WU5JMEV2WXAxaW9oZjcxU1lvMElPX3NNeGZUQzJzcTNJa2ZMV044Wk5yZU1jYklNcVJuYnhCSllyaWx2X19tRGl2cGVzRWhkSTc?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-11-01T05:00:15.000Z",
+        "publishedAt": "2026-11-01T14:28:41.000Z",
         "source": "CNN"
-      },
-      {
-        "title": "Judge dismisses Trump's lawsuit against Wall Street Journal over Epstein birthday book",
-        "link": "https://www.bbc.co.uk/news/articles/cwr5yj2lj9myo?at_medium=RSS&at_campaign=rss",
-        "summary": "Trump had sued the media outlet after it published a letter to Epstein purportedly written and signed by the president as part of a birthday book.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5cde/live/f5e426a0-d586-11f1-a6a4-9b195a139571.jpg",
-        "publishedAt": "2026-11-01T00:41:24.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "'We came back from hell', say Ukrainians after years in Russia-occupied front-line city",
-        "link": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&at_campaign=rss",
-        "summary": "One evacuated couple says they crossed minefields in Oleshky in search of food.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/053a/live/d1a9e840-d54c-11f1-bcb7-8f812b44c2e5.jpg",
-        "publishedAt": "2026-10-31T19:22:26.000Z",
-        "source": "BBC"
       }
     ],
     "nba": []
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-11-01",
+    "rotationLabel": "Curated Rotation · 2026-11-02",
     "sections": [
       {
         "id": "data-storage",
@@ -522,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-2",
-            "sectionId": "data-storage",
-            "title": "Bigtable: A Distributed Storage System for Structured Data",
-            "authors": [
-              "Fay Chang",
-              "Jeffrey Dean",
-              "Sanjay Ghemawat",
-              "Wilson C. Hsieh"
-            ],
-            "venue": "OSDI",
-            "year": 2006,
-            "quality": "顶会",
-            "categories": [
-              "distributed systems",
-              "database"
-            ],
-            "link": "https://research.google/pubs/pub27898/",
-            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-3",
             "sectionId": "data-storage",
@@ -562,7 +541,7 @@
             ],
             "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
             "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-4",
@@ -584,6 +563,26 @@
             "link": "https://research.google/pubs/pub36632/",
             "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-5",
+            "sectionId": "data-storage",
+            "title": "The FAISS Library",
+            "authors": [
+              "Jeff Johnson",
+              "Matthijs Douze",
+              "Herve Jegou"
+            ],
+            "venue": "IEEE T-BD",
+            "year": 2021,
+            "quality": "高影响力",
+            "categories": [
+              "vector search",
+              "ANN"
+            ],
+            "link": "https://arxiv.org/abs/2401.08281",
+            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -593,27 +592,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-3",
-            "sectionId": "computer-vision",
-            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
-            "authors": [
-              "Alexey Dosovitskiy",
-              "Lucas Beyer",
-              "Alexander Kolesnikov",
-              "Dirk Weissenborn"
-            ],
-            "venue": "ICLR",
-            "year": 2021,
-            "quality": "顶会",
-            "categories": [
-              "vision transformer",
-              "classification"
-            ],
-            "link": "https://arxiv.org/abs/2010.11929",
-            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-4",
             "sectionId": "computer-vision",
@@ -633,7 +611,7 @@
             ],
             "link": "https://arxiv.org/abs/2103.00020",
             "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-5",
@@ -655,6 +633,27 @@
             "link": "https://arxiv.org/abs/2304.02643",
             "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-6",
+            "sectionId": "computer-vision",
+            "title": "DINOv2: Learning Robust Visual Features without Supervision",
+            "authors": [
+              "Maxime Oquab",
+              "Timothée Darcet",
+              "Théo Moutakanni",
+              "Huy V. Vo"
+            ],
+            "venue": "arXiv / Meta",
+            "year": 2023,
+            "quality": "高影响力",
+            "categories": [
+              "self-supervised",
+              "representation"
+            ],
+            "link": "https://arxiv.org/abs/2304.07193",
+            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -664,27 +663,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-4",
-            "sectionId": "llm-memory",
-            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
-            "authors": [
-              "Akari Asai",
-              "Zequn Zhang",
-              "Avirup Sil",
-              "Hannaneh Hajishirzi"
-            ],
-            "venue": "ICLR",
-            "year": 2024,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "self-reflection"
-            ],
-            "link": "https://arxiv.org/abs/2310.11511",
-            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-5",
             "sectionId": "llm-memory",
@@ -704,7 +682,7 @@
             ],
             "link": "https://arxiv.org/abs/2306.07174",
             "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-6",
@@ -726,6 +704,27 @@
             "link": "https://arxiv.org/abs/2409.05591",
             "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-1",
+            "sectionId": "llm-memory",
+            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+            "authors": [
+              "Patrick Lewis",
+              "Ethan Perez",
+              "Aleksandra Piktus",
+              "Fabio Petroni"
+            ],
+            "venue": "NeurIPS",
+            "year": 2020,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "retrieval"
+            ],
+            "link": "https://arxiv.org/abs/2005.11401",
+            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -735,27 +734,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-5",
-            "sectionId": "agents",
-            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
-            "authors": [
-              "Qingyun Wu",
-              "Gagan Bansal",
-              "Jiaqi Zhang",
-              "Yiran Wu"
-            ],
-            "venue": "COLM",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "multi-agent",
-              "framework"
-            ],
-            "link": "https://arxiv.org/abs/2308.08155",
-            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-6",
             "sectionId": "agents",
@@ -775,7 +753,7 @@
             ],
             "link": "https://arxiv.org/abs/2405.15793",
             "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-1",
@@ -797,6 +775,27 @@
             ],
             "link": "https://arxiv.org/abs/2210.03629",
             "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-2",
+            "sectionId": "agents",
+            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+            "authors": [
+              "Timo Schick",
+              "Jane Dwivedi-Yu",
+              "Roberta Dessì",
+              "Ari Holtzman"
+            ],
+            "venue": "NeurIPS",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "tool use",
+              "agent"
+            ],
+            "link": "https://arxiv.org/abs/2302.04761",
+            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
             "trackLabel": "轮换精选"
           }
         ]
