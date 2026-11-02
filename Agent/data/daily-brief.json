@@ -1,86 +1,95 @@
 {
-  "generatedAt": "2026-11-02T05:52:51.067Z",
+  "generatedAt": "2026-11-02T18:12:40.607Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 14,
+      "temperature": 5,
       "weatherCode": 0,
-      "windSpeed": 6
+      "windSpeed": 5
     },
     "today": {
-      "date": "2026-11-02",
-      "weatherCode": 0,
-      "description": "晴朗",
-      "max": 15,
-      "min": 2,
+      "date": "2026-11-03",
+      "weatherCode": 3,
+      "description": "阴天",
+      "max": 16,
+      "min": 4,
       "precipitationProbability": 0
     },
     "forecast": [
       {
-        "date": "2026-11-02",
-        "weatherCode": 0,
-        "description": "晴朗",
-        "max": 15,
-        "min": 2,
-        "precipitationProbability": 0
-      },
-      {
         "date": "2026-11-03",
-        "weatherCode": 2,
-        "description": "局部多云",
-        "max": 15,
-        "min": 3,
+        "weatherCode": 3,
+        "description": "阴天",
+        "max": 16,
+        "min": 4,
         "precipitationProbability": 0
       },
       {
         "date": "2026-11-04",
         "weatherCode": 3,
         "description": "阴天",
-        "max": 11,
-        "min": 4,
-        "precipitationProbability": 10
+        "max": 12,
+        "min": 5,
+        "precipitationProbability": 8
       },
       {
         "date": "2026-11-05",
-        "weatherCode": 3,
-        "description": "阴天",
-        "max": 17,
+        "weatherCode": 2,
+        "description": "局部多云",
+        "max": 16,
         "min": 4,
         "precipitationProbability": 0
       },
       {
         "date": "2026-11-06",
-        "weatherCode": 2,
-        "description": "局部多云",
+        "weatherCode": 3,
+        "description": "阴天",
         "max": 11,
         "min": 3,
         "precipitationProbability": 0
+      },
+      {
+        "date": "2026-11-07",
+        "weatherCode": 51,
+        "description": "毛毛雨",
+        "max": 5,
+        "min": 1,
+        "precipitationProbability": 40
       }
     ]
   },
   "classicQuote": {
-    "id": "records-historical",
-    "text": "桃李不言，下自成蹊。",
-    "source": "《史记》",
-    "author": "司马迁",
-    "note": "真正有分量的作品，本身就会替你说话。"
+    "id": "chuci-seek",
+    "text": "路漫漫其修远兮，吾将上下而求索。",
+    "source": "《离骚》",
+    "author": "屈原",
+    "note": "长期主义最难，但也最值得。"
   },
   "bookExcerpt": {
-    "id": "remembrance-madeleine",
-    "text": "那一点点浸过茶水的点心，忽然把整个旧日时光都唤醒了，仿佛往昔并未消失，只是沉在心底等待一个气味。",
-    "book": "《追忆似水年华》",
-    "author": "马塞尔·普鲁斯特"
+    "id": "border-town-river",
+    "text": "月光如银子，无处不可照及，山上篁竹在月光下变成了一片黑色，身边草丛中虫声繁密如落雨。",
+    "book": "《边城》",
+    "author": "沈从文"
   },
   "featuredPlace": {
-    "id": "202611011600",
-    "title": "北极熊和幼崽，哈得孙湾畔，马尼托巴省，加拿大",
+    "id": "202611021600",
+    "title": "布莱埃斯湖，法内斯-塞内斯-布莱埃斯湖自然公园，多洛米蒂山脉，意大利",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "写在冰上的未来",
-    "image": "https://www.bing.com/th?id=OHR.HudsonBear_ZH-CN6630706907_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E5%8C%97%E6%9E%81%E7%86%8A%E5%91%A8&form=hpcapt&mkt=zh-cn"
+    "summary": "群峰间的宁静",
+    "image": "https://www.bing.com/th?id=OHR.AlpineBraies_ZH-CN7307997866_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E5%A4%9A%E6%B4%9B%E7%B1%B3%E8%92%82%E5%B1%B1%E8%84%89&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202611021600",
+      "title": "布莱埃斯湖，法内斯-塞内斯-布莱埃斯湖自然公园，多洛米蒂山脉，意大利",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "群峰间的宁静",
+      "image": "https://www.bing.com/th?id=OHR.AlpineBraies_ZH-CN7307997866_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E5%A4%9A%E6%B4%9B%E7%B1%B3%E8%92%82%E5%B1%B1%E8%84%89&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202611011600",
       "title": "北极熊和幼崽，哈得孙湾畔，马尼托巴省，加拿大",
@@ -143,29 +152,20 @@
       "summary": "大自然的金色明镜",
       "image": "https://www.bing.com/th?id=OHR.PondCypress_ZH-CN9472607734_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E6%B1%A0%E6%9D%89&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202610251600",
-      "title": "秋日瀑布，西托沃附近，普罗夫迪夫州，保加利亚",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "大自然的秋日乐章",
-      "image": "https://www.bing.com/th?id=OHR.SitovoWaterfall_ZH-CN8495214046_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E4%BF%9D%E5%8A%A0%E5%88%A9%E4%BA%9A%E6%99%AE%E7%BD%97%E5%A4%AB%E8%BF%AA%E5%A4%AB%E8%A5%BF%E6%89%98%E6%B2%83&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-11-02",
-    "dateLabel": "11月2日",
+    "dateKey": "2026-11-03",
+    "dateLabel": "11月3日",
     "items": [
       {
-        "year": "2021",
-        "text": "由於提格雷人民解放陣線攻占衣索比亞首都阿迪斯阿貝巴附近城市，衣索比亞宣布全國進入緊急狀態。",
-        "link": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4"
+        "year": "2020",
+        "text": "2020年美国总统选举；美國民主黨代表拜登擊敗爭取連任的共和黨特朗普當選美國總統。",
+        "link": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4"
       },
       {
         "year": "2016",
-        "text": "芝加哥小熊隊在2016年世界大賽第七戰中以8:7的比數擊敗克里夫蘭印地安人隊，取得睽違108年的世界冠軍，終結美國職棒大聯盟史上最長的冠軍魔咒。",
+        "text": "北京时间晚上20:43，中國第一款重型運載火箭長征五號在海南文昌航天發射場成功發射。",
         "link": "https://zh.wikipedia.org/wiki/2016%E5%B9%B4"
       }
     ]
@@ -173,221 +173,229 @@
   "news": {
     "chinaTop": [
       {
-        "title": "刘奇凡任云南省代省长",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-02/10724692.shtml",
-        "summary": "新华社昆明11月2日电 云南省第十四届人民代表大会常务委员会第二十六次会议11月2日决定，接受王予波辞去省人民政府省长职务的请求，任命刘奇凡为云南省人民政府副省长、代理省长。",
+        "title": "李干杰受中共中央委托向党外人士通报中共二十届五中全会精神",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-02/10725065.shtml",
+        "summary": "新华社北京11月2日电 11月2日，受中共中央委托，中共中央政治局委员、中央统战部部长李干杰向党外人士通报中共二十届五中全会精神。",
         "image": "",
-        "publishedAt": "2026-11-02T04:30:46.000Z",
+        "publishedAt": "2026-11-02T14:33:23.000Z",
         "source": "中新网"
       },
       {
-        "title": "习近平同阿曼苏丹海赛姆共同出席合作文件签字仪式",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-02/10724687.shtml",
-        "summary": "新华社快讯：11月2日，国家主席习近平同阿曼苏丹海赛姆在北京共同出席合作文件签字仪式。",
+        "title": "十四届全国人大常委会第二十五次会议在京举行 审议检察公益诉讼法草案、水法修订草案等 赵乐际主持",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-02/10725066.shtml",
+        "summary": "新华社北京11月2日电 十四届全国人大常委会第二十五次会议2日上午在北京人民大会堂举行第一次全体会议。赵乐际委员长主持。",
         "image": "",
-        "publishedAt": "2026-11-02T04:01:01.000Z",
+        "publishedAt": "2026-11-02T14:22:48.000Z",
         "source": "中新网"
       },
       {
-        "title": "金融法草案提请全国人大常委会会议二次审议",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-02/10724682.shtml",
-        "summary": "中新网北京11月2日电 (记者 谢雁冰)金融法草案11月2日提请十四届全国人大常委会第二十五次会议二次审议。",
+        "title": "王毅同沙特国家安全顾问艾班会谈",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-02/10725049.shtml",
+        "summary": "11月2日，中共中央政治局委员、中央外办主任王毅在京同沙特国务大臣、内阁成员、国家安全顾问艾班举行会谈。艾班转交了沙特王储兼首相穆罕默德就中沙双边关系发展和双方共同关心的问题致习近平主席的信函。",
         "image": "",
-        "publishedAt": "2026-11-02T03:36:25.000Z",
+        "publishedAt": "2026-11-02T13:59:09.000Z",
         "source": "中新网"
       },
       {
-        "title": "我国拟修改税收征收管理法 将稳慎加强对个人的税收征管",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-02/10724667.shtml",
-        "summary": "中新网北京11月2日电 (记者 谢雁冰)11月2日，税收征收管理法修订草案提请十四届全国人大常委会第二十五次会议初次审议。",
-        "image": "",
-        "publishedAt": "2026-11-02T03:23:25.000Z",
+        "title": "宁夏打通低效用地再开发“最后一公里”",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-02/10724989.shtml",
+        "summary": "中新网银川11月2日电 (杨迪 李琪梁)“存量用地盘活难”是基层反映强烈的问题。记者2日从“加强国土空间规划管控引领优化自然资源要素配置—宁夏‘十五五’高质量发展新闻发布会”上获悉，宁夏相关部门在供地政策上积极探索，打通低效用地再开发的“最后一公里”。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261102/819c84b3-4585-4df5-905e-d21e2b9284a9_zsite.jpg",
+        "publishedAt": "2026-11-02T13:50:29.000Z",
         "source": "中新网"
       },
       {
-        "title": "我国拟修改可再生能源法 推动可再生能源参与电力市场交易",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-02/10724665.shtml",
-        "summary": "中新网北京11月2日电 (记者 谢雁冰)11月2日，可再生能源法修订草案提请十四届全国人大常委会第二十五次会议初次审议。",
-        "image": "",
-        "publishedAt": "2026-11-02T03:19:50.000Z",
+        "title": "宁夏构建乡村风貌指引体系",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-02/10724971.shtml",
+        "summary": "中新网银川11月2日电 (杨迪 李琪梁)记者2日从“加强国土空间规划管控引领优化自然资源要素配置—宁夏‘十五五’高质量发展新闻发布会”上获悉，宁夏编制《宁夏回族自治区乡村风貌提升导则(试行)》(下称《导则》)，构建“宏观分区定基调、中观村域控要素、微观建筑优营建”的乡村风貌指引体系，指导各地因地制宜...",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261102/9a94887c-0eab-4f25-a64a-140dd71d9cde_zsite.jpg",
+        "publishedAt": "2026-11-02T13:44:26.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "给超充连接器“退烧” 沪高校本科生团队破解充电热安全难题",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-02/10724711.shtml",
-        "summary": "中新网上海11月2日电 (记者 许婧)随着新能源汽车驶入“超充时代”，大功率充电带来的热安全问题正成为行业关注的焦点。如何让高压电连接器在极速补能时不再“发高烧”？记者2日从华东理工大学获悉，该校一支由本科生组成的“安连捷”科创团队，历时两年持续攻关，将航天器相变热防护的工程思路“跨界”迁移到车载高...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261102/c1c075cb-59cf-40db-becf-e68ab4e34254_zsite.jpg",
-        "publishedAt": "2026-11-02T05:48:34.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "“职业差评”背后的生意经：一次“服务”标价数千元，有店铺被投诉到差点闭店",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-02/10724728.shtml",
-        "summary": "“职业差评”背后的生意经",
+        "title": "西藏那曲市巴青县发生4.2级地震",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-02/10725079.shtml",
+        "summary": "中国地震台网正式测定：11月2日23时35分，在西藏那曲市巴青县(北纬32.38度，东经93.86度)发生4.2级地震，震源深度10公里。",
         "image": "",
-        "publishedAt": "2026-11-02T05:40:42.000Z",
+        "publishedAt": "2026-11-02T15:49:31.000Z",
         "source": "中新网"
       },
       {
-        "title": "他身有残疾心却火热，14年累计折合献血超5.8万毫升",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-02/10724725.shtml",
-        "summary": "身有残疾心却火热，14年累计折合献血超5.8万毫升",
+        "title": "权威发布！全国十佳新闻工作者LOGO",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-02/10725076.shtml",
+        "summary": "“全国十佳新闻工作者”宣传选树活动公布相关品牌标识",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/11/02/9dd73b6097fe48518c3567405b704113.png",
+        "publishedAt": "2026-11-02T15:11:21.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "聚焦AI时代人的意义 心理分析与中国文化国际学术论坛将举行",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-02/10725075.shtml",
+        "summary": "中新网北京11月2日电 (记者 张素)人工智能(AI)正在改变人们获取知识、处理信息和开展交流的方式，但技术进步并不能替代人的情感体验、价值判断和自我认识。如何面对技术发展带来的心理变化，如何理解人的内在需求？",
         "image": "",
-        "publishedAt": "2026-11-02T05:34:28.000Z",
+        "publishedAt": "2026-11-02T15:00:44.000Z",
         "source": "中新网"
       },
       {
-        "title": "湖南城步苗寨畅通消防通道 “电子哨兵”盯住老旧木房",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-02/10724675.shtml",
-        "summary": "中新网邵阳11月2日电 (刘剑平 谢美香)“以前寨子里面道路窄，杂物乱堆，消防车进不来，心里一直悬着。现在通道畅通了，心里踏实多了。”走进湖南邵阳市城步苗族自治县丹口镇下团社区，巷道里原先堆放的柴火、农具已经清理，消防标识线清晰可见，老旧木房还装有“电子哨兵”，这种改变让村民杨光勋十分安心。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261102/adf41120-414d-44de-b529-d635208fe607_zsite.jpg",
-        "publishedAt": "2026-11-02T03:39:07.000Z",
+        "title": "警用智能装备亮相浙江乌镇 “空地网”筑牢安全防线",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-02/10725067.shtml",
+        "summary": "中新网嘉兴11月2日电 (钱晨菲)11月2日，2026年“互联网之光”博览会在浙江嘉兴乌镇启幕，“人工智能+低空安全”装备应用展同步开幕。展区入口，身高2.6米的交管机甲“潮安甲”与参观者互动，科普交通安全知识，成为现场人气颇高的打卡点。展区内81件警用智能装备有序排布，集中展示了浙江公安深化警企合...",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261102/0d823dd4-6305-4bbd-9bf0-67752c955d21_zsite.jpg",
+        "publishedAt": "2026-11-02T14:32:39.000Z",
         "source": "中新网"
       },
       {
-        "title": "峰林之外看“大张家界” 世界级山水撬动区域协同",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-02/10724671.shtml",
-        "summary": "中新网张家界11月2日电 (记者 邓霞)深秋的湖南张家界，层林渐染、云海如瀑，索道车厢载着说着不同语言的海内外游客缓缓上升，峰林在云雾间时隐时现，美如仙境；观景台之上，欢呼声与快门声此起彼伏。这片被联合国教科文组织列入世界自然遗产名录的奇山异水，正以独特的峰林胜景与鲜活的文旅体验，吸引海内外游客纷至...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261102/6b52c2db-6abc-4a1b-804e-813500ae0c8a_zsite.jpg",
-        "publishedAt": "2026-11-02T03:35:59.000Z",
+        "title": "道地药材县域突围，广东德庆县南药总产值达40.74亿元",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-02/10725058.shtml",
+        "summary": "中新网北京11月2日电 (记者 郭超凯)一株古老本草，如何回答当代人的健康问题？德庆好物进京推介活动近日在北京举行。活动聚焦南药产业高质量发展，展示德庆南药由道地资源向现代健康产品转化的实践，搭建产区与市场、科研与产业、品牌与渠道的对接平台。",
+        "image": "",
+        "publishedAt": "2026-11-02T14:14:26.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "大庆油田杏南开发区破解老区块注水治理难题",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-02/10724707.shtml",
-        "summary": "中新网大庆11月2日电 (王立峰)11月2日，记者从大庆油田采油五厂工艺研究所了解到，该研究所破解大庆油田杏南开发区注水治理难题，已有6口高难度疑难井恢复平稳注入，专项攻坚取得阶段性突破。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261102/b7c907be-203d-4af7-8f8f-59f91271f3bf_zsite.jpg",
-        "publishedAt": "2026-11-02T05:46:16.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "国际金价创一年来新低 店员“忙到没空回消息”",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-02/10724729.shtml",
-        "summary": "国际金价创一年来新低",
+        "title": "港交所扩大人民币债券抵押品适用范围 首日抵押总值超4亿元人民币",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-02/10725078.shtml",
+        "summary": "中新社香港11月2日电 香港交易及结算所有限公司(简称“港交所”)2日宣布，旗下衍生产品结算所香港期货结算有限公司(简称“期货结算公司”)及香港联合交易所期权结算所有限公司(简称“联交所期权结算所”)，已开始接受合资格人民币定息资产作为非现金抵押品，首日共有7家机构提交合资格债券作为抵押品、总值超过...",
         "image": "",
-        "publishedAt": "2026-11-02T05:44:14.000Z",
+        "publishedAt": "2026-11-02T15:40:28.000Z",
         "source": "中新网"
       },
       {
-        "title": "“互联网之光”博览会乌镇启幕 展示6G等多项前沿科技",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-02/10724720.shtml",
-        "summary": "中新社浙江乌镇11月2日电 (奚金燕)以“智能互联 智见未来”为主题的2026年世界互联网大会“互联网之光”博览会，11月2日在浙江乌镇开幕，吸引来自54个国家和地区的671家中外企业与机构参展，展示发布卫星互联网、量子通信、6G、智能体、大模型、具身智能等1000余项新技术新产品。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261102/aa5a7a14-3303-4599-b3ec-720ed7c2c314_zsite.jpg",
-        "publishedAt": "2026-11-02T05:29:01.000Z",
+        "title": "证监会：在风险总体可控的基础上，适度释放融资空间",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-02/10725063.shtml",
+        "summary": "中新网北京11月2日电 (记者 陈康亮)关于发挥好融资融券业务逆周期调节功能作用方面，中国证监会有关部门负责人2日晚间表示，在风险总体可控的基础上，根据法定的逆周期调节安排，适度释放融资空间，盘活存量资金，提升市场流动性。",
+        "image": "",
+        "publishedAt": "2026-11-02T14:14:38.000Z",
         "source": "中新网"
       },
       {
-        "title": "广交会观察：智能与环保成中国母婴产品“出海”新卖点",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-02/10724696.shtml",
-        "summary": "中新社广州11月2日电 (记者 孙秋霞)第140届广交会三期正在广州举行，中国母婴产品“出海”呈现明显分化：依靠规模与成本优势竞争的传统品类空间收窄，搭载智能交互系统、采用环保材料的产品在欧美等品质消费市场更受青睐。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261102/e2d771b7-09d4-446b-b79b-52f8857c4011_zsite.jpg",
-        "publishedAt": "2026-11-02T05:04:06.000Z",
+        "title": "海南多部门细化全岛封关运作有关管理事项",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-02/10725057.shtml",
+        "summary": "中新网海口11月2日电 (记者 王子谦)海南省财政厅、海南省发展和改革委员会、海南省商务厅2日联合发布通知，明确海南自由贸易港全岛封关运作有关管理事项。",
+        "image": "",
+        "publishedAt": "2026-11-02T14:14:04.000Z",
         "source": "中新网"
       },
       {
-        "title": "广交会观察：全球采购商寻“新”中国户外用品",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-02/10724695.shtml",
-        "summary": "中新社广州11月2日电 (记者 张璐)“中国户外用品设计新潮，实用性强，整体使用体验良好。”首次参加广交会的巴西采购商玛丽亚·安东尼娅·戈麦斯(Maria Antonia Gomes)看中多款中国露营帐篷产品，当场询问价格。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261102/16d5634e-7d1c-44ad-b6f0-9ebf73488870_zsite.jpg",
-        "publishedAt": "2026-11-02T05:02:44.000Z",
+        "title": "中国证监会拟从四方面优化护盘式回购",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-02/10725054.shtml",
+        "summary": "中新社北京11月2日电 (记者 陈康亮)中国证监会有关部门负责人2日晚间表示，为进一步提高上市公司开展股份回购的便利度，发挥市场内在稳市功能，近期证监会拟对为维护公司价值及股东权益所必需而回购股份(简称护盘式回购)作调整优化。",
+        "image": "",
+        "publishedAt": "2026-11-02T14:13:52.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "宁夏落地首笔小时级绿电交易",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-02/10725005.shtml",
+        "summary": "中新网银川11月2日电 (记者 于晶)11月2日，记者从宁夏电力交易公司获悉，宁夏完成首笔省内小时级绿电交易电费结算，绿电交易核算模式由此从“按月统计”升级为“按小时核算”，实现绿电电量生产、交易、结算、核销全流程小时级可追溯。",
+        "image": "",
+        "publishedAt": "2026-11-02T14:09:10.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "Democrat endorses Republican candidate in key Michigan Senate race as party spat erupts",
-        "link": "https://www.bbc.co.uk/news/articles/c95ynzv88n68o?at_medium=RSS&at_campaign=rss",
-        "summary": "The move by Haley Stevens, who lost out on the Democratic Senate nomination to Abdul El-Sayed, was called a \"despicable betrayal\" by one top Democrat.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/228a/live/b46d8f40-d676-11f1-93e1-3b657b665bcf.jpg",
-        "publishedAt": "2026-11-02T01:45:42.000Z",
+        "title": "Russian bombing kills 18 people at Ukraine aid centre, Kyiv says",
+        "link": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+        "summary": "Local officials say 27 people are missing after at least nine 3,000kg aerial bombs hit a village in southern Ukraine.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b790/live/9b668c80-d6e5-11f1-95da-41a8f6701eda.png",
+        "publishedAt": "2026-11-02T18:01:13.000Z",
         "source": "BBC"
       },
       {
-        "title": "Ukraine air raid app apparently hacked as users receive false radiation threat, Air Force says",
+        "title": "Shop freezers in seven European countries hit by cyber-attack",
+        "link": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss",
+        "summary": "The temperature of freezers in several shops across Europe reportedly rose to as high as 50C.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/31c7/live/152ec730-d6c3-11f1-93e1-3b657b665bcf.jpg",
+        "publishedAt": "2026-11-02T17:38:11.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Fighting returns to Kherson region after longest Ukraine war ceasefire",
+        "link": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss",
+        "summary": "Though unprecedented, the six-day truce has done little to alter the wider trajectory of a war that continues to grinds on.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e5be/live/174cc760-d6d2-11f1-a701-fddedf244c16.jpg",
+        "publishedAt": "2026-11-02T17:33:19.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Dutch police offer record €2m reward in hunt for drug lord",
+        "link": "https://www.bbc.co.uk/news/articles/ckly0v2q2yxlo?at_medium=RSS&at_campaign=rss",
+        "summary": "Jos Leijdekkers has been found guilty in absentia of cocaine smuggling and is believed to be in Sierra Leone.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/055d/live/20e151f0-d6dd-11f1-b2be-0146bf989691.jpg",
+        "publishedAt": "2026-11-02T17:29:49.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Fake nuclear warnings issued after Ukrainian and Russian air alert apps hacked",
         "link": "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo?at_medium=RSS&at_campaign=rss",
-        "summary": "Hours later Russian authorities said its app was also hacked, with fake warnings sent inside the country.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3608/live/1d2513e0-d646-11f1-b441-2b33b063138f.jpg",
-        "publishedAt": "2026-11-02T01:18:27.000Z",
+        "summary": "Neither government has confirmed who was responsible for the cyberattacks on Sunday evening.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/07ec/live/ca38c7e0-d6cb-11f1-b441-2b33b063138f.jpg",
+        "publishedAt": "2026-11-02T14:35:01.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "France launches attempted murder investigation after petrol bomb thrown at police",
-        "link": "https://www.bbc.co.uk/news/articles/cwvg05z184j0o?at_medium=RSS&at_campaign=rss",
-        "summary": "There were hundreds of arrests as protesters took to the streets in cities across France for the third weekend in a row.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/30b9/live/175c0e10-d62c-11f1-b085-b9e65bc8bfff.jpg",
-        "publishedAt": "2026-11-02T00:15:30.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends",
-        "link": "https://www.bbc.co.uk/news/articles/c64g1y90p71eo?at_medium=RSS&at_campaign=rss",
-        "summary": "A rare humanitarian ceasefire allowed civilians to evacuate the Russian-occupied city of Oleshky.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d8e6/live/7871d270-d627-11f1-a947-0507737f09b2.jpg",
-        "publishedAt": "2026-11-01T21:55:01.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Russia’s security service detains a teenager planning a ‘terror attack’ after a US tip-off",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBTeUxLSklZQ3BFZ1pFOHFwTlZGbDYzZ2llUFlYdEJzMzQxRWwyN2RWWEtHVE9pSmxWME5LOUJPS2pXOU80ZDRUandYaFVZbzQ5WGhRYW4tSTNOdUR3TmhDWTlRSG9iSkFjMlh4WjBrVkoyZXNHR053eGxmdUpfejg?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-11-01T17:19:40.000Z",
-        "source": "CNN"
       }
     ],
     "worldBusiness": [
       {
-        "title": "Binance users withdraw $3.6bn after record crypto hack",
-        "link": "https://www.bbc.co.uk/news/articles/cwj34gdmnly4o?at_medium=RSS&at_campaign=rss",
-        "summary": "The exchange froze transactions in the wake of the incident, which impacted $6.3bn worth of digital assets.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a7f/live/ad865b20-d64f-11f1-a701-fddedf244c16.jpg",
-        "publishedAt": "2026-11-02T03:32:14.000Z",
+        "title": "Shop freezers in seven European countries hit by cyber-attack",
+        "link": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss",
+        "summary": "The temperature of freezers in several shops across Europe reportedly rose to as high as 50C.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/31c7/live/152ec730-d6c3-11f1-93e1-3b657b665bcf.jpg",
+        "publishedAt": "2026-11-02T17:38:11.000Z",
         "source": "BBC"
       },
       {
-        "title": "Don't get caught out by new Buy Now Pay Later rules",
-        "link": "https://www.bbc.co.uk/news/articles/crpdgp4y017go?at_medium=RSS&at_campaign=rss",
-        "summary": "New affordability checks mean you could be blocked from using Buy Now Pay Later but here are ways to avoid it.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c3c9/live/8607fcf0-d462-11f1-ab12-eb0c94f5b382.jpg",
-        "publishedAt": "2026-11-01T23:34:49.000Z",
+        "title": "Poundland's former owner offers to invest as minister prepares to meet board",
+        "link": "https://www.bbc.co.uk/news/articles/ck1wv1j0xgywo?at_medium=RSS&at_campaign=rss",
+        "summary": "Wolverhampton's Steve Smith said he wants to put some money back into the firm he started.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e116/live/dde58360-d6ca-11f1-ac20-7783925c811f.jpg",
+        "publishedAt": "2026-11-02T13:40:36.000Z",
         "source": "BBC"
       },
       {
-        "title": "Binance withdrawals resume following $6 billion hack",
-        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5lWHJoMDVuMklnaGFNNUhaa0lYX2pSTHVCVS00ZUZxUlNjSFRYWjdTOWtFYzB6NzFsTm1KbXBrN1A0b0o5WUU5NmpJenpuLTNiV0pPek50LWxJajF3Q2V6aU5nbWU0MlF2YTA1VGFjOVZHT0pVRTlWcjE3SVo?oc=5",
+        "title": "How Trump’s economic promises are holding up so far",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1raFZKS1BMV1dBUVJFV3ctVGVLN3kyQ2puWDZoWUdENTFfd2VJTTVZZWR1MkQ2UFZ1RE5CR2JoN0doWUduSVhCTThUb1BBV0tpa0VOU01PT3pReldGcHcwUF85dkVfYkg3RUt4QV9RcVVOdDdBaGtXaVM3QWRmWW8?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-11-01T17:09:34.000Z",
+        "publishedAt": "2026-11-02T12:38:01.000Z",
         "source": "CNN"
       },
       {
-        "title": "Thousands of jobs at Virgin Media O2 to be cut",
-        "link": "https://www.bbc.co.uk/news/articles/c6rry8x9d9qko?at_medium=RSS&at_campaign=rss",
-        "summary": "The broadband provider has not finalised the number of roles to be axed but it will likely be a sizeable chunk of its workforce, the BBC understands.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ac17/live/9ec7c8b0-d610-11f1-bdc5-33a5057f63d4.jpg",
-        "publishedAt": "2026-11-01T16:57:14.000Z",
+        "title": "Ryanair says it may freeze workers' pay and raise airfares",
+        "link": "https://www.bbc.co.uk/news/articles/cr0qkve1x224o?at_medium=RSS&at_campaign=rss",
+        "summary": "The airline says fuel prices may rise by €2bn in 2028 unless there is an end to the US-Israel war with Iran.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/895b/live/a85523b0-d691-11f1-8f56-0b6ab08f384e.jpg",
+        "publishedAt": "2026-11-02T12:22:10.000Z",
         "source": "BBC"
       },
       {
-        "title": "No more washing up: How Airbnb's new house rules have divided hosts and guests",
-        "link": "https://www.bbc.co.uk/news/articles/ckjwez8g5dyeo?at_medium=RSS&at_campaign=rss",
-        "summary": "Airbnb hosts must stop asking guests to wash-up or take out bins under rules coming into force in November.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/52bf/live/c3b77ec0-d3b5-11f1-a340-478c8f3b9e55.jpg",
-        "publishedAt": "2026-11-01T00:17:05.000Z",
-        "source": "BBC"
+        "title": "Coffee’s new status symbol is a machine without plastic",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9abzAtdkdhalFUUzh3QUNZQUlpUDRPTmhSZ2MwVXBGblN2Ym5YTmh6NXY1WS1WOG1WUm9oZXdtbnl6Z192T090OTVpb1Vual9XbWxGV1oxcDBSQjFWSkVXRnpJVmh5WF95TC1YbjNqYmY?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-11-02T12:00:15.000Z",
+        "source": "CNN"
       }
     ],
     "worldTech": [
       {
-        "title": "Binance users withdraw $3.6bn after record crypto hack",
+        "title": "The high-tech efforts to restore ‘climate hero’ mangroves",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9sVWxzRlRjTHJJbnFkRVZXa3RtWThreHlMTmlZSzB0Smc2NFQxM2VaTmlGVTdYZDJTbUw1aUQ0N21KSG83bDNpTGZXc0RnemdRNndMeVB0MTBLbWdxaEZMSDFGV0FtTlJONnFIRDZybzl1WDJ1RktxRXJIbw?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-11-02T09:51:29.000Z",
+        "source": "CNN"
+      },
+      {
+        "title": "Binance users withdraw $3.6bn after largest-ever crypto hack",
         "link": "https://www.bbc.co.uk/news/articles/cwj34gdmnly4o?at_medium=RSS&at_campaign=rss",
-        "summary": "The exchange froze transactions in the wake of the incident, which impacted $6.3bn worth of digital assets.",
+        "summary": "The exchange froze transactions following the incident which has been linked to a North Korean group.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a7f/live/ad865b20-d64f-11f1-a701-fddedf244c16.jpg",
-        "publishedAt": "2026-11-02T03:32:14.000Z",
+        "publishedAt": "2026-11-02T07:42:33.000Z",
         "source": "BBC"
       },
       {
@@ -413,98 +421,90 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7b98/live/c9241530-d4aa-11f1-b441-2b33b063138f.jpg",
         "publishedAt": "2026-10-31T02:12:19.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "US tech stocks see sharp falls as AI spending nears $1tn",
-        "link": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
-        "summary": "Shares in Intel continue to fall while the tech-heavy Nasdaq opens at its lowest level in more than two months.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/10b0/live/dcdf2a60-d46e-11f1-9dda-1ba6fcc7d159.jpg",
-        "publishedAt": "2026-10-30T20:34:46.000Z",
-        "source": "BBC"
       }
     ],
     "domestic": [
       {
-        "title": "刘奇凡任云南省代省长",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-02/10724692.shtml",
-        "summary": "新华社昆明11月2日电 云南省第十四届人民代表大会常务委员会第二十六次会议11月2日决定，接受王予波辞去省人民政府省长职务的请求，任命刘奇凡为云南省人民政府副省长、代理省长。",
+        "title": "李干杰受中共中央委托向党外人士通报中共二十届五中全会精神",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-02/10725065.shtml",
+        "summary": "新华社北京11月2日电 11月2日，受中共中央委托，中共中央政治局委员、中央统战部部长李干杰向党外人士通报中共二十届五中全会精神。",
         "image": "",
-        "publishedAt": "2026-11-02T04:30:46.000Z",
+        "publishedAt": "2026-11-02T14:33:23.000Z",
         "source": "中新网"
       },
       {
-        "title": "习近平同阿曼苏丹海赛姆共同出席合作文件签字仪式",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-02/10724687.shtml",
-        "summary": "新华社快讯：11月2日，国家主席习近平同阿曼苏丹海赛姆在北京共同出席合作文件签字仪式。",
+        "title": "十四届全国人大常委会第二十五次会议在京举行 审议检察公益诉讼法草案、水法修订草案等 赵乐际主持",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-02/10725066.shtml",
+        "summary": "新华社北京11月2日电 十四届全国人大常委会第二十五次会议2日上午在北京人民大会堂举行第一次全体会议。赵乐际委员长主持。",
         "image": "",
-        "publishedAt": "2026-11-02T04:01:01.000Z",
+        "publishedAt": "2026-11-02T14:22:48.000Z",
         "source": "中新网"
       },
       {
-        "title": "金融法草案提请全国人大常委会会议二次审议",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-02/10724682.shtml",
-        "summary": "中新网北京11月2日电 (记者 谢雁冰)金融法草案11月2日提请十四届全国人大常委会第二十五次会议二次审议。",
+        "title": "王毅同沙特国家安全顾问艾班会谈",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-02/10725049.shtml",
+        "summary": "11月2日，中共中央政治局委员、中央外办主任王毅在京同沙特国务大臣、内阁成员、国家安全顾问艾班举行会谈。艾班转交了沙特王储兼首相穆罕默德就中沙双边关系发展和双方共同关心的问题致习近平主席的信函。",
         "image": "",
-        "publishedAt": "2026-11-02T03:36:25.000Z",
+        "publishedAt": "2026-11-02T13:59:09.000Z",
         "source": "中新网"
       },
       {
-        "title": "我国拟修改税收征收管理法 将稳慎加强对个人的税收征管",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-02/10724667.shtml",
-        "summary": "中新网北京11月2日电 (记者 谢雁冰)11月2日，税收征收管理法修订草案提请十四届全国人大常委会第二十五次会议初次审议。",
-        "image": "",
-        "publishedAt": "2026-11-02T03:23:25.000Z",
+        "title": "宁夏打通低效用地再开发“最后一公里”",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-02/10724989.shtml",
+        "summary": "中新网银川11月2日电 (杨迪 李琪梁)“存量用地盘活难”是基层反映强烈的问题。记者2日从“加强国土空间规划管控引领优化自然资源要素配置—宁夏‘十五五’高质量发展新闻发布会”上获悉，宁夏相关部门在供地政策上积极探索，打通低效用地再开发的“最后一公里”。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261102/819c84b3-4585-4df5-905e-d21e2b9284a9_zsite.jpg",
+        "publishedAt": "2026-11-02T13:50:29.000Z",
         "source": "中新网"
       },
       {
-        "title": "我国拟修改可再生能源法 推动可再生能源参与电力市场交易",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-02/10724665.shtml",
-        "summary": "中新网北京11月2日电 (记者 谢雁冰)11月2日，可再生能源法修订草案提请十四届全国人大常委会第二十五次会议初次审议。",
-        "image": "",
-        "publishedAt": "2026-11-02T03:19:50.000Z",
+        "title": "宁夏构建乡村风貌指引体系",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-02/10724971.shtml",
+        "summary": "中新网银川11月2日电 (杨迪 李琪梁)记者2日从“加强国土空间规划管控引领优化自然资源要素配置—宁夏‘十五五’高质量发展新闻发布会”上获悉，宁夏编制《宁夏回族自治区乡村风貌提升导则(试行)》(下称《导则》)，构建“宏观分区定基调、中观村域控要素、微观建筑优营建”的乡村风貌指引体系，指导各地因地制宜...",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261102/9a94887c-0eab-4f25-a64a-140dd71d9cde_zsite.jpg",
+        "publishedAt": "2026-11-02T13:44:26.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "Democrat endorses Republican candidate in key Michigan Senate race as party spat erupts",
-        "link": "https://www.bbc.co.uk/news/articles/c95ynzv88n68o?at_medium=RSS&at_campaign=rss",
-        "summary": "The move by Haley Stevens, who lost out on the Democratic Senate nomination to Abdul El-Sayed, was called a \"despicable betrayal\" by one top Democrat.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/228a/live/b46d8f40-d676-11f1-93e1-3b657b665bcf.jpg",
-        "publishedAt": "2026-11-02T01:45:42.000Z",
+        "title": "Russian bombing kills 18 people at Ukraine aid centre, Kyiv says",
+        "link": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+        "summary": "Local officials say 27 people are missing after at least nine 3,000kg aerial bombs hit a village in southern Ukraine.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b790/live/9b668c80-d6e5-11f1-95da-41a8f6701eda.png",
+        "publishedAt": "2026-11-02T18:01:13.000Z",
         "source": "BBC"
       },
       {
-        "title": "Ukraine air raid app apparently hacked as users receive false radiation threat, Air Force says",
+        "title": "Shop freezers in seven European countries hit by cyber-attack",
+        "link": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss",
+        "summary": "The temperature of freezers in several shops across Europe reportedly rose to as high as 50C.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/31c7/live/152ec730-d6c3-11f1-93e1-3b657b665bcf.jpg",
+        "publishedAt": "2026-11-02T17:38:11.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Fighting returns to Kherson region after longest Ukraine war ceasefire",
+        "link": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss",
+        "summary": "Though unprecedented, the six-day truce has done little to alter the wider trajectory of a war that continues to grinds on.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e5be/live/174cc760-d6d2-11f1-a701-fddedf244c16.jpg",
+        "publishedAt": "2026-11-02T17:33:19.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Dutch police offer record €2m reward in hunt for drug lord",
+        "link": "https://www.bbc.co.uk/news/articles/ckly0v2q2yxlo?at_medium=RSS&at_campaign=rss",
+        "summary": "Jos Leijdekkers has been found guilty in absentia of cocaine smuggling and is believed to be in Sierra Leone.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/055d/live/20e151f0-d6dd-11f1-b2be-0146bf989691.jpg",
+        "publishedAt": "2026-11-02T17:29:49.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Fake nuclear warnings issued after Ukrainian and Russian air alert apps hacked",
         "link": "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo?at_medium=RSS&at_campaign=rss",
-        "summary": "Hours later Russian authorities said its app was also hacked, with fake warnings sent inside the country.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3608/live/1d2513e0-d646-11f1-b441-2b33b063138f.jpg",
-        "publishedAt": "2026-11-02T01:18:27.000Z",
+        "summary": "Neither government has confirmed who was responsible for the cyberattacks on Sunday evening.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/07ec/live/ca38c7e0-d6cb-11f1-b441-2b33b063138f.jpg",
+        "publishedAt": "2026-11-02T14:35:01.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "France launches attempted murder investigation after petrol bomb thrown at police",
-        "link": "https://www.bbc.co.uk/news/articles/cwvg05z184j0o?at_medium=RSS&at_campaign=rss",
-        "summary": "There were hundreds of arrests as protesters took to the streets in cities across France for the third weekend in a row.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/30b9/live/175c0e10-d62c-11f1-b085-b9e65bc8bfff.jpg",
-        "publishedAt": "2026-11-02T00:15:30.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends",
-        "link": "https://www.bbc.co.uk/news/articles/c64g1y90p71eo?at_medium=RSS&at_campaign=rss",
-        "summary": "A rare humanitarian ceasefire allowed civilians to evacuate the Russian-occupied city of Oleshky.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d8e6/live/7871d270-d627-11f1-a947-0507737f09b2.jpg",
-        "publishedAt": "2026-11-01T21:55:01.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Russia’s security service detains a teenager planning a ‘terror attack’ after a US tip-off",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBTeUxLSklZQ3BFZ1pFOHFwTlZGbDYzZ2llUFlYdEJzMzQxRWwyN2RWWEtHVE9pSmxWME5LOUJPS2pXOU80ZDRUandYaFVZbzQ5WGhRYW4tSTNOdUR3TmhDWTlRSG9iSkFjMlh4WjBrVkoyZXNHR053eGxmdUpfejg?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-11-01T17:19:40.000Z",
-        "source": "CNN"
       }
     ],
     "nba": []
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-11-02",
+    "rotationLabel": "Curated Rotation · 2026-11-03",
     "sections": [
       {
         "id": "data-storage",
@@ -522,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-3",
-            "sectionId": "data-storage",
-            "title": "Dynamo: Amazon's Highly Available Key-value Store",
-            "authors": [
-              "Giuseppe DeCandia",
-              "Deniz Hastorun",
-              "Madan Jampani",
-              "Gunavardhan Kakulapati"
-            ],
-            "venue": "SOSP",
-            "year": 2007,
-            "quality": "顶会",
-            "categories": [
-              "key-value",
-              "distributed systems"
-            ],
-            "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
-            "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-4",
             "sectionId": "data-storage",
@@ -562,7 +541,7 @@
             ],
             "link": "https://research.google/pubs/pub36632/",
             "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-5",
@@ -583,6 +562,27 @@
             "link": "https://arxiv.org/abs/2401.08281",
             "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-6",
+            "sectionId": "data-storage",
+            "title": "DiskANN: Fast Accurate Billion-point Nearest Neighbor Search on a Single Node",
+            "authors": [
+              "Neelesh Gupta",
+              "Leland Willard",
+              "Xiangyao Yu",
+              "Yuri N."
+            ],
+            "venue": "NeurIPS",
+            "year": 2019,
+            "quality": "高影响力",
+            "categories": [
+              "vector search",
+              "ANN"
+            ],
+            "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
+            "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -592,27 +592,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-4",
-            "sectionId": "computer-vision",
-            "title": "Learning Transferable Visual Models From Natural Language Supervision",
-            "authors": [
-              "Alec Radford",
-              "Jong Wook Kim",
-              "Chris Hallacy",
-              "Aditya Ramesh"
-            ],
-            "venue": "ICML",
-            "year": 2021,
-            "quality": "顶会",
-            "categories": [
-              "vision-language",
-              "foundation model"
-            ],
-            "link": "https://arxiv.org/abs/2103.00020",
-            "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-5",
             "sectionId": "computer-vision",
@@ -632,7 +611,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.02643",
             "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-6",
@@ -654,6 +633,27 @@
             "link": "https://arxiv.org/abs/2304.07193",
             "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-1",
+            "sectionId": "computer-vision",
+            "title": "Deep Residual Learning for Image Recognition",
+            "authors": [
+              "Kaiming He",
+              "Xiangyu Zhang",
+              "Shaoqing Ren",
+              "Jian Sun"
+            ],
+            "venue": "CVPR",
+            "year": 2016,
+            "quality": "顶会",
+            "categories": [
+              "image recognition",
+              "backbone"
+            ],
+            "link": "https://arxiv.org/abs/1512.03385",
+            "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -663,27 +663,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-5",
-            "sectionId": "llm-memory",
-            "title": "LongMem: Scaling Language Model Context with Memory-Augmented Retrieval",
-            "authors": [
-              "Zeqiu Wu",
-              "Yizhong Wang",
-              "Jiacheng Liu",
-              "Yelong Shen"
-            ],
-            "venue": "ACL Findings",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "memory",
-              "long context"
-            ],
-            "link": "https://arxiv.org/abs/2306.07174",
-            "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-6",
             "sectionId": "llm-memory",
@@ -703,7 +682,7 @@
             ],
             "link": "https://arxiv.org/abs/2409.05591",
             "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-1",
@@ -725,6 +704,27 @@
             "link": "https://arxiv.org/abs/2005.11401",
             "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-2",
+            "sectionId": "llm-memory",
+            "title": "Memorizing Transformers",
+            "authors": [
+              "Yuhuai Wu",
+              "Markus N. Rabe",
+              "DeLesley Hutchins",
+              "Christian Szegedy"
+            ],
+            "venue": "ICLR",
+            "year": 2022,
+            "quality": "顶会",
+            "categories": [
+              "memory",
+              "long context"
+            ],
+            "link": "https://arxiv.org/abs/2203.08913",
+            "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -734,27 +734,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-6",
-            "sectionId": "agents",
-            "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
-            "authors": [
-              "John Yang",
-              "Carlos E. Jimenez",
-              "Alexander Wettig",
-              "Karthik Narasimhan"
-            ],
-            "venue": "ICLR",
-            "year": 2025,
-            "quality": "新近代表作",
-            "categories": [
-              "software agent",
-              "benchmark"
-            ],
-            "link": "https://arxiv.org/abs/2405.15793",
-            "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-1",
             "sectionId": "agents",
@@ -775,7 +754,7 @@
             ],
             "link": "https://arxiv.org/abs/2210.03629",
             "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-2",
@@ -796,6 +775,27 @@
             ],
             "link": "https://arxiv.org/abs/2302.04761",
             "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-3",
+            "sectionId": "agents",
+            "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+            "authors": [
+              "Joon Sung Park",
+              "Joseph O'Brien",
+              "Carrie Cai",
+              "Meredith Ringel Morris"
+            ],
+            "venue": "UIST",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "agent society",
+              "memory"
+            ],
+            "link": "https://arxiv.org/abs/2304.03442",
+            "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
             "trackLabel": "轮换精选"
           }
         ]
