@@ -1,33 +1,25 @@
 {
-  "generatedAt": "2026-11-06T15:52:10.519Z",
+  "generatedAt": "2026-11-06T21:26:51.462Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 4,
+      "temperature": 2,
       "weatherCode": 1,
-      "windSpeed": 2
+      "windSpeed": 4
     },
     "today": {
-      "date": "2026-11-06",
-      "weatherCode": 2,
-      "description": "局部多云",
-      "max": 13,
+      "date": "2026-11-07",
+      "weatherCode": 73,
+      "description": "中雪",
+      "max": 5,
       "min": 1,
-      "precipitationProbability": 0
+      "precipitationProbability": 100
     },
     "forecast": [
       {
-        "date": "2026-11-06",
-        "weatherCode": 2,
-        "description": "局部多云",
-        "max": 13,
-        "min": 1,
-        "precipitationProbability": 0
-      },
-      {
         "date": "2026-11-07",
-        "weatherCode": 75,
-        "description": "大雪",
+        "weatherCode": 73,
+        "description": "中雪",
         "max": 5,
         "min": 1,
         "precipitationProbability": 100
@@ -53,34 +45,51 @@
         "weatherCode": 0,
         "description": "晴朗",
         "max": 10,
-        "min": -3,
+        "min": -2,
+        "precipitationProbability": 0
+      },
+      {
+        "date": "2026-11-11",
+        "weatherCode": 0,
+        "description": "晴朗",
+        "max": 11,
+        "min": -1,
         "precipitationProbability": 0
       }
     ]
   },
   "classicQuote": {
-    "id": "taoteching-self",
-    "text": "知人者智，自知者明；胜人者有力，自胜者强。",
-    "source": "《道德经》",
-    "author": "老子",
-    "note": "比起和别人比较，更重要的是把自己的节奏稳住。"
+    "id": "zhuangzi-time",
+    "text": "人生天地之间，若白驹之过隙，忽然而已。",
+    "source": "《庄子》",
+    "author": "庄周",
+    "note": "事情很多的时候，更值得把注意力放在真正重要的事上。"
   },
   "bookExcerpt": {
-    "id": "norwegian-wood-rain",
-    "text": "雨还在下，细得像雾，落在草地和树叶上，世界像被一种安静的潮气轻轻包住。",
-    "book": "《挪威的森林》",
-    "author": "村上春树"
+    "id": "one-hundred-years-yellow",
+    "text": "许多年以后，面对行刑队，奥雷里亚诺·布恩迪亚上校将会想起父亲带他去见识冰块的那个遥远的下午。",
+    "book": "《百年孤独》",
+    "author": "加西亚·马尔克斯"
   },
   "featuredPlace": {
-    "id": "202611051600",
-    "title": "竹林，皮皮维小径，哈莱亚卡拉国家公园，毛伊岛，夏威夷州，美国",
+    "id": "202611061600",
+    "title": "草原上的一头野牛，西奥多·罗斯福国家公园，北达科他州，美国",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "穿越毛伊岛的绿色隧道",
-    "image": "https://www.bing.com/th?id=OHR.PipiwaiTrail_ZH-CN1811194311_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E5%93%88%E8%8E%B1%E4%BA%9A%E5%8D%A1%E6%8B%89%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
+    "summary": "归来的草原巨兽",
+    "image": "https://www.bing.com/th?id=OHR.DakotaBison_ZH-CN2302503868_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E7%BE%8E%E6%B4%B2%E9%87%8E%E7%89%9B&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202611061600",
+      "title": "草原上的一头野牛，西奥多·罗斯福国家公园，北达科他州，美国",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "归来的草原巨兽",
+      "image": "https://www.bing.com/th?id=OHR.DakotaBison_ZH-CN2302503868_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E7%BE%8E%E6%B4%B2%E9%87%8E%E7%89%9B&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202611051600",
       "title": "竹林，皮皮维小径，哈莱亚卡拉国家公园，毛伊岛，夏威夷州，美国",
@@ -143,35 +152,34 @@
       "summary": "往昔帝国的幽影",
       "image": "https://www.bing.com/th?id=OHR.FrankfurtHalloween_ZH-CN5998782698_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E4%B8%87%E5%9C%A3%E8%8A%82&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202610291600",
-      "title": "沙丘鹤，博斯克德尔阿帕奇国家野生动物保护区，新墨西哥州，美国",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "展翅高飞的时节",
-      "image": "https://www.bing.com/th?id=OHR.AutumnCranes_ZH-CN5772055404_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E6%B2%99%E4%B8%98%E9%B9%A4&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-11-06",
-    "dateLabel": "11月6日",
+    "dateKey": "2026-11-07",
+    "dateLabel": "11月7日",
     "items": [
       {
-        "year": "2016",
-        "text": "敘利亞內戰：敘利亞民主力量發動了一場成功的軍事行動，成功將伊斯蘭國的首都拉卡包圍，並最終攻佔該城。",
-        "link": "https://zh.wikipedia.org/wiki/2016%E5%B9%B4"
+        "year": "2020",
+        "text": "民主党候选人乔·拜登宣布击败共和党候选人唐纳德·特朗普，赢得2020年美国总统选举的胜利，成为第46任美国总统。",
+        "link": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4"
       },
       {
-        "year": "2012",
-        "text": "2011年金三角中国船员遇袭案在昆明市中級人民法院一審宣判。主犯糯康被判死刑。桑康、依萊、扎西卡均被判死刑，扎波被判死刑緩期執行，扎拖波被判有期徒刑8年。",
-        "link": "https://zh.wikipedia.org/wiki/2012%E5%B9%B4"
+        "year": "2018",
+        "text": "第五届世界互联网大会于浙江省乌镇举行。",
+        "link": "https://zh.wikipedia.org/wiki/2018%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
+      {
+        "title": "首次在城市场景完成放飞试验 看一台“空中电站”如何诞生",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-07/10727726.shtml",
+        "summary": "今天(6日)，全球首台4000米级浮空风力发电系统在湖南岳阳成功试飞。这是4000米级浮空风电系统首次在城市场景完成放飞试验。",
+        "image": "",
+        "publishedAt": "2026-11-06T16:05:27.000Z",
+        "source": "中新网"
+      },
       {
         "title": "我国南极活动与环境保护法出台 对国际南极治理意义几何？",
         "link": "https://www.chinanews.com.cn/gn/2026/11-06/10727716.shtml",
@@ -203,17 +211,41 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261106/cf4967ab-fc4e-4bb1-acaa-a8448754bc27_zsite.jpeg",
         "publishedAt": "2026-11-06T15:36:57.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "广西首个县级国际传播中心在桂林阳朔揭牌",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-06/10727688.shtml",
-        "summary": "中新网桂林11月6日电(杨宗盛 钟玲丽)11月6日，广西首个县级国际传播中心——阳朔国际传播中心在桂林市阳朔县揭牌成立。中心由广西国际传播中心与阳朔县委宣传部共建，是广西完善自治区、市、县三级国际传播体系的实践探索。仪式现场，广西国际传播中心与阳朔县共同签署共建战略合作框架协议，并为首批“国际传播推...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261106/0847b815-4208-4ff0-a7c6-2bc258219595_zsite.JPG",
-        "publishedAt": "2026-11-06T15:29:55.000Z",
-        "source": "中新网"
       }
     ],
     "chinaSociety": [
+      {
+        "title": "入冬标准如何确定？为何多地秋天越来越短？详解来了",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-06/10727723.shtml",
+        "summary": "明天(11月7日)将迎来立冬节气。立冬是节气意义上冬季的开始，但气象学上的入冬有着一定的气温判定指标。眼下，多轮冷空气接连影响，北方大部地区气温快速下滑，不少地方已有了冬的气息。",
+        "image": "",
+        "publishedAt": "2026-11-06T15:58:22.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "从酒店到校园，从偷拍到交易：谁在把女性隐私明码标价？",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-06/10727717.shtml",
+        "summary": "中新网北京11月6日电(王诗尧)从酒店房间到大学城民宿，从公共厕所到校园卫生间，偷拍摄像头正以越来越隐蔽的方式侵入公共空间和私人生活。",
+        "image": "",
+        "publishedAt": "2026-11-06T15:55:12.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "2026年宁夏推动22个城乡社区(村)创建达标老年友好型社区",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-06/10727714.shtml",
+        "summary": "中新网银川11月6日电 (记者 杨迪)记者6日从宁夏民政厅获悉，2026年，宁夏推动22个城乡社区(村)创建达标老年友好型社区。",
+        "image": "",
+        "publishedAt": "2026-11-06T15:55:04.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "闽南师范大学举办第二季“美美与共”国际文化市集",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-06/10727707.shtml",
+        "summary": "中新网漳州11月6日电 (胡娇阳)5日晚，第二季“美美与共”国际文化市集在位于福建省漳州市的闽南师范大学弦歌广场举办。来自越南、马来西亚、印度尼西亚、俄罗斯、老挝、菲律宾、喀麦隆、哈萨克斯坦等10余个国家的留学生，以及海峡两岸、港澳地区师生代表共500余人到场参加，共赴这场“美美与共·多彩互融”的中...",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261106/985f34a6-c75e-4b19-a05e-61bcf8d614ec_zsite.jpeg",
+        "publishedAt": "2026-11-06T15:51:56.000Z",
+        "source": "中新网"
+      },
       {
         "title": "“中国南大门”广西凭祥：从边陲要塞变身热门跨境旅游打卡地",
         "link": "https://www.chinanews.com.cn/sh/2026/11-06/10727705.shtml",
@@ -221,41 +253,33 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261106/b6139505-57fb-4f8d-9048-b751bc9f4da8_zsite.jpg",
         "publishedAt": "2026-11-06T15:41:27.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "丝线与石刻间，国际摄影师看见广元苍溪的时间痕迹",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-06/10727704.shtml",
-        "summary": "中新网广元11月6日电 题：丝线与石刻间，国际摄影师看见广元苍溪的时间痕迹",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261106/a67301fd-1f81-4d8b-b774-d3203326adea_zsite.jpg",
-        "publishedAt": "2026-11-06T15:41:17.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "浙江开展长期照护师培训和技能竞赛 充实专业人才队伍",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-06/10727703.shtml",
-        "summary": "中新网湖州11月6日电(张煜欢)5日至6日，浙江省长期照护师政策业务系列培训班在浙江湖州举行，其间同步举办第二届长期护理保险职业技能竞赛，并开展管理服务体系建设培训。这是浙江首次将长期护理保险职业的师资培训、技能竞赛、管理服务体系建设培训合并举办，以赛促训、以训促建。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261106/58fa2b80-25cf-46d7-b45f-0fbad74bac36_zsite.jpg",
-        "publishedAt": "2026-11-06T15:40:33.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "第三届“长高赛”方案在专交会发布 助力专利从“赛场”走向“市场”",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-06/10727690.shtml",
-        "summary": "中新网无锡11月6日电 (记者 孙自法)第十五届中国国际专利技术与产品交易会(专交会)11月6日在江苏无锡开幕，作为本届专交会开场活动之一，第三届长江经济带高价值专利转化运用大赛(“长高赛”)方案当天发布，助力专利从“赛场”走向“市场”。",
-        "image": "",
-        "publishedAt": "2026-11-06T15:35:49.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "破壳了！今年广州第一只南极企鹅宝宝顺利降生",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-06/10727685.shtml",
-        "summary": "中新网广州11月6日电 (记者 程景伟)广州正佳极地海洋世界6日传来喜讯，今年广州第一只南极企鹅宝宝顺利破壳降生，企鹅宝宝破壳时体重约90克，将在两个月内完成换羽，当下状态平稳。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261106/0079c032-fa24-414e-b02d-61f3469dafd7_zsite.jpeg",
-        "publishedAt": "2026-11-06T15:28:09.000Z",
-        "source": "中新网"
       }
     ],
     "chinaFinance": [
+      {
+        "title": "（第九届进博会）拓展合作、深耕中国 跨国企业进博会上签约忙",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-06/10727712.shtml",
+        "summary": "中新网上海11月6日电 (记者 姜煜)跨国医药公司赛诺菲与上药控股有限公司6日在第九届进博会现场举行深化战略合作签约仪式，双方将在长期合作基础上，进一步发挥各自在全球创新与本土产业资源方面的优势，携手提升药品可及性，推动更多创新成果惠及中国患者。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261106/a2b94353-caee-4603-b351-5b29c274df25_zsite.jpg",
+        "publishedAt": "2026-11-06T15:53:20.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "世界浙商杭州“开麦”：科创聚力向“新”而行",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-06/10727709.shtml",
+        "summary": "中新网杭州11月6日电(郭其钰)当AI浪潮重塑千行百业，浙商如何穿越周期、赢得主动？如何在高质量发展赛道上抢占先机、赢得未来？11月6日在浙江杭州开幕的第八届世界浙商大会，成为外界观察浙商识变求新、浙江厚植创新生态的窗口。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261106/7a062a65-a646-4a5a-aded-3627627c1a17_zsite.jpg",
+        "publishedAt": "2026-11-06T15:53:06.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "台企在江苏无锡开建AI算力高端电子基板材料研发制造总部",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-06/10727708.shtml",
+        "summary": "中新网无锡11月6日电 (孙权 唐娟)总投资8亿美元的联茂电子AI算力高端电子基板材料研发制造总部项目(简称“项目”)，6日在无锡锡山经济技术开发区开工。",
+        "image": "",
+        "publishedAt": "2026-11-06T15:52:22.000Z",
+        "source": "中新网"
+      },
       {
         "title": "AI电商合规治理与消费环境共建行动在浙江启动",
         "link": "https://www.chinanews.com.cn/cj/2026/11-06/10727699.shtml",
@@ -271,33 +295,33 @@
         "image": "",
         "publishedAt": "2026-11-06T15:35:39.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "第九次山东省—韩国经贸合作交流会开幕式举办",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-06/10727692.shtml",
-        "summary": "中新网烟台11月6日电 (记者 王娇妮)第九次山东省—韩国经贸合作交流会6日在山东烟台举办开幕式，300余位中韩嘉宾出席会议。会上，山东省与韩国集中签约23个合作项目，涉及总金额约2.1亿美元。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261106/efb13787-bfa6-4ce1-8041-f3c68f56f6b8_zsite.jpg",
-        "publishedAt": "2026-11-06T15:34:27.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "第12届快递“最后一公里”大会在京举行",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-06/10727686.shtml",
-        "summary": "中新网北京11月6日电 (记者 王梦瑶)以“变革向新、末端向暖”为主题的第12届快递“最后一公里”大会6日在北京举行。来自国家邮政局、中国宏观经济研究院等有关部门和研究机构的专家，以及邮政、快递、电商、关联产业等企业代表，围绕推动快递高质量发展开展研讨交流，凝聚发展共识。",
-        "image": "",
-        "publishedAt": "2026-11-06T15:29:01.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "走进湖南湘江新区：出口清单上的文化新面孔",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-06/10727680.shtml",
-        "summary": "中新网长沙11月6日电 (胡语桐)一双出自湖南湘江新区创业者之手的湘绣虎头鞋，在纽约联合国总部展厅展出后随即投产；东京大型电器连锁店货架上，一款中国研发的剪辑软件与日本本土产品并排陈列；非洲观众的电视屏幕上，说着当地语言的中国动画正在更新。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261106/b4eb7586-c831-457b-87a2-00f99660a3b0_zsite.jpg",
-        "publishedAt": "2026-11-06T15:24:54.000Z",
-        "source": "中新网"
       }
     ],
     "worldTop": [
+      {
+        "title": "AI stocks climb after trillions wiped from market values",
+        "link": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
+        "summary": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fdde/live/9036f7e0-da01-11f1-93e1-3b657b665bcf.jpg",
+        "publishedAt": "2026-11-06T21:06:25.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Trump’s latest Ukraine offer may only tempt Putin to step up his war",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdmhLdEFhNEhJcUhIaGQ5UEwwSzRNdjQwWFZhRmN3T3ZoNDU2QWtwSUx5dzBkcXlabFNiSWFsVWI3Ul93VG1lajJmbk9reGpZZ0w1NVdTMVVCRUhaNE5SM3lSb2NHdm1jTnFLZDJvWW5NaWFVNF8yR29xMTJFZk5QZEhR?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-11-06T17:11:51.000Z",
+        "source": "CNN"
+      },
+      {
+        "title": "Four midterms takeaways for 2028 White House race",
+        "link": "https://www.bbc.co.uk/news/articles/cq1m41n3v7mmo?at_medium=RSS&at_campaign=rss",
+        "summary": "The buzz about the presidential election is already under way - here's what we learned this week.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/613a/live/900577b0-d9ed-11f1-b441-2b33b063138f.png",
+        "publishedAt": "2026-11-06T16:12:22.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Two dead after bus crashes in France, officials say",
         "link": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&at_campaign=rss",
@@ -307,62 +331,46 @@
         "source": "BBC"
       },
       {
-        "title": "AI stocks climb after trillions wiped from market values",
-        "link": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
-        "summary": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a55a/live/c7545ca0-d9ec-11f1-bbe5-797ee05bee69.jpg",
-        "publishedAt": "2026-11-06T15:04:46.000Z",
+        "title": "New wave of bomb threats hit European airlines",
+        "link": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss",
+        "summary": "No link has been established between the threats against the airlines and those against the media outlets.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c047/live/33f77d10-d9ed-11f1-a701-fddedf244c16.jpg",
+        "publishedAt": "2026-11-06T15:25:35.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Kenyan doomsday cult leader given life sentence for murdering 191 people",
-        "link": "https://www.bbc.co.uk/news/articles/cm5yne5984l0o?at_medium=RSS&at_campaign=rss",
-        "summary": "Paul Mackenzie ordered his followers to starve their children to death in a forest so they could \"meet Jesus\".",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9676/live/4f47ccc0-d9f0-11f1-bb10-cdca6001fbcf.jpg",
-        "publishedAt": "2026-11-06T14:46:03.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Trump signs order to preserve Oval Office as national monument",
-        "link": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss",
-        "summary": "The order comes after Trump made a series of big changes to the decor of the Oval Office and tore down the White House East Wing.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/97ff/live/e5957760-d9b2-11f1-93e1-3b657b665bcf.jpg",
-        "publishedAt": "2026-11-06T09:19:57.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "The world’s first fusion cuisine is hundreds of years old. And it’s still going strong",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9yeERGcVBaNnhGWmZPVWZkdkh2SEhmVy15NWdWdm92MjgxTTRUenZqQlV2b0tDOEt5TUFyYlBRdmxvTEJPZ2pob3dQNVlqR2FyZEVSb2FNT3N0bEdXR3pjVXEyZ2U2aHk0Z3habG5TaTh0WTBL?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-11-06T07:08:46.000Z",
-        "source": "CNN"
       }
     ],
     "worldBusiness": [
       {
-        "title": "Could the US midterms put a pin in the AI bubble?",
-        "link": "https://www.bbc.co.uk/news/articles/crlykkzwwpydo?at_medium=RSS&at_campaign=rss",
-        "summary": "Fears of more AI regulation appear to have sparked fear among investors, but concerns about the industry have been growing for some time.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e383/live/c572bfd0-d9f6-11f1-84c1-dbcae60402d7.jpg",
-        "publishedAt": "2026-11-06T15:39:30.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "PM tells firms to publish salaries in job adverts ahead of new law",
-        "link": "https://www.bbc.co.uk/news/articles/cmd9343z3zw2o?at_medium=RSS&at_campaign=rss",
-        "summary": "The government argues the change will help jobseekers and could help to prevent pay discrimination.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/04d2/live/40c46130-d9f6-11f1-a701-fddedf244c16.jpg",
-        "publishedAt": "2026-11-06T15:25:43.000Z",
-        "source": "BBC"
-      },
-      {
         "title": "AI stocks climb after trillions wiped from market values",
         "link": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
         "summary": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a55a/live/c7545ca0-d9ec-11f1-bbe5-797ee05bee69.jpg",
-        "publishedAt": "2026-11-06T15:04:46.000Z",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fdde/live/9036f7e0-da01-11f1-93e1-3b657b665bcf.jpg",
+        "publishedAt": "2026-11-06T21:06:25.000Z",
         "source": "BBC"
+      },
+      {
+        "title": "Why the US midterms sparked an AI stock selloff",
+        "link": "https://www.bbc.co.uk/news/articles/crlykkzwwpydo?at_medium=RSS&at_campaign=rss",
+        "summary": "Fears of more AI regulation appear to have sparked fear among investors, but concerns about the industry have been growing for some time.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f055/live/19529fe0-d9fb-11f1-93e1-3b657b665bcf.jpg",
+        "publishedAt": "2026-11-06T18:32:16.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Why smoky bacon crisps threaten to reignite rows over EU rules",
+        "link": "https://www.bbc.co.uk/news/articles/cm1dwwqrr1kvo?at_medium=RSS&at_campaign=rss",
+        "summary": "A post-Brexit deal on food standards has raised questions over the future naming of the classic British snack.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/67af/live/52b739e0-da04-11f1-84c1-dbcae60402d7.jpg",
+        "publishedAt": "2026-11-06T17:19:38.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Tesla set to wind down production of Cybertruck",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbWtnUlF4Z3VoWFhsY3ZDZmNmQi1IUHIyMTBwZFZZZVN2Mkl2dmtaZ1g3NGV3c0VGRlJkc2F2VjJaWFRrVHVFVXR1NXJ0Q0JjSHQ2Q3lVNkFvNFpaSk5pMXhBUm1TVlN2MS1QX0tZWHFjUEVwVUlZMXpteFhBVUxkV3pfSTBtdHBNenJr?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-11-06T14:24:03.000Z",
+        "source": "CNN"
       },
       {
         "title": "What sparked the stock market’s $2.5 trillion sell-off?",
@@ -371,31 +379,23 @@
         "image": "",
         "publishedAt": "2026-11-06T10:00:15.000Z",
         "source": "CNN"
-      },
-      {
-        "title": "Elon Musk appears to signal the end of the road for Cybertruck",
-        "link": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss",
-        "summary": "Musk said it was to make room for production of its Cybercabs - autonomous taxis without a driver.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d7ce/live/3fc37350-d9f3-11f1-a701-fddedf244c16.jpg",
-        "publishedAt": "2026-11-06T09:57:04.000Z",
-        "source": "BBC"
       }
     ],
     "worldTech": [
       {
-        "title": "Could the US midterms put a pin in the AI bubble?",
-        "link": "https://www.bbc.co.uk/news/articles/crlykkzwwpydo?at_medium=RSS&at_campaign=rss",
-        "summary": "Fears of more AI regulation appear to have sparked fear among investors, but concerns about the industry have been growing for some time.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e383/live/c572bfd0-d9f6-11f1-84c1-dbcae60402d7.jpg",
-        "publishedAt": "2026-11-06T15:39:30.000Z",
-        "source": "BBC"
-      },
-      {
         "title": "AI stocks climb after trillions wiped from market values",
         "link": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
         "summary": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a55a/live/c7545ca0-d9ec-11f1-bbe5-797ee05bee69.jpg",
-        "publishedAt": "2026-11-06T15:04:46.000Z",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fdde/live/9036f7e0-da01-11f1-93e1-3b657b665bcf.jpg",
+        "publishedAt": "2026-11-06T21:06:25.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Why the US midterms sparked an AI stock selloff",
+        "link": "https://www.bbc.co.uk/news/articles/crlykkzwwpydo?at_medium=RSS&at_campaign=rss",
+        "summary": "Fears of more AI regulation appear to have sparked fear among investors, but concerns about the industry have been growing for some time.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f055/live/19529fe0-d9fb-11f1-93e1-3b657b665bcf.jpg",
+        "publishedAt": "2026-11-06T18:32:16.000Z",
         "source": "BBC"
       },
       {
@@ -425,6 +425,14 @@
     ],
     "domestic": [
       {
+        "title": "首次在城市场景完成放飞试验 看一台“空中电站”如何诞生",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-07/10727726.shtml",
+        "summary": "今天(6日)，全球首台4000米级浮空风力发电系统在湖南岳阳成功试飞。这是4000米级浮空风电系统首次在城市场景完成放飞试验。",
+        "image": "",
+        "publishedAt": "2026-11-06T16:05:27.000Z",
+        "source": "中新网"
+      },
+      {
         "title": "我国南极活动与环境保护法出台 对国际南极治理意义几何？",
         "link": "https://www.chinanews.com.cn/gn/2026/11-06/10727716.shtml",
         "summary": "十四届全国人大常委会第二十五次会议今天(6日)表决通过《中华人民共和国南极活动与环境保护法》，明年1月1日起施行。该法的通过，是我国严格遵守、切实履行国际南极治理的基石——《南极条约》的具体体现。它对外是一部履约法，对内则全面系统地将我国南极工作实践经验上升为法律，让各类南极活动有法可依。",
@@ -455,17 +463,33 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261106/cf4967ab-fc4e-4bb1-acaa-a8448754bc27_zsite.jpeg",
         "publishedAt": "2026-11-06T15:36:57.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "广西首个县级国际传播中心在桂林阳朔揭牌",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-06/10727688.shtml",
-        "summary": "中新网桂林11月6日电(杨宗盛 钟玲丽)11月6日，广西首个县级国际传播中心——阳朔国际传播中心在桂林市阳朔县揭牌成立。中心由广西国际传播中心与阳朔县委宣传部共建，是广西完善自治区、市、县三级国际传播体系的实践探索。仪式现场，广西国际传播中心与阳朔县共同签署共建战略合作框架协议，并为首批“国际传播推...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261106/0847b815-4208-4ff0-a7c6-2bc258219595_zsite.JPG",
-        "publishedAt": "2026-11-06T15:29:55.000Z",
-        "source": "中新网"
       }
     ],
     "international": [
+      {
+        "title": "AI stocks climb after trillions wiped from market values",
+        "link": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
+        "summary": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fdde/live/9036f7e0-da01-11f1-93e1-3b657b665bcf.jpg",
+        "publishedAt": "2026-11-06T21:06:25.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Trump’s latest Ukraine offer may only tempt Putin to step up his war",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdmhLdEFhNEhJcUhIaGQ5UEwwSzRNdjQwWFZhRmN3T3ZoNDU2QWtwSUx5dzBkcXlabFNiSWFsVWI3Ul93VG1lajJmbk9reGpZZ0w1NVdTMVVCRUhaNE5SM3lSb2NHdm1jTnFLZDJvWW5NaWFVNF8yR29xMTJFZk5QZEhR?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-11-06T17:11:51.000Z",
+        "source": "CNN"
+      },
+      {
+        "title": "Four midterms takeaways for 2028 White House race",
+        "link": "https://www.bbc.co.uk/news/articles/cq1m41n3v7mmo?at_medium=RSS&at_campaign=rss",
+        "summary": "The buzz about the presidential election is already under way - here's what we learned this week.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/613a/live/900577b0-d9ed-11f1-b441-2b33b063138f.png",
+        "publishedAt": "2026-11-06T16:12:22.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Two dead after bus crashes in France, officials say",
         "link": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&at_campaign=rss",
@@ -475,36 +499,12 @@
         "source": "BBC"
       },
       {
-        "title": "AI stocks climb after trillions wiped from market values",
-        "link": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
-        "summary": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a55a/live/c7545ca0-d9ec-11f1-bbe5-797ee05bee69.jpg",
-        "publishedAt": "2026-11-06T15:04:46.000Z",
+        "title": "New wave of bomb threats hit European airlines",
+        "link": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss",
+        "summary": "No link has been established between the threats against the airlines and those against the media outlets.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c047/live/33f77d10-d9ed-11f1-a701-fddedf244c16.jpg",
+        "publishedAt": "2026-11-06T15:25:35.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Kenyan doomsday cult leader given life sentence for murdering 191 people",
-        "link": "https://www.bbc.co.uk/news/articles/cm5yne5984l0o?at_medium=RSS&at_campaign=rss",
-        "summary": "Paul Mackenzie ordered his followers to starve their children to death in a forest so they could \"meet Jesus\".",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9676/live/4f47ccc0-d9f0-11f1-bb10-cdca6001fbcf.jpg",
-        "publishedAt": "2026-11-06T14:46:03.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Trump signs order to preserve Oval Office as national monument",
-        "link": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss",
-        "summary": "The order comes after Trump made a series of big changes to the decor of the Oval Office and tore down the White House East Wing.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/97ff/live/e5957760-d9b2-11f1-93e1-3b657b665bcf.jpg",
-        "publishedAt": "2026-11-06T09:19:57.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "The world’s first fusion cuisine is hundreds of years old. And it’s still going strong",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9yeERGcVBaNnhGWmZPVWZkdkh2SEhmVy15NWdWdm92MjgxTTRUenZqQlV2b0tDOEt5TUFyYlBRdmxvTEJPZ2pob3dQNVlqR2FyZEVSb2FNT3N0bEdXR3pjVXEyZ2U2aHk0Z3habG5TaTh0WTBL?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-11-06T07:08:46.000Z",
-        "source": "CNN"
       }
     ],
     "nba": []
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-11-06",
+    "rotationLabel": "Curated Rotation · 2026-11-07",
     "sections": [
       {
         "id": "data-storage",
@@ -522,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-1",
-            "sectionId": "data-storage",
-            "title": "The Log-Structured Merge-Tree (LSM-Tree)",
-            "authors": [
-              "Patrick O'Neil",
-              "Edward Cheng",
-              "Dieter Gawlick",
-              "Elizabeth O'Neil"
-            ],
-            "venue": "Acta Informatica",
-            "year": 1996,
-            "quality": "经典基础",
-            "categories": [
-              "storage",
-              "indexing"
-            ],
-            "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
-            "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-2",
             "sectionId": "data-storage",
@@ -562,7 +541,7 @@
             ],
             "link": "https://research.google/pubs/pub27898/",
             "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-3",
@@ -584,6 +563,27 @@
             "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
             "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-4",
+            "sectionId": "data-storage",
+            "title": "Dremel: Interactive Analysis of Web-Scale Datasets",
+            "authors": [
+              "Sergey Melnik",
+              "Andrey Gubarev",
+              "Jing Jing Long",
+              "Geoffrey Romer"
+            ],
+            "venue": "VLDB",
+            "year": 2010,
+            "quality": "顶会",
+            "categories": [
+              "analytics",
+              "columnar"
+            ],
+            "link": "https://research.google/pubs/pub36632/",
+            "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -593,27 +593,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-2",
-            "sectionId": "computer-vision",
-            "title": "End-to-End Object Detection with Transformers",
-            "authors": [
-              "Nicolas Carion",
-              "Francisco Massa",
-              "Gabriel Synnaeve",
-              "Nicolas Usunier"
-            ],
-            "venue": "ECCV",
-            "year": 2020,
-            "quality": "顶会",
-            "categories": [
-              "detection",
-              "transformer"
-            ],
-            "link": "https://arxiv.org/abs/2005.12872",
-            "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-3",
             "sectionId": "computer-vision",
@@ -633,7 +612,7 @@
             ],
             "link": "https://arxiv.org/abs/2010.11929",
             "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-4",
@@ -655,6 +634,27 @@
             "link": "https://arxiv.org/abs/2103.00020",
             "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-5",
+            "sectionId": "computer-vision",
+            "title": "Segment Anything",
+            "authors": [
+              "Alexander Kirillov",
+              "Eric Mintun",
+              "Nikhila Ravi",
+              "Hanzi Mao"
+            ],
+            "venue": "ICCV",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "segmentation",
+              "foundation model"
+            ],
+            "link": "https://arxiv.org/abs/2304.02643",
+            "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -664,27 +664,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-3",
-            "sectionId": "llm-memory",
-            "title": "RETRO: Improving Language Models by Retrieving From Trillions of Tokens",
-            "authors": [
-              "Sebastian Borgeaud",
-              "Arthur Mensch",
-              "Jordan Hoffmann",
-              "Trevor Cai"
-            ],
-            "venue": "DeepMind / arXiv",
-            "year": 2022,
-            "quality": "高影响力",
-            "categories": [
-              "retrieval",
-              "language model"
-            ],
-            "link": "https://arxiv.org/abs/2112.04426",
-            "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-4",
             "sectionId": "llm-memory",
@@ -704,7 +683,7 @@
             ],
             "link": "https://arxiv.org/abs/2310.11511",
             "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-5",
@@ -726,6 +705,27 @@
             "link": "https://arxiv.org/abs/2306.07174",
             "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-6",
+            "sectionId": "llm-memory",
+            "title": "MemoRAG: Moving towards Next-Gen RAG Via Memory-Inspired Knowledge Discovery",
+            "authors": [
+              "Rulin Shao",
+              "Yue Liu",
+              "Shuo Wang",
+              "Yichi Zhang"
+            ],
+            "venue": "arXiv",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "RAG",
+              "memory bank"
+            ],
+            "link": "https://arxiv.org/abs/2409.05591",
+            "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -735,27 +735,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-4",
-            "sectionId": "agents",
-            "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
-            "authors": [
-              "Guanzhi Wang",
-              "Yuqi Xie",
-              "Zixiang Zhou",
-              "Yujin Tang"
-            ],
-            "venue": "arXiv",
-            "year": 2023,
-            "quality": "高影响力",
-            "categories": [
-              "embodied agent",
-              "planning"
-            ],
-            "link": "https://arxiv.org/abs/2305.16291",
-            "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-5",
             "sectionId": "agents",
@@ -775,7 +754,7 @@
             ],
             "link": "https://arxiv.org/abs/2308.08155",
             "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-6",
@@ -796,6 +775,28 @@
             ],
             "link": "https://arxiv.org/abs/2405.15793",
             "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-1",
+            "sectionId": "agents",
+            "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+            "authors": [
+              "Shunyu Yao",
+              "Jeffrey Zhao",
+              "Dian Yu",
+              "Nan Du"
+            ],
+            "venue": "ICLR",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "agent",
+              "reasoning",
+              "tool use"
+            ],
+            "link": "https://arxiv.org/abs/2210.03629",
+            "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
             "trackLabel": "轮换精选"
           }
         ]
