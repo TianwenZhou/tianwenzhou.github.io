@@ -1,42 +1,34 @@
 {
-  "generatedAt": "2026-11-09T06:08:31.609Z",
+  "generatedAt": "2026-11-09T18:41:28.292Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 9,
+      "temperature": -1,
       "weatherCode": 0,
-      "windSpeed": 7
+      "windSpeed": 3
     },
     "today": {
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "weatherCode": 0,
       "description": "晴朗",
-      "max": 9,
+      "max": 11,
       "min": -1,
       "precipitationProbability": 0
     },
     "forecast": [
       {
-        "date": "2026-11-09",
-        "weatherCode": 0,
-        "description": "晴朗",
-        "max": 9,
-        "min": -1,
-        "precipitationProbability": 0
-      },
-      {
         "date": "2026-11-10",
         "weatherCode": 0,
         "description": "晴朗",
-        "max": 10,
-        "min": -2,
+        "max": 11,
+        "min": -1,
         "precipitationProbability": 0
       },
       {
         "date": "2026-11-11",
         "weatherCode": 0,
         "description": "晴朗",
-        "max": 10,
+        "max": 11,
         "min": -1,
         "precipitationProbability": 0
       },
@@ -44,7 +36,7 @@
         "date": "2026-11-12",
         "weatherCode": 0,
         "description": "晴朗",
-        "max": 11,
+        "max": 12,
         "min": 1,
         "precipitationProbability": 0
       },
@@ -52,35 +44,52 @@
         "date": "2026-11-13",
         "weatherCode": 0,
         "description": "晴朗",
-        "max": 11,
-        "min": 1,
+        "max": 12,
+        "min": 2,
         "precipitationProbability": 0
+      },
+      {
+        "date": "2026-11-14",
+        "weatherCode": 1,
+        "description": "基本晴",
+        "max": 12,
+        "min": 2,
+        "precipitationProbability": 4
       }
     ]
   },
   "classicQuote": {
-    "id": "mencius-perseverance",
-    "text": "虽千万人，吾往矣。",
-    "source": "《孟子》",
-    "author": "孟子",
-    "note": "认准方向之后，关键是稳稳地往前走。"
+    "id": "records-historical",
+    "text": "桃李不言，下自成蹊。",
+    "source": "《史记》",
+    "author": "司马迁",
+    "note": "真正有分量的作品，本身就会替你说话。"
   },
   "bookExcerpt": {
-    "id": "red-mansion-snow",
-    "text": "只见大地白茫茫一片真干净，山川树木都隐在雪光里，天地像忽然静下来，只余风过回廊的细响。",
-    "book": "《红楼梦》",
-    "author": "曹雪芹"
+    "id": "remembrance-madeleine",
+    "text": "那一点点浸过茶水的点心，忽然把整个旧日时光都唤醒了，仿佛往昔并未消失，只是沉在心底等待一个气味。",
+    "book": "《追忆似水年华》",
+    "author": "马塞尔·普鲁斯特"
   },
   "featuredPlace": {
-    "id": "202611081600",
-    "title": "特里亚纳历史街区，塞维利亚，西班牙",
+    "id": "202611091600",
+    "title": "玫瑰岛航拍图，巴哈马",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "艺术与韵律交汇之地",
-    "image": "https://www.bing.com/th?id=OHR.TrianaSpain_ZH-CN6329291776_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E8%A5%BF%E7%8F%AD%E7%89%99%E5%A1%9E%E7%BB%B4%E5%88%A9%E4%BA%9A&form=hpcapt&mkt=zh-cn"
+    "summary": "惬意放松，尽享海岛时光",
+    "image": "https://www.bing.com/th?id=OHR.RoseIsland_ZH-CN6477140814_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E5%B7%B4%E5%93%88%E9%A9%AC%E7%8E%AB%E7%91%B0%E5%B2%9B&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202611091600",
+      "title": "玫瑰岛航拍图，巴哈马",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "惬意放松，尽享海岛时光",
+      "image": "https://www.bing.com/th?id=OHR.RoseIsland_ZH-CN6477140814_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E5%B7%B4%E5%93%88%E9%A9%AC%E7%8E%AB%E7%91%B0%E5%B2%9B&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202611081600",
       "title": "特里亚纳历史街区，塞维利亚，西班牙",
@@ -143,251 +152,258 @@
       "summary": "群峰间的宁静",
       "image": "https://www.bing.com/th?id=OHR.AlpineBraies_ZH-CN7307997866_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E5%A4%9A%E6%B4%9B%E7%B1%B3%E8%92%82%E5%B1%B1%E8%84%89&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202611011600",
-      "title": "北极熊和幼崽，哈得孙湾畔，马尼托巴省，加拿大",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "写在冰上的未来",
-      "image": "https://www.bing.com/th?id=OHR.HudsonBear_ZH-CN6630706907_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E5%8C%97%E6%9E%81%E7%86%8A%E5%91%A8&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-11-09",
-    "dateLabel": "11月9日",
+    "dateKey": "2026-11-10",
+    "dateLabel": "11月10日",
     "items": [
       {
-        "year": "2020",
-        "text": "亚美尼亚与阿塞拜疆签订纳戈尔诺-卡拉巴赫战争的停火协议，放弃控制了26年的纳戈尔诺-卡拉巴赫周边地区。",
-        "link": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4"
+        "year": "2021",
+        "text": "美國太空公司SpaceX的載人龍飛船C210自甘迺迪太空中心成功發射升空，其後與國際太空站連結。",
+        "link": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4"
       },
       {
-        "year": "2019",
-        "text": "印度与巴基斯坦之间的卡塔普尔走廊建成。",
-        "link": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4"
+        "year": "2020",
+        "text": "英國政府宣布已清除福克蘭群島上最後一枚地雷，該地雷是1982年福克蘭戰爭期間由阿根廷軍隊埋設。",
+        "link": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "习近平致电祝贺约托娃当选保加利亚总统",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-09/10728775.shtml",
-        "summary": "新华社快讯：习近平致电祝贺约托娃当选保加利亚总统。",
-        "image": "",
-        "publishedAt": "2026-11-09T05:57:25.000Z",
+        "title": "中航工业多型装备亮相 “应急使命·2026”重庆重特大森林火灾扑救演习",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-09/10729123.shtml",
+        "summary": "中新网北京11月9日电 (记者 阮煜琳)记者9日从中国航空工业集团(简称中航工业)获悉，“应急使命·2026”——重庆重特大森林火灾扑救演习9日在重庆市奉节县举办，中国航空工业集团自主研制的AG600、“新舟”60灭火机等多型装备亮相。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261109/01e82c49-2482-4820-a2b7-df3c2630462f_zsite.jpg",
+        "publishedAt": "2026-11-09T13:40:06.000Z",
         "source": "中新网"
       },
       {
-        "title": "“红鹰”编队飞越长春 贺空军成立77周年",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-09/10728769.shtml",
-        "summary": "中新网长春11月9日电 (李彦国 刘栋)9日，空军航空大学“红鹰”飞行表演队以8机编队飞越长春蓝天公园，庆祝中国人民解放军空军成立77周年。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261109/1ef25c42-f25e-46e9-85fd-dcb486dd4fb9_zsite.jpg",
-        "publishedAt": "2026-11-09T05:48:47.000Z",
+        "title": "中国学者发起人工智能赋能政策研究计划入选联合国科学议程",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-09/10729111.shtml",
+        "summary": "中新网北京11月9日电 (记者 孙自法)第七届智库科学与工程国际研讨会11月8日至10日在北京举行，记者从会上获悉，由中国科学院科技战略咨询研究院院长潘教峰研究员牵头发起的“从证据到方案：人工智能驱动的政策模拟与情景分析”研究计划，2026年成功入选联合国“2024—2033年科学促进可持续发展国际...",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261109/ddbed957-e373-435c-ad1f-69197e3ddd4a_zsite.jpg",
+        "publishedAt": "2026-11-09T13:14:55.000Z",
         "source": "中新网"
       },
       {
-        "title": "中国海警舰艇编队11月9日在我钓鱼岛及其附属岛屿领海内维权巡航",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-09/10728742.shtml",
-        "summary": "中新网11月9日电 据“中国海警”微信公众号消息，11月9日，中国海警登步舰编队在我钓鱼岛及其附属岛屿领海内维权巡航。这是中国海警依法开展的维权巡航活动。",
+        "title": "韩正同土耳其副总统耶尔马兹共同出席中国－土耳其绿色发展商务论坛并致辞",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-09/10729095.shtml",
+        "summary": "中新社北京11月9日电 当地时间11月9日，中国国家副主席韩正在伊斯坦布尔同土耳其副总统耶尔马兹共同出席中国－土耳其绿色发展商务论坛并致辞。",
         "image": "",
-        "publishedAt": "2026-11-09T05:13:37.000Z",
+        "publishedAt": "2026-11-09T13:01:30.000Z",
         "source": "中新网"
       },
       {
-        "title": "（深圳APEC）联合国政策事务副秘书长：冀APEC会议成果助推联合国相关议程",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-09/10728717.shtml",
-        "summary": "中新社北京11月9日电 (记者 周昕)亚太经合组织(APEC)第三十三次领导人非正式会议将于11月18日至19日在深圳举行。近日，联合国政策事务副秘书长莱德在接受中新社等媒体采访时表示，希望深圳APEC会议能产出积极成果，帮助联合国在更广泛的全球议程上取得进展。",
-        "image": "",
-        "publishedAt": "2026-11-09T04:24:38.000Z",
+        "title": "青海“十五五”5.9亿亩草原全面监管 牧区民生改善",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-09/10729100.shtml",
+        "summary": "中新网西宁11月9日电 (记者 潘雨洁)9日，记者从青海省林业和草原局获悉，“十五五”期间，该省将统筹草原生态保护与牧区民生改善，实现草原资源5.9亿亩全面监管，并通过落实草原补奖政策，全省75万户农牧户每年补助约27.55亿元(人民币，下同)，户均达3674元。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261109/d3fff467-e3dc-4bb7-a038-f44ccf6d31b1_zsite.jpg",
+        "publishedAt": "2026-11-09T13:00:58.000Z",
         "source": "中新网"
       },
       {
-        "title": "交通运输部：继续暂停对美船舶收取船舶特别港务费",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-09/10728720.shtml",
-        "summary": "中新网11月9日电 交通运输部网站9日发布《交通运输部关于继续暂停对美船舶收取船舶特别港务费、暂停开展航运业造船业及相关产业链供应链安全和发展利益受影响情况调查的公告》称，为落实中美第八轮经贸磋商成果，经国务院批准，继续暂停实施《交通运输部关于对美船舶收取船舶特别港务费的公告》(交通运输部公告202...",
+        "title": "第四届中俄地方投资发展与贸易合作大会在沈阳开幕",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-09/10729090.shtml",
+        "summary": "中新网沈阳11月9日电 (记者 韩宏)第四届中俄地方投资发展与贸易合作大会9日在沈阳开幕。",
         "image": "",
-        "publishedAt": "2026-11-09T03:57:06.000Z",
+        "publishedAt": "2026-11-09T12:49:41.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "寒潮主体南下！今天降温核心转移至南方 中东部逐步开启升温模式",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-09/10728785.shtml",
-        "summary": "中国天气网讯 今天(11月9日)，寒潮主体进一步南下，降温核心区将转移至南方，江西东部、浙江南部、福建等地的部分地区降温明显，局地气温降幅可达10至12℃。同时，北方部分地区已率先开启升温，明天随着寒潮影响趋于结束，南方多地也将加入升温阵营。本周，中东部多地回暖迅速，东北部分地区升温幅度可超15℃，...",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/11/09/22337fa61aac465585dc33d1db85ad57.jpg",
-        "publishedAt": "2026-11-09T06:04:03.000Z",
+        "title": "送别翻译家谢莹莹：明亮的生命之歌将永远回响",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-09/10729148.shtml",
+        "summary": "中新社北京11月9日电 题：送别翻译家谢莹莹：明亮的生命之歌将永远回响",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261109/8641ce48-e003-4a32-bf2c-11fbba402a3d_zsite.jpg",
+        "publishedAt": "2026-11-09T14:14:18.000Z",
         "source": "中新网"
       },
       {
-        "title": "河北邯郸凝聚“五老”银发力量巧解乡村纠纷",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-09/10728774.shtml",
-        "summary": "中新网邯郸11月9日电 题：河北邯郸凝聚“五老”银发力量巧解乡村纠纷",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261109/e53e0fd4-7cdf-4b1b-b8f2-21889298f7d0_zsite.jpg",
-        "publishedAt": "2026-11-09T06:02:35.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "匠心护老暖桑榆 沈阳市“工匠杯”养老护理员职工职业技能竞赛完赛",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-09/10728780.shtml",
-        "summary": "中新网沈阳11月9日电 (记者 李晛)为大力弘扬工匠精神，提升全市养老护理从业人员专业技能与服务质量，由沈阳市总工会、沈阳市人力资源和社会保障局、沈阳市民政局联合主办的2026年沈阳市“工匠杯”养老护理员职工职业技能竞赛7日至8日举办。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261109/1b567edb-88f9-4e9c-8a27-66955f89107f_zsite.jpg",
-        "publishedAt": "2026-11-09T06:02:27.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "从“渔花子村”到“网红渔村”：江苏扬州沿湖村的美丽蝶变",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-09/10728777.shtml",
-        "summary": "中新网扬州11月9日电 题：从“渔花子村”到“网红渔村”：江苏扬州沿湖村的美丽蝶变",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261109/34dd9563-320b-44e3-b536-3d11f3f03873_zsite.jpeg",
-        "publishedAt": "2026-11-09T05:55:59.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "中国12月起推行进口小客车新车上牌“一件事”等5项便民新措施",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-09/10728766.shtml",
-        "summary": "中新社北京11月9日电 (记者 郭超凯)记者9日从中国公安部获悉，进口小客车新车上牌“一件事”、企业纸质营业执照“免提交”、便利企业网上办事服务、便利网上办理试验车临时号牌、试点交管小安“边问边办”服务5项公安交管便民利企改革新措施，将自12月1日起在全国全面推行。",
+        "title": "云南多地迎来今冬初雪 高海拔山区银装素裹",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-09/10729146.shtml",
+        "summary": "中新网昆明11月9日电 (记者 刘冉阳)受强冷空气影响，云南多地出现降雪天气。昆明、曲靖、昭通、丽江、大理等地陆续飘起雪花，部分高海拔山区银装素裹，迎来今冬初雪。",
         "image": "",
-        "publishedAt": "2026-11-09T05:53:57.000Z",
+        "publishedAt": "2026-11-09T14:09:42.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "安徽砀山警方通报一起持刀伤人案：4人受伤，嫌犯被抓获",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-09/10729144.shtml",
+        "summary": "中新网11月9日电 据“砀山警方”微信公众号消息，安徽砀山县公安局发布警情通报：11月9日17时许，砀山县发生一起持刀伤人案，致4名群众受伤。接警后，砀山警方迅速出警，现场将犯罪嫌疑人牛某(男，43岁，有精神病史)抓获。4名伤者正在全力抢救，案件正在进一步侦办中。 #8203;#8203;#8203...",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/11/09/b214b3de3a794e949cf0df784ed7f170.png",
+        "publishedAt": "2026-11-09T14:03:39.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "“埃德加·斯诺与中国”主题展在上海开幕",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-09/10729132.shtml",
+        "summary": "中新社上海11月9日电 (记者 王笈)2026年是中国工农红军长征胜利90周年，也是埃德加·斯诺初次访问陕北90周年。“红星·漫记·长征路——埃德加·斯诺与中国”主题展9日在上海革命历史博物馆开幕。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261109/c2fc2c9f-661e-4ffb-87ad-0bb4ecb8a944_zsite.jpg",
+        "publishedAt": "2026-11-09T13:46:50.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "河北秦皇岛出现有气象记录以来最强降雪",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-09/10729096.shtml",
+        "summary": "中新社石家庄11月9日电 (记者 陈林)河北省气象局9日通报，受较强冷空气与暖湿气流共同影响，7日至8日，河北省秦皇岛市出现大范围强降雪，7个县区均达到大暴雪及以上量级，其中，青龙满族自治县、昌黎县、北戴河区、海港区为大暴雪，卢龙县、抚宁区、山海关区达到特大暴雪量级。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261109/109850fb-90c7-4924-9016-a6632c63319f_zsite.jpg",
+        "publishedAt": "2026-11-09T13:01:24.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "医药领域专家学者齐聚“中华药港” 共商人工智能赋能医药创新",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-09/10728772.shtml",
-        "summary": "中新网连云港11月9日电(记者 谷华)11月8日至9日，以“智汇中华药港：AI驱动医药创新与全球合作”为主题的第八届连云港医药技术大会在连云港经开区举行，来自医药领域的院士专家、学者代表和企业负责人等齐聚“中华药港”，共商人工智能赋能医药创新，共话产业开放合作。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261109/51c0b144-cd6c-4b5e-b89f-75218f2599a8_zsite.jpg",
-        "publishedAt": "2026-11-09T05:50:37.000Z",
+        "title": "新西兰作家尤金·道尔：全球气候行动中，中国是“房间里成熟的大人”",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-09/10729152.shtml",
+        "summary": "中新网安塔利亚11月9日电 (记者 魏园)“在我看来，中国是‘房间里成熟的大人’。”《联合国气候变化框架公约》第三十一次缔约方大会(COP31)于11月9日至20日在土耳其安塔利亚举行。关注中东问题以及亚太地区和平与安全的新西兰作家尤金·道尔(Eugene Doyle)接受中新网记者专访时表示，很多...",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/11/09/589c8498410649b2b13301a5737b2343.png",
+        "publishedAt": "2026-11-09T14:29:37.000Z",
         "source": "中新网"
       },
       {
-        "title": "中国公布调整对原产于美国的进口商品加征关税措施",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-09/10728760.shtml",
-        "summary": "中新社北京11月9日电 中国国务院关税税则委员会9日发布公告，调整对原产于美国的进口商品加征关税措施。",
-        "image": "",
-        "publishedAt": "2026-11-09T05:30:50.000Z",
+        "title": "克莱恩斯欧洲环保协会龙迪：中国是全球气候行动“最坚定的支持者”",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-09/10729151.shtml",
+        "summary": "中新网安塔利亚11月9日电 (记者 魏园 陈溯)《联合国气候变化框架公约》第三十一次缔约方大会(COP31)于11月9日至20日在土耳其安塔利亚举行。克莱恩斯欧洲环保协会 (ClientEarth)北京代表处首席龙迪(Dimitri de Boer)接受中新网记者专访时表示，“落实”气候行动的关键在...",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/11/09/1bf8ba76548c46fb96c8b1e26763d64c.png",
+        "publishedAt": "2026-11-09T14:27:20.000Z",
         "source": "中新网"
       },
       {
-        "title": "大庆油田杏南开发区吨聚增油创历史同期最好水平",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-09/10728752.shtml",
-        "summary": "中新网大庆11月9日电 (史轶夫 裴宇)9日，记者从大庆油田了解到，大庆油田杏南开发区聚驱原油产量超计划完成，吨聚增油创历史同期最好水平。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261109/56afc751-1265-40df-b525-c1af3fc9e48c_zsite.jpg",
-        "publishedAt": "2026-11-09T05:28:51.000Z",
+        "title": "2026国际山地旅游暨户外运动大会在贵州兴义开幕",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-09/10729145.shtml",
+        "summary": "中新网贵州兴义11月9日电 (石小杰)以“文旅体融合高品质生活——山地深呼吸旅居慢生活”为主题的2026国际山地旅游暨户外运动大会9日在贵州省黔西南布依族苗族自治州兴义市开幕。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261109/84cc8beb-1b68-47b9-90bc-986b5094b233_zsite.jpg",
+        "publishedAt": "2026-11-09T14:07:37.000Z",
         "source": "中新网"
       },
       {
-        "title": "（第九届进博会）外企高管话进博：中国再释开放信号 世界期待更多机遇",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-09/10728743.shtml",
-        "summary": "中新网上海11月9日电 (记者 缪璐 李佳佳)第九届中国国际进口博览会正在此间举行，多位外企高管表示，在世界经济不确定性上升、国际经贸格局深刻调整的背景下，进博会再次释放对外开放的坚定信号，他们期待在开放融通中创造新价值，拓展新机遇。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261109/641fcc2e-3256-4c2e-83ee-15f555a84a8a_zsite.JPG",
-        "publishedAt": "2026-11-09T05:23:31.000Z",
+        "title": "2026年10月份我国CPI同比上涨0.7%",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-09/10729143.shtml",
+        "summary": "数说中国丨2026年10月份我国CPI同比上涨0.7%",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/11/09/880a9df76fa04d6c9f5e2e7b978a546d.jpg",
+        "publishedAt": "2026-11-09T13:56:43.000Z",
         "source": "中新网"
       },
       {
-        "title": "10月中国CPI同比上涨0.7%",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-09/10728727.shtml",
-        "summary": "中新社北京11月9日电 (记者 王恩博)中国国家统计局9日公布，10月份，中国居民消费价格指数(CPI)同比上涨0.7%，涨幅比上月回落0.2个百分点。",
-        "image": "",
-        "publishedAt": "2026-11-09T04:34:22.000Z",
+        "title": "（第九届进博会）进博会“首发效应”凸显 展品加速变爆款",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-09/10729142.shtml",
+        "summary": "中新社上海11月9日电 (记者 徐珊珊)正在上海举行的第九届中国国际进口博览会上，欧莱雅北亚及中国公共事务总裁兰珍珍接受中新社记者采访时透露了一组数据：欧莱雅引入中国的34个品牌中，近一半是通过进博会首秀推向市场，最终成为消费者熟知的“爆款”。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261109/83b2c4f2-8ffd-43bc-946d-3c9d1760f8ab_zsite.jpg",
+        "publishedAt": "2026-11-09T13:52:23.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "Cruise ship pianist rescued from sea after nine hours in Pacific Ocean",
-        "link": "https://www.bbc.co.uk/news/articles/ck1wvrrgln13o?at_medium=RSS&at_campaign=rss",
-        "summary": "Two US fishermen say they spotted the man treading water around 20 miles (32km) off the Californian coast.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d3d5/live/8cacf090-dbdf-11f1-b348-cb75a5659779.jpg",
-        "publishedAt": "2026-11-09T02:50:13.000Z",
+        "title": "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
+        "link": "https://www.bbc.co.uk/news/articles/cwr5y58jjp8ro?at_medium=RSS&at_campaign=rss",
+        "summary": "The effort will likely fail, but Representative Thomas Massie wants to push Trump to fire Hegseth before Democrats can launch their own impeachment pr...",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/04a0/live/7de9a320-dc64-11f1-8fe6-5becaee5408f.jpg",
+        "publishedAt": "2026-11-09T18:19:19.000Z",
         "source": "BBC"
       },
       {
-        "title": "Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says",
-        "link": "https://www.bbc.co.uk/news/articles/c5x2vw4e1gx1o?at_medium=RSS&at_campaign=rss",
-        "summary": "Further details have emerged about two police officers hailed for preventing a Polish gunman from killing more.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e5f9/live/5b43f440-db76-11f1-b1f1-3be4e895d0fe.jpg",
-        "publishedAt": "2026-11-08T23:34:18.000Z",
+        "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
+        "link": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
+        "summary": "The share price dropped wiped hundreds of billions of dollars from the value of Nvidia.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7f5c/live/7cc0b9e0-dc6c-11f1-b441-2b33b063138f.jpg",
+        "publishedAt": "2026-11-09T18:11:11.000Z",
         "source": "BBC"
       },
       {
-        "title": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
-        "link": "https://www.bbc.co.uk/news/articles/c6ly3mjx958eo?at_medium=RSS&at_campaign=rss",
-        "summary": "Footage authenticated by BBC Verify shows damage to the building in the capital's central financial district.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ea80/live/2b11cc30-dbbb-11f1-93e1-3b657b665bcf.png",
-        "publishedAt": "2026-11-08T21:37:36.000Z",
+        "title": "Turkey steel factory blast kills at least 16 people",
+        "link": "https://www.bbc.co.uk/news/articles/cq2d6d5z9y5jo?at_medium=RSS&at_campaign=rss",
+        "summary": "Eyewitnesses say the explosion shook the ground, with one believing an earthquake had hit near the Habas Demir Celik plant in Aliaga.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5625/live/fd460940-dc61-11f1-8fe6-5becaee5408f.jpg",
+        "publishedAt": "2026-11-09T18:04:01.000Z",
         "source": "BBC"
       },
       {
-        "title": "Seven dead and more than 100 injured after trains collide in Egypt",
-        "link": "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo?at_medium=RSS&at_campaign=rss",
-        "summary": "Several carriages derailed after two trains travelling in the same direction crashed outside the city of Giza.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3886/live/ab03aa70-db8a-11f1-b441-2b33b063138f.jpg",
-        "publishedAt": "2026-11-08T19:58:02.000Z",
+        "title": "Trump questions midterm elections integrity after previously accepting results",
+        "link": "https://www.bbc.co.uk/news/articles/ck79p9350zp9o?at_medium=RSS&at_campaign=rss",
+        "summary": "Trump made the claims, without evidence, on Truth Social on Monday.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/de62/live/5a7465d0-dc53-11f1-a869-656dc96bd12d.jpg",
+        "publishedAt": "2026-11-09T17:47:29.000Z",
         "source": "BBC"
       },
       {
-        "title": "Homes and temples glow across India to mark Diwali",
-        "link": "https://www.bbc.co.uk/news/articles/cm70pdwz122ro?at_medium=RSS&at_campaign=rss",
-        "summary": "Millions of Indians are marking the festival of lights with glowing lamps, fireworks and traditional sweets.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d1cd/live/cc05a720-d9d5-11f1-b441-2b33b063138f.jpg",
-        "publishedAt": "2026-11-08T14:42:09.000Z",
+        "title": "France accuses Iran of supermarket fridge hacking",
+        "link": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss",
+        "summary": "The cyber-attack last month saw fridges and freezers in hundreds of supermarkets across France heated up.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f0bc/live/eec149b0-dc5d-11f1-8fe6-5becaee5408f.jpg",
+        "publishedAt": "2026-11-09T16:55:07.000Z",
         "source": "BBC"
       }
     ],
     "worldBusiness": [
       {
-        "title": "Nvidia launches investigation into CEO's affair with suspected Chinese spy",
-        "link": "https://www.bbc.co.uk/news/articles/c3dxw10rjn9no?at_medium=RSS&at_campaign=rss",
-        "summary": "Jensen Huang also admitted to having been \"unfaithful\" to his wife and says he will cooperate with a security investigation.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4981/live/81f74f50-dbb8-11f1-86cb-c1d83392da32.jpg",
-        "publishedAt": "2026-11-09T00:50:06.000Z",
+        "title": "How a civil servant got away with juggling five jobs for so long",
+        "link": "https://www.bbc.co.uk/news/articles/cw1m4d8vjvppo?at_medium=RSS&at_campaign=rss",
+        "summary": "Kashim Chowdhury has been convicted of fraud after pocketing £284,000 of taxpayers' money over three years.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d7c/live/f86c8280-db55-11f1-b441-2b33b063138f.jpg",
+        "publishedAt": "2026-11-09T18:40:31.000Z",
         "source": "BBC"
       },
       {
-        "title": "Doing these things now will help you save money at Christmas",
-        "link": "https://www.bbc.co.uk/news/articles/ck7vppll151mo?at_medium=RSS&at_campaign=rss",
-        "summary": "Small decisions made now can make a big difference to your festive finances, charities say, so here are some tips.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/903c/live/8d645510-d9ef-11f1-bb10-cdca6001fbcf.jpg",
-        "publishedAt": "2026-11-09T00:09:14.000Z",
+        "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
+        "link": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
+        "summary": "The share price dropped wiped hundreds of billions of dollars from the value of Nvidia.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7f5c/live/7cc0b9e0-dc6c-11f1-b441-2b33b063138f.jpg",
+        "publishedAt": "2026-11-09T18:11:11.000Z",
         "source": "BBC"
       },
       {
-        "title": "Hundreds of counterprotesters overwhelm ‘boycott ride’ targeting businesses believed to be pro-Israel in Philadelphia",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNTIwSG8zbzV2TWc4NXBBcnZMZ0ZCaGt3YnZ3ZnAyQThoc3g3Z0JtMTBNcGgyMlBUczd3M080UUVVcnRuUnRndnFpNlJpTExpaldzWWJScjBtVExnVXBWZHdYMXRIZk1LX3JFaWMydWJnOFYxNWhvUzFkNE41X3QxSVpUQQ?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-11-08T17:36:47.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "Government 'looking seriously' at banning under-16s from Vinted and eBay",
-        "link": "https://www.bbc.co.uk/news/articles/cmzxjvpqrjxro?at_medium=RSS&at_campaign=rss",
-        "summary": "The culture secretary confirms reports they could be in the list of platforms set to be banned next March.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1427/live/5d17fd80-db61-11f1-adda-c54f54e3ce6a.jpg",
-        "publishedAt": "2026-11-08T15:37:25.000Z",
+        "title": "Civil servant who secretly held five jobs found guilty of fraud",
+        "link": "https://www.bbc.co.uk/news/articles/cm70pgnx891do?at_medium=RSS&at_campaign=rss",
+        "summary": "Kashim Chowdhury had secretly held multiple public sector jobs on full-time salaries.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1641/live/c3324b50-d6f9-11f1-b983-c357054e4d1e.jpg",
+        "publishedAt": "2026-11-09T17:17:16.000Z",
         "source": "BBC"
       },
       {
-        "title": "The vanity economy is taking over America’s downtowns",
-        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9WMEliN1FvWmNmeUhnbU15ZWVOQlhZSGRTd191amZXcldETWVjaVF4QjdzWlR2T25Ud0tyUHBMblBmdUljUHM4RzlHeDdhaVp4aklJaWxpVjc2QVIzalU3M2ZxRV9VLVJJZTJvazhQN2ZMV3pZTFNv?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-11-08T11:30:15.000Z",
-        "source": "CNN"
+        "title": "Poundland unable to buy new stock as fears over collapse grow",
+        "link": "https://www.bbc.co.uk/news/articles/cw1l3lmem165o?at_medium=RSS&at_campaign=rss",
+        "summary": "The discount chain is continuing to edge towards collapse and is said to be \"running on fumes\", according to one insider.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c59/live/3c72aa60-dc53-11f1-b8a2-9782924402f8.jpg",
+        "publishedAt": "2026-11-09T16:46:40.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "What we know so far about Jensen Huang's affair with suspected Chinese spy",
+        "link": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+        "summary": "The billionaire tech executive finds himself mired in a personal and national security scandal.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2521/live/6ba67640-dc03-11f1-b441-2b33b063138f.jpg",
+        "publishedAt": "2026-11-09T15:46:20.000Z",
+        "source": "BBC"
       }
     ],
     "worldTech": [
       {
-        "title": "Jensen Huang: Silicon Valley superstar engulfed by personal scandal",
+        "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
+        "link": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
+        "summary": "The share price dropped wiped hundreds of billions of dollars from the value of Nvidia.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7f5c/live/7cc0b9e0-dc6c-11f1-b441-2b33b063138f.jpg",
+        "publishedAt": "2026-11-09T18:11:11.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "What we know so far about Jensen Huang's affair with suspected Chinese spy",
         "link": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
-        "summary": "Once lauded as the \"Taylor Swift of tech\", Huang is mired in scandal after an affair with a suspected Chinese spy.",
+        "summary": "The billionaire tech executive finds himself mired in a personal and national security scandal.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2521/live/6ba67640-dc03-11f1-b441-2b33b063138f.jpg",
-        "publishedAt": "2026-11-09T06:01:52.000Z",
+        "publishedAt": "2026-11-09T15:46:20.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Who is the suspected Chinese spy at centre of the Nvidia investigation?",
+        "link": "https://www.bbc.co.uk/news/videos/c80404zyr53wo?at_medium=RSS&at_campaign=rss",
+        "summary": "Alice Huang, a Chinese businesswoman, had a close relationship with Nvidia boss Jensen Huang, reports say.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b3dc/live/368a3e40-dc50-11f1-93e1-3b657b665bcf.jpg",
+        "publishedAt": "2026-11-09T14:50:35.000Z",
         "source": "BBC"
       },
       {
@@ -405,105 +421,89 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e2f/live/adc5ae70-d699-11f1-8052-913cc7942a17.jpg",
         "publishedAt": "2026-11-08T00:37:45.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Elon Musk appears to signal the end of the road for Cybertruck",
-        "link": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss",
-        "summary": "Musk said it was to make room for production of its Cybercabs - autonomous taxis without a driver.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d7ce/live/3fc37350-d9f3-11f1-a701-fddedf244c16.jpg",
-        "publishedAt": "2026-11-06T21:49:50.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "AI stocks climb after trillions wiped from market values",
-        "link": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
-        "summary": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fdde/live/9036f7e0-da01-11f1-93e1-3b657b665bcf.jpg",
-        "publishedAt": "2026-11-06T21:06:25.000Z",
-        "source": "BBC"
       }
     ],
     "domestic": [
       {
-        "title": "习近平致电祝贺约托娃当选保加利亚总统",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-09/10728775.shtml",
-        "summary": "新华社快讯：习近平致电祝贺约托娃当选保加利亚总统。",
-        "image": "",
-        "publishedAt": "2026-11-09T05:57:25.000Z",
+        "title": "中航工业多型装备亮相 “应急使命·2026”重庆重特大森林火灾扑救演习",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-09/10729123.shtml",
+        "summary": "中新网北京11月9日电 (记者 阮煜琳)记者9日从中国航空工业集团(简称中航工业)获悉，“应急使命·2026”——重庆重特大森林火灾扑救演习9日在重庆市奉节县举办，中国航空工业集团自主研制的AG600、“新舟”60灭火机等多型装备亮相。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261109/01e82c49-2482-4820-a2b7-df3c2630462f_zsite.jpg",
+        "publishedAt": "2026-11-09T13:40:06.000Z",
         "source": "中新网"
       },
       {
-        "title": "“红鹰”编队飞越长春 贺空军成立77周年",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-09/10728769.shtml",
-        "summary": "中新网长春11月9日电 (李彦国 刘栋)9日，空军航空大学“红鹰”飞行表演队以8机编队飞越长春蓝天公园，庆祝中国人民解放军空军成立77周年。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261109/1ef25c42-f25e-46e9-85fd-dcb486dd4fb9_zsite.jpg",
-        "publishedAt": "2026-11-09T05:48:47.000Z",
+        "title": "中国学者发起人工智能赋能政策研究计划入选联合国科学议程",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-09/10729111.shtml",
+        "summary": "中新网北京11月9日电 (记者 孙自法)第七届智库科学与工程国际研讨会11月8日至10日在北京举行，记者从会上获悉，由中国科学院科技战略咨询研究院院长潘教峰研究员牵头发起的“从证据到方案：人工智能驱动的政策模拟与情景分析”研究计划，2026年成功入选联合国“2024—2033年科学促进可持续发展国际...",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261109/ddbed957-e373-435c-ad1f-69197e3ddd4a_zsite.jpg",
+        "publishedAt": "2026-11-09T13:14:55.000Z",
         "source": "中新网"
       },
       {
-        "title": "中国海警舰艇编队11月9日在我钓鱼岛及其附属岛屿领海内维权巡航",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-09/10728742.shtml",
-        "summary": "中新网11月9日电 据“中国海警”微信公众号消息，11月9日，中国海警登步舰编队在我钓鱼岛及其附属岛屿领海内维权巡航。这是中国海警依法开展的维权巡航活动。",
+        "title": "韩正同土耳其副总统耶尔马兹共同出席中国－土耳其绿色发展商务论坛并致辞",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-09/10729095.shtml",
+        "summary": "中新社北京11月9日电 当地时间11月9日，中国国家副主席韩正在伊斯坦布尔同土耳其副总统耶尔马兹共同出席中国－土耳其绿色发展商务论坛并致辞。",
         "image": "",
-        "publishedAt": "2026-11-09T05:13:37.000Z",
+        "publishedAt": "2026-11-09T13:01:30.000Z",
         "source": "中新网"
       },
       {
-        "title": "（深圳APEC）联合国政策事务副秘书长：冀APEC会议成果助推联合国相关议程",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-09/10728717.shtml",
-        "summary": "中新社北京11月9日电 (记者 周昕)亚太经合组织(APEC)第三十三次领导人非正式会议将于11月18日至19日在深圳举行。近日，联合国政策事务副秘书长莱德在接受中新社等媒体采访时表示，希望深圳APEC会议能产出积极成果，帮助联合国在更广泛的全球议程上取得进展。",
-        "image": "",
-        "publishedAt": "2026-11-09T04:24:38.000Z",
+        "title": "青海“十五五”5.9亿亩草原全面监管 牧区民生改善",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-09/10729100.shtml",
+        "summary": "中新网西宁11月9日电 (记者 潘雨洁)9日，记者从青海省林业和草原局获悉，“十五五”期间，该省将统筹草原生态保护与牧区民生改善，实现草原资源5.9亿亩全面监管，并通过落实草原补奖政策，全省75万户农牧户每年补助约27.55亿元(人民币，下同)，户均达3674元。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261109/d3fff467-e3dc-4bb7-a038-f44ccf6d31b1_zsite.jpg",
+        "publishedAt": "2026-11-09T13:00:58.000Z",
         "source": "中新网"
       },
       {
-        "title": "交通运输部：继续暂停对美船舶收取船舶特别港务费",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-09/10728720.shtml",
-        "summary": "中新网11月9日电 交通运输部网站9日发布《交通运输部关于继续暂停对美船舶收取船舶特别港务费、暂停开展航运业造船业及相关产业链供应链安全和发展利益受影响情况调查的公告》称，为落实中美第八轮经贸磋商成果，经国务院批准，继续暂停实施《交通运输部关于对美船舶收取船舶特别港务费的公告》(交通运输部公告202...",
+        "title": "第四届中俄地方投资发展与贸易合作大会在沈阳开幕",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-09/10729090.shtml",
+        "summary": "中新网沈阳11月9日电 (记者 韩宏)第四届中俄地方投资发展与贸易合作大会9日在沈阳开幕。",
         "image": "",
-        "publishedAt": "2026-11-09T03:57:06.000Z",
+        "publishedAt": "2026-11-09T12:49:41.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "Cruise ship pianist rescued from sea after nine hours in Pacific Ocean",
-        "link": "https://www.bbc.co.uk/news/articles/ck1wvrrgln13o?at_medium=RSS&at_campaign=rss",
-        "summary": "Two US fishermen say they spotted the man treading water around 20 miles (32km) off the Californian coast.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d3d5/live/8cacf090-dbdf-11f1-b348-cb75a5659779.jpg",
-        "publishedAt": "2026-11-09T02:50:13.000Z",
+        "title": "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
+        "link": "https://www.bbc.co.uk/news/articles/cwr5y58jjp8ro?at_medium=RSS&at_campaign=rss",
+        "summary": "The effort will likely fail, but Representative Thomas Massie wants to push Trump to fire Hegseth before Democrats can launch their own impeachment pr...",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/04a0/live/7de9a320-dc64-11f1-8fe6-5becaee5408f.jpg",
+        "publishedAt": "2026-11-09T18:19:19.000Z",
         "source": "BBC"
       },
       {
-        "title": "Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says",
-        "link": "https://www.bbc.co.uk/news/articles/c5x2vw4e1gx1o?at_medium=RSS&at_campaign=rss",
-        "summary": "Further details have emerged about two police officers hailed for preventing a Polish gunman from killing more.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e5f9/live/5b43f440-db76-11f1-b1f1-3be4e895d0fe.jpg",
-        "publishedAt": "2026-11-08T23:34:18.000Z",
+        "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
+        "link": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
+        "summary": "The share price dropped wiped hundreds of billions of dollars from the value of Nvidia.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7f5c/live/7cc0b9e0-dc6c-11f1-b441-2b33b063138f.jpg",
+        "publishedAt": "2026-11-09T18:11:11.000Z",
         "source": "BBC"
       },
       {
-        "title": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
-        "link": "https://www.bbc.co.uk/news/articles/c6ly3mjx958eo?at_medium=RSS&at_campaign=rss",
-        "summary": "Footage authenticated by BBC Verify shows damage to the building in the capital's central financial district.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ea80/live/2b11cc30-dbbb-11f1-93e1-3b657b665bcf.png",
-        "publishedAt": "2026-11-08T21:37:36.000Z",
+        "title": "Turkey steel factory blast kills at least 16 people",
+        "link": "https://www.bbc.co.uk/news/articles/cq2d6d5z9y5jo?at_medium=RSS&at_campaign=rss",
+        "summary": "Eyewitnesses say the explosion shook the ground, with one believing an earthquake had hit near the Habas Demir Celik plant in Aliaga.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5625/live/fd460940-dc61-11f1-8fe6-5becaee5408f.jpg",
+        "publishedAt": "2026-11-09T18:04:01.000Z",
         "source": "BBC"
       },
       {
-        "title": "Seven dead and more than 100 injured after trains collide in Egypt",
-        "link": "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo?at_medium=RSS&at_campaign=rss",
-        "summary": "Several carriages derailed after two trains travelling in the same direction crashed outside the city of Giza.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3886/live/ab03aa70-db8a-11f1-b441-2b33b063138f.jpg",
-        "publishedAt": "2026-11-08T19:58:02.000Z",
+        "title": "Trump questions midterm elections integrity after previously accepting results",
+        "link": "https://www.bbc.co.uk/news/articles/ck79p9350zp9o?at_medium=RSS&at_campaign=rss",
+        "summary": "Trump made the claims, without evidence, on Truth Social on Monday.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/de62/live/5a7465d0-dc53-11f1-a869-656dc96bd12d.jpg",
+        "publishedAt": "2026-11-09T17:47:29.000Z",
         "source": "BBC"
       },
       {
-        "title": "Homes and temples glow across India to mark Diwali",
-        "link": "https://www.bbc.co.uk/news/articles/cm70pdwz122ro?at_medium=RSS&at_campaign=rss",
-        "summary": "Millions of Indians are marking the festival of lights with glowing lamps, fireworks and traditional sweets.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d1cd/live/cc05a720-d9d5-11f1-b441-2b33b063138f.jpg",
-        "publishedAt": "2026-11-08T14:42:09.000Z",
+        "title": "France accuses Iran of supermarket fridge hacking",
+        "link": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss",
+        "summary": "The cyber-attack last month saw fridges and freezers in hundreds of supermarkets across France heated up.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f0bc/live/eec149b0-dc5d-11f1-8fe6-5becaee5408f.jpg",
+        "publishedAt": "2026-11-09T16:55:07.000Z",
         "source": "BBC"
       }
     ],
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-11-09",
+    "rotationLabel": "Curated Rotation · 2026-11-10",
     "sections": [
       {
         "id": "data-storage",
@@ -522,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-4",
-            "sectionId": "data-storage",
-            "title": "Dremel: Interactive Analysis of Web-Scale Datasets",
-            "authors": [
-              "Sergey Melnik",
-              "Andrey Gubarev",
-              "Jing Jing Long",
-              "Geoffrey Romer"
-            ],
-            "venue": "VLDB",
-            "year": 2010,
-            "quality": "顶会",
-            "categories": [
-              "analytics",
-              "columnar"
-            ],
-            "link": "https://research.google/pubs/pub36632/",
-            "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-5",
             "sectionId": "data-storage",
@@ -561,7 +540,7 @@
             ],
             "link": "https://arxiv.org/abs/2401.08281",
             "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-6",
@@ -583,6 +562,27 @@
             "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
             "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-1",
+            "sectionId": "data-storage",
+            "title": "The Log-Structured Merge-Tree (LSM-Tree)",
+            "authors": [
+              "Patrick O'Neil",
+              "Edward Cheng",
+              "Dieter Gawlick",
+              "Elizabeth O'Neil"
+            ],
+            "venue": "Acta Informatica",
+            "year": 1996,
+            "quality": "经典基础",
+            "categories": [
+              "storage",
+              "indexing"
+            ],
+            "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
+            "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -592,27 +592,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-5",
-            "sectionId": "computer-vision",
-            "title": "Segment Anything",
-            "authors": [
-              "Alexander Kirillov",
-              "Eric Mintun",
-              "Nikhila Ravi",
-              "Hanzi Mao"
-            ],
-            "venue": "ICCV",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "segmentation",
-              "foundation model"
-            ],
-            "link": "https://arxiv.org/abs/2304.02643",
-            "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-6",
             "sectionId": "computer-vision",
@@ -632,7 +611,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.07193",
             "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-1",
@@ -654,6 +633,27 @@
             "link": "https://arxiv.org/abs/1512.03385",
             "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-2",
+            "sectionId": "computer-vision",
+            "title": "End-to-End Object Detection with Transformers",
+            "authors": [
+              "Nicolas Carion",
+              "Francisco Massa",
+              "Gabriel Synnaeve",
+              "Nicolas Usunier"
+            ],
+            "venue": "ECCV",
+            "year": 2020,
+            "quality": "顶会",
+            "categories": [
+              "detection",
+              "transformer"
+            ],
+            "link": "https://arxiv.org/abs/2005.12872",
+            "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -663,27 +663,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-6",
-            "sectionId": "llm-memory",
-            "title": "MemoRAG: Moving towards Next-Gen RAG Via Memory-Inspired Knowledge Discovery",
-            "authors": [
-              "Rulin Shao",
-              "Yue Liu",
-              "Shuo Wang",
-              "Yichi Zhang"
-            ],
-            "venue": "arXiv",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "RAG",
-              "memory bank"
-            ],
-            "link": "https://arxiv.org/abs/2409.05591",
-            "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-1",
             "sectionId": "llm-memory",
@@ -703,7 +682,7 @@
             ],
             "link": "https://arxiv.org/abs/2005.11401",
             "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-2",
@@ -725,6 +704,27 @@
             "link": "https://arxiv.org/abs/2203.08913",
             "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-3",
+            "sectionId": "llm-memory",
+            "title": "RETRO: Improving Language Models by Retrieving From Trillions of Tokens",
+            "authors": [
+              "Sebastian Borgeaud",
+              "Arthur Mensch",
+              "Jordan Hoffmann",
+              "Trevor Cai"
+            ],
+            "venue": "DeepMind / arXiv",
+            "year": 2022,
+            "quality": "高影响力",
+            "categories": [
+              "retrieval",
+              "language model"
+            ],
+            "link": "https://arxiv.org/abs/2112.04426",
+            "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -734,28 +734,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-1",
-            "sectionId": "agents",
-            "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
-            "authors": [
-              "Shunyu Yao",
-              "Jeffrey Zhao",
-              "Dian Yu",
-              "Nan Du"
-            ],
-            "venue": "ICLR",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "agent",
-              "reasoning",
-              "tool use"
-            ],
-            "link": "https://arxiv.org/abs/2210.03629",
-            "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-2",
             "sectionId": "agents",
@@ -775,7 +753,7 @@
             ],
             "link": "https://arxiv.org/abs/2302.04761",
             "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-3",
@@ -796,6 +774,27 @@
             ],
             "link": "https://arxiv.org/abs/2304.03442",
             "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-4",
+            "sectionId": "agents",
+            "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+            "authors": [
+              "Guanzhi Wang",
+              "Yuqi Xie",
+              "Zixiang Zhou",
+              "Yujin Tang"
+            ],
+            "venue": "arXiv",
+            "year": 2023,
+            "quality": "高影响力",
+            "categories": [
+              "embodied agent",
+              "planning"
+            ],
+            "link": "https://arxiv.org/abs/2305.16291",
+            "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
             "trackLabel": "轮换精选"
           }
         ]
