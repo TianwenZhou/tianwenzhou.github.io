@@ -1,29 +1,21 @@
 {
-  "generatedAt": "2026-11-11T05:59:40.378Z",
+  "generatedAt": "2026-11-11T16:03:55.591Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 11,
+      "temperature": 3,
       "weatherCode": 0,
-      "windSpeed": 5
+      "windSpeed": 4
     },
     "today": {
-      "date": "2026-11-11",
+      "date": "2026-11-12",
       "weatherCode": 0,
       "description": "晴朗",
-      "max": 11,
-      "min": 0,
+      "max": 12,
+      "min": 1,
       "precipitationProbability": 0
     },
     "forecast": [
-      {
-        "date": "2026-11-11",
-        "weatherCode": 0,
-        "description": "晴朗",
-        "max": 11,
-        "min": 0,
-        "precipitationProbability": 0
-      },
       {
         "date": "2026-11-12",
         "weatherCode": 0,
@@ -36,15 +28,15 @@
         "date": "2026-11-13",
         "weatherCode": 0,
         "description": "晴朗",
-        "max": 12,
-        "min": 2,
+        "max": 13,
+        "min": 3,
         "precipitationProbability": 0
       },
       {
         "date": "2026-11-14",
         "weatherCode": 3,
         "description": "阴天",
-        "max": 13,
+        "max": 12,
         "min": 2,
         "precipitationProbability": 0
       },
@@ -54,33 +46,50 @@
         "description": "阴天",
         "max": 12,
         "min": 4,
-        "precipitationProbability": 0
+        "precipitationProbability": 4
+      },
+      {
+        "date": "2026-11-16",
+        "weatherCode": 3,
+        "description": "阴天",
+        "max": 7,
+        "min": 1,
+        "precipitationProbability": 16
       }
     ]
   },
   "classicQuote": {
-    "id": "chuci-seek",
-    "text": "路漫漫其修远兮，吾将上下而求索。",
-    "source": "《离骚》",
-    "author": "屈原",
-    "note": "长期主义最难，但也最值得。"
+    "id": "analects-learning",
+    "text": "学而不思则罔，思而不学则殆。",
+    "source": "《论语》",
+    "author": "孔子",
+    "note": "提醒自己既要输入，也要沉淀，不要只忙不想。"
   },
   "bookExcerpt": {
-    "id": "border-town-river",
-    "text": "月光如银子，无处不可照及，山上篁竹在月光下变成了一片黑色，身边草丛中虫声繁密如落雨。",
-    "book": "《边城》",
-    "author": "沈从文"
+    "id": "fortress-besieged-night",
+    "text": "夜仿佛纸浸了油，变成半透明体；它给太阳拥抱住了，分不出身来，也许是给太阳溶了，所以夕照晚霞隐褪后的夜色也带着酡红。",
+    "book": "《围城》",
+    "author": "钱钟书"
   },
   "featuredPlace": {
-    "id": "202611101600",
-    "title": "大西洋森林，巴西",
+    "id": "202611111600",
+    "title": "北窗，拱门国家公园，莫阿布，犹他州，美国",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "奇妙纷呈的森林",
-    "image": "https://www.bing.com/th?id=OHR.Atlantica_ZH-CN6593995386_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E5%B7%B4%E8%A5%BF%E5%A4%A7%E8%A5%BF%E6%B4%8B%E6%A3%AE%E6%9E%97&form=hpcapt&mkt=zh-cn"
+    "summary": "没有建筑师的建筑杰作",
+    "image": "https://www.bing.com/th?id=OHR.NorthWindow_ZH-CN6734579353_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E6%8B%B1%E9%97%A8%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202611111600",
+      "title": "北窗，拱门国家公园，莫阿布，犹他州，美国",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "没有建筑师的建筑杰作",
+      "image": "https://www.bing.com/th?id=OHR.NorthWindow_ZH-CN6734579353_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E6%8B%B1%E9%97%A8%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202611101600",
       "title": "大西洋森林，巴西",
@@ -143,175 +152,166 @@
       "summary": "向山巅再迈一步",
       "image": "https://www.bing.com/th?id=OHR.StileCrossing_ZH-CN9811465935_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E8%8B%B1%E6%A0%BC%E5%85%B0%E6%B9%96%E5%8C%BA&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202611031600",
-      "title": "五彩落羽杉间划船的人们，宣城，安徽省，中国",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "泛舟如画秋林",
-      "image": "https://www.bing.com/th?id=OHR.AutumnChina_ZH-CN7665959692_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E8%90%BD%E7%BE%BD%E6%9D%89&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-11-11",
-    "dateLabel": "11月11日",
+    "dateKey": "2026-11-12",
+    "dateLabel": "11月12日",
     "items": [
       {
-        "year": "2024",
-        "text": "中国珠海市香洲区珠海市体育中心附近发生驾车撞人事件，造成35人死亡、43人受伤，肇事司机自刎未果。",
-        "link": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4"
+        "year": "2019",
+        "text": "孟加拉國東北部發生兩列客運列車相撞事故，事故導致至少16人死亡、58人受傷。事故發生後，孟加拉國成立了事故調查委員會。總統哈米德對遇難者家屬送去慰問。",
+        "link": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4"
       },
       {
-        "year": "2020",
-        "text": "中華人民共和國全國人大常委會作出關於香港立法會議員資格問題的決定，導致4名香港立法會議員楊岳橋、郭家麒、郭榮鏗以及梁繼昌繼自7月30日起被取消即時喪失議員資格，便與15名香港泛民主派議...",
-        "link": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4"
+        "year": "2014",
+        "text": "南韓女子團體 Lovelyz以Candy Jelly Love一曲出道。",
+        "link": "https://zh.wikipedia.org/wiki/2014%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "《过来人》、“闪身步”走红两岸 国台办：共鸣是密码",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-11/10730062.shtml",
-        "summary": "中新社北京11月11日电 (记者 陈建新 刘大炜)对于大陆人工智能(AI)说唱歌曲《过来人》和“闪身步”舞蹈教学影片在两岸走红，国务院台办发言人张晗11日在北京举行的例行新闻发布会上指出，共鸣是密码。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261111/976c4e1f-8f4d-4362-94d4-dcd9b38b57c0_zsite.jpeg",
-        "publishedAt": "2026-11-11T05:52:50.000Z",
+        "title": "王毅同美国国务卿鲁比奥通电话",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-11/10730564.shtml",
+        "summary": "新华社北京11月11日电#8195;中共中央政治局委员、外交部长王毅11日同美国国务卿鲁比奥通电话。双方就中美关系及两国元首互动深入交换意见，通话是积极和建设性的。",
+        "image": "",
+        "publishedAt": "2026-11-11T15:09:42.000Z",
         "source": "中新网"
       },
       {
-        "title": "中国“两次发射”方案亮相 全球载人登月进入多路线并行时代",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-11/10730068.shtml",
-        "summary": "【今日视点】",
-        "image": "",
-        "publishedAt": "2026-11-11T05:50:09.000Z",
+        "title": "（深圳APEC）2026年APEC领导人会议周新闻中心启用",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-11/10730556.shtml",
+        "summary": "中新社深圳11月11日电 (记者 蔡敏婕)2026年亚太经合组织(APEC)领导人会议周新闻中心11日在广东深圳启用，工作区域总面积1.5万平方米的新闻中心将为近5000名中外注册记者提供新闻服务保障。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261111/af9a0638-c80d-44f3-b0a1-770be566fab6_zsite.JPG",
+        "publishedAt": "2026-11-11T14:05:50.000Z",
         "source": "中新网"
       },
       {
-        "title": "国台办：欢迎台湾有关方面积极参与“妈祖”相关活动及项目",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-11/10730046.shtml",
-        "summary": "中新网11月11日电 11月7日，在上海举行了2026年“妈祖”全球数智创新应用挑战活动成果发布专场，“妈祖”方案目前已在全球8个国家落地应用。11月11日，国务院台办举行例行新闻发布会，有记者在会上就此提出相关问题。",
-        "image": "",
-        "publishedAt": "2026-11-11T05:38:31.000Z",
+        "title": "两岸民众在北京碧云寺追思中山先生",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-11/10730551.shtml",
+        "summary": "中新社北京11月11日电 题：两岸民众在北京碧云寺追思中山先生",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261111/dd5ff4d7-8ada-4021-afb5-673cabef5518_zsite.jpg",
+        "publishedAt": "2026-11-11T14:01:56.000Z",
         "source": "中新网"
       },
       {
-        "title": "国台办：台湾问题是中国内政 不容任何外来干涉",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-11/10730043.shtml",
-        "summary": "中新网11月11日电 11日，国务院台办举行例行新闻发布会。会上，有记者就APEC期间中美涉台议题讨论提问。",
+        "title": "王沪宁会见古巴党和政府特使、古共中央政治局委员、外交部长罗德里格斯",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-11/10730549.shtml",
+        "summary": "中新社北京11月11日电 中共中央政治局常委、全国政协主席王沪宁11日在北京会见古巴党和政府特使、古共中央政治局委员、外交部长罗德里格斯。",
         "image": "",
-        "publishedAt": "2026-11-11T05:21:28.000Z",
+        "publishedAt": "2026-11-11T14:00:26.000Z",
         "source": "中新网"
       },
       {
-        "title": "浩瀚大洋连起21个经济体 带你读懂APEC",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-11/10730035.shtml",
-        "summary": "浩瀚的太平洋，连接亚洲、大洋洲、北美洲和南美洲。亚太经合组织(APEC)21个经济体，因海相望，因合作相聚。亚太经合组织第三十三次领导人非正式会议即将拉开帷幕。APEC是个什么样的组织？",
-        "image": "",
-        "publishedAt": "2026-11-11T04:25:15.000Z",
+        "title": "中国新增三处世界地质遗产地",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-11/10730550.shtml",
+        "summary": "中新社北京11月11日电 中国自然资源部中国地质调查局11日消息，国际地质科学联合会近日公布了第三批100个世界地质遗产地名录，中国有三处“上榜”，分别是鲜水河断裂、云阳中侏罗世恐龙化石群和大别山三叠纪超高压变质带。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261111/054c170b-c136-4969-b362-584850bd9480_zsite.jpg",
+        "publishedAt": "2026-11-11T13:59:50.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "炮制历史谣言、筛选受众卖课 揭露伪史博主的流量生意",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-11/10730034.shtml",
-        "summary": "《本草纲目》里最早记载了怎么喝咖啡？郑和下西洋的宝船已经用上了蒸汽机？乍一听，这些说法荒诞不经，但是在一些短视频平台上，它们却被包装成足以推翻教科书的“历史新发现”。",
+        "title": "山西老年人口突破800万 围绕五大重点谋划“十五五”老龄工作布局",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-11/10730545.shtml",
+        "summary": "中新网太原11月11日电 (刘小红 杨静)11日，在中共山西省委宣传部、山西省人民政府新闻办公室举行的“开局起步‘十五五’”系列主题新闻发布会上，针对山西老龄工作相关问题，山西省民政厅党组书记、厅长李建红表示，目前山西省老年人口突破800万，“十五五”时期是当地积极应对人口老龄化的重要窗口期。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261111/ec9a155d-a126-4980-8b41-1eccb7939126_zsite.jpg",
+        "publishedAt": "2026-11-11T13:57:50.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "山西民政收官“十四五”惠及184万民众 五大方向布局“十五五”民生工作",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-11/10730543.shtml",
+        "summary": "中新网太原11月11日电 (刘小红 杨静)11日，在中共山西省委宣传部、山西省人民政府新闻办公室举行的“开局起步‘十五五’”系列主题新闻发布会上，山西省民政厅党组书记、厅长李建红介绍了全省民政事业发展情况。“十四五”期间，山西持续推进普惠性、基础性、兜底性民生建设，低保、特困、孤儿、残疾人等保障标准...",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261111/809baa35-4612-4952-ae99-2d9c387ab174_zsite.jpg",
+        "publishedAt": "2026-11-11T13:57:46.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "广西北海女子刷短视频被骗100余万元 警方全额追回",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-11/10730542.shtml",
+        "summary": "中新网北海11月11日电 (翟李强 缪春凤)广西北海警方11日披露，北海的林女士刷短视频被骗了109.7万元，警方4天横跨3省奔波千余公里，全额追回。",
         "image": "",
-        "publishedAt": "2026-11-11T04:21:35.000Z",
+        "publishedAt": "2026-11-11T13:57:44.000Z",
         "source": "中新网"
       },
       {
-        "title": "直播间买到假货谁来赔？典型案例厘清商家、主播、平台责任",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-11/10730032.shtml",
-        "summary": "电商的促销活动中，网络直播带货中，有些主播会作出“保证正品”“售后兜底”“假一赔十”等承诺，这些口头承诺算不算数，有没有法律效力？一旦买到假货，销售商家、带货主播、网络平台，到底谁来兑现赔偿？来看最高人民法院发布的一起典型案例。",
-        "image": "",
-        "publishedAt": "2026-11-11T04:10:42.000Z",
+        "title": "中亚媒体人：“百闻不如一见，这里是充满活力的新疆”",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-11/10730525.shtml",
+        "summary": "中新网新疆克拉玛依11月11日电 (张家伟)初冬的新疆克拉玛依市迎来一批远道而来的客人，2026第二届克拉玛依“相聚油城·乐享游城·魅力友城”国际文化传播活动近日在此举办，来自哈萨克斯坦、乌兹别克斯坦、吉尔吉斯斯坦、塔吉克斯坦的中亚四国媒体代表齐聚。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261111/09668aa8-b85d-4b7d-9026-1bc04a7fb506_zsite.JPG",
+        "publishedAt": "2026-11-11T13:30:04.000Z",
         "source": "中新网"
       },
       {
-        "title": "枯水期逆势回升 中国最大淡水湖水位突破12米枯水位线",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-11/10730024.shtml",
-        "summary": "中新社南昌11月11日电 (记者 姜涛)受近期持续阴雨天气等因素影响，中国最大淡水湖鄱阳湖水位止跌回涨，于11日重新站上12米枯水位线。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261111/fab9fd17-de39-4e2e-9e54-825c69857193_zsite.jpg",
-        "publishedAt": "2026-11-11T04:09:32.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "应急管理部公布一批粉尘涉爆领域执法典型案例",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-11/10730030.shtml",
-        "summary": "中新网11月11日电 据应急管理部网站消息，为进一步发挥典型执法案例警示教育作用，督促指导各地区严格守牢安全监管底线，依法从严查处粉尘涉爆领域安全生产违法行为，现公布一批执法典型案例。",
-        "image": "",
-        "publishedAt": "2026-11-11T04:02:10.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "上海市道路停车收费政策发布：15分钟内限次免费停",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-11/10729973.shtml",
-        "summary": "中新网11月11日电 据上海市发展和改革委员会网站消息，经上海市政府同意，《关于优化我市道路停车收费政策的通知》(以下简称《通知》)近日印发，将于2026年11月18日起正式施行。",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/11/11/05f6c51a5b3842d1a6491c99ab996307.png",
-        "publishedAt": "2026-11-11T03:48:45.000Z",
+        "title": "《中国科学慈善基础画像报告》在沪发布",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-11/10730517.shtml",
+        "summary": "中新网上海11月11日电 (记者 郑莹莹)由天桥脑科学研究院(中国)和《中国慈善家》影响力慈善研究院联合主办的“社会力量支持基础研究大会”11日在上海科学会堂举行。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261111/773c2e75-1775-46c4-b594-c0a101b192ae_zsite.jpeg",
+        "publishedAt": "2026-11-11T13:26:30.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "《中非标准化合作发展蓝皮书》发布",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-11/10730055.shtml",
-        "summary": "记者今天从国家标准委了解到，中国标准化研究院近日发布《中非标准化合作发展蓝皮书》，系统梳理了中非标准化合作发展历程。",
+        "title": "报告显示：中国旅游市场人气旺盛 “流量转化”考题待解",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-11/10730553.shtml",
+        "summary": "中新社合肥11月11日电 (记者 张强)世界旅游联盟等机构11日在合肥联合发布三份旅游报告，勾勒出当前中国旅游市场的基本轮廓：客流维持高景气状态，但“人气”尚未完全转化为“财气”，如何把旅游流量转化为收益，成为行业必须直面的核心考题。",
         "image": "",
-        "publishedAt": "2026-11-11T05:26:44.000Z",
+        "publishedAt": "2026-11-11T14:01:04.000Z",
         "source": "中新网"
       },
       {
-        "title": "民生调查局 | 洁厕剂、洗洁精长得像果汁、闻着像果茶，喝下去却可能要命",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-11/10730042.shtml",
-        "summary": "编者按： 这里是民生调查局，见人所未见，调查民生之变。关注你想关注的、你没关注的，调查你想看的、未看到的。 中新网北京11月11日电(钟兴真)一瓶洗洁精，占满瓶身的是切开的西柚、水蜜桃，配着“西柚清新”“鲜萃蜜桃”一类的大字；“洗洁精”三个字，却缩在下方的小字里。记者近日走访多家超市发现，雕牌、金纺...",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/11/10/ece9c1edfc634a0eb56159832aebbe9e.jpg",
-        "publishedAt": "2026-11-11T05:24:12.000Z",
+        "title": "中国（内蒙古）自由贸易试验区法治研究中心揭牌",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-11/10730546.shtml",
+        "summary": "中新网呼和浩特11月11日电 (记者 奥蓝)11日上午，“中国(内蒙古)自由贸易试验区法治研究中心”及分设在呼和浩特、满洲里、二连浩特的3个研究基地共同举行揭牌仪式。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261111/682be3a7-2c38-4816-8bb7-970c71864e2f_zsite.jpg",
+        "publishedAt": "2026-11-11T13:58:34.000Z",
         "source": "中新网"
       },
       {
-        "title": "报告：“十五五”政策有望支撑中国2027至2029年实现碳达峰",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-11/10730038.shtml",
-        "summary": "中新社土耳其安塔利亚11月11日电 (记者 陈溯)《联合国气候变化框架公约》第三十一次缔约方大会(COP31)正在土耳其安塔利亚举行。大会期间，绿色创新发展研究院(iGDP)发布的《迎接转折点：中国碳排放中长期情景分析暨EPS国家模型报告(2026)》显示，中国“十五五”(2026年至2030年)政...",
-        "image": "",
-        "publishedAt": "2026-11-11T04:56:21.000Z",
+        "title": "浙江发布可持续发展开发区蓝皮书 擦亮绿色发展底色",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-11/10730520.shtml",
+        "summary": "中新网湖州11月11日电(蓝伊旎)作为经济发展的主战场，开发区应如何持续激发创新活力？11日，可持续发展开发区探索暨浙江开发区“百区千品”拓市场系列绿色低碳专场活动在浙江湖州安吉举办，《可持续发展开发区蓝皮书——新时期浙江开发区高质量发展实践》(以下简称《蓝皮书》)在会上正式发布。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261111/66935d6f-10d7-4f44-9a21-dfb83d6dbace_zsite.jpg",
+        "publishedAt": "2026-11-11T13:31:06.000Z",
         "source": "中新网"
       },
       {
-        "title": "A股午评：超2700只个股飘红，沪指收跌，深指、创业板指收涨",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-11/10730026.shtml",
-        "summary": "A股午评：超2700只个股飘红，沪指收跌，深指、创业板指收涨；通信设备领涨；CPO大涨， “易中天”爆发；酒类、汽车、贵金属下跌",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/11/11/1dfba0305d554aceb2a0c00ad3df9caf.jpg",
-        "publishedAt": "2026-11-11T03:37:16.000Z",
+        "title": "AI“店长”助商家出海 “双十一”海外潜力市场成交量大涨",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-11/10730521.shtml",
+        "summary": "中新网杭州11月11日电(郭其钰)近年来，随着“反向海淘”在海外持续走红，越来越多海外消费者通过跨境电商平台加入中国“双十一”购物狂欢。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261111/13416259-a644-41fb-8af5-17cde5ddb6c4_zsite.jpg",
+        "publishedAt": "2026-11-11T13:27:28.000Z",
         "source": "中新网"
       },
       {
-        "title": "全国首票进口原油“锚地直提”业务落地广州港三门岛",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-11/10730020.shtml",
-        "summary": "中新网广州11月11日电 (许青青 曾旺添)超大型油轮“壮丽海港”轮(HARBOUR SPLENDOR)10日靠泊广州港三门岛锚地，在黄埔海关“锚地直提”顺势监管保障下，该轮顺利完成3万吨进口原油“锚地直提”作业，随后转港驶往惠州。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261111/e01d5ca8-3dc8-4911-88be-cd8190e5061c_zsite.jpg",
-        "publishedAt": "2026-11-11T03:33:50.000Z",
+        "title": "中（非）埃塞芝麻研究联合实验室揭牌",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-11/10730519.shtml",
+        "summary": "中新网武汉11月11日电 (记者 梁婷)中非油料科技与产业发展研讨会11日在武汉举行，由中国科技部授牌的中(非)埃塞芝麻研究联合实验室正式揭牌，这是中非首个芝麻方向联合研究实验室。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261111/5c4f4916-f260-4969-bf07-d14f10bb660a_zsite.jpg",
+        "publishedAt": "2026-11-11T13:27:06.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth, for now",
-        "link": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss",
-        "summary": "Trump welcomes the outcome, praising Hegseth as a \"Great American Patriot\", but Democrats can try again next year.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5391/live/eb55ba30-dd67-11f1-a701-fddedf244c16.jpg",
-        "publishedAt": "2026-11-11T03:26:42.000Z",
+        "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+        "link": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
+        "summary": "Talks in Abu Dhabi centred around Europe's security framework, with US envoys due to meet Putin and Zelensky on Thursday.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/93dc/live/ae624920-ddd7-11f1-93e1-3b657b665bcf.jpg",
+        "publishedAt": "2026-11-11T15:05:11.000Z",
         "source": "BBC"
       },
       {
-        "title": "Meghan's father Thomas Markle back in federal custody after allegedly removing ankle monitor",
-        "link": "https://www.bbc.co.uk/news/articles/c9j3433zy4vro?at_medium=RSS&at_campaign=rss",
-        "summary": "The 82-year-old was placed under house detention in Florida last week after being charged over possession of child sex abuse material.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5b0e/live/040fc640-dd79-11f1-93e1-3b657b665bcf.jpg",
-        "publishedAt": "2026-11-11T02:41:16.000Z",
+        "title": "Kidnapper, 74, escapes from house arrest in Argentina by abseiling from balcony",
+        "link": "https://www.bbc.co.uk/news/articles/c933gn6710lyo?at_medium=RSS&at_campaign=rss",
+        "summary": "Leonardo Bertulazzi, a former member of the Marxist guerrilla group the Red Brigades, was about to be extradited to his home country of Italy.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a91e/live/b13e3560-ddd6-11f1-b865-d17d8611efca.jpg",
+        "publishedAt": "2026-11-11T14:56:11.000Z",
         "source": "BBC"
       },
       {
@@ -319,41 +319,41 @@
         "link": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss",
         "summary": "The US Department of Justice says the men were involved in a string of plots, including a major incident near the UK airbase that is used by US armed...",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ba2/live/c17cf610-dd8f-11f1-8c82-87885cae71d3.jpg",
-        "publishedAt": "2026-11-11T01:01:20.000Z",
+        "publishedAt": "2026-11-11T14:51:26.000Z",
         "source": "BBC"
       },
       {
-        "title": "'It can kill us': Kenyans fear impact of El Niño with floods predicted",
-        "link": "https://www.bbc.co.uk/news/articles/c8wy9y37z30vo?at_medium=RSS&at_campaign=rss",
-        "summary": "Forecasters warn that this year's El Niño could be one of the strongest on record, with heavy rain and flooding in Kenya.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b8d6/live/747458d0-dc37-11f1-a701-fddedf244c16.jpg",
-        "publishedAt": "2026-11-11T00:18:07.000Z",
+        "title": "Spain sees widespread disruption in first general strike for 14 years",
+        "link": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
+        "summary": "Protests are also expected in the biggest cities less than three weeks before Spaniards vote in parliamentary elections.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/49d4/live/b795f200-ddc1-11f1-a50f-85eebf9e50e5.jpg",
+        "publishedAt": "2026-11-11T14:06:27.000Z",
         "source": "BBC"
       },
       {
-        "title": "How Paraguay’s banking crisis toppled a staunch Trump ally in Latin America",
-        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5paXFZcnFXZlhpOEhFMmJiNWM1ajg1LUxkdDQ0bUp3NXlDM3hWZ2JBWUxjb283NW1nLTVWbjdMS2NzNDUzZ0xJVTQwQW1XMnFreFBLT2R5dUNtQl9uWTA2cGZGZ3VpNW1ROExRSWpzZFRjMjFxVWo3NGJtYUpPQQ?oc=5",
+        "title": "Netanyahu’s grip on power is weakening. What will it take to end the disarray in Israel?",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQd0JhX0VUVU1OeDdjdHVFU2hmQWdqOGhGV2NQM0w1bHNxdU5pTmx4QkpWa3FFWDVzX2V3dVlUNm5fR29VUktHSzhyUW1POWRXU2k5andkbGxDR1Q2b21NcU5fMXlwbjIwT0lMTmtQNlhSenhLaVJlQy16YzZSSFZUbnROcmJwOEhnN2tBSS10cE5jaEx3cWZ6cQ?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-11-10T22:04:13.000Z",
+        "publishedAt": "2026-11-11T13:08:06.000Z",
         "source": "CNN"
       }
     ],
     "worldBusiness": [
       {
-        "title": "Stickers and building sets help drive toy sales ahead of Christmas rush",
-        "link": "https://www.bbc.co.uk/news/articles/cx5ynyg6j375o?at_medium=RSS&at_campaign=rss",
-        "summary": "A bumper year so far for toy sales comes as debate intensifies over screen time and tech connectivity.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e061/live/598724f0-dd2a-11f1-ab46-9fae224bbf6f.jpg",
-        "publishedAt": "2026-11-11T00:16:44.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Poundland hopeful for last-minute rescue deal to stave off collapse",
+        "title": "Poundland set for more time to secure a rescue deal as emergency talks continue",
         "link": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
         "summary": "The BBC understands the discount chain, which has been edging towards administration, will be given more time to find a buyer.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0a6e/live/a313f250-dd58-11f1-acd1-a78ce9f5fae0.jpg",
-        "publishedAt": "2026-11-11T00:02:07.000Z",
+        "publishedAt": "2026-11-11T10:03:34.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Christmas toy rush being driven by squishies and building sets",
+        "link": "https://www.bbc.co.uk/news/articles/cx5ynyg6j375o?at_medium=RSS&at_campaign=rss",
+        "summary": "A bumper year so far for toy sales comes as debate intensifies over screen time and tech connectivity.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/004e/live/e1c67fd0-dda9-11f1-b441-2b33b063138f.jpg",
+        "publishedAt": "2026-11-11T07:52:05.000Z",
         "source": "BBC"
       },
       {
@@ -383,6 +383,22 @@
     ],
     "worldTech": [
       {
+        "title": "New Indian mega library rocked by scandal over 'AI-generated books'",
+        "link": "https://www.bbc.co.uk/news/articles/c54gne3plvrxo?at_medium=RSS&at_campaign=rss",
+        "summary": "The Tamil Nadu government has ordered an internal audit of library collections across the state.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a10f/live/ec975ef0-dd88-11f1-994d-0d0f033add01.png",
+        "publishedAt": "2026-11-11T11:33:24.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "What we know so far about Jensen Huang's affair with suspected Chinese spy",
+        "link": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+        "summary": "The billionaire tech executive finds himself mired in a personal and national security scandal.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2521/live/6ba67640-dc03-11f1-b441-2b33b063138f.jpg",
+        "publishedAt": "2026-11-11T07:44:24.000Z",
+        "source": "BBC"
+      },
+      {
         "title": "Robot vessels take on the dangerous work of mine hunting",
         "link": "https://www.bbc.co.uk/news/articles/cj5yn24llxd6o?at_medium=RSS&at_campaign=rss",
         "summary": "The conflict in the Gulf is an opportunity for the US to test its autonomous mine-hunting systems.",
@@ -399,87 +415,71 @@
         "source": "BBC"
       },
       {
-        "title": "What we know so far about Jensen Huang's affair with suspected Chinese spy",
-        "link": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
-        "summary": "The billionaire tech executive finds himself mired in a personal and national security scandal.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2521/live/6ba67640-dc03-11f1-b441-2b33b063138f.jpg",
-        "publishedAt": "2026-11-10T21:22:36.000Z",
-        "source": "BBC"
-      },
-      {
         "title": "Claude chatbot maker set for $1.3tn stock market debut despite 'catastrophic' AI warning",
         "link": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss",
         "summary": "The AI company behind the Claude chatbot will offer its shares at between $70 and $78, which is lower than what was expected.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/151a/live/19e16bc0-dd03-11f1-a701-fddedf244c16.jpg",
         "publishedAt": "2026-11-10T17:56:12.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "‘Smartphone pinkie’ and other signs you may be using your phone too much",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBRbXlwa1BjaEdkNmJTSFN6a01oeTE4WXBmeWJYM251a09MWmtJS0wxOW5XOTBSc0JnaDkxNkVrOGxFSjNCZmpBck94WlpPMmpQWVY3OEZ3akhjMXUwUGRIbGlQMExJZmpXX1AwMVFtMFNNN3VBR0E?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-11-10T12:00:15.000Z",
-        "source": "CNN"
       }
     ],
     "domestic": [
       {
-        "title": "《过来人》、“闪身步”走红两岸 国台办：共鸣是密码",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-11/10730062.shtml",
-        "summary": "中新社北京11月11日电 (记者 陈建新 刘大炜)对于大陆人工智能(AI)说唱歌曲《过来人》和“闪身步”舞蹈教学影片在两岸走红，国务院台办发言人张晗11日在北京举行的例行新闻发布会上指出，共鸣是密码。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261111/976c4e1f-8f4d-4362-94d4-dcd9b38b57c0_zsite.jpeg",
-        "publishedAt": "2026-11-11T05:52:50.000Z",
+        "title": "王毅同美国国务卿鲁比奥通电话",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-11/10730564.shtml",
+        "summary": "新华社北京11月11日电#8195;中共中央政治局委员、外交部长王毅11日同美国国务卿鲁比奥通电话。双方就中美关系及两国元首互动深入交换意见，通话是积极和建设性的。",
+        "image": "",
+        "publishedAt": "2026-11-11T15:09:42.000Z",
         "source": "中新网"
       },
       {
-        "title": "中国“两次发射”方案亮相 全球载人登月进入多路线并行时代",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-11/10730068.shtml",
-        "summary": "【今日视点】",
-        "image": "",
-        "publishedAt": "2026-11-11T05:50:09.000Z",
+        "title": "（深圳APEC）2026年APEC领导人会议周新闻中心启用",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-11/10730556.shtml",
+        "summary": "中新社深圳11月11日电 (记者 蔡敏婕)2026年亚太经合组织(APEC)领导人会议周新闻中心11日在广东深圳启用，工作区域总面积1.5万平方米的新闻中心将为近5000名中外注册记者提供新闻服务保障。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261111/af9a0638-c80d-44f3-b0a1-770be566fab6_zsite.JPG",
+        "publishedAt": "2026-11-11T14:05:50.000Z",
         "source": "中新网"
       },
       {
-        "title": "国台办：欢迎台湾有关方面积极参与“妈祖”相关活动及项目",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-11/10730046.shtml",
-        "summary": "中新网11月11日电 11月7日，在上海举行了2026年“妈祖”全球数智创新应用挑战活动成果发布专场，“妈祖”方案目前已在全球8个国家落地应用。11月11日，国务院台办举行例行新闻发布会，有记者在会上就此提出相关问题。",
-        "image": "",
-        "publishedAt": "2026-11-11T05:38:31.000Z",
+        "title": "两岸民众在北京碧云寺追思中山先生",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-11/10730551.shtml",
+        "summary": "中新社北京11月11日电 题：两岸民众在北京碧云寺追思中山先生",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261111/dd5ff4d7-8ada-4021-afb5-673cabef5518_zsite.jpg",
+        "publishedAt": "2026-11-11T14:01:56.000Z",
         "source": "中新网"
       },
       {
-        "title": "国台办：台湾问题是中国内政 不容任何外来干涉",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-11/10730043.shtml",
-        "summary": "中新网11月11日电 11日，国务院台办举行例行新闻发布会。会上，有记者就APEC期间中美涉台议题讨论提问。",
+        "title": "王沪宁会见古巴党和政府特使、古共中央政治局委员、外交部长罗德里格斯",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-11/10730549.shtml",
+        "summary": "中新社北京11月11日电 中共中央政治局常委、全国政协主席王沪宁11日在北京会见古巴党和政府特使、古共中央政治局委员、外交部长罗德里格斯。",
         "image": "",
-        "publishedAt": "2026-11-11T05:21:28.000Z",
+        "publishedAt": "2026-11-11T14:00:26.000Z",
         "source": "中新网"
       },
       {
-        "title": "浩瀚大洋连起21个经济体 带你读懂APEC",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-11/10730035.shtml",
-        "summary": "浩瀚的太平洋，连接亚洲、大洋洲、北美洲和南美洲。亚太经合组织(APEC)21个经济体，因海相望，因合作相聚。亚太经合组织第三十三次领导人非正式会议即将拉开帷幕。APEC是个什么样的组织？",
-        "image": "",
-        "publishedAt": "2026-11-11T04:25:15.000Z",
+        "title": "中国新增三处世界地质遗产地",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-11/10730550.shtml",
+        "summary": "中新社北京11月11日电 中国自然资源部中国地质调查局11日消息，国际地质科学联合会近日公布了第三批100个世界地质遗产地名录，中国有三处“上榜”，分别是鲜水河断裂、云阳中侏罗世恐龙化石群和大别山三叠纪超高压变质带。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261111/054c170b-c136-4969-b362-584850bd9480_zsite.jpg",
+        "publishedAt": "2026-11-11T13:59:50.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth, for now",
-        "link": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss",
-        "summary": "Trump welcomes the outcome, praising Hegseth as a \"Great American Patriot\", but Democrats can try again next year.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5391/live/eb55ba30-dd67-11f1-a701-fddedf244c16.jpg",
-        "publishedAt": "2026-11-11T03:26:42.000Z",
+        "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+        "link": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
+        "summary": "Talks in Abu Dhabi centred around Europe's security framework, with US envoys due to meet Putin and Zelensky on Thursday.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/93dc/live/ae624920-ddd7-11f1-93e1-3b657b665bcf.jpg",
+        "publishedAt": "2026-11-11T15:05:11.000Z",
         "source": "BBC"
       },
       {
-        "title": "Meghan's father Thomas Markle back in federal custody after allegedly removing ankle monitor",
-        "link": "https://www.bbc.co.uk/news/articles/c9j3433zy4vro?at_medium=RSS&at_campaign=rss",
-        "summary": "The 82-year-old was placed under house detention in Florida last week after being charged over possession of child sex abuse material.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5b0e/live/040fc640-dd79-11f1-93e1-3b657b665bcf.jpg",
-        "publishedAt": "2026-11-11T02:41:16.000Z",
+        "title": "Kidnapper, 74, escapes from house arrest in Argentina by abseiling from balcony",
+        "link": "https://www.bbc.co.uk/news/articles/c933gn6710lyo?at_medium=RSS&at_campaign=rss",
+        "summary": "Leonardo Bertulazzi, a former member of the Marxist guerrilla group the Red Brigades, was about to be extradited to his home country of Italy.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a91e/live/b13e3560-ddd6-11f1-b865-d17d8611efca.jpg",
+        "publishedAt": "2026-11-11T14:56:11.000Z",
         "source": "BBC"
       },
       {
@@ -487,23 +487,23 @@
         "link": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss",
         "summary": "The US Department of Justice says the men were involved in a string of plots, including a major incident near the UK airbase that is used by US armed...",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ba2/live/c17cf610-dd8f-11f1-8c82-87885cae71d3.jpg",
-        "publishedAt": "2026-11-11T01:01:20.000Z",
+        "publishedAt": "2026-11-11T14:51:26.000Z",
         "source": "BBC"
       },
       {
-        "title": "'It can kill us': Kenyans fear impact of El Niño with floods predicted",
-        "link": "https://www.bbc.co.uk/news/articles/c8wy9y37z30vo?at_medium=RSS&at_campaign=rss",
-        "summary": "Forecasters warn that this year's El Niño could be one of the strongest on record, with heavy rain and flooding in Kenya.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b8d6/live/747458d0-dc37-11f1-a701-fddedf244c16.jpg",
-        "publishedAt": "2026-11-11T00:18:07.000Z",
+        "title": "Spain sees widespread disruption in first general strike for 14 years",
+        "link": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
+        "summary": "Protests are also expected in the biggest cities less than three weeks before Spaniards vote in parliamentary elections.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/49d4/live/b795f200-ddc1-11f1-a50f-85eebf9e50e5.jpg",
+        "publishedAt": "2026-11-11T14:06:27.000Z",
         "source": "BBC"
       },
       {
-        "title": "How Paraguay’s banking crisis toppled a staunch Trump ally in Latin America",
-        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5paXFZcnFXZlhpOEhFMmJiNWM1ajg1LUxkdDQ0bUp3NXlDM3hWZ2JBWUxjb283NW1nLTVWbjdMS2NzNDUzZ0xJVTQwQW1XMnFreFBLT2R5dUNtQl9uWTA2cGZGZ3VpNW1ROExRSWpzZFRjMjFxVWo3NGJtYUpPQQ?oc=5",
+        "title": "Netanyahu’s grip on power is weakening. What will it take to end the disarray in Israel?",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQd0JhX0VUVU1OeDdjdHVFU2hmQWdqOGhGV2NQM0w1bHNxdU5pTmx4QkpWa3FFWDVzX2V3dVlUNm5fR29VUktHSzhyUW1POWRXU2k5andkbGxDR1Q2b21NcU5fMXlwbjIwT0lMTmtQNlhSenhLaVJlQy16YzZSSFZUbnROcmJwOEhnN2tBSS10cE5jaEx3cWZ6cQ?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-11-10T22:04:13.000Z",
+        "publishedAt": "2026-11-11T13:08:06.000Z",
         "source": "CNN"
       }
     ],
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-11-11",
+    "rotationLabel": "Curated Rotation · 2026-11-12",
     "sections": [
       {
         "id": "data-storage",
@@ -522,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-6",
-            "sectionId": "data-storage",
-            "title": "DiskANN: Fast Accurate Billion-point Nearest Neighbor Search on a Single Node",
-            "authors": [
-              "Neelesh Gupta",
-              "Leland Willard",
-              "Xiangyao Yu",
-              "Yuri N."
-            ],
-            "venue": "NeurIPS",
-            "year": 2019,
-            "quality": "高影响力",
-            "categories": [
-              "vector search",
-              "ANN"
-            ],
-            "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
-            "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-1",
             "sectionId": "data-storage",
@@ -562,7 +541,7 @@
             ],
             "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
             "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-2",
@@ -584,6 +563,27 @@
             "link": "https://research.google/pubs/pub27898/",
             "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-3",
+            "sectionId": "data-storage",
+            "title": "Dynamo: Amazon's Highly Available Key-value Store",
+            "authors": [
+              "Giuseppe DeCandia",
+              "Deniz Hastorun",
+              "Madan Jampani",
+              "Gunavardhan Kakulapati"
+            ],
+            "venue": "SOSP",
+            "year": 2007,
+            "quality": "顶会",
+            "categories": [
+              "key-value",
+              "distributed systems"
+            ],
+            "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
+            "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -593,27 +593,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-1",
-            "sectionId": "computer-vision",
-            "title": "Deep Residual Learning for Image Recognition",
-            "authors": [
-              "Kaiming He",
-              "Xiangyu Zhang",
-              "Shaoqing Ren",
-              "Jian Sun"
-            ],
-            "venue": "CVPR",
-            "year": 2016,
-            "quality": "顶会",
-            "categories": [
-              "image recognition",
-              "backbone"
-            ],
-            "link": "https://arxiv.org/abs/1512.03385",
-            "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-2",
             "sectionId": "computer-vision",
@@ -633,7 +612,7 @@
             ],
             "link": "https://arxiv.org/abs/2005.12872",
             "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-3",
@@ -655,6 +634,27 @@
             "link": "https://arxiv.org/abs/2010.11929",
             "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-4",
+            "sectionId": "computer-vision",
+            "title": "Learning Transferable Visual Models From Natural Language Supervision",
+            "authors": [
+              "Alec Radford",
+              "Jong Wook Kim",
+              "Chris Hallacy",
+              "Aditya Ramesh"
+            ],
+            "venue": "ICML",
+            "year": 2021,
+            "quality": "顶会",
+            "categories": [
+              "vision-language",
+              "foundation model"
+            ],
+            "link": "https://arxiv.org/abs/2103.00020",
+            "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -664,27 +664,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-2",
-            "sectionId": "llm-memory",
-            "title": "Memorizing Transformers",
-            "authors": [
-              "Yuhuai Wu",
-              "Markus N. Rabe",
-              "DeLesley Hutchins",
-              "Christian Szegedy"
-            ],
-            "venue": "ICLR",
-            "year": 2022,
-            "quality": "顶会",
-            "categories": [
-              "memory",
-              "long context"
-            ],
-            "link": "https://arxiv.org/abs/2203.08913",
-            "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-3",
             "sectionId": "llm-memory",
@@ -704,7 +683,7 @@
             ],
             "link": "https://arxiv.org/abs/2112.04426",
             "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-4",
@@ -726,6 +705,27 @@
             "link": "https://arxiv.org/abs/2310.11511",
             "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-5",
+            "sectionId": "llm-memory",
+            "title": "LongMem: Scaling Language Model Context with Memory-Augmented Retrieval",
+            "authors": [
+              "Zeqiu Wu",
+              "Yizhong Wang",
+              "Jiacheng Liu",
+              "Yelong Shen"
+            ],
+            "venue": "ACL Findings",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "memory",
+              "long context"
+            ],
+            "link": "https://arxiv.org/abs/2306.07174",
+            "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -735,27 +735,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-3",
-            "sectionId": "agents",
-            "title": "Generative Agents: Interactive Simulacra of Human Behavior",
-            "authors": [
-              "Joon Sung Park",
-              "Joseph O'Brien",
-              "Carrie Cai",
-              "Meredith Ringel Morris"
-            ],
-            "venue": "UIST",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "agent society",
-              "memory"
-            ],
-            "link": "https://arxiv.org/abs/2304.03442",
-            "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-4",
             "sectionId": "agents",
@@ -775,7 +754,7 @@
             ],
             "link": "https://arxiv.org/abs/2305.16291",
             "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-5",
@@ -796,6 +775,27 @@
             ],
             "link": "https://arxiv.org/abs/2308.08155",
             "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-6",
+            "sectionId": "agents",
+            "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+            "authors": [
+              "John Yang",
+              "Carlos E. Jimenez",
+              "Alexander Wettig",
+              "Karthik Narasimhan"
+            ],
+            "venue": "ICLR",
+            "year": 2025,
+            "quality": "新近代表作",
+            "categories": [
+              "software agent",
+              "benchmark"
+            ],
+            "link": "https://arxiv.org/abs/2405.15793",
+            "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
             "trackLabel": "轮换精选"
           }
         ]
