@@ -1,86 +1,95 @@
 {
-  "generatedAt": "2026-11-12T07:01:03.878Z",
+  "generatedAt": "2026-11-12T16:45:13.973Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 12,
+      "temperature": 4,
       "weatherCode": 0,
-      "windSpeed": 5
+      "windSpeed": 3
     },
     "today": {
-      "date": "2026-11-12",
-      "weatherCode": 1,
-      "description": "基本晴",
-      "max": 12,
-      "min": 1,
+      "date": "2026-11-13",
+      "weatherCode": 2,
+      "description": "局部多云",
+      "max": 13,
+      "min": 3,
       "precipitationProbability": 0
     },
     "forecast": [
       {
-        "date": "2026-11-12",
-        "weatherCode": 1,
-        "description": "基本晴",
-        "max": 12,
-        "min": 1,
-        "precipitationProbability": 0
-      },
-      {
         "date": "2026-11-13",
-        "weatherCode": 0,
-        "description": "晴朗",
-        "max": 12,
-        "min": 2,
+        "weatherCode": 2,
+        "description": "局部多云",
+        "max": 13,
+        "min": 3,
         "precipitationProbability": 0
       },
       {
         "date": "2026-11-14",
         "weatherCode": 3,
         "description": "阴天",
-        "max": 12,
-        "min": 2,
+        "max": 13,
+        "min": 3,
         "precipitationProbability": 0
       },
       {
         "date": "2026-11-15",
         "weatherCode": 3,
         "description": "阴天",
-        "max": 11,
+        "max": 12,
         "min": 5,
-        "precipitationProbability": 4
+        "precipitationProbability": 2
       },
       {
         "date": "2026-11-16",
         "weatherCode": 3,
         "description": "阴天",
+        "max": 8,
+        "min": 3,
+        "precipitationProbability": 20
+      },
+      {
+        "date": "2026-11-17",
+        "weatherCode": 51,
+        "description": "毛毛雨",
         "max": 7,
         "min": 3,
-        "precipitationProbability": 15
+        "precipitationProbability": 29
       }
     ]
   },
   "classicQuote": {
-    "id": "analects-learning",
-    "text": "学而不思则罔，思而不学则殆。",
-    "source": "《论语》",
-    "author": "孔子",
-    "note": "提醒自己既要输入，也要沉淀，不要只忙不想。"
+    "id": "taoteching-accumulate",
+    "text": "合抱之木，生于毫末；九层之台，起于累土。",
+    "source": "《道德经》",
+    "author": "老子",
+    "note": "再大的目标，也要拆成今天能推进的一小步。"
   },
   "bookExcerpt": {
-    "id": "fortress-besieged-night",
-    "text": "夜仿佛纸浸了油，变成半透明体；它给太阳拥抱住了，分不出身来，也许是给太阳溶了，所以夕照晚霞隐褪后的夜色也带着酡红。",
-    "book": "《围城》",
-    "author": "钱钟书"
+    "id": "camel-xiangzi-sky",
+    "text": "天是越来越晴朗了，一轮火一样的太阳悬在空中，街上的一切都像在明晃晃地发着白光。",
+    "book": "《骆驼祥子》",
+    "author": "老舍"
   },
   "featuredPlace": {
-    "id": "202611111600",
-    "title": "北窗，拱门国家公园，莫阿布，犹他州，美国",
+    "id": "202611121600",
+    "title": "亚伯拉罕湖，艾伯塔省，加拿大",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "没有建筑师的建筑杰作",
-    "image": "https://www.bing.com/th?id=OHR.NorthWindow_ZH-CN6734579353_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E6%8B%B1%E9%97%A8%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
+    "summary": "冰下秘境",
+    "image": "https://www.bing.com/th?id=OHR.AbrahamCanada_ZH-CN0344365912_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E8%89%BE%E4%BC%AF%E5%A1%94%E7%9C%81%E4%BA%9A%E4%BC%AF%E6%8B%89%E7%BD%95%E6%B9%96&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202611121600",
+      "title": "亚伯拉罕湖，艾伯塔省，加拿大",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "冰下秘境",
+      "image": "https://www.bing.com/th?id=OHR.AbrahamCanada_ZH-CN0344365912_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E8%89%BE%E4%BC%AF%E5%A1%94%E7%9C%81%E4%BA%9A%E4%BC%AF%E6%8B%89%E7%BD%95%E6%B9%96&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202611111600",
       "title": "北窗，拱门国家公园，莫阿布，犹他州，美国",
@@ -143,367 +152,358 @@
       "summary": "穿越毛伊岛的绿色隧道",
       "image": "https://www.bing.com/th?id=OHR.PipiwaiTrail_ZH-CN1811194311_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E5%93%88%E8%8E%B1%E4%BA%9A%E5%8D%A1%E6%8B%89%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202611041600",
-      "title": "石墙边的木制翻越梯，黑岩，湖区，英格兰",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "向山巅再迈一步",
-      "image": "https://www.bing.com/th?id=OHR.StileCrossing_ZH-CN9811465935_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E8%8B%B1%E6%A0%BC%E5%85%B0%E6%B9%96%E5%8C%BA&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-11-12",
-    "dateLabel": "11月12日",
+    "dateKey": "2026-11-13",
+    "dateLabel": "11月13日",
     "items": [
       {
-        "year": "2019",
-        "text": "孟加拉國東北部發生兩列客運列車相撞事故，事故導致至少16人死亡、58人受傷。事故發生後，孟加拉國成立了事故調查委員會。總統哈米德對遇難者家屬送去慰問。",
-        "link": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4"
+        "year": "2022",
+        "text": "土耳其最大城市伊斯坦布尔独立大街发生爆炸袭击，至少8人死亡、81人受伤。当局指责库尔德斯坦工人党及叙利亚民主联盟党策动事件，以报复土耳其于2019年入侵叙利亚罗贾瓦地区。",
+        "link": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4"
       },
       {
-        "year": "2014",
-        "text": "南韓女子團體 Lovelyz以Candy Jelly Love一曲出道。",
-        "link": "https://zh.wikipedia.org/wiki/2014%E5%B9%B4"
+        "year": "2016",
+        "text": "紐西蘭南島中部城市遭遇Mw7.8的大地震，造成2人死亡和多處受到嚴重破壞。",
+        "link": "https://zh.wikipedia.org/wiki/2016%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "江西省人大常委会原委员郭兵被开除党籍",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-12/10730792.shtml",
-        "summary": "中新网11月12日电 据江西省纪委监委消息：经中共江西省委批准，江西省纪委监委对江西省人大常委会原委员、省人大法制委员会原副主任委员郭兵严重违纪违法问题进行了立案审查调查。",
+        "title": "北京将推进第四使馆区重点项目建设",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-12/10731226.shtml",
+        "summary": "中新社北京11月12日电 (记者 陈杭)北京将在东部地区，统筹推进第四使馆区重点项目建设，把金盏国际合作服务区打造成为首都国际化发展新地标；强化首都国际机场国际航空枢纽门户功能，依托首都国际会展中心加快建设具有全球影响力的国际会展集聚区。",
         "image": "",
-        "publishedAt": "2026-11-12T06:40:41.000Z",
+        "publishedAt": "2026-11-12T14:27:18.000Z",
         "source": "中新网"
       },
       {
-        "title": "习言道｜同心协力共襄中华民族伟大复兴盛举",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-12/10730764.shtml",
-        "summary": "11月12日，纪念孙中山先生诞辰160周年大会在北京人民大会堂隆重举行。中共中央总书记、国家主席、中央军委主席习近平发表重要讲话。他指出——",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/11/12/6fb7df4da8f646fcac65483d2a50b393.jpg",
-        "publishedAt": "2026-11-12T06:27:52.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "2026中美政党对话举行",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-12/10730765.shtml",
-        "summary": "中新社北京11月12日电 (记者 曾玥 周昕)11月12日，2026中美政党对话在北京举行。中共中央对外联络部部长刘海星出席并发表主旨讲话。美国前驻华大使、前联邦参议员博卡斯等美国政党、战略界、工商界人士，以及中方有关部门、地方政府、智库、高校、民间机构代表参加。双方围绕“在变化的亚太和世界中探索新...",
+        "title": "评论：纪念中山先生，中华儿女要交三份答卷",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-12/10731216.shtml",
+        "summary": "中新社北京11月12日电 题：纪念中山先生，中华儿女要交三份答卷",
         "image": "",
-        "publishedAt": "2026-11-12T06:26:16.000Z",
+        "publishedAt": "2026-11-12T14:07:17.000Z",
         "source": "中新网"
       },
       {
-        "title": "一场校地协作，如何助县域医疗“借智登高”？",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-12/10730759.shtml",
-        "summary": "中新网金华11月12日电(张煜欢)作为分级诊疗承上启下的枢纽，县级医院能否接住复杂病例、留住本土人才，决定着优质医疗均衡化的成色。在浙江，多地跳出单次义诊、短期讲学的浅层帮扶，依托校地长期协作搭建可持续的资源下沉体系。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261112/a0b2350f-77f0-4f6a-87ca-671b6a455830_zsite.jpg",
-        "publishedAt": "2026-11-12T06:25:24.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "冯忠华同志任职",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-12/10730771.shtml",
-        "summary": "近日，中央批准：冯忠华同志任广东省委副书记。",
+        "title": "学者析习近平重要讲话涉台内容：突出“团结” 释放善意",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-12/10731217.shtml",
+        "summary": "中新社北京11月12日电 题：学者析习近平重要讲话涉台内容：突出“团结” 释放善意",
         "image": "",
-        "publishedAt": "2026-11-12T06:14:09.000Z",
+        "publishedAt": "2026-11-12T14:07:07.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "罗大佑怒批民进党当局引发岛内共鸣",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-12/10731211.shtml",
+        "summary": "中新网11月12日电 (燕新台)台湾资深音乐人罗大佑近日接受台湾媒体人唐湘龙节目专访时“火力全开”，痛批民进党当局拿到权力后整个变样，直言“不要脸”。对此，岛内舆论认为罗大佑的发言“振聋发聩”，展现了文化人的风骨。",
+        "image": "",
+        "publishedAt": "2026-11-12T14:01:57.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "全国基层思政创新经验交流展示活动西安启幕",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-12/10731193.shtml",
+        "summary": "中新网西安11月12日电 (记者 张一辰 杨英琦)12日，2026年全国基层思想政治工作创新经验交流展示活动在西安举办，集中展示了全国基层思想政治工作守正创新的生动实践和丰硕成果。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261112/a0178e6c-0dcc-4998-8dab-1aff9a8cc516_zsite.jpg",
+        "publishedAt": "2026-11-12T13:47:08.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "8年寻归途 河北秦皇岛“戴河一号”为走失者点亮回家路",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-12/10730795.shtml",
-        "summary": "中新网秦皇岛11月12日电 题：8年寻归途 河北秦皇岛“戴河一号”为走失者点亮回家路",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261112/7849f50e-c93b-4a4a-a3d2-23689d55dcca_zsite.jpg",
-        "publishedAt": "2026-11-12T06:53:44.000Z",
+        "title": "留学生走进广西钦州：在平陆运河畔读懂海陆共兴与非遗传承",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-12/10731207.shtml",
+        "summary": "中新网广西钦州11月12日电(黄艳梅 吴浩)广西民族大学近日组织26名留学生代表前往广西钦州市开展2026年“感知中国”社会实践与文化体验活动，通过实地走访、文化体验与社会调研，增进在华留学生对中国历史文化底蕴与当代发展成就的深入了解。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261112/4f819a5c-9a63-486c-981b-7bdbb777e640_zsite.jpg",
+        "publishedAt": "2026-11-12T13:58:19.000Z",
         "source": "中新网"
       },
       {
-        "title": "超六成受访者希望建立“AB货”商家黑名单及公示制度",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-12/10730800.shtml",
-        "summary": "",
+        "title": "中国京津冀及周边地区出现PM2.5污染过程",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-12/10731201.shtml",
+        "summary": "中新社北京11月12日电 (记者 阮煜琳)中国京津冀及周边地区正在经历一次细颗粒物(PM2.5)污染过程。截至12日，京津冀及周边地区38个城市启动重污染天气预警，共同应对此次污染过程。",
         "image": "",
-        "publishedAt": "2026-11-12T06:52:15.000Z",
+        "publishedAt": "2026-11-12T13:51:38.000Z",
         "source": "中新网"
       },
       {
-        "title": "全国总工会：今年重点支持建设200家工匠学院",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-12/10730794.shtml",
-        "summary": "为深化产业工人队伍建设改革、提升广大职工技术技能水平，全国总工会近日确定2026年重点支持建设的200家工匠学院名单，主要面向重点传统产业、新兴产业和未来产业，突出培训实效和职工技能提升成效。",
-        "image": "",
-        "publishedAt": "2026-11-12T06:44:43.000Z",
+        "title": "第三届海峡两岸书画艺术交流展巡展在沪开幕",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-12/10731203.shtml",
+        "summary": "中新社上海11月12日电 (范宇斌)为纪念孙中山诞辰160周年，台湾民主自治同盟建盟79周年，“融绘两岸 墨韵同源”——“两岸同文·书香共读”系列活动启动仪式暨第三届海峡两岸书画艺术交流展巡展开幕式12日在上海举行。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261112/e4d96702-4d6f-4927-ba08-786f6646b81c_zsite.jpeg",
+        "publishedAt": "2026-11-12T13:50:58.000Z",
         "source": "中新网"
       },
       {
-        "title": "中蒙边境牧场“马背小学”蝶变记",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-12/10730783.shtml",
-        "summary": "中新网乌鲁木齐11月12日电 (王若瑾)初冬，在新疆生产建设兵团第六师北塔山牧场小学的多媒体教室里，教师陈文香正带着学生，通过互联网一起听山西太谷师范附属小学老师的语文公开课《少年中国说》。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261112/1f289a10-b3fa-4766-be2e-37bfcda3fa8d_zsite.jpg",
-        "publishedAt": "2026-11-12T06:35:09.000Z",
+        "title": "退休铁路工人拍摄30余万张照片 为百年滇越铁路“留影”",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-12/10731199.shtml",
+        "summary": "中新网昆明11月12日电 (黄欣媛)“南盘江记——刘红波拍摄的滇越铁路照片12年工业遗产公开课”12日在云南昆明举行。滇越铁路研究者刘红波分享其十余年来拍摄的铁路影像，带领公众回望百年滇越铁路的历史变迁，探讨工业遗产保护与活化利用的更多可能。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261112/f7bf6b2f-7a07-4640-a7f0-fd7f37502a5e_zsite.jpg",
+        "publishedAt": "2026-11-12T13:50:28.000Z",
         "source": "中新网"
       },
       {
-        "title": "在科学慈善里看到社会力量：人生选择、多样探索与韧性托举",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-12/10730789.shtml",
-        "summary": "中新网上海11月12日电 (记者 郑莹莹)由天桥脑科学研究院(中国)和《中国慈善家》影响力慈善研究院联合主办的“社会力量支持基础研究大会”11日在上海科学会堂举行。在这场大会上，一个个科学慈善故事暖流涌动。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261112/6b3756d4-7068-426a-b98e-016323ec29ac_zsite.jpeg",
-        "publishedAt": "2026-11-12T06:33:46.000Z",
+        "title": "云南拓航线增航班出惠民措施 吸引游客感受“七彩云南”魅力",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-12/10731195.shtml",
+        "summary": "中新网保山11月12日电 (黄兴鸿)“旅居云南 航旅相伴”冬春季暨“温泉喷涌·住在保山”航文旅融合新业态宣传推广活动12日在云南省保山市隆阳区启幕。该省将拓航线、增航班、推出惠民措施，旨在进一步促进航文旅融合高质量发展，吸引更多游客赴滇感受“七彩云南”魅力。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261112/30612752-a7bf-466b-8199-94936df9bdac_zsite.jpg",
+        "publishedAt": "2026-11-12T13:49:34.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "报告：2025年中国传媒产业总产值同比上升6.79%",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-12/10730798.shtml",
-        "summary": "中新网北京11月12日电 (记者 李京泽)11日发布的《传媒蓝皮书：中国传媒产业发展报告(2026)》指出，2025年，中国传媒产业保持增长趋势，全年中国传媒产业总产值为36678.55亿元(人民币)，同比上升6.79%。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261112/7816bff6-ef3f-44a5-9cae-3a8c9936f6f8_zsite.jpg",
-        "publishedAt": "2026-11-12T06:52:01.000Z",
+        "title": "成渝三地联合进京推介文旅 西部国际AI漫剧产业园亮相",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-12/10731214.shtml",
+        "summary": "中新网北京11月12日电(曹旭帆)12日，成都市锦江区、重庆市渝中区、成都市都江堰市联合在北京举办文化和旅游产业招商引资推介会，三地携区域文旅资源与产业项目亮相，与在京文旅、科技、金融等领域百余名代表对接洽谈。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261112/17f078f4-9669-4a07-bb8f-008185d298fb_zsite.jpeg",
+        "publishedAt": "2026-11-12T14:05:47.000Z",
         "source": "中新网"
       },
       {
-        "title": "日照—仁川集装箱班轮航线首航 山东日照再添陆海循环新通道",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-12/10730780.shtml",
-        "summary": "中新网日照11月12日电 (孙倩 宋洪飞 徐一杰)11月11日晚，停靠在日照港石臼港区的“凌志”轮缓缓驶离泊位，这标志着日照—仁川集装箱班轮航线迎来首航。这艘船载重12480吨，可装载1102个标准箱，从日照出发后约24小时抵达韩国仁川新港SNCT鲜光码头，次日即可分拨至韩国首尔都市圈。",
+        "title": "7吨级大型运投无人机“长鹰-8”完成运输投送试验",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-12/10731213.shtml",
+        "summary": "中新网北京11月12日电 中国兵器工业集团所属北方工业公司北方长鹰12日消息，其自主研制的7吨级大型运投无人机“长鹰-8”近日在郑州完成运输投送试验。",
         "image": "",
-        "publishedAt": "2026-11-12T06:37:57.000Z",
+        "publishedAt": "2026-11-12T14:05:07.000Z",
         "source": "中新网"
       },
       {
-        "title": "专交会举办“专利引领+地标赋能”活动 发布知识产权运营年度报告",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-12/10730775.shtml",
-        "summary": "中新网北京11月12日电 (记者 孙自法)在近日成功举行的第十五届中国国际专利技术与产品交易会(专交会)上，“专利引领+地标赋能：知识产权助力区域经济发展”专题活动、《中国知识产权运营年度报告(2025年)》《专利转化运用之道——专利转化运用专项行动(2023-2025年)典型案例汇编》新书发布活动...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261112/d32cfc26-a3ae-4f64-a770-a6241b8b43bb_zsite.jpeg",
-        "publishedAt": "2026-11-12T06:36:37.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "中国证监会：中国发展具有长期确定性 投资中国具备坚实基础",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-12/10730763.shtml",
-        "summary": "中新社上海11月12日电 中国证券监督管理委员会副主席刘浩凌12日在上海证券交易所2026年国际投资者大会上表示，中国发展具有长期确定性，投资中国具备坚实基础。当前世界百年变局加速演进，国际环境变乱交织，全球流动性周期波动、地缘冲突带来的冲击，持续考验着各国资本市场。中国始终坚持以自身高质量发展，为...",
+        "title": "内蒙古搭建起自贸试验区建设的“四梁八柱”",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-12/10731210.shtml",
+        "summary": "中新网呼和浩特11月12日电 (记者 李爱平)“经过7个月的拼搏努力，内蒙古已经搭建起自贸试验区建设的‘四梁八柱’。”11月12日下午，内蒙古自治区政府新闻办公室召开新闻发布会，内蒙古自治区政府副主席苏和作上述表示。",
         "image": "",
-        "publishedAt": "2026-11-12T06:11:59.000Z",
+        "publishedAt": "2026-11-12T14:00:33.000Z",
         "source": "中新网"
       },
       {
-        "title": "中国证监会：汇聚各方合力 全力维护市场平稳运行",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-12/10730755.shtml",
-        "summary": "11月12日，中国证监会相关负责同志在上海证券交易所2026年国际投资者大会上表示，要完善稳市机制，增强股市内在稳定性，会同相关部门协同发力，打好稳市场、稳预期政策组合拳，用好用足两项结构性货币政策工具，证券、基金公司已开展第三批互换便利操作1000亿元，支持上市公司加大回购增持力度。今年以来，上市...",
+        "title": "海南新组建空天集团 注册资金100亿元",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-12/10731206.shtml",
+        "summary": "中新网海口11月12日(记者 王晓斌)记者从海南省新闻办12日举行的发布会获悉，海南省委、省政府已明确“以场带产”发展航天产业，新组建注册资金100亿元的海南空天集团。该集团将作为文昌航天城园区的投建运主体，推动火箭、卫星和信息产业链落地。",
         "image": "",
-        "publishedAt": "2026-11-12T05:52:44.000Z",
+        "publishedAt": "2026-11-12T13:56:39.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "海南国资“十五五”将投266亿元锻造“五向图强”产业链",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-12/10731196.shtml",
+        "summary": "中新网海口11月12日电 (记者 王晓斌)海南“五向图强”如何从蓝图进一步走向落地？海南国资国企给出了一份量化的项目清单。11月12日，在海南省新闻办举行的发布会上，海南省国资委副主任申琦介绍，“十五五”期间，海南省属企业将聚焦“五向图强”落地26个标志性项目，完成总投资266亿元，全面推动种业、深...",
+        "image": "",
+        "publishedAt": "2026-11-12T13:50:04.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "Israeli strike on hospital kills at least five Palestinians, Gaza civil defence agency says",
-        "link": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
-        "summary": "The strike hit the surgery department of Nasser Hospital, injuring at least 20 people and causing extensive damage, a spokesperson says.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/61be/live/ca670730-de47-11f1-9cac-a1aa02a901fa.jpg",
-        "publishedAt": "2026-11-12T06:12:05.000Z",
+        "title": "Ukraine says military Starlink disrupted again as US envoys meet Putin in Moscow",
+        "link": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
+        "summary": "Later on Thursday, Jared Kushner and Steve Witkoff will travel to Dublin to meet Ukraine's Volodymyr Zelensky.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0196/live/ef110310-de9c-11f1-a701-fddedf244c16.jpg",
+        "publishedAt": "2026-11-12T16:31:12.000Z",
         "source": "BBC"
       },
       {
-        "title": "Ukraine's power supply close to critical as Russian strikes bring darkness and cold",
-        "link": "https://www.bbc.co.uk/news/articles/cr1ewpd95d21o?at_medium=RSS&at_campaign=rss",
-        "summary": "For parents in parts of Ukraine, trying to lead a normal family life with just a few hours of power each day is taking its toll.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2a2c/live/a70e9220-de61-11f1-a701-fddedf244c16.jpg",
-        "publishedAt": "2026-11-12T05:59:18.000Z",
+        "title": "Millions of Ebola dollars missing with staff unpaid while virus spreads, charity says",
+        "link": "https://www.bbc.co.uk/news/articles/cx98757ymm6zo?at_medium=RSS&at_campaign=rss",
+        "summary": "Medical staff are going unpaid, lack proper training and are struggling with shortages of essential supplies, MSF warns",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4358/live/fa767be0-de8d-11f1-9afe-1f03bfe02283.jpg",
+        "publishedAt": "2026-11-12T15:18:20.000Z",
         "source": "BBC"
       },
       {
-        "title": "New York building collapse kills at least two, officials say",
-        "link": "https://www.bbc.co.uk/news/articles/c8zx964glvwxo?at_medium=RSS&at_campaign=rss",
-        "summary": "A dangerous search for survivors continues after a three-storey building collapsed in Brooklyn on Wednesday afternoon.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7651/live/2883df70-de5a-11f1-9b47-0919bf7329d1.jpg",
-        "publishedAt": "2026-11-12T05:12:56.000Z",
+        "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
+        "link": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
+        "summary": "Dan Johnson visits one of the country's largest power stations, barely left standing after a ballistic missile strike by Russia.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/333a/live/e63a2ff0-dea1-11f1-93e1-3b657b665bcf.png",
+        "publishedAt": "2026-11-12T13:02:46.000Z",
         "source": "BBC"
       },
       {
-        "title": "Democrat Scott Colom seals historic win in Mississippi Senate race",
+        "title": "Democrat Scott Colom makes history as Mississippi's first black senator since 19th Century",
         "link": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
-        "summary": "Colom is the first black person from the southern state elected to the US Senate in over 140 years.",
+        "summary": "In a state Trump won two years ago by 22 points, Colom's victory extends a string of Democratic wins in the Senate.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/884a/live/97210150-de3d-11f1-a9ed-658311f31da9.jpg",
-        "publishedAt": "2026-11-12T04:00:30.000Z",
+        "publishedAt": "2026-11-12T12:56:55.000Z",
         "source": "BBC"
       },
       {
-        "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
-        "link": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
-        "summary": "Tens of thousands of people have been taking part in the strike, called by the country's main unions over housing and the high cost of living.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c8f2/live/d0df2010-de11-11f1-a701-fddedf244c16.jpg",
-        "publishedAt": "2026-11-11T22:07:37.000Z",
+        "title": "Suspected bomb hoax threats force fresh evacuations of Italian schools",
+        "link": "https://www.bbc.co.uk/news/articles/cr894w453e90o?at_medium=RSS&at_campaign=rss",
+        "summary": "Schools across Italy have received bomb threats for the second day in a row, sparking fresh panic and evacuations.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f53d/live/8b18a0e0-de90-11f1-b441-2b33b063138f.jpg",
+        "publishedAt": "2026-11-12T12:39:39.000Z",
         "source": "BBC"
       }
     ],
     "worldBusiness": [
       {
-        "title": "Poundland set for more time to secure a rescue deal as emergency talks continue",
+        "title": "The rise and fall of Jensen Huang - how the tech superstar became mired in scandal",
+        "link": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
+        "summary": "Within days, Huang's status as a seemingly untouchable figure leading the global tech race has crumbled.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/38db/live/e8339120-deb0-11f1-93e1-3b657b665bcf.jpg",
+        "publishedAt": "2026-11-12T16:02:10.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Who is Nvidia's interim CEO Colette Kress - and who could take over permanently?",
+        "link": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss",
+        "summary": "Chief financial officer Colette Kress in in charge of Nvidia for now, but several others are in the frame as potential successors.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1381/live/d9f5ab20-de97-11f1-a701-fddedf244c16.jpg",
+        "publishedAt": "2026-11-12T15:10:32.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Poundland gets more time to secure a rescue deal as emergency talks continue",
         "link": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
-        "summary": "The BBC understands the discount chain, which has been edging towards administration, will be given more time to find a buyer.",
+        "summary": "A deadline to secure a buyer was set to expire at midnight, but the retailer now has an extra 10 days to find a buyer.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0a6e/live/a313f250-dd58-11f1-acd1-a78ce9f5fae0.jpg",
-        "publishedAt": "2026-11-12T00:49:05.000Z",
+        "publishedAt": "2026-11-12T14:29:59.000Z",
         "source": "BBC"
       },
       {
-        "title": "From Paris to DC - why offices are being turned into apartments",
-        "link": "https://www.bbc.co.uk/news/articles/cm89ze7qepvyo?at_medium=RSS&at_campaign=rss",
-        "summary": "Office buildings with low occupancy rates are being transformed into flats.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/309b/live/ac3f89b0-c95e-11f1-bc2e-018d645d8d21.jpg",
-        "publishedAt": "2026-11-12T00:05:40.000Z",
+        "title": "Faisal Islam: Why the UK economy is surprisingly resilient",
+        "link": "https://www.bbc.co.uk/news/articles/cj62p32k90wyo?at_medium=RSS&at_campaign=rss",
+        "summary": "The UK is seeing impressive growth, but will it last?",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5d49/live/b6cded90-deb2-11f1-a701-fddedf244c16.jpg",
+        "publishedAt": "2026-11-12T13:27:09.000Z",
         "source": "BBC"
       },
       {
-        "title": "Some under-25s should get fewer benefits, Milburn review to say",
-        "link": "https://www.bbc.co.uk/news/articles/cwn70l1628l0o?at_medium=RSS&at_campaign=rss",
-        "summary": "The proposed radical overhaul of the welfare system would move under-25s off the main sickness benefits.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ad2c/live/98868060-de1f-11f1-a701-fddedf244c16.jpg",
-        "publishedAt": "2026-11-11T23:22:04.000Z",
+        "title": "UK economy grows at fastest rate for more than two years",
+        "link": "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss",
+        "summary": "The UK economy grew by 0.7% in the three months to September, according to official figures.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b029/live/c4ae2930-de89-11f1-b441-2b33b063138f.jpg",
+        "publishedAt": "2026-11-12T11:20:25.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Nvidia stock drops as board reportedly weighs Jensen Huang’s future | CNN Business",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBoRUJ2MTBDV1lNNy1ETnc3cXEzM1dsMmJ4OEVfT2l2bDl1NnZMd1JWV00wX2VpUE9PdU00LV9xU0V3WXdIbnRNSVFyUUJtQ3BFckZRY05ObExzbjJyZlFWUUpveUJ3dXNyQ1lNQ2UyeGtMaURf?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-11-11T23:07:35.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "Does Nvidia’s board violate its duty by keeping Huang? | CNN Business",
-        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOS2IxSXRIWk1vRXZjNVNKOV9uSVVYSVpsY0xHSHJROU9SUHJMaC1ORGNjTjQ4bzlMNlZPanFkd2JKU1h1VW1rNlhSbEZtb1RabDlhRTF5d1hlWlgycEhBLUtHcGlEUmRFcW1zQ29GaTlHdVBxVjN0TS1lSWl0ZEp5ZmRtMzVKZHV6OU1kNTEyTEJqcUk?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-11-11T22:11:00.000Z",
-        "source": "CNN"
       }
     ],
     "worldTech": [
       {
-        "title": "What we know as pressure builds on embattled Nvidia CEO Jensen Huang",
+        "title": "How AI visionary Jensen Huang was undone by his own bad decisions",
+        "link": "https://www.bbc.co.uk/news/articles/cq5y13819gpjo?at_medium=RSS&at_campaign=rss",
+        "summary": "Zoe Kleinman explains how the man who built Nvidia from the ground up lost everything in a matter of days.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/02e2/live/fc549cd0-deb0-11f1-8fb5-a771a656a227.jpg",
+        "publishedAt": "2026-11-12T16:43:36.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "The rise and fall of Jensen Huang - how the tech superstar became mired in scandal",
+        "link": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
+        "summary": "Within days, Huang's status as a seemingly untouchable figure leading the global tech race has crumbled.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/38db/live/e8339120-deb0-11f1-93e1-3b657b665bcf.jpg",
+        "publishedAt": "2026-11-12T16:02:10.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "What we know as Nvidia CEO Jensen Huang resigns over affair allegations",
         "link": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
-        "summary": "The billionaire tech executive's future is in question after reports of a second extramarital affair.",
+        "summary": "The billionaire tech executive has left the company following reports of a second extramarital affair.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2521/live/6ba67640-dc03-11f1-b441-2b33b063138f.jpg",
-        "publishedAt": "2026-11-12T04:18:33.000Z",
+        "publishedAt": "2026-11-12T15:26:39.000Z",
         "source": "BBC"
       },
       {
-        "title": "A new fire-suppression system fights flames with sound waves",
-        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUWNRMW5YRmt0TGlvM3hmSHVUb1B3U3plQnVYS29CZDhPXzh0RGRhbVBWQkZmNEl4djFOeExfcUhMTUJxV2ZFaUxneFJGRzI3elNld2ExUlE3MlJQYVFDVFBYenVfbEFWZzY5dkN5SGM1TnBmeElUYjhkT1lvU3RlVC1NbVFVMnNlVWlkejIzOEZOZw?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-11-11T13:04:00.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "New Indian mega library rocked by scandal over 'AI-generated books'",
-        "link": "https://www.bbc.co.uk/news/articles/c54gne3plvrxo?at_medium=RSS&at_campaign=rss",
-        "summary": "The Tamil Nadu government has ordered an internal audit of library collections across the state.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a10f/live/ec975ef0-dd88-11f1-994d-0d0f033add01.png",
-        "publishedAt": "2026-11-11T11:33:24.000Z",
+        "title": "Who is Nvidia's interim CEO Colette Kress - and who could take over permanently?",
+        "link": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss",
+        "summary": "Chief financial officer Colette Kress in in charge of Nvidia for now, but several others are in the frame as potential successors.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1381/live/d9f5ab20-de97-11f1-a701-fddedf244c16.jpg",
+        "publishedAt": "2026-11-12T15:10:32.000Z",
         "source": "BBC"
       },
       {
-        "title": "Robot vessels take on the dangerous work of mine hunting",
-        "link": "https://www.bbc.co.uk/news/articles/cj5yn24llxd6o?at_medium=RSS&at_campaign=rss",
-        "summary": "The conflict in the Gulf is an opportunity for the US to test its autonomous mine-hunting systems.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6570/live/e6af84c0-dce5-11f1-b441-2b33b063138f.jpg",
-        "publishedAt": "2026-11-11T00:19:13.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Nvidia hires major US law firm to investigate alleged Chinese spy affair",
-        "link": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss",
-        "summary": "The appointment was made after it emerged Jensen Huang had an affair with a woman believed to be a spy for China.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d6c/live/e7ad5400-dd59-11f1-b441-2b33b063138f.jpg",
-        "publishedAt": "2026-11-10T22:52:15.000Z",
+        "title": "Lego marketplace BrickLink offline after 'unusual activity' detected",
+        "link": "https://www.bbc.co.uk/news/articles/c6rmgw8zynr4o?at_medium=RSS&at_campaign=rss",
+        "summary": "Known as the eBay of Lego, it has been down for three days and is yet to disclose what caused the shutdown.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/38f3/live/c4e58c50-de1a-11f1-9f86-23852740988a.jpg",
+        "publishedAt": "2026-11-11T22:26:18.000Z",
         "source": "BBC"
       }
     ],
     "domestic": [
       {
-        "title": "江西省人大常委会原委员郭兵被开除党籍",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-12/10730792.shtml",
-        "summary": "中新网11月12日电 据江西省纪委监委消息：经中共江西省委批准，江西省纪委监委对江西省人大常委会原委员、省人大法制委员会原副主任委员郭兵严重违纪违法问题进行了立案审查调查。",
+        "title": "北京将推进第四使馆区重点项目建设",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-12/10731226.shtml",
+        "summary": "中新社北京11月12日电 (记者 陈杭)北京将在东部地区，统筹推进第四使馆区重点项目建设，把金盏国际合作服务区打造成为首都国际化发展新地标；强化首都国际机场国际航空枢纽门户功能，依托首都国际会展中心加快建设具有全球影响力的国际会展集聚区。",
         "image": "",
-        "publishedAt": "2026-11-12T06:40:41.000Z",
+        "publishedAt": "2026-11-12T14:27:18.000Z",
         "source": "中新网"
       },
       {
-        "title": "习言道｜同心协力共襄中华民族伟大复兴盛举",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-12/10730764.shtml",
-        "summary": "11月12日，纪念孙中山先生诞辰160周年大会在北京人民大会堂隆重举行。中共中央总书记、国家主席、中央军委主席习近平发表重要讲话。他指出——",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/11/12/6fb7df4da8f646fcac65483d2a50b393.jpg",
-        "publishedAt": "2026-11-12T06:27:52.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "2026中美政党对话举行",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-12/10730765.shtml",
-        "summary": "中新社北京11月12日电 (记者 曾玥 周昕)11月12日，2026中美政党对话在北京举行。中共中央对外联络部部长刘海星出席并发表主旨讲话。美国前驻华大使、前联邦参议员博卡斯等美国政党、战略界、工商界人士，以及中方有关部门、地方政府、智库、高校、民间机构代表参加。双方围绕“在变化的亚太和世界中探索新...",
+        "title": "评论：纪念中山先生，中华儿女要交三份答卷",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-12/10731216.shtml",
+        "summary": "中新社北京11月12日电 题：纪念中山先生，中华儿女要交三份答卷",
         "image": "",
-        "publishedAt": "2026-11-12T06:26:16.000Z",
+        "publishedAt": "2026-11-12T14:07:17.000Z",
         "source": "中新网"
       },
       {
-        "title": "一场校地协作，如何助县域医疗“借智登高”？",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-12/10730759.shtml",
-        "summary": "中新网金华11月12日电(张煜欢)作为分级诊疗承上启下的枢纽，县级医院能否接住复杂病例、留住本土人才，决定着优质医疗均衡化的成色。在浙江，多地跳出单次义诊、短期讲学的浅层帮扶，依托校地长期协作搭建可持续的资源下沉体系。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261112/a0b2350f-77f0-4f6a-87ca-671b6a455830_zsite.jpg",
-        "publishedAt": "2026-11-12T06:25:24.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "冯忠华同志任职",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-12/10730771.shtml",
-        "summary": "近日，中央批准：冯忠华同志任广东省委副书记。",
+        "title": "学者析习近平重要讲话涉台内容：突出“团结” 释放善意",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-12/10731217.shtml",
+        "summary": "中新社北京11月12日电 题：学者析习近平重要讲话涉台内容：突出“团结” 释放善意",
         "image": "",
-        "publishedAt": "2026-11-12T06:14:09.000Z",
+        "publishedAt": "2026-11-12T14:07:07.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "罗大佑怒批民进党当局引发岛内共鸣",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-12/10731211.shtml",
+        "summary": "中新网11月12日电 (燕新台)台湾资深音乐人罗大佑近日接受台湾媒体人唐湘龙节目专访时“火力全开”，痛批民进党当局拿到权力后整个变样，直言“不要脸”。对此，岛内舆论认为罗大佑的发言“振聋发聩”，展现了文化人的风骨。",
+        "image": "",
+        "publishedAt": "2026-11-12T14:01:57.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "全国基层思政创新经验交流展示活动西安启幕",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-12/10731193.shtml",
+        "summary": "中新网西安11月12日电 (记者 张一辰 杨英琦)12日，2026年全国基层思想政治工作创新经验交流展示活动在西安举办，集中展示了全国基层思想政治工作守正创新的生动实践和丰硕成果。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261112/a0178e6c-0dcc-4998-8dab-1aff9a8cc516_zsite.jpg",
+        "publishedAt": "2026-11-12T13:47:08.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "Israeli strike on hospital kills at least five Palestinians, Gaza civil defence agency says",
-        "link": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
-        "summary": "The strike hit the surgery department of Nasser Hospital, injuring at least 20 people and causing extensive damage, a spokesperson says.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/61be/live/ca670730-de47-11f1-9cac-a1aa02a901fa.jpg",
-        "publishedAt": "2026-11-12T06:12:05.000Z",
+        "title": "Ukraine says military Starlink disrupted again as US envoys meet Putin in Moscow",
+        "link": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
+        "summary": "Later on Thursday, Jared Kushner and Steve Witkoff will travel to Dublin to meet Ukraine's Volodymyr Zelensky.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0196/live/ef110310-de9c-11f1-a701-fddedf244c16.jpg",
+        "publishedAt": "2026-11-12T16:31:12.000Z",
         "source": "BBC"
       },
       {
-        "title": "Ukraine's power supply close to critical as Russian strikes bring darkness and cold",
-        "link": "https://www.bbc.co.uk/news/articles/cr1ewpd95d21o?at_medium=RSS&at_campaign=rss",
-        "summary": "For parents in parts of Ukraine, trying to lead a normal family life with just a few hours of power each day is taking its toll.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2a2c/live/a70e9220-de61-11f1-a701-fddedf244c16.jpg",
-        "publishedAt": "2026-11-12T05:59:18.000Z",
+        "title": "Millions of Ebola dollars missing with staff unpaid while virus spreads, charity says",
+        "link": "https://www.bbc.co.uk/news/articles/cx98757ymm6zo?at_medium=RSS&at_campaign=rss",
+        "summary": "Medical staff are going unpaid, lack proper training and are struggling with shortages of essential supplies, MSF warns",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4358/live/fa767be0-de8d-11f1-9afe-1f03bfe02283.jpg",
+        "publishedAt": "2026-11-12T15:18:20.000Z",
         "source": "BBC"
       },
       {
-        "title": "New York building collapse kills at least two, officials say",
-        "link": "https://www.bbc.co.uk/news/articles/c8zx964glvwxo?at_medium=RSS&at_campaign=rss",
-        "summary": "A dangerous search for survivors continues after a three-storey building collapsed in Brooklyn on Wednesday afternoon.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7651/live/2883df70-de5a-11f1-9b47-0919bf7329d1.jpg",
-        "publishedAt": "2026-11-12T05:12:56.000Z",
+        "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
+        "link": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
+        "summary": "Dan Johnson visits one of the country's largest power stations, barely left standing after a ballistic missile strike by Russia.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/333a/live/e63a2ff0-dea1-11f1-93e1-3b657b665bcf.png",
+        "publishedAt": "2026-11-12T13:02:46.000Z",
         "source": "BBC"
       },
       {
-        "title": "Democrat Scott Colom seals historic win in Mississippi Senate race",
+        "title": "Democrat Scott Colom makes history as Mississippi's first black senator since 19th Century",
         "link": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
-        "summary": "Colom is the first black person from the southern state elected to the US Senate in over 140 years.",
+        "summary": "In a state Trump won two years ago by 22 points, Colom's victory extends a string of Democratic wins in the Senate.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/884a/live/97210150-de3d-11f1-a9ed-658311f31da9.jpg",
-        "publishedAt": "2026-11-12T04:00:30.000Z",
+        "publishedAt": "2026-11-12T12:56:55.000Z",
         "source": "BBC"
       },
       {
-        "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
-        "link": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
-        "summary": "Tens of thousands of people have been taking part in the strike, called by the country's main unions over housing and the high cost of living.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c8f2/live/d0df2010-de11-11f1-a701-fddedf244c16.jpg",
-        "publishedAt": "2026-11-11T22:07:37.000Z",
+        "title": "Suspected bomb hoax threats force fresh evacuations of Italian schools",
+        "link": "https://www.bbc.co.uk/news/articles/cr894w453e90o?at_medium=RSS&at_campaign=rss",
+        "summary": "Schools across Italy have received bomb threats for the second day in a row, sparking fresh panic and evacuations.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f53d/live/8b18a0e0-de90-11f1-b441-2b33b063138f.jpg",
+        "publishedAt": "2026-11-12T12:39:39.000Z",
         "source": "BBC"
       }
     ],
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-11-12",
+    "rotationLabel": "Curated Rotation · 2026-11-13",
     "sections": [
       {
         "id": "data-storage",
@@ -522,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-1",
-            "sectionId": "data-storage",
-            "title": "The Log-Structured Merge-Tree (LSM-Tree)",
-            "authors": [
-              "Patrick O'Neil",
-              "Edward Cheng",
-              "Dieter Gawlick",
-              "Elizabeth O'Neil"
-            ],
-            "venue": "Acta Informatica",
-            "year": 1996,
-            "quality": "经典基础",
-            "categories": [
-              "storage",
-              "indexing"
-            ],
-            "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
-            "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-2",
             "sectionId": "data-storage",
@@ -562,7 +541,7 @@
             ],
             "link": "https://research.google/pubs/pub27898/",
             "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-3",
@@ -584,6 +563,27 @@
             "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
             "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-4",
+            "sectionId": "data-storage",
+            "title": "Dremel: Interactive Analysis of Web-Scale Datasets",
+            "authors": [
+              "Sergey Melnik",
+              "Andrey Gubarev",
+              "Jing Jing Long",
+              "Geoffrey Romer"
+            ],
+            "venue": "VLDB",
+            "year": 2010,
+            "quality": "顶会",
+            "categories": [
+              "analytics",
+              "columnar"
+            ],
+            "link": "https://research.google/pubs/pub36632/",
+            "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -593,27 +593,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-2",
-            "sectionId": "computer-vision",
-            "title": "End-to-End Object Detection with Transformers",
-            "authors": [
-              "Nicolas Carion",
-              "Francisco Massa",
-              "Gabriel Synnaeve",
-              "Nicolas Usunier"
-            ],
-            "venue": "ECCV",
-            "year": 2020,
-            "quality": "顶会",
-            "categories": [
-              "detection",
-              "transformer"
-            ],
-            "link": "https://arxiv.org/abs/2005.12872",
-            "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-3",
             "sectionId": "computer-vision",
@@ -633,7 +612,7 @@
             ],
             "link": "https://arxiv.org/abs/2010.11929",
             "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-4",
@@ -655,6 +634,27 @@
             "link": "https://arxiv.org/abs/2103.00020",
             "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-5",
+            "sectionId": "computer-vision",
+            "title": "Segment Anything",
+            "authors": [
+              "Alexander Kirillov",
+              "Eric Mintun",
+              "Nikhila Ravi",
+              "Hanzi Mao"
+            ],
+            "venue": "ICCV",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "segmentation",
+              "foundation model"
+            ],
+            "link": "https://arxiv.org/abs/2304.02643",
+            "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -664,27 +664,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-3",
-            "sectionId": "llm-memory",
-            "title": "RETRO: Improving Language Models by Retrieving From Trillions of Tokens",
-            "authors": [
-              "Sebastian Borgeaud",
-              "Arthur Mensch",
-              "Jordan Hoffmann",
-              "Trevor Cai"
-            ],
-            "venue": "DeepMind / arXiv",
-            "year": 2022,
-            "quality": "高影响力",
-            "categories": [
-              "retrieval",
-              "language model"
-            ],
-            "link": "https://arxiv.org/abs/2112.04426",
-            "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-4",
             "sectionId": "llm-memory",
@@ -704,7 +683,7 @@
             ],
             "link": "https://arxiv.org/abs/2310.11511",
             "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-5",
@@ -726,6 +705,27 @@
             "link": "https://arxiv.org/abs/2306.07174",
             "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-6",
+            "sectionId": "llm-memory",
+            "title": "MemoRAG: Moving towards Next-Gen RAG Via Memory-Inspired Knowledge Discovery",
+            "authors": [
+              "Rulin Shao",
+              "Yue Liu",
+              "Shuo Wang",
+              "Yichi Zhang"
+            ],
+            "venue": "arXiv",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "RAG",
+              "memory bank"
+            ],
+            "link": "https://arxiv.org/abs/2409.05591",
+            "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -735,27 +735,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-4",
-            "sectionId": "agents",
-            "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
-            "authors": [
-              "Guanzhi Wang",
-              "Yuqi Xie",
-              "Zixiang Zhou",
-              "Yujin Tang"
-            ],
-            "venue": "arXiv",
-            "year": 2023,
-            "quality": "高影响力",
-            "categories": [
-              "embodied agent",
-              "planning"
-            ],
-            "link": "https://arxiv.org/abs/2305.16291",
-            "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-5",
             "sectionId": "agents",
@@ -775,7 +754,7 @@
             ],
             "link": "https://arxiv.org/abs/2308.08155",
             "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-6",
@@ -796,6 +775,28 @@
             ],
             "link": "https://arxiv.org/abs/2405.15793",
             "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-1",
+            "sectionId": "agents",
+            "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+            "authors": [
+              "Shunyu Yao",
+              "Jeffrey Zhao",
+              "Dian Yu",
+              "Nan Du"
+            ],
+            "venue": "ICLR",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "agent",
+              "reasoning",
+              "tool use"
+            ],
+            "link": "https://arxiv.org/abs/2210.03629",
+            "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
             "trackLabel": "轮换精选"
           }
         ]
