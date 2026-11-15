@@ -1,29 +1,21 @@
 {
-  "generatedAt": "2026-11-15T15:36:31.615Z",
+  "generatedAt": "2026-11-15T20:59:04.346Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 6,
+      "temperature": 5,
       "weatherCode": 3,
       "windSpeed": 4
     },
     "today": {
-      "date": "2026-11-15",
-      "weatherCode": 3,
-      "description": "阴天",
-      "max": 11,
-      "min": 3,
-      "precipitationProbability": 2
+      "date": "2026-11-16",
+      "weatherCode": 51,
+      "description": "毛毛雨",
+      "max": 6,
+      "min": 4,
+      "precipitationProbability": 42
     },
     "forecast": [
-      {
-        "date": "2026-11-15",
-        "weatherCode": 3,
-        "description": "阴天",
-        "max": 11,
-        "min": 3,
-        "precipitationProbability": 2
-      },
       {
         "date": "2026-11-16",
         "weatherCode": 51,
@@ -37,21 +29,29 @@
         "weatherCode": 3,
         "description": "阴天",
         "max": 8,
-        "min": 2,
+        "min": 1,
         "precipitationProbability": 25
       },
       {
         "date": "2026-11-18",
-        "weatherCode": 2,
-        "description": "局部多云",
+        "weatherCode": 1,
+        "description": "基本晴",
         "max": 5,
         "min": -1,
         "precipitationProbability": 13
       },
       {
         "date": "2026-11-19",
-        "weatherCode": 2,
-        "description": "局部多云",
+        "weatherCode": 1,
+        "description": "基本晴",
+        "max": 6,
+        "min": -3,
+        "precipitationProbability": 0
+      },
+      {
+        "date": "2026-11-20",
+        "weatherCode": 3,
+        "description": "阴天",
         "max": 6,
         "min": -2,
         "precipitationProbability": 0
@@ -59,28 +59,37 @@
     ]
   },
   "classicQuote": {
-    "id": "zhuangzi-time",
-    "text": "人生天地之间，若白驹之过隙，忽然而已。",
-    "source": "《庄子》",
-    "author": "庄周",
-    "note": "事情很多的时候，更值得把注意力放在真正重要的事上。"
+    "id": "dream-red-mansions",
+    "text": "世事洞明皆学问，人情练达即文章。",
+    "source": "《红楼梦》",
+    "author": "曹雪芹",
+    "note": "技术之外，理解人和场景，往往更能拉开差距。"
   },
   "bookExcerpt": {
-    "id": "one-hundred-years-yellow",
-    "text": "许多年以后，面对行刑队，奥雷里亚诺·布恩迪亚上校将会想起父亲带他去见识冰块的那个遥远的下午。",
-    "book": "《百年孤独》",
-    "author": "加西亚·马尔克斯"
+    "id": "floating-life-lotus",
+    "text": "芸坐其侧，素手烹茶，窗外新荷微香，连晚风也像带着水意，从竹帘间一寸寸地漫进来。",
+    "book": "《浮生六记》",
+    "author": "沈复"
   },
   "featuredPlace": {
-    "id": "202611141600",
-    "title": "覆霜的红叶杜鹃",
+    "id": "202611151600",
+    "title": "美国新墨西哥州吉拉悬崖民居国家纪念地",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "霜染枝叶",
-    "image": "https://www.bing.com/th?id=OHR.FirstFrost_ZH-CN2219029557_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E6%9D%9C%E9%B9%83%E8%8A%B1&form=hpcapt&mkt=zh-cn"
+    "summary": "历经岁月，屹立不倒",
+    "image": "https://www.bing.com/th?id=OHR.GilaCliff_ZH-CN2393001519_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E5%90%89%E6%8B%89%E6%82%AC%E5%B4%96%E6%B0%91%E5%B1%85%E5%9B%BD%E5%AE%B6%E7%BA%AA%E5%BF%B5%E5%9C%B0&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202611151600",
+      "title": "美国新墨西哥州吉拉悬崖民居国家纪念地",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "历经岁月，屹立不倒",
+      "image": "https://www.bing.com/th?id=OHR.GilaCliff_ZH-CN2393001519_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E5%90%89%E6%8B%89%E6%82%AC%E5%B4%96%E6%B0%91%E5%B1%85%E5%9B%BD%E5%AE%B6%E7%BA%AA%E5%BF%B5%E5%9C%B0&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202611141600",
       "title": "覆霜的红叶杜鹃",
@@ -143,30 +152,21 @@
       "summary": "艺术与韵律交汇之地",
       "image": "https://www.bing.com/th?id=OHR.TrianaSpain_ZH-CN6329291776_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E8%A5%BF%E7%8F%AD%E7%89%99%E5%A1%9E%E7%BB%B4%E5%88%A9%E4%BA%9A&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202611071600",
-      "title": "排灯节灯笼，孟买，马哈拉施特拉邦，印度",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "光芒四射的节日",
-      "image": "https://www.bing.com/th?id=OHR.DiwaliLamps_ZH-CN2462894749_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E6%8E%92%E7%81%AF%E8%8A%82&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-11-15",
-    "dateLabel": "11月15日",
+    "dateKey": "2026-11-16",
+    "dateLabel": "11月16日",
     "items": [
       {
-        "year": "2022",
-        "text": "根據聯合國發布的《2022年世界人口展望》，世界人口已突破80億。",
-        "link": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4"
+        "year": "2021",
+        "text": "2021年白俄羅斯－歐盟邊界危機：難民向波蘭邊防衛隊（英语：）投擲石塊並試圖摧毀白俄羅斯–波蘭邊境臨時關閉的檢查站邊境圍欄，而波蘭邊防衛隊予以水砲及催淚瓦斯回擊，並指責白俄羅斯的國家邊...",
+        "link": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4"
       },
       {
-        "year": "2020",
-        "text": "区域全面经济伙伴关系协定在越南河内签订。",
-        "link": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4"
+        "year": "2021",
+        "text": "小行星中心公布新的土星衛星並將之命名為S/2019 S 1，土星已知的衛星總數達到83顆。",
+        "link": "https://zh.wikipedia.org/wiki/%E5%B0%8F%E8%A1%8C%E6%98%9F%E4%B8%AD%E5%BF%83"
       }
     ]
   },
@@ -299,19 +299,35 @@
     ],
     "worldTop": [
       {
-        "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
-        "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
-        "summary": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cdfb/live/3e3fdc00-e103-11f1-b441-2b33b063138f.jpg",
-        "publishedAt": "2026-11-15T14:56:21.000Z",
+        "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
+        "link": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss",
+        "summary": "The Ukrainian president says restrictions are still in place and making it difficult to stop Russian attacks.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8bb5/live/938b6e20-e114-11f1-a7db-d90284d21c62.jpg",
+        "publishedAt": "2026-11-15T19:32:39.000Z",
         "source": "BBC"
       },
       {
-        "title": "Iran targets US military base in Bahrain with drone attack",
-        "link": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
-        "summary": "It marks the second attack on the country in three days and comes as the US and Iran remain locked in a stand-off over the Strait of Hormuz.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0351/live/2e8de2e0-e106-11f1-93e1-3b657b665bcf.jpg",
-        "publishedAt": "2026-11-15T13:42:58.000Z",
+        "title": "Pope Leo rides in helicopter cockpit during Peru trip",
+        "link": "https://www.bbc.co.uk/news/videos/c6pw4rl00lrjo?at_medium=RSS&at_campaign=rss",
+        "summary": "The Pope took to the skies before arriving in Cusco on the penultimate day of his Latin America tour.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cc34/live/e2a8fc70-e11e-11f1-b441-2b33b063138f.jpg",
+        "publishedAt": "2026-11-15T18:38:11.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Czechs rally against plan to switch funding of public media",
+        "link": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss",
+        "summary": "Protesters say the move will stifle media freedom, while the government insists broadcasters need to cut costs.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0f9f/live/b7b68ac0-e121-11f1-9705-e15ce514cc96.jpg",
+        "publishedAt": "2026-11-15T17:23:40.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+        "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
+        "summary": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa43/live/e2a9a870-e10d-11f1-93e1-3b657b665bcf.jpg",
+        "publishedAt": "2026-11-15T14:56:21.000Z",
         "source": "BBC"
       },
       {
@@ -321,30 +337,22 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/32ab/live/d67148b0-e0ef-11f1-97b9-9110abfffc70.png",
         "publishedAt": "2026-11-15T13:37:45.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Three men sentenced to death in Jordan over fatal church mass shooting",
-        "link": "https://www.bbc.co.uk/news/articles/c3rrg9xgqlwpo?at_medium=RSS&at_campaign=rss",
-        "summary": "The attack on funeral at a Greek Orthodox church killed nine and injured 34 others last month.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0fb0/live/ed275c50-e0dd-11f1-a701-fddedf244c16.jpg",
-        "publishedAt": "2026-11-15T11:06:32.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
-        "link": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
-        "summary": "Both Hamas and IDF officials confirm the death of Samir Abu Younis, commander of the Rafah Brigade.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c19/live/fcdf6660-e0ce-11f1-a701-fddedf244c16.jpg",
-        "publishedAt": "2026-11-15T08:17:41.000Z",
-        "source": "BBC"
       }
     ],
     "worldBusiness": [
       {
+        "title": "Meet the miso-making engineer behind Anthropic’s biggest hit",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB3SkJ3Z1pfMDlSUnV6aDRLdjh6T0xwZ0pTb2I4MzNrTzF0ZUpnZmw2SUFhMGctYUlkMWxDMUVtR1FEOHdUTTZCUU44NFJXd2NYajVkUEowbHdXNV9lOTB6bHM4bVVBRzQ5WU5fR2dRaWlVNkcxckJUTkRB?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-11-15T17:00:15.000Z",
+        "source": "CNN"
+      },
+      {
         "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
         "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
         "summary": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cdfb/live/3e3fdc00-e103-11f1-b441-2b33b063138f.jpg",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa43/live/e2a9a870-e10d-11f1-93e1-3b657b665bcf.jpg",
         "publishedAt": "2026-11-15T14:56:21.000Z",
         "source": "BBC"
       },
@@ -365,14 +373,6 @@
         "source": "BBC"
       },
       {
-        "title": "‘Separating wants and needs’: Milwaukee couple reconsider their financial habits",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcmNlb1ZPcHkwaWd4ZnJaZGpobTVud1dVanpmeVV0R0FJaWlfWEI3NG1ZNWMwMkl5bTc0c1YwcXlhaWNXSFRRU3k2U2xhSXJJWlE3ZVE2VHlkcTdQS043MmhfRFBQb3hRVlY2aFFHRU14VjhJRVBDUXlaN1hPUWdkWVBZZUk4dlk2TzJTajMxcUtPTkc3Y0NwTnVpTzczMThyVU02OUZMWF96amF0?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-11-14T11:00:17.000Z",
-        "source": "CNN"
-      },
-      {
         "title": "Is it smart to get an investment property?",
         "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdzNGZjMyS19GeVllc1FyNFRwcGZjeV9fN01oWUQ4QVhQZ0ZYWGE4M0lEWHFObExGbW1HN2NnSHUtLXJYR01uR25OdE9LUnNiRnl2VnBtTzFxeU0zRUpRRGRzRlE0VW5uOUp4UGJyVGtnRWVyRWNzQ3dzcDdzU1RGcDZwZy0wLWxadHc?oc=5",
         "summary": "",
@@ -386,7 +386,7 @@
         "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
         "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
         "summary": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cdfb/live/3e3fdc00-e103-11f1-b441-2b33b063138f.jpg",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa43/live/e2a9a870-e10d-11f1-93e1-3b657b665bcf.jpg",
         "publishedAt": "2026-11-15T14:56:21.000Z",
         "source": "BBC"
       },
@@ -397,6 +397,14 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/32ab/live/d67148b0-e0ef-11f1-97b9-9110abfffc70.png",
         "publishedAt": "2026-11-15T13:37:45.000Z",
         "source": "BBC"
+      },
+      {
+        "title": "The systems used to keep America flying are ancient. That makes fixing the problem that much more difficult",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9PQ0doME5GZEtISnJIX25hYVFhbXQzZWpfT2NDcTc4MGtTU0RJM3BzYTRIdVRwYXoxSnlPWC0xZTl5a0lXa2RWOXBCS3RlSUY4LTE1ZFpxQ0hwSm8xcnJDMzB2eDNwanVmeVl4QXlnNWtYdXRkVTNsNXV3?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-11-15T10:00:15.000Z",
+        "source": "CNN"
       },
       {
         "title": "Secretary Duffy criticizes key contractor L3Harris over FAA ground stop",
@@ -413,14 +421,6 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d6be/live/f51842e0-e041-11f1-88e1-eb4e155225b3.jpg",
         "publishedAt": "2026-11-14T18:28:06.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "How the Nvidia scandal lifted the curtain on a loophole that’s giving China access to US chips",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUElic3FIZV9PSkhtTmZzSzlnYjdWa1BPWnBrM2s2Z201c2xvMUdMTk8tcUtKRU4zUnl2WnJMSFdJZlBxNzFubVpkbW4zRm5rcWYtNlVRWVNpSXNZOWJNSndtQWRLRzB2bzJUb2I5Ql9vTmZ2b25ObG4ybS1GUFdlVA?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-11-14T15:00:15.000Z",
-        "source": "CNN"
       }
     ],
     "domestic": [
@@ -467,19 +467,35 @@
     ],
     "international": [
       {
-        "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
-        "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
-        "summary": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cdfb/live/3e3fdc00-e103-11f1-b441-2b33b063138f.jpg",
-        "publishedAt": "2026-11-15T14:56:21.000Z",
+        "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
+        "link": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss",
+        "summary": "The Ukrainian president says restrictions are still in place and making it difficult to stop Russian attacks.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8bb5/live/938b6e20-e114-11f1-a7db-d90284d21c62.jpg",
+        "publishedAt": "2026-11-15T19:32:39.000Z",
         "source": "BBC"
       },
       {
-        "title": "Iran targets US military base in Bahrain with drone attack",
-        "link": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
-        "summary": "It marks the second attack on the country in three days and comes as the US and Iran remain locked in a stand-off over the Strait of Hormuz.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0351/live/2e8de2e0-e106-11f1-93e1-3b657b665bcf.jpg",
-        "publishedAt": "2026-11-15T13:42:58.000Z",
+        "title": "Pope Leo rides in helicopter cockpit during Peru trip",
+        "link": "https://www.bbc.co.uk/news/videos/c6pw4rl00lrjo?at_medium=RSS&at_campaign=rss",
+        "summary": "The Pope took to the skies before arriving in Cusco on the penultimate day of his Latin America tour.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cc34/live/e2a8fc70-e11e-11f1-b441-2b33b063138f.jpg",
+        "publishedAt": "2026-11-15T18:38:11.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Czechs rally against plan to switch funding of public media",
+        "link": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss",
+        "summary": "Protesters say the move will stifle media freedom, while the government insists broadcasters need to cut costs.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0f9f/live/b7b68ac0-e121-11f1-9705-e15ce514cc96.jpg",
+        "publishedAt": "2026-11-15T17:23:40.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+        "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
+        "summary": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa43/live/e2a9a870-e10d-11f1-93e1-3b657b665bcf.jpg",
+        "publishedAt": "2026-11-15T14:56:21.000Z",
         "source": "BBC"
       },
       {
@@ -489,81 +505,16 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/32ab/live/d67148b0-e0ef-11f1-97b9-9110abfffc70.png",
         "publishedAt": "2026-11-15T13:37:45.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Three men sentenced to death in Jordan over fatal church mass shooting",
-        "link": "https://www.bbc.co.uk/news/articles/c3rrg9xgqlwpo?at_medium=RSS&at_campaign=rss",
-        "summary": "The attack on funeral at a Greek Orthodox church killed nine and injured 34 others last month.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0fb0/live/ed275c50-e0dd-11f1-a701-fddedf244c16.jpg",
-        "publishedAt": "2026-11-15T11:06:32.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
-        "link": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
-        "summary": "Both Hamas and IDF officials confirm the death of Samir Abu Younis, commander of the Rafah Brigade.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c19/live/fcdf6660-e0ce-11f1-a701-fddedf244c16.jpg",
-        "publishedAt": "2026-11-15T08:17:41.000Z",
-        "source": "BBC"
       }
     ],
-    "nba": [
-      {
-        "title": "What happens when you pay $200 to try out for a G League team?",
-        "link": "https://www.espn.com/nba/story/_/id/50463046/nba-g-league-delaware-blue-coats-200-dollar-tryout",
-        "summary": "Former college players, content creators and even some Sixers fans chased the same opportunity to get noticed by the Delaware Blue Coats.",
-        "image": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1113%2Fnba_g%2Dleague_16x9.jpg",
-        "publishedAt": "2026-11-15T14:04:50.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Cavs overcome short turnaround, missing starters to beat Mavs",
-        "link": "https://www.espn.com/nba/story/_/id/50485303/cavaliers-starting-five-vs-mavs-flight-delay",
-        "summary": "The Cavaliers were without their entire starting lineup Saturday against the Mavericks after four players were ruled out following travel difficulties...",
-        "image": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1115%2Fr1745939_1024x576_16%2D9.jpg",
-        "publishedAt": "2026-11-15T05:18:43.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Embiid to sit vs. Pacers due to plantar fascia management",
-        "link": "https://www.espn.com/nba/story/_/id/50484216/76ers-joel-embiid-vs-pacers-due-plantar-fascia-management",
-        "summary": "The Philadelphia 76ers ruled out center Joel Embiid for Sunday's game against the Indiana Pacers with right foot plantar fascia management, the team a...",
-        "image": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1009%2Fr1728117_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-11-15T05:18:43.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Lakers' Reaves to sit out vs. Suns due to left heel bruise",
-        "link": "https://www.espn.com/nba/story/_/id/50485143/lakers-austin-reaves-heel-bruise-sit-vs-suns",
-        "summary": "Los Angeles Lakers guard Austin Reaves will not play against the Phoenix Suns on Sunday because of a left heel bruise, the team announced.",
-        "image": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1109%2Fr1743768_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-11-15T05:18:43.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Knicks' Hart 'not in a good headspace' after scoreless night, benching",
-        "link": "https://www.espn.com/nba/story/_/id/50480516/josh-hart-seeking-answers-zero-points-knicks-loss",
-        "summary": "Knicks wing Josh Hart said he is \"not in a good headspace\" after he was held scoreless and benched for the fourth quarter of Friday's 106-104 NBA Cup...",
-        "image": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0522%2Fr1661789_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-11-15T05:18:43.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Lendeborg 1-for-13 in Warriors' blowout loss: 'I was flustered the entire game'",
-        "link": "https://www.espn.com/nba/story/_/id/50478016/warriors-yaxel-lendeborg-struggles-blowout-loss-spurs-says-was-flustered-entire-game",
-        "summary": "In his first game as the primary offensive engine in place of the injured Stephen Curry, Warriors rookie Yaxel Lendeborg went 1-of-13 shooting in a 12...",
-        "image": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1114%2Fr1745582_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-11-15T05:18:43.000Z",
-        "source": "ESPN"
-      }
-    ]
+    "nba": []
   },
   "nbaScoreboard": {
     "date": "2026-11-15",
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-11-15",
+    "rotationLabel": "Curated Rotation · 2026-11-16",
     "sections": [
       {
         "id": "data-storage",
@@ -571,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-4",
-            "sectionId": "data-storage",
-            "title": "Dremel: Interactive Analysis of Web-Scale Datasets",
-            "authors": [
-              "Sergey Melnik",
-              "Andrey Gubarev",
-              "Jing Jing Long",
-              "Geoffrey Romer"
-            ],
-            "venue": "VLDB",
-            "year": 2010,
-            "quality": "顶会",
-            "categories": [
-              "analytics",
-              "columnar"
-            ],
-            "link": "https://research.google/pubs/pub36632/",
-            "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-5",
             "sectionId": "data-storage",
@@ -610,7 +540,7 @@
             ],
             "link": "https://arxiv.org/abs/2401.08281",
             "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-6",
@@ -632,6 +562,27 @@
             "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
             "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-1",
+            "sectionId": "data-storage",
+            "title": "The Log-Structured Merge-Tree (LSM-Tree)",
+            "authors": [
+              "Patrick O'Neil",
+              "Edward Cheng",
+              "Dieter Gawlick",
+              "Elizabeth O'Neil"
+            ],
+            "venue": "Acta Informatica",
+            "year": 1996,
+            "quality": "经典基础",
+            "categories": [
+              "storage",
+              "indexing"
+            ],
+            "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
+            "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -641,27 +592,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-5",
-            "sectionId": "computer-vision",
-            "title": "Segment Anything",
-            "authors": [
-              "Alexander Kirillov",
-              "Eric Mintun",
-              "Nikhila Ravi",
-              "Hanzi Mao"
-            ],
-            "venue": "ICCV",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "segmentation",
-              "foundation model"
-            ],
-            "link": "https://arxiv.org/abs/2304.02643",
-            "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-6",
             "sectionId": "computer-vision",
@@ -681,7 +611,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.07193",
             "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-1",
@@ -703,6 +633,27 @@
             "link": "https://arxiv.org/abs/1512.03385",
             "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-2",
+            "sectionId": "computer-vision",
+            "title": "End-to-End Object Detection with Transformers",
+            "authors": [
+              "Nicolas Carion",
+              "Francisco Massa",
+              "Gabriel Synnaeve",
+              "Nicolas Usunier"
+            ],
+            "venue": "ECCV",
+            "year": 2020,
+            "quality": "顶会",
+            "categories": [
+              "detection",
+              "transformer"
+            ],
+            "link": "https://arxiv.org/abs/2005.12872",
+            "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -712,27 +663,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-6",
-            "sectionId": "llm-memory",
-            "title": "MemoRAG: Moving towards Next-Gen RAG Via Memory-Inspired Knowledge Discovery",
-            "authors": [
-              "Rulin Shao",
-              "Yue Liu",
-              "Shuo Wang",
-              "Yichi Zhang"
-            ],
-            "venue": "arXiv",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "RAG",
-              "memory bank"
-            ],
-            "link": "https://arxiv.org/abs/2409.05591",
-            "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-1",
             "sectionId": "llm-memory",
@@ -752,7 +682,7 @@
             ],
             "link": "https://arxiv.org/abs/2005.11401",
             "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-2",
@@ -774,6 +704,27 @@
             "link": "https://arxiv.org/abs/2203.08913",
             "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-3",
+            "sectionId": "llm-memory",
+            "title": "RETRO: Improving Language Models by Retrieving From Trillions of Tokens",
+            "authors": [
+              "Sebastian Borgeaud",
+              "Arthur Mensch",
+              "Jordan Hoffmann",
+              "Trevor Cai"
+            ],
+            "venue": "DeepMind / arXiv",
+            "year": 2022,
+            "quality": "高影响力",
+            "categories": [
+              "retrieval",
+              "language model"
+            ],
+            "link": "https://arxiv.org/abs/2112.04426",
+            "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -783,28 +734,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-1",
-            "sectionId": "agents",
-            "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
-            "authors": [
-              "Shunyu Yao",
-              "Jeffrey Zhao",
-              "Dian Yu",
-              "Nan Du"
-            ],
-            "venue": "ICLR",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "agent",
-              "reasoning",
-              "tool use"
-            ],
-            "link": "https://arxiv.org/abs/2210.03629",
-            "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-2",
             "sectionId": "agents",
@@ -824,7 +753,7 @@
             ],
             "link": "https://arxiv.org/abs/2302.04761",
             "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-3",
@@ -845,6 +774,27 @@
             ],
             "link": "https://arxiv.org/abs/2304.03442",
             "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-4",
+            "sectionId": "agents",
+            "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+            "authors": [
+              "Guanzhi Wang",
+              "Yuqi Xie",
+              "Zixiang Zhou",
+              "Yujin Tang"
+            ],
+            "venue": "arXiv",
+            "year": 2023,
+            "quality": "高影响力",
+            "categories": [
+              "embodied agent",
+              "planning"
+            ],
+            "link": "https://arxiv.org/abs/2305.16291",
+            "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
             "trackLabel": "轮换精选"
           }
         ]
