@@ -1,44 +1,36 @@
 {
-  "generatedAt": "2026-11-17T13:11:19.658Z",
+  "generatedAt": "2026-11-17T23:27:57.271Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 5,
+      "temperature": -1,
       "weatherCode": 0,
-      "windSpeed": 11
+      "windSpeed": 16
     },
     "today": {
-      "date": "2026-11-17",
-      "weatherCode": 51,
-      "description": "毛毛雨",
-      "max": 8,
-      "min": 2,
-      "precipitationProbability": 27
+      "date": "2026-11-18",
+      "weatherCode": 3,
+      "description": "阴天",
+      "max": 6,
+      "min": -1,
+      "precipitationProbability": 3
     },
     "forecast": [
       {
-        "date": "2026-11-17",
-        "weatherCode": 51,
-        "description": "毛毛雨",
-        "max": 8,
-        "min": 2,
-        "precipitationProbability": 27
-      },
-      {
         "date": "2026-11-18",
-        "weatherCode": 2,
-        "description": "局部多云",
+        "weatherCode": 3,
+        "description": "阴天",
         "max": 6,
         "min": -1,
-        "precipitationProbability": 1
+        "precipitationProbability": 3
       },
       {
         "date": "2026-11-19",
-        "weatherCode": 2,
-        "description": "局部多云",
+        "weatherCode": 1,
+        "description": "基本晴",
         "max": 5,
-        "min": -2,
-        "precipitationProbability": 2
+        "min": -1,
+        "precipitationProbability": 0
       },
       {
         "date": "2026-11-20",
@@ -50,37 +42,54 @@
       },
       {
         "date": "2026-11-21",
-        "weatherCode": 0,
-        "description": "晴朗",
+        "weatherCode": 1,
+        "description": "基本晴",
         "max": 5,
         "min": -2,
         "precipitationProbability": 2
+      },
+      {
+        "date": "2026-11-22",
+        "weatherCode": 3,
+        "description": "阴天",
+        "max": 5,
+        "min": -2,
+        "precipitationProbability": 0
       }
     ]
   },
   "classicQuote": {
-    "id": "mencius-perseverance",
-    "text": "虽千万人，吾往矣。",
-    "source": "《孟子》",
-    "author": "孟子",
-    "note": "认准方向之后，关键是稳稳地往前走。"
+    "id": "records-historical",
+    "text": "桃李不言，下自成蹊。",
+    "source": "《史记》",
+    "author": "司马迁",
+    "note": "真正有分量的作品，本身就会替你说话。"
   },
   "bookExcerpt": {
-    "id": "red-mansion-snow",
-    "text": "只见大地白茫茫一片真干净，山川树木都隐在雪光里，天地像忽然静下来，只余风过回廊的细响。",
-    "book": "《红楼梦》",
-    "author": "曹雪芹"
+    "id": "remembrance-madeleine",
+    "text": "那一点点浸过茶水的点心，忽然把整个旧日时光都唤醒了，仿佛往昔并未消失，只是沉在心底等待一个气味。",
+    "book": "《追忆似水年华》",
+    "author": "马塞尔·普鲁斯特"
   },
   "featuredPlace": {
-    "id": "202611161600",
-    "title": "雪松林步道，冰川国家公园，蒙大拿州，美国",
+    "id": "202611171600",
+    "title": "一对仓鸮",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "走进广阔的大自然",
-    "image": "https://www.bing.com/th?id=OHR.TrailCedars_ZH-CN2670680285_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E5%86%B0%E5%B7%9D%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD%E7%9A%84%E9%9B%AA%E6%9D%BE%E6%9E%97%E6%AD%A5%E9%81%93&form=hpcapt&mkt=zh-cn"
+    "summary": "从黄昏狩猎到黎明",
+    "image": "https://www.bing.com/th?id=OHR.BarnOwlsUnite_ZH-CN2930153291_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E4%BB%93%E9%B8%AE&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202611171600",
+      "title": "一对仓鸮",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "从黄昏狩猎到黎明",
+      "image": "https://www.bing.com/th?id=OHR.BarnOwlsUnite_ZH-CN2930153291_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E4%BB%93%E9%B8%AE&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202611161600",
       "title": "雪松林步道，冰川国家公园，蒙大拿州，美国",
@@ -143,217 +152,224 @@
       "summary": "奇妙纷呈的森林",
       "image": "https://www.bing.com/th?id=OHR.Atlantica_ZH-CN6593995386_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E5%B7%B4%E8%A5%BF%E5%A4%A7%E8%A5%BF%E6%B4%8B%E6%A3%AE%E6%9E%97&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202611091600",
-      "title": "玫瑰岛航拍图，巴哈马",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "惬意放松，尽享海岛时光",
-      "image": "https://www.bing.com/th?id=OHR.RoseIsland_ZH-CN6477140814_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E5%B7%B4%E5%93%88%E9%A9%AC%E7%8E%AB%E7%91%B0%E5%B2%9B&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-11-17",
-    "dateLabel": "11月17日",
+    "dateKey": "2026-11-18",
+    "dateLabel": "11月18日",
     "items": [
       {
-        "year": "2018",
-        "text": "應澳大利亞原住民長老（英语：）要求，澳洲國立大學將蒙哥湖遺骨埋葬回其位於澳大利亞新南威爾士州威兰德拉湖区蒙哥湖（英语：）的發掘地。",
-        "link": "https://zh.wikipedia.org/wiki/2018%E5%B9%B4"
+        "year": "2025",
+        "text": "Cloudflare出現技術故障，連帶影響包括ChatGPT、X在內的全球多個網站無法正常加載。該故障在約6小時后修復。",
+        "link": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4"
       },
       {
-        "year": "2018",
-        "text": "法國爆發大規模「黃背心示威」，抗議艾曼紐·馬克宏政府增加燃油稅，示威者穿上黃色反光背心，在該國二千多個地方阻塞道路，官方統計指共28萬3千人參與，並有一名薩瓦省的女示威者被車撞斃。",
-        "link": "https://zh.wikipedia.org/wiki/%E9%BB%83%E8%83%8C%E5%BF%83%E9%81%8B%E5%8B%95"
+        "year": "2013",
+        "text": "美国国家航空航天局发射火星大氣與揮發物演化任務探测器。",
+        "link": "https://zh.wikipedia.org/wiki/2013%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "中加同意将初步联合安排的相关豁免措施延长2年",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-17/10733707.shtml",
-        "summary": "中新社北京11月17日电 中国商务部新闻发言人17日就中加经贸磋商成果答记者问时称，双方同意将初步联合安排的相关豁免措施延长2年，加方还将进一步扩大对中国钢铝产品的豁免范围。",
+        "title": "聚焦APEC｜俄罗斯总统普京抵达深圳 蔡奇前往机场迎接",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-18/10733815.shtml",
+        "summary": "新华社深圳11月18日电(记者赵瀚泽、周颖)俄罗斯总统普京11月18日凌晨乘专机抵达深圳，出席亚太经合组织第三十三次领导人非正式会议。中共中央政治局常委、中央书记处书记蔡奇前往机场迎接。(完）",
         "image": "",
-        "publishedAt": "2026-11-17T12:44:58.000Z",
+        "publishedAt": "2026-11-17T18:13:56.000Z",
         "source": "中新网"
       },
       {
-        "title": "学习手记｜共同做大亚太合作蛋糕",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-17/10733703.shtml",
-        "summary": "潮起太平洋，风鼓合作帆。11月18日至19日，亚太经合组织(APEC)第三十三次领导人非正式会议将在深圳举行，习近平主席将主持会议并发表讲话。",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/11/17/f8b2ce74f0164a558d4b3ea8c056a372.png",
-        "publishedAt": "2026-11-17T12:34:37.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "西藏自治区检察机关自2021年以来共开展国家司法救助1265人",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-17/10733699.shtml",
-        "summary": "中新网拉萨11月17日电 (李林)西藏检察机关开展国家司法救助工作情况新闻发布会17日在拉萨召开。发布会介绍，2021年以来，西藏自治区检察机关共开展国家司法救助1265人，发放救助金2483.7万元(人民币，下同)。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261117/1ebeeaea-6a5d-421c-9f8b-148b8325cee6_zsite.jpg",
-        "publishedAt": "2026-11-17T12:16:42.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "浙江：持续强化对权力运行的监督制约",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-17/10733696.shtml",
-        "summary": "中新网杭州11月17日电(记者 王逸飞)“持续强化对权力运行的监督制约。加强对政策制定、议事决策、审批监管、执法司法等关键环节的监督，深化公权力大数据监督，更加科学有效把权力关进制度笼子。”17日于杭州举行的中共浙江省委新闻发布会上，浙江省纪委常务副书记、省监委副主任陈澄就该省接下来如何一体推进不敢...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261117/0e1f5eca-bb37-4040-a514-746a1785719e_zsite.jpg",
-        "publishedAt": "2026-11-17T12:12:38.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "台湾经济面临资金外流隐忧",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-17/10733680.shtml",
-        "summary": "中新社台北11月17日电 台湾出口近期表现强劲，新台币却持续对美元贬值，逼近十年来低位。舆论分析，企业加速海外投资、外资卖超台股等因素交织，正改变台湾过去出口旺盛、资金回流带动新台币升值的循环，台湾经济面临资金外流隐忧。",
+        "title": "大国外交进行时丨俄罗斯总统普京抵达深圳",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-18/10733813.shtml",
+        "summary": "11月18日凌晨，俄罗斯总统普京乘专机抵达深圳，将出席11月18日至19日举行的亚太经合组织第三十三次领导人非正式会议。",
         "image": "",
-        "publishedAt": "2026-11-17T12:06:44.000Z",
+        "publishedAt": "2026-11-17T18:04:30.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "聚焦APEC｜韩国总统李在明抵达深圳",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-18/10733805.shtml",
+        "summary": "新华社深圳11月18日电(记者周颖、杨深深)韩国总统李在明18日抵达深圳，将出席亚太经合组织第三十三次领导人非正式会议。",
+        "image": "",
+        "publishedAt": "2026-11-17T16:51:40.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "聚焦APEC｜马来西亚总理安瓦尔抵达深圳",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-18/10733804.shtml",
+        "summary": "新华社深圳11月18日电(记者杨深深、周颖)马来西亚总理安瓦尔18日抵达深圳，将出席亚太经合组织第三十三次领导人非正式会议。",
+        "image": "",
+        "publishedAt": "2026-11-17T16:33:13.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "聚焦APEC｜文莱苏丹哈桑纳尔抵达深圳",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-18/10733803.shtml",
+        "summary": "新华社深圳11月18日电(记者周颖、杨深深)文莱苏丹哈桑纳尔18日抵达深圳，将出席亚太经合组织第三十三次领导人非正式会议。",
+        "image": "",
+        "publishedAt": "2026-11-17T16:31:41.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "一场长期陪伴，如何为“阳光儿童”点亮微光？",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-17/10733721.shtml",
-        "summary": "中新网金华11月17日电(张煜欢)很多孤独症孩子的信号，常常容易被忽略：有的孩子安静寡言，有的坐不住、很难跟随指令，不少家长起初只当是孩子性子内向、发育慢，等到察觉异样，已走过不少弯路。孤独症儿童的早筛、早诊、长期康复，长期以来也是基层民生的难点：不少家庭发现信号晚、求医路途远，康复只局限在诊室，居...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261117/4a761dfc-e60b-4f4c-a224-b3eca62e882f_zsite.jpg",
-        "publishedAt": "2026-11-17T12:52:46.000Z",
+        "title": "云南侦办首例替来他明电子烟案",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-17/10733771.shtml",
+        "summary": "中新网昆明11月17日电(邹聪 褚晗)近日，云南省昆明市盘龙区烟草专卖局联合公安机关，依法侦办云南首例含替来他明“上头电子烟”案。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261117/48f95aa7-6682-4ada-af63-8e5c32ba129a_zsite.jpg",
+        "publishedAt": "2026-11-17T13:51:29.000Z",
         "source": "中新网"
       },
       {
-        "title": "“中国糖都”广西崇左启动新榨季糖料蔗机械化收获",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-17/10733712.shtml",
-        "summary": "中新网崇左11月17日电(赵霓虹 刘志斌 林浩)11月17日，在广西崇左市扶绥县东门镇洋浦糖料蔗基地机器轰鸣，6台甘蔗联合收获机在连片蔗田中来回作业，一次性完成砍收、脱叶、输送全流程，转运车辆紧随其后即时装运，田间采收秩序井然。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261117/575851cb-86e0-4777-b5df-5dfd72180f89_zsite.jpg",
-        "publishedAt": "2026-11-17T12:51:08.000Z",
+        "title": "中华慈善论坛在南宁举行 多个慈善项目在广西启动试点",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-17/10733760.shtml",
+        "summary": "中新网南宁11月17日电(韦佳秀 张广权)中华慈善论坛17日在广西南宁举行。论坛以“促进和规范慈善事业发展，助力全体人民共同富裕”为主题，由中华慈善总会、广西慈善联合总会主办。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261117/8a310786-80f6-4494-bb75-4cbd640b9be1_zsite.jpg",
+        "publishedAt": "2026-11-17T13:37:31.000Z",
         "source": "中新网"
       },
       {
-        "title": "北方冷空气南下 广东将明显降温",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-17/10733716.shtml",
-        "summary": "中新网广州11月17日电 (记者 王坚)据广东省气象局17日消息，北方中等强度冷空气将于17日深夜影响粤北，18日早晨到达广东的中部，中午前后到达南部沿海，全省气温将明显下降，此次冷空气过程气温下降将有4℃至8℃。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261117/d4d5de60-8965-4061-a008-55bdc25790fb_zsite.jpeg",
-        "publishedAt": "2026-11-17T12:49:18.000Z",
+        "title": "甘南青少年访国博：在文物中品读中华文化",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-17/10733744.shtml",
+        "summary": "中新网北京11月17日电 (王朝东 刘超)来自甘肃甘南藏族自治州的49名青少年17日来到中国国家博物馆，在“古代中国”等展厅珍贵文物中品读中国历史、中华文化。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261117/e883c639-3be2-474b-9bee-767c86cb5f2e_zsite.jpg",
+        "publishedAt": "2026-11-17T13:33:56.000Z",
         "source": "中新网"
       },
       {
-        "title": "水陆两栖飞机AG600“鲲龙”参加北京森林火灾应急处置综合演练",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-17/10733715.shtml",
-        "summary": "中新网北京11月17日电 (记者 阮煜琳)记者17日从中国航空工业集团获悉，“护绿京畿·2026”北京市森林火灾应急处置综合演练16日在北京举行。水陆两栖飞机AG600“鲲龙”参与演练，检验了国产大型航空应急救援装备在首都林区的实战效能。",
-        "image": "",
-        "publishedAt": "2026-11-17T12:47:22.000Z",
+        "title": "2026知识产权服务万里行雄安站活动举办",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-17/10733736.shtml",
+        "summary": "中新网雄安11月17日电 (李玉素 韩冰)17日，2026知识产权服务万里行“知识产权服务重点产业高质量发展暨科技成果赋智中小企业深度行”活动在河北雄安新区举行。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261117/7d6fe744-ba9e-428b-beb9-14c15d30bd49_zsite.jpeg",
+        "publishedAt": "2026-11-17T13:25:16.000Z",
         "source": "中新网"
       },
       {
-        "title": "山东非遗“逐”新潮 青年“守”艺人崭露头角",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-17/10733710.shtml",
-        "summary": "中新网济南11月17日电 (记者 赵晓)“我们的口号是做有‘皮’气的人，打造‘戴在身上的皮影’，让耳钉、胸针等皮影类饰品成为一种新时尚。”国家级非遗代表性项目济南皮影戏省级代表性传承人李娟17日表示，百年皮影戏正从幕后走向生活。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261117/31761b85-452b-4c03-aef1-3e9fff586d5b_zsite.jpg",
-        "publishedAt": "2026-11-17T12:42:00.000Z",
+        "title": "（乡村行·看振兴）浙江庆元：花椰菜“长成”大产业 留守老人家门口增收",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-17/10733734.shtml",
+        "summary": "中新网丽水11月17日电(傅飞扬 朱慧 吴陈芊芊)连日来，浙江省丽水市庆元县百山祖镇斋郎村迎来高山花椰菜集中采收季。田垄间，绿叶簇拥着洁白紧实的花球，村民们弯腰采摘、分拣装筐，忙碌的身影随处可见。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261117/22797e5a-2160-47cc-8530-c3a3d9fb9e83_zsite.jpg",
+        "publishedAt": "2026-11-17T13:18:58.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "从街头烟火到千亿产业：兰州牛肉面如何“拉长”发展链条？",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-17/10733718.shtml",
-        "summary": "中新网兰州11月17日电 (记者 闫姣 邢翀)从街头巷尾一碗“接地气”的热汤面，到串联起特色农业、食品加工、冷链物流、餐饮消费这一千亿级产业链的甘肃省特色支柱产业，拥有百年历史的兰州牛肉面，正从地方风味小吃向现代化特色产业加速迈进。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261117/deb40a30-2a1e-44dc-8ec7-3b89d84e4942_zsite.jpg",
-        "publishedAt": "2026-11-17T13:03:43.000Z",
+        "title": "从1.0到3.0 中国—东盟自贸区“升级包”带来哪些商机",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-18/10733820.shtml",
+        "summary": "中国—东盟自贸区3.0版升级议定书将于今年12月1日正式生效实施。升级议定书将赋能覆盖近21亿人口的区域大市场和产业链供应链，为企业带来巨大商机。",
+        "image": "",
+        "publishedAt": "2026-11-17T22:12:05.000Z",
         "source": "中新网"
       },
       {
-        "title": "消费市场扩容、提质、焕新亮点显现 “文旅热”“赛事热”带动服务消费持续增长",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-17/10733725.shtml",
-        "summary": "央视网消息：16日上午，国务院新闻办公室举行新闻发布会，国家统计局相关负责人表示，今年以来，随着提振消费专项行动深入实施，消费潜能逐步释放，消费市场规模总体上持续扩大，继续呈现结构向优、动能向新的特点。",
+        "title": "（深圳APEC）1500把椅子的“亚太时刻”",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-17/10733795.shtml",
+        "summary": "中新社深圳11月17日电 (记者 刘文文 尹倩芸)17日，在深圳前海国际会议中心的大会堂，约1500把椅子整齐排列，从台前一直延伸至后区，会场内座无虚席。",
         "image": "",
-        "publishedAt": "2026-11-17T12:54:34.000Z",
+        "publishedAt": "2026-11-17T15:56:32.000Z",
         "source": "中新网"
       },
       {
-        "title": "“稳”的特质明显，“稳”的底气增强（权威发布）",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-17/10733722.shtml",
-        "summary": "#8203;本报记者 刘志强",
+        "title": "APEC工商领导人峰会聚焦区域合作 共绘亚太发展蓝图",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-17/10733790.shtml",
+        "summary": "2026年APEC工商领导人峰会今天举行，现场情况如何，来看记者发回的报道。",
         "image": "",
-        "publishedAt": "2026-11-17T12:49:20.000Z",
+        "publishedAt": "2026-11-17T14:35:24.000Z",
         "source": "中新网"
       },
       {
-        "title": "沪市主板回购专项贷11月跑出年内“最快速度”",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-17/10733708.shtml",
-        "summary": "中新网上海11月17日电 (高志苗)记者从上海证券交易所获悉，截至11月17日晚间6时，沪市主板当天已发布6则回购增持类公告，其中包括复星医药董事长提议回购2.5亿元至5亿元A股股份，中国电建控股股东新增规模5亿元至7亿元的增持计划。",
+        "title": "德勤：中国企业出海从拼产品转向拼能力",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-17/10733784.shtml",
+        "summary": "中新网北京11月17日电 (记者 王恩博)德勤中国可持续发展与专项鉴证业务主管合伙人胡建宇17日在北京表示，当前中国企业出海的内涵有了新变化：以前更多是产品竞争，现在拼得更多的是能力，“无论是产业布局还是供应链建设，都是能力的体现”。",
         "image": "",
-        "publishedAt": "2026-11-17T12:46:08.000Z",
+        "publishedAt": "2026-11-17T14:19:01.000Z",
         "source": "中新网"
       },
       {
-        "title": "商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-17/10733706.shtml",
-        "summary": "中新网11月17日电 据商务部网站消息，商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问。",
-        "image": "",
-        "publishedAt": "2026-11-17T12:32:41.000Z",
+        "title": "21条硬核措施 云南省七部门联合推进“电动云南”建设",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-17/10733778.shtml",
+        "summary": "中新网昆明11月17日电 (记者 杜潇潇)依托清洁能源优势，云南七部门近日联合印发《全面推进“电动云南”建设的实施意见(2026—2028年)》，从推广应用、服务保障、场景拓展、产业链补强四个维度出台系列举措，助力生态文明建设排头兵创建，政策有效期至2028年12月31日。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261117/0a19da4e-9647-4839-8c99-376bcb0b06bf_zsite.jpg",
+        "publishedAt": "2026-11-17T13:59:54.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
-        "link": "https://www.bbc.co.uk/news/articles/cqrlg377638yo?at_medium=RSS&at_campaign=rss",
-        "summary": "Palestinians say there was an attack by settlers in al-Duyuk al-Tahta, while the Israeli military says the settlers fired after being attacked.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d277/live/17a72100-e286-11f1-a094-5fdc692f3e33.jpg",
-        "publishedAt": "2026-11-17T13:02:17.000Z",
+        "title": "Nvidia reports bumper results as firm says it's not reinstating Huang",
+        "link": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
+        "summary": "Nvidia reported strong quarterly earnings on Tuesday amid the dramatic exit of ex-CEO Jensen Huang.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e48/live/58880030-e2d7-11f1-99a1-253766e7ad8b.jpg",
+        "publishedAt": "2026-11-17T23:03:39.000Z",
         "source": "BBC"
       },
       {
-        "title": "Putin's Crimea bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+        "title": "Thomas Markle charged over child sex abuse material in Philippines",
+        "link": "https://www.bbc.co.uk/news/articles/ckg5ry8m49ggo?at_medium=RSS&at_campaign=rss",
+        "summary": "Markle is being held in prison in the US on a separate charge and has previously denied all of the allegations.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5b0e/live/040fc640-dd79-11f1-93e1-3b657b665bcf.jpg",
+        "publishedAt": "2026-11-17T22:44:15.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
         "link": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-        "summary": "Ukraine says the attack took weeks to plan, while the Kremlin vows to rebuild the strategic bridge.",
+        "summary": "Ukraine says the missile and drone attack on the strategic bridge in the Russian-annexed Crimea took weeks to plan.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/222d/live/db8315b0-e278-11f1-99a1-253766e7ad8b.png",
-        "publishedAt": "2026-11-17T13:01:11.000Z",
+        "publishedAt": "2026-11-17T21:24:35.000Z",
         "source": "BBC"
       },
       {
-        "title": "Nvidia partner Megaspeed being investigated by US government over chip exports",
-        "link": "https://www.bbc.co.uk/news/articles/cmn504nq5033o?at_medium=RSS&at_campaign=rss",
-        "summary": "The Singapore-based company is suspected of helping to ship high-end AI chips from tech giant Nvidia to China, violating US export rules.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a77e/live/31ebc580-e267-11f1-900c-895604014268.jpg",
-        "publishedAt": "2026-11-17T11:17:32.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "How stingless bees in Peru became the world’s first insects to be granted legal rights",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9aaVQ1blNlUWJFTFNEZ2doSTZPMjlHaU1GYm03UlpRdGRTRWlMVnc2SDZxNzhLTTNoZ2QyVnoxRndkOVROVHllcXBDSTRBMUVEVzB1cndPeUVBbkZLVEJMV0lhQVg3Wm1RZm1la1ozaTc1dml1UUhCNQ?oc=5",
+        "title": "Ecuadorian fishermen sue US over mysterious boat strike",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcW5rUERZbGVnSVIzRE5mN2hsLUd4THFITGNBdXZ3SmJwTE8zTXRIOE9zZ3NSdDl2RWVMem9qMFByYTZKZ05JYWRIQjhfOXJFb0xFYUJqdXZfblZUcnpOd051X1MxUUdRS0tDeXIwckQ2OHk3QUlMcUcxaWlvMFBfaE43U20?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-11-17T09:41:24.000Z",
+        "publishedAt": "2026-11-17T17:22:14.000Z",
         "source": "CNN"
       },
       {
-        "title": "Indian woman gang-raped while pregnant in 2002 'heartbroken' after two perpetrators bailed",
-        "link": "https://www.bbc.co.uk/news/articles/cr868wd2qg18o?at_medium=RSS&at_campaign=rss",
-        "summary": "Bilkis Bano has spoken of her \"pain, shock and disbelief\" at the top court order and vowed to fight back.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9c83/live/904d30a0-e1a4-11f1-973a-a76c1b2f887a.jpg",
-        "publishedAt": "2026-11-17T09:27:44.000Z",
+        "title": "'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge",
+        "link": "https://www.bbc.co.uk/news/articles/cq7825234lgmo?at_medium=RSS&at_campaign=rss",
+        "summary": "Moscow has targeted bridges in Kyiv, while Ukraine severely damaged a critical bridge linking Russia to occupied Crimea.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f084/live/ab522920-e29c-11f1-8dda-8925a81c3da5.jpg",
+        "publishedAt": "2026-11-17T17:19:57.000Z",
         "source": "BBC"
       }
     ],
     "worldBusiness": [
       {
-        "title": "Speed camera fault may have allowed drivers to escape fines",
-        "link": "https://www.bbc.co.uk/news/articles/c5y4j7z373kzo?at_medium=RSS&at_campaign=rss",
-        "summary": "The Home Office has revoked approval that allowed footage from speed cameras to be used in evidence.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8a89/live/90911890-e282-11f1-b166-176de21e2352.jpg",
-        "publishedAt": "2026-11-17T13:03:30.000Z",
+        "title": "Nvidia reports bumper results as firm says it's not reinstating Huang",
+        "link": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
+        "summary": "Nvidia reported strong quarterly earnings on Tuesday amid the dramatic exit of ex-CEO Jensen Huang.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e48/live/58880030-e2d7-11f1-99a1-253766e7ad8b.jpg",
+        "publishedAt": "2026-11-17T23:03:39.000Z",
         "source": "BBC"
       },
       {
-        "title": "Government must act now or lose Royal Mail, former minister warns",
-        "link": "https://www.bbc.co.uk/news/articles/cjvg26p3z2gdo?at_medium=RSS&at_campaign=rss",
-        "summary": "The former business secretary says \"undercutting\" by rivals will make Royal Mail \"unviable\".",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9890/live/489f1940-e1c1-11f1-a094-5fdc692f3e33.jpg",
-        "publishedAt": "2026-11-17T12:43:07.000Z",
+        "title": "Government backs welfare shake-up to prevent 'lost generation'",
+        "link": "https://www.bbc.co.uk/news/articles/ck79210y125xo?at_medium=RSS&at_campaign=rss",
+        "summary": "Ex-minister Alan Milburn has set out plans to divert spending from benefits towards job support.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cf5e/live/7e3d3ce0-e2b0-11f1-8226-87dfa5049e9a.jpg",
+        "publishedAt": "2026-11-17T18:43:05.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Jensen Huang says he would be 'honoured' to return as Nvidia CEO if board asked him",
+        "link": "https://www.bbc.co.uk/news/articles/cwx2en2vrxmdo?at_medium=RSS&at_campaign=rss",
+        "summary": "Huang says he has had an \"outpouring\" of calls from investors and others calling for him to return.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/40ef/live/51fc1a30-e2aa-11f1-99a1-253766e7ad8b.jpg",
+        "publishedAt": "2026-11-17T18:24:21.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "We can't afford to hire under-25s, say firms. Will Milburn plans help?",
+        "link": "https://www.bbc.co.uk/news/articles/c6d01e8m15mko?at_medium=RSS&at_campaign=rss",
+        "summary": "The proposal to cut employers' National Insurance costs is \"essential\" to tackling the Neet problem, one business group says.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1236/live/f4363760-e29e-11f1-a094-5fdc692f3e33.png",
+        "publishedAt": "2026-11-17T15:56:04.000Z",
         "source": "BBC"
       },
       {
@@ -363,25 +379,33 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ca90/live/0c02f160-e1ac-11f1-8ee3-23d0d09d2796.jpg",
         "publishedAt": "2026-11-17T12:35:53.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "US government confirms investigation into tech firm Megaspeed",
-        "link": "https://www.bbc.co.uk/news/articles/cmn504nq5033o?at_medium=RSS&at_campaign=rss",
-        "summary": "The Singapore-based company is suspected of helping to ship high-end AI chips from tech giant Nvidia to China, violating US export rules.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a77e/live/31ebc580-e267-11f1-900c-895604014268.jpg",
-        "publishedAt": "2026-11-17T11:17:32.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "OpenAI sued by California over Hugging Face attack",
-        "link": "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo?at_medium=RSS&at_campaign=rss",
-        "summary": "Attorney General Rob Bonta alleges that the artificial intelligence misled and endangered the public.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce1a/live/7c81aa70-e211-11f1-a541-6d0c391a4254.jpg",
-        "publishedAt": "2026-11-16T23:12:24.000Z",
-        "source": "BBC"
       }
     ],
     "worldTech": [
+      {
+        "title": "Nvidia reports bumper results as firm says it's not reinstating Huang",
+        "link": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
+        "summary": "Nvidia reported strong quarterly earnings on Tuesday amid the dramatic exit of ex-CEO Jensen Huang.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e48/live/58880030-e2d7-11f1-99a1-253766e7ad8b.jpg",
+        "publishedAt": "2026-11-17T23:03:39.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Paranoid about all of the tech outages? Read this",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVU43MTA5bXhYUjhCcUhULXlDQWN3MnpHNU1FUEhvTndwdm5pam9HNExZc1lKY1R3WnJLZFF4elR6bmdGVkxQaEtCVHBpSmFLR0lQS0xrUENVcU1mNmpGQW9jYmxBY1M4dGMtdHFSUTFyT1pqcDUzSk9fbEZ3cVJ1SDdTaWE?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-11-17T21:47:28.000Z",
+        "source": "CNN"
+      },
+      {
+        "title": "How new US chip restrictions on South East Asia will hit China",
+        "link": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo?at_medium=RSS&at_campaign=rss",
+        "summary": "The new rules restrict chip exports and also access to their computing power, which China relies on heavily.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bfea/live/8fbafe20-e225-11f1-ae7e-97d0d3a43181.jpg",
+        "publishedAt": "2026-11-17T14:25:45.000Z",
+        "source": "BBC"
+      },
       {
         "title": "NHS data contract to stay with Palantir until 2029",
         "link": "https://www.bbc.co.uk/news/articles/cqvg27zpm8w8o?at_medium=RSS&at_campaign=rss",
@@ -397,113 +421,89 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eb4c/live/4a003210-e1d0-11f1-b8c8-67fa35f5afdb.jpg",
         "publishedAt": "2026-11-17T11:49:01.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "US government confirms investigation into tech firm Megaspeed",
-        "link": "https://www.bbc.co.uk/news/articles/cmn504nq5033o?at_medium=RSS&at_campaign=rss",
-        "summary": "The Singapore-based company is suspected of helping to ship high-end AI chips from tech giant Nvidia to China, violating US export rules.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a77e/live/31ebc580-e267-11f1-900c-895604014268.jpg",
-        "publishedAt": "2026-11-17T11:17:32.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "How new US chip restrictions on South East Asia will hit China",
-        "link": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo?at_medium=RSS&at_campaign=rss",
-        "summary": "The new rules restrict chip exports and also access to their computing power, which China relies on heavily.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bfea/live/8fbafe20-e225-11f1-ae7e-97d0d3a43181.jpg",
-        "publishedAt": "2026-11-17T10:22:09.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "'We're a capitalist society': Grindr defends $120 a month premium tier",
-        "link": "https://www.bbc.co.uk/news/articles/cr1ewlqjn694o?at_medium=RSS&at_campaign=rss",
-        "summary": "It says the ultra-premium service is intended for a \"small community\" of users - and could get more expensive in future.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6c57/live/770860f0-e268-11f1-900c-895604014268.jpg",
-        "publishedAt": "2026-11-17T09:41:07.000Z",
-        "source": "BBC"
       }
     ],
     "domestic": [
       {
-        "title": "中加同意将初步联合安排的相关豁免措施延长2年",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-17/10733707.shtml",
-        "summary": "中新社北京11月17日电 中国商务部新闻发言人17日就中加经贸磋商成果答记者问时称，双方同意将初步联合安排的相关豁免措施延长2年，加方还将进一步扩大对中国钢铝产品的豁免范围。",
+        "title": "聚焦APEC｜俄罗斯总统普京抵达深圳 蔡奇前往机场迎接",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-18/10733815.shtml",
+        "summary": "新华社深圳11月18日电(记者赵瀚泽、周颖)俄罗斯总统普京11月18日凌晨乘专机抵达深圳，出席亚太经合组织第三十三次领导人非正式会议。中共中央政治局常委、中央书记处书记蔡奇前往机场迎接。(完）",
         "image": "",
-        "publishedAt": "2026-11-17T12:44:58.000Z",
+        "publishedAt": "2026-11-17T18:13:56.000Z",
         "source": "中新网"
       },
       {
-        "title": "学习手记｜共同做大亚太合作蛋糕",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-17/10733703.shtml",
-        "summary": "潮起太平洋，风鼓合作帆。11月18日至19日，亚太经合组织(APEC)第三十三次领导人非正式会议将在深圳举行，习近平主席将主持会议并发表讲话。",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/11/17/f8b2ce74f0164a558d4b3ea8c056a372.png",
-        "publishedAt": "2026-11-17T12:34:37.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "西藏自治区检察机关自2021年以来共开展国家司法救助1265人",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-17/10733699.shtml",
-        "summary": "中新网拉萨11月17日电 (李林)西藏检察机关开展国家司法救助工作情况新闻发布会17日在拉萨召开。发布会介绍，2021年以来，西藏自治区检察机关共开展国家司法救助1265人，发放救助金2483.7万元(人民币，下同)。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261117/1ebeeaea-6a5d-421c-9f8b-148b8325cee6_zsite.jpg",
-        "publishedAt": "2026-11-17T12:16:42.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "浙江：持续强化对权力运行的监督制约",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-17/10733696.shtml",
-        "summary": "中新网杭州11月17日电(记者 王逸飞)“持续强化对权力运行的监督制约。加强对政策制定、议事决策、审批监管、执法司法等关键环节的监督，深化公权力大数据监督，更加科学有效把权力关进制度笼子。”17日于杭州举行的中共浙江省委新闻发布会上，浙江省纪委常务副书记、省监委副主任陈澄就该省接下来如何一体推进不敢...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261117/0e1f5eca-bb37-4040-a514-746a1785719e_zsite.jpg",
-        "publishedAt": "2026-11-17T12:12:38.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "台湾经济面临资金外流隐忧",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-17/10733680.shtml",
-        "summary": "中新社台北11月17日电 台湾出口近期表现强劲，新台币却持续对美元贬值，逼近十年来低位。舆论分析，企业加速海外投资、外资卖超台股等因素交织，正改变台湾过去出口旺盛、资金回流带动新台币升值的循环，台湾经济面临资金外流隐忧。",
+        "title": "大国外交进行时丨俄罗斯总统普京抵达深圳",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-18/10733813.shtml",
+        "summary": "11月18日凌晨，俄罗斯总统普京乘专机抵达深圳，将出席11月18日至19日举行的亚太经合组织第三十三次领导人非正式会议。",
         "image": "",
-        "publishedAt": "2026-11-17T12:06:44.000Z",
+        "publishedAt": "2026-11-17T18:04:30.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "聚焦APEC｜韩国总统李在明抵达深圳",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-18/10733805.shtml",
+        "summary": "新华社深圳11月18日电(记者周颖、杨深深)韩国总统李在明18日抵达深圳，将出席亚太经合组织第三十三次领导人非正式会议。",
+        "image": "",
+        "publishedAt": "2026-11-17T16:51:40.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "聚焦APEC｜马来西亚总理安瓦尔抵达深圳",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-18/10733804.shtml",
+        "summary": "新华社深圳11月18日电(记者杨深深、周颖)马来西亚总理安瓦尔18日抵达深圳，将出席亚太经合组织第三十三次领导人非正式会议。",
+        "image": "",
+        "publishedAt": "2026-11-17T16:33:13.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "聚焦APEC｜文莱苏丹哈桑纳尔抵达深圳",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-18/10733803.shtml",
+        "summary": "新华社深圳11月18日电(记者周颖、杨深深)文莱苏丹哈桑纳尔18日抵达深圳，将出席亚太经合组织第三十三次领导人非正式会议。",
+        "image": "",
+        "publishedAt": "2026-11-17T16:31:41.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
-        "link": "https://www.bbc.co.uk/news/articles/cqrlg377638yo?at_medium=RSS&at_campaign=rss",
-        "summary": "Palestinians say there was an attack by settlers in al-Duyuk al-Tahta, while the Israeli military says the settlers fired after being attacked.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d277/live/17a72100-e286-11f1-a094-5fdc692f3e33.jpg",
-        "publishedAt": "2026-11-17T13:02:17.000Z",
+        "title": "Nvidia reports bumper results as firm says it's not reinstating Huang",
+        "link": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
+        "summary": "Nvidia reported strong quarterly earnings on Tuesday amid the dramatic exit of ex-CEO Jensen Huang.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e48/live/58880030-e2d7-11f1-99a1-253766e7ad8b.jpg",
+        "publishedAt": "2026-11-17T23:03:39.000Z",
         "source": "BBC"
       },
       {
-        "title": "Putin's Crimea bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+        "title": "Thomas Markle charged over child sex abuse material in Philippines",
+        "link": "https://www.bbc.co.uk/news/articles/ckg5ry8m49ggo?at_medium=RSS&at_campaign=rss",
+        "summary": "Markle is being held in prison in the US on a separate charge and has previously denied all of the allegations.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5b0e/live/040fc640-dd79-11f1-93e1-3b657b665bcf.jpg",
+        "publishedAt": "2026-11-17T22:44:15.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
         "link": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-        "summary": "Ukraine says the attack took weeks to plan, while the Kremlin vows to rebuild the strategic bridge.",
+        "summary": "Ukraine says the missile and drone attack on the strategic bridge in the Russian-annexed Crimea took weeks to plan.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/222d/live/db8315b0-e278-11f1-99a1-253766e7ad8b.png",
-        "publishedAt": "2026-11-17T13:01:11.000Z",
+        "publishedAt": "2026-11-17T21:24:35.000Z",
         "source": "BBC"
       },
       {
-        "title": "Nvidia partner Megaspeed being investigated by US government over chip exports",
-        "link": "https://www.bbc.co.uk/news/articles/cmn504nq5033o?at_medium=RSS&at_campaign=rss",
-        "summary": "The Singapore-based company is suspected of helping to ship high-end AI chips from tech giant Nvidia to China, violating US export rules.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a77e/live/31ebc580-e267-11f1-900c-895604014268.jpg",
-        "publishedAt": "2026-11-17T11:17:32.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "How stingless bees in Peru became the world’s first insects to be granted legal rights",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9aaVQ1blNlUWJFTFNEZ2doSTZPMjlHaU1GYm03UlpRdGRTRWlMVnc2SDZxNzhLTTNoZ2QyVnoxRndkOVROVHllcXBDSTRBMUVEVzB1cndPeUVBbkZLVEJMV0lhQVg3Wm1RZm1la1ozaTc1dml1UUhCNQ?oc=5",
+        "title": "Ecuadorian fishermen sue US over mysterious boat strike",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcW5rUERZbGVnSVIzRE5mN2hsLUd4THFITGNBdXZ3SmJwTE8zTXRIOE9zZ3NSdDl2RWVMem9qMFByYTZKZ05JYWRIQjhfOXJFb0xFYUJqdXZfblZUcnpOd051X1MxUUdRS0tDeXIwckQ2OHk3QUlMcUcxaWlvMFBfaE43U20?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-11-17T09:41:24.000Z",
+        "publishedAt": "2026-11-17T17:22:14.000Z",
         "source": "CNN"
       },
       {
-        "title": "Indian woman gang-raped while pregnant in 2002 'heartbroken' after two perpetrators bailed",
-        "link": "https://www.bbc.co.uk/news/articles/cr868wd2qg18o?at_medium=RSS&at_campaign=rss",
-        "summary": "Bilkis Bano has spoken of her \"pain, shock and disbelief\" at the top court order and vowed to fight back.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9c83/live/904d30a0-e1a4-11f1-973a-a76c1b2f887a.jpg",
-        "publishedAt": "2026-11-17T09:27:44.000Z",
+        "title": "'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge",
+        "link": "https://www.bbc.co.uk/news/articles/cq7825234lgmo?at_medium=RSS&at_campaign=rss",
+        "summary": "Moscow has targeted bridges in Kyiv, while Ukraine severely damaged a critical bridge linking Russia to occupied Crimea.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f084/live/ab522920-e29c-11f1-8dda-8925a81c3da5.jpg",
+        "publishedAt": "2026-11-17T17:19:57.000Z",
         "source": "BBC"
       }
     ],
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-11-17",
+    "rotationLabel": "Curated Rotation · 2026-11-18",
     "sections": [
       {
         "id": "data-storage",
@@ -522,27 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-6",
-            "sectionId": "data-storage",
-            "title": "DiskANN: Fast Accurate Billion-point Nearest Neighbor Search on a Single Node",
-            "authors": [
-              "Neelesh Gupta",
-              "Leland Willard",
-              "Xiangyao Yu",
-              "Yuri N."
-            ],
-            "venue": "NeurIPS",
-            "year": 2019,
-            "quality": "高影响力",
-            "categories": [
-              "vector search",
-              "ANN"
-            ],
-            "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
-            "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-1",
             "sectionId": "data-storage",
@@ -562,7 +541,7 @@
             ],
             "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
             "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-2",
@@ -584,6 +563,27 @@
             "link": "https://research.google/pubs/pub27898/",
             "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-3",
+            "sectionId": "data-storage",
+            "title": "Dynamo: Amazon's Highly Available Key-value Store",
+            "authors": [
+              "Giuseppe DeCandia",
+              "Deniz Hastorun",
+              "Madan Jampani",
+              "Gunavardhan Kakulapati"
+            ],
+            "venue": "SOSP",
+            "year": 2007,
+            "quality": "顶会",
+            "categories": [
+              "key-value",
+              "distributed systems"
+            ],
+            "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
+            "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -593,27 +593,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-1",
-            "sectionId": "computer-vision",
-            "title": "Deep Residual Learning for Image Recognition",
-            "authors": [
-              "Kaiming He",
-              "Xiangyu Zhang",
-              "Shaoqing Ren",
-              "Jian Sun"
-            ],
-            "venue": "CVPR",
-            "year": 2016,
-            "quality": "顶会",
-            "categories": [
-              "image recognition",
-              "backbone"
-            ],
-            "link": "https://arxiv.org/abs/1512.03385",
-            "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-2",
             "sectionId": "computer-vision",
@@ -633,7 +612,7 @@
             ],
             "link": "https://arxiv.org/abs/2005.12872",
             "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-3",
@@ -655,6 +634,27 @@
             "link": "https://arxiv.org/abs/2010.11929",
             "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-4",
+            "sectionId": "computer-vision",
+            "title": "Learning Transferable Visual Models From Natural Language Supervision",
+            "authors": [
+              "Alec Radford",
+              "Jong Wook Kim",
+              "Chris Hallacy",
+              "Aditya Ramesh"
+            ],
+            "venue": "ICML",
+            "year": 2021,
+            "quality": "顶会",
+            "categories": [
+              "vision-language",
+              "foundation model"
+            ],
+            "link": "https://arxiv.org/abs/2103.00020",
+            "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -664,27 +664,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-2",
-            "sectionId": "llm-memory",
-            "title": "Memorizing Transformers",
-            "authors": [
-              "Yuhuai Wu",
-              "Markus N. Rabe",
-              "DeLesley Hutchins",
-              "Christian Szegedy"
-            ],
-            "venue": "ICLR",
-            "year": 2022,
-            "quality": "顶会",
-            "categories": [
-              "memory",
-              "long context"
-            ],
-            "link": "https://arxiv.org/abs/2203.08913",
-            "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-3",
             "sectionId": "llm-memory",
@@ -704,7 +683,7 @@
             ],
             "link": "https://arxiv.org/abs/2112.04426",
             "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-4",
@@ -726,6 +705,27 @@
             "link": "https://arxiv.org/abs/2310.11511",
             "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-5",
+            "sectionId": "llm-memory",
+            "title": "LongMem: Scaling Language Model Context with Memory-Augmented Retrieval",
+            "authors": [
+              "Zeqiu Wu",
+              "Yizhong Wang",
+              "Jiacheng Liu",
+              "Yelong Shen"
+            ],
+            "venue": "ACL Findings",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "memory",
+              "long context"
+            ],
+            "link": "https://arxiv.org/abs/2306.07174",
+            "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -735,27 +735,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-3",
-            "sectionId": "agents",
-            "title": "Generative Agents: Interactive Simulacra of Human Behavior",
-            "authors": [
-              "Joon Sung Park",
-              "Joseph O'Brien",
-              "Carrie Cai",
-              "Meredith Ringel Morris"
-            ],
-            "venue": "UIST",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "agent society",
-              "memory"
-            ],
-            "link": "https://arxiv.org/abs/2304.03442",
-            "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-4",
             "sectionId": "agents",
@@ -775,7 +754,7 @@
             ],
             "link": "https://arxiv.org/abs/2305.16291",
             "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-5",
@@ -796,6 +775,27 @@
             ],
             "link": "https://arxiv.org/abs/2308.08155",
             "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-6",
+            "sectionId": "agents",
+            "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+            "authors": [
+              "John Yang",
+              "Carlos E. Jimenez",
+              "Alexander Wettig",
+              "Karthik Narasimhan"
+            ],
+            "venue": "ICLR",
+            "year": 2025,
+            "quality": "新近代表作",
+            "categories": [
+              "software agent",
+              "benchmark"
+            ],
+            "link": "https://arxiv.org/abs/2405.15793",
+            "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
             "trackLabel": "轮换精选"
           }
         ]
