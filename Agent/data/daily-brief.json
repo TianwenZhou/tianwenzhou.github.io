@@ -1,33 +1,25 @@
 {
-  "generatedAt": "2026-11-21T12:31:08.745Z",
+  "generatedAt": "2026-11-21T21:36:31.388Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 2,
+      "temperature": -2,
       "weatherCode": 0,
-      "windSpeed": 7
+      "windSpeed": 4
     },
     "today": {
-      "date": "2026-11-21",
-      "weatherCode": 0,
-      "description": "晴朗",
+      "date": "2026-11-22",
+      "weatherCode": 2,
+      "description": "局部多云",
       "max": 6,
-      "min": -1,
+      "min": -3,
       "precipitationProbability": 0
     },
     "forecast": [
       {
-        "date": "2026-11-21",
-        "weatherCode": 0,
-        "description": "晴朗",
-        "max": 6,
-        "min": -1,
-        "precipitationProbability": 0
-      },
-      {
         "date": "2026-11-22",
-        "weatherCode": 3,
-        "description": "阴天",
+        "weatherCode": 2,
+        "description": "局部多云",
         "max": 6,
         "min": -3,
         "precipitationProbability": 0
@@ -37,7 +29,7 @@
         "weatherCode": 1,
         "description": "基本晴",
         "max": 7,
-        "min": -2,
+        "min": -1,
         "precipitationProbability": 0
       },
       {
@@ -50,37 +42,54 @@
       },
       {
         "date": "2026-11-25",
+        "weatherCode": 1,
+        "description": "基本晴",
+        "max": 7,
+        "min": -3,
+        "precipitationProbability": 0
+      },
+      {
+        "date": "2026-11-26",
         "weatherCode": 2,
         "description": "局部多云",
-        "max": 9,
-        "min": -3,
+        "max": 12,
+        "min": 0,
         "precipitationProbability": 0
       }
     ]
   },
   "classicQuote": {
-    "id": "taoteching-accumulate",
-    "text": "合抱之木，生于毫末；九层之台，起于累土。",
+    "id": "taoteching-self",
+    "text": "知人者智，自知者明；胜人者有力，自胜者强。",
     "source": "《道德经》",
     "author": "老子",
-    "note": "再大的目标，也要拆成今天能推进的一小步。"
+    "note": "比起和别人比较，更重要的是把自己的节奏稳住。"
   },
   "bookExcerpt": {
-    "id": "camel-xiangzi-sky",
-    "text": "天是越来越晴朗了，一轮火一样的太阳悬在空中，街上的一切都像在明晃晃地发着白光。",
-    "book": "《骆驼祥子》",
-    "author": "老舍"
+    "id": "norwegian-wood-rain",
+    "text": "雨还在下，细得像雾，落在草地和树叶上，世界像被一种安静的潮气轻轻包住。",
+    "book": "《挪威的森林》",
+    "author": "村上春树"
   },
   "featuredPlace": {
-    "id": "202611201600",
-    "title": "法国普罗旺斯-阿尔卑斯-蔚蓝海岸大区尼斯",
+    "id": "202611211600",
+    "title": "西班牙坎塔布里亚自治区的圣胡斯塔隐修院与小教堂",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "陶瓦屋顶下的梦",
-    "image": "https://www.bing.com/th?id=OHR.RedNice_ZH-CN3518429866_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E6%B3%95%E5%9B%BD%E5%B0%BC%E6%96%AF&form=hpcapt&mkt=zh-cn"
+    "summary": "海浪间的庇护所",
+    "image": "https://www.bing.com/th?id=OHR.JustaHermitage_ZH-CN3751022621_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E5%9C%A3%E8%83%A1%E6%96%AF%E5%A1%94%E5%B0%8F%E6%95%99%E5%A0%82&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202611211600",
+      "title": "西班牙坎塔布里亚自治区的圣胡斯塔隐修院与小教堂",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "海浪间的庇护所",
+      "image": "https://www.bing.com/th?id=OHR.JustaHermitage_ZH-CN3751022621_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E5%9C%A3%E8%83%A1%E6%96%AF%E5%A1%94%E5%B0%8F%E6%95%99%E5%A0%82&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202611201600",
       "title": "法国普罗旺斯-阿尔卑斯-蔚蓝海岸大区尼斯",
@@ -143,175 +152,166 @@
       "summary": "霜染枝叶",
       "image": "https://www.bing.com/th?id=OHR.FirstFrost_ZH-CN2219029557_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E6%9D%9C%E9%B9%83%E8%8A%B1&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202611131600",
-      "title": "中国香港维多利亚港",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "唯有向上发展",
-      "image": "https://www.bing.com/th?id=OHR.BlueHK_ZH-CN1382345392_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E4%B8%AD%E5%9B%BD%E9%A6%99%E6%B8%AF%E7%BB%B4%E5%A4%9A%E5%88%A9%E4%BA%9A%E6%B8%AF&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-11-21",
-    "dateLabel": "11月21日",
+    "dateKey": "2026-11-22",
+    "dateLabel": "11月22日",
     "items": [
       {
-        "year": "2022",
-        "text": "第22屆世界盃足球賽在卡達開幕。",
-        "link": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4"
+        "year": "2017",
+        "text": "香港恒生指數十年來首次升破三萬點。",
+        "link": "https://zh.wikipedia.org/wiki/2017%E5%B9%B4"
       },
       {
-        "year": "2022",
-        "text": "印度尼西亞西爪哇省發生Mww 5.6地震，造成至少271人死亡、2,043人受傷。",
-        "link": "https://zh.wikipedia.org/wiki/%E8%A5%BF%E7%88%AA%E5%93%87%E7%9C%81"
+        "year": "2016",
+        "text": "中華民國復興航空宣布解散。",
+        "link": "https://zh.wikipedia.org/wiki/2016%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "天津通报正风肃纪反腐“成绩单” 部署深化“三不腐”",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-21/10735863.shtml",
-        "summary": "中新网天津11月21日电 (记者 周亚强)记者从中共天津市委21日举行的新闻发布会上获悉，市第十二次党代会以来，全市纪检监察机关共查处“四风”问题1万余起，批评教育和处理1.3万余人；同期共立案2.4万余件，处分2.2万余人，其中处分市管干部235人。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261121/4c9f0afd-d086-4a8f-ae3a-3e22d7424887_zsite.jpg",
-        "publishedAt": "2026-11-21T12:20:05.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "天津市城市民族工作品牌“津石榴”形象标识设计投入使用",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-21/10735858.shtml",
-        "summary": "中新网天津11月21日电 (田孟轩)中新网记者近日从天津市民族和宗教事务委员会了解到，其牵头指导天津科技大学艺术设计学院孙立团队完成“津石榴”形象标识设计，并撰写了《关于打造“津石榴”天津市民族工作品牌形象的对策建议》，目前，该设计成果已在天津市首个民族团结进步宣传周、京津冀铸牢中华民族共同体意识研...",
+        "title": "第七届世界海洋生物多样性大会在比利时举行",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-21/10735916.shtml",
+        "summary": "中新社比利时布鲁日11月21日电 (记者 德永健)第七届世界海洋生物多样性大会于11月17日至20日在比利时西北部城市布鲁日举行，围绕全球海洋生物现状、建立“数字海洋”体系等展开研讨。中国南海研究院和厦门大学派代表参会。",
         "image": "",
-        "publishedAt": "2026-11-21T12:16:03.000Z",
+        "publishedAt": "2026-11-21T13:52:52.000Z",
         "source": "中新网"
       },
       {
-        "title": "中国科研团队给植物定制专属“光配方”",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-21/10735847.shtml",
-        "summary": "中新网合肥11月21日电 (记者 张俊)在中国科学技术大学先进技术研究院的农业光学实验室里，生菜、辣椒等蔬菜排满栽培架。没有阳光，也没有土壤，叶子在人工光的照射下一层层往外长。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261121/8d355863-b4d9-4e01-99c9-9a1cb7650753_zsite.jpg",
-        "publishedAt": "2026-11-21T11:50:43.000Z",
+        "title": "习近平新时代中国特色社会主义思想海外研究国际论坛（2026）在北京举行 李书磊出席开幕式并发表主旨演讲",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-21/10735898.shtml",
+        "summary": "新华社北京11月21日电 习近平新时代中国特色社会主义思想海外研究国际论坛(2026)21日在北京开幕。中共中央政治局委员、中宣部部长李书磊出席开幕式并发表主旨演讲。",
+        "image": "",
+        "publishedAt": "2026-11-21T13:11:12.000Z",
         "source": "中新网"
       },
       {
-        "title": "中外高校围绕“产学研用”达成19项合作",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-21/10735837.shtml",
-        "summary": "中新社重庆11月21日电 (记者 钟旖)2026国际产学研用合作会议(西南三省一市一区)21日在重庆召开。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261121/161f87f6-305a-4ba0-acda-19933bf8b5e2_zsite.JPG",
-        "publishedAt": "2026-11-21T11:29:20.000Z",
+        "title": "李强同新加坡总理黄循财会谈",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-21/10735896.shtml",
+        "summary": "中新社北京11月21日电 11月21日上午，中国国务院总理李强在北京钓鱼台国宾馆同新加坡总理黄循财举行会谈。",
+        "image": "",
+        "publishedAt": "2026-11-21T13:10:24.000Z",
         "source": "中新网"
       },
       {
-        "title": "2026文化抗战学术研讨会在桂林召开",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-21/10735828.shtml",
-        "summary": "中新网桂林11月21日电(张广权 欧惠兰)11月21日，“烽火中的民族精神与文化中国”2026文化抗战学术研讨会在广西桂林召开。会议旨在挖掘文化抗战的历史资源及其当代价值，传承弘扬伟大抗战精神，进一步凝聚学术研究力量，推动文化抗战资源保护传承和活化利用。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261121/e156a7a7-8bb1-400d-a461-1c76095a58e6_zsite.jpg",
-        "publishedAt": "2026-11-21T10:48:36.000Z",
+        "title": "“不是因为开APEC会议，是一直都很漂亮”，这句话为啥火了",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-21/10735910.shtml",
+        "summary": "APEC会议期间，有媒体记者在深圳深南大道采访环卫工田大姐，问这条路是不是因为开会才这么漂亮。田大姐回了一句：“不是因为开APEC会议这条路才很美，它一直都这么漂亮。”说起自己的活儿，她又打了个比方：“把它打扮得漂漂亮亮，像打了一场胜仗。”",
+        "image": "",
+        "publishedAt": "2026-11-21T13:05:05.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "与中国有一种真挚连接——访兰花奖得主勒克莱齐奥",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-21/10735908.shtml",
+        "summary": "新华社巴黎11月21日电 专访｜与中国有一种真挚连接——访兰花奖得主勒克莱齐奥",
+        "image": "",
+        "publishedAt": "2026-11-21T13:02:25.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "青春科创赴零碳之约 全国大学生零碳科技创新大赛宁德收官",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-21/10735870.shtml",
-        "summary": "中新网宁德11月21日电 (记者 叶茂)21日下午，“时代杯”全国大学生零碳科技创新大赛总决赛在福建省宁德市举行，经校赛、区域赛和半决赛遴选，最终10支高校团队晋级总决赛，同台展示零碳创新方案。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261121/b33b5cc5-30f1-4fce-9d02-9ae1479a6302_zsite.jpeg",
-        "publishedAt": "2026-11-21T12:19:11.000Z",
+        "title": "2026年林木业大会在南宁举行 现场签约超400亿元",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-21/10735919.shtml",
+        "summary": "中新社南宁11月21日电 (张广权 黄令妍)2026年林木业大会21日在广西南宁举行。大会现场签约一批项目，总金额超400亿元人民币，涵盖浆纸原料林、纸品加工等领域。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261121/fe665032-583f-48d5-b7b0-f78628424f18_zsite.jpeg",
+        "publishedAt": "2026-11-21T13:51:38.000Z",
         "source": "中新网"
       },
       {
-        "title": "“医药保学面对面”首站在穗举办 推动创新药落地",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-21/10735862.shtml",
-        "summary": "中新网广州11月21日电 (记者 蔡敏婕)2026年医保药品目录新增品种“医药保学面对面”活动(第一站)21日在广州举行。这场活动释放的信号更明确：国家医保局正在把创新药准入的发力点，从“进目录”延伸至“进医院、进处方、进课堂”，让新药更快惠及患者的现实需求。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261121/879c08ec-d5ec-498b-b5b2-1dda53b01e14_zsite.jpg",
-        "publishedAt": "2026-11-21T12:19:03.000Z",
+        "title": "长安大学回应14号面试13号出结果",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-21/10735917.shtml",
+        "summary": "长安大学11月21日发布情况通报：针对近日网络关于长安大学辅导员招聘工作的有关反映，学校高度重视，迅速成立由纪委牵头的专项调查组开展调查。 #8203;#8203;#8203;#8203;",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/11/21/feaf39a218a642b29c3d4450c3c58a2e.jpg",
+        "publishedAt": "2026-11-21T13:28:19.000Z",
         "source": "中新网"
       },
       {
-        "title": "云南非遗保护与发展试点成果展在大理启幕",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-21/10735849.shtml",
-        "summary": "中新网大理11月21日电 (黄兴鸿)21日，“非物质文化遗产系统性保护与可持续发展云南试点成果展”在大理白族自治州大理市喜洲镇启幕，60余项国家级、省级、州市级非物质文化遗产代表性项目进行现场展示、展演、展销，旨在把试点成果从“报告文本”变成“可感知的实践经验”，推动非遗融入现代生活，服务美好生活。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261121/4733e81c-65dd-4803-91d1-c300ddf644c4_zsite.jpg",
-        "publishedAt": "2026-11-21T11:55:49.000Z",
+        "title": "雅江逐浪迎全民健身热潮 西藏尼木上演“高原第一漂”",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-21/10735891.shtml",
+        "summary": "中新网拉萨11月21日电 (贡嘎来松)21日，2026年尼木县全民健身漂流推广活动(西藏尼木站)在拉萨市尼木县吞巴镇雅鲁藏布江根培村河段举办。本次活动由尼木县文化和旅游局、尼木县教育局主办，共有250余名漂流爱好者参与体验。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261121/5580c771-dbc6-4064-8851-d7763e65f3f4_zsite.jpg",
+        "publishedAt": "2026-11-21T13:07:27.000Z",
         "source": "中新网"
       },
       {
-        "title": "研讨现代化水网建设 第三届国家水网及南水北调高质量发展论坛举行",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-21/10735834.shtml",
-        "summary": "中新网北京11月21日电 11月21日，由中国南水北调集团主办的第三届国家水网及南水北调高质量发展论坛在京举行。来自国家部委、地方政府、企事业单位、金融机构、科研院所、高等院校的院士、专家学者及有关方面代表，围绕“科技赋能·创新驱动 建设现代化水网”主题开展交流研讨。",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/11/21/42dafdbc0329421fb5cb2ddf1caa5230.jpg",
-        "publishedAt": "2026-11-21T11:38:10.000Z",
+        "title": "全国逾2300名选手齐聚广州“以赛会友”",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-21/10735897.shtml",
+        "summary": "中新网广州11月21日电 (张璐 焦婵娟)第二届全国全民健身大赛2026年全国国防体育运动大联动暨2026年传统运动项目公开赛(以下简称“赛事”)21日在广州黄埔区知识城国际会展中心开赛。赛事为期三天，共吸引全国237支代表队、2390名选手参赛。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261121/005bca73-c40e-4e25-bf56-1b4b1f8613ef_zsite.jpg",
+        "publishedAt": "2026-11-21T13:05:25.000Z",
         "source": "中新网"
       },
       {
-        "title": "青海德令哈发生5.6级地震：当地震感强烈 初步排查无人员伤亡",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-21/10735845.shtml",
-        "summary": "中新网西宁11月21日电(记者 孙睿 潘雨洁)据中国地震台网测定，11月21日18时45分，青海海西州德令哈市发生5.6级地震，震源深度10公里，震中位于北纬37.14度、东经96.62度，当地震感强烈。",
-        "image": "",
-        "publishedAt": "2026-11-21T11:36:50.000Z",
+        "title": "十六载笔墨传童心 “国寿小画家”颁奖盛典在杭举行",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-21/10735907.shtml",
+        "summary": "中新网杭州11月21日电(曹丹)画笔为桨，童心作帆。11月21日，2026“国寿小画家”颁奖盛典在浙江杭州钱塘江上举行。浙江省35强小画家及其家庭登上“小画家梦想号”游轮，在江景中迎来属于自己的荣誉时刻。这项已举办16年的少儿书画活动，首次将颁奖盛典搬上游轮，开启了一段流动的艺术之旅。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261121/cca12d54-34fb-4a7a-b20b-d56fa69b8464_zsite.jpg",
+        "publishedAt": "2026-11-21T13:04:31.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "北京丰台亮出9处优质体育资源 邀“城市合伙人”共创运动新空间",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-21/10735873.shtml",
-        "summary": "中新网北京11月21日电 11月中旬开始，北京市丰台区陆续举办系列专场推介发布会，亮出政府合作诚意，全程公开透明，持续释放优质投资机会。“遇见丰台·众汇京彩”——2026丰台区体育资源发布会作为第二场系列发布20日举办。会上，丰台亮出体育资源“家底”，集中推出9处体育“留白空间”，包括5宗体育用地、...",
+        "title": "“拖堂”的气候大会给全世界算了笔账",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-21/10735906.shtml",
+        "summary": "气候大会又“拖堂”了。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/11/21/6115807f0d7145f6997476e12c7d4956.jpg",
+        "publishedAt": "2026-11-21T13:15:16.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "结构向优、动能向新 我国消费市场潜能不断释放",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-21/10735914.shtml",
+        "summary": "“经”彩新图景丨结构向优、动能向新 我国消费市场潜能不断释放",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/11/21/5c78d7ecdf3d4dbfbf70755915ae3c50.jpg",
+        "publishedAt": "2026-11-21T13:14:40.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "数万家智能工厂背后，AI到底改变了什么？",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-21/10735913.shtml",
+        "summary": "新华社南京11月20日电(记者沈汝发)“过去靠看风口亮度、听异响、摸水温来判断炉况，现在，我们给高炉装上了‘透视眼’。”南钢人工智能研究院院长李瑾彦说，高炉周边布设了上千个传感器，实时采集温度、压力、图像等多维数据，铁水一级品率提升了10个百分点，217个产品和技术达到国际领先水平。",
         "image": "",
-        "publishedAt": "2026-11-21T12:26:57.000Z",
+        "publishedAt": "2026-11-21T13:11:08.000Z",
         "source": "中新网"
       },
       {
-        "title": "投资额约14亿元 重庆发布市属国企第四批“四链”融合创新项目",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-21/10735871.shtml",
-        "summary": "中新网重庆11月21日电 (梁钦卿)重庆国际人才交流大会·“科学家·创业者·投资人”创投对接活动21日在重庆举办。活动现场发布了重庆市属国企第四批“四链”融合创新项目共65个，投资额约14亿元，主要覆盖智能网联新能源汽车、先进材料与绿色化工、智能装备与制造等6大方向。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261121/91c15bd0-e0d4-46b2-81cf-37fe4ff0eb94_zsite.jpg",
-        "publishedAt": "2026-11-21T12:19:59.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "江苏扬州发布2026年新型光储产业场景清单 开放50项供需场景",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-21/10735860.shtml",
-        "summary": "中新网扬州11月21日电 (徐珊珊 房曾强)11月21日下午，在2026年“光储融智·科创未来”新型光储产业融创对接活动分会场上，《2026年扬州市新型光储产业场景清单》正式发布。清单共发布50项，包括15项场景机会和35项场景能力，旨在以场景开放为纽带，畅通供需对接，推动更多技术找到用武之地、更多...",
+        "title": "秋假+赏秋热潮叠加 地方文旅消费迎来新机遇",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-21/10735912.shtml",
+        "summary": "亲子游、家庭游是秋假期间旅游市场一大亮点。眼下，安徽黄山正值赏秋时节，秋假与赏秋热潮叠加，让当地不少景区人气持续走高。孩子们来到黄山，除了饱览风光，还能体验哪些特色活动？",
         "image": "",
-        "publishedAt": "2026-11-21T12:18:29.000Z",
+        "publishedAt": "2026-11-21T13:09:24.000Z",
         "source": "中新网"
       },
       {
-        "title": "中部六省“论道”崛起新路径 外国客商看好中部市场",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-21/10735856.shtml",
-        "summary": "中新社郑州11月21日电 (记者 阚力)第十四届中国中部投资贸易博览会(以下简称中博会)21日在河南郑州启幕，中部六省政商界人士与会“论道”中部崛起新路径，组团前来寻觅合作机遇的外国客商看好中部地区市场。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261121/0d50cd4c-bf08-4858-b4a2-ead2ad4607cd_zsite.JPG",
-        "publishedAt": "2026-11-21T12:12:12.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "浙江义乌办“校招”：530余家企业提供近1.6万个岗位",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-21/10735844.shtml",
-        "summary": "中新网义乌11月21日电(董易鑫)“我来应聘主播岗，现在不少企业采用AI主播与真人主播相结合的模式，我也想借这次机会集中了解一下市场最新的招聘条件、薪资水平。”11月20日，应届毕业生张靓在浙江义乌说。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261121/005b0ed2-8b23-4ef5-842c-2e29c4ca5955_zsite.jpeg",
-        "publishedAt": "2026-11-21T11:47:57.000Z",
+        "title": "经济日报：“温差”待消弭 信心不可失",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-21/10735911.shtml",
+        "summary": "今年以来，我国经济顶压前行，继续保持总体平稳、向新向优发展态势，展现出强大韧性和活力，借用国家统计局新闻发言人的话概括，就是“‘稳’的特质明显、‘稳’的底气增强”。这从前10个月外贸增速、规模以上工业增加值、高技术制造业增长等数据中可见一斑。",
+        "image": "",
+        "publishedAt": "2026-11-21T13:06:55.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
-        "link": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&at_campaign=rss",
-        "summary": "Ukraine's president says Kyiv acted after 109 separate Russian aerial attacks on bridges in Ukraine.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f21c/live/2c923cc0-e5a2-11f1-b7d5-65d6a750eced.jpg",
-        "publishedAt": "2026-11-21T12:20:55.000Z",
-        "source": "BBC"
-      },
-      {
         "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
         "link": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss",
         "summary": "Countries from nearly 200 countries are in a deadlock to try and get a new global climate agreement.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5253/live/c9ca5500-e579-11f1-a5f6-b3028adf2d6d.jpg",
-        "publishedAt": "2026-11-21T09:52:11.000Z",
+        "publishedAt": "2026-11-21T19:33:49.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Russia-bound ship attacked in Gulf of Finland",
+        "link": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+        "summary": "Finnish defence forces say that Ukraine was likely behind the drone attack on the vessel.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4cee/live/4e2fa7a0-e5c5-11f1-a738-4787e1a18cce.jpg",
+        "publishedAt": "2026-11-21T19:20:22.000Z",
         "source": "BBC"
       },
       {
@@ -319,24 +319,24 @@
         "link": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
         "summary": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3fd7/live/9009b220-e58d-11f1-99a1-253766e7ad8b.jpg",
-        "publishedAt": "2026-11-21T09:34:20.000Z",
+        "publishedAt": "2026-11-21T16:35:15.000Z",
         "source": "BBC"
       },
       {
-        "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
-        "link": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-        "summary": "Pressures weighed on US markets, with the S&P 500 and the Dow Jones Industrial Average pushed into correction territory.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03d5/live/7b6fe9b0-e4ed-11f1-8781-bf15c9202663.jpg",
-        "publishedAt": "2026-11-20T22:42:47.000Z",
+        "title": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
+        "link": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&at_campaign=rss",
+        "summary": "Ukraine's president says Kyiv acted after 109 separate Russian aerial attacks on bridges in Ukraine.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3686/live/9ee585d0-e5a6-11f1-99b6-a35a62fa4264.jpg",
+        "publishedAt": "2026-11-21T13:17:38.000Z",
         "source": "BBC"
       },
       {
-        "title": "French police officers sentenced for beating of music producer Michel Zecler",
-        "link": "https://www.bbc.co.uk/news/articles/ck9d7e9wvvweo?at_medium=RSS&at_campaign=rss",
-        "summary": "The court has upheld the 2020 beating of the black music producer as an aggravated circumstance of racism.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eced/live/2313a9a0-e533-11f1-a094-5fdc692f3e33.jpg",
-        "publishedAt": "2026-11-20T22:37:09.000Z",
-        "source": "BBC"
+        "title": "She asked El Salvador’s president for help. Days later, a gang leader’s house was destroyed",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMWhuZTdFeE9pUGRsTmNCV3EyWHE3eFdhM1BKT0tIZmhZb2xpUXllakJORFB4MWl6U0Eyc1BFRE02aEhhOWxvWm1QS29lMjNHOHhFblhXWHpIbWJ0YmtCb3RfdDBBTWhrUGN4Y3FSVk1mY1c5WlNqdXh3MWRzQlpmMUplSW9OZEVYOWc?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-11-21T11:00:15.000Z",
+        "source": "CNN"
       }
     ],
     "worldBusiness": [
@@ -425,61 +425,61 @@
     ],
     "domestic": [
       {
-        "title": "天津通报正风肃纪反腐“成绩单” 部署深化“三不腐”",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-21/10735863.shtml",
-        "summary": "中新网天津11月21日电 (记者 周亚强)记者从中共天津市委21日举行的新闻发布会上获悉，市第十二次党代会以来，全市纪检监察机关共查处“四风”问题1万余起，批评教育和处理1.3万余人；同期共立案2.4万余件，处分2.2万余人，其中处分市管干部235人。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261121/4c9f0afd-d086-4a8f-ae3a-3e22d7424887_zsite.jpg",
-        "publishedAt": "2026-11-21T12:20:05.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "天津市城市民族工作品牌“津石榴”形象标识设计投入使用",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-21/10735858.shtml",
-        "summary": "中新网天津11月21日电 (田孟轩)中新网记者近日从天津市民族和宗教事务委员会了解到，其牵头指导天津科技大学艺术设计学院孙立团队完成“津石榴”形象标识设计，并撰写了《关于打造“津石榴”天津市民族工作品牌形象的对策建议》，目前，该设计成果已在天津市首个民族团结进步宣传周、京津冀铸牢中华民族共同体意识研...",
+        "title": "第七届世界海洋生物多样性大会在比利时举行",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-21/10735916.shtml",
+        "summary": "中新社比利时布鲁日11月21日电 (记者 德永健)第七届世界海洋生物多样性大会于11月17日至20日在比利时西北部城市布鲁日举行，围绕全球海洋生物现状、建立“数字海洋”体系等展开研讨。中国南海研究院和厦门大学派代表参会。",
         "image": "",
-        "publishedAt": "2026-11-21T12:16:03.000Z",
+        "publishedAt": "2026-11-21T13:52:52.000Z",
         "source": "中新网"
       },
       {
-        "title": "中国科研团队给植物定制专属“光配方”",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-21/10735847.shtml",
-        "summary": "中新网合肥11月21日电 (记者 张俊)在中国科学技术大学先进技术研究院的农业光学实验室里，生菜、辣椒等蔬菜排满栽培架。没有阳光，也没有土壤，叶子在人工光的照射下一层层往外长。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261121/8d355863-b4d9-4e01-99c9-9a1cb7650753_zsite.jpg",
-        "publishedAt": "2026-11-21T11:50:43.000Z",
+        "title": "习近平新时代中国特色社会主义思想海外研究国际论坛（2026）在北京举行 李书磊出席开幕式并发表主旨演讲",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-21/10735898.shtml",
+        "summary": "新华社北京11月21日电 习近平新时代中国特色社会主义思想海外研究国际论坛(2026)21日在北京开幕。中共中央政治局委员、中宣部部长李书磊出席开幕式并发表主旨演讲。",
+        "image": "",
+        "publishedAt": "2026-11-21T13:11:12.000Z",
         "source": "中新网"
       },
       {
-        "title": "中外高校围绕“产学研用”达成19项合作",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-21/10735837.shtml",
-        "summary": "中新社重庆11月21日电 (记者 钟旖)2026国际产学研用合作会议(西南三省一市一区)21日在重庆召开。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261121/161f87f6-305a-4ba0-acda-19933bf8b5e2_zsite.JPG",
-        "publishedAt": "2026-11-21T11:29:20.000Z",
+        "title": "李强同新加坡总理黄循财会谈",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-21/10735896.shtml",
+        "summary": "中新社北京11月21日电 11月21日上午，中国国务院总理李强在北京钓鱼台国宾馆同新加坡总理黄循财举行会谈。",
+        "image": "",
+        "publishedAt": "2026-11-21T13:10:24.000Z",
         "source": "中新网"
       },
       {
-        "title": "2026文化抗战学术研讨会在桂林召开",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-21/10735828.shtml",
-        "summary": "中新网桂林11月21日电(张广权 欧惠兰)11月21日，“烽火中的民族精神与文化中国”2026文化抗战学术研讨会在广西桂林召开。会议旨在挖掘文化抗战的历史资源及其当代价值，传承弘扬伟大抗战精神，进一步凝聚学术研究力量，推动文化抗战资源保护传承和活化利用。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261121/e156a7a7-8bb1-400d-a461-1c76095a58e6_zsite.jpg",
-        "publishedAt": "2026-11-21T10:48:36.000Z",
+        "title": "“不是因为开APEC会议，是一直都很漂亮”，这句话为啥火了",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-21/10735910.shtml",
+        "summary": "APEC会议期间，有媒体记者在深圳深南大道采访环卫工田大姐，问这条路是不是因为开会才这么漂亮。田大姐回了一句：“不是因为开APEC会议这条路才很美，它一直都这么漂亮。”说起自己的活儿，她又打了个比方：“把它打扮得漂漂亮亮，像打了一场胜仗。”",
+        "image": "",
+        "publishedAt": "2026-11-21T13:05:05.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "与中国有一种真挚连接——访兰花奖得主勒克莱齐奥",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-21/10735908.shtml",
+        "summary": "新华社巴黎11月21日电 专访｜与中国有一种真挚连接——访兰花奖得主勒克莱齐奥",
+        "image": "",
+        "publishedAt": "2026-11-21T13:02:25.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
-        "link": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&at_campaign=rss",
-        "summary": "Ukraine's president says Kyiv acted after 109 separate Russian aerial attacks on bridges in Ukraine.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f21c/live/2c923cc0-e5a2-11f1-b7d5-65d6a750eced.jpg",
-        "publishedAt": "2026-11-21T12:20:55.000Z",
-        "source": "BBC"
-      },
-      {
         "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
         "link": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss",
         "summary": "Countries from nearly 200 countries are in a deadlock to try and get a new global climate agreement.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5253/live/c9ca5500-e579-11f1-a5f6-b3028adf2d6d.jpg",
-        "publishedAt": "2026-11-21T09:52:11.000Z",
+        "publishedAt": "2026-11-21T19:33:49.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Russia-bound ship attacked in Gulf of Finland",
+        "link": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+        "summary": "Finnish defence forces say that Ukraine was likely behind the drone attack on the vessel.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4cee/live/4e2fa7a0-e5c5-11f1-a738-4787e1a18cce.jpg",
+        "publishedAt": "2026-11-21T19:20:22.000Z",
         "source": "BBC"
       },
       {
@@ -487,73 +487,73 @@
         "link": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
         "summary": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3fd7/live/9009b220-e58d-11f1-99a1-253766e7ad8b.jpg",
-        "publishedAt": "2026-11-21T09:34:20.000Z",
+        "publishedAt": "2026-11-21T16:35:15.000Z",
         "source": "BBC"
       },
       {
-        "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
-        "link": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-        "summary": "Pressures weighed on US markets, with the S&P 500 and the Dow Jones Industrial Average pushed into correction territory.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03d5/live/7b6fe9b0-e4ed-11f1-8781-bf15c9202663.jpg",
-        "publishedAt": "2026-11-20T22:42:47.000Z",
+        "title": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
+        "link": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&at_campaign=rss",
+        "summary": "Ukraine's president says Kyiv acted after 109 separate Russian aerial attacks on bridges in Ukraine.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3686/live/9ee585d0-e5a6-11f1-99b6-a35a62fa4264.jpg",
+        "publishedAt": "2026-11-21T13:17:38.000Z",
         "source": "BBC"
       },
       {
-        "title": "French police officers sentenced for beating of music producer Michel Zecler",
-        "link": "https://www.bbc.co.uk/news/articles/ck9d7e9wvvweo?at_medium=RSS&at_campaign=rss",
-        "summary": "The court has upheld the 2020 beating of the black music producer as an aggravated circumstance of racism.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eced/live/2313a9a0-e533-11f1-a094-5fdc692f3e33.jpg",
-        "publishedAt": "2026-11-20T22:37:09.000Z",
-        "source": "BBC"
+        "title": "She asked El Salvador’s president for help. Days later, a gang leader’s house was destroyed",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMWhuZTdFeE9pUGRsTmNCV3EyWHE3eFdhM1BKT0tIZmhZb2xpUXllakJORFB4MWl6U0Eyc1BFRE02aEhhOWxvWm1QS29lMjNHOHhFblhXWHpIbWJ0YmtCb3RfdDBBTWhrUGN4Y3FSVk1mY1c5WlNqdXh3MWRzQlpmMUplSW9OZEVYOWc?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-11-21T11:00:15.000Z",
+        "source": "CNN"
       }
     ],
     "nba": [
       {
+        "title": "The hidden danger behind Luka Doncic's historic start",
+        "link": "https://www.espn.com/nba/story/_/id/50522350/luka-doncic-lakers-offense-usage-rate",
+        "summary": "Doncic is pushing the boundaries of basketball production. But could that actually hurt the Lakers' title hopes?",
+        "image": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1119%2Fr1747981_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-11-19T13:46:53.000Z",
+        "source": "ESPN"
+      },
+      {
         "title": "Harden has 51 in 'vintage' performance, leaps Kobe for 3rd-most 50-point games",
         "link": "https://www.espn.com/nba/story/_/id/50546191/james-harden-explodes-51-points-propels-cavs-pacers",
-        "summary": "James Harden posted the 26th 50-point game of his career, passing the late Kobe Bryant for third-most 50-point games in NBA history.",
+        "summary": "James Harden posted the 26th 50-point game of his career, passing Kobe Bryant for third-most 50-point games in NBA history.",
         "image": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1121%2Fr1748814_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-11-21T08:59:53.000Z",
+        "publishedAt": "2026-11-21T15:33:44.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "Udoka says Rockets 'mentally fragile,' blasts defense after loss to Nuggets",
+        "link": "https://www.espn.com/nba/story/_/id/50549254/ime-udoka-frustrated-rockets-defense-loss-nuggets",
+        "summary": "Coach Ime Udoka was upset by the Rockets' lack of physicality and effort as they gave up a season high in points during a loss to the Nuggets, calling...",
+        "image": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2025%2F0430%2Fr1486037_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-11-21T15:33:44.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "76ers' Brown, Wade out; Maxey questionable vs. Bucks",
+        "link": "https://www.espn.com/nba/story/_/id/50550017/76ers-rule-jaylen-brown-dean-wade-vs-bucks",
+        "summary": "76ers forwards Jaylen Brown and Dean Wade will miss Saturday's game against the Bucks with left hamstring injuries, their second straight game out.",
+        "image": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1102%2Fr1740127_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-11-21T15:33:44.000Z",
         "source": "ESPN"
       },
       {
         "title": "Lakers eke out win after Redick rips team's lack of fight vs. last-place Kings",
         "link": "https://www.espn.com/nba/story/_/id/50547994/jj-redick-half-rant-fuels-lakers-last-place-kings",
-        "summary": "Lakers coach JJ Redick ripped into the team's lack of fight after trailing the last-place Kings at halftime, and L.A. went on to eke out a 106-104 win...",
+        "summary": "Lakers coach JJ Redick ripped into the team's lack of fight after trailing the last-place Kings at halftime, and Los Angeles went on to eke out a 106-...",
         "image": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1121%2Fr1748866_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-11-21T08:59:53.000Z",
+        "publishedAt": "2026-11-21T15:33:45.000Z",
         "source": "ESPN"
       },
       {
         "title": "Melo calls out Humphrey for Baltimore remark: Back your apology with action",
         "link": "https://www.espn.com/nfl/story/_/id/50548223/carmelo-anthony-calls-ravens-humphrey-baltimore-remark",
-        "summary": "Former NBA star Carmelo Anthony addressed Ravens CB Marlon Humphrey on Friday, challenging him to do more than apologize after he said Baltimore was \"...",
+        "summary": "Former NBA star Carmelo Anthony challenged Ravens cornerback Marlon Humphrey to do more than apologize after he said Baltimore was \"best at making cri...",
         "image": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1013%2Fr1729943_1024x576_16%2D9.jpg",
-        "publishedAt": "2026-11-21T09:34:43.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Sources: Clips' Ingram expected to make season, team debut vs. Rockets",
-        "link": "https://www.espn.com/nba/story/_/id/50542985/sources-clippers-brandon-ingram-make-season-team-debut",
-        "summary": "After recovering from Achilles surgery, Brandon Ingram is set to make his Clippers debut Monday against the Rockets, sources told ESPN's Shams Charani...",
-        "image": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1120%2Fr1748650_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-11-21T08:59:53.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Wilson hand injuries not connected as Bulls rookie deals with 'bad luck'",
-        "link": "https://www.espn.com/nba/story/_/id/50545258/bulls-rookie-caleb-wilson-hand-injuries-run-bad-luck",
-        "summary": "Caleb Wilson has sustained three hand-related injuries in the past year, but the Chicago Bulls rookie said doctors told him they're not connected and...",
-        "image": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1121%2Fr1748780_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-11-21T08:59:53.000Z",
-        "source": "ESPN"
-      },
-      {
-        "title": "Timberwolves' Edwards has 'no clue' on timetable for return",
-        "link": "https://www.espn.com/nba/story/_/id/50532808/timberwolves-edwards-no-clue-return",
-        "summary": "Timberwolves guard Anthony Edwards said he has \"no clue\" when he will return to play from right knee surgery weeks ago, but was optimistic about his l...",
-        "image": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0101%2Fr1595435_1296x729_16%2D9.jpg",
-        "publishedAt": "2026-11-21T08:59:53.000Z",
+        "publishedAt": "2026-11-21T20:39:50.000Z",
         "source": "ESPN"
       }
     ]
@@ -563,7 +563,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-11-21",
+    "rotationLabel": "Curated Rotation · 2026-11-22",
     "sections": [
       {
         "id": "data-storage",
@@ -571,27 +571,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-4",
-            "sectionId": "data-storage",
-            "title": "Dremel: Interactive Analysis of Web-Scale Datasets",
-            "authors": [
-              "Sergey Melnik",
-              "Andrey Gubarev",
-              "Jing Jing Long",
-              "Geoffrey Romer"
-            ],
-            "venue": "VLDB",
-            "year": 2010,
-            "quality": "顶会",
-            "categories": [
-              "analytics",
-              "columnar"
-            ],
-            "link": "https://research.google/pubs/pub36632/",
-            "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-5",
             "sectionId": "data-storage",
@@ -610,7 +589,7 @@
             ],
             "link": "https://arxiv.org/abs/2401.08281",
             "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-6",
@@ -632,6 +611,27 @@
             "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
             "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-1",
+            "sectionId": "data-storage",
+            "title": "The Log-Structured Merge-Tree (LSM-Tree)",
+            "authors": [
+              "Patrick O'Neil",
+              "Edward Cheng",
+              "Dieter Gawlick",
+              "Elizabeth O'Neil"
+            ],
+            "venue": "Acta Informatica",
+            "year": 1996,
+            "quality": "经典基础",
+            "categories": [
+              "storage",
+              "indexing"
+            ],
+            "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
+            "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -641,27 +641,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-5",
-            "sectionId": "computer-vision",
-            "title": "Segment Anything",
-            "authors": [
-              "Alexander Kirillov",
-              "Eric Mintun",
-              "Nikhila Ravi",
-              "Hanzi Mao"
-            ],
-            "venue": "ICCV",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "segmentation",
-              "foundation model"
-            ],
-            "link": "https://arxiv.org/abs/2304.02643",
-            "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-6",
             "sectionId": "computer-vision",
@@ -681,7 +660,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.07193",
             "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-1",
@@ -703,6 +682,27 @@
             "link": "https://arxiv.org/abs/1512.03385",
             "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-2",
+            "sectionId": "computer-vision",
+            "title": "End-to-End Object Detection with Transformers",
+            "authors": [
+              "Nicolas Carion",
+              "Francisco Massa",
+              "Gabriel Synnaeve",
+              "Nicolas Usunier"
+            ],
+            "venue": "ECCV",
+            "year": 2020,
+            "quality": "顶会",
+            "categories": [
+              "detection",
+              "transformer"
+            ],
+            "link": "https://arxiv.org/abs/2005.12872",
+            "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -712,27 +712,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-6",
-            "sectionId": "llm-memory",
-            "title": "MemoRAG: Moving towards Next-Gen RAG Via Memory-Inspired Knowledge Discovery",
-            "authors": [
-              "Rulin Shao",
-              "Yue Liu",
-              "Shuo Wang",
-              "Yichi Zhang"
-            ],
-            "venue": "arXiv",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "RAG",
-              "memory bank"
-            ],
-            "link": "https://arxiv.org/abs/2409.05591",
-            "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-1",
             "sectionId": "llm-memory",
@@ -752,7 +731,7 @@
             ],
             "link": "https://arxiv.org/abs/2005.11401",
             "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-2",
@@ -774,6 +753,27 @@
             "link": "https://arxiv.org/abs/2203.08913",
             "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-3",
+            "sectionId": "llm-memory",
+            "title": "RETRO: Improving Language Models by Retrieving From Trillions of Tokens",
+            "authors": [
+              "Sebastian Borgeaud",
+              "Arthur Mensch",
+              "Jordan Hoffmann",
+              "Trevor Cai"
+            ],
+            "venue": "DeepMind / arXiv",
+            "year": 2022,
+            "quality": "高影响力",
+            "categories": [
+              "retrieval",
+              "language model"
+            ],
+            "link": "https://arxiv.org/abs/2112.04426",
+            "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -783,28 +783,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-1",
-            "sectionId": "agents",
-            "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
-            "authors": [
-              "Shunyu Yao",
-              "Jeffrey Zhao",
-              "Dian Yu",
-              "Nan Du"
-            ],
-            "venue": "ICLR",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "agent",
-              "reasoning",
-              "tool use"
-            ],
-            "link": "https://arxiv.org/abs/2210.03629",
-            "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-2",
             "sectionId": "agents",
@@ -824,7 +802,7 @@
             ],
             "link": "https://arxiv.org/abs/2302.04761",
             "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-3",
@@ -845,6 +823,27 @@
             ],
             "link": "https://arxiv.org/abs/2304.03442",
             "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-4",
+            "sectionId": "agents",
+            "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+            "authors": [
+              "Guanzhi Wang",
+              "Yuqi Xie",
+              "Zixiang Zhou",
+              "Yujin Tang"
+            ],
+            "venue": "arXiv",
+            "year": 2023,
+            "quality": "高影响力",
+            "categories": [
+              "embodied agent",
+              "planning"
+            ],
+            "link": "https://arxiv.org/abs/2305.16291",
+            "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
             "trackLabel": "轮换精选"
           }
         ]
