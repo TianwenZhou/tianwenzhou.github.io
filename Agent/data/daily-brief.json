@@ -1,43 +1,35 @@
 {
-  "generatedAt": "2026-11-22T06:34:45.327Z",
+  "generatedAt": "2026-11-22T16:11:22.069Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 5,
-      "weatherCode": 2,
-      "windSpeed": 6
+      "temperature": -1,
+      "weatherCode": 1,
+      "windSpeed": 4
     },
     "today": {
-      "date": "2026-11-22",
-      "weatherCode": 2,
-      "description": "局部多云",
-      "max": 5,
-      "min": -3,
+      "date": "2026-11-23",
+      "weatherCode": 1,
+      "description": "基本晴",
+      "max": 7,
+      "min": -1,
       "precipitationProbability": 0
     },
     "forecast": [
       {
-        "date": "2026-11-22",
-        "weatherCode": 2,
-        "description": "局部多云",
-        "max": 5,
-        "min": -3,
-        "precipitationProbability": 0
-      },
-      {
         "date": "2026-11-23",
         "weatherCode": 1,
         "description": "基本晴",
-        "max": 6,
+        "max": 7,
         "min": -1,
         "precipitationProbability": 0
       },
       {
         "date": "2026-11-24",
-        "weatherCode": 0,
-        "description": "晴朗",
+        "weatherCode": 1,
+        "description": "基本晴",
         "max": 5,
-        "min": -4,
+        "min": -3,
         "precipitationProbability": 0
       },
       {
@@ -52,35 +44,52 @@
         "date": "2026-11-26",
         "weatherCode": 2,
         "description": "局部多云",
-        "max": 13,
+        "max": 12,
         "min": 0,
         "precipitationProbability": 0
+      },
+      {
+        "date": "2026-11-27",
+        "weatherCode": 3,
+        "description": "阴天",
+        "max": 11,
+        "min": 1,
+        "precipitationProbability": 2
       }
     ]
   },
   "classicQuote": {
-    "id": "taoteching-self",
-    "text": "知人者智，自知者明；胜人者有力，自胜者强。",
-    "source": "《道德经》",
-    "author": "老子",
-    "note": "比起和别人比较，更重要的是把自己的节奏稳住。"
+    "id": "zhuangzi-time",
+    "text": "人生天地之间，若白驹之过隙，忽然而已。",
+    "source": "《庄子》",
+    "author": "庄周",
+    "note": "事情很多的时候，更值得把注意力放在真正重要的事上。"
   },
   "bookExcerpt": {
-    "id": "norwegian-wood-rain",
-    "text": "雨还在下，细得像雾，落在草地和树叶上，世界像被一种安静的潮气轻轻包住。",
-    "book": "《挪威的森林》",
-    "author": "村上春树"
+    "id": "one-hundred-years-yellow",
+    "text": "许多年以后，面对行刑队，奥雷里亚诺·布恩迪亚上校将会想起父亲带他去见识冰块的那个遥远的下午。",
+    "book": "《百年孤独》",
+    "author": "加西亚·马尔克斯"
   },
   "featuredPlace": {
-    "id": "202611211600",
-    "title": "西班牙坎塔布里亚自治区的圣胡斯塔隐修院与小教堂",
+    "id": "202611221600",
+    "title": "蕨类植物的卷曲嫩叶",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "海浪间的庇护所",
-    "image": "https://www.bing.com/th?id=OHR.JustaHermitage_ZH-CN3751022621_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E5%9C%A3%E8%83%A1%E6%96%AF%E5%A1%94%E5%B0%8F%E6%95%99%E5%A0%82&form=hpcapt&mkt=zh-cn"
+    "summary": "自然中的几何之美",
+    "image": "https://www.bing.com/th?id=OHR.FibonacciFern_ZH-CN3882237848_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%97%A5&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202611221600",
+      "title": "蕨类植物的卷曲嫩叶",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "自然中的几何之美",
+      "image": "https://www.bing.com/th?id=OHR.FibonacciFern_ZH-CN3882237848_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%97%A5&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202611211600",
       "title": "西班牙坎塔布里亚自治区的圣胡斯塔隐修院与小教堂",
@@ -143,167 +152,182 @@
       "summary": "历经岁月，屹立不倒",
       "image": "https://www.bing.com/th?id=OHR.GilaCliff_ZH-CN2393001519_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E5%90%89%E6%8B%89%E6%82%AC%E5%B4%96%E6%B0%91%E5%B1%85%E5%9B%BD%E5%AE%B6%E7%BA%AA%E5%BF%B5%E5%9C%B0&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202611141600",
-      "title": "覆霜的红叶杜鹃",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "霜染枝叶",
-      "image": "https://www.bing.com/th?id=OHR.FirstFrost_ZH-CN2219029557_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E6%9D%9C%E9%B9%83%E8%8A%B1&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-11-22",
-    "dateLabel": "11月22日",
+    "dateKey": "2026-11-23",
+    "dateLabel": "11月23日",
     "items": [
       {
-        "year": "2017",
-        "text": "香港恒生指數十年來首次升破三萬點。",
-        "link": "https://zh.wikipedia.org/wiki/2017%E5%B9%B4"
+        "year": "2026",
+        "text": "美軍空襲委內瑞拉，並俘虜總統尼古拉斯·馬杜羅。",
+        "link": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4"
       },
       {
-        "year": "2016",
-        "text": "中華民國復興航空宣布解散。",
-        "link": "https://zh.wikipedia.org/wiki/2016%E5%B9%B4"
+        "year": "2021",
+        "text": "保加利亞西部佩爾尼克州A3高速公路發生巴士車禍，造成46人死亡。",
+        "link": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4"
       }
     ]
   },
   "news": {
     "chinaTop": [
       {
-        "title": "陈文清将赴德国出席第六次中德高级别安全对话并访问德国、奥地利",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-22/10736048.shtml",
-        "summary": "中新社北京11月22日电 中国外交部发言人22日宣布：中共中央政治局委员、中央政法委书记陈文清将于11月22日至28日赴德国出席第六次中德高级别安全对话并访问德国、奥地利。(完)",
+        "title": "李家超致贺香港特区选委会当选委员 冀秉持“爱国者治港”原则履职尽责",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-22/10736218.shtml",
+        "summary": "中新社香港11月22日电 香港特区行政长官李家超22日向2026年香港特区选举委员会(简称“选委会”)界别分组一般选举当选委员致贺。他期望所有选委会委员秉持“爱国者治港”原则履职尽责，为“一国两制”实践行稳致远贡献力量。",
         "image": "",
-        "publishedAt": "2026-11-22T06:30:28.000Z",
+        "publishedAt": "2026-11-22T15:58:55.000Z",
         "source": "中新网"
       },
       {
-        "title": "（东西问·兰花奖）英国导演柯文思：真实的中国生活就是最好的叙事",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-22/10736047.shtml",
-        "summary": "作者 徐皇冠 娜孜叶尔克",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/11/22/d6c63eceac1449ecb408fa7c8e7c7127.png",
-        "publishedAt": "2026-11-22T06:29:12.000Z",
+        "title": "香港特区选委会界别分组一般选举结果揭晓 全部选委顺利产生",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-22/10736217.shtml",
+        "summary": "中新社香港11月22日电 (记者 刘玥晴)2026年香港特区选举委员会(简称“选委会”)界别分组一般选举结果22日晚揭晓。根据选举事务处公布的结果，856名候选人竞逐的31个界别分组中723席选委全部顺利产生。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261122/f0159521-7e01-4cb5-b776-521aeac41a24_zsite.jpg",
+        "publishedAt": "2026-11-22T15:57:11.000Z",
         "source": "中新网"
       },
       {
-        "title": "【和合共生】习言道｜历史性会晤里的历史与未来",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-22/10736034.shtml",
-        "summary": "中新网11月22日电 题：历史性会晤里的历史与未来",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/11/22/f94da368dedf40639505fc4e329f4d74.jpg",
-        "publishedAt": "2026-11-22T06:02:03.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "中国石油天然气集团有限公司副总经理谢军被查",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-22/10736022.shtml",
-        "summary": "中新社北京11月22日电 中国官方22日通报，中国石油天然气集团有限公司党组成员、副总经理谢军涉嫌严重违纪违法，目前正接受中央纪委国家监委纪律审查和监察调查。",
+        "title": "内蒙古医科大学党委原书记赵云山被开除党籍和公职",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-22/10736192.shtml",
+        "summary": "中新网11月22日电 据内蒙古自治区纪委监委消息：经内蒙古自治区党委批准，内蒙古自治区纪委监委对内蒙古医科大学党委原书记赵云山严重违纪违法问题进行了立案审查调查。",
         "image": "",
-        "publishedAt": "2026-11-22T05:24:31.000Z",
+        "publishedAt": "2026-11-22T12:46:17.000Z",
         "source": "中新网"
       },
       {
-        "title": "中国首款全尺寸全倾转电动飞行汽车倾转过渡试飞成功",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-22/10736018.shtml",
-        "summary": "中新社广州11月22日电 (记者 王坚)小鹏汇天22日宣布，其研发的全尺寸全倾转电动飞行汽车A868近日进行倾转过渡试飞并取得成功。此举代表着小鹏汇天成为中国第一家完成全尺寸样机倾转过渡飞行的企业，也意味着中国在该技术领域正式跨入全球第一梯队。",
+        "title": "从深圳出发，他们去了哪里",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-22/10736188.shtml",
+        "summary": "深圳之于APEC，是一个新的起点。",
         "image": "",
-        "publishedAt": "2026-11-22T05:23:31.000Z",
+        "publishedAt": "2026-11-22T12:39:20.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "尹弘当选中共江西省委书记",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-22/10736179.shtml",
+        "summary": "中共江西省第十六届委员会第一次全体会议11月22日选举尹弘为省委书记，陈永奇、庄兆林为省委副书记，当选为省委常委的还有黄喜忠、时玉宝、盛秋平、陈敏、张莹(女)、刘金波、杨勇、许南吉、严允、陈克龙。",
+        "image": "",
+        "publishedAt": "2026-11-22T12:22:43.000Z",
         "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "“零碳暖流”、AI控温 核能供暖是一种什么样的体验",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-22/10736035.shtml",
-        "summary": "随着气温持续走低，您家里的暖气热起来了吗？作为我国南方首个核能供热示范工程所在地，浙江嘉兴海盐县本周正式开启供暖。而今年，当地“核能供暖版图”持续扩容，服务范围从居民小区、工业企业，进一步延伸至文旅酒店等，让“零碳暖流”覆盖更多场景。",
+        "title": "青海德令哈5.6级地震经三轮排查无人员伤亡",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-22/10736213.shtml",
+        "summary": "中新网西宁11月22日电 (记者 潘雨洁)22日晚间，记者从青海省地震局获悉，目前青海省海西州德令哈市已开展三轮拉网式滚动排查，经排查，全市无人员伤亡、无房屋倒塌、无重大财产损失及重大安全险情。",
         "image": "",
-        "publishedAt": "2026-11-22T05:41:48.000Z",
+        "publishedAt": "2026-11-22T14:37:37.000Z",
         "source": "中新网"
       },
       {
-        "title": "全国“最美五老”何红明：点亮边疆万千少年“心灯”",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-22/10736031.shtml",
-        "summary": "中新网昆明11月22日电 题：全国“最美五老”何红明：点亮边疆万千少年“心灯”",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261122/c6b5a492-17c7-412c-9f4d-fbbf74f61523_zsite.jpg",
-        "publishedAt": "2026-11-22T05:35:21.000Z",
+        "title": "西藏扎囊拓宽农牧民淡季增收路 提供770个就业岗位",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-22/10736197.shtml",
+        "summary": "中新网拉萨11月22日电 (记者 贡桑拉姆)近日，西藏山南市扎囊县联合湖南省第十一批援藏工作队株洲组，举办全县首届农牧民淡季区外就业援藏专场招聘会。活动吸引68家用人单位参会，提供就业岗位770个，20名农牧民与用工单位达成就业意向。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261122/26825161-6a8c-4805-8dce-b564bb7ce32d_zsite.jpg",
+        "publishedAt": "2026-11-22T12:50:21.000Z",
         "source": "中新网"
       },
       {
-        "title": "200余名中外人士徒步寻访“南京安全区”",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-22/10736029.shtml",
-        "summary": "中新网南京11月22日电 (记者 朱晓颖)21日，第十届“感恩·南京安全区”国际和平徒步活动在南京师范大学随园校区启动。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261122/53d654c7-06a1-489a-aa7a-c74b1ac0c159_zsite.jpg",
-        "publishedAt": "2026-11-22T05:31:07.000Z",
+        "title": "全国大学生文旅与会展竞赛吸引多国学子参赛",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-22/10736196.shtml",
+        "summary": "中新网哈尔滨11月22日电 (韩竺夏)22日，第二十届全国大学生文化旅游与会展竞赛(全国高校商业精英挑战赛文旅与会展创新创业实践竞赛)总决赛精英赛(以下简称“竞赛”)在黑龙江财经学院落幕。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261122/a834ace1-47e5-49cd-abae-eec15e9444a4_zsite.jpg",
+        "publishedAt": "2026-11-22T12:50:03.000Z",
         "source": "中新网"
       },
       {
-        "title": "四川工会爱心托管解决职工“后顾之忧”",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-22/10736023.shtml",
-        "summary": "中新网成都11月22日电 (记者 岳依桐)记者22日从四川省总工会获悉，四川各地陆续开启秋假，工会爱心托管班里，手工、阅读、研学等活动接连开展。秋假托管服务，既是四川工会爱心托管服务体系的一个缩影，也是工会持续回应职工假期看护需求的生动体现。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261122/870fec84-2d63-4925-9aad-2e4c9d70ed37_zsite.jpg",
-        "publishedAt": "2026-11-22T05:30:05.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "五中全会精神在基层丨理旧账也是创新绩",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-22/10736016.shtml",
-        "summary": "初冬时节，湖南省衡阳市雁峰区湘江欣苑安置小区，黄茶岭街道奇峰村村民戴宣保站在自家暖意融融的新房里，笑得合不拢嘴：“盼了这么多年，终于要住进新房啦。”旧房拆迁后，长期在外借住的戴宣保，就盼着这一天。",
+        "title": "中国援赤几医疗队发起“云端”交流 分享妇产科诊疗经验",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-22/10736187.shtml",
+        "summary": "中新网约翰内斯堡11月22日电 针对赤道几内亚当地妇产科临床诊疗需求，第34批援赤道几内亚中国医疗队近日牵线中国国内医疗机构，在赤道几内亚巴塔总医院开展远程学术交流，通过专题讲座、手术视频演示及病例研讨，帮助当地医护人员提升高危产科疾病诊疗及妇科微创手术能力。",
         "image": "",
-        "publishedAt": "2026-11-22T05:07:54.000Z",
+        "publishedAt": "2026-11-22T12:40:04.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "（文化新纪行）外国游客爱上“当一天中国古人”",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-22/10736185.shtml",
+        "summary": "中新社北京11月22日电 (记者 应妮)今年以来，在持续走热的“China Travel”中，微妙的变化或许不在数量，而在方式。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261122/ff05cbbf-6d4f-4bb2-b3f0-1ea3b88c04ea_zsite.jpg",
+        "publishedAt": "2026-11-22T12:34:22.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "从杭州看全球丝绸治理：一座产业城市为何成为新坐标？",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-22/10736032.shtml",
-        "summary": "中新网杭州11月22日电 题：从杭州看全球丝绸治理：一座产业城市为何成为新坐标？",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261122/5659a4e8-e254-46dd-9341-fb525b6029cd_zsite.jpg",
-        "publishedAt": "2026-11-22T05:39:35.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "AI如何“牵手”历史经典产业？各界人士在杭州共话新可能",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-22/10736030.shtml",
-        "summary": "中新网杭州11月22日电(蓝伊旎)11月21日，人工智能赋能历史经典产业高质量发展活动在浙江杭州举办，专家学者与历史经典产业的企业代表齐聚一堂，共同探寻前沿技术与传统产业融合的全新可能。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261122/98198f11-7271-4a23-84f8-9609b4a74388_zsite.jpg",
-        "publishedAt": "2026-11-22T05:33:43.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "广西推进林浆纸原料保供 打造沿江沿海纸产业集群",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-22/10736026.shtml",
-        "summary": "中新网南宁11月22日电 (黄令妍)11月21日，2026年广西林浆纸资源可持续发展及木片市场规范化建设对接活动在南宁举行。林浆纸领域院士专家，广西林业主管部门、行业企业代表参加活动，探讨浆纸原料林建设和市场供应形势、木片大宗交易市场建设思路等。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261122/762652b1-8374-41c3-9cfd-42f337c6532e_zsite.jpg",
-        "publishedAt": "2026-11-22T05:31:13.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "10月份工业经济总体平稳 发展质量持续提升",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-22/10736013.shtml",
-        "summary": "央视新闻客户端消息(新闻联播)：10月份，我国工业生产总体平稳，新动能支撑有力，工业经济持续向新向优向好发展。",
+        "title": "创14个月新低 国际金价走势与地缘政治局势变化有何关联？",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-22/10736215.shtml",
+        "summary": "本周，国际金价出现连续下跌。国际现货黄金单周跌幅达8.9%，每盎司3800美元、3700美元、3600美元关口接连失守，现货黄金最低触及每盎司3502美元，创14个月新低。",
         "image": "",
-        "publishedAt": "2026-11-22T04:46:05.000Z",
+        "publishedAt": "2026-11-22T15:13:49.000Z",
         "source": "中新网"
       },
       {
-        "title": "历史经典产业博览会主题活动在浙江举办 促跨界对话",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-22/10736004.shtml",
-        "summary": "中新网杭州11月22日电(蓝伊旎)11月20日至22日，首届历史经典产业博览会在浙江杭州举办。其间举办的历史经典产业博览会主题活动上，历史经典产业丛书出版工程正式启动，将通过系统梳理产业文脉根基，为传统技艺数字化留存、创新转化夯实理论基础。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261122/54fd6508-d18a-4d96-b685-630e1f00545a_zsite.jpg",
-        "publishedAt": "2026-11-22T04:04:26.000Z",
+        "title": "错峰秋假，让淡季旅游“热”起来",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-22/10736205.shtml",
+        "summary": "主播说联播丨错峰秋假，让淡季旅游“热”起来",
+        "image": "",
+        "publishedAt": "2026-11-22T13:59:41.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "中国经济看“新”丨从“尝鲜”到“潮流”，智能穿戴打开消费新空间",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-22/10736203.shtml",
+        "summary": "新华社北京11月22日电 题：从“尝鲜”到“潮流”，智能穿戴打开消费新空间",
+        "image": "",
+        "publishedAt": "2026-11-22T13:52:36.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "重大工程有序推进 助力经济民生发展",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-22/10736202.shtml",
+        "summary": "这几天，一批重大工程建设有序推进，未来将推动经济民生发展。",
+        "image": "https://www.chinanews.com/cr/2026/1122/1741986219.JPG",
+        "publishedAt": "2026-11-22T13:50:42.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "多方协同发力 保障冬季“菜篮子”量足价稳",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-22/10736204.shtml",
+        "summary": "玉溪市通海县是云南省的露地蔬菜基地之一，也是我国“南菜北运”的重要枢纽。入冬后，这里的10万亩蔬菜陆续进入采收高峰，每天都发送供应到全国各地市场。",
+        "image": "",
+        "publishedAt": "2026-11-22T13:48:50.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "New draft deal aims to avert collapse of talks at climate summit",
-        "link": "https://www.bbc.co.uk/news/articles/cq7827z2841zo?at_medium=RSS&at_campaign=rss",
-        "summary": "The UN COP31 meeting in Turkey enters a second day of overtime as countries struggle to reach an agreement.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9b71/live/e0c68530-e61e-11f1-94c8-1db910b5b42e.jpg",
-        "publishedAt": "2026-11-22T05:26:10.000Z",
+        "title": "Explosion on Russian ship at Libya port likely caused by drone attack, officials say",
+        "link": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+        "summary": "Libya's eastern rival government says it is working with Russia to investigate the incident.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/577b/live/c0d843f0-e68a-11f1-936e-1fd1d31671db.jpg",
+        "publishedAt": "2026-11-22T16:05:25.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Three killed and dozens missing after fire at Indonesian factory",
+        "link": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
+        "summary": "At least three people were killed and many more feared dead after a fire at a confectionary factory.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0675/live/85d2f2e0-e62c-11f1-b2ea-350d14ed1ad7.jpg",
+        "publishedAt": "2026-11-22T14:05:20.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Russia-bound ship still on fire after attack in Gulf of Finland",
+        "link": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+        "summary": "Finnish defence forces say that Ukraine was likely behind the drone attack on the vessel.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d6f9/live/a55b16b0-e66d-11f1-9e24-791c5321ff0f.jpg",
+        "publishedAt": "2026-11-22T11:25:14.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "South Korea education minister resigns over exam cheating scandal",
+        "link": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no?at_medium=RSS&at_campaign=rss",
+        "summary": "Choi Kyo-jin admits last-minute measures to stop AI-assisted cheating during the college entrance exam caused chaos.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dc28/live/9c42c760-e66a-11f1-99b6-a35a62fa4264.jpg",
+        "publishedAt": "2026-11-22T09:20:45.000Z",
         "source": "BBC"
       },
       {
@@ -313,75 +337,59 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5701/live/7ac9e270-e5ad-11f1-99a1-253766e7ad8b.jpg",
         "publishedAt": "2026-11-22T01:25:03.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "FBI reportedly investigating apparent hack of its criminal database",
-        "link": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
-        "summary": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3fd7/live/9009b220-e58d-11f1-99a1-253766e7ad8b.jpg",
-        "publishedAt": "2026-11-22T00:10:44.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Thousands of Gen Z protesters flood the streets of Europe",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5vcGMyREN3VW5DbWhWQm4zYmpDN2VOS0N3MFR2ZGVHWUItU002dDByM1gxckQ1VXFoMWRaamZNaTZuODQ3VDFwRmEtWVN3aEtVOGJxOFo3ckMyTFV6U1Q0bEFmbXFIT0ZCdXUxWERUaVQ1MWpVbGtOdw?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-11-21T23:40:00.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "Finland warns Ukraine war ‘spilling over’ after Baltic Sea drone strike on Russian cargo ship",
-        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE03c0w4dmN2aEdLWTBCeTR6eEFtZ1BkSi1SQlV5NS1WVExuUnZJTjFxZDlCRU13U1dmc1lkdjNwM3pVUjJjTktDOU81Qy0yaEVHS2JlVFlnUVRVRWlQbnM1WEQtX0pqYWI0VmJaV2UySkxaTFZuS09XV094R1huQQ?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-11-21T21:23:25.000Z",
-        "source": "CNN"
       }
     ],
     "worldBusiness": [
       {
-        "title": "Why a top economist says the stock market will remain volatile",
-        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVFdEaEdLLUJySXhmbnVXWUZlc092MWREc1JDRlBnbk1wUklRWVRBWUIySjc2U1FPZlZPbU5CZDB6Um1ScXlpbEk5QXB5LUQ0OVlUVnlKOHotRUV6QzBhYXRKQjF5azRlYWQyU2VDUzdZOFhvUWZDUEdUN18wLWRuNHdNSnR3My1la0ZKb1JMeGhXbWI1NHd6NVVtOW9oOUlndklRN1JqazFrd1FOVlhpd1JCOUVHN05lTnlRRlBnTjdaOHFLU19OWg?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-11-20T22:55:31.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "GTA 6 sales hit $3.8bn in a single day - the biggest entertainment launch in history",
-        "link": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
-        "summary": "The mammoth figure surpasses every video game launch and single-day film box office record.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3096/live/f678f6e0-e4cc-11f1-99b6-a35a62fa4264.jpg",
-        "publishedAt": "2026-11-20T22:53:24.000Z",
+        "title": "Centrica boss says he is 'hugely concerned' over impact of soaring energy bills",
+        "link": "https://www.bbc.co.uk/news/articles/c6jre7gpdw13o?at_medium=RSS&at_campaign=rss",
+        "summary": "Chris O'Shea says the number of people unable or unwilling to pay their energy bills will increase when prices jump in the new year.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7208/live/d02d4240-e682-11f1-99b6-a35a62fa4264.jpg",
+        "publishedAt": "2026-11-22T13:50:21.000Z",
         "source": "BBC"
       },
       {
-        "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
-        "link": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-        "summary": "Pressures weighed on US markets, with the S&P 500 and the Dow Jones Industrial Average pushed into correction territory.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03d5/live/7b6fe9b0-e4ed-11f1-8781-bf15c9202663.jpg",
-        "publishedAt": "2026-11-20T22:42:47.000Z",
+        "title": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
+        "link": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo?at_medium=RSS&at_campaign=rss",
+        "summary": "In a statement to Italian media, his family remember him as \"the greatest jeweller of our time\".",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/11c4/live/b30a2e00-e635-11f1-bcaa-b74b42067918.jpg",
+        "publishedAt": "2026-11-22T07:12:41.000Z",
         "source": "BBC"
       },
       {
-        "title": "‘GTA VI’ sales blew past $3 billion in its first day, making it one of the biggest entertainment launches ever",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFA0UTkyUDY0Q3dVYjlJZzRSVVVOeWhaSTZvVmoyZlRKeEFBUzFJNDZJR1RlSm1YSW5GM3VBRjhFc29LSVRURUdsYnZ4LVd2STgtNlZyT0M2aXU1UFVfbGVVeXVudVdKb3NOZjNGRlAxY0pkUQ?oc=5",
+        "title": "Employers are being asked to give interview feedback - here's what applicants want",
+        "link": "https://www.bbc.co.uk/news/articles/cm2d94le23xyo?at_medium=RSS&at_campaign=rss",
+        "summary": "People say they often hear nothing back after applying for jobs. But could employers be forced to respond to every applicant?",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fb80/live/784ad260-e4e1-11f1-99b6-a35a62fa4264.jpg",
+        "publishedAt": "2026-11-22T00:04:07.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Tech stocks analyst on worst stock market week in over a year: 'Dark day in tech'",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOR29JWlBzT0hXWHlkQ0I0ZFRtVl9hQUxXNk9QclFaSWozRWNET1NrdVZWaHh2WEtzZHRoa2tjbTlTYjNVYWZLTnloU2trNWtMZkktcDE1WnpXbnZ5cnktb0dWNFBPQ2lISFNjQWVteHpPWHY4QzNhdWFWNjVyVXB5SXBXWWtyYW5xRHhj?oc=5",
         "summary": "",
         "image": "",
-        "publishedAt": "2026-11-20T21:15:51.000Z",
+        "publishedAt": "2026-11-21T00:36:40.000Z",
         "source": "CNN"
       },
       {
-        "title": "Trump threatens ban on US firms building AI data centres overseas",
-        "link": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
-        "summary": "The US president provided little detail on the potential policy, saying others in his team were hearing about it for the first time.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5eb0/live/a9cadc20-e529-11f1-99a1-253766e7ad8b.jpg",
-        "publishedAt": "2026-11-20T20:54:12.000Z",
+        "title": "Can AI really help spot Black Friday deals? We put it to the test",
+        "link": "https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o?at_medium=RSS&at_campaign=rss",
+        "summary": "We put four AI models to the test to see if they could save us money on a new TV.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dcbf/live/85d51550-e435-11f1-8346-933d3547e297.jpg",
+        "publishedAt": "2026-11-21T00:06:11.000Z",
         "source": "BBC"
       }
     ],
     "worldTech": [
+      {
+        "title": "From automation to autonomy: Putting trust at the heart of industrial AI",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBTdjZqUmstZTViM1hzZjlic1BRbzV1dmpmV2M5QURVQXkxTUdFMEpXRFQxeHkzcWZnVjNCeDhZam5IbTh2ekFlVUZCbGJHN0toWmVzcFNhdWU5TlhrdXdlWUU5RGVmNThrMzllenNudWRHTVQ5cjdjQg?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-11-22T09:33:26.000Z",
+        "source": "CNN"
+      },
       {
         "title": "Can AI really help spot Black Friday deals? We put it to the test",
         "link": "https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o?at_medium=RSS&at_campaign=rss",
@@ -413,65 +421,81 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03d5/live/7b6fe9b0-e4ed-11f1-8781-bf15c9202663.jpg",
         "publishedAt": "2026-11-20T22:42:47.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "Trump threatens ban on US firms building AI data centres overseas",
-        "link": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
-        "summary": "The US president provided little detail on the potential policy, saying others in his team were hearing about it for the first time.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5eb0/live/a9cadc20-e529-11f1-99a1-253766e7ad8b.jpg",
-        "publishedAt": "2026-11-20T20:54:12.000Z",
-        "source": "BBC"
       }
     ],
     "domestic": [
       {
-        "title": "陈文清将赴德国出席第六次中德高级别安全对话并访问德国、奥地利",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-22/10736048.shtml",
-        "summary": "中新社北京11月22日电 中国外交部发言人22日宣布：中共中央政治局委员、中央政法委书记陈文清将于11月22日至28日赴德国出席第六次中德高级别安全对话并访问德国、奥地利。(完)",
+        "title": "李家超致贺香港特区选委会当选委员 冀秉持“爱国者治港”原则履职尽责",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-22/10736218.shtml",
+        "summary": "中新社香港11月22日电 香港特区行政长官李家超22日向2026年香港特区选举委员会(简称“选委会”)界别分组一般选举当选委员致贺。他期望所有选委会委员秉持“爱国者治港”原则履职尽责，为“一国两制”实践行稳致远贡献力量。",
         "image": "",
-        "publishedAt": "2026-11-22T06:30:28.000Z",
+        "publishedAt": "2026-11-22T15:58:55.000Z",
         "source": "中新网"
       },
       {
-        "title": "（东西问·兰花奖）英国导演柯文思：真实的中国生活就是最好的叙事",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-22/10736047.shtml",
-        "summary": "作者 徐皇冠 娜孜叶尔克",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/11/22/d6c63eceac1449ecb408fa7c8e7c7127.png",
-        "publishedAt": "2026-11-22T06:29:12.000Z",
+        "title": "香港特区选委会界别分组一般选举结果揭晓 全部选委顺利产生",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-22/10736217.shtml",
+        "summary": "中新社香港11月22日电 (记者 刘玥晴)2026年香港特区选举委员会(简称“选委会”)界别分组一般选举结果22日晚揭晓。根据选举事务处公布的结果，856名候选人竞逐的31个界别分组中723席选委全部顺利产生。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261122/f0159521-7e01-4cb5-b776-521aeac41a24_zsite.jpg",
+        "publishedAt": "2026-11-22T15:57:11.000Z",
         "source": "中新网"
       },
       {
-        "title": "【和合共生】习言道｜历史性会晤里的历史与未来",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-22/10736034.shtml",
-        "summary": "中新网11月22日电 题：历史性会晤里的历史与未来",
-        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/11/22/f94da368dedf40639505fc4e329f4d74.jpg",
-        "publishedAt": "2026-11-22T06:02:03.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "中国石油天然气集团有限公司副总经理谢军被查",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-22/10736022.shtml",
-        "summary": "中新社北京11月22日电 中国官方22日通报，中国石油天然气集团有限公司党组成员、副总经理谢军涉嫌严重违纪违法，目前正接受中央纪委国家监委纪律审查和监察调查。",
+        "title": "内蒙古医科大学党委原书记赵云山被开除党籍和公职",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-22/10736192.shtml",
+        "summary": "中新网11月22日电 据内蒙古自治区纪委监委消息：经内蒙古自治区党委批准，内蒙古自治区纪委监委对内蒙古医科大学党委原书记赵云山严重违纪违法问题进行了立案审查调查。",
         "image": "",
-        "publishedAt": "2026-11-22T05:24:31.000Z",
+        "publishedAt": "2026-11-22T12:46:17.000Z",
         "source": "中新网"
       },
       {
-        "title": "中国首款全尺寸全倾转电动飞行汽车倾转过渡试飞成功",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-22/10736018.shtml",
-        "summary": "中新社广州11月22日电 (记者 王坚)小鹏汇天22日宣布，其研发的全尺寸全倾转电动飞行汽车A868近日进行倾转过渡试飞并取得成功。此举代表着小鹏汇天成为中国第一家完成全尺寸样机倾转过渡飞行的企业，也意味着中国在该技术领域正式跨入全球第一梯队。",
+        "title": "从深圳出发，他们去了哪里",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-22/10736188.shtml",
+        "summary": "深圳之于APEC，是一个新的起点。",
         "image": "",
-        "publishedAt": "2026-11-22T05:23:31.000Z",
+        "publishedAt": "2026-11-22T12:39:20.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "尹弘当选中共江西省委书记",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-22/10736179.shtml",
+        "summary": "中共江西省第十六届委员会第一次全体会议11月22日选举尹弘为省委书记，陈永奇、庄兆林为省委副书记，当选为省委常委的还有黄喜忠、时玉宝、盛秋平、陈敏、张莹(女)、刘金波、杨勇、许南吉、严允、陈克龙。",
+        "image": "",
+        "publishedAt": "2026-11-22T12:22:43.000Z",
         "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "New draft deal aims to avert collapse of talks at climate summit",
-        "link": "https://www.bbc.co.uk/news/articles/cq7827z2841zo?at_medium=RSS&at_campaign=rss",
-        "summary": "The UN COP31 meeting in Turkey enters a second day of overtime as countries struggle to reach an agreement.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9b71/live/e0c68530-e61e-11f1-94c8-1db910b5b42e.jpg",
-        "publishedAt": "2026-11-22T05:26:10.000Z",
+        "title": "Explosion on Russian ship at Libya port likely caused by drone attack, officials say",
+        "link": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+        "summary": "Libya's eastern rival government says it is working with Russia to investigate the incident.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/577b/live/c0d843f0-e68a-11f1-936e-1fd1d31671db.jpg",
+        "publishedAt": "2026-11-22T16:05:25.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Three killed and dozens missing after fire at Indonesian factory",
+        "link": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
+        "summary": "At least three people were killed and many more feared dead after a fire at a confectionary factory.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0675/live/85d2f2e0-e62c-11f1-b2ea-350d14ed1ad7.jpg",
+        "publishedAt": "2026-11-22T14:05:20.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Russia-bound ship still on fire after attack in Gulf of Finland",
+        "link": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+        "summary": "Finnish defence forces say that Ukraine was likely behind the drone attack on the vessel.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d6f9/live/a55b16b0-e66d-11f1-9e24-791c5321ff0f.jpg",
+        "publishedAt": "2026-11-22T11:25:14.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "South Korea education minister resigns over exam cheating scandal",
+        "link": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no?at_medium=RSS&at_campaign=rss",
+        "summary": "Choi Kyo-jin admits last-minute measures to stop AI-assisted cheating during the college entrance exam caused chaos.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dc28/live/9c42c760-e66a-11f1-99b6-a35a62fa4264.jpg",
+        "publishedAt": "2026-11-22T09:20:45.000Z",
         "source": "BBC"
       },
       {
@@ -481,30 +505,6 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5701/live/7ac9e270-e5ad-11f1-99a1-253766e7ad8b.jpg",
         "publishedAt": "2026-11-22T01:25:03.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "FBI reportedly investigating apparent hack of its criminal database",
-        "link": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
-        "summary": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3fd7/live/9009b220-e58d-11f1-99a1-253766e7ad8b.jpg",
-        "publishedAt": "2026-11-22T00:10:44.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Thousands of Gen Z protesters flood the streets of Europe",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5vcGMyREN3VW5DbWhWQm4zYmpDN2VOS0N3MFR2ZGVHWUItU002dDByM1gxckQ1VXFoMWRaamZNaTZuODQ3VDFwRmEtWVN3aEtVOGJxOFo3ckMyTFV6U1Q0bEFmbXFIT0ZCdXUxWERUaVQ1MWpVbGtOdw?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-11-21T23:40:00.000Z",
-        "source": "CNN"
-      },
-      {
-        "title": "Finland warns Ukraine war ‘spilling over’ after Baltic Sea drone strike on Russian cargo ship",
-        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE03c0w4dmN2aEdLWTBCeTR6eEFtZ1BkSi1SQlV5NS1WVExuUnZJTjFxZDlCRU13U1dmc1lkdjNwM3pVUjJjTktDOU81Qy0yaEVHS2JlVFlnUVRVRWlQbnM1WEQtX0pqYWI0VmJaV2UySkxaTFZuS09XV094R1huQQ?oc=5",
-        "summary": "",
-        "image": "",
-        "publishedAt": "2026-11-21T21:23:25.000Z",
-        "source": "CNN"
       }
     ],
     "nba": []
@@ -514,7 +514,7 @@
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-11-22",
+    "rotationLabel": "Curated Rotation · 2026-11-23",
     "sections": [
       {
         "id": "data-storage",
@@ -522,26 +522,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-5",
-            "sectionId": "data-storage",
-            "title": "The FAISS Library",
-            "authors": [
-              "Jeff Johnson",
-              "Matthijs Douze",
-              "Herve Jegou"
-            ],
-            "venue": "IEEE T-BD",
-            "year": 2021,
-            "quality": "高影响力",
-            "categories": [
-              "vector search",
-              "ANN"
-            ],
-            "link": "https://arxiv.org/abs/2401.08281",
-            "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-6",
             "sectionId": "data-storage",
@@ -561,7 +541,7 @@
             ],
             "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
             "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-1",
@@ -583,6 +563,27 @@
             "link": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
             "summary": "现代写优化存储引擎的源头之一，后来的 LevelDB、RocksDB 等系统都深受它影响。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-2",
+            "sectionId": "data-storage",
+            "title": "Bigtable: A Distributed Storage System for Structured Data",
+            "authors": [
+              "Fay Chang",
+              "Jeffrey Dean",
+              "Sanjay Ghemawat",
+              "Wilson C. Hsieh"
+            ],
+            "venue": "OSDI",
+            "year": 2006,
+            "quality": "顶会",
+            "categories": [
+              "distributed systems",
+              "database"
+            ],
+            "link": "https://research.google/pubs/pub27898/",
+            "summary": "Google 的经典分布式存储系统论文，奠定了大规模结构化数据服务的工程范式。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -592,27 +593,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-6",
-            "sectionId": "computer-vision",
-            "title": "DINOv2: Learning Robust Visual Features without Supervision",
-            "authors": [
-              "Maxime Oquab",
-              "Timothée Darcet",
-              "Théo Moutakanni",
-              "Huy V. Vo"
-            ],
-            "venue": "arXiv / Meta",
-            "year": 2023,
-            "quality": "高影响力",
-            "categories": [
-              "self-supervised",
-              "representation"
-            ],
-            "link": "https://arxiv.org/abs/2304.07193",
-            "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-1",
             "sectionId": "computer-vision",
@@ -632,7 +612,7 @@
             ],
             "link": "https://arxiv.org/abs/1512.03385",
             "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-2",
@@ -654,6 +634,27 @@
             "link": "https://arxiv.org/abs/2005.12872",
             "summary": "DETR 把 Transformer 正式带入目标检测，后来一系列视觉 transformer 检测器都和它有关。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-3",
+            "sectionId": "computer-vision",
+            "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+            "authors": [
+              "Alexey Dosovitskiy",
+              "Lucas Beyer",
+              "Alexander Kolesnikov",
+              "Dirk Weissenborn"
+            ],
+            "venue": "ICLR",
+            "year": 2021,
+            "quality": "顶会",
+            "categories": [
+              "vision transformer",
+              "classification"
+            ],
+            "link": "https://arxiv.org/abs/2010.11929",
+            "summary": "ViT 是视觉 Transformer 主线论文，后续大量视觉基础模型都建立在这条路线之上。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -663,27 +664,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-1",
-            "sectionId": "llm-memory",
-            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
-            "authors": [
-              "Patrick Lewis",
-              "Ethan Perez",
-              "Aleksandra Piktus",
-              "Fabio Petroni"
-            ],
-            "venue": "NeurIPS",
-            "year": 2020,
-            "quality": "顶会",
-            "categories": [
-              "RAG",
-              "retrieval"
-            ],
-            "link": "https://arxiv.org/abs/2005.11401",
-            "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-2",
             "sectionId": "llm-memory",
@@ -703,7 +683,7 @@
             ],
             "link": "https://arxiv.org/abs/2203.08913",
             "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-3",
@@ -725,6 +705,27 @@
             "link": "https://arxiv.org/abs/2112.04426",
             "summary": "把检索做成语言模型的一等公民，是大规模检索增强建模的重要路线。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-4",
+            "sectionId": "llm-memory",
+            "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+            "authors": [
+              "Akari Asai",
+              "Zequn Zhang",
+              "Avirup Sil",
+              "Hannaneh Hajishirzi"
+            ],
+            "venue": "ICLR",
+            "year": 2024,
+            "quality": "顶会",
+            "categories": [
+              "RAG",
+              "self-reflection"
+            ],
+            "link": "https://arxiv.org/abs/2310.11511",
+            "summary": "近一代高质量 RAG 代表作，把检索、生成和反思机制串成一个统一流程。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -734,27 +735,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-2",
-            "sectionId": "agents",
-            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
-            "authors": [
-              "Timo Schick",
-              "Jane Dwivedi-Yu",
-              "Roberta Dessì",
-              "Ari Holtzman"
-            ],
-            "venue": "NeurIPS",
-            "year": 2023,
-            "quality": "顶会",
-            "categories": [
-              "tool use",
-              "agent"
-            ],
-            "link": "https://arxiv.org/abs/2302.04761",
-            "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-3",
             "sectionId": "agents",
@@ -774,7 +754,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.03442",
             "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-4",
@@ -795,6 +775,27 @@
             ],
             "link": "https://arxiv.org/abs/2305.16291",
             "summary": "把自动课程学习、技能库和持续探索结合起来，是 embodied agent 的代表工作。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-5",
+            "sectionId": "agents",
+            "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+            "authors": [
+              "Qingyun Wu",
+              "Gagan Bansal",
+              "Jiaqi Zhang",
+              "Yiran Wu"
+            ],
+            "venue": "COLM",
+            "year": 2024,
+            "quality": "新近代表作",
+            "categories": [
+              "multi-agent",
+              "framework"
+            ],
+            "link": "https://arxiv.org/abs/2308.08155",
+            "summary": "多 Agent 协同框架的代表之一，实际工程里也被很多系统直接借鉴。",
             "trackLabel": "轮换精选"
           }
         ]
