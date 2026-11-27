@@ -1,35 +1,27 @@
 {
-  "generatedAt": "2026-11-26T13:47:43.275Z",
+  "generatedAt": "2026-11-27T00:31:15.976Z",
   "weather": {
     "location": "北京市海淀区",
     "current": {
-      "temperature": 4,
+      "temperature": 7,
       "weatherCode": 1,
-      "windSpeed": 2
+      "windSpeed": 21
     },
     "today": {
-      "date": "2026-11-26",
-      "weatherCode": 3,
-      "description": "阴天",
-      "max": 12,
-      "min": 0,
+      "date": "2026-11-27",
+      "weatherCode": 2,
+      "description": "局部多云",
+      "max": 9,
+      "min": 3,
       "precipitationProbability": 0
     },
     "forecast": [
-      {
-        "date": "2026-11-26",
-        "weatherCode": 3,
-        "description": "阴天",
-        "max": 12,
-        "min": 0,
-        "precipitationProbability": 0
-      },
       {
         "date": "2026-11-27",
         "weatherCode": 2,
         "description": "局部多云",
         "max": 9,
-        "min": 2,
+        "min": 3,
         "precipitationProbability": 0
       },
       {
@@ -53,34 +45,51 @@
         "weatherCode": 1,
         "description": "基本晴",
         "max": 15,
-        "min": -1,
+        "min": -2,
+        "precipitationProbability": 0
+      },
+      {
+        "date": "2026-12-01",
+        "weatherCode": 3,
+        "description": "阴天",
+        "max": 8,
+        "min": 0,
         "precipitationProbability": 0
       }
     ]
   },
   "classicQuote": {
-    "id": "records-historical",
-    "text": "桃李不言，下自成蹊。",
-    "source": "《史记》",
-    "author": "司马迁",
-    "note": "真正有分量的作品，本身就会替你说话。"
+    "id": "chuci-seek",
+    "text": "路漫漫其修远兮，吾将上下而求索。",
+    "source": "《离骚》",
+    "author": "屈原",
+    "note": "长期主义最难，但也最值得。"
   },
   "bookExcerpt": {
-    "id": "remembrance-madeleine",
-    "text": "那一点点浸过茶水的点心，忽然把整个旧日时光都唤醒了，仿佛往昔并未消失，只是沉在心底等待一个气味。",
-    "book": "《追忆似水年华》",
-    "author": "马塞尔·普鲁斯特"
+    "id": "border-town-river",
+    "text": "月光如银子，无处不可照及，山上篁竹在月光下变成了一片黑色，身边草丛中虫声繁密如落雨。",
+    "book": "《边城》",
+    "author": "沈从文"
   },
   "featuredPlace": {
-    "id": "202611251600",
-    "title": "怀卢库河上的彩虹瀑布，希洛市，夏威夷州，美国",
+    "id": "202611261600",
+    "title": "夕阳下的孤峰，鲍威尔湖脸峡谷，犹他州，美国",
     "location": "Bing Daily Image",
     "region": "Daily Scenic",
-    "summary": "彩虹落下的地方",
-    "image": "https://www.bing.com/th?id=OHR.RFHilo_ZH-CN5962114314_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "link": "https://www.bing.com/search?q=%E5%A4%8F%E5%A8%81%E5%A4%B7%E5%B7%9E%E6%80%80%E5%8D%A2%E5%BA%93%E6%B2%B3%E7%9A%84%E5%BD%A9%E8%99%B9%E7%80%91%E5%B8%83&form=hpcapt&mkt=zh-cn"
+    "summary": "灰金交织的峡谷",
+    "image": "https://www.bing.com/th?id=OHR.FaceCanyon_ZH-CN9505064248_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "link": "https://www.bing.com/search?q=%E9%B2%8D%E5%A8%81%E5%B0%94%E6%B9%96&form=hpcapt&mkt=zh-cn"
   },
   "featuredPlaces": [
+    {
+      "id": "202611261600",
+      "title": "夕阳下的孤峰，鲍威尔湖脸峡谷，犹他州，美国",
+      "location": "Bing Daily Image",
+      "region": "Daily Scenic",
+      "summary": "灰金交织的峡谷",
+      "image": "https://www.bing.com/th?id=OHR.FaceCanyon_ZH-CN9505064248_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "link": "https://www.bing.com/search?q=%E9%B2%8D%E5%A8%81%E5%B0%94%E6%B9%96&form=hpcapt&mkt=zh-cn"
+    },
     {
       "id": "202611251600",
       "title": "怀卢库河上的彩虹瀑布，希洛市，夏威夷州，美国",
@@ -143,35 +152,42 @@
       "summary": "在峡湾中大快朵颐",
       "image": "https://www.bing.com/th?id=OHR.Megaptera_ZH-CN3361807823_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "link": "https://www.bing.com/search?q=%E5%BA%A7%E5%A4%B4%E9%B2%B8&form=hpcapt&mkt=zh-cn"
-    },
-    {
-      "id": "202611181600",
-      "title": "雕塑《知识之躯》，由豪梅·普兰萨创作，位于德国法兰克福的法兰克福歌德大学",
-      "location": "Bing Daily Image",
-      "region": "Daily Scenic",
-      "summary": "思想在此成形",
-      "image": "https://www.bing.com/th?id=OHR.KnowledgeSculpture_ZH-CN3168800853_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "link": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E5%93%B2%E5%AD%A6%E6%97%A5&form=hpcapt&mkt=zh-cn"
     }
   ],
   "todayInHistory": {
-    "dateKey": "2026-11-26",
-    "dateLabel": "11月26日",
+    "dateKey": "2026-11-27",
+    "dateLabel": "11月27日",
     "items": [
       {
-        "year": "2025",
-        "text": "香港大埔宏福苑發生五級大火，造成至少168人死亡，包括一名消防員，另外79人受傷。",
-        "link": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4"
+        "year": "2022",
+        "text": "为响应此前于乌鲁木齐爆发的抗议，反对“动态清零”政策，上海民众聚集于同名的乌鲁木齐中路进行抗议。",
+        "link": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4"
       },
       {
         "year": "2022",
-        "text": "台灣九合一選舉投票。",
-        "link": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4"
+        "text": "香港港鐵新車率先於觀塘綫營運。",
+        "link": "https://zh.wikipedia.org/wiki/%E6%B8%AF%E9%90%B5"
       }
     ]
   },
   "news": {
     "chinaTop": [
+      {
+        "title": "纪念孙中山诞辰160周年陇台交流活动在兰州举行",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-26/10738455.shtml",
+        "summary": "中新网兰州11月26日电 (记者 丁思)26日，由甘肃省台办主办、兰州石化职业技术大学承办的纪念孙中山先生诞辰160周年陇台交流活动在兰州举行。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261126/0d102877-f4d7-4524-9fee-02adb0f520c3_zsite.jpg",
+        "publishedAt": "2026-11-26T13:58:15.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "台积电拟扩大在美投资 舆论忧先进制程加速外移",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-26/10738444.shtml",
+        "summary": "中新社台北11月26日电 台湾积体电路制造股份有限公司(台积电)将于当地时间12月4日在美国亚利桑那州厂区举行扩建典礼，另拟斥资逾200亿美元赴得克萨斯州设厂。在美投资不断加码，舆论对台积电先进制程加速外移的疑虑随之再起。",
+        "image": "",
+        "publishedAt": "2026-11-26T13:46:06.000Z",
+        "source": "中新网"
+      },
       {
         "title": "中俄两军举行战略磋商",
         "link": "https://www.chinanews.com.cn/gn/2026/11-26/10738424.shtml",
@@ -195,123 +211,115 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261126/bee43c25-32a0-4c58-a507-91e6203ac8b6_zsite.jpg",
         "publishedAt": "2026-11-26T13:24:43.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "“援”定天山：从一串葡萄到600个“甜果”的湘疆协作故事",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-26/10738380.shtml",
-        "summary": "编者按：对口支援新疆是党中央、国务院为促进新疆发展、增进民族团结、维护新疆稳定作出的一项重大决策部署。1997年以来，中央单位和援疆省市先后选派12批次3万多名干部人才进疆工作。2026年，新一批援疆干部人才集中选派轮换工作已全面完成，对口援疆“朋友圈”迎来扩容。值此之际，《中国新闻》报策划推出《“...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261126/1a472332-18be-4e62-b3cb-613b2c8b8d89_zsite.jpg",
-        "publishedAt": "2026-11-26T13:19:54.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "点“石”成新 老家底孕育新动能——“中国发展论坛·2026”侧记",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-26/10738377.shtml",
-        "summary": "石化园区里，光谱仪器向远处发射激光再反射接收，以往测不到的微量废气，如今成分、来源一目了然。以前，这类排查只能靠嗅辨员用鼻子一点点“闻”。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261126/67268daa-6724-46bf-8567-e2b412393d9c_zsite.jpeg",
-        "publishedAt": "2026-11-26T13:01:21.000Z",
-        "source": "中新网"
       }
     ],
     "chinaSociety": [
       {
-        "title": "3人自驾前往可可西里失联 青海警方通报：人已找到，身体状况良好",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-26/10738443.shtml",
-        "summary": "11月26日，青海格尔木市公安局发布通报：11月22日19时许，格尔木市公安局110指挥中心接到群众报警求助：“其家人一行三人自驾前往可可西里方向后失联”。",
+        "title": "冷空气将继续影响中东部地区",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-27/10738496.shtml",
+        "summary": "中新网11月27日电 据中央气象台网站消息，今晨，江南及辽宁、新疆北部等地出现大雾。预计27日至28日，冷空气继续影响中东部地区，新疆、内蒙古、东北等地有降雪天气，关注对交通出行、能源保供等影响；内蒙古、华北及东部和南部海域风力较大，防范对户外设施、海上航行等的影响。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/11/27/07fc79a3eae44d23a2ff97b69dd6a6cd.png",
+        "publishedAt": "2026-11-27T00:19:23.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "首个农耕文明领域大模型“天稷”发布",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-27/10738492.shtml",
+        "summary": "记者从农业农村部了解到，日前首个农耕文明领域大模型“天稷”发布。该模型涵盖8000万条覆盖传统农耕技艺、现代智慧农业与农耕文明演进脉络的知识条目，为农业生产提出智慧决策建议。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/11/27/4d4db23f62de464ea0033ad2631c05b0.jpg",
+        "publishedAt": "2026-11-26T23:58:27.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "秋假为秋冬旅游市场注入新活力 亲子错峰游成为新需求",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-27/10738486.shtml",
+        "summary": "网友热议——",
         "image": "",
-        "publishedAt": "2026-11-26T13:36:41.000Z",
+        "publishedAt": "2026-11-26T23:40:46.000Z",
         "source": "中新网"
       },
       {
-        "title": "黄河干流海拔最高水电站年发电量刷新投产以来纪录",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-26/10738435.shtml",
-        "summary": "中新社西宁11月26日电 (樊晓玥 贺顺荣)中国国家能源集团青海公司玛尔挡水电站26日消息，截至当日，该电站年累计发电量达63.84亿千瓦时，较去年同期增长21.19%，创电站全面投产以来年发电量新高。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261126/fdf24700-a0a1-42d8-882e-70d9ef9aa02b_zsite.jpg",
-        "publishedAt": "2026-11-26T13:27:39.000Z",
+        "title": "“开塞露是面霜平替”引热议 医生紧急提醒",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-27/10738485.shtml",
+        "summary": "网传“开塞露是面霜平替”是真的吗？",
+        "image": "",
+        "publishedAt": "2026-11-26T23:35:26.000Z",
         "source": "中新网"
       },
       {
-        "title": "中俄界江黑龙江嘉荫段进入封冻期 较往年提前10天",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-26/10738423.shtml",
-        "summary": "中新网黑龙江伊春11月26日电(程玉 于慧冰)受持续冷空气影响，中俄界江黑龙江嘉荫段于26日正式封冻，封冻时间较往年提前10天。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261126/d395f646-94c8-4492-b737-adc13471982a_zsite.jpg",
-        "publishedAt": "2026-11-26T13:26:13.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "从懂医到懂市场 浙江培育卫健领域高级技术经理人",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-26/10738413.shtml",
-        "summary": "中新网杭州11月26日电(张煜欢 唐佳妮 葛鑫)一项科技成果从实验室走向市场，中间往往缺一个懂技术、懂市场、也懂规则的“翻译者”。技术经理人承担的就是这类工作——挖掘成果、评估价值、撮合交易、协调多方，其被称为科技与产业之间的“红娘”。这支队伍的专业化程度，也直接影响成果转化的效率。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261126/9ed4e0cf-1a0a-4b92-9d40-e0f3d448a7af_zsite.jpg",
-        "publishedAt": "2026-11-26T13:17:30.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "广东中山“田改”记：让“稻香”长在“沃土”上",
-        "link": "https://www.chinanews.com.cn/sh/2026/11-26/10738419.shtml",
-        "summary": "中新网中山11月26日电(孙秋霞 李璐)珠江口西岸，中山南朗街道崖口村，两千多亩连片稻田铺展向海，田埂上游人漫步，咖啡香混着稻香。同样的田园新景，正在中山市三乡、黄圃、三角、民众等地渐次铺开。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261126/45ad2c87-87a3-45ab-841e-8566baae82c0_zsite.jpg",
-        "publishedAt": "2026-11-26T13:17:22.000Z",
+        "title": "@外卖骑手，网购电动车车灯改装有风险",
+        "link": "https://www.chinanews.com.cn/sh/2026/11-27/10738484.shtml",
+        "summary": "本报讯(实习生税宇 记者杨召奎)夜间骑行，最怕遇上“强光刺客”。近日，北京市交管部门在日常执法中对电动自行车违规加装、改装灯光的情况开展现场检查。11月24日，记者走访北京多地发现，不少电动自行车加装高亮度灯具后上路行驶，其中外卖车辆较为常见。",
+        "image": "",
+        "publishedAt": "2026-11-26T23:33:46.000Z",
         "source": "中新网"
       }
     ],
     "chinaFinance": [
       {
-        "title": "用电量背后的产业升级逻辑（经济时评）",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-26/10738445.shtml",
-        "summary": "新业态用电量的快速攀升，正是新兴产业拔节生长、新动能加快成势的生动写照。",
+        "title": "从非洲南部到南美高原，中国能源方案跨越山海走向世界",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-27/10738497.shtml",
+        "summary": "第四届“一带一路”能源部长会议于2026年11月25日至27日在山东青岛举办。会场内，“共享创新成果，共促能源转型，共筑安全未来”的蓝图正在共商共绘；会场外，从非洲大陆到南美高原，中国能源方案正沿着“一带一路”走向世界。",
         "image": "",
-        "publishedAt": "2026-11-26T13:40:06.000Z",
+        "publishedAt": "2026-11-27T00:19:05.000Z",
         "source": "中新网"
       },
       {
-        "title": "三亚聚力打造国内国际双循环重要交汇节点",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-26/10738441.shtml",
-        "summary": "中新网三亚11月26日电 (张月和)中国共产党三亚市第九次代表大会11月24日至26日在三亚市委党校召开。海南省委常委、三亚市委书记王祺扬在会上作报告时说，今后五年，三亚将提升对外开放能级，聚力打造国内国际双循环重要交汇节点。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261126/20577071-dcf9-483a-b907-fed5f80368cd_zsite.jpg",
-        "publishedAt": "2026-11-26T13:28:47.000Z",
+        "title": "2027丁未（羊）年贵金属纪念币今日发行",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-27/10738491.shtml",
+        "summary": "中国人民银行今天(27日)正式发行2027中国丁未(羊)年贵金属纪念币一套。该套贵金属纪念币共11枚，其中金质纪念币6枚，银质纪念币4枚，铂质纪念币1枚，均为中华人民共和国法定货币。",
+        "image": "https://i2.chinanews.com.cn/simg/cmshd/2026/11/27/87f9675a106644a9806e7e6e546848c1.jpg",
+        "publishedAt": "2026-11-26T23:58:03.000Z",
         "source": "中新网"
       },
       {
-        "title": "中国与亚行合作40周年庆暨高层论坛在北京举行",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-26/10738432.shtml",
-        "summary": "中新社北京11月26日电 (记者 赵建华)中国与亚洲开发银行(下称亚行)合作40周年庆暨高层论坛26日在北京举行。本次活动以“携手四十年，展望新前景”为主题，重点回顾中国与亚行40周年合作历程，就未来进一步深化中国与亚行合作等议题进行讨论。",
+        "title": "主打潜江小龙虾、岳阳烧烤、柳州螺蛳粉 “风味”学院 对味产业",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-27/10738488.shtml",
+        "summary": "主打潜江小龙虾、岳阳烧烤、柳州螺蛳粉",
         "image": "",
-        "publishedAt": "2026-11-26T13:28:29.000Z",
+        "publishedAt": "2026-11-26T23:45:19.000Z",
         "source": "中新网"
       },
       {
-        "title": "第二十八届高交会开幕 5000余家科创主体参展",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-26/10738433.shtml",
-        "summary": "中新社深圳11月26日电 (记者 程景伟 索有为)第二十八届中国国际高新技术成果交易会(简称“高交会”)26日在深圳开幕，展览总面积40万平方米，120余个国家和地区的5000余家科创主体参展。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261126/f813d616-b30d-44fc-94dd-0746022cda9d_zsite.jpeg",
-        "publishedAt": "2026-11-26T13:27:31.000Z",
+        "title": "“开”出百亿级大市场！义乌仿真花热销全球",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-27/10738481.shtml",
+        "summary": "不用浇水，不会凋零，如今仿真花让人们“但愿花常在”的美好愿望轻松成为日常。临近年底，海外节庆与软装需求集中释放，仿真花迎来一年中忙碌的出口时段。从单枝花销售到成套花艺方案出口，义乌已成为全球主要的仿真花生产和出口中心之一。数据显示，2025年国内仿真花行业市场规模约169亿元，出口量超50万吨，出口...",
+        "image": "",
+        "publishedAt": "2026-11-26T23:23:30.000Z",
         "source": "中新网"
       },
       {
-        "title": "共建“一带一路”国家新能源累计装机容量十年内翻两番",
-        "link": "https://www.chinanews.com.cn/cj/2026/11-26/10738431.shtml",
-        "summary": "中新社山东青岛11月26日电 (记者 王梦瑶)第四届“一带一路”能源部长会议26日在山东青岛开幕。中国国家能源局局长王宏志在开幕式上指出，过去十年共建“一带一路”国家新能源累计装机容量增加至600吉瓦以上，十年内翻了两番。仅去年一年，共建“一带一路”国家就有近70个新能源项目落地。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261126/e6e4835a-2798-42b8-9dc0-a507fdfb8c0d_zsite.jpg",
-        "publishedAt": "2026-11-26T13:26:51.000Z",
+        "title": "未来五年，我国服务贸易将迎来哪些新机遇？",
+        "link": "https://www.chinanews.com.cn/cj/2026/11-27/10738480.shtml",
+        "summary": "新闻1+1丨未来五年，我国服务贸易将迎来哪些新机遇？",
+        "image": "",
+        "publishedAt": "2026-11-26T23:06:51.000Z",
         "source": "中新网"
       }
     ],
     "worldTop": [
       {
-        "title": "Diesel tanker carrying up to 7,000 tonnes sinks near Ibiza, killing one",
-        "link": "https://www.bbc.co.uk/news/articles/c9gklryvj24do?at_medium=RSS&at_campaign=rss",
-        "summary": "The possible environmental damage is still being assessed by Spain's sea rescue service.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/87e9/live/68ba1950-e978-11f1-acd8-af22a7ebb474.jpg",
-        "publishedAt": "2026-11-26T11:27:42.000Z",
+        "title": "Major Thanksgiving storm brings flooding, flight delays across US",
+        "link": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
+        "summary": "Massive storms are descending on both US coasts, with wind gusts, heavy rain, downed trees, and power outages for hundreds of thousands of customers.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/af5b/live/7a140030-e9f0-11f1-99b6-a35a62fa4264.jpg",
+        "publishedAt": "2026-11-27T00:29:48.000Z",
         "source": "BBC"
       },
       {
-        "title": "Myanmar refuses to comply with parts of ICJ genocide ruling",
-        "link": "https://www.bbc.co.uk/news/articles/c61wr87wyg5wo?at_medium=RSS&at_campaign=rss",
-        "summary": "A landmark ruling by the International Court of Justice (ICJ) convicted Myanmar of genocide against its Rohingya minority.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7152/live/395fc860-e975-11f1-acd8-af22a7ebb474.jpg",
-        "publishedAt": "2026-11-26T10:25:51.000Z",
+        "title": "US too focused on Middle East and not pushing Russia hard enough, Zelensky tells BBC",
+        "link": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+        "summary": "Ukraine's president voices frustration with US and says it is \"strange\" Trump has described Vladimir Putin as a friend.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/20f7/live/d0e75f10-e9e6-11f1-ab41-f1f84c0c758a.jpg",
+        "publishedAt": "2026-11-26T22:49:27.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Watch: Roofs torn off and streets under water as severe weather hits US",
+        "link": "https://www.bbc.co.uk/news/videos/cq808d704m22o?at_medium=RSS&at_campaign=rss",
+        "summary": "Hundreds of thousands have been affected by storms in the country as the Thanksgiving holiday weekend begins.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e81d/live/7ff7f4c0-e9cd-11f1-99a1-253766e7ad8b.jpg",
+        "publishedAt": "2026-11-26T19:26:16.000Z",
         "source": "BBC"
       },
       {
@@ -321,14 +329,6 @@
         "image": "",
         "publishedAt": "2026-11-26T06:27:20.000Z",
         "source": "CNN"
-      },
-      {
-        "title": "Desperate appeals from women on death row in Iran after protests",
-        "link": "https://www.bbc.co.uk/news/articles/cm8x0ve4yd7wo?at_medium=RSS&at_campaign=rss",
-        "summary": "Female protesters and dissidents are being sentenced to death in numbers not seen for decades, a rights group says.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ca2/live/a7b62ec0-e27d-11f1-bd1e-f9c53347c5a6.jpg",
-        "publishedAt": "2026-11-26T06:01:58.000Z",
-        "source": "BBC"
       },
       {
         "title": "Watch: BBC confronts German man suspected of supplying migrant gangs with small boats",
@@ -341,47 +341,63 @@
     ],
     "worldBusiness": [
       {
-        "title": "Simon Jack: Is Poundland's US owner to blame for its collapse?",
-        "link": "https://www.bbc.co.uk/news/articles/c62klzxvyzyqo?at_medium=RSS&at_campaign=rss",
-        "summary": "Poundland's management and MPs blame the retailer's owners, Gordon Brothers, but the US firm says without them the chain would have collapsed last yea...",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/db70/live/c33d5240-e999-11f1-a094-5fdc692f3e33.jpg",
-        "publishedAt": "2026-11-26T13:40:46.000Z",
+        "title": "UK to pay 'participation' fee to deliver EU deals",
+        "link": "https://www.bbc.co.uk/news/articles/ck2057x387ego?at_medium=RSS&at_campaign=rss",
+        "summary": "Details of the contribution towards EU running costs have been revealed in new legal documents.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e264/live/8e58c180-e9e5-11f1-ab41-f1f84c0c758a.png",
+        "publishedAt": "2026-11-26T23:17:12.000Z",
         "source": "BBC"
       },
       {
-        "title": "Norse Atlantic suspends all flights as it faces potential collapse",
-        "link": "https://www.bbc.co.uk/news/articles/c9kgmd0ldy0lo?at_medium=RSS&at_campaign=rss",
-        "summary": "The carrier is looking for urgent funding, but will file for bankruptcy without a financial lifeline.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/df47/live/6f07a020-e98c-11f1-9d1c-4dcc8fcde666.jpg",
-        "publishedAt": "2026-11-26T13:30:12.000Z",
+        "title": "Asia made a big AI bet on Nvidia. What happens now?",
+        "link": "https://www.bbc.co.uk/news/articles/cqevr4lnd1nxo?at_medium=RSS&at_campaign=rss",
+        "summary": "Asian stocks have been on a rollercoaster ride after Jensen Huang's shock return as Nvidia CEO.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2c76/live/9f54a560-e956-11f1-a629-63e812fa871f.jpg",
+        "publishedAt": "2026-11-26T23:08:12.000Z",
         "source": "BBC"
       },
       {
-        "title": "Drivers over 70 face eye tests every three years under new plans",
-        "link": "https://www.bbc.co.uk/news/articles/cjqlqerzv1eyo?at_medium=RSS&at_campaign=rss",
-        "summary": "The changes could see drivers over 70 stripped of licences if they do not meet standards.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4b37/live/d36e1fb0-e993-11f1-99a1-253766e7ad8b.jpg",
-        "publishedAt": "2026-11-26T11:21:45.000Z",
+        "title": "Faisal Islam: Why Trump's new tariffs are less of a threat",
+        "link": "https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o?at_medium=RSS&at_campaign=rss",
+        "summary": "Other countries have rerouted trade in response to his first tariff salvo, now they are looking beyond Trump's tenure.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a44e/live/be7b3450-e9af-11f1-859a-37130cd3a1d7.jpg",
+        "publishedAt": "2026-11-26T19:55:58.000Z",
         "source": "BBC"
       },
       {
-        "title": "New UK-EU treaty has 10-year termination clause",
-        "link": "https://www.bbc.co.uk/news/articles/c98r7p65edvgo?at_medium=RSS&at_campaign=rss",
-        "summary": "Text of the treaties will be published this afternoon, alongside legislation designed to enact the bulk of the deal.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/65b5/live/0c44e020-e972-11f1-99b6-a35a62fa4264.jpg",
-        "publishedAt": "2026-11-26T09:59:14.000Z",
-        "source": "BBC"
+        "title": "European Central Bank set to appoint its first Spanish leader",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOXzZnS2tTME93WGtEeHFtb3VqQVBTb3g0eWFoa19jV3ByclEwTjh0em8wZC1OLXgxWVJ6WWlPV1BMVkRoeERyMU41Q2FuMi1QdV9Cd3JXS1k5VDVmV0kzLVV3QjdFXzhtbEM4S2NWZzhEUVl5cjVlazVwRjVxNTlzd2tzbHR3T3lp?oc=5",
+        "summary": "",
+        "image": "",
+        "publishedAt": "2026-11-26T16:44:35.000Z",
+        "source": "CNN"
       },
       {
-        "title": "Car finance compensation payments explained",
-        "link": "https://www.bbc.co.uk/news/articles/c2l9vvj097lo?at_medium=RSS&at_campaign=rss",
-        "summary": "Millions could be entitled to compensation as a result of commission arrangements between lenders and dealers.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1582/live/8e71e720-a425-11f0-ba96-81d873a15aec.jpg",
-        "publishedAt": "2026-11-26T09:39:50.000Z",
+        "title": "Millions of people to see average monthly mortgage payments rise by £100",
+        "link": "https://www.bbc.co.uk/news/articles/cwg5r02zel9qo?at_medium=RSS&at_campaign=rss",
+        "summary": "More people face higher mortgage repayments when they roll off a fixed deal than previously estimated.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0133/live/865c5960-e9a9-11f1-99b6-a35a62fa4264.jpg",
+        "publishedAt": "2026-11-26T14:00:20.000Z",
         "source": "BBC"
       }
     ],
     "worldTech": [
+      {
+        "title": "Why is there a shortage of 'wizard' elevator mechanics?",
+        "link": "https://www.bbc.co.uk/news/articles/c52e8k19y94mo?at_medium=RSS&at_campaign=rss",
+        "summary": "The pay is good and there's lots of work, so what's behind the shortage of elevator mechanics?",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8c0e/live/0c8a5940-e7e0-11f1-99a1-253766e7ad8b.jpg",
+        "publishedAt": "2026-11-27T00:02:19.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Asia made a big AI bet on Nvidia. What happens now?",
+        "link": "https://www.bbc.co.uk/news/articles/cqevr4lnd1nxo?at_medium=RSS&at_campaign=rss",
+        "summary": "Asian stocks have been on a rollercoaster ride after Jensen Huang's shock return as Nvidia CEO.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2c76/live/9f54a560-e956-11f1-a629-63e812fa871f.jpg",
+        "publishedAt": "2026-11-26T23:08:12.000Z",
+        "source": "BBC"
+      },
       {
         "title": "Musk's plan to send a million SpaceX data satellites into space approved",
         "link": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
@@ -405,25 +421,25 @@
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0cb/live/da83bf80-e849-11f1-aa88-031e8213533d.jpg",
         "publishedAt": "2026-11-25T10:52:09.000Z",
         "source": "BBC"
-      },
-      {
-        "title": "EA adds AI-generated John Motson to FC 27 video game",
-        "link": "https://www.bbc.co.uk/news/articles/c65y10j841jpo?at_medium=RSS&at_campaign=rss",
-        "summary": "The AI-generated Motson will appear in the game on 26 November, with the consent of his son and wife.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5aca/live/065259e0-e4e5-11f1-b039-c1944465024e.jpg",
-        "publishedAt": "2026-11-25T10:11:34.000Z",
-        "source": "BBC"
-      },
-      {
-        "title": "Zoe Kleinman: Nobody is irreplaceable - unless you're Jensen Huang",
-        "link": "https://www.bbc.co.uk/news/articles/c3rrgqj2zx5yo?at_medium=RSS&at_campaign=rss",
-        "summary": "The BBC's technology and AI editor on how Nvidia's boss made himself impossible to fire.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bde3/live/fa4083e0-e8b6-11f1-9e64-bddd508b9881.jpg",
-        "publishedAt": "2026-11-25T10:03:12.000Z",
-        "source": "BBC"
       }
     ],
     "domestic": [
+      {
+        "title": "纪念孙中山诞辰160周年陇台交流活动在兰州举行",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-26/10738455.shtml",
+        "summary": "中新网兰州11月26日电 (记者 丁思)26日，由甘肃省台办主办、兰州石化职业技术大学承办的纪念孙中山先生诞辰160周年陇台交流活动在兰州举行。",
+        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261126/0d102877-f4d7-4524-9fee-02adb0f520c3_zsite.jpg",
+        "publishedAt": "2026-11-26T13:58:15.000Z",
+        "source": "中新网"
+      },
+      {
+        "title": "台积电拟扩大在美投资 舆论忧先进制程加速外移",
+        "link": "https://www.chinanews.com.cn/gn/2026/11-26/10738444.shtml",
+        "summary": "中新社台北11月26日电 台湾积体电路制造股份有限公司(台积电)将于当地时间12月4日在美国亚利桑那州厂区举行扩建典礼，另拟斥资逾200亿美元赴得克萨斯州设厂。在美投资不断加码，舆论对台积电先进制程加速外移的疑虑随之再起。",
+        "image": "",
+        "publishedAt": "2026-11-26T13:46:06.000Z",
+        "source": "中新网"
+      },
       {
         "title": "中俄两军举行战略磋商",
         "link": "https://www.chinanews.com.cn/gn/2026/11-26/10738424.shtml",
@@ -447,39 +463,31 @@
         "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261126/bee43c25-32a0-4c58-a507-91e6203ac8b6_zsite.jpg",
         "publishedAt": "2026-11-26T13:24:43.000Z",
         "source": "中新网"
-      },
-      {
-        "title": "“援”定天山：从一串葡萄到600个“甜果”的湘疆协作故事",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-26/10738380.shtml",
-        "summary": "编者按：对口支援新疆是党中央、国务院为促进新疆发展、增进民族团结、维护新疆稳定作出的一项重大决策部署。1997年以来，中央单位和援疆省市先后选派12批次3万多名干部人才进疆工作。2026年，新一批援疆干部人才集中选派轮换工作已全面完成，对口援疆“朋友圈”迎来扩容。值此之际，《中国新闻》报策划推出《“...",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261126/1a472332-18be-4e62-b3cb-613b2c8b8d89_zsite.jpg",
-        "publishedAt": "2026-11-26T13:19:54.000Z",
-        "source": "中新网"
-      },
-      {
-        "title": "点“石”成新 老家底孕育新动能——“中国发展论坛·2026”侧记",
-        "link": "https://www.chinanews.com.cn/gn/2026/11-26/10738377.shtml",
-        "summary": "石化园区里，光谱仪器向远处发射激光再反射接收，以往测不到的微量废气，如今成分、来源一目了然。以前，这类排查只能靠嗅辨员用鼻子一点点“闻”。",
-        "image": "https://i2.chinanews.com.cn/simg/ypt/2026/261126/67268daa-6724-46bf-8567-e2b412393d9c_zsite.jpeg",
-        "publishedAt": "2026-11-26T13:01:21.000Z",
-        "source": "中新网"
       }
     ],
     "international": [
       {
-        "title": "Diesel tanker carrying up to 7,000 tonnes sinks near Ibiza, killing one",
-        "link": "https://www.bbc.co.uk/news/articles/c9gklryvj24do?at_medium=RSS&at_campaign=rss",
-        "summary": "The possible environmental damage is still being assessed by Spain's sea rescue service.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/87e9/live/68ba1950-e978-11f1-acd8-af22a7ebb474.jpg",
-        "publishedAt": "2026-11-26T11:27:42.000Z",
+        "title": "Major Thanksgiving storm brings flooding, flight delays across US",
+        "link": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
+        "summary": "Massive storms are descending on both US coasts, with wind gusts, heavy rain, downed trees, and power outages for hundreds of thousands of customers.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/af5b/live/7a140030-e9f0-11f1-99b6-a35a62fa4264.jpg",
+        "publishedAt": "2026-11-27T00:29:48.000Z",
         "source": "BBC"
       },
       {
-        "title": "Myanmar refuses to comply with parts of ICJ genocide ruling",
-        "link": "https://www.bbc.co.uk/news/articles/c61wr87wyg5wo?at_medium=RSS&at_campaign=rss",
-        "summary": "A landmark ruling by the International Court of Justice (ICJ) convicted Myanmar of genocide against its Rohingya minority.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7152/live/395fc860-e975-11f1-acd8-af22a7ebb474.jpg",
-        "publishedAt": "2026-11-26T10:25:51.000Z",
+        "title": "US too focused on Middle East and not pushing Russia hard enough, Zelensky tells BBC",
+        "link": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+        "summary": "Ukraine's president voices frustration with US and says it is \"strange\" Trump has described Vladimir Putin as a friend.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/20f7/live/d0e75f10-e9e6-11f1-ab41-f1f84c0c758a.jpg",
+        "publishedAt": "2026-11-26T22:49:27.000Z",
+        "source": "BBC"
+      },
+      {
+        "title": "Watch: Roofs torn off and streets under water as severe weather hits US",
+        "link": "https://www.bbc.co.uk/news/videos/cq808d704m22o?at_medium=RSS&at_campaign=rss",
+        "summary": "Hundreds of thousands have been affected by storms in the country as the Thanksgiving holiday weekend begins.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e81d/live/7ff7f4c0-e9cd-11f1-99a1-253766e7ad8b.jpg",
+        "publishedAt": "2026-11-26T19:26:16.000Z",
         "source": "BBC"
       },
       {
@@ -491,14 +499,6 @@
         "source": "CNN"
       },
       {
-        "title": "Desperate appeals from women on death row in Iran after protests",
-        "link": "https://www.bbc.co.uk/news/articles/cm8x0ve4yd7wo?at_medium=RSS&at_campaign=rss",
-        "summary": "Female protesters and dissidents are being sentenced to death in numbers not seen for decades, a rights group says.",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ca2/live/a7b62ec0-e27d-11f1-bd1e-f9c53347c5a6.jpg",
-        "publishedAt": "2026-11-26T06:01:58.000Z",
-        "source": "BBC"
-      },
-      {
         "title": "Watch: BBC confronts German man suspected of supplying migrant gangs with small boats",
         "link": "https://www.bbc.co.uk/news/videos/cvglrz5yr79go?at_medium=RSS&at_campaign=rss",
         "summary": "Marvin Reuter is contesting extradition to France, where he could face smuggling, criminal conspiracy and involuntary manslaughter charges.",
@@ -507,14 +507,63 @@
         "source": "BBC"
       }
     ],
-    "nba": []
+    "nba": [
+      {
+        "title": "NBA Power Rankings: One player, coach or exec for whom each team is most thankful",
+        "link": "https://www.espn.com/nba/story/_/id/50583781/nba-power-rankings-one-player-coach-exec-thanksgiving",
+        "summary": "Here's where all 30 teams rank this week -- and the one person each franchise should be thanking most.",
+        "image": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1124%2Fnba_power6_cr_16x9.jpg",
+        "publishedAt": "2026-11-26T15:21:32.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "76ers' Brown (hamstring) out Friday against Pacers",
+        "link": "https://www.espn.com/nba/story/_/id/50606614/76ers-jaylen-brown-hamstring-friday-pacers",
+        "summary": "The 76ers' Jaylen Brown (hamstring) is out for Friday's NBA Cup game against the Pacers. Joel Embiid (illness) is questionable.",
+        "image": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1126%2Fr1751810_2_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-11-26T22:28:39.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "Timberwolves' Ball limps off in win after hurting left ankle",
+        "link": "https://www.espn.com/nba/story/_/id/50601570/timberwolves-lamelo-ball-limps-hurting-left-ankle",
+        "summary": "The Timberwolves did not have an update on the status of LaMelo Ball's left ankle after he was injured late in a win over the Thunder.",
+        "image": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1126%2Fr1751519_1024x576_16%2D9.jpg",
+        "publishedAt": "2026-11-26T22:28:39.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "LeBron dusts 'off the cape' to save 76ers with triple-double",
+        "link": "https://www.espn.com/nba/story/_/id/50601303/lebron-dusts-cape-save-76ers-triple-double",
+        "summary": "The soon-to-be 42-year-old LeBron James showed his ability to put the 76ers on his back with a 25-point triple-double in Wednesday's NBA Cup win over...",
+        "image": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1126%2Fr1751501_1024x576_16%2D9.jpg",
+        "publishedAt": "2026-11-26T22:28:39.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "Reaves rejoins Lakers for full practice, status for Spurs matchup TBD",
+        "link": "https://www.espn.com/nba/story/_/id/50597465/austin-reaves-rejoins-lakers-full-practice-tbd-face-spurs",
+        "summary": "Austin Reaves returned to his first full practice since suffering a left heel bruise, although his status for Friday's game vs. the Spurs is uncertain...",
+        "image": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0509%2Fr1655741_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-11-26T22:28:39.000Z",
+        "source": "ESPN"
+      },
+      {
+        "title": "Knicks assistant coach Jent returns to team after missing start of season",
+        "link": "https://www.espn.com/nba/story/_/id/50600508/knicks-assistant-coach-chris-jent-returns-team",
+        "summary": "Chris Jent was back on New York's bench for Wednesday night's NBA Cup win against Cleveland after a monthlong absence.",
+        "image": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1028%2Fr1737300_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-11-26T22:28:39.000Z",
+        "source": "ESPN"
+      }
+    ]
   },
   "nbaScoreboard": {
-    "date": "2026-11-26",
+    "date": "2026-11-27",
     "games": []
   },
   "aiPapers": {
-    "rotationLabel": "Curated Rotation · 2026-11-26",
+    "rotationLabel": "Curated Rotation · 2026-11-27",
     "sections": [
       {
         "id": "data-storage",
@@ -522,27 +571,6 @@
         "description": "数据库、分布式存储、向量检索与数据系统方向的经典与高影响力论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "data-storage-3",
-            "sectionId": "data-storage",
-            "title": "Dynamo: Amazon's Highly Available Key-value Store",
-            "authors": [
-              "Giuseppe DeCandia",
-              "Deniz Hastorun",
-              "Madan Jampani",
-              "Gunavardhan Kakulapati"
-            ],
-            "venue": "SOSP",
-            "year": 2007,
-            "quality": "顶会",
-            "categories": [
-              "key-value",
-              "distributed systems"
-            ],
-            "link": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
-            "summary": "高可用键值存储系统的代表作，对后来的 NoSQL 和云数据库设计影响极大。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "data-storage-4",
             "sectionId": "data-storage",
@@ -562,7 +590,7 @@
             ],
             "link": "https://research.google/pubs/pub36632/",
             "summary": "交互式大数据分析系统代表作，也是现代列式分析引擎思路的重要来源。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "data-storage-5",
@@ -583,6 +611,27 @@
             "link": "https://arxiv.org/abs/2401.08281",
             "summary": "向量检索领域最常用的基础库之一，理解它有助于把握向量数据库背后的核心算法。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "data-storage-6",
+            "sectionId": "data-storage",
+            "title": "DiskANN: Fast Accurate Billion-point Nearest Neighbor Search on a Single Node",
+            "authors": [
+              "Neelesh Gupta",
+              "Leland Willard",
+              "Xiangyao Yu",
+              "Yuri N."
+            ],
+            "venue": "NeurIPS",
+            "year": 2019,
+            "quality": "高影响力",
+            "categories": [
+              "vector search",
+              "ANN"
+            ],
+            "link": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
+            "summary": "大规模向量检索的代表性工作，兼顾磁盘索引、精度和吞吐，工程价值非常高。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -592,27 +641,6 @@
         "description": "视觉基础模型、识别、检测、分割和多模态视觉方向的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "computer-vision-4",
-            "sectionId": "computer-vision",
-            "title": "Learning Transferable Visual Models From Natural Language Supervision",
-            "authors": [
-              "Alec Radford",
-              "Jong Wook Kim",
-              "Chris Hallacy",
-              "Aditya Ramesh"
-            ],
-            "venue": "ICML",
-            "year": 2021,
-            "quality": "顶会",
-            "categories": [
-              "vision-language",
-              "foundation model"
-            ],
-            "link": "https://arxiv.org/abs/2103.00020",
-            "summary": "CLIP 是视觉语言预训练的经典代表，也是今天多模态大模型非常重要的前序工作。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "computer-vision-5",
             "sectionId": "computer-vision",
@@ -632,7 +660,7 @@
             ],
             "link": "https://arxiv.org/abs/2304.02643",
             "summary": "SAM 把分割推向基础模型化，是近年视觉领域最有代表性的高影响力工作之一。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "computer-vision-6",
@@ -654,6 +682,27 @@
             "link": "https://arxiv.org/abs/2304.07193",
             "summary": "近年非常强的视觉表示学习工作，实际应用和迁移能力都很突出。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "computer-vision-1",
+            "sectionId": "computer-vision",
+            "title": "Deep Residual Learning for Image Recognition",
+            "authors": [
+              "Kaiming He",
+              "Xiangyu Zhang",
+              "Shaoqing Ren",
+              "Jian Sun"
+            ],
+            "venue": "CVPR",
+            "year": 2016,
+            "quality": "顶会",
+            "categories": [
+              "image recognition",
+              "backbone"
+            ],
+            "link": "https://arxiv.org/abs/1512.03385",
+            "summary": "ResNet 是现代视觉 backbone 的里程碑，理解它基本等于理解深层网络训练的拐点。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -663,27 +712,6 @@
         "description": "RAG、长期记忆、外部记忆和知识增强方向的高质量论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "llm-memory-5",
-            "sectionId": "llm-memory",
-            "title": "LongMem: Scaling Language Model Context with Memory-Augmented Retrieval",
-            "authors": [
-              "Zeqiu Wu",
-              "Yizhong Wang",
-              "Jiacheng Liu",
-              "Yelong Shen"
-            ],
-            "venue": "ACL Findings",
-            "year": 2024,
-            "quality": "新近代表作",
-            "categories": [
-              "memory",
-              "long context"
-            ],
-            "link": "https://arxiv.org/abs/2306.07174",
-            "summary": "把长期记忆和检索结合起来，比较贴近真正可用的记忆库系统设计。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "llm-memory-6",
             "sectionId": "llm-memory",
@@ -703,7 +731,7 @@
             ],
             "link": "https://arxiv.org/abs/2409.05591",
             "summary": "更贴近“记忆库”概念的工作，适合关注长期知识积累与调用策略时轮换展示。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "llm-memory-1",
@@ -725,6 +753,27 @@
             "link": "https://arxiv.org/abs/2005.11401",
             "summary": "RAG 的奠基论文，今天绝大多数知识增强问答、企业知识库方案都能追溯到这篇。",
             "trackLabel": "轮换精选"
+          },
+          {
+            "id": "llm-memory-2",
+            "sectionId": "llm-memory",
+            "title": "Memorizing Transformers",
+            "authors": [
+              "Yuhuai Wu",
+              "Markus N. Rabe",
+              "DeLesley Hutchins",
+              "Christian Szegedy"
+            ],
+            "venue": "ICLR",
+            "year": 2022,
+            "quality": "顶会",
+            "categories": [
+              "memory",
+              "long context"
+            ],
+            "link": "https://arxiv.org/abs/2203.08913",
+            "summary": "将外部记忆机制引入 Transformer，是长期记忆和可扩展上下文方向的重要代表作。",
+            "trackLabel": "轮换精选"
           }
         ]
       },
@@ -734,27 +783,6 @@
         "description": "自主智能体、工具调用、多 Agent 协同与软件 Agent 的代表论文。",
         "rotationHint": "每日轮换 3 篇",
         "items": [
-          {
-            "id": "agents-6",
-            "sectionId": "agents",
-            "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
-            "authors": [
-              "John Yang",
-              "Carlos E. Jimenez",
-              "Alexander Wettig",
-              "Karthik Narasimhan"
-            ],
-            "venue": "ICLR",
-            "year": 2025,
-            "quality": "新近代表作",
-            "categories": [
-              "software agent",
-              "benchmark"
-            ],
-            "link": "https://arxiv.org/abs/2405.15793",
-            "summary": "软件工程 Agent 的代表性论文之一，影响力和可落地性都很强。",
-            "trackLabel": "今日主推"
-          },
           {
             "id": "agents-1",
             "sectionId": "agents",
@@ -775,7 +803,7 @@
             ],
             "link": "https://arxiv.org/abs/2210.03629",
             "summary": "Agent 方向的经典必读，把推理链和行动步骤结合起来，影响极大。",
-            "trackLabel": "轮换精选"
+            "trackLabel": "今日主推"
           },
           {
             "id": "agents-2",
@@ -796,6 +824,27 @@
             ],
             "link": "https://arxiv.org/abs/2302.04761",
             "summary": "工具调用主线论文之一，今天很多 function calling 和 agent tool use 都能和它对上脉络。",
+            "trackLabel": "轮换精选"
+          },
+          {
+            "id": "agents-3",
+            "sectionId": "agents",
+            "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+            "authors": [
+              "Joon Sung Park",
+              "Joseph O'Brien",
+              "Carrie Cai",
+              "Meredith Ringel Morris"
+            ],
+            "venue": "UIST",
+            "year": 2023,
+            "quality": "顶会",
+            "categories": [
+              "agent society",
+              "memory"
+            ],
+            "link": "https://arxiv.org/abs/2304.03442",
+            "summary": "Agent 社会模拟的代表作，对长期记忆、规划和多主体交互都有直接启发。",
             "trackLabel": "轮换精选"
           }
         ]
